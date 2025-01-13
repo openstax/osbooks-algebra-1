@@ -1,77 +1,69 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
-
+<content>
+  <section>
+    <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Add and Subtract Polynomials</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m81383</md:content-id>
     <md:title>Add and Subtract Polynomials</md:title>
     <md:uuid>c82f19a0-7d76-445d-a89f-9c230a8337f5</md:uuid>
   </metadata>
-
   <content>
-    <section>
-      <para>In this lesson, you learned how to:</para>
-      <list>
+    <section id="sect-00001">
+      <para id="para-00001">In this lesson, you learned how to:</para>
+      <list id="list-00001">
         <item>Determine the degree of polynomials.</item>
         <item>Add and subtract polynomials.</item>
         <item>Evaluate a polynomial function for a given value.</item>
         <item>Add and subtract polynomial functions.</item>
       </list>
-      <para>Here are the <emphasis>activities</emphasis> that helped you reach those goals:</para>
-      <list bullet-style="none">
+      <para id="para-00002">Here are the <emphasis>activities</emphasis> that helped you reach those goals:</para>
+      <list bullet-style="none" id="list-00002">
         <item>6.1.1: Understanding Polynomials</item>
         <item>
-          <list>
-            <item> In this activity, you classified different types of polynomials. You also found
-          the degree of different polynomials.</item>
+          <list id="list-00003">
+            <item> In this activity, you classified different types of polynomials. You also found the degree of different polynomials.</item>
           </list>
         </item>
         <item>6.1.2: Adding and Subtracting Polynomials</item>
         <item>
-          <list>
-            <item> In this activity, you added and subtracted different types of polynomials by
-          grouping like terms.</item>
+          <list id="list-00004">
+            <item> In this activity, you added and subtracted different types of polynomials by grouping like terms.</item>
             <item> 6.1.2: Self Check</item>
             <item>6.1.2: Additional Resources</item>
           </list>
         </item>
         <item>6.1.3: Evaluating a Polynomial Function for a Given Value</item>
         <item>
-          <list>
-            <item> In this activity, you substituted given values into various polynomial functions
-          and simplified to find solutions.</item>
+          <list id="list-00005">
+            <item> In this activity, you substituted given values into various polynomial functions and simplified to find solutions.</item>
             <item> 6.1.3: Self Check </item>
             <item>6.1.3: Additional Resources</item>
           </list>
         </item>
         <item>6.1.4: Adding and Subtracting Polynomial Functions</item>
         <item>
-          <list>
-            <item>In this activity, you used the skills learned in previous activities to add and
-          subtract polynomial functions. You were able to compare your work by evaluating the
-          original and new polynomial functions using the same value.</item>
+          <list id="list-00006">
+            <item>In this activity, you used the skills learned in previous activities to add and subtract polynomial functions. You were able to compare your work by evaluating the original and new polynomial functions using the same value.</item>
             <item> 6.1.4: Self Check </item>
             <item>6.1.4: Additional Resources</item>
           </list>
         </item>
         <item>6.1.5: Reviewing Polynomial Addition and Subtraction</item>
         <item>
-          <list>
-            <item>In this activity, you reviewed all of the skills you learned adding and
-          subtracting polynomials to solve a tic-tac-toe puzzle.</item>
+          <list id="list-00007">
+            <item>In this activity, you reviewed all of the skills you learned adding and subtracting polynomials to solve a tic-tac-toe puzzle.</item>
           </list>
         </item>
       </list>
-      <para>After these activities, you completed the following <emphasis>practice</emphasis>:</para>
-      <list bullet-style="none">
+      <para id="para-00003">After these activities, you completed the following <emphasis>practice</emphasis>:</para>
+      <list bullet-style="none" id="list-00008">
         <item>6.1.6: Practice</item>
       </list>
     </section>
-    <section>
+    <section id="sect-00002">
       <title>Activity</title>
-      <para>In this unit, remember to double click on mathematical expressions/equations to enlarge,
-        if needed.</para>
-      <para>A <term>monomial</term> is an algebraic expression with exactly one term: <math
-          xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+      <para id="para-00004">In this unit, remember to double click on mathematical expressions/equations to enlarge, if needed.</para>
+      <para id="para-00005">A <term id="term-00001">monomial</term> is an algebraic expression with exactly one term: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
           <mrow>
             <mn>5</mn>
             <msup>
@@ -80,8 +72,7 @@
             </msup>
           </mrow>
         </math></para>
-      <para>A <term>binomial</term> is an algebraic expression with exactly two terms: <math
-          xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+      <para id="para-00006" xmlns="http://cnx.rice.edu/cnxml">A <term id="term-00002">binomial</term> is an algebraic expression with exactly two terms: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
           <mrow>
             <mn>5</mn>
             <msup>
@@ -96,8 +87,7 @@
             </msup>
           </mrow>
         </math></para>
-      <para>A <term>trinomial</term> is an algebraic expression with exactly three terms: <math
-          xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+      <para id="para-00007" xmlns="http://cnx.rice.edu/cnxml">A <term id="term-00003">trinomial</term> is an algebraic expression with exactly three terms: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
           <mrow>
             <mn>5</mn>
             <msup>
@@ -115,26 +105,20 @@
             <mi>c</mi>
           </mrow>
         </math></para>
-      <para>Monomials, binomials, and trinomials are all different types of polynomials. A <term>
-        polynomial</term> is a monomial or two or more monomials combined by addition or
-        subtraction.</para>
-      <para>The <term>degree of a polynomial</term> is the highest degree of all its terms.</para>
+      <para id="para-00008" xmlns="http://cnx.rice.edu/cnxml">Monomials, binomials, and trinomials are all different types of polynomials. A <term id="term-00004"> polynomial</term> is a monomial or two or more monomials combined by addition or subtraction.</para>
+      <para id="para-00009">The <term id="term-00005">degree of a polynomial</term> is the highest degree of all its terms.</para>
       <div class="os-raise-usermessage-link">
-        <para>Log into <link url="https://student.desmos.com">student.desmos.com</link> using the
-        information provided by your teacher to complete the activity.</para>
+        <para id="para-00010">Log into <link url="https://student.desmos.com"/>student.desmos.com using the information provided by your teacher to complete the activity.</para>
       </div>
     </section>
-    <section>
+    <section id="sect-00003">
       <title>Activity</title>
-      <para>We will solve these two problems as a class.</para>
-
-      <example>
-        <exercise>
-          <problem>
-            <list class="os-raise-noindent" type="enumerated">
-              <item>Do these terms have the same variables with the same exponents? Explain your
-                answer. <math xmlns="http://www.w3.org/1998/Math/MathML"
-                  display="inline">
+      <para id="para-00011">We will solve these two problems as a class.</para>
+      <example id="exam-00001">
+        <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <list class="os-raise-noindent" type="enumerated" id="list-00009">
+              <item>Do these terms have the same variables with the same exponents? Explain your answer. <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
                     <mn>6</mn>
                     <msup>
@@ -146,8 +130,7 @@
                       <mn>2</mn>
                     </msup>
                   </mrow>
-                </math><math
-                  xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+                </math><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
                     <mn>8</mn>
                     <msup>
@@ -161,18 +144,15 @@
                   </mrow>
                 </math></item>
             </list>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work. </para>
+            <para id="para-00012" xmlns="http://cnx.rice.edu/cnxml">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Yes. Both terms have the same variables raised to the same degrees: <math
-                xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00001">
+            <para id="para-00013">Compare your answer:</para>
+            <para id="para-00014">Yes. Both terms have the same variables raised to the same degrees: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mi>x</mi>
                 </mrow>
-              </math> is raised to the fourth
-              power, and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+              </math> is raised to the fourth power, and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mi>y</mi>
                 </mrow>
@@ -180,13 +160,11 @@
           </solution>
         </exercise>
       </example>
-
-      <example>
-        <exercise>
-          <problem>
-            <list type="enumerated">
-              <item> Add the terms together: <math xmlns="http://www.w3.org/1998/Math/MathML"
-                  display="inline">
+      <example id="exam-00002" xmlns="http://cnx.rice.edu/cnxml">
+        <exercise id="exer-00002">
+          <problem id="prob-00002">
+            <list type="enumerated" id="list-00010">
+              <item> Add the terms together: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
                     <mn>6</mn>
                     <msup>
@@ -208,15 +186,13 @@
                       <mn>2</mn>
                     </msup>
                   </mrow>
-                </math>.
-                What is the sum? </item>
+                </math>. What is the sum? </item>
             </list>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work. </para>
+            <para id="para-00015" xmlns="http://cnx.rice.edu/cnxml">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00002">
+            <para id="para-00016">Compare your answer:</para>
+            <para id="para-00017"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mn>14</mn>
                   <msup>
@@ -232,16 +208,12 @@
           </solution>
         </exercise>
       </example>
-
-      <para>In problems 3 - 7, simplify the monomial addition and subtraction problems on your own.
-        Write down your answer, then select the solution button to compare your work.</para>
-
+      <para id="para-00018" xmlns="http://cnx.rice.edu/cnxml">In problems 3 - 7, simplify the monomial addition and subtraction problems on your own. Write down your answer, then select the solution button to compare your work.</para>
       <!--Q#3-->
-      <example>
-        <exercise>
-          <problem>
-
-            <list type="enumerated">
+      <example id="exam-00003">
+        <exercise id="exer-00003">
+          <problem id="prob-00003">
+            <list type="enumerated" id="list-00011">
               <item><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
                     <mn>12</mn>
@@ -252,12 +224,11 @@
                   </mrow>
                 </math></item>
             </list>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work.</para>
+            <para id="para-00019" xmlns="http://cnx.rice.edu/cnxml">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00003">
+            <para id="para-00020">Compare your answer:</para>
+            <para id="para-00021"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mn>21</mn>
                   <mi>q</mi>
@@ -267,13 +238,11 @@
         </exercise>
       </example><!--Interaction
       End -->
-
       <!--Q#4-->
-      <example>
-        <exercise>
-          <problem>
-
-            <list type="enumerated">
+      <example id="exam-00004" xmlns="http://cnx.rice.edu/cnxml">
+        <exercise id="exer-00004">
+          <problem id="prob-00004">
+            <list type="enumerated" id="list-00012">
               <item><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
                     <mo>−</mo>
@@ -291,12 +260,11 @@
                   </mrow>
                 </math></item>
             </list>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work.</para>
+            <para id="para-00022" xmlns="http://cnx.rice.edu/cnxml">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00004">
+            <para id="para-00023">Compare your answer:</para>
+            <para id="para-00024"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mo>−</mo>
                   <mn>9</mn>
@@ -310,13 +278,11 @@
         </exercise>
       </example><!--Interaction
       End -->
-
       <!--Q#5-->
-      <example>
-        <exercise>
-          <problem>
-
-            <list type="enumerated">
+      <example id="exam-00005" xmlns="http://cnx.rice.edu/cnxml">
+        <exercise id="exer-00005">
+          <problem id="prob-00005">
+            <list type="enumerated" id="list-00013">
               <item>
                 <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
@@ -345,12 +311,11 @@
                   </mrow>
                 </math></item>
             </list>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work.</para>
+            <para id="para-00025" xmlns="http://cnx.rice.edu/cnxml">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00005">
+            <para id="para-00026">Compare your answer:</para>
+            <para id="para-00027"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mn>2</mn>
                   <msup>
@@ -367,13 +332,11 @@
         </exercise>
       </example><!--Interaction
       End -->
-
       <!--Q#6-->
-      <example>
-        <exercise>
-          <problem>
-
-            <list type="enumerated">
+      <example id="exam-00006" xmlns="http://cnx.rice.edu/cnxml">
+        <exercise id="exer-00006">
+          <problem id="prob-00006">
+            <list type="enumerated" id="list-00014">
               <item>
                 <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
@@ -398,12 +361,11 @@
                   </mrow>
                 </math></item>
             </list>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work.</para>
+            <para id="para-00028" xmlns="http://cnx.rice.edu/cnxml">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00006">
+            <para id="para-00029">Compare your answer:</para>
+            <para id="para-00030"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mn>13</mn>
                   <mi>m</mi>
@@ -418,13 +380,11 @@
         </exercise>
       </example><!--Interaction
       End -->
-
       <!--Q#7-->
-      <example>
-        <exercise>
-          <problem>
-
-            <list type="enumerated">
+      <example id="exam-00007" xmlns="http://cnx.rice.edu/cnxml">
+        <exercise id="exer-00007">
+          <problem id="prob-00007">
+            <list type="enumerated" id="list-00015">
               <item>
                 <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
@@ -449,12 +409,11 @@
                   </mrow>
                 </math></item>
             </list>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work.</para>
+            <para id="para-00031" xmlns="http://cnx.rice.edu/cnxml">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00007">
+            <para id="para-00032">Compare your answer:</para>
+            <para id="para-00033"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mo>−</mo>
                   <mn>8</mn>
@@ -474,16 +433,12 @@
         </exercise>
       </example><!--Interaction
       End -->
-
       <!--Text
       Entry Interaction Start -->
-      <div class="os-raise-ib-input" data-button-text="Solution"
-        data-content-id="52fdbc4d-81fd-4d07-a13e-40a06038bc34" data-fire-event="eventShow"
-        data-schema-version="1.0">
+      <div class="os-raise-ib-input" data-button-text="Solution" data-content-id="52fdbc4d-81fd-4d07-a13e-40a06038bc34" data-fire-event="eventShow" data-schema-version="1.0" xmlns="http://cnx.rice.edu/cnxml">
         <div class="os-raise-ib-input-content">
-          <list type="enumerated">
-            <item> Can the following monomials be simplified using like terms? Explain. <math
-                xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <list type="enumerated" id="list-00016">
+            <item> Can the following monomials be simplified using like terms? Explain. <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mn>17</mn>
                   <msup>
@@ -513,37 +468,28 @@
               </math></item>
           </list>
         </div>
-        <div
-          class="os-raise-ib-input-prompt">
-          <para>Enter your answer here:</para>
+        <div class="os-raise-ib-input-prompt" xmlns="http://cnx.rice.edu/cnxml">
+          <para id="para-00034">Enter your answer here:</para>
         </div>
         <div class="os-raise-ib-input-ack">
-          <para>Compare your answer:</para>
-          <para>No, the monomial terms do not contain the same
-        variables with the same exponents. The first term has the variable <math
-              xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <para id="para-00035">Compare your answer:</para>
+          <para id="para-00036">No, the monomial terms do not contain the same variables with the same exponents. The first term has the variable <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
               <mrow>
                 <mi>b</mi>
               </mrow>
-            </math> with an exponent of 1. The second
-        term has the variable <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+            </math> with an exponent of 1. The second term has the variable <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
               <mrow>
                 <mi>b</mi>
               </mrow>
-            </math> with an exponent of 2. The
-        monomials are not like terms.</para>
+            </math> with an exponent of 2. The monomials are not like terms.</para>
         </div>
       </div>
-
-      <para>In problems 9 - 13, simplify the polynomial addition and subtraction problems on your
-        own. Write down your answer, then select the solution button to compare your work.</para>
-
+      <para id="para-00037" xmlns="http://cnx.rice.edu/cnxml">In problems 9 - 13, simplify the polynomial addition and subtraction problems on your own. Write down your answer, then select the solution button to compare your work.</para>
       <!--Q#9-->
-      <example>
-        <exercise>
-          <problem>
-
-            <list type="enumerated">
+      <example id="exam-00008">
+        <exercise id="exer-00008">
+          <problem id="prob-00008">
+            <list type="enumerated" id="list-00017">
               <item><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
                     <mo stretchy="false">(</mo>
@@ -568,21 +514,19 @@
                   </mrow>
                 </math></item>
             </list>
-            <para>You can use the following video if you need some help.</para>
+            <para id="para-00038" xmlns="http://cnx.rice.edu/cnxml">You can use the following video if you need some help.</para>
             <media alt="...">
               <iframe src="https://k12.openstax.org/contents/raise/resources/ba5bc330fb9f7f706e35cf5a38cdfedb85f34aec"/>
-                    <!-- <track default="true" kind="captions" label="On"
+              <!-- <track default="true" kind="captions" label="On"
                       src="https://k12.openstax.org/contents/raise/resources/712187a19365bfc0825bd798bf9f258c6ec2c971"
                       srclang="en_us">
                     </track> -->
             </media>
-
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work.</para>
+            <para id="para-00039">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00008">
+            <para id="para-00040">Compare your answer:</para>
+            <para id="para-00041"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mn>12</mn>
                   <mi>k</mi>
@@ -597,14 +541,11 @@
         </exercise>
       </example><!--Interaction
       End -->
-
-
       <!--Q#10-->
-      <example>
-        <exercise>
-          <problem>
-
-            <list class="os-raise-noindent" start="10" type="enumerated">
+      <example id="exam-00009" xmlns="http://cnx.rice.edu/cnxml">
+        <exercise id="exer-00009">
+          <problem id="prob-00009">
+            <list class="os-raise-noindent" start="10" type="enumerated" id="list-00018">
               <item><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
                     <mo stretchy="false">(</mo>
@@ -623,12 +564,11 @@
                   </mrow>
                 </math></item>
             </list>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work.</para>
+            <para id="para-00042" xmlns="http://cnx.rice.edu/cnxml">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00009">
+            <para id="para-00043">Compare your answer:</para>
+            <para id="para-00044"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mn>7</mn>
                   <mi>w</mi>
@@ -640,14 +580,11 @@
         </exercise>
       </example><!--Interaction
       End -->
-
-
       <!--Q#11-->
-      <example>
-        <exercise>
-          <problem>
-
-            <list class="os-raise-noindent" start="11" type="enumerated">
+      <example id="exam-00010" xmlns="http://cnx.rice.edu/cnxml">
+        <exercise id="exer-00010">
+          <problem id="prob-00010">
+            <list class="os-raise-noindent" start="11" type="enumerated" id="list-00019">
               <item><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
                     <mo stretchy="false">(</mo>
@@ -675,12 +612,11 @@
                   </mrow>
                 </math></item>
             </list>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work.</para>
+            <para id="para-00045" xmlns="http://cnx.rice.edu/cnxml">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00010">
+            <para id="para-00046">Compare your answer:</para>
+            <para id="para-00047"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mn>11</mn>
                   <msup>
@@ -698,14 +634,11 @@
         </exercise>
       </example><!--Interaction
       End -->
-
-
       <!--Q#12-->
-      <example>
-        <exercise>
-          <problem>
-
-            <list class="os-raise-noindent" start="12" type="enumerated">
+      <example id="exam-00011" xmlns="http://cnx.rice.edu/cnxml">
+        <exercise id="exer-00011">
+          <problem id="prob-00011">
+            <list class="os-raise-noindent" start="12" type="enumerated" id="list-00020">
               <item>
                 <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
@@ -743,12 +676,11 @@
                   </mrow>
                 </math></item>
             </list>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work.</para>
+            <para id="para-00048" xmlns="http://cnx.rice.edu/cnxml">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00011">
+            <para id="para-00049">Compare your answer:</para>
+            <para id="para-00050"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mn>2</mn>
                   <msup>
@@ -765,14 +697,11 @@
         </exercise>
       </example><!--Interaction
       End -->
-
-
       <!--Q#13-->
-      <example>
-        <exercise>
-          <problem>
-
-            <list class="os-raise-noindent" start="13" type="enumerated">
+      <example id="exam-00012" xmlns="http://cnx.rice.edu/cnxml">
+        <exercise id="exer-00012">
+          <problem id="prob-00012">
+            <list class="os-raise-noindent" start="13" type="enumerated" id="list-00021">
               <item>
                 <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                   <mrow>
@@ -808,12 +737,11 @@
                   </mrow>
                 </math></item>
             </list>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work.</para>
+            <para id="para-00051" xmlns="http://cnx.rice.edu/cnxml">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <solution id="sol-00012">
+            <para id="para-00052">Compare your answer:</para>
+            <para id="para-00053"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                 <mrow>
                   <mn>20</mn>
                   <msup>
@@ -836,14 +764,11 @@
         </exercise>
       </example><!--Interaction
       End -->
-
-
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
       will need to change the Data-fire/data-wait-for-events for each set.-->
-      <example>
-        <exercise>
-          <problem>
-
+      <example id="exam-00013" xmlns="http://cnx.rice.edu/cnxml">
+        <exercise id="exer-00013">
+          <problem id="prob-00013">
             <!-- INSERT ANY VALID HTML HERE -->
             <!-- INSERT ANY VALID HTML HERE -->
           </problem>
@@ -852,14 +777,11 @@
       interaction.  If multiple interactions appear under "are you ready for more?, they should all
       have matching "data-wait-for-event", which should also match the "data-fire-event" for the
       button. Note in this sample, they are all RFM1-->
-      <div class="os-raise-ib-input" data-button-text="Solution"
-        data-content-id="3cd1023e-3b4a-4e82-b3b2-ddd9101db872" data-schema-version="1.0"
-        data-wait-for-event="RFM1">
+      <div class="os-raise-ib-input" data-button-text="Solution" data-content-id="3cd1023e-3b4a-4e82-b3b2-ddd9101db872" data-schema-version="1.0" data-wait-for-event="RFM1">
         <div class="os-raise-ib-input-content">
           <title>Extending Your Thinking</title>
-          <para>Simplify. Use the "^" symbol to enter an
-        exponent.</para>
-          <para><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+          <para id="para-00054">Simplify. Use the "^" symbol to enter an exponent.</para>
+          <para id="para-00055"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
               <mrow>
                 <mo stretchy="false">(</mo>
                 <mn>6</mn>
@@ -909,14 +831,12 @@
               </mrow>
             </math></para>
         </div>
-        <div
-          class="os-raise-ib-input-prompt">
-          <para>Enter your answer here:</para>
+        <div class="os-raise-ib-input-prompt" xmlns="http://cnx.rice.edu/cnxml">
+          <para id="para-00056">Enter your answer here:</para>
         </div>
         <div class="os-raise-ib-input-ack">
-          <para>Compare your answer:</para>
-          <para><math xmlns="http://www.w3.org/1998/Math/MathML"
-              display="inline">
+          <para id="para-00057">Compare your answer:</para>
+          <para id="para-00058"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
               <mrow>
                 <mn>6</mn>
                 <msup>
@@ -931,9 +851,7 @@
                 </msup>
               </mrow>
             </math></para>
-          <para>Here
-        is how to solve this problem: <math xmlns="http://www.w3.org/1998/Math/MathML"
-              display="inline">
+          <para id="para-00059" xmlns="http://cnx.rice.edu/cnxml">Here is how to solve this problem: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
               <mrow>
                 <mo stretchy="false">(</mo>
                 <mn>6</mn>
@@ -982,9 +900,8 @@
                 <mo stretchy="false">)</mo>
               </mrow>
             </math></para>
-          <para><emphasis>Step
-        1 - </emphasis>Distribute the multiplication over addition.</para>
-          <para>
+          <para id="para-00060" xmlns="http://cnx.rice.edu/cnxml"><emphasis>Step 1 - </emphasis>Distribute the multiplication over addition.</para>
+          <para id="para-00061">
             <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
               <mrow>
                 <mn>6</mn>
@@ -1028,9 +945,8 @@
                 </msup>
               </mrow>
             </math></para>
-          <para><emphasis>Step
-        2 - </emphasis>Use the Commutative Property to rearrange like terms together.</para>
-          <para>
+          <para id="para-00062" xmlns="http://cnx.rice.edu/cnxml"><emphasis>Step 2 - </emphasis>Use the Commutative Property to rearrange like terms together.</para>
+          <para id="para-00063">
             <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
               <mrow>
                 <mn>6</mn>
@@ -1074,9 +990,8 @@
                 </msup>
               </mrow>
             </math></para>
-          <para><emphasis>Step
-        3 - </emphasis>Combine like terms.</para>
-          <para>
+          <para id="para-00064" xmlns="http://cnx.rice.edu/cnxml"><emphasis>Step 3 - </emphasis>Combine like terms.</para>
+          <para id="para-00065">
             <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
               <mrow>
                 <mn>6</mn>
@@ -1098,7 +1013,7 @@
       interaction-->
     </section>
   </content>
-  <glossary>
+  <glossary xmlns="http://cnx.rice.edu/cnxml">
     <definition id="fs-id1167836508735">
       <term>binomial</term>
       <meaning id="fs-id1167836508741">A binomial is a polynomial with exactly two terms.</meaning>
@@ -1109,18 +1024,15 @@
     </definition>
     <definition id="fs-id1167836508755">
       <term>degree of a polynomial</term>
-      <meaning id="fs-id1167836508760">The degree of a polynomial is the highest degree of all its
-        terms.</meaning>
+      <meaning id="fs-id1167836508760">The degree of a polynomial is the highest degree of all its terms.</meaning>
     </definition>
     <definition id="fs-id1167836508764">
       <term>degree of a term</term>
-      <meaning id="fs-id1167833385664">The degree of a term is the sum of the exponents of its
-        variables.</meaning>
+      <meaning id="fs-id1167833385664">The degree of a term is the sum of the exponents of its variables.</meaning>
     </definition>
     <definition id="fs-id1167833385668">
       <term>monomial</term>
-      <meaning id="fs-id1167833385674">A monomial is an algebraic expression with one term. A
-        monomial in one variable is a term of the form <m:math>
+      <meaning id="fs-id1167833385674">A monomial is an algebraic expression with one term. A monomial in one variable is a term of the form <m:math>
           <m:mrow>
             <m:mi>a</m:mi>
             <m:msup>
@@ -1129,18 +1041,15 @@
             </m:msup>
             <m:mo>,</m:mo>
           </m:mrow>
-        </m:math> where <emphasis effect="italics">a</emphasis>
-        is a constant and <emphasis effect="italics">m</emphasis> is a whole number.</meaning>
+        </m:math> where <emphasis effect="italics">a</emphasis> is a constant and <emphasis effect="italics">m</emphasis> is a whole number.</meaning>
     </definition>
     <definition id="fs-id1167829853744">
       <term>polynomial</term>
-      <meaning id="fs-id1167829853749">A monomial or two or more monomials combined by addition or
-        subtraction is a polynomial.</meaning>
+      <meaning id="fs-id1167829853749">A monomial or two or more monomials combined by addition or subtraction is a polynomial.</meaning>
     </definition>
     <definition id="fs-id1167829853754">
       <term>standard form of a polynomial</term>
-      <meaning id="fs-id1167829853760">A polynomial is in standard form when the terms of a
-        polynomial are written in descending order of degrees.</meaning>
+      <meaning id="fs-id1167829853760">A polynomial is in standard form when the terms of a polynomial are written in descending order of degrees.</meaning>
     </definition>
     <definition id="fs-id1167833350539">
       <term>trinomial</term>
@@ -1148,8 +1057,9 @@
     </definition>
     <definition id="fs-id1167833350548">
       <term>polynomial function</term>
-      <meaning id="fs-id1167833350554">A polynomial function is a function whose range values are
-        defined by a polynomial.</meaning>
+      <meaning id="fs-id1167833350554">A polynomial function is a function whose range values are defined by a polynomial.</meaning>
     </definition>
   </glossary>
 </document>
+  </section>
+</content>
