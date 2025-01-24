@@ -1,0 +1,117 @@
+<content>
+  <section><title>Activity </title>
+<br/>
+<example><exercise>
+  <problem>
+    
+    <para>In this activity we’re going to use synthetic division to divide a polynomial by a binomial.</para>
+    <title>Part 1: Use Long Division</title>
+    <para>You are going to solve a division problem using long division.</para>
+    <para>1. \((x^2-13x+42) \div (x-6)\)</para>
+  <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>\[\begin{array}{l}x - 6\mathop{\left){\vphantom{1{{x^2} - 13x + 42}}}\right.<br/>
+    \!\!\!\!\overline{\,\,\,\vphantom 1{{{x^2} - 13x + 42}}}}<br/>
+    \limits^{\displaystyle\,\,\, {x\,\, - 7}}\\\,\,\,\,\,\,\,\,\underline { - ({x^2} - 6x)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 7x + 42\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ( - 7x + 42)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
+</solution></exercise>
+</example><br/>
+<example><exercise>
+  <problem>
+    
+    <title>Part 2: Use Synthetic Division</title>
+    <para>You are now going to solve the same division problem using synthetic division.</para>
+    <para>2. \((x^2-13x+42) \div (x-6)\)</para>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>\((x^2-13x+42) \div (x-6)\)</para>
+  <para><emphasis>Step 1 - </emphasis>Write the dividend with decreasing powers of \(x\). Make sure there is no degree missing from the highest degree down to a degree of \(0\).</para>
+  <para> \(x^2-13x+42\)</para>
+  <para><emphasis>Step 2 - </emphasis>Write the coefficients of the terms as the first row of the synthetic division.</para>
+  <para><image height="25" src="https://k12.openstax.org/contents/raise/resources/c6c82cbc2862fbc7ac63ef5ad156a357e28d2929" width="200"/> </para>
+  <para><emphasis>Step 3 -</emphasis> Write the divisor as \(x - c\) and place \(c\) in the synthetic division in the divisor box.</para>
+  <para><image height="26" src="https://k12.openstax.org/contents/raise/resources/f842fbc8fba49798644a0db226343949a76160d2" width="200"/> </para>
+  <para><emphasis>Step 4 -</emphasis> Bring down the first coefficient to the third row.</para>
+  <para><image height="78" src="https://k12.openstax.org/contents/raise/resources/360673e02e9a7c448ea49dbe61338082bf855e69" width="200"/> </para>
+  <para><emphasis>Step 5 - </emphasis>Multiply that coefficient by the divisor and place the result in the second row under the second coefficient.</para>
+  <para><image height="79" src="https://k12.openstax.org/contents/raise/resources/61bd9ababefd8697792d305cad39a9ef67d99e8e" width="200"/> </para>
+  <para><emphasis>Step 6 - </emphasis>Add the second column, putting the result in the third row.</para>
+  <br/>
+  <para><emphasis>Step 7 - </emphasis>Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
+  <para><image alt="" class="img-fluid atto_image_button_text-bottom" role="presentation" src="https://k12.openstax.org/contents/raise/resources/32c4276bc6a13be7a299d2772d58550666421700" width="200"/></para>
+  <para><emphasis>Step 8 -</emphasis> Add the final column, putting the result in the third row.</para>
+  <para><image alt="" class="img-fluid atto_image_button_text-bottom" role="presentation" src="https://k12.openstax.org/contents/raise/resources/6616be07a9b6a0afd9f2bda3795506fe71dbfb29" width="200"/> </para>
+  <para><emphasis>Step 9 -</emphasis> The division is complete. The numbers in the third row give us the result. The \(1\) \( −7\) in the third row are the coefficients of the quotient. The quotient is \(x - 7\). The \(0\) in the box in the third row is the remainder.</para>
+</solution></exercise>
+</example><br/>
+<br/>
+<div class="os-raise-graybox">
+  <para>Work with a partner to find each quotient. Discuss any differences you have in determining the correct solution.</para>
+</div>
+<br/>
+<!--Text Entry Interaction Start -->
+<exercise><exercise>
+  <div class="os-raise-ib-input-ack">
+    <para>Compare your answer:</para>
+    <para>\(4x^2-3x+1\); remainder of 1</para>
+  </div>
+<problem>
+    <list class="os-raise-noindent" start="3" type="enumerated">
+      <item>\(
+        (4x^3+5x^2-5x+3) \div (x+2)\) </item>
+    </list>
+  </problem><solution>
+    <para>Enter your answer here:</para>
+  </solution></exercise>
+</exercise><!--Interaction End -->
+<br/>
+<br/>
+<!--Text Entry Interaction Start -->
+<exercise><exercise>
+  <div class="os-raise-ib-input-ack">
+    <para>Compare your answer:</para>
+    <para>\(2x^2-3x+4\); remainder of 4</para>
+  </div>
+<problem>
+    <list class="os-raise-noindent" start="4" type="enumerated">
+      <item> \((2x^3-11x^2+16x-12) \div (x -4)\) </item>
+    </list>
+  </problem><solution>
+    <para>Enter your answer here:</para>
+  </solution></exercise>
+</exercise><!--Interaction End -->
+<br/>
+<br/>
+<!--Text Entry Interaction Start -->
+<exercise><exercise>
+  <div class="os-raise-ib-input-ack">
+    <para>Compare your answer:</para>
+    <para>\(x^3-3x^2+2\); remainder of 0</para>
+  </div>
+<problem>
+    <list class="os-raise-noindent" start="5" type="enumerated">
+      <item>\(
+        (x^4-9x^2+2x+6) \div (x + 3)\) </item>
+    </list>
+  </problem><solution>
+    <para>Enter your answer here:</para>
+  </solution></exercise>
+</exercise><!--Interaction End -->
+<br/>
+<br/>
+<!--Text Entry Interaction Start -->
+<exercise><exercise>
+  <div class="os-raise-ib-input-ack">
+    <para>Compare your answer:</para>
+    <para>\(3x^3-2x^2-4x-2\); remainder of 0</para>
+  </div>
+<problem>
+    <list class="os-raise-noindent" start="6" type="enumerated">
+      <item>\((3x^4-11x^3+2x^2+10x+6) \div (x - 3)\) </item>
+    </list>
+  </problem><solution>
+    <para>Enter your answer here:</para>
+  </solution></exercise>
+</exercise><!--Interaction End --></section>
+</content>

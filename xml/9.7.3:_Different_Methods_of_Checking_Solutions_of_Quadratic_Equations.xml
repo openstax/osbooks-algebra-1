@@ -1,0 +1,166 @@
+<content>
+  <section><title>Activity</title>
+<list class="os-raise-noindent" type="enumerated">
+  <item>The equation \(h(t)=2+30t−5t^2\) represents the height, as a function of time, of a pumpkin that was catapulted up in the air. Height is measured in meters and time is measured in seconds.</item>
+</list>
+<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="a2d2fa7d-b6f6-42ad-b531-88922c91da91" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
+  <!--Q1a-->
+  <exercise data-content-id="6982616e-89d3-4477-83e6-257950690eaa" data-problem-comparator="integer" data-problem-type="input" data-solution="3">
+    <problem>
+      <list class="os-raise-noindent" type="enumerated">
+        <item>The pumpkin reached a maximum height of 47 meters. How many seconds after launch did that happen?</item>
+      </list>
+      <para>Enter the number of seconds after launch. </para>
+    </problem>
+    <solution>
+      <para>Correct! The pumpkin reached a maximum height of 47 meters 3 seconds after launch.</para>
+    </solution>
+    </exercise>
+  <!--END QUESTION.-->
+  <!--Do not edit below line.-->
+  <solution>
+    <!-- INSERT ANY VALID HTML HERE -->
+  </solution>
+  <div class="os-raise-ib-pset-encourage-response">
+    <!-- INSERT ANY VALID HTML HERE -->
+  </div>
+</div>
+<br/>
+<example><exercise>
+  <problem>
+    
+    <list class="os-raise-noindent" start="2" type="enumerated">
+      <item>Show your reasoning.</item>
+    </list>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Compare your Answer:</para>
+  <para>\(\begin{array}{l}
+    h(t)=-5 t^{2}+30 t+2 \\
+    -5 t^{2}+30 t+2=47 \\
+    -5 t^{2}+30 t-45=0 \\
+    a=-5, b=30, c=-45 \\
+    t=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\
+    t=\frac{-(30) \pm \sqrt{(30)^{2}-(4)(-5)(-45)}}{2(-5)} \\
+    t=\frac{-30 \pm \sqrt{900-900}}{-10} \\
+    t=\frac{-30}{-10} \\
+    t=3
+    \end{array}\)</para>
+</solution></exercise>
+</example><br/>
+<example><exercise>
+  <problem>
+    
+    <list class="os-raise-noindent" start="3" type="enumerated">
+      <item>Suppose someone was unconvinced by your solution. Find another way (besides the steps you already took) to show your solution is correct.</item>
+    </list>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Compare your Answer:</para>
+  <list class="os-raise-noindent">
+    <item> Substitute 3 for \(t\) in the original expression; evaluating it gives \(2+30(3)−5(3)^2\) or \(2+90−45\), which is 47. </item>
+    <item> Graphing \(y=2+30t−5t^2\) and \(y=47\) shows an intersection is located at \((3,47)\). </item>
+    <item> Graphing \(y=-45+30t−5t^2\) shows a zero at \((3,0)\). </item>
+  </list>
+</solution></exercise>
+</example><br/>
+<example><exercise>
+  <problem>
+    
+    <list class="os-raise-noindent" start="2" type="enumerated">
+      <item>The equation \(r(p)=80p−p^2\) models the revenue a band expects to collect as a function of the price of one concert ticket. Ticket prices and revenues are in dollars.</item>
+    </list>
+    <para>A band member says that a ticket price of either $15.50 or $74.50 would generate approximately $1000 in revenue. Do you agree? Show your reasoning.</para>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Compare your Answer:</para>
+  <list class="os-raise-noindent">
+    <item> Partially agree. A ticket price of $15.50 will generate about $1000 in revenue, but a ticket price of $74.50 will generate much less (about $410). </item>
+    <item> Using the <term data-schema-version="“1.0”" data-store="glossary-tooltip">quadratic formula</term> to solve \(1000=80p−p^2\) gives \(p \approx 15.50\) and \(p \approx 64.50\) as the solutions. </item>
+    <item> Substituting 15.50 into the expression \(80p−p^2\) gives 999.75, which is close to 1000. \((80(15.50)−(15.50)2=999.75)\). Substituting 74.50 into the expression \(80p−p^2\) gives 409.75. </item>
+    <item> Graphing the equation \(y=r(p)\) and \(y=1000\) shows two intersections at approximately \((15.50,1000)\) and \((64.50,1000)\). </item>
+  </list>
+</solution></exercise>
+</example><br/>
+<br/>
+<title>Video: Explaining Your Solutions to Quadratic Situations</title>
+<para>Watch the following video to learn more about proving quadratic solutions.</para>
+<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
+  <iframe><video controls="true" crossorigin="anonymous">
+      <source src="https://k12.openstax.org/contents/raise/resources/53a8917c8b3418a7473a16ad7d50f607dfbe26ea">
+      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/86979958a6e38c2c55550540a5d307b3cea626ef" srclang="en_us">https://k12.openstax.org/contents/raise/resources/53a8917c8b3418a7473a16ad7d50f607dfbe26ea
+    </track></source></video></iframe>
+</div>
+<br/>
+<br/>
+<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+<example><exercise>
+  <problem>
+    
+    <!-- INSERT ANY VALID HTML HERE -->
+  <!-- INSERT ANY VALID HTML HERE -->
+  </problem></exercise>
+</example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+<exercise><exercise data-wait-for-event="RFM1">
+  <div class="os-raise-ib-input-ack">
+    <para>Compare your answer:</para>
+    <para>Function \(g\) has one zero: 3.</para>
+  </div>
+<problem>
+    <title>Extending Your Thinking</title>
+    <list class="os-raise-noindent" type="enumerated">
+      <item>Function \(g\) is defined by the equation \(g(t)=2+30t−5t^2−47\). Its graph opens downward.</item>
+    </list>
+    <list class="os-raise-noindent" type="enumerated">
+      <item>Find the zeros of function \(g\) without graphing.</item>
+    </list>
+  </problem><solution>
+    <para>Enter the zeros of function \(g\).</para>
+  </solution></exercise>
+</exercise><br/>
+<!--End interaction-->
+<exercise><exercise data-wait-for-event="RFM1">
+  <div class="os-raise-ib-input-ack">
+    <para>Compare your answer:</para>
+    <list class="os-raise-noindent">
+      <item> \(2+30t−5t^2−47\) is equivalent to \(-5t^2+30t−45\). Solving \(-5t^2+30t−45=0\) using the quadratic formula gives \(t=3\). </item>
+      <item> \(-5t^2+30t−45\) can be rewritten as \(-5(t^2−6t+9)\) and then as \(-5(t−3)(t−3)\). Applying the zero product property to solve \(-5(t−3)(t−3)=0\) gives \(t=3\). </item>
+    </list>
+  </div>
+<problem>
+    <list class="os-raise-noindent" start="2" type="enumerated">
+      <item>Show your reasoning.</item>
+    </list>
+  </problem><solution>
+    <para>Enter your reasoning. </para>
+  </solution></exercise>
+</exercise><br/>
+<!--End interaction-->
+<exercise><exercise data-wait-for-event="RFM1">
+  <div class="os-raise-ib-input-ack">
+    <para>Compare your answer:</para>
+    <para>Function \(g\) only has one zero, which means its graph has only one horizontal intercept, occurring when \(t=3\). Because the point \((3,0)\) is the only intercept, it must also be the vertex of the graph, otherwise there would have been either two horizontal intercepts, or none.</para>
+  </div>
+<problem>
+    <list class="os-raise-noindent" start="2" type="enumerated">
+      <item>Explain or show how the zeros you found can tell us the vertex of the graph of \(g\).</item>
+    </list>
+  </problem><solution>
+    <para>Enter your reasoning. </para>
+  </solution></exercise>
+</exercise><br/>
+<!--End interaction-->
+<exercise><exercise data-wait-for-event="RFM1">
+  <div class="os-raise-ib-input-ack">
+    <para>Compare your answer:</para>
+    <para>The value of the expression for \(g\) is 47 less than that of \(h\), so if we know the maximum of \(h\), we know that the maximum of \(g\) is 47 less than that. We saw that the maximum of \(h\) is 47, so the maximum of \(g\) is 47 less than 47, which is 0.</para>
+  </div>
+<problem>
+    <list class="os-raise-noindent" start="3" type="enumerated">
+      <item>Recall that \(g(t)=2+30t−5t^2−47\) and \(h(t)=2+30t−5t^2\). Examine these functions \(g\) and \(h\) (which defined the height of the pumpkin). Explain how the maximum of function \(h\), once we know it, can tell us the maximum of \(g\).</item>
+    </list>
+  </problem><solution>
+    <para>Enter your reasoning. </para>
+  </solution></exercise>
+</exercise><!--End interaction--></section>
+</content>

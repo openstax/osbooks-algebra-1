@@ -1,0 +1,76 @@
+<content>
+  <section><title>Implementing General Strategies for Factoring</title>
+<para>Let’s practice recognizing and implementing these strategies as we factor polynomials.</para>
+<para>Remember, a polynomial is completely factored if, other than monomials, its factors are prime!</para>
+<para class="os-raise-text-bold">EXAMPLE 1</para>
+<para>Find a strategy that fits and factor completely: \(7x^3 − 21x^2 − 70x\).</para>
+<para><emphasis>Step 1</emphasis> - Is there a GCF?<br/>
+  \(7x^3 − 21x^2 − 70x\)<br/>
+  Yes, \(7x\).</para>
+<para><emphasis>Step 2</emphasis> - Factor out the GCF.<br/>
+  \(7x(x^2 − 3x − 10)\)</para>
+<para><emphasis>Step 3</emphasis> - In the parentheses, is it a binomial, a trinomial, or are there more than three terms?<br/>
+  Trinomial with leading coefficient \(1\).</para>
+<para><emphasis>Step 4</emphasis> - “Undo” FOIL.<br/>
+  \(7x(x \;\;\;)(x \;\;\; )\)<br/>
+  \(7x(x + 2)(x − 5)\)</para>
+<para><emphasis>Step 5</emphasis> - Is the expression factored completely? <br/>
+  Yes. Neither binomial can be factored.</para>
+<para><emphasis>Step 6</emphasis> - Check your answer by multiplying.<br/>
+  \(7x(x + 2)(x − 5)\)<br/>
+  \(7x(x^2 − 5x + 2x − 10)\)<br/>
+  \(7x(x^2 − 3x − 10)\)<br/>
+  \(7x^3 − 21x^2 − 70x&amp;checkmark;\)</para>
+<para class="os-raise-text-bold">EXAMPLE 2</para>
+<para>Find a strategy that fits and factor completely: \(4x^2 + 8bx − 4ax − 8ab\).</para>
+<para><emphasis>Step 1</emphasis> - Is there a GCF?<br/>
+  \(4x^2 + 8bx − 4ax − 8ab\)<br/>
+  Factor out the GCF, \(4\).<br/>
+  \(4(x^2 + 2bx − ax − 2ab)\)</para>
+<para><emphasis>Step 2</emphasis> - There are four terms. Use grouping.<br/>
+  \(4 \lbrack x(x + 2b) − a(x + 2b) \rbrack\)<br/>
+  \(4(x + 2b)(x − a)\)</para>
+<para><emphasis>Step 3</emphasis> - Is the expression factored completely?<br/>
+  Yes.</para>
+<para><emphasis>Step 4</emphasis> - Check your answer by multiplying. <br/>
+  \(4(x + 2b)(x − a)\) <br/>
+  \(4(x^2 − ax + 2bx − 2ab)\) <br/>
+  \(4x^2 + 8bx − 4ax − 8ab&amp;checkmark;\) </para>
+<para class="os-raise-text-bold">EXAMPLE 3</para>
+<para>Find a strategy that fits and factor completely: \(40x^2y + 44xy − 24y\).</para>
+<para><emphasis>Step 1</emphasis> - Is there a GCF? <br/>
+  \(40x^2y + 44xy − 24y\) <br/>
+  Factor out the GCF, \(4y\). <br/>
+  \(4y(10x^2 + 11x − 6)\) </para>
+<para><emphasis>Step 2</emphasis> - Factor the trinomial with \(a \neq 1\) using the “\(ac\)” method or trial and error.<br/>
+  \(4y(5x − 2)(2x + 3)\)</para>
+<para><emphasis>Step 3</emphasis> - Is the expression factored completely? <br/>
+  Yes. </para>
+<para><emphasis>Step 4</emphasis> - Check your answer by multiplying. <br/>
+  \(4y(5x − 2)(2x + 3)\) <br/>
+  \(4y(10x^2 + 11x − 6)\) <br/>
+  \(40x^2y + 44xy − 24y&amp;checkmark;\) </para>
+<title>Try It: Implementing General Strategies for Factoring</title>
+<br/>
+<example><exercise>
+  <problem>
+    
+    <para>Find a strategy that fits and factor completely: </para>
+    <list class="os-raise-noindent" type="enumerated">
+      <item>\(27y^2 − 48\) </item>
+    </list>
+    <list class="os-raise-noindent" start="2" type="enumerated">
+      <item> \(6x^2 − 12xc + 6bx − 12bc\). </item>
+    </list>
+  <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Here is how to factor these polynomials:</para>
+  <list class="os-raise-noindent" type="enumerated">
+    <item> difference of squares; \(3(3y − 4)(3y + 4)\) </item>
+  </list>
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item> grouping; \(6(x + b)(x − 2c)\)</item>
+  </list>
+</solution></exercise>
+</example></section>
+</content>

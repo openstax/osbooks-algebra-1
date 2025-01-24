@@ -1,0 +1,95 @@
+<content>
+  <section><title> Writing Exponential Decay Functions</title>
+<para>Example 1</para>
+<para>Data has been entered into a table that shows exponential decay.  How would you write the equation that represents this model? </para>
+<table class="os-raise-horizontaltable">
+  <thead>
+  </thead>
+  <tbody>
+    <row>
+      <entry scope="row" class="emphasis">\(x\)</entry>
+      <entry>0</entry>
+      <entry>1</entry>
+      <entry>2</entry>
+      <entry>3</entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">\(y\)</entry>
+      <entry>200</entry>
+      <entry>100</entry>
+      <entry>50</entry>
+      <entry>25</entry>
+    </row>
+  </tbody>
+</table>
+<br/>
+<para>The formula for exponential decay is \(y=a \cdot (1-b)^x\) where a is the starting value and \(b\) is the amount that value decreases each unit of time \(x\).</para>
+<para>The pattern for the decay is starting at 200 and then decreasing by 12 with only 12 remaining. The equation is \(y=200 \cdot (1-\frac12)^x\) or \(y=200 \cdot (\frac12)^x\).</para>
+<br/>
+<para class="os-raise-text-bold">Example 2</para>
+<para>A car sells for $4,000 and loses \(\frac18\) of its value each year. Write a function that gives the car’s
+  value, \(V(t)\), \(t\) years after it is sold.</para>
+<para>Since the car loses \(\frac18\) of its value each year, it keeps \(\frac78\) of its value from year to year, so the
+  growth factor is \(\frac78\).</para>
+<para>\(V(t)=4000 \cdot (\frac{7}{8})^t\)</para>
+<br/>
+<title>Try It: Writing Exponential Decay Functions</title>
+<br/>
+<!--Q#-->
+<example><exercise>
+  <problem>
+
+    <list type="enumerated">
+  <item>
+    <para>What exponential decay equation is modeled by the table of data given? </para>
+  </item>
+</list>
+<table class="os-raise-horizontaltable">
+  <thead/>
+  <tbody>
+      <row>
+        <entry scope="row" class="emphasis">\(x\)</entry>
+        <entry>1</entry>
+        <entry>2</entry>
+        <entry>3</entry>
+        <entry>4</entry>
+        <entry>5</entry>
+      </row>
+      <row>
+        <entry scope="row" class="emphasis">\(y\)</entry>
+        <entry>10000</entry>
+        <entry>8750</entry>
+        <entry>7656.25</entry>
+        <entry>266</entry>
+        <entry>1034</entry>
+      </row>
+  </tbody>
+</table>
+<br/>
+
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+<para>Compare your answer:</para>
+    <para>This ball is more bouncy. Each bounce of this ball reaches a height that is about 0.7 times that of the previous
+      bounce \((51.5 \div 73.5 \approx 0.7)\). The tennis ball in the earlier task loses about half of its height with
+      each bounce. </para>
+
+</solution></exercise>
+</example><!--Interaction End -->
+<br/>
+<para>A computer is purchased for $1,000 and loses \(\frac15\) of its value per year.</para>
+<example><exercise>
+  <problem>
+
+    <list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Write a function for the computer’s value, \(V(t)\), \(t\) years after it is purchased.</item>
+</list>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>Here is how to write the exponential function: </para>
+  <para>The starting amount is $1,000. The computer loses \(\frac15\) of its value each year, so it maintains \(\frac45\) of its value. The growth factor is \(\frac45\).</para>
+  <para>The function is then \(V(t)=1000 \cdot (\frac{4}{5})^t\).</para>
+</solution></exercise>
+</example></section>
+</content>

@@ -1,0 +1,213 @@
+<content>
+  <section><title>Reviewing General Strategies to Factor a Polynomial</title>
+<para>You have now become acquainted with all the methods of factoring that you will need in this course. The following
+  chart summarizes all the factoring methods we have covered and outlines a strategy you should use when factoring
+  polynomials.</para>
+<para><image alt="" height="350" role="presentation" src="https://k12.openstax.org/contents/raise/resources/279a48d8339d0f5a13e7ba2f062edffc03ef611d"/></para>
+<para>These are the steps to use when deciding how to factor a polynomial. We will review an example after looking at these
+  steps.</para>
+<br/>
+<div class="os-raise-graybox">
+  <para class="os-raise-text-bold"> Use a general strategy for factoring polynomials:</para>
+  <hr/>
+  <para><emphasis>Step 1 -</emphasis> Is there a greatest common factor? Factor it out.</para>
+  <para><emphasis>Step 2 -</emphasis> Is the polynomial a binomial, a trinomial, or are there more than three terms? </para>
+  <para class="os-raise-text-bold"><u>If it is a binomial:</u></para>
+  <list>
+    <item> Is it a sum?
+      <list>
+        <item>Of squares? Sums of squares do not factor.</item>
+        <item>Of cubes? Use the sum of cubes pattern.</item>
+      </list>
+    </item>
+    <item> Is it a difference?
+      <list>
+        <item>Of squares? Factor as the product of conjugates.</item>
+      </list>
+    </item>
+  </list>
+  <para class="os-raise-text-bold"><u>If it is a trinomial:</u></para>
+  <list>
+    <item> Is it of the form \(x^2+bx+c\)? Undo FOIL. </item>
+    <item> Is it of the form \(ax^2+bx+c\)?
+      <list>
+        <item>If \(a\) and \(c\) are squares, check if it fits the trinomial square pattern.</item>
+        <item>Use trial and error or the “\(ac\)” method.</item>
+      </list>
+    </item>
+  </list>
+  <para class="os-raise-text-bold"><u>If it has more than three terms:</u></para>
+  <list>
+    <item> Use the grouping method. </item>
+  </list>
+  <para><emphasis>Step 3 - </emphasis>Check.</para>
+  <list>
+    <item> Is it factored completely?</item>
+    <item>Do the factors multiply back to the original polynomial?</item>
+  </list>
+</div>
+<br/>
+<para class="os-raise-text-bold">Example 1</para>
+<para>Factor completely: \(24y^2 − 150\).</para>
+<para>Be careful when you are asked to factor a binomial because there are several options!</para>
+<para><emphasis>Step 1 - </emphasis>Is there a GCF?</para>
+<para> \(24y^2 − 150\)</para>
+<para> Yes, \(6\).</para>
+<para><emphasis>Step 2 -</emphasis> Factor out the GCF.</para>
+<para> \(6(4y^2 − 25)\)</para>
+<para><emphasis>Step 3 -</emphasis> In the parentheses, is it a binomial, a trinomial, or are there more than three terms?<br/>
+  Binomial.</para>
+<para><emphasis>Step 4 -</emphasis> Is it a sum?</para>
+<para> No.</para>
+<para><emphasis>Step 5 - </emphasis>Is it a difference? Of squares or cubes?</para>
+<para> Yes, squares.</para>
+<para> \(6((2y)^2 − (5)^2)\)</para>
+<para><emphasis>Step 6 -</emphasis> Write as a product of conjugates.</para>
+<para> \( 6(2y − 5)(2y + 5)\)</para>
+<para><emphasis>Step 7 - </emphasis>Is the expression factored completely? </para>
+<para> Neither binomial can be factored.</para>
+<para><emphasis>Step 8 - </emphasis>Check your answer by multiplying.</para>
+<para> \(6(2y − 5)(2y + 5)\)<br/>
+  \(6(4y^2 − 25)\)<br/>
+  \(24y^2 − 150&amp;checkmark;\)</para>
+<para class="os-raise-text-bold">Example 2</para>
+<para>Use the diagram and questions as references. Which strategy would you use to factor the following polynomials in the
+  left column of the table? Be prepared to show your reasoning.</para>
+<example><exercise>
+  <problem>
+    
+    <para>Look at each polynomial. Review the steps to decide which strategy to use. </para>
+    <table class="os-raise-wideequaltable">
+      <thead>
+        <row>
+          <entry scope="col" class="emphasis">
+            Polynomial
+            
+          </entry><entry scope="col" class="emphasis">
+            Strategy
+          </entry>
+          <entry scope="col" class="emphasis">
+            Reasoning
+          </entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+          <entry>
+            \(x^2 − 3x − 10\)
+          </entry>
+          <entry/>
+          <entry/>
+        </row>
+        <row>
+          <entry>
+            \(4a^2 − 12ab + 9b^2\)
+          </entry>
+          <entry/>
+          <entry/>
+        </row>
+        <row>
+          <entry>
+            \(4y^2 − 25\)
+          </entry>
+          <entry/>
+          <entry/>
+        </row>
+      </tbody>
+    </table>
+    <br/>
+  <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answers:</para>
+  <table class="os-raise-wideequaltable">
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis">
+          Polynomial
+        </entry>
+        <entry scope="col" class="emphasis">
+          Strategy
+        </entry>
+        <entry scope="col" class="emphasis">
+          Reasoning
+        </entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>
+          \(x^2 − 3x − 10\)
+        </entry>
+        <entry>
+          undo FOIL
+        </entry>
+        <entry>
+          trinomial of form \(x^2+bx+c\)
+        </entry>
+      </row>
+      <row>
+        <entry>
+          \(4a^2 − 12ab + 9b^2\)
+        </entry>
+        <entry>
+          trinomial square pattern
+        </entry>
+        <entry>
+          trinomial of form \(a^2 − 2ab + b^2\)
+        </entry>
+      </row>
+      <row>
+        <entry>
+          \(4y^2 − 25\)
+        </entry>
+        <entry>
+          difference of squares
+        </entry>
+        <entry>
+          a binomial of squares
+        </entry>
+      </row>
+    </tbody>
+  </table>
+  <br/>
+</solution></exercise>
+</example><br/>
+<title>Try It: Reviewing General Strategies to Factor a Polynomial</title>
+<para>Identify the strategy you would use to factor each polynomial.</para>
+<br/>
+<example><exercise>
+  <problem>
+    
+    <list class="os-raise-noindent" type="enumerated">
+      <item>\(4x^2y − 16xy + 12y\) </item>
+    </list>
+
+  <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+    <para>Compare your answer:</para>
+  <para>Often, there will be more than one strategy that can be used to factor a polynomial. Here is a sample solution. </para>
+ 
+    <para> Factor out the GCF of \(4y\). Use the undo FOIL method on the remaining polynomial since it is of the form
+      \(x^2+bx+c\). </para>
+
+</solution></exercise>
+</example><br/>
+<!--Q#-->
+<example><exercise>
+  <problem>
+    
+    <list class="os-raise-noindent" start="2" type="enumerated">
+      <item> \(4x^2 + 8bx − 4ax − 8ab\) </item>
+    </list>
+
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+<para>Compare your answer:</para>
+<para>Often, there will be more than one strategy that can be used to factor a polynomial. Here is a sample solution. </para>
+<para> Factor out GCF of \(4\). Then factor by grouping since there are four terms. </para>
+
+
+</solution></exercise>
+</example><!--Interaction End -->
+<br/></section>
+</content>

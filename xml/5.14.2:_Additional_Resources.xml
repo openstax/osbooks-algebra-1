@@ -1,0 +1,412 @@
+<content>
+  <section><title>Comparing Linear and Exponential Growth Using Tables</title>
+<para>Classify each of the following tables as linear, exponential growth, or exponential decay.</para>
+
+<div class="os-raise-d-flex os-raise-justify-content-between">
+
+  <table class="os-raise-skinnytable">
+    <caption>Table A</caption>
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis">
+          \(x\)
+        </entry>
+        <entry scope="col" class="emphasis">
+          \(f(x)\)
+        </entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>
+          1
+        </entry>
+        <entry>
+          \(\frac12\)
+        </entry>
+      </row>
+      <row>
+        <entry>
+          2
+        </entry>
+        <entry>
+          \(\frac14\)
+        </entry>
+      </row>
+      <row>
+        <entry>
+          3
+        </entry>
+        <entry>
+          \(\frac18\)
+        </entry>
+      </row>
+      <row>
+        <entry>
+          4
+        </entry>
+        <entry>
+          \(\frac{1}{16}\)
+        </entry>
+      </row>
+      <row>
+        <entry>
+          5
+        </entry>
+        <entry>
+          \(\frac{1}{32}\)
+        </entry>
+      </row>
+    </tbody>
+  </table>
+
+  <table class="os-raise-skinnytable">
+    <caption>Table B</caption>
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis">
+          \(x\)
+        </entry>
+        <entry scope="col" class="emphasis">
+          \(f(x)\)
+        </entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>
+          1
+        </entry>
+        <entry>
+          1.4
+        </entry>
+      </row>
+      <row>
+        <entry>
+          2
+        </entry>
+        <entry>
+          2.5
+        </entry>
+      </row>
+      <row>
+        <entry>
+          3
+        </entry>
+        <entry>
+          3.6
+        </entry>
+      </row>
+      <row>
+        <entry>
+          4
+        </entry>
+        <entry>
+          4.7
+        </entry>
+      </row>
+      <row>
+        <entry>
+          5
+        </entry>
+        <entry>
+          5.8
+        </entry>
+      </row>
+    </tbody>
+  </table>
+
+
+  <table class="os-raise-skinnytable">
+    <caption>Table C</caption>
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis">
+          \(x\)
+        </entry>
+        <entry scope="col" class="emphasis">
+          \(f(x)\)
+        </entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>
+          1
+        </entry>
+        <entry>
+          30
+        </entry>
+      </row>
+      <row>
+        <entry>
+          2
+        </entry>
+        <entry>
+          60
+        </entry>
+      </row>
+      <row>
+        <entry>
+          3
+        </entry>
+        <entry>
+          120
+        </entry>
+      </row>
+      <row>
+        <entry>
+          4
+        </entry>
+        <entry>
+          240
+        </entry>
+      </row>
+      <row>
+        <entry>
+          5
+        </entry>
+        <entry>
+          480
+        </entry>
+      </row>
+    </tbody>
+  </table>
+
+</div>
+<br/>
+<para>In each situation, the inputs or \(x\)-values are increasing by 1 each time. These can also be called consecutive
+  terms.</para>
+<para>If you have consecutive terms, then:</para>
+<list>
+  <item> If the difference between their corresponding outputs or \(y\)-values is always the same constant, then the
+    input-output pairs in the table can be modeled by a linear function. </item>
+  <item> If the quotient between their corresponding outputs or \(y\)-values is always the same constant, then the
+    input-output pairs in the table can be modeled by an exponential function. A growth rate greater than one means that
+    it is exponential growth, and a growth rate between zero and one means that it is exponential decay. </item>
+</list>
+<para>It is possible for a table to be a set of values that is not any of these relationships.</para>
+<para>Using this information, you can see that in Table A, \(\frac{\frac{1}{4}}{ \frac{1}{2}}=\frac12\). This holds true
+  for the quotient of every other set of consecutive terms, too. Since the quotient is always the same, Table A
+  represents an exponential function. Since the growth rate is \(\frac12\), or between zero and one, Table A represents
+  exponential decay.</para>
+<para>In Table B, the quotient of consecutive terms is not the same, but there is a common difference. The difference
+  between the first two terms is \(2.5 -1.4=1.1\). This holds true for each of the other pairs of consecutive terms, so
+  Table B represents a linear relationship.</para>
+<para>In Table C, the quotient of consecutive terms is \(\frac{60}{30}=2\). This relationship holds true for all of the
+  pairs of consecutive terms, which means this table represents an exponential relationship. Since the growth factor is
+  greater than one, Table C represents exponential growth.</para>
+<title> Try It: Comparing Linear and Exponential Growth Using Tables</title>
+<para>Which of the following tables represents exponential growth? Be prepared to show your reasoning.</para>
+<example><exercise>
+  <problem>
+    
+    <div class="os-raise-d-flex os-raise-justify-content-between">
+      <table class="os-raise-skinnytable">
+        <caption>Table A</caption>
+        <thead>
+          <row>
+            <entry scope="col" class="emphasis">
+              \(x\)
+            </entry>
+            <entry scope="col" class="emphasis">
+              \(f(x)\)
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              1
+            </entry>
+            <entry>
+              2
+            </entry>
+          </row>
+          <row>
+            <entry>
+              2
+            </entry>
+            <entry>
+              8
+            </entry>
+          </row>
+          <row>
+            <entry>
+              3
+            </entry>
+            <entry>
+              14
+            </entry>
+          </row>
+          <row>
+            <entry>
+              4
+            </entry>
+            <entry>
+              20
+            </entry>
+          </row>
+        </tbody>
+      </table>
+      <table class="os-raise-skinnytable">
+        <caption>Table B</caption>
+        <thead>
+          <row>
+            <entry scope="col" class="emphasis">
+              \(x\)
+            </entry>
+            <entry scope="col" class="emphasis">
+              \(f(x)\)
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              1
+            </entry>
+            <entry>
+              432
+            </entry>
+          </row>
+          <row>
+            <entry>
+              2
+            </entry>
+            <entry>
+              144
+            </entry>
+          </row>
+          <row>
+            <entry>
+              3
+            </entry>
+            <entry>
+              48
+            </entry>
+          </row>
+          <row>
+            <entry>
+              4
+            </entry>
+            <entry>
+              16
+            </entry>
+          </row>
+        </tbody>
+      </table>
+      <table class="os-raise-skinnytable">
+        <caption>Table C</caption>
+        <thead>
+          <row>
+            <entry scope="col" class="emphasis">
+              \(x\)
+            </entry>
+            <entry scope="col" class="emphasis">
+              \(f(x)\)
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              1
+            </entry>
+            <entry>
+              4
+            </entry>
+          </row>
+          <row>
+            <entry>
+              2
+            </entry>
+            <entry>
+              16
+            </entry>
+          </row>
+          <row>
+            <entry>
+              3
+            </entry>
+            <entry>
+              64
+            </entry>
+          </row>
+          <row>
+            <entry>
+              4
+            </entry>
+            <entry>
+              256
+            </entry>
+          </row>
+        </tbody>
+      </table>
+      <table class="os-raise-skinnytable">
+        <caption>Table D</caption>
+        <thead>
+          <row>
+            <entry scope="col" class="emphasis">
+              \(x\)
+            </entry>
+            <entry scope="col" class="emphasis">
+              \(f(x)\)
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              1
+            </entry>
+            <entry>
+              6
+            </entry>
+          </row>
+          <row>
+            <entry>
+              2
+            </entry>
+            <entry>
+              4
+            </entry>
+          </row>
+          <row>
+            <entry>
+              3
+            </entry>
+            <entry>
+              9
+            </entry>
+          </row>
+          <row>
+            <entry>
+              4
+            </entry>
+            <entry>
+              2
+            </entry>
+          </row>
+        </tbody>
+      </table>
+    </div>
+    <br/>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>Here is how to determine which table is exponential growth:</para>
+  <para>When looking for exponential growth, remember that each \(y\)-value should be greater than the previous one. By
+    first checking for growth, you can eliminate Table B and Table D. In Table B, each term is less than the first one,
+    so it is not exponential growth. In Table D, the values increase and decrease, so it is not exponential growth,
+    either.</para>
+  <para>Next, check for connections between consecutive terms. In Table A, \(2+6= 8\) and \(2 \cdot 4=8\). Since there
+    seems to be the possibility of either a linear relationship or exponential growth, you need to check the next set of
+    terms. Since \(8 \cdot 4 \neq 14\) and \(8+6 =14\), the relationship in Table A is linear, not exponential. 
+  </para>
+  <para>This means the answer should be Table C, but we should always check to confirm. If we check consecutive terms in
+    Table C for a growth factor, we get the following: \(\frac {16}{4}=4\), \(\frac{64}{16}=4\), and
+    \(\frac{256}{64}=4\). This proves that the growth factor is 4 and Table C represents exponential growth.</para>
+</solution></exercise>
+</example></section>
+</content>

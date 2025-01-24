@@ -1,0 +1,59 @@
+<content>
+  <section><title>Find an Equation Given Two Points</title>
+<title>Method 1: Using Point-Slope Form</title>
+<para>Find an equation of a line that contains the points \((5, 4)\) and \((3, 6)\). Write the equation in slope-intercept form.</para>
+<para><emphasis>Step 1</emphasis> - Find the slope between the two points.<br/>
+  \(m=\frac{6-4}{3-5}=\frac{2}{-2}=-1\)</para>
+<para><emphasis>Step 2</emphasis> - Choose a point to substitute into point-slope form.<br/>
+  \(y-y_1=m(x-x_1)\)<br/>
+  \(y-4=-1(x-5)\) OR \(y-6=-1(x-3) \)</para>
+<para><emphasis>Step 3</emphasis> - Write the equation in slope-intercept form.</para>
+<div class="os-raise-d-flex os-raise-justify-content-evenly">
+  <para>\(\begin{array}{rcl}y-4&amp;=&amp;-1(x-5)\\y-4&amp;=&amp;-1x+5\\y&amp;=&amp;-x +9\end{array}\)</para>
+  <para>OR</para>
+  <para>\(\begin{array}{rcl}y-6&amp;=&amp;-1(x-3)\\ y-6&amp;=&amp;-1x+3\\y&amp;=&amp;-x +9\end{array}\)</para>
+</div>
+<br/>
+<para><emphasis>Method 2: Writing an Equation in Slope-Intercept Form by finding \(b\).</emphasis></para>
+<para>Find the equation of the line containing the points \((3, 1)\) and \((5, 6)\) in slope-intercept form.</para>
+<para><emphasis>Step 1</emphasis> - Find the slope between the two points.<br/>
+  \(m=\frac{6-1}{5-3}=\frac{5}{2}\)</para>
+<para><emphasis>Step 2</emphasis> - Choose a point to substitute into slope-intercept form then solve for \(b\). <br/>
+  \(y=mx+b\)</para>
+<div class="os-raise-d-flex os-raise-justify-content-evenly">
+  <para>\(\begin{array}{rcl}y&amp;=&amp;\frac{5}{2}x+b\\1&amp;=&amp;\frac{5}{2}(3)+b\\\frac{2}{2}&amp;=&amp;\frac{15}{2}+b\\b&amp;=&amp;\frac{13}{2}\end{array}\)</para>
+  <para> OR</para>
+  <para> \(\begin{array}{rcl}y&amp;=&amp;\frac{5}{2}x+b\\6&amp;=&amp;\frac{5}{2}(5)+b\\\frac{12}{2}&amp;=&amp;\frac{25}{2}+b\\b&amp;=&amp;\frac{13}{2}\end{array}\)</para>
+</div>
+<br/>
+<para><emphasis>Step 3</emphasis> - Write the equation in slope-intercept form.<br/>
+  \(y=\frac{5}{2}x+\frac{13}{2}\)</para>
+<br/>
+<title>Try It: Find an Equation Given Two Points</title>
+<br/>
+<!--Q#-->
+<example><exercise>
+  <problem>
+    
+    <para>Find the equation of a line that consists of the points \((1, 4)\) and \((6, 2)\) in slope-intercept form.</para>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>\(y=-\frac{2}{5}x+\frac{22}{5}\)</para>
+  <para><emphasis>Step 1</emphasis> - Find the slope between the two points.<br/>
+    \(m=\frac{2-4}{6-1}=\frac{-2}{5}\)</para>
+  <para><emphasis>Step 2</emphasis> - Choose a point to substitute into slope-intercept form then solve for \(b\). <br/>
+    \(y=mx+b\)</para>
+  <div class="os-raise-d-flex os-raise-justify-content-evenly">
+    <para>\(\begin{array}{rcl}y&amp;=&amp;-\frac{2}{5}x+b\\4&amp;=&amp;-\frac{2}{5}(1)+b\\\frac{20}{5}&amp;=&amp;-\frac{2}{5}+b\\b&amp;=&amp;\frac{22}{5}\end{array}\)</para>
+    <para>OR</para>
+    <para>\(\begin{array}{rcl}y&amp;=&amp;-\frac{2}{5}x+b\\2&amp;=&amp;-\frac{2}{5}(6)+b\\\frac{10}{5}&amp;=&amp;-\frac{12}{5}+b\\b&amp;=&amp;\frac{22}{5}\end{array}\)</para>
+  </div>
+  <br/>
+  <para><emphasis>Step 3</emphasis> - Write the equation in slope-intercept form.<br/>
+    \(y=-\frac{2}{5}x+\frac{22}{5}\) </para>
+</solution></exercise>
+</example><!--Interaction End --> 
+
+</section>
+</content>

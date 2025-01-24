@@ -1,0 +1,192 @@
+<content>
+  <section><title>Factor Trinomials</title>
+<para><emphasis>Example 1</emphasis></para>
+<para>To factor the trinomial \(x^2+8x+12\), you can reverse the process of FOIL.</para>
+<para>The trinomial factors to two binomials of the form \((x+m)(x+n)\).</para>
+<list>
+  <item> Using FOIL: \((x+m)(x+n)=x^2+nx+mx+mn\). </item>
+</list>
+<list>
+  <item> Using the distributive property: \(x^2+(n+m)x+mn\). </item>
+</list>
+<para>Take a look at the trinomial \(x^2+8x+12\):</para>
+<para><image alt="IMAGE SHOWING x^2 + (n + m)x + mn and x^2 + 8x + 12 and arrow pointing from n + m to 8, and an arrow from mn to 12." class="img-fluid atto_image_button_text-bottom" height="112" src="https://k12.openstax.org/contents/raise/resources/94e92ec731c8b8a7659a02270f41163aff2fe48e" width="225"/></para>
+<para>To factor the trinomial, we need factors of 12, \(m\) and \(n\), so that the sum, \(n+m\), is 8.</para>
+<para>Use a table to find all the different combinations of factors of 12. Then, find the sum of the factors.</para>
+<table class="os-raise-midsizetable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">Factors of 12</entry>
+      <entry scope="col" class="emphasis">Sum of factors</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>\(1, 12\)</para>
+      </entry>
+      <entry>
+        <para>\(1 + 12 = 13\)</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(2, 6\)</para>
+      </entry>
+      <entry>
+        <para> \(2 + 6 = 8 &amp;checkmark;\)</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(3, 4\)</para>
+      </entry>
+      <entry>
+        <para>\(3 + 4 = 7\)</para>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<br/>
+<para>The numbers 2 and 6 have a product of 12 and a sum of 8. They are the factors we need:</para>
+<para>\(x^2+8x+12=(x+6)(x+2)\)</para>
+<para><emphasis>Example 2</emphasis></para>
+<para>Factor the trinomial \(x^2-5x-24\).</para>
+<para>To factor the trinomial, we need factors of -24, \(m\) and \(n\), so that the sum, \(n+m\) is -5.</para>
+<list>
+  <item> The product of the factors is negative, so the factors must have opposite signs.  </item>
+  <item> The sum is negative, so the negative sign will go with the factor with the greater absolute value. </item>
+</list>
+<table class="os-raise-midsizetable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">Factors of 12</entry>
+      <entry scope="col" class="emphasis">Sum of factors</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>\(1, −24\)</para>
+        <para>\(2, −12\)</para>
+        <para>\(3, −8\)</para>
+        <para>\(4, −6\)</para>
+      </entry>
+      <entry>
+        <para>\(1 + (−24) = −23\)</para>
+        <para>\(2 + (−12) = −10\)</para>
+        <para>\(3 + (−8) = −5 &amp;checkmark;\)</para>
+        <para>\(4 + (−6) = −2\)</para>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<br/>
+<para>The numbers 3 and -8 have a product of -24 and a sum of -5.</para>
+<para>\(x^2-5x-24=(x+3)(x-8)\)</para>
+<para><emphasis>Example 3</emphasis></para>
+<para>Factor the trinomial \(x^2-9x+18\).</para>
+<para>To factor the trinomial, we need factors of 18, \(m\) and \(n\), so that the sum, \(n+m\), is -9.</para>
+<list>
+  <item> The product of the factors is positive, so the factors must have the same signs.  </item>
+  <item> The sum is negative, so both factors are negative. </item>
+</list>
+<br/>
+<table class="os-raise-midsizetable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">Factors of 18</entry>
+      <entry scope="col" class="emphasis">Sum of factors</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para> \(−1, −18\)</para>
+        <para> \(−2, −9\)</para>
+        <para> \(−3, −6\)</para>
+      </entry>
+      <entry>
+        <para> \(−1 + (−18) = −19\)</para>
+        <para> \(−2 + (−9) = −11\)</para>
+        <para> \(−3 + (−6) = −9 &amp;checkmark;\)</para>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<br/>
+<para>The numbers -3 and -6 have a product of 18 and a sum of -9.</para>
+<para>\(x^2-9x+18=(x-3)(x-6)\)</para>
+<title>Try It: Factoring Trinomials</title>
+<br/>
+<example><exercise>
+  <problem>
+    
+    <para>Factor the trinomial \(x^2+2x-24\).</para>
+  <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para><span>Here is how to factor the trinomial \(x^2+2x-24\).</span><br/></para>
+  <para>To factor the trinomial, we need factors of -24, \(m\) and \(n\), so that the sum, \(n+m\), is 2.</para>
+  <list>
+    <item> The product of the factors is negative, so the factors must have opposite signs.  </item>
+    <item> The sum is positive, so the greater factor is positive. </item>
+  </list>
+  <br/>
+  <table class="os-raise-midsizetable">
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis">Factors of 24</entry>
+        <entry scope="col" class="emphasis">Sum of factors</entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>
+          <para>\(−1, 24\)</para>
+          <para>\(−2, 12\)</para>
+          <para>\(−3, 8\)</para>
+          <para>\(−4, 6\)</para>
+        </entry>
+        <entry>
+          <para>\(−1 + 24 = 23\)</para>
+          <para>\(−2 + 12 = 10\)</para>
+          <para>\(−3 + 8 = 5\)</para>
+          <para>\(−4 + 6 = 2 &amp;checkmark;\)</para>
+        </entry>
+      </row>
+    </tbody>
+  </table>
+  <br/>
+  <para>The numbers 6 and -4 have a product of -24 and a sum of 2.</para>
+  <para>\(x^2+2x-24=(x+6)(x-4)\)</para>
+</solution></exercise>
+</example><br/>
+<title>Check Your Understanding</title>
+<br/>
+<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="d6044b3d-3b2f-4be0-98ef-a98d2159d5eb" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
+  <!--Q#-->
+  <exercise data-content-id="8e67e6b6-8ffe-437f-8758-f0876c913476" data-problem-type="multiplechoice" data-solution="\((y-4)(y-9)\)" data-solution-options="[&quot;\\((y-4)(y-9)\\)&quot;, &quot;\\((y-2)(y+18)\\)&quot;, &quot;\\((y+4)(y+9)\\)&quot;, &quot;\\((y-6)(y-6)\\)&quot;]">
+    <problem>
+      <para>Factor: \(y^2-13y+36\).</para>
+    </problem>
+    <solution>
+      <para>Correct!</para>
+    </solution>
+    </exercise>
+  <!--END QUESTION.-->
+  <!--Do not edit below line.-->
+  <solution>
+    <!-- INSERT ANY VALID HTML HERE -->
+  </solution>
+  <div class="os-raise-ib-pset-encourage-response">
+    <!-- INSERT ANY VALID HTML HERE -->
+  </div>
+</div>
+<title>Videos</title>
+<para>Watch the following video to learn more about factoring trinomials.</para>
+<para>Khan Academy: Factoring Quadratics</para>
+<br/>
+<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
+  <iframe><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" src="https://www.youtube-nocookie.com/embed/1kfq0aR3ASs;&amp;rel=0" title="Factoring quadratics as (x+a)(x+b) (example 2) | Mathematics II | High School Math | Khan Academy"/></iframe>
+</div></section>
+</content>

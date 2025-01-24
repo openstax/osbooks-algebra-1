@@ -1,0 +1,63 @@
+<content>
+  <section><title>The nth Term of a Geometric Sequence</title>
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>The nth Term of a Geometric Sequence</title></para>
+    <para><title/><!--Extra Support Name-->General Term (nth Term) of a Geometric Sequence</para>
+  </note>
+  <div class="os-raise-extrasupport-body"> 
+    <!--Support Content--><para>The general term of a geometric sequence with first term \(a_1\) and the common ratio \(r\) is: \(a_n=a_1r^{n-1}\).</para>
+  </div>
+</div>
+
+<para class="os-raise-text-bold">Example 1</para>
+<para>Write the explicit formula for the sequence given by the terms 3, 2, 43, 89 ...</para>
+<title>Solution: </title>
+<para><emphasis>Step 1- </emphasis>Write the general formula.<br/>
+\(a_n = a_1 (r^{n-1})\)</para>
+<br/>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. <br/>
+\(a_1 = 3\), \(r = \frac23\)<br/>
+\(a_n = 3 (\frac 23)^{n-1}\)</para>
+<para>So, the explicit formula for the sequence 3, 2, 43, 89 ... is \(a_n = 3 (\frac23)^{n-1}\).</para>
+<para>Just like it is with arithmetic sequences, the explicit formula makes finding any term easier to determine - especially term numbers that are very large!</para>
+
+<para class="os-raise-text-bold">Example 2</para>
+
+<para>Find the 14th term of a sequence where the first term is 64 and the common ratio, \(r =\frac 12\). </para>
+<title>Solution:</title>
+<para><emphasis>Step 1 -</emphasis> Write the general formula.<br/>
+\(a_n = a_1 (r^{n-1})\)</para>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number.<br/>
+\(a_1 = 64\), \(r = \frac12\), \(n = 14\)<br/>
+\(a_{14} = 64 (\frac12)^{14-1}\)</para>
+<para><emphasis>Step 3 -</emphasis> Simplify the expression.<br/>
+\(a_{14} = 64 (\frac12)^{13}\)<br/>
+\(a_{14} = 64 (\frac12)^{13}\)<br/>
+\(a_{14} = 64 (\frac{1}{8192})\)<br/>
+\(a_{14} = \frac{1}{128}\)</para>
+ <para>If the explicit formula for this question was needed, we would not have substituted \(n = 14\) and the nth term formula would have been \(a_n = 64 (\frac12)^{n-1}\). </para>
+<br/>
+
+<title>Try It: The nth Term of a Geometric Sequence</title>
+
+<example><exercise>
+  <problem>
+     
+      
+    <para>Find the formula for the nth term of a sequence where the first term is 81 and the common ratio  is \(r=\frac13\).</para>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+    </para>
+  </problem><solution> 
+    <para>Compare your answer:</para>
+<para>Here is how to find the 11th term of the sequence:</para>
+<para><emphasis>Step 1 -</emphasis> Write the general formula.<br/>
+\(a_n=a_1(r^{n-1})\)</para>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. <br/>
+\(a_{11}=81\), \(r=\frac13\)<br/>
+\(a_n = 81 (\frac13)^{n-1}\)
+</para>
+  
+</solution></exercise>
+</example></section>
+</content>

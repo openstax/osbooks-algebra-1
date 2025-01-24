@@ -1,0 +1,122 @@
+<content>
+  <section><title>Representing Sequences</title>
+<para>Let’s look at some more examples for finding the recursive definition of arithmetic and geometric sequences and ways to represent them.</para>
+<para>Example 1:</para>
+<para>An arithmetic sequence, \(a\), begins 11, 7, . . .</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>
+    Write a recursive definition for this sequence using function notation.
+  </item>
+  <item>
+    Sketch a graph of the first 5 terms of this sequence.
+  </item>
+  <item>
+    Explain how to use the recursive definition to find \(a(100)\). (Don’t actually determine the value.)
+  </item>
+</list>
+<para>Solutions:</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>
+    \(a(1)=11, a(n)=a(n-1)-4, n\geq2\)
+  </item>
+  <item>
+  </item>
+</list>
+<para><image src="https://k12.openstax.org/contents/raise/resources/5a18ffb1e1cf2d053ce1861f58f826d34d5d7dbf" width="300"/></para>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>
+    Starting with 11, keep subtracting 4 until you do that 99 times.
+  </item>
+</list>
+<para>Example 2: </para>
+<para>A geometric sequence, \(g\), starts 80, 40, . . .</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>
+    Write a recursive definition for this sequence using function notation.
+  </item>
+  <item>
+    Use your definition to make a table of values for \(g(n)\) for the first 6 terms.
+  </item>
+  <item>
+    Explain how to use the recursive definition to find \(g(100)\). (Don’t actually determine the value.)
+  </item>
+</list>
+<para>Solutions:</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>
+    \(g(1)=80, g(n)= \frac12 \cdot g(n-1), n\geq2\)
+  </item>
+  <item>
+  </item>
+</list>
+<table class="os-raise-horizontaltable">
+
+  <thead/>
+  <tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+        \(n\)
+      </entry>
+      <entry>
+       1
+      </entry>
+      <entry>
+        2
+      </entry>
+      <entry>
+        3
+      </entry>
+      <entry>
+        4
+      </entry>
+      <entry>
+        5
+      </entry>
+      <entry>
+        6
+      </entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">
+        \(g(n)\)
+      </entry>
+      <entry>
+        80
+      </entry>
+      <entry>
+        40
+      </entry>
+      <entry>
+        20
+      </entry>
+      <entry>
+        10
+      </entry>
+      <entry>
+       5
+      </entry>
+      <entry>
+        2.5
+      </entry>
+    </row>
+  </tbody>
+</table><br/>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>
+    Starting with 80, keep dividing by 2 until you do that 99 times.
+  </item>
+</list>
+<title>Try It: Representing Sequences</title>
+<para>Write a recursive definition for \(P(n)\), the sequence below:</para>
+<example><exercise>
+  <problem>
+    
+    <para>1, 2, 4, 8, 16</para>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+    </para>
+  </problem><solution>
+  <para>Here is how to write the recursive definition for \(P(n)\):</para>
+  <para>First: \(P(1)=1\), then each term is 2 times the previous term, so \(P(n)=2P(n-1), n\geq2\).</para>
+</solution></exercise>
+</example></section>
+</content>
