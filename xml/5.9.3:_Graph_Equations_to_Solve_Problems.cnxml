@@ -1,0 +1,225 @@
+<content>
+  <section><title>Activity</title>
+<list class="os-raise-noindent" type="enumerated">
+  <item> The thickness \(t\) in millimeters of a folded sheet of paper after it is folded \(n\) times is given by the equation \(t=(0.05) \cdot 2^n\).</item>
+</list>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> What does the number 0.05 represent in the equation? </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>The sheet of paper is 0.05 mm thick. </para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> What does the number 2 represent in the equation? </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>The number 2 indicates that the thickness doubles with each increment of \(n\), the number of folds. </para>
+  </solution></exercise>
+
+<!--Interaction End -->
+<example><exercise>
+  <problem>
+    
+    <para> Use graphing technology to graph the equation \(t=(0.05) \cdot 2^n\). </para>
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para> Here is a table of values for the thickness of the paper after different numbers of folds: </para>
+  <table>
+    <tgroup cols="2"><thead>
+      <row>
+        <entry>\(n\)</entry>
+        <entry>\(t\)</entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>
+          0
+        </entry>
+        <entry>
+          0.05
+        </entry>
+      </row>
+      <row>
+        <entry>
+          1
+        </entry>
+        <entry>
+          0.1
+        </entry>
+      </row>
+      <row>
+        <entry>
+          2
+        </entry>
+        <entry>
+          0.2
+        </entry>
+      </row>
+      <row>
+        <entry>
+          3
+        </entry>
+        <entry>
+          0.4
+        </entry>
+      </row>
+      <row>
+        <entry>
+          4
+        </entry>
+        <entry>
+          0.8
+        </entry>
+      </row>
+      <row>
+        <entry>
+          5
+        </entry>
+        <entry>
+          1.6
+        </entry>
+      </row>
+    </tbody>
+  </tgroup></table>
+  <media><image alt="7 points on coordinate plane, showing exponential growth. Horizontal axis from 0 to 8, labeled number of folds. Vertical axis from 0 to 4, labeled thickness in millimeters." src="https://k12.openstax.org/contents/raise/resources/ddc0e3176eeb7477a4126cedf70ddd1728f0c8b8"/></media></solution></exercise>
+</example><!--Interaction End -->
+<div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> How many folds does it take before the folded sheet of paper is more than 1 mm thick? How many folds before it is more than 1 cm thick? Explain how you know. </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>It takes 5 folds before the paper is more than 1 mm thick. After 4 folds, the paper is 0.8 mm thick, and after 5 folds, it is 1.6 mm thick. It takes 8 folds before the paper is more than 1 cm or 10 mm thick (1.28 cm to be precise). </para>
+  </solution></exercise>
+<!--Interaction End -->
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>The area of a sheet of paper is 93.5 square inches.</item>
+</list>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> Find the remaining visible area of the sheet of paper after it is folded in half once, twice, and three times. </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>46.75, 23.375, 11.6875 square inches</para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> Write an equation expressing the visible area \(a\) of the sheet of paper in terms of the number of times it has been folded, \(n\). </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>\( a=93.5 \cdot (\frac{1}{2})^n\) </para>
+  </solution></exercise>
+<!--Interaction End -->
+<example><exercise>
+  <problem>
+    
+    <para> Use graphing technology to graph the equation.</para>
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <media><image alt="7 points on coordinate plane, showing exponential decay. Horizontal axis from 0 to 10, labeled number of folds. Vertical axis from 0 to 100, labeled area in square inches." src="https://k12.openstax.org/contents/raise/resources/4f47b33528798e3680054e0b7ca6e52f368f53d5"/></media></solution></exercise>
+</example><div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> In this context, can \(n\) take negative values? Be prepared to show your reasoning. </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>The variable \(n\)<emphasis> </emphasis>cannot take negative values (unless the original sheet of paper can be unfolded). </para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Can \(a\) take negative values? Be prepared to show your reasoning. </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>No. The area of the sheet of paper can never be negative, no matter how many times it is folded.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<example><exercise>
+  <problem>
+    
+    <para> Identify the domain of the graph using an inequality.</para>
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>\(n \geq 0\) </para>
+</solution></exercise>
+</example><example><exercise>
+  <problem>
+    
+    <para> Identify the range of the graph using an inequality. </para>
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>\(0&lt;a \leq 93.5\). Note that the area cannot be negative, or even 0, because the paper will not disappear. </para>
+</solution></exercise>
+</example><example><exercise>
+  <problem>
+    
+    <para>What equation represents the horizontal asymptote? </para>
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>\(y=0\) </para>
+</solution></exercise>
+</example><!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> Use the equation to make a prediction of the thickness with 7 folds.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>\(t=(0.05) \cdot 2^7=(0.05)(128)=6.4\)</para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>The \(y\)-intercept represents the initial thickness of the paper \(t\) before folding (when \(n\) is zero). Calculate the value of the \(y\)-intercept.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>\(t=(0.05) \cdot 2^0=(0.05)(1)=0.05\)</para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> The asymptote represents the possible limit of thickness of the paper as it is folded. What does this mean? </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>In this equation, the value of thickness of the paper \(t\) becomes larger as the number of folds \(n\) increases (approaches infinity). This means that, as the paper is folded an increasing number of times, the thickness has the potential to be infinite, but in reality, it can never quite reach it.</para>
+  </solution></exercise>
+<!--Interaction End --></section>
+</content>

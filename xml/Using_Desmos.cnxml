@@ -1,0 +1,123 @@
+<content>
+  <section><para>Throughout the Algebra I curriculum, you will find Desmos activities and graphing calculators embedded in lessons. Desmos activities are interactive online problem sets located on the Desmos website. They can be assigned to your students and graded automatically if you have a Desmos account. Desmos graphing calculators are interactive online graphs embedded under graphing problems in the Algebra I course. Note, the embedded calculator adheres to instructional requirements, not assessment requirements.</para>
+<para>We have created a how-to guide with helpful screenshots and links to help you and your students use Desmos. If you need additional help, <link url="https://help.desmos.com/hc/en-us/articles/4406040715149-Getting-Started-Desmos-Graphing-Calculator">view the official Desmos guide</link>.</para>
+
+<title>I. Understanding Desmos Tools</title>
+<media><image src="https://k12.openstax.org/contents/raise/resources/4240832a6622351bac165af4464b8cada7afbbb2" alt="Labeled Graph"/>
+</media><list type="enumerated">
+    <item><emphasis>View and change graph settings</emphasis>
+        <list>
+            <item>Change limits of the x- and \(y\)-axis and the scale for each</item>
+            <item>Toggle display color and font size</item>
+            <item>Toggle between radians and degrees</item>
+            <item>Turn on Braille mode</item>
+        </list>
+    </item>
+    <item><emphasis>Zoom in:</emphasis> focus on one part of the graph and see less of the rest of it</item>
+    <item><emphasis>Zoom out:</emphasis> see less of one part of the graph and more of the rest of it</item>
+    <item><emphasis>Reset zoom:</emphasis> return to default window where \(-10 ≤ x ≤ 10\) and \(-10 ≤ y ≤ 10\).</item>
+    <item><emphasis>Undo:</emphasis> undo your last action</item>
+    <item><emphasis>Redo:</emphasis> redo your last action</item>
+    <item><emphasis>Edit expression list:</emphasis>
+        <list>
+            <item>Quickly copy or delete expressions in the expression list</item>
+            <item>Convert expressions to tables</item>
+            <item>Select the colored dot to the left of the expression to change the line's color, thickness, opacity, and line type</item>
+            <item>Quickly clear graph</item>
+        </list>
+    </item>
+    <item><emphasis>Hide left window:</emphasis> collapse or expand the window containing the expression list</item>
+    <item><emphasis>Add special item to expression list:</emphasis> add an
+        <list>
+            <item>expression, an equation of a line;</item>
+            <item>note, a text description or note about the graph (a good scaffold to support differentiation);</item>
+            <item>table, a basic table where you can input x- and y-coordinates;</item>
+            <item>image, a resizable image from your computer</item>
+        </list>
+    </item>
+    <item><emphasis>Open math keyboard:</emphasis> open a digital keypad that allows you to quickly add special math functions and symbols, like \(sin\) or ÷, to your expression. View our guide to the Desmos math keyboard below.</item>
+    <list>
+    <item>Tip: You can use your physical, non-Desmos keyboard to type math and interact with the graph. To learn more check out these guides <link url="https://www.purplemath.com/modules/mathtext.htm">Math Notation Guide by PurpleMath</link> and <link url="https://help.desmos.com/hc/en-us/articles/4405966811021-Keyboard-Shortcuts">Desmos Keyboard Shortcuts</link></item></list>
+</list>
+<media><image src="https://k12.openstax.org/contents/raise/resources/b7c830a744d067cc53e821c7e23bb6cdfc5c533d" alt="Labeled keyboard"/>
+</media><title>II. Graphing Regressions Using the Desmos Graphing Calculator</title>
+<para>You can use Desmos to graph a regression, regression line, regression curve, scatter plot, stat plot, and create a line of best fit. Check out our guide to using these features in Desmos, if you have additional questions, <link url="https://help.desmos.com/hc/en-us/articles/4406972958733-Regressions">view the official Desmos regressions guide</link>.</para>
+<div class="os-raise-d-flex os-raise-gap-1 os-raise-justify-content-evenly">
+    <div>
+        <media><image src="https://k12.openstax.org/contents/raise/resources/c11cf8a66b838d90398e57c7cccad42702fec8c5" alt="Scatter Plot"/>
+        </media><figcaption>Image 1</figcaption>
+    </div>
+    <div>
+
+        <media><image src="https://k12.openstax.org/contents/raise/resources/bbef16753e5a52db0bb3bdaecea2eede4eae851f" alt="Line of Best Fit"/>
+        </media><figcaption>Image 2</figcaption>
+        <div>
+
+        </div>
+    </div>
+</div>
+<title>Creating a Scatter Plot from a Table (Image 1)</title>
+<list type="enumerated">
+    <item>On the Desmos graphing calculator, click the + button in the top left corner and add a table. </item>
+
+<item>You can copy and paste an existing table in, or enter it manually. On the left side of the table, type the first x-coordinate from your reference table. On the right side, type the first y-coordinate. This will create a point on your graph. </item>
+<item>Go to the next line of the table and repeat until all coordinates have been entered. Inputting all the coordinates will create a graph called a scatter plot, pictured above and left.</item>
+<list><item>Tip: If you do not see your point graphed in the Desmos window, you may need to “Zoom” or change the graph settings for the window.</item></list>
+
+</list>
+
+<title>Creating a Line of Best Fit on a Scatter Plot (Image 2)</title>
+<list type="enumerated">
+    <item>To create a line or curve that approximates the data trend, calculate a regression. Depending on the type of data (linear, exponential, or quadratic), the format of the regression equation will differ:</item>
+    <list>
+        <item>Linear: \(y_{1} ~ mx_{1} + b\)</item>
+        <item>Exponential: \(y_{1} ~ ax_{1}b\)</item>
+        <item>Quadratic: \(y_{1} ~ ax_{1}^2 + bx_{1} + c\)</item>
+    </list>
+    <item>Click the pointer below the table into entry box #2 to enter a new function. The cursor should start blinking. Enter the correct equation you found in step 4 using the following tips:</item>
+    <list>
+        <item>Notice that when you type the "1" after \(y\) or \(x\), Desmos automatically places it as subscript.</item>
+        <item>Also notice that we are not using an equal sign. The symbol ~ means approximately and tells Desmos to approximate a line or curve of best fit. On your keyboard, you can type it with Shift+` (in the top left corner). If you are using the Desmos on-screen keyboard, it will be in the ABC/symbol keyboard.</item>
+        <item>To type an exponent, use the ^ symbol on your physical keyboard. You can type it using Shift+6. You can also use the Desmos keyboard button \(a^2\) or \(a^b\).</item>
+    </list>
+    <item>Once you have entered the regression equation, you can press Enter. The graph of the line or curve of best fit will appear. Pictured above and right is a quadratic curve of best fit. Desmos will also report correlation statistics such as \(r\) and \(R^2\), as well as the \(a\) value, \(b\) value, and \(c\) value in the expression list below the quadratic equation you entered.</item>
+    <list>
+        <item>Tip: The window should be appropriately set to display the points in the table, but sometimes you have to adjust the window of the graph in order to properly view your data set. Click and drag the mouse to shift the viewing window. To zoom in or out, use the buttons in the top right or the scrolling wheel on the mouse. Or, edit the graph settings.</item>
+        <item>Tip: If you are having difficulty finding the correlation coefficient, \(r\), type the command \(‘corr (𝑥_{1},y_{1})’\) on another expression line. It may also be helpful to check the accuracy of the data entered into the \(𝑥_{1}\) and \(𝑦_{1}\) columns of the table.</item>
+    </list>
+    
+</list>
+
+<title>III. Desmos Activities</title>
+<para><emphasis>Instructional and Assessment Calculators</emphasis></para>
+<para>The calculator embedded in RAISE is the version designed for instructional use. As a result, it contains some capabilities that are not allowed on state or national standardized tests. Be sure to check your state website or <link url="https://www.desmos.com/testing">www.desmos.com/testing</link> to find more information about the specific features permitted on exams your students will be taking.</para>
+
+<title>Accessing and Assigning Activities</title>
+<media><image src="https://k12.openstax.org/contents/raise/resources/ad93e1f2fb275d8aa4b24c2c39afe50f22ab5f0b" alt="Accessing Desmos Activities"/>
+</media><para>Desmos activities are different from the graphing calculator application because they lead students through one or more interactive tasks. As students progress through the activity, teachers may use the Teacher Dashboard to monitor student responses and use them for whole group discussion. Activities may also be set to identify student responses that are correct or incorrect. For more support with using Desmos activities, view the <link url="https://help.desmos.com/hc/en-us/articles/4405326707853-Getting-Started-Classroom-Activities">Desmos classroom activities guide</link>.</para>
+<list>
+    <item>If you have not already created a free account, access <link url="https://teacher.desmos.com">teacher.desmos.com</link> and create your account. You can search for the activity using the title from the RAISE lesson or use the link provided in the lesson.</item>
+    <item>Once you have selected the activity, hit the <emphasis>Assign</emphasis> button and set up a <emphasis>Single Session Code</emphasis>. If you have experience with Desmos activities and have already set up your classes within the program, you may prefer to assign the activity to your classes.</item>
+    <item>Once you have created your code, scroll down to <emphasis>Activity Sessions</emphasis> and select <emphasis>View Dashboard</emphasis>. You can either share the invitation link or the 6-letter code for students to join on <link url="https://student.desmos.com">student.desmos.com</link>.</item>
+    <item>Review the activity to identify locations where students may struggle and key concepts you wish to highlight.</item>
+</list>
+
+<title>Editing Activities</title>
+<media><image src="https://k12.openstax.org/contents/raise/resources/93af8482b0c955e38fe11e2697fbe4ca08133d9f" alt="Labeled Problem Editor"/>
+</media><para>After making a copy, teachers can edit each RAISE activity to best suit their classroom.</para>
+<list>
+    <item>If you have not already created a free account, access <link url="https://teacher.desmos.com">teacher.desmos.com</link> and create your account. You can search for the activity using the title from the RAISE lesson or use the link provided in the lesson.</item>
+    <item>Once you have selected the activity, look to the right of its title and find a button that looks like three dots stacked vertically. Select the button and click 'Copy and Edit' on the menu that opens.</item>
+    <item>You should now be on a new page, pictured above. Here, you can edit, rearrange, add, or delete problems.
+        <list>
+            <item>Switch between problems by clicking the numbered squares at the top of the screen. Click, drag, and release problems in the list of numbered squares to reorder them.</item>
+            <item>Delete entire problems by selecting the X button in the top right corner of the numbered problem. Be careful, as you <emphasis>cannot undo</emphasis> this action.</item>
+            <item>For more customization, you can change each problem by editing their 'components'. Components are the content of each problem, such as text, images, and answer boxes. They appear as 'cards' in each problem, small squares with a preview of its content.</item>
+            <item>You can edit each component by clicking on its card. Add components by selecting the component type you want from the left window. Delete an existing component by clicking the button on its card that looks like three dots, and then selecting 'Delete Component'.</item>
+        </list>
+    </item>
+    <item>Once you have finished editing the activity, click 'Publish' in the top right corner of the page. Then, follow the instructions on how to assign an activity above.</item>
+</list>
+
+</section>
+</content>

@@ -1,0 +1,304 @@
+<content>
+  <section><title>Activity (15 minutes)</title>
+<para>Students continue to compare quadratic and exponential functions in this activity. This time, they decide how to
+  compare the functions.</para>
+<para>Monitor for different strategies students may use to compare the functions. Identify students who:</para>
+<list>
+  <item> Create one or more tables of values and compare the values of \(p(x)\) and \(q(x)\) at increasingly large values
+    of \(x\). </item>
+  <item> Graph the functions defined by \(p(x)=6x^2\) and \(q(x)=3^x\) and compare the graphs. </item>
+  <item> Create one or more tables of values, calculate the growth factors at equal intervals of input, and then compare
+    the growth factors. </item>
+</list>
+<para>If students choose graphing or spreadsheet tools strategically to perform comparisons, they are demonstrating an
+  understanding of the benefits of different strategies.</para>
+<title>Launch</title>
+<para>Ask students to observe the equations representing the two functions and determine which function is exponential and
+  which is quadratic. Invite students to share how they know. Make sure students recognize that \(p\) is quadratic and
+  \(q\) is exponential before they begin the activity.</para>
+<para>Provide access to graphing technology and spreadsheet tools. This may be a good opportunity for students to
+  experiment with the graphing window. If the horizontal dimension is very small (for example, \(0&lt;x&lt;5\)) or the
+  vertical dimension is very large (for example,\(0&lt;y&lt;3,000\)), the two graphs will be hard to distinguish. As
+  needed, remind students to think about adjusting the graphing window to make the graphs more informative.</para>
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for English Language Learners</title></para>
+    <para><title>MLR 2 Collect and Display: Conversing</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+    <para> As students share their analysis with the class, listen for and
+      collect the language students use to identify and describe how the output of the exponential function eventually
+      outgrows that of the quadratic function. Write the students' words and phrases on a visual display and update it
+      throughout the remainder of the lesson. Remind students to borrow language from the display as needed. This will
+      help students read and use mathematical language during their partner and whole-group discussions.</para>
+    <para class="os-raise-text-italicize"> Design
+      Principle(s): Maximize meta-awareness</para>
+    <para class="os-raise-extrasupport-title">Provide support for students</para>
+    <para>
+      <link url="https://k12.openstax.org/contents/raise/resources/3765a3cff09304aea8d8db39295b1c00ffd0c12f">Distribute graphic organizers</link>
+      to the students to assist them with participating in this routine.
+    </para>
+  </div>
+</div>
+<title>Student Activity</title>
+<para>Here are two functions: \(p(x)=6x^2\) and \(q(x)=3^x\).</para>
+<para>Investigate the output of \(p\) and \(q\) for different values of \(x\). For large enough values of \(x\), one
+  function will have a greater value than the other.</para>
+<para>Which function will have a greater value as \(x\) increases?</para>
+<para>Support your answer with tables, graphs, or other representations.</para>
+<para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<para><emphasis>Answer:</emphasis> \(q\) is larger when \(x=0\) and again when \(x=5\). Once \(x\) is larger than \(5\), \(q\)
+  is growing much more quickly, as shown in the table.</para>
+<table>
+  <tgroup cols="3"><thead>
+    <row>
+      <entry> </entry>
+      <entry>\(p(x)\)</entry>
+      <entry>\(q(x)\)</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>\(0\)</entry>
+      <entry>\(0\)</entry>
+      <entry>\(1\)</entry>
+    </row>
+    <row>
+      <entry>\(1\)</entry>
+      <entry>\(6\)</entry>
+      <entry>\(3\)</entry>
+    </row>
+    <row>
+      <entry>\(2\)</entry>
+      <entry>\(24\)</entry>
+      <entry>\(9\)</entry>
+    </row>
+    <row>
+      <entry>\(3\)</entry>
+      <entry>\(54\)</entry>
+      <entry>\(27\)</entry>
+    </row>
+    <row>
+      <entry>\(4\)</entry>
+      <entry>\(96\)</entry>
+      <entry>\(81\)</entry>
+    </row>
+    <row>
+      <entry>\(5\)</entry>
+      <entry>\(150\)</entry>
+      <entry>\(243\)</entry>
+    </row>
+    <row>
+      <entry>\(6\)</entry>
+      <entry>\(216\)</entry>
+      <entry>\(729\)</entry>
+    </row>
+    <row>
+      <entry>\(7\)</entry>
+      <entry>\(294\)</entry>
+      <entry>\(2,187\)</entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<para>Alternatively, here is a graph showing the plotted values from the table and another showing \(y=p(x)\) and
+  \(y=q(x)\).</para>
+<media><image alt="A graph showing the plotted values from the table." src="https://k12.openstax.org/contents/raise/resources/b97213610fd3c72fe39f2131e5e5e063b9d38db1"/></media><media><image alt="Graphs of q and p on same graph." src="https://k12.openstax.org/contents/raise/resources/23262d28b2176518cfc60ae1e8b2aa4c23a77992"/></media><title>Student Facing Extension</title>
+<title>Are you ready for more?</title>
+<list class="os-raise-noindent" type="enumerated">
+  <item>Janna says that some exponential functions grow more slowly than the quadratic function as \(x\) increases. Do you
+    agree with Janna? Be prepared to show your reasoning.</item>
+</list>
+<para><emphasis>Answer:</emphasis> Yes. This is true for the functions \(g(x)=(1 \frac {1}{2})x\) and \(f(x)=x^2\) as \(x\)
+  increases for \(x\)-values less than \(10\).</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Could you have an exponential function \(g(x)=b^x\) so that \(g(x)&lt;f(x)\) for all values of \(x\)?</item>
+</list>
+<para><emphasis>Answer:</emphasis> No, \(g(0)&gt;f(0)\) for all values of \(b\) (except \(0\)), because \(b^0=1\) and
+  \(0^2=0\). (If \(b=0\), there are problems if \(x\leq 0\), so this is not usually considered an exponential function.)
+</para>
+<title>Video: Comparing Exponential and Quadratic Functions</title>
+<para>Watch the following video to learn more about functions.</para>
+<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
+  <iframe><video controls="true" crossorigin="anonymous">
+      <source src="https://k12.openstax.org/contents/raise/resources/a3e459a0bf5aade786458e33de808ab06fbd6993">
+      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/b565aa6188289f4173de077195d4ebf7fd904c9b" srclang="en_us">
+      https://k12.openstax.org/contents/raise/resources/a3e459a0bf5aade786458e33de808ab06fbd6993
+    </track></source></video></iframe>
+</div>
+<title>Activity Synthesis</title>
+<para>Select students to present their strategies in the sequence listed in the Activity Narrative. If no students chose to
+  graph the functions, consider displaying the graphs for all to see. By presenting strategies that involve the
+  calculation of growth factors last, students will deepen their understanding of why exponential values will eventually
+  overtake the quadratic values.</para>
+<para>Again, one way to make sense of why exponential functions eventually grow faster than quadratic functions is by
+  thinking of the growth factors. The output of an exponential function always increases by the same factor when the
+  input increases by \(1\) (for example, \(3\) for the exponential function \(q\) studied here). The output of a
+  quadratic function, in contrast, increases by smaller and smaller amounts when the input increases by \(1\). So even
+  though a quadratic function may take larger values than an exponential function for many inputs, the values of the
+  exponential function will eventually overtake the quadratic function.</para>
+<title>7.4.3: Self Check</title>
+<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts
+    explored in the activity.</emphasis></para>
+<para class="os-raise-text-bold">QUESTION:</para>
+<para>Which of the following has the greatest value as \(x\) increases?</para>
+<table>
+  <tgroup cols="2"><thead>
+    <row>
+      <entry>Answers</entry>
+      <entry>Feedback</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>\(y=4 \cdot x^2\)</entry>
+      <entry>Incorrect. Let’s try again a different way: This quadratic function will increase as \(x\) increases but
+        will not have the greatest value when compared to an exponential growth function. The answer is \(y=4^x\).</entry>
+    </row>
+    <row>
+      <entry>\(y=4^x\)</entry>
+      <entry>That’s correct! Check yourself: This is an exponential function with a growth factor of \(4\), which
+        will have the greatest value as \(x\) increases.</entry>
+    </row>
+    <row>
+      <entry>\(y=4x\)</entry>
+      <entry>Incorrect. Let’s try again a different way: This function is linear and has a constant difference of 4,
+        but that will not increase as much as an exponential function. The answer is \(y=4^x\).</entry>
+    </row>
+    <row>
+      <entry>\(y=(\frac {1}{4})^x\)</entry>
+      <entry>Incorrect. Let’s try again a different way: This has a growth factor of \(\frac {1}{4}\), which will
+        decay, not increase. The answer is \(y=4^x\).</entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<title>7.4.3: Additional Resources</title>
+<emphasis><emphasis>
+    <para>The following content is available to students who would like more support based on their experience with the
+      self check. Students will not automatically have access to this content, so you may wish to share it with those
+      who could benefit from it.</para>
+  </emphasis></emphasis>
+<title>Exponential versus Quadratic Functions</title>
+<para>For each of the two functions, do the following:</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item> Complete the table of values. </item>
+  <item> Sketch a graph. </item>
+  <item> Decide whether each function is linear, quadratic, or exponential, and be prepared to explain how you know. </item>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <item> \(f(x)=3\cdot 2^x\)</item>
+</list>
+<table>
+  <tgroup cols="7"><thead/>
+  <tbody>
+    <row>
+      <entry>\(x\)</entry>
+      <entry>\(-1\)</entry>
+      <entry>\(0\)</entry>
+      <entry>\(1\)</entry>
+      <entry>\(2\)</entry>
+      <entry>\(3\)</entry>
+      <entry>\(5\)</entry>
+    </row>
+    <row>
+      <entry>\(f(x)\)</entry>
+      <entry>\(\frac{3}{2}\) or equivalent </entry>
+      <entry>\(3\)</entry>
+      <entry>\(6\)</entry>
+      <entry>\(12\)</entry>
+      <entry>\(24\)</entry>
+      <entry>\(96\)</entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<media><image src="https://k12.openstax.org/contents/raise/resources/88922da47465d7b4e2be357a2e6d1c8b87bb093b"/></media><para>This function is exponential. It has a growth factor of \(2\).</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>\(g(x)=3\cdot x^2\)</item>
+</list>
+<table>
+  <tgroup cols="7"><thead/>
+  <tbody>
+    <row>
+      <entry>\(x\)</entry>
+      <entry>\(-1\)</entry>
+      <entry>\(0\)</entry>
+      <entry>\(1\)</entry>
+      <entry>\(2\)</entry>
+      <entry>\(3\)</entry>
+      <entry>\(5\)</entry>
+    </row>
+    <row>
+      <entry>\(g(x)\)</entry>
+      <entry>\(3\) </entry>
+      <entry>\(0\)</entry>
+      <entry>\(3\)</entry>
+      <entry>\(12\)</entry>
+      <entry>\(27\)</entry>
+      <entry>\(75\)</entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<media><image src="https://k12.openstax.org/contents/raise/resources/c9c483e847a71d346d069f57164ded7e77f81809"/></media><para>This function is not linear because it does not have a constant rate of change, and it is not exponential because it
+  does not have a constant growth factor. The function is quadratic because it can be represented by \(g(x)=3x^2\),
+  which has \(x\) to the second power, and that is the greatest power.</para>
+<para>Note: Between \(f(x)\) and \(g(x)\), \(f(x)\) will have the greater value as \(x\) increases.</para>
+<title>Try It: Exponential versus Quadratic Functions</title>
+<para>Which of the following has the greater value as \(x\) increases, \(f(x)\) or \(g(x)\)?</para>
+<para>\(f(x)=3x^2\)</para>
+<para>\(g(x)=3^x\)</para>
+<para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<title>Solution</title>
+<para>Here is how to determine which function has the greater value as \(x\) increases:</para>
+<para>Make a table of values for each function, and then graph the function:</para>
+<table>
+  <tgroup cols="8"><thead/>
+  <tbody>
+    <row>
+      <entry>\(x\)</entry>
+      <entry>\(-2\)</entry>
+      <entry>\(-1\)</entry>
+      <entry>\(0\)</entry>
+      <entry>\(1\)</entry>
+      <entry>\(2\)</entry>
+      <entry>\(3\)</entry>
+      <entry>\(4\)</entry>
+    </row>
+    <row>
+      <entry>\(f(x)=3x^2\)</entry>
+      <entry>\(12\)</entry>
+      <entry>\(3\)</entry>
+      <entry>\(0\)</entry>
+      <entry>\(3\)</entry>
+      <entry>\(12\)</entry>
+      <entry>\(27\)</entry>
+      <entry>\(48\)</entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<media><image alt="" role="presentation" src="https://k12.openstax.org/contents/raise/resources/f4631cb9d02c271990fc27002a5536212ecd6a16"/></media><table>
+  <tgroup cols="8"><thead/>
+  <tbody>
+    <row>
+      <entry>\(x\)</entry>
+      <entry>\(-2\)</entry>
+      <entry>\(-1\)</entry>
+      <entry>\(0\)</entry>
+      <entry>\(1\)</entry>
+      <entry>\(2\)</entry>
+      <entry>\(3\)</entry>
+      <entry>\(4\)</entry>
+    </row>
+    <row>
+      <entry>\(g(x)=3^x\)</entry>
+      <entry>\(\frac {1}{9}\)</entry>
+      <entry>\(\frac {1}{3}\)</entry>
+      <entry>\(1\)</entry>
+      <entry>\(3\)</entry>
+      <entry>\(9\)</entry>
+      <entry>\(27\)</entry>
+      <entry>\(81\)</entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<media><image alt="" role="presentation" src="https://k12.openstax.org/contents/raise/resources/6ead768f506e99b9144290b0b041f973f9159381"/></media><para>Looking at both the table of values and the graphs, \(g(x)\) will have a greater value than \(f(x)\) as \(x\)
+  increases. This is because \(g(x)\) is exponential and has a constant growth factor.</para></section>
+</content>

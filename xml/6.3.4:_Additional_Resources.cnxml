@@ -1,0 +1,144 @@
+<content>
+  <section><para>In this unit, remember to double click on mathematical expressions/equations to enlarge, if needed.</para>
+<title>Dividing Polynomial Functions</title>
+<para>Just as polynomials can be divided, polynomial functions can also be divided.</para>
+<div>
+  <para><emphasis> DIVISION OF POLYNOMIAL FUNCTIONS </emphasis></para>
+  <hr/>
+  <para>For functions \(f(x)\) and \(g(x)\), where \(g(x) \neq 0\),</para>
+  <para>\((\frac{f}{g})(x)=\frac{f(x)}{g(x)}\)</para>
+</div>
+<para class="os-raise-text-bold">Example 1</para>
+<para>For functions \(f(x)=x^2-5x-14\) and \(g(x)=x+2\):</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>Find \((\frac{f}{g})(x)\).</item>
+</list>
+<para><emphasis>Step 1 -</emphasis> \((\frac{f}{g})(x)=\frac{f(x)}{g(x)}\)  Substitute for \(f(x)\) and \(g(x)\).</para>
+<para> \((\frac{f}{g})(x)=\frac{f(x)=x^2-5x-14}{x+2}\)</para>
+<para><emphasis>Step 2 -</emphasis> Divide the polynomials using long division.</para>
+<para> \[\begin{array}{l}\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,x - 7\\x + 2\left){\vphantom{1{{x^2} - 5x - 14}}}\right.</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Find \((\frac{f}{g})(-4)\).</item>
+</list>
+<para><emphasis>Step 1 -</emphasis> In part (1), we found \((\frac{f}{g})(x)\).</para>
+<para> \((\frac{f}{g})(x)=x−7\)</para>
+<para><emphasis>Step 2 - </emphasis>To find \((\frac{f}{g})(-4)\), substitute \(x=-4\).</para>
+<para> \((\frac{f}{g})(-4)=-4-7\)</para>
+<title>Try It: Dividing Polynomial Functions</title>
+<example><exercise>
+  <problem>
+    
+    <para>For functions \(f(x)=x^2-5x-36\) and \(g(x)=x+4\):</para>
+    <para>Find \((\frac{f}{g})(x)\). </para>
+    <para>Find \((\frac{f}{g})(-5)\). </para>
+    <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Here is how to solve these polynomial function division problems:</para>
+  <list class="os-raise-noindent" type="enumerated">
+    <item>\((\frac{f}{g})(x) = \frac{x^2-5x-36}{x+4}=x-9\) </item>
+  </list>
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item>\((\frac{f}{g})(-5)=x-9=(-5)-9=-14\) </item>
+  </list>
+</solution></exercise>
+</example><title>Using the Remainder Theorem</title>
+<para>Let’s look at some division problems and their remainders. They are summarized in the chart below. If we take the dividend from each division problem and use it to define a function, we get the functions shown in the chart. When the divisor is written as \(x - c\), the value of the function at \(c\), \(f(c)\), is the same as the remainder from the division problem.</para>
+<table>
+  <tgroup cols="5"><thead>
+    <row>
+      <entry>Dividend</entry>
+      <entry>Divisor</entry>
+      <entry>Remainder</entry>
+      <entry>Function</entry>
+      <entry>\(f(c)\)</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>\(x^4-7x^2+7x+6\)</para>
+      </entry>
+      <entry>
+        <para>\(x - (-3)\)</para>
+      </entry>
+      <entry>
+        <para>\(3\)</para>
+      </entry>
+      <entry>
+        <para>\(f(x)=x^4-7x^2+7x+6\)</para>
+      </entry>
+      <entry>
+        <para>\(f(-3)=3\)</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(f(x)=3x^3-2x^2-10x+8\)</para>
+      </entry>
+      <entry>
+        <para>\(x - (-3)\)</para>
+      </entry>
+      <entry>
+        <para>\(-61\)</para>
+      </entry>
+      <entry>
+        <para>\(f(x)=3x^3-2x^2-10x+8\)</para>
+      </entry>
+      <entry>
+        <para>\(f(-3)=-61\)</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(x^4-16x^2+3x+15\)</para>
+      </entry>
+      <entry>
+        <para>\(x - (-4)\)</para>
+      </entry>
+      <entry>
+        <para>\(3\)</para>
+      </entry>
+      <entry>
+        <para>\(f(x)=x^4-16x^2+3x+15\)</para>
+      </entry>
+      <entry>
+        <para>\(f(-4)=3\)</para>
+      </entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<para>To see this more generally, we realize we can check a division problem by multiplying the quotient times the divisor and adding the remainder. In function notation, we could say: To get the dividend \(f(x)\), we multiply the quotient, \(q(x)\), times the divisor, \(x-c\), and add the remainder, \(r\).</para>
+<para>\(f(x)=q(x)(x-c)+r\)</para>
+<para> If we evaluate this at \(c\), we get:</para>
+<para>This leads us to the Remainder Theorem.</para>
+<note>
+  <para><emphasis>REMAINDER THEOREM</emphasis></para>
+  <hr/>
+  <para>If the polynomial function \(f(x)\) is divided by \(x-c\), then the remainder is \(f(c)\).</para>
+</note>
+<para class="os-raise-text-bold">Example 2</para>
+<para>Use the Remainder Theorem to find the remainder when \(f(x)=x^3+3x+19\) is divided by \(x + 2\).</para>
+<para>To use the Remainder Theorem, we must use the divisor in the \(x-c\) form. We can write the divisor \(x+2\) as \(x-(-2)\). So, our \(c\) is \(-2\).</para>
+<para>To find the remainder, we evaluate \(f(c)\), which is \(f(-2)\).</para>
+<para>\(f(x)=x^3+3x+19\)</para>
+<para><emphasis>Step 1 -</emphasis> To evaluate \(f(-2)\), substitute \(x=-2\).</para>
+<para> \(f({\style{color:red}-}{\style{color:red}2})=({\style{color:red}-}{\style{color:red}2})^3+3({\style{color:red}-}{\style{color:red}2})+19\)</para>
+<para><emphasis>Step 2 -</emphasis> Simplify. </para>
+<para> \(f(-2)=(-8)-6+19\) </para>
+<para><emphasis>Step 3 -</emphasis> Check using synthetic division.</para>
+<media><image alt="." src="https://k12.openstax.org/contents/raise/resources/05a284d4b51db6421214ef8ac2c1d86317bb15a1"/></media><para> </para>
+<title>Try It: Using the Remainder Theorem</title>
+<example><exercise>
+  <problem>
+    
+    <para>Use the Remainder Theorem to find the remainder when \(f(x)=x^3+4x+15\) is divided by \(x + 2\).</para>
+  <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Here is how to solve a problem using the Remainder Theorem:</para>
+  <para>\(f(x)=x^3+4x+15\)</para>
+  <para>\(f(2)=(-2)^3+4(-2)+15\)</para>
+  <para>\(f(2)=-8-8+15= -1\)</para>
+  <para>The remainder is \(-1\).</para>
+</solution></exercise>
+</example></section>
+</content>

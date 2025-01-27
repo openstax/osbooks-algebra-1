@@ -1,0 +1,37 @@
+<content>
+  <section><title>Solving an Inconsistent System of Equations</title>
+<para>Now that we have several methods for solving systems of equations, we can use the methods to identify inconsistent systems. Recall that an inconsistent system consists of parallel lines that have the same slope but different \(y\)-intercepts. They will never intersect. When searching for a solution to an inconsistent system, we will come up with a false statement, such as \( 12 = 0 \).</para>
+<para>Solve the following system of equations. </para>
+<para>\( x = 9 - 2y \) </para>
+<para><emphasis>Solution</emphasis> </para>
+<para>We can approach this problem in two ways. Because one equation is already solved for \( x \), the most obvious step is to use substitution. </para>
+<para>\( \begin{array}{rcl}x+2y &amp;=&amp;13 \\ (9-2y)+2y &amp;=&amp;13 \\ 9+0y &amp;=&amp;13 \\ 9&amp;=&amp;13\end{array} \)</para>
+<para>Clearly, this statement is a contradiction because \( 9 \neq 13 \). Therefore, the system has no solution. </para>
+<para>The second approach would be to first manipulate the equations so that they are both in slope-intercept form. We manipulate the first equation as follows:</para>
+<para>\( x = 9 - 2y \)</para>
+<para>We then convert the second equation expressed to slope-intercept form. </para>
+<para>\( \begin{array}{rcl}x + 2y &amp;=&amp; 13 \\ 2y &amp;=&amp; -x + 13 \\ y &amp;=&amp; -\frac{1}{2}x + \frac{13}{2}\end{array} \)</para>
+<para>Comparing the equations, we see that they have the same slope but different \(y\)-intercepts. Therefore, the lines are parallel and do not intersect. </para>
+<para>\( y= -\frac{1}{2}x + \frac{9}{2} \)</para>
+<title>Try It: Solving an Inconsistent System of Equations</title>
+<example><exercise>
+  <problem>
+    
+    <para>Solve the following system of equations. If there is no solution, explain how you know.</para>
+    <para>\( 9x +3y = -24 \)</para>
+  <para>Write down your answer, then select the <emphasis>solution </emphasis>button to compare your work.</para>
+  </problem><solution>
+  <para>Compare your answer: Here is how to solve the system. </para>
+  <para>To solve using elimination, we must first make the coefficients of one of the variables the same to use subtraction.</para>
+  <para>\( 2(9x +3y) = 2(-24) \)</para>
+  <para>After simplifying, we have:</para>
+  <para>\( 18x +6y = -48 \)</para>
+  <para>Let’s subtract the equations:</para>
+  <para>\( 18x +6y = -48 \)</para>
+  <para>Since this equation can never be true, the system has no solutions.</para>
+  <para>Using another method, you can also write each equation in slope-intercept form:</para>
+  <para>\( y = -3x - 8 \)</para>
+  <para>Since the equations have the same slope and different \(y\)-intercepts, we know that the system has no solution.</para>
+</solution></exercise>
+</example></section>
+</content>

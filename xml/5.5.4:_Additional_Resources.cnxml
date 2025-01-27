@@ -1,0 +1,63 @@
+<content>
+  <section><title>More Exponential Models</title>
+<para>The graph shows the amount of a chemical in a patient’s body at different times, measured in hours since the levels were first checked.</para>
+<para>Could the amount of this chemical in the patient be decaying exponentially? Explain how you know.</para>
+<media><image alt="Graph of a function on grid, origin O. Horizontal axis, time in hours, from 0 to 8 by 1's. Vertical axis, chemical in milligrams, from 0 to 1,200 by 200's.&lt;br&gt; Labeled plotted coordinates as follows: 0 comma 1,000, 1 comma 600, 2 comma 360, with 6 additional points plotted following a similar trend." src="https://k12.openstax.org/contents/raise/resources/6067169e5114ec7c6decefb23c92843d3d582b07"/></media><para>The graph does seem to have the shape of exponential decay. To confirm if the chemical in the patient is decaying exponentially, you can find the growth factor. Since terms are usually multiplied by the growth factor, you can divide consecutive terms to see if there is the same growth factor each time.</para>
+<para>Since \(\frac{600}{1000}=\frac{360}{600}=\frac{6}{10}\), the growth factor is \(\frac{6}{10}\). Therefore, it is decaying exponentially, and the equation is \(y = 1000 (\frac{6}{10})^x\), where \(y\) is the amount of chemical in mg in the patient and \(x\) is the time in hours.</para>
+<para>As the time continues, the amount of chemical in the patient is approaching 0 mg. We can see this in the graph as the data points approach the \(x\)-axis where \(y = 0\). The equation of the line that the data points approach is called the asymptote. In this example it is \(y = 0\). 
+</para>
+<title>Try It: More Exponential Models</title>
+<example><exercise>
+  <problem>
+    
+    <para>The following table represents the number of people who have read a book. Does the table represent exponential growth? Be prepared to show your reasoning.</para>
+    <table>
+      <tgroup cols="2"><thead>
+        <row>
+          <entry>Number of Months</entry>
+          <entry>Number of People who have Read a Book</entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+        <entry>
+          0
+        </entry>
+        <entry>
+          300
+        </entry>
+      </row>
+      <row>
+        <entry>
+          1
+        </entry>
+        <entry>
+          600
+        </entry>
+      </row>
+      <row>
+        <entry>
+          2
+        </entry>
+        <entry>
+          1200
+        </entry>
+      </row>
+      <row>
+        <entry>
+          3
+        </entry>
+        <entry>
+          2400
+        </entry>
+      </row>
+    </tbody>
+  </tgroup></table>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>Here is how to check the table to see if it represents an exponential relationship:</para>
+  <para>Just like the values of a graph, you can divide consecutive terms to find the growth factor. If each set of consecutive terms has the same ratio, the relationship is exponential. In this situation, dividing consecutive terms results in \(\frac{600}{300}=\frac{1200}{600}=\frac{2400}{1200}=2\). Therefore, the situation represents exponential growth and can also be represented by the equation \(y= 300(2)^x\), where \(y\) is the number of people who have read a book and \(x\) is the number of months.</para>
+</solution></exercise>
+</example></section>
+</content>

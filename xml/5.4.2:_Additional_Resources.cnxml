@@ -1,0 +1,110 @@
+<content>
+  <section><title>Zero as an Exponent</title>
+<para>Why is \(2^0=1\) and \(5^0=1\), but \(2^3\) is not the same as \(5^3\)?</para>
+<para>Answering this question will help us understand the <term data-schema-version="1.0" data-store="glossary-tooltip">zero exponent rule</term>.</para>
+<para>Exponents in general represent repeated multiplication, much like multiplication represents repeated addition. Let’s use that understanding to evaluate \(2^3\) and \(5^3\):</para>
+<para> \(2^3=2\cdot2\cdot2=4\cdot2=8\)</para>
+<para> \(5^3=5\cdot5\cdot5=25\cdot5=125\)</para>
+<para>8 and 125 are obviously very different, but the method to get to each answer was the same. If we rewrite it as a table, we can work backward to understand how \(2^0\) and \(5^0\) are both 1.</para>
+<para>Using \(y=2^x\) and filling in the parts we have found results in Table 1:</para>
+<table>
+  <tgroup cols="5"><thead>
+  </thead>
+  <tbody>
+    <row>
+      <entry> \(x\) </entry>
+      <entry> 0 </entry>
+      <entry> 1 </entry>
+      <entry> 2 </entry>
+      <entry> 3 </entry>
+    </row>
+    <row>
+      <entry> \(y\) </entry>
+      <entry> </entry>
+      <entry> 2 </entry>
+      <entry> 4 </entry>
+      <entry> 8 </entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<para>Repeating that process for \(y=5^x\) results in Table 2:</para>
+<table>
+  <tgroup cols="5"><thead>
+  </thead>
+  <tbody>
+    <row>
+      <entry> \(x\) </entry>
+      <entry> 0 </entry>
+      <entry> 1 </entry>
+      <entry> 2 </entry>
+      <entry> 3 </entry>
+    </row>
+    <row>
+      <entry> \(y\) </entry>
+      <entry> </entry>
+      <entry> 5 </entry>
+      <entry> 25 </entry>
+      <entry> 125 </entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<para>Since exponents represent repeated multiplication in both tables, additional terms are found by multiplying again by the base. What if we worked backward? If you multiply to move to the right in the table, you can divide by the common ratio to work backward. Start with the 8, and work backward to fill in the table:</para>
+<table>
+  <tgroup cols="5"><thead>
+  </thead>
+  <tbody>
+    <row>
+      <entry> \(x\) </entry>
+      <entry> 0 </entry>
+      <entry> 1 </entry>
+      <entry> 2 </entry>
+      <entry> 3 </entry>
+    </row>
+    <row>
+      <entry> \(y\) </entry>
+      <entry> \(2\div2=1\) </entry>
+      <entry> \(4\div2=2\) </entry>
+      <entry> \(8\div2=4\) </entry>
+      <entry> 8 </entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<para>Repeat the process for Table 2:</para>
+<table>
+  <tgroup cols="5"><thead>
+  </thead>
+  <tbody>
+    <row>
+      <entry> \(x\) </entry>
+      <entry> 0 </entry>
+      <entry> 1 </entry>
+      <entry> 2 </entry>
+      <entry> 3 </entry>
+    </row>
+    <row>
+      <entry> \(y\) </entry>
+      <entry> \(5\div5=1\) </entry>
+      <entry> \(25\div5=5\) </entry>
+      <entry> \(125\div5=25\) </entry>
+      <entry> 125 </entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<para>After you have worked backward in each table, you will see that \(2^0\) and \(5^0\) both equal 1. When 1 is the exponent, your answer is the same as the common ratio, so when you divide by the common ratio, you end up with 1 as your answer every time. This is an important rule that can save a lot of time.</para>
+<title>Try It: Zero as an Exponent</title>
+<example><exercise>
+  <problem>
+    
+    <para>Find the value of each of the following:</para>
+  <para> \(3^0\) </para>
+      <para> \(1,246^0\)</para>
+      <para>\(
+        \left(2\cdot3\cdot7\right)^0\)</para>
+    <para>Write down your answer. Then select the<emphasis> solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>Here is how to use the zero exponent rule to determine the value of each:</para>
+  <para>The answer to each expression is 1. If you want to work backward, it doesn’t matter how large the original number is. \(3\div3=1\) and \(1246\div1246=1\), and both expressions only contain a base and zero as exponent, so the answer is 1. For c, there is an expression inside the parentheses that you can evaluate first, but since it is still the base raised to a zero exponent, the answer will still be one.</para>
+</solution></exercise>
+</example></section>
+</content>

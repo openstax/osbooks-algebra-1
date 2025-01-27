@@ -1,0 +1,367 @@
+<content>
+  <section><title>Activity (15 minutes)</title>
+<para>In this activity, students represent a situation using a table of values, a graph, and an equation. From the
+  exponential equation, it is a short step to thinking of the relationship between the quantities as a function.</para>
+<para>Note that it is possible and acceptable to think of time as a function of area, but expressing this using an equation
+  is out of the scope of this course. Students could, however, represent such a function with a graph, table, or
+  description.</para>
+<para>Making graphing technology available gives students an opportunity to choose appropriate tools strategically.</para>
+<title>Launch</title>
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for Students with Disabilities</title></para>
+    <para><title>Representation: Internalize Comprehension</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+      <para>Represent the same information through different modalities by drawing a diagram. Encourage students who are unsure
+    where to begin to sketch a diagram of a slice of bread on graph paper and to shade the area that is covered in mold
+    after 1 day, then 2 days . . . until they reach the day when the slice of bread is completely covered in mold.</para>
+    <para class="os-raise-text-italicize">Supports accessibility for: Conceptual processing; Visual-spatial processing</para>
+</div>
+</div>
+<title>Student Activity</title>
+<para>Clare noticed mold on the last slice of bread in a plastic bag. The area covered by the mold was about 1 square
+  millimeter. She left the bread alone to see how the mold would grow. The next day, the area covered by the mold had
+  doubled, and it doubled again the day after that.</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item> If the doubling pattern continues, how many square millimeters will the mold cover 4 days after she noticed the
+    mold? Show your reasoning. <emphasis>Answer:</emphasis> 16 square millimeters. \(2 \cdot 2 \cdot 2 \cdot 2\) or \(2^4\) is 16. </item>
+  <item> Represent the relationship between the area \(A\), in square millimeters, covered by the mold and the number of
+    days \(d\) since the mold was spotted using: </item>
+  <list class="os-raise-noindent" start="a" type="enumerated">
+    <item> A table of values, showing the values from the day the mold was spotted through 5 days later. </item>
+    <item> An equation </item>
+    <item> A graph </item>
+  </list>
+  <para><emphasis>Answer:</emphasis>
+  </para>
+  <list class="os-raise-noindent" type="enumerated">
+    <item/>
+  </list>
+</list>
+<table>
+  <tgroup cols="2"><thead>
+    <row>
+      <entry>Number of days, \(d\)</entry>
+      <entry>Area, \(A\), in sq mm</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        0
+      </entry>
+      <entry>
+       1
+      </entry>
+    </row>
+    <row>
+      <entry>
+    1
+      </entry>
+      <entry>
+        2
+      </entry>
+    </row>
+    <row>
+      <entry>
+       2
+      </entry>
+      <entry>
+        4
+      </entry>
+    </row>
+    <row>
+      <entry>
+       3
+      </entry>
+      <entry>
+       8
+      </entry>
+    </row>
+    <row>
+      <entry>
+      4
+      </entry>
+      <entry>
+      16
+      </entry>
+    </row>
+    <row>
+      <entry>
+        5
+      </entry>
+      <entry>
+       32
+      </entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item> Equation: \(A=1 \cdot 2^d\) or equivalent (like \(A=2^d\)). </item>
+    <item>(Students may show a discrete or a continuous graph.)<media><image src="https://k12.openstax.org/contents/raise/resources/12fcc0a764a3422882fd1d726e1ca3ad71b343f0"/>
+    </media></item>
+  </list>
+</list>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item> Discuss with your partner: Is the relationship between the area covered by mold and the number of days a
+    function? If so, write ____ is a function of ____. If not, explain why it is not. <emphasis>Answer:</emphasis> Yes. Compare your answer: </item>
+</list>
+<title>Student Facing Extension</title>
+<title>Are you ready for more?</title>
+<para>What do you think is an appropriate domain for the mold area function \(A\)? Be prepared to show your reasoning.</para>
+<title>Extension Student Response</title>
+<para>Your answer may vary, but here are some samples: For example: Some negative values of \(t\) could be relevant, but we
+  don’t know how the mold was growing before Clare started watching. Positive values of \(t\) will not be valid
+  indefinitely because the bread will soon be completely covered by mold. If a piece of bread is 10 cm by 10 cm,
+  that’s 10,000 square mm. An appropriate domain would be \(0 \leq d \leq 14\).</para>
+<title>Anticipated Misconceptions</title>
+<para>Students may have trouble understanding how to account for time in the first question. They may benefit from writing
+  the area after 1 day has passed, after 2 days have passed, etc. A table is a convenient way to gather this
+  information.</para>
+<title> Activity Synthesis</title>
+<para>Discuss why the area covered by mold is a function of the number of days that have passed. Attend explicitly to
+  language students learned in the prior unit on functions: The area of the mold \(A\) is a function of the number of
+  days \(d\) since the mold was spotted, \(A=f(d)\). The function \(f\)<emphasis> </emphasis>expressing the mold relationship
+  can be written as \(f(d)=1 \cdot 2^d\), where \(d\) measures days since the mold was spotted and \(f(d)\) gives
+  the area covered by the mold in square millimeters.</para>
+<para>Discuss whether a discrete graph or a curve is more appropriate and what domain would be suitable in this context.
+  Ask questions such as:</para>
+<list>
+  <item>“Can the independent variable be something like 1.5, a number that is not a whole number? Is there an area
+    that is associated with 1.5 days?” (Yes, some areas of the bread are covered by mold at any point in time. The
+    mold doesn’t disappear after being spotted and then reappear at exactly 1 full day, 2 full days, etc.) </item>
+  <item>“What would be the meaning of a point on the graph where the value of \(d\) is, for instance, between 2 and
+    3?” (It would mean the area covered by mold at some point longer than 2 days but less than 3 days after mold
+    was spotted.) </item>
+  <item>“What domain would be appropriate for this function? Can the mold grow indefinitely?” (Since the area
+    of the bread (the range) is limited, the exponential growth cannot continue indefinitely. By the end of one week,
+    more than 1 square cm will be covered and, by the end of the second week, the values of the function will be close
+    to or will exceed the total area of the bread.) </item>
+</list>
+<para>Students using paper and pencil may decide that it makes sense to connect the points on the graph, but they will not
+  yet know how to do so. Consider stating that they are connected (in a very specific way), and their properties will be
+  studied later.</para>
+<para>Students using the digital version (or graphing technology along with the paper and pencil version) will see the
+  continuous graph. If desired, you may want to demonstrate how using function notation to write the equation like
+  \(A(d)=1 \cdot 2^d\) can be put to use. Try typing \(A(2)\) or \(A(-1)\).</para>
+  <div class="os-raise-extrasupport">
+    <note>
+      <para><title>Support for English Language Learners</title></para>
+      <para><title>MLR 2 Collect and Display: Conversing</title></para>
+    </note>
+    <div class="os-raise-extrasupport-body">
+        <para>During the discussion, listen for and collect the language students use to describe the situation as a function.
+          Call students’ attention to language such as “independent or dependent variable” or “input
+          or output value.” Write the students‘ words and phrases on a visual display and update it throughout the
+          remainder of the lesson. Remind students to borrow language from the display as needed. This will help students use
+          mathematical language for describing an exponential function and determining which variable is a function of the
+          other.</para>
+          <para class="os-raise-text-italicize">Design Principle(s): Maximize meta-awareness</para>
+          <para class="os-raise-extrasupport-title">Provide support for students</para>
+      <para>
+        <link url="https://k12.openstax.org/contents/raise/resources/3765a3cff09304aea8d8db39295b1c00ffd0c12f">Distribute graphic organizers</link>
+        to the students to assist them with participating in this routine.
+      </para>
+  </div>
+  </div>
+
+<title>5.8.2: Self Check</title>
+<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the
+      concepts explored in the activity.</emphasis></para>
+      <para class="os-raise-text-bold">QUESTION: </para>
+        <para>Which of the following equations represents the values in the table?</para>
+        <table>
+          <tgroup cols="5"><thead/>
+          <tbody>
+            <row>
+              <entry>\(x\)</entry>
+              <entry>
+                0
+              </entry>
+              <entry>
+                1
+              </entry>
+              <entry>
+               2
+              </entry>
+              <entry>
+                3
+              </entry>
+            </row>
+            <row>
+                <entry>\(y\)</entry>
+              <entry>
+               1
+              </entry>
+              <entry>
+                3
+              </entry>
+              <entry>
+                9
+              </entry>
+              <entry>
+                27
+              </entry>
+            </row>
+          </tbody>
+        </tgroup></table>
+        <table>
+          <tgroup cols="2"><thead>
+            <row>
+              <entry>Answers</entry>
+              <entry>Feedback</entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+      <entry>
+        \(y=3x\)
+      </entry>
+      <entry>
+       Incorrect. Let’s try again a different way: The values in the table are growing at an exponential rate,
+          not a linear rate. The answer is \(y=1 \cdot 3^x\).
+      </entry>
+    </row>
+    <row>
+      <entry>
+        \(y=3 \cdot 1^x\)
+      </entry>
+      <entry>
+        Incorrect. Let’s try again a different way: This equation only works when \(x= 1\) and \(y=3\). A
+          different exponential pattern is needed. Remember the base is the growth factor, 3. The answer is \(y=1 \cdot
+          3^x\).
+      </entry>
+    </row>
+    <row>
+      <entry>
+      \(y=1 \cdot 3^x\)
+      </entry>
+      <entry>
+       That’s correct! Check yourself: When the exponent, \(x\), is 3, the equation is equivalent to
+          \(3^3=27\). All values in the table follow this exponential pattern.
+      </entry>
+    </row>
+    <row>
+      <entry>
+        \(y=3x+1\)
+      </entry>
+      <entry>
+        Incorrect. Let’s try again a different way: This equation only works when \(x = 1\) and \(y=3\). The
+          values in the table are growing at an exponential rate, not a linear rate. The answer is \(y=1 \cdot 3^x\).
+      
+      </entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<title>5.8.2: Additional Resources</title>
+<para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with
+      the self check. Students will not automatically have access to this content, so you may wish to share it with
+      those who could benefit from it</emphasis></para>
+<title> Different Exponential Representations</title>
+<para>A table of values is shown below for a function \(g(x)=(\frac{1}{2})^x\), which represents exponential decay.</para>
+<table>
+  <tgroup cols="8"><thead/>
+  <tbody>
+    <row>
+      <entry>\(x\)</entry>
+      <entry>
+    -3
+      </entry>
+      <entry>
+      -2
+      </entry>
+      <entry>
+       -1
+      </entry>
+      <entry>
+        0
+      </entry>
+      <entry>
+       1&gt;
+      </entry>
+      <entry>
+        2
+      </entry>
+      <entry>
+       3
+      </entry>
+    </row>
+    <row>
+        <entry>\(g(x) = (\frac{1}{2})^x\)</entry>
+      <entry>
+       8
+      </entry>
+      <entry>
+      4
+      </entry>
+      <entry>
+       2
+      </entry>
+      <entry>
+     1
+      </entry>
+      <entry>
+       \(\frac12\)
+      </entry>
+      <entry>
+      \(\frac14\)
+      </entry>
+      <entry>
+   \(\frac18\)
+      </entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<para>When these points are graphed, they show the decay because the function graphed decreases from left to right:</para>
+<media><image src="https://k12.openstax.org/contents/raise/resources/640dc842516ed96046308a6b80d6a2df0ebdf749"/></media><title> Try It: Different Exponential Representations</title>
+<para>Make a table for the function \(f(x)=4^x\). Then graph the function.</para>
+<para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<title>Solution</title>
+<para>Here is how to make a table and then graph the exponential function:</para>
+<para>First, substitute values in for \(x\) to find the values of \(f(x)\).</para>
+<table>
+  <tgroup cols="6"><thead/>
+  <tbody>
+    <row>
+      <entry>Time (years)</entry>
+      <entry>
+        0
+      </entry>
+      <entry>
+       1
+      </entry>
+      <entry>
+        2
+      </entry>
+      <entry>
+       3
+      </entry>
+      <entry>
+     4
+      </entry>
+    </row>
+    <row>
+        <entry> \(f(x)=4^x\)</entry>
+      <entry>
+        \(4^0=1\)
+      </entry>
+      <entry>
+        \(4^1=4\)
+      </entry>
+      <entry>
+        \(4^2=16\)
+      </entry>
+      <entry>
+        \(4^3=64\)
+      </entry>
+      <entry>
+        \(4^4=256\)
+      </entry>
+    </row>
+  </tbody>
+</tgroup></table>
+<media><image src="https://k12.openstax.org/contents/raise/resources/c4e972074be9c587e82641a2054c2fead8f5a718"/>
+</media></section>
+</content>

@@ -1,0 +1,182 @@
+<content>
+  <section><title>Finding Residuals</title>
+<para><span>The gestation time for an animal is the typical duration between conception and birth. The longevity of an animal is the typical lifespan for that animal. The gestation times, in days, and longevities, in years, for 13 types of animals are shown in the table below. </span></para>
+<table>
+  <tgroup cols="3"><thead>
+    <row>
+      <entry>Animal </entry>
+      <entry>Gestation Time
+        (Days) </entry>
+      <entry>Longevity
+        (Years)</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>Baboon</para>
+      </entry>
+      <entry>
+        <para>187</para>
+      </entry>
+      <entry>
+        <para>20</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Black Bear</para>
+      </entry>
+      <entry>
+        <para>219</para>
+      </entry>
+      <entry>
+        <para>18</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Beaver</para>
+      </entry>
+      <entry>
+        <para>105</para>
+      </entry>
+      <entry>
+        <para>5</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Bison</para>
+      </entry>
+      <entry>
+        <para>285</para>
+      </entry>
+      <entry>
+        <para>15</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Cat</para>
+      </entry>
+      <entry>
+        <para>63</para>
+      </entry>
+      <entry>
+        <para>12</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Chimpanzee</para>
+      </entry>
+      <entry>
+        <para>23</para>
+      </entry>
+      <entry>
+        <para>20</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Cow</para>
+      </entry>
+      <entry>
+        <para>284</para>
+      </entry>
+      <entry>
+        <para>15</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Dog</para>
+      </entry>
+      <entry>
+        <para>61</para>
+      </entry>
+      <entry>
+        <para>12</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Fox (Red)</para>
+      </entry>
+      <entry>
+        <para>52</para>
+      </entry>
+      <entry>
+        <para>7</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Goat</para>
+      </entry>
+      <entry>
+        <para>151</para>
+      </entry>
+      <entry>
+        <para>8</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Lion</para>
+      </entry>
+      <entry>
+        <para>100</para>
+      </entry>
+      <entry>
+        <para>15</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Sheep</para>
+      </entry>
+      <entry>
+        <para>154</para>
+      </entry>
+      <entry>
+        <para>12</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>Wolf</para>
+      </entry>
+      <entry>
+        <para>63</para>
+      </entry>
+      <entry>
+        <para>5</para>
+      </entry>
+    </row>
+  </tbody>
+</tgroup></table>
+ <para>The equation of a line of best fit is \(y = 9.875 + 0.02039x\), where \(x\) represents the gestational time, in days, and \(y\) represents longevity, in years. </para>
+<media><image alt="" role="presentation" src="https://k12.openstax.org/contents/raise/resources/69b023d797f371f2dd27d011d5c66c2303d2ef6f"/></media><para>A lion’s gestation time is 100 days, and its longevity is 15 years. What does this line of best fit predict the lion’s longevity to be?</para>
+<para><emphasis>Solution</emphasis></para>
+<para>The line of best fit is \(𝑦=9.875 + 0.02039(100)=11.9\)</para>
+<para>The residual would be: actual value – estimated value or \(15−11.9=3.1\).</para>
+<para>The residual value is 3.1.</para>
+<title>Try It: Finding Residuals</title>
+<para>In the table above, a dog has a gestation time of 61 days and a longevity of 12 years.</para>
+<example><exercise>
+  <problem>
+    
+    <para>Using the same equation, \(y = 9.875 + 0.02039x\), what would the residual value be?</para>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+    </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>Substitute \(x =61\) into the equation, \(𝑦=9.875 + 0.02039(61)=11.1\).</para>
+  <para>So, the residual is the (actual value – estimated value):</para>
+  <para>\(12−11.1=0.9\).</para>
+  
+</solution></exercise>
+</example></section>
+</content>

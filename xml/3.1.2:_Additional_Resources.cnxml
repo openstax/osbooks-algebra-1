@@ -1,0 +1,121 @@
+<content>
+  <section><title>Drawing and Interpreting Scatter Plots</title>
+<para>A scatter plot is a graph of plotted points that may show a relationship between two sets of data. If the relationship is from a linear model or from a model that is nearly linear, the professor can draw conclusions using his knowledge of linear functions.</para>
+<para>Here is an example of a scatter plot.</para>
+<media><image alt="Scatter plot, titled 'Final Exam Score VS Age'. The \(x\)-axis is the age, and the \(y\)-axis is the final exam score. The range of ages are between 20s - 50s, and the range for scores are between upper 50s and 90s." src="https://k12.openstax.org/contents/raise/resources/d85e87d6a305be35528f5ab89b201056fdbe8d53"/>
+</media><para>Notice this scatter plot does not indicate a linear relationship. The points do not appear to follow a trend. In other words, there does not appear to be a relationship between the age of the student and the score on the final exam.</para>
+<para class="os-raise-text-bold">Example: Using a Scatter Plot to Investigate Cricket Chirps</para>
+<para>The table shows the number of cricket chirps in 15 seconds for several different air temperatures in degrees Fahrenheit.</para>
+<table>
+    <tgroup cols="10"><thead/>
+    <tbody>
+      <row>
+        <entry>
+          Chirps
+        </entry>
+        <entry>
+          44
+        </entry>
+        <entry>
+          35
+        </entry>
+        <entry>
+          20.4
+        </entry>
+        <entry>
+          33
+        </entry>
+        <entry>
+          31
+        </entry>
+        <entry>
+          35
+        </entry>
+        <entry>
+          18.5
+        </entry>
+        <entry>
+          37
+        </entry>
+        <entry>
+          26
+        </entry>
+      </row>
+      <row>
+        <entry>
+          Temperature
+        </entry>
+        <entry>
+          80.5
+        </entry>
+        <entry>
+          70.5
+        </entry>
+        <entry>
+          57
+        </entry>
+        <entry>
+          66
+        </entry>
+        <entry>
+          68
+        </entry>
+        <entry>
+          72
+        </entry>
+        <entry>
+          52
+        </entry>
+        <entry>
+          73.5
+        </entry>
+        <entry>
+          53
+        </entry>
+      </row>
+    </tbody>
+  </tgroup></table>
+<para>Plotting these data suggests that there may be a trend. We can see from the trend in the data that as the number of chirps increases every 15 seconds, the temperature increases. The trend appears to be roughly linear, though certainly not perfectly so.</para><media><image alt="Scatter plot, titled 'Cricket Chirps vs. Air Temperature'. The \(x\)-axis is the Cricket Chirps in 15 Seconds, and the \(y\)-axis is the Temperature (F). The line regression is generally positive." src="https://k12.openstax.org/contents/raise/resources/0bd821366e09c7df8ba83f57a8b07d4aa8fb15aa"/></media><para>Once we recognize a need for a linear function to model that data, the natural follow-up question is: “What is that linear function?” One way to approximate our linear function is to sketch the line that seems to best fit the data. Then we can extend the line until we can verify the \(y\)-intercept. We can approximate the slope of the line by extending it until we can estimate the \(\frac{rise}{run}\).</para><emphasis>Continuing the Example: Finding a Line of Best Fit</emphasis><para>Find a linear function that fits the data above by “eyeballing” a line that seems to fit.</para>
+<para>On a graph, we could try sketching a line. Using the starting and ending points of our hand-drawn line, points \((0, 30)\) and \((50, 90)\), this graph has a slope of \(m\;=\;\frac{60}{50}\;=\;1.2\) and a \(y\)-intercept at 30. </para>
+<para>The slope means that for every increase of 1 chirp per 15 seconds, the temperature increases 1.2 degrees. </para>
+<para>The \(y\)-intercept stands for the temperature needed for crickets to start chirping.</para>
+<media><image alt="" role="presentation" src="https://k12.openstax.org/contents/raise/resources/af5cb1df7596f0f7e8780c763b3c3d22072ada74"/></media><para>Different methods of making predictions are used to analyze data. The method of interpolation involves predicting a value inside the domain and/or range of the data. The method of extrapolation involves predicting a value outside the domain and/or range of the data.</para>
+<para>Model breakdown occurs at the point when the model no longer applies.</para>
+<para class="os-raise-text-bold">Continuing the Example: Understanding Interpolation and Extrapolation</para>
+<para>Use the cricket data from the table to answer the following questions:</para>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" type="enumerated">
+    <item>Would predicting the temperature when crickets are chirping 30 times in 15 seconds be interpolation or extrapolation? Make the prediction and discuss whether it is reasonable.</item>
+    <item>Would predicting the number of chirps crickets will make at 40 degrees be interpolation or extrapolation? Make the prediction and discuss whether it is reasonable.</item>
+  </list>
+</list>
+<para><emphasis>Solution:</emphasis></para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>The number of chirps in the data provided varied from 18.5 to 44. A prediction at 30 chirps per 15 seconds is inside the domain of our data, so it would be interpolation. Using our model:</item>
+</list>
+<para>\(\begin{array}{rcl}T(30)&amp;=&amp;30+1.2(30)\\&amp;=&amp;66\;degrees\end{array}\)</para>
+<para>Based on the data we have, this value seems reasonable.</para><list class="os-raise-noindent" start="2" type="enumerated">
+  <item>The temperature values varied from 52 to 80.5. Predicting the number of chirps at 40 degrees is extrapolation because 40 is outside the range of our data. Using our model:</item>
+</list>
+<div>
+  <para>\(\begin{array}{rcl}40\;&amp;=&amp;\;30\;+\;1.2c\\10\;&amp;=&amp;\;1.2c\\c\;&amp;\approx&amp;\;8.33\end{array}\)</para>
+</div>
+<para>We can compare the regions of interpolation and extrapolation using the following figure.</para>
+<media><image alt="Scatter plot, showing the line of best fit. It is titled 'Cricket Chirps Vs Air Temperature'. The \(x\)-axis is 'c, Number of Chirps', and the \(y\)-axis is 'T(c), Temperature (F)'.  The area around the scattered points is enclosed in a box labeled: Interpolation.  The area outside of this box is labeled: Extrapolation." src="https://k12.openstax.org/contents/raise/resources/fd26d5773978743dded07a498c069ea62e7cc5b1"/>
+</media><para><emphasis>Try It: Drawing and Interpreting Scatter Plots </emphasis></para>
+<para>The scatter plot below shows the height and speed of some of the world’s fastest roller coasters. A linear model was drawn to fit the data.</para>
+<media><image alt="A SCATTER PLOT THAT SHOWS MAXIMUM HEIGHT IN FEET ON THE X-AXIS AND SPEED IN MILES PER HOUR ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT." src="https://k12.openstax.org/contents/raise/resources/0a1dcda7b995c59f5ccb90cf336b760df09a80bb"/></media><!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>What would you expect the speed to be for a roller coaster that is 350 feet tall?</para>
+  </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Here is how to find the estimate of the speed.</para>
+    <para>Looking at the linear model, when the height on the \(x\)-axis is 350 feet, the value meets the line at approximately 98 mph. Since this is an estimate, you may have an answer close to 98, but it should be closer to 100 mph than 95 mph based on the graph.</para>
+    
+     
+  </solution></exercise>
+<!--Interaction End -->
+</section>
+</content>
