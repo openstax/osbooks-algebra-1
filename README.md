@@ -1,10 +1,10 @@
-# RAISE
+# Algebra 1
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
 
-_RAISE_ is a textbook published by [OpenStax](https://openstax.org/), a non profit organization that is part of [Rice University](https://www.rice.edu/).
+_Algebra 1_ is a textbook published by [OpenStax](https://openstax.org/), a non profit organization that is part of [Rice University](https://www.rice.edu/).
 
-The book can be viewed [online](https://openstax.org/details/books/raise), where you can also see a list of contributors.
+The book can be viewed [online](https://openstax.org/details/books/algebra-1), where you can also see a list of contributors.
 
 ## License
 This book is available under the [Creative Commons Attribution License](./LICENSE) license.
