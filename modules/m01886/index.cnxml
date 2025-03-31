@@ -1,0 +1,111 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>7.9.2: Finding Products of Differences</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01886</md:content-id>
+    <md:title>7.9.2: Finding Products of Differences</md:title>
+    <md:uuid>c650a193-c5cd-4dfe-9467-c58f27ec15a9</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity</title>
+<example><exercise>
+  <problem>
+    
+    <para>Show that \((x-1)(x-1)\) and \(x^2-2x+1\) are equivalent expressions by drawing a diagram or applying the
+        <term data-schema-version="1.0" data-store="glossary-tooltip">distributive
+          property</term>. Show your reasoning.
+      </para>
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para class="os-raise-text-bold">Drawing a Diagram:</para>
+  <table class="os-raise-doubleheadertable">
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis"/>
+        <entry scope="col" class="emphasis">\(x\)</entry>
+        <entry scope="col" class="emphasis">\(-1\)</entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry scope="row" class="emphasis">\(x\)</entry>
+        <entry>\(x^2\)</entry>
+        <entry>\(-x\)</entry>
+      </row>
+      <row>
+        <entry scope="row" class="emphasis">\(-1\)</entry>
+        <entry>\(-x\)</entry>
+        <entry>\(1\)</entry>
+      </row>
+    </tbody>
+  </table>
+  <para>The sum of the partial products are \(x^2+-x+-x+1\) or \(x^2-2x+1\).</para>
+  <para class="os-raise-text-bold">Applying the Distributive Property:</para>
+  <para>Applying the distributive property to \((x-1)(x-1)\) gives \(x^2+x \cdot (-1)+(-1) \cdot x+(-1)^2=
+    x^2-x-x+1=x^2-2x+1\).</para>
+</solution></exercise>
+</example><list class="os-raise-noindent" start="2" type="enumerated">
+  <item>For each expression, write an equivalent expression. Show your reasoning.</item>
+</list>
+<example><exercise>
+  <problem>
+    
+    <para> \((x+1)(x-1)\) </para>
+      <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>\(x^2-1\). For example, applying the distributive property to \((x+1)(x-1)\) gives \(x^2+x-x-1\), which equals
+    \(x^2-1\).</para>
+</solution></exercise>
+</example><example><exercise>
+  <problem>
+    
+    <para> \((x-2)(x+3)\) </para>
+      <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para> \(x^2+x-6\), because \((x+3)(x-2)=x^2-2x+3x-6=x^2+x-6\).</para>
+  <para>Or using a diagram:</para>
+  <table class="os-raise-doubleheadertable">
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis"/>
+        <entry scope="col" class="emphasis">\(x\)</entry>
+        <entry scope="col" class="emphasis">\(3\)</entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry scope="row" class="emphasis">\(x\)</entry>
+        <entry>\(x^2\)</entry>
+        <entry>\(3x\)</entry>
+      </row>
+      <row>
+        <entry scope="row" class="emphasis">\(-2\)</entry>
+        <entry>\(-2x\)</entry>
+        <entry>\(-6\)</entry>
+      </row>
+    </tbody>
+  </table>
+  <para>Adding the partial products in the four sub-rectangles gives \(x^2+3x+-2x+-6\), which equals \(x^2+x-6\).</para>
+</solution></exercise>
+</example><example><exercise>
+  <problem>
+    
+    <para> \((x-2)^2\) </para>
+      <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>\(x^2-4x+4\), because \((x-2)(x-2)=x^2-2x-2x+4=x^2-4x+4\).</para>
+</solution></exercise>
+</example><title>Video: Finding Products of Differences</title>
+<para>Watch the following video to learn more about finding products of differences.</para>
+<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
+  <iframe><video controls="true" crossorigin="anonymous">
+      <source src="https://k12.openstax.org/contents/raise/resources/092b0590ce9e8051cd033ee8f6df31d122f4b64b">
+      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/32962258e2a5df2b981f30bd056dd3887094924e" srclang="en_us">
+      https://k12.openstax.org/contents/raise/resources/092b0590ce9e8051cd033ee8f6df31d122f4b64b
+    </track></source></video></iframe>
+</div></section>
+</content>
+</document>

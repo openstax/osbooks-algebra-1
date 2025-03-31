@@ -1,0 +1,228 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>7.2.3: Quadratic Expressions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01761</md:content-id>
+    <md:title>7.2.3: Quadratic Expressions</md:title>
+    <md:uuid>b4423927-f698-4643-98b7-16c37987ff6b</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity </title>
+<image alt="Three steps of a growing pattern." height="125" src="https://k12.openstax.org/contents/raise/resources/a565fecb7bfa3dc272c528be5f11d1b7e33a45f0" width="422"/><para>Here is a pattern of squares.</para>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Is the number of small squares growing linearly? Explain how you know.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>No, there are 3 squares in the first step, 6 squares in the second step, and 11 squares in the third step. So the
+      number of additional squares is 3 going from the first to the second step and 5 going from the second to the third
+      step.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Answer questions a–e to complete the table.</item>
+</list>
+<table class="os-raise-midsizetable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        Step
+      </entry>
+      <entry scope="col" class="emphasis">
+        Number of small squares
+      </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        1
+      </entry>
+      <entry>
+        3
+      </entry>
+    </row>
+    <row>
+      <entry>
+        2
+      </entry>
+      <entry>
+        6
+      </entry>
+    </row>
+    <row>
+      <entry>
+        3
+      </entry>
+      <entry>
+        11
+      </entry>
+    </row>
+    <row>
+      <entry>
+        4
+      </entry>
+      <entry>a. _____</entry>
+    </row>
+    <row>
+      <entry>
+        5
+      </entry>
+      <entry>b. _____</entry>
+    </row>
+    <row>
+      <entry>
+        10
+      </entry>
+      <entry>c. _____</entry>
+    </row>
+    <row>
+      <entry>
+        12
+      </entry>
+      <entry>d. _____</entry>
+    </row>
+    <row>
+      <entry>
+        \(n\)
+      </entry>
+      <entry>e. _____</entry>
+    </row>
+  </tbody>
+</table>
+<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="bfb18594-7ef3-4cce-91b5-4deb3fd6b8fe" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
+  <!--Q2a-->
+  <exercise data-content-id="20799070-1abe-475a-8519-4dec9738d609" data-problem-comparator="integer" data-problem-type="input" data-solution="18">
+    <problem>
+      <para> In Step 4, what is the number of small squares?</para>
+        <para>Enter your answer here: </para>
+    </problem>
+    <solution>
+      <para>Correct! Step 4 has 18 small squares.</para>
+    </solution>
+    </exercise>
+  <!--END QUESTION.-->
+  <!--Q2b-->
+  <exercise data-content-id="92cd14c1-8001-44de-a4a8-46e28a78acb7" data-problem-comparator="integer" data-problem-type="input" data-solution="27">
+    <problem>
+      <para> In Step 5, what is the number of small squares?</para>
+        <para>Enter your answer here:</para>
+    </problem>
+    <solution>
+      <para>Correct! Step 5 has 27 small squares.</para>
+    </solution>
+    </exercise>
+  <!--END QUESTION.-->
+  <!--Q2c-->
+  <exercise data-content-id="613d1789-d831-41a4-b28b-1781ac708a7a" data-problem-comparator="integer" data-problem-type="input" data-solution="102">
+    <problem>
+      <para> In Step 10, what is the number of small squares?</para>
+        <para>Enter your answer here:</para>
+    </problem>
+    <solution>
+      <para>Correct! Step 10 has 102 small squares.</para>
+    </solution>
+    </exercise>
+  <!--END QUESTION.-->
+  <!--Q2d-->
+  <exercise data-content-id="baa64dc5-ff5e-4fe2-a9af-588bdfb5d003" data-problem-comparator="integer" data-problem-type="input" data-solution="146">
+    <problem>
+      <para> In Step 12, what is the number of small squares?</para>
+        <para>Enter your answer here:</para>
+    </problem>
+    <solution>
+      <para>Correct! Step 12 has 146 small squares.</para>
+    </solution>
+    </exercise>
+  <!--END QUESTION.-->
+  <!--Do not edit below line.-->
+  <solution>
+    <!-- INSERT ANY VALID HTML HERE -->
+  </solution>
+  <div class="os-raise-ib-pset-encourage-response">
+    <!-- INSERT ANY VALID HTML HERE -->
+  </div>
+</div>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> In Step \(n\), what is the number of small squares?</para>
+      </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>\(n^2+2\)</para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Is the number of small squares growing exponentially? Explain how you know.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>No, from Step 1 to Step 2, the number of squares doubles. From Step 2 to Step 3, the number of squares increases
+      by a factor of \(\frac{11}{6}\). From Step 3 to Step 4, the number of squares increases by a factor of
+      \(\frac{18}{11}\). These growth factors are all different; in contrast, for an exponential function, the values
+      increase by equal growth factors over equal intervals.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<para>The nth expression, \(n^2+2\), is an example of a <term data-schema-version="1.0" data-store="glossary-tooltip">quadratic expression</term>. A quadratic expression can be written using a squared
+  term. It can be written in other ways as well, but the expression should be able to be written with the highest
+  exponent on the variable as 2.</para>
+<list>
+  <item> A quadratic relationship is not like a linear relationship because as one quantity increases by a certain amount,
+    the second quantity doesn’t increase by the same amount. </item>
+  <item> A quadratic relationship is not like an exponential relationship because as one quantity increases by a certain
+    amount, the second quantity doesn’t change by the same factor. (In this case, if the number of squares grew
+    exponentially, this would mean that, from each step to the next, the number of squares is multiplied by the same
+    factor.) </item>
+</list>
+<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+<example><exercise>
+  <problem>
+    
+    <!-- INSERT ANY VALID HTML HERE -->
+  <!-- INSERT ANY VALID HTML HERE -->
+  </problem></exercise>
+</example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <title>Extending Your Thinking</title>
+    <para>Han wrote \(n(n+2)-2(n-1)\) for the number of small squares in the design at Step \(n\) in the pattern at the
+      beginning of the activity.</para>
+    <para>Explain why Han is correct.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>At Step \(n\), there is an \(n\) by \(n+2\) rectangle containing \(n(n+2)\) small squares with two columns of
+      \(n-1\) squares removed from either side.</para>
+  </solution></exercise>
+<!--End interaction-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <para>On your own, draw and label what Step 3 would look like when Han was writing his expression.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>I drew a rectangle with three small squares down and five small squares across. Then I removed the two small
+      squares from the first column and the last column.</para>
+    <image alt="Grid with sides labeled." height="86" src="https://k12.openstax.org/contents/raise/resources/0a21d1f801f84098d3ad558ec8be14068d7ce5d1" width="120"/>
+    </solution></exercise>
+<!--End interaction-->
+<title>Video: Quadratic Expressions</title>
+<para>Watch the following video to learn more about quadratic expressions.</para>
+<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
+  <iframe><video controls="true" crossorigin="anonymous">
+      <source src="https://k12.openstax.org/contents/raise/resources/9429b37b256ebf82ca64508151eae28b120c65d0">
+      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/fe2a0eb7df4e6e8d682ae0df6f5b484719fb948d" srclang="en_us">
+      https://k12.openstax.org/contents/raise/resources/9429b37b256ebf82ca64508151eae28b120c65d0
+    </track></source></video></iframe>
+</div></section>
+</content>
+</document>

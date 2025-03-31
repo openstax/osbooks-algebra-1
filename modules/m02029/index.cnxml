@@ -1,0 +1,107 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>7.16.2: Additional Resources</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m02029</md:content-id>
+    <md:title>7.16.2: Additional Resources</md:title>
+    <md:uuid>52322ddc-7a27-4c84-ba40-e44f017e6a0d</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Using Key Points to Graph Quadratics</title>
+<para>We saw that vertex form is especially helpful for finding the vertex of a graph of a quadratic function. For example,
+  we can tell that the function \(p\) given by \(p(x)=(x-3)^2+1\) has a vertex at \((3,1)\).</para>
+<image height="147" src="https://k12.openstax.org/contents/raise/resources/06ea9e2b84d0ec1d445d1a7db4cf7f8177977f4a" width="247"/><para>We also noticed that, when the squared expression \((x-3)^2\) has a positive coefficient, the graph opens upward.
+  You can use the vertex \((3, 1)\) to determine that minimum function value is 1.</para>
+<para>But why does the function \(p\) take on its minimum value when \(x\) is 3?</para>
+<para>Here is one way to explain it: When \(x=3\), the squared term \((x-3)^2\) equals 0, as \((3-3)^2=0^2=0\). When \(x\)
+  is any other value besides 3, the squared term \((x-3)^2\) is a positive number greater than 0. (Squaring any number
+  results in a positive number.) This means that the output when \(x \neq 3\) will always be greater than the output
+  when \(x=3\), so the function \(p\) has a minimum value at \(x=3\).</para>
+<para>This table shows some values of the function for some values of \(x\). Notice that the output is the least when
+  \(x=3\) and it increases both as \(x\) increases and as it decreases.</para>
+<table class="os-raise-horizontaltable">
+  <thead/>
+  <tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+        \(x\)
+      </entry>
+      <entry>
+        \(0\)
+      </entry>
+      <entry>
+        \(1\)
+      </entry>
+      <entry>
+        \(2\)
+      </entry>
+      <entry>
+        \(3\)
+      </entry>
+      <entry>
+        \(4\)
+      </entry>
+      <entry>
+        \(5\)
+      </entry>
+      <entry>
+        \(6\)
+      </entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">
+        \((x-3)^2+1\)
+      </entry>
+      <entry>
+        \(10\)
+      </entry>
+      <entry>
+        \(5\)
+      </entry>
+      <entry>
+        \(2\)
+      </entry>
+      <entry>
+        \(1\)
+      </entry>
+      <entry>
+        \(2\)
+      </entry>
+      <entry>
+        \(5\)
+      </entry>
+      <entry>
+        \(10\)
+      </entry>
+    </row>
+  </tbody>
+</table>
+<para>The squared term sometimes has a negative coefficient, for instance: \(h(x)=-2(x+4)^2\). The \(x\) value that makes
+  \((x+4)^2\) equal 0 is -4, because \((-4+4)^2=0^2=0\). Any other \(x\) value makes \((x+4)^2\) greater than 0. But
+  when \((x+4)^2\) is multiplied by a negative number (-2), the resulting expression, \(-2(x+4)^2\), ends up being
+  negative. This means that the output when \(x-4\) will always be less than the output when \(x=-4\), so the function
+  \(h\) has its maximum value when \(x=-4\).</para>
+<image height="138" src="https://k12.openstax.org/contents/raise/resources/9eaa01d884ff6269f7f491469cb0d2a68ba299a6" width="215"/><para>Remember that we can find the \(y\)-intercept of the graph representing any function we have seen. The
+  \(y\)-coordinate of the \(y\)-intercept is the value of the function when \(x=0\). If \(g\) is defined by
+  \(g(x)=(x+1)^2-5\), then the \(y\)-intercept is \((0,-4)\) because \(g(0)=(0+1)^2-5=-4\). Its vertex is at
+  \((-1,-5)\). Another point on the graph with the same \(y\)-coordinate is located the same horizontal distance from
+  the vertex but on the other side.</para>
+<image height="139" src="https://k12.openstax.org/contents/raise/resources/b4c10123de9c99c891fb3ae23629cc7b14f8cc85" width="220"/><title>Try It: Using Key Points to Graph Quadratics</title>
+<example><exercise>
+  <problem>
+    
+    <para>A quadratic function is represented by the equation \(y=(x+3)^2-5\). If \((5, 61)\) is another point on the
+      graph, find a third point on the curve.</para>
+  <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.
+    </para>
+  </problem><solution>
+  <para>Here is how to find another point on the curve:</para>
+  <para>One way to find another point on the curve is to use symmetry.</para>
+  <para>Since the vertex is \((-3, -5)\) and one point on the curve is \((5, 61)\), there is another point on the other
+    side of the vertex. Keep in mind, the \(y\)-coordinate will remain at 61. To find the \(x\)-coordinate, we need to
+    determine how far apart horizontally the vertex and the other point are located from each other. There are 8 units
+    from -3 to 5, so the new point will also be 8 units from -3 but to the left. Thus, the \(x\)-coordinate will be at
+    -11. So, there is another point at \((-11, 61)\).</para>
+</solution></exercise>
+</example></section>
+</content>
+</document>

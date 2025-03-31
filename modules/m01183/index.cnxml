@@ -1,0 +1,270 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>4.18.5: Interchanging between Formulas</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01183</md:content-id>
+    <md:title>4.18.5: Interchanging between Formulas</md:title>
+    <md:uuid>a2b63712-8b29-41b8-acff-43add2566fda</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity</title>
+<para><emphasis>Converting from a Recursive Formula to an Explicit Formula for Arithmetic Sequences</emphasis></para>
+<para>An arithmetic sequence has the following recursive formula:</para>
+<para>\(a_1=3\)</para>
+<para>\(a_n=a_{n-1}+3\), \(n\geq2\)</para>
+<para>Recall that this formula gives us the following two pieces of information:</para>
+<list>
+  <item>
+    The first term is 3.</item>
+  <item>
+    To get any term from its previous term, <emphasis>add</emphasis> 2. In other words, the common difference is 2.</item>
+</list>
+<para>Let’s find an explicit formula for the sequence.</para>
+<para>We can represent a sequence whose first term is \(A\) and common difference is \(B\) with the standard explicit form \(A+B(n−1)\).</para>
+<para>Therefore, an explicit formula of the sequence is \(a_n=3+2(n−1)\).</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>
+    Write an explicitly (nth term) formula for an arithmetic sequence where \(b_1=2\) and \(b_n=b_{n-1}+7\), \(n\geq2\).
+  </item>
+  <para> <emphasis>Answer: </emphasis></para><para><emphasis>Converting from a Recursive Formula to an Explicit Formula for Arithmetic Sequences</emphasis></para>
+
+    Now try to take the nth term formula and use it to write the recursive formula of an arithmetic sequence.</list>
+<list>
+  <item>
+    The first term, which we know is 5.</item>
+  <item>
+    The pattern rule to get any term from the term that comes before it. which we know is “add 16.”</item>
+</list>
+
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item> Write the recursive formula of \(e_n=12+(n-1) \cdot 2\).</item>
+
+<para><emphasis>Answer: </emphasis></para><para><emphasis>Converting from a Recursive Formula to an Explicit Formula for Geometric Sequences</emphasis></para>
+  Now change the recursive formula of a geometric sequence into the nth term.</list>
+
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>Write the nth term of the geometric sequence where \(g_1=5\) and \(g_n=g_{n-1} \cdot 4\), \(n\geq2\).</item>
+
+<para><emphasis>Answer: </emphasis></para><para><emphasis>Converting from an Explicit Formula to a Recursive Formula for Geometric Sequences</emphasis></para>
+
+  Finally, geometric sequences represented by the nth term can be represented with the recursive definition.</list>
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item>Write the geometric sequence represented by \(g_n=14 \cdot 2^{n-1}\) using the recursive definition.</item>
+  <para><emphasis>Answer: </emphasis></para>
+</list>
+<title>4.18.5: Self Check</title>
+<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
+ <para class="os-raise-text-bold">QUESTION:</para>
+        <para>Write the nth term formula of the geometric sequence represented by \(g_1=-3\) and \(g_n=g_{n-1} \cdot 6\), \(n\geq2\).</para>
+<table class="os-raise-textheavytable">
+  
+  <thead>
+ 
+    <row>
+      <entry scope="col" class="emphasis">
+     Answers
+      </entry>
+      <entry scope="col" class="emphasis">
+       Feedback
+      </entry>
+    </row></thead><tbody>
+    <row>
+      <entry>
+		  \(g_n=6n+-3\)</entry>
+      <entry>
+        Incorrect. Let’s try again a different way: The common ratio should be raised to the power of \(n-1\), and the first term should be multiplied, not added. The answer is \(g_n=-3 \cdot 6^{n-1}\).
+      </entry>
+    </row>
+    <row>
+      <entry>
+        \(g_n=-3 \cdot 6^n\)
+      </entry>
+      <entry>
+       Incorrect. Let’s try again a different way: The first term using this formula is –18. Use \(n-1\) for the exponent. The answer is \(g_n=-3 \cdot 6^{n-1}\).
+      </entry>
+    </row>
+    <row>
+      <entry>
+        \(g_n=-3 \cdot 6^{n-1}\)
+      </entry>
+      <entry>
+        <para>That’s correct! Check yourself: The first term was –3 and the common ratio is 6.</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(g_n=6(n-1)-3\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: The first term should be multiplied by the common ratio. The answer is \(g_n=-3 \cdot 6^{n-1}\).</para>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<title>4.18.5: Additional Resources</title>
+<para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></emphasis></para>
+<title>Switching Between Definitions of Sequences</title>
+<para>A recursive formula defines each term of a sequence using the previous terms.</para>
+<para>An explicit or nth term formula defines the terms of the sequence using their position in the sequence, without knowing any other terms in the sequence.</para>
+<table class="os-raise-doubleheadertable">
+  
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+       Sequence
+      </entry>
+    <entry scope="col" class="emphasis">
+      Recursive Formula
+      </entry>
+      <entry scope="col" class="emphasis">
+      Explicit or nth Term Formula
+      </entry>
+    </row></thead><tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+        Arithmetic
+      </entry>
+      <entry>
+        \(F_1=a_1\), \(F_n=F_{n-1}+d\), where \(a_1\) is the first term and \(d\) is the common difference.
+      </entry>
+      <entry>
+       \(a_n=a_1+(n-1)d\), where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.
+      </entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">
+       Geometric
+      </entry>
+      <entry>
+       \(H_1=a_1\), \(H_n=H_{n-1} \cdot r\), where \(a_1\) is the first term and \(r\) is the common ratio.
+      </entry>
+      <entry>
+       \(a_n=a_1r^{n-1}\), where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.
+      </entry>
+    </row>
+  </tbody>
+</table>
+<para><emphasis>Example 1</emphasis></para>
+<para>Find the explicit general formula for the arithmetic sequence given in recursive form.</para>
+<para>
+    \(a_1=5\), \(a_n=a_{n-1}+6\), \(n\geq2\)
+</para>
+<para><emphasis>Step 1</emphasis> - Write the recursive formula. (given)</para>
+<para><emphasis>Step 2 </emphasis>- Identify the first term.</para>
+<para><emphasis>Step 3</emphasis> - Identify the common difference/ratio.</para>
+<para><emphasis>Step 4 </emphasis>- Write the explicit formula.</para>
+<para><emphasis>Step 5</emphasis> - Substitute the first term and common difference/ratio into the formula.</para>
+<para>Check by finding the first 3 terms using each formula:</para>
+
+<table class="os-raise-horizontaltable">
+  <thead/>
+  <tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+        \(a_1=5\), \(a(n)=a_n=a_{n-1}+6\), \(n\geq2\)
+      </entry>
+      <entry>
+        \(a_1=5\)
+      </entry>
+      <entry>
+      \(a_2=5+6=11\)
+      </entry>
+      <entry>
+       \(a_3=11+6=17\)
+      </entry>
+    </row>
+    <row>
+     <entry scope="row" class="emphasis">
+       \(a_n=5+(n-1)6\)
+      </entry>
+      <entry>
+       \(a_1=5\)
+      </entry>
+      <entry>
+      \(a_2=5+(2-1)6=11\)
+      </entry>
+      <entry>
+       \(a_3=5+(3-1)6=17\)
+      </entry>
+    </row>
+  </tbody>
+</table>
+<para>Both formulas produce the same first 3 terms: 5, 11, 17.</para>
+<para><emphasis>Example 2</emphasis></para>
+<para>Find the explicit general formula for the geometric sequence given in recursive form.</para>
+<para>\(b_1=4\), \(b_n=b_{n-1} \cdot 5\), \(n\geq2\)</para>
+<para><emphasis>Step 1</emphasis> - Write the recursive formula (given).</para>
+<para><emphasis>Step 2 </emphasis>- Identify the first term.</para>
+<para><emphasis>Step 3</emphasis> - Identify the common difference/ratio.</para>
+<para><emphasis>Step 4 </emphasis>- Write the explicit formula.</para>
+<para><emphasis>Step 5</emphasis> - Substitute the first term and the common difference/ratio into the formula.</para>
+<para>Check by finding the first 3 terms using each formula:</para>
+
+
+<table class="os-raise-horizontaltable">
+  <thead/>
+  <tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+        \(b_1=4\),\(b_n=b_{n-1}\cdot 5\),\(n\geq2\)
+      </entry>
+      <entry>
+        \(b_1=4\)
+      </entry>
+      <entry>
+        \(b_2 = b_{2-1} \cdot 5 =\)
+        \( 4 \cdot 5 = 20\) </entry>
+      <entry>
+        \(b_3 = b_{3-1} \cdot 5 =\)</entry>
+    </row>
+    <row>
+     <entry scope="row" class="emphasis">
+      \(a_n=4(5)^{n-1}\)
+      </entry>
+      <entry>
+        \(a_1=4(5)^{1-1}=4\)
+      </entry>
+      <entry>
+        \(a_2=4(5)^{2-1}=20\)
+      </entry>
+      <entry>
+        \(a_3=4(5)^{3-1}=100\)
+      </entry>
+    </row>
+  </tbody>
+</table>
+
+<para>Both formulas produce the same first 3 terms: 4, 20, 100.</para>
+<para><emphasis>Example 3</emphasis></para>
+<para>Find the recursive formula for the arithmetic sequence given in explicit general form.</para>
+<para>\(a_n=21+(n-1)(-2)\)
+</para>
+<para><emphasis>Step 1</emphasis> - Write the explicit formula (given).</para>
+<para><emphasis>Step 2 </emphasis>- Identify the first term.</para>
+<para><emphasis>Step 3</emphasis> - Identify the common difference/ratio.</para>
+<para><emphasis>Step 4 </emphasis>- Write the recursive formula.</para>
+<para><emphasis>Step 5</emphasis> - Substitute the first term and the common difference/ratio into the formula.</para>
+<para>Check your reasoning by finding the first three terms using each formula. </para>
+  <para><emphasis>Example 4</emphasis></para>
+  <para>Find the recursive formula for the geometric sequence given in explicit general form.</para>
+
+<para>\(a_n=3 \cdot (\frac14)^{n-1}\)</para>
+<para><emphasis>Step 1</emphasis> - Write the explicit formula.</para>
+<para><emphasis>Step 2 </emphasis>- Identify the first term.</para>
+<para><emphasis>Step 3</emphasis> - Identify the common difference/ratio.</para>
+<para><emphasis>Step 4 </emphasis>- Write the recursive formula.</para>
+<para><emphasis>Step 5</emphasis> - Substitute the first term and the common difference/ratio into the formula.</para>
+<para>Check your reasoning by finding the first three terms using each formula</para>
+<title>Try It: Switching Between Definitions of Sequences</title>
+<para>Write the recursive formula for the sequence below that is given in explicit form:</para>
+<para>\(a_n=14+(n-1)(3)\)</para>
+<para>W<span>rite down your answer. Then select the </span><emphasis>Solution </emphasis><span>button to compare your work.</span></para>
+<title>Solution</title>
+<para>Here is how to write the sequence using the recursive definition:</para>
+<para><emphasis>Step 1</emphasis> - Write the explicit formula.</para>
+<para><emphasis>Step 2 </emphasis>- Identify the first term.</para>
+<para><emphasis>Step 3</emphasis> - Identify the common difference.</para>
+<para><emphasis>Step 4 </emphasis>- Write the recursive formula.</para>
+<para><emphasis>Step 5</emphasis> - Substitute \(a_1\) and \(d\) into the formula.</para>
+<para>Both formulas give the same first 3 terms: 14, 17, 20.</para></section>
+</content>
+</document>

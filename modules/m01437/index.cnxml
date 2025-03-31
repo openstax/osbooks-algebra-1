@@ -1,0 +1,308 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>5.11.4: Examine Exponential Decay in Context</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01437</md:content-id>
+    <md:title>5.11.4: Examine Exponential Decay in Context</md:title>
+    <md:uuid>5c603144-4f27-4935-ba91-049765cdb906</md:uuid>
+  </metadata>
+  <content>
+  <section><title> Activity (15 minutes)</title>
+<para>This activity continues to examine exponential decay in the context of successive ball bounces. Students use the
+  given data to calculate a rebound factor and use it to write a function that models the relationship between number of
+  bounces and bounce heights. They then use the function to answer questions about the ball and its bounces.</para>
+<para>Students also think about the domain of the function and address the fact that this is a discrete context, i.e., it
+  does not make sense to examine \(\frac23\) of a bounce, so the graphs should not be continuous.</para>
+<title> Launch</title>
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for Students with Disabilities</title></para>
+    <para><title>Representation: Internalize Comprehension</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+    <para>Activate or supply background knowledge about discrete and continuous contexts. The number of bounces is counted
+      every time the ball hits the floor. If a student asks about \(1\frac12\) bounces, clarify that would be measuring
+      the time since the ball had been released, not the number of bounces; a “bounce” is the event of hitting
+      the floor and changing direction. </para>
+    <para class="os-raise-text-italicize">Supports accessibility for: Memory; Conceptual processing</para>
+  </div>
+</div>
+<title>Student Activity</title>
+<para>The table shows some heights of a ball after a certain number of bounces.</para>
+<table class="os-raise-midsizetable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">Bounce Number</entry>
+      <entry scope="col" class="emphasis">Height in Centimeters</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+       0
+      </entry>
+      <entry> </entry>
+    </row>
+    <row>
+      <entry>
+       1
+      </entry>
+      <entry> </entry>
+    </row>
+    <row>
+      <entry>
+      2
+      </entry>
+      <entry>
+        73.5
+      </entry>
+    </row>
+    <row>
+      <entry>
+        3
+      </entry>
+      <entry>
+        51.5
+      </entry>
+    </row>
+    <row>
+      <entry>
+       4
+      </entry>
+      <entry>
+        36
+      </entry>
+    </row>
+  </tbody>
+</table>
+<list class="os-raise-noindent" type="enumerated">
+  <item> Is this ball more or less bouncy than the tennis ball in activity 5.11.2, which has the equation \(h=150 \cdot
+    (0.53)^n\)? Explain or show your reasoning.
+  </item>
+  </list>
+    <para><emphasis>Answer:</emphasis> This ball is more bouncy. Each bounce of this ball reaches a height that is about 0.7 times
+    that of the previous bounce \((51.5 \div 73.5 \approx 0.7)\). The tennis ball in the earlier task loses about half
+        of its height with each bounce.</para>
+
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item> From what height was the ball dropped? Explain or show your reasoning. Remember your units!</item>
+      </list>
+    <para><emphasis>Answer:</emphasis> 150 centimeters; \(73.5 \div 0.7=105\) and \(105 \div 0.7=150\).
+    </para>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item> Write an equation that represents the bounce height of the ball, \(h\), in centimeters after \(n\) bounces.</item>
+</list>
+<para><emphasis>Answer:</emphasis> \(h=150 \cdot (0.7)^n\)</para>
+
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item> Which graph would more appropriately represent the equation for \(h\): Graph A or Graph B? Be prepared to show
+      your reasoning. </item>
+</list>
+    <para><emphasis>Answer:</emphasis> Graph B is more appropriate. Only whole-number \(n\) values make sense in this context. We
+    cannot have bounce number 3.4, for example.  </para>
+  
+    <list class="os-raise-noindent" type="enumerated">
+      <item><image alt="Graph of a function on grid, origin O. Horizontal axis, bounce number, Vertical axis, height in centimeters. Solid line crosses vertical axis and moves downwards and to the right.   " src="https://k12.openstax.org/contents/raise/resources/89473637b74a05f03df63340503718f43284319a"/></item>
+      <item><image alt="Graph of a function on grid, origin O. Horizontal axis, bounce number, Vertical axis, height in centimeters. Dotted line crosses vertical axis and moves downwards and to the right.  " src="https://k12.openstax.org/contents/raise/resources/1a09812f28d50ba0c39d54196f0f5f9509ebe1c6"/> </item>
+</list>
+
+<list class="os-raise-noindent" start="5" type="enumerated">
+  <item> Will the nth bounce of this ball be lower than the nth bounce of the tennis ball? Be prepared to show your
+    reasoning.  </item>
+</list> 
+    <para><emphasis>Answer:</emphasis> No, the height of this ball after any given bounce will not be lower than that of the
+    tennis ball because they were dropped from the same height and this ball has a greater rebound factor, so it will
+    always bounce up to a higher point than the tennis ball.
+
+    </para>
+<list class="os-raise-noindent" start="6" type="enumerated">
+    <item>
+      The table shows an exponential decay that starts at 640.  What exponential decay problem is it modeling? Use ^ to show your exponent.</item>
+</list>
+
+<table class="os-raise-horizontaltable">
+  <thead/>
+  <tbody>
+            <row>
+              <entry scope="row" class="emphasis">\(x\)</entry>
+              <entry>0</entry>
+              <entry>1</entry>
+              <entry>2</entry>
+              <entry>3</entry>
+            </row>
+            <row>
+              <entry scope="row" class="emphasis">\(y\)</entry>
+              <entry>640</entry>
+              <entry>160</entry>
+              <entry>40</entry>
+              <entry>10</entry>
+            </row>
+  </tbody>
+</table>
+    
+<para><emphasis>Answer:</emphasis> Compare your answer. </para>
+<para>The pattern for the decay is starting at 640 and then decreasing by \(\frac34\) with only \(\frac 14\) remaining.  The equation is \(y=640 \cdot (1- \frac 34)^x\) or \(y=640 \cdot (\frac 14)^x\).</para>
+  <title>Anticipated Misconceptions</title>
+<para>If students struggle to make sense of the graph, remind them that the horizontal axis depicts the number of bounces,
+  not the height of the ball or time. Although height and time are continuous, the number of bounces is discrete.</para>
+<title>Activity Synthesis</title>
+<para>Invite students to share how they decided on the bounciness of the balls and to reflect on their reasoning process:
+</para>
+<list>
+  <item>“How are the data here different from the data in the first activity?” (In this case, the successive
+    quotients are very close to the same value, making the choice of rebound factor more straightforward.) </item>
+  <item>“When working with the table, how is calculating the missing value in the row above a given value different
+    from calculating a missing value in the row below?” (To find the missing value in the row above, we need to
+    divide by the rebound factor rather than multiply.) </item>
+  <item>“In the final question, why are both the initial height and the bounciness important?” (The value of
+    \(h\) is found by multiplying the initial height by the rebound factor \(n\) times, so both values matter.) </item>
+</list>
+
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for English Language Learners</title></para>
+    <para><title>MLR 8 Discussion Supports: Conversing</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+    <para> Use this routine to help students reflect on their reasoning process in deciding on the bounciness of the balls.
+      Before the whole-class discussion, arrange students in groups of 2. Provide the following sentence frames as
+      partners share their ideas: “In the table, I noticed that . . .”; “I interpreted the successive
+      quotients to mean . . .”; or “The equation helped determine the bounciness by . . . .” This will
+      help students make sense of exponential decay through discussing the ball-bouncing situation with a partner.</para>
+    <para class="os-raise-text-italicize">Design Principle(s): Support sense-making; Cultivate conversation</para>
+  </div>
+</div>
+
+
+
+
+<title> 5.11.4: Self Check</title>
+<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the
+      concepts explored in the activity.</emphasis></para>
+        <para class="os-raise-text-bold">QUESTION:</para>
+        <para>The population of deer in a forest is divided in half every decade. Which of the following graphs could
+          represent this situation?</para>
+          <table class="os-raise-textheavytable">
+            <thead>
+              <row>
+                <entry scope="col" class="emphasis">Answers</entry>
+                <entry scope="col" class="emphasis">Feedback</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+      <entry>
+        <image alt="4ecc375fae81d430969b613cdbed81b772e704c8 (513×506)" src="https://k12.openstax.org/contents/raise/resources/4ecc375fae81d430969b613cdbed81b772e704c8" width="300"/>
+      </entry>
+      <entry>
+        Incorrect. Let’s try again a different way: This graph shows an increasing linear model. The population
+          is decreasing in a nonlinear way. The answer is <image src="https://k12.openstax.org/contents/raise/resources/05b6651962e9fe8195bb74c06444b20fd1aa92c6" width="300"/>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <image src="https://k12.openstax.org/contents/raise/resources/e2ed088b53630b2221604b92225da5de51764eb4" width="300"/>
+      </entry>
+      <entry>
+        Incorrect. Let’s try again a different way: This graph shows a decreasing linear relationship. The
+          population is decreasing in a nonlinear way. The answer is<image src="https://k12.openstax.org/contents/raise/resources/05b6651962e9fe8195bb74c06444b20fd1aa92c6" width="300"/>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <image alt="d78c1c1afbc3953042d0e40268d490ffb665603f (555×506)" src="https://k12.openstax.org/contents/raise/resources/d78c1c1afbc3953042d0e40268d490ffb665603f" width="300"/>
+      </entry>
+      <entry>
+        Incorrect. Let’s try again a different way: This shows an increasing relationship. The population is
+          decreasing by a factor of \(\frac12\). The answer is<image src="https://k12.openstax.org/contents/raise/resources/05b6651962e9fe8195bb74c06444b20fd1aa92c6" width="300"/>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <image src="https://k12.openstax.org/contents/raise/resources/05b6651962e9fe8195bb74c06444b20fd1aa92c6" width="300"/>
+      </entry>
+      <entry>
+        That’s correct! Check yourself: The population of deer will decrease over time, but the rate at which
+          it decreases will slow down.
+      </entry>
+    </row>
+  </tbody>
+</table>
+<title> 5.11.4: Additional Resources</title>
+<para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with
+      the self check. Students will not automatically have access to this content, so you may wish to share it with
+      those who could benefit from it.</emphasis></para>
+<title> Writing Exponential Decay Functions</title>
+<para>Example 1</para>
+
+<para>Data has been entered into a table that shows exponential decay.  How would you write the equation that represents this model? </para>
+<table class="os-raise-horizontaltable">
+  <thead/>
+  <tbody>
+      <row>
+        <entry scope="row" class="emphasis">\(x\)</entry>
+        <entry>0</entry>
+        <entry>1</entry>
+        <entry>2</entry>
+        <entry>3</entry>
+      </row>
+      <row>
+        <entry scope="row" class="emphasis">\(y\)</entry>
+        <entry>200</entry>
+        <entry>100</entry>
+        <entry>50</entry>
+        <entry>25</entry>
+      </row>
+  </tbody>
+</table>
+<para>The formula for exponential decay is \(y=a \cdot (1-b)^x\) where a is the starting value and \(b\) is the amount that value decreases each unit of time \(x\).</para>
+<para>The pattern for the decay is starting at 200 and then decreasing by 12 with only 12 remaining. The equation is \(y=200 \cdot (1-\frac12)^x\) or \(y=200 \cdot (\frac12)^x\).</para>
+<para class="os-raise-text-bold">Example 2</para>
+<para>A car sells for $4,000 and loses \(\frac18\) of its value each year. Write a function that gives the car’s
+  value, \(V(t)\), \(t\) years after it is sold.</para>
+<para>Since the car loses \(\frac18\) of its value each year, it keeps \(\frac78\) of its value from year to year, so the
+  growth factor is \(\frac78\).</para>
+<para>\(V(t)=4000 \cdot (\frac{7}{8})^t\)</para>
+<title>Try It: Writing Exponential Decay Functions</title>
+<list type="enumerated">
+  <item>
+   What exponential decay equation is modeled by the table of data given?
+  </item>
+</list>
+<table class="os-raise-horizontaltable">
+  <thead/>
+  <tbody>
+      <row>
+        <entry scope="row" class="emphasis">\(x\)</entry>
+        <entry>1</entry>
+        <entry>2</entry>
+        <entry>3</entry>
+        <entry>4</entry>
+        <entry>5</entry>
+      </row>
+      <row>
+        <entry scope="row" class="emphasis">\(y\)</entry>
+        <entry>10000</entry>
+        <entry>8750</entry>
+        <entry>7656.25</entry>
+        <entry>266</entry>
+        <entry>1034</entry>
+      </row>
+  </tbody>
+</table>
+<para>Write down your answer, then select the<emphasis> solution </emphasis>button to compare your work.</para>
+<title>Solution</title>
+<para>\(y=10000 \cdot (1-\frac14)^x\)  or  \(y=10000 (\frac34)^x\)
+</para>
+<para>A computer is purchased for $1,000 and loses \(\frac15\) of its value per year.</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Write a function for the computer’s value, \(V(t)\), \(t\) years after it is purchased.</item>
+</list>
+
+<para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<title>Solution</title>
+<para>Here is how to write the exponential function:</para>
+<para>The starting amount is $1,000. The computer loses \(\frac15\) of its value each year, so it maintains \(\frac45\) of
+  its value. The growth factor is \(\frac45\).</para>
+<para>The function is then \(V(t)=1000 \cdot (\frac{4}{5})^t\).</para></section>
+</content>
+</document>

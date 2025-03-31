@@ -1,0 +1,212 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>7.6.3: Using Quadratic Functions to Describe Height</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01825</md:content-id>
+    <md:title>7.6.3: Using Quadratic Functions to Describe Height</md:title>
+    <md:uuid>87d8ea19-b2e4-4942-8be3-3ab40acd70a5</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity (15 minutes)</title>
+<para>In this activity, students explore another model of a projectile motion. They graph and interpret a quadratic
+  function in context and begin considering a reasonable domain for the function. Along the way, they practice reasoning
+  concretely and abstractly. By the end of the lesson, they relate the vertex of the graph to the maximum height of the
+  cannonball and the positive zero of the function to the time when the cannonball hits the ground.</para>
+<title>Launch</title>
+<para>Provide access to devices that can run Desmos or other graphing technology. If needed, demonstrate how to adjust the
+  graphing boundaries of the graphing tool.</para>
+<para>Depending on the graphing tool available and their facility with it, students may approach the estimations in the
+  third question in different ways (including by eyeballing). If desired, demonstrate how to use the graphing tool to
+  trace the graph and identify the coordinates of any point on it (which may include values that are precise or values
+  rounded to a specified decimal place). Or, first observe how students go about estimating and give additional guidance
+  as needed.</para>
+<para>To support students with the last question, ask students: “Is the equation a good model for predicting the
+  height of the cannonball 10 seconds after it is fired? What about 1 minute after it is fired?”</para>
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for English Language Learners</title></para>
+    <para><title>Representation: Develop Language and Symbols</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+    <para>Create a display of important terms and vocabulary. Invite
+      students to suggest language or diagrams to include that will support their understanding of: vertex of the graph,
+      zero of the function, and parabola.
+    </para>
+    <para class="os-raise-text-italicize">Supports accessibility for: Conceptual processing; Language</para>
+  </div>
+</div>
+<title>Student Activity</title>
+<list class="os-raise-noindent" type="enumerated">
+  <item>The function defined by \(d=50+312t-16t^2\) gives the height in feet of a cannonball \(t\) seconds after the ball
+    leaves the cannon.</item>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" type="enumerated">
+    <item> What does the term 50 tell us about the cannonball? <emphasis>Answer: </emphasis>The 50 tells us the cannonball is fired from 50 feet off of the ground.
+    </item>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item> What does the term \(312t\) tell us about the cannonball?<emphasis>Answer: </emphasis>The \(312t\) tells us that the initial upward velocity is 312 feet per second.
+    </item>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="3" type="enumerated">
+    <item> What does \(-16t^2\) tell us about the cannonball? <emphasis>Answer: </emphasis> The \(-16t^2\) represents the effect of gravity pulling the cannonball back to the
+      ground.
+    </item>
+  </list>
+</list>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Use the graphing tool or technology outside the course. Graph the function. Adjust the graphing window to the
+    following boundaries: \(0&lt;x&lt;25\) and \(0&lt;y&lt;2000\).</item>
+</list>
+<para>Select the <emphasis>solution</emphasis> button to compare your work.</para>
+<para class="os-raise-text-bold">Answer:</para>
+<image alt="Graph with time in seconds on \(x\)-axis and distance above ground in feet on \(y\)-axis." height="243" src="https://k12.openstax.org/contents/raise/resources/c684d9d0de5a353a7cbf137d277723b7949ac450" width="331"/><list class="os-raise-noindent" start="3" type="enumerated">
+  <item>Observe the graph and:</item>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" type="enumerated">
+    <item> Describe the shape of the graph. What does it tell us about the movement of the cannonball? <emphasis>Answer: </emphasis>The distance from the ground increases, reaches a peak, and then decreases, which
+      makes sense in the situation. It also looks like the distance from the ground decreases in the same way that it
+      increased on the way up. The graph tells us the cannonball went up in the air, and then fell back down to the
+      ground.
+    </item>
+  </list>
+</list>
+<para>The shape of the quadratic function is called a parabola. It has a “U” shape.</para>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item> Estimate the maximum height the ball reaches. When does this happen? <emphasis>Answer: </emphasis>The cannonball gets up to a little over 1500 feet, maybe to 1600 feet, at around 10
+      seconds.
+    </item>
+  </list>
+</list>
+<para>The peak of the parabola, where the maximum occurs, is also called the vertex of the graph.</para>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="3" type="enumerated">
+    <item> Estimate when the ball hits the ground. <emphasis>Answer: </emphasis>The cannonball hits the ground a little bit before 20 seconds.
+    </item>
+  </list>
+</list>
+<para>The zero of a function is where the function equals 0, or where it crosses the \(x\)-axis. In this case, there is
+  only one zero where the cannonball hits the ground. The parabola does cross the \(x\)-axis in the negative
+  \(x\)-values, but that does not make sense in this problem.</para>
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item>What domain is appropriate for this function? Be prepared to show your reasoning.<emphasis>Answer: </emphasis>The equation is a good model for the height of the cannonball from the time it is
+    launched, \(t=0\), until the time it lands, just before \(t=20\). For times outside of these values, the function
+    values do not mean anything in the context (for example, for \(t=21\) the function would place the cannonball
+    underground).
+  </item>
+</list>
+<title>Student Facing Extension</title>
+<title>Are you ready for more?</title>
+<para>If the cannonball were fired at 800 feet per second, would it reach a mile in height? Remember there are 5280 feet in
+  a mile. Be prepared to show your reasoning.</para>
+<para><emphasis>Answer:</emphasis> The equation here would be \(g(t)=50+800t-16t^2\). Since \(g(10)=6450\) and there are 5280
+  feet in a mile, this cannonball would reach over a mile in height. This could also be seen by graphing the function.
+</para>
+<title>Video: Using Quadratic Functions to Describe Height</title>
+<para>Watch the following video to learn more about quadratic functions.</para>
+<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
+  <iframe><video controls="true" crossorigin="anonymous">
+      <source src="https://k12.openstax.org/contents/raise/resources/093e5117403a8baf805f1828e852741db18c5d56">
+      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/4396d0c134864dce33a50af0f794467db0f6d55d" srclang="en_us">
+      https://k12.openstax.org/contents/raise/resources/093e5117403a8baf805f1828e852741db18c5d56
+    </track></source></video></iframe>
+</div>
+<title>Activity Synthesis</title>
+<para>Invite students to share their observations and interpretations of the graph. Highlight the following points:</para>
+<list>
+  <item> The graph representing a quadratic function is a parabola, which is a special kind of U shape. We will learn more
+    about the geometry of this shape in a later course, but for now, notice that there is a point when the graph changes
+    direction, from going up as \(x\) increases to going down (or changes from going down to going up). We call this
+    point the vertex of the graph. </item>
+  <item> In the previous activity, we plotted a limited set of points, so we could not tell where the vertex of the graph
+    was. In this graph, we are able to identify the vertex. In this situation, the vertex tells us the maximum height
+    that the cannonball reaches and the number of seconds after launch that it took before it starts to fall. </item>
+  <item> In this graph, we can also see that the height of the cannonball is 0 when \(t\) is a little less than 20. That
+    point, the horizontal intercept, relates to the zero of the function, or an input value that produces 0 for the
+    output. In this situation, the zero tells us when the cannonball hits the ground. </item>
+  <item> Even though we can continue the graph beyond \(t = 20\), in this situation any output values beyond that point
+    would not have any meaning. After the cannonball hits the ground, the function is no longer appropriate for modeling
+    the movement of the cannonball. Likewise, the function is not appropriate before t=0 or before the cannon is fired.
+    In this situation, a domain between 0 and just below 20 seconds is appropriate. </item>
+</list>
+<title>7.6.3: Self Check </title>
+<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their
+    understanding of the concepts explored in the activity.</emphasis></para>
+<para class="os-raise-text-bold">QUESTION:</para>
+<para>A toy rocket is launched from a platform 4 feet above the ground at a velocity of 128 feet per second. Its height is
+  graphed below. Approximately what is the rocket’s maximum height?</para>
+<image height="245" src="https://k12.openstax.org/contents/raise/resources/7058010f9b3e45a72d284e4e7b7e615871fdab5d" width="244"/><table class="os-raise-textheavytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        Answers
+      </entry>
+      <entry scope="col" class="emphasis">
+        Feedback
+      </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>8</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: This is the time when the rocket hits the ground. The
+          answer is 260 feet.</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>260 </para>
+      </entry>
+      <entry>
+        <para>That’s correct! Check yourself: The peak, or vertex, of the graph is at approximately 260 feet.</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>110</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: This is the height at 1 second. The answer is 260 feet.</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>128</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: This is the velocity. The answer is 260 feet.</para>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<title>7.6.3: Additional Resources</title>
+<para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on
+    their experience with the self check. Students will not automatically have access to this content, so you may wish
+    to share it with those who could benefit from it.</emphasis></para>
+<title>Reading Graphs of Quadratics</title>
+<para>An object is thrown upward from a height of 5 feet with a velocity of 60 feet per second. Its height, \(h(t)\), in
+  feet after \(t\) seconds is modeled by the function \(h(t)=5+60t-16t^2\).</para>
+<image alt="Graph of the quadratic function h(t)=5+60t−16t2  on a coordinate plane, origin  O. Horizontal axis scale 0 to 4 by 1’s, labeled “time (seconds)”. Vertical axis scale 0 to 80 by 20’s, labeled “distance above ground (feet)”. Some of the points of this function are (0 comma 5), (1 comma 49), to a maximum near (1 point 9 comma 61 point 2 5) then decreasing through (2 comma 61), (3 comma 41) and (3.8 comma 0)." height="231" src="https://k12.openstax.org/contents/raise/resources/32a38b72c84f4afe7093510818605bcc7a9b6d4f" width="311"/><para><emphasis>Step 1 </emphasis> -Identify the starting height.</para>
+<para><emphasis>Step 2 </emphasis> -Identify the maximum height by looking at the vertex or peak of the parabola.</para>
+<para><emphasis>Step 3 </emphasis> -Identify when the object reaches its maximum by matching the maximum with its matching time from the
+  \(x\)-axis.</para>
+<para><emphasis>Step 4 </emphasis> -When does the object hit the ground? </para>
+<title> Try It: Reading Graphs of Quadratics </title>
+<para>A rock is launched into the air, and its height is represented by the graph below.</para>
+<image height="147" src="https://k12.openstax.org/contents/raise/resources/b461dcedda003c376d9dfa1281928c118887b198" width="295"/><para>What is the maximum height of the rock?</para>
+<para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<title>Solution</title>
+<para>Here is how to find the maximum height:</para>
+<para>Look at the peak, or vertex of the parabola.</para>
+<para>The maximum height is 25 feet after 2 seconds.</para></section>
+</content>
+</document>

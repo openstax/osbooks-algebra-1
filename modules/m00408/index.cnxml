@@ -1,0 +1,73 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>2.3.2: Additional Resources</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m00408</md:content-id>
+    <md:title>2.3.2: Additional Resources</md:title>
+    <md:uuid>0537573f-ea21-4555-bc73-79936387abe1</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Solving Systems of Linear Equations</title>
+<para>Let’s solve this system of linear equations using the substitution method.</para>
+<para>\(\left\{\begin{array}{l}2x\;+\;y\;=\;7\\x\;-\;2y\;=\;6\end{array}\right.\)</para><para>We will first solve one of the equations for either \(x\) or \(y\). We can choose either equation and solve for either variable—but we’ll try to make a choice that will keep the work easy.</para>
+<para>Then we substitute that expression into the other equation. The result is an equation with just one variable—and we know how to solve those!</para>
+<para>After we find the value of one variable, we will substitute that value into one of the original equations and solve for the other variable. Finally, we check our solution and make sure it makes both equations true.</para>
+<note>
+  <title>How to Solve a System of Equations by Substitution</title>
+  <para><emphasis>Step 1 - </emphasis>Solve one of the equations for either variable.</para>
+  <para><emphasis>Step 2 - </emphasis>Substitute the expression from Step 1 into the other equation.</para>
+  <para><emphasis>Step 3 - </emphasis>Solve the resulting equation.</para>
+  <para><emphasis>Step 4 - </emphasis>Substitute the solution from Step 3 into one of the original equations to find the other variable.</para>
+  <para><emphasis>Step 5 - </emphasis>Write the solution as an ordered pair.</para>
+  <para><emphasis>Step 6 - </emphasis>Check that the ordered pair is a solution to both original equations.</para>
+</note>
+<para>Solve the system by substitution: \(\left\{\begin{array}{l}2x\;+\;y\;=\;7\\x\;-\;2y\;=\;6\end{array}\right.\)</para>
+<title>Solution</title>
+<para><emphasis>Step 1 - </emphasis>Solve one of the equations for either variable.</para>
+<para>We’ll solve the first equation for y.</para>
+<para>\(\begin{array}{c}\left\{\begin{array}{l}2x+y=7\\x-2y=6\end{array}\right.\end{array}\)</para>
+<para>\( \begin{array}{rcl}2x+y&amp;=&amp;7\\y&amp;=&amp;7-2x\\&amp;&amp;\end{array}\)</para>
+<para><emphasis>Step 2 - </emphasis>Substitute the expression from Step 1 into the other equation.</para>
+<para>\( \begin{array}{rcl}x-2y&amp;=&amp;6\\x-2(7-2x)&amp;=&amp;6\\&amp;&amp;\end{array}\)</para>
+<para><emphasis>Step 3 - </emphasis>Solve the resulting equation.</para>
+<para>Now we have an equation with just 1 variable. We know how to solve this!</para>
+<para>\( \begin{array}{rcl}x-2(7-2x)&amp;=&amp;6\\x-14+4x&amp;=&amp;6\\5x&amp;=&amp;20\\x&amp;=&amp;4\\&amp;&amp;\end{array}\)</para>
+<para><emphasis>Step 4 - </emphasis>Substitute the solution from Step 3 into one of the original equations to find the other variable.</para>
+<para>We’ll us the first equation and replace \(x\) with 4.</para>
+<para>\( \begin{array}{rcl}2x+y&amp;=&amp;7\\2(4)+y&amp;=&amp;7\\8+y&amp;=&amp;7\\y&amp;=&amp;-1\\&amp;&amp;\end{array}\)</para>
+<para><emphasis>Step 5 - </emphasis>Write the solution as an ordered pair.</para>
+<para>The ordered pair is \((x,y)\).</para>
+<para>\((4,-1)\)</para>
+<para><emphasis>Step 6 - </emphasis>Check that the ordered pair is a solution to both original equations.</para>
+<para>Substitute \(x=4\), \(y=-1\) into both equations and make sure they are both true.</para>
+<!--BEGIN SIDE BY SIDE EQUATIONSS-->
+<para>\(\begin{array}{rvr}
+  2x+y=7 &amp;   &amp;x-2y=6 \\
+  2(4)+(-1)\overset?=7 &amp;   &amp; 4-2(-1)\overset?=6 \\
+  7=7\checkmark &amp;   &amp; 6=6\checkmark
+  \end{array}\) </para>
+<!--END SIDE BY SIDE EQUATIONS -->
+<para>Both equations are true.</para>
+<para>\((4,-1)\) is the solution to the system.</para>
+<title>Try It: Solving Systems of Linear Equations</title>
+<!--BEGIN  MULTIPLE CHOICE -->
+<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="f4386b92-a79a-4f31-8437-37eae742ee29" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
+  <exercise data-content-id="bbdef143-5768-4382-9d92-567213e895f4" data-problem-type="multiplechoice" data-solution="\((6,1)\)" data-solution-options="[&quot;\\((9,-11)\\)&quot;, &quot;\\((1,6)\\)&quot;, &quot;\\((6,1)\\)&quot;, &quot;\\((-11,9)\\)&quot;]">
+    <problem>
+      <para>Solve the system by substitution, then choose the correct ordered pair. \(\left\{\begin{array}{l}-2x\;+\;y\;=\;-11\\x\;+\;3y\;=\;9\end{array}\right.\)</para>
+    </problem>
+    <solution>
+      <para>Correct! \((6,1)\)</para>
+    </solution>
+        <!--END OF EXPLANATION-->
+  </exercise> <!--END QUESTION.--> <!--END MULTIPLE CHOICE -->
+  <!--Do not edit below line.-->
+  <solution>
+    <!-- INSERT ANY VALID HTML HERE -->
+  </solution>
+  <div class="os-raise-ib-pset-encourage-response">
+    <!-- INSERT ANY VALID HTML HERE -->
+  </div>
+</div><!--END OF EVENT -->
+<!--END OF EVENT --></section>
+</content>
+</document>

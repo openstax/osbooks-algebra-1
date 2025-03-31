@@ -1,0 +1,186 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>8.2.3: Solving a Quadratic Equation Set Equal to Zero</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m02099</md:content-id>
+    <md:title>8.2.3: Solving a Quadratic Equation Set Equal to Zero</md:title>
+    <md:uuid>28bb729d-6baa-4412-b7f1-980509eac651</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity (15 minutes)</title>
+<para>This activity aims to show that it is relatively easy to solve a quadratic equation when one side of the equation is zero and the other side is a quadratic expression in factored form, and that it may be a little tricky to solve the equation otherwise.</para>
+<para>The activity prompts students to recall what they learned in an earlier unit: The zeros of a function correspond to the horizontal intercepts of the graph representing that function, and the zeros are the solutions to an equation of the form quadratic expression \(= 0\).</para>
+<title>Launch</title>
+<para>Keep students in groups of two.</para>
+<para>Read the opening paragraph in the task statement. Give students a moment to think about how much the school would collect if it sells the tickets at $5 each (it would collect $875). Briefly survey how they found out the answer. (Students are likely to have used the factored form because it lends itself to simpler calculations.)</para>
+<para>Ask students to recall the form in which each quadratic expression is written. Then, give them a minute to talk to a partner and recall at least two things about each form and what the form might tell us about the graph of the function that the expression defines.</para>
+<para>Record their responses for all to see. If no students mentioned the connection between either of the forms to the horizontal intercepts of the graph or the zeros of the function, ask them about it.</para>
+<para>Tell students that they do not need to find the ticket prices in the second question, but only to think about how to go about doing so.</para>
+<!--BEGIN ELL AND SWD GRAY BOX -->
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for English Language Learners</title></para>
+    <para><title>MLR 2 Collect and Display: Conversing</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+    <para>As students discuss the differences between the forms of each equation with their partner, listen for and collect the language students use: vertex, -intercept, zeros, etc. Write the students’ words and phrases on a visual display and refer to it during the discussion later in the launch. As the activity continues, update the visual display and continue to do so throughout the remainder of the lesson. Remind students to borrow language from the display as needed. This will help students read and use mathematical language during their partner and whole-class discussions.</para>
+    <para class="os-raise-text-italicize">Design Principle(s): Maximize meta-awareness; Support sense-making</para>
+    <para class="os-raise-extrasupport-title">Provide support for students</para>
+    <para>
+      <link url="https://k12.openstax.org/contents/raise/resources/3765a3cff09304aea8d8db39295b1c00ffd0c12f">Distribute graphic organizers</link>
+      to the students to assist them with participating in this routine.
+    </para>
+  </div>
+</div>
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for Students with Disabilities</title></para>
+    <para><title>Representation: Internalize Comprehension</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+    <para>Use color and annotations to illustrate student thinking. As students share their reasoning about finding the solutions for which the ticket sales would equal zero, scribe their thinking on a visible display. Consider highlighting each factor separately and annotating to show that when one factor equals zero, the entire expression equals zero regardless of the value of the other factor.</para>
+    <para class="os-raise-text-italicize">Supports accessibility for: Visual-spatial processing; Conceptual processing</para>
+  </div>
+</div>
+<!--END ELL AND SWD GRAY BOX -->
+<title>Student Activity</title>
+<para>The expressions \(p(200 − 5p)\) and \(-5p^2 + 200p\) define the same function. The function models the revenue a school would earn from selling raffle tickets at \(p\) dollars each.</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>At what price or prices would the school collect $0 revenue from raffle sales? Explain or show your reasoning.</item>
+</list>
+<para><emphasis>Answer:</emphasis> $0 and $40. For example, if the equation \(p(200−5p)=0\) is true, then either \(p\) is equal to 0, or \(200−5p\) is equal to 0. If \(200−5p=0\), then \(p\) is 40, because \(200−5(40)\) is 0.</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>The school staff noticed that there are two ticket prices that would result in a revenue of $500. What equation could you use to determine what those two prices are?</item>
+</list>
+<para><emphasis>Answer:</emphasis> We could write \(p(200 − 5p) = 500\) and \(-5p^2 + 200p = 500\). Approximate solutions can be found using trial and error or graphing. However, we don’t yet know an exact way to solve either equation.</para>
+<title>Student Facing Extension</title>
+<title>Are you ready for more?</title>
+<para>Can you find the following prices without graphing?</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item> If the school charges $10, it will collect $1500 in revenue. Find another price that would generate $1500 in revenue.</item>
+</list>
+<para><emphasis>Answer: </emphasis>$30</para>
+<para>Moving the same distance away from each horizontal intercept, at $0 and $40, results in equal revenue. This means $10 and $30 earn an equal amount of revenue.</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>If the school charges $28, it will collect $1680 in revenue. Find another price that would generate $1680 in revenue.</item>
+</list>
+<para><emphasis>Answer: </emphasis>$12</para>
+<para>Moving the same distance away from each horizontal intercept, at $0 and $40, results in equal revenue. This means $12 and $28 earn an equal amount of revenue.</para>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>Find the price that would produce the maximum possible revenue. Be prepared to show your reasoning.</item>
+</list>
+<para><emphasis>Answer: </emphasis>$20. Moving the same distance away from each horizontal intercept results in equal revenue. The farther away we move from one horizontal intercept in the direction of the other intercept, the greater the revenue. An optimal ticket price of $20, producing $2000 in revenue, is found in the middle point between the two intercepts, at \(p = 20\).</para>
+<title>Anticipated Misconceptions</title>
+<para>If students struggle to connect the expressions that define the function to the questions, ask them what the input and output of the function represent. If students struggle with the first question, ask them what values of \(p\) would yield a value of 0 for the expression.</para>
+<title>Activity Synthesis</title>
+<para>Invite students to share their responses and strategies. Make sure students see that the first question can be represented by solving the equation \(p(200 − 5p) = 0\), and that the second question can be represented by solving either \(p(200 − 5p) = 500\) or \(-5p^2 + 200p = 500\).</para>
+<para>Although students are not yet formally introduced to the zero product property, they do have experience with finding the zeros of a quadratic function when given an expression in factored form. This prior knowledge enables them to reason about the solutions to the equation \(p(200 − 5p) = 0\). For instance, noticing the factor \(p\), students are likely to say that one zero of the function is 0.</para>
+<para>Ask students:</para>
+<list class="os-raise-noindent">
+  <item>“How can you show, without graphing, that \(p = 0\) will produce no revenue, or that it is a solution to the equation \(p(200 − 5p) = 0\)?” (When \(p = 0\), the factor \(p\) is 0, and therefore the entire expression equals 0.) </item>
+  <item>“How can you show that \(p = 40\) will also produce no revenue, or that it is also a solution to the same equation?” (When \(p = 40\), the factor \((200 − 5p)\) is 0, and likewise, the entire expression is 0.) </item>
+  <item>“Can we use the same reasoning to find the solutions to \(p(200 − 5p) = 500\) or \(-5p^2 + 200p = 500\)? Why or why not?” (No, not easily. Neither shows the zeros of a function. There are many pairs of factors that have 500 as a product.) </item>
+</list>
+<para>Make sure students see that it is fairly straightforward to find the solutions to equations such as \(p(200 − 5p) = 0\), but the same cannot be said about equations such as \(p(200 − 5p) = 500\) or \(-5p^2+ 200p = 500\).</para>
+<para>Highlight that all the equations in this activity are quadratic equations. Reinforce that a quadratic equation is one that can be written in the form of \(ax^2 + bx + c = 0\), where \(a\) is not 0.</para>
+<para>If time permits, ask students to show how all of the equations seen here can be written in this form.</para>
+<title>Video: Solving a Quadratic Equation Set Equal to Zero</title>
+<para>Watch the following video to learn more about solving a quadratic equation set equal to zero.</para>
+<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
+  <iframe><video controls="true" crossorigin="anonymous">
+      <source src="https://k12.openstax.org/contents/raise/resources/77882d2deb7924f80889f50875df2021952a9ba1">
+      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/62f15f9597649cfd5b15f201948fe21c6af899d3" srclang="en_us">https://k12.openstax.org/contents/raise/resources/77882d2deb7924f80889f50875df2021952a9ba1
+    </track></source></video></iframe>
+</div>
+<title>8.2.3: Self Check </title>
+<!--BEGIN SELF CHECK INTRO BEFORE Tables -->
+<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
+<!--SELF CHECK QUESTION GOES BEFORE THE Table -->
+<para class="os-raise-text-bold">QUESTION:</para>
+<para>The expressions \(s(60 − 12s)\) and \(-12s^2 + 60s\) define the same function. A soap bubble machine can launch many soap bubbles into the air before they begin to pop. The function given models the number of soap bubbles floating in the air in \(s\) seconds.</para>
+<para>According to the function, how many seconds have passed before all of the bubbles have been made and also popped?</para>
+<!--SELF CHECK table-->
+<table class="os-raise-textheavytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">Answers</entry>
+      <entry scope="col" class="emphasis">Feedback</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>0 seconds</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: At 0 seconds, there are no bubbles. However, the bubbles have not been made and popped yet. The answer is 5 seconds.</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>5 seconds</para>
+      </entry>
+      <entry>
+        <para>That’s correct! Check yourself: The time passed when all of the bubbles are popped is represented by the equation \(s(60 − 12s) = 0\). Substitute 5 in for \(s\) to check your answer. Since \((5)(60 - 12(5)) = 0\), the answer is correct.</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>6 seconds</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: Solve the equation \(s(60 − 12s) = 0\) to find the solution. Do this by setting the factor \(60 − 12s\) equal to 0 and solving to find the nonzero solution. The answer is 5 seconds.</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>7 seconds</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: Solve the equation \(s(60 − 12s) = 0\) to find the solution. Do this by setting the factor \(60 − 12s\) equal to 0 and solving to find the nonzero solution. The answer is 5 seconds.</para>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<!--END SELF CHECK INTRO BEFORE Tables -->
+<title>8.2.3: Additional Resources</title>
+<para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it. </emphasis></emphasis></para>
+<para>The expressions \(h(40 − 10h)\) and \(-10h^2 + 40h\) define the same function. The function models the height of a weather balloon in miles \(h\) hours after it is released.</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>What equation can be used to determine the times the weather balloon is on the ground?</item>
+</list>
+<para><emphasis>Answer:</emphasis> When the weather balloon is on the ground, the expression will equal 0. So, the equation \(h(40 − 10h) = 0\) represents the weather balloon when it is on the ground.</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>How can we solve the equation \(h(40 − 10h) = 0\)?</item>
+</list>
+<para><emphasis>Answer:</emphasis> We know that any value multiplied by 0 equals 0. So, if \(h\) or \((40 - 10h)\) equals 0, then the left side of the equation will also equal 0.</para>
+<para>The weather balloon is on the ground at 0 hours. Now, let’s find the solution to \(40 - 10h = 0\).</para>
+<para>\(40 - 10h = 0\)</para>
+<para>\(40 = 10h\)</para>
+<para>\(4 = h\)</para>
+<para>The weather balloon is also on the ground after 4 hours.</para>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>A scientist wants to determine the two different times when the weather balloon is 30 miles above Earth. Write an equation to represent these times.</item>
+</list>
+<para><emphasis>Answer: </emphasis>The times when the weather balloon is 30 miles above Earth are represented by the equation \(h(40 − 10h) = 30\) or the equation \(-10h^2 + 40h = 30\).</para>
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item>If the weather balloon is 30 miles above Earth after 1 hour, find another time that the weather balloon is 30 miles above Earth.</item>
+</list>
+<para><emphasis>Answer:</emphasis> We know the total trip takes the weather balloon 4 hours. Since the graph representing the flight of the weather balloon is symmetric, if it takes 1 hour to reach 30 miles up, then 1 hour from touching the ground, it will be at 30 miles up again. So, the weather balloon will be 30 miles above Earth after 3 hours.</para>
+<title>Try It: Solving a Quadratic Equation Set Equal to Zero</title>
+<para>The expressions \(p(420 − 60p)\) and \(-60p^2 + 420p\) define the same function. The function models revenue earned at a baseball game from the sale of baseball magazines sold at \(p\) dollars each.</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>At what price or prices would the game organizers collect $0 revenue from magazine sales? Explain or show your reasoning.</item>
+</list>
+<para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<title>Solution</title>
+<para>$0 and $7. If the equation \(p(420 − 60p) = 0\) is true, then either \(p\) is equal to 0, or \(420 − 60p\) is equal to 0. If \(420 − 60p = 0\), then \(p\) is 7, because \(420 − 60(7)\) is 0.</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>The organizers determined there are two magazine prices that would result in a revenue of $600. What equation would you use to determine what those two prices are?</item>
+</list>
+<para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<title>Solution</title>
+<para>Here is how to use your knowledge of quadratic equations to solve the problem:</para>
+<para>We could write \(p(420 − 60p) = 600\) or \(-60p^2 + 420p = 600\). We can use trial and error or graphing to provide approximate solutions. We do not yet know an exact method to solve either equation.</para>
+</section>
+</content>
+</document>

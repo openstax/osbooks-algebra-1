@@ -1,0 +1,242 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>5.6.3: Interpreting Negative Exponents in Exponential Decay</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01346</md:content-id>
+    <md:title>5.6.3: Interpreting Negative Exponents in Exponential Decay</md:title>
+    <md:uuid>38dda859-97aa-46bc-8863-9b52f0168a71</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity</title>
+<para>A person took some medicine but does not remember how much. Concerned that she took too much, she has a blood test
+  every hour for several hours.</para>
+<table class="os-raise-midsizetable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">\(t\), time (hours)</entry>
+      <entry scope="col" class="emphasis">\(m\), medicine (mg)</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        –3
+      </entry>
+      <entry> </entry>
+    </row>
+    <row>
+      <entry>
+        –1
+      </entry>
+      <entry> </entry>
+    </row>
+    <row>
+      <entry>
+        0
+      </entry>
+      <entry>
+        100
+      </entry>
+    </row>
+    <row>
+      <entry>
+        1
+      </entry>
+      <entry>
+        50
+      </entry>
+    </row>
+    <row>
+      <entry>
+        2
+      </entry>
+      <entry>
+        25
+      </entry>
+    </row>
+  </tbody>
+</table>
+<para>Answer the following questions. Double click on mathematical expressions/equations to enlarge.
+</para>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Time \(t\) is measured in hours since the blood test, and amount of medicine in her body, \(m\), is
+        measured in milligrams. What is the decay factor? That is, what is \(b\) in an equation of the form
+        \(m=a\cdot b^t\)?</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para> \(b=\frac12\)</para>
+  </solution></exercise>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> What is \(a\)?</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>\(a=100\)</para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Find the amounts of medicine in the patient’s body when \(t\) is –1.</para>
+      </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>When \(t\) is –1, \(m\) is 200.</para>
+  </solution></exercise>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Find the amounts of medicine in the patient’s body when \(t\) is –3.</para>
+      </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>When \(t\) is –3, \(m\) is 800.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>What does \(t=0\) mean in this context?</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para> \(t=0\) means the time the doctor did the first blood test.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<exercise>
+  <problem>
+    <para>What does \(t=-3\) mean in this context?</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para> \(t=-3\) means 3 hours before the doctor did the first test.</para>
+  </solution></exercise>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>The medicine was taken when \(t\) is –5. Assuming the person did not have any of the medication in
+        her body beforehand, how much medicine did the patient take?</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>3,200 mg. Each hour, this is cut in half. After being halved 5 times, it leaves 100 mg, the amount of medicine in
+      the person’s body when \(t=0\).</para>
+  </solution></exercise>
+<!--Interaction End -->
+<example><exercise>
+  <problem>
+    
+    <para>Create a graph by plotting the points whose coordinates are in the table from question 1 above. Make sure to
+        draw and label tick marks on the axes.</para>
+    <image height="296" src="https://k12.openstax.org/contents/raise/resources/bd9e16f57c87cb863d69fea1d8f03d9f67d48df6" width="300"/>
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+    </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <image alt="" class="img-fluid atto_image_button_text-bottom" height="220" role="presentation" src="https://k12.openstax.org/contents/raise/resources/87c0825791421cf128a96a1b9eabd7e5cd7ccd97" width="300"/></solution></exercise>
+</example><!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Based on your graph, when do you think the patient will have: 500 mg of medicine remaining in her body</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>Between 2 and 3 hours before the patient first had her blood tested</para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Based on your graph, when do you think the patient will have: No medicine remaining in her body</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:
+      </para>
+    <list>
+      <item>Sometime after 10 hours. The amount of medicine falls below 0.1 mg after about 10 hours and might be too small
+        to be detectable after that point.</item>
+      <item> Eventually, all of the medicine will be out of the patient’s body (but the mathematical model for the
+        amount of medicine does not reach 0).</item>
+    </list>
+  </solution></exercise>
+<!--Interaction End -->
+<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+<example><exercise>
+  <problem>
+    
+    <!-- INSERT ANY VALID HTML HERE -->
+  <!-- INSERT ANY VALID HTML HERE -->
+  </problem></exercise>
+</example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="61ef699f-d746-4ab1-9447-3eceb0c3b48b" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0" data-wait-for-event="RFM1">
+  <exercise data-content-id="a1f54a9b-cea1-45c5-ac43-2ac7329663a6" data-problem-type="dropdown" data-solution="close to 1" data-solution-options="[&quot;close to 0&quot;, &quot;close to 1&quot;,&quot;much larger than 1&quot;]" data-wait-for-event="RFM1">
+    <problem>
+      <title>Extending Your Thinking</title>
+      <para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
+        than 1.</para>
+      <para>\(\frac1{1-2^{-10}}\)</para>
+      </problem>
+    <solution>
+      <para>Correct! The answer is: close to 1</para>
+    </solution>
+  </exercise>
+  <exercise data-content-id="5ca31138-9e4f-4b4d-ad63-509dbdb6a8ef" data-problem-type="dropdown" data-solution="close to 1" data-solution-options="[&quot;close to 0&quot;, &quot;close to 1&quot;,&quot;much larger than 1&quot;]" data-wait-for-event="RFM1">
+    <problem>
+      <para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
+        than 1.</para>
+      <para>\(\frac{2^{10}}{2^{10}+1}\)</para>
+      </problem>
+    <solution>
+      <para>Correct! The answer is: close to 1</para>
+    </solution>
+  </exercise>
+  <exercise data-content-id="edc064ea-76ed-49fe-aa30-d41afe493426" data-problem-type="dropdown" data-solution="close to 0" data-solution-options="[&quot;close to 0&quot;, &quot;close to 1&quot;,&quot;much larger than 1&quot;]" data-wait-for-event="RFM1">
+    <problem>
+      <para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
+        than 1.</para>
+      <para>\(\frac{2^{-10}}{2^{10}+1}\)</para>
+      </problem>
+    <solution>
+      <para>Correct! The answer is: close to 0</para>
+    </solution>
+  </exercise>
+  <exercise data-content-id="a715a50b-aebc-4bb7-9e97-346d824a0243" data-problem-type="dropdown" data-solution="close to 0" data-solution-options="[&quot;close to 0&quot;, &quot;close to 1&quot;,&quot;much larger than 1&quot;]" data-wait-for-event="RFM1">
+    <problem>
+      <para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
+        than 1.</para>
+      <para>\(\frac{1-2^{-10}}{2^{10}}\)</para>
+      </problem>
+    <solution>
+      <para>Correct! The answer is: close to 0</para>
+    </solution>
+  </exercise>
+  <exercise data-content-id="fff56ade-4ac8-4bb1-95e8-015e427ddb17" data-problem-type="dropdown" data-solution="much larger than 1" data-solution-options="[&quot;close to 0&quot;, &quot;close to 1&quot;,&quot;much larger than 1&quot;]" data-wait-for-event="RFM1">
+    <problem>
+      <para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
+        than 1.</para>
+      <para>\(\frac{1+2^{10}}{2^{-10}}\)</para>
+      </problem>
+    <solution>
+      <para>Correct! The answer is: much larger than 1</para>
+    </solution>
+  </exercise>
+  <!--Do not edit below this line-->
+  <solution> </solution>
+  </div>
+<!--End interaction--></section>
+</content>
+</document>

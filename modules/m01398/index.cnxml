@@ -1,0 +1,263 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>5.9.3: Graph Equations to Solve Problems</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01398</md:content-id>
+    <md:title>5.9.3: Graph Equations to Solve Problems</md:title>
+    <md:uuid>c408dce5-1f24-4dfc-82d0-9989e311eacf</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity (15 minutes)</title>
+<para>This activity prompts students to graph equations to solve problems and think about appropriate values of their
+  variables. The context is the thickness and the area of a sheet of paper that is repeatedly folded.</para>
+<para>For both equations, only whole numbers make sense as inputs. Students consider why this makes sense in this context.
+  (This is in contrast, for example, to the price of producing solar energy in the earlier activity. While the data
+  given are on an annual basis, it makes sense to “connect the dots” because there is a price for producing
+  solar energy at any given time.) Without instruction about how to create a discrete graph with their graphing
+  technology, students are likely to produce a continuous graph. This is a good opportunity to discuss how to interpret
+  a model for a particular context.</para>
+<para>Look for the different methods students use to find out how many folds are needed to reach a certain thickness.
+  Identify students who used a table, a graph, or an equation so they can share later.</para>
+<title>Launch</title>
+<para>To increase student interest, ask students to do some research: What is the current world record for the number of
+  times humans were able to fold a sheet of paper? (As of this writing, the world record is 12 folds, with the help of a
+  hydraulic press.)</para>
+<para>Give each student a sheet of paper. Ask them to fold it in half, and in half again, as many times as they can. (To
+  save paper, you might have students do this in pairs.) Once they have folded it as many times as they can, ask a few
+  students to share how many times they folded it, and estimate the thickness of the folded paper. Tell students that
+  they are going to investigate the relationship between the number of folds and the thickness of the paper.</para>
+<para>Provide access to graphing technology. This activity requires students to be mindful about the scale or graphing
+  window. The activities that specifically target that skill are extension, so this gives students a chance to practice
+  scaling the axes. Students may need more instruction or a review on how to graph exponentials with their graphing
+  technology and also on how to adjust the window appropriately.</para>
+  <div class="os-raise-extrasupport">
+    <note>
+      <para><title> Support for English Language Learners</title></para>
+      <para><title>MLR 3 Clarify, Critique, Correct: Reading, Writing, Speaking</title></para>
+    </note>
+    <div class="os-raise-extrasupport-body">
+      <para>
+        Present the question: “How many folds does it take before the folded sheet of paper is more than 1 mm
+    thick?” Consider using this ambiguous response: “It takes 4.5 folds, because I looked on the graph to
+    check the points.” Ask students to identify the error, critique the reasoning, and write an improved
+    explanation. As students discuss with a partner, listen for students who identify and clarify the ambiguous language
+    in the statement. Invite students to share their critiques and corrected explanations with the class. Listen for and
+    amplify the language students use to describe the point using both the graph and a created table. This helps
+    students evaluate, and improve on, the written mathematical arguments of others as they clarify their understanding
+    of discrete graphs.</para>
+    <para class="os-raise-text-italicize">Design Principle(s): Optimize output (for explanation); Maximize meta-awareness</para>
+    <para class="os-raise-extrasupport-title">Learn more about this routine</para>
+    <para>
+            <link url="https://youtu.be/lozZJ21i3mQ?si=38hDLpetnY3GRncu">View the instructional video</link>
+            and
+            <link url="https://k12.openstax.org/contents/raise/resources/36e324584ae01e4eafc6674ac4ec02b4ae99002c">follow along with the materials</link>
+            to assist you with learning this routine.
+          </para>
+          <para class="os-raise-extrasupport-title">Provide support for students</para>
+          <para>
+            <link url="https://k12.openstax.org/contents/raise/resources/76d1756428038b737f48dc515486cddceb99e2f8">Distribute graphic organizers</link>
+            to the students to assist them with participating in this routine.
+          </para>
+      </div>
+    </div>
+
+<title>Student Activity</title>
+<list class="os-raise-noindent" type="enumerated">
+  <item> The thickness \(t\) in millimeters of a folded sheet of paper after it is folded \(n\) times is given by the
+    equation \(t=(0.05) \cdot 2^n\). </item>
+  <list class="os-raise-noindent" type="enumerated">
+    <item> What does the number 0.05 represent in the equation? <emphasis>Answer: </emphasis>The sheet of paper is 0.05 mm thick. </item>
+    <item>What does the number 2 represent in the equation? <emphasis>Answer: </emphasis>The number 2 indicates that the thickness doubles with each increment of \(n\), the number of folds. </item>
+    <item> Use graphing technology to graph the equation \(t=(0.05) \cdot 2^n\). <emphasis>Answer: </emphasis>
+      Here is a table of values for the thickness of the paper after different numbers of folds:<table class="os-raise-skinnytable">
+        <thead>
+          <row>
+            <entry scope="col" class="emphasis">\(n\)</entry>
+            <entry scope="col" class="emphasis">\(t\)</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              0
+            </entry>
+            <entry>
+              0.05
+            </entry>
+          </row>
+          <row>
+            <entry>
+              1
+            </entry>
+            <entry>
+              0.1
+            </entry>
+          </row>
+          <row>
+            <entry>
+              2
+            </entry>
+            <entry>
+              0.2
+            </entry>
+          </row>
+          <row>
+            <entry>
+              3
+            </entry>
+            <entry>
+              0.4
+            </entry>
+          </row>
+          <row>
+            <entry>
+              4
+            </entry>
+            <entry>
+              0.8
+            </entry>
+          </row>
+          <row>
+            <entry>
+              5
+            </entry>
+            <entry>
+              1.6
+            </entry>
+          </row>
+        </tbody>
+      </table>
+      <image alt="7 points on coordinate plane, showing exponential growth. Horizontal axis from 0 to 8, labeled number of folds. Vertical axis from 0 to 4, labeled thickness in millimeters." src="https://k12.openstax.org/contents/raise/resources/ddc0e3176eeb7477a4126cedf70ddd1728f0c8b8"/></item>
+    <item> How many folds does it take before the folded sheet of paper is more than 1 mm thick? How many folds before it
+      is more than 1 cm thick? Explain how you know. <emphasis>Answer:</emphasis> It takes 5 folds before the paper is more than 1 mm thick. After 4 folds, the paper is
+      0.8 mm thick, and after 5 folds, it is 1.6 mm thick. It takes 8 folds before the paper is more than 1 cm or 10 mm
+      thick (1.28 cm to be precise). </item>
+  </list>
+  <item> The area of a sheet of paper is 93.5 square inches. </item>
+  <list class="os-raise-noindent" type="enumerated">
+    <item> Find the remaining visible area of the sheet of paper after it is folded in half once, twice, and three times.
+      <emphasis>Answer: </emphasis>46.75, 23.375, 11.6875 square inches</item>
+    <item> Write an equation expressing the visible area \(a\) of the sheet of paper in terms of the number of times it
+      has been folded, \(n\). <emphasis>Answer:</emphasis> \( a=93.5 \cdot (\frac{1}{2})^n\) </item>
+    <item> Use graphing technology to graph the equation. <emphasis>Answer: </emphasis><image alt="7 points on coordinate plane, showing exponential decay. Horizontal axis from 0 to 10, labeled number of folds. Vertical axis from 0 to 100, labeled area in square inches." src="https://k12.openstax.org/contents/raise/resources/4f47b33528798e3680054e0b7ca6e52f368f53d5"/></item>
+    <item> In this context, can \(n\) take negative values? Be prepared to show your reasoning. <emphasis>Answer: </emphasis>The variable<emphasis> </emphasis>\(n\) cannot take negative values (unless the original
+      sheet of paper can be unfolded). </item>
+    <item> Can \(a\) take negative values? Be prepared to show your reasoning. <emphasis>Answer:</emphasis> No. The area of the sheet of paper can never be negative, no matter how many times it is
+      folded.</item>
+    <item> Identify the domain of the graph using an inequality.  <emphasis>Answer: </emphasis>\(n \geq 0\) </item>
+    <item> Identify the range of the graph using an inequality.  <emphasis>Answer</emphasis><emphasis>:</emphasis>
+
+      \(0&lt;a \leq 93.5\). Note that the area cannot be negative, or even 0, because the paper will not disappear. </item>
+    <item> What equation represents the horizontal asymptote? <emphasis>Answer:</emphasis> \(y=0\)
+    </item>
+  </list>
+  <item>Use the equation to make a prediction of the thickness with 7 folds.<emphasis>Answer: </emphasis>\(t=(0.05) \cdot 2^7=(0.05)(128)=6.4\)</item>
+  <item>The \(y\)-intercept represents the initial thickness of the paper \(t\) before folding (when \(n\) is zero). Calculate the value of the \(y\)-intercept.<emphasis>Answer: </emphasis>\(t=(0.05) \cdot 2^0=(0.05)(1)=0.05\)</item>
+  <item>The asymptote represents the possible limit of thickness of the paper as it is folded.  What does this mean? <emphasis>Answer: </emphasis>In this equation, the value of thickness of the paper \(t\) becomes larger as the number of folds \(n\) increases (approaches infinity). This means that, as the paper is folded an increasing number of times, the thickness has the potential to be infinite, but in reality, it can never quite reach it.</item>
+</list>
+<title> Anticipated Misconceptions</title>
+<para>If students have trouble organizing their data points, suggest that they use a table.</para>
+<title>Activity Synthesis</title>
+<para>Focus the discussion on:</para>
+<list>
+  <item> How students identified the growth factor, given an equation or a description. </item>
+  <item> How students determined how many folds are needed to reach a certain thickness. Invite previously identified
+    students to share their strategies. </item>
+  <item> The meaningful values of the variables in the equations: </item>
+  <list>
+    <item> Highlight that a discrete graph is more appropriate in both situations: only the whole-number values make sense
+      for the number of folds because it is not possible to fold the paper a fractional number of times. </item>
+    <item> Practically speaking, a large number of folds, such as 36, is not possible. </item>
+  </list>
+</list>
+<para>Demonstrate, using graphing technology, how to graph the equations and invite students to share how they chose an
+  appropriate graphing window. If students just typed an equation, most likely the tool plotted a continuous curve. This
+  is an opportunity to talk about interpreting the continuous graph in this context: really, only whole-number values
+  for \(n\) are meaningful. Time permitting, you might demonstrate how to graph only whole number values of \(n\) using
+  your graphing technology of choice. Typically, this is done by using the technology to generate a table based on a
+  rule. Here is an example:</para>
+<image alt="7 points on coordinate plane, showing exponential growth. Horizontal axis from 0 to 8, labeled number of folds. Vertical axis from 0 to 4, labeled thickness in millimeters." height="500" src="https://k12.openstax.org/contents/raise/resources/65f04772671c4508dc449207b4b3285a7464a055"/><para>Time permitting, consider asking students if the equations \(t=(0.05) \cdot 2^n\) and \(a=(93.5) \cdot
+  (\frac{1}{2})^n\) could be plotted on the same set of axes. Even though the variable \(n\) (the number of folds)
+  is the same for the two equations, the thickness \(t\) and the area \(a\) are measured in different units, so they
+  cannot be plotted on the same axes.</para>
+<title>5.9.3: Self Check </title>
+<para class="os-raise-text-bold"><emphasis>Following the activity, students will answer the following question to check their
+    understanding of the concepts explored in the activity.</emphasis></para>
+<para class="os-raise-text-bold">QUESTION:</para>
+<para>The graph below represents the function that gives the value of a computer in dollars, \(y\), as a function of time,
+  \(x\)<emphasis>,</emphasis> measured in years since the time of purchase. </para>
+<para>What is the range for this graph and situation?</para>
+<image alt="Graph of a decreasing exponential function, x y plane, origin O." src="https://k12.openstax.org/contents/raise/resources/8e9e0dd763ff6fc4e8252424a230df64244aa6fb"/><table class="os-raise-textheavytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">Answers</entry>
+      <entry scope="col" class="emphasis">Feedback</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+		  <para>\(y \leq 400\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: The range in this situation cannot be negative because the
+			computer value will not ever be negative. The answer is \(0&lt;y \leq400\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        \(x \geq 0\)
+      </entry>
+      <entry>
+      Incorrect. Let’s try again a different way: This is the domain. The answer is \(0&lt;y \leq400\).
+      </entry>
+    </row>
+    <row>
+      <entry>
+        \(0&lt;y \leq 400\)
+      </entry>
+      <entry>
+        That’s correct! Check yourself: The largest \(y\)-value is the starting price of the computer, $400,
+          and the lowest value will approach 0 but never actually equal $0.
+      </entry>
+    </row>
+    <row>
+      <entry>
+        \(y \geq 0\)
+      </entry>
+      <entry>
+        Incorrect. Let’s try again a different way: The value of the computer will not go above the starting
+          value of $400. The value of the computer will get close to zero, but it will never reach 0. The answer is
+          \(0&lt;y \leq400\).
+      </entry>
+    </row>
+  </tbody>
+</table>
+<title> 5.9.3: Additional Resources</title>
+<para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with
+      the self check. Students will not automatically have access to this content, so you may wish to share it with
+      those who could benefit from it. </emphasis></para>
+<title>Domain and Range of Exponential Graphs</title>
+<para>The graph below describes the amount of caffeine, \(c\), in a person’s body \(t\) hours after an initial
+  measurement of 100 mg. The equation of this line is  \(y=100(1-0.1)t\).</para>
+<image alt="Graph of function." src="https://k12.openstax.org/contents/raise/resources/c6505a870a48b5a86ecc8bf01f3b25c1613990ba"/><para>What is the smallest value \(c\) can reach?</para>
+<para>Since \(c\) is the amount of caffeine, it can get close to 0.</para>
+<para>Can \(t\) ever take on negative values?</para>
+<para>No, time will not be negative in this relationship because time is moving forward.</para>
+<para>What are the lowest and highest values for \(t\)?</para>
+<para>At the beginning, \(t=0\), and \(t\) can go as long as it takes for \(c\) to get so close to 0 it is
+  insignificant.</para>
+<para>The domain (or values of \(t\)) written as an inequality is \(t \geq 0\).</para>
+<para>The range (or values of \(c\)) written as an inequality is \(0&lt;c \leq 100\).</para>
+<title> Try It: Domain and Range of Exponential Graphs</title>
+<para>The dollar value of a car is a function, \(f\), of the number of years, \(t\), since the car was purchased. The car
+  was purchased at $12,000. Tell the domain and range. The equation of this line is \(y=12,000(1-0.25)t\).</para>
+<para>(\(t \)is exponent)</para>
+<image src="https://k12.openstax.org/contents/raise/resources/2e7653ffacc2075235b53b27ef26e881a968b435" width="300"/>
+<para><emphasis>Answer:</emphasis></para>
+<para>Here is how to determine the domain and range of an exponential function:</para>
+<para>To determine the domain, look at the \(t\) values. The car is bought when \(t=0\), so the domain is \(t \geq 0\).</para>
+<para>To determine the range, look at the \(f\) values, or the possible dollar values of the car. The car is bought at
+  $12,000 and will lose value until the value is close to $0, but it will never be worth negative dollars.</para>
+<para>The range is \(0&lt;f \leq 12000\).</para></section>
+</content>
+</document>

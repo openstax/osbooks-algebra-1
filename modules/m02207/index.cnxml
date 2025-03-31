@@ -1,0 +1,412 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>8.8.2: Recognizing the Expanded Product of the Difference of Two Squares</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m02207</md:content-id>
+    <md:title>8.8.2: Recognizing the Expanded Product of the Difference of Two Squares</md:title>
+    <md:uuid>b3f33d25-2c66-40d4-b319-86e34207dad6</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity (15 minutes)</title>
+<para>In this activity, students multiply expressions of the form \((x + m)\) and \((x - m)\). They discover that the expanded product of such factors can be expressed as a difference of two square numbers: \(x^2- m^2\). Students use diagrams and the distributive property to make sense of their observations.</para>
+<para>In the last question, they have an opportunity to notice that an expression in the form \((x + m)^2\) is not equivalent to \(x^2+ m^2\), to discourage overgeneralizing. Later in the lesson, they will transform quadratic expressions in standard form into factored form and vice versa.</para>
+<para>To answer the first two questions, some students may simply evaluate the expressions rather than reasoning about their structure. For example, to see if \((10 + 3)(10 - 3)\) is equivalent to \(10^2- 3^2\), they may calculate \(13 \cdot 7\) and \(100 - 9\) and see that both are 91. Ask students to see if they could show that this is not a coincidence. Could they show, for example, that \((50 + 4)(50 - 4)\) would also be equivalent to \(50^2-4^2\)?</para>
+<para>As students work, look for those who expand the factored expression using the distributive property and leave the partial products unevaluated to show the equivalence of the two expressions.</para>
+<title>Launch</title>
+<para>Provide access to calculators, in case requested.</para>
+
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for English Language Learners</title></para>
+    <para><title>MLR 3 Clarify, Critique, Correct: Reading, Writing, Speaking </title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+      <para>Before students share their explanations for the last question, present an incorrect answer and explanation. For example, "\((x +4)^2\) is equivalent to \(x^2+ 4^2\) because when you square an expression you square each term.” Ask students to identify the error, critique the reasoning, and write a correct explanation. As students discuss with a partner, listen for students who use diagrams or examples to illustrate the error in the author's reasoning. Invite students to share their critiques and corrected explanations with the class. Listen for and amplify the language students use to explain how to use the distributive property to square an expression. This helps students evaluate, and improve upon, the written mathematical arguments of others.</para>
+      <para class="os-raise-text-italicize">Design Principle(s): Optimize output (for explanation); Maximize meta-awareness</para>
+<para class="os-raise-extrasupport-title">Learn more about this routine</para>
+      <para>
+        <link url="https://www.youtube.com/watch?v=lozZJ21i3mQ;&amp;rel=0">View the instructional video</link>
+        and
+        <link url="https://k12.openstax.org/contents/raise/resources/36e324584ae01e4eafc6674ac4ec02b4ae99002c">follow along with the materials</link>
+        to assist you with learning this routine.
+      </para>
+      <para class="os-raise-extrasupport-title">Provide support for students</para>
+      <para>
+        <link url="https://k12.openstax.org/contents/raise/resources/76d1756428038b737f48dc515486cddceb99e2f8">Distribute graphic organizers</link>
+           to the students to assist them with participating in this routine.
+      </para>
+</div>
+</div>
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for Students with Disabilities</title></para>
+    <para><title>Representation: Internalize Comprehension</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+      <para> Use color coding and annotations to highlight connections between representations in a problem. For example, use color coding to highlight the opposites that occur in the linear term after the products are distributed. Then, use annotations to illustrate the sum is zero, which results in no linear term. Encourage students to annotate their work while working independently.</para>
+      <para class="os-raise-text-italicize">Supports accessibility for: Visual-spatial processing</para>
+</div>
+</div>
+<title>Student Activity</title>
+<list class="os-raise-noindent" type="enumerated">
+  <item>Clare claims that \((10 + 3)(10 - 3)\) is equivalent to \(10^2-3^2\) and \((20 + 1)(20 - 1)\) is equivalent to \(20^2-1^2\). Do you agree? Show your reasoning.</item>
+</list>
+<para><emphasis>Answer:</emphasis> Agree.</para>
+<para>\((10+3)(10-3)\)</para>
+<para>\((20 + 1)(20 - 1)\)</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>You can use your observations from the first question to mentally solve an expression such as \(105 \cdot 95\).</item>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <item> First, think about the problem differently. Evaluate \((100 + 5)(100 - 5)\) using the distributive property, or FOIL. Show your reasoning. </item>
+</list>
+<para><emphasis>Answer:</emphasis> \((100 + 5)(100 - 5) = 100^2- 5^2= 10,000 - 25 = 9975\)</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item> Check your answer by computing \(105 \cdot 95\). </item>
+</list>
+<para><emphasis>Answer:</emphasis> \(105 \cdot 95 = 9975\)</para>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>Is \((x + 4)(x - 4)\) equivalent to \(x^2-4^2\)?</item>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <item> First, support your thinking using a diagram. </item>
+</list>
+<table class="os-raise-doubleheadertable">
+
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis"/>
+      <entry scope="col" class="emphasis">
+        \(x\)
+      </entry>
+      <entry scope="col" class="emphasis">
+        4
+	  </entry>
+    </row></thead><tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+       \(x\)
+      </entry>
+      <entry> </entry>
+      <entry> </entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">
+        -4
+      </entry>
+      <entry> </entry>
+      <entry> </entry>
+    </row>
+  </tbody>
+</table>
+<para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<para><emphasis>Answer:</emphasis> Yes.</para>
+<table class="os-raise-doubleheadertable">
+ 
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis"/>
+      <entry scope="col" class="emphasis">
+      \(x\)
+      </entry>
+      <entry scope="col" class="emphasis">
+        4
+      </entry>
+    </row></thead><tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+      \(x\)
+      </entry>
+      <entry>
+        \(x^2\)
+      </entry>
+      <entry>
+       \(4x\)
+      </entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">
+       -4
+      </entry>
+      <entry>
+       \(-4x\)
+      </entry>
+      <entry>
+        \(-4(4)\)
+      </entry>
+    </row>
+  </tbody>
+</table>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item> Now, support your thinking using the distributive property, or FOIL. </item>
+</list>
+<para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<para><emphasis>Answer:</emphasis> \((x + 4)(x - 4)= x^2+ 4x - 4x - 4(4) = x^2- 4^2\) </para>
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item>Is \((x + 4)^2\) equivalent to \(x^2+4^2\)? Support your answer, either with or without a diagram.</item>
+</list>
+<para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<para><emphasis>Answer:</emphasis> No.</para>
+<table class="os-raise-doubleheadertable">
+  
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis"/>
+      <entry scope="col" class="emphasis">
+      \(x\)
+      </entry>
+      <entry scope="col" class="emphasis">
+       4
+      </entry>
+    </row></thead><tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+        \(x\)
+      </entry>
+      <entry>
+       \(x^2\)
+      </entry>
+      <entry>
+       \(4x\)
+      </entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">
+      4
+      </entry>
+      <entry>
+        \(4x\)
+      </entry>
+      <entry>
+        \(4(4)\)
+      </entry>
+    </row>
+  </tbody>
+</table>
+<para>With FOIL:</para>
+<title>Student Facing Extension</title>
+<title>Extending Your Thinking</title>
+<list class="os-raise-noindent" type="enumerated">
+  <item>Explain how your work in the previous questions can help you mentally evaluate \(22 \cdot 18\).</item>
+</list>
+<para><emphasis>Answer:</emphasis> \(22 \cdot 18\) can be written as \((20 + 2)(20 - 2)\), which is equivalent to \(202 - 22\), which is \(400 - 4\), or 396.</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Explain how your work in the previous questions can help you mentally evaluate \(45 \cdot 35\).</item>
+</list>
+<para><emphasis>Answer:</emphasis> \(45 \cdot 35\) can be written as \((40 + 5)(40 - 5)\), which is equivalent to \(40^2-5^2\), which is \(1600 - 25\), or 1575.</para>
+<para>Here is a shortcut that can be used to mentally square any two-digit number. Let's take \(83^2\), for example.</para>
+<list class="os-raise-noindent">
+  <item> 83 is \(80 + 3\). </item>
+  <item> Compute \(80^2\) and \(3^2\), which gives 6400 and 9. Add these values to get 6409. </item>
+  <item> Compute \(80 \cdot 3\), which is 240. Double it to get 480. </item>
+  <item> Add 6409 and 480 to get 6889. </item>
+</list>
+<para>Try using this method to find the squares of some other two-digit numbers. (With some practice, it is possible to get really fast at this!)</para>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>Explain why this method works.</item>
+</list>
+<para><emphasis>Answer:</emphasis> Any two-digit number can be written as \(a + b\), where \(a\) is 10 times the first digit and \(b\) is the second digit. We are interested in squaring \(a + b\):</para>
+<para>\((a + b)^2=(a + b)(a + b)\)</para>
+<para class="os-raise-noindent">\(= a^2+ab +ab +b^2\) by the distributive property</para>
+<para class="os-raise-noindent">\(= a^2+ 2ab +b^2\) by combining like terms</para>
+<para class="os-raise-noindent">\(= a^2+b^2+2ab\) because addition is commutative</para>
+<para>We get the \(a^2 + b^2\) from squaring \(a\) and \(b\) and adding them, and the \(2ab\) from multiplying the two values and doubling them.</para>
+<title>Anticipated Misconceptions</title>
+<para>Some students may struggle to generalize the pattern after just a few examples. Before starting the activity synthesis, provide additional factored expressions for students to expand, for instance: \((x + 3)(x - 3)\), \((2x + 1)(2x - 1)\), \((4x + 5)(4x - 5)\), and \((6 - x)(6 + x)\).</para>
+<title>Activity Synthesis</title>
+<para>To help students generalize their observations, display the expression \((x + m)(x - m)\) and a blank diagram that can be used to visualize the expansion of the factors. Ask students what expressions go in each rectangle.</para>
+<table class="os-raise-doubleheadertable">
+  
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis"> </entry>
+      <entry scope="col" class="emphasis">
+        \(x\)
+      </entry>
+      <entry scope="col" class="emphasis">
+       \(m\)
+      </entry>
+    </row></thead><tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+        \(x\)
+      </entry>
+      <entry> </entry>
+      <entry> </entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">
+       \(-m\)
+      </entry>
+      <entry> </entry>
+      <entry> </entry>
+    </row>
+  </tbody>
+</table>
+<para>Illustrate that when the terms in each factor are multiplied out, the resulting expression has two squares, one with a positive coefficient and the other with a negative coefficient (\(x^2\) and \(m^2\)) and two linear terms that are opposites (\(mx\) and \(-mx\)). Because the sum of \(mx\) and \(-mx\) is 0, what remains is the difference of \(x^2\) and \(m^2\), or \(x^2 - m^2\). There is now no linear term.</para>
+<para>Emphasize that knowing this allows us to rewrite into factored form any quadratic expression that has no linear term and that is a difference of a squared variable and a squared constant. For example, we can write \(x^2-9\) as \((x + 3)(x - 3)\) because we know that when the latter is expanded, the result is \(x^2-9\).</para>
+<para>Use the last question to point out the importance of paying attention to the structure of these expressions (the subtraction in the first expression, the presence of both addition and subtraction in the second). For example, we can't use any patterns observed in this activity to rewrite \(x^2+9\) in factored form.</para>
+<title>8.8.2: Self Check</title>
+
+    <para class="os-raise-text-bold">After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</para>
+ 
+<para class="os-raise-text-bold">QUESTION:</para>
+        <para>Which of the following is equivalent to \(9^2 - 6^2\)?</para>
+<table class="os-raise-textheavytable">
+
+  <thead>
+  
+    <row>
+      <entry scope="col" class="emphasis">
+        Answers
+      </entry>
+      <entry scope="col" class="emphasis">
+       Feedback
+      </entry>
+    </row></thead><tbody>
+    <row>
+      <entry>
+        <para>\((9 - 6)^2\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let's try again a different way: This expression is \((9 - 6)^2= 3^2= 9\). The original expression is \(9^2- 6^2= 81 - 36 = 45\). The answer is \((9 + 6)(9 - 6)\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\((9 - 6)(9 - 6)\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let's try again a different way: This expression is \((9 - 6)(9 - 6) = (3)(3) = 9\). The original expression is \(9^2 - 6^2= 81 - 36 = 45\). The answer is \((9 + 6)(9 - 6)\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\((9 + 6)(9 + 6)\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let's try again a different way: This expression is \((9 + 6)(9 + 6) = (15)(15) = 225\). The original expression is \(9^2- 6^2= 81 - 36 = 45\). The answer is \((9 + 6)(9 - 6)\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\((9 + 6)(9 - 6)\)</para>
+      </entry>
+      <entry>
+        <para>That's correct! Check yourself: Multiply the expression to check. \((9 + 6)(9 - 6) = (15)(3) = 45\). The original expression is equivalent, \(9^2- 6^2= 81 - 36 = 45\). The answer is correct.</para>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<title>8.8.2: Additional Resources</title>
+<emphasis>
+<para class="os-raise-text-bold">The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</para>
+</emphasis>
+<title>Recognizing the Expanded Product of the Difference of Two Squares</title>
+<para>Mathematically, something special happens when two binomials that are conjugates are multiplied. In other words, the product of an expression of the form (\(a - b)(a + b)\) results in a unique expression called a difference of two squares. Here are some examples of these special products.</para>
+<para class="os-raise-text-bold">Example 1</para>
+<para>Let's look at the expression \((12 + 5)(12 - 5)\). We want to determine if it is equivalent to \(12^2-5^2\).</para>
+<para>We can use the distributive property of multiplication over addition, or FOIL process, to multiply.</para>
+<para>\((12 + 5)(12 - 5)\) </para>
+<para class="os-raise-text-bold">Example 2</para>
+<para>Let's look at a different example using a <term data-schema-version="1.0" data-store="glossary-tooltip">variable</term>.</para>
+<para>\((x + 7)(x - 7)\)</para>
+<para>Is this equivalent to \(x^2-7^2\)?</para>
+<para>\((x + 7)(x - 7)\)</para>
+<table class="os-raise-doubleheadertable">
+ 
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis"/>
+      <entry scope="col" class="emphasis">
+        \(x\)
+      </entry>
+      <entry scope="col" class="emphasis">
+       -7
+      </entry>
+    </row></thead><tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+        \(x\)
+      </entry>
+      <entry>
+       \(x^2\)
+      </entry>
+      <entry>
+       \(-7x\)
+      </entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">
+        7
+      </entry>
+      <entry>
+       \(7x\)
+      </entry>
+      <entry>
+        \(-7(7)\)
+      </entry>
+    </row>
+  </tbody>
+</table>
+<para>You have studied this process earlier when you learned the difference of squares.</para>
+<para>In this lesson, we will reverse this process to rewrite the <term data-schema-version="“1.0”" data-store="glossary-tooltip">standard form</term> of a <term data-schema-version="“1.0”" data-store="glossary-tooltip">quadratic expression</term> into its <term data-schema-version="“1.0”" data-store="glossary-tooltip">factored form</term>.</para>
+<para>It is important to remember the <term data-schema-version="“1.0”" data-store="glossary-tooltip">linear term</term>, or middle term of a quadratic trinomial, equals zero only holds true for the <term data-schema-version="“1.0”" data-store="glossary-tooltip">difference of squares</term>. It does not work for an expression such as \(x^2+25\). (In fact, there is no way to multiply two binomials that would result in this expression.)</para>
+<para class="os-raise-text-bold">Example 3</para>
+<para>Is \((x + 5)^2\) equivalent to \(x^2+25\)?</para>
+<para>Let's find the equivalent expression for \((x + 5)^2\) or \((x + 5)(x + 5)\).</para>
+<para>\(\begin{array}{rcl}\left(x+5\right)^2&amp;=&amp;\left(x+5\right)\left(x+5\right)\\&amp;&amp;\\&amp;=&amp;x^2+5x+5x+25\\&amp;&amp;\\&amp;=&amp;x^2+10x+25\\&amp;&amp;\end{array}\)</para>
+<title>Try It: Recognizing the Expanded Product of the Difference of Two Squares</title>
+<list class="os-raise-noindent" type="enumerated">
+  <item>Is the expression \((8 - 7)(8 + 7)\) equivalent to the expression \(8^2-7^2\)? Show your reasoning using the distributive property, or FOIL.</item>
+</list>
+<title>Solution</title>
+<para>Here is how to recognize the expanded product of the difference of two squares:</para>
+<para>Yes. Here is how to use the difference of squares to show equivalency between the expressions:</para>
+<para>\((8 - 7)(8 + 7) = 8^2+ 56 - 56 - 7^2= 8^2 - 7^2\)</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Is \((x + 4)(x + 4)\) equivalent to \(x^2+ 4^2\)? Support your answer with a diagram.</item>
+</list>
+<para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<title>Solution</title>
+<para>Here is how to recognize the expanded product of the difference of two squares:</para>
+<para>No. The expressions are not equivalent.</para>
+<table class="os-raise-doubleheadertable">
+
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis"/>
+      <entry scope="col" class="emphasis">
+       \(x\)
+      </entry>
+      <entry scope="col" class="emphasis">
+        4
+      </entry>
+    </row></thead><tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+        \(x\)
+      </entry>
+      <entry>
+       \(x^2\)
+      </entry>
+      <entry>
+       \(4x\)
+      </entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">
+       4
+      </entry>
+      <entry>
+       \(4x\)
+      </entry>
+      <entry>
+        \(4(4)\)
+      </entry>
+    </row>
+  </tbody>
+</table>
+<para>\((x + 4)(x + 4) = x^2 + 8x + 4^2 = x^2 + 8x + 16\)</para>
+<para>It is not equivalent to \(x^2 + 4^2 = x^2 + 16\).</para></section>
+</content>
+</document>

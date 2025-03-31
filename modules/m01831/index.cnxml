@@ -1,0 +1,138 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>7.6.2: The Force of Gravity Change in Quadratic Functions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01831</md:content-id>
+    <md:title>7.6.2: The Force of Gravity Change in Quadratic Functions</md:title>
+    <md:uuid>4cee1467-48fc-4c58-9043-84c01476fafa</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity</title>
+<para>Earlier, in activity 7.6.1, you completed a table that represents the height of a cannonball, in feet, as a function of time, in seconds, if there was no gravity.</para>
+<para>This table shows the actual heights of the ball at different times.</para>
+<table class="os-raise-horizontaltable">
+  <thead/>
+  <tbody>
+    <row>
+      <entry scope="row" class="emphasis">Seconds</entry>
+
+      <entry>
+        0
+      </entry>
+      <entry>
+        1
+      </entry>
+      <entry>
+        2
+      </entry>
+      <entry>
+        3
+      </entry>
+      <entry>
+        4
+      </entry>
+      <entry>
+        5
+      </entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">Distance above ground (feet)</entry>
+
+      <entry>
+        10
+      </entry>
+      <entry>
+        400
+      </entry>
+      <entry>
+        758
+      </entry>
+      <entry>
+        1084
+      </entry>
+      <entry>
+        1378
+      </entry>
+      <entry>
+        1640
+      </entry>
+    </row>
+  </tbody>
+</table>
+<example><exercise>
+  <problem>
+    
+    <para>Compare the values in this table with those in the table you completed earlier. What are two similarities or differences that you notice?</para>
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <list class="os-raise-noindent">
+    <item> The actual height values are all less than the hypothetical ones (except the first, before the cannonball has been fired). </item>
+    <item> The difference between the distances after some number of seconds is not constant. For example, 1 second after firing, the distances in the two tables are 416 and 400, a difference of 16 feet. Two seconds after firing, the difference between the two values is 64 feet. </item>
+  </list>
+</solution></exercise>
+</example><div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Use the graphing tool or technology outside the course.</item>
+</list>
+<example><exercise>
+  <problem>
+    
+    <para> Plot the two sets of data you have on the same coordinate plane. </para>
+    <para>Select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <image alt="Grid with points plotted. X-axis labeled with time in seconds and \(y\)-axis labeled with distance above ground in feet." height="243" src="https://k12.openstax.org/contents/raise/resources/ca2e0346ec5f5a17bf99721807b651fdf80682a1" width="472"/></solution></exercise>
+</example><example><exercise>
+  <problem>
+    
+    <para> How are the two graphs alike? How are they different? </para>
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>The dots (triangles) that form a straight line represent the hypothetical data that ignore gravity. The dots that form a curve represent the actual heights. They both start at the same place (0,10). The hypothetical data show the heights increasing at a constant rate, in a linear pattern, while the actual data show values growing more slowly each successive second.</para>
+</solution></exercise>
+</example><div class="os-raise-ib-pset" data-button-text="Check" data-content-id="040e2d8c-694f-4c32-8653-f19eea2cbeda" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
+  <!--Q3-->
+  <exercise data-content-id="75cbaf70-41f2-4428-9349-568e519e5f94" data-problem-comparator="integer" data-problem-type="input" data-solution="10">
+    <problem>
+      <para>What is the starting position for both graphs?</para>
+      <para>Enter your answer here:</para>
+    </problem>
+    <solution>
+      <para>Correct! The starting position for both graphs is 10.</para>
+    </solution>
+    </exercise>
+  <!--END QUESTION.-->
+  <!--Q4-->
+  <exercise data-content-id="ede0809e-5b2b-4de6-8c55-99f545c4f141" data-problem-comparator="integer" data-problem-type="input" data-solution="406">
+    <problem>
+      <para>What was the constant rate of change for the cannonball without gravity?</para>
+      <para>Enter your answer here:</para>
+    </problem>
+    <solution>
+      <para>Correct! The constant rate of change for the cannonball without gravity was 406.</para>
+    </solution>
+    </exercise>
+  <!--END QUESTION.-->
+  <!--Do not edit below line.-->
+  <solution>
+    <!-- INSERT ANY VALID HTML HERE -->
+  </solution>
+  <div class="os-raise-ib-pset-encourage-response">
+    <!-- INSERT ANY VALID HTML HERE -->
+  </div>
+</div>
+<para>The constant rate of change is also the <term data-schema-version="1.0" data-store="glossary-tooltip">initial velocity</term>. Recall that the effect of gravity is represented by \(16t^2\). Gravity causes the bend in the curve for the second table and graph because it pulls the cannonball down toward the ground.</para>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>With a partner, write an equation to model the actual distance \(d\), in feet, of the ball \(t\) seconds after it was fired from the cannon. Consider gravity and how the points changed on the graph.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>Notice that gravity caused the heights to decrease, so, the effect of gravity is to subtract \(16t^2\). An equation for the actual height of the cannonball is \(d=10+406t-16t^2\).</para>
+  </solution></exercise>
+<!--Interaction End --></section>
+</content>
+</document>

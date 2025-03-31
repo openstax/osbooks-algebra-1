@@ -1,0 +1,293 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>7.4.2: Exploring Linear, Exponential, and Quadratic Growth</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01795</md:content-id>
+    <md:title>7.4.2: Exploring Linear, Exponential, and Quadratic Growth</md:title>
+    <md:uuid>1cdff5a8-8232-49c5-acac-8e005504117b</md:uuid>
+  </metadata>
+  <content>
+  <section><para>In this activity, you will compare two different patterns. In each pattern, the number of small squares is a function
+  of the step number, \(n\).</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item> In Pattern A, the length and width of the rectangle grow by 1 small square from each step to the next.</item>
+</list>
+<para>Pattern A</para>
+<image alt="Four steps of a growing pattern. Step 0 is blank. Step 1: One square. Step 2: Four squares in a two by two square. Step 3: Nine squares in a three by three square." height="144" src="https://k12.openstax.org/contents/raise/resources/0e7b14cef050d298b7cc5ac185823ad0e4ef3fc4" width="468"/><!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> Write an equation to represent the number of small squares at Step \(n\) in Pattern A. </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    \(f(n)=n^2\)
+
+  </solution></exercise>
+<!--Interaction End -->
+<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="9075cc7a-5970-44d6-85ea-a95a6b92fcbc" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
+  <!--Q#-->
+  <exercise data-content-id="b03ffaee-7ef7-4c98-8cf3-161785ba20bf" data-problem-type="dropdown" data-solution="quadratic" data-solution-options="[&quot;linear&quot;, &quot;quadratic&quot;, &quot;exponential&quot;]">
+    <problem>
+      <para> Is the function in Pattern A linear, quadratic, or exponential? </para>
+      </problem>
+    <solution>
+      <para>Correct! It is quadratic. </para>
+    </solution>
+    </exercise>
+  <!--END QUESTION.-->
+  <!--Do not edit below line.-->
+  <solution>
+    <!-- INSERT ANY VALID HTML HERE -->
+  </solution>
+  <div class="os-raise-ib-pset-encourage-response">
+    <!-- INSERT ANY VALID HTML HERE -->
+  </div>
+</div>
+<example><exercise>
+  <problem>
+    
+    <para> Complete the table for Pattern A. </para>
+    <table class="os-raise-wideadjustedtable">
+      <thead>
+        <row>
+          <entry scope="col" class="emphasis">Step Number </entry>
+          <entry scope="col" class="emphasis">Number of Small Squares </entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+          <entry>\(0\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(1\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(2\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(3\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(4\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(5\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(6\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(7\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(8\)</entry>
+          <entry> </entry>
+        </row>
+      </tbody>
+    </table>
+    <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answers:</para>
+  <table class="os-raise-wideadjustedtable">
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis">Step Number </entry>
+        <entry scope="col" class="emphasis">Number of Small Squares </entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>\(0\)</entry>
+        <entry>\(0\)</entry>
+      </row>
+      <row>
+        <entry>\(1\)</entry>
+        <entry>\(1\)</entry>
+      </row>
+      <row>
+        <entry>\(2\)</entry>
+        <entry>\(4\)</entry>
+      </row>
+      <row>
+        <entry>\(3\)</entry>
+        <entry>\(9\)</entry>
+      </row>
+      <row>
+        <entry>\(4\)</entry>
+        <entry>\(16\)</entry>
+      </row>
+      <row>
+        <entry>\(5\)</entry>
+        <entry>\(25\)</entry>
+      </row>
+      <row>
+        <entry>\(6\)</entry>
+        <entry>\(36\)</entry>
+      </row>
+      <row>
+        <entry>\(7\)</entry>
+        <entry>\(49\)</entry>
+      </row>
+      <row>
+        <entry>\(8\)</entry>
+        <entry>\(64\)</entry>
+      </row>
+    </tbody>
+  </table>
+</solution></exercise>
+</example><list class="os-raise-noindent" start="2" type="enumerated">
+  <item> In Pattern B, the number of small squares doubles from each step to the next.</item>
+</list>
+<para>Pattern B</para>
+<image alt="Four steps of a growing pattern. Step 0: One square. Step 1: Two squares, one atop the other. Step 2: Four squares in a two by two square. Step 3: Eight squares in a two by four rectangle." height="144" src="https://k12.openstax.org/contents/raise/resources/e1178e6969e9b4d3ddc5767534e1ad9541129430" width="468"/><!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> Write an equation to represent the number of small squares at Step \(n\) in Pattern B. </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para> \(g(n)=2^n\)</para>
+  </solution></exercise>
+<!--Interaction End -->
+<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="8dec6722-cdd1-46f8-890d-df530de5bd7f" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
+  <!--Q#-->
+  <exercise data-content-id="4878fa90-3d82-4e1d-98c2-47593b1e9296" data-problem-type="dropdown" data-solution="exponential" data-solution-options="[&quot;linear&quot;, &quot;quadratic&quot;, &quot;exponential&quot;]">
+    <problem>
+      <para> Is the function in Pattern B linear, quadratic, or exponential? </para>
+      </problem>
+    <solution>
+      <para>Correct! It is exponential. </para>
+    </solution>
+    </exercise>
+  <!--END QUESTION.-->
+  <!--Do not edit below line.-->
+  <solution>
+    <!-- INSERT ANY VALID HTML HERE -->
+  </solution>
+  <div class="os-raise-ib-pset-encourage-response">
+    <!-- INSERT ANY VALID HTML HERE -->
+  </div>
+</div>
+<example><exercise>
+  <problem>
+    
+    <para> Complete the table for Pattern B. </para>
+    <table class="os-raise-wideadjustedtable">
+      <thead>
+        <row>
+          <entry scope="col" class="emphasis">Step Number</entry>
+          <entry scope="col" class="emphasis">Number of Small Squares</entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+          <entry>\(0\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(1\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(2\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(3\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(4\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(5\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(6\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(7\)</entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>\(8\)</entry>
+          <entry> </entry>
+        </row>
+      </tbody>
+    </table>
+    <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answers:</para>
+  <table class="os-raise-wideadjustedtable">
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis">Step Number</entry>
+        <entry scope="col" class="emphasis">Number of Small Squares</entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>\(0\)</entry>
+        <entry>\(1\)</entry>
+      </row>
+      <row>
+        <entry>\(1\)</entry>
+        <entry>\(2\)</entry>
+      </row>
+      <row>
+        <entry>\(2\)</entry>
+        <entry>\(4\)</entry>
+      </row>
+      <row>
+        <entry>\(3\)</entry>
+        <entry>\(8\)</entry>
+      </row>
+      <row>
+        <entry>\(4\)</entry>
+        <entry>\(16\)</entry>
+      </row>
+      <row>
+        <entry>\(5\)</entry>
+        <entry>\(32\)</entry>
+      </row>
+      <row>
+        <entry>\(6\)</entry>
+        <entry>\(64\)</entry>
+      </row>
+      <row>
+        <entry>\(7\)</entry>
+        <entry>\(128\)</entry>
+      </row>
+      <row>
+        <entry>\(8\)</entry>
+        <entry>\(256\)</entry>
+      </row>
+    </tbody>
+  </table>
+</solution></exercise>
+</example><!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>How would the two patterns compare if they continue to grow? Make one to two observations.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para> The number of small squares in Pattern B grows much more quickly than the number of squares in Pattern A once
+      \(n\) is greater than \(5\). The patterns have the same number of squares when \(n=2\) and when \(n=4\).</para>
+  </solution></exercise>
+<!--Interaction End --></section>
+</content>
+</document>

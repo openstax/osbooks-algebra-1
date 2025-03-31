@@ -1,0 +1,436 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>5.15.3: Growth Rate of an Exponential Function</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01511</md:content-id>
+    <md:title>5.15.3: Growth Rate of an Exponential Function</md:title>
+    <md:uuid>03cbb5b6-926c-4787-b9d9-b32925a1d375</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity (20 minutes)</title>
+<para>This activity complements the previous one. Students first examine what happens to the values of an exponential
+  function \(f\) when the input is increased by 1. If \(f\) is an exponential function defined by \(f(x)=a \cdot b^x\),
+  then its value changes by a factor of \(b\). Similarly, if the input is increased by 7, then the function value
+  increases by a factor of \(b^7\). More generally, an exponential function always changes by equal factors over equal
+  intervals.</para>
+<para>Students may have little trouble recognizing how the output values change when dealing with numerical input values,
+  but they may find it challenging to generalize their observations. Focus the discussion on this transition and on
+  using properties of exponents to extend their observations toward generalized cases.</para>
+<title>Student Activity</title>
+<para>Here is a table that shows some input and output values of an exponential function \(g\). The equation \(g(x)=3^x\)
+  defines the function.</para>
+<table class="os-raise-skinnytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        \(x\)
+      </entry>
+      <entry scope="col" class="emphasis">
+        \(g(x)\)
+      </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        3
+      </entry>
+      <entry>
+        27
+      </entry>
+    </row>
+    <row>
+      <entry>
+        4
+      </entry>
+      <entry>
+        81
+      </entry>
+    </row>
+    <row>
+      <entry>
+        5
+      </entry>
+      <entry>
+        243
+      </entry>
+    </row>
+    <row>
+      <entry>
+        6
+      </entry>
+      <entry>
+        729
+      </entry>
+    </row>
+    <row>
+      <entry>
+        7
+      </entry>
+      <entry>
+        2,187
+      </entry>
+    </row>
+    <row>
+      <entry>
+        8
+      </entry>
+      <entry>
+        6,561
+      </entry>
+    </row>
+    <row>
+      <entry>
+        \(x\)
+      </entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>
+        \(x+1\)
+      </entry>
+      <entry/>
+    </row>
+  </tbody>
+</table>
+<list class="os-raise-noindent" type="enumerated">
+  <item> How does \(g(x)\) change every time \(x\) increases by 1? Show or explain your reasoning.<emphasis>Answer: </emphasis> The output values increase by a factor of 3. For example: When we divide two consecutive
+    output values, the quotient is always 3.
+  </item><item> Choose two new input values that are consecutive whole numbers and find their output values. Record them in the
+    table. How do the output values change for those two input values?<emphasis>Answer: </emphasis> \(g(10)=3^{10}\) and \(g(11)=3^{11}\). The output still grows by a factor of 3 when the
+    input increases by 1 (from 10 to 11).
+  </item><item> Complete the table with the output when the input is \(x\) and when it is \(x+1\).<emphasis>Answer:</emphasis>
+  </item>
+</list>
+<table class="os-raise-skinnytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        \(x\)
+      </entry>
+      <entry scope="col" class="emphasis">
+        \(g(x)\)
+      </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        \(x\)
+      </entry>
+      <entry>
+        \(3^x\)
+      </entry>
+    </row>
+    <row>
+      <entry>
+        \(x+1\)
+      </entry>
+      <entry>
+        \(3^{x+1}\)
+      </entry>
+    </row>
+  </tbody>
+</table>
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item>Look at the change in output values as the \(x\) increases by 1. Does it still agree with your earlier
+    findings? Show your reasoning.<emphasis>Answer: </emphasis> Yes, the outputs still increase by a factor of 3. By rules of exponents, we know that \(3x
+    \cdot 3=3^{x+1}\). (Or by rules of exponents, we know that \(\frac {3^{x+1}}{3^x}=3^{x+1-x}\), which equals 3.)
+  </item>
+</list>
+<para>Pause here for a class discussion. Then, work with your group on the next few questions.</para>
+<list class="os-raise-noindent" start="5" type="enumerated">
+  <item> Choose two \(x\)-values where one is 3 more than the other (for example, 1 and 4). How do the output values of
+    \(g\) change as \(x\) increases by 3? (Each group member should choose a different pair of numbers and study the
+    outputs.)<emphasis>Answer: </emphasis> The output values increase by a factor of 27 or \(3^3\).
+  </item>
+</list>
+<list class="os-raise-noindent" start="6" type="enumerated">
+  <item> Complete this table with the output when the input is \(x\) and when it is \(x+3\). Look at the change in output
+    values as \(x\) increases by 3. Does it agree with your group’s findings in the previous question? Show your
+    reasoning. <emphasis>Answer:</emphasis>
+  </item>
+</list>
+<table class="os-raise-skinnytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        \(x\)
+      </entry>
+      <entry scope="col" class="emphasis">
+        \(g(x)\)
+      </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        \(x\)
+      </entry>
+      <entry>
+        \(3^x\)
+      </entry>
+    </row>
+    <row>
+      <entry>
+        \(x+3\)
+      </entry>
+      <entry>
+        \(3^{x+3}\)
+      </entry>
+    </row>
+  </tbody>
+</table>
+<para>Yes, the outputs still increase by a factor of 27. By rules of exponents, we know that \(3x \cdot 3^3=3^{x+3}\). (Or
+  by rules of exponents, we know that \(\frac{3^{x+3}}{3^x}=3^{x+3-x}\), which equals \(3^3\) or 27.)</para>
+<list class="os-raise-noindent" start="7" type="enumerated">
+    <item>Summarize the process you used in questions 1 - 6 to analyze this data.</item>
+</list>
+<para><emphasis>Answer:</emphasis> Answers will vary.</para>
+<list class="os-raise-noindent" start="8" type="enumerated">
+    <item>Explain if you found it helpful or not to analyze the data for simpler data (questions 1-2) before analyzing it for more abstract data (questions 3 - 6).</item>
+</list>
+<para><emphasis>Answer:</emphasis> Answers will vary.</para>
+<title>Video: Analyzing Tables of Exponential Functions</title>
+<para>Watch the following video to learn more about analyzing the tables of exponential functions:</para>
+<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
+  <iframe><video controls="true" crossorigin="anonymous">
+      <source src="https://k12.openstax.org/contents/raise/resources/2ad184a8d1b79f957dc77e16c376203270d3e473">
+      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/726957eb47c59565e7c436ee7921dbdc00dc3d27" srclang="en_us">
+      https://k12.openstax.org/contents/raise/resources/2ad184a8d1b79f957dc77e16c376203270d3e473
+    </track></source></video></iframe>
+</div>
+<title>Student Facing Extension</title>
+<title>Are you ready for more?</title>
+<para>For integer inputs, we can think of multiplication as repeated addition and exponentiation as repeated
+  multiplication:</para>
+<table class="os-raise-wideadjustedtable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        Multiplication representing repeated addition
+      </entry>
+      <entry scope="col" class="emphasis">
+        Exponentiation representing repeated multiplication
+      </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        \(3 \cdot 5=3+3+3+3+3\)
+      </entry>
+      <entry>\(3^5=3 \cdot 3 \cdot 3 \cdot 3 \cdot 3\)</entry>
+    </row>
+  </tbody>
+</table>
+<para>We could continue this process with a new operation called tetration. It uses the symbol \(\uparrow \uparrow\), and
+  it is defined as repeated exponentiation:</para>
+<table class="os-raise-skinnytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        Tetration representing repeated exponentiation
+      </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        \(3 \uparrow \uparrow 5=3^{3 \wedge 3 \wedge 3 \wedge 3}\)
+      </entry>
+    </row>
+  </tbody>
+</table>
+<list class="os-raise-noindent" start="1" type="enumerated">
+  <item>Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\).</item>
+</list>
+<para><emphasis>Answer:</emphasis>\(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
+</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Compute \(f(x)=3 \uparrow \uparrow x\).</item>
+</list>
+<para><emphasis>Answer:</emphasis> \(3 \uparrow \uparrow 2=3^3=27\)
+</para>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item> What is the relationship between \(f(x)\) and \(f(x+1)\)?</item>
+</list>
+<para><emphasis>Answer:</emphasis> The numbers output by this function get large absurdly fast, even in comparison to
+  exponential functions. We calculated \(f(2)=27\) above, and now \(f(3)=3^{f(2)}=3^{27}=7,625,597,484,987\).</para>
+<title>Activity Synthesis</title>
+<para>Invite students to share what they noticed about values of \(g\) for consecutive whole numbers. If not mentioned by
+  students, point out the pattern that as the \(x\)-value increases by 1, the output changes by a factor of 3. For
+  example: \(g(5)\) is 3 times \(g(4)\), \(g(8)\) is 3 times \(g(7)\), and so on.</para>
+<para>Discuss questions such as:</para>
+<list>
+  <item>“What do we have when dividing the outputs for two consecutive \(x\)-values, such as \(\frac{g(5)}{g(4)}\)
+    or \(\frac{g(8)}{g(7)}\)?” (a quotient of 3) </item>
+  <item>“How are the two outputs \(g(x+1)\) and \(g(x)\) related, then? (\(g(x+1)\) is \(g(x)\) times 3, or when we
+    divide \(g(x+1)\) by \(g(x)\), the quotient is 3.) </item>
+  <item>“How can we use the rules of exponents to show that this is always the case?” \((g(x)=3^x\), so
+    \(g(x+1)=3^{x+1}\). When dividing two powers with the same bases, we can subtract the exponents. Dividing the two,
+    we have \(\frac{3^{x+1}}{3^x}\), which is 3.) </item>
+  <item>“Does this reasoning work if the function has a different initial value, say \(h\) given by \(h(x)=5 \cdot
+    3^x\)?” (Yes, \(\frac{5 \cdot 3^{x+1}}{5 \cdot 3^x}\) still equals 3.) </item>
+  <item>“What happens to the output of \(g\) when \(x\) increases by 2?” (\(g(x)\) increases by a factor of 3
+    twice, or \(3^2\).) “What about when it increases by 5?” (\(g(x)\) increases by a factor of 3 five
+    times.) </item>
+  <item>“What happens to the output when \(x\) increases by \(a\)?” (\(g(x)\) increases by a factor of 3 \(a\)
+    times, or \(3^a\). The rule of exponents can help us here as well. If we divide \(g(x+a)\) by \(g(x)\), we have:
+    \(\frac {3^{x+a}}{3^x}=3^a\).) </item>
+</list>
+<para>Consider using a graph of \(g\) to help students visualize growth of \(g\) over equal intervals of \(x\). The
+  successive quotients of the outputs are always 3.</para>
+<image alt="Graph.   " src="https://k12.openstax.org/contents/raise/resources/c836dbbfe03a93a8f67162876774273d7d798051"/><title> 5.15.3: Self Check </title>
+<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their
+    understanding of the concepts explored in the activity.</emphasis></para>
+<para class="os-raise-text-bold">QUESTION:</para>
+<para> Given \(f(x) = 4^x\), what is \(\frac{f(x+2)}{f(x+1)}\)? </para>
+<table class="os-raise-textheavytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        Answers
+      </entry>
+      <entry scope="col" class="emphasis">
+        Feedback
+      </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        2
+      </entry>
+      <entry>
+        Incorrect. Let’s try again a different way: In this expression, you do not cancel out the \(f\) and \(x\).
+        It’s function notation. The answer is 4.
+      </entry>
+    </row>
+    <row>
+      <entry>
+        4
+      </entry>
+      <entry>
+        That’s correct! Check yourself: When you divide consecutive terms of exponential functions, the solution
+        will be the growth rate.
+      </entry>
+    </row>
+    <row>
+      <entry>
+        There is not enough information to tell.
+      </entry>
+      <entry>
+        Incorrect. Let’s try again a different way: You can always substitute numbers in when using function
+        notation. The answer is 4. 
+      </entry>
+    </row>
+    <row>
+      <entry>
+        16
+      </entry>
+      <entry>
+        Incorrect. Let’s try again a different way: This is the value of \(\frac{f(x+2)}{f(x)}\). Find the value
+        of \(\frac{f(x+2)}{f(x+1)}\). The answer is 4. 
+      </entry>
+    </row>
+  </tbody>
+</table>
+<title> 5.15.3: Additional Resources</title>
+<para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on
+    their experience with the self check. Students will not automatically have access to this content, so you may wish
+    to share it with those who could benefit from it.</emphasis></para>
+<title> Determining the Growth Rate of Exponential Functions</title>
+<para>For the table below, assume the function \(f\) is defined for all real numbers. Calculate \(\triangle f =
+  (x+1)−f(x)\) in the last column. (The symbol \(\triangle\) in this context means “change in.”) What
+  do you notice about \(\triangle f\)? Could the function be linear or exponential? Write a linear or an exponential
+  function formula that generates the same input–output pairs as given in the table.</para>
+<table class="os-raise-wideequaltable">&gt;
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        \(x\)
+
+      </entry><entry scope="col" class="emphasis">
+        \(f(x)\)
+
+      </entry><entry scope="col" class="emphasis">
+        \(\triangle f=f(x+1)-f(x)\)
+
+      </entry>
+      
+      
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        0
+      </entry>
+      <entry>
+        2
+      </entry>
+      <entry>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        1
+      </entry>
+      <entry>
+        6
+      </entry>
+      <entry>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        2
+      </entry>
+      <entry>
+        18
+      </entry>
+      <entry>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        3
+      </entry>
+      <entry>
+        54
+      </entry>
+      <entry>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        4
+      </entry>
+      <entry>
+        162
+      </entry>
+      <entry>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<para>For each row, you subtract \(f(x)\) values. The first row would be \(6- 2 =4\), then \(18 - 6 =12\), then \(54 - 18
+  =36\), and then \(162 - 54 = 108\). Since the rate of change isn’t consistent, it is not a linear
+  function.  Exponential functions have a growth factor or a repeated rate that the terms are being multiplied by.
+  If you divide consecutive terms, you will find the growth rate is 3. Notice that the change between consecutive terms
+  also has a growth rate of 3.</para>
+<para>Since this function is exponential, an equation will have the form \(f(x) = initial \;\ value \;\ (growth \;\
+  rate)^x\). The growth rate is 3. The initial value is the same as the \(y\)-intercept, or where \(x=0\). \(f(0)\) is
+  given in the table, so the initial value is 2. The equation for this table would be \(f(x) = 2(3)^x\).</para>
+<title>Try It: Determining the Growth Rate of Exponential Functions</title>
+<para>For the graph provided, assume that the function is defined for all real numbers. What is the rate of change? Write
+  an equation that would define this function.</para>
+<image alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION WITH A \(y\)-intercepts OF 1 AND PASSING THROUGH THE POINTS 1 COMMA 2, 2 COMMA 4, AND 3 COMMA 8" class="atto_image_button_text-bottom" height="275" src="https://k12.openstax.org/contents/raise/resources/6694afad3354ea7171a966c8e63234938158c194" width="275"/><para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<title>Solution</title>
+<para>Here is how to write the equation of an exponential function from a graph:</para>
+<para>The graph seems to be exponential. If you find the rate of change between consecutive points, you find the graph is
+  exponential and the rate of change is 2 since the \(y\)-values increase by a factor of 2 every time the \(x\)-values
+  increase by 1. Since the graph crosses the \(y\)-axis at \((0,1)\), that is the initial value. The equation for this
+  graph is \(f(x) = 2^x\).</para></section>
+</content>
+</document>

@@ -1,0 +1,290 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>8.10.4: Finding the Factors of Quadratic Expressions in Standard Form</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m02245</md:content-id>
+    <md:title>8.10.4: Finding the Factors of Quadratic Expressions in Standard Form</md:title>
+    <md:uuid>8a04f7ac-ff92-4ed0-8106-7e49257c9bf7</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity (25 minutes)</title>
+<para>This activity is an extension of the expectations in the TEKS.</para>
+<para>This activity allows students to investigate another way (beside guessing and checking) for finding the factors of
+  quadratic expressions in standard form where the leading coefficient is not 1. The method involves temporarily
+  substituting the squared term with another variable so that the leading coefficient is 1 (which makes it easier to
+  spot the factors of the expression), and then substituting the original variable back once the expression is in
+  factored form.</para>
+<para>Students may find the reasoning and substitution processes challenging. Transitioning from, for example, \(9x^2 + 21x
+  + 10\) to \((3x)^2+ 7(3x) + 10\), and then to \(N^2+ 7N + 10\) requires abstract reasoning. When the leading
+  coefficient is not a square number (as in the second half of the activity), an additional step of multiplying is
+  needed to make the leading coefficient a square number. To keep the value of an expression unchanged, students need to
+  remember that they can only multiply the expression by 1, but the 1 can be obtained by, say, multiplying by 5 and then
+  by \(\frac {1}{5}\).</para>
+<para>Before offering support, allow students to make sense of these processes and to discuss with their partner. The work
+  encourages students to persevere in sense-making and problem-solving and to make use of structure. It also prompts
+  students to attend to precision. As they make symbolic substitutions, students need to be clear about what the
+  variables stand for and how the substitutions transform the expressions.</para>
+<para>Later in the unit, students will encounter the use of a placeholder, such as done here, as a way to derive the
+  quadratic formula. If desired, this activity can be done at that point to warm students up to the idea of using a
+  placeholder.</para>
+<para>If time is limited and if desired, the activity could be split into two halves and done separately (over two class
+  periods).</para>
+<title>Launch</title>
+<para>Display these expressions for all to see and ask students which expressions would be easier to write in factored form
+  and why.</para>
+<para>\(4x^2− 12x + 8\)</para>
+<para>\(t^2− 6t + 8\)</para>
+<para>\(d^2+ d − 20\)</para>
+<para>\(9x^2+ 3x − 20\)</para>
+<para>Students are likely to say that the second and the third expressions are easier because the coefficient of the
+  squared term in each of those is 1 (or there isn't another number that needs to be factored aside from the constant
+  term). Tell students that they will study another strategy that can simplify the process of rewriting quadratic
+  expressions into factored form.</para>
+<para>Consider arranging students in groups of two and asking them to think quietly about at least the first couple of
+  problems before discussing with their partner. After students have had a chance to make sense of the first worked
+  example, pause for a class discussion. Make sure that students can follow what is happening in the shown steps before
+  trying to apply it with new expressions.</para>
+<para>Pause for another class discussion after students have analyzed the first worked example. Before students proceed,
+  clarify what is happening in each step of the rewriting process when the leading coefficient is not a square number.
+</para>
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for Language Learners</title></para>
+    <para><title>MLR 8 Discussion Supports: Speaking, Representing</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+      <para>Use this routine to support whole-class discussion.
+    After each student shares, provide the class with the following sentence frames to help them clarify their
+    understanding of the speaker’s ideas and to press for further details: “How did you get . . . ?”, “Why did you . . .
+    ?”, “How do you know . . . ?” If necessary, revoice student ideas to demonstrate mathematical language use by
+    restating a statement as a question in order to clarify, apply appropriate language, and involve more students.</para>
+      <para class="os-raise-text-italicize">Design Principle(s): Support sense-making</para>
+</div></div>
+<title>Student Activity</title>
+<para> Here is a clever way to think about quadratic expressions that can make it easier to find their factored form.</para>
+<para>Factor \(9x^2+21x +10\).</para>
+<para><emphasis>Step 1</emphasis> - Notice the square root of the first term, \(3x\), is a factor of the second term.</para>
+<para><emphasis>Step 2</emphasis> - Rewrite in terms of \(3x\). The third term is unchanged.</para>
+<para>  \(= (3x)^2+7(3x) +10\) </para>
+<para><emphasis>Step 3</emphasis> - Substitute \(N\) for the \(3x\).</para>
+<para>  \(= N^2+ 7N +10\) </para>
+<para><emphasis>Step 4</emphasis> - Factor the new trinomial.</para>
+<para>  \(= (N + 2)(N + 5)\)</para>
+<para><emphasis>Step 5</emphasis> - Replace \(N\) with \(3x\) to find the final factored form.</para>
+<para>  \(= (3x + 2)(3x + 5)\)</para>
+<para>Using this substitution method creates a simpler trinomial that we may factor more easily.</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>Use the distributive property, or FOIL, to expand and simplify \((3x + 2)(3x + 5)\). Write the resulting
+    expression in standard form. Be prepared to explain if it is equivalent to \(9x^2+21x + 10\).</item>
+</list>
+<para><emphasis>Answer:</emphasis> \((3x + 2)(3x + 5) = 9x^2 + 15x + 6x + 10 = 9x^2 + 21x + 10\). Yes, the expressions are
+  equivalent.</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Study the substitution method and make sense of what was done in each step. Why might the simplified trinomial
+    using \(N\) be simpler to factor?</item>
+</list>
+<para><emphasis>Answer:</emphasis> The trinomial using \(N\) has a squared term with a coefficient of 1. Its factors can be
+  found more easily.</para>
+<para>In questions 3 and 4, try this \(N\)-substitution method to write each of these expressions in factored form.</para>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>\(4x^2 + 28x + 45\)</item>
+</list>
+<para><emphasis>Answer:</emphasis> The square root of the first term, \(2x\), is a factor of the second term, \(28x\).</para>
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item>\(25x^2 − 35x + 6\)</item>
+</list>
+<para><emphasis>Answer:</emphasis> The square root of the first term, \(5x\), is a factor of the second term, \(35x\).</para>
+<para>You have probably noticed that the coefficient of the squared term in all of the previous examples is a perfect
+  square. What if that coefficient is not a perfect square?</para>
+<para>Here is an example of an expression whose squared term has a coefficient that is not a squared term.</para>
+<para>\(5x^2+ 17x + 6\)</para>
+<para>We see that multiplying the leading coefficient by 5 would make the first term into a perfect square, \(25x^2\). But,
+  we cannot introduce a new factor that will impact the value of the expression.</para>
+<para>We need to find a way to balance the impact of multiplying everything by 5.</para>
+<para>Knowing this, we multiply the entire trinomial by \(\frac {1}{5}\) , since \(\frac {1}{5} \cdot 5\) is the same as
+  multiplying by 1.</para>
+<para><emphasis>Step 1</emphasis> - Multiply by \(\frac {1}{5}\cdot 5\).</para>
+<para>  \(= \frac {1}{5} \cdot 5 (5x^2+17x +6)\)</para>
+<para><emphasis>Step 2</emphasis> - Distribute the 5 into the trinomial.</para>
+<para>  \(= \frac {1}{5}(25x^2+85x +30)\) </para>
+<para><emphasis>Step 3</emphasis> - Rewrite in terms of the square root of the first term, \(5x\).</para>
+<para>  \(= \frac {1}{5}((5x)^2+17(5x) +30)\)</para>
+<para><emphasis>Step 4</emphasis> - Substitute \(N\) for \(5x\).</para>
+<para>  \(= \frac {1}{5}(N^2+17N +30)\)</para>
+<para><emphasis>Step 5</emphasis> - Factor the trinomial.</para>
+<para>  \(= \frac {1}{5}(N + 15)(N + 2)\)</para>
+<para><emphasis>Step 6</emphasis> - Replace \(N\) with \(5x\) to find the final factored form.</para>
+<para>  \(= \frac {1}{5}(5x + 15)(5x + 2)\)</para>
+<para><emphasis>Step 7</emphasis> - Factor 5 out of one of the factors.</para>
+<para>  \(= \frac {1}{5} \cdot 5(x + 3)(5x + 2)\)</para>
+<para><emphasis>Step 8</emphasis> - \(\frac {1}{5}\cdot 5 = 1\)</para>
+<para>  \(= (x + 3)(5x + 2)\)</para>
+<list class="os-raise-noindent" start="5" type="enumerated">
+  <item>Use the distributive property, or FOIL, to expand and simplify \((x + 3)(5x + 2)\). Write the resulting expression
+    in standard form. Be prepared to explain if it is equivalent to \(5x^2+17x +6\).</item>
+</list>
+<para><emphasis>Answer:</emphasis> \((x + 3)(5x + 2) = 5x^2 + 2x + 15x + 6 = 5x^2+ 17x + 6\). Yes, the expressions are
+  equivalent.</para>
+<list class="os-raise-noindent" start="6" type="enumerated">
+  <item>Applying the same strategy from the example to a trinomial with a leading term of \(6x^2\), what is the
+    multiplication expression equivalent to 1 you would use to rewrite the trinomial? Be prepared to show your
+    reasoning.</item>
+</list>
+<para><emphasis>Answer:</emphasis> \(\frac {1}{6} \cdot 6\); multiplying the leading term of the trinomial by 6 would result in
+  a leading term of \(36x^2\), which is a perfect square.</para>
+<para>For questions 7 and 8, try the \(N\)-method to write each of these expressions in factored form.</para>
+<list class="os-raise-noindent" start="7" type="enumerated">
+  <item>\(3x^2+ 16x + 5\)</item>
+</list>
+<para><emphasis>Answer:</emphasis> Multiply the expression by \(\frac {1}{3} \cdot 3\).</para>
+<para>Distributing the 3 into the trinomial gives \(\frac {1}{3}(9x^2+48x +15)\).</para>
+<para>Rewriting the expression in terms of the square root of the first term, \(3x\), gives \( \frac {1}{3}((3x)^2 +16(3x)
+  + 15)\).</para>
+<para>Substituting \(N\) for \(3x\) makes the expression \(\frac {1}{3}(N^2+16N +15)\), which can be factored into \(\frac
+  {1}{3}(N + 15)(N + 1)\).</para>
+<para>\(N\) can now be replaced with \(3x\) and the expression becomes \(\frac {1}{3}(3x + 15)(3x + 1)\).</para>
+<para>Factor 3 out of the first factor, because \(\frac {1}{3} \cdot 3 = 1\).</para>
+<list class="os-raise-noindent" start="8" type="enumerated">
+  <item>\(10x^2− 41x + 4\)</item>
+</list>
+<para><emphasis>Answer:</emphasis> Multiply the expression by \(\frac {1}{10} \cdot 10\).</para>
+<para>Distributing the 10 into the trinomial gives \(\frac {1}{10}(100x^2− 410x + 40)\).</para>
+<title>Anticipated Misconceptions</title>
+<para>In the final steps of the last question, students multiply a number by a pair of factors, for example, \(\frac
+  {1}{3}(3x + 15)(3x + 1)\). Some students may mistakenly apply the distributive property and multiply \(\frac {1}{3}\)
+  to both \((3x + 15)\) and \((3x + 1)\). Remind students that the distributive property governs multiplication over
+  addition and subtraction, and that \((3x + 15)\) and \((3x + 1)\) are being multiplied together, not added or
+  subtracted.</para>
+<title>Activity Synthesis</title>
+<para>Invite students to share their attempts to rewrite the expressions using the method they just learned. Discuss
+  questions such as:</para>
+<list class="os-raise-noindent">
+  <item> "Do you think this method is simpler or harder than guessing and checking? Is it quicker or slower?" </item>
+  <item> "In what ways is this method simpler? In what ways is it harder?" </item>
+</list>
+<title>8.10.4: Self Check</title>
+<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their
+    understanding of the concepts explored in the activity.</emphasis></para>
+<para class="os-raise-text-bold">QUESTION:</para>
+<para>Find the factored form of the quadratic expression \(9x^2− 6x − 35\).</para>
+<table class="os-raise-textheavytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        Answers
+      </entry>
+      <entry scope="col" class="emphasis">
+        Feedback
+      </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>\((9x + 7)(x − 5)\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let's try again a different way: Rewrite the expression as \((3x)^2− 2(3x) − 35\).
+          Substitute \(N\) for \(3x\) and factor the expression \(N^2− 2N − 35\). Once factored, replace
+          \(N\) with \(3x\) and simplify. The answer is \((3x − 7)(3x + 5)\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\((3x − 7)(3x + 5)\)</para>
+      </entry>
+      <entry>
+        <para>That's correct! Check yourself: Multiply the binomials to check if they are equivalent to the original
+          expression.</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\((x + 7)(x − 5)\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let's try again a different way: Rewrite the expression as \((3x)^2−2(3x) − 35\).
+          Substitute \(N\) for \(3x\) and factor the expression \(N^2−2N−35\). Once factored, replace \(N\)
+          with \(3x\) and simplify. The answer is \((3x − 7)(3x + 5)\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\((3x + 7)(3x − 5)\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let's try again a different way: Rewrite the expression as \((3x)^2−2(3x) −35\).
+          Substitute \(N\) for \(3x\) and factor the expression \(N^2−2N −35\). Once factored, replace \(N\)
+          with \(3x\) and simplify. The answer is \((3x − 7)(3x + 5)\).</para>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<title>8.10.4: Additional Resources</title>
+<para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on
+    their experience with the self check. Students will not automatically have access to this content, so you may wish
+    to share it with those who could benefit from it.</emphasis></para>
+<title>Finding the Factors of Quadratic Expressions in Standard Form</title>
+<para>Let's look at a shortcut that can help to factor a complicated quadratic expression. This method will be useful only
+  when the coefficient of the first term is a perfect square, such as 4 or 9.</para>
+<para><emphasis>Example 1</emphasis></para>
+<para>  \(4x^2+ 4x − 3\)</para>
+<para><emphasis>Step 1</emphasis> - Rewrite the first two terms with \(2x\) as the common factor.</para>
+<para>  \(= (2x)^2+2(2x) −3\)</para>
+<para><emphasis>Step 2</emphasis> - Substitute \(N\) for \(2x\).</para>
+<para>  \(= N^2+2N −3\) </para>
+<para><emphasis>Step 3</emphasis> - Factor the simplified expression.</para>
+<para>  \(= (N + 3)(N − 1)\)</para>
+<para><emphasis>Step 4</emphasis> - Replace \(N\) with \(2x\).</para>
+<para>  \(= (2x + 3)(2x − 1)\)</para>
+<para>Here is an example of an expression whose squared term has a coefficient that is not a squared term. A different
+  method can still be applied.</para>
+<para><emphasis>Example 2</emphasis></para>
+<para>  \(5x^2+ 27x − 18\)</para>
+<para><emphasis>Step 1</emphasis> - Multiply by \(\frac {1}{5} \cdot 5\) to make a coefficient with a squared term without impacting the overall value of
+  the expression.</para>
+<para>  \(= \frac {1}{5} \cdot 5 (5x^2+27x −18)\)</para>
+<para><emphasis>Step 2</emphasis> - Distribute the 5.</para>
+<para>  \(= \frac {1}{5}(25x^2+135x −90)\) </para>
+<para><emphasis>Step 3</emphasis> - Rewrite the first two terms with \(5x\) as the common factor.</para>
+<para>  \(= \frac {1}{5}((5x)^2+27(5x) −90)\) </para>
+<para><emphasis>Step 4</emphasis> - Substitute \(N\) for \(5x\).</para>
+<para>  \(= \frac {1}{5}(N^2+27N −90)\)</para>
+<para><emphasis>Step 5</emphasis> - Factor the simplified expression.</para>
+<para> \(= \frac {1}{5}(N + 30)(N − 3)\) </para>
+<para><emphasis>Step 6</emphasis> - Replace \(N\) with \(5x\).</para>
+<para>  \(= \frac {1}{5}(5x + 30)(5x − 3)\) </para>
+<para><emphasis>Step 7</emphasis> - Factor 5 out of one of the expressions.</para>
+<para>  \(= \frac {1}{5} \cdot 5(x + 6)(5x − 3)\) </para>
+<para><emphasis>Step 8</emphasis> - \(\frac {1}{5} \cdot 5 = 1\)</para>
+<para>  \(= (x + 6)(5x − 3)\) </para>
+<para><emphasis>Step 9</emphasis> - Use the distributive property, or FOIL, to expand \((x + 6)(5x − 3)\). Is it equivalent to \(5x^2+ 27x −
+  18\)?</para>
+<para> \((x + 6)(5x − 3)\)</para>
+<para> \(= 5x^2+ 30x − 3x − 18\)</para>
+<para>\(= 5x^2+ 27x − 18\)</para>
+<para> They are equivalent. \({\style{color:red}\checkmark}\)</para>
+<title>Try It: Finding the Factors of Quadratic Expressions in Standard Form</title>
+<para>Find the factored form of \(3x^2 + 25x + 42\).</para>
+<para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<title>Solution</title>
+<para>Here is how to use the shortcuts you just learned to find the factored form of a quadratic equation:</para>
+<para>\(3x^2+25x +42\) </para>
+<para><emphasis>Step 1</emphasis> - Multiply by \(\frac {1}{3} \cdot 3\) to make a coefficient with a squared term without impacting the overall value of
+  the expression.</para>
+<para><emphasis>Step 2</emphasis> - Distribute the 3.</para>
+<para>  \(= \frac {1}{3}(9x^2 +75x +126)\) </para>
+<para><emphasis>Step 3</emphasis> - Rewrite the first two terms with \(3x\) as the common factor.</para>
+<para>  \(= \frac {1}{3}((3x)^2+ 25(3x) + 126)\) </para>
+<para><emphasis>Step 4</emphasis> - Substitute \(N\) for \(3x\).</para>
+<para>  \(= \frac {1}{3}(N^2+25N +126)\)</para>
+<para><emphasis>Step 5</emphasis> - Factor the simplified expression.</para>
+<para>  \(= \frac {1}{3}(N + 18)(N + 7)\) </para>
+<para><emphasis>Step 6</emphasis> - Replace \(N\) with \(3x\).</para>
+<para>  \(= \frac {1}{3}(3x + 18)(3x + 7)\)</para>
+<para><emphasis>Step 7</emphasis> - Factor 3 out of one of the expressions.</para>
+<para>  \(= \frac {1}{3}(3x + 18)(3x + 7)\)</para>
+<para><emphasis>Step 8</emphasis> - \(\frac {1}{3} \cdot 3 = 1\)</para>
+<para>  \(= (x + 6)(3x +7)\) </para>
+<para>The factored form is \((x + 6)(3x + 7)\).</para></section>
+</content>
+</document>

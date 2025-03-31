@@ -1,0 +1,211 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>8.12.3: Making Predictions Using a Quadratic Model</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m02285</md:content-id>
+    <md:title>8.12.3: Making Predictions Using a Quadratic Model</md:title>
+    <md:uuid>db8e24ce-92b2-417a-8b7f-4daf7d1a38a0</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity (15 minutes)</title>
+<para>This activity takes quadratic regression a step further by using a data set that models a real-world situation. Students will model the data set representing the flight of a helium balloon by creating a scatter plot, find the equation of a curve of best fit, and use that equation to make predictions about the balloon’s flight.</para>
+<title>Launch</title>
+<para>Arrange students in pairs or groups, if necessary, so they have access to Desmos. If possible, allow students to work individually so that each understands the steps necessary to make predictions using a curve of best fit.</para>
+<para>This activity starts from the beginning in Desmos, allowing students to create a table and then populate it with the data set representing the balloon’s flight. Gauge students’ comfort with entering the data set and finding the curve of best fit. Review the steps as needed while allowing students to complete the first two questions. </para>
+<para>Pause the class and be sure that students have correctly entered the data and generated a curve of best fit before moving to question 3.</para>
+<para>Allow students quiet time to think individually as they attempt question 3. Reinforce the idea that they can enter the equation \(x = 4\) into Desmos to help them solve the problem. After discussing the solution to question 3 as a class, allow students time to complete the remaining questions.</para>
+<title>Student Activity</title>
+<para>A helium balloon is released and floats up before coming back down to the ground.</para>
+<para>The following data set shows the height in feet, \(y\), of the balloon corresponding to the number of minutes passed, \(x\).</para>
+<table class="os-raise-skinnytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis"> \(x_1\) (minutes) </entry>
+      <entry scope="col" class="emphasis"> \(y_1\) (height in feet) </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry> 1 </entry>
+      <entry> 99.7 </entry>
+    </row>
+    <row>
+      <entry> 1.5 </entry>
+      <entry> 130 </entry>
+    </row>
+    <row>
+      <entry> 3 </entry>
+      <entry> 149 </entry>
+    </row>
+    <row>
+      <entry> 4.5 </entry>
+      <entry> 172 </entry>
+    </row>
+    <row>
+      <entry> 7 </entry>
+      <entry> 108 </entry>
+    </row>
+    <row>
+      <entry> 9 </entry>
+      <entry> 84 </entry>
+    </row>
+  </tbody>
+</table>
+<list class="os-raise-noindent" type="enumerated">
+  <item>Click the + symbol in the top left and select a table. Enter the data set into the table. (Students were provided access to Desmos)</item>
+</list>
+<div class="os-raise-ib-desmos-gc" data-bottom="-20" data-height="500" data-left="-5" data-right="20" data-schema-version="1.0" data-top="150" data-width="600"/>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Use the instruction line, \(y_1 \sim ax_1^2+bx_1+ c\), to find the curve of best fit.</item>
+</list>
+<para>What is the equation of the curve of best fit? Round coefficients to the nearest hundredth.</para>
+<para><emphasis>Answer:</emphasis> \(y = -3.97x^2+35.22x + 78.63\)</para>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>How high will the balloon be after 4 minutes? (Hint: Graph the line \(x = 4\) to help identify where it intersects with the curve of best fit.)</item>
+</list>
+<para><emphasis>Answer:</emphasis> Approximately 156.0 feet</para>
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item>How high will the balloon be after 10 minutes?</item>
+</list>
+<para><emphasis>Answer:</emphasis> Approximately 33.83 feet</para>
+<list class="os-raise-noindent" start="5" type="enumerated">
+  <item>At what time will the balloon first be at a height of 95 feet? (Graph the line \(y = 95\).)</item>
+</list>
+<para><emphasis>Answer:</emphasis> At approximately 0.49 minute</para>
+<list class="os-raise-noindent" start="6" type="enumerated">
+  <item>At what time will the balloon return to a height of 95 feet?</item>
+</list>
+<para><emphasis>Answer:</emphasis> At approximately 8.38 minutes</para>
+<list class="os-raise-noindent" start="7" type="enumerated">
+  <item>When will the balloon reach the ground, or have a height of 0 feet?</item>
+</list>
+<para><emphasis>Answer:</emphasis> At approximately 10.72 minutes</para>
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for English Language Learners</title></para>
+    <para><title>MLR 2 Collect and Display: Conversing, Writing</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+    <para>As students discuss the questions with their partner, listen for and collect the language students use: vertex, y-intercept, zeros, initial height, etc. Write the students' words and phrases on a visual display. As the activity continues, refer to and update the visual display and continue to do so throughout the remainder of the lesson. Remind students to borrow language from the display as needed. This will help students read and use mathematical language during their partner and whole-class discussions.</para>
+    <para class="os-raise-text-italicize">Design Principle(s): Maximize meta-awareness; Support sense-making</para>
+    <para class="os-raise-extrasupport-title">Provide support for students</para>
+    <para>
+      <link url="https://k12.openstax.org/contents/raise/resources/3765a3cff09304aea8d8db39295b1c00ffd0c12f">Distribute graphic organizers</link>
+      to the students to assist them with participating in this routine.
+    </para>
+  </div>
+</div>
+<title>Video: Using Technology to Find The Quadratic Regression</title>
+<para>Watch the following video to learn more about finding quadratic regression. </para>
+<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
+  <iframe><video controls="true" crossorigin="anonymous">
+      <source src="https://k12.openstax.org/contents/raise/resources/eacddb18f25a338ef2ed0035b0bca663e1620905">
+      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/79b4194b251b5df0a0be5ab651d9285f3c8729fd" srclang="en_us">
+    </track></source></video></iframe>
+</div>
+<title>Anticipated Misconceptions</title>
+<para>Students may assume that the data set models a symmetrical flight of the balloon from the ground up to a maximum height and back down to the ground. Show where the graph crosses the \(y\)-axis, or where time equals 0 minutes. Emphasize that at the start of this data set, or \(x = 0\), the balloon already had a height of approximately 78.6 feet.</para>
+<title>Activity Synthesis</title>
+<para>To review key ideas from the activity, discuss questions such as:</para>
+<list class="os-raise-noindent">
+  <item> “How does graphing an additional line on the coordinate plane help to visualize making a prediction using the curve of best fit?” (The line that is being graphed represents a given \(x\)- or \(y\)-value in the situation. By finding its intersection point with the curve of best fit, the corresponding \(x\)- or \(y\)-value is determined.) </item>
+  <item> “In the activity, what does a vertical line with the equation \(x = 8\) represent?” (It represents the moment in the balloon’s flight when 8 minutes have passed.) </item>
+  <item> “In the activity, what does a vertical line with the equation \(y = 36\) represent?” (It represents the moment or moments in the balloon’s flight when it has a height of 36 feet.) </item>
+</list>
+<title> 8.12.3: Self Check </title>
+<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
+<para class="os-raise-text-bold">QUESTION:</para>
+<para> A baseball is thrown into the air. The following <link url="https://k12.openstax.org/contents/raise/resources/048217c768c34e3f0a73d38a5e7dc1a3f6887af6">dataset</link> shows the height in feet, \(y\), of the baseball corresponding to the number of seconds passed, \(x\).
+  (Students were provided access to Desmos)
+  Approximately how long will it be before the baseball hits the ground?</para>
+<table class="os-raise-textheavytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">ANSWERS</entry>
+      <entry scope="col" class="emphasis">FEEDBACK</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry> 2.73 seconds </entry>
+      <entry> Incorrect. Let’s try again a different way: This is the time it takes the baseball to reach its maximum height. The answer is 5.74 seconds. </entry>
+    </row>
+    <row>
+      <entry> 5.74 seconds </entry>
+      <entry> That’s correct! Check yourself: The curve of best fit is \(y = -3.93x^2+ 21.46x + 6.09\). The curve intersects the \(x\)-axis at 5.74. </entry>
+    </row>
+    <row>
+      <entry> 6.75 seconds </entry>
+      <entry> Incorrect. Let’s try again a different way: The curve of best fit is \(y = -3.93x^2+ 21.46x + 6.09\). The curve intersects the \(x\)-axis at 5.74. The answer is 5.74 seconds. </entry>
+    </row>
+    <row>
+      <entry> 7.18 seconds </entry>
+      <entry> Incorrect. Let’s try again a different way: The curve of best fit is \(y = -3.93x^2+ 21.46x + 6.09\). The curve intersects the \(x\)-axis at 5.74. The answer is 5.74 seconds. </entry>
+    </row>
+  </tbody>
+</table>
+<title>8.12.3: Additional Resources</title>
+<para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
+<title>Making Predictions Using a Quadratic Model</title>
+<para>A filtration system is being tested in a new aquarium. A pollutant is continuously added to the aquarium, and the filtration system is turned on until it has removed all of the pollutant from the water.</para>
+<para>The following data set shows the milliliters (mL) of pollutant present, \(y\), corresponding to the number of minutes that have passed, \(x\), since the experiment started.</para>
+<div class="os-raise-ib-desmos-gc" data-bottom="-200" data-left="-50" data-right="200" data-schema-version="1.0" data-tables="[[{&quot;variable&quot;: &quot;x_1&quot;, &quot;values&quot;: [14, 24,35,60,95,107]}, {&quot;variable&quot;: &quot;y_1&quot;, &quot;values&quot;: [600,800,1050,1350,1092,840]}]]" data-top="1600"/>
+<para>Let’s enter the instruction line, \(y_1 \sim ax_1^2+bx_1+ c\), to find the curve of best fit. (Students were provided access to Desmos)</para>
+<image alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY." height="295" src="https://k12.openstax.org/contents/raise/resources/6cf6f27fe7ef1d0e9642cc69ada91a8d5881fb26" width="624"/><para>The curve of best fit is determined to be \(y = -0.29x^2+ 37.74x + 95.95\).</para>
+<para>We can use this curve of best fit to answer questions and make predictions about the amount of pollutant that will be in the water (mL) and the time it takes to completely clean the tank of pollutant.</para>
+<para>How many mL of pollutant will be in the water after 12 minutes?</para>
+<list class="os-raise-noindent">
+  <item> To answer this question, we want to know the \(y\)-value on the curve of best fit when the \(x\)-value is 12. </item>
+</list>
+<list class="os-raise-noindent">
+  <item> We can graph the line \(x = 12\) and see where it intersects with the curve of best fit. (Students were provided access to Desmos)</item>
+</list>
+<image alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY. A VERTICAL LINE IS DRAWN THROUGH X EQUALS 12, WITH THE POINT (12, 507.492) LABELED." height="296" src="https://k12.openstax.org/contents/raise/resources/c0cf9e0de60c8680edd67e2edee49e7ef614fe35" width="624"/><list class="os-raise-noindent">
+  <item> By moving the cursor over the intersection point, we see that the \(y\)-value is approximately 507.49. </item>
+</list>
+<list class="os-raise-noindent">
+  <item> This means that after 12 minutes, there will be approximately 507.49 mL of pollutant in the water. </item>
+</list>
+<para>At what time(s) will there be 1000 mL of pollutant in the water?</para>
+<list class="os-raise-noindent">
+  <item> To answer this question, we want to know the \(x\)-value on the curve of best fit when the \(y\)-value is 1000. </item>
+</list>
+<list class="os-raise-noindent">
+  <item> We can graph the line \(y = 1000\) and see where it intersects with the curve of best fit. (Students were provided access to Desmos)</item>
+</list>
+<image alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY. A HORIZONTAL LINE IS DRAWN THROUGH Y EQUALS ONE THOUSAND, WITH THE POINTS (31.508, 1000) AND (99.913, 1000) LABELED." height="272" src="https://k12.openstax.org/contents/raise/resources/9acf6d93d76789a2ee4808e96d3f123c2099fd16" width="624"/><list class="os-raise-noindent">
+  <item> The line \(y = 1000\) intersects with the curve of best fit at two points. This means there are two times when there is 1000 mL of pollutant. We see that the \(x\)-values are approximately 31.51 and 99.91. </item>
+</list>
+<list class="os-raise-noindent">
+  <item> In other words, there will be 1000 mL of pollutant at approximately 31.51 minutes and again at approximately 99.91 minutes after the experiment starts. </item>
+</list>
+<para>How long after the experiment has started will the filtration system have removed all of the pollutant from the aquarium?</para>
+<list class="os-raise-noindent">
+  <item> To answer this question, we want to know the \(x\)-value of the \(x\)-intercept of the curve of best fit. </item>
+</list>
+<list class="os-raise-noindent">
+  <item> If we graph \(y = 0\), we can click on the intersection point to find its coordinates. The \(x\)-intercept of the curve of best fit is \((133.92, 0)\). </item>
+</list>
+<list class="os-raise-noindent">
+  <item> So, approximately 133.92 minutes after the experiment starts, there will be no pollutant left in the water. </item>
+</list>
+<title> Try It: Making Predictions Using a Quadratic Model </title>
+<para>Use the same data set from the example in the section above. (Students were provided access to Desmos)</para>
+<div class="os-raise-ib-desmos-gc" data-bottom="-200" data-left="-50" data-right="200" data-schema-version="1.0" data-tables="[[{&quot;variable&quot;: &quot;x_1&quot;, &quot;values&quot;: [14, 24,35,60,95,107]}, {&quot;variable&quot;: &quot;y_1&quot;, &quot;values&quot;: [600,800,1050,1350,1092,840]}]]" data-top="1600"/>
+<para>The data set shows the milliliters (mL) of pollutant present, \(y\), corresponding to the number of minutes that have passed, \(x\), since the experiment started.</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>How many mL of pollutant will be in the water after 47 minutes?</item>
+</list>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>At what time(s) will there be 1215 mL of pollutant in the water?</item>
+</list>
+<para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<title>Solution</title>
+<para>Here is how to use graphing technology and the curve of best fit to make predictions about a situation:</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>After 47 minutes, there will be approximately 1235.41 mL of pollutant.</item>
+</list>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>There will be 1215 mL of pollutant in the water after approximately 45.19 minutes and 86.23 minutes.</item>
+</list></section>
+</content>
+</document>

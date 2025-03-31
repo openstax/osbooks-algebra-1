@@ -1,0 +1,390 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>7.7.2: Modeling Real-World Data with Quadratic Functions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01842</md:content-id>
+    <md:title>7.7.2: Modeling Real-World Data with Quadratic Functions</md:title>
+    <md:uuid>ef572b8c-0009-4a62-9a89-b5c3610ab6b6</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity (15 minutes)</title>
+<para>In this activity, students encounter a quadratic function in a business context. They study the relationship between the price of downloading a movie and the number of downloads, and see that the relationship can be described with a quadratic function.</para>
+<para>Students engage in aspects of modeling as they use a table of values to build a model, create a graph to further understand the relationship, and use their model to make a business recommendation. They practice looking for and expressing regularity in repeated reasoning as they calculate the number of downloads and the expected revenue at various prices. If students opt to use a spreadsheet or graphing technology, they practice choosing appropriate tools strategically.</para>
+<para>As students work, monitor how they decide (without graphing) whether the relationships being examined are quadratic. Because the input values in the table do not increase by equal amounts, just looking at the output values from row to row would not help.</para>
+<para>Identify students who reason that the relationship between price and revenue is quadratic because:</para>
+<list>
+  <item> The relationship between the two quantities can be defined by \(x(18-x)\), which looks like some quadratic expressions that represented the visual patterns in earlier lessons. </item>
+  <item> \(x(18-x)\) can be written as \(18x-x^2\), which has a squared term. </item>
+</list>
+<title>Launch</title>
+<para>Ask students to read the opening paragraph of the activity statement. Then, ask students to make some predictions:</para>
+<list>
+  <item> “Suppose the price per download increases. What do you think would happen to the number of downloads as the price goes up?” (Students are likely to predict that as the price increases, the number of downloads decreases, as fewer people are willing to pay the higher price.) </item>
+  <item> “What happens to the number of downloads as the price decreases?” (As the price decreases, the number of downloads increases. Lower prices tend to encourage more people to purchase a product.) </item>
+  <item> “Would a business make more money when it sells a product at a higher price or when it sells at a lower price?” (Allow students to make some hypotheses, but it’s not necessary to confirm one way or another.) </item>
+</list>
+<para>Explain that price and the number of sales affect the revenue of a business, and that the term <emphasis>revenue</emphasis> means the money collected when someone sells something. For example, if the price of a movie download is \($3\) and there are 10 downloads, the revenue is \($30\).</para>
+<para>Consider arranging students in groups of two so that they can discuss their thinking (especially the question about whether price and revenue have a quadratic relationship).</para>
+<para>Some students may choose to use a spreadsheet tool to complete the table, and subsequently to use graphing technology to plot the data. Make these tools accessible, in case requested.</para>
+
+<!--BEGIN ELL AND SWD GRAY BOX -->
+  <div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for English Language Learners</title></para>
+    <para><title>MLR 8 Discussion Supports: Speaking, Representing</title></para> 
+  </note>
+  <div class="os-raise-extrasupport-body">
+    <para>Use this routine to support whole-class discussion of the prompts listed in the synthesis. After a student shares their thinking with the class, provide the class with the following sentence frames to help them respond: "I agree because….” or "I disagree because….” If necessary, revoice student ideas to demonstrate mathematical language use by restating a statement as a question in order to clarify, apply appropriate language, and involve more students.</para>
+  <para><emphasis>Design Principle(s): Maximize meta-awareness; Support sense-making</emphasis></para>
+</div>   
+</div>
+<!--END ELL AND SWD GRAY BOX -->  
+<title>Student Activity</title>
+<para>For questions 1-6, use the following information to complete the table. Show the predicted number of downloads at each listed price. The first row has been completed for you.</para>
+<blockquote>A company that sells movies online is deciding how much to charge customers to download a new movie. Based on data from previous sales, the company predicts that if they charge \(x\) dollars for each download, then the number of downloads, in thousands, is \(18-x\).</blockquote>
+<table class="os-raise-wideequaltable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">Price (dollars per download)</entry>
+      <entry scope="col" class="emphasis">Number of downloads (thousands)</entry>
+      <entry scope="col" class="emphasis">Revenue (thousands of dollars)</entry>
+    </row>
+  </thead>
+  <tbody>
+        <row>
+      <entry>
+        <para>\(3\)</para>
+      </entry>
+      <entry>
+        <para>\(15\)</para>
+      </entry>
+      <entry>
+        <para>\(45\)</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(5\)</para>
+      </entry>
+      <entry>
+        <list class="os-raise-noindent" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+      <entry> </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(10\)</para>
+      </entry>
+      <entry>
+        <list class="os-raise-noindent" start="2" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+      <entry> </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(12\)</para>
+      </entry>
+      <entry>
+        <list class="os-raise-noindent" start="3" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+      <entry> </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(15\)</para>
+      </entry>
+      <entry>
+        <list class="os-raise-noindent" start="4" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+      <entry> </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(18\)</para>
+      </entry>
+      <entry>
+        <list class="os-raise-noindent" start="5" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+      <entry> </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(x\)</para>
+      </entry>
+      <entry>
+        <list class="os-raise-noindent" start="6" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+      <entry> </entry>
+    </row>
+  </tbody>
+</table>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" type="enumerated">
+    <item> When the price is \($5\) per download, what is the number of downloads in thousands? </item><para><emphasis>Answer:</emphasis> \(13\)</para>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item> When the price is \($10\) per download, what is the number of downloads in thousands? </item><para><emphasis>Answer:</emphasis> \(8\)</para>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="3" type="enumerated">
+    <item> When the price is \($12\) per download, what is the number of downloads in thousands? </item><para><emphasis>Answer:</emphasis> \(6\)</para>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="4" type="enumerated">
+    <item> When the price is \($15\) per download, what is the number of downloads in thousands? </item><para><emphasis>Answer:</emphasis> \(3\)</para>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="5" type="enumerated">
+    <item> When the price is \($18\) per download, what is the number of downloads in thousands? </item><para><emphasis>Answer:</emphasis> \(0\)</para>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="6" type="enumerated">
+    <item> When the price is \($x\) per download, what is the number of downloads in thousands? </item><para><emphasis>Answer:</emphasis> \(18-x\)</para>
+  </list>
+</list>
+<para> For questions 7-12 complete the table by finding the <term data-schema-version="1.0" data-store="glossary-tooltip">revenue</term> at each price. The first row has been completed for you.</para>
+
+<table class="os-raise-wideequaltable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">Price (dollars per download)</entry>
+      <entry scope="col" class="emphasis">Number of downloads (thousands)</entry>
+      <entry scope="col" class="emphasis">Revenue (thousands of dollars)</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>\(3\)</para>
+      </entry>
+      <entry>
+
+        <para>\(15\)</para>
+      </entry>
+      <entry>
+        <para>\(45\)</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(5\)</para>
+      </entry>
+      <entry> </entry>
+      <entry>
+        <list class="os-raise-noindent" start="7" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(10\)</para>
+      </entry>
+      <entry> </entry>
+      <entry>
+        <list class="os-raise-noindent" start="8" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(12\)</para>
+      </entry>
+      <entry> </entry>
+      <entry>
+        <list class="os-raise-noindent" start="9" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(15\)</para>
+      </entry>
+      <entry> </entry>
+      <entry>
+        <list class="os-raise-noindent" start="10" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(18\)</para>
+      </entry>
+      <entry> </entry>
+      <entry>
+        <list class="os-raise-noindent" start="11" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(x\)</para>
+      </entry>
+      <entry> </entry>
+      <entry>
+        <list class="os-raise-noindent" start="12" type="enumerated">
+          <item> _____ </item>
+        </list>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="7" type="enumerated">
+    <item> When the price is \($5\) per download, what is the revenue in thousands of dollars? </item><para><emphasis>Answer:</emphasis> \(65\)</para>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="8" type="enumerated">
+    <item> When the price is \($10\) per download, what is the revenue in thousands of dollars? </item><para><emphasis>Answer:</emphasis> \(80\)</para>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="9" type="enumerated">
+    <item> When the price is \($12\) per download, what is the revenue in thousands of dollars? </item><para><emphasis>Answer:</emphasis> \(72\)</para>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="10" type="enumerated">
+    <item> When the price is \($15\) per download, what is the revenue in thousands of dollars? </item><para><emphasis>Answer:</emphasis> \(45\)</para>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="11" type="enumerated">
+    <item> When the price is \($18\) per download, what is the revenue in thousands of dollars? </item><para><emphasis>Answer:</emphasis> \(0\)</para>
+  </list>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="12" type="enumerated">
+    <item> When the price is \($x\) per download, what is the revenue in thousands of dollars? </item><para><emphasis>Answer:</emphasis> \(x(18-x)\)</para>
+  </list>
+</list>
+<list class="os-raise-noindent" start="13" type="enumerated">
+  <item>Is the relationship between the price of the movie and the revenue (in thousands of dollars) linear, quadratic, or exponential? Explain how you know.</item>
+</list>
+<para><emphasis>Answer:</emphasis> You answer may vary, here is a sample. </para>
+<list class="os-raise-noindent" start="14" type="enumerated">
+  <item>Use the graphing tool or technology outside the course. Plot the points that represent the revenue, 𝑟, as a function of the price of one download in dollars, 𝑥. (Students were provided access to Desmos). </item> 
+</list>
+<para><emphasis>Answer:</emphasis></para>
+<image alt="Grid with plotted points. X-axis labeled with price in dollars and \(y\)-axis labeled with revenue in thousands of dollars." height="247" src="https://k12.openstax.org/contents/raise/resources/f9c61c89cddcb41a1fa881b41d64fcd5e68b9d63" width="319"/><list class="os-raise-noindent" start="15" type="enumerated">
+  <item>What price would you recommend the company charge for a new movie? Be prepared to show your reasoning.</item>
+</list>
+<para><emphasis>Answer:</emphasis> You answer may vary, here is a sample. </para>
+<title>Student Facing Extension</title>
+<title>Are you ready for more?</title>
+<para>The function that uses the price (in dollars per download) \(x\) to determine the number of downloads (in thousands) \(18-x\) is an example of a demand function, and its graph is known. Economists are interested in factors that can affect the demand function and therefore the price suppliers wish to set.</para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>What are some things that could increase the number of downloads predicted for the same given prices?</item>
+</list>
+<para><emphasis>Answer:</emphasis> Your answer may vary, here is a sample. </para>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>If the demand shifted so that we predicted \(20-x\) thousand downloads at a price of \(x\) dollars per download, what do you think would happen to the price that gives the maximum revenue? Check what actually happens.</item>
+</list>
+<para><emphasis>Answer:</emphasis> Your answer may vary, here is a sample.The price that gives the maximum revenue would increase from \($9\) to \($10\).</para>
+<title>Activity Synthesis</title>
+<para>Display the completed table for all to see. Select previously identified students to share how they decided whether the relationships between the quantities in the situation are quadratic. (If students suggest that the U-shaped graph shows the relationship, clarify that we can’t rely on the general shape of a few plotted points to tell us if the relationship is quadratic.)</para>
+<para>Then, discuss questions such as:</para>
+<list>
+  <item> “Is it possible for the company to make no money? How do you know?” (Yes, it is possible to make no money. We can tell by looking at the graph: when the price is \($0\) or the movie is free, the business won’t collect anything for the downloads, and when the price is \($18\), no one will download the movie.) </item>
+  <item> “How do we know at what price they’d make the most money?” (We can calculate the predicted revenue at some other prices between \($0\) and \($18\) and see which price gives the greatest revenue. The graph also gives a hint, but we may need to plot a few more points to estimate the maximum point from the graph.) </item>
+</list>
+  
+<para>If time permits, ask students: “Is it possible for the company to lose money?” (It depends. If it costs the company money to buy the rights to the movie from the producer, then not collecting any revenue could be seen as losing money. Or if it decides to pay customers when downloading a movie, or if it set a negative dollar value for the price, then it would lose money, but this isn’t likely.)</para>
+<title>7.7.2: Self Check</title>
+<!--BEGIN SELF CHECK INTRO BEFORE Tables -->   
+
+<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
+
+<!--SELF CHECK QUESTION GOES BEFORE THE Table -->   
+
+<para class="os-raise-text-bold">QUESTION:</para>
+<para>A company that sells music downloads is deciding how much to charge customers to download an album. Based on previous sales, the company predicts that if they charge \(x\) dollars for each download, then the number of downloads, in thousands, is \(13-x\).</para>
+<para>Which of the following represents the revenue for downloads?</para>
+
+<!--SELF CHECK table-->
+<table class="os-raise-textheavytable">
+   <thead>
+    <row>
+      <entry scope="col" class="emphasis">Answers</entry>
+      <entry scope="col" class="emphasis">Feedback</entry>
+    </row>
+ </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>\(13-x\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: This is the number of downloads. Make sure to multiply the number of downloads by \(x\), the cost per download. The answer is \(13x-x^2\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(\frac {13-x}{x}\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: The number of downloads should be multiplied by \(x\), the cost per download. The answer is \(13x-x^2\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para> \(13x-x^2\)</para>
+      </entry>
+      <entry>
+        <para>That’s correct! Check yourself: Multiply \(x(13-x)\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para> \(13-x^2\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: Be sure to distribute the \(x\) to both terms. The answer is \(13x-x^2\).</para>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<!--END SELF CHECK INTRO BEFORE Tables -->   
+<title>7.7.2: Additional Resources</title>
+<para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></emphasis></para>
+<title>Revenue Represented with Quadratics</title>
+<para>Quadratic functions often come up when studying revenue. (Revenue means the money collected when someone sells something.)</para>
+<para>Suppose we are selling raffle tickets and deciding how much to charge for each ticket. When the price of the tickets is higher, typically fewer tickets will be sold.</para>
+<para>Each ticket has a price of \(d\) dollars, and it is possible to sell \(600-75d\) tickets. We can find the revenue by multiplying the price by the number of tickets expected to be sold. A function that models the revenue, \(r\), collected is \(r(d) = d(600-75d)\). Here is a graph that represents the function.</para>
+<image alt="&lt;p&gt;&lt;strong&gt;Graph of non linear function, origin O. Horizontal axis, price, dollars, from 0 to 9 by 1’s. Vertical axis, revenue, thousands of dollars, 0 to 1400 by 200’s. Line starts at 0 comma 0, increases until 4 comma 1200 then decreases until 8 comma 0. Passes through 2 comma 900 and 6 comma 900.&lt;/strong&gt;&lt;/p&gt;" height="239" src="https://k12.openstax.org/contents/raise/resources/fee55a9caac6fdb23adee5184fe9f1a799a18de7" width="328"/><para>It makes sense that the revenue goes down after a certain point, since if the price is too high nobody will buy a ticket. From the graph, we can tell that the greatest revenue, \($1,200\), comes from selling the tickets for \($4\) each. So we know, the range of this parabola reaches a maximum value of $1,200.</para>
+<para>We can also see that the domain of the function \(r\) is between \(0\) and \(8\). This makes sense because the cost of the tickets can’t be negative, and if the price were more than \($8\), the model would not work, as the revenue collected cannot be negative. (A negative revenue would mean the number of tickets sold is negative, which is not possible.)</para>
+<title>Try It: Revenue Represented with Quadratics</title>
+<para>Based on past concerts, a venue expects to sell \((500 - 10p)\) tickets when each ticket is \(p\) dollars.</para>
+<para>Write the function, \(r(p)\), to represent the revenue for the concert.</para>
+<para><emphasis>Answer: </emphasis></para>
+<para>Your answer may vary, here is a sample.</para>
+<para><emphasis>Step 1 - </emphasis>Multiply the tickets sold by the price of each ticket, \(p\).</para>
+<para>\(p(500 - 10p)\)</para>
+<para><emphasis>Step 2 - </emphasis>Distribute the \(p\).</para>
+<para>\(500p-10p^2\)</para>
+<para><emphasis>Step 3 - </emphasis>Write as a function, \(r(p)\).</para>
+<para>\(r(p)=500p-10p^2\)</para></section>
+</content>
+</document>

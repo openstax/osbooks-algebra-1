@@ -1,0 +1,264 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>4.18.4: Define a Geometric Sequence by the nth Term</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01182</md:content-id>
+    <md:title>4.18.4: Define a Geometric Sequence by the nth Term</md:title>
+    <md:uuid>28f3dfea-a6c6-434f-b885-a0e997429cc3</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity (15 minutes)</title>
+<para>The goal of this activity is to introduce students to the formula to determine the nth of a geometric sequence. It also sets the stage for the upcoming unit on exponential functions.</para> 
+<para>As students work to determine when the population exceeds 500 members, circulate around the room. This is an opportunity for students to choose which strategy or tool they prefer to use in order to make this prediction. Identify and select students who have used different representations (table, graph, or equation) to arrive at the answer and have them present their findings to the class. </para>
+<para>Also, use this time to monitor student use of vocabulary terms. Students should be comfortable using terms such as initial value, first term, starting value, common difference, common ratio, etc. New terms they may be reluctant to use include recursive formula and explicit formula. Encourage the use of these terms as students interact with others.
+</para>
+<title>Launch</title>
+<para>Arrange students in groups of 2. Ask students if they have ever seen a wildcat in the wild or in a zoo. In some regions of the world, wildcats are endangered and their populations are closely monitored. Ask students why it might be difficult to get accurate measurements of the population of wildcats. </para>
+<para>As they begin the activity with a partner, provide them with paper or graph paper on which to complete their tables and graphs. Alert students that they may be chosen to present their method for determining when the wildcat population exceeds 500. Encourage students to add notes or details to their displays to help communicate their reasoning.</para>
+
+<title>Student Activity </title>
+
+<para>In 2015, the number of wildcats in a national park was 284. It was estimated that the wildcat population increased by 4% each year. </para>
+<list class="os-raise-noindent" type="enumerated">
+  <item>
+    A researcher for the park writes \(W_n = 284(1.04)^n\), where \(W\) is the projected wildcat population \(n\) years after 2015. Explain where the different factors in her expression came from.<para><emphasis>Answer:</emphasis> </para><list>
+      <item>The 284 is the starting population of the wildcats in 2015.</item> 
+      <item>The 1.04 represents that the population grows 4% or 0.04 each year.</item> 
+      <item>The 1.04 comes from 100% of the population + 4% growth = 104% or 1.04. </item>
+      <item>
+        The \(n\) represents the number of years since 2015. 
+        So, in 2016, \(n = 1\) and in 2017, \(n = 2\).
+      </item>
+    </list>
+  </item>
+</list>
+<para>Work with a partner to discuss and create a table of values to estimate the projected wildcat population over the next 7 years. </para>
+
+<list class="os-raise-noindent" start="2" type="enumerated"><item>Create a table of values to estimate the projected wildcat population over the next 7 years.</item></list>
+
+
+  <table class="os-raise-wideequaltable">
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis">Year</entry>
+        <entry scope="col" class="emphasis">\(n\)</entry>
+        <entry scope="col" class="emphasis">Wildcat Population</entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>2015</entry>
+        <entry>0</entry>
+        <entry>\(W_n = 284(1.04)^0 = 284\)</entry>
+      </row>
+      <row>
+        <entry>2016</entry>
+        <entry>1</entry>
+        <entry>\(W_n = 284(1.04)^1 = 295\)</entry>
+      </row>
+      <row>
+        <entry>2017</entry>
+        <entry>2</entry>
+        <entry>\(W_n = 284(1.04)^2 = \)</entry>
+      </row>
+      <row>
+        <entry>2018</entry>
+        <entry>3</entry>
+        <entry> </entry>
+      </row>
+      <row>
+        <entry>2019</entry>
+        <entry>4</entry>
+        <entry> </entry>
+      </row>
+      <row>
+        <entry>2020</entry>
+        <entry>5</entry>
+        <entry> </entry>
+      </row>
+      <row>
+        <entry>2021</entry>
+        <entry>6</entry>
+        <entry> </entry>
+      </row>
+      <row>
+        <entry>2022</entry>
+        <entry>7</entry>
+        <entry> </entry>
+      </row>
+    </tbody>
+  </table>
+  <para><emphasis>Answer:</emphasis> </para><table class="os-raise-wideequaltable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">Year</entry>
+      <entry scope="col" class="emphasis">\(n\)</entry>
+      <entry scope="col" class="emphasis">Wildcat Population</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row><entry>2015</entry><entry>0</entry><entry>284</entry></row>
+    <row><entry>2016</entry><entry>1</entry><entry>295</entry></row>
+    <row><entry>2017</entry><entry>2</entry><entry>307</entry></row>
+    <row><entry>2018</entry><entry>3</entry><entry>319</entry></row>
+    <row><entry>2019</entry><entry>4</entry><entry>332</entry></row>
+    <row><entry>2020</entry><entry>5</entry><entry>346</entry></row>
+    <row><entry>2021</entry><entry>6</entry><entry>359</entry></row>
+    <row><entry>2022</entry><entry>7</entry><entry>374</entry></row>
+  </tbody>
+</table>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>
+    Use a graphing tool or technology outside the course to graph the data that represents the population projections for this scenario. (Students were provided access to Desmos.)<para><emphasis>Answer:</emphasis> <image height="400" src="https://k12.openstax.org/contents/raise/resources/53fb8c9a6e0a4dc461223a472fbf2e25bf23a7a7"/></para>
+  </item>
+</list>
+
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item>
+    Calculate and determine the year when the wildcat population will exceed 500 members.<para><emphasis>Answer:</emphasis> </para>
+  </item>
+</list>
+
+<list class="os-raise-noindent" start="5" type="enumerated">
+  <item>
+    Is the data that represents this scenario an arithmetic or geometric sequence? Explain your reasoning.<para><emphasis>Answer:</emphasis> </para><list>
+      <item>This data represents a geometric sequence because the equation has a common ratio of 1.04. </item>
+      <item>This data represents a geometric sequence because the ratio between consecutive terms in the table is 1.04. </item>
+      <item>This data represents a geometric sequence because the graph does not depict a line, it is curved a little and does not have a constant slope.</item>
+    </list>
+  </item>
+</list>
+
+<para>Remember that a recursive formula defines terms using one or more of the previous terms. If you need to calculate the \(100^{th}\) term or the \(500^{th}\) term in a sequence, the recursive formula becomes difficult to use if you do not know the values of the terms near \(n = 100\) or \(n = 500\). 
+</para>
+<para>Different definitions can often create the same sequence but are more generalizable. These are called general rules or explicit rules. These formulas can be used to find any term in the sequence and may also be referred to as the rule to find the nth term. </para>
+
+
+
+<note>
+  <title>Geometric Sequence Formulas</title>
+<h6>Recursive Formula</h6>
+  <para>\(a_n = a_{n-1} \cdot r\), 
+    </para>
+  <h6>Explicit General Formula</h6>
+  <para>\(a_n = a_1 (r)^{n-1} \)</para>
+</note>
+<title>Anticipated Misconceptions</title>
+<para>Students may struggle to remember the difference between explicit and recursive formulas. Post an anchor chart or word wall to help students identify the formulas they are discussing and using. As they speak to each other or present to the class, encourage them to refer to the posted information and explain why they chose to use the formula they selected. </para>
+<para>In addition, an underlying skill students must possess is being able to discern arithmetic from geometric sequences. Press students to explain which type of sequence they are working with before they present problems, ask questions, or complete assignments. </para>
+
+
+<title>Activity Synthesis</title>
+<para>The goal of this activity is for students to understand the components of an explicit formula for geometric sequences and when to use it.</para> 
+<para>Conclude this activity by encouraging students to identify connections between the different representations that were presented (table, graph, or equation). Choose students who did not present and ask them to annotate connections or relationships the visual displays have in common across the multiple representations. </para>
+
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for English Language Learners</title></para>
+    <para><title>MLR 7 Compare and Connect: Representing, Listening</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+    <para>Use this routine to prepare students for the whole-class discussion by inviting students to create a visual display of their work. Students should consider what to include on their display so that other students will be able to interpret how they determined the year the population met specific constraints. Students may wish to add notes or details to their displays to help communicate their reasoning. Begin the whole-class discussion by selecting and arranging 2-4 displays for all to see. Give students 1-2 minutes of quiet time to think individually to interpret the displays before inviting the authors to share their strategies. </para>
+    <para class="os-raise-text-italicize">Design Principle(s): Support sense-making, Maximize meta-awareness</para>
+    <para class="os-raise-extrasupport-title">Learn more about this routine</para>
+    <para>
+      <link url="https://www.youtube.com/watch?v=PF8fRA107OA;&amp;rel=0">View the instructional video</link>
+      and
+      <link url="https://k12.openstax.org/contents/raise/resources/94a1159e7b81493c647515711f325771076d99b8">follow along with the materials</link>
+      to assist you with learning this routine.
+    </para>
+    <para class="os-raise-extrasupport-title">Provide support for students</para>
+    <para>
+      <link url="https://k12.openstax.org/contents/raise/resources/0b8a1a4ac3425e84a1d5452b3a5dffa38deb6b13">Distribute graphic organizers</link>
+      to the students to assist them with participating in this routine.
+    </para>
+  </div>
+</div>
+<title>4.18.4 Self Check</title>
+<para><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
+<para class="os-raise-text-bold">QUESTION:</para>
+<para>For the function \(J(n)= 180(\frac13)^{n-1}\), what is the value of the function when \(n=5\)?</para>
+<table class="os-raise-textheavytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        Answers
+      </entry>
+      <entry scope="col" class="emphasis">
+        Feedback
+      </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>45</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: \(n=5\) must be substituted into the equation. This is \(\frac{180}{4}\). The answer is \(\frac{180}{81}\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>20</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: This is the value when \(n=3\). The answer is \(\frac{180}{81}\). </para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(\frac{180}{81}\)</para>
+      </entry>
+      <entry>
+        <para>That’s correct! Check yourself: Substitute \(n=5\) into the function. \((\frac13)^4=\frac{1}{81}\), so \(J(4)=\frac{180}{81}\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(\frac{1}{81}\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: Make sure to multiply \((\frac13)^4\) by 180. The answer is \(\frac{180}{81}\).</para>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<title>4.18.4 Additional Resources </title>
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>The nth Term of a Geometric Sequence</title></para>
+    <para><title/><!--Extra Support Name-->General Term (nth Term) of a Geometric Sequence</para>
+  </note>
+  <div class="os-raise-extrasupport-body"> 
+    <!--Support Content--><para>The general term of a geometric sequence with first term \(a_1\) and the common ratio \(r\) is: \(a_n=a_1r^{n-1}\).</para>
+  </div>
+</div>
+<para class="os-raise-text-bold">Example 1</para>
+<para>Write the explicit formula for the sequence given by the terms 3, 2, 43, 89 ...</para>
+<title>Solution: </title>
+<para><emphasis>Step 1- </emphasis>Write the general formula.</para>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. </para>
+<para>So, the explicit formula for the sequence 3, 2, 43, 89 ... is \(a_n = 3 (\frac23)^{n-1}\).</para>
+<para>Just like it is with arithmetic sequences, the explicit formula makes finding any term easier to determine - especially term numbers that are very large!</para>
+
+
+<para class="os-raise-text-bold">Example 2</para>
+<para>Find the 14th term of a sequence where the first term is 64 and the common ratio, \(r =\frac 12\). </para>
+<title>Solution:</title>
+<para><emphasis>Step 1 -</emphasis> Write the general formula.</para>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number.</para>
+<para><emphasis>Step 3 -</emphasis> Simplify the expression.</para>
+ <para>If the explicit formula for this question was needed, we would not have substituted \(n = 14\) and the nth term formula would have been \(a_n = 64 (\frac12)^{n-1}\). </para>
+
+<title>Try It: The nth Term of a Geometric Sequence</title>
+     
+  <para>Find the formula for the nth term of a sequence where the first term is 81 and the common ratio  is \(r=\frac13\).</para>
+  
+    <para><emphasis>Solution:</emphasis></para>
+<para>Here is how to find the 11th term of the sequence:</para>
+<para><emphasis>Step 1 -</emphasis> Write the general formula.</para>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. </para>
+  
+</section>
+</content>
+</document>

@@ -1,0 +1,98 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>5.1.3: Additional Resources</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01241</md:content-id>
+    <md:title>5.1.3: Additional Resources</md:title>
+    <md:uuid>ebc8093e-cbba-4c2a-bd14-1a5659180695</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Using the Zero Exponent Property</title>
+<para>A special case of the Quotient Property is when the exponents of the numerator and denominator are equal, such as an expression like \(\frac{a^m}{a^m}\). We know \(\frac{x}{x}=1\) for any \(x\) (\(x\neq0\)) since any number divided by itself is 1. The Quotient Property for Exponents shows us how to simplify \(\frac{a^m}{a^m}\) when \(m&gt;n\) and when \(n&lt;m\) by subtracting exponents. What if \(m=n\)? We will simplify \(\frac{a^m}{a^m}\) in two ways to lead us to the definition of the <term data-schema-version="1.0" data-store="glossary-tooltip">Zero Exponent Property</term>. In general, for \(a\neq0\):</para>
+<image alt="" class="img-fluid atto_image_button_text-bottom" height="257" role="presentation" src="https://k12.openstax.org/contents/raise/resources/568a972a3e26b433291b56a3ca270be5ebdfaa57" width="300"/><note>
+  <para class="os-raise-text-bold">Zero Exponent Property </para>
+  <hr/>
+  <para>If \(a\) is a non-zero number, then \(a^0=1\).</para>
+  <para>If \(a\) is a non-zero number, then \(a\) to the power of zero equals 1.</para>
+  <para>Any non-zero number raised to the zero power is 1.</para>
+</note>
+<title>Using the Definition of a Negative Exponent</title>
+<para>We saw that the Quotient Property for Exponents has two forms depending on whether the exponent is larger in the numerator or the denominator. What if we just subtract exponents regardless of which is larger?</para>
+<para>Let’s consider \(\frac{x^2}{x^5}\). We subtract the exponent in the denominator from the exponent in the numerator. We see \(\frac{x^2}{x^5}\) is \(x^{2-5}\) or \(x^{-3}\).</para>
+<para>We can also simplify \(\frac{x^2}{x^5}\) by dividing out common factors:</para>
+<para>\(\frac{x^2}{x^5}\)</para>
+<para>
+  <m:math>
+    <m:mfrac>
+      <m:mrow>
+        <m:menclose notation="updiagonalstrike">
+          <m:mi>x</m:mi>
+        </m:menclose>
+        <m:mo> </m:mo>
+        <m:mo>·</m:mo>
+        <m:mo> </m:mo>
+        <m:menclose notation="updiagonalstrike">
+          <m:mi>x</m:mi>
+        </m:menclose>
+      </m:mrow>
+      <m:mrow>
+        <m:menclose notation="updiagonalstrike">
+          <m:mi>x</m:mi>
+        </m:menclose>
+        <m:mo>·</m:mo>
+        <m:menclose notation="updiagonalstrike">
+          <m:mi>x</m:mi>
+        </m:menclose>
+        <m:mo>·</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>·</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>·</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:math>
+</para>
+<para>\(\frac{1}{x^3}\)</para>
+<para>This implies that \(x^{-3}=\frac{1}{x^3}\), and it leads us to the definition of a <emphasis>negative exponent</emphasis>. If \(n\) is an integer and \(a\neq0\), then \(a^{-n}=\frac{1}{a^n}\).</para>
+<para>Let’s now look at what happens to a fraction whose numerator is one and whose denominator is an integer raised to a negative exponent.</para>
+<para>\(\frac{1}{a^{−n}}\) </para>
+<para><emphasis>Step 1 - </emphasis>Use the definition of a negative exponent, \(a^{−n}=\frac{1}{a^n}\).</para>
+<para><emphasis>Step 2 - </emphasis>Simplify the complex fraction.</para><para><emphasis>Step 3 -</emphasis> Multiply.</para>
+<para>This implies \(\frac{1}{a^{-n}}=a^n\) and is another form of the definition of <term data-schema-version="1.0" data-store="glossary-tooltip">Properties of Negative Exponents</term>.</para>
+<note>
+  <para class="os-raise-text-bold">Properties of Negative Exponents </para>
+  <hr/>
+  <para>If \(n\) is an integer and \(a\neq0\), then \(a^{−n}=\frac{1}{a^n}\) or \(\frac{1}{a^{−n}}=a^n\).</para>
+</note>
+<para>The negative exponent tells us we can rewrite the expression by taking the reciprocal of the base and then changing the sign of the exponent.</para>
+<para>Any expression that has negative exponents is not considered to be in simplest form. We will use the definition of a negative exponent and other properties for exponents to write the expression with only positive exponents.</para>
+<para>For example, if after simplifying an expression we end up with the expression \(x^{-3}\), we will take one more step and write \(\frac{1}{x^3}\). The answer is considered to be in simplest form when it has only positive exponents.</para>
+<title>Try It: Using the Zero Exponent Property and Negative Exponents</title>
+<para>Simplify each expression.</para>
+<example><exercise>
+  <problem>
+    
+    <para>\(
+        h^0\) </para>
+      <para> \(7^0\) </para>
+      <para>\(
+        (-g)^0\) </para>
+      <para> \(a^{-4}\) </para>
+      <para>\(9^{-3}\) </para>
+      <para> \(\frac{1}{n^{-5}}\) </para>
+    <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answers:</para>
+  <para>Here is how to simplify the expressions:</para>
+  <list class="os-raise-noindent" type="enumerated">
+    <item> 1 </item>
+    <item> 1 </item>
+    <item> 1 </item>
+    <item>\(\frac{1}{a^4}\) </item>
+    <item>\(\frac{1}{9^3}=\frac{1}{729}\) </item>
+    <item> \(n^5\) </item>
+  </list>
+</solution></exercise>
+</example></section>
+</content>
+</document>

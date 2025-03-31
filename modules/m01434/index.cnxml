@@ -1,0 +1,50 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>5.11.1: Changing the Graphing Window</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01434</md:content-id>
+    <md:title>5.11.1: Changing the Graphing Window</md:title>
+    <md:uuid>71594448-7de7-4df9-b4e3-c2b3b0a047cc</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Warm Up (5 minutes)</title>
+<para>This warm up prompts students to think about how changing the graphing window influences what you can see and
+  understand about an exponential function.</para>
+<title>Student Activity</title>
+<para>Here is a graph of a function \(f(x)=400 \cdot (0.2)^x\).</para>
+<image alt="Graph of a function on grid, origin O. Horizontal axis, x, from 0 to 40 by 10's. Vertical axis, y, from 0 to 1,000, by 500's. Line crosses  y axis at 0 comma 400, quickly decreasing then running horizontal to x axis." src="https://k12.openstax.org/contents/raise/resources/3e638689244b1a3a2db07f7306f1d2d6e5d337ad"/><list class="os-raise-noindent" type="enumerated">
+  <item> Identify the approximate graphing window shown. <emphasis>Answer:</emphasis> \(0&lt;x&lt;44\) and \(0&lt;y&lt;1,100\) or equivalent
+  </item>
+  <item> Suggest a new graphing window that would: </item>
+  <list class="os-raise-noindent" type="enumerated">
+    <item> make the graph more informative or meaningful .<emphasis>Answer:</emphasis> \(
+      0&lt;x&lt;10\) and \(0&lt;y&lt;450\). This window would include \(x\)-values where meaningful changes happen and
+      exclude the parts where the changes are very small. The \(y\)-values are limited to values that matter, between 0
+      and 400, allowing us to see more clearly the changes in that range.
+    </item>
+    <item> make the graph less informative or meaningful. <emphasis>Answer:</emphasis> \(-10&lt;x&lt;80\) and \(10&lt;y&lt;100\). This window would show a lot of useless
+      \(x\)-values and cut off the \(y\)-values at 100, which would make the behavior of the function when 𝑥 is between
+      0 and 1 very difficult to observe.
+    </item>
+  </list>
+</list>
+<para>Be prepared to explain your reasoning.</para>
+<title>Activity Synthesis</title>
+<para>Invite students to share some suggestions for a graphing window that are more helpful and those that are less
+  helpful. Ask them to explain their reasoning.</para>
+<para>Help students understand that, as a general rule, the \(x\)-values to show for a graph are usually determined by the
+  quantity we are interested in studying. The \(y\)-values need to be selected carefully so that:</para>
+<list>
+  <item>data of interest show up on the graph. </item>
+  <item>interesting trends (of increase or decrease) are as visible as possible. </item>
+</list>
+<para>If time permits, discuss:</para>
+<list>
+  <item>“Why does the graph show such a sharp decrease between \(x\)-values of 0 and 2 and then start to flatten
+    out?” (The decay factor is 0.2, which means that whenever \(x\) increases by 1, it loses 0.8 of its quantity
+    and keeps only 0.2. That decay is more apparent when the quantity is larger. As it gets smaller, and given the scale
+    of the graph, it is harder to see the change. For example, when \(x\) increases from 0 to 1, \(f(x)\) decreases by
+    320 because \((0.8) \cdot 400=320\). But when \(x\) increases from 2 to 3, \(f(x)\) decreases by \((0.8) \cdot 16\)
+    or 10.8, which is a much smaller drop.) </item>
+</list></section>
+</content>
+</document>

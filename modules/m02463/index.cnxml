@@ -1,0 +1,182 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>9.8.2: Deriving the Quadratic Formula, Part 2</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m02463</md:content-id>
+    <md:title>9.8.2: Deriving the Quadratic Formula, Part 2</md:title>
+    <md:uuid>773879e8-645f-4432-904f-509b4fdc6e60</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity</title>
+<example><exercise>
+  <problem>
+    
+    <para>Here is one way to make sense of how the <term data-schema-version="“1.0”" data-store="glossary-tooltip">quadratic formula</term> came about. Study the derivation until you can explain what happened in each step. Write down your explanation for each step.</para>
+    <para>Original equation</para>
+    <para><emphasis>Step 1</emphasis> - \(4a^2x^2+4abx+4ac=0\)</para>
+    <para><emphasis>Step 2</emphasis> - \(4a^2x^2+4abx=-4ac\)</para>
+    <para><emphasis>Step 3</emphasis> - \((2ax)^2+2b(2ax)=-4ac\)</para>
+    <para><emphasis>Step 4</emphasis> - \(M^2+2bM=-4ac\)</para>
+    <para><emphasis>Step 5</emphasis> - \(M^2+2bM+b^2=-4ac+b^2\)</para>
+    <para><emphasis>Step 6</emphasis> - \((M+b)^2=b^2-4ac\)</para>
+    <para><emphasis>Step 7</emphasis> - \( \sqrt{(M+b)^2} =\sqrt{b^2-4ac}\)</para>
+    <para>\(M+b= \pm \sqrt{b^2-4ac}\)</para>
+    <para><emphasis>Step 8</emphasis> - \(M=-b \pm \sqrt{b^2-4ac}\)</para>
+    <para><emphasis>Step 9</emphasis> - \(2ax=-b \pm \sqrt{b^2-4ac}\)</para>
+    <para><emphasis>Step 10</emphasis> - </para>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para> Original equation</para>
+  <para><emphasis>Step 1</emphasis> - Multiply by \(4a\) so the coefficient of \(x^2\) is a <term data-schema-version="“1.0”" data-store="glossary-tooltip">perfect square</term>.</para>
+  <para><emphasis>Step 2</emphasis> - Isolate the constant term to the right.</para>
+  <para><emphasis>Step 3</emphasis> - Write the squared term as (something)\(^2\).</para>
+  <para><emphasis>Step 4</emphasis> - Use \(M\) as the placeholder for \(2ax\).</para>
+  <para><emphasis>Step 5</emphasis> - Add \(b^2\) to complete the square.</para>
+  <para><emphasis>Step 6</emphasis> - Write the left side as a squared factor and commute the terms on the right.</para>
+  <para><emphasis>Step 7</emphasis> - Find the square roots of each side of the equation.</para>
+  <para>\(M+b= \pm \sqrt{b^2-4ac}\)</para>
+  <para><emphasis>Step 8</emphasis> - Subtract \(b\) to isolate \(M\).</para>
+  <para><emphasis>Step 9</emphasis> - Replace \(M\) with \(2ax\).</para>
+    <para><emphasis>Step 10</emphasis> - </para>
+</solution></exercise>
+</example><!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+<example><exercise>
+  <problem>
+    
+    <!-- INSERT ANY VALID HTML HERE -->
+  <!-- INSERT ANY VALID HTML HERE -->
+  </problem></exercise>
+</example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <title>Extending Your Thinking</title>
+    <para>Here is another way to derive the quadratic formula by <term data-schema-version="“1.0”" data-store="glossary-tooltip">completing the square</term>.</para>
+    <para> First, divide each side of the equation \(ax^2+bx+c=0\) by \(a\) to get \(x^2+\frac{b}{a}x+\frac{c}{a}=0\). </para>
+      <para> Then, complete the square for \(x^2+\frac{b}{a}x+\frac{c}{a}=0\). </para>
+    <para>In problems 1–10, briefly explain what happens in each step by answering the question. Use the "^" symbol to enter an exponent.</para>
+    <para>Original equation</para>
+    <para>Step 1</para>
+    </problem><solution>
+    
+    <para>Enter the constant.</para>
+  <para>Compare your answer:</para>
+    <para>\(-\frac{c}{a}\)</para>
+    <para>Now the equation looks like</para>
+    <para>\(x^2+\frac{b}{a}x= -\frac{c}{a}\).</para>
+  </solution></exercise>
+<!--End interaction-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <para>Step 2</para>
+    </problem><solution>
+    
+    <para>Enter the constant.</para>
+  <para>Compare your answer:</para>
+    <para> \((\frac{b}{2a})^2\)</para>
+    <para>To complete the square, we add it to both sides. Now the equation looks like</para>
+    <para>\(x^2+(\frac{b}{2a})x+(\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
+    <para>Notice that the denominators are different on the left side of the equation (for the second and third terms). In order to form a common denominator of \(2a\), we must multiply the middle term by a factor of \frac{2}{2}.</para>
+    <para>\(x^2+\frac{2}{2} (\frac{b}{a})x+(\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
+    <para>Regrouping the factors in the middle term differently yields
+    </para>
+    <para>\(x^2+2(\frac{b}{2a})x+ (\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
+  </solution></exercise>
+<!--End interaction-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <para>Step 3</para>
+    </problem><solution>
+    
+    <para>Enter the binomial.</para>
+  <para>Compare your answer:</para>
+    <para> \(x+\frac{b}{2a}\)</para>
+    <para>Now the equation looks like</para>
+  </solution></exercise>
+<!--End interaction-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <para>Step 4</para>
+    </problem><solution>
+    
+    <para>Enter the common denominator.</para>
+  <para>Compare your answer:</para>
+    <para> The common denominator will be \(4a^2\).</para>
+    <para>Now the equation looks like </para>
+  </solution></exercise>
+<!--End interaction-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <para>Step 5</para>
+    </problem><solution>
+    
+    <para>Enter the numerator.</para>
+  <para>Compare your answer:</para>
+    <para> \(b^2-4ac\)</para>
+    <para>Now the equation looks like</para>
+  </solution></exercise>
+<!--End interaction-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <para>Step 6</para>
+    </problem><solution>
+    
+    <para>Enter the next step.</para>
+  <para>Compare your answer:</para>
+    <para> Take the square root of both sides.</para>
+    <para>Remember to put the \(\pm\) in front of the radical! Now the equation looks like</para>
+  </solution></exercise>
+<!--End interaction-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <para>Step 7</para>
+    </problem><solution>
+    
+    <para>Enter your explanation.</para>
+  <para>Compare your answer:</para>
+    <para> The square root of a fraction is the square root of the numerator divided by the square root of the denominator.</para>
+    <para>\(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{\sqrt{4a^2}}\)</para>
+  </solution></exercise>
+<!--End interaction-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <para>Step 8</para>
+    </problem><solution>
+    
+    <para>Enter the denominator.</para>
+  <para>Compare your answer:</para>
+    <para> \(2a\)</para>
+    <para>Now the equation looks like</para>
+  </solution></exercise>
+<!--End interaction-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <para>Step 9</para>
+    </problem><solution>
+    
+    <para>Enter the next step.</para>
+  <para>Compare your answer:</para>
+    <para> Subtract \(\frac{b}{2a}\) from both sides.</para>
+    <para>Now the equation looks like</para>
+  </solution></exercise>
+<!--End interaction-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <para><emphasis>Step 10</emphasis> - </para>
+    </problem><solution>
+    
+    <para>Enter your observation.</para>
+  <para>Compare your answer:</para>
+    <para> They are the same.</para>
+    <para>Add the fractions, and we come to the result: the quadratic equation,</para>
+  </solution></exercise>
+<!--End interaction-->
+<title>Video: Deriving the Quadratic Formula</title>
+<para>Watch the following video to learn more about deriving the quadratic formula.</para>
+<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
+  <iframe><video controls="true" crossorigin="anonymous">
+      <source src="https://k12.openstax.org/contents/raise/resources/ea0b4447ec781db56cae7dec10ddfe3cace6df40">
+      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/5c46d09e7ba2332487e618cbe92d9c7796441239" srclang="en_us">https://k12.openstax.org/contents/raise/resources/cdad89b7a5ee8c0eacfcbd8a970217904f3ade81
+    </track></source></video></iframe>
+</div></section>
+</content>
+</document>

@@ -1,0 +1,123 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>8.8.2: Additional Resources</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m02216</md:content-id>
+    <md:title>8.8.2: Additional Resources</md:title>
+    <md:uuid>d708ffa0-1a34-40ed-be0e-f47fb7d48607</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Recognizing the Expanded Product of the Difference of Two Squares</title>
+<para>Mathematically, something special happens when two binomials that are conjugates are multiplied. In other words, the product of an expression of the form (\(a - b)(a + b)\) results in a unique expression called a difference of two squares. Here are some examples of these special products.</para>
+<para><emphasis>Example 1</emphasis></para>
+<para>Let's look at the expression \((12 + 5)(12 − 5)\). We want to determine if it is equivalent to \(12^2−5^2\).</para>
+<para>We can use the distributive property of multiplication over addition, or FOIL process, to multiply.</para>
+<para>\((12 + 5)(12 − 5)\) </para>
+<para><emphasis>Example 2</emphasis></para>
+<para>Let's look at a different example using a <term data-schema-version="1.0" data-store="glossary-tooltip">variable</term>.</para>
+<para>\((x + 7)(x − 7)\)</para>
+<para>Is this equivalent to \(x^2−7^2\)?</para>
+<para>\((x + 7)(x − 7)\)</para>
+<table class="os-raise-doubleheadertable">
+  
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis"/>
+      <entry scope="col" class="emphasis">
+       \(x\)
+      </entry>
+      <entry scope="col" class="emphasis">
+        –7
+      </entry>
+	  </row></thead><tbody>
+    <row>
+      <entry scope="row" class="emphasis">
+        \(x\)
+      
+      </entry><entry>
+        \(x^2\)
+      </entry>
+      <entry>
+        \(-7x\)
+      </entry>
+    </row>
+    <row>
+      <entry scope="row" class="emphasis">
+        7
+      </entry>
+      <entry>
+       \(7x\)
+      </entry>
+      <entry>
+       \(-7(7)\)
+      </entry>
+    </row>
+  </tbody>
+</table>
+<para>You have studied this process earlier when you learned the difference of squares.</para>
+<para>In this lesson, we will reverse this process to rewrite the <term data-schema-version="“1.0”" data-store="glossary-tooltip">standard form</term> of a <term data-schema-version="“1.0”" data-store="glossary-tooltip">quadratic expression</term> into its <term data-schema-version="“1.0”" data-store="glossary-tooltip">factored form</term>.</para>
+<para>It is important to remember the <term data-schema-version="“1.0”" data-store="glossary-tooltip">linear term</term>, or middle term of a quadratic trinomial, equals zero only holds true for the <term data-schema-version="“1.0”" data-store="glossary-tooltip">difference of squares</term>. It does not work for an expression such as \(x^2+25\). (In fact, there is no way to multiply two binomials that would result in this expression.)</para>
+<para><emphasis>Example 3</emphasis></para>
+<para>Is \((x + 5)^2\) equivalent to \(x^2+25\)?</para>
+<para>Let's find the equivalent expression for \((x + 5)^2\) or \((x + 5)(x + 5)\).</para>
+<para>\(\begin{array}{rcl}\left(x+5\right)^2&amp;=&amp;\left(x+5\right)\left(x+5\right)\\&amp;&amp;\\&amp;=&amp;x^2+5x+5x+25\\&amp;&amp;\\&amp;=&amp;x^2+10x+25\\&amp;&amp;\end{array}\)</para>
+<title>Try It: Recognizing the Expanded Product of the Difference of Two Squares</title>
+<example><exercise>
+  <problem>
+    
+    <para>Is the expression \((8 − 7)(8 + 7)\) equivalent to the expression \(8^2−7^2\)? Show your reasoning using the distributive property, or FOIL.</para>
+    <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Here is how to recognize the expanded product of the difference of two squares:</para>
+  <para>Yes. Here is how to use the difference of squares to show equivalency between the expressions:</para>
+  <para>\((8 − 7)(8 + 7) = 8^2+ 56 − 56 − 7^2= 8^2 − 7^2\)</para>
+</solution></exercise>
+</example><example><exercise>
+  <problem>
+
+    <para>Is \((x + 4)(x + 4)\) equivalent to \(x^2+ 4^2\)? Support your answer with a diagram.</para>
+    <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Here is how to recognize the expanded product of the difference of two squares:</para>
+  <para>No. The expressions are not equivalent.</para>
+  <table class="os-raise-doubleheadertable">
+   
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis"/>
+        <entry scope="col" class="emphasis">
+          \(x\)
+        </entry>
+        <entry scope="col" class="emphasis">
+         4
+        </entry>
+    </row></thead><tbody>
+      <row>
+        <entry scope="row" class="emphasis">
+          \(x\)
+        </entry>
+        <entry>
+          \(x^2\)
+        </entry>
+        <entry>
+         \(4x\)
+        </entry>
+      </row>
+      <row>
+        <entry scope="row" class="emphasis">
+        4
+        </entry>
+        <entry>
+        \(4x\)
+        </entry>
+        <entry>
+          <para>\(4(4)\)</para>
+        </entry>
+      </row>
+    </tbody>
+  </table>
+  <para>\((x + 4)(x + 4) = x^2 + 8x + 4^2 = x^2 + 8x + 16\)</para>
+  <para>It is not equivalent to \(x^2 + 4^2 = x^2 + 16\).</para>
+</solution></exercise>
+</example></section>
+</content>
+</document>

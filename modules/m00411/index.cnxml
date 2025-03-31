@@ -1,0 +1,105 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>2.3.3: Additional Resources</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m00411</md:content-id>
+    <md:title>2.3.3: Additional Resources</md:title>
+    <md:uuid>76a04a14-fb3a-4f5e-87ea-3476238e9577</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Reinforcing the Substitution Method</title>
+<para>Solve the system by substitution:</para>
+
+<!--BEGIN SYSTEM OF EQUATIONS-->
+
+<para>\(\left\{\begin{array}{l}4x\;+\;2y\;=\;4\\6x\;+\;-y\;=\;8\end{array}\right.\)</para>
+<!--END SYSTEM OF EQUATIONS -->
+<para>We need to solve one equation for one variable. We will solve the first equation for \(y\).</para>
+<!--BEGIN STEPS-->
+<div>
+   <para><emphasis>Step 1 - </emphasis>Solve the first equation for \(y\).</para>
+   <!--BEGIN ALIGN TO EQUALS -->
+     <para>\(\begin{array}{rcl}		
+       4x+2y&amp;=&amp;4
+		 \\2y&amp;=&amp;-4x+4
+		 \\y&amp;=&amp;-2x+2
+   		 \\  \end{array}\)</para>
+     <!--END ALIGN TO EQUALS -->
+
+   <para><emphasis>Step 2 - </emphasis>Substitute \(−2x+2\) for \(y\) in the second equation.	</para>
+   <!--BEGIN ALIGN TO EQUALS -->
+   <para>\(\begin{array}{rcl}		
+    6x-y&amp;=&amp;8
+  \\6x-(-2x+2)&amp;=&amp;8
+      \\  \end{array}\)</para>
+  <!--END ALIGN TO EQUALS -->
+
+	<para><emphasis>Step 3 - </emphasis>Solve the equation for \(x\).</para>
+  <!--BEGIN ALIGN TO EQUALS -->
+  <para>\(\begin{array}{rcl}		
+  6x-(-2x+2)&amp;=&amp;8
+  \\6x+2x-2&amp;=&amp;8
+  \\8x-2&amp;=&amp;8
+  \\8x&amp;=&amp;10
+  \\x&amp;=&amp;\frac{10}{8}
+  \\x&amp;=&amp;\frac54
+     \\  \end{array}\)</para>
+     <!--END ALIGN TO EQUALS -->
+
+	<para><emphasis>Step 4 - </emphasis>Substitute \(x=\frac54\) into \(4x+2y=4\) to find \(y\).</para>
+   <!--BEGIN ALIGN TO EQUALS -->
+  <para>\(\begin{array}{rcl}		
+     4x+2y&amp;=&amp;4
+    \\ 4(\frac54)+2y&amp;=&amp;4
+    \\5+2y&amp;=&amp;4
+    \\2y&amp;=&amp;-1
+     \\y&amp;=&amp;\frac{-1}{2}
+      \\  \end{array}\)</para>
+       <!--END ALIGN TO EQUALS -->
+
+	<para><emphasis>Step 5 - </emphasis>Check the ordered pair. \((\frac54,\frac{-1}{2})\) in both equations.</para>
+   <!--BEGIN SIDE BY SIDE EQUATIONS-->
+  <para>\(\begin{array}{rr}
+    &amp; 6x-y=8\\
+    &amp; 6(\frac54)-(-\frac12)\overset?=8\\
+  4x+2y=4 &amp; \frac{30}{4}-(-\frac12)\overset?=8\\
+  4(-\frac12)+2(\frac54)\overset?=4 &amp;	\frac{15}{2}-(-\frac12)\overset?=8\\
+  5-1\overset?=4 &amp; \frac{15}{2}+\frac12\overset?=8	\\
+  4=4\checkmark &amp; 8=8\checkmark\\
+  \end{array}\) </para>
+  <!--END SIDE BY SIDE EQUATIONS -->
+
+   
+</div>
+<!-- END STEPS -->
+	
+    <title>Try It: Reinforcing the Substitution Method</title>
+      <!--Q#-->
+    <example><exercise>
+        <problem>
+          
+          <para>Solve the system by substitution:</para>
+            <!--BEGIN SYSTEM OF EQUATIONS-->
+            <para>\(\left\{\begin{array}{l}x\;-\;4y\;=\;-4\\-3x\;+\;4y\;=\;0\end{array}\right.\)</para>
+             <!--END SYSTEM OF EQUATIONS -->
+       <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem><solution>
+      <para>Compare your answer: Your answer may vary, but here is a sample.</para>
+   	 <para><emphasis>Step 1 - </emphasis>Solve the first equation for \( x \) to isolate a variable.</para>
+   	 <para>\(\begin{array}{rcl}\;\;x\;-\;4y\;&amp;=&amp;\;-4\\x\;-\;4y\;{\style{color:red}+}\;{\style{color:red}4}{\style{color:red}y}\;&amp;=&amp;\;-4\;{\style{color:red}+}\;{\style{color:red}4}{\style{color:red}y}\\x\;&amp;=&amp;\;-4\;+\;4y\end{array}\)</para>
+  	 <para><emphasis>Step 2 - </emphasis> Replace the \(x\) in the second equation with the expression \( -4 + 4y \).</para>
+	<para>\(\begin{array}{rcl}-3x\;+\;4y\;&amp;=&amp;\;0\\-3{\style{color:red}(}{\style{color:red}-}{\style{color:red}4}\;{\style{color:red}+}\;{\style{color:red}4}{\style{color:red}y}{\style{color:red})}\;+\;4y\;&amp;=&amp;\;0\end{array}\)</para>
+	<para><emphasis>Step 3 - </emphasis> Solve the equation with just one variable.</para>
+	 <para>\(\begin{array}{rcl}-3(-4\;+\;4y)\;+\;4y\;&amp;=&amp;\;0\\12 - 12y\;+\;4y\;&amp;=&amp;\;0\\-8y\;&amp;=&amp;\;-12\\y\;&amp;=&amp;\;\;\frac32\end{array}\)</para>
+	<para><emphasis>Step 4 - </emphasis> Use the first equation and replace \(y\) with \(\frac32\).</para>
+	 <para>\(\begin{array}{rcl}x\;-\;4y\;&amp;=&amp;\;-4\\x\;-\;4(\frac32)\;&amp;=&amp;\;-4\\x\;-\;6\;&amp;=&amp;\;-4\\x\;&amp;=&amp;\;2\end{array}\)</para>
+	<para><emphasis>Step 5 - </emphasis> The ordered pair is \((x, y)\).</para>
+	 <para>   \((2,\frac32)\)</para>
+	<para><emphasis>Step 6 - </emphasis> Substitute \( x=6 \), \( y=1 \) to check the solution in both equations.</para>
+	<para>\(\begin{array}{r}x\;-\;4y\;=\;-4\\\;{\style{color:red}(}{\style{color:red}2}{\style{color:red})}\;-\;4{\style{color:red}(}\frac{\style{color:red}3}{\style{color:red}2}{\style{color:red})}\stackrel{?}{=}-4\\\;2\;-\;6\stackrel{?}{=}-4\\-4\;=\;-4\;{\style{color:red}✔}\end{array}\)</para>
+                <para/>
+                <para>\(\begin{array}{r}-3x\;+\;4y\;=\;0\\\;-3{\style{color:red}(}{\style{color:red}2}{\style{color:red})}\;-\;4{\style{color:red}(}\frac{\style{color:red}3}{\style{color:red}2}{\style{color:red})}\stackrel{?}{=}0\\\;-6\;+\;6\stackrel{?}{=}0\\0\;=\;0\;{\style{color:red}✔}\end{array}\)
+    </para></solution></exercise>
+    </example><!--Interaction End -->
+    <!-- END TRY IT --></section>
+</content>
+</document>

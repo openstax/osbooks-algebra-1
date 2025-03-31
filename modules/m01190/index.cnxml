@@ -1,0 +1,187 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>4.18.3: Define an Arithmetic Sequence by the nth Term</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01190</md:content-id>
+    <md:title>4.18.3: Define an Arithmetic Sequence by the nth Term</md:title>
+    <md:uuid>9d5894f6-4911-4bf4-81e8-3e0eddbe0f5b</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity</title>
+<list class="os-raise-noindent" type="enumerated">
+  <item>Clare takes a piece of paper with length 8 inches and width 10 inches and cuts it in half. Then she cuts it in half again, and again . . .</item>
+</list>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Instead of writing a recursive definition, Clare writes \(C(n)=80 \cdot(\frac12)^n\), where \(C\) is the area, in square inches, of the paper after \(n\) cuts. Explain where the different terms in her expression came from.
+      </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answers:</para>
+    <para>Each cut halves the area, and there are \(n\) cuts. The original area is 80, so \(80 \cdot \frac12 \cdot \frac12 \cdot \cdot \cdot \cdot \cdot \frac12\) with \(n\) multiplications of \(\frac12\) is the same as saying \(80 \cdot (\frac{1}{2})^n\).</para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Approximately what is the area of the paper after 10 cuts?
+      </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answers:</para>
+    <para>Approximately 0.078 square inches (exactly \(\frac{80}{1024}\) inches)</para>
+  </solution></exercise>
+<!--Interaction End -->
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>
+    Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1 inch of the width. Then he does it again, and again . . .
+  </item>
+  <list class="os-raise-noindent" type="enumerated">
+    <item>
+      Complete the table for the area of Kiran’s paper \(K(n)\), in square inches, after \(n\) cuts.
+    </item>
+  </list>
+</list>
+<table class="os-raise-midsizetable">
+  
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+       \(n\)
+      </entry>
+      <entry scope="col" class="emphasis">
+        \(K(n)\)
+      </entry>
+	  </row></thead><tbody>
+    <row>
+      <entry>
+        <para>0</para>
+      </entry>
+      <entry>
+        <para>80</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>1</para>
+      </entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>
+        <para>2</para>
+      </entry>
+      <entry>
+        <para>\(80−8−8=80−8(2)=64\)</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>3</para>
+      </entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>
+        <para>4</para>
+      </entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>
+        <para>5</para>
+      </entry>
+      <entry/>
+    </row>
+  </tbody>
+</table>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+  </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answers:</para>
+    <para> When \(n\) is 1, \(K(n)\) is 72.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Kiran says the area after 6 cuts, in square inches, is \(80−8 \cdot6\). Explain where the different terms in his expression came from.
+      </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answers:</para>
+    <para>Each cut removes 8 square inches, so 6 cuts removes 48 square inches. The original area was 80 square inches, so the remaining area, in square inches, is \(80−8 \cdot 6\).
+    </para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Write a definition for \(K(n)\) that is not recursive.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answers:</para>
+    <para>\( K(n)=80−8n\) for integers \(0\leq n\leq9\) or equivalent.
+    </para>
+  </solution></exercise>
+<!--Interaction End -->
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>Which is larger, \(K(6)\) or \(C(6)\)?</item>
+</list>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+  </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para> \(K(6)\) is larger.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item>Is \(K(n)\) arithmetic or geometric?</item>
+</list>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+  </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>\(K(n)\) is arithmetic.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<list class="os-raise-noindent" start="5" type="enumerated">
+  <item>Is \(C(n)\) arithmetic or geometric?</item>
+</list>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+  </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>\(C(n)\) is geometric.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<para>A recursive sequence is a sequence in which terms are defined using one or more of the previous terms. If you know the nth term of an arithmetic or geometric sequence and the common difference or factor, you can find the (n+1)th term by using the recursive formula.  </para>
+<para>Different definitions can often create the same sequence. For arithmetic and geometric sequences, there are general rules, called explicit rules, that can be followed to help find any term in the sequences. </para>
+<para>These are called the nth <term data-schema-version="1.0" data-store="glossary-tooltip">term</term> or the general term of the sequence.</para>
+
+<note>
+  <title>Arithmetic Sequence Formulas</title>
+<h6>Recursive Formula</h6>
+  <para>\(a_n = a_{n-1} + d\), \(a_1\) = first term </para>
+  <h6>Explicit General Formula</h6>
+  <para>\(a_n = a_1 + (n-1)d\)</para>
+  <para>Where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</para>
+</note></section>
+</content>
+</document>

@@ -1,0 +1,360 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>5.15.3: Growth Rate of an Exponential Function</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01520</md:content-id>
+    <md:title>5.15.3: Growth Rate of an Exponential Function</md:title>
+    <md:uuid>d9f1872f-ddd6-4df5-8fcb-35d6de7222ad</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity </title>
+<para>Here is a table that shows some input and output values of an exponential function \(g\). The equation \(g(x)=3^x\)
+  defines the function.</para>
+<table class="os-raise-skinnytable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">
+        \(x\)
+      </entry>
+      <entry scope="col" class="emphasis">
+        \(g(x)\)
+      </entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>3</para>
+      </entry>
+      <entry>
+        <para>27</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>4</para>
+      </entry>
+      <entry>
+        <para>81</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>5</para>
+      </entry>
+      <entry>
+        <para>243</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>6</para>
+      </entry>
+      <entry>
+        <para>729</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>7</para>
+      </entry>
+      <entry>
+        <para>2,187</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>8</para>
+      </entry>
+      <entry>
+        <para>6,561</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(x\)</para>
+      </entry>
+      <entry/>
+    </row>
+    <row>
+      <entry>
+        <para>\(x+1\)</para>
+      </entry>
+      <entry/>
+    </row>
+  </tbody>
+</table>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> How does \(g(x)\) change every time \(x\) increases by 1? Show or explain your reasoning.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para> The output values increase by a factor of 3. For example: When we divide two consecutive output values, the
+      quotient is always 3. </para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Choose two new input values that are consecutive whole numbers and find their output values. Record them in
+        the table. How do the output values change for those two input values?</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>\(g(10)=3^{10}\) and \(g(11)=3^{11}\). The output still grows by a factor of 3 when the input increases by 1
+      (from 10 to 11). </para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Complete the table with the output when the input is \(x\) and when it is \(x+1\).</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <table class="os-raise-skinnytable">
+      <thead>
+        <row>
+          <entry scope="col" class="emphasis">
+            \(x\)
+          </entry>
+          <entry scope="col" class="emphasis">
+            \(g(x)\)
+          </entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+          <entry>
+            <para>\(x\)</para>
+          </entry>
+          <entry>\(3^x\)</entry>
+        </row>
+        <row>
+          <entry>
+            <para>\(x+1\)</para>
+          </entry>
+          <entry>\(3^{x+1}\)</entry>
+        </row>
+      </tbody>
+    </table>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> Look at the change in output values as the \(x\) increases by 1. Does it still agree with your earlier
+        findings? Show your reasoning.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>Yes, the outputs still increase by a factor of 3. By rules of exponents, we know that \(3x \cdot 3=3^{x+1}\). (Or
+      by rules of exponents, we know that \(\frac {3^{x+1}}{3^x}=3^{x+1-x}\), which equals 3.) </para>
+  </solution></exercise>
+<!--Interaction End -->
+<para>Pause here for a class discussion. Then, work with your group on the next few questions.</para>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> Choose two \(x\)-values where one is 3 more than the other (for example, 1 and 4). How do the output values
+        of \(g\) change as \(x\) increases by 3? (Each group member should choose a different pair of numbers and study
+        the outputs.)</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para> The output values increase by a factor of 27 or \(3^3\). </para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para>Complete this table with the output when the input is \(x\) and when it is \(x+3\). Look at the change in
+        output values as \(x\) increases by 3. Does it agree with your group’s findings in the previous question?
+        Show your reasoning. <table class="os-raise-skinnytable">
+          <thead>
+            <row>
+              <entry scope="col" class="emphasis">
+                \(x\)
+              </entry>
+              <entry scope="col" class="emphasis">
+                \(g(x)\)
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <para>\(x\)</para>
+              </entry>
+              <entry/>
+            </row>
+            <row>
+              <entry>
+                <para>\(x+3\)</para>
+              </entry>
+              <entry/>
+            </row>
+          </tbody>
+        </table>
+      </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <table class="os-raise-skinnytable">
+      <thead>
+        <row>
+          <entry scope="col" class="emphasis">
+            \(x\)
+          </entry>
+          <entry scope="col" class="emphasis">
+            \(g(x)\)
+          </entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+          <entry>
+            <para>\(x\)</para>
+          </entry>
+          <entry>\(3^x\)</entry>
+        </row>
+        <row>
+          <entry>
+            <para>\(x+3\)</para>
+          </entry>
+          <entry>\(3^{x+3}\)</entry>
+        </row>
+      </tbody>
+    </table>
+    <para>Yes, the outputs still increase by a factor of 27. By rules of exponents, we know that \(3x \cdot 3^3=3^{x+3}\).
+      (Or by rules of exponents, we know that \(\frac{3^{x+3}}{3^x}=3^{x+3-x}\), which equals \(3^3\) or 27.) </para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Q#7-->
+<exercise>
+  <problem>
+    <para>Summarize the process you used in questions 1 - 6 to analyze this data.</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>Answers will vary.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Q#7-->
+<exercise>
+  <problem>
+    <para>Explain if you found it helpful or not to analyze the data for simpler data (questions 1-2) before analyzing it for more abstract data (questions 3 - 6).</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>Answers will vary.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<title>Video: Analyzing Tables of Exponential Functions</title>
+<para>Watch the following video to learn more about analyzing the tables of exponential functions:</para>
+<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
+  <iframe><video controls="true" crossorigin="anonymous">
+      <source src="https://k12.openstax.org/contents/raise/resources/2ad184a8d1b79f957dc77e16c376203270d3e473">
+      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/726957eb47c59565e7c436ee7921dbdc00dc3d27" srclang="en_us">
+      https://k12.openstax.org/contents/raise/resources/2ad184a8d1b79f957dc77e16c376203270d3e473
+    </track></source></video></iframe>
+</div>
+<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+<example><exercise>
+  <problem>
+    
+    <!-- INSERT ANY VALID HTML HERE -->
+  <!-- INSERT ANY VALID HTML HERE -->
+  </problem><solution>
+  <title>Extending Your Thinking </title>
+  <para>For integer inputs, we can think of multiplication as repeated addition and exponentiation as repeated
+    multiplication:</para>
+  <table class="os-raise-wideadjustedtable">
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis">
+          Multiplication representing repeated addition
+        </entry>
+        <entry scope="col" class="emphasis">
+          Exponentiation representing repeated multiplication
+        </entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>
+          <para>\(3 \cdot 5=3+3+3+3+3\)</para>
+        </entry>
+        <entry>\(3^5=3 \cdot 3 \cdot 3 \cdot 3 \cdot 3\)</entry>
+      </row>
+    </tbody>
+  </table>
+  <para>We could continue this process with a new operation called tetration. It uses the symbol \(\uparrow \uparrow\), and
+    it is defined as repeated exponentiation:</para>
+  <table class="os-raise-skinnytable">
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis">
+          Tetration representing repeated exponentiation
+        </entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>
+          <para>\(3 \uparrow \uparrow 5=3^{3 \wedge 3 \wedge 3 \wedge 3}\)</para>
+        </entry>
+      </row>
+    </tbody>
+  </table>
+  </solution></exercise>
+</example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="b4fcf7c2-18ed-4f77-b1c7-1ba8085d1d5a" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0" data-wait-for-event="RFM1">
+  <exercise data-content-id="313acd1a-7c7e-4fbb-afb2-d1bcadcd6aa4" data-problem-comparator="integer" data-problem-type="input" data-solution="16">
+    <problem>
+      <para>Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\).</para>
+      <para> Enter your answer here:</para>
+    </problem>
+    <solution>
+      <para>Correct! \(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
+      </para>
+    </solution>
+        </exercise>
+  <exercise data-content-id="e74fe222-cc10-4559-8c03-0680b1d0a710" data-problem-comparator="integer" data-problem-type="input" data-solution="16">
+    <problem>
+      <para>Compute \(f(x)=3 \uparrow \uparrow x\).</para>
+      <para> Enter your answer here:</para>
+    </problem>
+    <solution>
+      <para>Correct! \(3 \uparrow \uparrow 2=3^3=27\)
+      </para>
+    </solution>
+        </exercise>
+  <solution>
+    <!-- INSERT ANY VALID HTML HERE -->
+  </solution>
+  <div class="os-raise-ib-pset-encourage-response"> 
+    <!-- INSERT ANY VALID HTML HERE --> 
+</div>
+</div>
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <para> What is the relationship between \(f(x)\) and \(f(x+1)\)?</para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>The numbers output by this function get large absurdly fast, even in comparison to exponential functions. We
+      calculated \(f(2)=27\) above, and now \(f(3)=3^{f(2)}=3^{27}=7,625,597,484,987\).</para>
+  </solution></exercise></section>
+</content>
+</document>

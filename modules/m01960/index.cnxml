@@ -1,0 +1,301 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>7.13.2: The Linear Term in a Quadratic Expression</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01960</md:content-id>
+    <md:title>7.13.2: The Linear Term in a Quadratic Expression</md:title>
+    <md:uuid>7e6be729-53c3-405a-b5fb-9591bbbfee78</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity (20 minutes)</title>
+<para>In this activity, students use graphing technology to experiment with the linear term in quadratic expressions of the form \(ax^2+bx\), where \(a\) is either positive and negative. They notice that adding a linear term to \(x^2\) or \(-x^2\) shifts the graph both horizontally and vertically.</para>
+<para>One way to quantify the shift of a graph is in terms of the \(x\)-intercepts and the vertex. For example, the graph of \(y=x^2\) has an \(x\)-intercept at \((0,0)\). Adding \(20x\) to \(x^2\) shifts the graph to the left and down such that the \(x\)-intercepts are now at \((-20,0)\) and \((0,0)\). The shift also moves the vertex of the graph from \((0,0)\) to \((-10,-100)\). Students make sense of the values of these \(x\)-intercepts by recognizing that \(x^2+20x\) is equivalent to \(x(x+20)\), and that \(x\) values of 0 and -20 give the expression a value of 0.</para>
+<para>Students then use their observations to predict the \(x\)-intercepts and vertices of the graphs of several equations without graphing. They also notice that when a quadratic expression has no linear term but has a constant term, rewriting it in factored form gets tricky, and that the graph may or may not have \(x\)-intercepts. (For now they are just making this observation. In a later unit, they will explore why this is the case.)</para>
+<para>As they change the parameters of an expression on the graph, study the effects on the graph, and articulate their observations, students practice looking for and describing regularity through repeated reasoning.</para>
+<title>Launch</title>
+<para>Provide access to devices that can run Desmos or other graphing technology. Consider arranging students in groups of two. For the first question, ask one partner to operate the graphing technology and the other to record the group's observations, and then to switch roles halfway. If using Desmos, instruct students that creating a slider to experiment with linear terms might be a useful tool in this activity.</para>
+<!--BEGIN ELL AND SWD GRAY BOX -->
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for English Language Learners</title></para>
+    <para><title>MLR 8 Discussion Supports: Conversing, Representing</title></para>
+  </note>
+  <div class="os-raise-extrasupport-body">
+    <para>Use this routine to encourage students’ use of mathematical language to communicate understanding. After a student shares a response, invite them to repeat their reasoning using mathematical language relevant to the lesson. For example, say, “Can you say that again, using the phrase . . .?” Consider inviting remaining students to repeat completed phrases to provide additional opportunities for all students to produce language and solidify understanding.</para>
+    <para class="os-raise-text-italicize">Design Principle(s): Support sense-making</para>
+  </div>
+</div>
+<div class="os-raise-extrasupport">
+  <note>
+    <para><title>Support for Students with Disabilities</title></para>
+  <para><title>Engagement: Develop Effort and Persistence</title></para>
+   </note>
+  <div class="os-raise-extrasupport-body">
+    <para>Break the class into small discussion groups and then invite a representative from each group to report back to the whole class. Remind students that each member should be prepared to speak on behalf of the group if called on.</para>
+    <para class="os-raise-text-italicize">Supports accessibility for: Attention; Social-emotional skills</para>
+  </div></div>
+   
+<!--END ELL AND SWD GRAY BOX -->  
+<title>Student Activity </title>
+<list class="os-raise-noindent" type="enumerated">
+  <item>Use the graphing tool or technology outside the course. Graph \(y=x^2\), and then experiment with adding different linear terms (for example, \(x^2+4x\), \(x^2+20x\), \(x^2-50x\)). Record your observations.</item>
+</list>
+<para>Select the <emphasis>solution</emphasis> button to compare your work.</para>
+<para><emphasis>Answer:</emphasis> The graph still looks like a quadratic function when adding a linear term but it "shifts" both horizontally and vertically. Adding a positive multiple of \(x\) to \(x^2\) shifts it down and to the left while adding a negative multiple of \(x\) shifts it down and to the right.</para>
+<para>Use your observations from question 1 to answer questions 2–5 and complete the table.</para>
+<table class="os-raise-wideequaltable">
+  <thead>
+    <row>
+      <entry scope="col" class="emphasis">equation</entry>
+      <entry scope="col" class="emphasis">\(x\)-intercepts</entry>
+
+      <entry scope="col" class="emphasis">\(x\)-coordinate of vertex</entry>
+    </row>
+  </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para>\(y=x^2+6x\)</para>
+      </entry>
+      <entry>
+        <para>2a. _____</para>
+      </entry>
+      <entry>
+        <para>2b. _____</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(y=x^2-10x\)</para>
+      </entry>
+      <entry>
+        <para>3a. _____</para>
+      </entry>
+      <entry>
+        <para>3b. _____</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(y=-x^2+50x\)</para>
+      </entry>
+      <entry>
+        <para>4a. _____</para>
+      </entry>
+      <entry>
+        <para>4b. _____</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(y=-x^2-36x\)</para>
+      </entry>
+      <entry>
+        <para>5a. _____</para>
+      </entry>
+      <entry>
+        <para>5b. _____</para>
+      </entry>
+    </row>
+  </tbody>
+</table>
+<list class="os-raise-noindent" start="2" type="enumerated">
+  <item>Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=x^2+6x\).</item>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" type="enumerated">
+    <item> What are the \(x\)-intercepts for the equation \(y=x^2+6x\)? </item>
+  </list>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  <para><emphasis>Answer:</emphasis> \((0,0)\),\((-6,0)\)</para>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item> What is the \(x\)-coordinate of the vertex for the equation \(y=x^2+6x\)? </item>
+  </list>
+  <para><emphasis>Answer:</emphasis> -3</para>
+</list>
+<list class="os-raise-noindent" start="3" type="enumerated">
+  <item>Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=x^2-10x\).</item>
+  <list class="os-raise-noindent" type="enumerated">
+    <item> What are the \(x\)-intercepts for the equation \(y=x^2-10x\)? </item>
+  </list>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  <para><emphasis>Answer:</emphasis> \((0,0)\),\((10,0)\)</para>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item> What is the \(x\)-coordinate of the vertex for the equation \(y=x^2-10x\)? </item>
+  </list>
+  <para><emphasis>Answer:</emphasis> 5</para>
+</list>
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item>Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=-x^2+50x\).</item>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" type="enumerated">
+    <item> What are the \(x\)-intercepts for the equation \(y=-x^2+50x\)? </item>
+  </list>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  <para><emphasis>Answer:</emphasis> \((0,0)\),\((50,0)\)</para>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item> What is the \(x\)-coordinate of the vertex for the equation \(y=-x^2+50x\)? </item>
+  </list>
+  <para><emphasis>Answer:</emphasis> 25</para>
+</list>
+<list class="os-raise-noindent" start="5" type="enumerated">
+  <item>Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=-x^2-36x\).</item>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" type="enumerated">
+    <item> Find the \(x\)-intercepts for the equation \(y=-x^2-36x\). </item>
+  </list>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  <para><emphasis>Answer:</emphasis> \((0,0)\),\((-36,0)\)</para>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item> What is the \(x\)-coordinate of the vertex for the equation \(y=-x^2-36x\)? </item>
+  </list>
+  <para><emphasis>Answer:</emphasis> -18</para>
+</list>
+<para>Some quadratic expressions have no linear terms. For questions 6–7, find the \(x\)-intercepts and the \(x\)-coordinate of the vertex of the graph representing each equation:</para>
+<para>\(y=x^2-25\)</para>
+<para>\(y=x^2+16\)</para>
+<para>(Note it is possible for the graph to not intersect the \(x\)-axis.) If you get stuck, try graphing the equations.</para>
+<list class="os-raise-noindent" start="6" type="enumerated">
+  <item>Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=x^2-25\).</item>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" type="enumerated">
+    <item> What are the \(x\)-intercepts for the equation \(y=x^2-25\)? </item>
+  </list>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  <para><emphasis>Answer:</emphasis> \((5,0)\),\((-5,0)\)</para>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item> What is the \(x\)-coordinate of the vertex for the equation \(y=x^2-25\)? </item>
+  </list>
+  <para><emphasis>Answer:</emphasis> 0</para>
+</list>
+<list class="os-raise-noindent" start="7" type="enumerated">
+  <item>Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=x^2+16\).</item>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" type="enumerated">
+    <item> What are the \(x\)-intercepts for the equation \(y=x^2+16\)? </item>
+  </list>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  <para><emphasis>Answer:</emphasis> There are no \(x\)-intercepts.</para>
+</list>
+<list class="os-raise-noindent" type="enumerated">
+  <list class="os-raise-noindent" start="2" type="enumerated">
+    <item> What is the \(x\)-coordinate of the vertex for the equation (y=x^2+16\) ? </item>
+  </list>
+  <para><emphasis>Answer:</emphasis> 0</para>
+</list>
+<title>Activity Synthesis</title>
+<para>Invite students to share their observations and predictions.</para>
+<para>To help students make sense of the shifts in \(x\)-intercepts, relate the expressions in standard form to equivalent expressions in factored form. Remind students that the factored form allows us to see the zeros of a quadratic function and the \(x\)-intercepts of the graph representing the function. Writing the expression \(x^2-20x\) as \(x(x-20)\) lets us see that the zeros are 0 and 20 (because \(0(0-20)\) and \(20(20-20)\) both give an output of 0) and the \(x\)-intercepts are \((0,0)\) and \((20,0)\). Likewise, \(x^2+50x\) can be written as \(x(x+50)\), so the \(x\)-intercepts of \((-50,0)\) and \((0,0)\) make sense.</para>
+<para>Discuss with students:</para>
+<list>
+  <item> "What if the squared term has a negative coefficient, as in \(y=x^2-36x\)? How can we use the equivalent expression in factored form to make sense of the \(x\)-intercepts?" (Factoring out \(-x\) in \(-x^2-36x\) gives \(-x(x+36)\), so the \(x\)-intercepts are at \(x=0\) and \(x=-36\), because \(0(0+36)\) and \(-36(-36+36)\) both give an output of 0.) </item>
+  <item> "Can we still predict the \(x\)-coordinate of the vertex of a graph if the coefficient of the squared term is negative? Why or why not?" (Yes. When there are two \(x\)-intercepts, the vertex is still halfway between the two \(x\)-intercepts.) </item>
+  <item> "What if there isn't a linear term but there is a constant term? How did you find the \(x\)-intercepts without graphing? Were you able to write the expression in factored form?" (It was not as easy to tell what the \(x\)-intercepts were or to write the expressions in factored form. For \(y=x^2+16\), there were no \(x\)-intercepts, but for \(y=x^2-25\), there were two.) </item>
+</list>
+<para>Tell students they will continue to make sense of quadratic equations and their graphs in the rest of this unit and an upcoming unit.</para>
+<para>Time permitting, consider asking students to predict how the graph of \(y=x^2\) would change if we add both a linear term and a constant term, for example, adding \(-9x\) and then 8. "How would the graph of \(y=x^2-9x+8\) differ from that of \(y=x^2\) ?" Students are likely to say that the graph would have a \(y\)-intercept of \((0,8)\), but the \(x\)-intercepts are now harder to determine. Tell students that they will learn how to find the zeros and the \(x\)-intercepts of the graph representing such functions in a later unit.</para>
+<title>7.13.2: Self Check</title>
+<!--BEGIN SELF CHECK INTRO BEFORE Tables -->   
+
+<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
+
+<para class="os-raise-text-bold">QUESTION:</para>
+<para>Find the \(x\)-coordinates of all of the \(x\)-intercepts of the function \(f(x)=x^2-5x\).</para>
+
+<!--SELF CHECK table-->
+<table class="os-raise-textheavytable">
+   <thead>
+    <row>
+      <entry scope="col" class="emphasis">Answers</entry>
+      <entry scope="col" class="emphasis">Feedback</entry>
+    </row>
+ </thead>
+  <tbody>
+    <row>
+      <entry>
+        <para><emphasis>Answers</emphasis></para>
+      </entry>
+      <entry>
+        <para><emphasis>Feedback</emphasis></para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(x = 5\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: This is one of the \(x\)-intercepts, but there are two. Factor the expression, set each factor equal to zero, and solve. The answer is \(x = 0\), \(x = 5\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(x = 0\), \(x = 5\)</para>
+      </entry>
+      <entry>
+        <para>That’s correct! Check yourself: In factored form, \(f(x)=x^2-5x=x(x-5)\). The factors equal 0 at these values.</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(x = 0\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: This is one of the \(x\)-intercepts, but there are two. Factor the expression, set each factor equal to zero, and solve. The answer is \(x = 0\), \(x = 5\).</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para>\(x = 0\), \(x = -5\)</para>
+      </entry>
+      <entry>
+        <para>Incorrect. Let’s try again a different way: While \(x = 0\) is an \(x\)-intercept, \(x = -5\) is not. Factor \(f(x)=x^2-5x\). Watch the signs when setting each factor equal to zero and solving. The answer is \(x = 0\), \(x = 5\).</para>
+      </entry>
+    </row>
+    </tbody>
+  </table>
+<!--END SELF CHECK INTRO BEFORE Tables -->   
+<title>7.13.2: Additional Resources</title>
+<emphasis><emphasis>
+    <para>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</para>
+  </emphasis></emphasis>
+<title>Quadratics Without Linear Terms</title>
+<para><emphasis>Example</emphasis></para>
+<para>Find the \(x\)-intercepts and the vertex for \(f(x)=x^2-4\).</para>
+<para><emphasis>Step 1</emphasis> - Write the function in factored form. Use difference of squares:</para>
+<para>\(f(x)=x^2-4=(x-2)(x+2)\)</para>
+<para><emphasis>Step 2</emphasis> - Set each factor equal to 0.</para>
+<para>\(x - 2 = 0\)</para>
+<para>\(x + 2 = 0\)</para>
+<para>The \(x\)-intercepts are \((2, 0)\) and \((-2, 0)\).</para>
+<para><emphasis>Step 3</emphasis> - Find the \(x\)-value in the middle of the two \(x\)-intercepts.
+  This occurs at \(x = 0\). This is the \(x\)-coordinate of the vertex.</para>
+<para> To find the point at the vertex, substitute into the function:</para>
+<para>Vertex: \((0, -4)\)</para>
+<title>Try It: Quadratics Without Linear Terms</title>
+<para>Find the \(x\)-intercepts and the vertex for \(f(x)=x^2-64\).</para>
+<para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<title>Solution</title>
+<para>Here is how to find the \(x\)-intercepts and vertex of \(f(x)=x^2-64\):</para>
+<para><emphasis>Step 1</emphasis> - Write the function in factored form:</para>
+<para><emphasis>Step 2</emphasis> - Set each factor equal to 0.</para>
+<para>\(x + 8 = 0\)</para>
+<para>The \(x\)-intercepts are at \((8, 0)\) and \((-8, 0)\).</para>
+<para>The vertex is located halfway between the \(x\)-intercepts, at \(x = 0\).</para>
+<para><emphasis>Step 3</emphasis> - To find the point, substitute into \(f(x)=x^2-64\).</para>
+<para>\(f(0)=0^2-64=-64\)</para>
+<para>The vertex is at \((0, -64)\).</para></section>
+</content>
+</document>

@@ -1,0 +1,136 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>9.7.2: Common Calculation Errors When Using the Quadratic Formula</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m02444</md:content-id>
+    <md:title>9.7.2: Common Calculation Errors When Using the Quadratic Formula</md:title>
+    <md:uuid>133de1b7-84bc-4e90-b4d4-0422680255fb</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity</title>
+<para>Here are four equations, followed by attempts to solve them using the <term data-schema-version="“1.0”" data-store="glossary-tooltip">quadratic formula</term>. Each attempt contains at least one error.</para>
+<para>Solve the equations by using the quadratic formula. Then, find and describe the error(s) in the worked solutions of the same equations as the ones you solved.</para>
+<example><exercise>
+  <problem>
+    
+    <para>Equation 1: \(2x^2+3=8x\)</para>
+    <para>Here is the worked solution with errors:</para>
+    <para><emphasis>Step 1 -</emphasis> \(2x^2-8x + 3 = 0\)</para>
+    <para><emphasis>Step 2 -</emphasis> \(a=2\), \(b=-8\), \(c=3\)</para>
+    <para><emphasis>Step 3 -</emphasis> \(x=\frac {-b \pm \sqrt{ b^2- 4ac}}{2a}\)</para>
+    <para><emphasis>Step 4 -</emphasis> \(x=\frac{-(-8) \pm \sqrt{(-8)^2- (4)(2)(3)}}{2(2)}\)</para>
+    <para><emphasis>Step 5 -</emphasis> \(x=\frac {8 \pm \sqrt{ 64-24}}{4}\)</para>
+    <para><emphasis>Step 6 -</emphasis> \(x=\frac {8 \pm \sqrt{40}}{4}\)</para>
+    <para><emphasis>Step 7 -</emphasis> \(x=2 \pm \sqrt{10}\)</para>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Compare your Answer:</para>
+  <list class="os-raise-noindent">
+    <item> The correct solutions are \(x=2 \pm \frac{\sqrt {40}}{4}\) or \(x=2\pm \frac{1}{2} \sqrt{10}\) or equivalent. </item>
+    <item> The computation from Step 6 to Step 7 is not evaluated correctly, because the square root of the <term data-schema-version="“1.0”" data-store="glossary-tooltip">discriminant</term> is incorrectly simplified. \(\frac {\sqrt{40}}{4}\) is not \(\sqrt{10}\), it is \(\frac{\sqrt {4} \cdot \sqrt {10}}{4} = \frac{2 \sqrt {10}}{4} = \frac{\sqrt {10}}{2}\). Thus, the solution is wrong.</item>
+  </list>
+  <para>\(\begin{array}{l}
+    2 x^{2}-8 x+3=0 \\
+    a=2, b=-8, c=3 \\
+    x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\
+    x=\frac{-(-8) \pm \sqrt{(-8)^{2}-(4)(2)(3)}}{2(2)} \\
+    x=\frac{8 \pm \sqrt{64-24}}{4} \\
+    x=\frac{8 \pm \sqrt{40}}{4} \\
+    x=2 \pm \frac{\sqrt{40}}{4} \\
+    x=2 \pm \frac{\sqrt{4} \cdot \sqrt{10}}{4} \\
+    x=2 \pm \frac{2 \cdot \sqrt{10}}{4} \\
+    x=2 \pm \frac{1}{2} \sqrt{10}
+    \end{array}\)</para>
+</solution></exercise>
+</example><example><exercise>
+  <problem>
+    
+    <para>Equation 2: \(x^2+3x=10\)</para>
+    <para>Here is the worked solution with errors:</para>
+    <para><emphasis>Step 1 -</emphasis> \(a=1\), \(b=3\), \(c=10\)</para>
+    <para><emphasis>Step 2 -</emphasis> \(x=\frac{-b \pm \sqrt {b^2- 4ac}}{2a}\)</para>
+    <para><emphasis>Step 3 -</emphasis> \(x=\frac{-(3) \pm \sqrt {3^2- (4)(1)(10)}}{2(1)}\)</para>
+    <para><emphasis>Step 4 -</emphasis> \(x=\frac{-3 \pm \sqrt {9-40}}{2}\)</para>
+    <para><emphasis>Step 5 -</emphasis> \(x=\frac{-3 \pm \sqrt {-31}}{2}\)</para>
+    <para>No Solutions</para>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Compare your Answer:</para>
+  <list class="os-raise-noindent">
+    <item> The correct solutions are \(x=2\) and \(x=-5\). </item>
+    <item> The equation was not rewritten in standard form, =0, before Step 1, where the \(a\), \(b\), and \(c\) were identified. The \(c\) should be -10, not 10. </item>
+  </list>
+  <para>\(\begin{array}{l}
+    x^{2}+3 x-10=0 \\
+    a=1, b=3, c=-10 \\
+    x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\
+    x=\frac{-(3) \pm \sqrt{(3)^{2}-(4)(1)(-10)}}{2(1)} \\
+    x=\frac{-3 \pm \sqrt{9-(-40)}}{2} \\
+    x=\frac{-3 \pm \sqrt{9+40}}{2} \\
+    x=\frac{-3 \pm \sqrt{49}}{2} \\
+    x=\frac{-3 \pm 7}{2} \\
+    x=\frac{-3+7}{2}=\frac{4}{2}=2 \\
+    x=\frac{-3-7}{2}=\frac{-10}{2}=-5
+    \end{array}\)</para>
+</solution></exercise>
+</example><example><exercise>
+  <problem>
+    
+    <para>Equation 3: \(9x^2−2x−1=0\)</para>
+    <para>Here is the worked solution with errors:</para>
+    <para><emphasis>Step 1 -</emphasis> \(a=9\), \(b= -2\), \(c= -1\)</para>
+    <para><emphasis>Step 2 - </emphasis>\(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
+    <para><emphasis>Step 3 -</emphasis> \(x=\frac{2 \pm \sqrt{(-2)^2- (4)(9)(-1)}}{2}\)</para>
+    <para><emphasis>Step 4 - </emphasis>\(x=\frac{2 \pm \sqrt{4+36}}{2}\)</para>
+    <para><emphasis>Step 5 - </emphasis>\(x=\frac{2 \pm \sqrt{40}}{2}\)</para>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Compare your Answer:</para>
+  <list class="os-raise-noindent">
+    <item> The correct solution is \(x=\frac{1 \pm \sqrt{10}}{9}\) (or equivalent). </item>
+    <item> In step 3, the value of \(a\) is not multiplied by 2 in the denominator of the formula. </item>
+  </list>
+  <para>\(\begin{array}{l}
+    a=9, b=-2, c=-1 \\
+    x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\
+    x=\frac{-(-2) \pm \sqrt{(-2)^{2}-(4)(9)(-1)}}{2(9)} \\
+    x=\frac{2 \pm \sqrt{4+36}}{18} \\
+    x=\frac{2 \pm \sqrt{40}}{18} \\
+    x=\frac{2 \pm \sqrt{4} \cdot \sqrt{10}}{18} \\
+    x=\frac{2 \pm 2 \cdot \sqrt{10}}{2(9)} \\
+    x=\frac{1 \pm \sqrt{10}}{9}
+    \end{array}\)</para>
+</solution></exercise>
+</example><example><exercise>
+  <problem>
+    
+    <para>Equation 4: \(x^2−10x+23=0\)</para>
+    <para>Here is the worked solution with errors:</para>
+    <para><emphasis>Step 1 -</emphasis> \(a=1\), \(b=-10\), \(c=23\)</para>
+    <para><emphasis>Step 2 -</emphasis> \(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
+    <para><emphasis>Step 3 -</emphasis> \(x=\frac{-10 \pm \sqrt{(-10)^2- (4)(1)(23)}}{2}\)</para>
+    <para><emphasis>Step 4 -</emphasis> \(x=\frac{-10 \pm \sqrt{-100-92}}{2}\)</para>
+    <para><emphasis>Step 5 -</emphasis> \(x=\frac{-10 \pm \sqrt{-192}}{2}\)</para>
+    <para>No Solutions</para>
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  </problem><solution>
+  <para>Compare your Answer:</para>
+  <list class="os-raise-noindent">
+    <item> The correct solution is \(x=5 \pm \sqrt{2}\) (or equivalent). </item>
+    <item> In Step 3, when \(b\) is -10, the value of \(-b\) should be 10. </item>
+    <item> In Step 4, the value of \(b^2\) should be positive even when \(b\) is negative. </item>
+  </list>
+  <para>\(\begin{array}{l}
+    a=1, b=-10, c=23 \\
+    x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\
+    x=\frac{-(-10) \pm \sqrt{(-10)^{2}-(4)(1)(23)}}{2} \\
+    x=\frac{10 \pm \sqrt{100-92}}{2} \\
+    x=\frac{10 \pm \sqrt{8}}{2} \\
+    x=5 \pm \frac{\sqrt{8}}{2} \\
+    x=5 \pm \frac{\sqrt{4} \cdot \sqrt{2}}{2} \\
+    x=5 \pm \frac{2 \cdot \sqrt{2}}{2} \\
+    x=5 \pm \sqrt{2}
+    \end{array}\)</para>
+</solution></exercise>
+</example></section>
+</content>
+</document>

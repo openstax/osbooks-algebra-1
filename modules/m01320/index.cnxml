@@ -1,0 +1,208 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>5.5.2: Exponential Decay</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+    <md:content-id>m01320</md:content-id>
+    <md:title>5.5.2: Exponential Decay</md:title>
+    <md:uuid>09db5a9c-002e-442f-b6fe-037e7dfeada8</md:uuid>
+  </metadata>
+  <content>
+  <section><title>Activity </title>
+<para>Every year after a new car is purchased, it loses \(\frac13\) of its value. Another way to think about this is that
+  the car retains \(\frac23\) of its value each year. Let’s say that a new car’s value is $18,000.</para>
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> A buyer worries that the car will be worth nothing in three years. Do you agree? Be prepared to show your
+        reasoning. </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Your answers may vary, but here is an example:</para>
+    <para> Disagree. Sample explanation: If the car loses a third of its value each year, then after one year its value
+      will be \(\frac23\) of $18,000 or $12,000. After two years its value will be \(\frac23\) of $12,000 or $8,000. And
+      after three years its value will be \(\frac23\) of $8,000 or about $5,333. The buyer might have thought that
+      “losing a third of its value each year” meant losing $6,000 each year, so after 3 years the car would
+      be worthless (because \(3 \cdot 6,000=18,000\)). He may not realize that after one year, the value of the car is
+      no longer $18,000. </para>
+  </solution></exercise>
+<!--Interaction End -->
+<example><exercise>
+  <problem>
+    
+    <para> Write an expression to show how to find the value of the car for each year listed in the table. Write down
+        your answer. Then select the <emphasis>solution </emphasis>button to compare your work. </para>
+    <table class="os-raise-midsizetable">
+      <thead>
+        <row>
+          <entry scope="col" class="emphasis">Year</entry>
+          <entry scope="col" class="emphasis">Value of Car (Dollars)</entry>
+        </row>
+      </thead>
+      <tbody>
+        <row>
+          <entry>
+           0
+          </entry>
+          <entry>
+            18,000
+          </entry>
+        </row>
+        <row>
+          <entry>
+         1
+          </entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>
+            2
+          </entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>
+            3
+          </entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>
+         6
+          </entry>
+          <entry> </entry>
+        </row>
+        <row>
+          <entry>
+            \(t\)
+          </entry>
+          <entry> </entry>
+        </row>
+      </tbody>
+    </table>
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <table class="os-raise-midsizetable">
+    <thead>
+      <row>
+        <entry scope="col" class="emphasis">Year</entry>
+        <entry scope="col" class="emphasis">Value of Car (Dollars)</entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>
+         0
+        </entry>
+        <entry>
+          18,000
+        </entry>
+      </row>
+      <row>
+        <entry>
+       1
+        </entry>
+        <entry>
+          \(18,000 \cdot \frac{2}{3}\)
+        </entry>
+      </row>
+      <row>
+        <entry>
+          2
+        </entry>
+        <entry>
+         \(18,000 \cdot \frac{2}{3} \cdot \frac{2}{3}\) or \(18,000 \cdot (\frac{2}{3})^2\)
+        </entry>
+      </row>
+      <row>
+        <entry>
+          3
+        </entry>
+        <entry>
+          \(18,000 \cdot \frac{2}{3} \cdot \frac{2}{3} \cdot \frac{2}{3}\) or \(18,000 \cdot (\frac{2}{3})^3\)
+        </entry>
+      </row>
+      <row>
+        <entry>
+          6
+        </entry>
+        <entry>
+          \(18,000 \cdot (\frac{2}{3})^6\)
+        </entry>
+      </row>
+      <row>
+        <entry>
+          \(t\)
+        </entry>
+        <entry>
+          \(18,000 \cdot (\frac{2}{3})^t\)
+        </entry>
+      </row>
+    </tbody>
+  </table>
+  </solution></exercise>
+</example><example><exercise>
+  <problem>
+    
+    <para> Write an equation relating the value of the car in dollars, \(v\), to the number of years, \(t\). Write down
+        your answer. Then select the <emphasis>solution </emphasis>button to compare your work. </para>
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  </problem><solution>
+  <para>Compare your answer:</para>
+  <para>\(
+    v=18,000 \cdot (\frac{2}{3})^t\) </para>
+</solution></exercise>
+</example><!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> Use your equation to find \(v\) when \(t\) is 0. What does this value of \(v\) mean in this situation? </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>\(v=18,000\). This is the value of the car when \(t=0\), which is when the car is purchased. </para>
+  </solution></exercise>
+<!--Interaction End -->
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem>
+    <para> A different car loses value at a different rate. The value of this different car in dollars, \(d\), after
+        \(t\) years can be represented by the equation \(d=10,000 \cdot (\frac{4}{5})^t\). Explain what the numbers
+        10,000 and \(\frac45\) mean in this situation. </para>
+    </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>10,000 is the initial value of the car in dollars, and the car retains \(\frac45\) of its value each year.</para>
+  </solution></exercise>
+<!--Interaction End -->
+<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+<example><exercise>
+  <problem>
+    
+    <!-- INSERT ANY VALID HTML HERE -->
+  <!-- INSERT ANY VALID HTML HERE -->
+  </problem></exercise>
+</example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+<exercise data-wait-for-event="RFM1">
+  <problem>
+    <title>Extending Your Thinking</title>
+    <para>Start with an equilateral triangle with area 1 square unit, divide it into 4 congruent pieces as in the figure,
+      and remove the middle one. Then, repeat this process with each of the remaining pieces. Repeat this process over
+      and over for the remaining pieces. The figure shows the first two steps of this construction.</para>
+    <image alt="3 figures showing construction of a pattern" src="https://k12.openstax.org/contents/raise/resources/2f9eaa9799b69a412f7d7d0b5f223000aa7628c8"/><para>What fraction of the area is removed each time? How much area is removed after the nth step? Use a calculator to
+      find out how much area remains in the triangle after 50 such steps have been taken.</para>
+  </problem><solution>
+    
+    <para>Enter your answer here:</para>
+  <para>Compare your answer:</para>
+    <para>Each step, \(\frac14\) of the remaining area is removed, since taking away \(\frac14\) from each smaller triangle
+      results in taking \(\frac14\) of the total remaining area. That means that each step, the remaining area is
+      multiplied by \(\frac34\) since \(1−\frac{1}{4} =\frac{3}{4}\). So after \(n\) steps, the remaining area is
+      simply \((\frac{3}{4})^n\). After 50 steps, this leaves an area of only about 0.000000566321656 square units, so
+      there’s almost nothing left!</para>
+    <para>If you can imagine doing this process forever, the resulting shape is called the Sierpinski triangle.</para>
+    <image alt="Sierpinski triangle." src="https://k12.openstax.org/contents/raise/resources/17fab6ffcd13f3a75e74ab3d35dd42ae1b2bf948"/></solution></exercise>
+<!--End interaction--></section>
+</content>
+</document>
