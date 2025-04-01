@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01304</md:content-id>
     <md:title>5.4.4: Graphing Exponential Expressions</md:title>
-    <md:uuid>a9060468-35b7-4521-927c-72a00427aa47</md:uuid>
+    <md:uuid>dbb44977-9d61-425d-8bda-bcbf2b5e791c</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
@@ -11,10 +11,9 @@
   <para>Access the <link url="https://k12.openstax.org/contents/raise/resources/ad776e2f4b03a08bf69ddddc59a1efd31551b1a0">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
 </div>
 <para>In an exponential function, the output is multiplied by the same factor every time the input increases by one. The multiplier is called the growth factor.</para>
-<para>Use the graphing tool or technology outside the course. Refer back to your work in the table in activity 5.4.3: Exponential Change: The Growth Factor, where </para>
-<para>\(n=500 \cdot 2^t\) and \(p=100 \cdot 3^t\). Use that information and the given coordinate planes to graph the following using the Desmos tool below. Students were provided access to Desmos.</para>
-<para>Use the equation \(n=500 \cdot 2^t\) to answer questions 1–7</para>
-<div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+<para>Use the graphing tool or technology outside the course. Refer back to your work in the table in activity 5.4.3: Exponential Change: The Growth Factor, where \(n=500 \cdot 2^t\) and \(p=100 \cdot 3^t\). Use that information and the given coordinate planes to graph the following using the Desmos tool below. </para>
+<para>Use the equation \(n=500 \cdot 2^t\) to answer questions 1 – 7</para>
+<div class="os-raise-ib-desmos-gc" data-schema-version="1.0" data-bottom="0" data-top="9000" data-left="0" data-right="5"/>
 <!--Q#1-->
 <example><exercise>
   <problem>
@@ -23,9 +22,10 @@
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
   <para>Compare your answer:</para>
-  <para>\((-\infty, +\infty)\) or \(-\infty &lt; t &lt; +\infty\)</para>
+  <para>The graph of the function shows that all real values of t define the domain. \((-\infty, +\infty)\)</para>
 </solution></exercise>
 </example><!--Interaction End -->
+
 <!--Q#2-->
 <example><exercise>
   <problem>
@@ -34,29 +34,41 @@
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
   <para>Compare your answer:</para>
-  <para>\((0, +\infty)\) or \(0 &lt; n &lt; +\infty\)</para>
+  <para>The graph of the function shows that all real values of n greater than 0 define the range. \((0, +\infty)\)</para>
 </solution></exercise>
 </example><!--Interaction End -->
 <!--Q#3-->
 <example><exercise>
   <problem>
     
-    <para> Write the answer as an inequality. </para>
+    <para> The scenario dictates that the domain and range be restricted in comparison to the graph of the function that models it. Write a reasonable domain and range based on the scenario using inequalities. </para>
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
   <para>Compare your answer:</para>
-  <para>\(n \geq 500 \cdot 2^t\)</para>
+  <para>Domain: \(0 \leq t &lt; +\infty\); because we begin measuring time at 0 hours.</para>
+
+  <para>Range: \(500 \leq n \lt +\infty\); because we begin with 500 bacteria in the lab experiment.</para>
+
 </solution></exercise>
 </example><!--Interaction End -->
 <!--Q#4-->
+
+<list class="os-raise-noindent" start="4" type="enumerated">
+  <item> Graph \((t,n)\) when \(t\) is 0, 1, 2, 3, and 4. </item>
+</list>
+
+<div class="os-raise-ib-desmos-gc" data-schema-version="1.0" data-bottom="0" data-top="9000" data-left="0" data-right="5"/>
+
 <example><exercise>
+
   <problem>
-    
-    <para> Graph \((t,n)\) when \(t\) is 0, 1, 2, 3, and 4. </para>
+
+  
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
   <para>Compare your answer:</para>
-  <image alt="A discrete graph." src="https://k12.openstax.org/contents/raise/resources/37a00581b3abd08d729d2ba1239f30105cc37689"/></solution></exercise>
+  <para><figure><media alt="A discrete graph."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/37a00581b3abd08d729d2ba1239f30105cc37689"/></media></figure></para>
+</solution></exercise>
 </example><!--Interaction End -->
 <!--Q#5-->
 <example><exercise>
@@ -69,15 +81,21 @@
   <para>500 is the vertical intercept (or the value of \(n\) when \(t\) is 0). The 2 is the doubling of the \(n\) value every time \(t\) increases by 1.</para>
 </solution></exercise>
 </example><!--Interaction End -->
+<list class="os-raise-noindent" start="6" type="enumerated">
+  <item> Graph \((t,p)\) when \(t\) is 0, 1, 2, 3, and 4. (If you get stuck, you can create a table.) </item>
+</list>
+
+<div class="os-raise-ib-desmos-gc" data-schema-version="1.0" data-bottom="0" data-top="9000" data-left="0" data-right="5"/>
 <!--Q#6-->
 <example><exercise>
   <problem>
-    
-    <para> Graph \((t,p)\) when \(t\) is 0, 1, 2, 3, and 4. (If you get stuck, you can create a table.) </para>
+   
+  
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
   <para>Compare your answer:</para>
-  <image alt="A discrete graph." src="https://k12.openstax.org/contents/raise/resources/7fba9b9732a9cb1c08657bac7e1b245f83eb1f88"/></solution></exercise>
+  <para><figure><media alt="A discrete graph."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/7fba9b9732a9cb1c08657bac7e1b245f83eb1f88"/></media></figure></para>
+</solution></exercise>
 </example><!--Interaction End -->
 <!--Q#7-->
 <example><exercise>

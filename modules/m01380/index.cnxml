@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01380</md:content-id>
     <md:title>5.8.3: Using Function Language and Notation</md:title>
-    <md:uuid>5b64b11c-b2c3-4bf1-9764-4f959bd68a25</md:uuid>
+    <md:uuid>a4dddb74-4378-4eed-9b77-f8aa185710f2</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -194,7 +194,7 @@
     </row>
     <row>
       <entry scope="row" class="emphasis">Write the exponential equation.</entry>
-      <entry>\(𝑓(y)=10 \cdot 2t\)</entry>
+      <entry>\(𝑓(y)=10 \cdot 2^t\)</entry>
     </row>
   </tbody>
 </table>
@@ -225,9 +225,26 @@
 </list>
 <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <title>Solution</title>
-<para>Compare your answer:</para>
-<para>\(f(y)=10 \dot 2t\)</para>
-<list class="os-raise-noindent" start="2" type="enumerated">
+<para>Here is how to write an exponential function from a situation:</para>
+  <table class="os-raise-horizontaltable">
+    <thead>
+    </thead>
+    <tbody>
+      <row>
+        <entry scope="row" class="emphasis">Identify the initial value.</entry>
+        <entry> \(a=150\) </entry>
+      </row>
+      <row>
+        <entry scope="row" class="emphasis">Identify the growth factor.</entry>
+        <entry> \(b=3\) </entry>
+      </row>
+      <row>
+        <entry scope="row" class="emphasis">Write the exponential equation.</entry>
+        <entry> \(f(y)=150 \cdot 3^t\) </entry>
+      </row>
+    </tbody>
+  </table>
+  <list class="os-raise-noindent" start="2" type="enumerated">
   <item>When first measured, the population of deer in a forest is 40. Over time, the population triples every year. Write an
     exponential equation where \(t\) is time in years.</item>
 </list>

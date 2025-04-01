@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01607</md:content-id>
     <md:title>6.3.3: Dividing Polynomials Using Synthetic Division</md:title>
-    <md:uuid>0462001a-e2e7-4fa3-a99a-e8fa45903e31</md:uuid>
+    <md:uuid>67f49341-47f9-4568-9583-665c1642242a</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -13,7 +13,7 @@
 <para>Ask students to divide the first example, \((x^2-13x+42) \div (x-6)\), using long division. Use the reveal to allow them to check their answer when completed.</para>
 <para>Tell students there is a more efficient way to divide a polynomial by a binomial. Emphasize that this method only applies to division of a polynomial by a binomial. Also stress that the divisor must be written in the format \(x - c\), where \(c\) is a constant.</para>
 <para>Click the reveal to show the synthetic division process on the same division problem. Guide students through each step, stopping for any clarification as needed.</para>
-<para>Arrange the students into pairs. Allow students the remaining time to work through division problems 1–4 in pairs.</para>
+<para>Arrange the students into pairs. Allow students the remaining time to work through division problems 1 – 4 in pairs.</para>
 <title>Student Activity </title>
 <para>In this activity, we’re going to use synthetic division to divide a polynomial by a binomial.</para>
 <para class="os-raise-text-bold">Example 1</para>
@@ -33,20 +33,21 @@
 <para>  \(x^2-13x+42\)</para>
 <para><emphasis>Step 2 - 
 </emphasis>Write the coefficients of the terms as the first row of the synthetic division.</para>
-<image height="25" src="https://k12.openstax.org/contents/raise/resources/c6c82cbc2862fbc7ac63ef5ad156a357e28d2929" width="200"/>
+<para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/c6c82cbc2862fbc7ac63ef5ad156a357e28d2929"/></media></figure></para>
 <para><emphasis>Step 3 -</emphasis> Write the divisor as \(x - c\) and place \(c\) in the synthetic division in the divisor box.</para>
-<image height="26" src="https://k12.openstax.org/contents/raise/resources/f842fbc8fba49798644a0db226343949a76160d2" width="200"/>
+<para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/f842fbc8fba49798644a0db226343949a76160d2"/></media></figure></para>
 <para><emphasis>Step 4 -</emphasis> Bring down the first coefficient to the third row.</para>
-<image height="78" src="https://k12.openstax.org/contents/raise/resources/360673e02e9a7c448ea49dbe61338082bf855e69" width="200"/>
+<para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/360673e02e9a7c448ea49dbe61338082bf855e69"/></media></figure></para>
 <para><emphasis>Step 5 - 
 </emphasis>Multiply that coefficient by the divisor and place the result in the second row under the second coefficient.</para>
-<image height="79" src="https://k12.openstax.org/contents/raise/resources/61bd9ababefd8697792d305cad39a9ef67d99e8e" width="200"/>
+<para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/61bd9ababefd8697792d305cad39a9ef67d99e8e"/></media></figure></para>
 <para><emphasis>Step 6 - 
 </emphasis>Add the second column, putting the result in the third row.</para>
 <para><emphasis>Step 7 - 
   </emphasis>Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
-<image alt="" class="img-fluid atto_image_button_text-bottom" role="presentation" src="https://k12.openstax.org/contents/raise/resources/32c4276bc6a13be7a299d2772d58550666421700" width="200"/><para><emphasis>Step 8 -</emphasis> Add the final column, putting the result in the third row.</para>
-<image alt="" class="img-fluid atto_image_button_text-bottom" role="presentation" src="https://k12.openstax.org/contents/raise/resources/6616be07a9b6a0afd9f2bda3795506fe71dbfb29" width="200"/>
+<para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/32c4276bc6a13be7a299d2772d58550666421700"/></media></figure></para>
+<para><emphasis>Step 8 -</emphasis> Add the final column, putting the result in the third row.</para>
+<para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/6616be07a9b6a0afd9f2bda3795506fe71dbfb29"/></media></figure></para>
 <para><emphasis>Step 9 -</emphasis> The division is complete. The numbers in the third row give us the result. The \(1\) \( −7\) in the third row are the coefficients of the quotient. The quotient is \(x - 7\). The \(0\) in the box in the third row is the remainder.</para>
 <note>
   <para>Have students, work with a partner to find each quotient. Discuss any differences you have in determining the correct solution.</para>
@@ -136,7 +137,8 @@
 <para class="os-raise-text-bold os-raise-text-italicize">The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</para>
 <title>Dividing Polynomials Using Synthetic Division</title>
 <para>Mathematicians like to find patterns to make their work easier. Since long division can be tedious, let’s look back at the long division we did in a previous example and look for some patterns. We will use this as a basis for what is called synthetic division. The same problem in the synthetic division format is shown next.</para>
-<image alt="" class="img-fluid atto_image_button_text-bottom" height="157" role="presentation" src="https://k12.openstax.org/contents/raise/resources/be4336f7e769443f6c877198657487f092f74506" width="550"/><para>Synthetic division basically just removes unnecessary repeated variables and numbers. Here, all the \(x\) and \(x^2\) are removed as well as the \(-x^2\) and \(-4x\) because they are opposite the term above.</para>
+<para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/be4336f7e769443f6c877198657487f092f74506"/></media></figure></para>
+<para>Synthetic division basically just removes unnecessary repeated variables and numbers. Here, all the \(x\) and \(x^2\) are removed as well as the \(-x^2\) and \(-4x\) because they are opposite the term above.</para>
 <para>The first row of the synthetic division is the coefficients of the dividend. The \(-5\) is the opposite of the \(5\) in the divisor.</para>
 <para>The second row of the synthetic division is the numbers shown in red in the division problem.</para>
 <para>The third row of the synthetic division is the numbers shown in blue in the division problem.</para>
@@ -148,25 +150,25 @@
 <para><emphasis>Step 1 -</emphasis> Write the dividend with decreasing powers of \(x\).</para>
 <para>  \(2x^3+3x^2+x+8\)</para>
 <para><emphasis>Step 2 -</emphasis> Write the coefficients of the terms as the first row of the synthetic division.</para>
-<image src="https://k12.openstax.org/contents/raise/resources/605dedc614aaf7172313a858e486e93577dd9c08" alt="." width="298" height="37"/>
+<para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/605dedc614aaf7172313a858e486e93577dd9c08"/></media></figure></para>
 <para><emphasis>Step 3 -</emphasis> Write the divisor as \(x-c\) and place \(c\) in the synthetic division in the divisor box.</para>
-<image src="https://k12.openstax.org/contents/raise/resources/43ddee822d9c8040634e97e271f57ed4ab8ee6a5" alt="." width="298" height="38"/>
+<para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/43ddee822d9c8040634e97e271f57ed4ab8ee6a5"/></media></figure></para>
 <para><emphasis>Step 4 -</emphasis> Bring down the first coefficient to the third row.</para>
-<image src="https://k12.openstax.org/contents/raise/resources/db7df7f0b07869cce63ee5051e38624b984f3fca" alt="." width="298" height="107"/>
+<para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/db7df7f0b07869cce63ee5051e38624b984f3fca"/></media></figure></para>
 <para><emphasis>Step 5 - 
 </emphasis>Multiply that coefficient by the divisor and place the result in the second row under the second coefficient.</para>
-<image src="https://k12.openstax.org/contents/raise/resources/270df054b448712f05e0ece2d4bf879b5c171dca" alt="." width="298" height="107"/>
+<para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/270df054b448712f05e0ece2d4bf879b5c171dca"/></media></figure></para>
 <para><emphasis>Step 6 -</emphasis> Add the second column, putting the result in the third row.</para>
-<image src="https://k12.openstax.org/contents/raise/resources/415f13c504557223a7b69f716ef6981993877f93" alt="." width="298" height="108"/>
+<para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/415f13c504557223a7b69f716ef6981993877f93"/></media></figure></para>
 <para><emphasis>Step 7 - 
 </emphasis>Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
-<image src="https://k12.openstax.org/contents/raise/resources/9c08233c731812a9412174d2b36b9a483db062cd" alt="." width="298" height="107"/>
+<para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/9c08233c731812a9412174d2b36b9a483db062cd"/></media></figure></para>
 <para><emphasis>Step 8 -</emphasis> Add the third column, putting the result in the third row.</para>
-<image src="https://k12.openstax.org/contents/raise/resources/f8c6fbb3d3415423a4c9b853cbf5aa14b4fbb0f6" alt="." width="298" height="107"/>
+<para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/f8c6fbb3d3415423a4c9b853cbf5aa14b4fbb0f6"/></media></figure></para>
 <para><emphasis>Step 9 -</emphasis> Multiply that result by the divisor and place the result in the third row under the third coefficient.</para>
-<image src="https://k12.openstax.org/contents/raise/resources/bee495ecf46a89d1400bd163c4a8d9963502b4e3" alt="." width="298" height="107"/>
+<para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/bee495ecf46a89d1400bd163c4a8d9963502b4e3"/></media></figure></para>
 <para><emphasis>Step 10 -</emphasis> Add the final column, putting the result in the third row.</para>
-<image src="https://k12.openstax.org/contents/raise/resources/4149128ea5810bc96f9c1c027e17d53e2f4cb927" alt="." width="298" height="108"/>
+<para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4149128ea5810bc96f9c1c027e17d53e2f4cb927"/></media></figure></para>
 <para><emphasis>Step 11 - 
   </emphasis>The quotient is \(2x^2-1x+3\), and the remainder is \(2\).</para>
 <para>The division is complete. The numbers in the third row give us the result. The \(2\) \(-1\) \(3\) are the coefficients of the quotient. The quotient is \(2x^2-1x+3\). The \(2\) in the box in the third row is the remainder.</para>
@@ -514,7 +516,8 @@
 <para><emphasis>Example 2</emphasis></para>
 <para>Use synthetic division to find the quotient and remainder when \(x^4-16x^2+3x+12\) is divided by \(x + 4\).</para>
 <para>The polynomial \(x^4-16x^2+3x+12\) has its terms in order with descending degree, but we notice there is no \(x^3\) term. We will add a \(0\) as a placeholder for the \(x^3\) term. In \(x - c\) form, the divisor is \(x-(-4)\).</para>
-<image src="https://k12.openstax.org/contents/raise/resources/6c98957ba517e1c8bb04a8bba47a6aec12c8cfe3" alt="The figure shows the results of using synthetic division with the example of the polynomial x to the fourth power minus 16 x squared plus 3 x plus 12 divided by x plus 4. The divisor number if negative 4. The first row is 1 0 negative 16 3 12. The first column is 1 blank 1. The second column is negative 16 16 0. The third column is 3 0 3. The fourth column is 12 negative 12 0." width="398" height="107"/><para>We divided a 4th degree polynomial by a 1st degree polynomial, so the quotient will be a 3rd degree polynomial. Reading from the third row, the quotient has the coefficients \(1\) \(-4\) \(0\) \(3\), which is \(x^3-4x^2+3\). The remainder is \(0\).</para>
+<para><figure><media alt="The figure shows the results of using synthetic division with the example of the polynomial x to the fourth power minus 16 x squared plus 3 x plus 12 divided by x plus 4. The divisor number if negative 4. The first row is 1 0 negative 16 3 12. The first column is 1 blank 1. The second column is negative 16 16 0. The third column is 3 0 3. The fourth column is 12 negative 12 0."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/6c98957ba517e1c8bb04a8bba47a6aec12c8cfe3"/></media></figure></para>
+<para>We divided a 4th degree polynomial by a 1st degree polynomial, so the quotient will be a 3rd degree polynomial. Reading from the third row, the quotient has the coefficients \(1\) \(-4\) \(0\) \(3\), which is \(x^3-4x^2+3\). The remainder is \(0\).</para>
 <title>Try It: Dividing Polynomials Using Synthetic Division</title>
 <list class="os-raise-noindent" type="enumerated">
   <item> Use synthetic division to find the quotient and remainder when \(3x^3+10x^2+6x-2\) is divided by \(x + 2\). </item>

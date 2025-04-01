@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01320</md:content-id>
     <md:title>5.5.2: Exponential Decay</md:title>
-    <md:uuid>09db5a9c-002e-442f-b6fe-037e7dfeada8</md:uuid>
+    <md:uuid>9d82e3c1-353a-45aa-9a56-6bd7278fd0af</md:uuid>
   </metadata>
   <content>
   <section><title>Activity </title>
@@ -190,7 +190,8 @@
     <para>Start with an equilateral triangle with area 1 square unit, divide it into 4 congruent pieces as in the figure,
       and remove the middle one. Then, repeat this process with each of the remaining pieces. Repeat this process over
       and over for the remaining pieces. The figure shows the first two steps of this construction.</para>
-    <image alt="3 figures showing construction of a pattern" src="https://k12.openstax.org/contents/raise/resources/2f9eaa9799b69a412f7d7d0b5f223000aa7628c8"/><para>What fraction of the area is removed each time? How much area is removed after the nth step? Use a calculator to
+    <para><figure><media alt="3 figures showing construction of a pattern"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/2f9eaa9799b69a412f7d7d0b5f223000aa7628c8"/></media></figure></para>
+    <para>What fraction of the area is removed each time? How much area is removed after the nth step? Use a calculator to
       find out how much area remains in the triangle after 50 such steps have been taken.</para>
   </problem><solution>
     
@@ -202,7 +203,8 @@
       simply \((\frac{3}{4})^n\). After 50 steps, this leaves an area of only about 0.000000566321656 square units, so
       there’s almost nothing left!</para>
     <para>If you can imagine doing this process forever, the resulting shape is called the Sierpinski triangle.</para>
-    <image alt="Sierpinski triangle." src="https://k12.openstax.org/contents/raise/resources/17fab6ffcd13f3a75e74ab3d35dd42ae1b2bf948"/></solution></exercise>
+    <para><figure><media alt="Sierpinski triangle."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/17fab6ffcd13f3a75e74ab3d35dd42ae1b2bf948"/></media></figure></para>
+  </solution></exercise>
 <!--End interaction--></section>
 </content>
 </document>

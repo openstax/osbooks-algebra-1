@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01842</md:content-id>
     <md:title>7.7.2: Modeling Real-World Data with Quadratic Functions</md:title>
-    <md:uuid>ef572b8c-0009-4a62-9a89-b5c3610ab6b6</md:uuid>
+    <md:uuid>1053478f-ab4d-46de-bf6d-0232f7a517ce</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -39,7 +39,7 @@
 </div>
 <!--END ELL AND SWD GRAY BOX -->  
 <title>Student Activity</title>
-<para>For questions 1-6, use the following information to complete the table. Show the predicted number of downloads at each listed price. The first row has been completed for you.</para>
+<para>For 1 - 6, use the following information to complete the table. Show the predicted number of downloads at each listed price. The first row has been completed for you.</para>
 <blockquote>A company that sells movies online is deciding how much to charge customers to download a new movie. Based on data from previous sales, the company predicts that if they charge \(x\) dollars for each download, then the number of downloads, in thousands, is \(18-x\).</blockquote>
 <table class="os-raise-wideequaltable">
   <thead>
@@ -159,7 +159,7 @@
     <item> When the price is \($x\) per download, what is the number of downloads in thousands? </item><para><emphasis>Answer:</emphasis> \(18-x\)</para>
   </list>
 </list>
-<para> For questions 7-12 complete the table by finding the <term data-schema-version="1.0" data-store="glossary-tooltip">revenue</term> at each price. The first row has been completed for you.</para>
+<para> For 7 - 12 complete the table by finding the <term data-schema-version="1.0" data-store="glossary-tooltip">revenue</term> at each price. The first row has been completed for you.</para>
 
 <table class="os-raise-wideequaltable">
   <thead>
@@ -288,7 +288,8 @@
   <item>Use the graphing tool or technology outside the course. Plot the points that represent the revenue, 𝑟, as a function of the price of one download in dollars, 𝑥. (Students were provided access to Desmos). </item> 
 </list>
 <para><emphasis>Answer:</emphasis></para>
-<image alt="Grid with plotted points. X-axis labeled with price in dollars and \(y\)-axis labeled with revenue in thousands of dollars." height="247" src="https://k12.openstax.org/contents/raise/resources/f9c61c89cddcb41a1fa881b41d64fcd5e68b9d63" width="319"/><list class="os-raise-noindent" start="15" type="enumerated">
+<para><figure><media alt="Grid with plotted points. X-axis labeled with price in dollars and \(y\)-axis labeled with revenue in thousands of dollars."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/f9c61c89cddcb41a1fa881b41d64fcd5e68b9d63"/></media></figure></para>
+<list class="os-raise-noindent" start="15" type="enumerated">
   <item>What price would you recommend the company charge for a new movie? Be prepared to show your reasoning.</item>
 </list>
 <para><emphasis>Answer:</emphasis> You answer may vary, here is a sample. </para>
@@ -373,7 +374,8 @@
 <para>Quadratic functions often come up when studying revenue. (Revenue means the money collected when someone sells something.)</para>
 <para>Suppose we are selling raffle tickets and deciding how much to charge for each ticket. When the price of the tickets is higher, typically fewer tickets will be sold.</para>
 <para>Each ticket has a price of \(d\) dollars, and it is possible to sell \(600-75d\) tickets. We can find the revenue by multiplying the price by the number of tickets expected to be sold. A function that models the revenue, \(r\), collected is \(r(d) = d(600-75d)\). Here is a graph that represents the function.</para>
-<image alt="&lt;p&gt;&lt;strong&gt;Graph of non linear function, origin O. Horizontal axis, price, dollars, from 0 to 9 by 1’s. Vertical axis, revenue, thousands of dollars, 0 to 1400 by 200’s. Line starts at 0 comma 0, increases until 4 comma 1200 then decreases until 8 comma 0. Passes through 2 comma 900 and 6 comma 900.&lt;/strong&gt;&lt;/p&gt;" height="239" src="https://k12.openstax.org/contents/raise/resources/fee55a9caac6fdb23adee5184fe9f1a799a18de7" width="328"/><para>It makes sense that the revenue goes down after a certain point, since if the price is too high nobody will buy a ticket. From the graph, we can tell that the greatest revenue, \($1,200\), comes from selling the tickets for \($4\) each. So we know, the range of this parabola reaches a maximum value of $1,200.</para>
+<para><figure><media alt="&lt;p&gt;&lt;strong&gt;Graph of non linear function, origin O. Horizontal axis, price, dollars, from 0 to 9 by 1’s. Vertical axis, revenue, thousands of dollars, 0 to 1400 by 200’s. Line starts at 0 comma 0, increases until 4 comma 1200 then decreases until 8 comma 0. Passes through 2 comma 900 and 6 comma 900.&lt;/strong&gt;&lt;/p&gt;"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/fee55a9caac6fdb23adee5184fe9f1a799a18de7"/></media></figure></para>
+<para>It makes sense that the revenue goes down after a certain point, since if the price is too high nobody will buy a ticket. From the graph, we can tell that the greatest revenue, \($1,200\), comes from selling the tickets for \($4\) each. So we know, the range of this parabola reaches a maximum value of $1,200.</para>
 <para>We can also see that the domain of the function \(r\) is between \(0\) and \(8\). This makes sense because the cost of the tickets can’t be negative, and if the price were more than \($8\), the model would not work, as the revenue collected cannot be negative. (A negative revenue would mean the number of tickets sold is negative, which is not possible.)</para>
 <title>Try It: Revenue Represented with Quadratics</title>
 <para>Based on past concerts, a venue expects to sell \((500 - 10p)\) tickets when each ticket is \(p\) dollars.</para>

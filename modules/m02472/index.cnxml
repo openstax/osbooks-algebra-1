@@ -3,13 +3,13 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02472</md:content-id>
     <md:title>9.9.2: Different Forms of Quadratics</md:title>
-    <md:uuid>8cdaf003-7309-4df8-84ac-343307d39f62</md:uuid>
+    <md:uuid>75d3b8e7-668c-4b79-a00a-9c7e9839ca48</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
 <para>In this activity, students convert functions in factored or standard form to vertex form then convert vertex form to standard form. Previously, in the warm up, students used the vertex form to find the maximum or minimum of the quadratic function. This activity supports students by focusing on the mechanics of changing forms and finding the coordinates of the vertex.</para>
 <title>Launch</title>
-<para>Begin with a class discussion asking students to name the different forms of quadratic functions (vertex, standard, and factored forms) and their formulas. The vertex and standard forms are given on the <link url="https://k12.openstax.org/contents/raise/resources/c3c8bc2a5c56edc25d081718253537afc465a052">STARR Algebra I Reference Materials</link>. Ask students what useful information they can get easily from each form. (For example: Standard form helps to find intercepts, factored form helps to find roots, vertex form is helpful for the vertex and axis of symmetry).</para>
+<para>Begin with a class discussion asking students to name the different forms of quadratic functions (vertex, standard, and factored forms) and their formulas. The vertex and standard forms are given on the <link url="https://k12.openstax.org/contents/raise/resources/c3c8bc2a5c56edc25d081718253537afc465a052">STAAR Algebra I Reference Materials</link>. Ask students what useful information they can get easily from each form. (For example: Standard form helps to find intercepts, factored form helps to find roots, vertex form is helpful for the vertex and axis of symmetry).</para>
 <para>Divide the class into pairs. Practice the sage and scribe technique. For question 1, one person is the sage and describes how to do the problem, and the other partner is the scribe and writes the mathematical work. They then enter their answer and reflect on the feedback. They then describe the steps in words on their paper for each step. For example, complete the square by dividing \(b\) by 2 and squaring the result. For question 2, they switch roles and continue to switch roles throughout the activity.</para>
 <!--BEGIN ELL AND SWD GRAY BOX -->
 
@@ -39,17 +39,17 @@
 <title>Student Activity</title>
 <para>For questions 1–5, write each function in vertex form.</para>
 <list class="os-raise-noindent" type="enumerated">
-  <item>\( y=x^2-4x-7\) </item>
+  <item>\( y=x^2-4x+7\) </item>
 </list>
 <para><emphasis>Answer:</emphasis> \(y=(x-2)^2+3\)</para>
 <list class="os-raise-noindent" start="2" type="enumerated">
-  <item>\( y=(x-1)(x-3) \)</item>
+  <item>\( y=(x-1)(x+3) \)</item>
 </list>
 <para><emphasis>Answer:</emphasis> \(y=(x+1)^2-4\)</para>
 <list class="os-raise-noindent" start="3" type="enumerated">
-  <item>\( y=(x-2)(x+2)\) </item>
+  <item>\(y=(x-2)(x+2)\)</item>
 </list>
-<para><emphasis>Answer:</emphasis> \(y=x^2-4\)</para>
+<para><emphasis>Answer:</emphasis> \(y=(x-0)^2-4\)</para>
 <list class="os-raise-noindent" start="4" type="enumerated">
   <item> \(y=-x^2-2x-6\)</item>
 </list>
@@ -78,6 +78,7 @@
 <para><emphasis>Step 3</emphasis> - Add the constant to complete the square and subtract from the 40 to balance the equation. Note that because there is a \((-16)\) outside of the parentheses. This makes the constant equation to be \((-16 \times \frac{25}{4}=-100\).  Because a \((-100 )\) was really added in,  then a positive 100 will balance the equation.</para>
 <para><emphasis>Step 4</emphasis> - Factor and simplify.</para>
 <para><emphasis>Step 5</emphasis> - Find the vertex.</para>
+
 <title>Anticipated Misconceptions</title>
 <para>When writing from standard or factored form to vertex form, students may not remember to subtract the new constant they add in when they complete the square to balance the equation. Encourage students who struggle with this concept to use a different color to write the number that completes the square and then the same number when it is subtracted from the original constant.</para>
 <para>When writing from factored to vertex form, students may forget to distribute the two factors first and distribute the factors thoroughly. Reminding them of the acronym, FOIL, can be helpful.</para>
@@ -121,29 +122,26 @@
   <para>The vertex form of a quadratic function is \(f(x)=a(x-h)^2+k\) where \((h, k)\) is the vertex.</para>
   <para>The factored form of the quadratic function is \(f(x)=(x-a)(x-b)\) where \(a\) and \(b\) are roots of \(f(x)\).</para>
 </note>
-<para>For questions 1 - 2, use the function \(f(x)=(x-2)(x+8)\).</para>
-<list class="os-raise-noindent" type="enumerated">
-  <item> Write the function in standard form. </item>
-</list>
+<para><emphasis>Example 1</emphasis></para>
+
+<para> Write the function \(f(x)=(x-2)(x+8)\) in standard form. </para>
 <para><emphasis>Step 1 - </emphasis>multiply the binomials using distribution (FOIL).</para>
 <para><emphasis>Step 2 - </emphasis>Simplify.</para>
-  <list class="os-raise-noindent" start="2" type="enumerated">
-  <item> Write the function from question 1 in vertex form. </item>
-</list>
+<para><emphasis>Example 2</emphasis></para>
+<para>Write the function \(f(x)=(x-2)(x+8)\) in vertex form. </para>
+<para>Hint: Start by using the answer from example 1. </para>
 <para><emphasis>Step 1 - </emphasis>Complete the square.</para>
 <para><emphasis>Step 2 -</emphasis> Balance the equation. </para>
 <para>Finally, factor the trinomial and simplify.</para>
-  <list class="os-raise-noindent" start="3" type="enumerated">
-  <item>Rewrite the function in standard form: \(f(x)=6(x−2)^2+4\)</item>
-</list>
+<para><emphasis>Example 3</emphasis></para>
+<para>Rewrite the function in standard form: \(f(x)=6(x−2)^2+4\)</para>
 <para><emphasis>Step 1</emphasis> -Expand the square.</para>
-<para><emphasis>Step 2 - </emphasis>Distribute the constant.</para>
+<para><emphasis>Step 2 - </emphasis>Distribute the coefficient.</para>
 <para><emphasis>Step 3 -</emphasis> Simplify like terms</para>
-<list class="os-raise-noindent" start="4" type="enumerated">
-  <item>Rewrite the function in standard form: \(f(x)=5(x−3)^2+2\)</item>
-</list>
+<para><emphasis>Example 4</emphasis></para>
+<para>Rewrite the function in standard form: \(f(x)=5(x−3)^2+2\)</para>
 <para><emphasis>Step 1 -</emphasis> Expand the square.</para>
-<para><emphasis>Step 2 -</emphasis> Distribute the constant.</para>
+<para><emphasis>Step 2 -</emphasis> Distribute the coefficient.</para>
 <para><emphasis>Step 3 -</emphasis> Simplify like terms</para>
 <title>Try It: Writing Quadratic Functions in Equivalent Forms</title>
 <para>Write the function \(f(x)=(x+5)(x+3)\) in vertex form.</para>

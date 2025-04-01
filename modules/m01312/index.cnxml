@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01312</md:content-id>
     <md:title>5.5.2: Exponential Decay</md:title>
-    <md:uuid>ca7e9a77-1361-4be7-93bc-2bdca38c3801</md:uuid>
+    <md:uuid>69d24c17-14bf-4545-9732-69ed0f208902</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -29,7 +29,7 @@
   <div class="os-raise-extrasupport-body">
       <para> To help students make sense of the language of exponential decay, start by displaying only the context for the
     question: “Every year after a new car is purchased, it loses \(\frac13\) of its value. Let’s say that a
-    new car costs $18,000.” Give students 1–2 minutes to write their own mathematical questions about the
+    new car costs $18,000.” Give students 1 – 2 minutes to write their own mathematical questions about the
     situation. Then invite students to share their questions with the class. Listen for and amplify any questions about
     the future value of the car, especially those using language such as “losing value” and
     “decrease.” This will build student understanding of the language of exponential decay and help ensure
@@ -199,7 +199,8 @@
 <para>Start with an equilateral triangle with area 1 square unit, divide it into 4 congruent pieces as in the figure, and
   remove the middle one. Then, repeat this process with each of the remaining pieces. Repeat this process over and over
   for the remaining pieces. The figure shows the first two steps of this construction.</para>
-<image alt="3 figures showing construction of a pattern" src="https://k12.openstax.org/contents/raise/resources/2f9eaa9799b69a412f7d7d0b5f223000aa7628c8"/><para>What fraction of the area is removed each time? How much area is removed after the nth step? Use a calculator to find
+<para><figure><media alt="3 figures showing construction of a pattern"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/2f9eaa9799b69a412f7d7d0b5f223000aa7628c8"/></media></figure></para>
+<para>What fraction of the area is removed each time? How much area is removed after the nth step? Use a calculator to find
   out how much area remains in the triangle after 50 such steps have been taken. <emphasis>Answer: </emphasis>Each step, \(\frac14\) of the remaining area is removed since taking away \(\frac14\)
   from each smaller triangle results in taking \(\frac14\) of the total remaining area. That means that each step, the
   remaining area is multiplied by \(\frac34\) since \(1-\frac{1}{4} =\frac{3}{4}\). So after \(n\) steps, the remaining
@@ -207,7 +208,8 @@
   so there’s almost nothing left!
 </para>
 <para>If you can imagine doing this process forever, the resulting shape is called the Sierpinski triangle.</para>
-<image alt="Sierpinski triangle." src="https://k12.openstax.org/contents/raise/resources/17fab6ffcd13f3a75e74ab3d35dd42ae1b2bf948"/><title>Activity Synthesis</title>
+<para><figure><media alt="Sierpinski triangle."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/17fab6ffcd13f3a75e74ab3d35dd42ae1b2bf948"/></media></figure></para>
+<title>Activity Synthesis</title>
 <para>Make sure that students understand the expression for the value of cars after \(t\) years came from multiplying by
   \(\frac23\) repeatedly (\(t\) times). Tell students that we still say this quantity changes exponentially, though
   sometimes people use the more specific terms “exponential growth” and “exponential decay” to

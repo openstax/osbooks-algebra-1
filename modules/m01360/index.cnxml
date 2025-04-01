@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01360</md:content-id>
     <md:title>5.7.2: Comparing Graphs</md:title>
-    <md:uuid>7e7e11aa-a054-4a78-9b72-4eb3e3663674</md:uuid>
+    <md:uuid>988548d9-5f5e-4a09-8469-f32fa9d56a6c</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -26,17 +26,16 @@
     <para><title>Representation: Develop Language and Symbols</title></para>
   </note>
   <div class="os-raise-extrasupport-body">
-    <para>
-      Display or build an anchor chart with an exponential function and the meaning of each variable. To increase access to the chart, each variable can be color coded. Students can be encouraged to use the chart by highlighting key values and parts of their own equations and graphs with the same colors displayed on the chart. </para>
-    </div>
+    <para> Display or build an anchor chart with an exponential function and the meaning of each variable. To increase access to the chart, each variable can be color coded. Students can be encouraged to use the chart by highlighting key values and parts of their own equations and graphs with the same colors displayed on the chart. </para>
     <para class="os-raise-text-italicize">Supports accessibility for: Conceptual processing; Memory</para>
   </div>
-
+</div>
 <title>Student Activity</title>
 <para>The value of some cell phones changes exponentially after initial release. Here are graphs showing the depreciation of two phones 1, 2, and 3 years after they were released.</para>
 <para>Phone A</para>
-<image alt="Graph of an exponential function, origin O. time (years) and value (dollars)." src="https://k12.openstax.org/contents/raise/resources/ed255e46d77de5a8f2270113e81764f77b8780eb"/><para>Phone B</para>
-<para><image alt="Graph of an exponential function, origin O. time (years) and value (dollars).  " src="https://k12.openstax.org/contents/raise/resources/25bf06446555406d7db5441aef3160353edd937f"/>  </para>
+<para><figure><media alt="Graph of an exponential function, origin O. time (years) and value (dollars)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/ed255e46d77de5a8f2270113e81764f77b8780eb"/></media></figure></para>
+<para>Phone B</para>
+<para><figure><media alt="Graph of an exponential function, origin O. time (years) and value (dollars).  "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/25bf06446555406d7db5441aef3160353edd937f"/></media></figure></para>
 <list class="os-raise-noindent" type="enumerated">
   <item> Which phone is more expensive to buy when it is first released? <emphasis>Answer:</emphasis> Phone A costs $1,000 and Phone B costs $840, so Phone A is more expensive. </item>
   <item> Which graph depicts the value of the cell phone falling in value more quickly? Explain how you know. <emphasis>Answer:</emphasis> Phone A is depreciating more quickly than phone B. This was determined by comparing the value of the phones each year. For instance, after one year, phone A was only worth $600 compared to phone B’s value of $630. And, again, after three years, phone A was valued at $216 compared to phone B’s value of $354.38. </item>
@@ -92,7 +91,7 @@
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
 <para class="os-raise-text-bold">QUESTION:</para>
 <para> For the following exercise, consider this scenario: For each year \(t\), the population of trees in Forest A is represented by the function \(A(t)=115(1.025)^t\), (red curve). In a neighboring forest, Forest B, the population of the same type of tree is represented by the function \(B(t)=82(1.029)^t\), (blue curve). Looking at the graph provided, which forest had a greater number of trees initially?</para>
-<image alt="GRAPH OF TWO EXPONENTIAL FUNCTIONS. THE FUNCTION A OF T IN RED HAS A \(y\)-intercepts OF 115. THE FUNCTION OF B OF T IN BLUE HAS A \(y\)-intercepts OF 82. " height="323" src="https://k12.openstax.org/contents/raise/resources/3b4efe4174fc17f0a32818daeb15fb4ab4ddfa8b" width="323"/><table class="os-raise-textheavytable">
+<figure><media alt="GRAPH OF TWO EXPONENTIAL FUNCTIONS. THE FUNCTION A OF T IN RED HAS A \(y\)-intercepts OF 115. THE FUNCTION OF B OF T IN BLUE HAS A \(y\)-intercepts OF 82. "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/3b4efe4174fc17f0a32818daeb15fb4ab4ddfa8b"/></media></figure><table class="os-raise-textheavytable">
   <thead>
     <row>
       <entry scope="col" class="emphasis">Answers</entry>
@@ -121,7 +120,8 @@
 <title> 5.7.2: Additional Resources</title>
 <para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it. </emphasis></emphasis></para>
 <title>Analyzing \(a\) and \(b\) in the Exponential Function \(y=ab^x\)</title>
-<image alt="Graph of six exponential functions." class="img-fluid atto_image_button_text-bottom" height="318" src="https://k12.openstax.org/contents/raise/resources/a3588f5079a44777c05412324d2a3176b0b499d5" width="300"/><list class="os-raise-noindent" type="enumerated">
+<para><figure><media alt="Graph of six exponential functions."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/a3588f5079a44777c05412324d2a3176b0b499d5"/></media></figure></para>
+<list class="os-raise-noindent" type="enumerated">
   <item> Which graph has the largest value for \(b\)? </item>
   <item>   Which graph has the smallest growth factor or value for \(b\) which is closest to 1? </item>
   <item>  Which graph has the largest value for \(a\)? </item>
@@ -133,7 +133,8 @@
 <para>For question 3, you are looking for the largest initial value or \(y\)-intercept. This could be with a growth or decay function; it just needs to cross the \(y\)-axis higher than the other graphs. Graph C has the highest \(a\) value.</para>
 <para>For question 4, you are looking for the smallest initial value or \(y\)-intercept. This could be a growth or decay function; it just needs to cross the \(y\)-axis lower than the other graphs. Graph F has the lowest \(a\) value.</para>
 <title>Try It: Analyzing \(a\) and \(b\) in the Exponential Function \(y=ab^x\)</title>
-<image alt="Graph of six exponential functions." src="https://k12.openstax.org/contents/raise/resources/13b36ed8389344dc587cabc989318f563a0a1795" width="300"/><list class="os-raise-noindent" type="enumerated">
+<para><figure><media alt="Graph of six exponential functions."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/13b36ed8389344dc587cabc989318f563a0a1795"/></media></figure></para>
+<list class="os-raise-noindent" type="enumerated">
   <item> Which graphs represent exponential growth? </item>
   <item> Which graphs represent exponential decay? </item>
   <item> Which graph has the highest value for \(b\)? </item>

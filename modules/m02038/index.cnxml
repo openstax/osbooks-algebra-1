@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02038</md:content-id>
     <md:title>7.17.2: Modify Expressions to Translate Graphs</md:title>
-    <md:uuid>bb16860f-205b-4048-ba5a-26a5106b78f3</md:uuid>
+    <md:uuid>ac843632-3ec6-4a84-8765-b0e904ccc498</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -38,7 +38,8 @@
 </list>
 <para>Select the <emphasis>solution</emphasis> button to compare your work.</para>
 <para><emphasis>Answer:</emphasis></para>
-<image height="320" src="https://k12.openstax.org/contents/raise/resources/4843161eef643f7108bb7fb8af0693b68859ca05" width="312"/><list class="os-raise-noindent" start="3" type="enumerated">
+<para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4843161eef643f7108bb7fb8af0693b68859ca05"/></media></figure></para>
+<list class="os-raise-noindent" start="3" type="enumerated">
   <item>Kiran graphed the equation \(y=x^2+1\) and noticed that the vertex is at \((0,1)\). He changed the equation to \(y=(x−3)^2+1\) and saw that the graph shifted 3 units to the right and the vertex is now at \((3,1)\).</item>
 </list>
 <para>Next, he graphed the equation \(y=x^2+2x+1\) and observed that the vertex is at \((-1,0)\). Kiran thought, "If I change the squared term \(x^2\) to \((x−5)^2\), the graph will move 5 units to the right and the vertex will be at \((4,0)\)."</para>
@@ -56,7 +57,8 @@
 </list>
 
 <para><emphasis>Answer:</emphasis> You should disagree with Kiran.</para>
-<image height="312" src="https://k12.openstax.org/contents/raise/resources/8257db4bc20f3131296727fde38411df9fe0e233" width="312"/><list>
+<para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/8257db4bc20f3131296727fde38411df9fe0e233"/></media></figure></para>
+<list>
   <item> The vertex of the graph of the original equation \(y=x^2+2x+1\) is at \((-1,0)\). The vertex of \(y=(x−5)^2+2x+1\) is at \((4,10)\). </item>
   <item> Evaluating \(y=(x−5)^2+2x+1\) at \(x = 4\) gives \(y=10\), not \(y=0\). </item>
   <item> The original equation is not in vertex form, so changing \(x^2\) into \((x−5)^2\) does not change the location of the vertex 5 units to the right. </item>
@@ -80,8 +82,7 @@
   <item> Verify your prediction using the graphing tool or technology outside the course. </item>
 </list>
 <para><emphasis>Answer: </emphasis></para>
-<image alt="Graph of the equations y equals x plus four squared minus one, y equals two times x plus 4 squared minus two, and y equals twelve times x plus 4 squared minus twelve" height="312" src="https://k12.openstax.org/contents/raise/resources/faff41a5e75f54fcfc04529b6122df184030cb64"/>
-<list class="os-raise-noindent" start="6" type="enumerated">
+<figure><media alt="Graph of the equations y equals x plus four squared minus one, y equals two times x plus 4 squared minus two, and y equals twelve times x plus 4 squared minus twelve"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/faff41a5e75f54fcfc04529b6122df184030cb64"/></media></figure><list class="os-raise-noindent" start="6" type="enumerated">
   <item>Sophia graphed the equation \(y=x^2-6x+9\). She wondered what would happen to the graph if everywhere she had an \(x\), she replaced it with \(3x\). </item>
 </list>   
 <list class="os-raise-noindent" type="enumerated">
@@ -99,8 +100,7 @@
   <item> Verify your prediction using the graphing tool or technology outside the course. </item>
 </list>
 <para><emphasis>Answer: </emphasis></para>
-<image alt="Graph of the equations y equals x squared minus six x plus 9, y equals three x squared minus eighteen x plus 9, and y equals thirteen x squared minus seventy-eight x squared plus 9" height="312" src="https://k12.openstax.org/contents/raise/resources/a5cf564d8460ded5b99a7671f653edecc21a8a49"/>
-<title>Activity Synthesis</title>
+<figure><media alt="Graph of the equations y equals x squared minus six x plus 9, y equals three x squared minus eighteen x plus 9, and y equals thirteen x squared minus seventy-eight x squared plus 9"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/a5cf564d8460ded5b99a7671f653edecc21a8a49"/></media></figure><title>Activity Synthesis</title>
 <para>Select students to share their equations for the first question and their explanations for how they knew what modifications to make.</para>
 <para>Then, focus the discussion on the third question and how students knew that when a quadratic expression is in standard form, adding a constant term before squaring the input variable does not translate the graph the same way as when the expression is in vertex form. At this point, students are not expected to come up with a rigorous justification as to why the graph will not translate as Kiran described. They are only to make this observation and consider ways to explain it.</para>
 <para>Solicit as many explanations as time permits. If no one mentioned that the expression \(x^2+2x+1\) is not in vertex form and that its parameters do not relate to the graph the same way, bring these points up.</para>
@@ -161,10 +161,12 @@
 <para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></emphasis></para>
 <title>Transforming Graphs of Quadratics</title>
 <para>The graphs of \(y=x^2\), \(y=x^2+12\), and \(y=(x+3)^2\) all have the same shape but their locations are different. The graph that represents \(y=x^2\) has its vertex at \((0, 0)\).</para>
-<image src="https://k12.openstax.org/contents/raise/resources/d876c425fd41cfada69fb6bf00502ec7e3e3c2b5" alt="Three parabolas in x y plane, origin O."/><para>Notice that adding 12 to \(x^2\) raises the graph by 12 units, so the vertex of that graph is at \((0, 12)\). Replacing \(x^2\) with \((x+3)^2\) shifts the graph 3 units to the left, so the vertex is now at \((-3, 0)\).</para>
+<para><figure><media alt="Three parabolas in x y plane, origin O."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/d876c425fd41cfada69fb6bf00502ec7e3e3c2b5"/></media></figure></para>
+<para>Notice that adding 12 to \(x^2\) raises the graph by 12 units, so the vertex of that graph is at \((0, 12)\). Replacing \(x^2\) with \((x+3)^2\) shifts the graph 3 units to the left, so the vertex is now at \((-3, 0)\).</para>
 <para>We can also shift a graph both horizontally and vertically.</para>
 <para>The graph that represents \(y=(x+3)^2 +12\) will look like that for \(y=x^2\) but it will be shifted 12 units up and 3 units to the left. Its vertex is at \((-3, 12)\).</para>
-<image alt="Two parabolas in x y plane, origin O." src="https://k12.openstax.org/contents/raise/resources/74c7e56b30ffad5602a6859500e4f1f324292a73"/><para/>
+<para><figure><media alt="Two parabolas in x y plane, origin O."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/74c7e56b30ffad5602a6859500e4f1f324292a73"/></media></figure></para>
+<para/>
 <note>
 
 <para class="os-raise-text-bold">Translating Functions </para>
@@ -172,9 +174,12 @@
     <para>A horizontal shift transforms the parent function into another function by moving the graph left or right “c” units. </para>
 </note>
 <para>The graph representing the equation \(y=-(x+3)^2+12\) has the same vertex at \((-3, 12)\), but because the squared term \((x+3)^2\) is multiplied by a negative number, the graph is flipped over horizontally, so that it opens downward.</para>
-<image alt="Two parabolas in x y plane, origin O." src="https://k12.openstax.org/contents/raise/resources/b87f2134a0b187a0d797ffbd902d5d37ad30055a"/><para>Quadratic equations can also be transformed through dilations that stretch or compress the parabola. The graphs for the parent quadratic function, \(y = x^2)\), and \(y = 4x^2\), and \(y = \frac15x^2\) are all parabolas. The second and third equation, however, have been vertically dilated from the parent function.</para>
+<para><figure><media alt="Two parabolas in x y plane, origin O."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/b87f2134a0b187a0d797ffbd902d5d37ad30055a"/></media></figure></para>
+<para>Quadratic equations can also be transformed through dilations that stretch or compress the parabola. The graphs for the parent quadratic function, \(y = x^2)\), and \(y = 4x^2\), and \(y = \frac15x^2\) are all parabolas. The second and third equation, however, have been vertically dilated from the parent function.</para>
 
-<image src="https://k12.openstax.org/contents/raise/resources/e2ac8948c5a1185af5a216e6a2ba21b40e26d634" width="300"/><para>The orange dashed parabola represents \(y = 4x^2\) and depicts the result of multiplying each output of the function by 4. This dilation represents a vertical stretch.</para>
+<para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/e2ac8948c5a1185af5a216e6a2ba21b40e26d634"/></media></figure></para>
+
+<para>The orange dashed parabola represents \(y = 4x^2\) and depicts the result of multiplying each output of the function by 4. This dilation represents a vertical stretch.</para>
 
 <para>The green dotted parabola represents \(y = \frac 15x^2\) and depicts a graph where each of the output values from the function are multiplied by \(\frac15\). This dilation represents a vertical compression.</para>
 
@@ -182,7 +187,9 @@
 
 <para>When quadratic equations are dilated horizontally, the result looks similar but the impact to the function is very different because horizontal dilations affect the input values before the function is applied. The graphs for the parent quadratic function, \(y =x^2\), and \(y = (4x)^2\) and \(y = (\frac13x)^2\) are displayed below.</para>
 
-<image src="https://k12.openstax.org/contents/raise/resources/c529e3fa260955be35761a92a99d58362d4e0518" width="300"/><para>The orange dashed parabola represents \(y = (4x)^2\) and depicts the result of multiplying each input of the function by 4 and then squaring. This dilation represents a horizontal compression.</para>
+<para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/c529e3fa260955be35761a92a99d58362d4e0518"/></media></figure></para>
+
+<para>The orange dashed parabola represents \(y = (4x)^2\) and depicts the result of multiplying each input of the function by 4 and then squaring. This dilation represents a horizontal compression.</para>
 
 <para>The green dotted parabola represents \(y = (\frac 13x)^2\) and depicts a graph where each of the input values from the function are multiplied by \(\frac13\). This dilation represents a horizontal stretch.</para>
 

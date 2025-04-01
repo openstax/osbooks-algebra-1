@@ -3,21 +3,22 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01843</md:content-id>
     <md:title>7.7.3: The Domain, Vertex, and Zero of Quadratic Functions</md:title>
-    <md:uuid>ee66b5e6-721e-4323-a2a9-beb4841e1f9d</md:uuid>
+    <md:uuid>4cb8eb00-f29e-4772-9a58-884c9009f05e</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
 <para>This activity serves two main goals. It prompts students to look closely at appropriate domains for quadratic functions given the situations they represent. It also gives them an opportunity to identify or estimate the vertex of the graph and the zeros of the functions, and then to interpret them in context.</para>
 <title>Launch</title>
 <para>In the previous activity, we saw a function representing the revenue, in thousands of dollars, from selling new movies at \(x\) dollars. If we graph the equation \(r=x(18-x)\) using graphing technology, it would produce a graph like this:</para>
-<image alt="Graph with \(x\)-axis labeled with price in dollars and \(y\)-axis labeled with revenue in thousands of dollars.&quot; height=&quot;201" height="268" src="https://k12.openstax.org/contents/raise/resources/763a11b765e8a6f0000553133d0269bb64ddafa3" width="434"/><para>Then, discuss questions such as:</para>
+<para><figure><media alt="Graph with \(x\)-axis labeled with price in dollars and \(y\)-axis labeled with revenue in thousands of dollars.&quot; height=&quot;201"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/763a11b765e8a6f0000553133d0269bb64ddafa3"/></media></figure></para>
+<para>Then, discuss questions such as:</para>
 <list>
   <item> “What domain is appropriate for the price of a new movie?” (The price can’t be negative and it can’t be more than \($18\), or else the revenue will be negative, which is not possible, assuming they are selling a non-negative number of downloads for a non-negative price. So an appropriate domain would be \(18 \leq x \leq 18\). The part of the graph to the left of the vertical axis has no meaning because we can’t have a negative price. The part representing a price above \($18\) would mean the company is losing money, so it has meaning, but it is unlikely to be considered if the company is trying to maximize revenue.) </item>
   <item> “What are the zeros of the function? What do they tell us in this situation?” (\(0\) and \(18\). They tell us the prices at which the company would earn no revenue.) </item>
   <item> “What is the vertex of the graph representing the function? What does it tell us in this situation?” (It appears to be at \((9,81)\). It tells us the price that would produce the greatest revenue.) </item>
 </list>
 <para>Tell students they will now think about the domain, vertex, and zeros of a few quadratic functions we have seen so far.</para>
-<para>Arrange students in groups of two to four. Consider asking each group to work on only 1–2 functions and then to share their findings with the class, or choosing only a couple of functions for the class to investigate. If the activity is divided among groups and if time permits, consider asking each group to prepare a presentation or to display their work for a gallery walk.</para>
+<para>Arrange students in groups of two to four. Consider asking each group to work on only 1 – 2 functions and then to share their findings with the class, or choosing only a couple of functions for the class to investigate. If the activity is divided among groups and if time permits, consider asking each group to prepare a presentation or to display their work for a gallery walk.</para>
 <div class="os-raise-extrasupport">
   <note>
     <para><title>Support for English Language Learners</title></para>
@@ -50,25 +51,26 @@
   <item> Identify or estimate the The <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> vertex (of a graph)</term></emphasis>. Describe what it means in the situation. </item>
   <item> Identify or estimate the <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> zero of the function</term></emphasis>. Describe what they mean in the situation. </item>
 </list>
-<para>Use the following information to answer questions 1-4.</para>
+<para>Use the following information to answer 1 - 4.</para>
 <blockquote>
   <para> The area of a rectangle with a perimeter of \(25\) meters and a side length \(x\): \(A(x)=x \cdot \frac {(25-2x)}{2}\)</para>
-  <image alt="Graph of the quadratic function &lt;span class=&quot;math&quot; data-png-file-id=&quot;35294&quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 10 to 15 by 5s, labeled “length (meters)”. Vertical axis scale 0 to 60 by 10’s, labeled “area (square meters)”. Some of the points of this function are &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;(0 comma 0), (1 comma 11 point 5) and (5 comma 37 point 5) to a maximum at (6 point 2 5 comma 39 point 0 6 3) then decreasing through (10 comma 25), (12 comma 6) and (12 point 5 comma 0)." height="303" src="https://k12.openstax.org/contents/raise/resources/9b71518a180e946db0e0245d8ef9f00e5121fd3e" width="279"/></blockquote>
+  <para><figure><media alt="Graph of the quadratic function &lt;span class=&quot;math&quot; data-png-file-id=&quot;35294&quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 10 to 15 by 5s, labeled “length (meters)”. Vertical axis scale 0 to 60 by 10’s, labeled “area (square meters)”. Some of the points of this function are &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;(0 comma 0), (1 comma 11 point 5) and (5 comma 37 point 5) to a maximum at (6 point 2 5 comma 39 point 0 6 3) then decreasing through (10 comma 25), (12 comma 6) and (12 point 5 comma 0)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/9b71518a180e946db0e0245d8ef9f00e5121fd3e"/></media></figure></para>
+</blockquote>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" type="enumerated">
-    <item> Domain: </item>
+    <item>What is an inequality that represents the domain? </item>
     <para><emphasis>Answer:</emphasis> \(0&lt;x&lt;12.5\). All positive rational numbers make sense as an input. The part of the graph that is below the horizontal line is not meaningful here (negative lengths or lengths greater than \(12.5\) produce a negative area, which doesn’t make sense). Having a length or area equal to \(0\) doesn’t make sense either.</para>
   </list>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="2" type="enumerated">
-    <item>What is an inequality that represents the domain? </item>
+    <item>What is an inequality that represents the range? </item>
     <para><emphasis>Answer:</emphasis> \(0&lt;y&lt;39.06\). All positive rational numbers make sense as an output up to the maximum of the graph at 39.06. The part of the graph that is below the horizontal line is not meaningful here since there can not be a negative area (which doesn’t make sense). Having a length or area equal to 0 doesn’t make sense either.</para>
   </list>
 </list> 
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="3" type="enumerated">
-    <item>What is an inequality that represents the range? </item>
+    <item>What is the vertex of the graph? </item>
     <para><emphasis>Answer:</emphasis> The vertex is the point on the graph when the input is at \(6.25\). It’s around \((6.25,39.063)\). It’s when the rectangle has the greatest area.</para>
   </list>
 </list>
@@ -78,10 +80,11 @@
     <para><emphasis>Answer:</emphasis> The zeros are \(0\) and \(12.5\). They tell us that when the side length of the rectangle is \(0\) or \(12.5\) meters, the rectangle has no area (no rectangle exists).</para>
   </list>
 </list>
-<para>Use the following information to answer questions 5-8.</para>
+<para>Use the following information to answer 5 - 8.</para>
 <blockquote>
   <para>The number of squares as a function of step number \(n\): \(f(n)=n^2+4\)</para>
-  <image alt="Graph of the quadratic function&amp;nbsp;f of n = n squared + 4.&amp;nbsp;Horizontal axis scale negative 12 to 12 by 6’s, labeled “step number”. Vertical axis scale 0 to 200 by 40’s, labeled “number of squares”.&amp;nbsp;&quot; height=&quot;222" height="296" src="https://k12.openstax.org/contents/raise/resources/7b7b6180d83187d6cbb0fc79923a160133ec5e0e" width="262"/></blockquote>
+  <para><figure><media alt="Graph of the quadratic function&amp;nbsp;f of n = n squared + 4.&amp;nbsp;Horizontal axis scale negative 12 to 12 by 6’s, labeled “step number”. Vertical axis scale 0 to 200 by 40’s, labeled “number of squares”.&amp;nbsp;&quot; height=&quot;222"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/7b7b6180d83187d6cbb0fc79923a160133ec5e0e"/></media></figure></para>
+</blockquote>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="5" type="enumerated">
     <item>What is an inequality that represents the domain? </item>
@@ -96,20 +99,21 @@
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="7" type="enumerated">
-    <item> Vertex: </item>
+    <item>What is the vertex of the graph? </item>
     <para><emphasis>Answer:</emphasis> The vertex is \((0,4)\). It tells us the number of squares at Step \(0\).</para>
   </list>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="8" type="enumerated">
-    <item> Zeros: </item>
+    <item> What are the zeros of the graph? </item>
     <para><emphasis>Answer:</emphasis> There are no zeros for this function. There is not a time when there are no squares in the pattern.</para>
   </list>
 </list>
-<para>Use the following information to answer questions 9-12.</para>
+<para>Use the following information to answer 9 - 12.</para>
 <blockquote>
   <para>The distance in feet that an object has fallen \(t\) seconds after being dropped: \(g(t)=16t^2\)</para>
-  <image alt=" &lt;p&gt;Graph of the quadratic function &lt;span class=&quot;math&quot; data-png-file-id=&quot;35295&quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 8 to 8 by 4’s, labeled “time (seconds)”. Vertical axis scale 0 to 600 by 200’s, labeled “distance fallen (feet)”. Some of the points of this function are (negative 8 comma 1024), (negative 5 comma 400) and (negative 1 comma 16) to a minimum at &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;(0 comma 0) then increasing through (1 comma 16), (5 comma 400) and (8 comma 1024).&lt;/p&gt;" height="287" src="https://k12.openstax.org/contents/raise/resources/874ea7b6b1f39ebb7f8214a821393c0eca2560aa" width="262"/></blockquote>
+  <para><figure><media alt=" &lt;p&gt;Graph of the quadratic function &lt;span class=&quot;math&quot; data-png-file-id=&quot;35295&quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 8 to 8 by 4’s, labeled “time (seconds)”. Vertical axis scale 0 to 600 by 200’s, labeled “distance fallen (feet)”. Some of the points of this function are (negative 8 comma 1024), (negative 5 comma 400) and (negative 1 comma 16) to a minimum at &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;(0 comma 0) then increasing through (1 comma 16), (5 comma 400) and (8 comma 1024).&lt;/p&gt;"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/874ea7b6b1f39ebb7f8214a821393c0eca2560aa"/></media></figure></para>
+</blockquote>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="9" type="enumerated">
     <item>What is an inequality that represents the domain? </item>
@@ -124,13 +128,13 @@
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="11" type="enumerated">
-    <item> Vertex: </item>
+    <item> What ia the vertex of the graph? </item>
     <para><emphasis>Answer:</emphasis> The vertex is \((0,0)\). It tells us the distance fallen at \(0\) seconds, which is \(0\) feet.</para>
   </list>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="12" type="enumerated">
-    <item> Zeros: </item>
+    <item> What are the zeros of the graph? </item>
     <para><emphasis>Answer:</emphasis> The vertex also tells us the zero of the function. It’s the only time when the distance fallen is \(0\) feet.</para>
   </list>
 </list>
@@ -148,7 +152,9 @@
 <para>Invite groups to share their responses and explanations. If not already discussed or displayed by students, show examples of graphs that are each adjusted for a domain appropriate for the function represented.</para>
 <para>Explain that the graph of a quadratic function may or may not show the vertex, depending on the situation it represents.</para>
 <para>Here are graphs representing the functions defined by \(f(n)=n^2+4\) and \(h(t)=576-16t^2\) (in the second and fourth questions), each adjusted for the domain appropriate in the situation. In each graph, the \(y\)-intercept is the vertex, but because a negative domain is not applicable, we don’t see a “turn” in the graph (where the output changes from increasing to decreasing, or vice versa).</para>
-<image alt="Points on coordinate plane. X-axis labeled with step number and \(y\)-axis labeled with number of squares.&quot; height=&quot;222" height="296" src="https://k12.openstax.org/contents/raise/resources/61647dba44d7d70758c76917c326cd0f7e636982" width="262"/><image alt="Graph of line. X-axis labeled with time in seconds and \(y\)-axis labeled with height in feet." height="287" src="https://k12.openstax.org/contents/raise/resources/3f02d4c9fe240b174859c9af710600ad4a4d1e89" width="262"/><list>
+<para><figure><media alt="Points on coordinate plane. X-axis labeled with step number and \(y\)-axis labeled with number of squares.&quot; height=&quot;222"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/61647dba44d7d70758c76917c326cd0f7e636982"/></media></figure></para>
+<para><figure><media alt="Graph of line. X-axis labeled with time in seconds and \(y\)-axis labeled with height in feet."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/3f02d4c9fe240b174859c9af710600ad4a4d1e89"/></media></figure></para>
+<list>
   <item> The function \(f\) represents the number of squares at step \(n\) of a geometric pattern. Because partial step numbers are not possible, it makes sense for the graph to show discrete points at whole-number input values, rather than a continuous curve that includes all rational numbers for the input. </item>
   <item> The function \(h\) models the height of an object \(t\) seconds after being dropped. Because a negative number of seconds is not meaningful here, assuming the object stops once it hits the ground (at 6 seconds), an appropriate domain for the function would be \(0 \leq t \leq 6\). </item>
 </list>
@@ -157,7 +163,8 @@
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
 <para class="os-raise-text-bold">QUESTION:</para>
 <para>Find the approximate domain of the graph below:</para>
-<image alt="Graph of the quadratic function. h(t)=5+60t−16t^2 on a coordinate plane, origin O. Horizontal axis scale 0 to 4 by 1’s, labeled “time (seconds)”. Vertical axis scale 0 to 80 by 20’s, labeled “distance above ground (feet)”. Some of the points of this function are (0 comma 5), (1 comma 49), to a maximum near (1 point 9 comma 61 point 2 5) then decreasing through (2 comma 61), (3 comma 41) and (3.8 comma 0).&#10;            " height="231" src="https://k12.openstax.org/contents/raise/resources/32a38b72c84f4afe7093510818605bcc7a9b6d4f" width="311"/><!--SELF CHECK table-->
+<para><figure><media alt="Graph of the quadratic function. h(t)=5+60t−16t^2 on a coordinate plane, origin O. Horizontal axis scale 0 to 4 by 1’s, labeled “time (seconds)”. Vertical axis scale 0 to 80 by 20’s, labeled “distance above ground (feet)”. Some of the points of this function are (0 comma 5), (1 comma 49), to a maximum near (1 point 9 comma 61 point 2 5) then decreasing through (2 comma 61), (3 comma 41) and (3.8 comma 0).&#10;            "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/32a38b72c84f4afe7093510818605bcc7a9b6d4f"/></media></figure></para>
+<!--SELF CHECK table-->
 <table class="os-raise-textheavytable">
   <thead>
     <row>
@@ -205,7 +212,8 @@
 <para>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</para>
 <title>The Meaning of Quadratic Characteristics</title>
 <para>The height in feet of an object \(t\) seconds after being dropped is graphed below: \(h(t)=576-16t^2\).</para>
-<image alt="&lt;p&gt;Graph of the quadratic function h(t)=576 - 16t^2 on a coordinate plane, origin O. Horizontal axis scale negative 8 to 8 by 4’s, labeled “time (seconds)”. Vertical axis scale 0 to 800 by 200’s, labeled “height (feet)”. Some of the points of this function are (negative 6 comma 0), (negative 4 comma 320) and (negative 2 comma 512) to a maximum at (0 comma 576) then decreasing through (2 comma 512), (4 comma 320) and (6 comma 0).&lt;/p&gt;" height="287" src="https://k12.openstax.org/contents/raise/resources/22710f1e7cfc5f8d5c2b14fc760a640611ae9322" width="262"/><para>Find the domain of the function.</para>
+<para><figure><media alt="&lt;p&gt;Graph of the quadratic function h(t)=576 - 16t^2 on a coordinate plane, origin O. Horizontal axis scale negative 8 to 8 by 4’s, labeled “time (seconds)”. Vertical axis scale 0 to 800 by 200’s, labeled “height (feet)”. Some of the points of this function are (negative 6 comma 0), (negative 4 comma 320) and (negative 2 comma 512) to a maximum at (0 comma 576) then decreasing through (2 comma 512), (4 comma 320) and (6 comma 0).&lt;/p&gt;"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/22710f1e7cfc5f8d5c2b14fc760a640611ae9322"/></media></figure></para>
+<para>Find the domain of the function.</para>
 <list>
   <item> The <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> domain</term></emphasis> is the \(t\) values, \(0 \leq t \leq 6\) or only numbers from \(0\) up through \(6\). Negative values of time don’t make sense here, so the part of the graph to the left side of the vertical axis has no meaning. The object hits the ground \(6\) seconds after being dropped, so values greater than \(6\) are not meaningful. </item>
 </list>
@@ -226,8 +234,7 @@
 <title>Try It: The Meaning of Quadratic Characteristics</title>
 <para>For questions 1 - 2, use the following graph.</para>
 <blockquote>
-  <image height="290" src="https://k12.openstax.org/contents/raise/resources/fc0355928478dd058a1d518ea62a6f20d2dcb493" width="340"/>
-</blockquote>
+  <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/fc0355928478dd058a1d518ea62a6f20d2dcb493"/></media></figure></blockquote>
 <list class="os-raise-noindent" type="enumerated">
   <item>Describe the zeros of graph.<para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
     <para>\(x=0\), \(x=16\)</para>
