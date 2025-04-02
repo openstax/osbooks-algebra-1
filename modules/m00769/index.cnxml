@@ -3,11 +3,12 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00769</md:content-id>
     <md:title>3.5.2: Finding and Using Correlation Coefficient to Interpret the Strength of Linear Relationships</md:title>
-    <md:uuid>24121a51-ecce-4f64-b761-54bf2dc2856d</md:uuid>
+    <md:uuid>af10c0df-d7e5-4643-a825-a37276170242</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
-<para>The mathematical purpose of this activity is for students to use technology to find a correlation coefficient and use it to interpret the strength of the linear relationship in context. In addition, students interpret the coefficients of the equation of the line of best fit and use the equation to make predictions. As students examine the situation and describe variables that could influence the results, they are modeling with mathematics (TEKS 1A and 1F).</para>
+<para>The mathematical purpose of this activity is for students to use technology to find a correlation coefficient and use it to interpret the strength of the linear relationship in context. In addition, students interpret the coefficients of the equation of the line of best fit and use the equation to make predictions. As students examine the situation and describe variables that could influence the results, they are modeling with mathematics (TEKS 1A and 1F).
+</para>
 <title>Launch</title>
 <para>Show students how to find a correlation coefficient using technology. The digital version of this activity includes instructions for finding the correlation coefficient using Desmos. If you will be using technology other than Desmos, you may need to prepare alternate instructions. Here are the data from scatter plot A in the warm up to use in the demonstration.</para>
 <table class="os-raise-midsizetable">
@@ -80,6 +81,7 @@
     </row>
   </tbody>
 </table>
+
 <para>The equation of the line of best fit is \(y = 12.048x - 0.229\), and the correlation coefficient is 0.999. Since there is a direct conversion between the units, we expect there to be a strong positive relationship between the variables.</para>
 <para>Since \(r=0.999\), which is extremely close to 1, there is a very<emphasis> strong</emphasis> linear relationship between height in feet \((x)\) and height in inches \((y)\). Since an increase in the value of one variable is paired with an increase in the other, the linear relationship is <emphasis>positive</emphasis>.</para>
 <title>Student Activity</title>
@@ -154,37 +156,45 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" type="enumerated">
-  <item>Distance is one factor that influences the travel time of Priya’s car trips. What are some other factors?</item>
+  <item>Distance is one factor that influences the travel time of Priya’s car trips. What are some other factors?
+  </item>
 </list>
 
-    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
+    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.
+      Traffic, stop signs, stop lights, refueling, whether the driver is in a hurry, driving on surface streets or interstate </para>
 <list class="os-raise-noindent" start="2" type="enumerated">
 
   <item>Which of these factors (including distance) most likely has the most consistent influence for all the car trips? Be prepared to show your reasoning.
     </item>
 </list>
-    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
+    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.
+      Distance is the most consistent influence since it is always part of the reason a trip will take the time it does. The other factors, like stop lights, are only a factor sometimes since you may hit all green lights one day and all red lights the next day. </para>
 <list class="os-raise-noindent" start="3" type="enumerated">
   <item>Use the graphing tool or technology outside the course. Create the scatter plot and calculate the best fit line using the Desmos tool below.   </item>
 </list>
 <para>(Students were provided access to Desmos.)</para>
-    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
+    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.
+        \(y = 0.93 x + 4.15\)</para>
       <figure><media alt="Scatter plot with line of best fit.  "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/5d012ead5546eb746e7d588e1a33558ce4083141"/></media></figure><list class="os-raise-noindent" start="4" type="enumerated">
   <item>What do the slope and \(y\)-intercept for the line of best fit mean in this situation?
     </item>
 </list>
-    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
+    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.
+      The slope represents the number of minutes it takes to drive one additional mile using the linear model. Assuming the linear relationship continues, the \(y\)-intercept represents the number of minutes it takes to drive zero miles; this may account for things like time getting ready or warming up the car before driving. </para>
 <list class="os-raise-noindent" start="5" type="enumerated">
   <item>Use technology to find the correlation coefficient for this data. Based on the value, how would you describe the strength of the linear relationship?
 </item>
 </list>
-    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
+    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.
+    \(𝑟=0.99\). Since \(r\) is near 1, there is strong positive linear relationship between distance \((x)\) and travel time \((y)\). </para>
 <list class="os-raise-noindent" start="6" type="enumerated">
   <item>How long do you think it would take Priya to make a trip of 90 miles if the linear relationship continues? 
     </item>
 </list>
-    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
+    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.
+      It would take Priya about 88 minutes. I used the equation \(y=0.93x+4.15\) and figured out that \(y\) was 87.85 minutes by substituting 90 miles for \(x\). </para>
  
 <title>Anticipated Misconceptions</title>
 <para>Students may misunderstand how to interpret negative correlation coefficients. Ask students how the sign of the correlation coefficient is related to the linear model for the situation. Students may benefit from drawing an example scatter plot representing the situation.</para>
@@ -215,10 +225,12 @@
 </div>
 <!--END ELL AND SWD GRAY BOX --> 
 
+
 <title>3.5.2: Self Check</title>
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
 <para class="os-raise-text-bold">QUESTION:</para>
 <para>Determine the correlation coefficient of the data in the table below to 3 decimal places and interpret the value.</para>
+
 <table class="os-raise-horizontaltable">
   <thead>
   </thead>
@@ -241,6 +253,7 @@
     </row>
   </tbody>
 </table>
+
 <!--SELF CHECK table-->
 <table class="os-raise-textheavytable">
   <thead>
@@ -268,10 +281,12 @@
     </row>
   </tbody>
 </table>
+
 <title>3.5.2: Additional Resources</title>
 <para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></emphasis></para>
 <title>Calculating and Interpreting Correlation Coefficients</title>
-<para>Properties of the correlation coefficient: </para>
+<para>Properties of the correlation coefficient: 
+</para>
 <list>
   <item> Property 1: The sign of \(r\) (positive or negative) corresponds to the direction of the linear relationship. </item>
   <item> Property 2: A value of \(r = +1\) indicates a perfect positive linear relationship, with all points in the scatter plot falling exactly on a straight line. </item>
@@ -282,8 +297,10 @@
 <table class="os-raise-midsizetable">
   <thead>
     <row>
-      <entry scope="col" class="emphasis">\(x\) (Shoe Length)</entry>
-      <entry scope="col" class="emphasis">\(y\) (Height)</entry>
+      <entry scope="col" class="emphasis">\(x\) (Shoe Length)
+        Inches</entry>
+      <entry scope="col" class="emphasis">\(y\) (Height)
+        Inches</entry>
     </row>
   </thead>
   <tbody>
@@ -329,7 +346,8 @@
     </row>
   </tbody>
 </table>
-<para/>
+<para>
+  The correlation coefficient is \(r ≈ 0.65\).</para>
 <para>Based on the table, there is a moderate positive linear relationship between shoe length and height.</para>
 <para>The table below shows how you can informally interpret the value of a correlation coefficient.</para>
 <table class="os-raise-wideadjustedtable">
@@ -378,6 +396,7 @@
     </row>
   </tbody>
 </table>
+
 <title>Try It: Calculating and Interpreting Correlation Coefficients</title>
 <para>Consumer Reports published a study of fast-food items. The table and scatter plot below display the fat content (in grams) and number of calories per serving for 16 fast-food items. </para>
 <div class="os-raise-d-flex os-raise-justify-content-between">
@@ -385,8 +404,10 @@
   <table class="os-raise-skinnytable">
     <thead>
       <row>
-        <entry scope="col" class="emphasis">Fat</entry>
-        <entry scope="col" class="emphasis">Calories</entry>
+        <entry scope="col" class="emphasis">Fat
+          (g)</entry>
+        <entry scope="col" class="emphasis">Calories
+          (kcal)</entry>
       </row>
     </thead>
     <tbody>
@@ -456,8 +477,11 @@
       </row>
     </tbody>
   </table>
+  
   <para>What is the correlation coefficient for this data and what does it tell us about the strength and type of relationship represented?</para>
 </div>
+
+
 <para><emphasis>Answer: </emphasis>Your answer may vary, but here is a sample.</para>
 <para>The correlation coefficient is \(r ≈ 0.44\). By the table, this indicates a moderate, positive linear relationship between fat content and calories.</para>
 </section>

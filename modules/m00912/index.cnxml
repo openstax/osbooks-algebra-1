@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00912</md:content-id>
     <md:title>4.5.3: Comparing Functions</md:title>
-    <md:uuid>935b08f2-1bec-4f18-a524-86426bb954b4</md:uuid>
+    <md:uuid>adfda2df-2b96-42ac-a0bc-b6b36d4b396c</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (25 minutes)</title>
@@ -21,6 +21,7 @@
     2.5 gigabytes of data</item>
   <item>solving 10x+25=50 algebraically</item>
 </list>
+
 <para>Identify students who use different strategies and ask them to share their thinking later.</para>
 <title>Launch</title>
 <para>Arrange students in groups of 2.</para>
@@ -59,12 +60,14 @@
   </div>
 
 
+  
   <title>Student Activity</title>
   <para>
     A college student is choosing between two data plans for her new cell phone. Both plans include an allowance of 2
     gigabytes of data per month. The monthly cost of each option can be seen as a function and represented with an
     equation:</para>
-  <para>Option A: \(A(x)=60\)</para>
+  <para>Option A: \(A(x)=60\)
+    Option B: \(B(x)=10x+25\)</para>
   <para>In each function, the input, x, represents the gigabytes of data used over the monthly allowance.</para>
 
   
@@ -90,14 +93,16 @@
 
     <item>
         What is the value of \(A(7.5)\)?
-        <para><emphasis>Answer:</emphasis> 60<emphasis>Hint: \(A(7.5) = 60\)</emphasis>
+        <para><emphasis>Answer:</emphasis> 60
+            <emphasis>Hint: \(A(7.5) = 60\)</emphasis>
         </para>
     </item>
 
     <!--Question 5 -->
     <item>
         What is the value of \(B(7.5)\)?
-        <para><emphasis>Answer:</emphasis> 100<emphasis>Hint: \(B(7.5) = 10(7.5) + 25 = 100\)</emphasis>
+        <para><emphasis>Answer:</emphasis> 100
+            <emphasis>Hint: \(B(7.5) = 10(7.5) + 25 = 100\)</emphasis>
         </para>
     </item>
 
@@ -165,6 +170,7 @@
   <item>If we use less than that, our plan would cost less than Option A but more than Option B.</item>
   <item>If we use more than that, our plan would cost more than Option A but less than Option B.</item>
 </list>
+
 <title>Anticipated Misconceptions</title>
 <para>Students may question if \(A\) is a function at all, because unlike B or other function rules they have seen so far, \(A(x)\)
   is defined with a constant instead of an expression containing the dependent variable. Or they may wonder why \(A(x)\) has
@@ -183,7 +189,16 @@
 <para>
   Explain to students that the two functions here are linear functions because the output of each function changes at a
   constant rate relative to the input. Option B involves a rate of change of $10 per gigabyte of data over the monthly
-  allowance, while Option A has a rate of change of $0 per gigabyte over the allowance.</para><list>
+  allowance, while Option A has a rate of change of $0 per gigabyte over the allowance.
+  Then, ask students how they went about graphing the functions. Students are likely to have plotted some input-output
+  pairs of each function. If no students mention identifying the slope and vertical intercept of each graph, ask them
+  about it.
+  Next, focus the discussion on students' response to the last question and how they found out the gigabytes of data
+  that could be bought with $50 under Option B. Select previously identified students to share their strategies, in the
+  order listed in the Activity Narrative. If no one mentions solving using a graph or solving \(10x+ 25 = 50\), bring these
+  up.
+  Explain the following points to help students connect some key ideas:
+</para><list>
   <item>We can graph functions like \(A(x)=60\) and \(B(x)=10x+25\) without plotting individual coordinate pairs.</item>
   <list>
     <item>\(A(x)\) is the output of function \(A\) and is represented by vertical values on a coordinate plane. The vertical
@@ -201,6 +216,8 @@
     </item>
   </list>
 </list>
+
+ If time permits, invite students to share which option they believe the college student should choose and why.
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -213,11 +230,16 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Visual-spatial processing; Conceptual processing</para>
   </div>
 </div>  
+
 <title>4.5.3: Self Check </title>
 <para class="os-raise-text-bold"><emphasis>Following the activity, students will answer the following question to check their understanding of the concepts
   explored in the activity.</emphasis></para>
   <para class="os-raise-text-bold">QUESTION:</para>
-        <para>Rental car company A charges $50 a day plus $0.50 a mile, m, and is modeled by function A.</para>
+        <para>Rental car company A charges $50 a day plus $0.50 a mile, m, and is modeled by function A.
+          Rental car company B charges $20 a day plus $1.00 a mile, m, and is modeled by function B.
+          Which statement is true for the cost of one day after m miles?
+          
+        </para>
         <table class="os-raise-textheavytable">
           <thead>
             <row>
@@ -265,23 +287,46 @@
     </row>
   </tbody>
 </table>
+
 <title>4.5.3: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self
   check. Students will not automatically have access to this content, so you may wish to share it with those who could
   benefit from it. </emphasis></para>
+
 <title>Comparing Function Values</title>
 <para>Functions are used in a variety of real life situations. They are useful in making comparisons, especially when
   comparing the cost.
-  </para>
+  
+  Example:
+  The daily cost to printing company A to print a book is modeled by a function \(C(x)=3.25x+1500\) where C is the total
+  daily cost, in dollars, and x is the number of books printed.
+  
+  Their competitor, company B can print a book at a cost modeled by \(C(x)= 2.75x+2500\)
+  
+  Find \(C(1000)\) for each company and make a statement about the result.
+  
+  Company A: \(C(1000)=3.25(1000)+1500\)  \(C=4750\)
+  
+  Company B: \(C(1000)=2.75(1000)+2500\)  \(C=5250\)
+  
+  When 1000 books are printed, Company A has the best price.
+</para>
 <title>Try It: Comparing Function Values</title>
 
 <para>The daily cost to manufacturing company A is modeled by the function
   \(C(x)=7.25x+2500\) where \(C(x)\) is the total daily cost and x is the number of items manufactured.
-  <emphasis>solution</emphasis> button to compare your work.
+  
+  The daily cost to manufacturing company B is modeled by the function \(C(x)=8.5x +1500\).
+  
+  Which company is less at \(C(1000)\)? Explain the meaning of the result.
+  
+  Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.
 </para>
 <title>Solution</title>
 <para>Here is how to determine which company costs less at C(1000):
-  </para>
+  
+  Substitute 1000 in for x in each function.
+</para>
 <table class="os-raise-horizontaltable">
   <thead/>
   <tbody>
@@ -305,6 +350,7 @@
     </row>
   </tbody>
 </table>
+
 <table class="os-raise-horizontaltable">
   <thead/>
   <tbody>
@@ -328,6 +374,7 @@
     </row>
   </tbody>
 </table>
+
 <para>When 1,000 items are manufactured, Company A costs less. </para></list></section>
 </content>
 </document>

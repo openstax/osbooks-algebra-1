@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00256</md:content-id>
     <md:title>1.12.5: Writing an Equation Given Two Points</md:title>
-    <md:uuid>7e5f5b83-fbc4-4ab5-be9d-189c20827513</md:uuid>
+    <md:uuid>5e4705a6-95b4-49a0-b597-155e7578d77d</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (18 minutes)</title>
@@ -31,7 +31,7 @@
 <list class="os-raise-noindent" start="4" type="enumerated">
     <item>Now write your equation in slope-intercept form.</item>
 </list>
-<para><emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. </para>
+<para><emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. \( y =- \frac{1}{3}x + \frac{7}{3} \)</para>
 <list class="os-raise-noindent" start="5" type="enumerated">
     <item>Convert slope-intercept form to standard form. </item>
 </list>
@@ -39,7 +39,8 @@
 <list class="os-raise-noindent" start="6" type="enumerated">
     <item>Look at your equation and the original graph. What do you notice? How can you use a graph to check your equation?</item>
 </list>
-<para><emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. </para>
+<para><emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. The \( y \)-intercept of the graph is \( \frac{7}{3} \), and the slope is \( - \frac{1}{3} \).</para>
+
 <title>Activity Synthesis</title>
 <para>There are two important concepts in this lesson. Help students understand the relationship between the points on a line, the slope of the line, and the equation of the line. Students may be able to understand the slope-intercept form of the equation of the line because they can look at the graph of the line and see the \(y\)-intercept, and they can count out the slope using rise over run. Students may not see the relationship between the points on the line and the point-slope form of the equation. One way to help students see is to give them 4 equations in point-slope form: A: \(y-1=2(x+1)\); B: \(y-5=2(x-1)\); C: \(y-5=-2(x-1)\); D: \(y-1=-2(x+1)\).</para>
 <para>Here are some things to discuss:</para>
@@ -64,57 +65,114 @@
   <tbody>
     <row> 
       <entry>\( y =\frac{1}{3}x - \frac{10}{3} \)</entry>
-      <entry>That’s correct! Check yourself:</entry>
+      <entry>That’s correct! Check yourself:First, find the slope by substituting \( –3 \) for \( y_2 \), \( –4 \) for \( y_1 \), 1 for \( x_2 \), and \( –2 \) for \( x_1 \) in the slope formula: \( m= \frac{y_2-y_1}{x_2-x_1} \). 
+        
+      The slope is \( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \). Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \).Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1) \) to get \( y + 3 = \frac{1}{3}x - \frac{1}{3} \). </entry>
     </row>
     <row>
       <entry>\( y = \frac{1}{3}x - \frac{7}{3} \)</entry>
       <entry>
         Incorrect. Let’s try again a different way: 
-        First find the slope by substituting \( –3 \) for \( y_2 \), \( –4 \) for \( y_1 \), 1 for \( x_2 \), and \( –2 \) for \( x_1 \) in the slope formula: \( m= \frac{y_2-y_1}{x_2-x_1} \). </entry>
+        First find the slope by substituting \( –3 \) for \( y_2 \), \( –4 \) for \( y_1 \), 1 for \( x_2 \), and \( –2 \) for \( x_1 \) in the slope formula: \( m= \frac{y_2-y_1}{x_2-x_1} \). 
+        
+        The slope is \( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \). 
+        
+        Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \). 
+        
+        You can use the coordinates from either point. 
+        
+        Make sure you choose the \( x \) and \( y \) value from the same point. 
+        
+        
+        Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1) \) to get \( y + 3 = \frac{1}{3}x - \frac{1}{3} \). 
+      
+      The answer is \( y =\frac{1}{3}x - 3\frac{1}{3} \). </entry>
     </row>
     <row>
       <entry>\( y = 7x + 10 \)</entry>
       <entry>
         Incorrect. Let’s try again a different way:  
-        First find the slope by substituting \( –3 \) for \( y_2 \), \( –4 \) for \( y_1 \), 1 for \( x_2 \), and \( –2 \) for \( x_1 \) in the slope formula: \( m= \frac{y^2-y1}{x^2-x1} \). </entry>
+        First find the slope by substituting \( –3 \) for \( y_2 \), \( –4 \) for \( y_1 \), 1 for \( x_2 \), and \( –2 \) for \( x_1 \) in the slope formula: \( m= \frac{y^2-y1}{x^2-x1} \). 
+        
+        The slope is \( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \). 
+        
+        Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \). 
+        
+        
+      Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1) \) to get \( y + 3 = \frac{1}{3}x - \frac{1}{3} \). 
+      
+      The answer is \( y =\frac{1}{3}x - 3\frac{1}{3} \). </entry>
     </row>
     <row>
       <entry>\( y = 3x - 6 \)</entry>
       <entry>
         Incorrect. Let’s try again a different way: 
         Remember, the \(x\)-coordinate is the first coordinate, and the \(y\)-coordinate is the second coordinate. 
-        </entry>
+        
+        
+        The slope is the change in \(y\) over the change in \(x\). 
+        
+        Find the slope by substituting \( –3 \) for \( y_2 \), \( –4 \) for \( y_1 \), 1 for \( x_2 \), and \( –2 \) for \( x_1 \) in the slope formula: \( m= \frac{y_2-y_1}{x_2-x_1} \). 
+        
+        The slope is \( m= \frac{-3-(-4)}{1-(-2)} = \frac{1}{3} \). 
+        Substitute the slope and the coordinates of the points into the point-slope form: \( y - y_1 = m(x - x_1) \). 
+        
+        
+      Simplify the equation \( y - (-3) = \frac{1}{3}(x - 1) \) to get \( y + 3 = \frac{1}{3}x - \frac{1}{3} \). 
+      
+      The answer is \( y =\frac{1}{3}x - 3\frac{1}{3} \). </entry>
     </row>
   </tbody>
 </table>
- <title>1.12.5: Additional Resources </title>
+ 
+<title>1.12.5: Additional Resources </title>
 <title>Find an Equation of the Line Given Two Points</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
 <para>So far, you have two options for finding an equation of a line: slope-intercept or point-slope. When you start with two points, it makes more sense to use the point-slope form.</para>
 <para>But then you need the slope. You can find the slope with just two points and then use it and one of the given points to find the equation.</para>
 <para><emphasis>Example</emphasis></para>
 <para>Write the equation of a line that contains the points \( (–3, –1) \) and \( (2, –2) \). Write the equation in slope-intercept form and standard form.</para>
-<para><emphasis>Step 1 -</emphasis> Find the slope using the given points.</para>
-<para><emphasis>Step 2 - </emphasis>Choose one point. </para>
-<para><emphasis>Step 3 - </emphasis>Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \). </para>
-<para><emphasis>Step 4 -</emphasis> Write the equation in slope-intercept form. </para>
-<para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form. </para>
-<para/>
+<para><emphasis>Step 1 -</emphasis> Find the slope using the given points.
+Find the slope of the line through \( (–3, –1) \) and \( (2, –2) \). 
+\( m = \frac{y_2 - y_1}{x_2 -x_1} \) 
+\( m = \frac{-2 - (-1)}{2-(-3)} \) 
+\( m = \frac{-1}{5} \)
+\( m = - \frac{1}{5} \)</para>
+<para><emphasis>Step 2 - </emphasis>Choose one point. 
+Choose either point.
+\( (x_1, y_1) \)
+\( (2, –2) \) </para>
+<para><emphasis>Step 3 - </emphasis>Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \). 
+Simplify
+\( \begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1)\\y-(-2)&amp;=&amp;-\frac15(x-2)\\y+2&amp;=&amp;-\frac15x+\frac25\end{array} \) </para>
+<para><emphasis>Step 4 -</emphasis> Write the equation in slope-intercept form. 
+\( y = -\frac{1}{5}x - \frac{8}{5} \)</para>
+<para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form. 
+\(y=−\frac15x−\frac85\)
+\(\frac15x+ y= −\frac85\)
+\(5(\frac15x+ y)=5(−\frac85)\)
+\((1x+ 5y)= −8\)</para>
+<para>Use this table for easy reference to find an equation of a line given two points.</para>
+
 <note>
-<para><emphasis>Step 1</emphasis> - Find the slope using the given points. </para>
+<para><emphasis>Step 1</emphasis> - Find the slope using the given points. 
+\( m = \frac{y_2 - y_1}{x_2 -x_1} \) </para>
 <para><emphasis>Step 2</emphasis> - Choose one point.</para>
 <para><emphasis>Step 3</emphasis> - Substitute the values into the point-slope form: \( y - y_1 = m(x - x_1) \).</para>
 <para><emphasis>Step 4 - </emphasis>Write the equation in slope-intercept form. </para>
 <para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form.</para>
 </note>
+
 <note>
-<para/>
+<para>To find an equation of a line given the slope and a point, follow these steps:</para>
 <para><emphasis>Step 1</emphasis> - Identify the slope.</para>
 <para><emphasis>Step 2</emphasis> - Identify the point.</para>
 <para><emphasis>Step 3</emphasis> - Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \).</para>
 <para><emphasis>Step 4</emphasis> - Write the equation in slope-intercept form.</para>
 <para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form.</para></note>
+
 <title>Try It: Writing the Equation of a Line Given the Slope and Point</title>
+
 <para>Write the equation of a line that contains the points \( (–3, 5) \) and \( (–3, 4) \).</para>
 <para>Write down your answer, and then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <title>Answer:</title>
@@ -124,7 +182,9 @@
 <para><emphasis>Step 2</emphasis> - \( m = \frac{y_2 - y_1}{x_2 -x_1} \) </para>
 <para><emphasis>Step 3</emphasis> - \( m = \frac{4-5}{-3-(-3)} \) </para>
 <para><emphasis>Step 4</emphasis> - \( m = \frac{-1}{0} \)</para>
+
 <para>A line with undefined slope is a vertical line. Both given points have an \( x \)-coordinate of \( –3 \). So, the equation of the line is \( x = -3 \). There is no \( y \), so the equation cannot be written in slope-intercept form.</para>
+
 </section>
 </content>
 </document>

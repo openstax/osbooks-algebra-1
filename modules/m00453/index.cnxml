@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00453</md:content-id>
     <md:title>2.6.2: Writing a New System to Solve a Given System</md:title>
-    <md:uuid>852f17ad-073a-4183-8c24-b2eb2461e45a</md:uuid>
+    <md:uuid>207dbfbf-4cdc-404b-ae0c-990214db5625</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -14,7 +14,8 @@
 <title>Launch</title>
 <para>Arrange students in groups of 2. Give students 2-3 minutes of quiet work time, and then 1-2 minutes to discuss their thinking with their partner. Follow with a whole-class discussion.</para>
 <title>Student Activity</title>
-<para>Here is a system you solved by graphing earlier.</para><para>\( \begin {cases}\begin {align} 4x + \hspace{2.2mm} y &amp;= \hspace {2mm}1 &amp;\quad&amp;\text{Equation A}\\ x + 2y &amp;= \hspace {2mm} 9&amp;\quad&amp;\text{Equation B} \end{align} \end{cases} \)</para>
+<para>Here is a system you solved by graphing earlier.</para>
+<para>\( \begin {cases}\begin {align} 4x + \hspace{2.2mm} y &amp;= \hspace {2mm}1 &amp;\quad&amp;\text{Equation A}\\ x + 2y &amp;= \hspace {2mm} 9&amp;\quad&amp;\text{Equation B} \end{align} \end{cases} \)</para>
 <para>To start solving the system, Elena wrote:</para>
 <para>\( \begin {align} 4x + \hspace{2.2mm} y &amp;= \hspace {2mm}1\\ 4x + 8y &amp;= 36 \end{align} \)</para>
 <para>And then she wrote:</para>
@@ -43,6 +44,7 @@
       <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/58f9c94ed72c794d910edc1862583e7906b54eb9" srclang="en_us">https://k12.openstax.org/contents/raise/resources/5d5e3a9d49372cd8561211fb5b459e2977617763
     </track></source></video></iframe>
 </div>
+
 <title>Anticipated Misconceptions</title>
 <para>Some students may be confused by the subtraction symbol after the second equation, wondering if some number is supposed to appear after the sign. Encourage them to ignore the sign at first, find the relationship between the three equations, and then think about what the sign might mean.</para>
 <title>Activity Synthesis</title>
@@ -159,7 +161,9 @@
       <entry>Incorrect. Let’s try again a different way: Does the ordered pair make both equations true? Did you multiply the second equation by 3? The answer is \( (–4, 2) \).</entry>
     </row>
   </tbody>
-</table><!-- END SELF CHECK TABLE -->
+</table>
+<!-- END SELF CHECK TABLE -->
+
 <title>2.6.2: Additional Resources</title>
 <para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it. </emphasis></emphasis></para>
 <title>Solving a System of Equations by Elimination Using Multiplication</title>
@@ -172,34 +176,79 @@
   example, we cannot multiply just one equation by any constant to get opposite
   coefficients. So we will strategically multiply both equations by different
   constants to get the opposites.</para>
-<para><emphasis>Step 1 - </emphasis>Write both equations in standard form. If any coefficients are fractions, clear them.<emphasis>Step 2 - </emphasis>Check to see if the coefficients of one variable are opposites or equivalent. <emphasis>Step 3 - </emphasis>Simplify<emphasis>Step 4 - </emphasis> Add the equations to eliminate one variable. <emphasis>Step 5 - </emphasis> Solve for the remaining variable.<emphasis>Step 6 - </emphasis>Substitute the solution into one of the original equations. Then solve for the other variable.
-  <emphasis>Step 7 - </emphasis>Check that the ordered pair is a solution to both original equations.<!--BEGIN SIDE BY SIDE EQUATIONS-->
+<para><emphasis>Step 1 - </emphasis>Write both equations in standard form. If any coefficients are fractions, clear them.
+  Both equations are in standard form.
+  \(4x-3y=9\)
+  \(7x+2y=-6\)
+  <emphasis>Step 2 - </emphasis>Check to see if the coefficients of one variable are opposites or equivalent. 
+  To get opposite coefficients of \(y\), we will need to multiply the first equation by 2 and the second equation by 3.
+  Multiply the first equation by 2 and the second equation by 3.
+  \(2(4x-3y) = 2(9)\)
+  \(3(7x+2y) = 3(-6)\)
+  <emphasis>Step 3 - </emphasis>Simplify
+  \(8x−6y=18\)
+  \(21x+6y=−18\)
+  <emphasis>Step 4 - </emphasis> Add the equations to eliminate one variable. 
+  \(\begin{array}{r}8x-6y=18\\21x+6y=-18\\ \hline 29x=0\end{array}\)
+  <emphasis>Step 5 - </emphasis> Solve for the remaining variable.
+  \(x=0\)
+  <emphasis>Step 6 - </emphasis>Substitute the solution into one of the original equations. Then solve for the other variable.
+  
+  \(\begin{array}{rcl}7x+2y&amp;=&amp;-6
+  \\ 7(0)+2y&amp;=&amp;-6
+  \\2y&amp;=&amp;-6
+  \\y&amp;=&amp;-3
+  \\ \end{array}\)
+  <emphasis>Step 7 - </emphasis>Check that the ordered pair is a solution to both original equations.
+  <!--BEGIN SIDE BY SIDE EQUATIONS-->
   \(\begin{array}{rr}
   4x-3y=9 &amp; 7x+2y=-6\\
   4(0)-3(-3) \overset?=9 &amp; 7(0)+2(-3)\overset?=-6 \\
   9=9\checkmark &amp; -6=-6\checkmark
-  \end{array}\) <!--END SIDE BY SIDE EQUATIONS -->
+  \end{array}\) 
+  <!--END SIDE BY SIDE EQUATIONS -->
 
   The solution is \((0,-3)\).
 </para>
+
 <title>Try It: Solving a System of Equations by Elimination Using Multiplication</title>
 <para>Solve the following system of equations using elimination:</para>
 <para>\( \left\{ \begin{array}{c l} 7x+8y=4 \\ 3x-5y= 27 \end{array}\right. \)</para>
 <para><emphasis>Answer: </emphasis></para>
-<para><emphasis>Step 1 - </emphasis>Write both equations in standard form. If any coefficients are fractions, clear them.<emphasis>Step 2 - </emphasis>Check to see if the coefficients of one variable are opposites or equivalent. To get opposite coefficients of \(y\), we will need to multiply the first equation by 5 and the second equation by 8.<emphasis>Step 3 - </emphasis>Simplify. <emphasis>Step 4 - </emphasis>Add the equations to eliminate one variable. <emphasis>Step 5 - </emphasis>Solve for the remaining variable.<emphasis>Step 6 - </emphasis>Substitute the solution into one of the original equations. Then solve for the other variable.<!--BEGIN ALIGN TO EQUALS -->
+<para><emphasis>Step 1 - </emphasis>Write both equations in standard form. If any coefficients are fractions, clear them.
+  \(7x+8y=4\)
+  \(3x–5y=27\)
+  <emphasis>Step 2 - </emphasis>Check to see if the coefficients of one variable are opposites or equivalent. To get opposite coefficients of \(y\), we will need to multiply the first equation by 5 and the second equation by 8.
+  \(5(7x+8y)=5(4)\)
+  \(8(3x–5y)=8(27)\)
+  <emphasis>Step 3 - </emphasis>Simplify. 
+  \(35x+40y=20\)
+  \(24x–40y=216\)
+  <emphasis>Step 4 - </emphasis>Add the equations to eliminate one variable. 
+  \(\begin{array}{r}35x+40y=20\\24x–40y=216\\ \hline 59x=236\\\end{array}\)
+  <emphasis>Step 5 - </emphasis>Solve for the remaining variable.
+  \(59x=236\)
+  \(x=4\)
+  <emphasis>Step 6 - </emphasis>Substitute the solution into one of the original equations. Then solve for the other variable.
+  \(59x=236\)
+  \(x=4\)
+  <!--BEGIN ALIGN TO EQUALS -->
   \(\begin{array}{rcl}7x+8y&amp;=&amp;4
   \\ 7(4)+8y&amp;=&amp;4
   \\28+8y&amp;=&amp;4
   \\8y&amp;=&amp;-24
   \\y&amp;=&amp;-3
-  \\ \end{array}\)<!--END ALIGN TO EQUALS -->
-  <emphasis>Step 7 - </emphasis>Check that the ordered pair is a solution to both original equations.<!--BEGIN SIDE BY SIDE EQUATIONS-->
+  \\ \end{array}\)
+  <!--END ALIGN TO EQUALS -->
+  <emphasis>Step 7 - </emphasis>Check that the ordered pair is a solution to both original equations.
+  <!--BEGIN SIDE BY SIDE EQUATIONS-->
   \(\begin{array}{rr}
   7x+8y=4 &amp; 3x–5y=277\\
   7(4)+8(−3) \overset?=4 &amp; 3(4)–5(−3)\overset?=277 \\
   20−24 \overset?=4 &amp; 3(4)–5(−3)\overset?=277 \\
   4=4\checkmark &amp; 27=27\checkmark
-  \end{array}\) <!--END SIDE BY SIDE EQUATIONS -->
+  \end{array}\) 
+  <!--END SIDE BY SIDE EQUATIONS -->
 
   The solution is \((0,-3)\).
 </para></section>

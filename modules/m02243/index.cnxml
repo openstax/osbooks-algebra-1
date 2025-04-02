@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02243</md:content-id>
     <md:title>8.10.2: Working with Quadratic Factored Form with Leading Coefficient Other Than One</md:title>
-    <md:uuid>5bc3c70f-68cf-4d0f-a19f-ac9a41b67787</md:uuid>
+    <md:uuid>bf02c7a8-5390-41dc-8161-20d7f02c8036</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -32,6 +32,7 @@
 <para>The student extension and the self check quiz contain examples in standard form where the trinomials have negative
   \(c\)-values. Ask students how having a negative \(c\)-value would affect the way they approach factoring. (The
   constants in the binomials must have opposite signs.)</para>
+  
   <div class="os-raise-extrasupport">
     <note>
       <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
@@ -43,6 +44,7 @@
       <para class="os-raise-text-italicize">Design Principle(s): Support sense-making; Cultivate conversation</para>
     </div>
   </div>
+  
   <div class="os-raise-extrasupport">
     <note>
       <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -54,6 +56,7 @@
     </div>
   </div>
   
+
 <title>Student Activity</title>
 <para>Each row in the given tables contains a pair of equivalent expressions. Complete the tables by converting the given
   expression into standard form. If you get stuck, try drawing a diagram.</para>
@@ -82,6 +85,7 @@
     </row>
   </tbody>
 </table>
+
 <para><emphasis>Answer:</emphasis> \(3x^2+13x +4\)</para>
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item/>
@@ -107,6 +111,7 @@
     </row>
   </tbody>
 </table>
+
 <para><emphasis>Answer:</emphasis> \(3x^2 + 8x + 4\)</para>
 <list class="os-raise-noindent" start="3" type="enumerated">
   <item/>
@@ -132,6 +137,7 @@
     </row>
   </tbody>
 </table>
+
 <para><emphasis>Answer:</emphasis> \(3x^2 + 7x + 4\)</para>
 <list class="os-raise-noindent" start="4" type="enumerated">
   <item>To find the <term data-schema-version="1.0" data-store="glossary-tooltip">factored
@@ -159,6 +165,7 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" type="enumerated">
   <item>This quadratic expression has a leading coefficient of 5. Identify the factors of 5 to determine the leading term
     of each binomial in factored form.</item>
@@ -208,6 +215,7 @@
     </row>
   </tbody>
 </table>
+
 <para><emphasis>Answer:</emphasis> \((3x + 4)(x + 1)\)</para>
 <title>Student Facing Extension</title>
 <title>Are you ready for more?</title>
@@ -232,6 +240,7 @@
     </row>
   </tbody>
 </table>
+
 <para>This quadratic expression is different from those in the activity, since its leading coefficient has more than one
   set of possible factors.</para>
 <para>Use the strategy you learned in the activity to factor the expression. If the pair of factors you selected using the
@@ -272,7 +281,8 @@
 <emphasis>
   <para class="os-raise-text-bold">After the activity, students will answer the following question to check their
     understanding of the concepts explored in the activity.</para>
-</emphasis> <para class="os-raise-text-bold">QUESTION:</para>
+</emphasis> 
+<para class="os-raise-text-bold">QUESTION:</para>
 <para>Find the factored form of the quadratic expression \(3x^2+ 5x − 2\).</para>
 <table class="os-raise-textheavytable">
   <thead>
@@ -325,6 +335,7 @@
     </row>
   </tbody>
 </table>
+
 <title>8.10.2: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on
     their experience with the self check. Students will not automatically have access to this content, so you may wish
@@ -346,19 +357,30 @@
 <para>\((2x +\_\_\_)(x + \_\_\_)\)</para>
 <para>Since the constant term is +15, the two missing numbers in the factored form must have a product of 15.</para>
 <para>The possibilities include:</para>
-<para> +1 and +15</para>
+<para> +1 and +15
+  +3 and +5
+  -1 and -15
+  -3 and -5</para>
 <para>Since the middle term, \(13x\), is positive, we know that only the positive factors need to be considered.</para>
 <para>Since the two factors are already different inside the parentheses, the order in which we place the numbers is
   important. We will try both, if necessary.</para>
 <para>Let's try \({\style{color:red}1}\) and \({\style{color:red}1}{\style{color:red}5}\).</para>
-<para>\(\left(2x+{\style{color:red}1}{\style{color:red}5}\right)\left(x+{\style{color:red}1}\right)\)</para>
+<para>\(\left(2x+{\style{color:red}1}{\style{color:red}5}\right)\left(x+{\style{color:red}1}\right)\)
+  \(\begin{array}{rcl}&amp;=&amp;2x^2+2x+15x+15\\&amp;=&amp;2x^2+17x+15\end{array}\)  not equivalent to the original
+  expression</para>
 <para>Try reordering the same numbers.</para>
 <para>
-  \(\left(2x+{\style{color:red}1}\right)\left(x+{\style{color:red}1}{\style{color:red}5}\right)\)</para>
+  \(\left(2x+{\style{color:red}1}\right)\left(x+{\style{color:red}1}{\style{color:red}5}\right)\)\(\begin{array}{rcl}&amp;=&amp;2x^2+30x+x+15\\&amp;=&amp;2x^2+31x+15\end{array}\)
+  not equivalent to the original expression</para>
 <para>Let's try \({\style{color:blue}3}\) and \({\style{color:blue}5}\).</para>
-<para>\(\left(2x+{\style{color:blue}5}\right)\left(x+{\style{color:blue}3}\right)\)</para>
+<para>\(\left(2x+{\style{color:blue}5}\right)\left(x+{\style{color:blue}3}\right)\)
+  \(\begin{array}{rcl}&amp;=&amp;2x^2+6x+5x+15\\&amp;=&amp;2x^2+11x+15\end{array}\)
+  not equivalent to the original expression</para>
 <para>Try reordering the same numbers.</para>
-<para>\(\left(2x + {\style{color:blue}3}\right)\left(x + {\style{color:blue}5}\right)\)</para>
+<para>\(\left(2x + {\style{color:blue}3}\right)\left(x + {\style{color:blue}5}\right)\)
+  \(\begin{array}{rcl}&amp;=&amp;2x^2+ 3x + 10x + 15 \\
+  &amp;=&amp;2x^2+ 13x + 15\end{array}\)
+  \({\style{color:red}\checkmark}\) equivalent to the original expression</para>
 <para>So, the factored form of \(2x^2 + 13x + 15\) is \((2x + 3)(x + 5)\).</para>
 <title>Try It: Working with Expressions of the Form \((px + m)(qx + n)\)</title>
 <para>Find the factored form of \(3x^2− 11x − 4\).</para>
@@ -366,11 +388,15 @@
 <para>Here is how to find the factored form:</para>
 <para>The factored form will have the structure: \((3x +\_\_\_)(x +\_\_\_)\).</para>
 <para>The factors of -4 are:</para>
-<para>-4 and 1</para>
+<para>-4 and 1
+  4 and -1
+  -2 and 2</para>
 <para>Try -4 and 1.</para>
-<para>\(\left(3x-4\right)\left(x+1\right)\)</para>
+<para>\(\left(3x-4\right)\left(x+1\right)\)\(\begin{array}{rcl}&amp;=&amp; 3x^2-4x+3x-4\\&amp;=&amp;
+  3x^2-x-4\end{array}\)not equivalent to the original expression</para>
 <para>Try reordering.</para>
-<para>\(\left(3x+1\right)\left(x-4\right)\)</para>
+<para>\(\left(3x+1\right)\left(x-4\right)\)\(\begin{array}{rcl}&amp;=&amp; 3x^2-12x+x-4\\&amp;=&amp;
+  3x^2-11x-4\end{array}\)\({\style{color:red}\checkmark}\)equivalent to the original expression</para>
 <para>The factored form of \(3x^2− 11x − 4\) is \((3x + 1)(x − 4)\).</para></section>
 </content>
 </document>

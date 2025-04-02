@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01661</md:content-id>
     <md:title>6.5.2: Additional Resources</md:title>
-    <md:uuid>7d28b70d-1680-465d-8d1d-6167e62612a1</md:uuid>
+    <md:uuid>d200694d-da84-41e8-ac39-2c9efb119805</md:uuid>
   </metadata>
   <content>
   <section><title> How to Factor a Trinomial of the Form \(x^2 + bx + c\)</title>
@@ -14,13 +14,16 @@
 <para> \(x^2+mx+nx+mn\)</para>
 <para><emphasis>Step 2 -</emphasis> Factor the GCF from the middle terms.</para>
 <para> \(x^2+(m+n)x+mn\)</para>
-<para> Our trinomial is of the form \(x^2+bx+c\).<figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/cc6b9de6e3165344c6329fec488951bee8002e8c"/></media></figure></para>
+<para> Our trinomial is of the form \(x^2+bx+c\).
+  <figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/cc6b9de6e3165344c6329fec488951bee8002e8c"/></media></figure></para>
 <para>This tells us that to factor a trinomial of the form \(x^2 + bx + c\), we need two factors \((x + m)\) and \((x +
   n)\) where the two numbers \(m\) and \(n\) multiply to \(c\) and add to \(b\).</para>
 <para class="os-raise-text-bold">Example 1</para>
 <para>Factor: \(x^2+11x+24\).</para>
 <para><emphasis>Step 1 - </emphasis>Write the factors as two binomials with the first terms \(x\).</para>
-<para> Write two sets of parentheses and put \(x\) as the first term.</para>
+<para> Write two sets of parentheses and put \(x\) as the first term.
+  \(x^2 + 11x + 24\)
+  \((x \;\;\;\; )(x \;\;\;\; )\)</para>
 <para><emphasis>Step 2 -</emphasis> Find two numbers, \(m\) and \(n\), that</para>
 <list>
   <item> multiply to \(c\): \(m \cdot n = c\) </item>
@@ -53,11 +56,15 @@
     </row>
   </tbody>
 </table>
-<emphasis/>
+<emphasis>
+</emphasis>
 <para><emphasis>Step 3 - </emphasis>Use \(m\) and \(n\) as the last terms of the factors.</para>
-<para> Use 3 and 8 as the last terms of the binomials.</para>
+<para> Use 3 and 8 as the last terms of the binomials.
+  \((x + 3)(x + 8)\)</para>
 <para><emphasis>Step 4 - </emphasis>Check by multiplying the factors.</para>
-<para> \((x + 3)(x + 8)\)</para>
+<para> \((x + 3)(x + 8)\)
+  \(x^2 + 8x + 3x + 24\)
+  \(x^2 + 11x + 24&amp;checkmark;\)</para>
 <para>Let’s summarize the steps we used to find the factors.</para>
 <para class="os-raise-text-bold">How to factor trinomials of the form \(x^2 + bx + c\):</para>
 <para><emphasis>Step 1 -</emphasis> Write the factors as two binomials with first terms x.</para>
@@ -102,6 +109,7 @@
     </row>
   </tbody>
 </table>
+
 <para><emphasis>Step 3 - </emphasis>Use –4 and –7 as the last two terms of the binomials.</para>
 <para> \((y−4)(y−7)\) </para>
 <para><emphasis>Step 4 - </emphasis>Check.</para>
@@ -118,6 +126,7 @@
 <para><emphasis>Step 2 - </emphasis>Write the factors as two binomials with first terms \(x\).</para>
 <para> \((x \;\;\;\; )(x \;\;\;\; )\)</para>
 <para><emphasis>Step 3 -</emphasis> Find two numbers that multiply to −48 and add to 2. </para>
+
 <table class="os-raise-midsizetable">
   <thead>
     <row>
@@ -148,6 +157,7 @@
     </row>
   </tbody>
 </table>
+
 <para>Since the middle term of the trinomial is positive, the sum of the factors must also be positive. This means that we
   are only looking at the factors in which the larger number is positive. This is why factors such as 1 and −48
   are not included in the table.</para>
@@ -189,6 +199,7 @@
     </row>
   </tbody>
 </table>
+
 <para> <emphasis>Step 3  -</emphasis> Use 1 and –9 as coefficients of the last terms. </para>
 <para> \((r+s)(r−9s)\) </para>
 <para><emphasis>Step 4 - </emphasis>Check.</para>
@@ -197,6 +208,7 @@
   list all the possibilities and show that none of them work. If there are no factor pairs that fit all the
   requirements, then the trinomial is prime.</para>
 <para>Let’s summarize the method we just developed to factor trinomials of the form \(x^2 + bx + c\).</para>
+
 <note>
   <para class="os-raise-text-bold">STRATEGY FOR FACTORING TRINOMIALS OF THE FORM \(x^2+bx+c\)</para>
   <hr/>
@@ -705,8 +717,11 @@
   </para>
   <para>Notice that, in the case when \(m\) and \(n\) have opposite signs, the sign of the one with the larger absolute
     value matches the sign of \(b\).</para>
-  </note>
+  
+</note>
+
 <title>Try It: How to Factor a Trinomial of the Form \(x^2 + bx + c\)</title>
+
 <example><exercise>
   <problem>
     

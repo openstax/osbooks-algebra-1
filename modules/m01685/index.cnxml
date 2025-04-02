@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01685</md:content-id>
     <md:title>6.6.3: Additional Resources</md:title>
-    <md:uuid>60e87405-66e6-4dd9-8dbb-d83e32c0bcde</md:uuid>
+    <md:uuid>4912913f-8533-47db-91ad-48046d5df71d</md:uuid>
   </metadata>
   <content>
   <section><title>Factoring the Difference of Squares</title>
@@ -34,12 +34,15 @@ multiply two binomials that were conjugates. Here’s an example:</para>
   \\ \;\;\;\;(3x)^2-(4)^2\)</para>
 <para>\(\;\;\;\;\;\;9x^2-16\) </para>
 <para>A difference of squares pattern factors to a product of conjugates.</para>
+
 <note>
   <para class="os-raise-text-bold"> DIFFERENCE OF SQUARES PATTERN </para>
   <hr/>
   <para>If \(a\) and \(b\) are real numbers,</para>
   <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/baf9f51d27792a26b9a9bf030e122a514ea0f3ee"/></media></figure></para>
 </note>
+
+
 <para>Remember, “difference” refers to subtraction. So, to use this pattern, you must make sure you have a
   binomial in which two squares are being subtracted.</para>
 <note>
@@ -47,19 +50,23 @@ multiply two binomials that were conjugates. Here’s an example:</para>
   <hr/>
   <para><emphasis>Step 1 - </emphasis>Does the binomial fit the pattern?</para>
   <para> Is this a difference?</para>
-  <para> Are the first and last terms perfect squares?</para>
+  <para> Are the first and last terms perfect squares?
+    \(\;\;\;a^2\;-\;b^2\\\;\_\_\_-\_\_\_\)</para>
   <para><emphasis>Step 2 - </emphasis>Write them as squares. </para>
   <para> \({(a)}^2-{(b)}^2\)</para>
   <para><emphasis>Step 3 - </emphasis>Write the product of conjugates. </para>
   <para> \((a-b)(a+b)\)</para>
   <para><emphasis>Step 4 - </emphasis>Check by multiplying.</para>
 </note>
+
 <para class="os-raise-text-bold">Example 1</para>
 <para>Factor: \(64y^2 − 1\).</para>
 <para><emphasis>Step 1 -</emphasis> Does the binomial fit the pattern?</para>
 <list>
-  <item> Is this a difference?</item>
-  <item> Are the first and last terms perfect squares?</item>
+  <item> Is this a difference?
+    Yes.</item>
+  <item> Are the first and last terms perfect squares?
+    Yes.</item>
 </list>
 <para><emphasis>Step 2 - </emphasis>Write them as the difference of squares.</para>
 <para> \(\;\;\;\;\;
@@ -86,7 +93,9 @@ multiply two binomials that were conjugates. Here’s an example:</para>
   {\style{color:red}b}
   {\style{color:red})}\\ (8y-1)(8y+1)\)</para>
 <para><emphasis>Step 4 -</emphasis> Check by multiplying.</para>
-<para> \((8y − 1)(8y + 1)\)</para>
+<para> \((8y − 1)(8y + 1)\)
+  \(64y^2 − 1\; \checkmark\)</para>
+
 <para>It is important to remember that sums of squares do not factor into a product of binomials. There are no binomial
   factors that multiply together to get a sum of squares. After removing any GCF, the expression \(a^2 + b^2\) is prime! </para>
 <para>The next example shows variables in both terms.</para>
@@ -99,7 +108,8 @@ multiply two binomials that were conjugates. Here’s an example:</para>
 <para><emphasis>Step 2 -</emphasis> Factor as the product of conjugates.</para>
 <para> \((12x − 7y)(12x + 7y)\)</para>
 <para><emphasis>Step 3 -</emphasis> Check by multiplying.</para>
-<para> \((12x − 7y)(12x + 7y)\)</para>
+<para> \((12x − 7y)(12x + 7y)\)
+  \(44x^2 − 49y^2\; \checkmark\)</para>
 <para>As always, you should look for a common factor first whenever you have an expression to factor. Sometimes a common
   factor may “disguise” the difference of squares, and you won’t recognize the perfect squares until
   you factor out the GCF.</para>
@@ -107,7 +117,9 @@ multiply two binomials that were conjugates. Here’s an example:</para>
 <para class="os-raise-text-bold">Example 3</para>
 <para>Factor: \(48x^4y^2 − 243y^2\).</para>
 <para><emphasis>Step 1 -</emphasis> Is there a GCF?</para>
-<para> \(48x^4y^2 − 243y^2\)</para>
+<para> \(48x^4y^2 − 243y^2\)
+  Yes, \(3y^2\)—factor it out!
+  \(3y^2(16x^4-81)\)</para>
 <para><emphasis>Step 2 -</emphasis> Is the binomial a difference of squares? Yes.</para>
 <para> \(3y^2[(4x^2)^2-(9)^2]\)</para>
 <para><emphasis>Step 3 -</emphasis> Factor as a product of conjugates.</para>
@@ -118,7 +130,10 @@ multiply two binomials that were conjugates. Here’s an example:</para>
 <para> \(3y^2(2x-3)(2x+3)(4x^2+9)\)</para>
 <para> The last factor, the sum of squares, cannot be factored.</para>
 <para><emphasis>Step 6 -</emphasis> Check by multiplying.</para>
-<para> \(3y^2(2x-3)(2x+3)(4x^2+9)\)</para>
+<para> \(3y^2(2x-3)(2x+3)(4x^2+9)\)
+  \(3y^2(4x^2-9)(4x^2+9)\)
+  \(3y^2(16x^4-81)\)
+  \(48x^4y^2 − 243y^2\; \checkmark\)</para>
 <para class="os-raise-text-bold">Example 4</para>
 <para>Factor: \(x^2 − 6x + 9 − y^2\).</para>
 <para><emphasis>Step 1 -</emphasis> Factor by grouping the first three terms.</para>
@@ -147,7 +162,8 @@ multiply two binomials that were conjugates. Here’s an example:</para>
   {\style{color:red}a}\;\;\;\;\;
   {\style{color:red}+}\;
   {\style{color:red}b}
-  {\style{color:red})} \\ ((x-3)-y)((x-3)+y)\) </para>
+  {\style{color:red})} \\ ((x-3)-y)((x-3)+y)\) 
+  \((x − 3 − y)(x − 3 + y)\) </para>
 <para>You may want to rewrite the solution as \((x − y − 3)(x + y − 3)\).</para>
 <title>Try It: Factoring the Difference of Squares</title>
 <example><exercise>

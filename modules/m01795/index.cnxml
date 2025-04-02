@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01795</md:content-id>
     <md:title>7.4.2: Exploring Linear, Exponential, and Quadratic Growth</md:title>
-    <md:uuid>d7474ef1-bfb0-46a0-8ff6-4a2b9883f8cb</md:uuid>
+    <md:uuid>6d0c6ad7-cd06-40bd-8a22-a2195c01d032</md:uuid>
   </metadata>
   <content>
   <section><para>In this activity, you will compare two different patterns. In each pattern, the number of small squares is a function
@@ -11,8 +11,10 @@
 <list class="os-raise-noindent" type="enumerated">
   <item> In Pattern A, the length and width of the rectangle grow by 1 small square from each step to the next.</item>
 </list>
+
 <para>Pattern A</para>
 <para><figure><media alt="Four steps of a growing pattern. Step 0 is blank. Step 1: One square. Step 2: Four squares in a two by two square. Step 3: Nine squares in a three by three square."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/0e7b14cef050d298b7cc5ac185823ad0e4ef3fc4"/></media></figure></para>
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -51,8 +53,8 @@
     <table class="os-raise-wideadjustedtable">
       <thead>
         <row>
-          <entry scope="col" class="emphasis">Step Number </entry>
-          <entry scope="col" class="emphasis">Number of Small Squares </entry>
+          <entry scope="col" class="emphasis">Step Number \(n\)</entry>
+          <entry scope="col" class="emphasis">Number of Small Squares  \(f(n)\)</entry>
         </row>
       </thead>
       <tbody>
@@ -94,14 +96,15 @@
         </row>
       </tbody>
     </table>
-    <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+    
+  <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work. </para>
   </problem><solution>
   <para>Compare your answers:</para>
   <table class="os-raise-wideadjustedtable">
     <thead>
       <row>
-        <entry scope="col" class="emphasis">Step Number </entry>
-        <entry scope="col" class="emphasis">Number of Small Squares </entry>
+        <entry scope="col" class="emphasis">Step Number \(n\)</entry>
+        <entry scope="col" class="emphasis">Number of Small Squares  \(f(n)\)</entry>
       </row>
     </thead>
     <tbody>
@@ -144,11 +147,13 @@
     </tbody>
   </table>
 </solution></exercise>
-</example><list class="os-raise-noindent" start="2" type="enumerated">
+</example>
+<list class="os-raise-noindent" start="2" type="enumerated">
   <item> In Pattern B, the number of small squares doubles from each step to the next.</item>
 </list>
 <para>Pattern B</para>
 <para><figure><media alt="Four steps of a growing pattern. Step 0: One square. Step 1: Two squares, one atop the other. Step 2: Four squares in a two by two square. Step 3: Eight squares in a two by four rectangle."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/e1178e6969e9b4d3ddc5767534e1ad9541129430"/></media></figure></para>
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -186,8 +191,8 @@
     <table class="os-raise-wideadjustedtable">
       <thead>
         <row>
-          <entry scope="col" class="emphasis">Step Number</entry>
-          <entry scope="col" class="emphasis">Number of Small Squares</entry>
+          <entry scope="col" class="emphasis">Step Number\(n\)</entry>
+          <entry scope="col" class="emphasis">Number of Small Squares\(g(n)\)</entry>
         </row>
       </thead>
       <tbody>
@@ -229,14 +234,15 @@
         </row>
       </tbody>
     </table>
-    <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+    
+  <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work. </para>
   </problem><solution>
   <para>Compare your answers:</para>
   <table class="os-raise-wideadjustedtable">
     <thead>
       <row>
-        <entry scope="col" class="emphasis">Step Number</entry>
-        <entry scope="col" class="emphasis">Number of Small Squares</entry>
+        <entry scope="col" class="emphasis">Step Number\(n\)</entry>
+        <entry scope="col" class="emphasis">Number of Small Squares\(g(n)\)</entry>
       </row>
     </thead>
     <tbody>
@@ -279,7 +285,8 @@
     </tbody>
   </table>
 </solution></exercise>
-</example><!--Text Entry Interaction Start -->
+</example>
+<!--Text Entry Interaction Start -->
 <exercise>
   <problem>
     <para>How would the two patterns compare if they continue to grow? Make one to two observations.</para>

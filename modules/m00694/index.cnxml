@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00694</md:content-id>
     <md:title>3.1.2: Additional Resources</md:title>
-    <md:uuid>d92a84b1-e79b-4bb3-9711-35803dac381a</md:uuid>
+    <md:uuid>79b814d2-8873-4975-aff0-68cd349acec9</md:uuid>
   </metadata>
   <content>
   <section><title>Drawing and Interpreting Scatter Plots</title>
@@ -12,7 +12,8 @@
 <figure><media alt="Scatter plot, titled 'Final Exam Score VS Age'. The \(x\)-axis is the age, and the \(y\)-axis is the final exam score. The range of ages are between 20s - 50s, and the range for scores are between upper 50s and 90s."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/d85e87d6a305be35528f5ab89b201056fdbe8d53"/></media></figure><para>Notice this scatter plot does not indicate a linear relationship. The points do not appear to follow a trend. In other words, there does not appear to be a relationship between the age of the student and the score on the final exam.</para>
 <para class="os-raise-text-bold">Example: Using a Scatter Plot to Investigate Cricket Chirps</para>
 <para>The table shows the number of cricket chirps in 15 seconds for several different air temperatures in degrees Fahrenheit.</para>
-<table class="os-raise-horizontaltable">
+
+  <table class="os-raise-horizontaltable">
     <thead/>
     <tbody>
       <row>
@@ -81,7 +82,10 @@
       </row>
     </tbody>
   </table>
-<para>Plotting these data suggests that there may be a trend. We can see from the trend in the data that as the number of chirps increases every 15 seconds, the temperature increases. The trend appears to be roughly linear, though certainly not perfectly so.</para><figure><media alt="Scatter plot, titled 'Cricket Chirps vs. Air Temperature'. The \(x\)-axis is the Cricket Chirps in 15 Seconds, and the \(y\)-axis is the Temperature (F). The line regression is generally positive."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/0bd821366e09c7df8ba83f57a8b07d4aa8fb15aa"/></media></figure><para>Once we recognize a need for a linear function to model that data, the natural follow-up question is: “What is that linear function?” One way to approximate our linear function is to sketch the line that seems to best fit the data. Then we can extend the line until we can verify the \(y\)-intercept. We can approximate the slope of the line by extending it until we can estimate the \(\frac{rise}{run}\).</para><emphasis>Continuing the Example: Finding a Line of Best Fit</emphasis><para>Find a linear function that fits the data above by “eyeballing” a line that seems to fit.</para>
+
+<para>Plotting these data suggests that there may be a trend. We can see from the trend in the data that as the number of chirps increases every 15 seconds, the temperature increases. The trend appears to be roughly linear, though certainly not perfectly so.</para>
+<figure><media alt="Scatter plot, titled 'Cricket Chirps vs. Air Temperature'. The \(x\)-axis is the Cricket Chirps in 15 Seconds, and the \(y\)-axis is the Temperature (F). The line regression is generally positive."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/0bd821366e09c7df8ba83f57a8b07d4aa8fb15aa"/></media></figure><para>Once we recognize a need for a linear function to model that data, the natural follow-up question is: “What is that linear function?” One way to approximate our linear function is to sketch the line that seems to best fit the data. Then we can extend the line until we can verify the \(y\)-intercept. We can approximate the slope of the line by extending it until we can estimate the \(\frac{rise}{run}\).</para><emphasis>Continuing the Example: Finding a Line of Best Fit</emphasis>
+<para>Find a linear function that fits the data above by “eyeballing” a line that seems to fit.</para>
 <para>On a graph, we could try sketching a line. Using the starting and ending points of our hand-drawn line, points \((0, 30)\) and \((50, 90)\), this graph has a slope of \(m\;=\;\frac{60}{50}\;=\;1.2\) and a \(y\)-intercept at 30. </para>
 <para>The slope means that for every increase of 1 chirp per 15 seconds, the temperature increases 1.2 degrees. </para>
 <para>The \(y\)-intercept stands for the temperature needed for crickets to start chirping.</para>
@@ -100,7 +104,8 @@
   <item>The number of chirps in the data provided varied from 18.5 to 44. A prediction at 30 chirps per 15 seconds is inside the domain of our data, so it would be interpolation. Using our model:</item>
 </list>
 <para>\(\begin{array}{rcl}T(30)&amp;=&amp;30+1.2(30)\\&amp;=&amp;66\;degrees\end{array}\)</para>
-<para>Based on the data we have, this value seems reasonable.</para><list class="os-raise-noindent" start="2" type="enumerated">
+<para>Based on the data we have, this value seems reasonable.</para>
+<list class="os-raise-noindent" start="2" type="enumerated">
   <item>The temperature values varied from 52 to 80.5. Predicting the number of chirps at 40 degrees is extrapolation because 40 is outside the range of our data. Using our model:</item>
 </list>
 <div>

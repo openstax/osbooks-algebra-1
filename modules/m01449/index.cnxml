@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01449</md:content-id>
     <md:title>5.11.4: Additional Resources</md:title>
-    <md:uuid>be038158-682c-489c-8b0b-0fbf603a35b0</md:uuid>
+    <md:uuid>58735102-ce89-4d49-b71a-1cb927e0a6be</md:uuid>
   </metadata>
   <content>
   <section><title> Writing Exponential Decay Functions</title>
@@ -29,15 +29,19 @@
     </row>
   </tbody>
 </table>
+
 <para>The formula for exponential decay is \(y=a \cdot (1-b)^x\) where a is the starting value and \(b\) is the amount that value decreases each unit of time \(x\).</para>
 <para>The pattern for the decay is starting at 200 and then decreasing by 12 with only 12 remaining. The equation is \(y=200 \cdot (1-\frac12)^x\) or \(y=200 \cdot (\frac12)^x\).</para>
+
 <para class="os-raise-text-bold">Example 2</para>
 <para>A car sells for $4,000 and loses \(\frac18\) of its value each year. Write a function that gives the car’s
   value, \(V(t)\), \(t\) years after it is sold.</para>
 <para>Since the car loses \(\frac18\) of its value each year, it keeps \(\frac78\) of its value from year to year, so the
   growth factor is \(\frac78\).</para>
 <para>\(V(t)=4000 \cdot (\frac{7}{8})^t\)</para>
+
 <title>Try It: Writing Exponential Decay Functions</title>
+
 <!--Q#-->
 <example><exercise>
   <problem>
@@ -66,7 +70,9 @@
       </row>
   </tbody>
 </table>
-<para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+
+
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
 <para>Compare your answer:</para>
     <para>This ball is more bouncy. Each bounce of this ball reaches a height that is about 0.7 times that of the previous
@@ -75,6 +81,7 @@
 
 </solution></exercise>
 </example><!--Interaction End -->
+
 <para>A computer is purchased for $1,000 and loses \(\frac15\) of its value per year.</para>
 <example><exercise>
   <problem>

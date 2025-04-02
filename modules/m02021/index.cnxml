@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02021</md:content-id>
     <md:title>7.16.3: Quadratic Equations and Graphs</md:title>
-    <md:uuid>304d356b-2186-400a-ae5a-5f6d1e87501d</md:uuid>
+    <md:uuid>e8516118-ba77-4ba6-a705-80dafc0cca3a</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (10 minutes)</title>
@@ -21,6 +21,7 @@
 <title>Launch</title>
 <para>Arrange students in groups of two. Give each group a set of <link url="https://k12.openstax.org/contents/raise/resources/731925b6969bc490346728eef9715f3856fc95f1">cut-up cards</link>. Ask students to take turns matching a card containing an equation with a graph that represents it. The first partner identifies a match and explains why they think it is a match, while the other listens and works to understand. Then, they switch roles. If they disagree, they should discuss their thinking and work to reach an agreement. Ask students to record each match (write the equation and sketch the graph) and their reasoning. If time is limited, students may just record the label of the graph instead of sketching.</para>
 <para>Because this activity is designed to be completed without technology, ask students to put away any devices.</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
@@ -31,6 +32,7 @@
     <para class="os-raise-text-italicize">Design Principle(s): Support sense-making; Cultivate conversation</para>
   </div>
 </div>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -41,6 +43,7 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Conceptual processing; Organization</para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para>Your teacher will give you a set of cards. Each card contains an equation or a graph that represents a quadratic function. Take turns matching each equation to a graph that represents the same function.</para>
 <list class="os-raise-noindent">
@@ -134,6 +137,8 @@
       <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/699de55621cdcd90927da9dbf409c144e43650c8" srclang="en_us">https://k12.openstax.org/contents/raise/resources/ed46d4e172a9596e0ebddd22dd41d4482020ea61
     </track></source></video></iframe>
 </div>
+
+
 <title>Anticipated Misconceptions</title>
 <para>Some students may be challenged to identify the coordinates of the vertex on the graphs because the \(x\)- and \(y\)-axes use a different scale. Encourage students to write down coordinates of the vertex and the intercepts to help them match the graphs to the equations. Some students may have trouble identifying that one graph is steeper than the others. Provide them with graph paper and a piece of patty-paper or a transparency and have them trace one graph onto it. They can overlay the traced graph on top of the other graphs to figure out which one is steeper. Students used similar tools to explore transformations in middle school.</para>
 <title>Activity Synthesis</title>
@@ -221,6 +226,7 @@
     </row>
   </tbody>
 </table>
+
 <title>7.16.3: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
 <title>Matching Graphs and Equations</title>
@@ -233,14 +239,22 @@
   <item> \(y=-(x+2)^2-3\) </item>
   <item> \(y=-(x-2)^2-3\) </item>
 </list>
-<para><emphasis>Step 1</emphasis> - Find the vertex.</para>
-<para><emphasis>Step 2</emphasis> - Does the parabola open up or down?</para>
+<para><emphasis>Step 1</emphasis> - Find the vertex.
+  The vertex is at \((-2, -3)\).</para>
+<para><emphasis>Step 2</emphasis> - Does the parabola open up or down?
+  The parabola opens up. So the leading coefficient is positive.</para>
 <para>The correct answer is b. \(y=(x+2)^2-3\).</para>
-<para>Remember the vertex form is \(y = a(x - h)^2 + k\). If the \(x\)-variable is being added in the parenthesis, the parabola has been shifted left.</para>
-<para><emphasis>Step 3</emphasis> - Use the vertex form of the equation and write the parts you know: the coordinates of the vertex.</para>
-<para><emphasis>Step 4</emphasis> - To solve for \(a\), find another point on the graph of the parabola and plug in those values for \(x\) and \(y\) in the equation you wrote.</para>
-<para><emphasis>Step 5</emphasis> - Solve for \(a\).</para>
-<para><emphasis>Step 6</emphasis> - Plug the value for \(a\) back into the equation.</para>
+<para>Remember the vertex form is \(y = a(x - h)^2 + k\). If the \(x\)-variable is being added in the parenthesis, the parabola has been shifted left.
+  The \((x + 2)\) moves the parabola left 2.
+  The -3 shifts it down 3 from the origin.</para>
+<para><emphasis>Step 3</emphasis> - Use the vertex form of the equation and write the parts you know: the coordinates of the vertex.
+  \(y=a(x+2)^2-3\)</para>
+<para><emphasis>Step 4</emphasis> - To solve for \(a\), find another point on the graph of the parabola and plug in those values for \(x\) and \(y\) in the equation you wrote.
+  Substitute the point \((-1, -2)\) into the equation to check the value of \(a\). We have hypothesized \(a = 1\), and with the coordinates from the second point, \(x = -1\) and \(y = -2\).</para>
+<para><emphasis>Step 5</emphasis> - Solve for \(a\).
+  \(-2 = a(-1 + 2)^2 - 3\). Now solve for \(a\) to find that \(a = 1\).</para>
+<para><emphasis>Step 6</emphasis> - Plug the value for \(a\) back into the equation.
+  So, \(y=(x+2)^2-3\).</para>
 <title>Try It: Matching Graphs and Equations</title>
 <para>Match the graph with its equation in vertex form.</para>
 <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/c73dfd9bb3e24c529a0745e0a8a4eacd6bd86603"/></media></figure></para>
@@ -253,13 +267,22 @@
 <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <title>Solution</title>
 <para>Here is how to match a graph and its equation:</para>
-<para><emphasis>Step 1</emphasis> - Find the vertex.</para>
-<para><emphasis>Step 2</emphasis> - Does the parabola open up or down?</para>
-<para><emphasis>Step 3</emphasis> - Use the vertex form of the equation and write the parts you know: the coordinates of the vertex.</para>
-<para><emphasis>Step 4</emphasis> - To solve for \(a\), find another point on the graph of the parabola and plug in those values for \(x\) and \(y\) in the equation you wrote.</para>
-<para><emphasis>Step 5</emphasis> - Solve for \(a\).</para>
+<para><emphasis>Step 1</emphasis> - Find the vertex.
+  \((1, 2)\)</para>
+<para><emphasis>Step 2</emphasis> - Does the parabola open up or down?
+  Up — this means the leading coefficient is positive.</para>
+<para><emphasis>Step 3</emphasis> - Use the vertex form of the equation and write the parts you know: the coordinates of the vertex.
+  \(y=a(x-1)^2+2\)</para>
+<para><emphasis>Step 4</emphasis> - To solve for \(a\), find another point on the graph of the parabola and plug in those values for \(x\) and \(y\) in the equation you wrote.
+  \((0, 3)\) is also on the graph of this parabola. So, \(3=a(0-1)^2+2\).</para>
+<para><emphasis>Step 5</emphasis> - Solve for \(a\).
+  \(3=a(0-1)^2+2\)</para>
 <para>\(3=a(-1)^2+2\)</para>
-<para>\(3=a+2\)</para>
-<para><emphasis>Step 6</emphasis> - Plug the value for \(a\) back into the equation.</para></section>
+<para>\(3=a+2\)
+  \(1=a\)</para>
+<para><emphasis>Step 6</emphasis> - Plug the value for \(a\) back into the equation.
+  \(y=1(x-1)^2+2\)
+  \(y=(x-1)^2+2\)
+  The answer is d.</para></section>
 </content>
 </document>

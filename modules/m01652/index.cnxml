@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01652</md:content-id>
     <md:title>6.5.3: Factoring Trinomials Using Trial and Error</md:title>
-    <md:uuid>65212b67-6704-4edc-b6de-bea1ad8a9cfd</md:uuid>
+    <md:uuid>13cfbf71-b1f1-4f5a-9e8f-40859a468302</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -33,6 +33,7 @@
     <para><link url="https://k12.openstax.org/contents/raise/resources/4e1aaa71f3967a980f03bc41217282931099c703">Distribute graphic organizers</link> to the students to assist them with participating in this routine. </para>
   </div>
 </div>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -45,6 +46,7 @@
     <para class="os-raise-text-italicize"><!--Support Italics-->Supports accessibility for Conceptual processing, Visual-Spatial Processing</para>
   </div>
 </div>
+
 <title>Student Activity </title>
 <para><emphasis>How to factor trinomials of the form \(ax^2 + bx + c\) using trial and error.</emphasis></para>
 <para><emphasis>Step 1 - 
@@ -89,27 +91,33 @@
 <para>Work with a partner. Factor each trinomial. Ask your partner if you
   get stuck. Compare your answers and discuss any issues you had.</para>
 <list class="os-raise-noindent" type="enumerated">
-  <item> \(2a^2 + 5a + 3\) </item>
+  <item> \(2a^2 + 5a + 3\) 
+  </item>
 </list>
 <para><emphasis>Answer:</emphasis> \((a + 1)(2a + 3)\)</para>
 <list class="os-raise-noindent" start="2" type="enumerated">
-  <item> \(8x^2 − 14x + 3\) </item>
+  <item> \(8x^2 − 14x + 3\) 
+  </item>
 </list>
 <para><emphasis>Answer:</emphasis> \((2x − 3)(4x − 1)\) </para>
 <list class="os-raise-noindent" start="3" type="enumerated">
-  <item> \(18x^2 − 3xy − 10y^2\) </item>
+  <item> \(18x^2 − 3xy − 10y^2\) 
+  </item>
 </list>
 <para><emphasis>Answer:</emphasis> \((3x + 2y)(6x − 5y)\)</para>
 <list class="os-raise-noindent" start="4" type="enumerated">
-  <item> \(15n^3 − 85n^2 + 100n\) </item>
+  <item> \(15n^3 − 85n^2 + 100n\) 
+  </item>
 </list>
 <para><emphasis>Answer:</emphasis> \(5n(n − 4)(3n − 5)\)</para>
 <list class="os-raise-noindent" start="5" type="enumerated">
-  <item> \(−10y^4 − 55y^3 − 60y^2\) </item>
+  <item> \(−10y^4 − 55y^3 − 60y^2\) 
+  </item>
 </list>
 <para><emphasis>Answer:</emphasis> \(−5y^2(y + 4)(2y + 3)\)</para>
 <list class="os-raise-noindent" start="6" type="enumerated">
-  <item> \(56q^3 + 320q^2 − 96q\)</item>
+  <item> \(56q^3 + 320q^2 − 96q\)
+  </item>
 </list>
 <para><emphasis>Answer:</emphasis> \(8q(q + 6)(7q − 2)\) </para>
 <title>Activity Synthesis</title>
@@ -164,6 +172,7 @@
     </row>
   </tbody>
 </table>
+
 <title>6.5.3: Additional Resources</title>
 <para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with
   the self check. Students will not automatically have access to this content, so you may wish to share it with
@@ -178,8 +187,13 @@
 <para><emphasis>Step 1 - 
   </emphasis>The trinomial is already written in descending order of degrees.</para>
 <para><emphasis>Step 2 -</emphasis> Is there a greatest common factor?</para>
-<para>  \(4x^3+16x^2−20x\)</para>
-<para> Is it a binomial, trinomial, or more than three terms?</para>
+<para>  \(4x^3+16x^2−20x\)
+  Yes, \(GCF=4x\). Factor it.
+  \(4x(x^2+4x−5)\)</para>
+<para> Is it a binomial, trinomial, or more than three terms?
+  \(4x(x^2+4x−5)\) 
+  It is now a trinomial with a leading coefficient of \(1\). So “undo FOIL.”
+  \(4x (x    )(x    )\)</para>
 <para><emphasis>Step 3 -</emphasis> Use a table like the one shown to find two numbers that multiply to \(−5\) and add to \(4\).</para>
 <table class="os-raise-midsizetable">
   <thead>
@@ -199,6 +213,7 @@
     </row>
   </tbody>
 </table>
+
 <para><emphasis>Step 4 -</emphasis> Use −1 and 5 as coefficients of the last terms.</para>
 <para>  \(4x(x−1)(x+5)\)</para>
 <para><emphasis>Step 5 -</emphasis> Check.</para>
@@ -402,6 +417,7 @@
 <para> \(\begin{array}{c}(x\;+\;1)(3x\;+\;2)\\3x^2\;+\;2x\;+\;3x\;+\;2\\3x^2\;+\;5x\;+\;2\;{\style{color:red}\checkmark}\end{array}\) </para>
 <para>Our result of the factoring is:</para>
 <para>\(\begin{array}{c}3x^2\;+\;5x\;+\;2 \\ (x\;+\;1)(3x\;+\;2)\end{array}\)</para>
+
 <note>
   <para class="os-raise-text-bold">How to factor trinomials of the form \(ax^2 + bx + c\) using trial and error.</para>
   <hr/>
@@ -413,6 +429,7 @@
   <para><emphasis>Step 5 -</emphasis> Test all the possible combinations of the factors until the correct product is found. </para>
   <para><emphasis>Step 6 -</emphasis> Check by multiplying.</para>
 </note>
+
 <para>Remember, when the middle term is negative and the last term is positive, the signs in the binomials must both be
   negative.</para>
 <para>When we factor an expression, we always look for a greatest common factor first. If the expression does not have a
@@ -456,8 +473,10 @@
 <para><emphasis>Step 4 -</emphasis> Consider all the combinations of factors.</para>
 <para><figure><media alt="This table shows the possible factors and corresponding products of the trinomial 18 x squared minus 37xy plus 15 y squared. In some pairs of factors, when one factor contains two terms with a common factor, that factor is highlighted. In such cases, product is not an option because if trinomial has no common factors, then neither factor can contain a common factor. Factor: open parentheses x minus 1y close parentheses open parentheses 18x minus 15y close parentheses, highlighted. Factor, open parentheses x minus 15y close parentheses open parentheses 18x minus 1y close parentheses; product: 18 x squared minus 271xy plus 15 y squared. Factor open parentheses x minus 3y close parentheses open parentheses 18x minus 5 y close parentheses; product: 18 x squared minus 59xy plus 15 y squared. Factor: open parentheses x minus 5y close parentheses open parentheses 18x minus 3y close parentheses highlighted. Factor: open parentheses 2x minus 1y close parentheses open parentheses 9x minus 15y close parentheses highlighted. Factor: open parentheses 2x minus 15y close parentheses open parentheses 9x minus 1y close parentheses; product 18 x squared minus 137 xy plus 15y squared. Factor: open parentheses 2x minus 3y close parentheses open parentheses 9x minus 5y close parentheses; product: 18 x squared minus 37xy plus 15 y squared, which is the original trinomial. Factor: open parentheses 2x minus 57 close parentheses open parentheses 9x minus 3y close parentheses highlighted. Factor: open parentheses 3x minus 1y close parentheses open parentheses 6x minus 15y close parentheses highlighted. Factor: open parentheses 3x minus 15y close parentheses highlighted open parentheses 6x minus 1y close parentheses. Factor: open parentheses 3x minus 3y close parentheses highlighted open parentheses 6x minus 5y."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/50952db8306e2e88b351a22c2cad21871e66e036"/></media></figure></para>
 <para><emphasis>Step 5 - 
-  </emphasis>The correct factors are those whose product is the original trinomial.</para>
-<para><emphasis>Step 6 -</emphasis> Check by multiplying.<m:math display="inline">
+  </emphasis>The correct factors are those whose product is the original trinomial.
+  \((2x−3y)(9x−5y)\)</para>
+<para><emphasis>Step 6 -</emphasis> Check by multiplying.
+  <m:math display="inline">
     <m:semantics>
       <m:mrow>
         <m:mrow>

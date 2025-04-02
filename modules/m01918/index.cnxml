@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01918</md:content-id>
     <md:title>7.11.4: Using the Vertex and Axis of Symmetry of Quadratics</md:title>
-    <md:uuid>a7286943-2f6d-4404-9e0b-351776128202</md:uuid>
+    <md:uuid>ce787339-309b-48f1-833b-5048f5a622a8</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -57,6 +57,7 @@
   <item> How can you now find the axis of symmetry? (The equation is the same as the \(x\)-value of the vertex).  </item>
   <item> How can knowing the axis of symmetry help in graphing? (One possible answer should be that there will always be a point on either side of the parabola equidistant from the axis of symmetry, so if students know one point, they can plot another). </item>
 </list>
+
 <title>7.11.4: Self Check</title>
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
 <para class="os-raise-text-bold">QUESTION:</para>
@@ -87,8 +88,10 @@
     </row>
   </tbody>
 </table>
+
 <title> 7.11.4: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
+
 <title>Axis of Symmetry of a Quadratic </title>
 <para>In the graph of a quadratic function, the axis of symmetry is an imaginary line that cuts the parabola in half to create two symmetrical sides. It goes through the vertex of the parabola so the equation of the axis of symmetry is the same as the \(x\)-coordinate of the vertex.</para>
 <para><emphasis id="docs-internal-guid-1a59f64e-7fff-f686-b37e-3c95d10108a1"><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/7e89a7ce1c5f5104584a662b6f26582bde6ab96a"/></media></figure></emphasis></para>
@@ -96,24 +99,49 @@
 <para>In Figure 2, the vertex is at \((2, 7)\) and the axis of symmetry is at \(x =2\).</para>
 <para><emphasis>Example</emphasis></para>
 <para>Find the vertex and axis of symmetry for \(f(x)=(x+2)(x-6)\).</para>
-<para><emphasis>Step 1</emphasis> -  Find the \(x\)-intercepts.</para>
-<para><emphasis>Step 2</emphasis> - Find the \(x\)-coordinate of the vertex.</para>
-<para><emphasis>Step 3 </emphasis>- Find the \(y\)-coordinate of the vertex.</para>
-<para><emphasis>Step 4</emphasis> - Find the axis of symmetry.</para>
-  <title>Try It: Axis of Symmetry of a Quadratic</title>
+<para><emphasis>Step 1</emphasis> -  Find the \(x\)-intercepts.
+  Set each factor equal to 0.
+  \(x+2=0\)
+  \(x=-2\)
+  \(x-6=0\)
+  \(x=6\)</para>
+<para><emphasis>Step 2</emphasis> - Find the \(x\)-coordinate of the vertex.
+  The vertex is halfway between the two \(x\)-intercepts.
+  \(x=6+(-2)^2=2\)
+  \(x = \frac{6+(-2)}{2} =2\)</para>
+<para><emphasis>Step 3 </emphasis>- Find the \(y\)-coordinate of the vertex.
+  Substitute the \(x\)-coordinate into \(f(x)\).
+  \(f(2)=(2+2)(2-6)=(4)(-4)=-6\)
+  The vertex is at \((2, -16)\).</para>
+<para><emphasis>Step 4</emphasis> - Find the axis of symmetry.
+  The axis of symmetry is the equation where \(x\) equals the \(x\)-coordinate of the function.
+  \(x= 2\)</para>
+  
+<title>Try It: Axis of Symmetry of a Quadratic</title>
 <para>For questions 1 - 2, use the equation of the quadratic, \(f(x)=(x-4)(x-10)\).</para>
 <list class="os-raise-noindent" type="enumerated">
   <item>What is the vertex of the quadratic?</item>
 </list>
 <para><emphasis>Answer:</emphasis> \((7, -9)\)</para>
-<para><emphasis>Step 1</emphasis> - Find the \(x\)-intercepts.</para>
-<para><emphasis>Step 2</emphasis> - Find the \(x\)-coordinate of the vertex.</para>
-<para><emphasis>Step 3</emphasis> - Find the \(y\)-coordinate of the vertex.</para>
+<para><emphasis>Step 1</emphasis> - Find the \(x\)-intercepts.
+  Set each factor equal to 0.
+  \(x-4=0\)
+  \(x=4\)
+  \(x-10=0\)
+  \(x=10\)</para>
+<para><emphasis>Step 2</emphasis> - Find the \(x\)-coordinate of the vertex.
+  The vertex is halfway between the two \(x\)-intercepts.
+  \(x=\frac{4+10}{2}=7\)</para>
+<para><emphasis>Step 3</emphasis> - Find the \(y\)-coordinate of the vertex.
+  Substitute the \(x\)-coordinate into \(f(x)\).
+  \(f(7)=(7-4)(7-10)=(3)(-3)=-9\)
+  The vertex is at \((7, -9)\).</para>
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item>What is the axis of symmetry of the quadratic? </item>
 </list>
 <para><emphasis>Answer:</emphasis> \(x=7\)</para>
-<para>The axis of symmetry is the equation where \(x\) equals the \(x\)-coordinate of the vertex.</para>
+<para>The axis of symmetry is the equation where \(x\) equals the \(x\)-coordinate of the vertex.
+  \(x= 7\)</para>
 </section>
 </content>
 </document>

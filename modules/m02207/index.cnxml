@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02207</md:content-id>
     <md:title>8.8.2: Recognizing the Expanded Product of the Difference of Two Squares</md:title>
-    <md:uuid>b9157cae-4829-47db-98cf-ad890493dd44</md:uuid>
+    <md:uuid>1ff57d18-19f6-4ebf-92ab-f260e90bc448</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -36,6 +36,7 @@
       </para>
 </div>
 </div>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -46,13 +47,16 @@
       <para class="os-raise-text-italicize">Supports accessibility for: Visual-spatial processing</para>
 </div>
 </div>
+
 <title>Student Activity</title>
 <list class="os-raise-noindent" type="enumerated">
   <item>Clare claims that \((10 + 3)(10 - 3)\) is equivalent to \(10^2-3^2\) and \((20 + 1)(20 - 1)\) is equivalent to \(20^2-1^2\). Do you agree? Show your reasoning.</item>
 </list>
 <para><emphasis>Answer:</emphasis> Agree.</para>
-<para>\((10+3)(10-3)\)</para>
-<para>\((20 + 1)(20 - 1)\)</para>
+<para>\((10+3)(10-3)\)
+  \(\begin{array}{rcl}&amp;&amp;{=\left(10+3\right)\left(10+(-3)\right)\\=10^2+10\left(-3\right)+3\left(10\right)+3\left(-3\right)\\=10^2-30+30-3^2\\=10^2-3^2}\\&amp;&amp;\end{array}\)</para>
+<para>\((20 + 1)(20 - 1)\)
+  \(\begin{array}{rcl}&amp;&amp;{=\left(20 + (-1)\right)\left(20 -1\right)\\= 20^2+ 20\left(-1\right) + 20\left(1\right) + 1\left(-1\right) \\= 20^2- 12}\\&amp;&amp;\end{array}\)</para>
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item>You can use your observations from the first question to mentally solve an expression such as \(105 \cdot 95\).</item>
 </list>
@@ -98,6 +102,7 @@
     </row>
   </tbody>
 </table>
+
 <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <para><emphasis>Answer:</emphasis> Yes.</para>
 <table class="os-raise-doubleheadertable">
@@ -136,6 +141,7 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item> Now, support your thinking using the distributive property, or FOIL. </item>
 </list>
@@ -145,7 +151,8 @@
   <item>Is \((x + 4)^2\) equivalent to \(x^2+4^2\)? Support your answer, either with or without a diagram.</item>
 </list>
 <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-<para><emphasis>Answer:</emphasis> No.</para>
+<para><emphasis>Answer:</emphasis> No.
+  With a diagram:</para>
 <table class="os-raise-doubleheadertable">
   
   <thead>
@@ -182,7 +189,10 @@
     </row>
   </tbody>
 </table>
-<para>With FOIL:</para>
+
+<para>With FOIL:
+  \((x + 4)^2= (x + 4)(x + 4) = x^2+4x +4x +4(4) = x^2+8x +16\)
+  \(x^2+ 4^2 = x^2+ 16\)</para>
 <title>Student Facing Extension</title>
 <title>Extending Your Thinking</title>
 <list class="os-raise-noindent" type="enumerated">
@@ -209,6 +219,7 @@
 <para class="os-raise-noindent">\(= a^2+ab +ab +b^2\) by the distributive property</para>
 <para class="os-raise-noindent">\(= a^2+ 2ab +b^2\) by combining like terms</para>
 <para class="os-raise-noindent">\(= a^2+b^2+2ab\) because addition is commutative</para>
+
 <para>We get the \(a^2 + b^2\) from squaring \(a\) and \(b\) and adding them, and the \(2ab\) from multiplying the two values and doubling them.</para>
 <title>Anticipated Misconceptions</title>
 <para>Some students may struggle to generalize the pattern after just a few examples. Before starting the activity synthesis, provide additional factored expressions for students to expand, for instance: \((x + 3)(x - 3)\), \((2x + 1)(2x - 1)\), \((4x + 5)(4x - 5)\), and \((6 - x)(6 + x)\).</para>
@@ -242,6 +253,7 @@
     </row>
   </tbody>
 </table>
+
 <para>Illustrate that when the terms in each factor are multiplied out, the resulting expression has two squares, one with a positive coefficient and the other with a negative coefficient (\(x^2\) and \(m^2\)) and two linear terms that are opposites (\(mx\) and \(-mx\)). Because the sum of \(mx\) and \(-mx\) is 0, what remains is the difference of \(x^2\) and \(m^2\), or \(x^2 - m^2\). There is now no linear term.</para>
 <para>Emphasize that knowing this allows us to rewrite into factored form any quadratic expression that has no linear term and that is a difference of a squared variable and a squared constant. For example, we can write \(x^2-9\) as \((x + 3)(x - 3)\) because we know that when the latter is expanded, the result is \(x^2-9\).</para>
 <para>Use the last question to point out the importance of paying attention to the structure of these expressions (the subtraction in the first expression, the presence of both addition and subtraction in the second). For example, we can't use any patterns observed in this activity to rewrite \(x^2+9\) in factored form.</para>
@@ -297,6 +309,7 @@
     </row>
   </tbody>
 </table>
+
 <title>8.8.2: Additional Resources</title>
 <emphasis>
 <para class="os-raise-text-bold">The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</para>
@@ -306,12 +319,17 @@
 <para class="os-raise-text-bold">Example 1</para>
 <para>Let's look at the expression \((12 + 5)(12 - 5)\). We want to determine if it is equivalent to \(12^2-5^2\).</para>
 <para>We can use the distributive property of multiplication over addition, or FOIL process, to multiply.</para>
-<para>\((12 + 5)(12 - 5)\) </para>
+<para>\((12 + 5)(12 - 5)\) 
+  \(\begin{array}{rcl} &amp;=&amp;12^2-12\left(5\right)+5\left(12\right)-5^2\\&amp;&amp;\\&amp;=&amp;12^2-60+60-5^2\\&amp;&amp;\\&amp;=&amp;12^2-5^2\\&amp;&amp;\end{array}\)
+  So, \((12 + 5)(12 - 5)\) is equivalent to \(12^2-5^2\).</para>
 <para class="os-raise-text-bold">Example 2</para>
 <para>Let's look at a different example using a <term data-schema-version="1.0" data-store="glossary-tooltip">variable</term>.</para>
 <para>\((x + 7)(x - 7)\)</para>
 <para>Is this equivalent to \(x^2-7^2\)?</para>
-<para>\((x + 7)(x - 7)\)</para>
+<para>\((x + 7)(x - 7)\)
+
+  \(\begin{array}{rcl} &amp;=&amp;x^2-7x+7x-7^2\\&amp;&amp;\\&amp;=&amp;x^2-7^2=x^2-49\\&amp;&amp;\end{array}\)
+  This can also be shown using a diagram.</para>
 <table class="os-raise-doubleheadertable">
  
   <thead>
@@ -348,14 +366,18 @@
     </row>
   </tbody>
 </table>
+
 <para>You have studied this process earlier when you learned the difference of squares.</para>
 <para>In this lesson, we will reverse this process to rewrite the <term data-schema-version="“1.0”" data-store="glossary-tooltip">standard form</term> of a <term data-schema-version="“1.0”" data-store="glossary-tooltip">quadratic expression</term> into its <term data-schema-version="“1.0”" data-store="glossary-tooltip">factored form</term>.</para>
 <para>It is important to remember the <term data-schema-version="“1.0”" data-store="glossary-tooltip">linear term</term>, or middle term of a quadratic trinomial, equals zero only holds true for the <term data-schema-version="“1.0”" data-store="glossary-tooltip">difference of squares</term>. It does not work for an expression such as \(x^2+25\). (In fact, there is no way to multiply two binomials that would result in this expression.)</para>
 <para class="os-raise-text-bold">Example 3</para>
 <para>Is \((x + 5)^2\) equivalent to \(x^2+25\)?</para>
 <para>Let's find the equivalent expression for \((x + 5)^2\) or \((x + 5)(x + 5)\).</para>
-<para>\(\begin{array}{rcl}\left(x+5\right)^2&amp;=&amp;\left(x+5\right)\left(x+5\right)\\&amp;&amp;\\&amp;=&amp;x^2+5x+5x+25\\&amp;&amp;\\&amp;=&amp;x^2+10x+25\\&amp;&amp;\end{array}\)</para>
+<para>\(\begin{array}{rcl}\left(x+5\right)^2&amp;=&amp;\left(x+5\right)\left(x+5\right)\\&amp;&amp;\\&amp;=&amp;x^2+5x+5x+25\\&amp;&amp;\\&amp;=&amp;x^2+10x+25\\&amp;&amp;\end{array}\)
+  Since \(x^2+ 10x + 25\) is not equivalent to \(x^2+25\), these expressions are not the same.</para>
+
 <title>Try It: Recognizing the Expanded Product of the Difference of Two Squares</title>
+
 <list class="os-raise-noindent" type="enumerated">
   <item>Is the expression \((8 - 7)(8 + 7)\) equivalent to the expression \(8^2-7^2\)? Show your reasoning using the distributive property, or FOIL.</item>
 </list>
@@ -363,6 +385,7 @@
 <para>Here is how to recognize the expanded product of the difference of two squares:</para>
 <para>Yes. Here is how to use the difference of squares to show equivalency between the expressions:</para>
 <para>\((8 - 7)(8 + 7) = 8^2+ 56 - 56 - 7^2= 8^2 - 7^2\)</para>
+
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item>Is \((x + 4)(x + 4)\) equivalent to \(x^2+ 4^2\)? Support your answer with a diagram.</item>
 </list>
@@ -406,6 +429,7 @@
     </row>
   </tbody>
 </table>
+
 <para>\((x + 4)(x + 4) = x^2 + 8x + 4^2 = x^2 + 8x + 16\)</para>
 <para>It is not equivalent to \(x^2 + 4^2 = x^2 + 16\).</para></section>
 </content>

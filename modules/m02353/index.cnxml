@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02353</md:content-id>
     <md:title>9.2.2: Additional Resources</md:title>
-    <md:uuid>c8a5b7ed-466d-4e08-af19-6e72b92402d2</md:uuid>
+    <md:uuid>a6498041-b853-49bf-a772-ab4bf8cb55c3</md:uuid>
   </metadata>
   <content>
   <section><title>Completing the Square</title>
@@ -16,13 +16,18 @@
   <para><emphasis>Step 3</emphasis> - Add the \((\frac{b}{2})^2\) to \(x^2+bx\).</para>
   <para><emphasis>Step 4</emphasis> - Factor the perfect square trinomial, writing it as a binomial squared.</para>
 </note>
+
 <para><emphasis>Example</emphasis></para>
 <para>Complete the square to make a <term data-schema-version="1.0" data-store="glossary-tooltip">perfect square trinomial</term>. Then write the result as a binomial squared.</para>
 <para>\(x^2-26x\)</para>
-<para><emphasis>Step 1</emphasis> - Identify \(b\), the coefficient of \(x\).</para>
-<para><emphasis>Step 2</emphasis> - Find half of \(b\) and then square it. In other words, \((\frac{b}{2})^2\).</para>
-<para><emphasis>Step 3</emphasis> - Add the \((\frac{b}{2})^2\) to \(x^2+bx\).</para>
-<para><emphasis>Step 4</emphasis> - Factor the perfect square trinomial, writing it as a binomial squared.</para>
+<para><emphasis>Step 1</emphasis> - Identify \(b\), the coefficient of \(x\).
+  The coefficient of \(x\) is -26.</para>
+<para><emphasis>Step 2</emphasis> - Find half of \(b\) and then square it. In other words, \((\frac{b}{2})^2\).
+  \((-\frac{26}{2})^2=(-13)^2=169\)</para>
+<para><emphasis>Step 3</emphasis> - Add the \((\frac{b}{2})^2\) to \(x^2+bx\).
+  \(x^2-26x+169\)</para>
+<para><emphasis>Step 4</emphasis> - Factor the perfect square trinomial, writing it as a binomial squared.
+  \((x-13)^2\) </para>
 <title>Try It: Completing the Square</title>
 <example><exercise>
   <problem>
@@ -32,10 +37,14 @@
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
   <para>Here is how to complete the square.</para>
-  <para><emphasis>Step 1</emphasis> - Identify the coefficient of \(x\).</para>
-  <para><emphasis>Step 2</emphasis> - Find \((\frac{b}{2})^2\).</para>
-  <para><emphasis>Step 3</emphasis> - Add the \((\frac{b}{2})^2\) to the \(x^2+bx\).</para>
-  <para><emphasis>Step 4</emphasis> - Factor the perfect square trinomial.</para>
+  <para><emphasis>Step 1</emphasis> - Identify the coefficient of \(x\).
+    \(b=8\)</para>
+  <para><emphasis>Step 2</emphasis> - Find \((\frac{b}{2})^2\).
+    \((\frac{8}{2})^2=4^2 =16\)</para>
+  <para><emphasis>Step 3</emphasis> - Add the \((\frac{b}{2})^2\) to the \(x^2+bx\).
+    \(x^2+8x+ 16\)</para>
+  <para><emphasis>Step 4</emphasis> - Factor the perfect square trinomial.
+    \((x+4)^2\)</para>
 </solution></exercise>
 </example></section>
 </content>

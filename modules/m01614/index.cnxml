@@ -3,15 +3,19 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01614</md:content-id>
     <md:title>6.3.2: Dividing Polynomials Using Long Division</md:title>
-    <md:uuid>5709cac0-72ed-42c2-85ce-e68fd5a9692e</md:uuid>
+    <md:uuid>0b5bc9ed-2353-44bd-bb50-257b3fef6833</md:uuid>
   </metadata>
   <content>
   <section><title>Activity </title>
 <para>Recall the process of dividing \(960 \div 20\) as a class using long division. Use this same method to divide the polynomials below. After each problem, check in with a partner. With your partner, discuss your work and use the words dividend, divisor, and quotient in your explanations.</para>
+
 <example><exercise>
   <problem>
     
-    <para>Find the quotient using long division.</para>
+    <para>Find the quotient using long division.
+        
+        \((m^2+9m+20) \div (m+4)\)
+      </para>
     <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work or look through the video for help. </para>
     <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
       <iframe><video controls="true" crossorigin="anonymous">
@@ -22,38 +26,55 @@
   </problem><solution>
   <para>Compare your answer:</para>
   <para>\(m + 5\);</para>
-  <para>\[\begin{array}{l}m + 4\mathop{\left){\vphantom{1{{m^2} + 9m + 20}}}\right.</para>
+  <para>\[\begin{array}{l}m + 4\mathop{\left){\vphantom{1{{m^2} + 9m + 20}}}\right.
+    \!\!\!\!\overline{\,\,\,\vphantom 1{{{m^2} + 9m + 20}}}}
+    \limits^{\displaystyle\,\,\, {m\,\, + \,\,5}}\\\,\,\,\,\,\,\,\,\underline { - ({m^2} + 4m)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,5m + 20\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline {\, - (5m + 20)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
 </solution></exercise>
-</example><!--Text Entry Interaction Start -->
+</example>
+
+<!--Text Entry Interaction Start -->
 <example><exercise>
   <problem>
     
-    <para>Find the quotient using long division.</para>
+    <para>Find the quotient using long division.
+        
+        \((p^2+2p-8) \div (p^2-7p+10)\)
+      </para>
     <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
   </problem><solution>
   <para>Compare your answer:</para>
   <para>\(1+ \frac{9p-18}{p^2-7p+10}\)</para>
 </solution></exercise>
 </example><!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <example><exercise>
   <problem>
     
-    <para>Find the quotient using long division.</para>
+    <para>Find the quotient using long division.
+        
+        \((5x+5) \div (x+5)\)
+      </para>
     <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
   </problem><solution>
   <para>Compare your answer:</para>
   <para>\(5- \frac{20}{x+5}\)</para>
 </solution></exercise>
 </example><!--Interaction End -->
+
 <note>
   <para>Notice in the next problem, there is no \(x^3\) term in the dividend. Add \(0x^3\) as a placeholder when using long division.</para>
 </note>
+
 <!--Text Entry Interaction Start -->
 <example><exercise>
   <problem>
     
-    <para>Find the quotient using long division.</para>
+    <para>Find the quotient using long division.
+        
+        \((x^4-11x^2-7x-6) \div (x+3)\)
+      </para>
     <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
   </problem><solution>
   <para>Compare your answer:</para>
@@ -73,14 +94,19 @@
   \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,-3\end{array}\] </para>
 </solution></exercise>
 </example><!--Interaction End -->
+
 <note>
   <para>In this next problem, you will need to add two placeholders to divide.</para>
 </note>
+
 <!--Text Entry Interaction Start -->
 <example><exercise>
   <problem>
     
-    <para>Find the quotient using long division.</para>
+    <para>Find the quotient using long division.
+        
+        \((125x^3-8) \div (5x-2)\)
+      </para>
     <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
   </problem><solution>
   <para>Compare your answer:</para>
@@ -96,6 +122,8 @@
   \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\] </para>
 </solution></exercise>
 </example><!--Interaction End -->
+
+
 <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
 <example><exercise>
   <problem>
@@ -114,9 +142,12 @@
     <para>Enter your answer here:</para>
   <para>Compare your answer:</para>
     <para>\(25y^4+4y^3-3y^2+5y+6\);</para>
-    <para>\[\begin{array}{l}5y - 4\mathop{\left){\vphantom{1{125{y^5} - 80{y^4} - 31{y^3} + 37{y^2} + 10y - 24}}}\right.</para>
+    <para>\[\begin{array}{l}5y - 4\mathop{\left){\vphantom{1{125{y^5} - 80{y^4} - 31{y^3} + 37{y^2} + 10y - 24}}}\right.
+      \!\!\!\!\overline{\,\,\,\vphantom 1{{125{y^5} - 80{y^4} - 31{y^3} + 37{y^2} + 10y - 24}}}}
+      \limits^{\displaystyle\,\,\, {25{y^4} + \,\,\,4{y^3}\,\, - \,\,3{y^2}\,\, + \,\,5y\,\,\, + \,\,6\,}}\\\,\,\,\,\,\,\,\,\,\,\underline { - (125{y^5} - 100{y^4})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,20{y^4} - 31{y^3}\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (20{y^4} - 16{y^3})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - \,15{y^3} + 37{y^2}\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ( - \,15{y^3} + 12{y^2})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,25{y^2} + 10y\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (25{y^2} - 20y)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,30y - 24\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (30y - 24)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
   </solution></exercise>
 <!--End interaction-->
+
 <title>Video: Dividing Polynomials Using Long Division</title>
 <para>Watch the following video to learn more about how to divide polynomials using long division.</para>
 <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">

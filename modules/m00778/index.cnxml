@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00778</md:content-id>
     <md:title>3.5.2: Additional Resources</md:title>
-    <md:uuid>0cb593f7-7821-4f96-b03f-d90184f143f0</md:uuid>
+    <md:uuid>0f46d969-5d88-4fea-901f-3f48c8945897</md:uuid>
   </metadata>
   <content>
   <section><title>Calculating and Interpreting Correlation Coefficients</title>
@@ -23,8 +23,8 @@
 <table class="os-raise-midsizetable">
   <thead>
     <row>
-      <entry scope="col" class="emphasis">\(x\) (Shoe Length)</entry>
-      <entry scope="col" class="emphasis">\(y\) (Height)</entry>
+      <entry scope="col" class="emphasis">\(x\) (Shoe Length)Inches</entry>
+      <entry scope="col" class="emphasis">\(y\) (Height)  Inches</entry>
     </row>
   </thead>
   <tbody>
@@ -70,7 +70,8 @@
     </row>
   </tbody>
 </table>
-<para/>
+<para>
+  The correlation coefficient is \(r \approx 0.65\).</para>
 <para>Based on the table, there is a moderate positive linear relationship between shoe length and height.</para>
 <para>The table below shows how you can informally interpret the value of a correlation coefficient</para>
 
@@ -120,6 +121,7 @@
     </row>
   </tbody>
 </table>
+
 <title>Try It: Calculating and Interpreting Correlation Coefficients</title>
 <para>Consumer Reports published a study of fast-food items. The table and scatter plot below display the fat content (in grams) and number of calories per serving for 16 fast-food items.</para>
 
@@ -130,8 +132,8 @@
     <thead>
 
       <row>
-        <entry scope="col" class="emphasis">Fat</entry>
-        <entry scope="col" class="emphasis">Calories</entry>
+        <entry scope="col" class="emphasis">Fat(g)</entry>
+        <entry scope="col" class="emphasis">Calories(kcal)</entry>
       </row>
     </thead>
     <tbody>
@@ -202,7 +204,9 @@
       </tbody>
     </table>
 </div>
+
 <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
+
 <!--Q#-->
 <example><exercise>
   <problem>
@@ -215,6 +219,7 @@
     linear relationship between fat content and calories.</para>
 </solution></exercise>
 </example><!--Interaction End -->
+
 <!-- END CLICK TO REVEAL NO TEXTBOX --></section>
 </content>
 </document>

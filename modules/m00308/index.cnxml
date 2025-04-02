@@ -3,31 +3,41 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00308</md:content-id>
     <md:title>1.14.2 Additional Resources</md:title>
-    <md:uuid>58ef42ee-3ad8-46f5-b336-de5b3b7a1ee3</md:uuid>
+    <md:uuid>6812d6d9-a727-42aa-a9a1-f7918ef43fcc</md:uuid>
   </metadata>
   <content>
   <section><title>Find an Equation Given Two Points</title>
 <title>Method 1: Using Point-Slope Form</title>
 <para>Find an equation of a line that contains the points \((5, 4)\) and \((3, 6)\). Write the equation in slope-intercept form.</para>
-<para><emphasis>Step 1</emphasis> - Find the slope between the two points.</para>
-<para><emphasis>Step 2</emphasis> - Choose a point to substitute into point-slope form.</para>
+<para><emphasis>Step 1</emphasis> - Find the slope between the two points.
+  \(m=\frac{6-4}{3-5}=\frac{2}{-2}=-1\)</para>
+<para><emphasis>Step 2</emphasis> - Choose a point to substitute into point-slope form.
+  \(y-y_1=m(x-x_1)\)
+  \(y-4=-1(x-5)\) OR \(y-6=-1(x-3) \)</para>
 <para><emphasis>Step 3</emphasis> - Write the equation in slope-intercept form.</para>
 <div class="os-raise-d-flex os-raise-justify-content-evenly">
   <para>\(\begin{array}{rcl}y-4&amp;=&amp;-1(x-5)\\y-4&amp;=&amp;-1x+5\\y&amp;=&amp;-x +9\end{array}\)</para>
   <para>OR</para>
   <para>\(\begin{array}{rcl}y-6&amp;=&amp;-1(x-3)\\ y-6&amp;=&amp;-1x+3\\y&amp;=&amp;-x +9\end{array}\)</para>
 </div>
+
 <para><emphasis>Method 2: Writing an Equation in Slope-Intercept Form by finding \(b\).</emphasis></para>
 <para>Find the equation of the line containing the points \((3, 1)\) and \((5, 6)\) in slope-intercept form.</para>
-<para><emphasis>Step 1</emphasis> - Find the slope between the two points.</para>
-<para><emphasis>Step 2</emphasis> - Choose a point to substitute into slope-intercept form then solve for \(b\). </para>
+<para><emphasis>Step 1</emphasis> - Find the slope between the two points.
+  \(m=\frac{6-1}{5-3}=\frac{5}{2}\)</para>
+<para><emphasis>Step 2</emphasis> - Choose a point to substitute into slope-intercept form then solve for \(b\). 
+  \(y=mx+b\)</para>
 <div class="os-raise-d-flex os-raise-justify-content-evenly">
   <para>\(\begin{array}{rcl}y&amp;=&amp;\frac{5}{2}x+b\\1&amp;=&amp;\frac{5}{2}(3)+b\\\frac{2}{2}&amp;=&amp;\frac{15}{2}+b\\b&amp;=&amp;\frac{13}{2}\end{array}\)</para>
   <para> OR</para>
   <para> \(\begin{array}{rcl}y&amp;=&amp;\frac{5}{2}x+b\\6&amp;=&amp;\frac{5}{2}(5)+b\\\frac{12}{2}&amp;=&amp;\frac{25}{2}+b\\b&amp;=&amp;\frac{13}{2}\end{array}\)</para>
 </div>
-<para><emphasis>Step 3</emphasis> - Write the equation in slope-intercept form.</para>
+
+<para><emphasis>Step 3</emphasis> - Write the equation in slope-intercept form.
+  \(y=\frac{5}{2}x+\frac{13}{2}\)</para>
+
 <title>Try It: Find an Equation Given Two Points</title>
+
 <!--Q#-->
 <example><exercise>
   <problem>
@@ -37,14 +47,18 @@
   </problem><solution>
   <para>Compare your answer:</para>
   <para>\(y=-\frac{2}{5}x+\frac{22}{5}\)</para>
-  <para><emphasis>Step 1</emphasis> - Find the slope between the two points.</para>
-  <para><emphasis>Step 2</emphasis> - Choose a point to substitute into slope-intercept form then solve for \(b\). </para>
+  <para><emphasis>Step 1</emphasis> - Find the slope between the two points.
+    \(m=\frac{2-4}{6-1}=\frac{-2}{5}\)</para>
+  <para><emphasis>Step 2</emphasis> - Choose a point to substitute into slope-intercept form then solve for \(b\). 
+    \(y=mx+b\)</para>
   <div class="os-raise-d-flex os-raise-justify-content-evenly">
     <para>\(\begin{array}{rcl}y&amp;=&amp;-\frac{2}{5}x+b\\4&amp;=&amp;-\frac{2}{5}(1)+b\\\frac{20}{5}&amp;=&amp;-\frac{2}{5}+b\\b&amp;=&amp;\frac{22}{5}\end{array}\)</para>
     <para>OR</para>
     <para>\(\begin{array}{rcl}y&amp;=&amp;-\frac{2}{5}x+b\\2&amp;=&amp;-\frac{2}{5}(6)+b\\\frac{10}{5}&amp;=&amp;-\frac{12}{5}+b\\b&amp;=&amp;\frac{22}{5}\end{array}\)</para>
   </div>
-  <para><emphasis>Step 3</emphasis> - Write the equation in slope-intercept form.</para>
+  
+  <para><emphasis>Step 3</emphasis> - Write the equation in slope-intercept form.
+    \(y=-\frac{2}{5}x+\frac{22}{5}\) </para>
 </solution></exercise>
 </example><!--Interaction End --> 
 

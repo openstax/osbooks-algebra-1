@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00426</md:content-id>
     <md:title>2.4.2: Additional Resources</md:title>
-    <md:uuid>09c03a5a-8ed6-49e6-bbfc-123213f67260</md:uuid>
+    <md:uuid>2885ad2c-ba81-4e66-839c-ba7f9fd94e40</md:uuid>
   </metadata>
   <content>
   <section><title>The Elimination method of Solving Systems of Equations</title>
@@ -14,26 +14,46 @@
 <para>To solve a <term data-store="glossary-tooltip" data-schema-version="1.0">system of equations</term> by elimination, we start with both equations in standard form. Then we decide which variable will be easiest to eliminate. How do we decide? We want to have the coefficients of one variable be opposites so that we can add the equations together and eliminate that variable</para>
 <para>Notice how that works when we add these two equations together:</para>
 <para> \(\underline{\left\{\begin{array}{l}3\;x\;+\;y\;=\;5\;\\2\;x\;-\;y\;=\;0\end{array}\right.}\\\;\;\;\;\;\;\;\;\;\;\;\;\;5x=5\)</para>
+
 <para>The \(y\)’s add to zero, and we have one equation with one variable.</para>
 <para>Let’s try another one:</para>
 <para>\(\begin{array}{rcl}\left\{\begin{array}{ccc}4p\;-\;2s\;&amp;=&amp;\;-26\\-5p\;+\;2s\;&amp;=&amp;\;29\end{array}\right.\end{array}\)</para>
 <para> <emphasis>We can add the equations, so \(s\) will be eliminated when we add these two equations.</emphasis></para>
 <para>\(\underline{\left\{\begin{array}{c}4p\;-\;2s\;&amp;=&amp;\;-26\\-5p\;+\;2s\;&amp;=&amp;\;29\end{array}\right.}\\\;\;\;\;\;\;\;\;\;\;\;\;\;\;-p\;=\;3\\\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;p\;=-3\)</para>
+
 <para> Once we get an equation with just one variable, we solve it. Then we substitute that value into one of the original equations to solve for the remaining variable. And, as always, we check our answer to make sure it is a solution to both of the original equations.</para>
 <para><emphasis>Example</emphasis></para>
 <para>Solve the system by elimination:</para>
 <para>\(\begin{array}{l}\left\{\begin{array}{c}4\;x\;+\;8\;y\;=\;12\\4x-5y=38\end{array}\right.\end{array}\)</para>
-<para><emphasis>STEP 1 - </emphasis> Write both equations in standard form. If any coefficients are fractions, clear them.</para>
-<para><emphasis>STEP 2 - </emphasis>Check to see if the coefficients of one variable are opposites or equivalent.</para>
-<para><emphasis>STEP 3 -</emphasis> Subtract the equations to eliminate one variable. </para>
-<para><emphasis>STEP 4 -</emphasis> Solve for the remaining variable. </para>
-<para><emphasis>STEP 5 -</emphasis> Substitute the solution from Step 4 into one of the original equations. Then solve for the other variable.</para>
-<para><emphasis>STEP 6 -</emphasis> Write the solution as an ordered pair.</para>
+<para><emphasis>STEP 1 - </emphasis> Write both equations in standard form. If any coefficients are fractions, clear them.
+\( 4x + 8y = 12 \) 
+\( 4x - 5y = 38 \) </para>
+<para><emphasis>STEP 2 - </emphasis>Check to see if the coefficients of one variable are opposites or equivalent.
+  The coefficients on the \(x\)-variables are equivalent. We can subtract the equations. </para>
+<para><emphasis>STEP 3 -</emphasis> Subtract the equations to eliminate one variable. 
+  \(\begin{array}{l}\underline{4\;x\;+\;8\;y\;=\;12\\\;\;4\;x\;–\;5\;y\;=\;38}\\\;\;\;\;\;\;\;\;\;13\;y\;=\;–\;26\end{array}\)</para>
+<para><emphasis>STEP 4 -</emphasis> Solve for the remaining variable. 
+  \(\begin{array}{rcl}13y\;&amp;=&amp;\;–26\\y\;&amp;=&amp;\;–2\end{array}\) </para>
+<para><emphasis>STEP 5 -</emphasis> Substitute the solution from Step 4 into one of the original equations. Then solve for the other variable.
+  \(\begin{array}{rcl}4x\;+\;8y\;&amp;=&amp;\;12\\4x\;+\;8{\style{color:red}(}{\style{color:red}–}{\style{color:red}2}{\style{color:red})}\;&amp;=&amp;\;12\\4x\;–\;16\;&amp;=&amp;\;12\\4x\;\;\;\;\;\;\;\;\;\;\;&amp;=&amp;\;28\\x\;\;\;\;\;\;\;\;\;\;\;&amp;=&amp;\;7\end{array}\) </para>
+<para><emphasis>STEP 6 -</emphasis> Write the solution as an ordered pair.
+  \( (7, -2)\) </para>
 <para><emphasis>STEP 7 -</emphasis> Check that the ordered pair is a solution to both original equations. </para>
-<div class="os-raise-d-flex os-raise-justify-content-evenly"><para>  \( 4x + 8y = 12 \)               </para>
-<para>\( 4x - 5y = 38 \) </para></div>
+<div class="os-raise-d-flex os-raise-justify-content-evenly"><para>  \( 4x + 8y = 12 \)               
+\( 4{\style{color:red}(}{\style{color:red}7}{\style{color:red})} + 8{\style{color:red}(}{\style{color:red}-}{\style{color:red}2}{\style{color:red})} = 12 \)       
+\( 28 - 16 = 12 \)               
+\( 12 = 12 {\style{color:red}✔}\)                   </para>
+<para>\( 4x - 5y = 38 \) 
+\( 4{\style{color:red}(}{\style{color:red}7}{\style{color:red})} - 5{\style{color:red}(}{\style{color:red}-}{\style{color:red}2}{\style{color:red})} = 38 \) 
+\( 28 + 10 = 38 \) 
+\( 38 = 38 {\style{color:red}✔}\) </para></div>
+
+
 <title>Try It: The Elimination Method of Solving Systems of Equations</title>
 <!--Text Entry Interaction Start -->
+
+
+
 <exercise>
   <problem>
    <para>Solve the system by elimination:</para>
@@ -43,15 +63,38 @@
     
    <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
   <para> Here is how to solve the system by elimination. Compare your answer:</para>
-<para><emphasis>Step 1</emphasis> - Write both equations in standard form. </para>
-<para><emphasis>Step 2</emphasis> - Check to see if the coefficients of one variable are opposites or equivalent. <emphasis>The coefficients on the \(x\)-variables are opposites. We can add the equations.</emphasis></para>
-<para><emphasis>Step 3</emphasis> - Add the equations resulting from Step 2 to eliminate one variable. </para>
-<para><emphasis>Step 4</emphasis> - Solve for the remaining variable. </para>
-<para><emphasis>Step 5</emphasis> - Substitute the solution from Step 4 into one of the original equations. Then solve for the other variable. </para>
-<para><emphasis>Step 6</emphasis> - Write the solution as an ordered pair. </para>
+<para><emphasis>Step 1</emphasis> - Write both equations in standard form. 
+  \( 3x + y = 5 \)  
+\( -3x - 7y = 1 \) </para>
+<para><emphasis>Step 2</emphasis> - Check to see if the coefficients of one variable are opposites or equivalent. 
+  <emphasis>The coefficients on the \(x\)-variables are opposites. We can add the equations.</emphasis></para>
+<para><emphasis>Step 3</emphasis> - Add the equations resulting from Step 2 to eliminate one variable. 
+  \( 3x + y = 5 \)
+    
+  \( -3x - 7y = 1 \)
+  
+\( -6y = 6 \) </para>
+<para><emphasis>Step 4</emphasis> - Solve for the remaining variable. 
+  \( y = -1 \) </para>
+<para><emphasis>Step 5</emphasis> - Substitute the solution from Step 4 into one of the original equations. Then solve for the other variable. 
+  \( 3x + y = 5 \)
+    
+  \( 3x + {\style{color:red}(}{\style{color:red}–}{\style{color:red}1}{\style{color:red})} = 5 \)
+  
+  \( 3x - 1 = 5 \)
+  
+  \( x = 2 \)</para>
+<para><emphasis>Step 6</emphasis> - Write the solution as an ordered pair. 
+  \((2, -1)\) </para>
 <para><emphasis>Step 7</emphasis> - Check that the ordered pair is a solution to both original equations.</para>
-<div class="os-raise-d-flex os-raise-justify-content-evenly"><para>  \( 3x + y = 5 \)                     </para>
-<para>\( -3x - 7y = 1 \) </para></div>
+<div class="os-raise-d-flex os-raise-justify-content-evenly"><para>  \( 3x + y = 5 \)                     
+  \( 3(2) + (-1) = 5 \)                 
+  \( 6 - 1 = 5 \)                            
+  \( 5 = 5 {\style{color:red}&amp;checkmark;}\)                                  </para>
+<para>\( -3x - 7y = 1 \) 
+  \( -3(2) - 7(-1) = 1 \) 
+  \( -6 + 7 = 1 \) 
+\( 1 = 1 {\style{color:red} &amp;checkmark;}\) </para></div>
   </solution></exercise>
 <!--Interaction End --></section>
 </content>

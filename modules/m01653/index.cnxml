@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01653</md:content-id>
     <md:title>6.5.4: Factoring Trinomials Using the “ac” Method and Substitution</md:title>
-    <md:uuid>7fef9662-d446-4a74-b9d2-3337264b2aec</md:uuid>
+    <md:uuid>a0a69c73-b892-4747-a019-52dabc06c0f4</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -16,6 +16,7 @@
 <para>Allow time for students to complete questions 4 – 6. Pause for student questions about using substitution to factor before moving to the activity synthesis.</para>
 <title>Student Activity </title>
 <para>Let’s learn a new method that always works on any trinomial of the form \(ax^2 + bx + c\).</para>
+
 <note>
   <para> <emphasis> How to factor trinomials of the form \(ax^2 + bx + c\) using the “\(ac\)” method: </emphasis></para>
   <hr/>
@@ -32,6 +33,7 @@
   <para><emphasis>Step 5 -</emphasis> Factor by grouping.</para>
   <para><emphasis>Step 6 -</emphasis> Check by multiplying the factors.</para>
 </note>
+
 <para>Factor each trinomial using the “\(ac\)” method.</para>
 <list class="os-raise-noindent" type="enumerated">
   <item> \(16x^2 − 32x + 12\) </item>
@@ -65,6 +67,7 @@
 <title>Activity Synthesis</title>
 <para>In this activity, students learned two new ways to factor trinomials. By using the “\(ac\)” method, students can solve any trinomial of the form \(ax^2 + bx + c\).</para>
 <para>Ask the class as a whole to brainstorm the steps used in the “\(ac\)” method.</para>
+
 <note>
   <para> <emphasis> How to factor trinomials of the form \(ax^2 + bx + c\) using the “\(ac\)” method: </emphasis></para>
   <hr/>
@@ -79,12 +82,14 @@
     <item>add to \(b\): \(m + n = b\).</item>
   </list>
   <para>Step 4 - 
-    Split the middle term using \(m\) and \(n\).</para>
+    Split the middle term using \(m\) and \(n\).
+    \(ax^2 + mx + nx + c\)</para>
   <para>Step 5 - 
     Factor by grouping.</para>
   <para>Step 6 - 
     Check by multiplying the factors.</para>
 </note>
+
 <para>By using substitution, some trinomials that could not previously be factored using the methods we know will now seem to have the form \(ax^2 + bx + c\).</para>
 <para>Ask students to name sample values for which \(u\) could be substituted in a polynomial:</para>
 <list>
@@ -122,6 +127,7 @@
     </row>
   </tbody>
 </table>
+
 <title>6.5.4: Additional Resources</title>
 <para class="os-raise-text-bold os-raise-text-italicize">The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</para>
 <title>Factoring Trinomials Using the “\(ac\)” Method</title>
@@ -129,7 +135,9 @@
 <para class="os-raise-text-bold">Example 1</para>
 <para>Factor using the “\(ac\)” method: \(6x^2 + 7x + 2\).</para>
 <para><emphasis>Step 1 -</emphasis> Factor any GCF.</para>
-<para>  Is there a greatest common factor?</para>
+<para>  Is there a greatest common factor?
+  \(6x^2 + 7x + 2\)
+  No!</para>
 <para><emphasis>Step 2 -</emphasis> Find the product \(ac\).</para>
 <para>  \(
   {\style{color:red}a}
@@ -146,13 +154,16 @@
   \;
   {\style{color:red}c}
   \\6x^2+7x+2\)
-  \(6 \cdot 2\)</para>
+  \(6 \cdot 2\)
+  12</para>
 <para><emphasis>Step 3 -</emphasis> Find two numbers, \(m\) and \(n\), that</para>
 <list>
   <item>multiply to \(ac\): \(m \cdot n = a \cdot c\).</item>
   <item>add to \(b\): \(m + n = b\).</item>
 </list>
-<para>Find two numbers that multiply to 12 and add to 7. Both factors must be positive.</para>
+<para>Find two numbers that multiply to 12 and add to 7. Both factors must be positive.
+  \(3 \cdot 4 = 12\)
+  \(3 + 4 = 7\)</para>
 <para><emphasis>Step 4 - 
   </emphasis>Split the middle term using \(m\) and \(n\).</para>
 <para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/aa741f0ec41115d2cf8f76221c37bf20a304e192"/></media></figure></para>
@@ -160,9 +171,13 @@
 <para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/f95237074a7e4936a16ad8661e90cf711322646d"/></media></figure></para>
 <para>Notice that \(6x^2 + 3x + 4x + 2\) is equal to \(6x^2 + 7x + 2\). We just split the middle term to get a more useful form.</para>
 <para><emphasis>Step 5 -</emphasis> Factor by grouping.</para>
-<para>  \(3x(2x + 1) + 2(2x + 1)\)</para>
+<para>  \(3x(2x + 1) + 2(2x + 1)\)
+  \((2x + 1)(3x + 2)\)</para>
 <para><emphasis>Step 6 -</emphasis> Check by multiplying the factors.</para>
-<para>  \((2x + 1)(3x + 2)\)</para>
+<para>  \((2x + 1)(3x + 2)\)
+  \(6x^2 + 4x + 3x + 2\)
+  \(6x^2 + 7x + 2 \checkmark\)
+</para>
 <para>The “\(ac\)” method is summarized here:</para>
 <note>
   <para> <emphasis> How to factor trinomials of the form \(ax^2 + bx + c\) using the “\(ac\)” method: </emphasis></para>
@@ -180,27 +195,33 @@
   <para><emphasis>Step 5 -</emphasis> Factor by grouping.</para>
   <para><emphasis>Step 6 -</emphasis> Check by multiplying the factors.</para>
 </note>
+
+
 <title>Try It: Factoring Trinomials Using the “\(ac\)” Method</title>
 <para>Factor using the “\(ac\)” method: \(10y^2 − 55y + 70\).</para>
 <para>Write down your answer. Then select the <emphasis>Solution </emphasis>button to compare your work.</para>
 <title> Solution</title>
 <para>Here is how to use the “\(ac\)” method to factor a trinomial.</para>
 <para><emphasis>Step 1 -</emphasis> Is there a greatest common factor?</para>
-<para>  \(10y^2-55y+70\)</para>
+<para>  \(10y^2-55y+70\)
+  Yes. The GCF is 5.</para>
 <para><emphasis>Step 2 -</emphasis> Factor it.</para>
 <para>  \(5(2y^2-11y+14)\)</para>
 <para><emphasis>Step 3 - 
   </emphasis>The trinomial inside the parentheses has a leading coefficient that is not \(1\).</para>
 <para>  \(\begin{array}{c}{\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}+{\style{color:red}b}{\style{color:red}x}+{\style{color:red}c}\\5(2y^2-11y+14)\end{array}\) </para>
-<para>Find the product \(ac\).</para>
+<para>Find the product \(ac\).
+  \(ac=28\)</para>
 <para><emphasis>Step 4 - 
   </emphasis>Find two numbers that multiply to \(ac\) and add to \(b\).</para>
-<para>  \((-4)(-7)=28\)</para>
+<para>  \((-4)(-7)=28\)
+  \(-4+(-7)=-11\)</para>
 <para><emphasis>Step 5 - 
 </emphasis>Split the middle term.</para>
 <para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/2bd20fbcb7c846a9536d0ae1464d5c3bde7ccaea"/></media></figure></para>
 <para><emphasis>Step 6 -</emphasis> Factor the trinomial by grouping.</para>
-<para> \(5(y(2y-7)-2(2y-7))\)</para>
+<para> \(5(y(2y-7)-2(2y-7))\)
+  \(5(y-2)(2y-7)\)</para>
 <para><emphasis>Step 7 -</emphasis> Check by multiplying all three factors.</para>
 <para>
   <m:math display="inline">

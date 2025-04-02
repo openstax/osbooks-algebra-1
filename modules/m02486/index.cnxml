@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02486</md:content-id>
     <md:title>9.9.5: Practice</md:title>
-    <md:uuid>11177120-d766-4c59-91c0-5e91655a67e5</md:uuid>
+    <md:uuid>9322c48b-bc49-442d-bb7e-0a34ba2140b7</md:uuid>
   </metadata>
   <content>
   <section><para>Complete the following questions to practice the skills you have learned in this lesson.</para>
@@ -16,21 +16,30 @@
       </problem>
     <solution>
       <para>Correct! \((-4, 6)\)</para>
-      <para>\((\frac{b}{2})^2=(\frac{8}{2})^2=16\)</para>
+      <para>\((\frac{b}{2})^2=(\frac{8}{2})^2=16\)
+        \(f(x)=x^2+8x+16+22-16\)
+        \(f(x)=(x+4)^2+6\)
+        Vertex: \((-4, 6)\)</para>
     </solution>
     <div class="os-raise-ib-pset-encourage-response">
       <para>Try again. Revisit activity 9.9.1.</para>
     </div>
     </exercise>
+
+
 <!--Q2-->
 <exercise data-content-id="8585ee96-150f-4228-848f-ad2e0dccfa9c" data-problem-comparator="math" data-problem-type="input" data-solution="f(x)=x^2-2x-8">
   <problem>
     <para>For questions 2 – 4, use the function \(f(x)=(x-4)(x+2)\).</para>
-<para>Write the function in standard form. </para>
+
+      <para>Write the function in standard form. </para>
     </problem>
   <solution>
     <para>Correct! \(f(x)=x^2-2x-8\)</para>
-    <para>Expand:</para>
+    <para>Expand:
+      \(f(x)=(x-4)(x+2)\)
+      \(f(x)=x^2-4x+2x-8\)
+      \(f(x)=x^2-2x-8\)</para>
   </solution>
   <div class="os-raise-ib-pset-encourage-response">
     <para>Try again. Revisit activity 9.9.2.</para>
@@ -38,6 +47,8 @@
   </exercise>
 
 <!--Interaction End -->
+
+
 <!--Q3-->
 <exercise data-content-id="55fe7e4c-ebc6-43b7-96e9-5c03353479ae" data-problem-comparator="math" data-problem-type="input" data-solution="f(x)=(x-1)^2-9">
   <problem>
@@ -45,13 +56,18 @@
     </problem>
   <solution>
     <para>Correct! \(f(x)=(x-1)^2-9\)</para>
-    <para>Complete the square:</para>
+    <para>Complete the square:
+      \(f(x)=x^2 - 2x + 1 - 8 - 1\)
+      \(f(x)=(x^2 - 2x + 1) - 9\)
+      \(f(x)=(x-1)^2 - 9\)</para>
   </solution>
   <div class="os-raise-ib-pset-encourage-response">
     <para>Try again. Revisit activity 9.9.2.</para>
   </div>
   </exercise>
 <!--Interaction End -->
+
+
 <!--Q4-->
 <!--Q#4-->
 <exercise data-content-id="95479bf9-631e-4a04-ac3e-9a400994015d" data-problem-type="multiplechoice" data-retry-limit="3" data-solution="\((1, -9)\)" data-solution-options="[&quot;\\((1, -9)\\)&quot;, &quot;\\((1, 9)\\)&quot;, &quot;\\((-1, 9)\\)&quot;, &quot;\\((-9, -1)\\)&quot;]">
@@ -60,28 +76,44 @@
     </problem>
   <solution>
     <para>Correct! The vertex is \((1, -9)\).</para>
-    <para>The function is written in vertex form:</para>
+    <para>The function is written in vertex form:
+      \(f(x) = (x - h)^2 + k\)
+      \(f(x) = (x - 1)^2 - 9\)
+      \(h = 1\) and \(k = -9\)
+      So, the vertex is \((1, -9)\).
+    </para>
   </solution>
   <div class="os-raise-ib-pset-encourage-response">
     <para>Try again. Revisit activity 9.9.1.</para>
   </div>
   </exercise>
+
+
+
 <!--Interaction End -->
-<!--Q#5-->
+
+
+
+  <!--Q#5-->
 <exercise data-content-id="1ed28060-bc51-4003-91db-cfee70fddd12" data-problem-comparator="math" data-problem-type="input" data-solution="-1/50">
   <problem>
     <para>For questions 5 - 6, write an equation in vertex form of the quadratic function that has a vertex at \((-4, 1)\) and also goes through the point \((6, -1)\).</para>
+      
       <para>Find the value of \(a\) for vertex form in simplest form. </para>
     <para>Enter your answer here.</para>
   </problem>
   <solution>
     <para>Correct! \( \frac{-1}{50} \)</para>
-    <para>\(-1=a(6-(-4))^2+1\)</para>
+    <para>\(-1=a(6-(-4))^2+1\)
+        \(-1=a(10)^2+1\)
+        \(-2=100a\)
+        \(a=\frac{-2}{100}=\frac{-1}{50}\)</para>
   </solution>
   <div class="os-raise-ib-pset-encourage-response">
     <para>Try again. Revisit activity 9.9.3.</para>
   </div>
   </exercise>
+
 <!--Q#6-->
 <exercise data-content-id="5cb3fdfc-ced5-4ef0-ae95-b0c6c6541248" data-problem-comparator="math" data-problem-type="input" data-solution="y=\\frac{-1}{50}(x+4)^2+1">
   <problem>
@@ -97,6 +129,8 @@
   </exercise>
 
 <!--Interaction End -->
+
+  
 <!--Q#7-->
 <exercise data-content-id="a801a69a-ce71-4fc4-8cf5-402892a8e844" data-problem-comparator="math" data-problem-type="input" data-solution="5/36">
   <problem>
@@ -106,12 +140,17 @@
   </problem>
   <solution>
     <para>Correct! \( \frac{5}{36} \)</para>
-    <para>\(2=a(4-(-2))^2+(-3)\)</para>
+    <para>\(2=a(4-(-2))^2+(-3)\)
+        \(2=a(6)^2+(-3)\)
+        \(2+3=36a+(-3)+3\)
+        \(5=36a\)
+        \(a=\frac{5}{36}\)</para>
   </solution>
   <div class="os-raise-ib-pset-encourage-response">
     <para>Try again. Revisit activity 9.9.3.</para>
   </div>
   </exercise>
+
 
 <!--Q8-->
 <exercise data-content-id="25dd1a17-d959-45a0-9466-755d9d347cff" data-problem-comparator="math" data-problem-type="input" data-solution="y=\frac{5}{36}(x+2)^2-3">
@@ -126,21 +165,27 @@
   </div>
   </exercise>
 <!--Interaction End -->
+
 <!--Q#9-->
 <exercise data-content-id="0ea78142-8d2b-4f7c-ad07-60bf616e0e8c" data-problem-comparator="math" data-problem-type="input" data-solution="g(x)=(x+4)^2+6">
   <problem>
     <para>For questions 9 - 10, use the function \(f(x)=x^2\) that is shifted to create the function \(g(x)\) that has a vertex at \((-4, 6)\).</para>
+    
     <para>Write \(g(x)\) in vertex form. </para>
     </problem>
   <solution>
     <para>Correct! \(g(x)=(x+4)^2+6\)</para>
-    <para>Substitute the vertex in for \((h, k)\):</para>
+    <para>Substitute the vertex in for \((h, k)\):
+      \(g(x)=(x-(-4))^2+6\)
+      \(g(x)=(x+4)^2+6\)</para>
   </solution>
   <div class="os-raise-ib-pset-encourage-response">
     <para>Try again. Revisit activity 9.9.3.</para>
   </div>
   </exercise>
 <!--Interaction End -->
+
+
 <!--Q10-->
 <exercise data-content-id="60bd9f86-e40b-4662-9244-1f9ad22d5935" data-problem-comparator="math" data-problem-type="input" data-solution="g(x)=x^2+8x+22">
   <problem>
@@ -148,7 +193,11 @@
     </problem>
   <solution>
     <para>Correct! \(g(x)=x^2+8x+22\)</para>
-    <para>Expand and simplify:</para>
+    <para>Expand and simplify:
+      \(g(x)=(x+4)^2+6\)
+      \(g(x)=(x+4)(x+4)+6\)
+      \(g(x)=x^2+4x+4x+16+6\)
+      \(g(x)=x^2+8x+22\)</para>
   </solution>
   <div class="os-raise-ib-pset-encourage-response">
     <para>Try again. Revisit activity 9.9.3.</para>

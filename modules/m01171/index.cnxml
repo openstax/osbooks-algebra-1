@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01171</md:content-id>
     <md:title>4.17.2: Additional Resources</md:title>
-    <md:uuid>a39c9784-9f18-4f39-82b4-77e233eb96fa</md:uuid>
+    <md:uuid>a37b0417-507a-490e-b1d5-ee143284bf15</md:uuid>
   </metadata>
   <content>
   <section><title>Writing Recursive Definitions</title>
@@ -14,6 +14,7 @@
 <para>Let’s look at some examples from the first activity and write the recursive definition for each type of sequence:</para>
 
 <title>Example 1</title>
+
 <para><emphasis>Sequence A:</emphasis> \(30, 40, 50, 60, 70, …\)</para>
 <para><emphasis>Step 1</emphasis> - Determine the type of sequence</para>
 <para>This sequence is arithmetic.</para>
@@ -34,6 +35,7 @@
 <para>The recursive definition for 30, 40, 50, 60, 70, … is \( A(1) = 30 \), \( A(n) = A(n-1) + 10 \), \( n \geq 2 \).</para>
 
 <title>Example 2</title>
+
 <para><emphasis>Sequence B:</emphasis> \(80, 40, 20, 10, 5, 2.5, …\)</para>
 <para><emphasis>Step 1</emphasis> - Determine the type of sequence</para>
 <para>This sequence is geometric.</para>
@@ -54,6 +56,7 @@
 <para>The recursive definition for 80, 40, 20, 10, 5, 2.5, … is \( B(1) = 80 \), \( B(n) = B(n-1) \times \frac{1}{2} \), \( n \geq 2 \).</para>
 
 <title>Example 3</title>
+
 <para><emphasis>Sequence F:</emphasis> \(1, 3, 7, 15, 31, …\)</para>
 <para><emphasis>Step 1</emphasis> - Determine the type of sequence</para>
 <para>This sequence is neither arithmetic nor geometric.</para>
@@ -61,6 +64,7 @@
 
 <title>Try It: Writing Recursive Definitions</title>
 <para>Write \(E(1)\) and a recursive definition for \(E(n)\):</para>
+
 <example><exercise>
   <problem>
     

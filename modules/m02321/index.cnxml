@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02321</md:content-id>
     <md:title>Transformations: Mini-Lesson Review</md:title>
-    <md:uuid>2f448956-dba2-4100-b2a1-35b809d77271</md:uuid>
+    <md:uuid>8ac6d3c5-9993-4930-add1-ae3bf17e5d1d</md:uuid>
   </metadata>
   <content>
   <section><title>Transforming Functions</title>
@@ -13,11 +13,13 @@
   <hr/>
   <para>Given a function \(f(x)\), a new function \(g(x)=f(x)+k\), where \(k\) is a constant, is a <emphasis>vertical shift</emphasis> of the function \(f(x)\). All the output values change by \(k\) units. If \(k\) is positive, the graph will shift up. If \(k\) is negative, the graph will shift down.</para>
 </note>
+
 <note>
   <para> <emphasis> Horizontal Shift </emphasis></para>
   <hr/>
   <para>Given a function \(f\), a new function \(g(x)=f(x-h)\), where \(h\) is a constant, is a <emphasis>horizontal shift</emphasis> of the function \(f\). If \(h\) is positive, the graph will shift right. If \(h\) is negative, the graph will shift left.</para>
 </note>
+
 <note>
   <para> <emphasis> How to Sketch a Graph Given a Function and Both a Vertical and a Horizontal Shift </emphasis></para>
   <hr/>
@@ -26,17 +28,22 @@
   <para><emphasis>Step 3</emphasis> - The horizontal shift results from a constant subtracted from the input. Move the graph right for a positive constant and left for a negative constant.</para>
   <para><emphasis>Step 4</emphasis> - Apply the shifts to the graph in either order.</para>
 </note>
+
 <note>
   <para> <emphasis> Reflections </emphasis></para>
   <hr/>
   <para>Given a function \(f(x)\), a new function \(g(x)=-f(x)\) is a <emphasis>vertical reflection</emphasis> of the function \(f(x)\), sometimes called a reflection about (or over, or through) the \(x\)-axis.</para>
   <para>Given a function \(f(x)\), a new function \(g(x)=f(-x)\) is a <emphasis>horizontal reflection</emphasis> of the function \(f(x)\), sometimes called a reflection about the \(y\)-axis.</para>
 </note>
+
 <para><emphasis>Example</emphasis></para>
 <para>Name the transformations from \(f(x)\) to form \(g(x)=-f(x+4)-8\).</para>
-<para>Horizontal Shift</para>
-<para>Vertical Shift</para>
-<para>Reflection?</para>
+<para>Horizontal Shift
+  Left 4</para>
+<para>Vertical Shift
+  Down 8</para>
+<para>Reflection?
+  Yes, over the \(x\)-axis.</para>
 <title>Try It: Transforming Functions</title>
 <example><exercise>
   <problem>
@@ -45,9 +52,12 @@
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
   <para>Here are the transformations made from \(f(x)\) to \(g(x)\):</para>
-  <para>Horizontal Shift</para>
-  <para>Vertical Shift</para>
-  <para>Reflection?</para>
+  <para>Horizontal Shift
+    Left 3</para>
+  <para>Vertical Shift
+    Down 2</para>
+  <para>Reflection?
+    Yes, over the \(x\)-axis.</para>
 </solution></exercise>
 </example><title>Check Your Understanding</title>
 <div class="os-raise-ib-pset" data-button-text="Check" data-content-id="b8c45a61-8235-4777-a628-37887c25d325" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0"> ----------------------------------------
@@ -72,6 +82,7 @@
     <!-- INSERT ANY VALID HTML HERE -->
   </div>
 </div>
+
 <title>Videos</title>
 <para>Watch the following video to see how to identify transformations, including shifts, of functions.</para>
 <para><emphasis>Khan Academy: Shifting Functions Introduction</emphasis></para>

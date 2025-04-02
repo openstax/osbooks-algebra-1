@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01181</md:content-id>
     <md:title>4.18.3: Define an Arithmetic Sequence by the nth Term</md:title>
-    <md:uuid>00478471-dc09-4683-bc94-ccfebb368ffd</md:uuid>
+    <md:uuid>2004fffb-3113-43b0-8812-90addc0a7fa1</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -42,6 +42,7 @@
     </row>
   </tbody>
 </table>
+
 <para>Depending on time, either invite students to share their observations about \(C(n)\) or tell students that it is a geometric series with growth factor \(\frac12\). Say, “This sequence starts with \(n=0\) since we start with a piece of paper with 0 cuts. How can we write a recursive definition for \(C(n)\)?” \((C(0)=80,C(n)=C(n−1) \cdot \frac12,n\geq1)\). Select students to share their definitions, paying particular attention to the starting term, \(C(0)\), and that \(n\geq1\) is used. An important takeaway from looking at this recursive definition is that the domain of a sequence is something that should be based on the situation and that sometimes starting with \(n=1\) doesn’t make sense. Luckily, we can use the function notation to make clear that we are starting with \(n=0\) by beginning with \(C(0)\), and then we change \(n\geq2\) to \(n\geq1\) to match.</para>
 <para>It is likely students will need help making the association in 1a that \(80 \cdot \frac12 \cdot \frac12 \cdot \cdot \cdot \cdot \cdot \frac12\) with \(n\) multiplications of \(\frac12\) is the same as saying \(80\cdot{(\frac12)}^n.\) Discuss \({(\frac12)}^2=\frac12\times\frac12\), etc.</para>
 <title>Student Activity </title>
@@ -54,7 +55,8 @@
     <item> Approximately what is the area of the paper after 10 cuts?
       <para><emphasis>Answer: </emphasis></para>
       <para> Approximately 0.078 square inches (exactly \(\frac{80}{1024}\) inches)</para>
-      </item>
+      
+    </item>
   </list>
   <item> Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1 inch of the width. Then he does it again, and again . . . </item>
   <list class="os-raise-noindent" type="enumerated">
@@ -95,6 +97,7 @@
     </row>
   </tbody>
 </table>
+
 <para> <emphasis>Answer: </emphasis> </para>
 
 
@@ -132,25 +135,31 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="2" type="enumerated">
     <item> Kiran says the area after 6 cuts, in square inches, is \(80−8 \cdot 6\). Explain where the different terms in his expression came from. </item>
     <para> <emphasis>Answer: </emphasis> </para>
     <para> For example: Each cut removes 8 square inches, so 6 cuts removes 48 square inches. The original area was 80 square inches, so the remaining area, in square inches, is \(80−8 \cdot 6\). </para>
-    <item> Write a definition for \(K(n)\) that is not recursive.</item>
+    <item> Write a definition for \(K(n)\) that is not recursive.
+      
+    </item>
     <para> <emphasis>Answer: </emphasis> </para>
     <para>\(
       K(n)=80−8n\) for integers \(0\leq n\leq9\) or equivalent. </para>
   </list>
 </list>
 <list class="os-raise-noindent" start="3" type="enumerated">
-  <item> Which is larger, \(K(6)\) or \(C(6)\)? <emphasis>Answer:</emphasis> \(K(6)\) is larger. </item>
+  <item> Which is larger, \(K(6)\) or \(C(6)\)? 
+    <emphasis>Answer:</emphasis> \(K(6)\) is larger. </item>
 </list>
 <list class="os-raise-noindent" start="4" type="enumerated">
-  <item> Is \(K\) arithmetic or geometric? <emphasis>Answer:</emphasis> \(K(n)\) is arithmetic. </item>
+  <item> Is \(K\) arithmetic or geometric? 
+    <emphasis>Answer:</emphasis> \(K(n)\) is arithmetic. </item>
 </list>
 <list class="os-raise-noindent" start="5" type="enumerated">
-  <item> Is \(C\) arithmetic or geometric? <emphasis>Answer: </emphasis>\(C(n)\) is geometric. </item>
+  <item> Is \(C\) arithmetic or geometric? 
+    <emphasis>Answer: </emphasis>\(C(n)\) is geometric. </item>
 </list>
 <para>A recursive sequence is a sequence in which terms are defined using one or more of the previous terms. If you know the nth term of an arithmetic or geometric sequence and the common difference or factor, you can find the (n+1)th term by using the recursive formula.  </para>
 <para>Different definitions can often create the same sequence. For arithmetic and geometric sequences, there are general rules, called explicit rules, that can be followed to help find any term in the sequences. </para>
@@ -158,12 +167,15 @@
 
 <note>
   <title>Arithmetic Sequence Formulas</title>
-<h6>Recursive Formula</h6>
-  <para>\(a_n = a_{n-1} + d\), \(a_1\) = first term </para>
+
+  <h6>Recursive Formula</h6>
+  <para>\(a_n = a_{n-1} + d\), \(a_1\) = first term where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</para>
+  
   <h6>Explicit General Formula</h6>
   <para>\(a_n = a_1 + (n-1)d\)</para>
   <para>Where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</para>
 </note>
+
 <title>Anticipated Misconceptions</title>
 <para>Students who have trouble visualizing what’s happening to the paper in each sequence may benefit from drawing the paper at each step and labeling it with dimensions, or cutting paper themselves and calculating the areas. In particular, if students don’t see why Kiran removes 8 square inches each time, encourage them to write down the dimensions of the paper for the first few steps and calculate each area (and draw the paper at each step if needed).</para>
 <title>Activity Synthesis</title>
@@ -180,6 +192,7 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Language; Social-emotional skills; Attention</para>
   </div>
 </div>
+
 <title>4.18.3: Self Check </title>
 <para class="os-raise-text-bold os-raise-text-italicize">After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</para>
 <para class="os-raise-text-bold">QUESTION:</para>
@@ -210,6 +223,7 @@
     </row>
   </tbody>
 </table>
+
 <title>4.18.3: Additional Resources</title>
 <para class="os-raise-text-bold os-raise-text-italicize">The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it. </para>
 <div class="os-raise-extrasupport">
@@ -223,26 +237,42 @@
     <!-- Extra Support Content--> 
   </div>
 </div>
+
 <para class="os-raise-text-bold">Example 1</para>
 <para>Write the explicit formula for the sequence given by the terms 18, 21, 24, 27, ...</para>
 <para class="os-raise-text-bold">Solution:</para>
-<para><emphasis>Step 1-</emphasis> Write the general formula.</para>
-<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. </para>
+<para><emphasis>Step 1-</emphasis> Write the general formula.
+  \(a_n = a_1 + (n - 1)d\)</para>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
+  \(a_1 = 18\), \(d = 3\)
+  \(a_n = 18 + (n - 1)3\)</para>
+
 <para>So, the explicit formula for the sequence 18, 21, 24, 27… is \(a_n = 18 + (n - 1)3\).</para>
 <para>Now any term can more easily be determined - even the 1000th term!</para>
+
 <para class="os-raise-text-bold">Example 2</para>
 <para> Find the 15th term of a sequence where the first term is 3 and the common difference is 6. </para>
-<para><emphasis>Step 1 - </emphasis>Write the general formula.</para>
-<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. </para>
-<para><emphasis>Step 3 -</emphasis> Simplify the expression. </para>
+<para><emphasis>Step 1 - </emphasis>Write the general formula.
+  \(a_n=a_1+(n−1)d\) </para>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
+  \(a_1 = 3, d = 6\), \(n = 15\)
+  \(a_{15} = 3 + (15 - 1)6\) </para>
+<para><emphasis>Step 3 -</emphasis> Simplify the expression. 
+  \(a_{15} = 3 + (14)6\) 
+  \(a_{15} = 3 + 84\)
+  \(a_15 = 87\) </para>
 <para>If the explicit formula for this question was needed, we would not have substituted \(n = 15\) and the \(n\)th term formula would have been \(a_n = 3 + (n - 1)6\). This formula is also equivalent to </para>
 <para>\(a_n = 3 + 6(n - 1)\). </para>
+
 <title> Try It: The nth Term of Arithmetic Sequences</title>
 <para>Find the formula for the \(n\)th term of a sequence where the first term is 7 and the common difference is 9.</para>
 <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
 <para class="os-raise-text-bold">Solution:</para>
-<para><emphasis>Step 1 -</emphasis> Write the general formula.</para>
-<para><emphasis>Step 2 - </emphasis>Substitute values for the first term, common difference/ratio, term number. </para>
+<para><emphasis>Step 1 -</emphasis> Write the general formula.
+  \(a_n=a_1+(n−1)d\) </para>
+<para><emphasis>Step 2 - </emphasis>Substitute values for the first term, common difference/ratio, term number. 
+  \(a_1 = 7\), \(d = 9\)
+  \(a_n = 7 + (n - 1)9\) </para>
 </section>
 </content>
 </document>

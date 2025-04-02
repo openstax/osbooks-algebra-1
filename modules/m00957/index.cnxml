@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00957</md:content-id>
     <md:title>4.7.3: Writing Linear Equations</md:title>
-    <md:uuid>c06dfb76-ac7b-47f8-a979-02d73e33c1be</md:uuid>
+    <md:uuid>8da789cb-5e64-45c0-84b5-113985d0f199</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -23,12 +23,23 @@
   </thead>
   <tbody>
     <row>
-      <entry> \(y = mx + b\)</entry>
-      <entry> \(y-y_1=m(x-x_1)\)</entry>
-      <entry> \(Ax + By = C\)</entry>
+      <entry> \(y = mx + b\)
+        Given:
+        \(m =\) slope 
+        \(b =\) \(y\)-intercept </entry>
+      <entry> \(y-y_1=m(x-x_1)\)
+        Given:
+        a point \((x_1,y_1)\)
+        \(m=\) slope </entry>
+      <entry> \(Ax + By = C\)
+        \(m = -\frac AB  = \) slope
+        Where:
+        There are no fractions and
+        \(A\) cannot be negative. </entry>
     </row>
   </tbody>
 </table>
+
 <para>For <term data-schema-version="1.0" data-store="glossary-tooltip">slope-intercept form</term>, the slope and \(y\)-intercept are needed:</para>
 <list class="os-raise-noindent" type="enumerated">
   <item> Write an equation in slope-intercept form for a line whose slope is -2 and \(y\)-intercept is \((0,4)\). </item>
@@ -41,7 +52,9 @@
 </list>
 <para><emphasis>Answer:</emphasis> \(y+5=\frac{1}{2}(x-3)\)</para>
 <para>Substitute in the formula for \((x_1,y_1)\) and slope.</para>
-<para>\(y-y_1=m(x-x_1)\)</para>
+<para>\(y-y_1=m(x-x_1)\)
+\(y-(-5)=\frac{1}{2}(x-3)\)
+\(y+5=\frac{1}{2}(x-3)\)</para>
 <para><term data-schema-version="1.0" data-store="glossary-tooltip">Standard form of a linear equation</term> is often used to find \(x\)- and \(y\)-intercepts of graphs.</para>
 <para>Often, an equation starts in another form and gets put into standard form.</para>
 <para>Standard form does not have fractions or decimals and cannot lead with a negative number.</para>
@@ -55,9 +68,14 @@
 </list>
 <para><emphasis>Answer:</emphasis> \(2x - y = -3\)</para>
 <para>Write the equation in the form \(Ax + By = C\)</para>
-<para><emphasis>Step 1 </emphasis>- Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.</para>
-<para><emphasis>Step 2</emphasis> - Write the \(x\) term first and simplify.</para>
-<para><emphasis>Step 3</emphasis> - Multiply both sides by -1, so as not to lead with a negative.</para>
+<para><emphasis>Step 1 </emphasis>- Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.
+Subtract \(2x\) from both sides:
+\(y - 2x = 2x - 2x + 3\)</para>
+<para><emphasis>Step 2</emphasis> - Write the \(x\) term first and simplify.
+\(-2x + y = 3\)</para>
+<para><emphasis>Step 3</emphasis> - Multiply both sides by -1, so as not to lead with a negative.
+\(-1(-2x + y = 3)\)
+\(2x - y = -3\)</para>
 <para>Work with a partner to write equations in different forms.</para>
 <list class="os-raise-noindent" start="5" type="enumerated">
     <item>What is the slope of  \(y-3=2(x+4)\)</item>
@@ -69,28 +87,47 @@
 </list>
 <para><emphasis>Answer:</emphasis> \(y = 2x + 11\)</para>
 <para>\(y-3=2(x+4)\)</para>
-<para><emphasis>Step 1</emphasis> - Distribute.</para>
-<para><emphasis>Step 2</emphasis> - Add 3 to each side to solve for \(y\).</para>
-<para><emphasis>Step 3</emphasis> - Simplify.</para>
+<para><emphasis>Step 1</emphasis> - Distribute.
+\(y-3=2x+8\)</para>
+<para><emphasis>Step 2</emphasis> - Add 3 to each side to solve for \(y\).
+\(y-3+3=2x+8+3\)</para>
+<para><emphasis>Step 3</emphasis> - Simplify.
+\(y = 2x +11\)</para>
 <list class="os-raise-noindent" start="7" type="enumerated">
   <item> Write the equation \(y+5=-3(x-2)\) into standard form. </item>
 </list>
 <para><emphasis>Answer:</emphasis> \(3x + y = 1\)</para>
-<para><emphasis>Step 1 </emphasis>- Distribute.</para>
-<para><emphasis>Step 2</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.</para>
-<para><emphasis>Step 3</emphasis> - Bring the constants to the right side of the equation.</para>
-<para><emphasis>Step 4</emphasis> - Simplify.</para>
+<para><emphasis>Step 1 </emphasis>- Distribute.
+\(y+5=-3x+6\)</para>
+<para><emphasis>Step 2</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.
+Add \(3x\) to both sides.
+\(y+5+3x=-3x+3x+6\)</para>
+<para><emphasis>Step 3</emphasis> - Bring the constants to the right side of the equation.
+Subtract 5 from each side.
+\(y+5-5+3x=-3x+3x+6-5\)</para>
+<para><emphasis>Step 4</emphasis> - Simplify.
+Make sure that the \(x\) term is in front of the \(y\) term on the left side.
+\(3x +y =1\)</para>
 <list class="os-raise-noindent" start="8" type="enumerated">
   <item> Write the equation \(y = \frac{1}{3}x-4\) in standard form. </item>
 </list>
 <para><emphasis>Answer:</emphasis> \(x -3y=12\)</para>
 
-<para><emphasis>Step 1</emphasis> - Get rid of the fractions in the equation.</para>
-<para><emphasis>Step 2</emphasis> - Distribute and simplify.</para>
-<para><emphasis>Step 3 </emphasis>- Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.</para>
-<para><emphasis>Step 4</emphasis> - Simplify.</para>
-<para><emphasis>Step 5</emphasis> - Write the equation so the \(x\) term is first.</para>
-<para><emphasis>Step 6</emphasis> - Multiply each term by -1, so as not to lead with a negative.</para>
+<para><emphasis>Step 1</emphasis> - Get rid of the fractions in the equation.
+Multiply every term by 3.
+\(3y = 3(\frac{1}{3}x-4)\)</para>
+<para><emphasis>Step 2</emphasis> - Distribute and simplify.
+\(3y=x -12\)</para>
+<para><emphasis>Step 3 </emphasis>- Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.
+Subtract \(x\) from both sides.
+\(3y - x = x - x -12\)</para>
+<para><emphasis>Step 4</emphasis> - Simplify.
+\(3y - x = -12\)</para>
+<para><emphasis>Step 5</emphasis> - Write the equation so the \(x\) term is first.
+\(-x + 3y = -12\)</para>
+<para><emphasis>Step 6</emphasis> - Multiply each term by -1, so as not to lead with a negative.
+\(-1(-x + 3y = -12)\)
+\(x - 3y = 12\)</para>
 <list class="os-raise-noindent" start="9" type="enumerated">
     <item>What is the slope of  \(3x + 12y = 24\)? </item>
 </list>
@@ -98,7 +135,10 @@
 
 <para>The slope is \(m = -\frac AB\). 
 
-  </para>
+  
+  \(m = -\frac{3}{12}\)
+\(m = -\frac14\)</para>
+
 <title>Video: Writing Equations in Different Forms</title>
 <para>Watch the following video to learn more about writing equations in different forms.</para>
 <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
@@ -106,13 +146,16 @@
         <iframe src="https://www.youtube-nocookie.com/embed/0KhxVDBVGRo?si=31FamA-aJe4EvLpH;&amp;rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""/>
     </iframe>
 </div>
+
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
     <para>MLR 1 Stronger and Clearer Each Time: Writing, Listening, Conversing<title>MLR 1 Stronger and Clearer Each Time: Writing, Listening, Conversing</title></para>
   </note>
   <div class="os-raise-extrasupport-body">
-    <para>Use this routine to prepare students for the whole-class discussion by providing them with multiple opportunities to clarify their explanations through conversation. Before the whole-class discussion begins, give students time to meet with 1-2 other groups to share their steps for rewriting equations from one form to the other. Invite listeners to press for accurate mathematical language to help speakers move away from informal language such as plus, minus, take away, times, etc. Encourage the use of more formal language such as add, subtract, multiply, etc.</para>
+    <para>Use this routine to prepare students for the whole-class discussion by providing them with multiple opportunities to clarify their explanations through conversation. Before the whole-class discussion begins, give students time to meet with 1-2 other groups to share their steps for rewriting equations from one form to the other. Invite listeners to press for accurate mathematical language to help speakers move away from informal language such as plus, minus, take away, times, etc. Encourage the use of more formal language such as add, subtract, multiply, etc.
+    </para>
     <para class="os-raise-text-italicize">Design Principle(s): Optimize output (for explanation); Cultivate conversation</para>
     <para class="os-raise-extrasupport-title">Provide support for students</para>
     <para>
@@ -121,6 +164,7 @@
     </para>
   </div>
 </div>
+
 <title>Anticipated Misconceptions</title>
 <para>If students have trouble with where to substitute values into the formulas, it can be helpful to have them highlight variables and the matching value, or use colored pencils to color code the value that will substitute into the formula. For example, in \(y = mx + b\), if \(m = 3\) and the \(y\)-intercept is -2, highlight the \(m\) and the 3 in pink in the formula and the given value, then highlight the \(b\) and the \(y\)-intercept value in yellow.</para>
 <title>Activity Synthesis</title>
@@ -183,8 +227,10 @@
     </row>
   </tbody>
 </table>
+
 <title>4.7.3: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
+
 <title>Writing Linear Equations in Different Forms</title>
 <para class="os-raise-text-bold">Example 1</para>
 <para>When you look at equations in these forms, it's easy to identify the slope of \(m\).</para>
@@ -236,35 +282,67 @@
     </row>
   </tbody>
 </table>
+
 <para class="os-raise-text-bold">Example 2</para>
 <para>Find the equation of a line with slope −9 and \(y\)-intercept \((0,−4)\) in slope-intercept form.</para>
-<para><emphasis>Step 1 </emphasis>- Identify the \(m\) and \(b\).</para>
-<para><emphasis>Step 2</emphasis> - Substitute into the formula.</para>
+<para><emphasis>Step 1 </emphasis>- Identify the \(m\) and \(b\).
+\(m = -9\), \(b = -4\)</para>
+<para><emphasis>Step 2</emphasis> - Substitute into the formula.
+\(y = -9x - 4\)</para>
+
 <para class="os-raise-text-bold">Example 3</para>
 <para>Find the equation of a line in point-slope form given a slope of \(-\frac13\) and the point \((6,-4)\)</para>
-<para><emphasis>Step 1</emphasis> - Identify the \(m\) and \((x_1,y_1)\).</para>
-<para><emphasis>Step 2</emphasis> - Substitute into the formula.</para>
-<para><emphasis>Step 3</emphasis> - Simplify</para>
+<para><emphasis>Step 1</emphasis> - Identify the \(m\) and \((x_1,y_1)\).
+\(m = -\frac{1}{3} x_1=6 y_1= -4\)</para>
+<para><emphasis>Step 2</emphasis> - Substitute into the formula.
+\(y-(-4)=-\frac{1}{3}(x-6)\)</para>
+<para><emphasis>Step 3</emphasis> - Simplify
+\(y+4=-\frac{1}{3}(x-6)\)</para>
+
 <para class="os-raise-text-bold">Example 4</para>
 <para>Write the equation \(y+4=-\frac{1}{3}(x-6)\) in standard form.</para>
-<para><emphasis>Step 1</emphasis> - Multiply to get rid of the fraction.</para>
-<para><emphasis>Step 2</emphasis> - Distribute.</para>
-<para><emphasis>Step 3</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.</para>
-<para><emphasis>Step 4</emphasis> - Simplify.</para>
-<para><emphasis>Step 5</emphasis> - Bring the constants to the right side.</para>
-<para><emphasis>Step 6 </emphasis>- Simplify.</para>
-<para><emphasis>Step 7</emphasis> - Write the \(x\) term before the \(y\) term.</para>
+<para><emphasis>Step 1</emphasis> - Multiply to get rid of the fraction.
+  Remember, standard form cannot have decimals or fractions.
+  Multiply every term by 3.
+\(3(y+4)=3(-\frac{1}{3}(x-6))\)
+\(3y+12=-(x-6)\)</para>
+<para><emphasis>Step 2</emphasis> - Distribute.
+\(3y+12=-x+6\)</para>
+<para><emphasis>Step 3</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.
+  Add \(x\) to both sides.
+\(3y+12+x=-x+x+6\)</para>
+<para><emphasis>Step 4</emphasis> - Simplify.
+\(3y+12+x=6\)</para>
+<para><emphasis>Step 5</emphasis> - Bring the constants to the right side.
+  Subtract 12 from both sides.
+\(3y+12+x-12=6-12\)</para>
+<para><emphasis>Step 6 </emphasis>- Simplify.
+\(3y+x=-6\)</para>
+<para><emphasis>Step 7</emphasis> - Write the \(x\) term before the \(y\) term.
+\(3x+y=-6\)</para>
+
 <title>Try It: Writing Linear Equations in Different Forms</title>
 <para>Write the equation \(y-3=2(x+5)\) in standard form.</para>
 <para class="os-raise-text-bold">Solution: \(2x-y=-13\)</para>
-<para><emphasis>Step 1</emphasis> - Distribute.</para>
-<para><emphasis>Step 2</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.</para>
-<para><emphasis>Step 3</emphasis> - Simplify.</para>
-<para><emphasis>Step 4</emphasis> - Bring the constants to the right side.</para>
-<para><emphasis>Step 5</emphasis> - Simplify.</para>
-<para><emphasis>Step 6</emphasis> - Write the \(x\) term before the \(y\) term.</para>
-<para><emphasis>Step 7</emphasis> - Multiply each term by -1.</para>
-<para><emphasis>Step 8</emphasis> - Simplify.</para>
+<para><emphasis>Step 1</emphasis> - Distribute.
+\(y-3=2x+10\)</para>
+<para><emphasis>Step 2</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.
+Subtract \(2x\) from both sides.
+\(y-3-2x=2x-2x+10\)</para>
+<para><emphasis>Step 3</emphasis> - Simplify.
+\(y-3-2x=10\)</para>
+<para><emphasis>Step 4</emphasis> - Bring the constants to the right side.
+Add 3 to both sides.
+\(y-3-2x+3=10+3\)</para>
+<para><emphasis>Step 5</emphasis> - Simplify.
+\(y-2x=13\)</para>
+<para><emphasis>Step 6</emphasis> - Write the \(x\) term before the \(y\) term.
+\(-2x+y=13\)</para>
+<para><emphasis>Step 7</emphasis> - Multiply each term by -1.
+Standard form cannot lead with a negative.
+\(-1(-2x+y=13)\)</para>
+<para><emphasis>Step 8</emphasis> - Simplify.
+\(2x-y=-13\)</para>
 </section>
 </content>
 </document>

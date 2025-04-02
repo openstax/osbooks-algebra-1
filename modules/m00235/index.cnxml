@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00235</md:content-id>
     <md:title>1.11.3: Reasoning Symbolically and Abstractly about Linear Equations</md:title>
-    <md:uuid>a60e55f6-b9c3-4c55-a68d-856eea9db998</md:uuid>
+    <md:uuid>7a6198bf-4183-422d-9c50-438a2412b662</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -45,6 +45,7 @@
     
   </div>
 </div>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -60,6 +61,7 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Organization; Attention</para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para>For numbers 1-5, select the slope and intercept that corresponds to each equation:</para>
 <list>
@@ -69,6 +71,7 @@
   <item> \( m=\text-4 \), \( y\text{-int}=(0,8)\) </item>
   <item>\( m=3 \), \( y\text{-int}=(0,-2) \) </item>
 </list>
+
 <list class="os-raise-noindent" type="enumerated">
   <item>\( -4x+3y=3 \)
   </item>
@@ -90,6 +93,7 @@
   <item>\( -4x + 3y = -6 \) </item>
 </list>
 <para><emphasis>Answer: </emphasis>\( m=\frac 43 \), \( y\text{-int}=(0,-2) \) </para>
+
 <para><emphasis>Using Standard Form and Intercepts to Graph</emphasis></para>
 <para> Standard form, \(Ax + By = C\), is helpful for finding the \(x\)-intercepts and \(y\)-intercepts of an equation. </para>
 <para> For 6 - 11, </para>
@@ -119,20 +123,27 @@
   <item>Using the graph from question 10, what is the slope of the line in simplest form?</item>
 </list>
 <para><emphasis>Answer: </emphasis>\(\frac32\)</para>
+
 <title>Student Facing Extension</title>
 <title>Are you ready for more?</title>
 <para>For numbers 1-2, use the equations below:</para>
 <blockquote>
   <para>These are the equations from the activity. Each equation is in the form \(Ax+By=C\)</para>
 </blockquote>
-<para>\( 4x - 3y = -3 \)</para>
+<para>\( 4x - 3y = -3 \)
+  \( 12x - 4y = 8 \)
+  \( 8x + 2y = 16 \)
+  \( 3x - y = -1\)
+  \( 4x - 3y = 6 \)
+</para>
 <list class="os-raise-noindent" type="enumerated">
   <item>For each equation, graph the equation and, on the same coordinate plane, graph the line passing through \((0,0)\) and (A,B). For example, graph the first equation −4x+3y=3 and also the line through \((0,0)\) and \((−4,3)\). Then graph the other equations and the points \((0, 0)\) and \((A, B)\) the same way. Pay attention to any patterns in the graphs.
     Use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool below.
   </item>
 </list>
 <para><emphasis>Answer: </emphasis> The two lines are perpendicular.</para>
-<para>Your answer may vary, but here is a sample. </para>
+<para>Your answer may vary, but here is a sample. 
+  Graphed is the first equation \(−4x+3y=3\) and the line through \((0,0)\) and \((−4,3)\)</para>
 <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/d6be84743f72a71b97f9a7e1e00e6c0529fc3a3b"/></media></figure></para>
 <para> </para>
 <list class="os-raise-noindent" start="2" type="enumerated">
@@ -206,6 +217,7 @@
     </row>
   </tbody>
 </table>
+
 <title>1.11.3: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with
     the self check. Students will not automatically have access to this content, so you may wish to share it with
@@ -219,6 +231,7 @@
       https://k12.openstax.org/contents/raise/resources/edbb051759cb0172b477b8efd411dd2da144c39c
     </track></source></video></iframe>
 </div>
+
 <title>Try It: Using Standard Form</title>
 <list class="os-raise-noindent" type="enumerated">
   <item>Find the slope for \( 5x - y =15 \). </item>
@@ -229,15 +242,28 @@
 </list>
 <para><emphasis>Answer: </emphasis> -15</para>
 <list class="os-raise-noindent" start="3" type="enumerated">
-  <item>Explain your reasoning. </item>
+  <item>Explain your reasoning. 
+  </item>
 </list>
 <para><emphasis>Answer: </emphasis></para>
 <para><emphasis>Strategy 1: Solve for \(y\).</emphasis></para>
-<para><emphasis>Step 1</emphasis> - Subtract the \(x\) term from both sides.</para>
-<para><emphasis>Step 2 </emphasis>- Simplify.</para>
-<para><emphasis>Step 3</emphasis> - Divide both sides by the coefficient of \(y\).</para>
-<para><emphasis>Step 4</emphasis> - Simplify.<emphasis>Strategy 2: Use standard form. </emphasis>
+<para><emphasis>Step 1</emphasis> - Subtract the \(x\) term from both sides.
+  Subtract \(5\) from both sides.
+  \(5x - 5x - y =15 -5x\)</para>
+<para><emphasis>Step 2 </emphasis>- Simplify.
+  \(- y =15 -5x\)</para>
+<para><emphasis>Step 3</emphasis> - Divide both sides by the coefficient of \(y\).
+  Divide both sides by \(-1\).
+  \(\frac{-y}{-1}=\frac{15\ -5x}{-1}\)</para>
+<para><emphasis>Step 4</emphasis> - Simplify.
+  \(y = 5x -15\)
+  The slope is the coefficient of \(x\), so the slope is 5. The \(y\)-intercept is the constant, which is −15.
+  <emphasis>Strategy 2: Use standard form. </emphasis>
 </para>
-<para><emphasis>Step 1</emphasis> - Identify A, B, and C.</para></section>
+<para><emphasis>Step 1</emphasis> - Identify A, B, and C.
+  In \( 5x - y =15 \), \( A=5 \), \( B = -1 \), \( C =15 \).
+  Slope: \( -\frac{A}{B}=-\frac{5}{-1}=5 \)
+  \( y \)-intercept: \( \frac{C}{B}=\frac{15}{-1}=-15 \)
+</para></section>
 </content>
 </document>

@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01325</md:content-id>
     <md:title>5.5.3: Additional Resources</md:title>
-    <md:uuid>ca85c5cf-54dc-41be-9633-c32937996a70</md:uuid>
+    <md:uuid>355f8528-ac09-4839-836e-a32e9291961e</md:uuid>
   </metadata>
   <content>
   <section><title>Connecting Tables and Graphs in Exponential Decay Functions</title>
@@ -42,6 +42,7 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" type="enumerated">
   <item> The number of butterflies when they began their migration.</item>
   <item> The number of butterflies 1 week after they began their migration.</item>
@@ -102,17 +103,23 @@
     </row>
   </tbody>
 </table>
+
 <para><figure><media alt="GRAPH SHOWING THE RELATIONSHIP BETWEEN NUMBER OF WEEKS AND POPULATION OF BUTTERFLIES. PLOTTED POINTS INCLUDE (0, 100000), (1, 80000), (2, 64000), (3, 51200), AND (4, 40960)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/a0ec189092afb063f8c8754573b82aa0e0af0a04"/></media></figure></para>
 <list>
   <item> Part 5 asks about the vertical intercept and what it means. The vertical intercept is 100,000, which is the
     initial amount of the butterfly population. This means that when the butterflies start their migration (at
-    \(w=0\) weeks), the population is initially 100,000.</item>
+    \(w=0\) weeks), the population is initially 100,000.
+    The \(y\)-intercept is the value of \(p\) when
+    \(w=0\), which corresponds to the initial condition or starting point of the migration. Substituting \(w=0\) into the equation, we have \(p=100000 \cdot (\frac{4}{5})^0=100000 \cdot 1=100000\).
+  </item>
   <item> For part 6, you could continue the table or use the graph to see where it is 50,000, which is around 3 weeks.
   </item>
 </list>
 <figure><media alt="GRAPH OF A DECREASING EXPONENTIAL FUNCTION THAT REPRESENTS THE POPULATION OF BUTTERFLIES AS A FUNCTION OF NUMBER OF WEEKS. LABELED POINTS INCLUDE (0, 100000), (1, 80000), (2, 64000), (3, 51200), AND (4, 40960)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4d930a1f31439d102d740467207d9b6c27a6d988"/></media></figure><list>
   <item>For part 7, an asymptote is a line or curve that a function approaches but does not intersect or touch. In other words, as the input values of a function approach a certain value or tend towards infinity or negative infinity, the function values get arbitrarily close to the asymptote without actually crossing it. Asymptotes can provide valuable information about the behavior of a function and can help in understanding its limits and range.
-    </item>
+    
+    To determine the asymptote, we examine the behavior of the function as 𝑤 approaches infinity. In this case, as 𝑤 becomes larger and larger, the term \((\frac{4}{5})^𝑤\) will grow exponentially smaller. Consequently, the population 𝑝 will also grow infinitely smaller as it gets closer and closer to zero. Thus, the horizontal asymptote in this equation is the \(x\)-axis. The graph of the function will continue to decrease towards the \(x\)-axis as 𝑤 increases, approaching \(y = 0\). The butterfly population will decrease over time due to the migration.
+  </item>
 </list>
 <title>Try It: Connecting Tables and Graphs in Exponential Decay Functions</title>
 <para>The number of copies of a book sold the year it was released was 600,000. Each year after that, the number of copies
@@ -166,7 +173,8 @@
         </row>
       </tbody>
     </table>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+    
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
   </problem><solution>
   <para>Compare your answer:</para>
   <para>Here is how to turn an exponential decay situation into a table and a graph:</para>
@@ -238,7 +246,8 @@
       </row>
     </tbody>
   </table>
-  </solution></exercise>
+  
+</solution></exercise>
 </example><!--Q2-->
 <exercise>
   <problem>
@@ -252,6 +261,7 @@
       600,000(\frac12)^y\).</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <example><exercise>
   <problem>
     
@@ -264,6 +274,7 @@
   <para>Use the points in the table to create a graph.</para>
   <figure><media alt="GRAPH OF A DECREASING EXPONENTIAL FUNCTION THAT REPRESENTS THE NUMBER OF COPIES SOLD AS A FUNCTION OF NUMBER OF YEARS SINCE PUBLISHED. THE GRAPH HAS A \(y\)-intercepts OF 600,000 AND PASSES THROUGH THE POINTS (1, 300000) AND (2, 150000)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/f18b064994983246638941b3c48f38661a9ff378"/></media></figure></solution></exercise>
 </example><div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+
 <!--Q4-->
 <exercise>
   <problem>
@@ -274,9 +285,12 @@
     <para>Enter your answer here:</para>
   <para>Compare your answer:</para>
     <para> If you use the equation you would substitute 6 in for \(y\), or \(c=600,000(\frac{1}{2})^6\), and evaluate to find the solution.
-      </para>
+      
+      The answer 9,375 means that six years after the book was published, 9,375 copies of the book were sold.
+    </para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Q5-->
 <exercise>
   <problem>
@@ -288,12 +302,13 @@
   <para>Compare your answer:</para>
     <list class="os-raise-noindent">
       <item>The \(y\)-intercept represents the value of the function when
-        \(t=0\), which corresponds to the year the book was released. Substituting \(t=0\) into the function, we have </item>
+        \(t=0\), which corresponds to the year the book was released. Substituting \(t=0\) into the function, we have \(f(0)=600,000 \cdot ( 21&amp;ZeroWidthSpace; )^ 0 =600,000 \cdot 1=600,000\).</item>
       <item>The \(y\)-intercept is 600,000. This means that, in the year the book was released (at
         \(t=0\)), 600,000 copies were sold.</item>
     </list>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Q6-->
 <exercise>
   <problem>

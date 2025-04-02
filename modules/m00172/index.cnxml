@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00172</md:content-id>
     <md:title>1.7.3: Understanding Equations with No Solution or Infinitely Many</md:title>
-    <md:uuid>7d329267-554f-46e2-8f16-c3d0e9baef58</md:uuid>
+    <md:uuid>5c4655cb-c0b5-4578-8fcb-87a3837d3d4c</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
@@ -14,9 +14,36 @@
 <para>Discuss your observations with your group and be prepared to share your conclusions. If you get stuck, consider
   solving each equation.</para>
 <div class="os-raise-d-flex os-raise-justify-content-between">
-  <para><emphasis>Example 1</emphasis><emphasis>Step 1 - </emphasis>Original equation.<emphasis>Step 2 - </emphasis>Apply the Commutative Property.<emphasis>Step 3 - </emphasis>Combine like terms.<emphasis>Step 4 - </emphasis>Subtract \(x\) from each side.</para>
-  <para><emphasis>Example 2</emphasis><emphasis>Step 1 - </emphasis>Original equation.<emphasis>Step 2 - </emphasis>Apply the Distributive Property.<emphasis>Step 3 - </emphasis>Subtract 10 from each side.<emphasis>Step 4 - </emphasis>Add 1 to each side.</para>
+  <para><emphasis>Example 1</emphasis>
+    
+    <emphasis>Step 1 - </emphasis>Original equation.
+    \( x+6 =4x+1-3x \)
+    
+    <emphasis>Step 2 - </emphasis>Apply the Commutative Property.
+    \( x+6 =4x-3x+1 \)
+    
+    <emphasis>Step 3 - </emphasis>Combine like terms.
+    \( x+6 =x+1 \)
+    
+    <emphasis>Step 4 - </emphasis>Subtract \(x\) from each side.
+    \( 6 =1 \)
+  </para>
+  <para><emphasis>Example 2</emphasis>
+    
+    <emphasis>Step 1 - </emphasis>Original equation.
+    \( 2(5+x)-1=3x+9 \)
+    
+    <emphasis>Step 2 - </emphasis>Apply the Distributive Property.
+    \( 10+2x-1 =3x+9 \)
+    
+    <emphasis>Step 3 - </emphasis>Subtract 10 from each side.
+     \( 2x-1 =3x-1 \)
+    
+    <emphasis>Step 4 - </emphasis>Add 1 to each side.
+    \( 2x=3x \)
+  </para>
 </div>
+
 <exercise>
   <problem>
     <para>Why did Noah have no solution for either equation? </para>
@@ -24,7 +51,8 @@
     
     <para>Enter your answer:</para>
   <para>Compare your answer:</para>
-    <para> Your answer may vary, but here is an example: </para>
+    <para> Your answer may vary, but here is an example: 
+      All the moves that Noah made were acceptable, but because he ended up with a false statement, that means there is no value of \(x\) that makes the first equation true. We can see it in the third line: \(x+6=x+1\). There is no number that can make the equation true.</para>
   </solution></exercise>
 <exercise>
   <problem>
@@ -33,9 +61,11 @@
     
     <para>Enter your answer:</para>
   <para>Compare your answer:</para>
-    <para> Your answer may vary, but here is a sample. </para><para>Example 1: All the moves that Noah made were acceptable, but because he ended up with a false statement, that
+    <para> Your answer may vary, but here is a sample. </para>
+    <para>Example 1: All the moves that Noah made were acceptable, but because he ended up with a false statement, that
       means there is no value of \( x \) that makes the first equation true. We can see it in the third line: \( x + 6 =
-      x + 1 \). There is no number that can make the equation true.</para><para>Example 2: Noah's moves seem acceptable except for the last one. If he had subtracted \( 2x \) from each side of
+      x + 1 \). There is no number that can make the equation true.</para>
+    <para>Example 2: Noah's moves seem acceptable except for the last one. If he had subtracted \( 2x \) from each side of
       the equation, he would have \( 0 = x \). Instead, he divided both sides by \( x \) which would give an undefined
       number if \( x\;\;is\;\;0 \). </para>
     <para>Noah tried to solve a third equation and ended up with a true statement, without variables.</para>
@@ -49,7 +79,9 @@
     <para>\( 2x = 2x \)</para>
     <para><emphasis>Step 5 - </emphasis>Subtract \(2x\) from both sides.</para>
     <para>\( 0=0 \) </para>
-    <para>Since there is not a variable and the statement is true, any value of \(x\) would be a solution for the original equation. So, this equation has infinitely many solutions.</para></solution></exercise>
+    
+    <para>Since there is not a variable and the statement is true, any value of \(x\) would be a solution for the original equation. So, this equation has infinitely many solutions.</para>
+  </solution></exercise>
 <example><exercise>
   <problem>
   
@@ -68,6 +100,7 @@
   <para>Compare your answer: Your answer may vary, but here is a sample.</para>
     <para>10, 100, 1000, 10,000. For example: The quotients are getting very large.</para>
   </solution></exercise>
+
 <exercise data-wait-for-event="eventShowMore1">
   <problem>
     <para>2. Now try dividing the number -100 by 10, by 1, by 0.1, 0.01. What is the same and what is different when you compare to question 1?</para>
@@ -79,16 +112,20 @@
     <para>-10, -100, -1000, -10,000. For example: The absolute values of the quotients are the same, but the sign is
       opposite..</para>
   </solution></exercise>
+
+
 <example><exercise data-wait-for-event="eventShowMore1">
   <problem>
     
     <para id="fs-id1168345252532">Draw a tape diagram that shows why  \(6\div\frac{1}{2}=12\). </para>
     <!-- INSERT ANY VALID HTML HERE -->
   <!-- INSERT ANY VALID HTML HERE -->
-    After you have drawn your answer, select the <emphasis>solution</emphasis> button to compare your work.</problem><solution>
+    After you have drawn your answer, select the <emphasis>solution</emphasis> button to compare your work.
+  </problem><solution>
   <para id="fs-id1168345252532"><figure><media alt="A tape diagram showing twelve groups of 1/2"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/b924c2718f08db2f7af4d4bbf553e11ecf06feee"/></media></figure></para>
 </solution></exercise>
-</example><exercise data-wait-for-event="eventShowMore1">
+</example>
+<exercise data-wait-for-event="eventShowMore1">
   <problem>
     <para>4. Try to draw a tape diagram that represents 6÷0. Explain why this is so difficult.</para>
   </problem><solution>

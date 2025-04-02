@@ -3,10 +3,11 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01617</md:content-id>
     <md:title>6.3.3: Dividing Polynomials Using Synthetic Division</md:title>
-    <md:uuid>493cc582-c61b-48ef-ba3a-8432f282bed3</md:uuid>
+    <md:uuid>28075e30-14c1-4fbd-999c-77711acd7f1e</md:uuid>
   </metadata>
   <content>
   <section><title>Activity </title>
+
 <example><exercise>
   <problem>
     
@@ -17,9 +18,12 @@
   <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
   </problem><solution>
   <para>Compare your answer:</para>
-  <para>\[\begin{array}{l}x - 6\mathop{\left){\vphantom{1{{x^2} - 13x + 42}}}\right.</para>
+  <para>\[\begin{array}{l}x - 6\mathop{\left){\vphantom{1{{x^2} - 13x + 42}}}\right.
+    \!\!\!\!\overline{\,\,\,\vphantom 1{{{x^2} - 13x + 42}}}}
+    \limits^{\displaystyle\,\,\, {x\,\, - 7}}\\\,\,\,\,\,\,\,\,\underline { - ({x^2} - 6x)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 7x + 42\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ( - 7x + 42)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
 </solution></exercise>
-</example><example><exercise>
+</example>
+<example><exercise>
   <problem>
     
     <title>Part 2: Use Synthetic Division</title>
@@ -40,15 +44,19 @@
   <para><emphasis>Step 5 - </emphasis>Multiply that coefficient by the divisor and place the result in the second row under the second coefficient.</para>
   <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/61bd9ababefd8697792d305cad39a9ef67d99e8e"/></media></figure></para>
   <para><emphasis>Step 6 - </emphasis>Add the second column, putting the result in the third row.</para>
+  
   <para><emphasis>Step 7 - </emphasis>Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
   <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/32c4276bc6a13be7a299d2772d58550666421700"/></media></figure></para>
   <para><emphasis>Step 8 -</emphasis> Add the final column, putting the result in the third row.</para>
   <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/6616be07a9b6a0afd9f2bda3795506fe71dbfb29"/></media></figure></para>
   <para><emphasis>Step 9 -</emphasis> The division is complete. The numbers in the third row give us the result. The \(1\) \( −7\) in the third row are the coefficients of the quotient. The quotient is \(x - 7\). The \(0\) in the box in the third row is the remainder.</para>
 </solution></exercise>
-</example><note>
+</example>
+
+<note>
   <para>Work with a partner to find each quotient. Discuss any differences you have in determining the correct solution.</para>
 </note>
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -61,6 +69,8 @@
     <para>\(4x^2-3x+1\); remainder of 1</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -72,6 +82,8 @@
     <para>\(2x^2-3x+4\); remainder of 4</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -84,6 +96,8 @@
     <para>\(x^3-3x^2+2\); remainder of 0</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>

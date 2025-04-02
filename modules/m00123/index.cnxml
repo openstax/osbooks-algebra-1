@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00123</md:content-id>
     <md:title>1.5.4: Writing, Graphing, and Solving a Linear Equation</md:title>
-    <md:uuid>ad3bb562-bfe9-4f59-b2a2-943b63f26af1</md:uuid>
+    <md:uuid>fc3b8535-071e-40f9-b5a8-2fcf116d03ca</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -32,6 +32,7 @@ constant rate of change.</para>
   situation to each group. Ask students to answer the first few questions,
   including writing an equation, and then graph the equation and answer
   the last question.</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
@@ -54,6 +55,8 @@ constant rate of change.</para>
     <para> <link url="https://k12.openstax.org/contents/raise/resources/dd41dd1a4057402964bff003365e7e89158db868">Distribute graphic organizers</link> to the students to assist them with participating in this routine. </para>
   </div>
 </div>
+
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -67,6 +70,7 @@ constant rate of change.</para>
     <para class="os-raise-text-italicize">Supports accessibility for: Language; Memory</para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para>Use the following scenario for questions 1 - 5:
   A student has a savings account with $475 in it. She deposits $125 of her paycheck into the account every week. Her
@@ -106,8 +110,10 @@ constant rate of change.</para>
   <item>What is the slope?</item>
 </list>
 <para><emphasis>Answer:</emphasis> The correct answer is  \(-\frac{1}{125}\).</para>
+
 <title>Student Facing Extension</title>
 <title>Are you ready for more?</title>
+
 <blockquote>
   <para>Use the following information to answer questions 1 - 5. A 450-gallon tank full of water is draining at a rate of 20 gallons per minute.</para>
 </blockquote>
@@ -137,7 +143,9 @@ constant rate of change.</para>
 <list class="os-raise-noindent" start="5" type="enumerated">
   <item>How would these graphs change if we used quarts of water instead of gallons? What would stay the same?</item>
 </list>
-<para><emphasis>Answer:</emphasis> Sample responses:</para>
+<para><emphasis>Answer:</emphasis> Sample responses:
+  The graphs would still be lines with negative slopes that are different. They would have the same horizontal
+  intercepts. The vertical intercepts would be different, but they would represent the same amount of water.</para>
 <title>Activity Synthesis</title>
 <para>Select a group that analyzed the first situation and a
   group that analyzed the second situation to share their responses.
@@ -196,6 +204,7 @@ constant rate of change.</para>
     </row>
   </tbody>
 </table>
+
 <title>1.5.4: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on
   their experience with the self check. Students will not automatically have access to this content, so you may wish
@@ -204,13 +213,25 @@ constant rate of change.</para>
 <para>An equation that contains two unknown quantities or two quantities that vary is called an equation in two variables. A solution to such an equation is a pair of numbers that makes the equation true. </para>
 <para>Suppose Tyler spends $40 on T-shirts and socks. A T-shirt costs $10 and a pair of socks costs $2.50. If \(t\) represents the number of T-shirts and \(p\) represents the number of pairs of socks that Tyler buys, what is an equation that represents the equation?</para>
 <para><emphasis>Example 1</emphasis></para>
-<para><emphasis>Step 1</emphasis> - Create a two-variable equation. </para>
+<para><emphasis>Step 1</emphasis> - Create a two-variable equation. 
+  The cost is $10 per t-shirt \((10t)\) plus $2.50 per pair of socks \((2.50p)\) which equals $40.
+  \(10t +2.50p = 40\)</para>
 <para>Now, we have to graph the equation.  We will let \(t=x\) and \(p=y\).</para>
-<para><emphasis>Step 2</emphasis> - Find the \(x\)-intercept.</para>
-<para>\(10t +2.50p = 40\)</para>
-<para>\((4, 0)\) is the \(x\)-intercept.</para>
+<para><emphasis>Step 2</emphasis> - Find the \(x\)-intercept.
+  To find the \(x\)-intercept, let \(p=0\).</para>
+<para>\(10t +2.50p = 40\)
+  \(10t +2.50(0) = 40\)
+  \(10t +0 = 40\)
+  \(t = 4\)</para>
+<para>\((4, 0)\) is the \(x\)-intercept.
+  The \(x\)-intercept is also called a solution or zero. </para>
   <para>In this scenario, 4 represents the number of T-shirts Tyler can buy if he doesn't purchase any socks with $40.</para>
-<para><emphasis>Step 3</emphasis> - Find the \(y\)-intercept.</para><para>\(10t +2.50p = 40\)</para>
+<para><emphasis>Step 3</emphasis> - Find the \(y\)-intercept.
+  To find the \(y\)-intercept, let \(t=0\).
+</para><para>\(10t +2.50p = 40\)
+  \(10(0) +2.50p = 40\)
+  \((0) +2.50p = 40\)
+  \(2.50p = 16\)</para>
 <para>\((0, 16)\) is the  \(y\)-intercept.</para>
 <para>In this scenario, 16 represents the number of socks Tyler can buy if he doesn't purchase any T-shirts with $40.</para>
 <para><emphasis>Step 4</emphasis> - Graph the line by connecting the intercepts. </para>
@@ -223,6 +244,7 @@ constant rate of change.</para>
 <para><emphasis>Example 3</emphasis>
 </para><para>What does the point \((4, 6)\) mean on this graph?</para>
 <para><emphasis>Answer:</emphasis> If Tyler bought 4 T-shirts and 6 pairs of socks, it would cost more than $40.</para>
+
 <title>Try It: Writing Equations Using Graphs in Situations</title>
 <para>Use Desmos or a graphing calculator to create a graph for \( 40x +20y = 180 \).</para>
 <list class="os-raise-noindent" type="enumerated">

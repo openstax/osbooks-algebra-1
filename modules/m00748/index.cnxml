@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00748</md:content-id>
     <md:title>3.4.3: Finding the Correlation Coefficient with Technology</md:title>
-    <md:uuid>a356ee92-5570-4e8f-9727-6f32589f169a</md:uuid>
+    <md:uuid>2006935c-787b-41a2-8632-e5eccc5b0d2e</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 Minutes)</title>
@@ -12,6 +12,7 @@
 <para>After students open a window to Desmos, instruct them to click into each cell in the table and insert each corresponding value in the data set. Once a student has clicked into the first cell in the table, they may also use the arrow keys to navigate from one cell to the next. </para>
 <para>Instructions are provided if they wish to copy and paste the entire table, but emphasize that unless the values are copied from a spreadsheet, they will not be pasted together into the table.</para>
 <para>Show students that the graphing window, or field of view, may be changed by clicking onto the graph and dragging it in different directions.</para>
+
 <title>Student Activity</title>
 <para>(Students were provided access to Desmos.)</para>
 <list class="os-raise-noindent" type="enumerated">
@@ -19,6 +20,8 @@
 </list>
 
 <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+
+
 <!--Interaction End -->
 
 <list class="os-raise-noindent" start="2" type="enumerated">
@@ -55,6 +58,7 @@
     </row>
   </tbody>
 </table>
+
 <para>Hint: The window should be appropriately set to display the points in the table, but sometimes it will be necessary to adjust the window of the graph in order to properly view your data set. Use the mouse to drag and change the viewing window. To zoom in or out, use the buttons in the top right or the scrolling wheel on the mouse.</para>
 <list class="os-raise-noindent" start="3" type="enumerated">
   <item>Click in the entry box #2 below the table from Question 1 and enter the command \(corr(x_1,y_1)\).  (You can just type \(x_1\) and \(y_1\).  The subscripts will appear automatically.)</item>
@@ -69,9 +73,11 @@
   <item> What does this number tell you about the strength of the linear relationship? </item>
 </list>
 <para><emphasis>Answer:</emphasis> These data have a strong negative linear relationship. This means that as the \(x\)-values increase, the \(y\)-values decrease.</para>
+
 <title>Activity Synthesis</title>
 <para>If students are having difficulty finding the correlation coefficient using technology, tell them to use the \(corr(x_1, y_1\)) command in Desmos. It may also be helpful to check the accuracy of the data entered into the \(x_1\) and \(y_1\)columns.</para>
 <para>Tell students, in this lesson, we will find the correlation coefficient of a data set using technology. We will then use the correlation coefficient to understand the strength of a linear relationship.</para>
+
 <title>3.4.3: Self Check</title>
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their
   understanding of the concepts explored in the activity.</emphasis></para>
@@ -99,6 +105,7 @@
     </row>
   </tbody>
 </table>
+
 <para>Students were provided access to Desmos.</para>
 <table class="os-raise-textheavytable">
   <thead>
@@ -127,13 +134,19 @@
     </row>
   </tbody>
 </table>
+
+
 <title>3.4.3: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
+
 <title>Finding The Correlation Coefficient Using Technology</title>
 <para>(Students were provided access to Desmos.)</para>
 <para><emphasis>Step 1</emphasis> - Use the Desmos graphing tool below to create a table for entering this data.  Click on the “+” symbol and select the table from the drop-down menu.</para>
 
+
 <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+
+
 <para><emphasis>Step 2</emphasis> - Enter the data into the corresponding x1 and y1 columns in the table you created in Step 1.  Press Enter or use arrow keys to enter a new data value in the table.</para>
 <para>(If preferred, the data can be copied and pasted into Desmos from a spreadsheet using keyboard shortcuts. Windows: Ctrl+C for copy and Ctrl+V for paste. Mac: Command+C for copy and Command+V for paste.)</para>
 <table class="os-raise-skinnytable">
@@ -166,6 +179,7 @@
     </row>
   </tbody>
 </table>
+
 <para>Hint: The window should be appropriately set to display the points in the table, but sometimes it will be necessary to adjust the window of the graph in order to properly view your data set. Use the mouse to drag and change the viewing window. To zoom in or out, use the buttons in the top right or the scrolling wheel on the mouse.</para>
 
 <para>You should have created the following table and scatter plot:</para>
@@ -174,12 +188,15 @@
 <para>As soon as you enter the correlation command, Desmos will display the correlation coefficient after an equal sign in the bottom right corner of the same box.</para>
 <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4492301207904d727ef47d7da77ef455043d1ef7"/></media></figure><para><emphasis>Step 4 </emphasis>- Round to the nearest thousandth. The correlation coefficient is -0.299.</para>
 <para><emphasis>Step 5 </emphasis>- Determine the strength of the linear relationship. This correlation coefficient shows a weak negative linear relationship.</para>
+
 <title id="yui_3_17_2_1_1691624406097_51">Try It: Finding the Correlation Coefficient with Technology</title>
 <para>(Students were provided access to Desmos.)</para>
 <list class="os-raise-noindent" type="enumerated">
   <item>Find the correlation coefficient of the data set. Round the answer to the nearest thousandth.</item>
 </list>
+
 <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+
 <table class="os-raise-skinnytable">
   <thead>
     <row>
@@ -210,6 +227,7 @@
     </row>
   </tbody>
 </table>
+
 <para><emphasis>Answer:</emphasis> -0.442</para>
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item>What is the strength of the linear relationship?</item>

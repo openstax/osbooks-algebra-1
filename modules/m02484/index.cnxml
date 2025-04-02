@@ -3,18 +3,30 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02484</md:content-id>
     <md:title>9.9.3: Additional Resources</md:title>
-    <md:uuid>4894f3f0-aee2-467e-9b19-6bed72271373</md:uuid>
+    <md:uuid>2c7793e1-12e1-414b-a2ab-2943fa00df6b</md:uuid>
   </metadata>
   <content>
   <section><title>Creating Vertex Form from a Vertex and a Point</title>
 <para>Write the quadratic in vertex form that has a vertex at \((3, 4)\) and goes through the point \((1, 2)\).</para>
 <para>First start with the vertex form of a quadratic function.</para>
 <para>\(y=a(x-h)^2+k\)</para>
-<para><emphasis>Step 1 </emphasis>- Substitute the vertex in at \((h, k)\).</para>
-<para><emphasis>Step 2</emphasis> - Substitute the other point at \((x, y)\).</para>
-<para><emphasis>Step 3 </emphasis>- Solve for \(a\).</para>
-<para><emphasis>Step 4</emphasis> - Substitute the value of \(a\) value and the vertex \((h, k)\) into the vertex form.</para>
+<para><emphasis>Step 1 </emphasis>- Substitute the vertex in at \((h, k)\).
+  \(y=a(x-3)^2+4\)</para>
+<para><emphasis>Step 2</emphasis> - Substitute the other point at \((x, y)\).
+  \(2=a(1-3)^2+4\)</para>
+<para><emphasis>Step 3 </emphasis>- Solve for \(a\).
+  \(2=a(1-3)^2+4\)
+  \(2=a(-2)^2+4\)
+  \(2=a(4)+4\)
+  \(2-4=a(4)+4-4\)
+  \(-2=a(4)\)
+  \(-\frac24=\frac{a(4)}{4}\)
+  \(a=-\frac12\)</para>
+<para><emphasis>Step 4</emphasis> - Substitute the value of \(a\) value and the vertex \((h, k)\) into the vertex form.
+  \(y=-\frac12(x-3)^2+4\)</para>
+
 <title>Try It: Creating Vertex Form from a Vertex and a Point</title>
+
 <!--Q#-->
 <example><exercise>
   <problem>
@@ -24,11 +36,18 @@
   </problem><solution>
   <para>Compare your answer:</para>
   <para>\(y=2(x-2)^2+5\)</para>
-  <para>First, start with the vertex form of a quadratic function:</para>
-  <para><emphasis>Step 1</emphasis> - Substitute the vertex at \((h, k)\):</para>
-  <para><emphasis>Step 2</emphasis> - Substitute the other point at \((x, y)\):</para>
-  <para><emphasis>Step 3</emphasis> - Solve for \(a\):</para>
-  <para><emphasis>Step 4</emphasis> - Substitute the value of \(a\) and the vertex \((h, k)\) into the vertex form:</para>
+  <para>First, start with the vertex form of a quadratic function:
+    \(y=a(x-h)^2+k\)</para>
+  <para><emphasis>Step 1</emphasis> - Substitute the vertex at \((h, k)\):
+    \(y=a(x-2)^2+5\)</para>
+  <para><emphasis>Step 2</emphasis> - Substitute the other point at \((x, y)\):
+    \(7=a(3-2)^2+5\)</para>
+  <para><emphasis>Step 3</emphasis> - Solve for \(a\):
+    \(7=a(1)^2+5\)
+    \(7-5=a(1)^2+5-5\)
+    \(a=2\)</para>
+  <para><emphasis>Step 4</emphasis> - Substitute the value of \(a\) and the vertex \((h, k)\) into the vertex form:
+    \(y=2(x-2)^2+5\)</para>
 </solution></exercise>
 </example><!-- Interaction End -->
 </section>

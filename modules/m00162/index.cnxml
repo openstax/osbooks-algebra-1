@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00162</md:content-id>
     <md:title>1.7.2: Explaining Acceptable Moves to Solve an Equation</md:title>
-    <md:uuid>d2ad945f-52f9-4da0-b674-53180c321dd5</md:uuid>
+    <md:uuid>1d88a430-1460-4fac-8f2b-d583da154255</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -17,6 +17,7 @@
 <para>Arrange students in groups of 2. Ask the partners in each group to choose different equations from each column. Give students a few minutes of quiet time to think about and write explanations about the equations in column A. Then, give students time to take turns sharing their explanations with their partner before moving on to column B.</para>
 <para>Tell students that when one student explains, the partner’s job is to listen and make sure that they agree and that the explanation makes sense. If they don’t agree, the partners discuss until they come to an agreement.</para>
 <para>Repeat the process with the equations in column B.</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
@@ -28,6 +29,7 @@
     </para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para>Here are some pairs of equations. While one partner listens, the other partner should:</para>
 <list>
@@ -57,40 +59,51 @@
     <row>
       <entry scope="row" class="emphasis">1.</entry>
       <entry>
-        \( 16=4(9-x) \)</entry>
+        \( 16=4(9-x) \)\( 16=36-4x \)
+      </entry>
       <entry>
-        \( 9x = 5x + 4 \)</entry>
+        \( 9x = 5x + 4 \)\( 14x = 4 \)
+      </entry>
     </row>
     <row>
       <entry scope="row" class="emphasis">2.</entry>
       <entry>
-        \( 5x = 24 + 2x \)</entry>
+        \( 5x = 24 + 2x \)\( 3x = 24 \)
+      </entry>
       <entry>
-        \( \frac12x - 8 = 9 \)</entry>
+        \( \frac12x - 8 = 9 \)\( x - 8 = 18 \)
+      </entry>
     </row>
     <row>
       <entry scope="row" class="emphasis">3.</entry>
       <entry>
-        \(-3(2x +9)=12 \)</entry>
+        \(-3(2x +9)=12 \)\( 2x+9= -4 \)
+      </entry>
       <entry>
-        \( 6x - 6 = 3x \)</entry>
+        \( 6x - 6 = 3x \)\( x - 1 = 3x \)
+      </entry>
     </row>
     <row>
       <entry scope="row" class="emphasis">4.</entry>
       <entry>
-        \( 5x=3-x \)</entry>
+        \( 5x=3-x \)\( 5x = -x + 3 \)
+      </entry>
       <entry>
-        \( -11(x -2) = 8 \)</entry>
+        \( -11(x -2) = 8 \)\( x-2 = 8 + 11 \)
+      </entry>
     </row>
     <row>
       <entry scope="row" class="emphasis">5.</entry>
       <entry>
-        \( 18 = 3x - 6 + x \)</entry>
+        \( 18 = 3x - 6 + x \)\( 18 = 4x - 6 \)
+      </entry>
       <entry>
-        \( 4 - 5x = 24 \)</entry>
+        \( 4 - 5x = 24 \)\( 5x = 20 \)
+      </entry>
     </row>
   </tbody>
 </table>
+
 <para>After you have discussed these equations with your partner, answer questions 1 - 2.</para>
 <list class="os-raise-noindent" type="enumerated">
   <item>Which pair of equations did you select from <stong>Column A</stong>? Explain your reasoning.</item>
@@ -114,6 +127,7 @@
   <item>The left side of the first equation is divided by \( -11 \) but the right side is being added by 11. Performing two different operations with different numbers on the same value may not keep an equation true.</item>
   <item>Subtracting 4 from two values that are equal keeps the equation true. The expression on the left was multiplied (or divided) by \( -1 \), however, the expression on the right was not, so the two expressions are no longer equal.</item>
 </list>
+
 <title>Anticipated Misconceptions</title>
 <para>Students may have trouble seeing why some equations in column B are not equivalent (particularly the second item, which contains a common error). Encourage these students to choose one pair of equations, solve one equation, and then substitute the solution into the other equation to see what goes wrong.</para>
 <title>Activity Synthesis</title>
@@ -123,6 +137,7 @@
   <item>Applying the distributive, commutative, and associative properties (of multiplication or addition) to an expression doesn’t change its value, so doing so to one side of a true equation doesn’t change the equality.</item>
 </list>
 <para>Explain to students that next they will look at some examples where the moves made to write equivalent equations appear to be acceptable but the resulting equations turn out to be false statements.</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -134,6 +149,7 @@
     </para>
   </div>
 </div>
+
 <title>1.7.2: Self Check</title>
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
 <para class="os-raise-text-bold">QUESTION:</para>
@@ -164,21 +180,26 @@
     </row>
   </tbody>
 </table>
+
 <title>1.7.2: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
+
 <title>Solving Equations and Creating Equivalent Equations</title>
 <para>One way to create equivalent equations is to solve the equation. In each step of solving, an equivalent equation is created.</para>
 <para>Here is a general strategy for solving linear equations:</para>
 <para><emphasis>Step 1 - </emphasis>Simplify each side of the equation as much as possible.</para>
-<para>Use the Distributive Property to remove any parentheses.</para>
+<para>Use the Distributive Property to remove any parentheses.
+  Combine like terms.</para>
 <para><emphasis>Step 2 - </emphasis>Collect all the variable terms on one side of the equation.</para>
 <para>Use the Addition or Subtraction Property of Equality.</para>
 <para><emphasis>Step 3 - </emphasis> Collect all the constant terms on the other side of the equation.</para>
 <para>Use the Addition or Subtraction Property of Equality.</para>
 <para><emphasis>Step 4 - </emphasis>Make the coefficient of the variable term equal to 1.</para>
-<para>Use the Multiplication or Division Property of Equality.</para>
+<para>Use the Multiplication or Division Property of Equality.
+  State the solution to the equation.</para>
 <para><emphasis>Step 5 - </emphasis>Check the solution.</para>
 <para>Substitute the solution into the original equation to make sure the result is a true statement.</para>
+
 <para class="os-raise-text-bold">Example 1</para>
 <para>Here is an example of solving equations. Notice that each step is an acceptable move that creates an equivalent equation.</para>
 <para><emphasis>Step 1 - </emphasis>Simplify each side of the equation as much as possible.</para>
@@ -196,6 +217,7 @@
 <para><emphasis>Step 5 - </emphasis>Check the solution.</para>
 <para>Substitute the solution into the original equation to make sure the result is a true statement.</para>
 <para>\(\begin{array}{rcl}-6(x+3)&amp;=&amp;24 \\ -6({\style{color:red}-}{\style{color:red}7}+3)&amp;=&amp;24 \\ -6(-4)&amp;=&amp;24 \\24&amp;=&amp;24 \checkmark \end{array}\)</para>
+
 <para class="os-raise-text-bold">Example 2</para>
 
 <para>Find the solution for \(3(4x - 1) - 2 = 8x + 3\).</para>
@@ -211,6 +233,7 @@
 <para>\(\begin{array}{rcl}\frac{4x}{4} &amp;=&amp; \frac84 \\ x &amp;=&amp; 2\end{array}\)</para>
 <para><emphasis>Step 5 -</emphasis> Check the solution.</para>
 <para>\(\begin{array}{rcl}3(4x - 1) - 2&amp;=&amp;8x + 3 ? \\ 3(4(2) - 1) - 2&amp;=&amp;8(2) + 3 ? \\ 3(8 - 1) - 2&amp;=&amp;16 + 3 ? \\ 3(7) - 2&amp;=&amp;19 ? \\ 21 - 2&amp;=&amp;19 ? \\ 19&amp;=&amp;19 \checkmark\end{array}\)</para>
+
 <para class="os-raise-text-bold">Example 3</para>
 
 <para>Solve \(12x + 3(x + 7) = 10x - 24\).</para>
@@ -229,6 +252,7 @@
 <para>\(\begin{array}{rcl}\frac{5x}{5}&amp;=&amp;-\frac{45}{5} \\ x &amp;=&amp; -9\end{array}\)</para>
 <para><emphasis>Step 5 -</emphasis> Check the solution.</para>
 <para>\(\begin{array}{rcl}12x + 3(x + 7)&amp;=&amp;10x - 24 ? \\ 12(-9) + 3(-9 + 7)&amp;=&amp;10(-9) - 24 ? \\ -108 + 3(-2)&amp;=&amp;-90 - 24 ? \\ -108 + -6&amp;=&amp;-86 ? \\ -114&amp;=&amp;-114 \checkmark\end{array}\)</para>
+
 <title>Video: Acceptable Moves</title>
 <para>Watch the following video to <span id="docs-internal-guid-6a5a0c7d-7fff-6ac8-782a-cac51cd28096">learn more about acceptable moves.</span></para>
 <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
@@ -237,6 +261,8 @@
       <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/86ba592db56095fbc646f9f369cf34545df8eb23 " srclang="en_us">https://k12.openstax.org/contents/raise/resources/84fd718f1e7fa4c23f38cb1f2a45b7a21744d55f
     </track></source></video></iframe>
 </div>
+
+
 <title>Try It: Solving Equations and Creating Equivalent Equations</title>
 <list class="os-raise-noindent" type="enumerated">
   <item>Write two equivalent equations to \( 2(x+4)= 12 \).</item>
@@ -246,8 +272,10 @@
 <list>
   <item>\(2x + 8 = 24 \)</item>
   <item>\(x + 4 = 6 \)</item>
-  <item>\(2x = 16\)</item>
+  <item>\(2x = 16\)
+  </item>
 </list>
+
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item>Solve \(2(x+4)=12\).</item>
 </list>
@@ -272,6 +300,7 @@ x &amp;=&amp; 2\end{array}\)</para>
   2({\style{color:red}2} + 4) &amp;=&amp; 12 \\ 
   2(6) &amp;=&amp; 12 \\ 
 12 &amp;=&amp; 12 \checkmark\end{array}\)</para>
+
 <list class="os-raise-noindent" start="3" type="enumerated">
   <item>
     Solve \(-12+8(x−5)=-4+3(5x-2)    \)</item>

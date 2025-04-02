@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00560</md:content-id>
     <md:title>2.11.3: Sketching Solutions to Inequalities</md:title>
-    <md:uuid>3fd4044e-9e9d-4ce0-ade8-e74476f50d43</md:uuid>
+    <md:uuid>f6cf4664-34d8-4c74-af43-b3d3b7cb293e</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -22,6 +22,7 @@
 <para>Explain that the solid line is a way to say that all the points on that line (\( x=y \)) are solutions, and the dashed line is a way to say otherwise. (This is similar to how we use solid and open circles to represent the boundary values of a one-variable inequality on a number line.)</para>
 <para>Because the solutions to \( x&gt;y \) do not include coordinates where \( x \) and \( y \) are equal, the graph of \( x=y \) is drawn with a dashed line. The solutions to \( x\geq y \) do include coordinates where \( x \) and \( y \) are equal, so the graph of \( x=y \) is drawn with a solid line.</para>
 <para>Tell students they will now sketch the solutions of some other inequalities and think about whether or not the boundary line is included in the solutions.</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -33,7 +34,8 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Conceptual processing; Language</para>
     </div>
   </div>
- <title>Student Activity</title>
+ 
+<title>Student Activity</title>
 <para>Here is a graph that represents solutions to the equation </para>
 <para>\(x−y=5\). Using this graph as a guide, sketch a quick graph that represents the solutions to each of the inequalities in questions 1–4.</para>
 <para><figure><media alt="Graph of a line, origin O, no grid. Scale is negative 10 to 5, by 5's on both axes. Line passes through 0 comma negative 5 and 5 comma 0."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/390575569b6a697c88e7c8f45459414bdcd45264"/></media></figure></para>
@@ -94,18 +96,24 @@
   <item> The points \((3, 2)\) and \((5, 2)\) are also in the solution region. Which of these points comes closest to satisfying the equation \(x − 2y = 3\)? </item>
 </list>
 <para><emphasis>Answer:</emphasis></para>
-<para>Compare your answer:</para>
+<para>Compare your answer:
+\((5, 2)\) is closer because  
+\((3, 2)=(3)-(2)(2)= -1\)   
+\((5, 2)=(5)-(2)(2)=1\)   </para>
 <para>1 is closer to 3 than -1, so the point that is closest to satisfying the equation is \((5,2)\). </para>
 <list class="os-raise-noindent" start="4" type="enumerated">
   <item> Find a point in the solution region that comes even closer to satisfying the equation \(x − 2y = 3\). What is the value of \(x − 2y\)? </item>
 </list>
 <para><emphasis>Answer:</emphasis></para>
-<para>Compare your answer: Your answer may vary, but here is a sample. </para>
+<para>Compare your answer: Your answer may vary, but here is a sample. 
+\(6-(2)(2)=2\)  </para>
 <list class="os-raise-noindent" start="5" type="enumerated">
   <item> For the points \((5, 2)\) and \((7, 3)\), \(x − 2y = 1\). Find another point in the solution region for which \(x − 2y = 1\). </item>
 </list>
 <para><emphasis>Answer:</emphasis></para>
-<para>Compare your answer: Your answer may vary, but here is a sample. </para>
+<para>Compare your answer: Your answer may vary, but here is a sample. 
+\((3, 1)\)  
+Any point on the line \(y=\frac{1}{2}x−\frac{1}{2}\) will work.  </para>
 <para>Use the point \((5, 3)\) to answer questions 6 and 7.</para>
 <list class="os-raise-noindent" start="6" type="enumerated">
   <item> Find the value of \(x − 2y\). </item>
@@ -157,17 +165,21 @@
     </row>
     </tbody>
 </table>
-<title>2.11.3: Additional Resources</title>
+
+  <title>2.11.3: Additional Resources</title>
   <para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it. </emphasis></emphasis></para>
   <title>Recognize the Relation Between the Solutions of an Inequality and its Graph</title>
   <para>Now, we will look at how the solutions of an inequality relate to its graph. Let’s think about the number line shown previously again. The point \(x = 3\) separated that number line into two parts. On one side of 3 are all the numbers less than 3. On the other side of 3 all the numbers are greater than 3. See the figure below.
 </para>
   <figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/5d0288de5ccd152c0943577dea1e3e7902515d40"/></media></figure><para>The solution of \( x&gt;3 \) is the shaded part of the number line to the right of \( x = 3 \)</para>
   <para>Similarly, the line \(y = x + 4\) separates the plane into two regions. On one side of the line are points with \( y &lt; x + 4\) . On the other side of the line are the points with \( y &gt; x + 4 \). We call the line \( y = x + 4 \) a <emphasis>boundary line. </emphasis></para>
-      <note>
-      <para><emphasis>Boundary Line</emphasis></para>
+      
+<note>
+      <para><emphasis>Boundary Line</emphasis>
+          The line with equation \( Ax + By = C \) is the boundary line that separates the region where \( Ax + By &gt; C \) from the region where \( Ax + By &lt; C \). </para>
       </note>
-      <para>For an inequality in one variable, the endpoint is shown with a parenthesis or a bracket depending on whether or not \( a \) is included in the solution: </para>
+      
+  <para>For an inequality in one variable, the endpoint is shown with a parenthesis or a bracket depending on whether or not \( a \) is included in the solution: </para>
   <figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/a87f0b0fc3d571b0035368ef8dc483928262a2da"/></media></figure><para>Similarly, for an inequality in two variables, the boundary line is shown with a solid or dashed line to show whether or not it the line is included in the solution. </para>
   <table class="os-raise-textheavytable">
     <thead>
@@ -200,7 +212,8 @@
     </row>
     </tbody>
 </table>
-      <para>Now, let’s take a look at what we found in the example above. We’ll start by graphing the line \( y = x + 4 \), and then we’ll plot the five points we tested, as shown in the graph. See the figure below.
+      
+  <para>Now, let’s take a look at what we found in the example above. We’ll start by graphing the line \( y = x + 4 \), and then we’ll plot the five points we tested, as shown in the graph. See the figure below.
 </para>
   <figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/e779e442c4198dc4bd5d2014d08e1bff3b30c48d"/></media></figure><para>In the previous example, we found that some of the points were solutions to the inequality \( y &gt; x + 4 \) and some were not.
 </para>
@@ -209,7 +222,9 @@
   <para>The two points \( (0, 0) \) and \( (-5, -15) \) are on the other side of the boundary line \( y = x + 4 \), and they are not solutions to the inequality \( y &gt; x + 4 \). For those two points. \( y &lt; x + 4 \). </para>
   <para>What about the point \((2,6)\)? The point \((2,6)\) is a solution to the boundary line equation \(y=x+4\), because \(6=2+4\).  However, \((2,6)\) is not a solution to the inequality, because the boundary line is not included in the solution to the inequality \(y &gt; x+4\).</para>
   <para>Let's take another point above the boundary line and test whether or not it is a solution to the inequality \( y &gt; x + 4 \). The point \( (0, 10) \) clearly looks to above the boundary line, doesn't it? Is it a solution to the inequality? </para>
-  <para>\( y &gt; x + 4 \)</para>
+  <para>\( y &gt; x + 4 \)
+  \( 10 &gt; 0 + 4 \)
+  \( 10 &gt; 4 \)</para>
   <para>So, \( (0, 10) \) is a solution to \( y &gt; x + 4 \). </para>
   <para>Any point you choose above the boundary line is a solution to the inequality \( y &gt; x + 4 \). All points above the boundary line are solutions. </para>
   <para>Similarly, all points below the boundary line, the side with \( (0, 0) \) and \( (−5, −15) \), are not solutions to \( y &gt; x + 4 \), as shown in the figure below.
@@ -220,7 +235,8 @@
   <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/820434aabc35ee85c06f59f6ed8066ac90b0ca26"/></media></figure></para>
   <title>Try It: Recognize the Relation Between the Solutions of an Inequality and its Graph</title>
   <para>The graph of \( y = \frac{1}{2} x - 3 \) is shown here.</para>
-  <figure><media alt="The graph of \( y = \frac{1}{2} x - 3 \)"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/bf5fbef4230d5ef2797f02c69369cce11700671c"/></media></figure><para>Sketch the graph of \( y &lt; \frac{1}{2}x - 3. \)</para>
+  <figure><media alt="The graph of \( y = \frac{1}{2} x - 3 \)"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/bf5fbef4230d5ef2797f02c69369cce11700671c"/></media></figure><para>Sketch the graph of \( y &lt; \frac{1}{2}x - 3. \)
+</para>
   <figure><media alt="graph of \( y &lt; \frac{1}{2}x - 3. \)"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/34b5c8a4c84a9d304c9b484d25adead4cceb178d"/></media></figure><para><emphasis>Solution </emphasis></para>
   <para>\( y &lt; \frac{1}{2} x - 3 \)</para>
   <figure><media alt="\( y &lt; \frac{1}{2} x - 3 \)"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/5836ab661b025fcde26a7d058eedd7eb7db3546a"/></media></figure></section>

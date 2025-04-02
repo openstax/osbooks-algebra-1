@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02513</md:content-id>
     <md:title>9.11.3: Comparing Maximums between Quadratics</md:title>
-    <md:uuid>9c1ebc7b-1d78-4056-a40b-92af5ee860b3</md:uuid>
+    <md:uuid>70ae9182-ceb5-4a69-97ae-3a4190e9cc2d</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (10 minutes)</title>
@@ -15,6 +15,7 @@
 </list>
 <title>Launch</title>
 <para>Arrange students in groups of two. Give students time to read the task statement and think quietly about how they would go about comparing the two functions. Then, ask them to share their thoughts with their partner before beginning to work on the problem.</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
@@ -37,6 +38,7 @@
     </para>
   </div>
 </div>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -48,6 +50,7 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Memory; Organization</para>
   </div>
 </div>
+
 <title>Student Activity </title>
 <para>A function \(A\), defined by \(p(600−75p)\), describes the revenue collected from the sales of tickets for Performance A, a musical.</para>
 <para>The graph represents a function \(B\) that models the revenue collected from the sales of tickets for Performance B, a Shakespearean comedy.</para>
@@ -69,6 +72,8 @@
       https://k12.openstax.org/contents/raise/resources/d609275acd34998c8543a11b3df4e14a5a1343e8
     </track></source></video></iframe>
 </div>
+
+
 <title>Activity Synthesis</title>
 <para>Invite previously identified students to share their solutions. Ask students to explain why they decided to take the steps that they did. Highlight any connections made between the structure of an expression defining a function, points on its graph, and the meaning of any values in this situation. </para>
 <title>9.11.3: Self Check </title>
@@ -117,6 +122,7 @@
     </row>
   </tbody>
 </table>
+
 <title>9.11.3: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
 <title>Finding Maximum Revenue</title>
@@ -126,24 +132,34 @@
 <para>This occurs at\( p=0\) or \((0,0)\).</para>
 <para>Second intercept -</para>
 <para>\(\begin{array}{rcl}−2500p+159,000&amp;=&amp;0 \\ −2500p &amp;=&amp; −159,000 \\p&amp;=&amp;63.6\end{array}\)</para>
+
 <para><emphasis>Step 2 -</emphasis> Find the \(x\)-coordinate of the vertex halfway through the horizontal intercepts.</para>
 <para>The vertex (of a graph) will occur halfway between \(p=0\) and \(p=63.6\). This occurs when \(p=31.8\).</para>
+
 <para><emphasis>Step 3 - </emphasis>Write in the function in standard form and substitute \(p=31.8\).</para>
 <para>\(R=−2500p^2+159,000p\)</para>
 <para>\(R=−2500(31.8)^2+159,000(31.8)\)</para>
 <para>The maximum revenue is at $2,528,100 with a $31.80 subscription.</para>
+
+
 <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/ba1489bbd5e87c370c00274cced0d7e89b788b1c"/></media></figure></para>
+
 <title>Try It: Finding Maximum Revenue</title>
+
 <para>Suppose that the price per unit in dollars of a cell phone production is modeled by \(p=$45-0.0125x\), where \(x\) is in thousands of phones produced, and the revenue represented by thousands of dollars is \(R=x \cdot p\). Find the production level that will maximize revenue and the maximum revenue. </para>
 <para>Solution</para>
 <para>Here is how to find the maximum revenue:</para>
 <para><emphasis>Step 1</emphasis> - Find the horizontal intercepts.</para>
-<para>  \(x=0\) and</para>
+<para>  \(x=0\) and
+  \(p=45-0.0125x\)
+  \(x=3600\)</para>
 <para><emphasis>Step 2</emphasis> - Find the \(x\)-coordinate of the vertex halfway through the horizontal intercepts.</para>
 <para>  This is the number of phones produced for the maximum revenue.</para>
 <para>  \(x=1800\)</para>
 <para><emphasis>Step 3</emphasis> - Find the equation for \(R\) and substitute \(x=1800\) to find the maximum revenue.</para>
-<para>  \(R=-0.0125x^2+45x\)</para>
+<para>  \(R=-0.0125x^2+45x\)
+  \(R=-0.0125(1800)^2+45(1800))\)
+  \(R=$40,500\)</para>
 </section>
 </content>
 </document>

@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01630</md:content-id>
     <md:title>6.4.3: Factoring the GCF from Polynomials</md:title>
-    <md:uuid>e3a7bac6-588b-4869-ab44-fb0f612e5f6b</md:uuid>
+    <md:uuid>30acefb0-8872-4643-8d93-ffc86504a455</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -20,6 +20,7 @@
   <para>\(\;\;\;\;\;\;\;\;\;\;\;a(b + c) = ab + ac\) and \(ab + ac = a(b + c)\)</para>
   <para>The form on the left is used to multiply. The form on the right is used to factor.</para>
 </note>
+
 <para>Emphasize that the equation on the left is often used to distribute a value into a group of expressions. The equation
   on the right can be thought of as the Distributive Property “in reverse” and will be very useful in
   factoring expressions.</para>
@@ -42,6 +43,7 @@
     <para><link url="https://k12.openstax.org/contents/raise/resources/ff4abd7c9bec5ca1a1a7d070b61658237abfbde7">Distribute graphic organizers</link> to the students to assist them with participating in this routine. </para>
   </div>
 </div>
+
 <title>Student Activity </title>
 <para>To factor a GCF from a polynomial and represent it in factored form, we must first find the GCF.</para>
 <para>Let’s look at an example: \(7z^5 − 21sz^3\).</para>
@@ -150,6 +152,7 @@
     </row>
   </tbody>
 </table>
+
 <title>6.4.3: Additional Resources</title>
 <para class="os-raise-text-bold os-raise-text-italicize">The following content is available to students who would like more support based on their experience with
   the self check. Students will not automatically have access to this content, so you may wish to share it with
@@ -167,6 +170,7 @@
   <para>\(\;\;\;\;\;\;\;\;\;\;\;a(b + c) = ab + ac\) and \(ab + ac = a(b + c)\)</para>
   <para>The form on the left is used to multiply. The form on the right is used to factor.</para>
 </note>
+
 <para>So how do you use the Distributive Property to factor a polynomial? You just find the GCF of all the terms and write
   the polynomial as a product!</para>
 <para class="os-raise-text-bold">Example 1</para>
@@ -186,12 +190,18 @@
   <item> \(20mn^2 = {\style{color:red}4}
     {\style{color:red}m} \cdot 5n^2\) </item>
 </list>
-<para>\(8m^3-12m^2n+20mn^2\)</para>
+<para>\(8m^3-12m^2n+20mn^2\)
+  \({\style{color:red}4}
+  {\style{color:red}m} \cdot 2m^2 - {\style{color:red}4}
+  {\style{color:red}m} \cdot 3mn + {\style{color:red}4}
+  {\style{color:red}m} \cdot 5n^2\)</para>
 <para><emphasis>Step 3 - 
   </emphasis>Use the “reverse” Distributive Property to factor the expression.</para>
 <para>\(4m(2m^2-3mn+5n^2)\)</para>
 <para><emphasis>Step 4 -</emphasis> Check by multiplying the factors.</para>
-<para>\(4m(2m^2-3mn+5n^2)\)</para>
+<para>\(4m(2m^2-3mn+5n^2)\)
+  \(4m \cdot 2m^2 - 4m \cdot 3mn + 4m \cdot 5n^2\)
+  \(8m^3-12m^2n+20mn^2\)</para>
 <para>When the leading coefficient is negative, we factor the negative out as part of the GCF.</para>
 <para class="os-raise-text-bold">Example 2</para>
 <para>Factor: \(−4a^3 + 36a^2 − 8a\).</para>
@@ -213,7 +223,9 @@
 <para><emphasis>Step 2 -</emphasis> Factor the GCF.</para>
 <para>  \(−4a(a^2 − 9a + 2)\)</para>
 <para><emphasis>Step 3 -</emphasis> Check.</para>
-<para>  \(−4a(a^2 − 9a + 2)\)</para>
+<para>  \(−4a(a^2 − 9a + 2)\)
+  \(−4a \cdot a^2 − (−4a) \cdot 9a + (−4a) \cdot 2\)
+  \(−4a^3 + 36a^2 − 8a\)</para>
 <para>So far, our greatest common factors have been monomials. In the next example, the greatest common factor is a
   binomial.</para>
 <para class="os-raise-text-bold">Example 3</para>
@@ -229,6 +241,7 @@
 <para><emphasis>Step 1 -</emphasis> Factor the GCF, \((y + 7)\).</para>
 <para>  \((y + 7)(3y − 4)\)</para>
 <para><emphasis>Step 2 -</emphasis> Check on your own by multiplying.</para>
+
 <title>Try It: Factoring the GCF from Polynomials</title>
 <para>Factor.</para>
 <list class="os-raise-noindent" type="enumerated">

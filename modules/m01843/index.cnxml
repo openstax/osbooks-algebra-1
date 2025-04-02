@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01843</md:content-id>
     <md:title>7.7.3: The Domain, Vertex, and Zero of Quadratic Functions</md:title>
-    <md:uuid>8c25a4d5-de0a-486f-b8c1-85699deeb336</md:uuid>
+    <md:uuid>3c58ba79-9bc0-471b-a9a6-0090b2b4983f</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -41,9 +41,11 @@
     </para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para>Here are three sets of descriptions and equations that represent some familiar quadratic functions. The graphs show what a graphing technology may produce when the equations are graphed. For a more accurate answer, use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool below.
-  </para>
+  (Students had access to Desmos.)
+</para>
 
 <list>
   <item> Describe a <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> domain</term></emphasis> that is appropriate for the situation. Think about any upper or lower limits for the input, as well as whether all numbers make sense as the input. Write the domain as an inequality. Then, describe how the graph should be modified to show the domain that makes sense. </item>
@@ -59,24 +61,28 @@
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" type="enumerated">
     <item>What is an inequality that represents the domain? </item>
+    
     <para><emphasis>Answer:</emphasis> \(0&lt;x&lt;12.5\). All positive rational numbers make sense as an input. The part of the graph that is below the horizontal line is not meaningful here (negative lengths or lengths greater than \(12.5\) produce a negative area, which doesn’t make sense). Having a length or area equal to \(0\) doesn’t make sense either.</para>
   </list>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="2" type="enumerated">
     <item>What is an inequality that represents the range? </item>
+    
     <para><emphasis>Answer:</emphasis> \(0&lt;y&lt;39.06\). All positive rational numbers make sense as an output up to the maximum of the graph at 39.06. The part of the graph that is below the horizontal line is not meaningful here since there can not be a negative area (which doesn’t make sense). Having a length or area equal to 0 doesn’t make sense either.</para>
   </list>
 </list> 
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="3" type="enumerated">
     <item>What is the vertex of the graph? </item>
+    
     <para><emphasis>Answer:</emphasis> The vertex is the point on the graph when the input is at \(6.25\). It’s around \((6.25,39.063)\). It’s when the rectangle has the greatest area.</para>
   </list>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="4" type="enumerated">
     <item> What are the zeros of the graph? </item>
+    
     <para><emphasis>Answer:</emphasis> The zeros are \(0\) and \(12.5\). They tell us that when the side length of the rectangle is \(0\) or \(12.5\) meters, the rectangle has no area (no rectangle exists).</para>
   </list>
 </list>
@@ -85,27 +91,32 @@
   <para>The number of squares as a function of step number \(n\): \(f(n)=n^2+4\)</para>
   <para><figure><media alt="Graph of the quadratic function&amp;nbsp;f of n = n squared + 4.&amp;nbsp;Horizontal axis scale negative 12 to 12 by 6’s, labeled “step number”. Vertical axis scale 0 to 200 by 40’s, labeled “number of squares”.&amp;nbsp;&quot; height=&quot;222"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/7b7b6180d83187d6cbb0fc79923a160133ec5e0e"/></media></figure></para>
 </blockquote>
+
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="5" type="enumerated">
     <item>What is an inequality that represents the domain? </item>
+    
     <para><emphasis>Answer:</emphasis> \(n \geq 0\) where \(n\) is a whole number. Step numbers that are negative or decimal don’t make sense here. The graph should show points at non-negative integer values (instead of a continuous curve). Everything to the left of the vertical axis does not have meaning here.</para>
   </list>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="6" type="enumerated">
     <item>What is an inequality that represents the range? </item>
+    
     <para><emphasis>Answer:</emphasis> \(f≥4\). The number of squares starts with 4 and increases.</para>
   </list>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="7" type="enumerated">
     <item>What is the vertex of the graph? </item>
+    
     <para><emphasis>Answer:</emphasis> The vertex is \((0,4)\). It tells us the number of squares at Step \(0\).</para>
   </list>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="8" type="enumerated">
     <item> What are the zeros of the graph? </item>
+    
     <para><emphasis>Answer:</emphasis> There are no zeros for this function. There is not a time when there are no squares in the pattern.</para>
   </list>
 </list>
@@ -114,27 +125,32 @@
   <para>The distance in feet that an object has fallen \(t\) seconds after being dropped: \(g(t)=16t^2\)</para>
   <para><figure><media alt=" &lt;p&gt;Graph of the quadratic function &lt;span class=&quot;math&quot; data-png-file-id=&quot;35295&quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 8 to 8 by 4’s, labeled “time (seconds)”. Vertical axis scale 0 to 600 by 200’s, labeled “distance fallen (feet)”. Some of the points of this function are (negative 8 comma 1024), (negative 5 comma 400) and (negative 1 comma 16) to a minimum at &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;(0 comma 0) then increasing through (1 comma 16), (5 comma 400) and (8 comma 1024).&lt;/p&gt;"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/874ea7b6b1f39ebb7f8214a821393c0eca2560aa"/></media></figure></para>
 </blockquote>
+
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="9" type="enumerated">
     <item>What is an inequality that represents the domain? </item>
+    
     <para><emphasis>Answer:</emphasis> \(t \geq 0\) or only positive numbers and \(0\). Negative values of time don’t make sense here, so the part of the graph to the left side of the vertical axis has no meaning.</para>
   </list>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="10" type="enumerated">
     <item>What is an inequality that represents the range? </item>
+    
     <para><emphasis>Answer:</emphasis> \(g≥0\). The distance fallen increases as time increases and would start at \(g=0\).</para>
   </list>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="11" type="enumerated">
     <item> What ia the vertex of the graph? </item>
+    
     <para><emphasis>Answer:</emphasis> The vertex is \((0,0)\). It tells us the distance fallen at \(0\) seconds, which is \(0\) feet.</para>
   </list>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="12" type="enumerated">
     <item> What are the zeros of the graph? </item>
+    
     <para><emphasis>Answer:</emphasis> The vertex also tells us the zero of the function. It’s the only time when the distance fallen is \(0\) feet.</para>
   </list>
 </list>
@@ -146,6 +162,8 @@
       <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/54ddb28fcbc569717c38850db6b937c7c3bdb75e" srclang="en_us">https://k12.openstax.org/contents/raise/resources/ce57cc6be915599b86183af5e016926306d73f79
     </track></source></video></iframe>
 </div>
+
+
 <title>Anticipated Misconceptions</title>
 <para>Some students may confuse zeros and horizontal intercepts (\(x\)-intercepts). Watch for students who write the zeros as ordered pairs such as \((25,0)\) rather than \(25\). Emphasize that while these two terms are related, there is a difference. A zero is an input value that makes the function’s output \(0\), and the horizontal intercept is the point where the graph of the function meets the horizontal axis. A zero of a function is the \(x\)-coordinate of an \(x\)-intercept of its graph.</para>
 <title>Activity Synthesis</title>
@@ -153,6 +171,7 @@
 <para>Explain that the graph of a quadratic function may or may not show the vertex, depending on the situation it represents.</para>
 <para>Here are graphs representing the functions defined by \(f(n)=n^2+4\) and \(h(t)=576-16t^2\) (in the second and fourth questions), each adjusted for the domain appropriate in the situation. In each graph, the \(y\)-intercept is the vertex, but because a negative domain is not applicable, we don’t see a “turn” in the graph (where the output changes from increasing to decreasing, or vice versa).</para>
 <para><figure><media alt="Points on coordinate plane. X-axis labeled with step number and \(y\)-axis labeled with number of squares.&quot; height=&quot;222"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/61647dba44d7d70758c76917c326cd0f7e636982"/></media></figure></para>
+
 <para><figure><media alt="Graph of line. X-axis labeled with time in seconds and \(y\)-axis labeled with height in feet."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/3f02d4c9fe240b174859c9af710600ad4a4d1e89"/></media></figure></para>
 <list>
   <item> The function \(f\) represents the number of squares at step \(n\) of a geometric pattern. Because partial step numbers are not possible, it makes sense for the graph to show discrete points at whole-number input values, rather than a continuous curve that includes all rational numbers for the input. </item>
@@ -207,6 +226,7 @@
     </row>
   </tbody>
 </table>
+
 <!--END SELF CHECK INTRO BEFORE Tables -->
 <title>7.7.3: Additional Resources</title>
 <para>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</para>
@@ -236,10 +256,12 @@
 <blockquote>
   <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/fc0355928478dd058a1d518ea62a6f20d2dcb493"/></media></figure></blockquote>
 <list class="os-raise-noindent" type="enumerated">
-  <item>Describe the zeros of graph.<para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
+  <item>Describe the zeros of graph.
+    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
     <para>\(x=0\), \(x=16\)</para>
   </item>
-  <item>Describe what the zeros mean for the graph.<para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
+  <item>Describe what the zeros mean for the graph.
+    <para><emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
     <para> Looking at the label on the \(x\)-axis, this value means that at 0 seconds and 16 seconds, the height is 0 feet.</para>
   </item>
 </list></section>

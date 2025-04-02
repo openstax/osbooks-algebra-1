@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00254</md:content-id>
     <md:title>1.12.3: Writing an Equation Given the Slope and a Point</md:title>
-    <md:uuid>9f9eea4e-ee91-42cd-9472-dc3465c8e32b</md:uuid>
+    <md:uuid>eddfa823-61f3-45aa-9852-b57f44080dd6</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (18 Minutes)</title>
@@ -25,11 +25,11 @@ you are given the slope and any point. </para>
 <para>First, work to derive the point-slope formula by completing the following steps:</para>
 <para>Start with the slope formula as \( m= \frac{y-y_1}{x-x_1} \).</para>
 <para><emphasis>Step 1 -</emphasis> Multiply both sides of the equation by \( x - x_1 \).</para>
-<para><emphasis>Answer:</emphasis></para> 
+<para><emphasis>Answer:</emphasis> \( m(x-x_1)=\left(\frac{y-y_1}{x-x_1}\right)(x-x_1) \)</para> 
 <para><emphasis>Step 2 -</emphasis> Simplify.</para>
-<para><emphasis>Answer:</emphasis></para>
+<para><emphasis>Answer:</emphasis> \( m(x-x_1)=y-y_1 \)</para>
 <para><emphasis>Step 3 -</emphasis> Rewrite the equation with the \(y\) terms on the left.</para>
-<para><emphasis>Answer:</emphasis></para>
+<para><emphasis>Answer:</emphasis> \( y - y_1 = m(x - x_1) \)</para>
 <para>With your partner, you will find the equation of the line in point-slope form that goes through the point \( (3, 4)
   \) and has a slope of 2 by answering the following questions.</para>
 <list class="os-raise-noindent" type="enumerated">
@@ -56,6 +56,9 @@ you are given the slope and any point. </para>
   <item>Convert slope-intercept form to standard form. </item>
 </list>
 <para><emphasis>Answer:</emphasis> \(2x -y=2\)</para>
+
+
+
 <title>Activity Synthesis</title>
 <para>Students may get a little confused because \(x\) and \(y\) appear twice in the formula. Point out that the \(x\) and
   \(y\) with the subscript indicate the \(x\) and \(y\) values that are given to you. The \(x\) and \(y\) with the
@@ -76,27 +79,42 @@ you are given the slope and any point. </para>
   <tbody>
     <row>
       <entry>\( y =-\frac{3}{4}x - 4  \)</entry>
-      <entry>That’s correct! Check yourself:</entry>
+      <entry>That’s correct! Check yourself:Substitute \(-\frac{3}{4} \) for \( m\), 4 for
+        \( x_1 \), and \( −7 \) for \( y_1 \) in the point-slope form: \( y -
+        y_1 = m(x - x_1) \).Simplify the equation \( y - (-7) = -\frac{3}{4}(x - 4) \) to get
+        \( y + 7 = -\frac{3}{4}x + 3 \). </entry>
     </row>
     <row>
       <entry>\( y =-\frac{3}{4}x - \frac{5}{4} \)</entry>
       <entry>Incorrect. Let’s try again a different way: Remember the \( x \)-coordinate is the first coordinate and
         the \( y \)-coordinate is the second coordinate.  <para>Substitute \(-\frac{3}{4} \) for
           \( m\), 4 for \( x_1 \), and \( −7 \) for \( y_1 \) in the
-          point-slope form: \( y - y_1 = m(x - x_1) \).</para>
+          point-slope form: \( y - y_1 = m(x - x_1) \).Simplify the equation \( y - (-7) =
+          -\frac{3}{4}(x - 4) \) to get \( y + 7 = -\frac{3}{4}x + 3 \).The answer is \( y =
+          -\frac{3}{4}x - 4 \).</para>
       </entry>
     </row>
     <row>
       <entry>\( y =-\frac{3}{4}x − 11 \)</entry>
-      <entry>Incorrect. Let’s try again a different way:</entry>
+      <entry>Incorrect. Let’s try again a different way:Substitute \(-\frac{3}{4} \) for \( m\), 4 for
+        \( x_1 \), and \( -7 \) for \( y_1 \) in the point-slope form: \( y - y_1 = m(x -
+        x_1) \).Simplify the equation \( y - (-7) = -\frac{3}{4}(x - 4) \).Be careful when using
+        the distributive property to multiply \( -\frac{3}{4} \) by \( x \) and by
+        \( 4 \).The equation simplifies to \( y + 7 = -\frac{3}{4}x + 3 \).The answer is
+        \( y =-\frac{3}{4}x - 4 \).</entry>
     </row>
     <row>
       <entry>\( y =-\frac{3}{4}x +10  \)</entry>
-      <entry>Incorrect. Let’s try again a different way:</entry>
+      <entry>Incorrect. Let’s try again a different way:Substitute \(-\frac{3}{4} \) for \( m\), 4 for
+        \( x_1 \), and \( -7 \) for \( y_1 \) in the point-slope form: \( y - y_1 = m(x -
+        x_1) \).Simplify the equation \( y - (-7) = -\frac{3}{4}(x - 4) \). Watch the signs when
+        simplifying. The equation simplifies to \( y + 7 = -\frac{3}{4}x + 3 \).The answer is \( y
+        =-\frac{3}{4}x - 4 \).</entry>
     </row>
   </tbody>
 </table>
- <title>1.12.3: Additional Resources </title>
+ 
+<title>1.12.3: Additional Resources </title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
 
 <title>Write the Equation of a Line Given the Slope and a Point</title>
@@ -113,13 +131,27 @@ you are given the slope and any point. </para>
 <para><emphasis>Example 1 </emphasis></para>
  <para>Write the equation of a line with slope \( m = -\frac{1}{3} \) that contains the point \( (6, -4) \).
   Write the equation in slope-intercept form and standard form. </para>
- <para><emphasis>Step 1 - </emphasis> Identify the slope. </para>
- <para><emphasis>Step 2 - </emphasis>Identify the point.</para>
+ <para><emphasis>Step 1 - </emphasis> Identify the slope. 
+ The slope is given.
+ \( m = \frac{1}{3} \)</para>
+ <para><emphasis>Step 2 - </emphasis>Identify the point.
+ The point is given.
+ \( (x_1, y_1) \)
+ \( (6, -4) \)</para>
  <para><emphasis>Step 3 - </emphasis>Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \).
- Simplify.</para>
- <para><emphasis>Step 4 - </emphasis> Write the equation in slope-intercept form.</para>
- <para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form. </para>
+ Simplify.
+ \(\begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1)\\y-(-4)&amp;=&amp;\frac13(x-6)\\y+4&amp;=&amp;\frac13x+2\end{array}\)</para>
+ <para><emphasis>Step 4 - </emphasis> Write the equation in slope-intercept form.
+ \( y = \frac{1}{3}x -2 \)</para>
+ <para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form. 
+  \(y=\frac13x−2\)
+  \(3y=3\frac13x−(3)2\)
+  \(3y=x−6\)
+  \(-x+3y=−6\)
+  \((-1)(-x+3y=−6\))
+   \(x-3y=6\)</para>
 <para>To find an equation of a line given the slope and a point, follow these steps:</para>
+
 <note>
 <para><emphasis>Step 1 - </emphasis>Identify the slope.</para>
 <para><emphasis>Step 2 - </emphasis> Identify the point.</para>
@@ -127,25 +159,39 @@ you are given the slope and any point. </para>
 <para><emphasis>Step 4 - </emphasis> Write the equation in slope-intercept form.</para>
 <para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form. </para>
 </note>
+
 <para><emphasis>Example 2 </emphasis></para>
 <para>Find the equation of a horizontal line that contains the point \( (–2, –6)
     \). Write the equation in slope-intercept form.</para>
-<para><emphasis>Step 1 - </emphasis> Identify the slope. Every horizontal line has slope 0.</para>
-<para><emphasis>Step 2 - </emphasis>Identify the point.</para>
+<para><emphasis>Step 1 - </emphasis> Identify the slope. Every horizontal line has slope 0.
+\( m = 0 \)</para>
+<para><emphasis>Step 2 - </emphasis>Identify the point.
+\( (x_1, y_1) \)
+\( (–2, –6) \)</para>
 <para><emphasis>Step 3 - </emphasis>Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \).
-Simplify.</para>
-<para><emphasis>Step 4 - </emphasis> Write the equation in slope-intercept form.</para>
-<para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form. </para>
+Simplify.
+\(\begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1)\\y-(-6)&amp;=&amp;0(x-(-2))\\y+6&amp;=&amp;0\end{array}\)</para>
+<para><emphasis>Step 4 - </emphasis> Write the equation in slope-intercept form.
+\( y = -6 \)
+\( y = 0x - 6 \)</para>
+<para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form. 
+\(y=0x−6\)
+\(0x+y=−6\)</para>
 <title>Try It: Writing the Equation of a Line Given the Slope and Point</title>
  <para>Write the equation of a line with slope \( m = -\frac{2}{5} \) that contains the point \( (10, −5)
   \). Write the equation in slope-intercept form. </para>
 <para>Write down your answer, and then select the <emphasis>solution </emphasis>button to compare your work.</para>
 <title>Solution </title>
 <para>Here is how to write the equation of a line with a point and slope using a general strategy.</para>
-<para><emphasis>Step 1 - </emphasis> Identify the slope.</para>
-<para><emphasis>Step 2: </emphasis>Identify the point.</para>
+<para><emphasis>Step 1 - </emphasis> Identify the slope.
+\( m = -\frac{2}{5}\)</para>
+<para><emphasis>Step 2: </emphasis>Identify the point.
+\( (x_1, y_1) \)
+\( (10, -5) \)</para>
 <para><emphasis>Step 3: </emphasis>Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \).
-Simplify.</para>
-<para><emphasis>Step 4: </emphasis>Write the equation in slope-intercept form.</para></section>
+Simplify.
+\(\begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1)\\y-(-5)&amp;=&amp;-\frac25(x-10)\\y+5&amp;=&amp;-\frac25x+4\end{array}\)</para>
+<para><emphasis>Step 4: </emphasis>Write the equation in slope-intercept form.
+\( y = -\frac25x - 1 \)</para></section>
 </content>
 </document>

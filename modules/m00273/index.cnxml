@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00273</md:content-id>
     <md:title>1.12.5: Additional Resources</md:title>
-    <md:uuid>316260ef-f5f5-40cf-8002-2448a6ab66a3</md:uuid>
+    <md:uuid>83ab8c05-e1b2-453a-b065-cdfd11f86f50</md:uuid>
   </metadata>
   <content>
   <section><title>Find an Equation of the Line Given Two Points</title>
@@ -11,26 +11,45 @@
 <para>But then you need the slope. You can find the slope with just two points and then use it and one of the given points to find the equation.</para>
 <para><emphasis>Example</emphasis></para>
 <para>Write the equation of a line that contains the points \( (–3, –1) \) and \( (2, –2) \). Write the equation in slope-intercept form and standard form.</para>
-<para><emphasis>Step 1 -</emphasis> Find the slope using the given points.</para>
-<para><emphasis>Step 2 -</emphasis> Choose one point. </para>
-<para><emphasis>Step 3 - </emphasis>Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \). </para>
-<para><emphasis>Step 4 -</emphasis> Write the equation in slope-intercept form. </para>
-<para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form. </para>
-<para/>
+<para><emphasis>Step 1 -</emphasis> Find the slope using the given points.
+Find the slope of the line through \( (–3, –1) \) and \( (2, –2) \). 
+\( m = \frac{y_2 - y_1}{x_2 -x_1} \) 
+\( m = \frac{-2 - (-1)}{2-(-3)} \) 
+\( m = \frac{-1}{5} \)
+\( m = - \frac{1}{5} \)</para>
+<para><emphasis>Step 2 -</emphasis> Choose one point. 
+Choose either point.
+\( (x_1, y_1) \)
+\( (2, –2) \) </para>
+<para><emphasis>Step 3 - </emphasis>Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \). 
+Simplify
+\( \begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1)\\y-(-2)&amp;=&amp;-\frac15(x-2)\\y+2&amp;=&amp;-\frac15x+\frac25\end{array} \) </para>
+<para><emphasis>Step 4 -</emphasis> Write the equation in slope-intercept form. 
+\( y = -\frac{1}{5}x - \frac{8}{5} \)</para>
+<para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form. 
+\(y=−\frac15x−\frac85\)
+\(\frac15x+ y= −\frac85\)
+\(5(\frac15x+ y)=5(−\frac85)\)
+\((1x+ 5y)= −8\)</para>
+<para>Use this table for easy reference to find an equation of a line given two points.</para>
+
 <note>
-<para><emphasis>Step 1</emphasis> - Find the slope using the given points. </para>
+<para><emphasis>Step 1</emphasis> - Find the slope using the given points. 
+\( m = \frac{y_2 - y_1}{x_2 -x_1} \) </para>
 <para><emphasis>Step 2</emphasis> - Choose one point.</para>
 <para><emphasis>Step 3</emphasis> - Substitute the values into the point-slope form: \( y - y_1 = m(x - x_1) \).</para>
 <para><emphasis>Step 4</emphasis> - Write the equation in slope-intercept form. </para>
     <para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form.</para>
 </note>
+
 <note>
-<para/>
+<para>To find an equation of a line given the slope and a point, follow these steps:</para>
 <para><emphasis>Step 1</emphasis> - Identify the slope.</para>
 <para><emphasis>Step 2</emphasis> - Identify the point.</para>
 <para><emphasis>Step 3</emphasis> - Substitute the values into the point-slope form, \( y - y_1 = m(x - x_1) \).</para>
 <para><emphasis>Step 4</emphasis> - Write the equation in slope-intercept form.</para>
 <para><emphasis>Step 5 -</emphasis> Convert slope-intercept form to standard form.</para></note>
+
 <title>Try It: Writing the Equation of a Line Given Two Points</title>
 
 
@@ -46,6 +65,7 @@
 <para><emphasis>Step 2</emphasis> - \( m = \frac{y_2 - y_1}{x_2 -x_1} \) </para>
 <para><emphasis>Step 3</emphasis> - \( m = \frac{4-5}{-3-(-3)} \) </para>
 <para><emphasis>Step 4</emphasis> - \( m = \frac{-1}{0} \)</para>
+
 <para>A line with undefined slope is a vertical line. Both given points have an \( x \)-coordinate of \( –3 \). So, the equation of the line is \( x = -3 \). There is no \( y \), so the equation cannot be written in slope-intercept form.</para>
   
 </solution></exercise>

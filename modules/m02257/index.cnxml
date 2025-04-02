@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02257</md:content-id>
     <md:title>8.10.4: Finding the Factors of Quadratic Expressions in Standard Form</md:title>
-    <md:uuid>a3977a9c-29f4-4f11-be27-df6a5ce9a8c2</md:uuid>
+    <md:uuid>86e588cf-ba59-4cfd-8841-96c2dc5cfa58</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
@@ -21,6 +21,7 @@
 <para><emphasis>Step 5</emphasis> - Replace \(N\) with \(3x\) to find the final factored form.</para>
 <para> \(= (3x + 2)(3x + 5)\)</para>
 <para>Using this substitution method creates a simpler trinomial that we may factor more easily.</para>
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -32,6 +33,7 @@
     <para> \((3x + 2)(3x + 5) = 9x^2 + 15x + 6x + 10 = 9x^2 + 21x + 10\). Yes, the expressions are equivalent.</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -44,6 +46,7 @@
   </solution></exercise>
 <!--Interaction End -->
 <para>In questions 3 and 4, try this \(N\)-substitution method to write each of these expressions in factored form.</para>
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -52,9 +55,15 @@
     
     <para>Enter the expression in factored form.</para>
   <para>Compare your answer:</para>
-    <para>The square root of the first term, \(2x\), is a factor of the second term, \(28x\).</para>
+    <para>The square root of the first term, \(2x\), is a factor of the second term, \(28x\).
+      The expression can be rewritten as \((2x)^2+14(2x) +45\).
+      Substitute \(N\) for the \(2x\): \(N^2 + 14N + 45\).
+      This new trinomial can be factored into \((N + 5)(N + 9)\).
+      Replace \(N\) with \(2x\) to find the final factored form: \((2x + 5)(2x + 9)\).
+      So, \(4x^2+ 28x + 45 = (2x + 5)(2x + 9)\).</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -63,9 +72,15 @@
     
     <para>Enter the expression in factored form.</para>
   <para>Compare your answer:</para>
-    <para>The square root of the first term, \(5x\), is a factor of the second term, \(35x\).</para>
+    <para>The square root of the first term, \(5x\), is a factor of the second term, \(35x\).
+      The expression can be rewritten as \((5x)^2− 7(5x) + 6\).
+      Substitute \(N\) for the \(5x\): \(N^2− 7N + 6\).
+      This new trinomial can be factored into \((N − 6)(N − 1)\).
+      Replace \(N\) with \(5x\) to find the final factored form: \((5x − 6)(5x − 1)\).
+      So, \(25x^2− 35x + 6 = (5x − 6)(5x − 1)\).</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <para>You have probably noticed that the coefficient of the squared term in all of the previous examples is a perfect square. What if that coefficient is not a perfect square?</para>
 <para>Here is an example of an expression whose squared term has a coefficient that is not a squared term.</para>
 <para>\(5x^2+ 17x + 6\)</para>
@@ -88,6 +103,7 @@
 <para> \(= \frac {1}{5} \cdot 5(x + 3)(5x + 2)\)</para>
 <para><emphasis>Step 8</emphasis> - \(\frac {1}{5}\cdot 5 = 1\)</para>
 <para> \(= (x + 3)(5x + 2)\)</para>
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -99,6 +115,7 @@
     <para> \((x + 3)(5x + 2) = 5x^2 + 2x + 15x + 6 = 5x^2+ 17x + 6\). Yes, the expressions are equivalent.</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -110,7 +127,9 @@
     <para> \(\frac {1}{6} \cdot 6\); multiplying the leading term of the trinomial by 6 would result in a leading term of \(36x^2\), which is a perfect square.</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <para>For questions 7 and 8, try the \(N\)-method to write each of these expressions in factored form.</para>
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -124,9 +143,12 @@
     <para>Rewriting the expression in terms of the square root of the first term, \(3x\), gives \( \frac {1}{3}((3x)^2 +16(3x) + 15)\).</para>
     <para>Substituting \(N\) for \(3x\) makes the expression \(\frac {1}{3}(N^2+16N +15)\), which can be factored into \(\frac {1}{3}(N + 15)(N + 1)\).</para>
     <para>\(N\) can now be replaced with \(3x\) and the expression becomes \(\frac {1}{3}(3x + 15)(3x + 1)\).</para>
-    <para>Factor 3 out of the first factor, because \(\frac {1}{3} \cdot 3 = 1\).</para>
+    <para>Factor 3 out of the first factor, because \(\frac {1}{3} \cdot 3 = 1\).
+      \(\frac {1}{3}(3x + 15)(3x + 1) = (x + 5)(3x + 1)\)
+      So, \(3x^2+ 16x + 5 = (x + 5)(3x + 1)\).</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -136,7 +158,13 @@
     <para>Enter the expression in factored form.</para>
   <para>Compare your answer:</para>
     <para>Multiply the expression by \(\frac {1}{10} \cdot 10\).</para>
-    <para>Distributing the 10 into the trinomial gives \(\frac {1}{10}(100x^2− 410x + 40)\).</para>
+    <para>Distributing the 10 into the trinomial gives \(\frac {1}{10}(100x^2− 410x + 40)\).
+      Rewriting the expression in terms of the square root of the first term, \(10x\), gives \(\frac {1}{10}((10x)^2− 41(10x) + 40)\).
+      Substituting \(N\) for \(10x\) makes the expression \(\frac {1}{10}(N^2− 41N + 40)\), which can be factored into \(\frac {1}{10}(N − 40)(N − 1)\).
+      \(N\) can now be replaced with \(10x\) and the expression becomes \(\frac {1}{10}(10x − 40)(10x − 1)\).
+      Factor 10 out of the first factor, because \(\frac {1}{10} \cdot 10 = 1\).
+      \(\frac {1}{10}(10x − 40)(10x − 1) = (x − 4)(10x − 1)\)
+      So, \(10x^2− 41x + 4 = (x − 4)(10x − 1)\).</para>
   </solution></exercise>
 <!--Interaction End --></section>
 </content>

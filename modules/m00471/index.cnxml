@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00471</md:content-id>
     <md:title>2.7.2: Systems of Linear Equations with No Solution</md:title>
-    <md:uuid>d96eef95-9e7b-46d9-88c1-265c2ab4b697</md:uuid>
+    <md:uuid>d05b49b3-23ed-4650-95fe-54d80ba2cec7</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (10 minutes)</title>
@@ -41,6 +41,7 @@
     <item>How do your observations about the graph of this system relate to the fact that the system was determined to not have a solution?</item>
 </list>
 <para><emphasis>Answer:</emphasis> Answers will vary. </para>
+
 <title>Video: Analyzing Systems of Linear Equations with No
   Solution</title>
 <para>Watch the following
@@ -52,8 +53,12 @@
       https://k12.openstax.org/contents/raise/resources/0ea17785bff47e386d2c972d61fc943876896f4f
     </track></source></video></iframe>
 </div>
+
+
+
 <title>Activity Synthesis</title>
-<para>Invite previously identified students to share their response to the second question. Record or display their reasoning for all to see. After each student shares, ask if anyone else reasoned the same way.</para>
+<para>Invite previously identified students to share their response to the second question. Record or display their reasoning for all to see. After each student shares, ask if anyone else reasoned the same way.
+</para>
 <para>Next, select other students to share their observations about the graphs. Ask students:</para>
 <list>
   <item>“How can we tell from the graphs that there are no solutions?” (The lines are parallel.)</item>
@@ -67,6 +72,7 @@
   <item>The person who bought half as many passes and memberships did not pay half as much, which meant that different prices applied to the two transactions.</item>
   <item>The special rates for a family of 4 did not apply to the individual, hence the different prices.</item>
 </list>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
@@ -89,6 +95,8 @@
     </para>
   </div>
 </div>
+
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -100,11 +108,14 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Conceptual processing</para>
   </div>
 </div>
+
+
 <title>2.7.2: Self Check </title>
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
 <para class="os-raise-text-bold">QUESTION:</para>
 <para>Solve the system of equations
-  using elimination.</para>
+  using elimination.
+  \( \left\{ \begin{array}{rcl} -0.1x - 0.2y &amp;=&amp; 0.6\\ -5x - 10y &amp;=&amp; 1 \end{array}\right. \)</para>
 <table class="os-raise-textheavytable">
   <thead>
     <row>
@@ -115,53 +126,75 @@
   <tbody>
     <row>
       <entry>(\(0.5, -0.3)\)</entry>
-      <entry>Incorrect. Let’s try again a different way: </entry>
+      <entry>Incorrect. Let’s try again a different way: 
+        Multiply the first equation by \( 50 \) to get \( -5x - 10y = 30 \). 
+        Add the equations together. The result is \( 0 = 31 \). 
+        Since this is not true, the answer is no solution.</entry>
     </row>
     <row>
       <entry>(\( \frac{1}{3}, 5 \))</entry>
-      <entry>Incorrect. Let’s try again a different way:</entry>
+      <entry>Incorrect. Let’s try again a different way:
+        Multiply the first equation by \( 50 \) to get \( -5x - 10y = 30 \).
+        Add the equations together. The result is \( 0 = 31 \).
+        Since this is not true, the answer is no solution.) </entry>
     </row>
     <row>
       <entry>This system of equations has infinite solutions.</entry>
-      <entry>Incorrect. Let’s try again a different way:</entry>
+      <entry>Incorrect. Let’s try again a different way:
+        Multiply the first equation by \( 50 \) to get \( -5x - 10y = 30 \).
+        Add the equations together. The result is \( 0 = 31 \).
+        Since this is not true, the answer is no solution.</entry>
     </row>
     <row>
       <entry>This system of equations has no solution.</entry>
-      <entry>That’s correct! Check yourself: </entry>
+      <entry>That’s correct! Check yourself: 
+        If you multiply the first equation by 50 and add, the result is \( 0 = 31 \). 
+        Since this
+        is not true, the answer is no solution.</entry>
     </row>
   </tbody>
 </table>
+
 <title>2.7.2: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
 <title>Solving an Inconsistent System of Equations</title>
-<para>Now that we have several methods for solving systems of equations, we can use the methods to identify inconsistent systems. Recall that an inconsistent system consists of parallel lines that have the same slope but different \(y\)-intercepts. They will never intersect. When searching for a solution to an inconsistent system, we will come up with a false statement, such as \( 12 = 0 \).</para>
+<para>Now that we have several methods for solving systems of equations, we can use the methods to identify inconsistent systems. Recall that an inconsistent system consists of parallel lines that have the same slope but different \(y\)-intercepts. They will never intersect. When searching for a solution to an inconsistent system, we will come up with a false statement, such as \( 12 = 0 \).
+</para>
 <para>Solve the following system of equations. </para>
-<para>\( x = 9 - 2y \) </para>
+<para>\( x = 9 - 2y \) 
+  \( x+2y =13 \)</para>
 <para><emphasis>Solution</emphasis> </para>
 <para>We can approach this problem in two ways. Because one equation is already solved for \( x \), the most obvious step is to use substitution. </para>
 <para>\( \begin{array}{rcl}x+2y &amp;=&amp;13 \\ (9-2y)+2y &amp;=&amp;13 \\ 9+0y &amp;=&amp;13 \\ 9&amp;=&amp;13\end{array} \)</para>
 <para>Clearly, this statement is a contradiction because \( 9 \neq 13 \). Therefore, the system has no solution. </para>
 <para>The second approach would be to first manipulate the equations so that they are both in slope-intercept form. We manipulate the first equation as follows:</para>
-<para>\( x = 9 - 2y \)</para>
+<para>\( x = 9 - 2y \)
+  \( 2y = -x + 9x\)
+  \( y= -\frac{1}{2}x + \frac{9}{2} \)</para>
 <para>We then convert the second equation expressed to slope-intercept form. </para>
 <para>\( \begin{array}{rcl}x + 2y &amp;=&amp; 13 \\ 2y &amp;=&amp; -x + 13 \\ y &amp;=&amp; -\frac{1}{2}x + \frac{13}{2}\end{array} \)</para>
 <para>Comparing the equations, we see that they have the same slope but different \(y\)-intercepts. Therefore, the lines are parallel and do not intersect. </para>
-<para>\( y= -\frac{1}{2}x + \frac{9}{2} \)</para>
+<para>\( y= -\frac{1}{2}x + \frac{9}{2} \)
+  \( y= -\frac{1}{2}x + \frac{13}{2} \)</para>
 <title>Try It: Solving an Inconsistent System of Equations</title>
 <para>Solve the following system of equations. If there is no solution, explain how you know.</para>
-<para>\( 9x +3y = -24 \)</para>
+<para>\( 9x +3y = -24 \)
+  \( 6x +2y = 14 \)</para>
 <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <para><emphasis>Answer:</emphasis></para>
 <para>Here is how to solve this system of equations:</para>
 <para>To solve using elimination, we must first make the coefficients of one of the variables the same to use subtraction.</para>
-<para>\( 2(9x +3y) = 2(-24) \)</para>
+<para>\( 2(9x +3y) = 2(-24) \)
+  \( 3(6x +2y) = 3(14) \)</para>
 <para>After simplifying, we have:</para>
-<para>\( 18x +6y = -48 \)</para>
+<para>\( 18x +6y = -48 \)
+  \( 18x +6y = 42 \)</para>
 <para>Let’s subtract the equations:</para>
 <para>\( \begin{array}{rcl}18x +6y &amp;=&amp; -48 \\ 18x +6y &amp;=&amp; 42 \\ 0 &amp;=&amp; -90\end{array} \)</para>
 <para>Since this equation can never be true, the system has no solutions.</para>
 <para>Using another method, you can also write each equation in slope-intercept form:</para>
-<para>\( y = -3x - 8 \)</para>
+<para>\( y = -3x - 8 \)
+  \( y = -3x - 7 \)</para>
 <para>Since the equations have the same slope and different \(y\)-intercepts, we know that the system has no solution.</para>
 </section>
 </content>

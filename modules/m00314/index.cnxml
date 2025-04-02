@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00314</md:content-id>
     <md:title>1.14.4: Additional Resources</md:title>
-    <md:uuid>e16f8670-bf25-40b1-a560-9cdd1d724ff6</md:uuid>
+    <md:uuid>5ee5d3e0-635d-41c1-ade6-7c2cb5d19665</md:uuid>
   </metadata>
   <content>
   <section><title>Finding a Perpendicular Line Given an Equation and Point</title>
@@ -14,21 +14,35 @@
 <para>To find the equation of a line perpendicular to a line through a given point algebraically, you can use what you know about finding the equation of a line given the slope and a point.</para>
 <para><emphasis>Example</emphasis></para>
 <para>Write an equation of a line perpendicular to \( y = 2x - 3 \) that contains the point \( (-2, 1) \). Write the equation in slope-intercept form.</para>
-<para><b>Step 1 - </b> Find the slope of the given line.</para>
-<para><b>Step 2 - </b> Find the slope of the perpendicular line</para>
-<para><b>Step 3 - </b>Identify the point</para>
-<para><b>Step 4 - </b>Substitute values into the point-slope form \( y - y_1 = m(x - x_1) \)</para>
-<para><b>Step 5 - </b>Write the equation in slope-intercept form</para>
+<para><b>Step 1 - </b> Find the slope of the given line.
+  The line is in slope-intercept form \( y = 2x - 3 \)
+  \( m=2 \) </para>
+<para><b>Step 2 - </b> Find the slope of the perpendicular line
+  perpendicular lines have the inverse slope
+  \( m_1 = -1/2 \) </para>
+<para><b>Step 3 - </b>Identify the point
+  The given point is \( (-2, 1) \)
+  \( (x_1, y_1) = (-2, 1) \) </para>
+<para><b>Step 4 - </b>Substitute values into the point-slope form \( y - y_1 = m(x - x_1) \)
+  Simplify
+  \( \begin{array}{rcl}y - y_1 &amp;=&amp; m(x - x_1) \\ y-1 &amp;=&amp; -\frac{1}{2}(x - (-2)) \\ y-1 &amp;=&amp; -\frac{1}{2}(x + 2) \\ y-1 &amp;=&amp; -\frac{1}{2}x - 1\end{array} \)</para>
+<para><b>Step 5 - </b>Write the equation in slope-intercept form
+  \( y = -\frac{1}{2}x\) </para>
 <para>Use this table for reference to write an equation of a line perpendicular to a given line: </para>
+
 <note>
   <para><emphasis>Step 1</emphasis> - Find the slope of the given line.</para>
   <para><emphasis>Step 2</emphasis> - Find the slope of the perpendicular line.</para>
   <para><emphasis>Step 3</emphasis> - Identify the point.</para>
-  <para><emphasis>Step 4</emphasis> - Substitute the values into the point-slope form: </para>
+  <para><emphasis>Step 4</emphasis> - Substitute the values into the point-slope form: 
+    \( y-y_1=m(x-x_1) \).</para>
   <para><emphasis>Step 5</emphasis> - Simplify.</para>
   <para><emphasis>Step 6</emphasis> - Write the equation in slope-intercept form \( (y = mx+b) \).</para>
 </note>
+
+
 <title>Try It: Finding a Perpendicular Line Given an Equation and Point</title>
+
 <!--Q#-->
 <example><exercise>
   <problem>
@@ -38,12 +52,20 @@
   </problem><solution>
   <para>Compare your answer:</para>
   <para>Here is how to find a line perpendicular to a given line and point.</para>
-  <para><emphasis>Step 1</emphasis> - Find the slope of the given line.</para>
-  <para><emphasis>Step 2</emphasis> - Find the slope of the perpendicular line. </para>
-  <para><emphasis>Step 3</emphasis> - Identify the point.</para>
-  <para><emphasis>Step 4</emphasis> - Substitute the values into the point-slope form: </para>
-  <para><emphasis>Step 5</emphasis> - Simplify.</para>
-  <para><emphasis>Step 6</emphasis> - Write the equation in slope-intercept form \( (y = mx+b) \).</para>
+  <para><emphasis>Step 1</emphasis> - Find the slope of the given line.
+    \( m = 3 \)</para>
+  <para><emphasis>Step 2</emphasis> - Find the slope of the perpendicular line. 
+    \( m_1 = - \frac{1}{3} \)</para>
+  <para><emphasis>Step 3</emphasis> - Identify the point.
+    \( (x_1, y_1) \)
+    \( (4, 2) \)</para>
+  <para><emphasis>Step 4</emphasis> - Substitute the values into the point-slope form: 
+    \( y-y_1=m(x-x_1) \).
+    \(\begin{array}{rcl} y - y_1 &amp;=&amp; m_1(x - x_1) \\ y - 2 &amp;=&amp; -\frac{1}{3} (x - 4)\end{array} \)</para>
+  <para><emphasis>Step 5</emphasis> - Simplify.
+    \( y - 2 = -\frac{1}{3}x + \frac{4}{3} \)</para>
+  <para><emphasis>Step 6</emphasis> - Write the equation in slope-intercept form \( (y = mx+b) \).
+    \( y = -\frac{1}{3}x + 3\frac{1}{3}  \)</para>
 </solution></exercise>
 </example><!--Interaction End --> 
 

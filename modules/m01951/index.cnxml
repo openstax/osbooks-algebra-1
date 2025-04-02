@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01951</md:content-id>
     <md:title>7.12.3: Additional Resources</md:title>
-    <md:uuid>0f82d9b6-0859-4df1-8e2a-e71471c62f17</md:uuid>
+    <md:uuid>46742ba0-7b76-4323-9ab8-dcb6ad17a52b</md:uuid>
   </metadata>
   <content>
   <section><title> Comparing Transformations to Quadratic Graphs</title>
@@ -15,6 +15,7 @@
   \(f(x)=x^2+5\) and raises the graph by 5 units. Subtracting 4 from \(x^2\) gives \(f(x)=x^2−4\) and moves the graph 4
   units down.</para>
 <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/59c1850bb026bd2d08edf63adf0492da22758f93"/></media></figure></para>
+
 <table class="os-raise-horizontaltable">
   <thead>
   </thead>
@@ -61,15 +62,19 @@
     </row>
   </tbody>
 </table>
+
 <para>A table of values can help us see that adding 5 to \(x^2\) increases all the output values of \(f(x)=x^2\) by 5, which
   explains why the graph moves up 5 units. Subtracting 4 from \(x^2\) decreases all the output values of \(f(x)=x^2\) by 4,
   which explains why the graph shifts down by 4 units.</para>
+
 <para>In general, the constant term of a quadratic expression in standard form influences the vertical position of the
   graph. An expression with no constant term (such as \(x^2\) or \(x^2+9x\)) means that the constant term is 0, so the
   \(y\)-intercept of the graph is on the \(x\)-axis. It's not shifted up or down relative to the \(x\)-axis.</para>
+
 <title>Coefficient of the Squared Term </title>
 <para>The coefficient of the squared term in a quadratic function also tells us something about its graph. The coefficient
   of the squared term in \(f(x)=x^2\) is 1. Its graph is a parabola that opens upward.</para>
+
 <para>Multiplying \(x^2\) by a number greater than 1 makes the graph steeper, so the parabola is narrower than that
   representing \(x^2\).</para>
 <para>Multiplying \(x^2\) by a number less than 1 but greater than 0 makes the graph less steep, so the parabola is wider
@@ -122,6 +127,7 @@
     </row>
   </tbody>
 </table>
+
 <para>If we compare the output values of \(2x^2\) and \(-2x^2\), we see that they are opposites, which suggests that one
   graph would be a reflection of the other across the \(x\)-axis.</para>
 <para>In the previous examples, parameters were being applied to the output values of the function. In other words, after an input value was squared, something was then added, subtracted, or multiplied with the squared value. The resulting impact on the graph was to vertically alter it.</para>
@@ -177,6 +183,7 @@
     </row>
   </tbody>
 </table>
+
 <para>Notice in this table of values that the change to the input values takes place before squaring the term. The constant is directly affecting the \(x\)-value before applying the function rule.</para>
 <para>Examine the vertex of each graph. When we compare the graphs of  \((x-3)^2\) and  \((x+3)^2\) to the graph of the parent function, we see the parabola has been shifted to the right 3 units and left 3 units, respectively. Thus, a horizontal shift in the graph results when a constant has been subtracted from the input value.</para>
 <title>Horizontal Dilations and Reflections</title>
@@ -241,9 +248,12 @@
     </row>
   </tbody>
 </table>
+
 <para>If the input value is multiplied by a negative number, then the parabola is reflected over the \(y\)-axis. However, due to the symmetric nature of parabolas, this is difficult to discern visually.</para>
 <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/60e3fcdea6928ea9078381f7b859c298b6ea8f95"/></media></figure></para>
-<para>Multiplying the input value by a number changes the quantity that is squared. As a result, the graph of the equation is horizontally stretched or compressed. </para>
+<para>Multiplying the input value by a number changes the quantity that is squared. As a result, the graph of the equation is horizontally stretched or compressed. 
+  
+</para>
 <title>Try It: Comparing Transformations to Quadratic Graphs</title>
 <example><exercise>
   <problem>
@@ -253,9 +263,14 @@
     <para><figure><media alt="GRAPH OF THE PARENT QUADRATIC FUNCTION IN RED. GRAPH OF THE PARENT FUNCTION SHIFTED UP 4 UNITS IN BLUE. GRAPH OF THE PARENT FUNCTION SHIFTED DOWN 2 UNITS IN GREEN."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/c972ea8c8fe74654651f1b82953adc656cafca94"/></media></figure></para>
   <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
   </problem><solution>
-  <para>Here is how to solve to find the equations of the other graphs:</para>
+  <para>Here is how to solve to find the equations of the other graphs:
+    
+    The green graph is the same as \(f(x)=x^2\) but is shifted down 2. The function will be \(f(x)=x^2-2\).
+    The blue graph is the same as \(f(x)=x^2\) but is shifted up 4. The function will be \(f(x)=x^2+4\).
+  </para>
 </solution></exercise>
-</example><example><exercise>
+</example>
+<example><exercise>
   <problem>
     
     <para>If the red graph (in the middle) is the parent function, \(f(x)=x^2\), what are the equations of the blue
@@ -268,7 +283,8 @@
     \(f(x)=(x+\frac{3}{2})^2\).</para>
   <para>The blue graph is the same as \(f(x)=x^2\) but is shifted right 3. The function will be \(f(x)=(x-3)^2\).</para>
 </solution></exercise>
-</example><example><exercise>
+</example>
+<example><exercise>
   <problem>
     
     <para>The red graph (in the middle) is \(f(x)=x^2\). The equations of the other graphs

@@ -3,20 +3,32 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00137</md:content-id>
     <md:title>1.5.4: Additional Resources</md:title>
-    <md:uuid>4cf37015-f3f0-4cf3-b63f-3b468753970a</md:uuid>
+    <md:uuid>3ed459e5-b4a2-405f-8b25-7d8715c17151</md:uuid>
   </metadata>
   <content>
   <section><title>Writing Equations Using Graphs in Situations</title>
 <para>An equation that contains two unknown quantities or two quantities that vary is called an equation in two variables. A solution to such an equation is a pair of numbers that makes the equation true. </para>
 <para>Suppose Tyler spends $40 on T-shirts and socks. A T-shirt costs $10 and a pair of socks costs $2.50. If \(t\) represents the number of T-shirts and \(p\) represents the number of pairs of socks that Tyler buys, what is an equation that represents the equation?</para>
 <para><emphasis>Example 1</emphasis></para>
-<para><emphasis>Step 1</emphasis> - Create a two-variable equation. </para>
+<para><emphasis>Step 1</emphasis> - Create a two-variable equation. 
+  The cost is $10 per t-shirt \((10t)\) plus $2.50 per pair of socks \((2.50p)\) which equals $40.
+  \(10t +2.50p = 40\)</para>
 <para>Now, we have to graph the equation.  We will let \(t=x\) and \(p=y\).</para>
-<para><emphasis>Step 2</emphasis> - Find the \(x\)-intercept.</para>
-<para>\(10t +2.50p = 40\)</para>
-<para>\((4, 0)\) is the \(x\)-intercept.</para>
+<para><emphasis>Step 2</emphasis> - Find the \(x\)-intercept.
+  To find the \(x\)-intercept, let \(p=0\).</para>
+<para>\(10t +2.50p = 40\)
+  \(10t +2.50(0) = 40\)
+  \(10t +0 = 40\)
+  \(t = 4\)</para>
+<para>\((4, 0)\) is the \(x\)-intercept.
+  The \(x\)-intercept is also called a solution or zero. </para>
   <para>In this scenario, 4 represents the number of T-shirts Tyler can buy if he doesn't purchase any socks with $40.</para>
-<para><emphasis>Step 3</emphasis> - Find the \(y\)-intercept.</para><para>\(10t +2.50p = 40\)</para>
+<para><emphasis>Step 3</emphasis> - Find the \(y\)-intercept.
+  To find the \(y\)-intercept, let \(t=0\).
+</para><para>\(10t +2.50p = 40\)
+  \(10(0) +2.50p = 40\)
+  \((0) +2.50p = 40\)
+  \(2.50p = 16\)</para>
 <para>\((0, 16)\) is the  \(y\)-intercept.</para>
 <para>In this scenario, 16 represents the number of socks Tyler can buy if he doesn't purchase any T-shirts with $40.</para>
 <para><emphasis>Step 4</emphasis> - Graph the line by connecting the intercepts. </para>
@@ -38,9 +50,12 @@
     <para>If Tyler bought 4 T-shirts and 6 pairs of socks, it would cost more than $40.</para>
   </solution></exercise>
 <!--Interaction End --> 
+
 <title>Try It: Writing Equations Using Graphs in Situations </title>
 <para>Use Desmos or a graphing calculator to create a graph for \( 40x +20y = 180 \).</para>
+
 <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+
 <!--Q1-->
 <exercise>
   <problem>
@@ -54,6 +69,7 @@
       1)\)</para>
   </solution></exercise>
 <!--Interaction End --> 
+
 <!--Q2-->
 <exercise>
   <problem>
@@ -74,6 +90,7 @@
     </list>
   </solution></exercise>
 <!--Interaction End --> 
+
 </section>
 </content>
 </document>

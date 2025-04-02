@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01192</md:content-id>
     <md:title>4.18.3: Additional Resources</md:title>
-    <md:uuid>9885a8f6-7b8f-45e4-8c0d-cdb08e784dc0</md:uuid>
+    <md:uuid>e7d12648-9ac9-4908-bfd8-b9edc34e0134</md:uuid>
   </metadata>
   <content>
   <section><div class="os-raise-extrasupport">
@@ -17,21 +17,35 @@
     <!-- Extra Support Content--> 
   </div>
 </div>
+
 <para class="os-raise-text-bold">Example 1</para>
 <para>Write the explicit formula for the sequence given by the terms 18, 21, 24, 27, ...</para>
 <para class="os-raise-text-bold">Solution: </para>
-<para><emphasis>Step 1-</emphasis> Write the general formula.</para>
-<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. </para>
+<para><emphasis>Step 1-</emphasis> Write the general formula.
+  \(a_n = a_1 + (n - 1)d\)</para>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
+  \(a_1 = 18\), \(d = 3\)
+  \(a_n = 18 + (n - 1)3\)</para>
+
 <para>So, the explicit formula for the sequence 18, 21, 24, 27… is \(a_n = 18 + (n - 1)3\).</para>
 <para>Now any term can more easily be determined - even the 1000th term!</para>
+
 <para class="os-raise-text-bold">Example 2</para>
 <para> Find the 15th term of a sequence where the first term is 3 and the common difference is 6. </para>
-<para><emphasis>Step 1 - </emphasis>Write the general formula.</para>
-<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. </para>
-<para><emphasis>Step 3 -</emphasis> Simplify the expression. </para>
+<para><emphasis>Step 1 - </emphasis>Write the general formula.
+  \(a_n=a_1+(n−1)d\) </para>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
+  \(a_1 = 3, d = 6\), \(n = 15\)
+  \(a_{15} = 3 + (15 - 1)6\) </para>
+<para><emphasis>Step 3 -</emphasis> Simplify the expression. 
+  \(a_{15} = 3 + (14)6\) 
+  \(a_{15} = 3 + 84\)
+  \(a_15 = 87\) </para>
 <para>If the explicit formula for this question was needed, we would not have substituted \(n = 15\) and the \(n\)th term formula would have been \(a_n = 3 + (n - 1)6\). This formula is also equivalent to </para>
 <para>\(a_n = 3 + 6(n - 1)\). </para>
+
 <title> Try It: The nth Term of Arithmetic Sequences</title>
+
 <example><exercise>
   <problem>
     
@@ -41,8 +55,11 @@
   </problem><solution>
   <para>Compare your answer:</para>
   <para>Here is how to find the 27th term of the sequence:</para>
-  <para><emphasis>Step 1 -</emphasis> Write the general formula.</para>
-<para><emphasis>Step 2 - </emphasis>Substitute values for the first term, common difference/ratio, term number. </para>
+  <para><emphasis>Step 1 -</emphasis> Write the general formula.
+  \(a_n=a_1+(n−1)d\) </para>
+<para><emphasis>Step 2 - </emphasis>Substitute values for the first term, common difference/ratio, term number. 
+  \(a_1 = 7\), \(d = 9\)
+  \(a_n = 7 + (n - 1)9\) </para>
 
 </solution></exercise>
 </example></section>

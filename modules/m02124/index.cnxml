@@ -3,18 +3,20 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02124</md:content-id>
     <md:title>8.3.2: Recognizing Pairs of Solutions</md:title>
-    <md:uuid>eaed02c8-9032-4222-9739-c5c4e7c9b061</md:uuid>
+    <md:uuid>de63b571-4912-4d1e-b10f-7ef36f189000</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
 <para>A whole number that has two factors that are equal to each other is called a perfect square. Those equal factors that multiply to be the number are called the <term data-schema-version="1.0" data-store="glossary-tooltip">square root of a number</term>. For instance, \(3\) is a square root of \(9\) because \(3 \cdot 3 =
   9.\).</para>
+
 <note>
   <para class="os-raise-text-bold">SQUARE ROOT PROPERTY</para>
   <hr/>
   <para>If \(x^2 = k\), then</para>
   <para class="os-raise-noindent">\(x=\sqrt{k} \quad \text { and } \quad x=-\sqrt{k} \rightarrow x=\pm \sqrt{k}\).</para>
 </note>
+
 <para>Each of these equations has two solutions. Use your knowledge of square roots and the square root property. What are the solutions? Explain or show your reasoning.</para>
 <!--Text Entry Interaction Start -->
 <exercise>
@@ -25,9 +27,12 @@
     <para>Enter the solutions and your reasoning.</para>
   <para>Compare your answer:</para>
     <para> \(n=20\) and \(n=-20\)</para>
-    <para>If \(n^2 + 4 = 404\), then \(n^2 = 400\).</para>
+    <para>If \(n^2 + 4 = 404\), then \(n^2 = 400\).
+      Using the square root property, \(n= \pm \sqrt{400}\).
+      Therefore, \(n=20\) and \(n=-20\).</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -37,9 +42,13 @@
     <para>Enter the solutions and your reasoning.</para>
   <para>Compare your answer:</para>
     <para>\(n=12\) and \(n=-12\)</para>
-    <para>Divide each side of the equation by 3.</para>
+    <para>Divide each side of the equation by 3.
+      \(n^2=144\)
+      Using the square root property, \(n= \pm \sqrt{144}\).
+      Therefore, \(n=12\) and \(n=-12\).</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -49,9 +58,14 @@
     <para>Enter the solutions and your reasoning.</para>
   <para>Compare your answer:</para>
     <para> \(n=10\) and \(n=-10\)</para>
-    <para>Add 20 to each side of the equation.</para>
+    <para>Add 20 to each side of the equation.
+      Then multiply each side of the equation by 5.
+      \(n^2 = 100\)
+      Using the square root property, \(n= \pm \sqrt{100}\).
+      Therefore, \(n=10\) and \(n=-10\).</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -61,9 +75,14 @@
     <para>Enter the solutions and your reasoning.</para>
   <para>Compare your answer:</para>
     <para>\(n=6\) and \(n=-6\)</para>
-    <para>Add 7 to each side of the equation.</para>
+    <para>Add 7 to each side of the equation.
+      Divide each side of the equation by 2.
+      \(n^2=36\)
+      Using the square root property, \(n= \pm \sqrt{36}\).
+      Therefore, \(n=6\) and \(n=-6\).</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
 <example><exercise>
   <problem>
@@ -83,6 +102,7 @@
     <para>Three solutions: \(x=3\), \(x=-1\), and \(x=-5\).</para>
   </solution></exercise>
 <!--End interaction-->
+
 <exercise data-wait-for-event="RFM1">
   <problem>
     <para>How many solutions does the equation \((x −2)(x−7)(x−2)=0\) have? What are the solutions?</para>
@@ -93,7 +113,9 @@
     <para>Two solutions: \(x=2\) and \(x=7\).</para>
   </solution></exercise>
 <!--End interaction-->
+
 <!--End interaction-->
+
 <exercise data-wait-for-event="RFM1">
   <problem>
     <para>Write a new equation that has 10 solutions.</para>

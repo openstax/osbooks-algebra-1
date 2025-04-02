@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01066</md:content-id>
     <md:title>4.12.3: Range: The Output of a Function</md:title>
-    <md:uuid>0711ced0-e522-4b1b-8131-923ab8068c46</md:uuid>
+    <md:uuid>fa4f9212-f502-4a7b-82cb-1e570ed1f1c7</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (10 minutes)</title>
@@ -13,6 +13,7 @@
 <title>Launch</title>
 <para>Keep students in groups of 2 – 4. Give students a few minutes of quiet work time, and then a moment to share
   their responses with their group. Leave a few minutes for whole-class discussion.</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -27,13 +28,16 @@
   </div>
 </div>
 
+
 <title>Student Activity </title>
 <para>In an earlier activity, you saw a function representing the area of a square (function \(A\)) and another
   representing the revenue of a tennis camp (function \(R\)). Refer to the descriptions of those functions to answer
   these questions.</para>
 <list class="os-raise-noindent" type="enumerated">
   <item> Here is a graph that represents function \(A\), defined by \(A(s)=s^2\), where \(s\) is the side length of the
-    square in centimeters. <figure><media alt="A graph. "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/76576c471fa89bdb2f5e278ace7605136df739d5"/></media></figure></item>
+    square in centimeters. 
+    
+    <figure><media alt="A graph. "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/76576c471fa89bdb2f5e278ace7605136df739d5"/></media></figure></item>
 </list>
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" type="enumerated">
@@ -51,7 +55,9 @@
       <para> <emphasis>Answer: </emphasis> No, both 20 and 100 cannot be outputs because the input (the number of campers)
         cannot be fractions. </para>
       <item> Here are two graphs that relate number of students and camp revenue in dollars. Which graph could represent
-        function \(R\)? Explain why the other one could not represent the function.<figure><media alt="A graph. "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4ef73b4c27d99682a72671f9517d57581e0d3589"/></media></figure><figure><media alt="A graph. "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/8e212f8010016b9ef2ed559709268813ad1477b2"/></media></figure></item>
+        function \(R\)? Explain why the other one could not represent the function.
+        
+        <figure><media alt="A graph. "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4ef73b4c27d99682a72671f9517d57581e0d3589"/></media></figure><figure><media alt="A graph. "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/8e212f8010016b9ef2ed559709268813ad1477b2"/></media></figure></item>
     </list>
   </item>
   <para> <emphasis>Answer: </emphasis> The second graph could represent function \(R\). The first graph could not represent the
@@ -74,6 +80,8 @@
       https://k12.openstax.org/contents/raise/resources/21adf0146df228d483924077672ad2140a3bb95d
     </track></source></video></iframe>
 </div>
+
+
 <title>Student Facing Extension</title>
 <title>Are you ready for more?</title>
 <para>If the camp wishes to collect at least $500 from the participants, how many students can they have? Explain how this
@@ -143,6 +151,7 @@
       </para>
   </div>
 </div>
+
 <title>4.12.3: Self Check</title>
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the
     concepts explored in the activity.</emphasis></para>
@@ -195,6 +204,7 @@
     </row>
   </tbody>
 </table>
+
 <title>4.12.3: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with
     the self check. Students will not automatically have access to this content, so you may wish to share it with
@@ -217,12 +227,14 @@
 <para>\((1, 4.5)\) \((2, 9)\) \((3, 18)\) \((4,36)\)</para>
 <title>Using Inequalities to Determine Range </title>
 <para>The domain and range of a function describe the set of possible input values (domain) and output values (range) for that function. The range represents the values that the function can output. Inequalities can be used to represent the range of a function. Remember to consider the nature of the function, its properties, and any specific restrictions when determining the range using inequalities. Graphing the function can often provide visual clues to help confirm your analysis.</para>
+
 <para>Use the following information to determine the range of a function using inequalities:</para>
 <list>
   <item>Analyze the behavior and possible output values of the function, usually denoted as \(f(x)\).</item>
   <item>Consider the range of the function based on its graph or algebraic properties.</item>
   <item>Identify the minimum and maximum possible values that the function can reach.</item>
 </list>
+
 <para>Use the following information to express the range of a function using inequalities:
 
 </para><list>
@@ -230,26 +242,32 @@
   <item>Use inequalities to express the minimum and maximum possible values. For example, if \(x\) cannot be negative, you would write \((x ≥ 0)\) or \([0, +∞)\) in interval notation. For example, if the function's graph never goes below −3 and can reach any positive value, you would write \((−3 &lt; y &lt; +∞)\) as an inequality. </item>
 </list>
 <!-- BEGIN GRAY BOX STYLING-->
+
 <note>
   <para> <emphasis> Special cases </emphasis></para>
   <hr/>
   <para>Consider any specific exclusions or additional conditions mentioned in the function's definition.</para>
   <para>For instance, if a function has a denominator and \(x\) cannot equal certain values, denote those exclusions in the domain using the notation "\(x\) ≠ value." </para>
 </note>
+
 <!-- END GRAY BOX STYLING-->
 <para><emphasis>Example:</emphasis></para>
 <para>Determine the range of this function: \(p(x) = 3, x ≥ −2.\)</para>
 <para>Since the function \(p(x)\) is constant and always equal to 3, the range of the function is a single value, which is 3.</para>
 <para>Therefore, the range of \(p(x) = 3\), \(x ≥ −2\) is the set {3}.</para>
+
 <title>Try It: Determine the Range of a Function Using Inequalities</title>
+
 <list class="os-raise-noindent" type="enumerated">
   <item> What is the range of the function \(f(x)=2x-3\) using inequalities.</item>
 </list>
-<para><emphasis>Answer: </emphasis></para>
+<para><emphasis>Answer: </emphasis>
+  \(R: (−∞ &lt;  f  &lt; +∞) \)</para>
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item> What is the range of the function \(g(x)=\frac{1}{(x-2)}\), \(x ≠ 2\) using inequalities.</item>
 </list>
-<para><emphasis>Answer: </emphasis></para>
+<para><emphasis>Answer: </emphasis>
+\(R: (−∞ &gt; g &gt; 0) \cup  (0 &lt; g&lt; +∞) \)indicating that the function can take any value except 0</para>
 </section>
 </content>
 </document>

@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00968</md:content-id>
     <md:title>4.7.3: Additional Resources</md:title>
-    <md:uuid>1354c04a-738e-4b4e-b20c-8ca984fffc91</md:uuid>
+    <md:uuid>ac7ecfe8-428c-412d-97da-0165ca932b30</md:uuid>
   </metadata>
   <content>
   <section><title>Writing Linear Equations in Different Forms</title>
@@ -57,25 +57,48 @@
     </row>
   </tbody>
 </table>
+
 <para class="os-raise-text-bold">Example 2</para>
 <para>Find the equation of a line with slope −9 and \(y\)-intercept \((0,−4)\) in slope-intercept form.</para>
-<para><emphasis>Step 1 </emphasis>- Identify the \(m\) and \(b\).</para>
-<para><emphasis>Step 2</emphasis> - Substitute into the formula.</para>
+<para><emphasis>Step 1 </emphasis>- Identify the \(m\) and \(b\).
+  \(m = -9\), \(b = -4\)</para>
+<para><emphasis>Step 2</emphasis> - Substitute into the formula.
+  \(y = -9x - 4\)</para>
+
 <para class="os-raise-text-bold">Example 3</para>
 <para>Find the equation of a line in point-slope form given a slope of \(-\frac13\) and the point \((6,-4)\)</para>
-<para><emphasis>Step 1</emphasis> - Identify the \(m\) and \((x_1,y_1)\).</para>
-<para><emphasis>Step 2</emphasis> - Substitute into the formula.</para>
-<para><emphasis>Step 3</emphasis> - Simplify</para>
+<para><emphasis>Step 1</emphasis> - Identify the \(m\) and \((x_1,y_1)\).
+  \(m = -\frac{1}{3} x_1=6 y_1= -4\)</para>
+<para><emphasis>Step 2</emphasis> - Substitute into the formula.
+  \(y-(-4)=-\frac{1}{3}(x-6)\)</para>
+<para><emphasis>Step 3</emphasis> - Simplify
+  \(y+4=-\frac{1}{3}(x-6)\)</para>
+
 <para class="os-raise-text-bold">Example 4</para>
 <para>Write the equation \(y+4=-\frac{1}{3}(x-6)\) in standard form.</para>
-<para><emphasis>Step 1</emphasis> - Multiply to get rid of the fraction.</para>
-<para><emphasis>Step 2</emphasis> - Distribute.</para>
-<para><emphasis>Step 3</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.</para>
-<para><emphasis>Step 4</emphasis> - Simplify.</para>
-<para><emphasis>Step 5</emphasis> - Bring the constants to the right side.</para>
-<para><emphasis>Step 6 </emphasis>- Simplify.</para>
-<para><emphasis>Step 7</emphasis> - Write the \(x\) term before the \(y\) term.</para>
+<para><emphasis>Step 1</emphasis> - Multiply to get rid of the fraction.
+  Remember, standard form cannot have decimals or fractions.
+  Multiply every term by 3.
+  \(3(y+4)=3(-\frac{1}{3}(x-6))\)
+  \(3y+12=-(x-6)\)</para>
+<para><emphasis>Step 2</emphasis> - Distribute.
+  \(3y+12=-x+6\)</para>
+<para><emphasis>Step 3</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.
+  Add \(x\) to both sides.
+  \(3y+12+x=-x+x+6\)</para>
+<para><emphasis>Step 4</emphasis> - Simplify.
+  \(3y+12+x=6\)</para>
+<para><emphasis>Step 5</emphasis> - Bring the constants to the right side.
+  Subtract 12 from both sides.
+  \(3y+12+x-12=6-12\)</para>
+<para><emphasis>Step 6 </emphasis>- Simplify.
+  \(3y+x=-6\)</para>
+<para><emphasis>Step 7</emphasis> - Write the \(x\) term before the \(y\) term.
+  \(3x+y=-6\)</para>
+
+
 <title>Try It: Writing Linear Equations in Different Forms</title>
+
 <!--Q#-->
 <exercise>
   <problem>
@@ -84,14 +107,26 @@
     
     <para>Enter your answer here:</para>
   <para>Compare your answer: \(2x-y=-13\)</para>
-    <para><emphasis>Step 1</emphasis> - Distribute.</para>
-    <para><emphasis>Step 2</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.</para>
-    <para><emphasis>Step 3</emphasis> - Simplify.</para>
-    <para><emphasis>Step 4</emphasis> - Bring the constants to the right side.</para>
-    <para><emphasis>Step 5</emphasis> - Simplify.</para>
-    <para><emphasis>Step 6</emphasis> - Write the \(x\) term before the \(y\) term.</para>
-    <para><emphasis>Step 7</emphasis> - Multiply each term by -1.</para>
-    <para><emphasis>Step 8</emphasis> - Simplify.</para>
+    
+    <para><emphasis>Step 1</emphasis> - Distribute.
+      \(y-3=2x+10\)</para>
+    <para><emphasis>Step 2</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.
+      Subtract \(2x\) from both sides.
+      \(y-3-2x=2x-2x+10\)</para>
+    <para><emphasis>Step 3</emphasis> - Simplify.
+      \(y-3-2x=10\)</para>
+    <para><emphasis>Step 4</emphasis> - Bring the constants to the right side.
+      Add 3 to both sides.
+      \(y-3-2x+3=10+3\)</para>
+    <para><emphasis>Step 5</emphasis> - Simplify.
+      \(y-2x=13\)</para>
+    <para><emphasis>Step 6</emphasis> - Write the \(x\) term before the \(y\) term.
+      \(-2x+y=13\)</para>
+    <para><emphasis>Step 7</emphasis> - Multiply each term by -1.
+      Standard form cannot lead with a negative.
+      \(-1(-2x+y=13)\)</para>
+    <para><emphasis>Step 8</emphasis> - Simplify.
+      \(2x-y=-13\)</para>
   </solution></exercise>
 <!--Interaction End --></section>
 </content>

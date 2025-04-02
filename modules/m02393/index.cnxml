@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02393</md:content-id>
     <md:title>9.4.3: Additional Resources</md:title>
-    <md:uuid>c91868bf-c0f8-4535-adc7-f42b7bed676d</md:uuid>
+    <md:uuid>8f801687-082b-4b07-90d5-b926bc4c7c9f</md:uuid>
   </metadata>
   <content>
   <section><title>Find the Value to Make a Perfect Square and Solve</title>
@@ -49,6 +49,7 @@
     </row>
   </tbody>
 </table>
+
 <para>In general, \((kx+m)^2\) can be written as:</para>
 <para>\((kx)^2+2 (kx)(m) +m^2\) or \(k^2x^2+2kmx +m^2\)</para>
 <para>If a quadratic expression is of the form \(ax^2+bx+c\), then:</para>
@@ -109,13 +110,22 @@
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
   <para>Here is how to solve this equation by completing the square:</para>
-  <para><emphasis>Step 1</emphasis> - To be a perfect square, \((2x+m)^2\) is needed. </para>
-  <para><emphasis>Step 2</emphasis> - Find the value of \(m\) to make a perfect square. </para>
-  <para><emphasis>Step 3</emphasis> - Find \(c= m^2\). </para>
-  <para><emphasis>Step 4</emphasis> - Add \(c\) to both sides. </para>
-  <para><emphasis>Step 5</emphasis> - Factor and simplify. </para>
-  <para><emphasis>Step 6</emphasis> - Take the square root of both sides. Remember the plus or minus. </para>
-  <para><emphasis>Step 7</emphasis> - Write two equations and solve. </para>
+  <para><emphasis>Step 1</emphasis> - To be a perfect square, \((2x+m)^2\) is needed. 
+    \(4x^2+28x=-13\) </para>
+  <para><emphasis>Step 2</emphasis> - Find the value of \(m\) to make a perfect square. 
+    \(2(2m) = 28\), so \(m = 7\).</para>
+  <para><emphasis>Step 3</emphasis> - Find \(c= m^2\). 
+    \(c=m^2=7^2=49\)</para>
+  <para><emphasis>Step 4</emphasis> - Add \(c\) to both sides. 
+    \(4x^2+28x+49=-13+49\)</para>
+  <para><emphasis>Step 5</emphasis> - Factor and simplify. 
+    \((2x+7)^2=36\)</para>
+  <para><emphasis>Step 6</emphasis> - Take the square root of both sides. Remember the plus or minus. 
+    \(\sqrt{(2x+7)^2}=\sqrt{36}\)
+    \( 2x+7= \pm 6\)</para>
+  <para><emphasis>Step 7</emphasis> - Write two equations and solve. 
+    \(2x+7=6\)            \(2x+7=-6\)
+    \(x= -\frac12\)            \(x=-\frac{13}{2}\)</para>
 </solution></exercise>
 </example></section>
 </content>

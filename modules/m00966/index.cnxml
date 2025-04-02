@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00966</md:content-id>
     <md:title>4.7.3: Writing Linear Equations</md:title>
-    <md:uuid>e18b7b2f-e722-42d0-a227-c6f398e2376f</md:uuid>
+    <md:uuid>c79b43db-62dc-483f-836b-11758274c71e</md:uuid>
   </metadata>
   <content>
   <section><title>Student Activity </title>
@@ -18,13 +18,25 @@
   </thead>
   <tbody>
     <row>
-      <entry> \(y = mx + b\)</entry>
-      <entry> \(y-y_1=m(x-x_1)\)</entry>
-      <entry> \(Ax + By = C\)</entry>
+      <entry> \(y = mx + b\)
+        Given:
+        \(m =\) slope 
+        \(b =\) \(y\)-intercept </entry>
+      <entry> \(y-y_1=m(x-x_1)\)
+        Given:
+        a point \((x_1,y_1)\)
+        \(m=\) slope </entry>
+      <entry> \(Ax + By = C\)
+        \(m = -\frac AB = \) slope
+        Where:
+        There are no fractions and
+        \(A\) cannot be negative. </entry>
     </row>
   </tbody>
 </table>
+
 <para>For <term data-schema-version="1.0" data-store="glossary-tooltip">slope-intercept form</term>, the slope and \(y\)-intercept are needed:</para>
+
 <!--Q#1-->
 <exercise>
   <problem>
@@ -37,6 +49,8 @@
     <para>Substitute the slope in for \(m\) and the \(y\)-value of the \(y\)-intercept in for \(b\) in the formula \(y= mx + b\).</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <para>For <term data-schema-version="1.0" data-store="glossary-tooltip">point-slope form</term>, the slope and one point are needed:</para>
 <!--Q#2-->
 <exercise>
@@ -53,9 +67,12 @@
     <para>\(y+5=\frac{1}{2}(x-3)\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <para><term data-schema-version="1.0" data-store="glossary-tooltip">Standard form of a linear equation</term> is often used to find \(x\)- and \(y\)-intercepts of graphs.</para>
 <para>Often, an equation starts in another form and gets put into standard form.</para>
 <para>Standard form does not have fractions or decimals and cannot lead with a negative number.</para>
+
+
 <!--Q#3-->
 <exercise>
   <problem>
@@ -67,6 +84,7 @@
     <para>The slope is 2. </para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Q#4-->
 <exercise>
   <problem>
@@ -77,12 +95,20 @@
   <para>Compare your answer:</para>
     <para>\(2x - y = -3\)</para>
     <para>Write the equation in the form \(Ax + By = C\)</para>
-    <para><emphasis>Step 1 </emphasis>- Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.</para>
-    <para><emphasis>Step 2</emphasis> - Write the \(x\) term first and simplify.</para>
-    <para><emphasis>Step 3</emphasis> - Multiply both sides by -1, so as not to lead with a negative.</para>
+    <para><emphasis>Step 1 </emphasis>- Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.
+      Subtract \(2x\) from both sides:
+      \(y - 2x = 2x - 2x + 3\)</para>
+    <para><emphasis>Step 2</emphasis> - Write the \(x\) term first and simplify.
+      \(-2x + y = 3\)</para>
+    <para><emphasis>Step 3</emphasis> - Multiply both sides by -1, so as not to lead with a negative.
+      \(-1(-2x + y = 3)\)
+      \(2x - y = -3\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <para>Work with a partner to write equations in different forms.</para>
+
+
 <!--Q#5-->
 <exercise>
   <problem>
@@ -94,6 +120,7 @@
     <para>The slope is 2. </para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Q#6-->
 <exercise>
   <problem>
@@ -112,6 +139,8 @@
     <para>\(y = 2x +11\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Q#5-->
 <exercise>
   <problem>
@@ -121,12 +150,21 @@
     <para>Enter your answer here:</para>
   <para>Compare your answer:</para>
     <para>\(3x + y = 1\)</para>
-    <para><emphasis>Step 1 </emphasis>- Distribute.</para>
-    <para><emphasis>Step 2</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.</para>
-    <para><emphasis>Step 3</emphasis> - Bring the constants to the right side of the equation.</para>
-    <para><emphasis>Step 4</emphasis> - Simplify.</para>
+    <para><emphasis>Step 1 </emphasis>- Distribute.
+      \(y+5=-3x+6\)</para>
+    <para><emphasis>Step 2</emphasis> - Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.
+      Add \(3x\) to both sides.
+      \(y+5+3x=-3x+3x+6\)</para>
+    <para><emphasis>Step 3</emphasis> - Bring the constants to the right side of the equation.
+      Subtract 5 from each side.
+      \(y+5-5+3x=-3x+3x+6-5\)</para>
+    <para><emphasis>Step 4</emphasis> - Simplify.
+      Make sure that the \(x\) term is in front of the \(y\) term on the left side.
+      \(3x +y =1\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Q#6-->
 <exercise>
   <problem>
@@ -136,14 +174,24 @@
     <para>Enter your answer here:</para>
   <para>Compare your answer:</para>
     <para>\(x -3y=12\)</para>
-    <para><emphasis>Step 1</emphasis> - Get rid of the fractions in the equation.</para>
-    <para><emphasis>Step 2</emphasis> - Distribute and simplify.</para>
-    <para><emphasis>Step 3 </emphasis>- Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.</para>
-    <para><emphasis>Step 4</emphasis> - Simplify.</para>
-    <para><emphasis>Step 5</emphasis> - Write the equation so the \(x\) term is first.</para>
-    <para><emphasis>Step 6</emphasis> - Multiply each term by -1, so as not to lead with a negative.</para>
+    <para><emphasis>Step 1</emphasis> - Get rid of the fractions in the equation.
+      Multiply every term by 3.
+      \(3y = 3(\frac{1}{3}x-4)\)</para>
+    <para><emphasis>Step 2</emphasis> - Distribute and simplify.
+      \(3y=x -12\)</para>
+    <para><emphasis>Step 3 </emphasis>- Rearrange terms so the \(x\) term and the \(y\) term are both on the left side of the equation.
+      Subtract \(x\) from both sides.
+      \(3y - x = x - x -12\)</para>
+    <para><emphasis>Step 4</emphasis> - Simplify.
+      \(3y - x = -12\)</para>
+    <para><emphasis>Step 5</emphasis> - Write the equation so the \(x\) term is first.
+      \(-x + 3y = -12\)</para>
+    <para><emphasis>Step 6</emphasis> - Multiply each term by -1, so as not to lead with a negative.
+      \(-1(-x + 3y = -12)\)
+      \(x - 3y = 12\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Q#-->
 <exercise>
   <problem>
@@ -152,9 +200,14 @@
     
     <para>Enter your answer here:</para>
   <para>Compare your answer:</para>
-    <para>The slope is \(m = -\frac AB\). </para>
+    <para>The slope is \(m = -\frac AB\). 
+      \(m = -\frac{3}{12}\)
+      \(m = -\frac14\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
+
 <title>Video: Writing Equations in Different Forms</title>
 <para>Watch the following video to learn more about writing equations in different forms.</para>
 <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">

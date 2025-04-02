@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02216</md:content-id>
     <md:title>8.8.2: Additional Resources</md:title>
-    <md:uuid>9dd4c7ce-8670-4a75-9106-4afe3caac7d6</md:uuid>
+    <md:uuid>18b782ea-c35a-4b85-a03c-38e14ea29d1e</md:uuid>
   </metadata>
   <content>
   <section><title>Recognizing the Expanded Product of the Difference of Two Squares</title>
@@ -11,12 +11,20 @@
 <para><emphasis>Example 1</emphasis></para>
 <para>Let's look at the expression \((12 + 5)(12 − 5)\). We want to determine if it is equivalent to \(12^2−5^2\).</para>
 <para>We can use the distributive property of multiplication over addition, or FOIL process, to multiply.</para>
-<para>\((12 + 5)(12 − 5)\) </para>
+<para>\((12 + 5)(12 − 5)\) 
+  
+  \(\begin{array}{rcl} &amp;=&amp;12^2-12\left(5\right)+5\left(12\right)-5^2\\&amp;&amp;\\&amp;=&amp;12^2-60+60-5^2\\&amp;&amp;\\&amp;=&amp;12^2-5^2\\&amp;&amp;\end{array}\)
+  So, \((12 + 5)(12 − 5)\) is equivalent to \(12^2-5^2\).
+</para>
 <para><emphasis>Example 2</emphasis></para>
 <para>Let's look at a different example using a <term data-schema-version="1.0" data-store="glossary-tooltip">variable</term>.</para>
 <para>\((x + 7)(x − 7)\)</para>
 <para>Is this equivalent to \(x^2−7^2\)?</para>
-<para>\((x + 7)(x − 7)\)</para>
+<para>\((x + 7)(x − 7)\)
+  
+  \(\begin{array}{rcl} &amp;=&amp;x^2-7x+7x-7^2\\&amp;&amp;\\&amp;=&amp;x^2-7^2=x^2-49\\&amp;&amp;\end{array}\)
+  This can also be shown using a diagram.
+</para>
 <table class="os-raise-doubleheadertable">
   
   <thead>
@@ -53,13 +61,15 @@
     </row>
   </tbody>
 </table>
+
 <para>You have studied this process earlier when you learned the difference of squares.</para>
 <para>In this lesson, we will reverse this process to rewrite the <term data-schema-version="“1.0”" data-store="glossary-tooltip">standard form</term> of a <term data-schema-version="“1.0”" data-store="glossary-tooltip">quadratic expression</term> into its <term data-schema-version="“1.0”" data-store="glossary-tooltip">factored form</term>.</para>
 <para>It is important to remember the <term data-schema-version="“1.0”" data-store="glossary-tooltip">linear term</term>, or middle term of a quadratic trinomial, equals zero only holds true for the <term data-schema-version="“1.0”" data-store="glossary-tooltip">difference of squares</term>. It does not work for an expression such as \(x^2+25\). (In fact, there is no way to multiply two binomials that would result in this expression.)</para>
 <para><emphasis>Example 3</emphasis></para>
 <para>Is \((x + 5)^2\) equivalent to \(x^2+25\)?</para>
 <para>Let's find the equivalent expression for \((x + 5)^2\) or \((x + 5)(x + 5)\).</para>
-<para>\(\begin{array}{rcl}\left(x+5\right)^2&amp;=&amp;\left(x+5\right)\left(x+5\right)\\&amp;&amp;\\&amp;=&amp;x^2+5x+5x+25\\&amp;&amp;\\&amp;=&amp;x^2+10x+25\\&amp;&amp;\end{array}\)</para>
+<para>\(\begin{array}{rcl}\left(x+5\right)^2&amp;=&amp;\left(x+5\right)\left(x+5\right)\\&amp;&amp;\\&amp;=&amp;x^2+5x+5x+25\\&amp;&amp;\\&amp;=&amp;x^2+10x+25\\&amp;&amp;\end{array}\)
+  Since \(x^2+ 10x + 25\) is not equivalent to \(x^2+25\), these expressions are not the same.</para>
 <title>Try It: Recognizing the Expanded Product of the Difference of Two Squares</title>
 <example><exercise>
   <problem>
@@ -115,6 +125,7 @@
       </row>
     </tbody>
   </table>
+  
   <para>\((x + 4)(x + 4) = x^2 + 8x + 4^2 = x^2 + 8x + 16\)</para>
   <para>It is not equivalent to \(x^2 + 4^2 = x^2 + 16\).</para>
 </solution></exercise>

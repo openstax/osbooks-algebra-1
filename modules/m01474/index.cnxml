@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01474</md:content-id>
     <md:title>5.13.2: Creating Exponential Functions from Graphs</md:title>
-    <md:uuid>ccb079b1-3abb-4d27-8e6f-cd949893a25b</md:uuid>
+    <md:uuid>45d09848-7484-41a3-972a-aabbad56a8b0</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -43,30 +43,58 @@
 </para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para> Examine the graph representing an exponential function \(f\). The function \(f\) gives the value of a computer, in
   dollars, as a function of time, \(x\), measured in years since the time of purchase. </para>
 <para><figure><media alt="GRAPH OF AN EXPONENTIAL DECAY FUNCTION, WHERE VALUE IN DOLLARS IS A FUNCTION OF TIME. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA FOUR HUNDRED, 2 COMMA 100, AND 4 COMMA 25."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/cd2c8b301539b02974ca385d8f1e5d472bcb8440"/></media></figure></para>
 <para>Based on the graph, what can you say about the following?</para>
 <list class="os-raise-noindent" type="enumerated">
-  <item> The purchase price of the computer <emphasis>Answer:</emphasis> $400 </item>
-  <item> The value of \(f\) when \(x\) is 1 <emphasis>Answer:</emphasis> \(f(1)=200\) </item>
-  <item> The meaning of \(f(1)\) <emphasis>Answer:</emphasis> The value of the computer after 1 year </item>
-  <item> How the value of the computer is changing each year <emphasis>Answer: </emphasis> The computer loses half of its value each year. </item>
-  <item> An equation that defines \(f\) <emphasis>Answer:</emphasis> \(f(x)=400(\frac{1}{2})^x\) or equivalent (i.e., \(f(x)=400 \cdot (0.5)^x\)). </item>
-  <item>Whether the value of \(f\) will reach 0 after 10 years <emphasis>Answer:</emphasis> No, it will not. After 10 years, the value of the computer will be a little less than
+  <item> The purchase price of the computer 
+    
+    <emphasis>Answer:</emphasis> $400 
+    
+  </item>
+  <item> The value of \(f\) when \(x\) is 1 
+    
+    <emphasis>Answer:</emphasis> \(f(1)=200\) 
+    
+  </item>
+  <item> The meaning of \(f(1)\) 
+    
+    <emphasis>Answer:</emphasis> The value of the computer after 1 year 
+    
+  </item>
+  <item> How the value of the computer is changing each year 
+    
+    <emphasis>Answer: </emphasis> The computer loses half of its value each year. 
+    
+  </item>
+  <item> An equation that defines \(f\) 
+    
+    <emphasis>Answer:</emphasis> \(f(x)=400(\frac{1}{2})^x\) or equivalent (i.e., \(f(x)=400 \cdot (0.5)^x\)). 
+    
+  </item>
+  <item>Whether the value of \(f\) will reach 0 after 10 years 
+    
+    <emphasis>Answer:</emphasis> No, it will not. After 10 years, the value of the computer will be a little less than
     $0.40.
   </item>
 </list>
 <para> For 7 - 8, examine the graphs of the exponential functions. </para>
 <list class="os-raise-noindent" start="7" type="enumerated">
-  <item>Examine the graph of the exponential function below.<figure><media alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA 5, 1 COMMA 15, AND 2 COMMA 45."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/706e82e99b6d42e7d57b030e561e0396529f0669"/></media></figure></item>
+  <item>Examine the graph of the exponential function below.
+    <figure><media alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA 5, 1 COMMA 15, AND 2 COMMA 45."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/706e82e99b6d42e7d57b030e561e0396529f0669"/></media></figure></item>
 </list>
 <list class="os-raise-noindent" type="enumerated">
-  <item> Write an equation that defines the function. Use the “^” symbol to enter an exponent. <emphasis>Answer:</emphasis> \(f(x)=5\cdot 3^x\) </item>
+  <item> Write an equation that defines the function. Use the “^” symbol to enter an exponent. 
+    <emphasis>Answer:</emphasis> \(f(x)=5\cdot 3^x\) 
+  </item>
 </list>
 <list class="os-raise-noindent" start="2" type="enumerated">
-  <item>For each, write an equation that defines the function and find the value of the function when \(x\) is 5.<emphasis>Answer:</emphasis> \(f(5)=1,215\) </item>
+  <item>For each, write an equation that defines the function and find the value of the function when \(x\) is 5.
+    <emphasis>Answer:</emphasis> \(f(5)=1,215\) 
+  </item>
 </list>
 <list class="os-raise-noindent" start="8" type="enumerated">
   <item>Examine the graph of the exponential function below. <figure><media alt="GRAPH OF AN EXPONENTIAL DECAY FUNCTION. THE GRAPH PASSES THROUGH THE POINTS NEGATIVE 1 COMMA 40, 0 COMMA 20, AND 2 COMMA 5."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/2cc8a01ad67c48ca53839eefddc5c83144c7167b"/></media></figure></item>
@@ -79,6 +107,7 @@
   <item>For each, write an equation that defines the function and find the value of the function when \(x\) is 5.</item>
 </list>
 <para> <emphasis>Answer:</emphasis> \(f(5)=0.625\) </para>
+
 <title> Video: Interpreting an Exponential Function from a Graph</title>
 <para>Watch the following video to learn more about interpreting exponential functions:</para>
 <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
@@ -88,6 +117,7 @@
       https://k12.openstax.org/contents/raise/resources/caccc8b7929b24bca06458ed8e8c609a93390e10
     </track></source></video></iframe>
 </div>
+
 <title> Student Facing Extension</title>
 <title> Are you ready for more?</title>
 <para>Consider a function \(f\) defined by \(f(x)=a \cdot b^x\).</para>
@@ -149,6 +179,7 @@
       <para class="os-raise-text-italicize">Supports accessibility for: Visual-spatial processing; Conceptual processing</para>
   </div>
 </div>
+
 <title> 5.13.2: Self Check</title>
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their
     understanding of the
@@ -201,6 +232,7 @@
     </row>
   </tbody>
 </table>
+
 <title>5.13.2: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on
     their experience with
@@ -254,6 +286,7 @@
     </row>
   </tbody>
 </table>
+
 <title> Try It: Writing Functions from Graphs</title>
 <para>Use the graph below to write the equation of the function. Then find \(f(5)\).</para>
 <para><figure><media alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION. THE GRAPH PASSES THROUGH THE POINTS 0 COMMA 2, 1 COMMA 8, AND 2 COMMA 32."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/c6886dff32bbb16d44b05f5c51a3a9d21993da87"/></media></figure></para>

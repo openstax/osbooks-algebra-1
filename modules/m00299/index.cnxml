@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00299</md:content-id>
     <md:title>1.14.4: Writing an Equation of a Line Perpendicular to a Given Line</md:title>
-    <md:uuid>c4541f15-ecba-4358-af8a-5ebbfa93c7c6</md:uuid>
+    <md:uuid>96d1c152-6057-4701-b248-bfded540d4dc</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -55,6 +55,8 @@
 <para>(Students were provided access to Desmos.)</para>
 <para><emphasis>Answer:</emphasis> </para>
 <para><figure><media alt="Graphs of y = -4x+9 and y = (¼)x+(5/4)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/469d81b9069bf0e50fdf3432fa337ed0555daa4b"/></media></figure></para>
+
+
 <note>
   <para>Perpendicular lines have slopes that have opposite signs and are reciprocals of each other. Here are some examples and non-examples of the slopes of lines that are perpendicular:</para>
   <table class="os-raise-midsizetable">
@@ -82,7 +84,9 @@
       </row>
     </tbody>
   </table>
-  </note>
+  
+</note>
+
 <list class="os-raise-noindent" start="11" type="enumerated">
   <item>What is the slope of the line perpendicular to a line with a slope of \(\frac14\)?</item>
 </list>
@@ -95,6 +99,8 @@
   <item>What is the slope of the line perpendicular to a line with a slope of \(-\frac{6}{11}\)?</item>
 </list>
 <para><emphasis>Answer:</emphasis> The slope of the perpendicular line is \(\frac{11}{6}\). </para>
+
+
 <title>Activity Synthesis</title>
 <para>Ask students to write an equation of a line that has a slope of zero (students can choose their \(y\)-intercept).</para>
 <list>
@@ -124,18 +130,39 @@
     </row>
     <row>
       <entry>\( y = -2x + 14 \)</entry>
-      <entry> Incorrect. Let’s try again a different way:</entry>
+      <entry> Incorrect. Let’s try again a different way:
+        
+        The slope of the perpendicular line is the opposite reciprocal of the slope of the original line, \( -2 \). The point on the line is \( (6, 4) \). The first coordinate, 6, is the \( x \)-coordinate. The second coordinate, 4, is the \( y \)-coordinate.
+        
+        Substitute \( -2 \) for \( m \), 6 for \( x_1 \), and 4 for \( y_1 \) in the point-slope form: \( y - y_1 = m(x - x_1) \).
+        
+        Simplify the equation \( y - 4 = -2 (x - 6) \) to get \( y - 4 = -2x + 12 \). The answer is \( y = -2x + 16 \). </entry>
     </row>
     <row>
       <entry>\( y = 2x - 8 \)</entry>
-      <entry> Incorrect. Let’s try again a different way:</entry>
+      <entry> Incorrect. Let’s try again a different way:
+        
+        The slope of the perpendicular line is the opposite reciprocal of the slope of the original line. Remember to change the sign. The original line has slope \( \frac{1}{2} \). The opposite reciprocal is \( -2 \).
+        
+        Substitute \( -2 \) for \( m \), 6 for \( x_1 \), and 4 for \( y_1 \) in the point-slope form: \( y - y_1 = m(x - x_1) \).
+        
+        Simplify the equation \( y - 4 = -2 (x - 6) \) to get \( y - 4 = -2x + 12 \). The answer is \( y = -2x + 16 \). </entry>
     </row>
     <row>
       <entry>\( y = -2x - 2  \)</entry>
-      <entry> Incorrect. Let’s try again a different way:</entry>
+      <entry> Incorrect. Let’s try again a different way:
+        
+        The slope of the perpendicular line is the opposite reciprocal of the slope of the original line, \( -2 \).
+        
+        Substitute \( -2 \) for \( m \), 6 for \( x_1 \), and 4 for \( y_1 \) in the point-slope form: \( y - y_1 = m(x - x_1) \).
+        
+        Simplify the equation \( y - 4 = -2 (x - 6) \). Be sure to distribute \(-2\) to both terms inside the parentheses to get \( y - 4 = -2x + 12 \).
+        
+        The answer is \( y = -2x + 16 \). </entry>
     </row>
   </tbody>
 </table>
+
 <title>1.14.4: Additional Resources </title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
 <title>Finding a Perpendicular Line Given an Equation and Point</title>
@@ -146,12 +173,22 @@
 <para>To find the equation of a line perpendicular to a line through a given point algebraically, you can use what you know about finding the equation of a line given the slope and a point.</para>
 <para><emphasis>Example</emphasis></para>
 <para>Write an equation of a line perpendicular to \( y = 2x - 3 \) that contains the point \( (-2, 1) \). Write the equation in slope-intercept form.</para>
-<para><b>Step 1 - </b> Find the slope of the given line.</para>
-<para><b>Step 2 - </b> Find the slope of the perpendicular line</para>
-<para><b>Step 3 - </b>Identify the point</para>
-<para><b>Step 4 - </b>Substitute values into the point-slope form \( y - y_1 = m(x - x_1) \)</para>
-<para><b>Step 5 - </b>Write the equation in slope-intercept form</para>
+<para><b>Step 1 - </b> Find the slope of the given line.
+  The line is in slope-intercept form \( y = 2x - 3 \)
+  \( m=2 \) </para>
+<para><b>Step 2 - </b> Find the slope of the perpendicular line
+  perpendicular lines have the inverse slope
+  \( m_1 = -1/2 \) </para>
+<para><b>Step 3 - </b>Identify the point
+  The given point is \( (-2, 1) \)
+  \( (x_1, y_1) = (-2, 1) \) </para>
+<para><b>Step 4 - </b>Substitute values into the point-slope form \( y - y_1 = m(x - x_1) \)
+  Simplify
+  \( \begin{array}{rcl}y - y_1 &amp;=&amp; m(x - x_1) \\ y-1 &amp;=&amp; -\frac{1}{2}(x - (-2)) \\ y-1 &amp;=&amp; -\frac{1}{2}(x + 2) \\ y-1 &amp;=&amp; -\frac{1}{2}x - 1\end{array} \)</para>
+<para><b>Step 5 - </b>Write the equation in slope-intercept form
+  \( y = -\frac{1}{2}x\) </para>
 <para>Use this table for reference to write an equation of a line perpendicular to a given line: </para>
+
 <note>
   <para><emphasis>Step 1</emphasis> - Find the slope of the given line.</para>
   <para><emphasis>Step 2</emphasis> - Find the slope of the perpendicular line.</para>
@@ -160,17 +197,27 @@
   <para><emphasis>Step 5</emphasis> - Simplify.</para>
   <para><emphasis>Step 6</emphasis> - Write the equation in slope-intercept form \( (y = mx+b) \).</para>
 </note>
+
+
 <title>Try It: Finding a Perpendicular Line Given an Equation and Point</title>
 <para>Find an equation of a line perpendicular to the line \( y = 3x + 1 \) that contains the point \( (4, 2) \). Write the equation in slope-intercept form.</para>
 <para>Write down your answer, and then select the<emphasis> solution</emphasis> button to compare your work.</para>
 <para><emphasis>Answer:</emphasis></para>
 <para>Here is how to find a line perpendicular to a given line and point.</para>
-<para><emphasis>Step 1</emphasis> - Find the slope of the given line.</para>
-<para><emphasis>Step 2</emphasis> - Find the slope of the perpendicular line. </para>
-<para><emphasis>Step 3</emphasis> - Identify the point.</para>
-<para><emphasis>Step 4</emphasis> - Substitute the values into the point-slope form</para>
-<para><emphasis>Step 5</emphasis> - Simplify.</para>
-<para><emphasis>Step 6</emphasis> - Write the equation in slope-intercept form \( (y = mx+b) \).</para>
+<para><emphasis>Step 1</emphasis> - Find the slope of the given line.
+  \( m = 3 \)</para>
+<para><emphasis>Step 2</emphasis> - Find the slope of the perpendicular line. 
+  \( m_1 = - \frac{1}{3} \)</para>
+<para><emphasis>Step 3</emphasis> - Identify the point.
+  \( (x_1, y_1) \)
+  \( (4, 2) \)</para>
+<para><emphasis>Step 4</emphasis> - Substitute the values into the point-slope form
+  \( y-y_1=m(x-x_1) \).
+  \(\begin{array}{rcl} y - y_1 &amp;= m(x - x_1) \\ y - 2 &amp;= -\frac{1}{3} (x - 4)\end{array} \)</para>
+<para><emphasis>Step 5</emphasis> - Simplify.
+  \( y - 2 = -\frac{1}{3}x + \frac{4}{3} \)</para>
+<para><emphasis>Step 6</emphasis> - Write the equation in slope-intercept form \( (y = mx+b) \).
+  \( y = -\frac{1}{3}x + 3\frac{1}{3}  \)</para>
 </section>
 </content>
 </document>

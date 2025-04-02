@@ -3,11 +3,12 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00447</md:content-id>
     <md:title>2.5.3: Additional Resources</md:title>
-    <md:uuid>cc7435e8-4540-4794-a04c-2f290d9578ad</md:uuid>
+    <md:uuid>dc5aaa7d-017e-4ac4-9b90-19509f23f157</md:uuid>
   </metadata>
   <content>
   <section><title>Solving a System of Equations by Elimination</title>
 <para>Let’s reinforce the steps to solve a system of equations using elimination.</para>
+
 <note>
   <para><emphasis>Step 1  </emphasis>- Write both equations in standard form. If any coefficients are fractions, clear them.</para>
   <para><emphasis>Step 2</emphasis> - Check to see if the coefficients of one variable are opposites or equivalent.</para>
@@ -17,22 +18,32 @@
   <para><emphasis>Step 6</emphasis> - Write the solution as an ordered pair.</para>
   <para><emphasis>Step 7</emphasis> - Check that the ordered pair is a solution to both original equations.</para>
 </note>
+
 <para><emphasis>Example</emphasis></para>
 <para>Let’s look at an example. Solve the following system of equations using elimination:</para>
 <para>\( \left\{ \begin{array}{c l} 3x - 3y = -24 \\ -3x + 5y = 30 \end{array}\right. \)</para>
-<para><emphasis>Step 1 </emphasis>- Write both equations in standard form. If any coefficients are fractions, clear them.</para>
-<para><emphasis>Step 2</emphasis> - Check to see if the coefficients of one variable are opposites or equivalent.</para>
-<para><emphasis>Step 3</emphasis> - Add the equations to eliminate one variable.</para>
-<para><emphasis>Step 4 </emphasis>- Solve for the remaining variable.</para>
-<para><emphasis>Step 5</emphasis> - Substitute the solution from Step 4 into one of the original equations. Then solve for the other variable.</para>
-<para><emphasis>Step 6 </emphasis>- Write the solution as an ordered pair.</para>
+<para><emphasis>Step 1 </emphasis>- Write both equations in standard form. If any coefficients are fractions, clear them.
+  \( \left\{ \begin{array}{c l} 3x - 3y = -24 \\ -3x + 5y = 30 \end{array}\right. \)</para>
+<para><emphasis>Step 2</emphasis> - Check to see if the coefficients of one variable are opposites or equivalent.
+  The coefficients on the \(x\)-variables are opposites. We can add the equations.</para>
+<para><emphasis>Step 3</emphasis> - Add the equations to eliminate one variable.
+  \(\begin{array}{rcl}3x-3y&amp;=&amp;-24\\-3x+5y&amp;=&amp;30\\2y&amp;=&amp;6\end{array}\) </para>
+<para><emphasis>Step 4 </emphasis>- Solve for the remaining variable.
+  \(\begin{array}{rcl}2y&amp;=&amp;6\\y&amp;=&amp;3\end{array}\) </para>
+<para><emphasis>Step 5</emphasis> - Substitute the solution from Step 4 into one of the original equations. Then solve for the other variable.
+  \begin{array}{rcl}3x-3y&amp;=&amp;-24\\3x-3(3)&amp;=&amp;-24\\3x-9&amp;=&amp;-24\\3x&amp;=&amp;-15\\x&amp;=&amp;-5\end{array}</para>
+<para><emphasis>Step 6 </emphasis>- Write the solution as an ordered pair.
+  \( (-5,
+  3) \)</para>
 <para><emphasis>Step 7</emphasis> - Check that the ordered pair is a solution to both original equations.</para>
 <div class="os-raise-d-flex os-raise-justify-content-center">
   <para>\(\begin{array}{rcl}3x-3y&amp;=&amp;-24\\3(-5)-3(3)&amp;=&amp;-24\\-15-9&amp;=&amp;-24\\-24&amp;=&amp;-24\checkmark\end{array}\)</para>
   <para>\(\begin{array}{rcl}-3x+5y&amp;=&amp;30\\-3(-5)+5(3)&amp;=&amp;30\\15+15&amp;=&amp;30\\30&amp;=&amp;30\checkmark\end{array}\)</para>
 </div>
+
 <title>Try It: Solving a System of Equations by Elimination</title>
 <para>Solve the following system of equations using elimination:</para>
+
 <!--Q#-->
 <example><exercise>
   <problem>
@@ -42,12 +53,18 @@
   </problem><solution>
   <para>Compare your answer:</para>
   <para>Here is how to solve this system of equations using elimination:</para>
-  <para><emphasis>Step 1</emphasis> - Write both equations in standard form. If any coefficients are fractions, clear them.</para>
-  <para><emphasis>Step 2</emphasis> - Check to see if the coefficients of one variable are opposites or equivalent.</para>
-  <para><emphasis>Step 3 </emphasis>- Add the equations to eliminate one variable.</para>
-  <para><emphasis>Step 4 </emphasis>- Solve for the remaining variable.</para>
-  <para><emphasis>Step 5</emphasis> - Substitute the solution from Step 4 into one of the original equations. Then solve for the other variable.</para>
-  <para><emphasis>Step 6</emphasis> - Write the solution as an ordered pair.</para>
+  <para><emphasis>Step 1</emphasis> - Write both equations in standard form. If any coefficients are fractions, clear them.
+    \(\begin{array}{rcl}4x-6y&amp;=&amp;8\\x+6y&amp;=&amp;17\end{array}\)</para>
+  <para><emphasis>Step 2</emphasis> - Check to see if the coefficients of one variable are opposites or equivalent.
+    The coefficients on the \(y\)-variables are opposites. We can add the equations.</para>
+  <para><emphasis>Step 3 </emphasis>- Add the equations to eliminate one variable.
+    \(\begin{array}{rcl}4x\;-\;6y\;&amp;=&amp;\;8\\x\;+\;6y\;&amp;=&amp;\;17\\5x\;&amp;=&amp;\;25\end{array}\) </para>
+  <para><emphasis>Step 4 </emphasis>- Solve for the remaining variable.
+    \(\begin{array}{rcl}5x\;&amp;=&amp;\;25\\x\;&amp;=&amp;\;5\end{array}\) </para>
+  <para><emphasis>Step 5</emphasis> - Substitute the solution from Step 4 into one of the original equations. Then solve for the other variable.
+    \(\begin{array}{rcl}4x\;-\;6y\;&amp;=&amp;\;8\\\;4(5)\;-\;6y\;&amp;=&amp;\;8\\20\;-\;6y\;&amp;=&amp;\;8\\-6y\;&amp;=&amp;\;-12\\y\;&amp;=&amp;\;2\end{array}\) </para>
+  <para><emphasis>Step 6</emphasis> - Write the solution as an ordered pair.
+    \( (5, 2) \)</para>
   <para><emphasis>Step 7</emphasis> - Check that the ordered pair is a solution to both original equations.</para>
   <div class="os-raise-d-flex os-raise-justify-content-center">
     <para>\(\begin{array}{rcl}4x-6y&amp;=&amp;8\\4(5)-6(2)&amp;=&amp;8\\20-12&amp;=&amp;8\\8&amp;=&amp;8\checkmark\end{array}\)</para>
@@ -55,6 +72,7 @@
   </div>
 </solution></exercise>
 </example><!--Interaction End --> 
+
 </section>
 </content>
 </document>

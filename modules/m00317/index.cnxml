@@ -3,10 +3,12 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00317</md:content-id>
     <md:title>1.14.5: Additional Resources</md:title>
-    <md:uuid>7403c7c2-dbb7-4aea-8cad-d9d5592eefb9</md:uuid>
+    <md:uuid>0c67b4b3-926a-4e29-bc89-879059e11a61</md:uuid>
   </metadata>
   <content>
   <section><title>Find Equations of Lines Perpendicular to an Axis</title>
+
+
 <para>Lines that are horizontal or vertical are special for two reasons. First, their equations have just one variable.</para>
 <list> 
   <item>Horizontal line \( y = b \); because all the \( y \)-coordinates are the same and the slope equals zero.</item>
@@ -19,7 +21,9 @@
 
 <para><figure><media alt="Line passing through (0,4) and (3,4)"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/c886e626d317cba95270bbbc6e0f4d5be8147467"/></media></figure></para>
 
-<para><emphasis>What is the rise?</emphasis> The rise is 0.<emphasis>What is the run?</emphasis> The run is 3.<emphasis>What is the slope?</emphasis> \( m = \frac{\text{rise}}{\text{run}} = \frac{0}{3} = 0 \)</para>
+<para><emphasis>What is the rise?</emphasis> The rise is 0.
+<emphasis>What is the run?</emphasis> The run is 3.
+<emphasis>What is the slope?</emphasis> \( m = \frac{\text{rise}}{\text{run}} = \frac{0}{3} = 0 \)</para>
 
 <para>So, the horizontal line passing through \((0, 4)\) and \((3, 4)\) has a slope of 0. For all of the points on this line, the \( y \)-values will always equal 4. So, the equation is \( y = 4 \).</para>
 
@@ -29,7 +33,9 @@
 
 <para><figure><media alt="Line passing through (3,2) and (3,0)"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/69272e3b11c1d2c6fdc20ad28d4461233df12159"/></media></figure></para>
 
-<para><emphasis>What is the rise?</emphasis> The rise is 2.<emphasis>What is the run?</emphasis> The run is 0.<emphasis>What is the slope?</emphasis> \( m = \frac{\text{rise}}{\text{run}} = \frac{2}{0} \) (undefined)</para>
+<para><emphasis>What is the rise?</emphasis> The rise is 2.
+<emphasis>What is the run?</emphasis> The run is 0.
+<emphasis>What is the slope?</emphasis> \( m = \frac{\text{rise}}{\text{run}} = \frac{2}{0} \) (undefined)</para>
 
 <para>So, the vertical line passing through \((3, 2)\) and \((3, 0)\) has an undefined slope. And, for all of the points on this line, the \( x \)-values will always equal 3. So, the equation is \( x = 3 \).</para>
 
@@ -38,38 +44,59 @@
 <para><emphasis>Example 1</emphasis></para><para>
 </para><para>Find the equation of the line parallel to the \(x\)-axis and passing through \((8, 1)\).</para>
 
-<para><emphasis>Step 1</emphasis> - Identify the point.</para>
+<para><emphasis>Step 1</emphasis> - Identify the point.
+\((8, 1)\)</para>
 
-<para><emphasis>Step 2</emphasis> - Identify the slope of the line.</para>
+<para><emphasis>Step 2</emphasis> - Identify the slope of the line.
+Since the line is parallel to the \(x\)-axis, the line is horizontal. This means the slope of the line is 0.
+\( m = 0 \)</para>
 
-<para><emphasis>Step 3</emphasis> - Substitute the values into an equation.</para>
+<para><emphasis>Step 3</emphasis> - Substitute the values into an equation.
+From here, you may know the equation, but if you don’t, then we can use the point-slope equation.
+\( y - y_1 = m(x - x_1) \)
+\( y - 1 = 0(x - 8) \)</para>
 
-<para><emphasis>Step 4</emphasis> - Simplify.</para>
+<para><emphasis>Step 4</emphasis> - Simplify.
+\( y - 1 = 0 \)
+\( y = 1 \)</para>
 
 <para>Thus, the equation of the line parallel to the \(x\)-axis and passing through \((8, 1)\) is \( y = 1 \).</para>
 
 <para><emphasis>Example 2</emphasis></para>
 <para>Find the equation of the line perpendicular to the \(x\)-axis and passing through \((8, 1)\).</para>
 
-<para><emphasis>Step 1</emphasis> - Identify the point.</para>
+<para><emphasis>Step 1</emphasis> - Identify the point.
+\((8, 1)\)</para>
 
-<para><emphasis>Step 2</emphasis> - Identify the slope of the line.</para>
+<para><emphasis>Step 2</emphasis> - Identify the slope of the line.
+Since the line is perpendicular to the \(x\)-axis, the line is vertical. This means the slope of the line is undefined!
+\( m = \text{undefined} \)</para>
 
-<para><emphasis>Step 3</emphasis> - Substitute the values into an equation.</para>
+<para><emphasis>Step 3</emphasis> - Substitute the values into an equation.
+Since the slope is undefined, we cannot use the point-slope equation. But, we know that if \((8, 1)\) is on the line, then another point vertically above this point is \((8, 2)\). Another point vertically below this point is \((8, 0)\). On a vertical line, the x-values do not change.
+So, \( x = x_1 \)
+\( x = 8 \)</para>
 
 
 
 <para><emphasis>Example 3</emphasis></para>
 <para>Find an equation of a line perpendicular to \( x=5 \) that contains the point \( (3,-2) \). Write the equation in slope-intercept form.</para>
-<para>Again, since we know one point, the point-slope option seems more promising than the slope-intercept option. We need the slope to use this form, and we know the new line will be perpendicular to \( x=5 \). This line is vertical, so its perpendicular will be horizontal. This tells us the \( m_{\perp}=0 \).</para>
-<para><emphasis>Step 1</emphasis> - Identify the point.</para>
-<para><emphasis>Step 2</emphasis> - Identify the slope of the perpendicular line.</para>
-<para><emphasis>Step 3</emphasis> - Substitute the values into an equation.</para>
-<para><emphasis>Step 4</emphasis> - Simplify</para>
+<para>Again, since we know one point, the point-slope option seems more promising than the slope-intercept option. We need the slope to use this form, and we know the new line will be perpendicular to \( x=5 \). This line is vertical, so its perpendicular will be horizontal. This tells us the \( m_{\perp}=0 \).
+</para>
+<para><emphasis>Step 1</emphasis> - Identify the point.
+  \( (3,-2) \)</para>
+<para><emphasis>Step 2</emphasis> - Identify the slope of the perpendicular line.
+  \( m_{\perp}=0 \) </para>
+<para><emphasis>Step 3</emphasis> - Substitute the values into an equation.
+  \( \begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1) \\  y-(-2)&amp;=&amp;0(x-3)\end{array} \)</para>
+<para><emphasis>Step 4</emphasis> - Simplify
+  \( \begin{array}{rcl}y+2&amp;=&amp;0 \\ y&amp;=&amp;-2\end{array} \)</para>
+
 <para><emphasis>Example 4</emphasis></para>
 <para>Find an equation of a line that is perpendicular to \( y=4 \) that contains the point \( (2,3) \). Write the equation in slope-intercept form.</para>
 <para>The line \( y=4 \) is a horizontal line. Any line perpendicular to it must be vertical, in the form \( x=a \). Since the perpendicular line is vertical and passes through \( (2,3) \), every point on it has an \(x\)-coordinate of 2. The equation of the perpendicular line is \( x=2 \).</para>
 <title>Try It: Find Equations of Lines Perpendicular to an Axis</title>
+
 <!--Q#-->
 <example><exercise>
   <problem>
@@ -79,10 +106,19 @@
   </problem><solution>
   <para>Compare your answer:</para>
   <para>Here is how to find the equation of a line perpendicular to \( y = -3 \) that contains the point \( (-3, 5) \).</para>
-  <para><emphasis>Step 1</emphasis> - Find the slope of the given line. </para>
-  <para><emphasis>Step 2</emphasis> - Find the slope of the perpendicular line.</para>
-  <para><emphasis>Step 3</emphasis> - Identify the point.</para>
-  <para><emphasis>Step 4</emphasis> - Write the equation.</para>
+  <para><emphasis>Step 1</emphasis> - Find the slope of the given line. 
+    The line is horizontal.
+    \( m = 0 \)</para>
+  <para><emphasis>Step 2</emphasis> - Find the slope of the perpendicular line.
+    The perpendicular line is a vertical line.
+    undefined</para>
+  <para><emphasis>Step 3</emphasis> - Identify the point.
+    The given point is \((-3, 5)\).  
+    \( (x_1, y_1) \)
+    \( (-3, 5) \)</para>
+  <para><emphasis>Step 4</emphasis> - Write the equation.
+    The perpendicular line is vertical and passes through \( (-3, 5) \); every point on it has an \(x\)-coordinate of \( -3 \). 
+    \( x = -3 \)</para>
 </solution></exercise>
 </example><!--Interaction End --> 
 

@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02437</md:content-id>
     <md:title>9.7.2: Common Calculation Errors When Using the Quadratic Formula</md:title>
-    <md:uuid>a01532fc-2bd3-4f12-aadc-e913bf0e4de4</md:uuid>
+    <md:uuid>8c88c557-5d13-4675-8e8b-71f6de2092ef</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -20,6 +20,7 @@
 <para>If time permits, ask groups to identify the errors in the remaining equations. If they get stuck, suggest that they
   try solving the equations first and then look for the errors.</para>
 <para>Provide access to calculators for numerical computations.</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
@@ -30,6 +31,7 @@
     <para class="os-raise-text-italicize">Design Principle(s): Support sense-making</para>
   </div>
 </div>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -41,6 +43,7 @@
   <para>
 </para></div>
 </div>
+
 
 <title>Student Activity</title>
 <para>Here are four equations, followed by attempts to solve them using the quadratic formula. Each attempt contains at
@@ -232,6 +235,7 @@
     </row>
   </tbody>
 </table>
+
 <title>9.7.2: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on
     their experience with the self check. Students will not automatically have access to this content, so you may wish
@@ -240,39 +244,64 @@
 <para>The quadratic formula has many parts in it. A small error in any one part can lead to incorrect solutions.</para>
 <para>Suppose we are solving \(2x^2−6=11x\). To use the formula, let's rewrite it in the form of \(ax^2+bx+c=0\),
   which gives: \(2x^2−11x−6=0\).</para>
+
 <para>Here are some common errors to avoid:</para>
 <para> <emphasis>Using the wrong values for \(a\), \(b\), and \(c\) in the formula. </emphasis></para>
 <para>\(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
 <para>\(x=\frac{-11 \pm \sqrt{(11)^2- 4(2)(-6)}}{2(2)}\)</para>
 <para>This is incorrect! \(b\) is -11, so \(-b\) is -(-11), which is 11, not -11.</para>
-<para>The correct formula is:</para>
+<para>The correct formula is:
+  \(x=\frac{11 \pm \sqrt{(11)^2- 4(2)(-6)}}{2(2)}\)</para>
+
 <para> <emphasis>Forgetting to multiply 2 by \(a\) for the denominator in the formula. </emphasis></para>
 <para>\(x=\frac{11 \pm \sqrt{(11)^2- 4(2)(-6)}}{2}\)</para>
 <para>This is incorrect! The denominator is \(2a\), which is \(2(2)\) or 4.</para>
-<para>The correct formula is:</para>
+<para>The correct formula is:
+  \(x=\frac{11 \pm \sqrt{(11)^2- 4(2)(-6)}}{2(2)}\)</para>
+
 <para> <emphasis>Forgetting that squaring a negative number produces a positive number. </emphasis></para>
 <para>\(x=\frac{11 \pm \sqrt{-121- 4(2)(-6)}}{4}\)</para>
 <para>This is incorrect! \((-11)^2\) is 121, not -121.</para>
-<para>The correct formula is:</para>
+<para>The correct formula is:
+  \(x=\frac{11 \pm \sqrt{121- 4(2)(-6)}}{4}\)</para>
+
 <para> <emphasis>Forgetting that a negative number times a positive number is a negative number. </emphasis></para>
 <para>\(x=\frac{11 \pm \sqrt{121- 48}}{4}\)</para>
 <para>This is incorrect! \(4(2)(-6)=-48\) and \(121−(-48)\) is \(121+48\).</para>
-<para>The correct formula is:</para>
+<para>The correct formula is:
+  \(x=\frac {11 \pm \sqrt{121+48}}{4}\)</para>
+
 <para> <emphasis>Making calculation errors or not following the properties of algebra.</emphasis></para>
 <para>\(x=\frac {11 \pm \sqrt{169}}{4}\)</para>
 <para>\(x=11 \pm \sqrt{42.25}\)</para>
 <para>This is incorrect! Both parts of the numerator, the 11 and the \(\sqrt{169}\), get divided by 4. Also,
   \(\frac{\sqrt{169}}{4}\) is not \(\sqrt{42.25}\).</para>
-<para>The correct formula is:</para>
-<para>Let's finish by evaluating \(\frac{11 \pm 13}{4}\) correctly:</para>
+<para>The correct formula is:
+  \(x=\frac{11 \pm 13}{4}\)</para>
+<para>Let's finish by evaluating \(\frac{11 \pm 13}{4}\) correctly:
+  \(x=\frac{11+13}{4}\) or \(x=\frac{11-13}{4}\)
+  \(x=\frac{24}{4}\) or \(x=-\frac{2}{4}\)
+  \(x=6\) or \(x=-\frac{1}{2}\)</para>
 <para>To make sure our solutions are indeed correct, we can substitute the solutions back into the original equations and
   see whether each solution keeps the equation true.</para>
-<para>Checking 6 as a solution:</para>
-<para>Checking \(-\frac{1}{2}\) as a solution:</para>
+<para>Checking 6 as a solution:
+  \(2x^2-6=11x\)
+  \(2(6)^2-6=11(6)\)
+  \(2(36)-6=66\)
+  \(72-6=66\)
+  \(66=66 \; \checkmark\)</para>
+<para>Checking \(-\frac{1}{2}\) as a solution:
+  \(2x^2-6=11x\)
+  \(2(-\frac{1}{2})^2-6=11(-\frac{1}{2})\)
+  \(2(\frac{1}{4})-6=-\frac{11}{2}\)
+  \(\frac{1}{2}-6=-5\frac{1}{2}\)
+  \(-5\frac{1}{2}=-5\frac{1}{2} \; \checkmark\)</para>
 <para>We can also graph the equation \(y=2x^2−11x−6\) and find its \(x\)-intercepts to see whether our
   solutions to \(2x^2−11x−6=0\) are accurate (or close to accurate).</para>
 <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/ece2ac2c7be190db20c3f6a08962cb7fc60f742e"/></media></figure></para>
+
 <title>Try It: Common Errors When Using the Quadratic Formula</title>
+
 <para>Zariah was solving the equation \(3x^2-8x+4=0\) with the quadratic formula and used the steps below. She then had to
   stop because she realized there was a problem. Locate and describe her error.</para>
 <para><emphasis>Step 1 -</emphasis> \(x=\frac{-(-8) \pm \sqrt{-8^2-4(3)(4)}}{6}\)</para>

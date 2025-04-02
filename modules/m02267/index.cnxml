@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02267</md:content-id>
     <md:title>8.11.3: Finding a Quadratic Function from Its Zeros and a Point</md:title>
-    <md:uuid>baacebd1-7464-47ec-ae56-9ab20173629b</md:uuid>
+    <md:uuid>070004f8-1a0d-4c1b-bd20-5f708a106563</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -42,11 +42,21 @@
   <item>First, find the value of \(a\). To do this, substitute the values of the point into the intercept form of the
     function.</item>
 </list>
-<para><emphasis>Answer:</emphasis></para>
+<para><emphasis>Answer:</emphasis>
+  \(m(x) = a(x + 5)(x − 8)\) 
+  \(-60 = a((5) + 5)((5) − 8)\) 
+  \(-60 = a(10)(-3)\) 
+  \(-60 = -30a\)
+    \(2 = a\)</para>
 <list class="os-raise-noindent" start="3" type="enumerated">
   <item>Substitute the value of \(a\) into the intercept form of the function and multiply to find the standard form.</item>
 </list>
-<para><emphasis>Answer:</emphasis></para>
+<para><emphasis>Answer:</emphasis>
+  \(m(x) = a(x + 5)(x − 8)\) 
+  \(m(x) = 2(x + 5)(x − 8)\)
+  \(m(x) = 2(x^2 + 5x − 8x − 40)\)
+  \(m(x) = 2(x^2 − 3x − 40)\)
+  \(m(x) = 2x^2 − 6x − 80\)</para>
 <para>This is the function with zeros –5 and 8 that passes through \((5, -60)\).</para>
 <list class="os-raise-noindent" start="4" type="enumerated">
   <item>Write the quadratic function, \(n(x)\), in standard form, that has the zeros 9 and –2 and passes through the
@@ -72,16 +82,22 @@
       https://k12.openstax.org/contents/raise/resources/edd0a3e9d4afdfbd30566216317a5425c3ae450b
     </track></source></video></iframe>
 </div>
+
+
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
     <para>MLR 8 Discussion Supports: Representing, Conversing<title>MLR 8 Discussion Supports: Representing, Conversing</title></para>
   </note>
   <div class="os-raise-extrasupport-body">
-      <para>Ask students to closely examine and then compare the two functions, \(m(x) = x^2 - 3x - 40\) and \(m(x) = 2x^2 - 6x - 80\). Encourage students to look at the algebraic, tabular, and graphic representations of both functions. Display sentence frames “One thing that is the same is…” and “One thing that is different is…” Give students time to make sure that everyone in the class can explain or justify that each function has the same zeros. Next, ask students to explain why these quadratic equations are related. Provide the sentence frame, “Calling the equations related reminds me of … “ to support students as they explain their thinking. Some students may benefit from the opportunity to rehearse what they will say with their partner before they share with the whole class.</para>
+      <para>Ask students to closely examine and then compare the two functions, \(m(x) = x^2 - 3x - 40\) and \(m(x) = 2x^2 - 6x - 80\). Encourage students to look at the algebraic, tabular, and graphic representations of both functions. Display sentence frames “One thing that is the same is…” and “One thing that is different is…” Give students time to make sure that everyone in the class can explain or justify that each function has the same zeros. Next, ask students to explain why these quadratic equations are related. Provide the sentence frame, “Calling the equations related reminds me of … “ to support students as they explain their thinking. Some students may benefit from the opportunity to rehearse what they will say with their partner before they share with the whole class.
+</para>
 <para class="os-raise-text-italicize">Design Principle(s): Support sense-making</para>
 </div>
 </div>
+
+
 
 <div class="os-raise-extrasupport">
   <note>
@@ -89,10 +105,13 @@
     <para>Representation: Internalize Comprehension<title>Representation: Internalize Comprehension</title></para>
   </note>
   <div class="os-raise-extrasupport-body">
-      <para> To support working memory, provide students with sticky notes or encourage them to use a T-chart to compare and contrast the equations. Help students understand that related equations have the same zeros and axis of symmetry, but the tables of values, vertices, etc. will differ. Then, have them include how these graphical differences impact the values in each form of the quadratic equations.</para>
+      <para> To support working memory, provide students with sticky notes or encourage them to use a T-chart to compare and contrast the equations. Help students understand that related equations have the same zeros and axis of symmetry, but the tables of values, vertices, etc. will differ. Then, have them include how these graphical differences impact the values in each form of the quadratic equations.
+</para>
 <para class="os-raise-text-italicize">Supports accessibility for: Memory, Organization</para>
 </div>
 </div>
+
+
 <title>Activity Synthesis</title>
 <para>To summarize key ideas from the activity, discuss the following questions:</para>
 <list class="os-raise-noindent">
@@ -160,6 +179,7 @@
     </row>
   </tbody>
 </table>
+
 <title>8.11.3: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on
     their experience with the self check. Students will not automatically have access to this content, so you may wish
@@ -228,6 +248,7 @@
   <para>We can only determine an exact specific function if we have the additional information of a point through which the
     function passes.</para>
 </note>
+
 <para>Let's try one more example. </para>
 <para class="os-raise-text-bold">Example 2</para>
 <para>Write the quadratic function, \(g(x)\), in standard form, that has the zeros –7 and –3 and passes through

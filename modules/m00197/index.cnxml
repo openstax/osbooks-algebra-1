@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00197</md:content-id>
     <md:title>1.9.1: Rearranging an Equation in Three Variables</md:title>
-    <md:uuid>e9642ceb-f446-47ec-a0ea-39d11edd7a5d</md:uuid>
+    <md:uuid>09c92a94-cc43-4e6d-b899-66128c9fb4ef</md:uuid>
   </metadata>
   <content>
   <section><title>Warm Up (5 minutes)
@@ -24,20 +24,37 @@
   <item>An octahedron (shown here), which has 8 faces</item>
 </list>
     <figure><media alt="Three dimensonal octahedron. Two triangular pyramids joined at rectangular bases.  "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/f423d901280c52353b8777700a16bde267ef4ffa"/></media></figure><para><emphasis>Answer:</emphasis> \(V=E-6\)</para>
-      <para/>
+      <para>
+        \(V+F-2=E\) 
+        \(V+8−2=E\)
+        \(V+6=E\)
+        \(V=E-6\)</para>
     <list class="os-raise-noindent" start="2" type="enumerated">
       <item>An icosahedron, which has 30 edges</item>
     </list>
     <para><emphasis>Answer:</emphasis> \(V=32-F\)</para>
-    <para/>
+    <para>
+      \(V+F-2=E\) 
+      \(V+F−2=30\)
+      \(V+F−2+2=30+2\)
+      \(V+F=32\)
+      \(F=32-F\)
+    </para>
     <list class="os-raise-noindent" start="3" type="enumerated">
       <item>A Buckminsterfullerene (also called a “Buckyball”) is a polyhedron with 60 vertices. It is not a
       Platonic solid, but the numbers of faces, edges, and vertices are related the same way as those in a Platonic
-      solid.</item>
+      solid.
+    Write an equation that makes it easier to find the number of faces a Buckyball has if we know how many edges it
+      has.</item>
     </list>
     <para><emphasis>Answer:</emphasis> \(F=E−58\)</para>
     <para>
-      \(V+F−2=E\)</para>
+      \(V+F−2=E\)
+      \(60+F−2=E\)
+      \(58+F=E\)
+      \(58-58+F=E-58\)
+      \(F=E-58\)
+    </para>
 <title>Anticipated Misconceptions</title>
 <para>Some students may be unclear about what it means to write an equation that “makes it easier to find the number
   of vertices (or faces).” Remind them of the work in an earlier activity. In the post-parade clean-up activity,

@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01691</md:content-id>
     <md:title>6.7.2: Reviewing General Strategies to Factor a Polynomial</md:title>
-    <md:uuid>734239c8-05bf-4ff5-8bfc-5a630faf3da9</md:uuid>
+    <md:uuid>7664eb35-f005-402f-876d-4701a2380614</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -41,26 +41,41 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" type="enumerated">
-  <item> \(8y^3 + 16y^2 − 24y\) <emphasis>Answer:</emphasis> After GCF, trinomial of form \(x^2+bx+c\); undo FOIL </item>
+  <item> \(8y^3 + 16y^2 − 24y\) 
+    
+    <emphasis>Answer:</emphasis> After GCF, trinomial of form \(x^2+bx+c\); undo FOIL </item>
 </list>
 <list class="os-raise-noindent" start="2" type="enumerated">
-  <item> \(16x^3 − 36x\) <emphasis>Answer:</emphasis> After GCF, a binomial of squares; difference of squares </item>
+  <item> \(16x^3 − 36x\) 
+    
+    <emphasis>Answer:</emphasis> After GCF, a binomial of squares; difference of squares </item>
 </list>
 <list class="os-raise-noindent" start="3" type="enumerated">
-  <item>\(6pq^2 − 9pq − 6p\) <emphasis>Answer:</emphasis> After GCF, trinomial of form \(ax^2+bx+c\); “\(ac\)” method or trial and error </item>
+  <item>\(6pq^2 − 9pq − 6p\) 
+    
+    <emphasis>Answer:</emphasis> After GCF, trinomial of form \(ax^2+bx+c\); “\(ac\)” method or trial and error </item>
 </list>
 <list class="os-raise-noindent" start="4" type="enumerated">
-  <item> \(4x^2 − 12xy + 9y^2 − 25\) <emphasis>Answer:</emphasis> polynomial of 4 terms; grouping </item>
+  <item> \(4x^2 − 12xy + 9y^2 − 25\) 
+    
+    <emphasis>Answer:</emphasis> polynomial of 4 terms; grouping </item>
 </list>
 <list class="os-raise-noindent" start="5" type="enumerated">
-  <item>\(a^2 + 9\) <emphasis>Answer:</emphasis> no factors; prime </item>
+  <item>\(a^2 + 9\) 
+    
+    <emphasis>Answer:</emphasis> no factors; prime </item>
 </list>
 <list class="os-raise-noindent" start="6" type="enumerated">
-  <item> \(9x^2 − 24xy + 16y^2\) <emphasis>Answer:</emphasis> trinomial of form \(a^2  − 2ab + b^2\); trinomial square pattern </item>
+  <item> \(9x^2 − 24xy + 16y^2\) 
+    
+    <emphasis>Answer:</emphasis> trinomial of form \(a^2  − 2ab + b^2\); trinomial square pattern </item>
 </list>
 <list class="os-raise-noindent" start="7" type="enumerated">
-  <item> \(27y^2 − 48\)<emphasis>Answer: </emphasis>After GCF, a binomial of squares; difference of squares </item>
+  <item> \(27y^2 − 48\)
+    
+    <emphasis>Answer: </emphasis>After GCF, a binomial of squares; difference of squares </item>
 </list>
 <title>Student Facing Extension</title>
 <title>Extending Your Thinking</title>
@@ -70,9 +85,12 @@
 <para>Factor out GCF, grouping, perfect square trinomial, difference of squares</para>
 <para>Here is how tto factor this polynomial:</para>
 <para><emphasis>Step 1 - </emphasis>Is there a GCF? </para>
-<para> \(9x^2−12xy+4y^2−49\)</para>
-<para><emphasis>Step 2 -</emphasis> With more than three terms, use grouping. The last two terms have no GCF. Try grouping the first three terms.</para>
-<para><emphasis>Step 3 - </emphasis>Factor the trinomial with \(a \neq 1\). But the first term is a perfect square.</para>
+<para> \(9x^2−12xy+4y^2−49\)
+  No.</para>
+<para><emphasis>Step 2 -</emphasis> With more than three terms, use grouping. The last two terms have no GCF. Try grouping the first three terms.
+</para>
+<para><emphasis>Step 3 - </emphasis>Factor the trinomial with \(a \neq 1\). But the first term is a perfect square.
+  Is the last term of the trinomial a perfect square? </para>
 <para> \((3x)^2−12xy+(2y)^2−49\)</para>
 <para> Yes.</para>
 <para><emphasis>Step 4 - 
@@ -227,11 +245,14 @@
 <para><emphasis>Step 6 -</emphasis> Is this binomial a sum or difference? Of squares or cubes? Write it as a difference of squares.</para>
 <para> \((3x−2y)^2−7^2\)</para>
 <para><emphasis>Step 7 -</emphasis> Write it as a product of conjugates.</para>
-<para> \(((3x−2y)−7)((3x−2y)+7)\)</para>
+<para> \(((3x−2y)−7)((3x−2y)+7)\)
+  \((3x−2y −7)(3x−2y +7)\)</para>
 <para><emphasis>Step 8 - </emphasis>Is the expression factored completely? </para>
 <para> Yes.</para>
 <para><emphasis>Step 9 -</emphasis> Check your answer by multiplying. </para>
-<para> \((3x−2y−7)(3x−2y+7)\)</para>
+<para> \((3x−2y−7)(3x−2y+7)\)
+  \(9x^2−6xy−21x−6xy+4y^2+14y+21x−14y−49\)
+  \(9x^2−12xy+4y^2−49&amp;checkmark;\)</para>
 <title>Activity Synthesis</title>
 <para>Pose the following questions to students:</para>
 <list>
@@ -261,30 +282,35 @@
   </thead>
   <tbody>
     <row>
-      <entry> Factor out the GCF. Use the undo FOIL method.</entry>
+      <entry> Factor out the GCF. Use the undo FOIL method.
+        \(4y(5x + 2)(2x − 3)\) </entry>
       <entry> Incorrect. Let’s try again a different way: The GCF is \(4y\). Since the first term of the remaining
         trinomial does not have a coefficient of \(1\), this is not the best strategy. Use the “\(ac\)”
         method. The answer is \(4y(5x − 2)(2x + 3)\). </entry>
     </row>
     <row>
-      <entry> Factor out the GCF. Use the difference of squares.</entry>
+      <entry> Factor out the GCF. Use the difference of squares.
+        \(4y(5x − 2)(5x + 2)\) </entry>
       <entry> Incorrect. Let’s try again a different way: The GCF is \(4y\). The remaining polynomial is a trinomial,
         and you cannot use the difference of squares. Use the “\(ac\)” method. The answer is \(4y(5x −
         2)(2x + 3)\). </entry>
     </row>
     <row>
-      <entry> Factor out the GCF. Use the “\(ac\)” method. </entry>
+      <entry> Factor out the GCF. Use the “\(ac\)” method. 
+        \(4y(5x − 2)(2x + 3)\) </entry>
       <entry> That’s correct! Check yourself: The GCF is \(4y\). The remaining trinomial has the form \(ax^2 - bx + c\).
         You can use trial and error or the “\(ac\)” method.  </entry>
     </row>
     <row>
-      <entry> Factor out the GCF. Use the perfect square trinomial strategy. </entry>
+      <entry> Factor out the GCF. Use the perfect square trinomial strategy. 
+        \(4y(5x + 2)(2x − 3)\) </entry>
       <entry> Incorrect. Let’s try again a different way: The GCF is \(4y\). The remaining trinomial does not have the
         form \(a^2 + 2ab + b^2\) for that method. Use the “\(ac\)” method. The answer is \(4y(5x −
         2)(2x + 3)\). </entry>
     </row>
   </tbody>
 </table>
+
 <title>6.7.2: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on
   their experience with the self check. Students will not automatically have access to this content, so you may wish
@@ -296,6 +322,7 @@
 <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/279a48d8339d0f5a13e7ba2f062edffc03ef611d"/></media></figure></para>
 <para>These are the steps to use when deciding how to factor a polynomial. We will review an example after looking at these
   steps.</para>
+
 <note>
   <para class="os-raise-text-bold"> Use a general strategy for factoring polynomials:</para>
   <hr/>
@@ -335,6 +362,7 @@
     <item>Do the factors multiply back to the original polynomial?</item>
   </list>
 </note>
+
 <para class="os-raise-text-bold">Example 1</para>
 <para>Factor completely: \(24y^2 − 150\).</para>
 <para>Be careful when you are asked to factor a binomial because there are several options!</para>
@@ -343,7 +371,8 @@
 <para> Yes, \(6\).</para>
 <para><emphasis>Step 2 -</emphasis> Factor out the GCF.</para>
 <para> \(6(4y^2 − 25)\)</para>
-<para><emphasis>Step 3 -</emphasis> In the parentheses, is it a binomial, a trinomial, or are there more than three terms?</para>
+<para><emphasis>Step 3 -</emphasis> In the parentheses, is it a binomial, a trinomial, or are there more than three terms?
+  Binomial.</para>
 <para><emphasis>Step 4 -</emphasis> Is it a sum?</para>
 <para> No.</para>
 <para><emphasis>Step 5 - </emphasis>Is it a difference? Of squares or cubes?</para>
@@ -354,7 +383,9 @@
 <para><emphasis>Step 7 - </emphasis>Is the expression factored completely? </para>
 <para> Neither binomial can be factored.</para>
 <para><emphasis>Step 8 - </emphasis>Check your answer by multiplying.</para>
-<para> \(6(2y − 5)(2y + 5)\)</para>
+<para> \(6(2y − 5)(2y + 5)\)
+  \(6(4y^2 − 25)\)
+  \(24y^2 − 150&amp;checkmark;\)</para>
 <para class="os-raise-text-bold">Example 2</para>
 <para>Use the diagram and questions as references. Which strategy would you use to factor the following polynomials in the
   left column of the table? Be prepared to show your reasoning.</para>
@@ -386,6 +417,7 @@
     </row>
   </tbody>
 </table>
+
 <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <title> Solution</title>
 <table class="os-raise-wideequaltable">
@@ -414,6 +446,7 @@
     </row>
   </tbody>
 </table>
+
 <title>Try It: Reviewing General Strategies to Factor a Polynomial</title>
 <para>Identify the strategy you would use to factor each polynomial.</para>
 <list class="os-raise-noindent" type="enumerated">

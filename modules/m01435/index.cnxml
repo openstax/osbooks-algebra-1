@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01435</md:content-id>
     <md:title>5.11.2: Choosing an Appropriate Model</md:title>
-    <md:uuid>53891c83-f56a-48fe-8d0c-7f2ec280fba9</md:uuid>
+    <md:uuid>eba1ec68-11bd-4d23-8000-17b8e42605d4</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -65,6 +65,7 @@
       </para>
   </div>
 </div>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -78,14 +79,16 @@
       <para class="os-raise-text-italicize">Supports accessibility for: Conceptual processing; Visual-spatial processing</para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/525933d5a4d45841a7d948c4bb5692b2f0f1be0f"/></media></figure></para>
 <para>Here are measurements for the maximum height of a tennis ball after bouncing several times on a concrete surface.</para>
+
 <table class="os-raise-midsizetable">
   <thead>
     <row>
-      <entry scope="col" class="emphasis"> \(n\)</entry>
-      <entry scope="col" class="emphasis"> \(h\)</entry>
+      <entry scope="col" class="emphasis"> \(n\)Bounce Number</entry>
+      <entry scope="col" class="emphasis"> \(h\)Height (Centimeters)</entry>
     </row>
   </thead>
   <tbody>
@@ -131,14 +134,19 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" type="enumerated">
   <item> Which is more appropriate for modeling the maximum height \(h\), in centimeters, of the tennis ball after \(n\)
-    bounces: A linear function or an exponential function? Use data from the table to support your answer. <emphasis>Answer:</emphasis> Exponential. Your answer may vary, but here is a sample.
+    bounces: A linear function or an exponential function? Use data from the table to support your answer. 
+    <emphasis>Answer:</emphasis> Exponential. Your answer may vary, but here is a sample.
     <list>
-      <item> Plotting the points in the plane, they are not close to being on a line. <figure><media alt="5 points on coordinate plane, showing exponential decay. Horizontal axis from 0 to 8, labeled number of bounces. Vertical axis from 0 to 200, labeled height in centimeters."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/caa34501e57f862e3b64a5b85eb14c0c06036869"/></media></figure></item>
+      <item> Plotting the points in the plane, they are not close to being on a line. 
+        
+        <figure><media alt="5 points on coordinate plane, showing exponential decay. Horizontal axis from 0 to 8, labeled number of bounces. Vertical axis from 0 to 200, labeled height in centimeters."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/caa34501e57f862e3b64a5b85eb14c0c06036869"/></media></figure></item>
       <item>A linear function of the bounce height would decrease by the same amount for each successive bounce. The
         differences in heights between successive bounces are not close to being the same, as shown in the table. They
         are decreasing with each bounce, so the function is not linear.</item>
+      
       <table class="os-raise-midsizetable">
         <thead>
           <row>
@@ -189,14 +197,18 @@
           </row>
         </tbody>
       </table>
+      
       <item>An exponential function of the bounce height would decrease by the same factor for each successive bounce. It
         looks like each successive bounce is about half as high as the previous bounce, making an exponential model
         appropriate.</item>
     </list>
   </item>
+  
   <item> Regulations say that a tennis ball, dropped on concrete, should rebound to a height between 53% and 58% of the
     height from which it is dropped. Does the tennis ball here meet this requirement? Be prepared to show your
-    reasoning. <emphasis>Answer:</emphasis> Your answer may vary, but here is a sample.<list>
+    reasoning. 
+    <emphasis>Answer:</emphasis> Your answer may vary, but here is a sample.
+    <list>
       <item> Yes. The first rebound is a little over 53%, the second is almost 54%, and the fourth is 55%. The third
         rebound is only about 47%, but there could be some measurement error. </item>
       <item> No, the third rebound is less than 50% of the height from which the tennis ball fell, falling out of the
@@ -205,9 +217,16 @@
         impossible to be sure whether the bounces of this ball fall within the regulations. </item>
     </list>
   </item>
-  <item> Write an equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball. <emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. </item>
+  
+  <item> Write an equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball. 
+    <emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. \(
+    h=150 \cdot (0.53)^n\) (A factor of exactly 0.5 is also acceptable, or any value between 0.53 and 0.58.)
+  </item>
+  
   <item> About how many bounces will it take before the rebound height of the tennis ball is less than 1 centimeter? Be
-    prepared to show your reasoning. <emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. 8 bounces. For example:<list>
+    prepared to show your reasoning. 
+    <emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. 8 bounces. For example:
+    <list>
       <item> The height of the ball is decreasing by a factor of about \(\frac12\) after each bounce. So after 3 more
         bounces, it will decrease by a factor of about \(\frac18\) (giving a little more than 1 cm), but after 4 more
         bounces, it will decrease by a factor of about \(\frac{1}{16}\). </item>
@@ -217,9 +236,16 @@
     </list>
   </item>
   <item>Use the graphing tool or technology outside the course. Graph the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball using the Desmos tool below. Students were provided access to Desmos.
-    <emphasis>Answer:</emphasis><para> <figure><media alt="Graph the equation that models the bounce height h after n bounces for a tennis ball  "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4ad91a245d0ae1ab03f0910ecd75c638156b209c"/></media></figure></para>
-  </item><item>Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball to predict the difference in height after 6 bounces.
-    <emphasis>Answer:</emphasis><list>
+    <emphasis>Answer:</emphasis>
+    <para> <figure><media alt="Graph the equation that models the bounce height h after n bounces for a tennis ball  "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4ad91a245d0ae1ab03f0910ecd75c638156b209c"/></media></figure></para>
+  </item>
+  <item>Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball to predict the difference in height after 6 bounces.
+    <emphasis>Answer:</emphasis>The difference in height after 6 bounces is 2.
+    Using the equation: 
+    \(h=150 \cdot (0.50)^n\) and graphing \(h=150 \cdot (0.50)^6\). The graph shows the height to be 2.344 after 6 bounces \((n=6)\).
+    
+    This is consistent with the reasoning :
+    <list>
       <item>The height of the ball is decreasing by a factor of about
         \( \frac{1}{2}\) after each bounce.</item>
       <item>After the 4th bounce, the height difference is 9. It should decrease by
@@ -258,6 +284,8 @@
       https://k12.openstax.org/contents/raise/resources/a7ccee1ed903f5974363946e57e5279ce4e0db1c
     </track></source></video></iframe>
 </div>
+
+
 <title>5.11.2: Self Check</title>
 <para class="os-raise-text-bold"><emphasis>Following the activity,
     students will answer the following question to check their understanding of the concepts explored in the
@@ -315,7 +343,8 @@
       </entry>
     </row>
   </tbody>
-</table><table class="os-raise-textheavytable">
+</table>
+<table class="os-raise-textheavytable">
   <thead>
     <row>
       <entry scope="col" class="emphasis">Answers</entry>
@@ -328,14 +357,15 @@
         <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4ecc375fae81d430969b613cdbed81b772e704c8"/></media></figure></entry>
       <entry>
         Incorrect. Let’s try again a different way: This graph shows a linear model. The table represents an
-        exponential relationship. The answer is<figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/d78c1c1afbc3953042d0e40268d490ffb665603f"/></media></figure></entry>
+        exponential relationship. The answer is
+        <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/d78c1c1afbc3953042d0e40268d490ffb665603f"/></media></figure></entry>
     </row>
     <row>
       <entry>
         <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/e2ed088b53630b2221604b92225da5de51764eb4"/></media></figure></entry>
       <entry>
         Incorrect. Let’s try again a different way: This graph shows a decreasing linear relationship. The
-        numbers in the table are growing in a nonlinear and increasing way. The answer is<figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/d78c1c1afbc3953042d0e40268d490ffb665603f"/></media></figure></entry>
+        numbers in the table are growing in a nonlinear and increasing way. The answer is <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/d78c1c1afbc3953042d0e40268d490ffb665603f"/></media></figure></entry>
     </row>
     <row>
       <entry>
@@ -354,6 +384,7 @@
     </row>
   </tbody>
 </table>
+
 <title> 5.11.2: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with
     the self check. Students will not automatically have access to this content, so you may wish to share it with
@@ -402,17 +433,21 @@
     </row>
   </tbody>
 </table>
+
 <para>The starting value is 5 (in thousands) and the population doubles, so the growth factor is 2.</para>
 <para class="os-raise-text-bold">Example     </para>
 <para>You can use the data you already have to predict the population size of the yeast colony in the future.        </para>
 <list class="os-raise-noindent" type="enumerated">
-<item>What will the size of the population be in 5 hours? </item>
+<item>What will the size of the population be in 5 hours? 
+    The population will be 160,000. You will double the 80 which represents 80,000.</item>
 </list>
 <list class="os-raise-noindent" start="2" type="enumerated">
-  <item>What will the size of the population be in 6 hours? </item>
+  <item>What will the size of the population be in 6 hours? 
+    The population will be 320,000. You will double the 160 which represents 160,000. </item>
 </list>
 <list class="os-raise-noindent" start="3" type="enumerated">
-  <item>What will the size of the population be in 10 hours?</item>
+  <item>What will the size of the population be in 10 hours?
+    You may have to use a calculator to figure this one out.   You will double it four more times.   The population will be 5,120,000. </item>
 </list>
 
 <para>The equation to model this growth is \(P(t)=5 \cdot 2^t\).</para>
@@ -466,6 +501,7 @@
     </row>
   </tbody>
 </table>
+
 <para>The initial height is 65, and the growth factor is \(\frac13\).</para>
 <para>The height after the 5th bounce is \(\frac {65}{243}\)</para>
 <para>The maximum height, \(h(x)\), after \(x\) bounces can be represented by \(h(x)=65 (\frac{1}{3})^x\).</para></section>

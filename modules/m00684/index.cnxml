@@ -3,10 +3,11 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00684</md:content-id>
     <md:title>3.1.2: Creating a Scatter Plot Using Data</md:title>
-    <md:uuid>cd50614c-dd6a-4e75-8b54-197d66228460</md:uuid>
+    <md:uuid>2635d8b3-d2a6-4dda-b20e-7d7207ee0476</md:uuid>
   </metadata>
   <content>
-  <section><title> Activity (15 minutes)</title>
+  <section><title> Activity (15 minutes)
+</title>
 <para>The mathematical purpose of this activity is for students to create a scatter plot from data given in context, to informally find a line they think does a good job of describing the relationship, to interpret the slope and vertical intercept of the linear model, and to use the linear model to make predictions. In creating a model of the data, students are modeling with mathematics.</para>
 <para>This activity works best when each student has access to devices that can run Desmos or other graphing technology because the level of precision is important. If students don’t have individual access, projecting the Desmos graph is helpful during the synthesis.</para>
 <para>Note that students may need a quick review of finding slope and \(y\)-intercepts from graphs and slope-intercept form as well as a review of finding slope using the slope formula.</para>
@@ -22,11 +23,15 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Conceptual processing; Memory</para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para>Watch the following video to help you answer the questions below.</para>
+
 <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
   <iframe><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/304121358" title="Oranges in a Box"/></iframe>
 </div>
+
+
 <list class="os-raise-noindent" type="enumerated">
   <item>Record the weight for the number of oranges in the box from the video.</item>
 </list>
@@ -40,31 +45,38 @@
   <tbody>
     <row>
       <entry> 3 </entry>
-      <entry><emphasis/></entry>
+      <entry><emphasis>
+        </emphasis></entry>
     </row>
     <row>
       <entry> 4 </entry>
-      <entry><emphasis/></entry>
+      <entry><emphasis>
+        </emphasis></entry>
     </row>
     <row>
       <entry> 5 </entry>
-      <entry><emphasis/></entry>
+      <entry><emphasis>
+        </emphasis></entry>
     </row>
     <row>
       <entry> 6 </entry>
-      <entry><emphasis/></entry>
+      <entry><emphasis>
+        </emphasis></entry>
     </row>
     <row>
       <entry> 7 </entry>
-      <entry><emphasis/></entry>
+      <entry><emphasis>
+        </emphasis></entry>
     </row>
     <row>
       <entry> 8 </entry>
-      <entry><emphasis/></entry>
+      <entry><emphasis>
+        </emphasis></entry>
     </row>
     <row>
       <entry> 9 </entry>
-      <entry><emphasis/></entry>
+      <entry><emphasis>
+        </emphasis></entry>
     </row>
     <row>
       <entry> 10 </entry>
@@ -72,6 +84,7 @@
     </row>
   </tbody>
 </table>
+
 <para><emphasis>Answer:</emphasis> </para>
 <table class="os-raise-skinnytable">
   <thead>
@@ -115,6 +128,7 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item>Create a scatter plot of the data.</item>
 </list>
@@ -127,7 +141,9 @@
   <para><emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. The least squares regression line is shown in the scatter plot.</para>
   <para>\(y=0.216x+0.345\)</para>
   <list class="os-raise-noindent" start="4" type="enumerated">
-    <item>Estimate a value for the slope of the line that you drew. What does the value of the slope represent?</item>
+    <item>Estimate a value for the slope of the line that you drew. What does the value of the slope represent?
+      
+    </item>
   </list>
   <para><emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. About 0.2. The value represents the approximate weight of each orange added to the box</para>
   <list class="os-raise-noindent" start="5" type="enumerated">
@@ -139,7 +155,9 @@
   </list>
   <para><emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. About 10.6 kilograms \((2.6+40⋅0.2=10.6)\). This estimate will probably not be very close. With data only going to 10 oranges, the variability in orange weight with more oranges will make it harder to get an estimate that is close to the actual value.</para>
   <list class="os-raise-noindent" start="7" type="enumerated">
-    <item>Estimate the coordinates for the vertical intercept of the line you drew. What might the \(y\)-coordinate for this point represent?</item>
+    <item>Estimate the coordinates for the vertical intercept of the line you drew. What might the \(y\)-coordinate for this point represent?
+      
+    </item>
   </list>
   <para><emphasis>Answer:</emphasis> Your answer may vary, but here is a sample. About 0.3 kilogram. The \(y\)-coordinate estimates the weight of the box with no oranges in it.</para>
   <list class="os-raise-noindent" start="8" type="enumerated">
@@ -160,19 +178,26 @@
   <figure><media alt="Scatter plot. Weight in kilograms. Number of oranges."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/fa894e82c8e0c1d39349db60aef7f5f3148a5329"/></media></figure><para>Tell students to keep this data and scatter plot for a future lesson.</para>
   <para>Ask:</para>
   <list>
-    <item>“How would the scatter plot and linear model change if the box itself were heavier?” (The dots and line would shift up.)</item>
-    <item>“Can you think of reasons why the real weight of 50 oranges might be different from the answer we get by using an estimate from the linear model?” (50 oranges may not fit in one box, so additional boxes may be needed, which will change the linear pattern in the data. Many of the additional oranges may be very small or very large and not fit the general trend seen with these 10 oranges. While the estimate from the line is interesting and may be better than a wild guess, it should not be considered a very good estimate.)</item>
-    <item>“How many oranges did we measure?” (10)</item>
-    <item>“Since we measured 10 oranges, how does that affect your confidence in the estimate for 50 oranges?” (It makes me very skeptical that the estimate will be accurate. Although the data may look like a line for this section, there may be very different things happening farther away.)</item>
-    <item>“How would the scatter plot and linear model change if grapefruits were used instead of oranges?” (The weight would be increased for each point, and the slope of the line would be greater.)</item>
+    <item>“How would the scatter plot and linear model change if the box itself were heavier?” (The dots and line would shift up.)
+    </item>
+    <item>“Can you think of reasons why the real weight of 50 oranges might be different from the answer we get by using an estimate from the linear model?” (50 oranges may not fit in one box, so additional boxes may be needed, which will change the linear pattern in the data. Many of the additional oranges may be very small or very large and not fit the general trend seen with these 10 oranges. While the estimate from the line is interesting and may be better than a wild guess, it should not be considered a very good estimate.)
+    </item>
+    <item>“How many oranges did we measure?” (10)
+    </item>
+    <item>“Since we measured 10 oranges, how does that affect your confidence in the estimate for 50 oranges?” (It makes me very skeptical that the estimate will be accurate. Although the data may look like a line for this section, there may be very different things happening farther away.)
+    </item>
+    <item>“How would the scatter plot and linear model change if grapefruits were used instead of oranges?” (The weight would be increased for each point, and the slope of the line would be greater.)
+    </item>
     <item>“In this case, there might be some meaning attached to the \(y\)-intercept. That is not always the case. Why might interpreting the \(y\)-intercept not make sense in some situations? Can you think of a situation in which an interpretation of the \(y\)-intercept might not make sense?” (As you get farther from the collected data, the linear model may not make sense any more. Especially in situations in which the amount of something is approaching zero, very different things can be happening. For example, if we have data about water at temperatures around 60 to 70 degrees, that will be very different from what happens when the temperature is at 0.)</item>
   </list>
+  
   <title>3.1.2: Self Check </title>
   <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
   <para class="os-raise-text-bold">QUESTION:</para>
   <para>The plot below is a scatter plot of mean temperature in July and mean inches of rain per year for a sample of midwestern cities. A line is drawn to fit the data. </para>
   <para><figure><media alt="A SCATTER PLOT THAT SHOWS MEAN TEMPERATURE IN JULY IN DEGREES FAHRENHEIT ON THE X-AXIS AND MEAN RAINFALL PER YEAR IN INCHES ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/afb399190f61185c419bb2d99e3317cec9ab4976"/></media></figure></para>
-  <para>Use the line provided to predict the mean number of inches of rain per year for a city that has a mean temperature of 70°F in July. </para>
+  <para>Use the line provided to predict the mean number of inches of rain per year for a city that has a mean temperature of 70°F in July. 
+  </para>
   <table class="os-raise-textheavytable">
     <thead>
       <row>
@@ -203,15 +228,20 @@
       </row>
     </tbody>
   </table>
+  
   <title>3.1.2: Additional Resources</title>
   <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
   <title>Drawing and Interpreting Scatter Plots</title>
-  <para>A scatter plot is a graph of plotted points that may show a relationship between two sets of data. If the relationship is from a linear model or from a model that is nearly linear, the professor can draw conclusions using his knowledge of linear functions.</para>
-  <para>Here is an example of a scatter plot.</para>
-  <para><emphasis><figure><media alt="Scatter plot, titled 'Final Exam Score VS Age'. The \(x\)-axis is the age, and the \(y\)-axis is the final exam score. The range of ages are between 20s - 50s, and the range for scores are between upper 50s and 90s."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/d85e87d6a305be35528f5ab89b201056fdbe8d53"/></media></figure></emphasis></para>
+  <para>A scatter plot is a graph of plotted points that may show a relationship between two sets of data. If the relationship is from a linear model or from a model that is nearly linear, the professor can draw conclusions using his knowledge of linear functions.
+  </para>
+  <para>Here is an example of a scatter plot.
+  </para>
+  <para><emphasis><figure><media alt="Scatter plot, titled 'Final Exam Score VS Age'. The \(x\)-axis is the age, and the \(y\)-axis is the final exam score. The range of ages are between 20s - 50s, and the range for scores are between upper 50s and 90s."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/d85e87d6a305be35528f5ab89b201056fdbe8d53"/></media></figure></emphasis>
+  </para>
   <para><span id="docs-internal-guid-b999d02d-7fff-8cf4-2683-336bed48daff">Notice this scatter plot does not indicate a linear relationship. The points do not appear to follow a trend. In other words, there does not appear to be a relationship between the age of the student and the score on the final exam.</span></para>
   <para><emphasis>Example: Using a Scatter Plot to Investigate Cricket Chirps</emphasis></para>
   <para>The table shows the number of cricket chirps in 15 seconds for several different air temperatures in degrees Fahrenheit. </para>
+  
   <table class="os-raise-horizontaltable">
     <thead>
     </thead>
@@ -242,6 +272,7 @@
       </row>
     </tbody>
   </table>
+  
   <para>Plotting these data suggests that there may be a trend. We can see from the trend in the data that as the number of chirps in 15 seconds increases, the temperature increases. The trend appears to be roughly linear, though certainly not perfectly so.</para>
   <figure><media alt="Scatter plot, titled 'Cricket Chirps vs. Air Temperature'. The \(x\)-axis is the Cricket Chirps in 15 Seconds, and the \(y\)-axis is the Temperature (F). The line regression is generally positive."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/0bd821366e09c7df8ba83f57a8b07d4aa8fb15aa"/></media></figure><para>Once we recognize a need for a linear function to model that data, the natural follow-up question is: “What is that linear function?” One way to approximate our linear function is to sketch the line that seems to best fit the data. Then we can extend the line until we can verify the \(y\)-intercept. We can approximate the slope of the line by extending it until we can estimate the \( \frac{rise}{run}\).</para>
   <para><emphasis>Continuing the Example: Finding a Line of Best Fit</emphasis></para>
@@ -252,7 +283,8 @@
   <figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/af5cb1df7596f0f7e8780c763b3c3d22072ada74"/></media></figure><para>Different methods of making predictions are used to analyze data. The method of interpolation involves predicting a value inside the domain and/or range of the data. The method of extrapolation involves predicting a value outside the domain and/or range of the data.</para>
   <para>Model breakdown occurs at the point when the model no longer applies.</para>
   <para><emphasis>Continuing the Example: Understanding Interpolation and Extrapolation</emphasis></para>
-  <para>Use the cricket data from the table to answer the following questions:</para>
+  <para>Use the cricket data from the table to answer the following questions:
+  </para>
   <list class="os-raise-noindent" type="enumerated">
     <item>Would predicting the temperature when crickets are chirping 30 times in 15 seconds be interpolation or extrapolation? Make the prediction, and discuss whether it is reasonable.</item>
     <item>Would predicting the number of chirps crickets will make at 40 degrees be interpolation or extrapolation? Make the prediction, and discuss whether it is reasonable.</item>
@@ -263,6 +295,7 @@
   </list>
   <para>\(\begin{array}{rcl}T\;(30)\;&amp;=&amp;\;30\;+\;1.2(30)\\&amp;=&amp;\;66\;degrees\end{array}\) </para>
   <para>Based on the data we have, this value seems reasonable.</para>
+  
   <list class="os-raise-noindent" start="2" type="enumerated">
     <item>The temperature values varied from 52 to 80.5. Predicting the number of chirps at 40 degrees is extrapolation because 40 is outside the range of our data. Using our model:</item>
   </list>
@@ -273,8 +306,10 @@
   <figure><media alt="A SCATTER PLOT THAT SHOWS MAXIMUM HEIGHT IN FEET ON THE X-AXIS AND SPEED IN MILES PER HOUR ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/0a1dcda7b995c59f5ccb90cf336b760df09a80bb"/></media></figure><para>What would you expect the speed to be for a roller coaster that is 350 feet tall?</para>
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   <para><emphasis>Answer:</emphasis></para>
-  <para>Here is how to find the estimate of the speed:</para>
-  <para>Looking at the linear model, when the height on the \(x\)-axis is 350 feet, the value meets the line at approximately 98 mph. Since this is an estimate, you may have an answer close to 98, but it should be closer to 100 mph than 95 mph based on the graph.</para>
+  <para>Here is how to find the estimate of the speed:
+  </para>
+  <para>Looking at the linear model, when the height on the \(x\)-axis is 350 feet, the value meets the line at approximately 98 mph. Since this is an estimate, you may have an answer close to 98, but it should be closer to 100 mph than 95 mph based on the graph.
+  </para>
 </list></section>
 </content>
 </document>

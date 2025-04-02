@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02276</md:content-id>
     <md:title>8.11.3: Finding a Quadratic Function from Its Zeros and a Point</md:title>
-    <md:uuid>c6539500-5545-4ab5-a60d-1b4d682e7785</md:uuid>
+    <md:uuid>8c88a219-57f1-4c7e-8292-c0cb0f331f58</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
@@ -23,6 +23,7 @@
     <para class="os-raise-noindent">\(= a(x + 5)(x − 8)\) </para>
   </solution></exercise>
 <!--Interaction End -->
+
 <para>Let's use the intercept form of the function above to find the exact function that passes through \((5, -60)\).</para>
 <!--Text Entry Interaction Start -->
 <exercise>
@@ -32,9 +33,14 @@
     
     <para>Enter the value of \(a\).</para>
   <para>Compare your answer:</para>
-    <para>\(m(x) = a(x + 5)(x − 8)\) </para>
+    <para>\(m(x) = a(x + 5)(x − 8)\) 
+      \(-60 = a((5) + 5)((5) − 8)\) 
+      \(-60 = a(10)(-3)\) 
+      \(-60 = -30a\)
+        \(2 = a\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -43,10 +49,15 @@
     
     <para>Enter the standard form of the function.</para>
   <para>Compare your answer:</para>
-    <para> \(m(x) = a(x + 5)(x − 8)\)</para>
+    <para> \(m(x) = a(x + 5)(x − 8)\)
+      \(m(x) = 2(x + 5)(x − 8)\)
+      \(m(x) = 2(x^2 + 5x − 8x − 40)\)
+      \(m(x) = 2(x^2 − 3x − 40)\)
+      \(m(x) = 2x^2 − 6x − 80\)</para>
     <para>This is the function with zeros –5 and 8 that passes through \((5, -60)\).</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -58,6 +69,7 @@
     <para>\(n(x) = 2x^2 − 14x − 36\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -69,6 +81,7 @@
     <para>\(p(x) = −3x^2 − 30x − 72\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -80,6 +93,7 @@
     <para>\(c(x) = x^2 − 8x + 7\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <title>Video: Finding a Quadratic Function from Its Zeros and a Point</title>
 <para>Watch the following video to learn more about finding a quadratic function from its zeros and a point. </para>
 <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">

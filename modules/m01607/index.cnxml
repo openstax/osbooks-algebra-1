@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01607</md:content-id>
     <md:title>6.3.3: Dividing Polynomials Using Synthetic Division</md:title>
-    <md:uuid>1abd0543-c558-448e-afc7-46fea3a72b9e</md:uuid>
+    <md:uuid>482d4319-2bf9-41d4-a71d-685383f4a515</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -21,7 +21,9 @@
 <para> \((x^2-13x+42) \div (x-6)\)</para>
 <para>Write down your answer then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <para class="os-raise-text-bold">Answer: </para>
-<para>\[\begin{array}{l}x - 6\mathop{\left){\vphantom{1{{x^2} - 13x + 42}}}\right.</para>
+<para>\[\begin{array}{l}x - 6\mathop{\left){\vphantom{1{{x^2} - 13x + 42}}}\right.
+  \!\!\!\!\overline{\,\,\,\,\,\,\,\,\,\,\,\,\vphantom 1{{{x^2} - 13x + 42}}}}
+  \limits^{\displaystyle {x\,\, - \,\,7}}\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ({x^2} - 6x)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 7x + 42\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ( - 7x + 42)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
 <para class="os-raise-text-bold">Example 2</para>
 <para>You are now going to solve the same division problem using synthetic division.</para>
 <para> \((x^2-13x+42) \div (x-6)\)</para>
@@ -43,15 +45,18 @@
 <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/61bd9ababefd8697792d305cad39a9ef67d99e8e"/></media></figure></para>
 <para><emphasis>Step 6 - 
 </emphasis>Add the second column, putting the result in the third row.</para>
+
 <para><emphasis>Step 7 - 
   </emphasis>Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
 <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/32c4276bc6a13be7a299d2772d58550666421700"/></media></figure></para>
 <para><emphasis>Step 8 -</emphasis> Add the final column, putting the result in the third row.</para>
 <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/6616be07a9b6a0afd9f2bda3795506fe71dbfb29"/></media></figure></para>
 <para><emphasis>Step 9 -</emphasis> The division is complete. The numbers in the third row give us the result. The \(1\) \( −7\) in the third row are the coefficients of the quotient. The quotient is \(x - 7\). The \(0\) in the box in the third row is the remainder.</para>
+
 <note>
   <para>Have students, work with a partner to find each quotient. Discuss any differences you have in determining the correct solution.</para>
 </note>
+
 <list class="os-raise-noindent" start="3" type="enumerated">
   <item>\(
     (4x^3+5x^2-5x+3) \div (x+2)\) </item>
@@ -132,7 +137,9 @@
     </row>
     </tbody>
   </table>
+
 <!--END SELF CHECK INTRO BEFORE Tables -->   
+
 <title>6.3.3: Additional Resources</title>
 <para class="os-raise-text-bold os-raise-text-italicize">The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</para>
 <title>Dividing Polynomials Using Synthetic Division</title>
@@ -171,6 +178,7 @@
 <para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4149128ea5810bc96f9c1c027e17d53e2f4cb927"/></media></figure></para>
 <para><emphasis>Step 11 - 
   </emphasis>The quotient is \(2x^2-1x+3\), and the remainder is \(2\).</para>
+
 <para>The division is complete. The numbers in the third row give us the result. The \(2\) \(-1\) \(3\) are the coefficients of the quotient. The quotient is \(2x^2-1x+3\). The \(2\) in the box in the third row is the remainder.</para>
 <para>Compare your answer:</para>
 <para>
@@ -532,10 +540,14 @@
   <item>\(
     3x^2+4x-2\); remainder of \(2\) </item>
 </list>
-<para>\(\begin{array}{l}\left. {\underline {\,</para>
+<para>\(\begin{array}{l}\left. {\underline {\,
+  { - 2} \,}}\! \right| \,\,\,\,\,3\,\,\,\,\,\,10\,\,\,\,\,\,6\,\,\,\,\, - 2\\\underline {\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 6\,\,\,\, - 8\,\,\,\,\,\,\,4\,\,} \\\,\,\,\,\,\,\,\,\,\,\,\,3\,\,\,\,\,\,4\,\,\,\,\, - 2\,\,\,\,\,\,\left| \!{\overline {\,
+  2 \,}} \right. \end{array}\)</para>
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item> \(x^3-4x^2+5\); remainder of \(0\) </item>
 </list>
-<para>\(\begin{array}{l}\left. {\underline {\,</para></section>
+<para>\(\begin{array}{l}\left. {\underline {\,
+  { - 4} \,}}\! \right| \,\,\,\,\,1\,\,\,\,\,\,\,\,0\,\,\,\,\,\, - 16\,\,\,\,\,\,\,5\,\,\,\,\,\,\,\,20\\\underline {\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 4\,\,\,\,\,\,\,\,\,16\,\,\,\,\,\,\,0\,\,\,\, - 20\,} \\\,\,\,\,\,\,\,\,\,\,\,\,1\,\,\,\,\, - 4\,\,\,\,\,\,\,\,\,\,0\,\,\,\,\,\,\,\,5\,\,\,\,\,\,\,\,\,\left| \!{\overline {\,
+  0 \,}} \right. \end{array}\)</para></section>
 </content>
 </document>

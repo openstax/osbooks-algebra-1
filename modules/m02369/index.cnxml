@@ -3,19 +3,27 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02369</md:content-id>
     <md:title>9.3.2: Using Completing the Square to Solve Equations</md:title>
-    <md:uuid>8ea88715-2e4d-468f-bc91-c929b0130817</md:uuid>
+    <md:uuid>ab7adcbf-a3d3-4b57-9d6c-710ec45a604f</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
 <para><term data-schema-version="1.0" data-store="glossary-tooltip">Completing the square</term> can be used to solve quadratic equations.</para>
 <para>Example: Solve \(x^2+8x-2=0\).</para>
 <para>To complete the square to solve an equation, follow these steps:</para>
-<para><emphasis>Step 1</emphasis> - Write the equation in the form \(ax^2+bx=c\).</para>
-<para><emphasis>Step 2</emphasis> - Complete the square by finding \((\frac{b}{2})^2\).</para>
-<para><emphasis>Step 3</emphasis> - Add the value to both sides of the equation.</para>
-<para><emphasis>Step 4</emphasis> - Factor the <term data-schema-version="1.0" data-store="glossary-tooltip">perfect square</term> trinomial and simplify the constants.</para>
-<para><emphasis>Step 5</emphasis> - Take the square root of each side (remember the plus-minus sign with the constant).</para>
-<para><emphasis>Step 6</emphasis> - Write two separate equations and solve each.</para>
+<para><emphasis>Step 1</emphasis> - Write the equation in the form \(ax^2+bx=c\).
+  \(x^2+8x=-2\)</para>
+<para><emphasis>Step 2</emphasis> - Complete the square by finding \((\frac{b}{2})^2\).
+  \((\frac{b}{2})^2=(\frac{8}{2})^2=16\)</para>
+<para><emphasis>Step 3</emphasis> - Add the value to both sides of the equation.
+  \(x^2+8x+16=-2+16\)</para>
+<para><emphasis>Step 4</emphasis> - Factor the <term data-schema-version="1.0" data-store="glossary-tooltip">perfect square</term> trinomial and simplify the constants.
+  \((x+4)^2=14\)</para>
+<para><emphasis>Step 5</emphasis> - Take the square root of each side (remember the plus-minus sign with the constant).
+  \(\sqrt{(x+4)^2}=\sqrt{14}\)
+  \(x+4= \pm \sqrt{14}\)</para>
+<para><emphasis>Step 6</emphasis> - Write two separate equations and solve each.
+  \(x + 4 = \sqrt{14}\)  or  \(x + 4 =\; - \;\sqrt{14}\)
+  \(x = -4 + \sqrt{14}\)  or  \(x =\; -\;4\; –\; \sqrt{14}\)</para>
 <para>Solve each equation by completing the square. In part a, select the value of \((\frac{b}{2})^2\) that will complete the square. In part b, choose the <emphasis>two </emphasis>roots.</para>
 <div class="os-raise-ib-pset" data-button-text="Check" data-content-id="0f2d6070-64b7-419a-870e-316e16b8bab6" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
   <!--Q#1a-->
@@ -49,6 +57,7 @@
   </div>
 </div>
 <!--Text Entry Interaction Start -->
+
 <!--Q#2a-->
 <example><exercise>
   <problem>
@@ -63,7 +72,9 @@
 
 </solution></exercise>
 </example><!--Interaction End -->
+
 <!--Interaction End -->
+
 <div class="os-raise-ib-pset" data-button-text="Check" data-content-id="1af0d484-709e-435d-9bd4-9241adccac81" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
   <!--Q#2b-->
   <exercise data-content-id="76c1f248-4edb-4a02-9d24-dab54110bcd7" data-problem-type="multiselect" data-solution="[&quot;\\(x=\\frac14\\)&quot;, &quot;\\(x=-\\frac34\\)&quot;]" data-solution-options="[&quot;\\(x = \\frac12\\)&quot;, &quot;\\(x=\\frac14\\)&quot;, &quot;\\(x=-\\frac34\\)&quot;,&quot;\\(x = -\\frac14\\)&quot;, &quot;\\(x = 1\\)&quot;]">
@@ -85,6 +96,7 @@
 </div>
 <!--Text Entry Interaction Start -->
 
+
 <!--Q#3a-->
 <example><exercise>
   <problem>
@@ -98,7 +110,9 @@
 
 </solution></exercise>
 </example><!--Interaction End -->
+
 <!--Interaction End -->
+
 <div class="os-raise-ib-pset" data-button-text="Check" data-content-id="43d165b9-fd10-4fcf-912e-cf8e85993c51" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
   <!--Q#3b-->
   <exercise data-content-id="d20a0059-beb2-4112-8fb1-4ccc23cc7f14" data-problem-type="multiselect" data-solution="[&quot;\\(x = -2\\)&quot;, &quot;\\(x = -1\\)&quot;]" data-solution-options="[&quot;\\(x = -2\\)&quot;, &quot;\\(x=\\frac{1}{16}\\)&quot;, &quot;\\(x = 9\\)&quot;,&quot;\\(x = \\frac14\\)&quot;, &quot;\\(x = -1\\)&quot;]">
@@ -162,6 +176,8 @@
     <!-- INSERT ANY VALID HTML HERE -->
   </div>
 </div>
+
+
 <title>Video: Solve by Completing the Square</title>
 <para>Watch the following video to learn more about solving to complete the square.</para>
 <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">

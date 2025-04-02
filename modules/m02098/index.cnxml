@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02098</md:content-id>
     <md:title>8.2.2: Exploring Non-Graphing Strategies to Solve Quadratic Equations</md:title>
-    <md:uuid>9038c533-1fa7-432f-bd7a-4610f0c8813a</md:uuid>
+    <md:uuid>8b1d5593-238c-4e63-88f2-9d10b8564f95</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -23,6 +23,7 @@
     <para class="os-raise-text-italicize">Design Principle(s): Support sense-making; Maximize meta-awareness</para>
   </div>
 </div>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -36,6 +37,7 @@
 
    
 <!--END ELL AND SWD GRAY BOX -->  
+
 <title>Student Activity</title>
 <para>In a previous lesson, you saw an equation that defines the height of a potato as a function of time after it was launched from a mechanical device. Here is a different function modeling the height of a potato, in feet, \(t\) seconds after being fired from a different device:</para>
 <para>\(f(t) = -16t^2 + 80t + 64\)</para>
@@ -52,9 +54,12 @@
 <para>Poll the class on their solutions to the equation and record and display the solutions for all to see. Then, ask some students to share their strategies and any associated challenges. If not mentioned by students, discuss the limitations of these approaches:</para>
 <list class="os-raise-noindent">
   <item> <emphasis>Isolating the variable:</emphasis> If we try to solve by performing the same operation to each side of the equation, we quickly get stuck. </item>
-  <para>Original equation</para>
-  <para>Subtract 64 from each side.</para>
-  <para>Divide each side by –16.</para>
+  <para>Original equation
+    \(-16t^2 + 80t + 64 = 0\)</para>
+  <para>Subtract 64 from each side.
+    \(-16t^2 + 80t = -64\)</para>
+  <para>Divide each side by –16.
+    \(t^2 - 5t = 4\)</para>
   <para>But then what? If we add \(5t\) to each side, we now have a variable on both sides and cannot combine any like terms. We could multiply or divide each side by any constant we wish, but we are no closer to isolating \(t\).</para>
 </list>
 <list class="os-raise-noindent">
@@ -120,6 +125,7 @@
     </row>
     </tbody>
   </table>
+
 <!--END SELF CHECK INTRO BEFORE Tables -->   
 
 
@@ -163,9 +169,11 @@
   <item>To solve the equation \(-2x^2 + 5x + 3 = 0\), let’s try using guess and check with substitution. </item>
 </list>
 <para>First, we try \(x = 2\).</para>
-<para>\(-2(2)^2+5(2)+3\overset?=0\) </para>
+<para>\(-2(2)^2+5(2)+3\overset?=0\) 
+  \(5 \neq 0\) </para>
 <para>Now, let’s try \(x = 3\).</para>
-<para>\(-2(3)^2+5(3)+3\overset?=0\)</para>
+<para>\(-2(3)^2+5(3)+3\overset?=0\)
+  \(0 = 0\)</para>
 <para>Since the equation is true, \(x = 3\) is correct.</para>
 <para>The arc of water has traveled 3 inches horizontally when it reaches the pool below the fountain.</para></section>
 </content>

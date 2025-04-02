@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01698</md:content-id>
     <md:title>6.7.2: Reviewing General Strategies to Factor a Polynomial</md:title>
-    <md:uuid>82f8bde8-3403-4e01-9bab-4edc86b3f258</md:uuid>
+    <md:uuid>fc2a853f-d9e6-4e56-9502-7e57bfff6ec1</md:uuid>
   </metadata>
   <content>
   <section><title>Activity </title>
@@ -42,6 +42,8 @@
     </row>
   </tbody>
 </table>
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -53,6 +55,8 @@
     <para>After GCF, trinomial of form \(x^2+bx+c\); undo FOIL</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -64,6 +68,8 @@
     <para>After GCF, a binomial of squares; difference of squares</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -75,6 +81,8 @@
     <para>After GCF, trinomial of form \(ax^2+bx+c\); “\(ac\)” method or trial and error</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -86,6 +94,8 @@
     <para>polynomial of 4 terms; grouping</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -97,6 +107,8 @@
     <para>no factors; prime</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -108,6 +120,8 @@
     <para>trinomial of form \(a^2  − 2ab + b^2\); trinomial square pattern</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -119,6 +133,8 @@
     <para>After GCF, a binomial of squares; difference of squares</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
 <example><exercise>
   <problem>
@@ -140,9 +156,12 @@
     <para>Factor out GCF, grouping, perfect square trinomial, difference of squares</para>
     <para>Here is how tto factor this polynomial:</para>
     <para><emphasis>Step 1 - </emphasis>Is there a GCF? </para>
-    <para> \(9x^2−12xy+4y^2−49\)</para>
-    <para><emphasis>Step 2 -</emphasis> With more than three terms, use grouping. The last two terms have no GCF. Try grouping the first three terms.</para>
-    <para><emphasis>Step 3 - </emphasis>Factor the trinomial with \(a \neq 1\). But the first term is a perfect square.</para>
+    <para> \(9x^2−12xy+4y^2−49\)
+      No.</para>
+    <para><emphasis>Step 2 -</emphasis> With more than three terms, use grouping. The last two terms have no GCF. Try grouping the first three terms.
+    </para>
+    <para><emphasis>Step 3 - </emphasis>Factor the trinomial with \(a \neq 1\). But the first term is a perfect square.
+      Is the last term of the trinomial a perfect square? </para>
     <para> \((3x)^2−12xy+(2y)^2−49\)</para>
     <para> Yes.</para>
     <para><emphasis>Step 4 - 
@@ -297,11 +316,14 @@
     <para><emphasis>Step 6 -</emphasis> Is this binomial a sum or difference? Of squares or cubes? Write it as a difference of squares.</para>
     <para> \((3x−2y)^2−7^2\)</para>
     <para><emphasis>Step 7 -</emphasis> Write it as a product of conjugates.</para>
-    <para> \(((3x−2y)−7)((3x−2y)+7)\)</para>
+    <para> \(((3x−2y)−7)((3x−2y)+7)\)
+      \((3x−2y −7)(3x−2y +7)\)</para>
     <para><emphasis>Step 8 - </emphasis>Is the expression factored completely? </para>
     <para> Yes.</para>
     <para><emphasis>Step 9 -</emphasis> Check your answer by multiplying. </para>
-    <para> \((3x−2y−7)(3x−2y+7)\)</para>
+    <para> \((3x−2y−7)(3x−2y+7)\)
+      \(9x^2−6xy−21x−6xy+4y^2+14y+21x−14y−49\)
+      \(9x^2−12xy+4y^2−49&amp;checkmark;\)</para>
   </solution></exercise>
 <!--End interaction--></section>
 </content>

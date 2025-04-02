@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00104</md:content-id>
     <md:title>1.4.3 Finding the Solution to an Equation in Two Variables</md:title>
-    <md:uuid>b7e16d2f-06e1-4939-acb2-6105ce6c3ee4</md:uuid>
+    <md:uuid>61601e5f-432e-4a07-97f4-8324cf664d2f</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -63,6 +63,7 @@
       <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/92159e35ce10b76ecda963022a98325d7722afac " srclang="en_us">https://k12.openstax.org/contents/raise/resources/ce9b7554a5f6c2231ff7bae0a6c1e09f8ad55e39
     </track></source></video></iframe>
 </div>
+
 <title>Activity Synthesis</title>
 <para>The goal of the discussion is to make sure students understand that a solution to an equation in two variables
   is any pair of values that, when substituted into the equation and evaluated, make the equation true. Discuss
@@ -118,6 +119,7 @@
     </row>
   </tbody>
 </table>
+
 <title>1.4.3: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based
     on their experience with the self check. Students will not automatically have access to this content, so you
@@ -128,28 +130,43 @@
 </para>
 <figure><media alt="Drawing of equations of two variables.  f equals nine fifths c plus 32 to convert temperature from degrees fahrenheit F to degrees celsisus C and a formula i equals two point five four c and coverts a measure from cenimenters c to inches i."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/331e9b9ec3b58b0994b05924f6aec109de692a5f"/></media></figure><para>A solution to such an equation is a pair of numbers that makes the equation true.
 </para>
-<para><emphasis>Example</emphasis></para>
+<para><emphasis>Example</emphasis>
+  Suppose Tyler spends $45 on T-shirts and socks. A T-shirt costs $10, and a pair of socks costs $2.50. If \(t\)
+  represents the number of T-shirts and \(p\) represents the number of pairs of socks that Tyler buys, we can
+  represent this situation with the equation:
+</para>
 <para>\(10t + 2.50p = 45\)
 </para>
 <para>This is an equation in two variables. More than one pair of values for \(t\) and \(p\) make the equation true.
-  </para>
+  
+  Which pair of values makes the equation \(10t + 2.50p = 45\) true?
+</para>
 <list class="os-raise-noindent" type="enumerated">
   <item>\(t = 3\) and \(p = 6\) </item>
 </list>
 <para><emphasis>Answer:</emphasis> These values make the equation true, because:</para>
-<para>\(10(3) + 2.50(6) = 45\)</para>
+<para>\(10(3) + 2.50(6) = 45\)
+  \(30 + 15 = 45\)
+  \(45 = 45\)
+</para>
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item>\(t = 4\) and \(p = 2\)
   </item>
 </list>
 <para><emphasis>Answer:</emphasis> These values make the equation true, because:</para>
-<para>\(10(4) + 2.50(2) = 45\)</para>
+<para>\(10(4) + 2.50(2) = 45\)
+  \(40 + 5 = 45\)
+  \(45 = 45\)
+</para>
 <list class="os-raise-noindent" start="3" type="enumerated">
   <item>\(t = 1\) and \(p = 10\)
   </item>
 </list>
 <para><emphasis>Answer:</emphasis> These values make the equation false, because:</para>
-<para>\(10(1) + 2.50(10) = 45\)</para>
+<para>\(10(1) + 2.50(10) = 45\)
+  \(10 + 25 = 45\)
+  \(35 \neq 45\)
+</para>
 <para>In this situation, one <term data-schema-version="1.0" data-store="storename">constraint</term> is that the combined cost of shirts and socks must equal $45.
 </para>
 <para><term data-schema-version="1.0" data-store="storename">Solutions</term> to the
@@ -162,6 +179,9 @@
 <title>Try It: Solutions to Equations in Two Variables</title>
 <para>Is \( a = 3 \) and \( b = 5 \) a solution to \( 6a -3b = 3 \)?</para>
 <para><emphasis>Answer:</emphasis> These values make the equation true. They are a solution to the equation, because:</para>
-<para>\(6(3) - 3(5) = 3\)</para></section>
+<para>\(6(3) - 3(5) = 3\)
+  \(18 - 15 = 3\)
+  \(3 = 3\)
+</para></section>
 </content>
 </document>

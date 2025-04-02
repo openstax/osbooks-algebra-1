@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00298</md:content-id>
     <md:title>1.14.3: Writing an Equation of a Line Parallel to a Given Line</md:title>
-    <md:uuid>db3f38f5-b76b-4999-9acf-81f18732dbb1</md:uuid>
+    <md:uuid>89379d85-3a3d-4ff8-b192-4edc3e9aac4f</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -36,7 +36,9 @@
   <item>Rewrite your equation from Question 5  in slope-intercept form.</item>
 </list>
 <para><emphasis>Answer:</emphasis> \(y = −4x + 9\)</para>
+
 <note><para>Parallel lines are lines that have the same slope. Because they have the same slope, they will never touch, or intersect. </para></note>
+
 <list class="os-raise-noindent" start="7" type="enumerated">
   <item>Find the equation of the line using point-slope form: \(m = −4\), \((3,−2)\)</item>
 </list>
@@ -49,12 +51,14 @@
   <item> Use the graphing tool or technology outside the course. Graph your equations from questions 2 and 4 on the same graph using the Desmos tool below. </item>
 </list>
 <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work. </para>
-<para><emphasis>Answer:</emphasis> <figure><media alt="Graphs of y = 2x-5 and y = 2x + 6."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/fc1224cb89d5207ff4f6f2fbb206caff4aa85b22"/></media></figure></para>
+<para><emphasis>Answer:</emphasis> 
+  <figure><media alt="Graphs of y = 2x-5 and y = 2x + 6."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/fc1224cb89d5207ff4f6f2fbb206caff4aa85b22"/></media></figure></para>
 <list class="os-raise-noindent" start="10" type="enumerated">
   <item>Use the graphing tool or technology outside the course. Graph your equations from questions 6 and 8 on the same graph using the Desmos tool below. </item>
 </list>
 <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work. </para>
-<para><emphasis>Answer:</emphasis> <figure><media alt="Graphs of y = -4x+9 and y = -4x + 10."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/f5a82ea2ca1d89633fc3c46fb6eaefe77b928424"/></media></figure></para>
+<para><emphasis>Answer:</emphasis> 
+  <figure><media alt="Graphs of y = -4x+9 and y = -4x + 10."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/f5a82ea2ca1d89633fc3c46fb6eaefe77b928424"/></media></figure></para>
 <list class="os-raise-noindent" start="11" type="enumerated">
 <item>What is the same about the equations given in questions 2 and 4?</item>
 </list>
@@ -63,6 +67,8 @@
 <item>What is the same about the equations given in questions 6 and 8?</item>
 </list>
 <para><emphasis>Answer:</emphasis> The slopes are the same. They are both -4.</para>
+
+
 <title>1.14.3: Self Check</title>
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
 <para class="os-raise-text-bold">QUESTION:</para>
@@ -77,22 +83,50 @@
   <tbody>
     <row>
       <entry>\( y = \frac{1}{2}x + 1 \)</entry>
-      <entry>That's correct! Check yourself:</entry>
+      <entry>That's correct! Check yourself:
+        
+        The slope of the parallel line is the same as the original line, \( \frac{1}{2} \).
+        
+        Substitute \( \frac{1}{2} \) for \( m \), \( 6 \) for \( x_1 \), and \( 4 \) for \( y_1 \) in the point-slope form: \( y - y_1 = m(x - x_1) \).
+        
+        Simplify the equation \( y - 4 = \frac{1}{2}(x - 6) \) to get \( y - 4 =  \frac{1}{2}x - 3 \). </entry>
     </row>
     <row>
       <entry>\( y = \frac{1}{2}x + 4 \)</entry>
-      <entry> Incorrect. Let's try again a different way:</entry>
+      <entry> Incorrect. Let's try again a different way:
+        
+        The slope of the parallel line is the same as the original line, \( \frac{1}{2} \). The point on the line is \( (6, 4) \). The first coordinate, \( 6 \), is the \( x \)-coordinate. The second coordinate, \( 4 \), is the \( y \)-coordinate.
+        
+        Substitute \( \frac{1}{2} \) for \( m \), \( 6 \) for \( x_1 \), and \( 4 \) for \( y_1 \) in the point-slope form: \( y - y_1 = m(x - x_1) \).
+        
+        Simplify the equation \( y - 4 = \frac{1}{2}(x - 6) \) to get \( y - 4 =  \frac{1}{2}x - 3 \). The answer is \( y = \frac{1}{2}x + 1 \). </entry>
     </row>
     <row>
       <entry>\( y = \frac{1}{2}x - 7 \)</entry>
-      <entry> Incorrect. Let's try again a different way:</entry>
+      <entry> Incorrect. Let's try again a different way:
+        
+        The slope of the parallel line is the same as the original line, \( \frac{1}{2} \).
+        
+        Substitute \( \frac{1}{2} \) for \( m \), \( 6 \) for \( x_1 \), and \( 4 \) for \( y_1 \) in the point-slope form: \( y - y_1 = m(x - x_1) \).
+        
+        Simplify the equation \( y - 4 = \frac{1}{2}(x - 6) \) to get \( y - 4 = \frac{1}{2}x - 3 \). Be sure to add \( 4 \) to both sides of the equation to solve for \( y \). The answer is \( y = \frac{1}{2}x + 1 \). </entry>
     </row>
     <row>
       <entry>\( y = \frac{1}{2}x - 2 \)</entry>
-      <entry> Incorrect. Let's try again a different way:</entry>
+      <entry> Incorrect. Let's try again a different way:
+        
+        The slope of the parallel line is the same as the original line, \( \frac{1}{2} \).
+        
+        Substitute \( \frac{1}{2} \) for \( m \), \( 6 \) for \( x_1 \), and \( 4 \) for \( y_1 \) in the point-slope form: \( y - y_1 = m(x - x_1) \).
+        
+        Simplify the equation \( y - 4 = \frac{1}{2}(x - 6) \). Be sure to distribute \( \frac{1}{2} \) to both terms inside the parentheses to get \( y - 4 =  \frac{1}{2}x - 3 \).
+        
+        The answer is \( y = \frac{1}{2}x + 1 \). </entry>
     </row>
   </tbody>
 </table>
+
+
 <title>1.14.3: Additional Resources </title>
 <para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it. </emphasis></emphasis></para>
 <title>Find the Line Parallel to a Given Line</title>
@@ -104,31 +138,50 @@
 <para><emphasis>Example</emphasis></para>
 <para>Write an equation of a line parallel to \( y = 2x - 3 \) that contains the point \( (-2, 1) \). Write the equation in slope-intercept form.</para>
 <para><emphasis>Solution:</emphasis></para>
-<para><emphasis>Step 1 -</emphasis> Find the slope of the given line</para>
-<para><emphasis>Step 2 -</emphasis> Find the slope of the parallel line</para>
-<para><emphasis>Step 3 -</emphasis> Identify the point</para>
-<para><emphasis>Step 4 -</emphasis> Substitute values into the point-slope form \( y - y_1 = m(x - x_1) \)</para>
-<para><emphasis>Step 5 -</emphasis> Write the equation in slope-intercept form</para>
+<para><emphasis>Step 1 -</emphasis> Find the slope of the given line
+  The line is in slope-intercept form \( y = 2x - 3 \)
+\( m=2 \)</para>
+<para><emphasis>Step 2 -</emphasis> Find the slope of the parallel line
+  Parallel lines have the same slope
+\( m_1 = 2 \)</para>
+<para><emphasis>Step 3 -</emphasis> Identify the point
+  The given point is \( (-2, 1) \)
+\( (x_1, y_1) = (-2, 1) \)</para>
+<para><emphasis>Step 4 -</emphasis> Substitute values into the point-slope form \( y - y_1 = m(x - x_1) \)
+Simplify
+\(\begin{array}{rcl}y-y_1&amp;=&amp;(x-x_1)\\y-1&amp;=&amp;(x-(-2))\\y-1&amp;=&amp;(x+2)\\y-1&amp;=&amp;x+4\end{array}\)</para>
+<para><emphasis>Step 5 -</emphasis> Write the equation in slope-intercept form
+\( y = 2x + 5 \)</para>
 <para>Look at the graph with the parallel lines shown previously. Does this equation make sense? What is the \(y\)-intercept of the line? What is the slope?</para>
 <para>You can use this table as a reference for writing an equation of a line parallel to a given line. </para>
 <para>Write the equation in slope-intercept form: \( y = mx+b \).</para>
 <para><emphasis>Solution:</emphasis></para>
+
 <note><para><emphasis>Step 1 -</emphasis> Find the slope of the given line.</para>
 <para><emphasis>Step 2 -</emphasis> Find the slope of the parallel line.</para>
 <para><emphasis>Step 3 -</emphasis> Identify the point.</para>
 <para><emphasis>Step 4 -</emphasis> Substitute the values into the point-slope form: \( y-y_1=m(x-x_1) \).</para>
 <para><emphasis>Step 5 -</emphasis> Simplify.</para>
 <para><emphasis>Step 6 -</emphasis> Write the equation in slope-intercept form: \( y = mx+b \).</para></note>
+
+
 <title>Try It: Find the Line Parallel to a Given Line</title>
 <para>Write an equation of a line parallel to the line \(y = 3x + 1\) that contains the point \( (4,2) \). Write the equation in slope-intercept form.</para>
 <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <para>Here is how to find a line parallel to a given line and point.</para>
-<para><emphasis>Step 1 -</emphasis> Find the slope of the given line.</para>
-<para><emphasis>Step 2 -</emphasis> Find the slope of the parallel line.</para>
-<para><emphasis>Step 3 -</emphasis> Identify the point.</para>
-<para><emphasis>Step 4 -</emphasis> Substitute the values into the point-slope form: \( y-y_1=m(x-x_1) \).</para>
-<para><emphasis>Step 5 -</emphasis> Simplify.</para>
-<para><emphasis>Step 6 -</emphasis> Write the equation in slope-intercept form: \( y = mx+b \).</para>
+<para><emphasis>Step 1 -</emphasis> Find the slope of the given line.
+\( m = 3 \)</para>
+<para><emphasis>Step 2 -</emphasis> Find the slope of the parallel line.
+\( m_1 = 3 \)</para>
+<para><emphasis>Step 3 -</emphasis> Identify the point.
+  \( (x_1, y_1) \)
+\( (4, 2) \)</para>
+<para><emphasis>Step 4 -</emphasis> Substitute the values into the point-slope form: \( y-y_1=m(x-x_1) \).
+\(\begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1)\\y-2&amp;=&amp;3(x-4)\end{array}\)</para>
+<para><emphasis>Step 5 -</emphasis> Simplify.
+\( y - 2 = 3x - 12 \)</para>
+<para><emphasis>Step 6 -</emphasis> Write the equation in slope-intercept form: \( y = mx+b \).
+\( y = 3x - 10 \)</para>
 </section>
 </content>
 </document>

@@ -3,12 +3,13 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02479</md:content-id>
     <md:title>9.9.2: Different Forms of Quadratics</md:title>
-    <md:uuid>89c5f66d-7697-40bf-92b0-083291188595</md:uuid>
+    <md:uuid>cfda8f37-664a-430a-9c76-1860ef553e01</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
 <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
 <para>For questions 1 – 5, write each function in vertex form.</para>
+
 <!--Q1-->
 <example><exercise>
   <problem>
@@ -20,7 +21,9 @@
 <para>\(y=(x-2)^2+3\)</para>
 </solution></exercise>
 </example><!--Interaction End -->
+
 <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
+
 <!--Q2-->
 <example><exercise>
   <problem>
@@ -32,7 +35,9 @@
 <para>\(y=(x+1)^2-4\)</para>
 </solution></exercise>
 </example><!--Interaction End -->
+
 <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
+
 <!--Q3-->
 <example><exercise>
   <problem>
@@ -44,7 +49,9 @@
 <para>\(y=(x-0)^2-4\)</para>
 </solution></exercise>
 </example><!--Interaction End -->
+
 <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
+
 <!--Q4-->
 <example><exercise>
   <problem>
@@ -56,7 +63,9 @@
 <para>\(y=-(x+1)^2-5\)</para>
 </solution></exercise>
 </example><!--Interaction End -->
+
 <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
+
 <!--Q5-->
 <example><exercise>
   <problem>
@@ -68,8 +77,12 @@
 <para>\(y=2(x-3)^2+4\)</para>
 </solution></exercise>
 </example><!--Interaction End -->
+
 <!-- END CLICK TO REVEAL NO TEXTBOX -->
+
+
 <para>For questions 6 and 7, write each function in standard form.</para>
+
 <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
 <!--Q6-->
 <example><exercise>
@@ -82,9 +95,11 @@
 <para>\(y=x^2-4x+11\)</para>
 </solution></exercise>
 </example><!--Interaction End -->
+
 <!-- END CLICK TO REVEAL NO TEXTBOX -->
 
 <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
+
 <!--Q7-->
 <example><exercise>
   <problem>
@@ -96,6 +111,7 @@
 <para>\(y=x^2+6x+7\)</para>
 </solution></exercise>
 </example><!--Interaction End -->
+
 <!-- END CLICK TO REVEAL NO TEXTBOX -->
 
 <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
@@ -116,13 +132,22 @@
   <para>Compare your answer:</para>
     <para>To find the maximum height, find the vertex. Write the function in vertex form.</para>
     <para>\(H(t)=-16t^2+80t+40\)</para>
-    <para><emphasis>Step 1</emphasis> - Factor -16 out of the first two terms.</para>
-    <para><emphasis>Step 2 </emphasis>- Complete the square.</para>
-    <para><emphasis>Step 3</emphasis> - Add the constant to complete the square and subtract from the 40 to balance the equation. Note that because there is a \((-16)\) outside of the parentheses. This makes the constant equation to be \((-16 \times \frac{25}{4}=-100\).  Because a \((-100 )\) was really added in,  then a positive 100 will balance the equation.</para>
-    <para><emphasis>Step 4</emphasis> - Factor and simplify.</para>
-    <para><emphasis>Step 5</emphasis> - Find the vertex.</para>
+    <para><emphasis>Step 1</emphasis> - Factor -16 out of the first two terms.
+    \(H(t)=-16(t^2-5t)+40 \)</para>
+    <para><emphasis>Step 2 </emphasis>- Complete the square.
+      \((\frac{-5}{2})^2=\frac{25}{4}\)</para>
+    <para><emphasis>Step 3</emphasis> - Add the constant to complete the square and subtract from the 40 to balance the equation. Note that because there is a \((-16)\) outside of the parentheses. This makes the constant equation to be \((-16 \times \frac{25}{4}=-100\).  Because a \((-100 )\) was really added in,  then a positive 100 will balance the equation.
+      \(H(t)=-16(t^2-5t+\frac{25}{4})+40-(-100) \)
+      \(H(t)=-16(t^2-5t+\frac{25}{4})+40+100 \)</para>
+    <para><emphasis>Step 4</emphasis> - Factor and simplify.
+      \(H(t)=-16(t+\frac{-5}{2})^2+140\)</para>
+    <para><emphasis>Step 5</emphasis> - Find the vertex.
+      \((\frac{5}{2}, 140)\)
+      Therefore, the maximum height is 140 feet. (It reaches this high point after 2.5 seconds.) 
+    </para>
   </solution></exercise>
 <!--End interaction-->
+
 </section>
 </content>
 </document>

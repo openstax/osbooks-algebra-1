@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01196</md:content-id>
     <md:title>4.18.5: Interchanging between Formulas</md:title>
-    <md:uuid>7d166669-8bd2-4aa6-bfe7-f0bae4408b6e</md:uuid>
+    <md:uuid>96d76a82-7d5c-4585-9973-715f04fd80a2</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
@@ -19,6 +19,7 @@
 <para>Let’s find an explicit formula for the sequence.</para>
 <para>We can represent a sequence whose first term is \(A\) and common difference is \(B\) with the standard explicit form \(A+B(n−1)\).</para>
 <para>Therefore, an explicit formula of the sequence is \(a_n=3+2(n−1)\).</para>
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -30,6 +31,7 @@
     <para>\(b_n=2+(n-1)7\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <para class="os-raise-text-bold">Converting from a Explicit Formula to an Recursive Formula for Arithmetic Sequences</para>
 <para>Now try to take the nth term formula and use it to write the recursive formula of an arithmetic sequence.</para>
 <para>We are given the following nth term of an arithmetic sequence:</para>
@@ -43,6 +45,7 @@
 <para>Therefore, this is a recursive formula for the sequence:
 
   \(d_1=5\), \(d_n=d_{n-1}+16\), \(n\geq 2\).</para>
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -54,6 +57,7 @@
     <para>\(e_1=12\), \(e_n=e_{n-1}+2\), \(n\geq2\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <para><emphasis>Converting from a Recursive Formula to an Explicit Formula for Geometric Sequences</emphasis></para>
 <para>Now change the recursive formula of a geometric sequence into the nth term.</para>
 <para>Here is the recursive formula of a geometric sequence, \(g(n)\):</para>
@@ -61,6 +65,7 @@
 <para>9 is the first term of the sequence, and 8 is the common ratio.</para>
 <para>An explicit formula is structured as: \(g(x)=\) (1st term of sequence) \(\cdot\) (common ratio)\(^{(x-1)}\).</para>
 <para>Substitute the values, and you get the explicit formula: \(g_n= 9 \cdot 8^{(n-1)}\).</para>
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -72,13 +77,15 @@
     <para>\(g_n= 5 \cdot 4^{(n-1)}\)</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <!--Text Entry Interaction Start -->
 <para class="os-raise-text-bold">Converting from an Explicit Formula to a Recursive Formula for Geometric Sequences</para>
 <exercise>
   <exercise>
     <problem/><solution/></exercise>
   <!--Interaction End -->
-  <problem>
+  
+<problem>
     <para>Finally, geometric sequences represented by the nth term can be represented with the recursive definition.</para>
     <para>Start with the nth term formula for \(g_n\) where \(g_n=6 \cdot 3^{n-1}\).</para>
     <para>Working backward, when \(n=1\), \(g_1=6\). This is the initial term.</para>
@@ -92,6 +99,7 @@
     <para>Compare your answer:</para>
       <para>\(g_1=14\), \(g_n=g_{n-1} \cdot2\), \(n\geq2\)</para>
     </solution></exercise>
+
 <div class="os-raise-student-reflection">
   <para class="os-raise-student-reflection-title">Why Should I Care?</para>
   <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/9e07abed7dcab0c7c25810e4d60a124a20a2f4dc"/></media></figure><para>One of the tools to fight climate change is renewable energy. Wind farms and solar power can produce can produce clean energy. But what happens when there is no wind or sunshine? Energy companies rely on battery storage systems to save energy that is created on sunny or windy days, so it can be used when the sun and wind aren't cooperating.</para>

@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00311</md:content-id>
     <md:title>1.14.3: Additional Resources</md:title>
-    <md:uuid>ae321f02-2b5b-4d37-9b84-e3d8ed960a0a</md:uuid>
+    <md:uuid>ba160ce8-9a90-416b-8546-f2e449a8b9e9</md:uuid>
   </metadata>
   <content>
   <section><title>Find the Line Parallel to a Given Line</title>
@@ -15,15 +15,25 @@
 <para>To find the equation of a line parallel to a line through a given point algebraically, you can use what you know about finding the equation of a line given the slope and a point.</para>
 <para><emphasis>Example</emphasis></para>
 <para>Write an equation of a line parallel to \( y = 2x - 3 \) that contains the point \( (-2, 1) \). Write the equation in slope-intercept form.</para>
-<para><b>Step 1 -</b> Find the slope of the given line.</para>
-<para><b>Step 2 - </b> Find the slope of the parallel line</para>
-<para><b>Step 3 - </b>Identify the point</para>
-<para><b>Step 4 - </b>Substitute values into the point-slope form \( y - y_1 = m(x - x_1) \)</para>
-<para><b>Step 5 - </b>Write the equation in slope-intercept form</para>
+<para><b>Step 1 -</b> Find the slope of the given line.
+The line is in slope-intercept form \( y = 2x - 3 \)
+\( m=2 \)</para>
+<para><b>Step 2 - </b> Find the slope of the parallel line
+Parallel lines have the same slope
+\( m_1 = 2 \)</para>
+<para><b>Step 3 - </b>Identify the point
+The given point is \( (-2, 1) \)
+\( (x_1, y_1) = (-2, 1) \)</para>
+<para><b>Step 4 - </b>Substitute values into the point-slope form \( y - y_1 = m(x - x_1) \)
+Simplify
+\(\begin{array}{rcl}y-y_1&amp;=&amp;(x-x_1)\\y-1&amp;=&amp;(x-(-2))\\y-1&amp;=&amp;(x+2)\\y-1&amp;=&amp;x+4\end{array}\)</para>
+<para><b>Step 5 - </b>Write the equation in slope-intercept form
+\( y = 2x + 5 \)</para>
 <para>Look at the graph with the parallel lines shown previously. Does this equation make sense? What is the \(y\)-intercept of the line? What is the slope?</para>
 <para>You can use this table as a reference for writing an equation of a line parallel to a given line. </para>
 <para>Write the equation in slope-intercept form: \( y = mx+b \).</para>
-<para><emphasis/></para>
+<para><emphasis>
+</emphasis></para>
 <note>
   <para>Step 1 - Find the slope of the given line.</para>
   <para><emphasis>Step 2</emphasis> - Find the slope of the parallel line.</para>
@@ -32,6 +42,8 @@
   <para><emphasis>Step 5</emphasis> - Simplify.</para>
   <para><emphasis>Step 6</emphasis> - Write the equation in slope-intercept form: \( y = mx+b \).</para>
 </note>
+
+
 <title>Try It: Find the Line Parallel to a Given Line</title>
 
 <example><exercise>
@@ -45,12 +57,21 @@
   <para>Here is how to find a line parallel to a given line and point.</para>
  
  
-  <para><emphasis>Step 1 -</emphasis> Find the slope of the given line.</para>
-  <para><emphasis>Step 2 -</emphasis> Find the slope of the parallel line.</para>
-  <para><emphasis>Step 3 -</emphasis> Identify the point.</para>
-  <para><emphasis>Step 4 -</emphasis> Substitute the values into the point-slope form: \( y-y_1=m(x-x_1) \).</para>
-  <para><emphasis>Step 5 -</emphasis> Simplify.</para>
-  <para><emphasis>Step 6 -</emphasis> Write the equation in slope-intercept form: \( y = mx+b \).</para>
+  <para><emphasis>Step 1 -</emphasis> Find the slope of the given line.
+  \( m = 3 \)</para>
+  <para><emphasis>Step 2 -</emphasis> Find the slope of the parallel line.
+  \( m_1 = 3 \)</para>
+  <para><emphasis>Step 3 -</emphasis> Identify the point.
+    \( (x_1, y_1) \)
+  \( (4, 2) \)</para>
+  <para><emphasis>Step 4 -</emphasis> Substitute the values into the point-slope form: \( y-y_1=m(x-x_1) \).
+  \(\begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1)\\y-2&amp;=&amp;3(x-4)\end{array}\)</para>
+  <para><emphasis>Step 5 -</emphasis> Simplify.
+  \( y - 2 = 3x - 12 \)</para>
+  <para><emphasis>Step 6 -</emphasis> Write the equation in slope-intercept form: \( y = mx+b \).
+  \( y = 3x - 10 \)</para>
+
+  
 </solution></exercise>
 </example></section>
 </content>

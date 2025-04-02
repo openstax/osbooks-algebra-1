@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01673</md:content-id>
     <md:title>6.6.2: Factoring Perfect Square Trinomials</md:title>
-    <md:uuid>e4af681f-b1a8-4d5a-8e2b-335098bc197a</md:uuid>
+    <md:uuid>f2e4ce3a-4de1-4562-9004-273555568cca</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -34,7 +34,8 @@
       
    <div class="os-raise-d-flex os-raise-justify-content-between">
   <para>Perfect square trinomials</para>
-  <para>\(a^2+2ab+b^2=(a+b)^2\)</para>
+  <para>\(a^2+2ab+b^2=(a+b)^2\)\(a^2-2ab+b^2=(a-b)^2\)
+  </para>
 </div>
       
          <div class="os-raise-d-flex os-raise-justify-content-between">
@@ -45,6 +46,7 @@
 
   </div>
 </div>
+
 <title>Student Activity </title>
 <para>Remember the patterns for perfect square trinomials:</para>
 <para>\(a^2 + 2ab + b^2 = (a + b)^2\)</para>
@@ -146,6 +148,7 @@ concepts explored in the activity.</para>
     </row>
   </tbody>
 </table>
+
 <title>6.6.2: Additional Resources</title>
 <para class="os-raise-text-bold" os-raise-text-italicize="">The following content is available to students who would like more support based on their experience with
       the self check. Students will not automatically have access to this content, so you may wish to share it with
@@ -153,7 +156,9 @@ those who could benefit from it.</para>
 <title>Factoring Perfect Square Trinomials</title>
 <para>Some trinomials are perfect squares. They result from multiplying a binomial by itself. We squared a binomial using
   the Binomial Squares pattern in a previous lesson.</para>
-<para>\({\style{color:red}(}{\style{color:red}a}{\style{color:red}+}{\style{color:red}b}{\style{color:red})}^{\style{color:red}2}\)</para>
+<para>\({\style{color:red}(}{\style{color:red}a}{\style{color:red}+}{\style{color:red}b}{\style{color:red})}^{\style{color:red}2}\)
+  \((3x+4)^2\)
+</para>
 <para>\(\;\;\;\;
   {\style{color:red}a}
   ^
@@ -186,12 +191,15 @@ those who could benefit from it.</para>
   trinomials pattern, you will save yourself a lot of work.</para>
 <para>Here is the pattern—the reverse of the binomial squares pattern.</para>
 
+
 <note>  <para class="os-raise-text-bold"> PERFECT SQUARE TRINOMIALS PATTERN </para>
   <hr/>
   <para>If \(a\) and \(b\) are real numbers</para>
   <para>\(a^2 + 2ab + b^2 = (a + b)^2\)</para>
   <para>\(a^2 − 2ab + b^2 = (a − b)^2\)</para>
 </note>
+
+
 <para>To use this pattern, you have to recognize that a given trinomial fits it. Check first to see if the leading
   coefficient is a perfect square, \(a^2\). Next, check that the last term is a perfect square, \(b^2\). Then check the
   middle term: Is it the product, \(2ab\)? If everything checks, you can easily write the factors.</para>
@@ -227,8 +235,16 @@ those who could benefit from it.</para>
 <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/10d90e7be43bd48e3e66edec4e68ccc5fe2d5ec7"/></media></figure></para>
 <para><emphasis>Step 2 -</emphasis> Write the square of the binomial.</para>
 <para>  \(9x^2+12x+4\)</para>
-<para>\(a^2\;+\;2\; \cdot\; a\;\cdot\; b\; +\; b^2\)</para>
-<para>\((a+b)^2\)</para>
+<para>\(a^2\;+\;2\; \cdot\; a\;\cdot\; b\; +\; b^2\)
+  \((
+  {\style{color:red}3}
+  {\style{color:red}x}
+  )^2+2 \cdot {\style{color:red}3}
+  {\style{color:red}x} \cdot
+  {\style{color:blue}2}+{\style{color:blue}2}^2\)</para>
+<para>\((a+b)^2\)
+  \(({\style{color:red}3}
+  {\style{color:red}x}+{\style{color:blue}2})^2\)</para>
 <para><emphasis>Step 3 -</emphasis> Check by multiplying.</para>
 <para>  \((3x+2)^2\)</para>
 <para>\((3x)^2+2 \cdot 3x \cdot2+2^2\)</para>
@@ -254,17 +270,34 @@ those who could benefit from it.</para>
   middle term is negative, so the binomial square would be \((a − b)^2\).</para>
 <para><emphasis>Step 1 - 
   </emphasis>Are the first and last terms perfect squares?</para>
-<para>  \(81y^2 − 72y + 16\)</para>
+<para>  \(81y^2 − 72y + 16\)
+  \((9y)^2\;\;\;\;\;\;\;\;\;\;\;\;(4)^2\)</para>
 <para>Step 2 - 
   Check the middle term.</para>
 <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/c562032b374a8bd555e6a8dc87376dfbf23b2011"/></media></figure></para>
-<para>Does it match \((a − b)^2\)?</para>
+<para>Does it match \((a − b)^2\)?
+  \(\;\;\;
+  {\style{color:red}a}
+  ^
+  {\style{color:red}2}\;
+  {\style{color:red}-}\;
+  {\style{color:red}2} \;\;\;\; {\style{color:red}a}
+  \;\;\; {\style{color:red}b}\;
+  {\style{color:red}+}\;
+  {\style{color:red}b}
+  ^
+  {\style{color:red}2}
+  \)
+  \((9y)^2-2 \cdot 9y \cdot 4+4^2\) 
+  Yes. </para>
 <para><emphasis>Step 3 - 
   </emphasis>Write as the square of a binomial.</para>
 <para>  \((9y − 1)^2\)</para>
 <para><emphasis>Step 4 - 
   </emphasis>Check by multiplying.</para>
-<para> \((9y − 1)^2\)</para>
+<para> \((9y − 1)^2\)
+  \((9y)^2-2 \cdot 9y \cdot 4+4^2\)
+  \(81y^2 − 72y + 16\; \checkmark\)</para>
 <para>The next example will be a perfect square trinomial with two variables.</para>
 <para class="os-raise-text-bold">Example 3</para>
 <para>Factor: \(36x^2 + 84xy + 49y^2\).</para>
@@ -282,12 +315,15 @@ those who could benefit from it.</para>
   {\style{color:red}b}
   ^
   {\style{color:red}2}
-  \)</para>
+  \)
+\(6x^2+2 (6x) (7y)+(7y)^2\) </para>
 <para><emphasis>Step 2 - 
   </emphasis>Factor.</para>
 <para>  \((6x + 7y)^2\)</para>
 <para><emphasis>Step 3 -</emphasis> Check by multiplying.</para>
-<para>  \((6x + 7y)^2\)</para>
+<para>  \((6x + 7y)^2\)
+  \((6x)^2+2 \cdot 6x \cdot 7y+(7y)^2\)
+  \(36x^2 + 84xy + 49y^2\; \checkmark\)</para>
 <para>Remember, the first step in factoring is to look for a greatest common factor. Perfect square trinomials may have a
   GCF in all three terms, and it should be factored out first. And, sometimes, once the GCF has been factored, you will
   recognize a perfect square trinomial.</para>
@@ -312,12 +348,17 @@ those who could benefit from it.</para>
   {\style{color:red}b}
   ^
   {\style{color:red}2}
-  \)</para>
+  \)
+  \(4y\begin{bmatrix}{(5x)}^2-2 \cdot 5x \cdot 2+ 2^2\end{bmatrix}\\\)</para>
 <para><emphasis>Step 3 -</emphasis> Write as the square of a binomial.</para>
-<para>  \(4y(5x − 2)^2\)</para>
+<para>  \(4y(5x − 2)^2\)
+  Remember: Keep the factor \(4y\) in the final product.</para>
 <para><emphasis>Step 4 - 
   </emphasis>Check by multiplying.</para>
-<para>  \(4y(5x − 2)^2\)</para>
+<para>  \(4y(5x − 2)^2\)
+  \(4y[(5x)^2-2 \cdot 5x \cdot 2+2^2]\)
+  \(4y(25x^2-20x+4)\)
+  \(100x^2y − 80xy + 16y\; \checkmark\)</para>
 <title>Try It: Factoring Perfect Square Trinomials</title>
 <para>Factor each perfect square trinomial. If necessary, factor out the GCF first.</para>
 <list class="os-raise-noindent" type="enumerated">

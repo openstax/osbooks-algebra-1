@@ -3,14 +3,16 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00568</md:content-id>
     <md:title>2.11.2: Additional Resources</md:title>
-    <md:uuid>f54e44d5-8dca-4a7e-b21c-b532b4111995</md:uuid>
+    <md:uuid>b77e28b4-c7cf-4f50-8dc3-35939046462d</md:uuid>
   </metadata>
   <content>
   <section><title>Verify Solutions to an Inequality in Two Variables</title>
 <para>Previously we learned to solve inequalities with only one variable. We will now learn about inequalities containing two variables. In particular we will look at linear inequalities in two variables which are very similar to linear equations in two variables.</para>
 <para>Linear inequalities in two variables have many applications. If you ran a business, for example, you would want your revenue to be greater than your costs—so that your business made a profit.</para>
+
 <note>
-  <para><emphasis>Linear Inequality</emphasis></para>
+  <para><emphasis>Linear Inequality</emphasis>
+    A linear inequality is an inequality that can be written in one of the following forms:</para>
   <div class="os-raise-d-flex os-raise-justify-content-between">
     <para>\( Ax + By &gt; C \)</para>
     <para>\( Ax + By \geq C \)</para>
@@ -18,30 +20,52 @@
     <para>\( Ax + By \leq C \)</para>
   </div>
 </note>
-<para> Recall that an inequality with one variable had many solutions. For example, the solution to the inequality \( x &gt; 3 \) is any number greater than 3. We showed this on the number line by shading in the number line to the right of 3, and putting an open parenthesis at 3. See the figure below.</para>
-<figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/760f734b2bad15f7d6af2baae9b5a241d83fcef5"/></media></figure><para>Similarly, linear inequalities in two variables have many solutions. Any ordered pair\( (x, y) \) that makes an inequality true when we substitute in the values is a solution to a linear inequality.</para>
+
+<para> Recall that an inequality with one variable had many solutions. For example, the solution to the inequality \( x &gt; 3 \) is any number greater than 3. We showed this on the number line by shading in the number line to the right of 3, and putting an open parenthesis at 3. See the figure below.
+</para>
+<figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/760f734b2bad15f7d6af2baae9b5a241d83fcef5"/></media></figure><para>Similarly, linear inequalities in two variables have many solutions. Any ordered pair\( (x, y) \) that makes an inequality true when we substitute in the values is a solution to a linear inequality.
+</para>
 <note>
-  <para><emphasis>Solution to a Linear Inequality</emphasis></para>
+  <para><emphasis>Solution to a Linear Inequality</emphasis>
+    An ordered pair\( (x,y) \) is a solution to a linear inequality if the inequality is true when we substitute the values of \( x \) and \( y \).</para>
 </note>
+
 <para>Example: Determine whether each ordered pair is a solution to the inequality \( y &gt; x + 4 \):</para>
 <list class="os-raise-noindent" type="enumerated">
-  <item>\( (0, 0) \)</item>
-  <item>\( (1, 6) \)</item>
-  <item>\( (2, 6) \)</item>
-  <item>\( (−5, −15) \)</item>
-  <item>\( (−8, 12) \)</item>
+  <item>\( (0, 0) \)
+  </item>
+  <item>\( (1, 6) \)
+  </item>
+  <item>\( (2, 6) \)
+  </item>
+  <item>\( (−5, −15) \)
+  </item>
+  <item>\( (−8, 12) \)
+  </item>
 </list>
 <para><emphasis>Solution</emphasis></para>
 <para>1. No; Substitute 0 for \( x \) and 0 for \( y \).</para>
-<para>\( y &gt; x + 4 \)</para>
+<para>\( y &gt; x + 4 \)
+  \( 0 &gt; 0 + 4 \)
+  \( 0 &amp;ngtr; 4 \)
+</para>
 <para>2. Yes; Substitute 1 for \( x \) and 6 for \( y \).</para>
-<para>\( y &gt; x + 4 \)</para>
+<para>\( y &gt; x + 4 \)
+  \( 6 &gt; 1 + 4 \)
+  \( 6&gt;5 \)
+</para>
 <para>3. No; Substitute 2 for \( x \) and 6 for \( y \).</para>
-<para>\( y &gt; x + 4 \)</para>
+<para>\( y &gt; x + 4 \)
+  \( 6 &gt; 2 + 4 \)
+  \( 6 &amp;ngtr; 6 \)</para>
 <para>4. No; Substitute -5 for \( x \) and -15 for \( y \).</para>
-<para>\( y &gt; x + 4 \)</para>
+<para>\( y &gt; x + 4 \)
+  \( -15 &gt; -5 + 4 \)
+  \( -15 &amp;ngtr; 6-1 \)</para>
 <para>5. Yes; Substitute -8 for \( x \) and 12 for \( y \).</para>
-<para>\( y &gt; x + 4 \)</para>
+<para>\( y &gt; x + 4 \)
+  \( 12 &gt; -8 + 4 \)
+  \( 12&gt;-4 \)</para>
 <title>Try It: Verify Solutions to an Inequality in Two Variables</title>
 <para>Determine whether each ordered pair is a solution to the inequality \( y &gt; x − 3 \).</para>
 <div class="os-raise-ib-pset" data-button-text="Check" data-content-id="39d98e82-632c-4680-a340-8d282f426ce5" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0"> 

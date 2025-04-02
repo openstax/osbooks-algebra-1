@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00893</md:content-id>
     <md:title>4.4.2: Defining Functions by a Rule</md:title>
-    <md:uuid>aa0c4c70-99fd-44b2-b380-b376b46ca598</md:uuid>
+    <md:uuid>e3c10d80-a25f-404e-9069-fca77690ae51</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (10 minutes)</title>
@@ -11,15 +11,21 @@
 <para>The algebraic statements are written in function notation, so the work also reinforces students’ understanding of the notation and expands their capacity to use it to describe functions.</para>
 <title>Launch</title>
 <para>Display an image of a “function machine” with “cube the input” as the rule.</para>
+
 <para><figure><media alt="A function machine."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/c8fee7d06165c318823b9b3e727250edfbdc6a8f"/></media></figure></para>
 <para>Tell students that a function takes any input and cubes it to generate the output. Ask students to:</para>
 <list>
   <item>Find the output when the inputs are 0, 1, 3, and \(x\).</item>
   <item>Write the input-output relationship using function notation and name the function \(g\).</item>
 </list>
-<para>\(g(0)=0\)</para>
+<para>\(g(0)=0\)
+  \(g(1)=1\)
+  \(g(3)=27\)
+  \(g(x)= x^3\)
+</para>
 <para>If not mentioned by students, point out that these equations describe the same function as that shown by the second table in the warm up.</para>
 <para>Explain to students that some functions have a specific rule for getting the output. The rule can be described in words (like “cube the input”) or with expressions (such as \(x^3\)). Tell students that they’ll now look at some rules expressed in both ways.</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -31,6 +37,7 @@
     <para class="os-raise-text-italicize">Supports accessiblity for: Conceptual processing; Organization</para>
     </div>
   </div>
+
 <title>Student Activity</title>
 
   <para>Match each equation with a verbal description that represents the same function. Record your results.</para>
@@ -41,18 +48,24 @@
       <para><emphasis>Answer: </emphasis>To get the output, subtract 7 from the input, then multiply the result by 3</para>
       <item>\(h(x)\;=\;\frac x3-7\)</item>
       <para><emphasis>Answer: </emphasis> To get the output, divide the input by 3, and then subtract 7 from the result.</para>
-      <item>\(k(x)\;=\frac{x-7}3\)<para><emphasis>Answer: </emphasis>To get the output, subtract 7 from the input, then divide the result by 3.
+      <item>\(k(x)\;=\frac{x-7}3\)
+        <para><emphasis>Answer: </emphasis>To get the output, subtract 7 from the input, then divide the result by 3.
         </para>
-        </item><item>For one of the functions, when the input is 6, the output is –3. Which is that function: \(f\), \(g\), \(h\), or \(k\)?
+        
+
+  </item><item>For one of the functions, when the input is 6, the output is –3. Which is that function: \(f\), \(g\), \(h\), or \(k\)?
+    
     <para><emphasis>Answer: </emphasis>The correct answer is function \(g\).
     </para> 
-    </item>
+    
+  </item>
 
 
   <item>Explain how you know the answer to question 5.
     <para><emphasis>Answer: </emphasis>The correct answer is function \(g\), because when \(x\) is 6, the expression \( 3(x−7)\) has a value of –3.
     </para> 
-    </item>
+    
+  </item>
 
 
   <item>Which function value, \(f(x)\), \(g(x)\), \(h(x)\), or \(k(x)\), is the greatest when the input is 0?</item>
@@ -68,7 +81,9 @@
 <title>Are you ready for more?</title>
 <para>Mai says \(f(x)\) is always greater than \(g(x)\) for the same value of \(x\). Is this true? Explain how you know.</para>
 
-<para> <emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.</para>
+<para> <emphasis>Answer: </emphasis> Your answer may vary, but here is a sample.
+  Mai's statement is true. We can start by rewriting \(g(x)\) as \(g(x)=3x-21\). Then, to get the output of both functions, we first multiply the input, \(x\), by 3 to get \(3x\), and then we subtract a value from it. For function \(f\), we subtract 7. For function \(g\), we subtract 21. The output of \(g\) will always be 14 less than that of \(f\).
+</para>
 <title>Activity Synthesis</title>
 <para>Invite students to briefly share how they matched the equations and verbal descriptions in the first question. Discuss questions such as:</para>
 <list>
@@ -84,10 +99,13 @@
     <para>MLR 8 Discussion Supports: Speaking, Representing<title>MLR 8 Discussion Supports: Speaking, Representing</title></para>
   </note>
   <div class="os-raise-extrasupport-body">
-      <para/><para>Use this routine to support whole-class discussion as students explain how they matched the descriptions to the equations. Display the following sentence frames for all to see: “The equation _____ matches _____ because . . .” and “I noticed _____, so . . . .” Encourage students to challenge each other when they disagree. If necessary, re-voice student ideas to demonstrate using mathematical language such as “input” and “output.” This will help students use the structure of equations to make connections between equations and descriptions of functions.</para>
+      <para>
+  </para><para>Use this routine to support whole-class discussion as students explain how they matched the descriptions to the equations. Display the following sentence frames for all to see: “The equation _____ matches _____ because . . .” and “I noticed _____, so . . . .” Encourage students to challenge each other when they disagree. If necessary, re-voice student ideas to demonstrate using mathematical language such as “input” and “output.” This will help students use the structure of equations to make connections between equations and descriptions of functions.
+  </para>
       <para class="os-raise-text-italicize">Design Principle(s): Support sense-making 
   </para>
 </div></div>
+
 <title>4.4.2: Self Check</title>
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
 <para class="os-raise-text-bold">QUESTION:</para>
@@ -126,7 +144,8 @@
       </entry>
     </row>
     <row>
-      <entry><para>\(f(x)=-4x +5\)</para>
+      <entry>
+        <para>\(f(x)=-4x +5\)</para>
       </entry>
       <entry>
         <para>Incorrect. Let’s try again a different way: Substitute \(x=0\): \(-4(0)+5 =5\). This is the greatest value, not the least value. The answer is \(f(x)=2(x-1)\).</para>
@@ -134,10 +153,12 @@
     </row>
   </tbody>
 </table>
+
 <title>4.4.2: Additional Resources</title>
 <para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></emphasis></para>
 <title>Evaluating Functions with Function Notation</title>
-<para><emphasis>Find the Value of a Function</emphasis></para>
+<para><emphasis>Find the Value of a Function</emphasis>
+  It is very convenient to name a function, and most often we name it \(f\), \(g\), or \(h\). In any function, for each \(x\)-value from the domain we get a corresponding \(y\)-value in the range. For the function \(f\), we write this range value \(y\) as \(f(x)\). This is called function notation and is read \(f\) of \(x\) or the value of \(f\) at \(x\). In this case, the parentheses do not indicate multiplication.</para>
 <title>Function Notation</title>
 <para>For the function \(y=f(x)\):</para>
 <list>
@@ -146,12 +167,16 @@
   <item>\(f(x)\) is the output value, \(y\), corresponding to the value of \(x\).</item>
 </list>
 <para>We read \(f(x)\) as \(f\) of \(x\) or the value of \(f\) at \(x\).</para>
-<para>We call \(x\) the <term data-schema-version="1.0" data-store="glossary-tooltip">independent variable</term> as it can be any value in the domain. We call \(y\) the dependent variable as its value depends on \(x\).</para><title>Independent and Dependent Variables</title>
+<para>We call \(x\) the <term data-schema-version="1.0" data-store="glossary-tooltip">independent variable</term> as it can be any value in the domain. We call \(y\) the dependent variable as its value depends on \(x\).</para>
+<title>Independent and Dependent Variables</title>
 <para>For the function \(y=f(x)\),</para>
 <para>\(x\) is the independent variable as it can be any value.</para>
 <para>\(y\) is the dependent variable as its value depends on \(x\).</para>
+
 <para>Much as when you first encountered the variable \(x\), function notation may be rather unsettling. It seems strange because it is new. You will feel more comfortable with the notation as you use it.</para>
+
 <para>Let’s look at the equation \(y=4x-5\). To find the value of \(y\) when \(x=2\), we know to substitute \(x=2\) into the equation and then simplify.</para>
+
 <table class="os-raise-midsizetable">
   
   <thead>
@@ -181,6 +206,7 @@
     </row>
   </tbody>
 </table>
+
 <para>The value of the function at \(x=2\) is 3.</para>
 <para>We can do the same thing using function notation. The equation \(y=4x-5\) can be written as \(f(x)=4x-5\). To find the value when \(x=2\), we write:</para>
 <table class="os-raise-midsizetable">
@@ -212,6 +238,7 @@
     </row>
   </tbody>
 </table>
+
 <para>The value of the function at \(x=2\) is 3.</para>
 <para>This process of finding the value of \(f(x)\) for a given value of \(x\) is called evaluating the function.</para>
 <title>Try It: Evaluating Functions with Function Notation</title>

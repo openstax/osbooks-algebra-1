@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02503</md:content-id>
     <md:title>9.10.4: Rewriting Expressions in Vertex Form</md:title>
-    <md:uuid>425acaa9-9688-43f0-b43d-f5c5fbe67989</md:uuid>
+    <md:uuid>ccbc0f44-07f2-42da-b0e7-a494caeeec40</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
@@ -14,7 +14,8 @@
   <problem>
     
     <para>Study the steps and write a brief explanation of what is happening at each step.</para>
-    <para>Original expression</para>
+    <para>Original expression
+      \(3x^2+12x+9\)</para>
     <para><emphasis>Step 1</emphasis> - \(3(x^2+4x+3)\)</para>
     <para><emphasis>Step 2</emphasis> - \(3(x^2+4x+4+3−4)\)</para>
     <para><emphasis>Step 3</emphasis> - \(3(x^2+4x+4−1)\)</para>
@@ -23,14 +24,22 @@
   <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
   <para>Compare your answers:</para>
-  <para>Original expression</para>
-  <para><emphasis>Step 1</emphasis> - Rewrite the expression with 3 as a factor.</para>
-  <para><emphasis>Step 2</emphasis> - Add 4 to complete the square.</para>
-  <para><emphasis>Step 3</emphasis> - Combine like terms so we can see the perfect square, \(x^2+4x+4\).</para>
-  <para><emphasis>Step 4</emphasis> - Rewrite \(x^2+4x+4\) as a squared expression.</para>
-  <para><emphasis>Step 5</emphasis> - Apply the distributive property to put the expression in vertex form.</para>
+  <para>Original expression
+    \(3x^2+12x+9\)</para>
+  <para><emphasis>Step 1</emphasis> - Rewrite the expression with 3 as a factor.
+    \(3(x^2+4x+3)\)</para>
+  <para><emphasis>Step 2</emphasis> - Add 4 to complete the square.
+    Subtract 4 to keep the value of the expression the same.
+    \(3(x^2+4x+4+3−4)\)</para>
+  <para><emphasis>Step 3</emphasis> - Combine like terms so we can see the perfect square, \(x^2+4x+4\).
+    \(3(x^2+4x+4−1)\)</para>
+  <para><emphasis>Step 4</emphasis> - Rewrite \(x^2+4x+4\) as a squared expression.
+    \(3((x+2)^2−1)\)</para>
+  <para><emphasis>Step 5</emphasis> - Apply the distributive property to put the expression in vertex form.
+    \(3(x+2)^2−3\)</para>
 </solution></exercise>
-</example><div class="os-raise-ib-pset" data-button-text="Check" data-content-id="b71640c3-23f2-4186-98e0-dd901768db6b" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
+</example>
+<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="b71640c3-23f2-4186-98e0-dd901768db6b" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
   <!--Q1a-->
   <exercise data-content-id="94449039-e496-4222-9357-adb316d75f6e" data-problem-comparator="integer" data-problem-type="input" data-solution="-2">
     <problem>
@@ -42,6 +51,7 @@
     </solution>
     </exercise>
   <!--END QUESTION.-->
+  
   <!--Q1b-->
   <exercise data-content-id="f18e0bfe-9bca-49e0-9491-9ba2737676f3" data-problem-comparator="integer" data-problem-type="input" data-solution="-3">
     <problem>
@@ -61,6 +71,7 @@
     <!-- INSERT ANY VALID HTML HERE -->
   </div>
 </div>
+
 <example><exercise>
   <problem>
     
@@ -71,7 +82,8 @@
   <para> The graph opens upward. For example, in an earlier unit, we saw that when the coefficient of the squared term
     \((x−h)^2\) is positive, the graph opens upward.</para>
 </solution></exercise>
-</example><example><exercise>
+</example>
+<example><exercise>
   <problem>
     
     <para>Rewrite \(-2x^2−4x+6\) in vertex form.</para>
@@ -80,7 +92,8 @@
   <para>Compare your answer:</para>
   <para>\(-2(x+1)^2+8\)</para>
 </solution></exercise>
-</example><example><exercise>
+</example>
+<example><exercise>
   <problem>
     
     <para>Rewrite \(4x^2+24x+20\) in vertex form.</para>
@@ -89,7 +102,8 @@
   <para>Compare your answer:</para>
   <para>\(4(x+3)^2−16\)</para>
 </solution></exercise>
-</example><example><exercise>
+</example>
+<example><exercise>
   <problem>
     
     <para>Rewrite \(-x^2+20x\) in vertex form.</para>
@@ -98,7 +112,8 @@
   <para>Compare your answer:</para>
   <para>\(-(x−10)^2+100\)</para>
 </solution></exercise>
-</example><!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+</example>
+<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
 <example><exercise>
   <problem>
     

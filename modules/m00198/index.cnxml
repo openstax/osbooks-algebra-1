@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00198</md:content-id>
     <md:title>1.9.2: Writing an Equation to Represent a Constraint</md:title>
-    <md:uuid>fada9cfe-7d10-4e02-bef6-1a3f74e3050d</md:uuid>
+    <md:uuid>bbc857a0-c42b-4a13-b0a6-e5449d50accd</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)
@@ -26,6 +26,7 @@
   if using different technology in the classroom.</para>
 <para>Tell students that their job in the last three questions is to find the number of trucks when the number of cars is
   known. Encourage them to test their equations using available technology.</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -39,6 +40,7 @@
       accessibility for: Language; Memory</para>
     </div>
   </div>
+
 <title>Student Activity</title>
 <para>An automobile manufacturer is preparing a shipment of cars and trucks on a cargo ship that can carry 21,600 tons.</para>
 <para>The cars weigh 3.6 tons each, and the trucks weigh 7.5 tons each.</para>
@@ -48,7 +50,9 @@
   </list> 
 <para><emphasis>Answer:</emphasis> \( 3.6c+7.5t=21,600\)</para>
 
-<para>For numbers 2 - 5, use the following situation:</para>
+<para>For numbers 2 - 5, use the following situation:
+  For one shipment, trucks are loaded first and cars are loaded afterward. (Even though trucks are bulkier than cars, a shipment can consist of all trucks as long as it is within the weight limit.)
+</para>
   <list class="os-raise-noindent" start="2" type="enumerated"> 
   <item>Find the number of cars that can be shipped if the cargo already has 480 trucks.</item>
   </list>
@@ -66,7 +70,7 @@
         <item>Find the number of cars that can be shipped if the cargo already has \(t\) trucks</item>
         </list>
         <para><emphasis>Answer:</emphasis> \(\frac{21,600-7.5t}{3.6}\)</para>
-        <para> Use the following information for questions 6 - 8. </para>
+        <para> Use the following information for questions 6 - 8. For a different shipment, cars are loaded first, and then trucks are loaded afterward.</para>
         <list class="os-raise-noindent" start="6" type="enumerated"> 
           <item>Write an equation you could enter into a calculator or a spreadsheet tool to find the number of trucks that can be shipped if the number of cars is known.</item>
           </list>
@@ -85,7 +89,7 @@
 <title>Student Facing Extension</title>
 <title>Are you ready for more?</title>
 <blockquote>
-<para>For numbers 1 and 2, use the following situation:</para>
+<para>For numbers 1 and 2, use the following situation:For yet another shipment, the manufacturer is also shipping motorcycles, which weigh 0.3 ton each.</para>
 </blockquote>
 <list class="os-raise-noindent" type="enumerated">
   <item>Write an equation that you could enter into a calculator or a spreadsheet tool to find the number of motorcycles
@@ -148,11 +152,15 @@
         the total. The answer is \( c = \frac{T-7.50a}{3.25} \).</entry>
     </row>
   </tbody>
-</table><title>1.9.2 Additional Resources</title>
+</table>
+<title>1.9.2 Additional Resources</title>
 <para>Review the following information from a previous lesson. </para>
 <title>Writing Equations Using Symbols</title>
 <para> When writing statements using algebraic symbols, the following steps may be helpful. </para>
-<para><emphasis>Step 1</emphasis> - Read the problem. <emphasis>Step 2</emphasis> - Identify the variables and known values. If needed, sketch a picture of the scenario.<emphasis>Step 3</emphasis> - Write a sentence using the relationship among the values. <emphasis>Step 4</emphasis> - Translate the sentence into an equation.
+<para><emphasis>Step 1</emphasis> - Read the problem. 
+  <emphasis>Step 2</emphasis> - Identify the variables and known values. If needed, sketch a picture of the scenario.
+  <emphasis>Step 3</emphasis> - Write a sentence using the relationship among the values. 
+  <emphasis>Step 4</emphasis> - Translate the sentence into an equation.
 </para>
 
 <para><emphasis>Example</emphasis></para>
@@ -208,7 +216,12 @@
 </list>
 <para><emphasis>Answer:</emphasis> \(c= \frac{100-3.49s}{1.29}\)</para>
 <para>
-\(T=1.29c+3.49s\)</para>
+\(T=1.29c+3.49s\)
+\(100=1.29c+3.49s\)
+\(100-3.49s=1.29c+3.49s-3.49s\)
+\(100-3.49s= 1.29c\)
+\(\frac{100-3.49s}{1.29}=\frac{ 1.29c}{1.29}\)
+\(\frac{100-3.49s}{1.29} =c\)</para>
 
 <list class="os-raise-noindent" start="5" type="enumerated">
   <item>
@@ -217,14 +230,23 @@
 </list>
 <para><emphasis>Answer:</emphasis> \(s=\frac{ 100-1.29c}{3.49}\)</para>
 
-<para>\(T=1.29c+3.49s\)</para>
+<para>\(T=1.29c+3.49s\)
+\(100=1.29c+3.49s\)
+\(100-1.29c=1.29c-1.29c+3.49s\)
+\(100-1.29c=3.49s\)
+\(\frac{100-1.29c}{3.49}=\frac{3.49s}{3.49}\)
+\(s= \frac{100-1.29c}{3.49}\)</para>
 
 <title>Try It: Write Constraint Equations</title>
 <para>On a canoeing trip, you walk 4 mph then canoe at 7 mph and cover 30 miles. Write an equation to find how many miles you travel while canoeing.</para>
 <para><emphasis>Answer:</emphasis></para>
-<para><emphasis>STEP 1:</emphasis> Identify known variables.</para>
-<para><emphasis>STEP 2:</emphasis> Write an equation to show the distance covered.</para>
-<para><emphasis>STEP 3:</emphasis> Write an equation that solves for \(c\) the number of miles traveled while canoeing.</para>
+<para><emphasis>STEP 1:</emphasis> Identify known variables.
+\(c\): miles canoeing
+\(w\): miles walked</para>
+<para><emphasis>STEP 2:</emphasis> Write an equation to show the distance covered.
+4w+7c=30</para>
+<para><emphasis>STEP 3:</emphasis> Write an equation that solves for \(c\) the number of miles traveled while canoeing.
+\(c=\frac{30-4}{w7}\)</para>
 </section>
 </content>
 </document>

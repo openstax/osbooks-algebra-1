@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02467</md:content-id>
     <md:title>9.8.4: Practice</md:title>
-    <md:uuid>5cda9be8-367a-40dc-bdd8-625c18d9e236</md:uuid>
+    <md:uuid>ab873fee-9648-4ae2-a302-3c43d002dbbc</md:uuid>
   </metadata>
   <content>
   <section><para>Complete the following questions to practice the skills you have learned in this lesson.</para>
@@ -52,14 +52,22 @@
   <exercise data-content-id="0d72bfb3-3bc6-42ee-8980-b3f3663afc70" data-problem-type="multiplechoice" data-retry-limit="3" data-solution="Multiplying by 4 makes the coefficient of the squared term a perfect square, which makes it easier to complete the square." data-solution-options="[&quot;You must always multiply both sides by 4 when completing the square.&quot;, &quot;If the value of \\(c\\) is positive and you multiply by 4, it will be easier to divide the \\(b\\) term by 3 before you square it.&quot;, &quot;Multiplying by 4 makes the coefficient of the \\(b\\) term a perfect square, which makes it easier to complete the square.&quot;, &quot;Multiplying by 4 makes the coefficient of the squared term a perfect square, which makes it easier to complete the square.&quot;]">
     <problem>
       <para>Examine the solution method that has been started below and use it to answer parts d and e.</para>
-      <para>Original equation</para>
-      <para><emphasis>Step 1</emphasis> - Subtract 10 from each side.</para>
-      <para><emphasis>Step 2</emphasis> - Multiply each side by 4.</para>
-      <para><emphasis>Step 3</emphasis> - Rewrite \(4x^2\) as \((2x)^2\) and \(4(7x)\) as \(2(7)2x\).</para>
-      <para><emphasis>Step 4</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
-      <para><emphasis>Step 5</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
-      <para><emphasis>Step 6</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
-      <para><emphasis>Step 7</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
+      <para>Original equation
+        \(x^2+7x+10=0\)</para>
+      <para><emphasis>Step 1</emphasis> - Subtract 10 from each side.
+        \(x^2+7x=-10\)</para>
+      <para><emphasis>Step 2</emphasis> - Multiply each side by 4.
+        \(4x^2+4(7x)=-4(10)\)</para>
+      <para><emphasis>Step 3</emphasis> - Rewrite \(4x^2\) as \((2x)^2\) and \(4(7x)\) as \(2(7)2x\).
+        \((2x)^2+2(7)(2x) +\_\_\_\_^2=\_\_\_\_^2-4(10)\)</para>
+      <para><emphasis>Step 4</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
+        \((2x+\_\_\_\_)^2=\_\_\_\_^2-4(10)\)</para>
+      <para><emphasis>Step 5</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
+        \(2x+\_\_\_\_= \pm \sqrt{\_\_\_\_^2-4(10)}\)</para>
+      <para><emphasis>Step 6</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
+        \(2x=\_\_\_\_\pm \sqrt{\_\_\_\_^2-4(10)}\)</para>
+      <para><emphasis>Step 7</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
+        \(x= \_\_\_\_\)</para>
       <para>In Step 2, what might be a good reason for multiplying each side of the equation by 4?</para>
       </problem>
     <solution>
@@ -77,11 +85,16 @@
     <solution>
       <para>Correct! The solutions are -5 and -2.</para>
       <para>Here are the unfinished steps:</para>
-      <para><emphasis>Step 3</emphasis> - Rewrite \(4x^2\) as \((2x)^2\) and \(4(7x)\) as \(2(7)2x\).</para>
-      <para><emphasis>Step 4</emphasis> - Factor the trinomial.</para>
-      <para><emphasis>Step 5</emphasis> - Take the square root of each side.</para>
-      <para><emphasis>Step 6</emphasis> - Subtract 7 from both sides.</para>
-      <para><emphasis>Step 7</emphasis> - Solve.</para>
+      <para><emphasis>Step 3</emphasis> - Rewrite \(4x^2\) as \((2x)^2\) and \(4(7x)\) as \(2(7)2x\).
+        \((2x)^2+2(7)(2x) +(7)^2=(7)^2-4(10)\)</para>
+      <para><emphasis>Step 4</emphasis> - Factor the trinomial.
+        \((2x+7)^2=(7)^2-4(10)\)</para>
+      <para><emphasis>Step 5</emphasis> - Take the square root of each side.
+        \(2x+7= \pm \sqrt{7^2-4(10)}\)</para>
+      <para><emphasis>Step 6</emphasis> - Subtract 7 from both sides.
+        \(2x=-7 \pm \sqrt{7^2-4(10)}\)</para>
+      <para><emphasis>Step 7</emphasis> - Solve.
+        \(x=-5\), -2</para>
     </solution>
     <div class="os-raise-ib-pset-encourage-response">
       <para>Try again. Revisit activities 9.8.1 and 9.8.2. </para>

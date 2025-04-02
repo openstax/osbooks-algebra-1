@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02460</md:content-id>
     <md:title>9.8.1: Deriving the Quadratic Formula, Part 1</md:title>
-    <md:uuid>8673c2b2-f6b5-4122-bdfe-f88d70a8bc51</md:uuid>
+    <md:uuid>0b7b3f98-cac6-4014-9a77-84eacc0196ae</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
@@ -11,34 +11,60 @@
   <problem>
     
     <para>One way to solve the quadratic equation \(x^2+5x+3=0\) is by <term data-schema-version="“1.0”" data-store="glossary-tooltip">completing the square</term>. A partially solved equation is shown here. Study Steps 1 – 4.</para>
-    <para>Original equation</para>
-    <para><emphasis>Step 1</emphasis> - Multiply each side by 4. This helps us avoid some tricky fractions. (In general, multiply each side of the equation by 4 times the coefficient of the \(x^2\) term. In this case, that is just 4 times 1, which is 4.)</para>
-    <para><emphasis>Step 2</emphasis> - Subtract 12 from each side.</para>
-    <para><emphasis>Step 3</emphasis> - Rewrite \(4x^2\) as \((2x)^2\) and \(20x\) as \(10(2x)\).</para>
-    <para><emphasis>Step 4</emphasis> - Use \(P\) as a placeholder for \(2x\).</para>
+    <para>Original equation
+      \(x^2+5x+3=0\)</para>
+    <para><emphasis>Step 1</emphasis> - Multiply each side by 4. This helps us avoid some tricky fractions. (In general, multiply each side of the equation by 4 times the coefficient of the \(x^2\) term. In this case, that is just 4 times 1, which is 4.)
+      \(4x^2+20x+12=0\)</para>
+    <para><emphasis>Step 2</emphasis> - Subtract 12 from each side.
+      \(4x^2+20x=-12\)</para>
+    <para><emphasis>Step 3</emphasis> - Rewrite \(4x^2\) as \((2x)^2\) and \(20x\) as \(10(2x)\).
+      \((2x)^2+10(2x)=-12\)</para>
+    <para><emphasis>Step 4</emphasis> - Use \(P\) as a placeholder for \(2x\).
+      \(P^2+10P=-12\)</para>
     <para>For steps 5 – 11, let \(P\) serve as a placeholder for \(2x\), continue to solve for \( x\) but without evaluating any part of the expression. For each step, explain the mathematical operation(s) being performed.</para>
-    <para><emphasis>Step 5</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
-    <para><emphasis>Step 6</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
-    <para><emphasis>Step 7</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
+    <para><emphasis>Step 5</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
+      \(P^2+10P+\_\_\_\_^2=-12+\_\_\_\_^2\)</para>
+    <para><emphasis>Step 6</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
+      \((P+\_\_\_\_)^2=-12+\_\_\_\_^2\)</para>
+    <para><emphasis>Step 7</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
+      \( \sqrt{(P+\_\_\_\_)^2}=\sqrt{-12+\_\_\_\_^2}\)</para>
     \(P+\_\_\_\_= \pm \sqrt{-12+\_\_\_\_^2}\)
-    <para><emphasis>Step 8</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
-    <para><emphasis>Step 9</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
-      <para><emphasis>Step 10</emphasis> - </para>
+    <para><emphasis>Step 8</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
+      \(P=\_\_\_\_ \pm \sqrt{-12+\_\_\_\_^2}\)</para>
+    <para><emphasis>Step 9</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
+      \(P=\_\_\_\_ \pm \sqrt{\_\_\_\_^2-12}\)</para>
+      <para><emphasis>Step 10</emphasis> - 
+      \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
+      \(2x=\_\_\_\_ \pm \sqrt {\_\_\_\_^2-12}\)</para>
     <para><emphasis>Step 11</emphasis>
-      \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
+      \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
+      \(x=\)</para>
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
   <para>Compare your answer:</para>
-  <para><emphasis>Step 5</emphasis> - </para>
-  <para><emphasis>Step 6</emphasis> - Write the left side as a squared factor.</para>
+  <para><emphasis>Step 5</emphasis> - 
+    Add to complete the square.
+    \(P^2+10P+5^2=-12+5^2\)</para>
+  <para><emphasis>Step 6</emphasis> - Write the left side as a squared factor.
+    \((P+5)^2=-12+5^2\)</para>
   <para><emphasis>Step 7</emphasis> - Find the square root of both sides of the equation.
-    </para>
-  <para><emphasis>Step 8</emphasis> - Subtract 5 from both sides to isolate.</para>
-  <para><emphasis>Step 9</emphasis> - Rearrange the expression under the square root sign.</para>
-    <para><emphasis>Step 10</emphasis> - </para>
-  <para><emphasis>Step 11</emphasis></para>
+    
+    \( \sqrt {(P+5)^2}= \sqrt {-12+5^2}\)
+    \(P+5= \pm \sqrt {-12+5^2}\)
+  </para>
+  <para><emphasis>Step 8</emphasis> - Subtract 5 from both sides to isolate.
+    \(P=-5 \pm \sqrt {-12+5^2}\)</para>
+  <para><emphasis>Step 9</emphasis> - Rearrange the expression under the square root sign.
+    \(P=-5 \pm \sqrt {5^2-12}\)</para>
+    <para><emphasis>Step 10</emphasis> - 
+    Re-substitute \(2x\) for \(P\).
+    \(2x=-5 \pm \sqrt {5^2-12}\)</para>
+  <para><emphasis>Step 11</emphasis>
+    Divide each side by 2 to isolate \(x\).
+    \(x=\frac{-5 \pm \sqrt{5^2-12}}{2}\) </para>
 </solution></exercise>
-</example><example><exercise>
+</example>
+<example><exercise>
   <problem>
     
     <para>Explain how the solution is related to the <term data-schema-version="“1.0”" data-store="glossary-tooltip">quadratic formula</term>.</para>

@@ -3,13 +3,14 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01386</md:content-id>
     <md:title>5.8.2: Represent a Function as a Table of Values, Graph, and Equation</md:title>
-    <md:uuid>b27871ac-326e-4d68-ba73-ea114b5bc94a</md:uuid>
+    <md:uuid>3869bd72-2119-4aba-b234-6653aadb8294</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
 <para>Clare noticed mold on the last slice of bread in a plastic bag. The area covered by the mold was about 1 square
   millimeter. She left the bread alone to see how the mold would grow. The next day, the area covered by the mold had
   doubled, and it doubled again the day after that.</para>
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -22,6 +23,7 @@
     <para>16 square millimeters. \(2 \cdot 2 \cdot 2 \cdot 2\) or \(2^4\) is 16.</para>
   </solution></exercise>
 <!--Interaction End -->
+
 <example><exercise>
   <problem>
     
@@ -94,11 +96,15 @@
         </row>
       </tbody>
     </table>
+    
     <item> Equation: \(A=1 \cdot 2^d\) or equivalent (like \(A=2^d\)). </item>
-    <item>Your graph may be discrete or continuous, this example is a discrete graph.<figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/12fcc0a764a3422882fd1d726e1ca3ad71b343f0"/></media></figure></item>
+    
+    <item>Your graph may be discrete or continuous, this example is a discrete graph.
+      <figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/12fcc0a764a3422882fd1d726e1ca3ad71b343f0"/></media></figure></item>
   </list>
 </solution></exercise>
-</example><!--Text Entry Interaction Start -->
+</example>
+<!--Text Entry Interaction Start -->
 <exercise>
   <problem>
     <para> Discuss with your partner: Is the relationship between the area covered by mold and the number of days a
@@ -118,6 +124,8 @@
     </list>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
 <example><exercise>
   <problem>
@@ -131,13 +139,17 @@
   <problem>
     <title>Extending Your Thinking</title>
 
+    
     <para>What do you think is an appropriate domain for the mold area function \(A\)? Be prepared to show your reasoning.
     </para>
   </problem><solution>
     
     <para>Enter your answer here:</para>
   <para>Compare your answer:</para>
-    <para>Your answer may vary, but here is an example.</para>
+    <para>Your answer may vary, but here is an example.Some negative values of \(t\) could be relevant, but we
+      don’t know how the mold was growing before Clare started watching. Positive values of \(t\) will not be
+      valid indefinitely as the bread will soon be completely covered by mold. If a piece of bread is 10 cm by 10 cm,
+      that’s 10,000 square mm. An appropriate domain would be \(0 \leq d \leq 14\).</para>
   </solution></exercise>
 <!--End interaction--></section>
 </content>

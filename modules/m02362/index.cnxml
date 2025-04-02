@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02362</md:content-id>
     <md:title>9.3.2: Using Completing the Square to Solve Equations</md:title>
-    <md:uuid>fbdd6d82-54c7-4a40-b794-70fdebf93517</md:uuid>
+    <md:uuid>42e51f6e-4b0b-4a1f-a2dd-b7d08c26511d</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -30,6 +30,7 @@
 <para>Consider arranging students in groups of two. If there is not enough time for students to answer all the questions,
   consider asking students to look at the list of equations and to choose one they think looks easier (or more familiar)
   and one that looks harder (or less familiar).</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
@@ -46,6 +47,7 @@
     </para>
   </div>
 </div>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -56,18 +58,27 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Organization; Attention; Social-emotional skills</para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para><term data-schema-version="1.0" data-store="glossary-tooltip">Completing the
     square</term> can be used to solve quadratic equations.</para>
 <para>Example: Solve \(x^2+8x-2=0\).</para>
 <para>To complete the square to solve an equation, follow these steps:</para>
-<para><emphasis>Step 1</emphasis> - Write the equation in the form \(ax^2+bx=c\).</para>
-<para><emphasis>Step 2</emphasis> - Complete the square by finding \((\frac{b}{2})^2\).</para>
-<para><emphasis>Step 3</emphasis> - Add the value to both sides of the equation.</para>
+<para><emphasis>Step 1</emphasis> - Write the equation in the form \(ax^2+bx=c\).
+  \(x^2+8x=-2\)</para>
+<para><emphasis>Step 2</emphasis> - Complete the square by finding \((\frac{b}{2})^2\).
+  \((\frac{b}{2})^2=(\frac{8}{2})^2=16\)</para>
+<para><emphasis>Step 3</emphasis> - Add the value to both sides of the equation.
+  \(x^2+8x+16=-2+16\)</para>
 <para><emphasis>Step 4</emphasis> - Factor the <term data-schema-version="1.0" data-store="glossary-tooltip">perfect square
-    trinomial</term> and simplify the constants.</para>
-<para><emphasis>Step 5</emphasis> - Take the square root of each side (remember the plus-minus sign with the constant).</para>
-<para><emphasis>Step 6</emphasis> - Write two separate equations and solve each.</para>
+    trinomial</term> and simplify the constants.
+  \((x+4)^2=14\)</para>
+<para><emphasis>Step 5</emphasis> - Take the square root of each side (remember the plus-minus sign with the constant).
+  \(\sqrt{(x+4)^2}=\sqrt{14}\)
+  \(x+4= \pm \sqrt{14}\)</para>
+<para><emphasis>Step 6</emphasis> - Write two separate equations and solve each.
+  \(x + 4 = \sqrt{14}\)  or  \(x + 4 =\; - \;\sqrt{14}\)
+  \(x = -4 + \sqrt{14}\)  or  \(x =\; -\;4\; -\; \sqrt{14}\)</para>
 <para>Solve each equation by completing the square. In part a, select the value of \((\frac{b}{2})^2\) that will complete
   the square. In part b, choose the <emphasis>two </emphasis>roots.</para>
 <list class="os-raise-noindent" type="enumerated">
@@ -169,6 +180,8 @@
       https://k12.openstax.org/contents/raise/resources/288db4630304a967aa6e11fd7c31f5115d5f67ad
     </track></source></video></iframe>
 </div>
+
+
 <title>Anticipated Misconceptions</title>
 <para>Some students may have a difficult time getting started given the increased complexity of these problems. Encourage
   these students to use completing the square to solve a more familiar problem first, such as \(x^2−10x+20=4\),
@@ -250,6 +263,7 @@
     </row>
   </tbody>
 </table>
+
 <title>9.3.2: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on
     their experience with the self check. Students will not automatically have access to this content, so you may wish
@@ -282,11 +296,18 @@
 <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <title>Solution</title>
 <para>Here is how to find the zeros after using completing the square:</para>
-<para><emphasis>Step 1</emphasis> - Add the constant to the other side of the equation.</para>
-<para><emphasis>Step 2</emphasis> - Complete the square.</para>
-<para><emphasis>Step 3</emphasis> - Add the constant to each side.</para>
-<para><emphasis>Step 4</emphasis> - Simplify and factor the perfect square trinomial.</para>
-<para><emphasis>Step 5</emphasis> - Take the square root of both sides of the equation.</para>
-<para><emphasis>Step 6</emphasis> - Write the two equations and solve. </para></section>
+<para><emphasis>Step 1</emphasis> - Add the constant to the other side of the equation.
+  \(x^2+3x=4\)</para>
+<para><emphasis>Step 2</emphasis> - Complete the square.
+  \((\frac{3}{2})^2=\frac94\)</para>
+<para><emphasis>Step 3</emphasis> - Add the constant to each side.
+  \(x^2+3x+\frac{9}{4}=\frac{16}{4}+\frac94\)</para>
+<para><emphasis>Step 4</emphasis> - Simplify and factor the perfect square trinomial.
+  \((x+\frac{3}{2})^2=\frac{25}{4}\)</para>
+<para><emphasis>Step 5</emphasis> - Take the square root of both sides of the equation.
+  \(x+\frac{3}{2}= \pm \frac{5}{2}\)</para>
+<para><emphasis>Step 6</emphasis> - Write the two equations and solve. 
+  \(x+\frac{3}{2}=\frac{5}{2}\) and \(x+\frac{3}{2}=-\frac{5}{2}\)
+  \(x=1\)                             \(x=-4\)</para></section>
 </content>
 </document>

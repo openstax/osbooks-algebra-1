@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01193</md:content-id>
     <md:title>4.18.4: Define a Geometric Sequence by the nth Term</md:title>
-    <md:uuid>49915a53-5b67-4826-a8ad-ac186c30fa89</md:uuid>
+    <md:uuid>c6648177-2f50-4c44-9d0b-e0f06d149e41</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
@@ -29,6 +29,8 @@
     
   </solution></exercise>
 <!--Interaction End -->
+
+
 <para>Work with a partner to discuss and create a table of values to estimate the projected wildcat population over the next 7 years.</para>
 <example><exercise>
   <problem>
@@ -85,9 +87,11 @@
         </row>
       </tbody>
     </table>
-    <para>When you have completed the table, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+    
+  <para>When you have completed the table, then select the <emphasis>solution</emphasis> button to compare your work. </para>
   </problem><solution>
   <para>Compare your answer:</para>
+  
   <table class="os-raise-wideequaltable">
     <thead>
       <row>
@@ -139,8 +143,10 @@
       </row>
     </tbody>
   </table>
-  </solution></exercise>
-</example><list class="os-raise-noindent" start="3" type="enumerated">
+  
+</solution></exercise>
+</example>
+<list class="os-raise-noindent" start="3" type="enumerated">
   <item>Use the graphing tool or technology outside the course. Graph the data that represents the population projections for this scenario.</item>
 </list>
 <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
@@ -150,8 +156,10 @@
     <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
   </problem><solution>
   <para>Compare your answers:</para>
+  
   <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/53fb8c9a6e0a4dc461223a472fbf2e25bf23a7a7"/></media></figure></solution></exercise>
-</example><exercise>
+</example>
+<exercise>
   <problem>
     <para>Calculate and enter the year when the wildcat population will exceed 500 members.</para>
     </problem><solution>
@@ -160,6 +168,7 @@
   <para>Compare your answer:</para>
     <para>The wildcat population is expected to exceed 500 members in 2030 when they are projected to have 511 wildcats.</para>
   </solution></exercise>
+
 <exercise>
   <problem>
     <para>Is the data that represents this scenario an arithmetic or geometric sequence? Explain your reasoning.</para>
@@ -168,6 +177,7 @@
     <para>Enter your answer here:</para>
   <para>Compare your answer:</para>
     <para>Your answer may vary, but here are some samples: 
+      
       </para><list>
         <item>This data represents a geometric sequence because the equation has a common ratio of 1.04. </item>
         <item>This data represents a geometric sequence because the ratio between consecutive terms in the table is 1.04. </item>
@@ -175,18 +185,23 @@
       </list>
     
   </solution></exercise>
+
 <para>Remember that a recursive formula defines terms using one or more of the previous terms. If you need to calculate the \(100^{th}\) term or the \(500^{th}\) term in a sequence, the recursive formula becomes difficult to use if you do not know the values of the terms near \(n = 100\) or \(n = 500\). </para>
 
 <para>Different definitions can often create the same sequence but are more generalizable. These are called general rules or explicit rules. These formulas can be used to find any term in the sequence and may also be referred to as the rule to find the nth term. </para>
 
 
+
 <note>
   <title>Geometric Sequence Formulas</title>
-<h6>Recursive Formula</h6>
+
+  <h6>Recursive Formula</h6>
   <para>\(a_n = a_{n-1} \cdot r\), 
-    </para>
+     Where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.</para>
+  
   <h6>Explicit General Formula</h6>
-  <para>\(a_n = a_1 (r)^{n-1} \)</para>
+  <para>\(a_n = a_1 (r)^{n-1} \)
+    Where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.</para>
 </note>
 </section>
 </content>

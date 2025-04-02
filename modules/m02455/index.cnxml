@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02455</md:content-id>
     <md:title>9.8.2: Deriving the Quadratic Formula, Part 2</md:title>
-    <md:uuid>849a9aee-2700-47b7-bdb3-3299f30e226c</md:uuid>
+    <md:uuid>a85a88e3-d491-4319-8ee1-9e505bd5e9c4</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -11,6 +11,7 @@
 <para>In this activity, students study a series of steps taken to solve \(ax^2+bx+c=0\) by completing the square and make sense of how it leads to the quadratic formula. Along the way, they see that the solving process involves similar maneuvers as those seen earlier, for example, multiplying the equation by a factor to make the leading coefficient a perfect square, writing the linear coefficient as 2 times two numbers, and adding the square of one of the numbers to complete the square. They see that the result of solving the equation by completing the square is the quadratic formula.</para>
 <title>Launch</title>
 <para>Tell students that they will now study a worked-out solution to \(ax^2+bx+c=0\). There are no numbers in this equation, but the process of solving should be familiar. Ask students to analyze the solution and record an explanation for each step. (They should explain why each step is taken, not only what happens in each step.)</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -21,9 +22,11 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Visual-spatial processing; Organization</para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para>Here is one way to make sense of how the quadratic formula came about. Study the derivation until you can explain what happened in each step. Write down your explanation for each step.</para>
-<para>Original equation</para>
+<para>Original equation
+  \(ax^2+bx+c=0\)</para>
 <para><emphasis>Step 1</emphasis> - \(4a^2x^2+4abx+4ac=0\)</para>
 <para><emphasis>Step 2</emphasis> - \(4a^2x^2+4abx=-4ac\)</para>
 <para><emphasis>Step 3</emphasis> - \((2ax)^2+2b(2ax)=-4ac\)</para>
@@ -34,20 +37,35 @@
 <para>\(M+b= \pm \sqrt{b^2-4ac}\)</para>
 <para><emphasis>Step 8</emphasis> - \(M=-b \pm \sqrt{b^2-4ac}\)</para>
 <para><emphasis>Step 9</emphasis> - \(2ax=-b \pm \sqrt{b^2-4ac}\)</para>
-<para><emphasis>Step 10</emphasis> - </para>
+<para><emphasis>Step 10</emphasis> - 
+  \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\)</para>
 <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-<para><emphasis>Answer:</emphasis></para>
-<para><emphasis>Step 1</emphasis> - Multiply by \(4a\) so the coefficient of \(x^2\) is a perfect square.</para>
-<para><emphasis>Step 2</emphasis> - Isolate the constant term to the right.</para>
-<para><emphasis>Step 3</emphasis> - Write the squared term as (something)\(^2\).</para>
-<para><emphasis>Step 4</emphasis> - Use \(M\) as the placeholder for \(2ax\).</para>
-<para><emphasis>Step 5</emphasis> - Add \(b^2\) to complete the square.</para>
-<para><emphasis>Step 6</emphasis> - Write the left side as a squared factor and commute the terms on the right.</para>
-<para><emphasis>Step 7</emphasis> - Find the square roots of both sides of the equation.</para>
+<para><emphasis>Answer:</emphasis>
+  Original equation
+  \(ax^2+bx+c=0\)</para>
+<para><emphasis>Step 1</emphasis> - Multiply by \(4a\) so the coefficient of \(x^2\) is a perfect square.
+  \(4a^2x^2+4abx+4ac=0\)</para>
+<para><emphasis>Step 2</emphasis> - Isolate the constant term to the right.
+  \(4a^2x^2+4abx=-4ac\)</para>
+<para><emphasis>Step 3</emphasis> - Write the squared term as (something)\(^2\).
+  Write the linear term as \(2b \;\cdot\) (something).
+  \((2ax)^2+2b(2ax)=-4ac\)</para>
+<para><emphasis>Step 4</emphasis> - Use \(M\) as the placeholder for \(2ax\).
+  \(M^2+2bM=-4ac\)</para>
+<para><emphasis>Step 5</emphasis> - Add \(b^2\) to complete the square.
+  \(M^2+2bM+b^2=-4ac+b^2\)</para>
+<para><emphasis>Step 6</emphasis> - Write the left side as a squared factor and commute the terms on the right.
+  \((M+b)^2=b^2-4ac\)</para>
+<para><emphasis>Step 7</emphasis> - Find the square roots of both sides of the equation.
+  \( \sqrt{(M+b)^2} =\sqrt{b^2-4ac}\)</para>
 <para>\(M+b= \pm \sqrt{b^2-4ac}\)</para>
-<para><emphasis>Step 8</emphasis> - Subtract \(b\) to isolate \(M\).</para>
-<para><emphasis>Step 9</emphasis> - Replace \(M\) with \(2ax\).</para>
-<para/><para><emphasis>Step 10</emphasis> - </para>
+<para><emphasis>Step 8</emphasis> - Subtract \(b\) to isolate \(M\).
+  \(M=-b \pm \sqrt{b^2-4ac}\)</para>
+<para><emphasis>Step 9</emphasis> - Replace \(M\) with \(2ax\).
+  \(2ax=-b \pm \sqrt{b^2-4ac}\)</para>
+<para/><para><emphasis>Step 10</emphasis> - 
+  Divide both sides by \(2a\) to isolate \(x\).
+  \(x= \frac{-b \pm \sqrt{b^2-4ac}}{2a}\)</para>
 <title>Student Facing Extension</title>
 <title>Are you ready for more?</title>
 <para>Here is another way to derive the quadratic formula by completing the square.</para>
@@ -56,15 +74,18 @@
   <item> Then, complete the square for \(x^2+\frac{b}{a}x+\frac{c}{a}=0\). </item>
 </list>
 <para>In problems 1 – 10, briefly explain what happens in each step by answering the question. Use the "^" symbol to enter an exponent.</para>
-<para>Original equation</para>
+<para>Original equation
+  \(x^2+\frac{b}{a}x+\frac{c}{a}=0\)</para>
 <list class="os-raise-noindent" type="enumerated">
-  <item>Step 1</item>
+  <item>Step 1
+    What constant should be subtracted from both sides?</item>
 </list>
 <para><emphasis>Answer:</emphasis> \(-\frac{c}{a}\)</para>
 <para>Now the equation looks like</para>
 <para>\(x^2+\frac{b}{a}x= -\frac{c}{a}\).</para>
 <list class="os-raise-noindent" start="2" type="enumerated">
-  <item>Step 2</item>
+  <item>Step 2
+    What constant do we need to add to both sides to complete the square?</item>
 </list>
 <para><emphasis>Answer:</emphasis> \((\frac{b}{2a})^2\)</para>
 <para>To complete the square, we add it to both sides. Now the equation looks like</para>
@@ -75,45 +96,60 @@
 </para>
 <para>\(x^2+2(\frac{b}{2a})x+ (\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
 <list class="os-raise-noindent" start="3" type="enumerated">
-  <item>Step 3</item>
+  <item>Step 3
+    Now we can complete the square. What is the binomial that is squared on the left side?</item>
 </list>
 <para><emphasis>Answer:</emphasis> \(x+\frac{b}{2a}\)</para>
-<para>Now the equation looks like</para>
+<para>Now the equation looks like
+  \((x+\frac{b}{2a})^2= -\frac{c}{a}+\frac{b^2}{4a^2}\).</para>
 <list class="os-raise-noindent" start="4" type="enumerated">
-  <item>Step 4</item>
+  <item>Step 4
+    Next, we add the fractions on the right side of the equation. What will the common denominator be?</item>
 </list>
 <para><emphasis>Answer:</emphasis> The common denominator will be \(4a^2\).</para>
-<para>Now the equation looks like </para>
+<para>Now the equation looks like 
+  \((x+\frac{b}{2a})^2= -\frac{4ac}{4a^2}+\frac{b^2}{4a^2}\).</para>
 <list class="os-raise-noindent" start="5" type="enumerated">
-  <item>Step 5</item>
+  <item>Step 5
+    Once the fractions on the right side of the equation are added together, what will the numerator of that new fraction be?</item>
 </list>
 <para><emphasis>Answer:</emphasis> \(b^2-4ac\)</para>
-<para>Now the equation looks like</para>
+<para>Now the equation looks like
+  \((x+\frac{b}{2a})^2=\frac{b^2-4ac}{4a^2}\).</para>
 <list class="os-raise-noindent" start="6" type="enumerated">
-  <item>Step 6</item>
+  <item>Step 6
+    What is the next step necessary to isolate \(x\) on the left side?</item>
 </list>
 <para><emphasis>Answer:</emphasis> Take the square root of both sides.</para>
-<para>Remember to put the \(\pm\) in front of the radical! Now the equation looks like</para>
+<para>Remember to put the \(\pm\) in front of the radical! Now the equation looks like
+  \(x+\frac{b}{2a}= \pm \sqrt{\frac{b^2-4ac}{4a^2}}\).</para>
 <list class="os-raise-noindent" start="7" type="enumerated">
-  <item>Step 7</item>
+  <item>Step 7
+    How can the square root be simplified?</item>
 </list>
 <para><emphasis>Answer:</emphasis> The square root of a fraction is the square root of the numerator divided by the square root of the denominator.</para>
 <para>\(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{\sqrt{4a^2}}\)</para>
 <list class="os-raise-noindent" start="8" type="enumerated">
-  <item>Step 8</item>
+  <item>Step 8
+    What is the denominator of the fraction on the right side after simplification?</item>
 </list>
 <para><emphasis>Answer:</emphasis> \(2a\)</para>
-<para>Now the equation looks like</para>
+<para>Now the equation looks like
+  \(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{2a}\).</para>
 <list class="os-raise-noindent" start="9" type="enumerated">
-  <item>Step 9</item>
+  <item>Step 9
+    What is the next step I need to take to isolate \(x\) on the left side of the equation?</item>
 </list>
 <para><emphasis>Answer:</emphasis> Subtract \(\frac{b}{2a}\) from both sides.</para>
-<para>Now the equation looks like</para>
+<para>Now the equation looks like
+  \(x=-\frac b{2a} \pm\frac{\sqrt{b^2-4ac}}{2a}\).</para>
 <list class="os-raise-noindent" start="10" type="enumerated">
-  <item><emphasis>Step 10</emphasis> - </item>
+  <item><emphasis>Step 10</emphasis> - 
+    What do you notice about the denominator of both fractions on the right side?</item>
 </list>
 <para><emphasis>Answer:</emphasis> They are the same.</para>
-<para>Add the fractions, and we come to the result: the quadratic equation,</para>
+<para>Add the fractions, and we come to the result: the quadratic equation,
+  \(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\).</para>
 <title>Video: Deriving the Quadratic Formula</title>
 <para>Watch the following video to learn more about deriving the quadratic formula.</para>
 <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
@@ -122,6 +158,8 @@
       <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/5c46d09e7ba2332487e618cbe92d9c7796441239" srclang="en_us">https://k12.openstax.org/contents/raise/resources/cdad89b7a5ee8c0eacfcbd8a970217904f3ade81
     </track></source></video></iframe>
 </div>
+
+
 <title>Anticipated Misconceptions</title>
 <para>Some students may think that we multiply just by 4 and wonder where the \(a\) comes from. Point out that we need the first term to be a perfect square. In the previous activity, the \(a\) value was 1 (which was already a perfect square). We can't be certain that \(a\) is a perfect square, so we multiply by 4 and \(a\) to make the first term \(4a^2x^2\), which is \((2ax)^2\), a perfect square.</para>
 <para>Some may wonder where the \(M\) comes from. Consider displaying a completed solution from the previous activity that parallels this work. Remind students of the placeholder \(P\) used there. Invite them to compare other steps in the previous activity to those in this activity to help them explain the derivation.</para>
@@ -191,6 +229,7 @@
     </row>
   </tbody>
 </table>
+
 <!--END SELF CHECK INTRO BEFORE Tables -->
 <title>9.8.2: Additional Resources</title>
 <emphasis><emphasis>
@@ -199,10 +238,14 @@
 <title>A General Way to Derive the Quadratic Formula</title>
 <para>Here is another way to look at how to derive the quadratic formula:</para>
 <para>We can derive the quadratic formula by completing the square. We will assume that the leading coefficient is positive; if it is negative, we can multiply the equation by −1 and obtain a positive \(a\). Given \(ax^2+bx+c=0\), \(a \neq 0\), we will complete the square as follows:</para>
-<para><emphasis>Step 1</emphasis> - First, move the constant term to the right side of the equal sign:</para>
-<para><emphasis>Step 2</emphasis> - As we want the leading coefficient to equal 1, divide through by \(a\):</para>
-<para><emphasis>Step 3</emphasis> - Then, find \(\frac{1}{2}\) of the middle term, and add \((\frac{1}{2} \cdot \frac{b}{a})^2=\frac{b^2}{4a^2}\) to both sides of the equal sign:</para>
-<para><emphasis>Step 4</emphasis> - Next, write the left side as a perfect square. Find the common denominator of the right side and write it as a single fraction:</para>
+<para><emphasis>Step 1</emphasis> - First, move the constant term to the right side of the equal sign:
+  \(ax^2+bx= -c\)</para>
+<para><emphasis>Step 2</emphasis> - As we want the leading coefficient to equal 1, divide through by \(a\):
+  \(x^2+\frac{b}{a}x= -\frac{c}{a}\)</para>
+<para><emphasis>Step 3</emphasis> - Then, find \(\frac{1}{2}\) of the middle term, and add \((\frac{1}{2} \cdot \frac{b}{a})^2=\frac{b^2}{4a^2}\) to both sides of the equal sign:
+  \(x^2+\frac{b}{a}x+\frac{b^2}{4a^2}=\frac{b^2}{4a^2}−\frac{c}{a}\)</para>
+<para><emphasis>Step 4</emphasis> - Next, write the left side as a perfect square. Find the common denominator of the right side and write it as a single fraction:
+  \((x+\frac{b}{2a})^2=\frac{b^2−4ac}{4a^2}\)</para>
 <para><emphasis>Step 5</emphasis> - Now, use the square root property, which gives:</para>
 <para>\(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\)</para>
 <para>\(x+\frac b{2a}=\frac{\pm\sqrt{b^2-4ac}}{2a}\)</para>

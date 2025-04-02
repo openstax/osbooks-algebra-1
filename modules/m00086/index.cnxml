@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00086</md:content-id>
     <md:title>1.3.3: Identifying and Representing Relationships</md:title>
-    <md:uuid>88b13f23-00ac-4684-8c80-20a5acc78aa3</md:uuid>
+    <md:uuid>2f1a7fd1-38b7-4bc8-a2c6-f3bfc8dc68f9</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -37,6 +37,7 @@
   <item>If possible, bringing measurement containers/liquid (and paper towels!) can add engagement for the jug problem.
   </item>
 </list>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -50,6 +51,8 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Language; Organization</para>
     </div>
   </div>
+
+
 <title>Student Activity</title>
 <para>1. The table represents the relationship between the base length and the height of some parallelograms. Both
   measurements are in inches.</para>
@@ -58,9 +61,11 @@
   <thead>
     <row>
       <entry scope="col" class="emphasis">
-        base length</entry>
+        base length(inches)
+      </entry>
       <entry scope="col" class="emphasis">
-        height</entry>
+        height(inches)
+      </entry>
     </row>
   </thead>
   <tbody>
@@ -106,6 +111,7 @@
     </row>
   </tbody>
 </table>
+
 <para>What is the relationship between the base length and the height of these parallelograms?</para>
 <para><emphasis>Answer:</emphasis></para>
 <list>
@@ -126,7 +132,8 @@
         Number of winners
       </entry>
       <entry scope="col" class="emphasis">
-        Amount in dollars</entry>
+        Amount in dollarseach winner receives
+      </entry>
     </row>
   </thead>
   <tbody>
@@ -172,6 +179,7 @@
     </row>
   </tbody>
 </table>
+
 <list>
   <item>The amount in dollars received by each winner is 300 divided by the number of winners.</item>
   <item>\( a=\frac{300}{n} \) or \( an=300 \) (or equivalent), where \(a\) is the dollar amount a winner receives and
@@ -223,7 +231,8 @@
       </entry>
     </row>
   </tbody>
-</table><list>
+</table>
+<list>
   <item>Multiplying the number of gallons by 128 gives the number of fluid ounces.</item>
   <item>\( f=8*8*2*g \) or \( f=128g \) (or equivalent), where \( f \) is the number of fluid ounces and \( g \) is the
     number of gallons.</item>
@@ -300,6 +309,7 @@
     </row>
   </tbody>
 </table>
+
 <para>What is one way to write the relationship between the number of guests and the number of cupcakes per guest from the
   table above?</para>
 <table class="os-raise-textheavytable">
@@ -333,6 +343,7 @@
     </row>
   </tbody>
 </table>
+
 <title>1.3.3: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on
     their experience with the self check. Students will not automatically have access to this content, so you may wish
@@ -383,6 +394,7 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" type="enumerated">
   <item>What is the relationship between the two distances?
   </item>
@@ -417,7 +429,9 @@
 <para>A company decides to donate $50,000 to charity. It will select up to 20 charitable organizations, as nominated by its employees. Each selected organization will receive an equal donation amount.
 </para>
 <para>What is the relationship between the number of students, \(s\), and the dollar amount each student will receive,
-  \(d\)?</para>
+  \(d\)?
+  To begin, let's examine some specific values to help uncover the pattern.
+</para>
 <list class="os-raise-noindent" start="5" type="enumerated">
   <item>If 5 organizations are selected, how much will each charity receive?</item>
 </list>
@@ -465,6 +479,8 @@
   <item>What equation can be used to model the relationship between the number of students, \(s\), receiving scholarships
     and the dollar amount, \(d\), they receive?</item>
 </list>
-<para><emphasis>Answer:</emphasis> Your answer may vary, but here is a sample.</para></section>
+<para><emphasis>Answer:</emphasis> Your answer may vary, but here is a sample.
+  The amount each student receives is $20,000 divided by the number of students or, \(d=\frac{20000}{s}\). The dollar amount each student receives, \(d\), varies inversely as the number of students, \(s\).
+</para></section>
 </content>
 </document>

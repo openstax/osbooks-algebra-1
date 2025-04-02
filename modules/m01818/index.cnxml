@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01818</md:content-id>
     <md:title>7.5.3: Additional Resources</md:title>
-    <md:uuid>0dce2d5d-1457-46ca-9730-d1ac1408be6e</md:uuid>
+    <md:uuid>f3c6c715-fd29-4e05-864c-ece4b82f39aa</md:uuid>
   </metadata>
   <content>
   <section><title>Height as a Quadratic Function</title>
@@ -14,11 +14,15 @@
 <para>\(v_0\) is the vertical speed of the object. If the object is simply dropped, the vertical speed is 0. If the object were thrown upward, this value would be positive, and if the object were thrown down, this value would be negative.</para>
 <para>\(h_0\) is the initial height of the object.</para>
 <para>A man drops his keys from a restaurant at the top of a 196-foot-tall building. If the keys are free falling, will they reach the ground within 3 seconds?</para>
-<para><emphasis>Step 1</emphasis> -  Write an equation for the height at a given time, \(t\).</para>
-<para><emphasis>Step 2</emphasis> - Substitute \(t=3\) into the function.</para>
-<para><emphasis>Step 3</emphasis> - Evaluate.</para>
+<para><emphasis>Step 1</emphasis> -  Write an equation for the height at a given time, \(t\).
+  \(h(t)=196-16t^2\)</para>
+<para><emphasis>Step 2</emphasis> - Substitute \(t=3\) into the function.
+  \(h(3)=196-16(3)^2\)</para>
+<para><emphasis>Step 3</emphasis> - Evaluate.
+  \(h(3)=196-144=52\)</para>
 <para>At \(t=3\) seconds, the keys will still have 52 feet to travel to hit the ground.</para>
 <title>Try It: Height as a Quadratic Function</title>
+
 <example><exercise>
   <problem>
     
@@ -26,9 +30,12 @@
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
   </problem><solution>
   <para>Here is how to determine if the keys reach the ground after 5 seconds:</para>
-  <para><emphasis>Step 1</emphasis> - Write an equation for the height at a given time, \(t\).</para>
-  <para><emphasis>Step 2</emphasis> - Substitute \(t=5\) into the function.</para>
-  <para><emphasis>Step 3</emphasis> - Evaluate.</para>
+  <para><emphasis>Step 1</emphasis> - Write an equation for the height at a given time, \(t\).
+    \(h(t)=196-16t^2\)</para>
+  <para><emphasis>Step 2</emphasis> - Substitute \(t=5\) into the function.
+    \(h(5)=196-16(5)^2\)</para>
+  <para><emphasis>Step 3</emphasis> - Evaluate.
+    \(h(5)=196-400=-204\)</para>
   <para>The keys reach the ground before \(t=5\) seconds since substituting in 5 creates a negative height, which implies they have fallen below ground level and does not make sense for this scenario.</para>
 </solution></exercise>
 </example></section>

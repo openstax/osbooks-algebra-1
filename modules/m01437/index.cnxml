@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01437</md:content-id>
     <md:title>5.11.4: Examine Exponential Decay in Context</md:title>
-    <md:uuid>be4ad8a1-8610-450b-9cf4-97a18c3269e5</md:uuid>
+    <md:uuid>7430a5e3-06dc-4ce0-ab8f-4210a6dcee85</md:uuid>
   </metadata>
   <content>
   <section><title> Activity (15 minutes)</title>
@@ -13,6 +13,7 @@
 <para>Students also think about the domain of the function and address the fact that this is a discrete context, i.e., it
   does not make sense to examine \(\frac23\) of a bounce, so the graphs should not be continuous.</para>
 <title> Launch</title>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -26,6 +27,7 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Memory; Conceptual processing</para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para>The table shows some heights of a ball after a certain number of bounces.</para>
 <table class="os-raise-midsizetable">
@@ -74,6 +76,7 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" type="enumerated">
   <item> Is this ball more or less bouncy than the tennis ball in activity 5.11.2, which has the equation \(h=150 \cdot
     (0.53)^n\)? Explain or show your reasoning.
@@ -141,7 +144,10 @@
     
 <para><emphasis>Answer:</emphasis> Compare your answer. </para>
 <para>The pattern for the decay is starting at 640 and then decreasing by \(\frac34\) with only \(\frac 14\) remaining.  The equation is \(y=640 \cdot (1- \frac 34)^x\) or \(y=640 \cdot (\frac 14)^x\).</para>
-  <title>Anticipated Misconceptions</title>
+  
+  
+
+<title>Anticipated Misconceptions</title>
 <para>If students struggle to make sense of the graph, remind them that the horizontal axis depicts the number of bounces,
   not the height of the ball or time. Although height and time are continuous, the number of bounces is discrete.</para>
 <title>Activity Synthesis</title>
@@ -175,6 +181,7 @@
 
 
 
+
 <title> 5.11.4: Self Check</title>
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the
       concepts explored in the activity.</emphasis></para>
@@ -201,14 +208,16 @@
         <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/e2ed088b53630b2221604b92225da5de51764eb4"/></media></figure></entry>
       <entry>
         Incorrect. Let’s try again a different way: This graph shows a decreasing linear relationship. The
-          population is decreasing in a nonlinear way. The answer is<para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/05b6651962e9fe8195bb74c06444b20fd1aa92c6"/></media></figure></para></entry>
+          population is decreasing in a nonlinear way. The answer is
+        <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/05b6651962e9fe8195bb74c06444b20fd1aa92c6"/></media></figure></para></entry>
     </row>
     <row>
       <entry>
         <figure><media alt="d78c1c1afbc3953042d0e40268d490ffb665603f (555×506)"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/d78c1c1afbc3953042d0e40268d490ffb665603f"/></media></figure></entry>
       <entry>
         Incorrect. Let’s try again a different way: This shows an increasing relationship. The population is
-          decreasing by a factor of \(\frac12\). The answer is<para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/05b6651962e9fe8195bb74c06444b20fd1aa92c6"/></media></figure></para></entry>
+          decreasing by a factor of \(\frac12\). The answer is
+        <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/05b6651962e9fe8195bb74c06444b20fd1aa92c6"/></media></figure></para></entry>
     </row>
     <row>
       <entry>
@@ -220,6 +229,7 @@
     </row>
   </tbody>
 </table>
+
 <title> 5.11.4: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with
       the self check. Students will not automatically have access to this content, so you may wish to share it with
@@ -247,14 +257,17 @@
       </row>
   </tbody>
 </table>
+
 <para>The formula for exponential decay is \(y=a \cdot (1-b)^x\) where a is the starting value and \(b\) is the amount that value decreases each unit of time \(x\).</para>
 <para>The pattern for the decay is starting at 200 and then decreasing by 12 with only 12 remaining. The equation is \(y=200 \cdot (1-\frac12)^x\) or \(y=200 \cdot (\frac12)^x\).</para>
+
 <para class="os-raise-text-bold">Example 2</para>
 <para>A car sells for $4,000 and loses \(\frac18\) of its value each year. Write a function that gives the car’s
   value, \(V(t)\), \(t\) years after it is sold.</para>
 <para>Since the car loses \(\frac18\) of its value each year, it keeps \(\frac78\) of its value from year to year, so the
   growth factor is \(\frac78\).</para>
 <para>\(V(t)=4000 \cdot (\frac{7}{8})^t\)</para>
+
 <title>Try It: Writing Exponential Decay Functions</title>
 <list type="enumerated">
   <item>
@@ -282,10 +295,12 @@
       </row>
   </tbody>
 </table>
+
 <para>Write down your answer, then select the<emphasis> solution </emphasis>button to compare your work.</para>
 <title>Solution</title>
 <para>\(y=10000 \cdot (1-\frac14)^x\)  or  \(y=10000 (\frac34)^x\)
 </para>
+
 <para>A computer is purchased for $1,000 and loses \(\frac15\) of its value per year.</para>
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item>Write a function for the computer’s value, \(V(t)\), \(t\) years after it is purchased.</item>

@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01195</md:content-id>
     <md:title>4.18.4: Additional Resources</md:title>
-    <md:uuid>0a0efad9-cd82-4127-8447-56fe59d4c609</md:uuid>
+    <md:uuid>34327fea-3890-4534-b35a-a1b29d3c7995</md:uuid>
   </metadata>
   <content>
   <section><title>The nth Term of a Geometric Sequence</title>
@@ -20,8 +20,12 @@
 <para class="os-raise-text-bold">Example 1</para>
 <para>Write the explicit formula for the sequence given by the terms 3, 2, 43, 89 ...</para>
 <title>Solution: </title>
-<para><emphasis>Step 1- </emphasis>Write the general formula.</para>
-<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. </para>
+<para><emphasis>Step 1- </emphasis>Write the general formula.
+\(a_n = a_1 (r^{n-1})\)</para>
+
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
+\(a_1 = 3\), \(r = \frac23\)
+\(a_n = 3 (\frac 23)^{n-1}\)</para>
 <para>So, the explicit formula for the sequence 3, 2, 43, 89 ... is \(a_n = 3 (\frac23)^{n-1}\).</para>
 <para>Just like it is with arithmetic sequences, the explicit formula makes finding any term easier to determine - especially term numbers that are very large!</para>
 
@@ -29,10 +33,19 @@
 
 <para>Find the 14th term of a sequence where the first term is 64 and the common ratio, \(r =\frac 12\). </para>
 <title>Solution:</title>
-<para><emphasis>Step 1 -</emphasis> Write the general formula.</para>
-<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number.</para>
-<para><emphasis>Step 3 -</emphasis> Simplify the expression.</para>
+<para><emphasis>Step 1 -</emphasis> Write the general formula.
+\(a_n = a_1 (r^{n-1})\)</para>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number.
+\(a_1 = 64\), \(r = \frac12\), \(n = 14\)
+\(a_{14} = 64 (\frac12)^{14-1}\)</para>
+<para><emphasis>Step 3 -</emphasis> Simplify the expression.
+\(a_{14} = 64 (\frac12)^{13}\)
+\(a_{14} = 64 (\frac12)^{13}\)
+\(a_{14} = 64 (\frac{1}{8192})\)
+\(a_{14} = \frac{1}{128}\)</para>
  <para>If the explicit formula for this question was needed, we would not have substituted \(n = 14\) and the nth term formula would have been \(a_n = 64 (\frac12)^{n-1}\). </para>
+
+
 <title>Try It: The nth Term of a Geometric Sequence</title>
 
 <example><exercise>
@@ -45,8 +58,12 @@
   </problem><solution> 
     <para>Compare your answer:</para>
 <para>Here is how to find the 11th term of the sequence:</para>
-<para><emphasis>Step 1 -</emphasis> Write the general formula.</para>
-<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. </para>
+<para><emphasis>Step 1 -</emphasis> Write the general formula.
+\(a_n=a_1(r^{n-1})\)</para>
+<para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
+\(a_{11}=81\), \(r=\frac13\)
+\(a_n = 81 (\frac13)^{n-1}\)
+</para>
   
 </solution></exercise>
 </example></section>

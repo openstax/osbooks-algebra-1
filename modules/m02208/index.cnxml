@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02208</md:content-id>
     <md:title>8.8.3: Factoring Quadratic Equations without a Linear Term</md:title>
-    <md:uuid>528cf702-fef7-42a6-9399-c782fc995e54</md:uuid>
+    <md:uuid>32a22533-78bb-4d35-8b26-2ed0bf5d71a4</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (10 minutes)</title>
@@ -22,6 +22,7 @@
     <para class="os-raise-text-italicize">Design Principle(s): Support sense-making</para>
   </div>
 </div>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
@@ -32,6 +33,7 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Organization; Attention; Social-emotional skills</para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para>In questions 1 - 2, each row of the table contains a pair of equivalent expressions.</para>
 <list class="os-raise-noindent" type="enumerated">
@@ -82,6 +84,7 @@
     </row>
   </tbody>
 </table>
+
 <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <para><emphasis>Answers:</emphasis></para>
 <table class="os-raise-midsizetable">
@@ -139,6 +142,7 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item>Convert the standard form expression to the factored form.</item>
 </list>
@@ -200,6 +204,7 @@
     </row>
   </tbody>
 </table>
+
 <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <para><emphasis>Answers:</emphasis></para>
 <table class="os-raise-midsizetable">
@@ -272,6 +277,7 @@
     </row>
   </tbody>
 </table>
+
 <title>Video: Factoring Quadratic Equations Without a Linear Term</title>
 <para>Watch the following video to learn more about factoring a quadratic equation that is written in standard form and has no linear term.</para>
 <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
@@ -280,6 +286,8 @@
       <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/3789a37684d805e8d7de72685229acd88ad23cb6" srclang="en_us">https://k12.openstax.org/contents/raise/resources/843f647a9f05e9b8c05b506538b3f684950c1f1f
     </track></source></video></iframe>
 </div>
+
+
 <title>Anticipated Misconceptions</title>
 <para>Some students may struggle to see the numbers in the expressions in standard form as perfect squares. Prompt them to create a list or table of square numbers (\(1^2=1\), \(2^2=4\), \(3^2=9\), and so on) to have as a handy reference. Others may benefit by rewriting both terms as squares before writing the factored form. Demonstrate how to rewrite \(49x^2- 81\) as \((7x)^2-(9)^2\) and \(\frac {1}{4}x^2-25\) as \((\frac {1}{2}x)^2- (5)^2\).</para>
 <title>Activity Synthesis</title>
@@ -344,6 +352,7 @@
     </row>
   </tbody>
 </table>
+
 <title>8.8.3: Additional Resources</title>
 <emphasis>
   <para class="os-raise-text-bold">The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</para>
@@ -359,7 +368,8 @@
 <para>We know that the form we are looking for is \((v\;−\) __ \()(v \;+\) __ \()\).</para>
 <para>Since we know the square <term data-schema-version="1.0" data-store="glossary-tooltip">root</term> of \(v^2\) is \(v\) and the square root of 36 is 6, the factored form is \((v − 6)(v + 6)\).</para>
 <para>We can multiply to check our work.</para>
-<para>\((v − 6)(v + 6)\)</para>
+<para>\((v − 6)(v + 6)\)
+  \(\begin{array}{rcl}&amp;&amp;{=v^2+6v-6v-36\\=v^2-36\; {\style{color:red}\checkmark}}\\&amp;&amp;\end{array}\)</para>
 <para>The process is similar when there is a coefficient on the squared term.</para>
 <para>\(a^2x^2−c^2\;\;\;\;\) factors into \(\;\;\;\;(ax + c)(ax − c)\)</para>
 <para>Let’s look at another example to understand the process.</para>
@@ -371,20 +381,24 @@
 <para>Now, we are in the same place as in the previous example. The square root of 81 is 9.</para>
 <para>So, the factored form is \((4m − 9 )(4m + 9)\).</para>
 <para>Again, we can multiply to check.</para>
-<para>\((4m − 9)(4m + 9)\)</para>
+<para>\((4m − 9)(4m + 9)\)
+  \(\begin{array}{rcl}&amp;&amp;{= 4m^2 + 36m − 36m − 81\\= 4m^2 − 81\; {\style{color:red}\checkmark}}\\&amp;&amp;\end{array}\)</para>
 <para class="os-raise-text-bold">Example 3</para>
 <para>As we see in the activity, where the variable is located is not important as long as the quadratic binomial is still the difference of two squares.</para>
 <para>Write \(64 − 9b^2\) in factored form.</para>
 <para>We use the same concept to find the factored form.</para>
 <para>\(64 − 9b^2= (8 − 3b)(8 + 3b)\)</para>
 <para>We can multiply to check.</para>
-<para>\((8 − 3b)(8 + 3b)\)</para>
+<para>\((8 − 3b)(8 + 3b)\)
+  \(\begin{array}{rcl}&amp;&amp;{= 64 + 24b − 24b − 9b^2\\= 64 − 9b^2\; {\style{color:red}\checkmark}}\\&amp;&amp;\end{array}\)</para>
 <para>Remember that any expression of the form \(x^2 + c\) or \(ax^2+ c\) does not have a factored form!</para>
 <list>
   <item> For \(x^2+ c\), the \(c\) is not squared, and the terms are not being subtracted. </item>
   <item> For \(ax^2+ c\), neither the \(a\) nor the \(c\) is a perfect square, and the terms are not being subtracted. </item>
 </list>
+
 <title>Try It: Factoring Quadratic Equations Without a Linear Term</title>
+
 <list class="os-raise-noindent" type="enumerated">
   <item>Write \(x^2− 4\) in factored form.</item>
 </list>
@@ -392,6 +406,7 @@
 <title>Solution</title>
 <para>Here is how to write the expressions in factored form.</para>
 <para>\((x − 2)(x + 2)\)</para>
+
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item>Write \(100x^2− 121\) in factored form.</item>
 </list>

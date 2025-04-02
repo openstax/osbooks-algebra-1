@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01520</md:content-id>
     <md:title>5.15.3: Growth Rate of an Exponential Function</md:title>
-    <md:uuid>cf458b0f-bdae-46b6-ab44-90cd59e706a4</md:uuid>
+    <md:uuid>c4d92b43-e234-474b-900f-ddb1884c4826</md:uuid>
   </metadata>
   <content>
   <section><title>Activity </title>
@@ -83,10 +83,13 @@
     </row>
   </tbody>
 </table>
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
-    <para> How does \(g(x)\) change every time \(x\) increases by 1? Show or explain your reasoning.</para>
+    <para> How does \(g(x)\) change every time \(x\) increases by 1? Show or explain your reasoning.
+      </para>
     </problem><solution>
     
     <para>Enter your answer here:</para>
@@ -95,11 +98,14 @@
       quotient is always 3. </para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
     <para>Choose two new input values that are consecutive whole numbers and find their output values. Record them in
-        the table. How do the output values change for those two input values?</para>
+        the table. How do the output values change for those two input values?
+      </para>
     </problem><solution>
     
     <para>Enter your answer here:</para>
@@ -108,10 +114,13 @@
       (from 10 to 11). </para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
-    <para>Complete the table with the output when the input is \(x\) and when it is \(x+1\).</para>
+    <para>Complete the table with the output when the input is \(x\) and when it is \(x+1\).
+      </para>
     </problem><solution>
     
     <para>Enter your answer here:</para>
@@ -144,11 +153,14 @@
     </table>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
     <para> Look at the change in output values as the \(x\) increases by 1. Does it still agree with your earlier
-        findings? Show your reasoning.</para>
+        findings? Show your reasoning.
+      </para>
     </problem><solution>
     
     <para>Enter your answer here:</para>
@@ -157,7 +169,10 @@
       by rules of exponents, we know that \(\frac {3^{x+1}}{3^x}=3^{x+1-x}\), which equals 3.) </para>
   </solution></exercise>
 <!--Interaction End -->
+
 <para>Pause here for a class discussion. Then, work with your group on the next few questions.</para>
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
@@ -171,12 +186,15 @@
     <para> The output values increase by a factor of 27 or \(3^3\). </para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
     <para>Complete this table with the output when the input is \(x\) and when it is \(x+3\). Look at the change in
         output values as \(x\) increases by 3. Does it agree with your group’s findings in the previous question?
-        Show your reasoning. <table class="os-raise-skinnytable">
+        Show your reasoning. 
+        <table class="os-raise-skinnytable">
           <thead>
             <row>
               <entry scope="col" class="emphasis">
@@ -237,6 +255,8 @@
       (Or by rules of exponents, we know that \(\frac{3^{x+3}}{3^x}=3^{x+3-x}\), which equals \(3^3\) or 27.) </para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Q#7-->
 <exercise>
   <problem>
@@ -248,6 +268,8 @@
     <para>Answers will vary.</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <!--Q#7-->
 <exercise>
   <problem>
@@ -259,6 +281,8 @@
     <para>Answers will vary.</para>
   </solution></exercise>
 <!--Interaction End -->
+
+
 <title>Video: Analyzing Tables of Exponential Functions</title>
 <para>Watch the following video to learn more about analyzing the tables of exponential functions:</para>
 <div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
@@ -268,6 +292,8 @@
       https://k12.openstax.org/contents/raise/resources/2ad184a8d1b79f957dc77e16c376203270d3e473
     </track></source></video></iframe>
 </div>
+
+
 <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
 <example><exercise>
   <problem>
@@ -276,8 +302,10 @@
   <!-- INSERT ANY VALID HTML HERE -->
   </problem><solution>
   <title>Extending Your Thinking </title>
+  
   <para>For integer inputs, we can think of multiplication as repeated addition and exponentiation as repeated
     multiplication:</para>
+  
   <table class="os-raise-wideadjustedtable">
     <thead>
       <row>
@@ -298,6 +326,7 @@
       </row>
     </tbody>
   </table>
+  
   <para>We could continue this process with a new operation called tetration. It uses the symbol \(\uparrow \uparrow\), and
     it is defined as repeated exponentiation:</para>
   <table class="os-raise-skinnytable">
@@ -316,7 +345,8 @@
       </row>
     </tbody>
   </table>
-  </solution></exercise>
+  
+</solution></exercise>
 </example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
 <div class="os-raise-ib-pset" data-button-text="Check" data-content-id="b4fcf7c2-18ed-4f77-b1c7-1ba8085d1d5a" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0" data-wait-for-event="RFM1">
   <exercise data-content-id="313acd1a-7c7e-4fbb-afb2-d1bcadcd6aa4" data-problem-comparator="integer" data-problem-type="input" data-solution="16">
@@ -329,6 +359,7 @@
       </para>
     </solution>
         </exercise>
+  
   <exercise data-content-id="e74fe222-cc10-4559-8c03-0680b1d0a710" data-problem-comparator="integer" data-problem-type="input" data-solution="16">
     <problem>
       <para>Compute \(f(x)=3 \uparrow \uparrow x\).</para>
@@ -346,6 +377,7 @@
     <!-- INSERT ANY VALID HTML HERE --> 
 </div>
 </div>
+
 <exercise data-wait-for-event="RFM1">
   <problem>
     <para> What is the relationship between \(f(x)\) and \(f(x+1)\)?</para>

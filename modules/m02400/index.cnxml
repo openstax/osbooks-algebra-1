@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02400</md:content-id>
     <md:title>9.5.2: Solutions Written as Square Roots</md:title>
-    <md:uuid>cfaba0bc-421c-4b22-8b2c-9592eda69c37</md:uuid>
+    <md:uuid>1b731cbc-eb12-4dc2-a415-16c0f9f3899d</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -11,6 +11,7 @@
 <para>Students also see that sometimes the solutions are not rational numbers and can be expressed exactly using the radical notation rather than using their decimal approximations. For example, the solutions to \(x^2=24\) can be written as \(x= \pm \sqrt{24}\) rather than \(x \approx \pm 4.9\) and the solutions to \((x-3)^2=24\) can be written as \(x= \pm \sqrt{24}+3\) instead of \(x \approx \pm 4.9+3\).</para>
 <title>Launch</title>
 <para>Remind students that we have seen that some quadratic equations have two solutions. Take the equation \(x^2=25\), for example. For the equation to be true, \(x\) can be 5 and -5 because \(5^2=25\) and \((-5)^2=25\). We have been writing the solutions as: \(x=5\) and \(x=-5\). Explain that a shorter way to convey the same information is by writing \(x= \pm 5\).</para>
+
 <div class="os-raise-extrasupport">
   <note>
     <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
@@ -33,6 +34,7 @@
     </para>
   </div>
 </div>
+
 <title>Student Activity</title>
 <para>Solve each equation. Use the notation when appropriate and express radicals in simplest form.</para>
 <list class="os-raise-noindent" type="enumerated">
@@ -43,16 +45,19 @@
 <list class="os-raise-noindent" start="2" type="enumerated">
   <item>\((x-6)^2=0\)</item>
 </list>
-<para><emphasis>Answer:</emphasis> 6</para>
+<para><emphasis>Answer:</emphasis> 6
+  \(x = 6\)</para>
 <list class="os-raise-noindent" start="3" type="enumerated">
   <item>\(x^2+9=0\)</item>
 </list>
 <para><emphasis>Answer:</emphasis> No real solution</para>
+
 <para>So far in this activity you encountered radical solutions that were easy to simplify. Sometimes you will get radical solutions like
   \(\sqrt{12}\). Let’s review how to simplify more difficult radicals using perfect squares. </para>
 <para><emphasis>Step 1 - </emphasis>Look at the ways to factor the number under the radical. </para>
 <para>For example, factor 12 from \(\sqrt{12}\).</para>
-<para>\(12=6*2\) and</para>
+<para>\(12=6*2\) and
+  \(12=4*3\)</para>
 <para><emphasis>Step 2 - </emphasis>Choose the factorization of the number that includes a perfect square. Rewrite the number under the radical using that factorization.</para>
 <para>\(\sqrt{12}\) =\(\sqrt{4*3}\)</para>
 <para><emphasis>Step 3 - </emphasis>Recall that \(\sqrt{a*b}=\sqrt{a}*\sqrt{b}\).</para>
@@ -60,6 +65,7 @@
 <para><emphasis>Step 4 - </emphasis>Simplify the perfect squares.</para>
 <para>\(\sqrt4*\sqrt3 =2\sqrt3\)</para>
 <para>So \(\sqrt{12} = 2\sqrt3\)</para>
+
 <list class="os-raise-noindent" start="4" type="enumerated">
   <item>\(x^2=18\)</item>
 </list>
@@ -83,6 +89,8 @@
       <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/f1c6a8c5098e8a0f5f42b17eb9e7657158c4201d" srclang="en_us">https://k12.openstax.org/contents/raise/resources/5033df694da12da637450b921dc619cad59325d5
     </track></source></video></iframe>
 </div>
+
+
 <title>Anticipated Misconceptions</title>
 <para>When using \(\pm\) the notation for the first time, some students may struggle to remember that it shows a number and its opposite. Encourage those students to continue writing their answers both ways in this lesson to reinforce the meaning of the new notation. Show students how both solutions work in the original equation by checking the answers.</para>
 <para>Some students may still struggle to understand the meaning of the square root. Watch for students who evaluate a square root by dividing by 2. Ask these students what the square root of 9 is. If this does not convince students that dividing by two is the incorrect operation, demonstrate that we call 3 a square root of 9 because \(3 \cdot 3=9\).</para>
@@ -147,7 +155,9 @@
     </row>
   </tbody>
 </table>
+
 <!--END SELF CHECK INTRO BEFORE Tables -->
+
 <title>9.5.2: Additional Resources</title>
 <para><emphasis><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></emphasis></para>
 <title>Solving Quadratics with Radical Solutions</title>
@@ -168,10 +178,16 @@
 <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
 <title>Solution</title>
 <para>Here is how to solve this quadratic equation:</para>
-<para><emphasis>Step 1</emphasis> - Make sure the quadratic is isolated on one side.</para>
-<para><emphasis>Step 2</emphasis> - Take the square root of both sides.</para>
-<para><emphasis>Step 3</emphasis> - Simplify.</para>
-<para><emphasis>Step 4</emphasis> - Solve the equation. For this problem, add 2 to each side.</para>
-<para><emphasis>Step 5</emphasis> - Simplify.</para></section>
+<para><emphasis>Step 1</emphasis> - Make sure the quadratic is isolated on one side.
+  \((x-2)^2=17\)</para>
+<para><emphasis>Step 2</emphasis> - Take the square root of both sides.
+  \(\sqrt{(x-2)^2}= \pm \sqrt{17}\)</para>
+<para><emphasis>Step 3</emphasis> - Simplify.
+  \(x-2= \pm \sqrt{17}\)</para>
+<para><emphasis>Step 4</emphasis> - Solve the equation. For this problem, add 2 to each side.
+  \(
+  x-2+2=2 \pm \sqrt{17}\)</para>
+<para><emphasis>Step 5</emphasis> - Simplify.
+  \(x=2- \sqrt{17}\), \(x=2+ \sqrt{17}\)</para></section>
 </content>
 </document>

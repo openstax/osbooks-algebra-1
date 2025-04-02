@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01379</md:content-id>
     <md:title>5.8.2: Represent a Function as a Table of Values, Graph, and Equation</md:title>
-    <md:uuid>2cdeaed3-9cd9-42e6-8526-0cf27cf5eb34</md:uuid>
+    <md:uuid>0a334d47-2d2d-4ced-9ecf-269cd3f451cb</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -26,13 +26,18 @@
     <para class="os-raise-text-italicize">Supports accessibility for: Conceptual processing; Visual-spatial processing</para>
 </div>
 </div>
+
 <title>Student Activity</title>
 <para>Clare noticed mold on the last slice of bread in a plastic bag. The area covered by the mold was about 1 square
   millimeter. She left the bread alone to see how the mold would grow. The next day, the area covered by the mold had
   doubled, and it doubled again the day after that.</para>
 <list class="os-raise-noindent" type="enumerated">
   <item> If the doubling pattern continues, how many square millimeters will the mold cover 4 days after she noticed the
-    mold? Show your reasoning. <emphasis>Answer:</emphasis> 16 square millimeters. \(2 \cdot 2 \cdot 2 \cdot 2\) or \(2^4\) is 16. </item>
+    mold? Show your reasoning. 
+    
+    <emphasis>Answer:</emphasis> 16 square millimeters. \(2 \cdot 2 \cdot 2 \cdot 2\) or \(2^4\) is 16. 
+    
+  </item>
   <item> Represent the relationship between the area \(A\), in square millimeters, covered by the mold and the number of
     days \(d\) since the mold was spotted using: </item>
   <list class="os-raise-noindent" start="a" type="enumerated">
@@ -40,7 +45,8 @@
     <item> An equation </item>
     <item> A graph </item>
   </list>
-  <para><emphasis>Answer:</emphasis>
+  <para>
+    <emphasis>Answer:</emphasis>
   </para>
   <list class="os-raise-noindent" type="enumerated">
     <item/>
@@ -104,15 +110,28 @@
     </row>
   </tbody>
 </table>
+
 <list class="os-raise-noindent" type="enumerated">
   <list class="os-raise-noindent" start="2" type="enumerated">
     <item> Equation: \(A=1 \cdot 2^d\) or equivalent (like \(A=2^d\)). </item>
-    <item>(Students may show a discrete or a continuous graph.)<figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/12fcc0a764a3422882fd1d726e1ca3ad71b343f0"/></media></figure></item>
+    <item>(Students may show a discrete or a continuous graph.)
+      <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/12fcc0a764a3422882fd1d726e1ca3ad71b343f0"/></media></figure></item>
   </list>
 </list>
 <list class="os-raise-noindent" start="3" type="enumerated">
   <item> Discuss with your partner: Is the relationship between the area covered by mold and the number of days a
-    function? If so, write ____ is a function of ____. If not, explain why it is not. <emphasis>Answer:</emphasis> Yes. Compare your answer: </item>
+    function? If so, write ____ is a function of ____. If not, explain why it is not. 
+    
+    <emphasis>Answer:</emphasis> Yes. Compare your answer: 
+    
+    The area covered by mold is a function of the number of days that have passed. At any given time since mold was
+    spotted, there is a certain area of the bread that is covered in mold.
+    
+    The number of days that have passed is a function of the area covered by the mold up to a certain point (e.g., when
+    the entire bread is already completely covered, the area of mold would correspond to more than one day). We do not
+    have a way to write this relationship using an equation, but we could use a table or a graph to show the
+    relationship.
+  </item>
 </list>
 <title>Student Facing Extension</title>
 <title>Are you ready for more?</title>
@@ -152,6 +171,7 @@
 <para>Students using the digital version (or graphing technology along with the paper and pencil version) will see the
   continuous graph. If desired, you may want to demonstrate how using function notation to write the equation like
   \(A(d)=1 \cdot 2^d\) can be put to use. Try typing \(A(2)\) or \(A(-1)\).</para>
+  
   <div class="os-raise-extrasupport">
     <note>
       <para>Support for English Language Learners<title>Support for English Language Learners</title></para>
@@ -172,6 +192,7 @@
       </para>
   </div>
   </div>
+
 
 <title>5.8.2: Self Check</title>
 <para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the
@@ -213,6 +234,7 @@
             </row>
           </tbody>
         </table>
+        
         <table class="os-raise-textheavytable">
           <thead>
             <row>
@@ -261,6 +283,7 @@
     </row>
   </tbody>
 </table>
+
 <title>5.8.2: Additional Resources</title>
 <para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with
       the self check. Students will not automatically have access to this content, so you may wish to share it with
@@ -320,6 +343,7 @@
     </row>
   </tbody>
 </table>
+
 <para>When these points are graphed, they show the decay because the function graphed decreases from left to right:</para>
 <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/640dc842516ed96046308a6b80d6a2df0ebdf749"/></media></figure></para>
 <title> Try It: Different Exponential Representations</title>
@@ -369,6 +393,7 @@
     </row>
   </tbody>
 </table>
+
 <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/c4e972074be9c587e82641a2054c2fead8f5a718"/></media></figure></para></section>
 </content>
 </document>
