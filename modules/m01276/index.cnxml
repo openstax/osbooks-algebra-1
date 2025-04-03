@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01276</md:content-id>
     <md:title>5.3.2: Exploring Different Growth Patterns</md:title>
-    <md:uuid>945c2ec6-4fdf-41ea-9615-2135ee97628c</md:uuid>
+    <md:uuid>f40c61b3-c831-418d-b3e7-df13221548bd</md:uuid>
   </metadata>
   <content>
   <section><title>Activity </title>
@@ -13,93 +13,15 @@
   <item> Purse A, which contains $1,000 today. If you leave it alone, it will contain $1,200 tomorrow (by magic). The next day, it will be $1,400. This pattern of an additional $200 per day will continue. </item>
   <item> Purse B, which contains 1 penny today. Leave that penny in there because tomorrow it will (magically) turn into 2 pennies. The next day, there will be 4 pennies. The amount in the purse will continue to double each day. </item>
 </list>
-<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="0a4a0df2-6f4c-43b7-b43c-feb36dd596d5" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
-  <!--Q1-->
-  <exercise data-content-id="9564b84f-59c5-4f7e-b457-b98e34c19378" data-problem-comparator="integer" data-problem-type="input" data-solution="2400">
-    <problem>
+<section class="check-understanding"><exercise data-content-id="9564b84f-59c5-4f7e-b457-b98e34c19378"><problem><para>
       <para> How much money will be in Purse A after a 7-day week?  <emphasis>Enter your answer as a number rounded to the nearest cent.</emphasis></para>
-      </problem>
-    <solution>
-      <para>Correct! After 7 days, Purse A will contain $2,400 because it grows by $200 each day for 7 days.</para>
-    </solution>
-        </exercise>
-  <!--END QUESTION.-->
-  <!--Q2-->
-  <exercise data-content-id="fed6efed-4317-45ce-a13b-a080b7ff4dba" data-problem-comparator="float" data-problem-type="input" data-solution="1.28">
-    <problem>
-      <para> How much money will be in Purse B after a 7-day week? <emphasis>Enter your answer as a number rounded to the nearest cent.</emphasis>  </para>
-      </problem>
-    <solution>
-      <para>Correct! Purse B will contain $1.28. It doubles each day for 7 days, so it will have \(1 \cdot 2^7\) or 128 cents (the 1 here represents the 1 cent for when the genie appeared). </para>
-    </solution>
-        </exercise>
-  <!--END QUESTION.-->
-  <!--Q3-->
-  <exercise data-content-id="b629a372-a46b-450c-ac6f-d7937f0a8131" data-problem-comparator="float" data-problem-type="input" data-solution="3800">
-    <problem>
-      <para> How much money will be in Purse A after two weeks? <emphasis>Enter your answer as a number rounded to the nearest cent.</emphasis></para>
-      </problem>
-    <solution>
-      <para>Correct! After 2 weeks, Purse A will contain an additional $1,400 for a total of $3,800. </para>
-    </solution>
-        </exercise>
-  <!--END QUESTION.-->
-  <!--Q4-->
-  <exercise data-content-id="4d0fd695-2745-4efd-a5ef-7e257f13d678" data-problem-comparator="float" data-problem-type="input" data-solution="163.84">
-    <problem>
-      <para> How much money will be in Purse B after two weeks? <emphasis>Enter your answer as a number rounded to the nearest cent.</emphasis></para>
-      </problem>
-    <solution>
-      <para>Correct! Purse B will contain \(1 \cdot 2^{14}\) cents. This is 16,384 cents or $163.84. </para>
-    </solution>
-        </exercise>
-  <!--END QUESTION.-->
-  <!--Q5a-->
-  <exercise data-content-id="08d4eb51-8e61-4e80-b05a-60c31ec88bfd" data-problem-comparator="float" data-problem-type="input" data-solution="5200">
-    <problem>
-      <para> The genie later adds that he will let the money in each purse grow for three weeks. 
-          
-          <para>How much money will be in Purse A in three weeks? <emphasis>Enter your answer as a number rounded to the nearest cent.</emphasis></para>
-          </para>
-      </problem>
-    <solution>
-      <para>Correct! After 3 weeks, Purse A will have an additional $1,400 during the third week for a total of $5,200. </para>
-    </solution>
-        </exercise>
-  <!--END QUESTION.-->
-  <!--Q5b-->
-  <exercise data-content-id="6b4c4909-37b7-4c7e-b283-c10dcc995503" data-problem-comparator="float" data-problem-type="input" data-solution="20971.52">
-    <problem>
-      <para>How much money will be in Purse B in three weeks? <emphasis>Enter your answer as a number rounded to the nearest cent.</emphasis></para>
-        </problem>
-    <solution>
-      <para>Correct! Purse B will have 128 times as much money (compared to the end of two weeks) for a total of $20,971.52. </para>
-    </solution>
-        </exercise>
-  <!--END QUESTION.-->
-  <!--Q6-->
-  <exercise data-content-id="c4c68a98-fd64-4611-9fd6-e3c1eff0eb8b" data-problem-type="dropdown" data-solution="Purse B" data-solution-options="[&quot;Purse A&quot;, &quot;Purse B&quot;]">
-    <problem>
-      <para> Which purse contains more money after 30 days? <emphasis>Enter your answer as a number rounded to the nearest cent.</emphasis></para>
-      </problem>
-    <solution>
-      <para>Correct! Purse B will have a lot more money. Purse A will have \(1,000+30 \cdot 200\) or $7,000, which is much less than the doubling purse has on day 21. </para>
-    </solution>
-        </exercise>
-  <!--END QUESTION.-->
-  <!--Do not edit below line.-->
-  <solution>
-    <!-- INSERT ANY VALID HTML HERE -->
-  </solution>
-  <div class="os-raise-ib-pset-encourage-response">
-    <!-- INSERT ANY VALID HTML HERE -->
-  </div>
-</div>
-<div class="os-raise-student-reflection">
-  <para class="os-raise-student-reflection-title">Building Character: Grit</para>
+      </para></problem><solution><para>2400</para><para>
+      <para>Nice try! The correct answer is 2400. After 7 days, Purse A will contain $2,400 because it grows by $200 each day for 7 days. </para>
+    </para></solution></exercise></section><div class="os-raise-student-reflection">
+  <para>Building Character: Grit</para>
   <div class="os-raise-d-flex-nowrap os-raise-gap-1">
     <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/2852e97dfda2a4f0e1bab4a8d4e15c6b1e6013f2"/></media></figure><div>
-      <para class="os-raise-mb-0">Grit is passion and perseverance to reach long-term goals. </para>
+      <para>Grit is passion and perseverance to reach long-term goals. </para>
       <para>Think about your current sense of grit. Are the following statements are true for you?</para>
       <list>
         <item>

@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02420</md:content-id>
     <md:title>9.6.3: The Quadratic Formula</md:title>
-    <md:uuid>aaa2b258-aa3e-4d9a-bd7b-eeaf53e97fe1</md:uuid>
+    <md:uuid>673cf9ce-7d37-4755-a63c-d2334c75e9ac</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (20 minutes)</title>
@@ -14,14 +14,14 @@
 <para>Display the quadratic formula for all to see. Tell students that when an equation is of the form \(ax^2+bx+c=0\), where \(a\), \(b\), and \(c\) are numbers and \(a\) is not 0, we can find its solutions by using the formula:</para>
 <para>\(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\).</para>
 <para>Guide students through the steps of using the formula to find the solutions to \(x^2−8x+15=0\).</para>
-<list class="os-raise-noindent">
+<list>
   <item> "First, what do we expect the solutions to be?" (3 and 5, because we can rewrite it as \((x−3)(x−5)=0)\). </item>
   <item> "If \(x^2−8x+15\) is \(ax^2+bx+c\), what are the values of \(a\), \(b\), and \(c\)?" \((a=1\),\(b=-8\), \(c=15)\). </item>
   <item> Write out the formula as is. </item>
   <item> Replace \(a\), \(b\), and \(c\) with the corresponding numbers from the equation: </item>
 </list>
 <para>\(x=\frac{-(-8) \pm \sqrt{(-8)^2- 4(1)(15)}}{2(1)}\).</para>
-<list class="os-raise-noindent">
+<list>
   <item> Evaluate one part of the expression at a time, ending with \(x=3\) and \(x=5\). </item>
 </list>
 <para>Provide access to calculators for numerical computations.</para>
@@ -115,18 +115,9 @@
 <para>\(\begin{array}{l} 6 x^{2}+9 x-15=0 \\ a=6, b=9, c=-15 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(9) \pm \sqrt{(9)^{2}-(4)(6)(-15)}}{2(6)} \\ x=\frac{-9 \pm \sqrt{81-(-360)}}{12} \\ x=\frac{-9 \pm \sqrt{441}}{12} \\ x=\frac{-9 \pm 21}{12} \\ x=\frac{-9+21}{12} \\ x=\frac{-9-21}{12} \\ x=\frac{12}{12}=1 \\ x=\frac{-30}{12}=\frac{-5}{2} \end{array}\) </para>
 <title>Video: Solving Quadratics With the Quadratic Formula</title>
 <para>Watch the following video to learn more about solving quadratics with the quadratic formula.</para>
-<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
-  <div class="os-raise-video-container"><video controls="true" crossorigin="anonymous">
-      <source src="https://k12.openstax.org/contents/raise/resources/44f83ee622ab7d49053fb9d6a565e28717f75e74">
-      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/04c6e722ba62f73df51179a9f7f9cd788690e08f" srclang="en_us">
-      https://k12.openstax.org/contents/raise/resources/44f83ee622ab7d49053fb9d6a565e28717f75e74
-    </track></source></video></div>
-</div>
-
-
-<title>Activity Synthesis</title>
+<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/44f83ee622ab7d49053fb9d6a565e28717f75e74"/></media><title>Activity Synthesis</title>
 <para>Much of the student discussion will have happened in small groups. Focus the whole-class conversation on whether the quadratic formula works for solving all equations and when it might be a preferred method. Ask students:</para>
-<list class="os-raise-noindent">
+<list>
   <item> "Look at the list of equations and the work you did to solve them. Do certain equations lend themselves to certain methods of solving? Why?" (We can see the factors of some expressions right away, so rewriting it in factored form would be the quickest method to solve the equations. Other expressions cannot be easily rewritten in factored form but can be easily transformed into perfect squares. For example, when the coefficient of \(x^2\) is 1, the coefficient of the linear term is an even number, and the constant term is also a whole number, completing the square is straightforward. When the squared term has a coefficient other than 1, the other two methods are less practical, so the quadratic formula may be the quickest approach.) </item>
   <item> "Why do you think the quadratic formula is useful only when the \(a\) in \(ax^2+bx+c=0\) is not 0?" (If \(a\) is 0, the expression is no longer quadratic because the squared term disappears, leaving only \(bx+c\), which is linear.) </item>
 </list>
@@ -134,8 +125,8 @@
 <para>Tell students that they will use the formula to solve other equations and find out more about its merits and how it compares to other methods of solving.</para>
 <para>Watch for algebraic errors with negatives when a value is substituted in for \(b\) when it is made negative and also squared in the formula.</para>
 <title>9.6.3: Self Check </title>
-<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
-<para class="os-raise-text-bold">QUESTION:</para>
+<para><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
+<para>QUESTION:</para>
 <para>Solve \(2x^2-6x+3=0\) using the quadratic formula.</para>
 <table class="os-raise-textheavytable">
   <thead>
@@ -179,7 +170,7 @@
 </table>
 
 <title>9.6.3: Additional Resources</title>
-<para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
+<para><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
 <title>Solving With the Quadratic Formula</title>
 
 <note>

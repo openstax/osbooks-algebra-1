@@ -3,144 +3,27 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02518</md:content-id>
     <md:title>9.11.1: Maximum and Minimum Value of a Function</md:title>
-    <md:uuid>0c5bfb00-8373-4115-a90e-89f0ce83d7e2</md:uuid>
+    <md:uuid>4a961abe-608d-4ec6-92cb-3afc89a17960</md:uuid>
   </metadata>
   <content>
-  <section><title>Warm Up Activity</title>
-<para>Examine the graph that represents the function, \(f\), defined by \(f(x)=(x−4)^2+1\).</para>
+  <section><para>Examine the graph that represents the function, \(f\), defined by \(f(x)=(x−4)^2+1\).</para>
 <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4246a818d67db1e72a333d627b6aa12064c74adc"/></media></figure></para>
 <para>Use this graph to answer questions 1 - 2.</para>
-<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="373a31ab-5bb3-406b-9dfd-9d5eebbe46a5" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
-  <!--Q1a-->
-  <exercise data-content-id="72cfface-ac05-4874-bfc9-69aefdf085cd" data-problem-comparator="integer" data-problem-type="input" data-solution="10">
-    <problem>
+<section class="check-understanding"><title>Warm Up Activity</title><exercise data-content-id="72cfface-ac05-4874-bfc9-69aefdf085cd"><problem><para>
       <para>\(f(1)\) can be expressed in words as "the value of \(f\) when \(x\) is 1." Find or compute:</para>
       <para>Enter the value of \(f\) when \(x\) is 1</para>
       <para>Enter the value of \(f\). </para>
-    </problem>
-    <solution>
-      <para>Correct! 10</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q1b-->
-  <exercise data-content-id="76f54561-f72a-466f-9fcd-fd6630ad1296" data-problem-comparator="integer" data-problem-type="input" data-solution="2">
-    <problem>
-      <para>\( f(3)\)</para>
-      <para>Enter the value of \(f(3)\). </para>
-    </problem>
-    <solution>
-      <para>Correct! 2</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q1c-->
-  <exercise data-content-id="e58fc7e0-0d49-42d8-9823-f5a38da3008a" data-problem-comparator="integer" data-problem-type="input" data-solution="37">
-    <problem>
-      <para> \(f(10)\)</para>
-      <para>Enter the value of \(f(10)\). </para>
-    </problem>
-    <solution>
-      <para>Correct! 37</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q2-->
-  <exercise data-content-id="21d017b5-41d2-47d0-a0e4-43abc15a47f1" data-problem-type="dropdown" data-solution="No" data-solution-options="[&quot;Yes&quot;, &quot;No&quot;]">
-    <problem>
-      <para>Can you find an \(x\)-value that would make \(f(x)\):</para>
-      <para>Less than 1?</para>
-      </problem>
-    <solution>
-      <para>Correct! No, from the graph, it seems that 1 is the least value of \(f\), and that occurs when \(x=4\). All other \(x\)-values produce outputs that are greater than 1.</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q2b-->
-  <exercise data-content-id="1700560e-dce8-4bb6-90bb-f975755e10a5" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&quot;Yes&quot;, &quot;No&quot;]">
-    <problem>
-      <para>Greater than 10,000?</para>
-      </problem>
-    <solution>
-      <para>Correct! Yes, there are lots of \(x\)-values that produce an output greater than 10,000. For example, both -100 and 110 would make \(f(x)\) greater than 10,000.</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Do not edit below line.-->
-  <solution>
-    <!-- INSERT ANY VALID HTML HERE -->
-  </solution>
-  <div class="os-raise-ib-pset-encourage-response">
-    <!-- INSERT ANY VALID HTML HERE -->
-  </div>
-</div>
-<para>Examine the graph that represents the function, \(g\), defined by \(g(x)=-(x−12)^2+7\).</para>
+    </para></problem><solution><para>10</para><para>
+      <para>Nice try! The correct answer is 10.</para>
+    </para></solution></exercise></section><para>Examine the graph that represents the function, \(g\), defined by \(g(x)=-(x−12)^2+7\).</para>
 <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/ce9c6929c1bd313d327c435153311f2fd64e328f"/></media></figure></para>
 <para>Use this graph to answer questions 3 and 4.</para>
-<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="119d33c5-1c34-4138-9e38-f6afebcad147" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
-  <!--Q3-->
-  <exercise data-content-id="ae384efe-9cca-4fce-a616-2fb8bf7b91ad" data-problem-comparator="float" data-problem-type="input" data-solution="-2">
-    <problem>
+<section class="check-understanding"><exercise data-content-id="ae384efe-9cca-4fce-a616-2fb8bf7b91ad"><problem><para>
       <para>\(g(9)\) can be expressed in words as "the value of \(g\) when \(x\) is 9." Find or compute:</para>
       <para>Enter the value of \(g\) when \(x\) is 9</para>
       <para>Enter the value of \(g\). </para>
-    </problem>
-    <solution>
-      <para>Correct! -2</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q3b-->
-  <exercise data-content-id="2f94da66-a9e7-44d8-88bf-37d694c46cd1" data-problem-comparator="float" data-problem-type="input" data-solution="6">
-    <problem>
-      <para>\(g(13)\)</para>
-      <para>Enter the value of \(g(13)\). </para>
-    </problem>
-    <solution>
-      <para>Correct! 6</para>
-    </solution>
-
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q3c-->
-  <exercise data-content-id="7a56b374-7d86-4699-8298-850f71990e6d" data-problem-comparator="float" data-problem-type="input" data-solution="-93">
-    <problem>
-      <para>\(g(2)\)</para>
-      <para>Enter the value of \(g(2)\). </para>
-    </problem>
-    <solution>
-      <para>Correct! -93</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q4-->
-  <exercise data-content-id="61ccfbc5-6435-4b4e-84ee-0e63ff6c2186" data-problem-type="dropdown" data-solution="No" data-solution-options="[&quot;Yes&quot;, &quot;No&quot;]">
-    <problem>
-      <para>Can you find an \(x\)-value that would make \(g(x)\):</para>
-      <para>Greater than 7?</para>
-      </problem>
-    <solution>
-      <para>Correct! No, it seems that 7 is the greatest value of \(g\), and that occurs when \(x=12\). All other \(x\)-values produce outputs that are less than 7.</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q4b-->
-  <exercise data-content-id="1074845e-8676-4e41-80d7-b588891b1e28" data-problem-type="dropdown" data-solution="Yes" data-solution-options="[&quot;Yes&quot;, &quot;No&quot;]">
-    <problem>
-      <para>Less than -10,000?</para>
-      </problem>
-    <solution>
-      <para>Correct! Yes, there are lots of \(x\)-values that produce an output less than -10,000. For example, both -200 and 200 would make \(g(x)\) greater than -10,000.</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Do not edit below line.-->
-  <solution>
-    <!-- INSERT ANY VALID HTML HERE -->
-  </solution>
-  <div class="os-raise-ib-pset-encourage-response">
-    <!-- INSERT ANY VALID HTML HERE -->
-  </div>
-</div></section>
+    </para></problem><solution><para>-2</para><para>
+      <para>Nice try! The correct answer is -2.</para>
+    </para></solution></exercise></section></section>
 </content>
 </document>

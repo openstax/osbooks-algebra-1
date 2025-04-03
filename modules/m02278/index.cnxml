@@ -3,27 +3,27 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02278</md:content-id>
     <md:title>8.11.3: Additional Resources</md:title>
-    <md:uuid>6b752795-740b-4e68-ae5e-e2ba2287c7bd</md:uuid>
+    <md:uuid>774bbfff-b619-48bc-89c9-db4b14b6be75</md:uuid>
   </metadata>
   <content>
   <section><title>Finding a Quadratic Function from Its Zeros and a Point</title>
 <para>Think about how you would solve the quadratic equation \(x^2 − 3x + 2 = 0\).</para>
-<list class="os-raise-noindent">
+<list>
   <item> The factored form is \((x − 1)(x − 2) = 0\). </item>
 </list>
-<list class="os-raise-noindent">
+<list>
   <item> The solutions are \(x = 1\) and \(x = 2\). </item>
 </list>
 <para>Now think about how you would solve \(2x^2 − 6x + 4 = 0\).</para>
-<list class="os-raise-noindent">
+<list>
   <item> Factor out the GCF, 2. </item>
 </list>
 <para>\(2(x^2 − 3x + 2) = 0\)</para>
 <para>It looks similar to the previous quadratic equation.</para>
-<list class="os-raise-noindent">
+<list>
   <item> The factored form is \(2(x − 1)(x − 2) = 0\). </item>
 </list>
-<list class="os-raise-noindent">
+<list>
   <item> Once again, the solutions are \(x = 1\) and \(x = 2\). </item>
 </list>
 <para>Since they have the same solutions, these two quadratic equations are related. They have the same zeros and the same axis of symmetry. </para>
@@ -34,23 +34,23 @@
 <para><emphasis>Example 1</emphasis></para>
 <para>Write the quadratic function, \(f(x)\), that has the zeros –5 and 4 and passes through the point \((-4, -16)\).</para>
 <para>We know the zeros are –5 and 4, so the factored form of the quadratic function is:</para>
-<para class="os-raise-noindent">\(f(x) = (x + 5)(x − 4)\).</para>
+<para>\(f(x) = (x + 5)(x − 4)\).</para>
 <para>The intercept form is \(f(x) = a(x + 5)(x − 4)\).</para>
 <para>We are given one more piece of information that allows us to find the value of \(a\). We know that the function passes through the point \((-4, -16)\).</para>
 <para>We can substitute –4 for \(x\) and –16 for the value of the function and solve for \(a\).</para>
-<para class="os-raise-noindent"> \(f(x) = a(x + 5)(x − 4)\)</para>
-<para class="os-raise-noindent">\(-16 = a((-4) + 5)((-4) − 4)\)</para>
-<para class="os-raise-noindent">\(-16 = a(1)(-8)\)</para>
-<para class="os-raise-noindent">\(-16 = -8a\)</para>
-<para class="os-raise-noindent">\(2 = a\)</para>
+<para> \(f(x) = a(x + 5)(x − 4)\)</para>
+<para>\(-16 = a((-4) + 5)((-4) − 4)\)</para>
+<para>\(-16 = a(1)(-8)\)</para>
+<para>\(-16 = -8a\)</para>
+<para>\(2 = a\)</para>
 <para>Since we know \(a = 2\), we can substitute 2 for \(a\) into the intercept form of the quadratic function.</para>
-<para class="os-raise-noindent">\(f(x) = a(x + 5)(x − 4)\)</para>
-<para class="os-raise-noindent">\(f(x) = 2(x + 5)(x − 4)\)</para>
-<para class="os-raise-noindent">\(f(x) = 2(x^2 + 5x − 4x − 20)\)</para>
-<para class="os-raise-noindent">\(f(x) = 2(x^2 + x − 20)\)</para>
-<para class="os-raise-noindent">\(f(x) = 2x^2 + 2x − 40\)</para>
+<para>\(f(x) = a(x + 5)(x − 4)\)</para>
+<para>\(f(x) = 2(x + 5)(x − 4)\)</para>
+<para>\(f(x) = 2(x^2 + 5x − 4x − 20)\)</para>
+<para>\(f(x) = 2(x^2 + x − 20)\)</para>
+<para>\(f(x) = 2x^2 + 2x − 40\)</para>
 <para>The specific function that has zeros –5 and 4 and passes through the point \((-4, -16)\) is:</para>
-<para class="os-raise-noindent">\(f(x) = 2x^2 + 2x − 40\).</para>
+<para>\(f(x) = 2x^2 + 2x − 40\).</para>
 <para>Let's graph the functions to check our work.</para>
 <para><figure><media alt="TWO GRAPHED PARABOLAS, ONE RED AND ONE GREEN, BOTH OPENING UP AND BOTH HAVING \(x\)-intercepts OF NEGATIVE 5 AND 4. THE GREEN PARABOLA HAS A \(y\)-intercepts OF NEGATIVE 20. THE RED PARABOLA HAS A \(y\)-intercepts OF NEGATIVE 40 AND PASSES THROUGH THE POINT (NEGATIVE 4, NEGATIVE 16)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/9db19e4cf408223871873e1c128afb7dc9fe58a9"/></media></figure></para>
 <para>Notice that \(f(x) = x^2 + x − 20\) and \(f(x) = 2x^2 + 2x − 40\) have the same zeros. These quadratic functions are related.</para>
@@ -66,19 +66,19 @@
 <para>Since the zeros are –7 and –3, the factored form of the function is \(g(x) = (x + 7)(x + 3)\).</para>
 <para>The intercept form of the function is \(g(x) = a(x + 7)(x + 3)\).</para>
 <para>We substitute values using the point \((-2, -5)\) to find the value of \(a\).</para>
-<para class="os-raise-noindent">\(g(x) = a(x + 7)(x + 3)\)</para>
-<para class="os-raise-noindent">\(-5 = a((-2) + 7)((-2) + 3)\)</para>
-<para class="os-raise-noindent">\(-5 = a(5)(1)\)</para>
-<para class="os-raise-noindent">\(-5 = 5a\)</para>
-<para class="os-raise-noindent">\(-1 = a\)</para>
+<para>\(g(x) = a(x + 7)(x + 3)\)</para>
+<para>\(-5 = a((-2) + 7)((-2) + 3)\)</para>
+<para>\(-5 = a(5)(1)\)</para>
+<para>\(-5 = 5a\)</para>
+<para>\(-1 = a\)</para>
 <para>Substitute the value of \(a\) into the intercept form of the function.</para>
-<para class="os-raise-noindent">\(g(x) = a(x + 7)(x + 3)\)</para>
-<para class="os-raise-noindent">\(g(x) = -1(x + 7)(x + 3)\)</para>
-<para class="os-raise-noindent">\(g(x) = -1(x^2 + 7x + 3x + 21)\)</para>
-<para class="os-raise-noindent">\(g(x) = -1(x^2 + 10x + 21)\)</para>
-<para class="os-raise-noindent">\(g(x) = -x^2 − 10x − 21\)</para>
+<para>\(g(x) = a(x + 7)(x + 3)\)</para>
+<para>\(g(x) = -1(x + 7)(x + 3)\)</para>
+<para>\(g(x) = -1(x^2 + 7x + 3x + 21)\)</para>
+<para>\(g(x) = -1(x^2 + 10x + 21)\)</para>
+<para>\(g(x) = -x^2 − 10x − 21\)</para>
 <para>The specific function that has zeros –7 and –3 and passes through the point \((-2, -5)\) is:</para>
-<para class="os-raise-noindent">\(g(x) = -x^2 − 10x − 21\).</para>
+<para>\(g(x) = -x^2 − 10x − 21\).</para>
 <para>Let's graph the functions to check our work.</para>
 <para><figure><media alt="GRAPH OF TWO PARABOLAS, ONE RED AND ONE GREEN, BOTH WITH \(x\)-intercepts OF NEGATIVE 7 AND NEGATIVE 3. THE GREEN PARABOLA OPENS UP. THE RED PARABOLA OPENS DOWN AND PASSES THROUGH THE POINT (NEGATIVE 2, NEGATIVE 5)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/9d9f7dfada4d9ec48f478a260dc7072929cf83bd"/></media></figure></para>
 <para>Again, notice that \(g(x) = x^2 + 10x + 21\) and \(g(x) = −x^2 − 10x − 21\) have the same zeros. They are related quadratic functions.</para>
@@ -94,15 +94,15 @@
   <para>The zeros are 2 and 6.</para>
   <para>The intercept form is \(h(x) = a(x − 2)(x − 6)\).</para>
   <para>Use the point \((7, 15)\) to find \(a\).</para>
-  <para class="os-raise-noindent">\(h(x) = a(x − 2)(x − 6)\)</para>
-  <para class="os-raise-noindent">\(15 = a((7) − 2)((7) − 6)\)</para>
-  <para class="os-raise-noindent">\(15 = a(5)(1)\)</para>
-  <para class="os-raise-noindent">\(3 = a\)</para>
+  <para>\(h(x) = a(x − 2)(x − 6)\)</para>
+  <para>\(15 = a((7) − 2)((7) − 6)\)</para>
+  <para>\(15 = a(5)(1)\)</para>
+  <para>\(3 = a\)</para>
   <para>Substitute 3 for the value of \(a\) in the intercept form.</para>
-  <para class="os-raise-noindent">\(h(x) = a(x − 2)(x − 6)\)</para>
-  <para class="os-raise-noindent">\(h(x) = 3(x^2 − 2x − 6x + 12)\)</para>
-  <para class="os-raise-noindent">\(h(x) = 3(x^2 − 8x + 12)\)</para>
-  <para class="os-raise-noindent">\(h(x) = 3x^2 − 24x + 36\)</para>
+  <para>\(h(x) = a(x − 2)(x − 6)\)</para>
+  <para>\(h(x) = 3(x^2 − 2x − 6x + 12)\)</para>
+  <para>\(h(x) = 3(x^2 − 8x + 12)\)</para>
+  <para>\(h(x) = 3x^2 − 24x + 36\)</para>
   <para>The specific quadratic with zeros of 2 and 6 that passes through the point \((7, 15)\) is \(h(x) = 3x^2 − 24x + 36\).</para>
 </solution></exercise>
 </example></section>

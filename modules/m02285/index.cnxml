@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02285</md:content-id>
     <md:title>8.12.3: Making Predictions Using a Quadratic Model</md:title>
-    <md:uuid>fdfe0e10-edb9-4bb2-80e4-0184f824c946</md:uuid>
+    <md:uuid>156d722d-6d44-4124-ae9d-bca3010e011e</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -92,26 +92,18 @@
 
 <title>Video: Using Technology to Find The Quadratic Regression</title>
 <para>Watch the following video to learn more about finding quadratic regression. </para>
-<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
-  <div class="os-raise-video-container"><video controls="true" crossorigin="anonymous">
-      <source src="https://k12.openstax.org/contents/raise/resources/eacddb18f25a338ef2ed0035b0bca663e1620905">
-      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/79b4194b251b5df0a0be5ab651d9285f3c8729fd" srclang="en_us">
-    </track></source></video></div>
-</div>
-
-
-<title>Anticipated Misconceptions</title>
+<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/eacddb18f25a338ef2ed0035b0bca663e1620905"/></media><title>Anticipated Misconceptions</title>
 <para>Students may assume that the data set models a symmetrical flight of the balloon from the ground up to a maximum height and back down to the ground. Show where the graph crosses the \(y\)-axis, or where time equals 0 minutes. Emphasize that at the start of this data set, or \(x = 0\), the balloon already had a height of approximately 78.6 feet.</para>
 <title>Activity Synthesis</title>
 <para>To review key ideas from the activity, discuss questions such as:</para>
-<list class="os-raise-noindent">
+<list>
   <item> “How does graphing an additional line on the coordinate plane help to visualize making a prediction using the curve of best fit?” (The line that is being graphed represents a given \(x\)- or \(y\)-value in the situation. By finding its intersection point with the curve of best fit, the corresponding \(x\)- or \(y\)-value is determined.) </item>
   <item> “In the activity, what does a vertical line with the equation \(x = 8\) represent?” (It represents the moment in the balloon’s flight when 8 minutes have passed.) </item>
   <item> “In the activity, what does a vertical line with the equation \(y = 36\) represent?” (It represents the moment or moments in the balloon’s flight when it has a height of 36 feet.) </item>
 </list>
 <title> 8.12.3: Self Check </title>
-<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
-<para class="os-raise-text-bold">QUESTION:</para>
+<para><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
+<para>QUESTION:</para>
 <para> A baseball is thrown into the air. The following <link url="https://k12.openstax.org/contents/raise/resources/048217c768c34e3f0a73d38a5e7dc1a3f6887af6">dataset</link> shows the height in feet, \(y\), of the baseball corresponding to the number of seconds passed, \(x\).
   (Students were provided access to Desmos)
   Approximately how long will it be before the baseball hits the ground?</para>
@@ -141,7 +133,7 @@
 </table>
 
 <title>8.12.3: Additional Resources</title>
-<para class="os-raise-text-bold"><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
+<para><emphasis>The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it.</emphasis></para>
 <title>Making Predictions Using a Quadratic Model</title>
 <para>A filtration system is being tested in a new aquarium. A pollutant is continuously added to the aquarium, and the filtration system is turned on until it has removed all of the pollutant from the water.</para>
 <para>The following data set shows the milliliters (mL) of pollutant present, \(y\), corresponding to the number of minutes that have passed, \(x\), since the experiment started.</para>
@@ -151,41 +143,41 @@
 <para>The curve of best fit is determined to be \(y = -0.29x^2+ 37.74x + 95.95\).</para>
 <para>We can use this curve of best fit to answer questions and make predictions about the amount of pollutant that will be in the water (mL) and the time it takes to completely clean the tank of pollutant.</para>
 <para>How many mL of pollutant will be in the water after 12 minutes?</para>
-<list class="os-raise-noindent">
+<list>
   <item> To answer this question, we want to know the \(y\)-value on the curve of best fit when the \(x\)-value is 12. </item>
 </list>
-<list class="os-raise-noindent">
+<list>
   <item> We can graph the line \(x = 12\) and see where it intersects with the curve of best fit. (Students were provided access to Desmos)</item>
 </list>
 <para><figure><media alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY. A VERTICAL LINE IS DRAWN THROUGH X EQUALS 12, WITH THE POINT (12, 507.492) LABELED."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/c0cf9e0de60c8680edd67e2edee49e7ef614fe35"/></media></figure></para>
-<list class="os-raise-noindent">
+<list>
   <item> By moving the cursor over the intersection point, we see that the \(y\)-value is approximately 507.49. </item>
 </list>
-<list class="os-raise-noindent">
+<list>
   <item> This means that after 12 minutes, there will be approximately 507.49 mL of pollutant in the water. </item>
 </list>
 <para>At what time(s) will there be 1000 mL of pollutant in the water?</para>
-<list class="os-raise-noindent">
+<list>
   <item> To answer this question, we want to know the \(x\)-value on the curve of best fit when the \(y\)-value is 1000. </item>
 </list>
-<list class="os-raise-noindent">
+<list>
   <item> We can graph the line \(y = 1000\) and see where it intersects with the curve of best fit. (Students were provided access to Desmos)</item>
 </list>
 <para><figure><media alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY. A HORIZONTAL LINE IS DRAWN THROUGH Y EQUALS ONE THOUSAND, WITH THE POINTS (31.508, 1000) AND (99.913, 1000) LABELED."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/9acf6d93d76789a2ee4808e96d3f123c2099fd16"/></media></figure></para>
-<list class="os-raise-noindent">
+<list>
   <item> The line \(y = 1000\) intersects with the curve of best fit at two points. This means there are two times when there is 1000 mL of pollutant. We see that the \(x\)-values are approximately 31.51 and 99.91. </item>
 </list>
-<list class="os-raise-noindent">
+<list>
   <item> In other words, there will be 1000 mL of pollutant at approximately 31.51 minutes and again at approximately 99.91 minutes after the experiment starts. </item>
 </list>
 <para>How long after the experiment has started will the filtration system have removed all of the pollutant from the aquarium?</para>
-<list class="os-raise-noindent">
+<list>
   <item> To answer this question, we want to know the \(x\)-value of the \(x\)-intercept of the curve of best fit. </item>
 </list>
-<list class="os-raise-noindent">
+<list>
   <item> If we graph \(y = 0\), we can click on the intersection point to find its coordinates. The \(x\)-intercept of the curve of best fit is \((133.92, 0)\). </item>
 </list>
-<list class="os-raise-noindent">
+<list>
   <item> So, approximately 133.92 minutes after the experiment starts, there will be no pollutant left in the water. </item>
 </list>
 <title> Try It: Making Predictions Using a Quadratic Model </title>

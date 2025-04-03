@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02455</md:content-id>
     <md:title>9.8.2: Deriving the Quadratic Formula, Part 2</md:title>
-    <md:uuid>1c0973dd-5b86-4ce1-a132-15a1de1dd2ca</md:uuid>
+    <md:uuid>f07821cb-8b2f-4c3e-af2d-dec487184dad</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -63,7 +63,7 @@
 <title>Student Facing Extension</title>
 <title>Are you ready for more?</title>
 <para>Here is another way to derive the quadratic formula by completing the square.</para>
-<list class="os-raise-noindent">
+<list>
   <item> First, divide each side of the equation \(ax^2+bx+c=0\) by \(a\) to get \(x^2+\frac{b}{a}x+\frac{c}{a}=0\). </item>
   <item> Then, complete the square for \(x^2+\frac{b}{a}x+\frac{c}{a}=0\). </item>
 </list>
@@ -146,24 +146,16 @@
   \(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\).</para>
 <title>Video: Deriving the Quadratic Formula</title>
 <para>Watch the following video to learn more about deriving the quadratic formula.</para>
-<div class="os-raise-d-flex-nowrap os-raise-justify-content-center">
-  <div class="os-raise-video-container"><video controls="true" crossorigin="anonymous">
-      <source src="https://k12.openstax.org/contents/raise/resources/ea0b4447ec781db56cae7dec10ddfe3cace6df40">
-      <track default="true" kind="captions" label="On" src="https://k12.openstax.org/contents/raise/resources/5c46d09e7ba2332487e618cbe92d9c7796441239" srclang="en_us">https://k12.openstax.org/contents/raise/resources/cdad89b7a5ee8c0eacfcbd8a970217904f3ade81
-    </track></source></video></div>
-</div>
-
-
-<title>Anticipated Misconceptions</title>
+<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/ea0b4447ec781db56cae7dec10ddfe3cace6df40"/></media><title>Anticipated Misconceptions</title>
 <para>Some students may think that we multiply just by 4 and wonder where the \(a\) comes from. Point out that we need the first term to be a perfect square. In the previous activity, the \(a\) value was 1 (which was already a perfect square). We can't be certain that \(a\) is a perfect square, so we multiply by 4 and \(a\) to make the first term \(4a^2x^2\), which is \((2ax)^2\), a perfect square.</para>
 <para>Some may wonder where the \(M\) comes from. Consider displaying a completed solution from the previous activity that parallels this work. Remind students of the placeholder \(P\) used there. Invite them to compare other steps in the previous activity to those in this activity to help them explain the derivation.</para>
 <title>Activity Synthesis</title>
 <para>Invite students to share their explanations for each step. Highlight a few key maneuvers:</para>
-<list class="os-raise-noindent">
+<list>
   <item> Multiplying the equation by \(4a\) makes the coefficient of \(x^2\) a perfect square and the coefficient of the linear term an even number, both of which make completing the square much easier. </item>
 </list>
 <para>Some students may wonder why \(4a\) is chosen to complete the square when solving \(ax^2+bx+c=0\). Why not \(a\), \(9a\), or \(16a\)? Any of these would work. The equation could also have been divided by \(a\) to make the first term \(x^2\), which is a perfect square. (If time permits, consider asking students to try completing the square using one of these alternatives.) While these alternatives result in a perfect square for the first term, they may not give an even number for the coefficient of the second term or they may produce an equation with larger numbers, making it a bit trickier to manipulate.</para>
-<list class="os-raise-noindent">
+<list>
   <item> We can tell what constant term is needed to complete the square by dividing the coefficient of the linear term by the positive square root of the coefficient of \(x^2\), taking half of it, and squaring that number. In this case: </item>
   <list>
     <item> The coefficient of \(x\) is \(4ab\). </item>
@@ -175,9 +167,9 @@
 <para>Emphasize that the quadratic formula essentially captures the steps for completing the square in one expression. Every time we solve a quadratic equation by completing the square, we are essentially using the quadratic formula, but in a less condensed way.</para>
 <title>9.8.2: Self Check</title>
 <!--BEGIN SELF CHECK INTRO BEFORE Tables -->
-<para class="os-raise-text-bold"><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
+<para><emphasis>After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</emphasis></para>
 <!--SELF CHECK QUESTION GOES BEFORE THE Table -->
-<para class="os-raise-text-bold">QUESTION:</para>
+<para>QUESTION:</para>
 <para>Looking at the steps of deriving the quadratic formula, which step should follow the one below?</para>
 <para>\((x+\frac{b}{2a})^2=\frac{b^2-4ac}{4a^2}\)</para>
 <!--SELF CHECK table-->

@@ -3,127 +3,25 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m00244</md:content-id>
     <md:title>1.11.3: Reasoning Symbolically and Abstractly about Linear Equations</md:title>
-    <md:uuid>03061101-6994-4409-8ccd-150f7d89f549</md:uuid>
+    <md:uuid>650e1004-1cb7-4f1f-9105-2ee64bb5a454</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<para>For numbers 1 – 5, select the slope and intercept that corresponds to each equation:</para>
-<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="ddc8cc1b-4b5c-4970-bde1-f2ae532c4819" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
-  <!--Q#1-->
-  <exercise data-content-id="6c21e788-9cde-4e5b-94cc-e15e1e947b3f" data-problem-type="multiplechoice" data-solution="\( m=\frac 43 \), \( y\text{-int}=(0,1) \)" data-solution-options="[&quot;\\( m=3 \\), \\( y\\text{-int}=(0,1) \\)&quot;, &quot;\\( m=\\frac 43 \\), \\( y\\text{-int}=(0,1) \\)&quot;, &quot;\\( m=\\frac 43 \\), \\( y\\text{-int}=(0,-2) \\)&quot;, &quot;\\( m=-4 \\), \\( y\\text{-int}=(0,8) \\)&quot;, &quot;\\( m=3 \\), \\( y\\text{-int}=(0,-2) \\)&quot;]">
-    <problem>
+  <section><para>For numbers 1 – 5, select the slope and intercept that corresponds to each equation:</para>
+<section class="check-understanding"><title>Activity</title><exercise data-content-id="6c21e788-9cde-4e5b-94cc-e15e1e947b3f"><problem><para>
       <para>\( -4x+3y=3 \)</para>
-      </problem>
-    <solution>
-      <para>Correct! \( m=\frac 43 \), \( y\text{-int}=(0,1) \)</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q#2-->
-  <exercise data-content-id="290e6cf0-44ff-4e9c-88f4-1105c2b6945d" data-problem-type="multiplechoice" data-solution="\( m=3 \), \( y\text{-int}=(0,-2) \)" data-solution-options="[&quot;\\( m=3 \\), \\( y\\text{-int}=(0,1) \\)&quot;, &quot;\\( m=\\frac 43 \\), \\( y\\text{-int}=(0,1) \\)&quot;, &quot;\\( m=\\frac 43 \\), \\( y\\text{-int}=(0,-2) \\)&quot;, &quot;\\( m=-4 \\), \\( y\\text{-int}=(0,8) \\)&quot;, &quot;\\( m=3 \\), \\( y\\text{-int}=(0,-2) \\)&quot;]">
-    <problem>
-      <para>\( 12x-4y=8 \)</para>
-      </problem>
-    <solution>
-      <para>Correct! \( m=3 \), \( y\text{-int}=(0,-2) \)</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q#3-->
-  <exercise data-content-id="dc16004d-1b6c-4990-830a-3a35112e31e5" data-problem-type="multiplechoice" data-solution="\( m=-4 \), \( y\text{-int}=(0,8) \)" data-solution-options="[&quot;\\( m=3 \\), \\( y\\text{-int}=(0,1) \\)&quot;, &quot;\\( m=\\frac 43 \\), \\( y\\text{-int}=(0,1) \\)&quot;, &quot;\\( m=\\frac 43 \\), \\( y\\text{-int}=(0,-2) \\)&quot;, &quot;\\( m=-4 \\), \\( y\\text{-int}=(0,8) \\)&quot;, &quot;\\( m=3 \\), \\( y\\text{-int}=(0,-2) \\)&quot;]">
-    <problem>
-      <para>\( 8x+2y=16 \)</para>
-      </problem>
-    <solution>
-      <para>Correct! \( m=-4 \), \( y\text{-int}=(0,8) \)</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q#4-->
-  <exercise data-content-id="85f7342e-2dc9-4623-b35e-32e5737b516d" data-problem-type="multiplechoice" data-solution="\( m=3, y\text{-int}=(0,1) \)" data-solution-options="[&quot;\\( m=3, y\\text{-int}=(0,1) \\)&quot;, &quot;\\( m=\\frac 43 \\), \\( y\\text{-int}=(0,1) \\)&quot;, &quot;\\( m=\\frac 43 \\), \\( y\\text{-int}=(0,-2) \\)&quot;, &quot;\\( m=-4 \\), \\( y\\text{-int}=(0,8) \\)&quot;, &quot;\\( m=3 \\), \\( y\\text{-int}=(0,-2) \\)&quot;]">
-    <problem>
-      <para>\( -x+\frac 13 y=\frac 13 \)</para>
-      </problem>
-    <solution>
-      <para>Correct! ( m=3 \), \( y\text{-int}=(0,1) \)</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q#5-->
-  <exercise data-content-id="4f72d334-bc7f-4d5d-bf3e-1696a83110e9" data-problem-type="multiplechoice" data-solution="\( m=\frac 43 \), \( y\text{-int}=(0,-2) \)" data-solution-options="[&quot;\\( m=3 \\), \\( y\\text{-int}=(0,1) \\)&quot;, &quot;\\( m=\\frac 43 \\), \\( y\\text{-int}=(0,1) \\)&quot;, &quot;\\( m=\\frac 43 \\), \\( y\\text{-int}=(0,-2) \\)&quot;, &quot;\\( m=-4 \\), \\( y\\text{-int}=(0,8) \\)&quot;, &quot;\\( m=3 \\), \\( y\\text{-int}=(0,-2) \\)&quot;]">
-    <problem>
-      <para>\( -4x + 3y = -6 \)</para>
-      </problem>
-    <solution>
-      <para>Correct! \( m=\frac 43 \), \( y\text{-int}=(0,-2) \)</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Do not edit below line.-->
-  <solution>
-    <!-- INSERT ANY VALID HTML HERE -->
-  </solution>
-    <div class="os-raise-ib-pset-encourage-response">
-    <!-- INSERT ANY VALID HTML HERE -->
-  </div></div>
-
+      </para><para>Multiple Choice:</para><para>\( m=3 \), \( y\text{-int}=(0,1) \)</para><para>\( m=\frac 43 \), \( y\text{-int}=(0,1) \)</para><para>\( m=\frac 43 \), \( y\text{-int}=(0,-2) \)</para><para>\( m=-4 \), \( y\text{-int}=(0,8) \)</para><para>\( m=3 \), \( y\text{-int}=(0,-2) \)</para></problem><solution><para>\( m=\frac 43 \), \( y\text{-int}=(0,1) \)</para><para>
+      <para>Nice try! The correct answer is \( m=\frac 43 \), \( y\text{-int}=(0,1) \)</para>
+    </para></solution></exercise></section>
 <para><emphasis>Using Standard Form and Intercepts to Graph</emphasis></para>
 <para> Standard form, \(Ax + By = C\), is helpful for finding the \(x\)-intercepts and \(y\)-intercepts of an equation. </para>
-<div class="os-raise-ib-pset" data-button-text="Check" data-content-id="943d7507-2a41-427c-b862-a04006a2eb93" data-fire-learning-opportunity-event="eventnameY" data-fire-success-event="eventnameX" data-retry-limit="0" data-schema-version="1.0">
-  <!--Q#6-->
-  <exercise data-content-id="d693b658-f7c3-4288-9f1b-0baf9a491166" data-problem-comparator="integer" data-problem-type="input" data-solution="0">
-    <problem>
+<section class="check-understanding"><exercise data-content-id="d693b658-f7c3-4288-9f1b-0baf9a491166"><problem><para>
       <para> For questions 6 - 11, </para>
       <blockquote>Use the equation \(6x -4y=24\).</blockquote>
       <para>What is the value of \(y\) at the \(x\)-intercept?</para>
       <para>Enter your answer here.</para>
-    </problem>
-    <solution>
-      <para>Correct! 0</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q#7-->
-  <exercise data-content-id="8bab532e-ecf3-48f9-a6e5-4505f13ce64e" data-problem-comparator="integer" data-problem-type="input" data-solution="4">
-    <problem>
-      <para>What is the \(x\)-intercept of the equation?</para>
-      <para>Enter your answer here.</para>
-    </problem>
-    <solution>
-      <para>Correct! 4</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q#8-->
-  <exercise data-content-id="04605dc6-d8fc-45b1-a167-4208032018fe" data-problem-comparator="integer" data-problem-type="input" data-solution="4">
-    <problem>
-      <para>What is the value of \(x\) at the \(y\)-intercept?</para>
-      <para>Enter your answer here.</para>
-    </problem>
-    <solution>
-      <para>Correct! 0</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Q#9-->
-  <exercise data-content-id="59849d8c-16fa-497f-85ed-a7fc1d68615a" data-problem-comparator="integer" data-problem-type="input" data-solution="4">
-    <problem>
-      <para>What is the \(y\)-intercept of the equation?</para>
-      <para>Enter your answer here.</para>
-    </problem>
-    <solution>
-      <para>Correct! -6</para>
-    </solution>
-    </exercise>
-  <!--END QUESTION.-->
-  <!--Do not edit below line.-->
-  <solution>
-    <!-- INSERT ANY VALID HTML HERE -->
-  </solution>
-    <div class="os-raise-ib-pset-encourage-response">
-    <!-- INSERT ANY VALID HTML HERE -->
-  </div></div>
-<!--BEGIN ADD DESMOS INTERATIVE-->
+    </para></problem><solution><para>0</para><para>
+      <para>Nice try! The correct answer is 0.</para>
+    </para></solution></exercise></section><!--BEGIN ADD DESMOS INTERATIVE-->
 <!--START QUESTION #10 -->
 <example><exercise>
   <problem>
