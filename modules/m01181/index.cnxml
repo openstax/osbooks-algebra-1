@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01181</md:content-id>
     <md:title>4.18.3: Define an Arithmetic Sequence by the nth Term</md:title>
-    <md:uuid>b28d0d69-2994-4b2d-b54f-b8072c846923</md:uuid>
+    <md:uuid>e57c7638-ce86-496c-a113-47c0ea6c3889</md:uuid>
   </metadata>
   <content>
   <section><title>Activity (15 minutes)</title>
@@ -182,16 +182,10 @@
 <para>Display the two definitions from this task for all to see: \(C(n)=80 \cdot(\frac{1}{2})^n\) and \(K(n)=80−8n\). Begin the discussion by asking, “How can you tell which of these defines a geometric sequence and which defines an arithmetic sequence?” (A geometric sequence has a constant growth factor between terms, so \(C(n)\) must represent a geometric sequence since each term is half the value of the previous term. An arithmetic sequence has a constant rate of change, so \(K(n)\) must represent an arithmetic sequence since each term is 8 less than the previous term.)</para>
 <para>Tell students that \(C(n)\) and \(K(n)\) are examples of defining a sequence by the nth term, which is the type of definition students are most likely familiar with. These are sometimes known as a closed-form or explicit definition, but students do not need to use these terms. In future activities, if students are asked to represent a sequence with an equation for the nth term, then they are being asked for this type of equation, not to define the sequence recursively. In later lessons, students will have practice writing equations for linear and exponential functions from a variety of situations.</para>
 <para>Lastly, if time allows, ask students to calculate which is larger, \(K(10)\) or \(C(10)\). (\(C(10)\) is larger since \(K(10)=0\) and \(C(10)&gt;0\), or there can’t be a comparison because \(K(10)\) does not exist since a tenth cut is not possible.) Select students to share their calculations. If no student points out that \(K(10)\) does not exist due to the constraints of the context when \(n\) is the number of cuts, make sure to bring up this point. Students will have more opportunities to think directly about domains given a specific situation in a later lesson.</para>
-<div class="os-raise-extrasupport">
-  <note>
-    <para>Support for Students with Disabilities<title>Support for Students with Disabilities</title></para>
-    <para>Engagement: Develop Effort and Persistence<title>Engagement: Develop Effort and Persistence</title></para>
-  </note>
-  <div class="os-raise-extrasupport-body">
-    <para> Break the class into small group discussion groups and then invite a representative from each group to report back to the whole class. </para>
-    <para class="os-raise-text-italicize">Supports accessibility for: Language; Social-emotional skills; Attention</para>
-  </div>
-</div>
+<note class="extra-support">
+  <title>Support for Students with Disabilities</title><para>Engagement: Develop Effort and Persistence</para>
+  <para> Break the class into small group discussion groups and then invite a representative from each group to report back to the whole class. </para>
+    <para><emphasis effect="italics">Supports accessibility for: Language; Social-emotional skills; Attention</emphasis></para></note>
 
 <title>4.18.3: Self Check </title>
 <para class="os-raise-text-bold os-raise-text-italicize">After the activity, students will answer the following question to check their understanding of the concepts explored in the activity.</para>
@@ -226,17 +220,12 @@
 
 <title>4.18.3: Additional Resources</title>
 <para class="os-raise-text-bold os-raise-text-italicize">The following content is available to students who would like more support based on their experience with the self check. Students will not automatically have access to this content, so you may wish to share it with those who could benefit from it. </para>
-<div class="os-raise-extrasupport">
-  <note>
-    <para>The nth Term of Arithmetic Sequences<title>The nth Term of Arithmetic Sequences</title></para>
-    <para><title/><!--Extra Support Name--> GENERAL TERM (NTH TERM) OF AN ARITHMETIC SEQUENCE</para>
-  </note>
-  <div class="os-raise-extrasupport-body"> 
-    <!--Support Content-->
+<note class="extra-support">
+  <title>The nth Term of Arithmetic Sequences</title><para><!--Extra Support Name--> GENERAL TERM (NTH TERM) OF AN ARITHMETIC SEQUENCE</para>
+  <!--Support Content-->
     <para>The general term of an arithmetic sequence with first term \(a_1\) and common difference \(d\) is: \(a_n=a_1+(n-1)d\).</para>
     <!-- Extra Support Content--> 
-  </div>
-</div>
+  </note>
 
 <para class="os-raise-text-bold">Example 1</para>
 <para>Write the explicit formula for the sequence given by the terms 18, 21, 24, 27, ...</para>
