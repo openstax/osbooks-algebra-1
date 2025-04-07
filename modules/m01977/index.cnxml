@@ -6,41 +6,62 @@
     <md:uuid>2515f08c-2e11-439a-90a0-b426e4837379</md:uuid>
   </metadata>
   <content>
-  <section><list class="os-raise-noindent" type="enumerated">
-  <item>Consider the quadratic equation \(y=x^2-4x\). Consider the graph of the equation when answering questions a and b.</item>
-</list>
-<example><exercise>
-  <problem>
-    
-    <para> Where are the \(x\)-intercepts located? </para>
-      <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>The \(x\)-intercepts are at \(x=0\) and \(x=4\).</para>
-
-</solution></exercise>
-</example><section class="check-understanding"><title>Cool Down Activity</title><exercise data-content-id="167a80b4-40da-4f97-8af6-067a60705252" class="multiple-choice"><problem><para>Enter your answer here:</para><para> What is the \(x\)-coordinate of the vertex? </para>
-        </problem><solution><para>Correct! The vertex is halfway between the intercepts at \(x=2\).</para><para>The correct answer is 2. The vertex is halfway between the intercepts at \(x=2\).</para></solution></exercise></section>
-<example><exercise>
-  <problem>
-    
-    <para>Here is a graph of \(y=x^2\).</para>
-    <para><figure><media alt="&quot;Graph of Parabola y = x squared&amp;nbsp;&quot; height=&quot;200&quot;"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/a2f1f417297e9e9347bdc79e48eb92413d81ba49"/></media></figure></para>
-    
-    <para>Sketch this graph, then sketch a graph of \(y=x^2+5x\) on the same graph. Briefly explain how you know where to sketch the graph.</para>
-  
-  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>\(x^2+5x\) is equivalent to \(x(x+5)\), so the \(x\)-intercepts are at \(x=0\) and \(x=-5\). Calculate the vertex by finding the \(x\)-coordinate in between \(x = -5\) and \(x = 0\) which is \(x = -2.5\). Substitute \(x=-2.5\) into the equation to find the \(y\)-coordinate: \(y=(-2.5)2+5(-2.5)=-6.188\). The vertex is at \((-2.5, -6.188)\). The squared term has a positive coefficient so the graph opens upward. Adding a positive linear term to \(x^2\) shifts the graph down and to the left.</para>
-  
-  <para><figure><media alt="&quot;Graph of 2 parabolas &amp;nbsp;&quot; height=&quot;200&quot;"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/a42561305274a589ef2901336af6782c1d5656fc"/></media></figure></para>
-
-</solution></exercise>
-</example></section>
-</content>
+    <section>
+      <list class="os-raise-noindent" type="enumerated">
+        <item>Consider the quadratic equation \(y=x^2-4x\). Consider the graph of the equation when answering questions a and b.</item>
+      </list>
+      <example>
+        <exercise>
+          <problem>
+            <para> Where are the \(x\)-intercepts located? </para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>The \(x\)-intercepts are at \(x=0\) and \(x=4\).</para>
+          </solution>
+        </exercise>
+      </example>
+      <section class="check-understanding">
+        <title>Cool Down Activity</title>
+        <exercise data-content-id="167a80b4-40da-4f97-8af6-067a60705252" class="multiple-choice">
+          <problem>
+            <para>Enter your answer here:</para>
+            <para> What is the \(x\)-coordinate of the vertex? </para>
+          </problem>
+          <solution>
+            <para>Correct! The vertex is halfway between the intercepts at \(x=2\).</para>
+            <para>The correct answer is 2. The vertex is halfway between the intercepts at \(x=2\).</para>
+          </solution>
+        </exercise>
+      </section>
+      <example>
+        <exercise>
+          <problem>
+            <para>Here is a graph of \(y=x^2\).</para>
+            <para>
+              <figure>
+                <media alt="&quot;Graph of Parabola y = x squared&amp;nbsp;&quot; height=&quot;200&quot;">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_15_12_01.svg"/>
+                </media>
+              </figure>
+            </para>
+            <para>Sketch this graph, then sketch a graph of \(y=x^2+5x\) on the same graph. Briefly explain how you know where to sketch the graph.</para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>\(x^2+5x\) is equivalent to \(x(x+5)\), so the \(x\)-intercepts are at \(x=0\) and \(x=-5\). Calculate the vertex by finding the \(x\)-coordinate in between \(x = -5\) and \(x = 0\) which is \(x = -2.5\). Substitute \(x=-2.5\) into the equation to find the \(y\)-coordinate: \(y=(-2.5)2+5(-2.5)=-6.188\). The vertex is at \((-2.5, -6.188)\). The squared term has a positive coefficient so the graph opens upward. Adding a positive linear term to \(x^2\) shifts the graph down and to the left.</para>
+            <para>
+              <figure>
+                <media alt="&quot;Graph of 2 parabolas &amp;nbsp;&quot; height=&quot;200&quot;">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_15_12_02.svg"/>
+                </media>
+              </figure>
+            </para>
+          </solution>
+        </exercise>
+      </example>
+    </section>
+  </content>
 </document>

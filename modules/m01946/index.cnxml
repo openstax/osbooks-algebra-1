@@ -6,179 +6,162 @@
     <md:uuid>0393787a-90f3-422d-a821-148e23cee5bd</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<para>Use the graphing tool or technology outside the course. Graph \(f(x)=x^2\), and then experiment with each of the changes to the function in questions 1 – 7. Record your observations of what you noticed or wondered about each set of changes to the function (include sketches, if helpful).</para>
-
-
-<example><exercise>
-  <problem>
-    
-    <para>Add different constant terms to \(x^2\) (for example: \(x^2+5\), \(x^2+10\), \(x^2-3\)).</para>
-    <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para> Changing the constant term either raised the graph (when the constant is positive) or lowered the graph (when the constant is negative). Adding the constant term shifted the graph vertically, but the overall shape of the graph did not change.</para>
-
-</solution></exercise>
-
-</example>
-<div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
-<example><exercise>
-  <problem>
-    
-    <para>Multiply \(x^2\) by different positive coefficients greater than 1 (for example: \(3x^2\), \(7.5x^2\)).</para>
-    <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>Multiplying \(x^2\) by different positive numbers changed the shape of the graph, making it "steeper" when the constant is larger and less steep when the constant is smaller. The size of the coefficient determined how much of a vertical stretch was applied to the graph.</para>
-
-</solution></exercise>
-</example>
-<example><exercise>
-  <problem>
-    
-    <para>Multiply \(x^2\) by different negative coefficients less than or equal to -1 (for example: \(-x^2\),\(-4x^2\)).</para>
-    <para>Write down your answer. Then select the <emphasis>so</emphasis><emphasis>lution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>Multiplying \(x^2\) by a negative number flipped the graph (or reflected the graph) over the \(x\)-axis so that it opens downward rather than upward.</para>
-
-</solution></exercise>
-</example>
-<example><exercise>
-  <problem>
-    
-    <para>Multiply \(x^2\) by different coefficients between -1 and 1 (for example: \(12x^2\), \(-0.25x^2\)).</para>
-    <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>Multiplying \(x^2\) by numbers between -1 and 1 changed the opening of the graph as well as the direction of the graph. Shrinking the coefficient from 1 toward 0 made the graph "shallower" and wider. This change vertically compressed the graph. When the coefficient is 0, the graph becomes a horizontal line. Raising the coefficient from -1 to 0 had the same effect of vertically compressing the graph, except that the graph started out opening downward.</para>
-
-</solution></exercise>
-</example>
-<example><exercise>
-  <problem>
-    
-    <para>Add different constants to \(x\) before squaring the term (for example \((x-1)^2\), \((x+2)^2\), \((x-3)^2\)).</para>
-    <para>Write down your answer. Then select the <emphasis>s</emphasis><emphasis>olution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>When a constant is added to the \(x\) in \(x^2\), the graph moves horizontally to the left. When a constant is subtracted from the \(x\) in \(x^2\), the graph moves horizontally to the right.</para>
-
-</solution></exercise>
-</example>
-<example><exercise>
-  <problem>
-    
-    <para>Multiply \(x\) by different positive coefficients greater than 1 (for example: (\(3x)^2\), \((7.5x)^2\)).</para>
-    <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>Multiplying \(x\) by different positive numbers changed the shape of the graph, making it more narrow when the constant is larger and less narrow when the constant is smaller.</para>
-
-</solution></exercise>
-</example>
-<example><exercise>
-  <problem>
-    
-    <para>Multiply \(x\) by different positive coefficients between 0 and 1 (for example: \((0.5x)^2\), \((0.1x)^2\)).</para>
-    <para>Write down your answer. Then select the <emphasis>s</emphasis><emphasis>olution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>Multiplying \(x\) by different positive numbers between 0 and 1 changed the shape of the graph, making it wider as the decimal gets closer to zero.</para>
-
-</solution></exercise>
-</example><para>For quadratics, the <term data-schema-version="1.0" data-store="glossary-tooltip">parent function</term> is \(f(x)=x^2\) . From there, any moves created by making changes to the function like in questions 1 – 7 above are called <term data-schema-version="1.0" data-store="glossary-tooltip">transformations</term>.</para>
-
-<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<example><exercise>
-  <problem>
-    
-    <!-- INSERT ANY VALID HTML HERE -->
-  
-  <!-- INSERT ANY VALID HTML HERE -->
-  
-  </problem></exercise>
-</example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<exercise data-wait-for-event="RFM1">
-  <problem>
-    <title>Extending Your Thinking</title>
-    
-    <para>Examine the graphs of three quadratic functions.</para>
-    
-    <para><figure><media alt="3 parabolas on x and y axes. All are symmetric about \(y\)-axis. 2 open up, have positive \(y\)-intercepts, and 1 is wider than the other. Third parabola opens down, is the widest, and has negative \(y\)-intercepts."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/48569d296f9bd951abfa5b6505c837c81f060f63"/></media></figure></para>
-    
-    <para>What can you say about the coefficient of \(x^2\) in the expression that defines \(f\) (in black at the top)?</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>It is positive because the graph of \(f\) opens upward.</para>
-  
-  </solution></exercise>
-<!--End interaction-->
-<exercise data-wait-for-event="RFM1">
-  <problem>
-    <para>What can you say about the coefficient of \(x^2\) in the expression that defines \(g\) (in blue in the middle)?</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>It is positive because the graph of \(g\) opens upward.</para>
-    
-    <para>Or</para>
-    
-    <para>The coefficient is less than the coefficient for the graph of \(f\) (but still greater than 0) because \(g\) is wider.</para>
-  
-  </solution></exercise>
-<!--End interaction-->
-<exercise data-wait-for-event="RFM1">
-  <problem>
-    <para>What can you say about the coefficient of \(x^2\) in the expression that defines \(h\) (in yellow at the bottom)?</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>It is negative because the graph of \(h\) opens downward.</para>
-    
-    <para>Or</para>
-    
-    <para>The absolute value of the coefficient of \(h\) is less than the absolute value of the coefficients for both \(f\) and \(g\) because \(h\) is wider.</para>
-  
-  </solution></exercise>
-<!--End interaction-->
-<exercise data-wait-for-event="RFM1">
-  <problem>
-    <para>How do each of the functions compare to each other?</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>The coefficients cannot be identified exactly without knowing the coordinates of some points on the graph. The coefficient of the squared term of \(f\) is greater than that of \(g\) because the graph of \(f\) is narrower, indicating that it is growing faster than the graph of \(g\). The absolute value of the coefficient of \(h\) is less than that of \(g\) because the graph of \(h\) is wider, indicating that it is not growing as quickly.</para>
-  
-  </solution></exercise>
-<!--End interaction--></section>
-</content>
+    <section>
+      <title>Activity</title>
+      <para>Use the graphing tool or technology outside the course. Graph \(f(x)=x^2\), and then experiment with each of the changes to the function in questions 1 – 7. Record your observations of what you noticed or wondered about each set of changes to the function (include sketches, if helpful).</para>
+      <example>
+        <exercise>
+          <problem>
+            <para>Add different constant terms to \(x^2\) (for example: \(x^2+5\), \(x^2+10\), \(x^2-3\)).</para>
+            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para> Changing the constant term either raised the graph (when the constant is positive) or lowered the graph (when the constant is negative). Adding the constant term shifted the graph vertically, but the overall shape of the graph did not change.</para>
+          </solution>
+        </exercise>
+      </example>
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+      <example>
+        <exercise>
+          <problem>
+            <para>Multiply \(x^2\) by different positive coefficients greater than 1 (for example: \(3x^2\), \(7.5x^2\)).</para>
+            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>Multiplying \(x^2\) by different positive numbers changed the shape of the graph, making it "steeper" when the constant is larger and less steep when the constant is smaller. The size of the coefficient determined how much of a vertical stretch was applied to the graph.</para>
+          </solution>
+        </exercise>
+      </example>
+      <example>
+        <exercise>
+          <problem>
+            <para>Multiply \(x^2\) by different negative coefficients less than or equal to -1 (for example: \(-x^2\),\(-4x^2\)).</para>
+            <para>Write down your answer. Then select the <emphasis>so</emphasis><emphasis>lution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>Multiplying \(x^2\) by a negative number flipped the graph (or reflected the graph) over the \(x\)-axis so that it opens downward rather than upward.</para>
+          </solution>
+        </exercise>
+      </example>
+      <example>
+        <exercise>
+          <problem>
+            <para>Multiply \(x^2\) by different coefficients between -1 and 1 (for example: \(12x^2\), \(-0.25x^2\)).</para>
+            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>Multiplying \(x^2\) by numbers between -1 and 1 changed the opening of the graph as well as the direction of the graph. Shrinking the coefficient from 1 toward 0 made the graph "shallower" and wider. This change vertically compressed the graph. When the coefficient is 0, the graph becomes a horizontal line. Raising the coefficient from -1 to 0 had the same effect of vertically compressing the graph, except that the graph started out opening downward.</para>
+          </solution>
+        </exercise>
+      </example>
+      <example>
+        <exercise>
+          <problem>
+            <para>Add different constants to \(x\) before squaring the term (for example \((x-1)^2\), \((x+2)^2\), \((x-3)^2\)).</para>
+            <para>Write down your answer. Then select the <emphasis>s</emphasis><emphasis>olution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>When a constant is added to the \(x\) in \(x^2\), the graph moves horizontally to the left. When a constant is subtracted from the \(x\) in \(x^2\), the graph moves horizontally to the right.</para>
+          </solution>
+        </exercise>
+      </example>
+      <example>
+        <exercise>
+          <problem>
+            <para>Multiply \(x\) by different positive coefficients greater than 1 (for example: (\(3x)^2\), \((7.5x)^2\)).</para>
+            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>Multiplying \(x\) by different positive numbers changed the shape of the graph, making it more narrow when the constant is larger and less narrow when the constant is smaller.</para>
+          </solution>
+        </exercise>
+      </example>
+      <example>
+        <exercise>
+          <problem>
+            <para>Multiply \(x\) by different positive coefficients between 0 and 1 (for example: \((0.5x)^2\), \((0.1x)^2\)).</para>
+            <para>Write down your answer. Then select the <emphasis>s</emphasis><emphasis>olution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>Multiplying \(x\) by different positive numbers between 0 and 1 changed the shape of the graph, making it wider as the decimal gets closer to zero.</para>
+          </solution>
+        </exercise>
+      </example>
+      <para>For quadratics, the <term data-schema-version="1.0" data-store="glossary-tooltip">parent function</term> is \(f(x)=x^2\) . From there, any moves created by making changes to the function like in questions 1 – 7 above are called <term data-schema-version="1.0" data-store="glossary-tooltip">transformations</term>.</para>
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+      <example>
+        <exercise>
+          <problem>
+            <!-- INSERT ANY VALID HTML HERE -->
+            <!-- INSERT ANY VALID HTML HERE -->
+          </problem>
+        </exercise>
+      </example>
+      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+      <exercise data-wait-for-event="RFM1">
+        <problem>
+          <title>Extending Your Thinking</title>
+          <para>Examine the graphs of three quadratic functions.</para>
+          <para>
+            <figure>
+              <media alt="3 parabolas on x and y axes. All are symmetric about \(y\)-axis. 2 open up, have positive \(y\)-intercepts, and 1 is wider than the other. Third parabola opens down, is the widest, and has negative \(y\)-intercepts.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_14_03_01.svg"/>
+              </media>
+            </figure>
+          </para>
+          <para>What can you say about the coefficient of \(x^2\) in the expression that defines \(f\) (in black at the top)?</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>It is positive because the graph of \(f\) opens upward.</para>
+        </solution>
+      </exercise>
+      <!--End interaction-->
+      <exercise data-wait-for-event="RFM1">
+        <problem>
+          <para>What can you say about the coefficient of \(x^2\) in the expression that defines \(g\) (in blue in the middle)?</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>It is positive because the graph of \(g\) opens upward.</para>
+          <para>Or</para>
+          <para>The coefficient is less than the coefficient for the graph of \(f\) (but still greater than 0) because \(g\) is wider.</para>
+        </solution>
+      </exercise>
+      <!--End interaction-->
+      <exercise data-wait-for-event="RFM1">
+        <problem>
+          <para>What can you say about the coefficient of \(x^2\) in the expression that defines \(h\) (in yellow at the bottom)?</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>It is negative because the graph of \(h\) opens downward.</para>
+          <para>Or</para>
+          <para>The absolute value of the coefficient of \(h\) is less than the absolute value of the coefficients for both \(f\) and \(g\) because \(h\) is wider.</para>
+        </solution>
+      </exercise>
+      <!--End interaction-->
+      <exercise data-wait-for-event="RFM1">
+        <problem>
+          <para>How do each of the functions compare to each other?</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>The coefficients cannot be identified exactly without knowing the coordinates of some points on the graph. The coefficient of the squared term of \(f\) is greater than that of \(g\) because the graph of \(f\) is narrower, indicating that it is growing faster than the graph of \(g\). The absolute value of the coefficient of \(h\) is less than that of \(g\) because the graph of \(h\) is wider, indicating that it is not growing as quickly.</para>
+        </solution>
+      </exercise>
+      <!--End interaction-->
+    </section>
+  </content>
 </document>

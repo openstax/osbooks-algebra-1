@@ -6,148 +6,163 @@
     <md:uuid>32d447b0-9307-4560-a89d-3ff42cd3e7c0</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<para>A table for the relation \(f\) is below. </para>
-<table class="os-raise-horizontaltable">
-  <thead/>
-  <tbody>
-    <row>
-      <entry><emphasis>\(x\)</emphasis></entry><entry>
+    <section>
+      <title>Activity</title>
+      <para>A table for the relation \(f\) is below. </para>
+      <table class="os-raise-horizontaltable">
+        <thead/>
+        <tbody>
+          <row>
+            <entry>
+              <emphasis>\(x\)</emphasis>
+            </entry>
+            <entry>
         1
       </entry>
-      <entry>
+            <entry>
         2
       </entry>
-      <entry>
+            <entry>
         3
       </entry>
-      <entry>
+            <entry>
         1
       </entry>
-      <entry>
+            <entry>
         4
       </entry>
-      <entry>
+            <entry>
         5
       </entry>
-    </row>
-    <row>
-      <entry><emphasis>\(f(x)\)</emphasis></entry><entry>
+          </row>
+          <row>
+            <entry>
+              <emphasis>\(f(x)\)</emphasis>
+            </entry>
+            <entry>
         -1
       </entry>
-      <entry>
+            <entry>
         5
       </entry>
-      <entry>
+            <entry>
         -2
       </entry>
-      <entry>
+            <entry>
         1
       </entry>
-      <entry>
+            <entry>
         3
       </entry>
-      <entry>
+            <entry>
         -2
       </entry>
-    </row>
-  </tbody>
-</table>
-
-<!--Question 2 -->
-<exercise>
-  <problem> 
-    
-    
-    
-    <para>Is this relation a function? Explain your answer.</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(f\) is not a function because \(f(1) =-1\) and \(f(1)=1 \).
+          </row>
+        </tbody>
+      </table>
+      <!--Question 2 -->
+      <exercise>
+        <problem>
+          <para>Is this relation a function? Explain your answer.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>\(f\) is not a function because \(f(1) =-1\) and \(f(1)=1 \).
       
       
     </para>
-  
-  </solution></exercise>
-
-<list class="os-raise-noindent" start="2" type="enumerated">
-  <item>Use the Desmos graphing tool or technology outside the course. Graph the points in the relation. 
+        </solution>
+      </exercise>
+      <list class="os-raise-noindent" start="2" type="enumerated">
+        <item>Use the Desmos graphing tool or technology outside the course. Graph the points in the relation. 
     
     Interact with the graph. Graph the points in the relation on a coordinate grid.
   </item>
-</list>
-<div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
-
-<example><exercise>
-  <problem>
-  
-    <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para><figure><media alt="ALT TEXT: COORDINATE GRID FROM −1 TO 8 ON THE X-AXIS AND FROM −2 TO 6 ON THE Y-AXIS. THE POINTS (1, −1), (2, 5), (3, −2), (1, 1), (4, 3), AND (5, −2) ARE PLOTTED."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/ee925e215fe7152df93361e3c7ca8524294e4166"/></media></figure></para>
-
-</solution></exercise>
-</example>
-<div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"> </div>
-
-<!--Question 3 -->
-<exercise>
-  <problem>
-    <para>What do you notice about the points \((1, -1)\) and \((1,1)\)?
+      </list>
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+      <example>
+        <exercise>
+          <problem>
+            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>
+              <figure>
+                <media alt="ALT TEXT: COORDINATE GRID FROM −1 TO 8 ON THE X-AXIS AND FROM −2 TO 6 ON THE Y-AXIS. THE POINTS (1, −1), (2, 5), (3, −2), (1, 1), (4, 3), AND (5, −2) ARE PLOTTED.">
+                  <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_03_01.jpg"/>
+                </media>
+              </figure>
+            </para>
+          </solution>
+        </exercise>
+      </example>
+      <div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="Reveal1"> </div>
+      <!--Question 3 -->
+      <exercise>
+        <problem>
+          <para>What do you notice about the points \((1, -1)\) and \((1,1)\)?
       </para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>They are on the same vertical line.</para>
-  
-  </solution></exercise>
-
-<para>VERTICAL LINE TEST</para>
-<para> A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point.</para>
-<para>If any vertical line intersects the graph in more than one point, the graph does not represent a function.</para>
-<para>If the graph does represent a function, we say it “passes the vertical line test.”</para>
-
-<!--Question Part A -->
-<exercise>
-  <problem>
-    <para> For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not. </para>
-    <figure><media alt="The figure has two graphs. In graph a there is a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (3, 0), and (6, negative 2). In graph b there is a parabola opening to the right graphed on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The parabola goes through the points (negative 1, 0), (0, 1), (0, negative 1), (3, 2), and (3, negative 2)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/a2975dff9362ab8a21bc861a0065c6d04dff3045"/></media></figure></problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>Yes, this passes the vertical line test (see the sample blue lines below) for all points on the line so the graph is a function. </para>
-    
-    <figure><media alt="ALT TEXT: THE GRAPH OF A STRAIGHT LINE THAT PASSES THROUGH THE POINTS (0, 2) AND (3, 0), SHOWN IN RED. A BLUE VERTICAL LINE PASSING THROUGH (−2, 0). A GREEN VERTICAL LINE PASSING THROUGH (4, 0)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4463db3a1f658e1734cf80330610c7e00c842471"/></media></figure></solution></exercise>
-
-
-<!--Question Part b -->
-<exercise>
-  <problem>
-    <para>For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not.</para>
-    <figure><media alt="The figure has two graphs. In graph a there is a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (3, 0), and (6, negative 2). In graph b there is a parabola opening to the right graphed on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The parabola goes through the points (negative 1, 0), (0, 1), (0, negative 1), (3, 2), and (3, negative 2)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/cec1f2a3a759e96feeab8d3d55ec7730058d5bb2"/></media></figure></problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>No, this graph does not pass the vertical line test, so it is not a function. For example, the vertical line \(x=1\) crosses the graph more than once.</para>
-    
-    <figure><media alt="A SIDEWAYS PARABOLA THAT OPENS TO THE RIGHT AND PASSES THROUGH THE POINTS (−1, 0), (3, 2), AND (3, −2). A BLACK VERTICAL LINE PASSING THROUGH (1, 0)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/46678dbea19435947004bff8050dd8ce0fbebcc2"/></media></figure></solution></exercise>
-
-<para>Notice that the graph of a non-vertical line will always be a function. This is called a <term data-schema-version="1.0" data-store="glossary-tooltip">linear function. </term>. </para>
-<title>Video: Interpreting Function Notation</title>
-<para>Watch the following video to learn more about function notation.</para>
-<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/fe84d773f2ac6fbbb436b9cc3b52bf2479c62f05"/></media></section>
-</content>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>They are on the same vertical line.</para>
+        </solution>
+      </exercise>
+      <para>VERTICAL LINE TEST</para>
+      <para> A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point.</para>
+      <para>If any vertical line intersects the graph in more than one point, the graph does not represent a function.</para>
+      <para>If the graph does represent a function, we say it “passes the vertical line test.”</para>
+      <!--Question Part A -->
+      <exercise>
+        <problem>
+          <para> For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not. </para>
+          <figure>
+            <media alt="The figure has two graphs. In graph a there is a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (3, 0), and (6, negative 2). In graph b there is a parabola opening to the right graphed on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The parabola goes through the points (negative 1, 0), (0, 1), (0, negative 1), (3, 2), and (3, negative 2).">
+              <image mime-type="image/png" src="../../media/Algebra-1_04_08_03_02.png"/>
+            </media>
+          </figure>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>Yes, this passes the vertical line test (see the sample blue lines below) for all points on the line so the graph is a function. </para>
+          <figure>
+            <media alt="ALT TEXT: THE GRAPH OF A STRAIGHT LINE THAT PASSES THROUGH THE POINTS (0, 2) AND (3, 0), SHOWN IN RED. A BLUE VERTICAL LINE PASSING THROUGH (−2, 0). A GREEN VERTICAL LINE PASSING THROUGH (4, 0).">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_03_03.jpg"/>
+            </media>
+          </figure>
+        </solution>
+      </exercise>
+      <!--Question Part b -->
+      <exercise>
+        <problem>
+          <para>For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not.</para>
+          <figure>
+            <media alt="The figure has two graphs. In graph a there is a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (3, 0), and (6, negative 2). In graph b there is a parabola opening to the right graphed on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The parabola goes through the points (negative 1, 0), (0, 1), (0, negative 1), (3, 2), and (3, negative 2).">
+              <image mime-type="image/png" src="../../media/Algebra-1_04_08_03_04.png"/>
+            </media>
+          </figure>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>No, this graph does not pass the vertical line test, so it is not a function. For example, the vertical line \(x=1\) crosses the graph more than once.</para>
+          <figure>
+            <media alt="A SIDEWAYS PARABOLA THAT OPENS TO THE RIGHT AND PASSES THROUGH THE POINTS (−1, 0), (3, 2), AND (3, −2). A BLACK VERTICAL LINE PASSING THROUGH (1, 0).">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_03_05.jpg"/>
+            </media>
+          </figure>
+        </solution>
+      </exercise>
+      <para>Notice that the graph of a non-vertical line will always be a function. This is called a <term data-schema-version="1.0" data-store="glossary-tooltip">linear function. </term>. </para>
+      <title>Video: Interpreting Function Notation</title>
+      <para>Watch the following video to learn more about function notation.</para>
+      <media alt="Placeholder for Alt Text">
+        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/fe84d773f2ac6fbbb436b9cc3b52bf2479c62f05"/>
+      </media>
+    </section>
+  </content>
 </document>

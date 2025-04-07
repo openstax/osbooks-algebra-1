@@ -6,51 +6,89 @@
     <md:uuid>86d94403-f796-4463-816b-54e0da937393</md:uuid>
   </metadata>
   <content>
-  <section><title><span>Correlation Coefficient</span></title>
-<para dir="ltr">Try matching each scatter plot to one of the following correlation coefficients:</para>
-<para dir="ltr">\(r=-0.02\), \(r=0.84\), \(r=-0.72\), \(r=0.65\)</para>
-<para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/7837cdd80cc30369b7feb914b036b31f5e652daf"/></media></figure></para><emphasis>
- 
-  <table class="os-raise-doubleheadertable">
-    <thead>
-      <row>
-        <entry><emphasis>Scatter plot</emphasis></entry><entry><emphasis>Correlation coefficient</emphasis></entry></row>
-    </thead>
-    <tbody>
-      <row>
-        <entry><emphasis>Scatter plot A</emphasis></entry><entry> <para>\(r=-0.72\)</para></entry>
-      </row>
-      <row>
-        <entry><emphasis>Scatter plot B</emphasis></entry><entry> <para>\(r=0.84\)</para></entry>
-      </row>
-      <row>
-        <entry><emphasis>Scatter plot C</emphasis></entry><entry>    <para>\(r=-0.02\)</para></entry>
-      </row>
-      <row>
-        <entry><emphasis>Scatter plot D</emphasis></entry><entry>  <para>\(r=0.65\)</para></entry>
-      </row>
-    </tbody>
-  </table>
-</emphasis>
-<title>Try It: Correlation Coefficient</title>
-<para>The scatter plot below displays data on the number of defects per 100 cars and a measure of customer satisfaction (on a scale from 1 to 1,000, with higher scores indicating greater satisfaction) for the 33 brands of cars sold in the United States in 2009.</para>
-<para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/5215ac5b50f67642084aa6de48c8e0302879f79b"/></media></figure></para>
-<example><exercise>
-  <problem>
-    
-    <para>Which of the following is the value of the correlation coefficient for this data set: \(r = -0.95\), \(r = -0.24\), \(r = 0.83\), or \(r = 1.00\)? Explain why you selected this value.</para>
-  
-  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+    <section>
+      <title>
+        <span>Correlation Coefficient</span>
+      </title>
+      <para dir="ltr">Try matching each scatter plot to one of the following correlation coefficients:</para>
+      <para dir="ltr">\(r=-0.02\), \(r=0.84\), \(r=-0.72\), \(r=0.65\)</para>
+      <para>
+        <figure>
+          <media alt="">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_06_11_01.jpg"/>
+          </media>
+        </figure>
+      </para>
+      <emphasis>
+        <table class="os-raise-doubleheadertable">
+          <thead>
+            <row>
+              <entry>
+                <emphasis>Scatter plot</emphasis>
+              </entry>
+              <entry>
+                <emphasis>Correlation coefficient</emphasis>
+              </entry>
+            </row>
+          </thead>
+          <tbody>
+            <row>
+              <entry>
+                <emphasis>Scatter plot A</emphasis>
+              </entry>
+              <entry>
+                <para>\(r=-0.72\)</para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Scatter plot B</emphasis>
+              </entry>
+              <entry>
+                <para>\(r=0.84\)</para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Scatter plot C</emphasis>
+              </entry>
+              <entry>
+                <para>\(r=-0.02\)</para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Scatter plot D</emphasis>
+              </entry>
+              <entry>
+                <para>\(r=0.65\)</para>
+              </entry>
+            </row>
+          </tbody>
+        </table>
+      </emphasis>
+      <title>Try It: Correlation Coefficient</title>
+      <para>The scatter plot below displays data on the number of defects per 100 cars and a measure of customer satisfaction (on a scale from 1 to 1,000, with higher scores indicating greater satisfaction) for the 33 brands of cars sold in the United States in 2009.</para>
+      <para>
+        <figure>
+          <media alt="">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_06_11_02.jpg"/>
+          </media>
+        </figure>
+      </para>
+      <example>
+        <exercise>
+          <problem>
+            <para>Which of the following is the value of the correlation coefficient for this data set: \(r = -0.95\), \(r = -0.24\), \(r = 0.83\), or \(r = 1.00\)? Explain why you selected this value.</para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
     </para>
-  
-  </problem><solution>
-  <para>\( r= -0.24\)</para>
-  
-  <para>There is not a strong pattern of a linear relationship with this scatter plot. Even though there is a weak relationship, there is a general pattern that as the number of defects increases, the satisfaction rating tends to decrease. As a result, the value of \(r\) is negative and close to zero. Based on the values provided, the best estimate is \(r = -0.24\).</para>
-  
-
-  
-</solution></exercise>
-</example></section>
-</content>
+          </problem>
+          <solution>
+            <para>\( r= -0.24\)</para>
+            <para>There is not a strong pattern of a linear relationship with this scatter plot. Even though there is a weak relationship, there is a general pattern that as the number of defects increases, the satisfaction rating tends to decrease. As a result, the value of \(r\) is negative and close to zero. Based on the values provided, the best estimate is \(r = -0.24\).</para>
+          </solution>
+        </exercise>
+      </example>
+    </section>
+  </content>
 </document>

@@ -6,98 +6,120 @@
     <md:uuid>a6ee6a11-a57e-4049-8526-729e664ca6aa</md:uuid>
   </metadata>
   <content>
-  <section><title>Solve Applications of Systems of Inequalities</title>
-<para>When we use variables other than \(x\) and \(y\) to define an unknown quantity, we must change the names of the axes of the graph as well.</para>
-<para><emphasis>Example</emphasis>
+    <section>
+      <title>Solve Applications of Systems of Inequalities</title>
+      <para>When we use variables other than \(x\) and \(y\) to define an unknown quantity, we must change the names of the axes of the graph as well.</para>
+      <para><emphasis>Example</emphasis>
   Use the following information to answer 1 - 4.</para>
-<para><quote>Omar needs to eat at least 800 calories before going to his team practice. All he wants is hamburgers, \(h\), and cookies, \(c\), and he doesn’t want to spend more than $5. At the hamburger restaurant near his college, each hamburger has 240 calories and costs $1.40. Each cookie has 160 calories and costs $0.50.</quote></para><list class="os-raise-noindent" type="enumerated">
-  <item>Write a system of inequalities to model this situation.
+      <para>
+        <quote>Omar needs to eat at least 800 calories before going to his team practice. All he wants is hamburgers, \(h\), and cookies, \(c\), and he doesn’t want to spend more than $5. At the hamburger restaurant near his college, each hamburger has 240 calories and costs $1.40. Each cookie has 160 calories and costs $0.50.</quote>
+      </para>
+      <list class="os-raise-noindent" type="enumerated">
+        <item>Write a system of inequalities to model this situation.
     <emphasis>Solution</emphasis>
     Let \(h\) equal the number of hamburgers.
     Let \(c\) equal the number of cookies.
     To find the system of equations, translate the information.
   </item>
-  <list type="none">
-    <item>The calories from hamburgers at 240 calories each, plus the calories from cookies at 160 calories each must be 800 or more.
+        <list type="none">
+          <item>The calories from hamburgers at 240 calories each, plus the calories from cookies at 160 calories each must be 800 or more.
       \(240h+160c≥800\)</item>
-    <item>The amount spent on hamburgers at $1.40 each, plus the amount spent on cookies at $0.50 each must be no more than $5.00.
+          <item>The amount spent on hamburgers at $1.40 each, plus the amount spent on cookies at $0.50 each must be no more than $5.00.
       \(1.40h+0.50c≤5\)</item>
-    <item>The number of hamburgers must be greater than or equal to 0.
+          <item>The number of hamburgers must be greater than or equal to 0.
       \(h≥0\)
       The number of cookies must be greater than or equal to 0. 
       \(c≥0\)</item>
-    <item>We have our system of equations.
+          <item>We have our system of equations.
       \(\left\{\begin{array}{l}240h\;+\;160c\;\geq\;800\\1.40h\;+0.50c\;\leq\;5\\h\;\geq\;0\\c\;\geq\;0\end{array}\right.\) </item>
-  </list>
-  
-  <item>Graph the system.
+        </list>
+        <item>Graph the system.
     <emphasis>Solution</emphasis>
     Since \(h≥0\) and \(c≥0\) all solutions will be in the first quadrant. As a result, our graph shows only quadrant one.
-    <list type="none">
-      <item>To graph \(240h+160c≥80\), graph \(240h+160c=800\) as a solid line. Choose \((0,0)\) as a test point. Since it does not make the inequality true, shade (red) the side that does not include the point \((0,0)\).
-        <figure><media alt="graph of 240h+160c is greater than or equal to 800 and graph of 1.40h +0.50c is less than or equal to 5"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/a33241cd08b3ea9848101b3823e7dcf56f94a8ac"/></media></figure></item>
-      <item>Graph \(1.40h+0.50c≤5\).
+    <list type="none"><item>To graph \(240h+160c≥80\), graph \(240h+160c=800\) as a solid line. Choose \((0,0)\) as a test point. Since it does not make the inequality true, shade (red) the side that does not include the point \((0,0)\).
+        <figure><media alt="graph of 240h+160c is greater than or equal to 800 and graph of 1.40h +0.50c is less than or equal to 5"><image mime-type="image/jpeg" src="../../media/Algebra-1_02_17_08_01.jpg"/></media></figure></item><item>Graph \(1.40h+0.50c≤5\).
         The boundary line is \(1.40h+0.50c=5\). We test \((0, 0)\) and it makes the inequality true.
         We shade the side of the line that includes \((0, 0)\).
         The solution of the system is the region of the graph that is shaded the darkest. The boundary line sections that border the darkly shaded section are included in the solution as are the points on the \(x\)-axis from \((5, 0)\) to \((10, 0)\).
-      </item>
-    </list>
-  </item> 
-  <item>Could he eat 3 hamburgers and 1 cookie?
+      </item></list>
+  </item>
+        <item>Could he eat 3 hamburgers and 1 cookie?
     <emphasis>Solution</emphasis>
     To determine if 3 hamburgers and 1 cookie would meet Omar’s criteria, we see if the point \((3, 2)\) is in the solution region.
     It is, so Omar might choose to eat 3 hamburgers and 1 cookie.
   </item>
-  <item>Could he eat 2 hamburgers and 4 cookies?
+        <item>Could he eat 2 hamburgers and 4 cookies?
     <emphasis>Solution</emphasis>
     To determine if 2 hamburgers and 4 cookies would meet Omar’s criteria, we see if the point \((2, 4)\) is in the solution region.
     It is, so Omar might choose to eat 2 hamburgers and 4 cookies. 
     We could also test the possible solutions by substituting the values into each inequality.
   </item>
-</list>
-
-<para>Use the following information for 1 - 4.
-</para><para><quote>Philip’s doctor tells him he should add at least 1,000 more calories per day to his usual diet. Philip wants to buy protein bars, \(p\), that cost $1.80 each and have 140 calories and juice, \(j\), that costs $1.25 per bottle and has 125 calories. He doesn’t want to spend more than $12.</quote></para><!-- BEGIN TEXT ENTRY WITH REVEAL -->
-
-<!--Q#1-->
-<exercise>
-  <problem>
-    <para>Write a system of inequalities that models this situation.</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para> \(\left\{\begin{array}{l}140p+125j\geq1000\\1.80p+1.25j\leq12\end{array}\right.\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!-- END TEXT ENTRY WITH REVEAL -->
-<!--BEGIN ADD DESMOS INTERATIVE-->
-<!--START QUESTION #2 -->    
-<list class="os-raise-noindent" start="2" type="enumerated">
-      <item> Use the graphing tool or technology outside the course.  Graph the system of inequalities from question 1 using the Desmos tool below.</item>
-    </list>
-
-<div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
-
-<example><exercise>
-  <problem>
- 
-    <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS--> 
-   
-  <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <figure><media alt="This figure shows a graph on an x y-coordinate plane of 140p + 125j is greater than or equal to 1000 and 1.80p + 1.25j is less than or equal to 12. The area to the left or right of each line is shaded slightly different colors with the overlapping area also shaded a slightly different color."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/cd86af0c8064a34c9427585198c49de9e2e7945f"/></media></figure></solution></exercise>
-</example><div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
-<!--END ADD DESMOS INTERATIVE-->
-<section class="check-understanding"><title>Try It: Solve Applications of Systems of Inequalities</title><exercise data-content-id="38bd9000-31c9-46a3-a32d-e70a4aeecce8" class="multiple-choice"><problem><para> Can he buy 3 protein bars and 5 bottles of juice?</para>
-      </problem><solution><para>Correct! Yes.</para><para>The correct answer is Yes.</para></solution></exercise><exercise data-content-id="dcb12508-9214-47aa-ba09-215c3a68f5d9" class="multiple-choice"><problem><para> Can he buy 5 protein bars and 3 bottles of juice?</para>
-      </problem><solution><para>Correct! No.</para><para>The correct answer is No.</para></solution></exercise></section><!--END ACTIVITY YES/NO DROP DOWN 1 TRY --></section>
-</content>
+      </list>
+      <para>Use the following information for 1 - 4.
+</para>
+      <para>
+        <quote>Philip’s doctor tells him he should add at least 1,000 more calories per day to his usual diet. Philip wants to buy protein bars, \(p\), that cost $1.80 each and have 140 calories and juice, \(j\), that costs $1.25 per bottle and has 125 calories. He doesn’t want to spend more than $12.</quote>
+      </para>
+      <!-- BEGIN TEXT ENTRY WITH REVEAL -->
+      <!--Q#1-->
+      <exercise>
+        <problem>
+          <para>Write a system of inequalities that models this situation.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para> \(\left\{\begin{array}{l}140p+125j\geq1000\\1.80p+1.25j\leq12\end{array}\right.\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!-- END TEXT ENTRY WITH REVEAL -->
+      <!--BEGIN ADD DESMOS INTERATIVE-->
+      <!--START QUESTION #2 -->
+      <list class="os-raise-noindent" start="2" type="enumerated">
+        <item> Use the graphing tool or technology outside the course.  Graph the system of inequalities from question 1 using the Desmos tool below.</item>
+      </list>
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+      <example>
+        <exercise>
+          <problem>
+            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <figure>
+              <media alt="This figure shows a graph on an x y-coordinate plane of 140p + 125j is greater than or equal to 1000 and 1.80p + 1.25j is less than or equal to 12. The area to the left or right of each line is shaded slightly different colors with the overlapping area also shaded a slightly different color.">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_02_17_08_02.jpg"/>
+              </media>
+            </figure>
+          </solution>
+        </exercise>
+      </example>
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+      <!--END ADD DESMOS INTERATIVE-->
+      <section class="check-understanding">
+        <title>Try It: Solve Applications of Systems of Inequalities</title>
+        <exercise data-content-id="38bd9000-31c9-46a3-a32d-e70a4aeecce8" class="multiple-choice">
+          <problem>
+            <para> Can he buy 3 protein bars and 5 bottles of juice?</para>
+          </problem>
+          <solution>
+            <para>Correct! Yes.</para>
+            <para>The correct answer is Yes.</para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="dcb12508-9214-47aa-ba09-215c3a68f5d9" class="multiple-choice">
+          <problem>
+            <para> Can he buy 5 protein bars and 3 bottles of juice?</para>
+          </problem>
+          <solution>
+            <para>Correct! No.</para>
+            <para>The correct answer is No.</para>
+          </solution>
+        </exercise>
+      </section>
+      <!--END ACTIVITY YES/NO DROP DOWN 1 TRY -->
+    </section>
+  </content>
 </document>

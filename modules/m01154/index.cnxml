@@ -6,63 +6,70 @@
     <md:uuid>0e2ed49d-b293-4c03-89c8-8cf1c31e03d3</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity </title>
-<para>Jada and Mai are trying to decide what type of sequence this could be:</para>
-
-<table class="os-raise-midsizetable">
-  <thead>
-    <row>
-      <entry><emphasis>term number</emphasis></entry><entry><emphasis>value</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
-      <entry>
+    <section>
+      <title>Activity </title>
+      <para>Jada and Mai are trying to decide what type of sequence this could be:</para>
+      <table class="os-raise-midsizetable">
+        <thead>
+          <row>
+            <entry>
+              <emphasis>term number</emphasis>
+            </entry>
+            <entry>
+              <emphasis>value</emphasis>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
         1
       </entry>
-      <entry>
+            <entry>
         2
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
       2
       </entry>
-      <entry>
+            <entry>
         6
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         5
       </entry>
-      <entry>
+            <entry>
         18
       </entry>
-    </row>
-  </tbody>
-</table>
-<para>Jada says: “I think this sequence is geometric because in the value column, each row is 3 times the previous row.”</para>
-<para>Mai says: “I don’t think it is geometric. I graphed it, and it doesn’t look geometric.”</para>
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Do you agree with Jada or Mai? Be prepared to show your reasoning using a graph.</para>
-  
-  </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>I agree with Mai. Jada noticed that each value is multiplied by 3 to get to the next row, but the table skips terms. If the sequence were geometric, it would have to be 2, 6, 18, 54, 162. When Mai made a graph, she could see the gap in the sequence.
+          </row>
+        </tbody>
+      </table>
+      <para>Jada says: “I think this sequence is geometric because in the value column, each row is 3 times the previous row.”</para>
+      <para>Mai says: “I don’t think it is geometric. I graphed it, and it doesn’t look geometric.”</para>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Do you agree with Jada or Mai? Be prepared to show your reasoning using a graph.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>I agree with Mai. Jada noticed that each value is multiplied by 3 to get to the next row, but the table skips terms. If the sequence were geometric, it would have to be 2, 6, 18, 54, 162. When Mai made a graph, she could see the gap in the sequence.
     </para>
-    
-    <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/3bba1ca82b4ae12d103f6f2c896886d49404b31d"/></media></figure></para>
-    
-    <para>Without knowing the missing terms, we don’t know for sure if the sequence is arithmetic, but it could be since the three given points are all on the same line with slope 4. The missing points could be \((3,10)\) and \((4,14)\) so that the sequence would be 2, 6, 10, 14, 18.</para>
-  
-  </solution></exercise>
-<!--Interaction End --></section>
-</content>
+          <para>
+            <figure>
+              <media alt="">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_19_06_01.svg"/>
+              </media>
+            </figure>
+          </para>
+          <para>Without knowing the missing terms, we don’t know for sure if the sequence is arithmetic, but it could be since the three given points are all on the same line with slope 4. The missing points could be \((3,10)\) and \((4,14)\) so that the sequence would be 2, 6, 10, 14, 18.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+    </section>
+  </content>
 </document>

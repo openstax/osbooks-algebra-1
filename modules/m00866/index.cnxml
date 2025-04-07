@@ -6,49 +6,52 @@
     <md:uuid>7c23ac45-a2ee-430f-8bbd-f73217d25853</md:uuid>
   </metadata>
   <content>
-  <section><title>Understanding Function Notation</title>
-<para><emphasis>Using Function Notation</emphasis></para>
-<para>Once we determine that a relationship is a function, we need to display and define the functional relationships so that we can understand and use them, and sometimes also so that we can program them into computers. There are various ways of representing functions. A standard function notation is one representation that facilitates working with functions.</para>
-<para>To represent “height is a function of age,” we start by identifying the descriptive variables \(h\) for height and \(a\) for age. The letters \(f\), \(g\), and \(h\) are often used to represent functions, just as we use \(x\), \(y\), and \(z\) to represent numbers and \(A\), \(B\), and \(C\) to represent sets.</para>
-<list>
-  <item>\(h\) is \(f\) of \(a\): We name the function \(f\); height is a function of age.</item>
-  <item>\(h=f(a)\): We use parentheses to indicate the function input.</item>
-  <item>\(f(a)\): We name the function \(f\); the expression is read as “\(f\) of \(a\).”</item>
-</list>
-<para>Remember, we can use any letter to name the function; the notation \(h(a)\) shows us that \(h\) depends on \(a\). The value \(a\) must be put into the function \(h\) to get a result. The parentheses indicate that age is input into the function; they do not indicate multiplication.</para>
-<para>We can also give an algebraic expression as the input to a function. For example, \(f(a+b)\)  means “first add \(a\) and \(b\), and the result is the input for the function \(f\).” The operations must be performed in this order to obtain the correct result.</para>
-<title>Function Notation</title>
-<div>
-  <para>The notation \(y=f(x)\) defines a function named \(f\). This is read as “\(y\) is a function of \(x\).” The letter \(x\) represents the input value, or independent variable. The letter \(y\), or \(f(x)\), represents the output value, or dependent variable.</para>
-</div>
-
-<para><emphasis> Example: Using Function Notation for Days in a Month</emphasis></para>
-<para>Use function notation to represent a function whose input is the name of a month and output is the number of days in that month (don’t include leap years).</para>
-<para><figure><media alt="The function 31 = f(January) where 31 is the output, f is the rule, and January is the input."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/debe52c37e0c953a4c0fa61977b6c12ed9c012bd"/></media></figure></para>
-
-<para>For example, \(f\)(March)\(=31\), because March has 31 days. The notation \(d=f(m)\) reminds us that the number of days, \(d\) (the output), is dependent on the name of the month, \(m\) (the input).</para>
-<title>Analysis</title>
-<para>Note that the inputs to a function do not have to be numbers; function inputs can be names of people, labels of geometric objects, or any other element that determines some kind of output. However, most of the functions we will work with in this course will have numbers as inputs and outputs.</para>
-<title>Try It: Understanding Function Notation</title>
-
-<example><exercise>
-  <problem>
-    
-    <para>Use function notation to express the weight of a pig, \(W\), in pounds as a function of its age in days, \(d\).</para>
-  
-  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+    <section>
+      <title>Understanding Function Notation</title>
+      <para>
+        <emphasis>Using Function Notation</emphasis>
+      </para>
+      <para>Once we determine that a relationship is a function, we need to display and define the functional relationships so that we can understand and use them, and sometimes also so that we can program them into computers. There are various ways of representing functions. A standard function notation is one representation that facilitates working with functions.</para>
+      <para>To represent “height is a function of age,” we start by identifying the descriptive variables \(h\) for height and \(a\) for age. The letters \(f\), \(g\), and \(h\) are often used to represent functions, just as we use \(x\), \(y\), and \(z\) to represent numbers and \(A\), \(B\), and \(C\) to represent sets.</para>
+      <list>
+        <item>\(h\) is \(f\) of \(a\): We name the function \(f\); height is a function of age.</item>
+        <item>\(h=f(a)\): We use parentheses to indicate the function input.</item>
+        <item>\(f(a)\): We name the function \(f\); the expression is read as “\(f\) of \(a\).”</item>
+      </list>
+      <para>Remember, we can use any letter to name the function; the notation \(h(a)\) shows us that \(h\) depends on \(a\). The value \(a\) must be put into the function \(h\) to get a result. The parentheses indicate that age is input into the function; they do not indicate multiplication.</para>
+      <para>We can also give an algebraic expression as the input to a function. For example, \(f(a+b)\)  means “first add \(a\) and \(b\), and the result is the input for the function \(f\).” The operations must be performed in this order to obtain the correct result.</para>
+      <title>Function Notation</title>
+      <div>
+        <para>The notation \(y=f(x)\) defines a function named \(f\). This is read as “\(y\) is a function of \(x\).” The letter \(x\) represents the input value, or independent variable. The letter \(y\), or \(f(x)\), represents the output value, or dependent variable.</para>
+      </div>
+      <para>
+        <emphasis> Example: Using Function Notation for Days in a Month</emphasis>
+      </para>
+      <para>Use function notation to represent a function whose input is the name of a month and output is the number of days in that month (don’t include leap years).</para>
+      <para>
+        <figure>
+          <media alt="The function 31 = f(January) where 31 is the output, f is the rule, and January is the input.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_04_05_05_01.jpg"/>
+          </media>
+        </figure>
+      </para>
+      <para>For example, \(f\)(March)\(=31\), because March has 31 days. The notation \(d=f(m)\) reminds us that the number of days, \(d\) (the output), is dependent on the name of the month, \(m\) (the input).</para>
+      <title>Analysis</title>
+      <para>Note that the inputs to a function do not have to be numbers; function inputs can be names of people, labels of geometric objects, or any other element that determines some kind of output. However, most of the functions we will work with in this course will have numbers as inputs and outputs.</para>
+      <title>Try It: Understanding Function Notation</title>
+      <example>
+        <exercise>
+          <problem>
+            <para>Use function notation to express the weight of a pig, \(W\), in pounds as a function of its age in days, \(d\).</para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
     </para>
-  
-  </problem><solution>
-  <para>Compare your answer. Here is how to express this situation in function notation: </para>
-  
-  <para>\(W=f(d)\). The pig’s weight is a function of the age of the pig in days. </para>
-  
-  
-
-
-
-</solution></exercise>
-</example></section>
-</content>
+          </problem>
+          <solution>
+            <para>Compare your answer. Here is how to express this situation in function notation: </para>
+            <para>\(W=f(d)\). The pig’s weight is a function of the age of the pig in days. </para>
+          </solution>
+        </exercise>
+      </example>
+    </section>
+  </content>
 </document>

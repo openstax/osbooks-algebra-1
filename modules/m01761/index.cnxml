@@ -6,196 +6,234 @@
     <md:uuid>25ba18e2-6f38-4962-bc53-e9bc47b76cdb</md:uuid>
   </metadata>
   <content>
-  <section><para><figure><media alt="Three steps of a growing pattern."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/a565fecb7bfa3dc272c528be5f11d1b7e33a45f0"/></media></figure></para>
-<para>Here is a pattern of squares.</para>
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Is the number of small squares growing linearly? Explain how you know.</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>No, there are 3 squares in the first step, 6 squares in the second step, and 11 squares in the third step. So the
+    <section>
+      <para>
+        <figure>
+          <media alt="Three steps of a growing pattern.">
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_06_01.svg"/>
+          </media>
+        </figure>
+      </para>
+      <para>Here is a pattern of squares.</para>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Is the number of small squares growing linearly? Explain how you know.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>No, there are 3 squares in the first step, 6 squares in the second step, and 11 squares in the third step. So the
       number of additional squares is 3 going from the first to the second step and 5 going from the second to the third
       step.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<list class="os-raise-noindent" start="2" type="enumerated">
-  <item>Answer questions a–e to complete the table.</item>
-</list>
-<table class="os-raise-midsizetable">
-  <thead>
-    <row>
-      <entry><emphasis>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <list class="os-raise-noindent" start="2" type="enumerated">
+        <item>Answer questions a–e to complete the table.</item>
+      </list>
+      <table class="os-raise-midsizetable">
+        <thead>
+          <row>
+            <entry>
+              <emphasis>
         Step
-      </emphasis></entry><entry><emphasis>
+      </emphasis>
+            </entry>
+            <entry>
+              <emphasis>
         Number of small squares
-      </emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
-      <entry>
+      </emphasis>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
         1
       </entry>
-      <entry>
+            <entry>
         3
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         2
       </entry>
-      <entry>
+            <entry>
         6
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         3
       </entry>
-      <entry>
+            <entry>
         11
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         4
       </entry>
-      <entry>a. _____</entry>
-    </row>
-    <row>
-      <entry>
+            <entry>a. _____</entry>
+          </row>
+          <row>
+            <entry>
         5
       </entry>
-      <entry>b. _____</entry>
-    </row>
-    <row>
-      <entry>
+            <entry>b. _____</entry>
+          </row>
+          <row>
+            <entry>
         10
       </entry>
-      <entry>c. _____</entry>
-    </row>
-    <row>
-      <entry>
+            <entry>c. _____</entry>
+          </row>
+          <row>
+            <entry>
         12
       </entry>
-      <entry>d. _____</entry>
-    </row>
-    <row>
-      <entry>
+            <entry>d. _____</entry>
+          </row>
+          <row>
+            <entry>
         \(n\)
       </entry>
-      <entry>e. _____</entry>
-    </row>
-  </tbody>
-</table>
-
-<section class="check-understanding"><title>Activity</title><exercise data-content-id="20799070-1abe-475a-8519-4dec9738d609" class="multiple-choice"><problem><para>Enter your answer here:</para><para> In Step 4, what is the number of small squares?</para>
-        </problem><solution><para>Correct! Step 4 has 18 small squares.</para><para>The correct answer is 18. Step 4 has 18 small squares.</para></solution></exercise><exercise data-content-id="92cd14c1-8001-44de-a4a8-46e28a78acb7" class="multiple-choice"><problem><para>Enter your answer here:</para><para> In Step 5, what is the number of small squares?</para>
-        </problem><solution><para>Correct! Step 5 has 27 small squares.</para><para>The correct answer is 27. Step 5 has 27 small squares.</para></solution></exercise><exercise data-content-id="613d1789-d831-41a4-b28b-1781ac708a7a" class="multiple-choice"><problem><para>Enter your answer here:</para><para> In Step 10, what is the number of small squares?</para>
-        </problem><solution><para>Correct! Step 10 has 102 small squares.</para><para>The correct answer is 102. Step 10 has 102 small squares.</para></solution></exercise><exercise data-content-id="baa64dc5-ff5e-4fe2-a9af-588bdfb5d003" class="multiple-choice"><problem><para>Enter your answer here:</para><para> In Step 12, what is the number of small squares?</para>
-        </problem><solution><para>Correct! Step 12 has 146 small squares.</para><para>The correct answer is 146. Step 12 has 146 small squares.</para></solution></exercise></section>
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para> In Step \(n\), what is the number of small squares?</para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(n^2+2\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Is the number of small squares growing exponentially? Explain how you know.</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>No, from Step 1 to Step 2, the number of squares doubles. From Step 2 to Step 3, the number of squares increases
+            <entry>e. _____</entry>
+          </row>
+        </tbody>
+      </table>
+      <section class="check-understanding">
+        <title>Activity</title>
+        <exercise data-content-id="20799070-1abe-475a-8519-4dec9738d609" class="multiple-choice">
+          <problem>
+            <para>Enter your answer here:</para>
+            <para> In Step 4, what is the number of small squares?</para>
+          </problem>
+          <solution>
+            <para>Correct! Step 4 has 18 small squares.</para>
+            <para>The correct answer is 18. Step 4 has 18 small squares.</para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="92cd14c1-8001-44de-a4a8-46e28a78acb7" class="multiple-choice">
+          <problem>
+            <para>Enter your answer here:</para>
+            <para> In Step 5, what is the number of small squares?</para>
+          </problem>
+          <solution>
+            <para>Correct! Step 5 has 27 small squares.</para>
+            <para>The correct answer is 27. Step 5 has 27 small squares.</para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="613d1789-d831-41a4-b28b-1781ac708a7a" class="multiple-choice">
+          <problem>
+            <para>Enter your answer here:</para>
+            <para> In Step 10, what is the number of small squares?</para>
+          </problem>
+          <solution>
+            <para>Correct! Step 10 has 102 small squares.</para>
+            <para>The correct answer is 102. Step 10 has 102 small squares.</para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="baa64dc5-ff5e-4fe2-a9af-588bdfb5d003" class="multiple-choice">
+          <problem>
+            <para>Enter your answer here:</para>
+            <para> In Step 12, what is the number of small squares?</para>
+          </problem>
+          <solution>
+            <para>Correct! Step 12 has 146 small squares.</para>
+            <para>The correct answer is 146. Step 12 has 146 small squares.</para>
+          </solution>
+        </exercise>
+      </section>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para> In Step \(n\), what is the number of small squares?</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>\(n^2+2\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Is the number of small squares growing exponentially? Explain how you know.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>No, from Step 1 to Step 2, the number of squares doubles. From Step 2 to Step 3, the number of squares increases
       by a factor of \(\frac{11}{6}\). From Step 3 to Step 4, the number of squares increases by a factor of
       \(\frac{18}{11}\). These growth factors are all different; in contrast, for an exponential function, the values
       increase by equal growth factors over equal intervals.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<para>The nth expression, \(n^2+2\), is an example of a <term data-schema-version="1.0" data-store="glossary-tooltip">quadratic expression</term>. A quadratic expression can be written using a squared
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <para>The nth expression, \(n^2+2\), is an example of a <term data-schema-version="1.0" data-store="glossary-tooltip">quadratic expression</term>. A quadratic expression can be written using a squared
   term. It can be written in other ways as well, but the expression should be able to be written with the highest
   exponent on the variable as 2.</para>
-<list>
-  <item> A quadratic relationship is not like a linear relationship because as one quantity increases by a certain amount,
+      <list>
+        <item> A quadratic relationship is not like a linear relationship because as one quantity increases by a certain amount,
     the second quantity doesn’t increase by the same amount. </item>
-  <item> A quadratic relationship is not like an exponential relationship because as one quantity increases by a certain
+        <item> A quadratic relationship is not like an exponential relationship because as one quantity increases by a certain
     amount, the second quantity doesn’t change by the same factor. (In this case, if the number of squares grew
     exponentially, this would mean that, from each step to the next, the number of squares is multiplied by the same
     factor.) </item>
-</list>
-
-<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<example><exercise>
-  <problem>
-    
-    <!-- INSERT ANY VALID HTML HERE -->
-  
-  <!-- INSERT ANY VALID HTML HERE -->
-  
-  </problem></exercise>
-</example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<exercise data-wait-for-event="RFM1">
-  <problem>
-    <title>Extending Your Thinking</title>
-    
-    <para>Han wrote \(n(n+2)-2(n-1)\) for the number of small squares in the design at Step \(n\) in the pattern at the
+      </list>
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+      <example>
+        <exercise>
+          <problem>
+            <!-- INSERT ANY VALID HTML HERE -->
+            <!-- INSERT ANY VALID HTML HERE -->
+          </problem>
+        </exercise>
+      </example>
+      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+      <exercise data-wait-for-event="RFM1">
+        <problem>
+          <title>Extending Your Thinking</title>
+          <para>Han wrote \(n(n+2)-2(n-1)\) for the number of small squares in the design at Step \(n\) in the pattern at the
       beginning of the activity.</para>
-    
-    <para>Explain why Han is correct.</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>At Step \(n\), there is an \(n\) by \(n+2\) rectangle containing \(n(n+2)\) small squares with two columns of
+          <para>Explain why Han is correct.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>At Step \(n\), there is an \(n\) by \(n+2\) rectangle containing \(n(n+2)\) small squares with two columns of
       \(n-1\) squares removed from either side.</para>
-  
-  </solution></exercise>
-<!--End interaction-->
-
-<exercise data-wait-for-event="RFM1">
-  <problem>
-    <para>On your own, draw and label what Step 3 would look like when Han was writing his expression.</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>I drew a rectangle with three small squares down and five small squares across. Then I removed the two small
+        </solution>
+      </exercise>
+      <!--End interaction-->
+      <exercise data-wait-for-event="RFM1">
+        <problem>
+          <para>On your own, draw and label what Step 3 would look like when Han was writing his expression.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>I drew a rectangle with three small squares down and five small squares across. Then I removed the two small
       squares from the first column and the last column.</para>
-    
-    <para><figure><media alt="Grid with sides labeled."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/0a21d1f801f84098d3ad558ec8be14068d7ce5d1"/></media></figure></para>
-  
-  </solution></exercise>
-<!--End interaction-->
-
-<title>Video: Quadratic Expressions</title>
-<para>Watch the following video to learn more about quadratic expressions.</para>
-<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/9429b37b256ebf82ca64508151eae28b120c65d0"/></media></section>
-</content>
+          <para>
+            <figure>
+              <media alt="Grid with sides labeled.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_06_02.svg"/>
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+      <!--End interaction-->
+      <title>Video: Quadratic Expressions</title>
+      <para>Watch the following video to learn more about quadratic expressions.</para>
+      <media alt="Placeholder for Alt Text">
+        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/9429b37b256ebf82ca64508151eae28b120c65d0"/>
+      </media>
+    </section>
+  </content>
 </document>

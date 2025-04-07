@@ -6,86 +6,138 @@
     <md:uuid>42f62899-22b4-4103-b891-541a2eace7c1</md:uuid>
   </metadata>
   <content>
-  <section><title>Verify Solutions to an Inequality in Two Variables</title>
-<para>Previously we learned to solve inequalities with only one variable. We will now learn about inequalities containing two variables. In particular we will look at linear inequalities in two variables which are very similar to linear equations in two variables.</para>
-<para>Linear inequalities in two variables have many applications. If you ran a business, for example, you would want your revenue to be greater than your costs—so that your business made a profit.</para>
-
-<note>
-  <para><emphasis>Linear Inequality</emphasis>
+    <section>
+      <title>Verify Solutions to an Inequality in Two Variables</title>
+      <para>Previously we learned to solve inequalities with only one variable. We will now learn about inequalities containing two variables. In particular we will look at linear inequalities in two variables which are very similar to linear equations in two variables.</para>
+      <para>Linear inequalities in two variables have many applications. If you ran a business, for example, you would want your revenue to be greater than your costs—so that your business made a profit.</para>
+      <note>
+        <para><emphasis>Linear Inequality</emphasis>
     A linear inequality is an inequality that can be written in one of the following forms:</para>
-  <div class="os-raise-d-flex os-raise-justify-content-between">
-    <para>\( Ax + By &gt; C \)</para>
-    <para>\( Ax + By \geq C \)</para>
-    <para>\( Ax + By &lt; C \)</para>
-    <para>\( Ax + By \leq C \)</para>
-  </div>
-</note>
-
-<para> Recall that an inequality with one variable had many solutions. For example, the solution to the inequality \( x &gt; 3 \) is any number greater than 3. We showed this on the number line by shading in the number line to the right of 3, and putting an open parenthesis at 3. See the figure below.
+        <div class="os-raise-d-flex os-raise-justify-content-between">
+          <para>\( Ax + By &gt; C \)</para>
+          <para>\( Ax + By \geq C \)</para>
+          <para>\( Ax + By &lt; C \)</para>
+          <para>\( Ax + By \leq C \)</para>
+        </div>
+      </note>
+      <para> Recall that an inequality with one variable had many solutions. For example, the solution to the inequality \( x &gt; 3 \) is any number greater than 3. We showed this on the number line by shading in the number line to the right of 3, and putting an open parenthesis at 3. See the figure below.
 </para>
-<figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/760f734b2bad15f7d6af2baae9b5a241d83fcef5"/></media></figure><para>Similarly, linear inequalities in two variables have many solutions. Any ordered pair\( (x, y) \) that makes an inequality true when we substitute in the values is a solution to a linear inequality.
+      <figure>
+        <media alt="">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_02_13_05_01.jpg"/>
+        </media>
+      </figure>
+      <para>Similarly, linear inequalities in two variables have many solutions. Any ordered pair\( (x, y) \) that makes an inequality true when we substitute in the values is a solution to a linear inequality.
 </para>
-<note>
-  <emphasis>Solution to a Linear Inequality</emphasis>
+      <note><emphasis>Solution to a Linear Inequality</emphasis>
     An ordered pair\( (x,y) \) is a solution to a linear inequality if the inequality is true when we substitute the values of \( x \) and \( y \).</note>
-
-<para>Example: Determine whether each ordered pair is a solution to the inequality \( y &gt; x + 4 \):</para>
-<list class="os-raise-noindent" type="enumerated">
-  <item>\( (0, 0) \)
+      <para>Example: Determine whether each ordered pair is a solution to the inequality \( y &gt; x + 4 \):</para>
+      <list class="os-raise-noindent" type="enumerated">
+        <item>\( (0, 0) \)
   </item>
-  <item>\( (1, 6) \)
+        <item>\( (1, 6) \)
   </item>
-  <item>\( (2, 6) \)
+        <item>\( (2, 6) \)
   </item>
-  <item>\( (−5, −15) \)
+        <item>\( (−5, −15) \)
   </item>
-  <item>\( (−8, 12) \)
+        <item>\( (−8, 12) \)
   </item>
-</list>
-<para><emphasis>Solution</emphasis></para>
-<para>1. No; Substitute 0 for \( x \) and 0 for \( y \).</para>
-<para>\( y &gt; x + 4 \)
+      </list>
+      <para>
+        <emphasis>Solution</emphasis>
+      </para>
+      <para>1. No; Substitute 0 for \( x \) and 0 for \( y \).</para>
+      <para>\( y &gt; x + 4 \)
   \( 0 &gt; 0 + 4 \)
   \( 0 &amp;ngtr; 4 \)
 </para>
-<para>2. Yes; Substitute 1 for \( x \) and 6 for \( y \).</para>
-<para>\( y &gt; x + 4 \)
+      <para>2. Yes; Substitute 1 for \( x \) and 6 for \( y \).</para>
+      <para>\( y &gt; x + 4 \)
   \( 6 &gt; 1 + 4 \)
   \( 6&gt;5 \)
 </para>
-<para>3. No; Substitute 2 for \( x \) and 6 for \( y \).</para>
-<para>\( y &gt; x + 4 \)
+      <para>3. No; Substitute 2 for \( x \) and 6 for \( y \).</para>
+      <para>\( y &gt; x + 4 \)
   \( 6 &gt; 2 + 4 \)
   \( 6 &amp;ngtr; 6 \)</para>
-<para>4. No; Substitute -5 for \( x \) and -15 for \( y \).</para>
-<para>\( y &gt; x + 4 \)
+      <para>4. No; Substitute -5 for \( x \) and -15 for \( y \).</para>
+      <para>\( y &gt; x + 4 \)
   \( -15 &gt; -5 + 4 \)
   \( -15 &amp;ngtr; 6-1 \)</para>
-<para>5. Yes; Substitute -8 for \( x \) and 12 for \( y \).</para>
-<para>\( y &gt; x + 4 \)
+      <para>5. Yes; Substitute -8 for \( x \) and 12 for \( y \).</para>
+      <para>\( y &gt; x + 4 \)
   \( 12 &gt; -8 + 4 \)
   \( 12&gt;-4 \)</para>
-<para>Determine whether each ordered pair is a solution to the inequality \( y &gt; x − 3 \).</para>
-<section class="check-understanding"><title>Try It: Verify Solutions to an Inequality in Two Variables</title><exercise data-content-id="230b7312-e75e-4295-a819-7c69d65e1723" class="multiple-choice"><problem><para> \((0, 0)\) </para>
-      </problem><solution><para>Correct! Yes \(0&gt;−3 \checkmark\)</para><para>The correct answer is, Yes.</para><para>Substitute 0 for \(x\) and 0 for \(y\).
+      <para>Determine whether each ordered pair is a solution to the inequality \( y &gt; x − 3 \).</para>
+      <section class="check-understanding">
+        <title>Try It: Verify Solutions to an Inequality in Two Variables</title>
+        <exercise data-content-id="230b7312-e75e-4295-a819-7c69d65e1723" class="multiple-choice">
+          <problem>
+            <para> \((0, 0)\) </para>
+          </problem>
+          <solution>
+            <para>Correct! Yes \(0&gt;−3 \checkmark\)</para>
+            <para>The correct answer is, Yes.</para>
+            <para>Substitute 0 for \(x\) and 0 for \(y\).
         \(0 \stackrel{?}{&gt;} 0-3\)
         \(0&gt;−3 \checkmark\) 
-        \(0&gt;−3 \checkmark\) </para></solution></exercise><exercise data-content-id="5041728d-30df-41bc-84aa-fce8b6583c0e" class="multiple-choice"><problem><para> \((4, 9)\) </para>
-      </problem><solution><para>Correct! Yes \(9&gt;1 \checkmark\)</para><para>The correct answer is, Yes.</para><para>Substitute 4 for \(x\) and 9 for \(y\).
+        \(0&gt;−3 \checkmark\) </para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="5041728d-30df-41bc-84aa-fce8b6583c0e" class="multiple-choice">
+          <problem>
+            <para> \((4, 9)\) </para>
+          </problem>
+          <solution>
+            <para>Correct! Yes \(9&gt;1 \checkmark\)</para>
+            <para>The correct answer is, Yes.</para>
+            <para>Substitute 4 for \(x\) and 9 for \(y\).
         \(9 \stackrel{?}{&gt;} 4-3\)
         \(9&gt;1 \checkmark\)
-        \(9&gt;1 \checkmark\)</para></solution></exercise><exercise data-content-id="d1a1a4c3-e93b-4844-ab61-6e79aa25574b" class="multiple-choice"><problem><para> \((−2, 1)\) </para>
-      </problem><solution><para>Correct! Yes \(1&gt;−5 \checkmark\)</para><para>The correct answer is, Yes.</para><para>Substitute -2 for \(x\) and 1 for \(y\).
+        \(9&gt;1 \checkmark\)</para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="d1a1a4c3-e93b-4844-ab61-6e79aa25574b" class="multiple-choice">
+          <problem>
+            <para> \((−2, 1)\) </para>
+          </problem>
+          <solution>
+            <para>Correct! Yes \(1&gt;−5 \checkmark\)</para>
+            <para>The correct answer is, Yes.</para>
+            <para>Substitute -2 for \(x\) and 1 for \(y\).
         \(1 \stackrel{?}{&gt;} -2-3\)
         \(1&gt;−5 \checkmark\)
-        \(1&gt;−5 \checkmark\)</para></solution></exercise><exercise data-content-id="90ae7d26-e721-4af1-b5d7-8b2d560b481a" class="multiple-choice"><problem><para> \((−5, −3)\) </para>
-      </problem><solution><para>Correct! Yes \(-3&gt;−8 \checkmark\)</para><para>The correct answer is, Yes.</para><para>Substitute -5 for \(x\) and -3 for \(y\).
+        \(1&gt;−5 \checkmark\)</para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="90ae7d26-e721-4af1-b5d7-8b2d560b481a" class="multiple-choice">
+          <problem>
+            <para> \((−5, −3)\) </para>
+          </problem>
+          <solution>
+            <para>Correct! Yes \(-3&gt;−8 \checkmark\)</para>
+            <para>The correct answer is, Yes.</para>
+            <para>Substitute -5 for \(x\) and -3 for \(y\).
         \(-3 \stackrel{?}{&gt;} -5-3\)
         \(-3&gt;−8 \checkmark\)
-        \(-3&gt;−8 \checkmark\)</para></solution></exercise><exercise data-content-id="8c834a10-2c88-4e76-9859-3d844d5babb2" class="multiple-choice"><problem><para> \((5, 1)\) </para>
-      </problem><solution><para>Correct! No \(1&amp;ngtr;2\), so this ordered pair is not a solution.</para><para>The correct answer is, No.</para><para>Substitute 5 for \(x\) and 1 for \(y\).
+        \(-3&gt;−8 \checkmark\)</para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="8c834a10-2c88-4e76-9859-3d844d5babb2" class="multiple-choice">
+          <problem>
+            <para> \((5, 1)\) </para>
+          </problem>
+          <solution>
+            <para>Correct! No \(1&amp;ngtr;2\), so this ordered pair is not a solution.</para>
+            <para>The correct answer is, No.</para>
+            <para>Substitute 5 for \(x\) and 1 for \(y\).
         \(1 \stackrel{?}{&gt;} 5-3\)
         \(1&amp;ngtr;2\), so this ordered pair is not a solution.
-        \(1&amp;ngtr;2\), so this ordered pair is not a solution.</para></solution></exercise></section></section>
-</content>
+        \(1&amp;ngtr;2\), so this ordered pair is not a solution.</para>
+          </solution>
+        </exercise>
+      </section>
+    </section>
+  </content>
 </document>

@@ -6,158 +6,175 @@
     <md:uuid>29026252-77ca-49c2-8b85-7c8a6d4045bf</md:uuid>
   </metadata>
   <content>
-  <section><title>Finding Rates of Change</title>
-<para>Jay was racing bikes with a friend on the way to the park. A table and a graph of the times are shown below.</para>
-<table class="os-raise-midsizetable">
-  <caption>Jay</caption>
-  <thead>
-    <row>
-      <entry><emphasis>Time (minutes)</emphasis></entry><entry><emphasis>Distance (miles)</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
-      <entry>
+    <section>
+      <title>Finding Rates of Change</title>
+      <para>Jay was racing bikes with a friend on the way to the park. A table and a graph of the times are shown below.</para>
+      <table class="os-raise-midsizetable">
+        <caption>Jay</caption>
+        <thead>
+          <row>
+            <entry>
+              <emphasis>Time (minutes)</emphasis>
+            </entry>
+            <entry>
+              <emphasis>Distance (miles)</emphasis>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
         0
       </entry>
-      <entry>
+            <entry>
         0
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         5
       </entry>
-      <entry>
+            <entry>
         0.84
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         10
       </entry>
-      <entry>
+            <entry>
         1.86
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         15
       </entry>
-      <entry>
+            <entry>
         3.00
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         20
       </entry>
-      <entry>
+            <entry>
         4.27
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         25
       </entry>
-      <entry>
+            <entry>
         5.67
       </entry>
-    </row>
-  </tbody>
-</table>
-
-<para><figure><media alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/e2be91d74e2b7550eb702312e03a47f9fe97b6f3"/></media></figure></para>
-<para>What is the average rate of change of the first 10 minutes of the race?</para>
-<para>To find the average rate of change of the first 10 minutes of the race, you would look at the first data value on the table and the third data value on the table, since it corresponds to 10 minutes.</para>
-<para>Remember, the average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\), where \((b, f(b))\) typically represents your second data point and \((a, f(a))\) represents your first data point.</para>
-<para>For this situation, it would be \(( 0, 0)\) or \(a=0\) and \(f(a) =0\) and \((10,1.86)\) or \(b= 10\) and \(f(b)=1.86\).</para>
-<para>Substituting the points into the average rate of change formula results in the following:</para>
-<para>\(\frac{f(b)-f(a)}{b-a}\), which is \(\frac{1.86}{10}\) or 0.186 miles per minute.</para>
-<para>Notice that the answer is positive and the points on the graph are higher each time.</para>
-<title>Try It: Finding Rates of Change</title>
-<para>Jay was racing bikes with a friend on the way to the park. A table and a graph of the times are shown below.</para>
-<table class="os-raise-midsizetable">
-  <caption>Jay</caption>
-  <thead>
-    <row>
-      <entry><emphasis>Time (minutes)</emphasis></entry><entry><emphasis>Distance (miles)</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
-      <entry>
+          </row>
+        </tbody>
+      </table>
+      <para>
+        <figure>
+          <media alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67).">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_04_11_05_01.jpg"/>
+          </media>
+        </figure>
+      </para>
+      <para>What is the average rate of change of the first 10 minutes of the race?</para>
+      <para>To find the average rate of change of the first 10 minutes of the race, you would look at the first data value on the table and the third data value on the table, since it corresponds to 10 minutes.</para>
+      <para>Remember, the average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\), where \((b, f(b))\) typically represents your second data point and \((a, f(a))\) represents your first data point.</para>
+      <para>For this situation, it would be \(( 0, 0)\) or \(a=0\) and \(f(a) =0\) and \((10,1.86)\) or \(b= 10\) and \(f(b)=1.86\).</para>
+      <para>Substituting the points into the average rate of change formula results in the following:</para>
+      <para>\(\frac{f(b)-f(a)}{b-a}\), which is \(\frac{1.86}{10}\) or 0.186 miles per minute.</para>
+      <para>Notice that the answer is positive and the points on the graph are higher each time.</para>
+      <title>Try It: Finding Rates of Change</title>
+      <para>Jay was racing bikes with a friend on the way to the park. A table and a graph of the times are shown below.</para>
+      <table class="os-raise-midsizetable">
+        <caption>Jay</caption>
+        <thead>
+          <row>
+            <entry>
+              <emphasis>Time (minutes)</emphasis>
+            </entry>
+            <entry>
+              <emphasis>Distance (miles)</emphasis>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
         0
       </entry>
-      <entry>
+            <entry>
         0
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         5
       </entry>
-      <entry>
+            <entry>
         0.84
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         10
       </entry>
-      <entry>
+            <entry>
         1.86
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         15
       </entry>
-      <entry>
+            <entry>
         3.00
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         20
       </entry>
-      <entry>
+            <entry>
         4.27
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         25
       </entry>
-      <entry>
+            <entry>
         5.67
       </entry>
-    </row>
-  </tbody>
-</table>
-
-<para><figure><media alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67). "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/69e4be4d341573e713fabfb59f2ef379252f1a05"/></media></figure></para>
-
-<example><exercise>
-  <problem>
-    
-    <para>What was Jay’s average rate of change from the beginning to 25 minutes later?</para>
-  
-  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+          </row>
+        </tbody>
+      </table>
+      <para>
+        <figure>
+          <media alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67). ">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_04_11_05_02.jpg"/>
+          </media>
+        </figure>
+      </para>
+      <example>
+        <exercise>
+          <problem>
+            <para>What was Jay’s average rate of change from the beginning to 25 minutes later?</para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
     </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>Here is how to find the average rate of change of the first 25 minutes of the race:</para>
-  
-  <para>Remember, the average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\), where \((b, f(b))\) typically represents your second data point and \((a, f(a))\) represents your first data point.</para>
-  
-  <para>For this situation, it would be \((0, 0)\) or \(a=0\) and \(f(a) =0\) and \((25,5.67)\) or \(b= 25\) and \(f(b)=5.67\).</para>
-  
-  <para>Substituting the points into the average rate of change formula results in the following:</para>
-  
-  <para>\(\frac{f(b)-f(a)}{b-a}=\frac{5.67}{25}\), which is 0.227 miles per minute.</para>
-
-</solution></exercise>
-</example></section>
-</content>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>Here is how to find the average rate of change of the first 25 minutes of the race:</para>
+            <para>Remember, the average rate of change formula is \(\frac{f(b)-f(a)}{b-a}\), where \((b, f(b))\) typically represents your second data point and \((a, f(a))\) represents your first data point.</para>
+            <para>For this situation, it would be \((0, 0)\) or \(a=0\) and \(f(a) =0\) and \((25,5.67)\) or \(b= 25\) and \(f(b)=5.67\).</para>
+            <para>Substituting the points into the average rate of change formula results in the following:</para>
+            <para>\(\frac{f(b)-f(a)}{b-a}=\frac{5.67}{25}\), which is 0.227 miles per minute.</para>
+          </solution>
+        </exercise>
+      </example>
+    </section>
+  </content>
 </document>

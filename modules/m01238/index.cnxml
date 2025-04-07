@@ -6,197 +6,110 @@
     <md:uuid>43383205-3dbf-4697-bef3-9f5d63411844</md:uuid>
   </metadata>
   <content>
-  <section><title>Using Product and Quotient Properties for Exponents</title>
-<para>When we combine like terms by adding and subtracting, we need to have the same base with the same exponent. But when you multiply and divide, the exponents may be different, and sometimes the bases may be different, too.</para>
-<para>First, we will look at an example that leads to the Product Property.</para>
-<para>What does \(x^2 \cdot x^3\) mean?</para>
-<para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/c0cbb5db160126e5a9a9cb790a9e1bb56db91c2e"/></media></figure></para>
-
-<para>Notice that 5 is the sum of the exponents, 2 and 3. We see \(x^2 \cdot x^3\) is \(x^{2+3}\) or \(x^5\).</para>
-<para>The base stayed the same, and we added the exponents. This leads to the <term data-schema-version="1.0" data-store="glossary-tooltip">Product Property for Exponents</term>.</para>
-
-<note>
-  <para>Product Property for Exponents </para>
-    <hr/>
-  <para>If \(a\) is a real number and \(m\) and \(n\) are integers, then</para>
-  <para>\(a^m \cdot a^n=a^{m+n}\) </para>
-  <para>To multiply with like bases, add the exponents.</para>
-</note>
-
-
-<para>Example 1</para>
-<para>\(4^3 \cdot 4^4 =4^{3+4}=4^7\)</para>
-<para>Example 2</para>
-<para>\(12^2 \cdot 12^6 =12^{2+6}=12^8\)</para>
-<para>Example 3</para>
-<para>\(y^7 \cdot 4^8 =y^{7+8}=y^{15}\)</para>
-<para>Example 4</para>
-<para>\((2^b)^{10} \cdot (2b)^3 =(2b)^{10+3}=(2b)^{13}\)</para>
-
-<para>Now we will look at an exponent property for division. As before, we’ll try to discover a property by looking at some examples.</para>
-<list class="os-raise-noindent" type="enumerated">
-  <item>Consider \(\frac{x^5}{x^2}\)</item>
-</list>
-<para><emphasis>Step 1 -</emphasis> What does it mean? 
+    <section>
+      <title>Using Product and Quotient Properties for Exponents</title>
+      <para>When we combine like terms by adding and subtracting, we need to have the same base with the same exponent. But when you multiply and divide, the exponents may be different, and sometimes the bases may be different, too.</para>
+      <para>First, we will look at an example that leads to the Product Property.</para>
+      <para>What does \(x^2 \cdot x^3\) mean?</para>
+      <para>
+        <figure>
+          <media alt="Insert Alt Text">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_03_05_01.jpg"/>
+          </media>
+        </figure>
+      </para>
+      <para>Notice that 5 is the sum of the exponents, 2 and 3. We see \(x^2 \cdot x^3\) is \(x^{2+3}\) or \(x^5\).</para>
+      <para>The base stayed the same, and we added the exponents. This leads to the <term data-schema-version="1.0" data-store="glossary-tooltip">Product Property for Exponents</term>.</para>
+      <note>
+        <para>Product Property for Exponents </para>
+        <hr/>
+        <para>If \(a\) is a real number and \(m\) and \(n\) are integers, then</para>
+        <para>\(a^m \cdot a^n=a^{m+n}\) </para>
+        <para>To multiply with like bases, add the exponents.</para>
+      </note>
+      <para>Example 1</para>
+      <para>\(4^3 \cdot 4^4 =4^{3+4}=4^7\)</para>
+      <para>Example 2</para>
+      <para>\(12^2 \cdot 12^6 =12^{2+6}=12^8\)</para>
+      <para>Example 3</para>
+      <para>\(y^7 \cdot 4^8 =y^{7+8}=y^{15}\)</para>
+      <para>Example 4</para>
+      <para>\((2^b)^{10} \cdot (2b)^3 =(2b)^{10+3}=(2b)^{13}\)</para>
+      <para>Now we will look at an exponent property for division. As before, we’ll try to discover a property by looking at some examples.</para>
+      <list class="os-raise-noindent" type="enumerated">
+        <item>Consider \(\frac{x^5}{x^2}\)</item>
+      </list>
+      <para><emphasis>Step 1 -</emphasis> What does it mean? 
 \(\frac{x \cdot x \cdot x \cdot x \cdot x}{x \cdot x}\) </para>
-<para><emphasis>Step 2 - </emphasis>Use the Equivalent Fractions Property. 
-  <m:math>
-    <m:mfrac>
-      <m:mrow>
-        <m:menclose notation="updiagonalstrike">
-          <m:mi>x</m:mi>
-        </m:menclose>
-        <m:mo> </m:mo>
-        <m:mo>·</m:mo>
-        <m:mo> </m:mo>
-        <m:menclose notation="updiagonalstrike">
-          <m:mi>x</m:mi>
-        </m:menclose>
-        <m:mo> </m:mo>
-        <m:mo>·</m:mo>
-        <m:mo> </m:mo>
-        <m:mi>x</m:mi>
-        <m:mo> </m:mo>
-        <m:mo>·</m:mo>
-        <m:mo> </m:mo>
-        <m:mi>x</m:mi>
-        <m:mo> </m:mo>
-        <m:mo>·</m:mo>
-        <m:mo> </m:mo>
-        <m:mi>x</m:mi>
-      </m:mrow>
-      <m:mrow>
-        <m:menclose notation="updiagonalstrike">
-          <m:mi>x</m:mi>
-        </m:menclose>
-        <m:mo> </m:mo>
-        <m:mo>·</m:mo>
-        <m:mo> </m:mo>
-        <m:menclose notation="updiagonalstrike">
-          <m:mi>x</m:mi>
-        </m:menclose>
-      </m:mrow>
-    </m:mfrac>
-  </m:math>
-</para>
-<para><emphasis>Step 3 -</emphasis> Simplify.
+      <para><emphasis>Step 2 - </emphasis>Use the Equivalent Fractions Property. 
+  <m:math><m:mfrac><m:mrow><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:mi>x</m:mi><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:mi>x</m:mi><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose></m:mrow></m:mfrac></m:math></para>
+      <para><emphasis>Step 3 -</emphasis> Simplify.
   \(x^3\)</para>
-<list class="os-raise-noindent" start="2" type="enumerated">
-  <item>Consider \(\frac{x^2}{x^3}\)</item>
-</list>
-<para><emphasis>Step 1 -</emphasis> What does it mean?
+      <list class="os-raise-noindent" start="2" type="enumerated">
+        <item>Consider \(\frac{x^2}{x^3}\)</item>
+      </list>
+      <para><emphasis>Step 1 -</emphasis> What does it mean?
   \(\frac{x \cdot x}{x \cdot x \cdot x}\)</para>
-<para><emphasis>Step 2 -</emphasis> Use the Equivalent Fractions Property.
-  <m:math>
-    <m:mfrac>
-      <m:mrow>
-        <m:menclose notation="updiagonalstrike">
-          <m:mi>x</m:mi>
-        </m:menclose>
-        <m:mo> </m:mo>
-        <m:mo>·</m:mo>
-        <m:mo> </m:mo>
-        <m:menclose notation="updiagonalstrike">
-          <m:mi>x</m:mi>
-        </m:menclose>
-        <m:mo> </m:mo>
-        <m:mo>·</m:mo>
-        <m:mo> </m:mo>
-        <m:mn>1</m:mn>
-      </m:mrow>
-      <m:mrow>
-        <m:menclose notation="updiagonalstrike">
-          <m:mi>x</m:mi>
-        </m:menclose>
-        <m:mo> </m:mo>
-        <m:mo>·</m:mo>
-        <m:mo> </m:mo>
-        <m:menclose notation="updiagonalstrike">
-          <m:mi>x</m:mi>
-        </m:menclose>
-        <m:mo> </m:mo>
-        <m:mo>·</m:mo>
-        <m:mo> </m:mo>
-        <m:mi>x</m:mi>
-      </m:mrow>
-    </m:mfrac>
-  </m:math>
+      <para><emphasis>Step 2 -</emphasis> Use the Equivalent Fractions Property.
+  <m:math><m:mfrac><m:mrow><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo> </m:mo><m:mo>·</m:mo><m:mo> </m:mo><m:mi>x</m:mi></m:mrow></m:mfrac></m:math>
 </para>
-<para><emphasis>Step 3 -</emphasis> Simplify.
+      <para><emphasis>Step 3 -</emphasis> Simplify.
   \(\frac1x\)</para>
-<para>Notice that in each case, the bases were the same and we subtracted exponents. We see \(\frac{x^5}{x^2}\) is \(x^{5-2}\) or \(x^3\). We see \(\frac{x^2}{x^3}\) is \(\frac1x\). When the larger exponent was in the numerator, we were left with factors in the numerator. When the larger exponent was in the denominator, we were left with factors in the denominator—notice the numerator of 1. When all the factors in the numerator have been removed, remember this is really dividing the factors to one, so we need a 1 in the numerator.
-  <m:math>
-    <m:mfrac>
-      <m:menclose notation="updiagonalstrike">
-        <m:mi>x</m:mi>
-      </m:menclose>
-      <m:mrow>
-        <m:menclose notation="updiagonalstrike">
-          <m:mi>x</m:mi>
-        </m:menclose>
-        <m:mo> </m:mo>
-      </m:mrow>
-    </m:mfrac>
-    <m:mo>=</m:mo>
-    <m:mn>1</m:mn>
-  </m:math>
+      <para>Notice that in each case, the bases were the same and we subtracted exponents. We see \(\frac{x^5}{x^2}\) is \(x^{5-2}\) or \(x^3\). We see \(\frac{x^2}{x^3}\) is \(\frac1x\). When the larger exponent was in the numerator, we were left with factors in the numerator. When the larger exponent was in the denominator, we were left with factors in the denominator—notice the numerator of 1. When all the factors in the numerator have been removed, remember this is really dividing the factors to one, so we need a 1 in the numerator.
+  <m:math><m:mfrac><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mrow><m:menclose notation="updiagonalstrike"><m:mi>x</m:mi></m:menclose><m:mo> </m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>1</m:mn></m:math>
   . This leads to the <term data-schema-version="1.0" data-store="glossary-tooltip">Quotient Property for Exponents</term>.
 </para>
-
-<note>
-  <para>Quotient Property for Exponents </para>
-    <hr/>
-  <para>If \(a\) is a real number, \(a\neq0\), and \(m\) and \(n\) are integers, then</para>
-  <para>\(\frac{a^m}{a^n}=a^{m-n}\), \(m&gt;n\) and \(\frac{a^m}{a^n}=\frac1{a^{n-m}}\), \(n&gt;m\)</para>
-</note>
-
-<para>Example 5</para>
-<para>\(7^5 \div 7^3 =7^{5-3}=7^2\)</para>
-<para>Example 6</para>
-<para>\(k^9 \div k^2 =k^{9-2}=k^7\)</para>
-<para>Example 7</para>
-<para>\(\frac {j^{10}}{j^7} =j^{10-7}=k^3\)</para>
-
-
-<title>Try It: Using Product and Quotient Properties for Exponents</title>
-<example><exercise>
-  <problem>
-    
-    <para>Simplify each expression.</para>
-    
-    <para>\(12^2 \cdot 12^5\)</para>
-      <para>\(20^{14} \div 20^4\)</para>
-      <para>\(
+      <note>
+        <para>Quotient Property for Exponents </para>
+        <hr/>
+        <para>If \(a\) is a real number, \(a\neq0\), and \(m\) and \(n\) are integers, then</para>
+        <para>\(\frac{a^m}{a^n}=a^{m-n}\), \(m&gt;n\) and \(\frac{a^m}{a^n}=\frac1{a^{n-m}}\), \(n&gt;m\)</para>
+      </note>
+      <para>Example 5</para>
+      <para>\(7^5 \div 7^3 =7^{5-3}=7^2\)</para>
+      <para>Example 6</para>
+      <para>\(k^9 \div k^2 =k^{9-2}=k^7\)</para>
+      <para>Example 7</para>
+      <para>\(\frac {j^{10}}{j^7} =j^{10-7}=k^3\)</para>
+      <title>Try It: Using Product and Quotient Properties for Exponents</title>
+      <example>
+        <exercise>
+          <problem>
+            <para>Simplify each expression.</para>
+            <para>\(12^2 \cdot 12^5\)</para>
+            <para>\(20^{14} \div 20^4\)</para>
+            <para>\(
         h^4 \cdot h^7\) </para>
-      <para> \((-s)^2 \cdot (-s)^2\) </para>
-      <para>\(\frac
+            <para> \((-s)^2 \cdot (-s)^2\) </para>
+            <para>\(\frac
         {b^7}{b^5}\)</para>
-      <para> \({(-y)^6}{(-y)^3}\)</para>
-      <para>\(\frac{x^3}{x^5}\)</para>
-    <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answers:</para>
-  
-  <para>Here is how to simplify the expressions:</para>
-  
-  <list class="os-raise-noindent" type="enumerated">
-    <item>\(12^2 \cdot 12^5=12^7\)</item>
-    <item>\(20^{14} \div 20^4=20^{10}\)</item>
-    <item> \(h^4 \cdot h^7= h^{11}\) </item>
-    <item>\(
+            <para> \({(-y)^6}{(-y)^3}\)</para>
+            <para>\(\frac{x^3}{x^5}\)</para>
+            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answers:</para>
+            <para>Here is how to simplify the expressions:</para>
+            <list class="os-raise-noindent" type="enumerated">
+              <item>\(12^2 \cdot 12^5=12^7\)</item>
+              <item>\(20^{14} \div 20^4=20^{10}\)</item>
+              <item> \(h^4 \cdot h^7= h^{11}\) </item>
+              <item>\(
       (-s)^2(-s)^2=(-s)^4
       \)</item>
-    <item>\(\frac{b^7}{b^5} = b^2\) </item>
-    <item>\((-y)^6(-y)^3 = (-y)^9\) </item>
-    <item>\(\frac{
+              <item>\(\frac{b^7}{b^5} = b^2\) </item>
+              <item>\((-y)^6(-y)^3 = (-y)^9\) </item>
+              <item>\(\frac{
       x^3}{x^5}=\frac{1}{x^2}\) </item>
-  </list>
-
-</solution></exercise>
-</example>
-<title>Video: Understanding Product and Quotient Properties for Exponents</title>
-<para>Watch the following video to learn more about applying the Product and Quotient Properties of Exponents.</para>
-<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/ff0087aa8b557d1372c5f5295bae72ee643afce1"/></media></section>
-</content>
+            </list>
+          </solution>
+        </exercise>
+      </example>
+      <title>Video: Understanding Product and Quotient Properties for Exponents</title>
+      <para>Watch the following video to learn more about applying the Product and Quotient Properties of Exponents.</para>
+      <media alt="Placeholder for Alt Text">
+        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/ff0087aa8b557d1372c5f5295bae72ee643afce1"/>
+      </media>
+    </section>
+  </content>
 </document>

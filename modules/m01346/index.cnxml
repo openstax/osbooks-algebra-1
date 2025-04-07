@@ -6,245 +6,279 @@
     <md:uuid>7e26d98d-8cc2-4f2e-8bd5-e041f868c355</md:uuid>
   </metadata>
   <content>
-  <section><para>A person took some medicine but does not remember how much. Concerned that she took too much, she has a blood test
+    <section>
+      <para>A person took some medicine but does not remember how much. Concerned that she took too much, she has a blood test
   every hour for several hours.</para>
-<table class="os-raise-midsizetable">
-  <thead>
-    <row>
-      <entry><emphasis>\(t\), time (hours)</emphasis></entry><entry><emphasis>\(m\), medicine (mg)</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
-      <entry>
+      <table class="os-raise-midsizetable">
+        <thead>
+          <row>
+            <entry>
+              <emphasis>\(t\), time (hours)</emphasis>
+            </entry>
+            <entry>
+              <emphasis>\(m\), medicine (mg)</emphasis>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
         –3
       </entry>
-      <entry> </entry>
-    </row>
-    <row>
-      <entry>
+            <entry> </entry>
+          </row>
+          <row>
+            <entry>
         –1
       </entry>
-      <entry> </entry>
-    </row>
-    <row>
-      <entry>
+            <entry> </entry>
+          </row>
+          <row>
+            <entry>
         0
       </entry>
-      <entry>
+            <entry>
         100
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         1
       </entry>
-      <entry>
+            <entry>
         50
       </entry>
-    </row>
-    <row>
-      <entry>
+          </row>
+          <row>
+            <entry>
         2
       </entry>
-      <entry>
+            <entry>
         25
       </entry>
-    </row>
-  </tbody>
-</table>
-
-<para>Answer the following questions. Double click on mathematical expressions/equations to enlarge.
+          </row>
+        </tbody>
+      </table>
+      <para>Answer the following questions. Double click on mathematical expressions/equations to enlarge.
 </para>
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Time \(t\) is measured in hours since the blood test, and amount of medicine in her body, \(m\), is
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Time \(t\) is measured in hours since the blood test, and amount of medicine in her body, \(m\), is
         measured in milligrams. What is the decay factor? That is, what is \(b\) in an equation of the form
         \(m=a\cdot b^t\)?</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para> \(b=\frac12\)</para>
-  
-  </solution></exercise>
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para> What is \(a\)?</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(a=100\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Find the amounts of medicine in the patient’s body when \(t\) is –1.</para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>When \(t\) is –1, \(m\) is 200.</para>
-  
-  </solution></exercise>
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Find the amounts of medicine in the patient’s body when \(t\) is –3.</para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>When \(t\) is –3, \(m\) is 800.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>What does \(t=0\) mean in this context?</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para> \(t=0\) means the time the doctor did the first blood test.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<exercise>
-  <problem>
-    <para>What does \(t=-3\) mean in this context?</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para> \(t=-3\) means 3 hours before the doctor did the first test.</para>
-  
-  </solution></exercise>
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>The medicine was taken when \(t\) is –5. Assuming the person did not have any of the medication in
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para> \(b=\frac12\)</para>
+        </solution>
+      </exercise>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para> What is \(a\)?</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>\(a=100\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Find the amounts of medicine in the patient’s body when \(t\) is –1.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>When \(t\) is –1, \(m\) is 200.</para>
+        </solution>
+      </exercise>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Find the amounts of medicine in the patient’s body when \(t\) is –3.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>When \(t\) is –3, \(m\) is 800.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>What does \(t=0\) mean in this context?</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para> \(t=0\) means the time the doctor did the first blood test.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <exercise>
+        <problem>
+          <para>What does \(t=-3\) mean in this context?</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para> \(t=-3\) means 3 hours before the doctor did the first test.</para>
+        </solution>
+      </exercise>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>The medicine was taken when \(t\) is –5. Assuming the person did not have any of the medication in
         her body beforehand, how much medicine did the patient take?</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>3,200 mg. Each hour, this is cut in half. After being halved 5 times, it leaves 100 mg, the amount of medicine in
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>3,200 mg. Each hour, this is cut in half. After being halved 5 times, it leaves 100 mg, the amount of medicine in
       the person’s body when \(t=0\).</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<example><exercise>
-  <problem>
-    
-    <para>Create a graph by plotting the points whose coordinates are in the table from question 1 above. Make sure to
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <example>
+        <exercise>
+          <problem>
+            <para>Create a graph by plotting the points whose coordinates are in the table from question 1 above. Make sure to
         draw and label tick marks on the axes.</para>
-    <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/bd9e16f57c87cb863d69fea1d8f03d9f67d48df6"/></media></figure></para>
-  
-  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+            <para>
+              <figure>
+                <media alt="Insert Alt Text">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_08_06_01.svg"/>
+                </media>
+              </figure>
+            </para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
     </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para><figure><media alt=""><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/87c0825791421cf128a96a1b9eabd7e5cd7ccd97"/></media></figure></para>
-
-</solution></exercise>
-</example>
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Based on your graph, when do you think the patient will have: 500 mg of medicine remaining in her body</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>Between 2 and 3 hours before the patient first had her blood tested</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Based on your graph, when do you think the patient will have: No medicine remaining in her body</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>
+              <figure>
+                <media alt="">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_08_06_02.svg"/>
+                </media>
+              </figure>
+            </para>
+          </solution>
+        </exercise>
+      </example>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Based on your graph, when do you think the patient will have: 500 mg of medicine remaining in her body</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>Between 2 and 3 hours before the patient first had her blood tested</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Based on your graph, when do you think the patient will have: No medicine remaining in her body</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:
        Your answer may vary, but here are some samples:
     </para>
-    
-    <list>
-      <item>Sometime after 10 hours. The amount of medicine falls below 0.1 mg after about 10 hours and might be too small
+          <list>
+            <item>Sometime after 10 hours. The amount of medicine falls below 0.1 mg after about 10 hours and might be too small
         to be detectable after that point.</item>
-      <item> Eventually, all of the medicine will be out of the patient’s body (but the mathematical model for the
+            <item> Eventually, all of the medicine will be out of the patient’s body (but the mathematical model for the
         amount of medicine does not reach 0).</item>
-    </list>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<example><exercise>
-  <problem>
-    
-    <!-- INSERT ANY VALID HTML HERE -->
-  
-  <!-- INSERT ANY VALID HTML HERE -->
-  
-  </problem></exercise>
-</example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<section class="check-understanding"><title>Activity</title><exercise data-content-id="a1f54a9b-cea1-45c5-ac43-2ac7329663a6" class="multiple-choice"><problem><para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
-        than 1.</para><title>Extending Your Thinking</title>
-      
-      <para>\(\frac1{1-2^{-10}}\)
-        </para>
-      </problem><solution><para>Correct! The answer is: close to 1</para><para>The correct answer is: close to 1</para></solution></exercise><exercise data-content-id="5ca31138-9e4f-4b4d-ad63-509dbdb6a8ef" class="multiple-choice"><problem><para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
+          </list>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+      <example>
+        <exercise>
+          <problem>
+            <!-- INSERT ANY VALID HTML HERE -->
+            <!-- INSERT ANY VALID HTML HERE -->
+          </problem>
+        </exercise>
+      </example>
+      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+      <section class="check-understanding">
+        <title>Activity</title>
+        <exercise data-content-id="a1f54a9b-cea1-45c5-ac43-2ac7329663a6" class="multiple-choice">
+          <problem>
+            <para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
         than 1.</para>
-      <para>\(\frac{2^{10}}{2^{10}+1}\)
+            <title>Extending Your Thinking</title>
+            <para>\(\frac1{1-2^{-10}}\)
         </para>
-      </problem><solution><para>Correct! The answer is: close to 1</para><para>The correct answer is: close to 1</para></solution></exercise><exercise data-content-id="edc064ea-76ed-49fe-aa30-d41afe493426" class="multiple-choice"><problem><para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
+          </problem>
+          <solution>
+            <para>Correct! The answer is: close to 1</para>
+            <para>The correct answer is: close to 1</para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="5ca31138-9e4f-4b4d-ad63-509dbdb6a8ef" class="multiple-choice">
+          <problem>
+            <para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
         than 1.</para>
-      <para>\(\frac{2^{-10}}{2^{10}+1}\)
+            <para>\(\frac{2^{10}}{2^{10}+1}\)
         </para>
-      </problem><solution><para>Correct! The answer is: close to 0</para><para>The correct answer is: close to 0</para></solution></exercise><exercise data-content-id="a715a50b-aebc-4bb7-9e97-346d824a0243" class="multiple-choice"><problem><para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
+          </problem>
+          <solution>
+            <para>Correct! The answer is: close to 1</para>
+            <para>The correct answer is: close to 1</para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="edc064ea-76ed-49fe-aa30-d41afe493426" class="multiple-choice">
+          <problem>
+            <para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
         than 1.</para>
-      <para>\(\frac{1-2^{-10}}{2^{10}}\)
+            <para>\(\frac{2^{-10}}{2^{10}+1}\)
         </para>
-      </problem><solution><para>Correct! The answer is: close to 0</para><para>The correct answer is: close to 0</para></solution></exercise><exercise data-content-id="fff56ade-4ac8-4bb1-95e8-015e427ddb17" class="multiple-choice"><problem><para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
+          </problem>
+          <solution>
+            <para>Correct! The answer is: close to 0</para>
+            <para>The correct answer is: close to 0</para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="a715a50b-aebc-4bb7-9e97-346d824a0243" class="multiple-choice">
+          <problem>
+            <para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
         than 1.</para>
-      <para>\(\frac{1+2^{10}}{2^{-10}}\)
+            <para>\(\frac{1-2^{-10}}{2^{10}}\)
         </para>
-      </problem><solution><para>Correct! The answer is: much larger than 1</para><para>The correct answer is: much larger than 1</para></solution></exercise></section><!--End interaction--></section>
-</content>
+          </problem>
+          <solution>
+            <para>Correct! The answer is: close to 0</para>
+            <para>The correct answer is: close to 0</para>
+          </solution>
+        </exercise>
+        <exercise data-content-id="fff56ade-4ac8-4bb1-95e8-015e427ddb17" class="multiple-choice">
+          <problem>
+            <para>Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
+        than 1.</para>
+            <para>\(\frac{1+2^{10}}{2^{-10}}\)
+        </para>
+          </problem>
+          <solution>
+            <para>Correct! The answer is: much larger than 1</para>
+            <para>The correct answer is: much larger than 1</para>
+          </solution>
+        </exercise>
+      </section>
+      <!--End interaction-->
+    </section>
+  </content>
 </document>

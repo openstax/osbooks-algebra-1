@@ -6,206 +6,202 @@
     <md:uuid>bb969e6a-5db8-4cc2-a43c-a354d4c62693</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-
-<div class="os-raise-familysupport">
-  <para>Access the <link url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
-</div>
-
-<para>Here are three sets of descriptions and equations that represent some familiar quadratic functions. The graphs show what a graphing technology may produce when the equations are graphed. For a more accurate answer, use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool below.
+    <section>
+      <title>Activity</title>
+      <div class="os-raise-familysupport">
+        <para>Access the <link url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
+      </div>
+      <para>Here are three sets of descriptions and equations that represent some familiar quadratic functions. The graphs show what a graphing technology may produce when the equations are graphed. For a more accurate answer, use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool below.
   (Students had access to Desmos.)
 </para>
-<list>
-  <item> Describe a <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> domain</term></emphasis> that is appropriate for the situation. Think about any upper or lower limits for the input, as well as whether all numbers make sense as the input. Write the domain as an inequality. Then, describe how the graph should be modified to show the domain that makes sense. </item>
-  <item> Describe a <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> range</term></emphasis> that is appropriate for the situation. Think about any upper or lower limits for the input, as well as whether all numbers make sense as the input. Write the range as an inequality. What does the range mean in this situation? Then, describe how the graph should be modified to show the range that makes sense.</item>
-  <item> Identify or estimate the The <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> vertex (of a graph)</term></emphasis>. Describe what it means in the situation. </item>
-  <item> Identify or estimate the <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> zero of the function</term></emphasis>. Describe what they mean in the situation. </item>
-</list>
-<para>Use the following information to answer 1 - 4.</para>
-<para><quote> The area of a rectangle with a perimeter of \(25\) meters and a side length \(x\): \(A(x)=x \cdot \frac {(25-2x)}{2}\)</quote><quote><figure><media alt="Graph of the quadratic function &lt;span class=&quot;math&quot; data-png-file-id=&quot;35294&quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 10 to 15 by 5s, labeled “length (meters)”. Vertical axis scale 0 to 60 by 10’s, labeled “area (square meters)”. Some of the points of this function are &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;(0 comma 0), (1 comma 11 point 5) and (5 comma 37 point 5) to a maximum at (6 point 2 5 comma 39 point 0 6 3) then decreasing through (10 comma 25), (12 comma 6) and (12 point 5 comma 0)."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/9b71518a180e946db0e0245d8ef9f00e5121fd3e"/></media></figure></quote></para><!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>What is an inequality that represents the domain? </para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(0&lt;x&lt;12.5\). All positive rational numbers make sense as an input. The part of the graph that is below the horizontal line is not meaningful here (negative lengths or lengths greater than \(12.5\) produce a negative area, which doesn’t make sense). Having a length or area equal to \(0\) doesn’t make sense either.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>What is an inequality that represents the range? </para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(0&lt;y&lt;39.06\). All positive rational numbers make sense as an output up to the maximum of the graph at 39.06. The part of the graph that is below the horizontal line is not meaningful here since there cannot be a negative area (which doesn’t make sense). Having a length or area equal to 0 doesn’t make sense either. The range gives the minimum and maximum values possible for the area from a perimeter of 25.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para> What is the vertex of the graph? </para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para> The vertex is the point on the graph when the input is at \(6.25\). It’s around \((6.25,39.063)\). It’s when the rectangle has the greatest area.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>What are the zeros of the graph?</para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>The zeros are \(0\) and \(12.5\). They tell us that when the side length of the rectangle is \(0\) or \(12.5\) meters, the rectangle has no area (no rectangle exists).</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<para>Use the following information to answer 5 - 8.</para>
-<para><quote>The number of squares as a function of step number \(n\): \(f(n)=n^2+4\)</quote><quote><figure><media alt="Graph of the quadratic function&amp;nbsp;f of n = n squared + 4.&amp;nbsp;Horizontal axis scale negative 12 to 12 by 6’s, labeled “step number”. Vertical axis scale 0 to 200 by 40’s, labeled “number of squares”.&amp;nbsp;&quot; height=&quot;222"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/7b7b6180d83187d6cbb0fc79923a160133ec5e0e"/></media></figure></quote></para><!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>What is an inequality that represents the domain? </para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(n \geq 0\) where \(n\) is a whole number. Step numbers that are negative or decimal don’t make sense here. The graph should show points at non-negative integer values (instead of a continuous curve). Everything to the left of the vertical axis does not have meaning here.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>What is an inequality that represents the range? </para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(f≥4\). The number of squares starts with 4 and increases.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para> What is the vertex of the graph? </para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>The vertex is \((0,4)\). It tells us the number of squares at Step \(0\).</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>What are the zeros of the graph?</para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>There are no zeros for this function. There is not a time when there are no squares in the pattern.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<para>Use the following information to answer 9 - 12.</para>
-<para><quote>The distance in feet that an object has fallen \(t\) seconds after being dropped: \(g(t)=16t^2\)</quote><quote><figure><media alt=" &lt;p&gt;Graph of the quadratic function &lt;span class=&quot;math&quot; data-png-file-id=&quot;35295&quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 8 to 8 by 4’s, labeled “time (seconds)”. Vertical axis scale 0 to 600 by 200’s, labeled “distance fallen (feet)”. Some of the points of this function are (negative 8 comma 1024), (negative 5 comma 400) and (negative 1 comma 16) to a minimum at &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;(0 comma 0) then increasing through (1 comma 16), (5 comma 400) and (8 comma 1024).&lt;/p&gt;"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/874ea7b6b1f39ebb7f8214a821393c0eca2560aa"/></media></figure></quote></para><!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>What is an inequality that represents the domain? </para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para> \(t \geq 0\) or only positive numbers and \(0\). Negative values of time don’t make sense here, so the part of the graph to the left side of the vertical axis has no meaning.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>What is an inequality that represents the range? </para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(g≥0\). The distance fallen increases as time increases and would start at \(g=0\).</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para> What is the vertex of the graph? </para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>The vertex is \((0,0)\). It tells us the distance fallen at \(0\) seconds, which is \(0\) feet.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>What are the zeros of the graph?</para>
-      </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>The vertex also tells us the zero of the function. It’s the only time when the distance fallen is \(0\) feet.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<title>Video: Identifying Domain, Vertex, and Zero of Quadratic Functions</title>
-<para>Watch the following video to learn more about the domain, vertex, and zero of quadratic functions.</para>
-<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/ce57cc6be915599b86183af5e016926306d73f79"/></media></section>
-</content>
+      <list>
+        <item> Describe a <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> domain</term></emphasis> that is appropriate for the situation. Think about any upper or lower limits for the input, as well as whether all numbers make sense as the input. Write the domain as an inequality. Then, describe how the graph should be modified to show the domain that makes sense. </item>
+        <item> Describe a <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> range</term></emphasis> that is appropriate for the situation. Think about any upper or lower limits for the input, as well as whether all numbers make sense as the input. Write the range as an inequality. What does the range mean in this situation? Then, describe how the graph should be modified to show the range that makes sense.</item>
+        <item> Identify or estimate the The <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> vertex (of a graph)</term></emphasis>. Describe what it means in the situation. </item>
+        <item> Identify or estimate the <emphasis><term data-schema-version="1.0" data-store="glossary-tooltip"> zero of the function</term></emphasis>. Describe what they mean in the situation. </item>
+      </list>
+      <para>Use the following information to answer 1 - 4.</para>
+      <para>
+        <quote> The area of a rectangle with a perimeter of \(25\) meters and a side length \(x\): \(A(x)=x \cdot \frac {(25-2x)}{2}\)</quote>
+        <quote>
+          <figure>
+            <media alt="Graph of the quadratic function &lt;span class=&quot;math&quot; data-png-file-id=&quot;35294&quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 10 to 15 by 5s, labeled “length (meters)”. Vertical axis scale 0 to 60 by 10’s, labeled “area (square meters)”. Some of the points of this function are &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;(0 comma 0), (1 comma 11 point 5) and (5 comma 37 point 5) to a maximum at (6 point 2 5 comma 39 point 0 6 3) then decreasing through (10 comma 25), (12 comma 6) and (12 point 5 comma 0).">
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_09_06_01.svg"/>
+            </media>
+          </figure>
+        </quote>
+      </para>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>What is an inequality that represents the domain? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>\(0&lt;x&lt;12.5\). All positive rational numbers make sense as an input. The part of the graph that is below the horizontal line is not meaningful here (negative lengths or lengths greater than \(12.5\) produce a negative area, which doesn’t make sense). Having a length or area equal to \(0\) doesn’t make sense either.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>What is an inequality that represents the range? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>\(0&lt;y&lt;39.06\). All positive rational numbers make sense as an output up to the maximum of the graph at 39.06. The part of the graph that is below the horizontal line is not meaningful here since there cannot be a negative area (which doesn’t make sense). Having a length or area equal to 0 doesn’t make sense either. The range gives the minimum and maximum values possible for the area from a perimeter of 25.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para> What is the vertex of the graph? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para> The vertex is the point on the graph when the input is at \(6.25\). It’s around \((6.25,39.063)\). It’s when the rectangle has the greatest area.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>What are the zeros of the graph?</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>The zeros are \(0\) and \(12.5\). They tell us that when the side length of the rectangle is \(0\) or \(12.5\) meters, the rectangle has no area (no rectangle exists).</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <para>Use the following information to answer 5 - 8.</para>
+      <para>
+        <quote>The number of squares as a function of step number \(n\): \(f(n)=n^2+4\)</quote>
+        <quote>
+          <figure>
+            <media alt="Graph of the quadratic function&amp;nbsp;f of n = n squared + 4.&amp;nbsp;Horizontal axis scale negative 12 to 12 by 6’s, labeled “step number”. Vertical axis scale 0 to 200 by 40’s, labeled “number of squares”.&amp;nbsp;&quot; height=&quot;222">
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_09_06_02.svg"/>
+            </media>
+          </figure>
+        </quote>
+      </para>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>What is an inequality that represents the domain? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>\(n \geq 0\) where \(n\) is a whole number. Step numbers that are negative or decimal don’t make sense here. The graph should show points at non-negative integer values (instead of a continuous curve). Everything to the left of the vertical axis does not have meaning here.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>What is an inequality that represents the range? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>\(f≥4\). The number of squares starts with 4 and increases.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para> What is the vertex of the graph? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>The vertex is \((0,4)\). It tells us the number of squares at Step \(0\).</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>What are the zeros of the graph?</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>There are no zeros for this function. There is not a time when there are no squares in the pattern.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <para>Use the following information to answer 9 - 12.</para>
+      <para>
+        <quote>The distance in feet that an object has fallen \(t\) seconds after being dropped: \(g(t)=16t^2\)</quote>
+        <quote>
+          <figure>
+            <media alt=" &lt;p&gt;Graph of the quadratic function &lt;span class=&quot;math&quot; data-png-file-id=&quot;35295&quot;&gt;&lt;/span&gt; on a coordinate plane, origin &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;. Horizontal axis scale negative 8 to 8 by 4’s, labeled “time (seconds)”. Vertical axis scale 0 to 600 by 200’s, labeled “distance fallen (feet)”. Some of the points of this function are (negative 8 comma 1024), (negative 5 comma 400) and (negative 1 comma 16) to a minimum at &lt;span class=&quot;math&quot; data-png-file-id=&quot;35&quot;&gt;&lt;/span&gt;(0 comma 0) then increasing through (1 comma 16), (5 comma 400) and (8 comma 1024).&lt;/p&gt;">
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_09_06_03.svg"/>
+            </media>
+          </figure>
+        </quote>
+      </para>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>What is an inequality that represents the domain? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para> \(t \geq 0\) or only positive numbers and \(0\). Negative values of time don’t make sense here, so the part of the graph to the left side of the vertical axis has no meaning.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>What is an inequality that represents the range? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>\(g≥0\). The distance fallen increases as time increases and would start at \(g=0\).</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para> What is the vertex of the graph? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>The vertex is \((0,0)\). It tells us the distance fallen at \(0\) seconds, which is \(0\) feet.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>What are the zeros of the graph?</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>The vertex also tells us the zero of the function. It’s the only time when the distance fallen is \(0\) feet.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <title>Video: Identifying Domain, Vertex, and Zero of Quadratic Functions</title>
+      <para>Watch the following video to learn more about the domain, vertex, and zero of quadratic functions.</para>
+      <media alt="Placeholder for Alt Text">
+        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/ce57cc6be915599b86183af5e016926306d73f79"/>
+      </media>
+    </section>
+  </content>
 </document>

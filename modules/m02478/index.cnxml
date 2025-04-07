@@ -6,82 +6,85 @@
     <md:uuid>ecbad763-a271-4559-9d72-a403d64ae6f3</md:uuid>
   </metadata>
   <content>
-  <section>
-<!--Q#1-->
-<example><exercise>
-  <problem>
-    
-    <para> Write the quadratic function \(f(x)=x^2+6x+13\) in vertex form. </para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>\(f(x)=(x+3)^2+4\)</para>
-  
-  <para>\((\frac{b}{2})^2=(\frac{6}{2})^2=\frac{36}{4}=9\)
+    <section>
+      <!--Q#1-->
+      <example>
+        <exercise>
+          <problem>
+            <para> Write the quadratic function \(f(x)=x^2+6x+13\) in vertex form. </para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>\(f(x)=(x+3)^2+4\)</para>
+            <para>\((\frac{b}{2})^2=(\frac{6}{2})^2=\frac{36}{4}=9\)
     \(f(x)=x^2+6x+9+13-9\)
     \(f(x)=x^2+6x+9+4\)
     \(f(x)=(x+3)^2+4\)</para>
-
-</solution></exercise>
-</example><!--Interaction End -->
-
-
-<!--Q#2-->
-<exercise>
-  <problem>
-    <para> Using the vertex form of the quadratic found in question 1, what is the vertex? </para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\((-3, 4)\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-
-<!--Q#-->
-<list class="os-raise-noindent" start="3" type="enumerated">
-  <item> Graph both equations from question 1 (in standard form and vertex form). </item>
-</list>
-
-<div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
-
-<example><exercise>
-  <problem>
-    
-    <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-  
-  <para>When you finish graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/8317ceb2dedc91f213ae290e06a1114c30ca45a3"/></media></figure></para>
-
-</solution></exercise>
-</example><!--Interaction End -->
-
-<section class="check-understanding"><title>Warm Up Activity</title><exercise data-content-id="72cb5b64-be50-496b-83bc-a1ea8b6ccbb0" class="multiple-choice"><problem><para> Determine if the vertex for the quadratic function is a maximum or minimum. </para>
-      </problem><solution><para>Correct! Minimum</para><para>Nice try! The correct answer is Minimum.</para></solution></exercise></section>
-<!--Q#5-->
-<exercise>
-  <problem>
-    <para> What is the axis of symmetry? </para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(x = -3\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-</section>
-</content>
+          </solution>
+        </exercise>
+      </example>
+      <!--Interaction End -->
+      <!--Q#2-->
+      <exercise>
+        <problem>
+          <para> Using the vertex form of the quadratic found in question 1, what is the vertex? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>\((-3, 4)\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Q#-->
+      <list class="os-raise-noindent" start="3" type="enumerated">
+        <item> Graph both equations from question 1 (in standard form and vertex form). </item>
+      </list>
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+      <example>
+        <exercise>
+          <problem>
+            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+            <para>When you finish graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>
+              <figure>
+                <media alt="Insert Alt Text">
+                  <image mime-type="image/jpeg" src="../../media/Algebra-1_10_11_02_01.jpg"/>
+                </media>
+              </figure>
+            </para>
+          </solution>
+        </exercise>
+      </example>
+      <!--Interaction End -->
+      <section class="check-understanding">
+        <title>Warm Up Activity</title>
+        <exercise data-content-id="72cb5b64-be50-496b-83bc-a1ea8b6ccbb0" class="multiple-choice">
+          <problem>
+            <para> Determine if the vertex for the quadratic function is a maximum or minimum. </para>
+          </problem>
+          <solution>
+            <para>Correct! Minimum</para>
+            <para>Nice try! The correct answer is Minimum.</para>
+          </solution>
+        </exercise>
+      </section>
+      <!--Q#5-->
+      <exercise>
+        <problem>
+          <para> What is the axis of symmetry? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>\(x = -3\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+    </section>
+  </content>
 </document>

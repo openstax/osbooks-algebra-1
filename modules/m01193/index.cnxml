@@ -6,218 +6,214 @@
     <md:uuid>a8fc5639-c598-4459-97b0-b97d202b8457</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<!--Text Entry Interaction Start -->
-<para>In 2015, the number of wildcats in a national park was 284. It was estimated that the wildcat population increased by 4% each year.</para>
-<exercise>
-  <problem>
-    <para>Instead of writing a recursive definition, a researcher for the park writes \(W_n = 284(1.04)^n\), where \(W\) is the projected wildcat population \(n\) years after 2015. Explain where the different factors in her expression came from.</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>Your answer may vary, but here are some samples. 
-      </para><list>
-        <item>The 284 is the starting population of the wildcats in 2015.</item> 
-        <item>The 1.04 represents that the population grows 4% or 0.04 each year.</item> 
-        <item>The 1.04 comes from 100% of the population + 4% growth = 104% or 1.04. </item>
-        <item>
+    <section>
+      <title>Activity</title>
+      <!--Text Entry Interaction Start -->
+      <para>In 2015, the number of wildcats in a national park was 284. It was estimated that the wildcat population increased by 4% each year.</para>
+      <exercise>
+        <problem>
+          <para>Instead of writing a recursive definition, a researcher for the park writes \(W_n = 284(1.04)^n\), where \(W\) is the projected wildcat population \(n\) years after 2015. Explain where the different factors in her expression came from.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>Your answer may vary, but here are some samples. 
+      </para>
+          <list>
+            <item>The 284 is the starting population of the wildcats in 2015.</item>
+            <item>The 1.04 represents that the population grows 4% or 0.04 each year.</item>
+            <item>The 1.04 comes from 100% of the population + 4% growth = 104% or 1.04. </item>
+            <item>
           The \(n\) represents the number of years since 2015. 
           So, in 2016, \(n = 1\) and in 2017, \(n = 2\).
         </item>
+          </list>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <para>Work with a partner to discuss and create a table of values to estimate the projected wildcat population over the next 7 years.</para>
+      <example>
+        <exercise>
+          <problem>
+            <para> Complete the table when \(n=-2\) on your paper and check your answers. </para>
+            <table class="os-raise-wideequaltable">
+              <thead>
+                <row>
+                  <entry>
+                    <emphasis>Year</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis>\(n\)</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis>Wildcat Population</emphasis>
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>2015</entry>
+                  <entry>0</entry>
+                  <entry>\(W_n = 284(1.04)^0 = 284\)</entry>
+                </row>
+                <row>
+                  <entry>2016</entry>
+                  <entry>1</entry>
+                  <entry>\(W_n = 284(1.04)^1 = 295\)</entry>
+                </row>
+                <row>
+                  <entry>2017</entry>
+                  <entry>2</entry>
+                  <entry>\(W_n = 284(1.04)^2 = \)</entry>
+                </row>
+                <row>
+                  <entry>2018</entry>
+                  <entry>3</entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>2019</entry>
+                  <entry>4</entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>2020</entry>
+                  <entry>5</entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>2021</entry>
+                  <entry>6</entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>2022</entry>
+                  <entry>7</entry>
+                  <entry> </entry>
+                </row>
+              </tbody>
+            </table>
+            <para>When you have completed the table, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <table class="os-raise-wideequaltable">
+              <thead>
+                <row>
+                  <entry>
+                    <emphasis>Year</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis>\(n\)</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis>Wildcat Population</emphasis>
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>2015</entry>
+                  <entry>0</entry>
+                  <entry>284</entry>
+                </row>
+                <row>
+                  <entry>2016</entry>
+                  <entry>1</entry>
+                  <entry>295</entry>
+                </row>
+                <row>
+                  <entry>2017</entry>
+                  <entry>2</entry>
+                  <entry>307</entry>
+                </row>
+                <row>
+                  <entry>2018</entry>
+                  <entry>3</entry>
+                  <entry>319</entry>
+                </row>
+                <row>
+                  <entry>2019</entry>
+                  <entry>4</entry>
+                  <entry>332</entry>
+                </row>
+                <row>
+                  <entry>2020</entry>
+                  <entry>5</entry>
+                  <entry>346</entry>
+                </row>
+                <row>
+                  <entry>2021</entry>
+                  <entry>6</entry>
+                  <entry>359</entry>
+                </row>
+                <row>
+                  <entry>2022</entry>
+                  <entry>7</entry>
+                  <entry>374</entry>
+                </row>
+              </tbody>
+            </table>
+          </solution>
+        </exercise>
+      </example>
+      <list class="os-raise-noindent" start="3" type="enumerated">
+        <item>Use the graphing tool or technology outside the course. Graph the data that represents the population projections for this scenario.</item>
       </list>
-    
-  
-    
-  </solution></exercise>
-<!--Interaction End -->
-
-
-<para>Work with a partner to discuss and create a table of values to estimate the projected wildcat population over the next 7 years.</para>
-<example><exercise>
-  <problem>
-    
-    <para> Complete the table when \(n=-2\) on your paper and check your answers. </para>
-    <table class="os-raise-wideequaltable">
-      <thead>
-        <row>
-          <entry><emphasis>Year</emphasis></entry><entry><emphasis>\(n\)</emphasis></entry><entry><emphasis>Wildcat Population</emphasis></entry></row>
-      </thead>
-      <tbody>
-        <row>
-          <entry>2015</entry>
-          <entry>0</entry>
-          <entry>\(W_n = 284(1.04)^0 = 284\)</entry>
-        </row>
-        <row>
-          <entry>2016</entry>
-          <entry>1</entry>
-          <entry>\(W_n = 284(1.04)^1 = 295\)</entry>
-        </row>
-        <row>
-          <entry>2017</entry>
-          <entry>2</entry>
-          <entry>\(W_n = 284(1.04)^2 = \)</entry>
-        </row>
-        <row>
-          <entry>2018</entry>
-          <entry>3</entry>
-          <entry> </entry>
-        </row>
-        <row>
-          <entry>2019</entry>
-          <entry>4</entry>
-          <entry> </entry>
-        </row>
-        <row>
-          <entry>2020</entry>
-          <entry>5</entry>
-          <entry> </entry>
-        </row>
-        <row>
-          <entry>2021</entry>
-          <entry>6</entry>
-          <entry> </entry>
-        </row>
-        <row>
-          <entry>2022</entry>
-          <entry>7</entry>
-          <entry> </entry>
-        </row>
-      </tbody>
-    </table>
-    
-    
-  
-  <para>When you have completed the table, then select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  
-  
-  <table class="os-raise-wideequaltable">
-    <thead>
-      <row>
-        <entry><emphasis>Year</emphasis></entry><entry><emphasis>\(n\)</emphasis></entry><entry><emphasis>Wildcat Population</emphasis></entry></row>
-    </thead>
-    <tbody>
-      <row>
-        <entry>2015</entry>
-        <entry>0</entry>
-        <entry>284</entry>
-      </row>
-      <row>
-        <entry>2016</entry>
-        <entry>1</entry>
-        <entry>295</entry>
-      </row>
-      <row>
-        <entry>2017</entry>
-        <entry>2</entry>
-        <entry>307</entry>
-      </row>
-      <row>
-        <entry>2018</entry>
-        <entry>3</entry>
-        <entry>319</entry>
-      </row>
-      <row>
-        <entry>2019</entry>
-        <entry>4</entry>
-        <entry>332</entry>
-      </row>
-      <row>
-        <entry>2020</entry>
-        <entry>5</entry>
-        <entry>346</entry>
-      </row>
-      <row>
-        <entry>2021</entry>
-        <entry>6</entry>
-        <entry>359</entry>
-      </row>
-      <row>
-        <entry>2022</entry>
-        <entry>7</entry>
-        <entry>374</entry>
-      </row>
-    </tbody>
-  </table>
-  
-  
-
-</solution></exercise>
-</example>
-<list class="os-raise-noindent" start="3" type="enumerated">
-  <item>Use the graphing tool or technology outside the course. Graph the data that represents the population projections for this scenario.</item>
-</list>
-<div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
-<example><exercise>
-  <problem>
-  
-    <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answers:</para>
-  
-  
-  
-  <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/53fb8c9a6e0a4dc461223a472fbf2e25bf23a7a7"/></media></figure></solution></exercise>
-</example>
-<exercise>
-  <problem>
-    <para>Calculate and enter the year when the wildcat population will exceed 500 members.</para>
-    </problem><solution>
-    
-    <para>Enter your prediction here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>The wildcat population is expected to exceed 500 members in 2030 when they are projected to have 511 wildcats.</para>
-  
-  </solution></exercise>
-
-<exercise>
-  <problem>
-    <para>Is the data that represents this scenario an arithmetic or geometric sequence? Explain your reasoning.</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>Your answer may vary, but here are some samples: 
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+      <example>
+        <exercise>
+          <problem>
+            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
+          </problem>
+          <solution>
+            <para>Compare your answers:</para>
+            <figure>
+              <media alt="Insert Alt Text">
+                <image mime-type="image/png" src="../../media/Algebra-1_04_21_07_01.png"/>
+              </media>
+            </figure>
+          </solution>
+        </exercise>
+      </example>
+      <exercise>
+        <problem>
+          <para>Calculate and enter the year when the wildcat population will exceed 500 members.</para>
+        </problem>
+        <solution>
+          <para>Enter your prediction here:</para>
+          <para>Compare your answer:</para>
+          <para>The wildcat population is expected to exceed 500 members in 2030 when they are projected to have 511 wildcats.</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>Is the data that represents this scenario an arithmetic or geometric sequence? Explain your reasoning.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>Your answer may vary, but here are some samples: 
       
-      </para><list>
-        <item>This data represents a geometric sequence because the equation has a common ratio of 1.04. </item>
-        <item>This data represents a geometric sequence because the ratio between consecutive terms in the table is 1.04. </item>
-        <item>This data represents a geometric sequence because the graph does not depict a line, it is curved a little and does not have a constant slope.</item>
-      </list>
-    
-  
-    
-  </solution></exercise>
-
-<para>Remember that a recursive formula defines terms using one or more of the previous terms. If you need to calculate the \(100^{th}\) term or the \(500^{th}\) term in a sequence, the recursive formula becomes difficult to use if you do not know the values of the terms near \(n = 100\) or \(n = 500\). </para>
-
-<para>Different definitions can often create the same sequence but are more generalizable. These are called general rules or explicit rules. These formulas can be used to find any term in the sequence and may also be referred to as the rule to find the nth term. </para>
-
-
-
-<note>
-  <title>Geometric Sequence Formulas</title>
-
-  <h6>Recursive Formula</h6>
-  <para>\(a_n = a_{n-1} \cdot r\), 
+      </para>
+          <list>
+            <item>This data represents a geometric sequence because the equation has a common ratio of 1.04. </item>
+            <item>This data represents a geometric sequence because the ratio between consecutive terms in the table is 1.04. </item>
+            <item>This data represents a geometric sequence because the graph does not depict a line, it is curved a little and does not have a constant slope.</item>
+          </list>
+        </solution>
+      </exercise>
+      <para>Remember that a recursive formula defines terms using one or more of the previous terms. If you need to calculate the \(100^{th}\) term or the \(500^{th}\) term in a sequence, the recursive formula becomes difficult to use if you do not know the values of the terms near \(n = 100\) or \(n = 500\). </para>
+      <para>Different definitions can often create the same sequence but are more generalizable. These are called general rules or explicit rules. These formulas can be used to find any term in the sequence and may also be referred to as the rule to find the nth term. </para>
+      <note>
+        <title>Geometric Sequence Formulas</title>
+        <h6>Recursive Formula</h6>
+        <para>\(a_n = a_{n-1} \cdot r\), 
      Where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.</para>
-  
-  <h6>Explicit General Formula</h6>
-  <para>\(a_n = a_1 (r)^{n-1} \)
+        <h6>Explicit General Formula</h6>
+        <para>\(a_n = a_1 (r)^{n-1} \)
     Where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.</para>
-</note>
-</section>
-</content>
+      </note>
+    </section>
+  </content>
 </document>

@@ -6,99 +6,120 @@
     <md:uuid>bbb43ec0-8c22-4b40-9607-9022a1f0fb0f</md:uuid>
   </metadata>
   <content>
-  <section><title>Determining Growth Factors</title>
-<para>Is the pattern below represented by a function that is linear, exponential, or quadratic?</para>
-<para><figure><media alt="DIAGRAM WITH 4 FIGURES, LABELED STEP 0 THROUGH STEP 3. STEP 0 HAS 1 SQUARE. STEP 1 HAS 3 SQUARES. STEP 2 HAS 9 SQUARES. STEP 3 HAS 27 SQUARES."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/7ca96c977bc1e26345b0e0cc01660a4435234178"/></media></figure></para>
-<para><emphasis>Step 1</emphasis> - Draw a table. In the right column, determine the growth factor.</para>
-<table class="os-raise-wideequaltable">
-  <thead>
-    <row>
-      <entry><emphasis>Step Number\(x\)</emphasis></entry><entry><emphasis>Number of Squares\(f(x)\)</emphasis></entry><entry><emphasis>Growth Factor</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
-      <entry>\(0\)</entry>
-      <entry>\(1\)</entry>
-      <entry>\(3\)</entry>
-    </row>
-    <row>
-      <entry>\(1\)</entry>
-      <entry>\(3\)</entry>
-      <entry>\(3\)</entry>
-    </row>
-    <row>
-      <entry>\(2\)</entry>
-      <entry>\(9\)</entry>
-      <entry>\(3\)</entry>
-    </row>
-    <row>
-      <entry>\(3\)</entry>
-      <entry>\(27\)</entry>
-      <entry>\(3\)</entry>
-    </row>
-  </tbody>
-</table>
-
-<para><emphasis>Step 2</emphasis> - Write the function to represent the pattern.</para>
-<para>\(f(x)=3^x\)</para>
-<para><emphasis>Step 3</emphasis> - Determine what type of function this is.</para>
-<para>The function is exponential.</para>
-<title>Try It: Determining Growth Factors</title>
-<example><exercise>
-  <problem>
-    
-    <para>Is the pattern below represented by a function that is linear, exponential, or quadratic?</para>
-    
-    <para><figure><media alt="3 FIGURES, LABELED 1, 2, AND 3. FIGURE 1 IS A RECTANGLE WITH 3 ROWS AND 1 COLUMN. FIGURE 2 IS A RECTANGLE WITH 6 ROWS AND 2 COLUMNS. FIGURE 3 IS A RECTANGLE WITH 9 ROWS AND 3 COLUMNS."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/146c376867707d4761808cda3d33030485699442"/></media></figure></para>
-  
-  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Here is how to use the growth factor to determine if this pattern is represented by a linear, quadratic, or
+    <section>
+      <title>Determining Growth Factors</title>
+      <para>Is the pattern below represented by a function that is linear, exponential, or quadratic?</para>
+      <para>
+        <figure>
+          <media alt="DIAGRAM WITH 4 FIGURES, LABELED STEP 0 THROUGH STEP 3. STEP 0 HAS 1 SQUARE. STEP 1 HAS 3 SQUARES. STEP 2 HAS 9 SQUARES. STEP 3 HAS 27 SQUARES.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_05_01.jpg"/>
+          </media>
+        </figure>
+      </para>
+      <para><emphasis>Step 1</emphasis> - Draw a table. In the right column, determine the growth factor.</para>
+      <table class="os-raise-wideequaltable">
+        <thead>
+          <row>
+            <entry>
+              <emphasis>Step Number\(x\)</emphasis>
+            </entry>
+            <entry>
+              <emphasis>Number of Squares\(f(x)\)</emphasis>
+            </entry>
+            <entry>
+              <emphasis>Growth Factor</emphasis>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>\(0\)</entry>
+            <entry>\(1\)</entry>
+            <entry>\(3\)</entry>
+          </row>
+          <row>
+            <entry>\(1\)</entry>
+            <entry>\(3\)</entry>
+            <entry>\(3\)</entry>
+          </row>
+          <row>
+            <entry>\(2\)</entry>
+            <entry>\(9\)</entry>
+            <entry>\(3\)</entry>
+          </row>
+          <row>
+            <entry>\(3\)</entry>
+            <entry>\(27\)</entry>
+            <entry>\(3\)</entry>
+          </row>
+        </tbody>
+      </table>
+      <para><emphasis>Step 2</emphasis> - Write the function to represent the pattern.</para>
+      <para>\(f(x)=3^x\)</para>
+      <para><emphasis>Step 3</emphasis> - Determine what type of function this is.</para>
+      <para>The function is exponential.</para>
+      <title>Try It: Determining Growth Factors</title>
+      <example>
+        <exercise>
+          <problem>
+            <para>Is the pattern below represented by a function that is linear, exponential, or quadratic?</para>
+            <para>
+              <figure>
+                <media alt="3 FIGURES, LABELED 1, 2, AND 3. FIGURE 1 IS A RECTANGLE WITH 3 ROWS AND 1 COLUMN. FIGURE 2 IS A RECTANGLE WITH 6 ROWS AND 2 COLUMNS. FIGURE 3 IS A RECTANGLE WITH 9 ROWS AND 3 COLUMNS.">
+                  <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_05_02.jpg"/>
+                </media>
+              </figure>
+            </para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Here is how to use the growth factor to determine if this pattern is represented by a linear, quadratic, or
     exponential function:</para>
-  
-  <para><emphasis>Step 1</emphasis> - Create a table and determine the growth factor.</para>
-  
-  <table class="os-raise-wideequaltable">
-    <thead>
-      <row>
-       <entry><emphasis>Step Number\(x\)</emphasis></entry><entry><emphasis>Number of Squares\(f(x)\)</emphasis></entry><entry><emphasis>Growth Factor</emphasis></entry></row>
-    </thead>
-    <tbody>
-      <row>
-        <entry>\(0\)</entry>
-        <entry>\(0\)</entry>
-        <entry> </entry>
-      </row>
-      <row>
-        <entry>\(1\)</entry>
-        <entry>\(3\)</entry>
-        <entry> </entry>
-      </row>
-      <row>
-        <entry>\(2\)</entry>
-        <entry>\(12\)</entry>
-        <entry>\(4\)</entry>
-      </row>
-      <row>
-        <entry>\(3\)</entry>
-        <entry>\(27\)</entry>
-        <entry>\(2.25\)</entry>
-      </row>
-    </tbody>
-  </table>
-  
-  
-  
-  <para><emphasis>Step 2</emphasis> - Determine the function.</para>
-  
-  <para>\(f(x)=3x^2\)</para>
-  
-  <para><emphasis>Step 3</emphasis> - Determine what type of function this is.</para>
-  
-  <para>This is a quadratic function. The growth rate changes between each step.</para>
-
-</solution></exercise>
-</example></section>
-</content>
+            <para><emphasis>Step 1</emphasis> - Create a table and determine the growth factor.</para>
+            <table class="os-raise-wideequaltable">
+              <thead>
+                <row>
+                  <entry>
+                    <emphasis>Step Number\(x\)</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis>Number of Squares\(f(x)\)</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis>Growth Factor</emphasis>
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>\(0\)</entry>
+                  <entry>\(0\)</entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>\(1\)</entry>
+                  <entry>\(3\)</entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry>\(2\)</entry>
+                  <entry>\(12\)</entry>
+                  <entry>\(4\)</entry>
+                </row>
+                <row>
+                  <entry>\(3\)</entry>
+                  <entry>\(27\)</entry>
+                  <entry>\(2.25\)</entry>
+                </row>
+              </tbody>
+            </table>
+            <para><emphasis>Step 2</emphasis> - Determine the function.</para>
+            <para>\(f(x)=3x^2\)</para>
+            <para><emphasis>Step 3</emphasis> - Determine what type of function this is.</para>
+            <para>This is a quadratic function. The growth rate changes between each step.</para>
+          </solution>
+        </exercise>
+      </example>
+    </section>
+  </content>
 </document>

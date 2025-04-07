@@ -6,155 +6,180 @@
     <md:uuid>aa1f71ea-c727-498c-aecf-deb61c6f473e</md:uuid>
   </metadata>
   <content>
-  <section><title>Writing Expressions for Patterns</title>
-<para>Example 1</para>
-<para><figure><media alt="DIAGRAM WITH 3 FIGURES. STEP 1 IS SHAPED LIKE A PLUS SIGN, WITH 1 SQUARE IN THE MIDDLE AND 1 SQUARE ATTACHED TO EACH OF ITS SIDES. STEP 2 HAS A RECTANGLE WITH 2 ROWS AND 4 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE. STEP 3 HAS A RECTANGLE WITH 3 ROWS AND 5 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE.&#10;"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/0a1a836e44bf7cd832a0d520642fc03dad9e66c3"/></media></figure></para>
-<para>Find the number of squares in Step 5:</para>
-<para>First, look to see the pattern. Every step, another row and another column are added, plus the two extra squares.</para>
-<list>
-  <item> Step 1: 1 row of \(3 + 2\) </item>
-  <item> Step 2: 2 rows of \(4 +2\) </item>
-  <item> Step 3: 3 rows of \(5 + 2\) </item>
-</list>
-<para>So the width is always 1 by \(n\), or \(n\). The length is \(n+2\), and then another 2 is added.</para>
-<para>Then, draw pictures or create a table:</para>
-<table class="os-raise-midsizetable">
-  <thead>
-    <row>
-      <entry><emphasis>
+    <section>
+      <title>Writing Expressions for Patterns</title>
+      <para>Example 1</para>
+      <para>
+        <figure>
+          <media alt="DIAGRAM WITH 3 FIGURES. STEP 1 IS SHAPED LIKE A PLUS SIGN, WITH 1 SQUARE IN THE MIDDLE AND 1 SQUARE ATTACHED TO EACH OF ITS SIDES. STEP 2 HAS A RECTANGLE WITH 2 ROWS AND 4 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE. STEP 3 HAS A RECTANGLE WITH 3 ROWS AND 5 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE.&#10;">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_05_01.jpg"/>
+          </media>
+        </figure>
+      </para>
+      <para>Find the number of squares in Step 5:</para>
+      <para>First, look to see the pattern. Every step, another row and another column are added, plus the two extra squares.</para>
+      <list>
+        <item> Step 1: 1 row of \(3 + 2\) </item>
+        <item> Step 2: 2 rows of \(4 +2\) </item>
+        <item> Step 3: 3 rows of \(5 + 2\) </item>
+      </list>
+      <para>So the width is always 1 by \(n\), or \(n\). The length is \(n+2\), and then another 2 is added.</para>
+      <para>Then, draw pictures or create a table:</para>
+      <table class="os-raise-midsizetable">
+        <thead>
+          <row>
+            <entry>
+              <emphasis>
         Step
-      </emphasis></entry><entry><emphasis>
+      </emphasis>
+            </entry>
+            <entry>
+              <emphasis>
         # of squares
-      </emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
-      <entry>
-        <para>1
-      </para></entry>
-      <entry>
-        <para>5
-      </para></entry>
-    </row>
-    <row>
-      <entry>
-        <para>2
-      </para></entry>
-      <entry>
-        <para>10
-      </para></entry>
-    </row>
-    <row>
-      <entry>
-        <para>3
-      </para></entry>
-      <entry>
-        <para>17
-      </para></entry>
-    </row>
-    <row>
-      <entry>
-        <para>4
-      </para></entry>
-      <entry>
-        <para>26
-      </para></entry>
-    </row>
-    <row>
-      <entry>
-        <para>5
-      </para></entry>
-      <entry>
-        <para>37
-      </para></entry>
-    </row>
-  </tbody>
-</table>
-
-<para>At Step 5, there are 37 squares.</para>
-<para>Example 2</para>
-<para>Find the expression for Step \(n\).</para>
-<para>Multiply the length and width, and then add the 2 extra squares:</para>
-<para>\(n(n+2)+2 = n^2+2n+n\)</para>
-<title>Try It: Writing Expressions for Patterns</title>
-
-<example><exercise>
-  <problem>
-    
-    <para>Use the figure below to find the number of squares in Step 5 and then Step \(n\).</para>
-    
-    <para><figure><media alt="DIAGRAM WITH 3 FIGURES. STEP 1 HAS A RECTANGLE WITH 2 ROWS AND 3 COLUMNS. 2 SQUARES OF A THIRD ROW ARE ADDED. STEP 2 HAS A RECTANGLE WITH 3 ROWS AND 4 COLUMNS. 3 SQUARES OF A FOURTH ROW ARE ADDED. STEP 3 HAS A RECTANGLE WITH 4 ROWS AND 5 COLUMNS. 4 SQUARES OF A FIFTH ROW ARE ADDED.&#10;"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/1b6a05a9afdaeddde371b9f9242292998e4cc777"/></media></figure></para>
-  
-  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Here is how to determine the number of squares in each step:</para>
-  
-  <para>Notice that each figure adds a row and column, and then subtracts one square. The number of rows is always 2 more
+      </emphasis>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>
+              <para>1
+      </para>
+            </entry>
+            <entry>
+              <para>5
+      </para>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <para>2
+      </para>
+            </entry>
+            <entry>
+              <para>10
+      </para>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <para>3
+      </para>
+            </entry>
+            <entry>
+              <para>17
+      </para>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <para>4
+      </para>
+            </entry>
+            <entry>
+              <para>26
+      </para>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <para>5
+      </para>
+            </entry>
+            <entry>
+              <para>37
+      </para>
+            </entry>
+          </row>
+        </tbody>
+      </table>
+      <para>At Step 5, there are 37 squares.</para>
+      <para>Example 2</para>
+      <para>Find the expression for Step \(n\).</para>
+      <para>Multiply the length and width, and then add the 2 extra squares:</para>
+      <para>\(n(n+2)+2 = n^2+2n+n\)</para>
+      <title>Try It: Writing Expressions for Patterns</title>
+      <example>
+        <exercise>
+          <problem>
+            <para>Use the figure below to find the number of squares in Step 5 and then Step \(n\).</para>
+            <para>
+              <figure>
+                <media alt="DIAGRAM WITH 3 FIGURES. STEP 1 HAS A RECTANGLE WITH 2 ROWS AND 3 COLUMNS. 2 SQUARES OF A THIRD ROW ARE ADDED. STEP 2 HAS A RECTANGLE WITH 3 ROWS AND 4 COLUMNS. 3 SQUARES OF A FOURTH ROW ARE ADDED. STEP 3 HAS A RECTANGLE WITH 4 ROWS AND 5 COLUMNS. 4 SQUARES OF A FIFTH ROW ARE ADDED.&#10;">
+                  <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_05_02.jpg"/>
+                </media>
+              </figure>
+            </para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Here is how to determine the number of squares in each step:</para>
+            <para>Notice that each figure adds a row and column, and then subtracts one square. The number of rows is always 2 more
     than the step number.</para>
-  
-  <para>Begin by making a table:</para>
-  
-  <table class="os-raise-midsizetable">
-    <thead>
-      <row>
-        <entry><emphasis>
+            <para>Begin by making a table:</para>
+            <table class="os-raise-midsizetable">
+              <thead>
+                <row>
+                  <entry>
+                    <emphasis>
           Step
-        </emphasis></entry><entry><emphasis>
+        </emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis>
           # of squares
-        </emphasis></entry></row>
-    </thead>
-    <tbody>
-      <row>
-        <entry>
+        </emphasis>
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>
           1
         </entry>
-        <entry>
+                  <entry>
           8
         </entry>
-      </row>
-      <row>
-        <entry>
+                </row>
+                <row>
+                  <entry>
           2
         </entry>
-        <entry>
+                  <entry>
           15
         </entry>
-      </row>
-      <row>
-        <entry>
+                </row>
+                <row>
+                  <entry>
           3
         </entry>
-        <entry>
+                  <entry>
           24
         </entry>
-      </row>
-      <row>
-        <entry>
+                </row>
+                <row>
+                  <entry>
           4
         </entry>
-        <entry>
+                  <entry>
           35
         </entry>
-      </row>
-      <row>
-        <entry>
+                </row>
+                <row>
+                  <entry>
           5
         </entry>
-        <entry>
+                  <entry>
           48
         </entry>
-      </row>
-    </tbody>
-  </table>
-  
-  
-  
-  <para>There are 48 squares in Step 5.</para>
-  
-  <para>Step \(n\) would be found with \((n+2)(n+2)-1\) or \((n+2)^2-1\).</para>
-
-</solution></exercise>
-</example></section>
-</content>
+                </row>
+              </tbody>
+            </table>
+            <para>There are 48 squares in Step 5.</para>
+            <para>Step \(n\) would be found with \((n+2)(n+2)-1\) or \((n+2)^2-1\).</para>
+          </solution>
+        </exercise>
+      </example>
+    </section>
+  </content>
 </document>

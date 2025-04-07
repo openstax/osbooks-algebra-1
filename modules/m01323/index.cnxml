@@ -6,180 +6,163 @@
     <md:uuid>35e6fa84-8ca9-428d-8036-abc0c10f6d84</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity </title>
-<para>To control an algae bloom in a lake, scientists introduce some treatment products.</para>
-<para>Once the treatment begins, the area covered by algae in square yards, \(A\), is given by the equation \(A=240 \cdot
+    <section>
+      <title>Activity </title>
+      <para>To control an algae bloom in a lake, scientists introduce some treatment products.</para>
+      <para>Once the treatment begins, the area covered by algae in square yards, \(A\), is given by the equation \(A=240 \cdot
   (\frac{1}{3})^t\). Time, \(t\), is measured in weeks.</para>
-<para><figure><media alt="Lake with algae growth."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/5f0845c61207866bc07022d4a77fac2058c8a12b"/></media></figure></para>
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para> In the equation, what does 240 tell us about the algae? </para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para> The algae initially covers 240 square yards. </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para> What does the \(\frac13\) tell us? </para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para> Every week, the area covered is \(\frac13\) of the area covered the previous week. </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-
-
-<!--BEGIN ADD DESMOS INTERATIVE-->
-<!--START QUESTION #3 -->
-<example><exercise>
-  <problem>
-    
-    <!-- INSERT ANY VALID HTML HERE -->
-    <!--CHANGE THE TEXT BEFORE Use the graphing tool or technology outside the course. TO FIT THE PROBLEM-->
-      <para>Create a graph to represent \(A=240 \cdot
+      <para>
+        <figure>
+          <media alt="Lake with algae growth.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_06_01.jpg"/>
+          </media>
+        </figure>
+      </para>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para> In the equation, what does 240 tell us about the algae? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para> The algae initially covers 240 square yards. </para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para> What does the \(\frac13\) tell us? </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para> Every week, the area covered is \(\frac13\) of the area covered the previous week. </para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--BEGIN ADD DESMOS INTERATIVE-->
+      <!--START QUESTION #3 -->
+      <example>
+        <exercise>
+          <problem>
+            <!-- INSERT ANY VALID HTML HERE -->
+            <!--CHANGE THE TEXT BEFORE Use the graphing tool or technology outside the course. TO FIT THE PROBLEM-->
+            <para>Create a graph to represent \(A=240 \cdot
         (\frac{1}{3})^t\) when \(t\) is 0, 1, 2, 3, and 4. Think carefully about how you choose the scale for the axes.
-        If you get stuck, consider creating a table of values.  Use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool below. </para> 
-    <!-- INSERT ANY VALID HTML HERE -->
-      
-      <para>After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-    <para>Compare your answer:</para>
-
-
-
-
-
-<div class="os-raise-d-flex os-raise-justify-content-between">
-    <div class="os-raise-mx-auto">
-      <figure><media alt="A discrete graph. Area, square yards. Time, weeks."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/34afa39cfe03566919650900897335b6f2796bc3"/></media></figure></div>
-
-</div>
-
-
-     
-     <table class="os-raise-midsizetable">
-        <thead>
-          <row>
-            <entry><emphasis>\(t\) (Weeks)</emphasis></entry><entry><emphasis>\(A\) (Square Yards)</emphasis></entry></row>
-        </thead>
-        <tbody>
-          <row>
-            <entry>
+        If you get stuck, consider creating a table of values.  Use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool below. </para>
+            <!-- INSERT ANY VALID HTML HERE -->
+            <para>After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <div class="os-raise-d-flex os-raise-justify-content-between">
+              <div class="os-raise-mx-auto">
+                <figure>
+                  <media alt="A discrete graph. Area, square yards. Time, weeks.">
+                    <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_07_06_02.svg"/>
+                  </media>
+                </figure>
+              </div>
+            </div>
+            <table class="os-raise-midsizetable">
+              <thead>
+                <row>
+                  <entry>
+                    <emphasis>\(t\) (Weeks)</emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis>\(A\) (Square Yards)</emphasis>
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>
              0
             </entry>
-            <entry>
+                  <entry>
               240
             </entry>
-          </row>
-          <row>
-            <entry>
+                </row>
+                <row>
+                  <entry>
               1
             </entry>
-            <entry>
+                  <entry>
               80
             </entry>
-          </row>
-          <row>
-            <entry>
+                </row>
+                <row>
+                  <entry>
               2
             </entry>
-            <entry>
+                  <entry>
               27 (rounded)
             </entry>
-          </row>
-          <row>
-            <entry>
+                </row>
+                <row>
+                  <entry>
               3
             </entry>
-            <entry>
+                  <entry>
               9
             </entry>
-          </row>
-          <row>
-            <entry>
+                </row>
+                <row>
+                  <entry>
               4
             </entry>
-            <entry>
+                  <entry>
               3
             </entry>
-          </row>
-        </tbody>
-      </table>
-
-</solution></exercise>  
-</example><div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
-<!--END ADD DESMOS INTERATIVE-->
-
-
-
-
-
-
-
-
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para> Approximately how many square yards will the algae cover after 2.5 weeks? Be prepared to show your reasoning.
+                </row>
+              </tbody>
+            </table>
+          </solution>
+        </exercise>
+      </example>
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
+      <!--END ADD DESMOS INTERATIVE-->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para> Approximately how many square yards will the algae cover after 2.5 weeks? Be prepared to show your reasoning.
       </para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Your answers may vary, but here is an example: </para>
-    
-    <para>The algae will cover fewer than 27 square yards and more than 9 square yards because the area covered by the
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Your answers may vary, but here is an example: </para>
+          <para>The algae will cover fewer than 27 square yards and more than 9 square yards because the area covered by the
       algae is decreasing. A number between 15 and 20 would be a good guess. </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-
-<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<example><exercise>
-  <problem>
-    
-    <!-- INSERT ANY VALID HTML HERE -->
-  
-  <!-- INSERT ANY VALID HTML HERE -->
-  
-  </problem></exercise>
-</example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<exercise data-wait-for-event="RFM1">
-  <problem>
-    <title>Extending Your Thinking </title>
-    
-    <para>The scientists estimate that to keep the algae bloom from spreading after the treatment concludes, they will need
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+      <example>
+        <exercise>
+          <problem>
+            <!-- INSERT ANY VALID HTML HERE -->
+            <!-- INSERT ANY VALID HTML HERE -->
+          </problem>
+        </exercise>
+      </example>
+      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+      <exercise data-wait-for-event="RFM1">
+        <problem>
+          <title>Extending Your Thinking </title>
+          <para>The scientists estimate that to keep the algae bloom from spreading after the treatment concludes, they will need
       to get the area covered under one square foot. How many weeks should they run the treatment to achieve this?</para>
-  
-  </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>7 weeks. There are 9 square feet in every square yard, so 1 square foot is \(\frac19\) square yard (or about
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>7 weeks. There are 9 square feet in every square yard, so 1 square foot is \(\frac19\) square yard (or about
       0.111 square yard). At 7 weeks is the first time the area covered by algae is less than \(\frac19\) because \(240
       \cdot (\frac{1}{3})^6 \approx 0.329\), and \(240 \cdot (\frac{1}{3})^7 \approx 0.110\).</para>
-  
-  </solution></exercise></section>
-</content>
+        </solution>
+      </exercise>
+    </section>
+  </content>
 </document>

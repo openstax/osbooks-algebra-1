@@ -6,54 +6,59 @@
     <md:uuid>7d020aec-5aad-4812-b379-db10735021c8</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity </title>
-<para><figure><media alt="Three steps of a growing pattern."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/2a95931564a96ba5cd2a65a932063cc068cd6ce0"/></media></figure></para>
-
-<exercise>
-  <problem>
-    <para> Sketch the next step in the pattern. Explain what you sketched. </para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>Step 4 is a 4-by-6 rectangle.</para>
-  
-  </solution></exercise>
-
-
-<exercise>
-  <problem>
-    <para> Kiran says that the pattern is growing linearly because as the step number goes up by 1, the number of rows and the number of columns also increase by 1. Do you agree? Be prepared to show your reasoning. </para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>Kiran is correct that the number of rows and the number of columns each grow by 1, but the total number of squares does not increase by the same amount from step to step. So, the total number of squares does not grow linearly.</para>
-  
-  </solution></exercise>
-
-
-<example><exercise>
-  <problem>
-    
-    <para> To represent the number of squares after \(n\) steps, Diego and Jada wrote different equations. Diego wrote the equation \(f(n)=n(n+2)\). Jada wrote the equation \(f(n)=n^2+2n\). Is either Diego or Jada correct? Be prepared to show your reasoning. </para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>Diego’s expression \(n(n+2)\) is correct because there are \(n\) columns and \(n+2\) rows of small squares in Step \(n\). Jada’s expression is also correct because the \(n(n+2)\) array of small squares can be divided into an \(n\)-by-\(n\) square (having \(n^2\) small squares) and an \(n\)-by-2 rectangle (having \(2n\) small squares).</para>
-  
-  <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/9776a847dcb46065c0397d122cda9d25d29ec0b3"/></media></figure></para>
-
-</solution></exercise>
-</example>
-<title>Video: Quadratic Sequences</title>
-<para>Watch the following video to learn more about quadratic sequences.</para>
-<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/66bb3acd4e854e909605679f84a3a85434ae661f"/></media></section>
-</content>
+    <section>
+      <title>Activity </title>
+      <para>
+        <figure>
+          <media alt="Three steps of a growing pattern.">
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_05_06_01.svg"/>
+          </media>
+        </figure>
+      </para>
+      <exercise>
+        <problem>
+          <para> Sketch the next step in the pattern. Explain what you sketched. </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>Step 4 is a 4-by-6 rectangle.</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para> Kiran says that the pattern is growing linearly because as the step number goes up by 1, the number of rows and the number of columns also increase by 1. Do you agree? Be prepared to show your reasoning. </para>
+        </problem>
+        <solution>
+          <para>Enter your answer here:</para>
+          <para>Compare your answer:</para>
+          <para>Kiran is correct that the number of rows and the number of columns each grow by 1, but the total number of squares does not increase by the same amount from step to step. So, the total number of squares does not grow linearly.</para>
+        </solution>
+      </exercise>
+      <example>
+        <exercise>
+          <problem>
+            <para> To represent the number of squares after \(n\) steps, Diego and Jada wrote different equations. Diego wrote the equation \(f(n)=n(n+2)\). Jada wrote the equation \(f(n)=n^2+2n\). Is either Diego or Jada correct? Be prepared to show your reasoning. </para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>Diego’s expression \(n(n+2)\) is correct because there are \(n\) columns and \(n+2\) rows of small squares in Step \(n\). Jada’s expression is also correct because the \(n(n+2)\) array of small squares can be divided into an \(n\)-by-\(n\) square (having \(n^2\) small squares) and an \(n\)-by-2 rectangle (having \(2n\) small squares).</para>
+            <para>
+              <figure>
+                <media alt="Insert Alt Text">
+                  <image mime-type="image/jpeg" src="../../media/Algebra-1_08_05_06_02.jpg"/>
+                </media>
+              </figure>
+            </para>
+          </solution>
+        </exercise>
+      </example>
+      <title>Video: Quadratic Sequences</title>
+      <para>Watch the following video to learn more about quadratic sequences.</para>
+      <media alt="Placeholder for Alt Text">
+        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/66bb3acd4e854e909605679f84a3a85434ae661f"/>
+      </media>
+    </section>
+  </content>
 </document>
