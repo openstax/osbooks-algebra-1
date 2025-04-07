@@ -125,7 +125,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking</title>
           <para>Here is a different type of inequality: \(x^2\leq4\).</para>
@@ -138,7 +138,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Describe all solutions to this inequality. (If you like, you can graph the solutions on a number line.)</para>
         </problem>
@@ -149,7 +149,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Describe all solutions to the inequality \(x^2\geq9\). Test several numbers to make sure your answer is correct.</para>
         </problem>

@@ -12,7 +12,7 @@
       <para>Work with your group to plan what to order and to estimate what the party would cost.</para>
       <figure>
         <media alt="Supreme pizza.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_01_03_03_01.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_01_03_03_01.jpg" />
         </media>
       </figure>
       <!--Q#1-->
@@ -33,7 +33,8 @@
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#2-->
       <exercise>
         <problem>
@@ -45,7 +46,8 @@
           <para>Your answer may vary.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#3-->
       <exercise>
         <problem>
@@ -64,10 +66,13 @@
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <para>For 4 - 9, use the following group instructions. </para>
       <para>
-        <quote>Work with a group to research the cost of ordering pizza from a local restaurant. Then, determine what to order for the class pizza party and determine how much it would cost. Answer the following questions regarding your group's plan.</quote>
+        <quote>Work with a group to research the cost of ordering pizza from a local restaurant.
+        Then, determine what to order for the class pizza party and determine how much it would
+        cost. Answer the following questions regarding your group's plan.</quote>
       </para>
       <!--Q#4-->
       <exercise>
@@ -80,11 +85,13 @@
           <para>Your answer may vary. </para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#5-->
       <exercise>
         <problem>
-          <para>Write down one <term class="glossary-tooltip">expression</term> that show how your group’s cost estimate was calculated. </para>
+          <para>Write down one <term class="glossary-tooltip">expression</term> that show how your
+            group’s cost estimate was calculated. </para>
         </problem>
         <solution>
           <para>Enter your answer here:</para>
@@ -93,7 +100,8 @@
           <para>\(10 x (3(1.50) + 21.99) + 2.50\)</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#6-->
       <exercise>
         <problem>
@@ -110,7 +118,8 @@
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#7-->
       <exercise>
         <problem>
@@ -123,7 +132,8 @@
           <para>\((1.50t + 21.99)p + d\)</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#8-->
       <exercise>
         <problem>
@@ -140,7 +150,8 @@
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#9-->
       <exercise>
         <problem>
@@ -150,27 +161,24 @@
           <para>Enter your answer here:</para>
           <para>Compare your answer:</para>
           <para>Your answer may vary, but here is an example. </para>
-          <para>Ordering 10 extra large pizzas is cheaper than ordering 30 small pizzas. If three people share a pizza, they can have up to three toppings or they can each get their favorite topping on their portion of the pizza. And, if someone wants more pizza, then two people can share one pizza instead of three people. </para>
+          <para>Ordering 10 extra large pizzas is cheaper than ordering 30 small pizzas. If three
+            people share a pizza, they can have up to three toppings or they can each get their
+            favorite topping on their portion of the pizza. And, if someone wants more pizza, then
+            two people can share one pizza instead of three people. </para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      <example>
-        <exercise>
-          <problem>
-            <!-- INSERT ANY VALID HTML HERE -->
-            <!-- INSERT ANY VALID HTML HERE -->
-          </problem>
-        </exercise>
-      </example>
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
-        <problem>
-          <title>Extending Your Thinking</title>
-          <para>A local pizzeria sells gourmet pizzas for the prices posted below. Remember the sizes are determined by the diameter of each pizza. Compare the cost per square inch of the sizes. </para>
-          <table class="os-raise-horizontaltable">
-            <thead>
-      </thead>
+      </section>
+      <!--Interaction
+      End -->
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+      will need to change the Data-fire/data-wait-for-events for each set.-->
+      <section>
+      <title>Extending Your Thinking</title>
+          <para>A local pizzeria sells gourmet pizzas for the prices posted below. Remember the
+            sizes are determined by the diameter of each pizza. Compare the cost per square inch of
+            the sizes. </para>
+            <table class="os-raise-horizontaltable">
+            <tgroup cols="5">
             <tbody>
               <row>
                 <entry>
@@ -191,19 +199,29 @@
                 <entry>$21.99</entry>
               </row>
             </tbody>
+            </tgroup>
           </table>
+      
+      <!--Start
+      interaction.  If multiple interactions appear under "are you ready for more?, they should all
+      have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+      button. Note in this sample, they are all RFM1-->
+      <exercise class="RFM1">
+        <problem>
           <para>How did you determine the cost per square inch of each pizza? </para>
         </problem>
         <solution>
           <para>Enter your answer here:</para>
           <para>Compare your answer:</para>
           <para>First, determine the total area of the pizza using the area formula for a circle,
-      \(\mathrm{πr}^2\). Then, divide the cost of the pizza by the area measurement. The expression could be \(\frac{c}{\mathrm{πr}^2}\), if \(c=\mathrm{cost}\). </para>
+            \(\mathrm{πr}^2\). Then, divide the cost of the pizza by the area measurement. The
+            expression could be \(\frac{c}{\mathrm{πr}^2}\), if \(c=\mathrm{cost}\). </para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
       <!--Q#2-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Which size pizza is the better deal? </para>
         </problem>
@@ -213,9 +231,10 @@
           <para>Xlarge</para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
       <!--Q#3-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Which size pizza is the most expensive per square inch? </para>
         </problem>
@@ -225,11 +244,13 @@
           <para>small</para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
       <!--Q#4-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
-          <para>What is the difference in price per square inch between the most and least expensive sizes? </para>
+          <para>What is the difference in price per square inch between the most and least expensive
+            sizes? </para>
         </problem>
         <solution>
           <para>Enter your answer here:</para>
@@ -237,7 +258,9 @@
           <para>.06</para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
+            
     </section>
   </content>
 </document>

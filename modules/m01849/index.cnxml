@@ -385,7 +385,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking </title>
           <para>The function that uses the price (in dollars per download) \(x\) to determine the number of downloads (in thousands) \(18-x\) is an example of a demand function, and its graph is known. Economists are interested in factors that can affect the demand function and therefore the price suppliers wish to set.</para>
@@ -397,7 +397,7 @@
           <para>The quality of the movies could improve. The number of people who like watching movies could increase. The price of watching a movie in a theater could go up.</para>
         </solution>
       </exercise>
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>If the demand shifted so that we predicted \(20-x\) thousand downloads at a price of \(x\) dollars per download, what do you think would happen to the price that gives the maximum revenue? Check what actually happens.</para>
         </problem>

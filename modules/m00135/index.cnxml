@@ -137,7 +137,7 @@
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       <!--Q1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking</title>
           <para>
@@ -155,7 +155,7 @@
       </exercise>
       <!--End interaction-->
       <!--Q2-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Write an equation that represents the relationship between the gallons of water in the tank and seconds the
         tank
@@ -169,8 +169,8 @@
       </exercise>
       <!--End interaction-->
       <!--Q3 new-->
-      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0" data-wait-for-event="RFM1"/>
-      <exercise data-wait-for-event="RFM1">
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0" class="RFM1"/>
+      <exercise class="RFM1">
         <problem>
           <para>Graph each of your new equations.Use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool above. </para>
         </problem>
@@ -186,7 +186,7 @@
       </exercise>
       <!--End interaction-->
       <!--Q4-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>In what way are all of the graphs the same? In what way are they all different? Write down your answer. </para>
         </problem>
@@ -206,7 +206,7 @@
       </exercise>
       <!--End interaction-->
       <!--Q5-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>How would these graphs change if we used quarts of water instead of gallons? What would stay the same?</para>
         </problem>

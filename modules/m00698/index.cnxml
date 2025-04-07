@@ -143,7 +143,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking</title>
           <para>Clare, Diego, and Elena collect data on the mass and fuel economy of cars at different dealerships. </para>
@@ -208,7 +208,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Diego looks at the data for new cars and used cars. He claims that the fuel economy of new cars decreases as the mass increases. He also claims that the fuel economy of used cars increases as the mass increases. Do you agree with Diego’s claims? Be prepared to show your reasoning.</para>
         </problem>
@@ -219,7 +219,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Elena looks at the data for hybrid cars and correctly claims that the fuel economy decreases as the mass increases. How could Elena compare the decrease in fuel economy as mass increases for hybrid cars to the decrease in fuel economy as mass increases for new cars? Be prepared to show your reasoning.</para>
         </problem>

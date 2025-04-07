@@ -127,7 +127,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking</title>
           <para>Image 1</para>
@@ -155,7 +155,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>What does this tell you about an equivalent expression for \(x^2+5x+6\)?</para>
         </problem>
@@ -166,7 +166,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Is there a different non-zero number of 1-by-1 squares that we could use instead that would allow us to arrange the combined figures into a single large rectangle?</para>
         </problem>

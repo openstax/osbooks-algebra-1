@@ -102,7 +102,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking</title>
           <para>Here is a diagram made of a square and two congruent rectangles. Its total area is \(x^2+35x\) square units.</para>
@@ -123,7 +123,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>In Diagram B, we add lines to make the figure a square. The area of the square becomes a quadratic equation.</para>
           <para>
@@ -143,7 +143,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Using the standard form \(ax^2+bx+c\) to represent the area of the square in Diagram B, what is the value of the constant \(c\)?  </para>
         </problem>
@@ -154,7 +154,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>How is the process of finding the area of the entire figure like the process of building perfect squares for expressions like \(x^2+bx\)?</para>
         </problem>

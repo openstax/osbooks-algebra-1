@@ -195,7 +195,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking</title>
           <para>Han wrote \(n(n+2)-2(n-1)\) for the number of small squares in the design at Step \(n\) in the pattern at the
@@ -210,7 +210,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>On your own, draw and label what Step 3 would look like when Han was writing his expression.</para>
         </problem>

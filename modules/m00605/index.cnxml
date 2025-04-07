@@ -428,7 +428,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking</title>
           <para>This activity will require a partner and either graph paper or Desmos.</para>
@@ -442,7 +442,7 @@
       </exercise>
       <!--End interaction-->
       <!--Q#2-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Still without letting your partner see it, rewrite your equation as an inequality. That is, write an inequality for which your equation is the related equation. In other words, your line should be the boundary between the solution region and non-solution region. Shade the solutions on your graph.</para>
         </problem>
@@ -454,7 +454,7 @@
       </exercise>
       <!--End interaction-->
       <!--Q#3-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Take turns stating coordinates of points. Your partner will tell you whether your guess is a solution to their inequality. After each partner has stated a point, each may guess what the other's inequality is. If neither guesses correctly, play continues. Use another coordinate system to keep track of your guesses.</para>
           <para>What was your process for determining your partner’s inequality? </para>

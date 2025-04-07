@@ -155,8 +155,8 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0" data-wait-for-event="RFM1"/>
-      <exercise data-wait-for-event="RFM1">
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0" class="RFM1"/>
+      <exercise class="RFM1">
         <problem>
           <para>How do the equations \(y=(x−3)(x−5)\) and \(y=-1\) help solve the equation \((x−3)(x−5)=-1\)?</para>
         </problem>
@@ -175,13 +175,13 @@
       </exercise>
       <!--End interaction-->
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="RFM1">
+      <div class="os-raise-ib-content" data-schema-version="1.0" class="RFM1">
         <list class="os-raise-noindent" start="2" type="enumerated">
           <item>Graph \(y=(x−3)(x−5)\) and \(y=0\) on the same coordinate plane.</item>
         </list>
       </div>
-      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0" data-wait-for-event="RFM1"/>
-      <exercise data-wait-for-event="RFM1">
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0" class="RFM1"/>
+      <exercise class="RFM1">
         <problem>
           <para>How do the equations \(y=(x−3)(x−5)\) and \(y=0\) help solve the equation \((x−3)(x−5)=0\)?</para>
         </problem>
@@ -200,13 +200,13 @@
       </exercise>
       <!--End interaction-->
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <div class="os-raise-ib-content" data-schema-version="1.0" data-wait-for-event="RFM1">
+      <div class="os-raise-ib-content" data-schema-version="1.0" class="RFM1">
         <list class="os-raise-noindent" start="3" type="enumerated">
           <item>Graph \(y = (x−3)(x−5)\) and \(y=3\) on the same coordinate plane.</item>
         </list>
       </div>
-      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0" data-wait-for-event="RFM1"/>
-      <exercise data-wait-for-event="RFM1">
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0" class="RFM1"/>
+      <exercise class="RFM1">
         <problem>
           <para>How do the equations \(y = (x−3)(x−5)\) and \(y=3\) help solve the equation \((x−3)(x−5)=3\)?</para>
         </problem>
@@ -225,7 +225,7 @@
       </exercise>
       <!--End interaction-->
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Use the graphs you created in questions 1 – 3 to help you find a few other equations of the form \((x−3)(x−5)=z\) that have whole-number solutions.</para>
         </problem>
@@ -238,7 +238,7 @@
       </exercise>
       <!--End interaction-->
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Some of the values of \(z\) that you might have found are –1, 0, 3, 8, 15, 24, etc. Find a pattern in the values of \(z\) that give whole-number solutions.</para>
         </problem>
@@ -251,7 +251,7 @@
       </exercise>
       <!--End interaction-->
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Without solving, determine if \((x−5)(x−3)=120\) and \((x−5)(x−3)=399\) have whole-number solutions. Be prepared to show your reasoning.</para>
         </problem>

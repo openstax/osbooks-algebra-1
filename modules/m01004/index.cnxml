@@ -153,7 +153,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking </title>
           <para>Suppose an ant is moving at a rate of 1 millimeter per second and keeps going at that rate for a long time.
@@ -167,10 +167,10 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <div class="os-raise-ib-desmos-gc" data-height="500" data-schema-version="1.0" data-wait-for-event="RFM1" data-width="600">
+      <div class="os-raise-ib-desmos-gc" data-height="500" data-schema-version="1.0" class="RFM1" data-width="600">
 </div>
       <example>
-        <exercise data-wait-for-event="RFM1">
+        <exercise class="RFM1">
           <problem>
             <para>When you have finished graphing, then select the <emphasis>Solution</emphasis> button to compare your work.
     </para>
@@ -186,7 +186,7 @@
       </example>
       <!--End interaction-->
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Does the graph look like that of a function? Why do you think it looks this way?</para>
         </problem>
@@ -197,7 +197,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Using graphing technology, adjust the graphing window until the graph no longer looks this way. If you manage to do so, describe the graphing window that you use. </para>
         </problem>
@@ -208,7 +208,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para> Do you think the last graph in the flag activity, Graph F, could represent a function relating time and height of a flag? Explain your reasoning. </para>
           <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>

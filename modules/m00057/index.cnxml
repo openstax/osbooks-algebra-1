@@ -8,8 +8,8 @@
   <content>
     <section>
       <title>Inequalities</title>
-      <para>One way to represent a <term class="glossary-tooltip">constraint</term> is to use an inequality symbol. For example, you may decide that at most 3 toppings should be on each pizza. This could be represented by t &lt; 3, if \(t\) represents the number of toppings. 
-  On the number line, the numbers get larger as they go from left to right. The number line can be used to explain the symbols “\( &lt; \)” and “\( &gt; \).”</para>
+      <para>One way to represent a <term class="glossary-tooltip">constraint</term> is to use an inequality symbol. For example, you may decide that at most 3 toppings should be on each pizza. This could be represented by t &lt; 3, if \(t\) represents the number of toppings.</para>
+  <para>On the number line, the numbers get larger as they go from left to right. The number line can be used to explain the symbols “\( &lt; \)” and “\( &gt; \).”</para>
       <para>\( a &lt; b \) is read “\( a \) is less than \( b \).”  \( a \) is to the left of \( b \) on the number line. <figure><media alt="No Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_01_03_08_01.jpg"/></media></figure></para>
       <para> \( a &gt; b \) is read “\( a \) is greater than \( b \).”  \( a \) is to the right of \( b \) on the number line.<figure><media alt="No Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_01_03_08_02.jpg"/></media></figure></para>
       <para> The expressions \( a &lt; b \) or \( a &gt; b \) can be read from left to right or right to left, though in English we usually read from left to right. </para>
@@ -21,6 +21,7 @@
   </item>
       </list>
       <table class="os-raise-midsizetable">
+        <tgroup cols="2">
         <thead>
           <row>
             <entry>
@@ -53,7 +54,9 @@
             <entry>\(a\) is greater than or equal to \(b\)</entry>
           </row>
         </tbody>
+        </tgroup>
       </table>
+
       <para>Let’s look at some specific examples:</para>
       <!--Q#1-->
       <exercise>
@@ -91,8 +94,8 @@
           <para><emphasis>y</emphasis> plus 7 is less than 19</para>
         </solution>
       </exercise>
-      <div class="be-prepared" data-type="note" id="fs-id1170654939047">
-</div>
+     
+     <note class="try">
       <title>Try It: Inequalities</title>
       <para>Translate the following statements into English phrases.</para>
       <!--Q#1-->
@@ -131,6 +134,7 @@
           <para>x minus 7 is less than 1</para>
         </solution>
       </exercise>
+      </note>
     </section>
   </content>
 </document>

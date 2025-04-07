@@ -135,7 +135,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking</title>
           <para>When given data, it is not always clear how to best model it. In this case, we were told the value of the cell phones was changing exponentially. Suppose, however, we were instead just given the initial values of the cell phones when released and the values after each of the first three years.</para>
@@ -150,7 +150,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Enter your answer for Phone B.</para>
         </problem>
@@ -162,7 +162,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>Explain why, in this situation, an exponential model might be more appropriate than the linear model you just created. </para>
         </problem>

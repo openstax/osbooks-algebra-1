@@ -335,7 +335,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking</title>
           <para>Mai wonders what would happen if we multiply equations. That is, we multiply the expressions on the left side of the two equations and set them equal to the expressions on the right side of the two equations.</para>
@@ -352,7 +352,7 @@
       </exercise>
       <!--End interaction-->
       <!--Q#2-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para> Does your original solution still work in this new equation? </para>
         </problem>
@@ -364,8 +364,8 @@
       </exercise>
       <!--End interaction-->
       <!--Q#3-->
-      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0" data-wait-for-event="RFM1"/>
-      <exercise data-wait-for-event="RFM1">
+      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0" class="RFM1"/>
+      <exercise class="RFM1">
         <problem/>
         <solution>
           <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
@@ -381,7 +381,7 @@
       </exercise>
       <!--End interaction-->
       <!--Q#4-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para> Explain if the approach of graphing the new equation is or is not particularly helpful. </para>
         </problem>

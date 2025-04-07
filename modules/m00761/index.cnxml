@@ -130,7 +130,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <title>Making a Real-World Connection</title>
           <para>Jada wants to know if the speed that people walk is correlated with their texting speed. To investigate this, she measured the distance, in feet, that 5 of her friends walked in 30 seconds and the number of characters they texted during that time. Each of the 5 friends took 4 walks for a total of 20 walks. Here are the results of the first 20 walks.</para>
@@ -477,7 +477,7 @@
           <para>I noticed that in the second scatter plot, the students traveled longer distances. In addition, the students seemed to type more characters for any given distance in the second scatter plot than in the first scatter plot.</para>
         </solution>
       </exercise>
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>2. Jada noticed that her friends walked farther and texted faster during the last 20 walks than they did during the first 20 walks. Since both were faster, she predicts that the correlation coefficient of the line of best fit for the last 20 walks will be closer to –1 than the correlation coefficient of the line of best fit for the first 20 walks. Do you agree with Jada? Be prepared to show your reasoning.</para>
         </problem>
@@ -487,7 +487,7 @@
           <para>I do not agree with Jada. The correlation coefficient deals with the strength and direction of a linear relationship. The comparison bewteen walking distrance and the number of characters texted relates to the slope of the line, because it compares rates of number of characters texted over the distanced walked.</para>
         </solution>
       </exercise>
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>3. Use technology to find an equation of the line of best fit for each data set.
     </para>
@@ -499,7 +499,7 @@
           <para>The line of best fit for scatter plot 1 is \(y=-0.8547x +218.6053\). The line of best fit for scatter plot 2 is \(y=-0.4658x +222.1704\). </para>
         </solution>
       </exercise>
-      <exercise data-wait-for-event="RFM1">
+      <exercise class="RFM1">
         <problem>
           <para>4. The correlation coefficient for the first line of best fit is \(-0.95\) and the second line of best fit is \(-0.68\). Was your answer to question 2 correct? Why do you think the correlation coefficients for the two data sets are so different? Be prepared to show your reasoning.</para>
         </problem>
