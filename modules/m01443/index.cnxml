@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01443</md:content-id>
     <md:title>5.11.2: Choosing an Appropriate Model</md:title>
-    <md:uuid>6bb4e4ce-a7e9-403d-bd20-2f85a4f7d796</md:uuid>
+    <md:uuid>3f5042f0-076f-41da-8e65-fa0c0a678d6b</md:uuid>
   </metadata>
   <content>
   <section><title>Activity </title>
@@ -65,14 +65,19 @@
         \(n\) bounces: A linear function or an exponential function? Use data from the table to support your answer.
       </para>
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Compare your answer:</para>
+  
   <para> Exponential. Sample explanations: </para>
+  
   <para> Plotting the points in the plane, they are not close to being on a line. 
     <figure><media alt="5 points on coordinate plane, showing exponential decay. Horizontal axis from 0 to 8, labeled number of bounces. Vertical axis from 0 to 200, labeled height in centimeters."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/caa34501e57f862e3b64a5b85eb14c0c06036869"/></media></figure></para>
+  
   <para>A linear function of the bounce height would decrease by the same amount for each successive bounce. The
     differences in heights between successive bounces are not close to being the same, as shown in the table. They are
     decreasing with each bounce, so the function is not linear. </para>
+  
   <table class="os-raise-midsizetable">
     <thead>
       <row>
@@ -122,9 +127,12 @@
     </tbody>
   </table>
   
+  
+  
   <para>An exponential function of the bounce height would decrease by the same factor for each successive bounce. It looks
     like each successive bounce is about half as high as the previous bounce, making an exponential model appropriate.
   </para>
+
 </solution></exercise>
 </example>
 <example><exercise>
@@ -134,8 +142,10 @@
         height from which it is dropped. Does the tennis ball here meet this requirement? Be prepared to show your
         reasoning. </para>
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Compare your answer:</para>
+  
   <list>
     <item>Yes. The first rebound is a little over 53%, the second is almost 54%, and the fourth is 55%. The third rebound
       is only about 47%, but there could be some measurement error. </item>
@@ -144,6 +154,7 @@
     <item> It is not possible to tell. One of the values is too low, and the others are close enough to 53% that it is
       impossible to be sure whether the bounces of this ball fall within the regulations. </item>
   </list>
+
 </solution></exercise>
 </example>
 <example><exercise>
@@ -151,10 +162,13 @@
     
     <para> Write an equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball. </para>
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Compare your answer:</para>
+  
   <para>\(
     h=150 \cdot (0.53)^n\) (A factor of exactly 0.5 is also acceptable, or any value between 0.53 and 0.58.) </para>
+
 </solution></exercise>
 </example>
 <example><exercise>
@@ -163,15 +177,20 @@
     <para> About how many bounces will it take before the rebound height of the tennis ball is less than 1 centimeter?
         Be prepared to show your reasoning.</para>
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Compare your answer:</para>
+  
   <para> 8 bounces. For example: </para>
+  
   <para> The height of the ball is decreasing by a factor of about \(\frac12\) after each bounce. So after 3 more bounces,
     it will decrease by a factor of about \(\frac18\) (giving a little more than 1 cm), but after 4 more bounces, it
     will decrease by a factor of about \(\frac{1}{16}\). </para>
+  
   <para> Graphing \(
     h=150 \cdot (0.53)^n\) and \(h=1\) simultaneously using graphing technology shows the bounce height first goes below
     \(h=1\) on the 8th bounce. </para>
+
 </solution></exercise>
 </example>
 <!--BEGIN ADD DESMOS INTERATIVE-->
@@ -180,13 +199,19 @@
   <problem>
     
     <!-- INSERT ANY VALID HTML HERE -->
+    
     <para>Graph the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball using the Desmos tool below. </para>
     <para>After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Compare your answer:</para>
+  
   <para> <figure><media alt="Graph the equation that models the bounce height h after n bounces for a tennis ball  "><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/4ad91a245d0ae1ab03f0910ecd75c638156b209c"/></media></figure></para>
   
   
+  
+  
+
 </solution></exercise>
 </example><div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
 <!--END ADD DESMOS INTERATIVE-->
@@ -197,7 +222,9 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para> The difference in height after 6 bounces is 2.
       Using the equation: 
       \(h=150 \cdot (0.50)^n\) and graphing \(h=150 \cdot (0.50)^6\). The graph shows the height to be 2.344 after 6 bounces \((n=6)\).
@@ -208,6 +235,7 @@
       So, after 2 more bounces (the 6th bounce), it will decrease by a factor of about \(\frac {1}{4}\). The 6th bounce would be \(9 \cdot \frac{1}{4} \approx 2.25\). 
       Rounding either 2.344 or 2.25 results in the answer 2.
     </para>
+  
   </solution></exercise>
 
 <title>Video: Determining a Model and an Equation from a Real-World Scenario</title>

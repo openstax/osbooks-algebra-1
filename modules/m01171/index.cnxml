@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01171</md:content-id>
     <md:title>4.17.2: Additional Resources</md:title>
-    <md:uuid>1017288c-0583-496f-aef6-601286786ebd</md:uuid>
+    <md:uuid>1fe7c484-4dca-4475-9f63-d248d790fe49</md:uuid>
   </metadata>
   <content>
   <section><title>Writing Recursive Definitions</title>
@@ -69,11 +69,15 @@
   <problem>
     
     <para>E: 20, 13, 6, –1, –8, . . .</para>
+  
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
     </para>
+  
   </problem><solution>
   <para>Here is how to write the recursive definition for this sequence:</para>
+  
   <para>\(E(1)=20\), then each term after is formed by subtracting 7, so \(E(n)=E(n-1)-7\), \(n\geq2\).</para>
+
 </solution></exercise>
 </example></section>
 </content>

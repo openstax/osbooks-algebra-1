@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02447</md:content-id>
     <md:title>9.7.3: Different Methods of Checking Solutions of Quadratic Equations</md:title>
-    <md:uuid>a85410f5-e36d-4074-9abc-f9fc5c34c3d7</md:uuid>
+    <md:uuid>3318d1c5-c5c8-47c8-8f62-d3fe41f934a8</md:uuid>
   </metadata>
   <content>
   <section><list class="os-raise-noindent" type="enumerated">
@@ -16,8 +16,10 @@
     
     <para>Show your reasoning.</para>
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  
   </problem><solution>
   <para>Compare your Answer:</para>
+  
   <para>\(\begin{array}{l}
     h(t)=-5 t^{2}+30 t+2 \\
     -5 t^{2}+30 t+2=47 \\
@@ -29,6 +31,7 @@
     t=\frac{-30}{-10} \\
     t=3
     \end{array}\)</para>
+
 </solution></exercise>
 </example>
 <example><exercise>
@@ -36,13 +39,16 @@
     
     <para>Suppose someone was unconvinced by your solution. Find another way (besides the steps you already took) to show your solution is correct.</para>
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  
   </problem><solution>
   <para>Compare your Answer:</para>
+  
   <list>
     <item> Substitute 3 for \(t\) in the original expression; evaluating it gives \(2+30(3)−5(3)^2\) or \(2+90−45\), which is 47. </item>
     <item> Graphing \(y=2+30t−5t^2\) and \(y=47\) shows an intersection is located at \((3,47)\). </item>
     <item> Graphing \(y=-45+30t−5t^2\) shows a zero at \((3,0)\). </item>
   </list>
+
 </solution></exercise>
 </example>
 <example><exercise>
@@ -50,15 +56,19 @@
     
     <para>The equation \(r(p)=80p−p^2\) models the revenue a band expects to collect as a function of the price of one concert ticket. Ticket prices and revenues are in dollars.</para>
     <para>A band member says that a ticket price of either $15.50 or $74.50 would generate approximately $1000 in revenue. Do you agree? Show your reasoning.</para>
+  
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  
   </problem><solution>
   <para>Compare your Answer:</para>
+  
   <list>
     <item> Partially agree. A ticket price of $15.50 will generate about $1000 in revenue, but a ticket price of $74.50 will generate much less (about $410). </item>
     <item> Using the <term data-schema-version="“1.0”" data-store="glossary-tooltip">quadratic formula</term> to solve \(1000=80p−p^2\) gives \(p \approx 15.50\) and \(p \approx 64.50\) as the solutions. </item>
     <item> Substituting 15.50 into the expression \(80p−p^2\) gives 999.75, which is close to 1000. \((80(15.50)−(15.50)2=999.75)\). Substituting 74.50 into the expression \(80p−p^2\) gives 409.75. </item>
     <item> Graphing the equation \(y=r(p)\) and \(y=1000\) shows two intersections at approximately \((15.50,1000)\) and \((64.50,1000)\). </item>
   </list>
+
 </solution></exercise>
 </example>
 
@@ -69,19 +79,25 @@
   <problem>
     
     <!-- INSERT ANY VALID HTML HERE -->
+  
   <!-- INSERT ANY VALID HTML HERE -->
+  
   </problem></exercise>
 </example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
 <exercise data-wait-for-event="RFM1">
   <problem>
     <title>Extending Your Thinking</title>
+    
     <para>Function \(g\) is defined by the equation \(g(t)=2+30t−5t^2−47\). Its graph opens downward.</para>
     <para>Find the zeros of function \(g\) without graphing.</para>
     </problem><solution>
     
     <para>Enter the zeros of function \(g\).</para>
+  
   <para>Compare your answer:</para>
+    
     <para>Function \(g\) has one zero: 3.</para>
+  
   </solution></exercise>
 
 <!--End interaction-->
@@ -91,11 +107,14 @@
     </problem><solution>
     
     <para>Enter your reasoning. </para>
+  
   <para>Compare your answer:</para>
+    
     <list>
       <item> \(2+30t−5t^2−47\) is equivalent to \(-5t^2+30t−45\). Solving \(-5t^2+30t−45=0\) using the quadratic formula gives \(t=3\). </item>
       <item> \(-5t^2+30t−45\) can be rewritten as \(-5(t^2−6t+9)\) and then as \(-5(t−3)(t−3)\). Applying the zero product property to solve \(-5(t−3)(t−3)=0\) gives \(t=3\). </item>
     </list>
+  
   </solution></exercise>
 
 <!--End interaction-->
@@ -105,8 +124,11 @@
     </problem><solution>
     
     <para>Enter your reasoning. </para>
+  
   <para>Compare your answer:</para>
+    
     <para>Function \(g\) only has one zero, which means its graph has only one horizontal intercept, occurring when \(t=3\). Because the point \((3,0)\) is the only intercept, it must also be the vertex of the graph, otherwise there would have been either two horizontal intercepts, or none.</para>
+  
   </solution></exercise>
 
 <!--End interaction-->
@@ -116,8 +138,11 @@
     </problem><solution>
     
     <para>Enter your reasoning. </para>
+  
   <para>Compare your answer:</para>
+    
     <para>The value of the expression for \(g\) is 47 less than that of \(h\), so if we know the maximum of \(h\), we know that the maximum of \(g\) is 47 less than that. We saw that the maximum of \(h\) is 47, so the maximum of \(g\) is 47 less than 47, which is 0.</para>
+  
   </solution></exercise>
 <!--End interaction--></section>
 </content>

@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02519</md:content-id>
     <md:title>9.11.2: Does the Vertex Represent the Minimum or Maximum Value?</md:title>
-    <md:uuid>c963d3f0-5482-4f40-a62d-3c5ddcb4580c</md:uuid>
+    <md:uuid>3198fa62-422d-4300-a91a-a886b251f366</md:uuid>
   </metadata>
   <content>
   <section><list class="os-raise-noindent" type="enumerated">
@@ -18,14 +18,18 @@
   <problem>
     
     <para>Use similar reasoning to explain why the point \((4,1)\) corresponds to the <term data-schema-version="1.0" data-store="glossary-tooltip">maximum</term> value of \(q\), defined by \(q(x)=-2(x−4)^2+1\).</para>
+  
   <para>Enter your reasoning here.</para>
+  
   </problem><solution>
   <para>Compare your answer:</para>
+  
   <list>
     <item> When \(x=4\), the value of \((x−4)^2\) is 0 because \(-2(4−4)^2=-2(0^2)=0\). </item>
     <item> Squaring any number always results in a positive number, so when \(x\) is any value other than 4 (either greater or less), \((x−4)\) will be a number other than 0. When squared, \((x−4)^2\) will be positive, but then it gets multiplied to a negative number, so the product will be negative. </item>
     <item> Any negative number is less than 0, so when \(x \neq 4\), the value of \(-2(x−4)^2\) will be less than when \(x=4\). In other words, \(q\) has the greatest value when \(x=4\). </item>
   </list>
+
 </solution></exercise>
 </example><para>The greatest value of a function is the maximum value. The lowest value of a function is the minimum value. Since infinity cannot be reached or touched, it is not considered a maximum or minimum.</para>
 <para>In quadratic functions, the maximum or minimum value occurs at the vertex of the <term data-schema-version="1.0" data-store="glossary-tooltip">parabola</term>.</para>
@@ -111,27 +115,39 @@
   <problem>
     
     <!-- INSERT ANY VALID HTML HERE -->
+  
   <!-- INSERT ANY VALID HTML HERE -->
+  
   </problem></exercise>
 </example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
 <exercise data-wait-for-event="RFM1">
   <problem>
     <title>Extending Your Thinking</title>
+    
     <para>Here is a portion of the graph of function \(q\), defined by \(q(x)=-x^2+14x−40\).</para>
+    
     <para><figure><media alt="Insert Alt Text"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/41f2639468a13e21e3859a1761fc87e759a7bee0"/></media></figure></para>
+    
     <para>\(ABCD\) is a rectangle. Points \(A\) and \(B\) coincide with the \(x\)-intercepts of the graph, and segment \(CD\) just touches the vertex of the graph.</para>
+    
     <para>Find the area of \(ABCD\). Show your reasoning.</para>
+  
   </problem><solution>
     
     <para>Enter the area of \(ABCD\) and your reasoning. </para>
+  
   <para>Compare your answer:</para>
+    
     <para>54 square units.
     </para>
+    
     <para>For example: </para>
+    
     <list>
       <item> The expression can be rewritten in factored form as \((-x+10)(x−4)\), so the \(x\)-intercepts are \((4,0)\) and \((10,0)\), which means the length of \(AB\) is 6 units. The \(x\)-coordinate of the vertex is halfway between 4 and 10, which is 7. Substituting 7 for \(x\) in \((- x + 10)(x − 4)\) gives \(3 \cdot 3\) or 9, so the height of the rectangle is 9. The area is \(6 \cdot 9\) or 54 square units. </item>
       <item> The equation \(q(x)=-x^2+14x−40\) can be written in vertex form as \(q(x)=-1(x−7)^2+9\), so its vertex is at \((7,9)\) and the height of the rectangle is 9 units. Completing the square for \(-x^2+14x−40=0\) gives the solutions \(x=4\) and \(x=10\), which correspond to the \(x\)-intercepts at points \(A\) and \(B\). This means the width of the rectangle is \(10−4\) or 6 units. </item>
     </list>
+  
   </solution></exercise>
 <!--End interaction--></section>
 </content>

@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01667</md:content-id>
     <md:title>6.5.4: Additional Resources</md:title>
-    <md:uuid>a4e40562-9682-44dc-aea5-b0912cf64270</md:uuid>
+    <md:uuid>1322cd5b-811f-4b19-aed1-3cac352f4db3</md:uuid>
   </metadata>
   <content>
   <section><title>Factoring Trinomials Using the “\(ac\)” Method</title>
@@ -77,27 +77,44 @@
   <problem>
     
     <para>Factor using the “\(ac\)” method: \(10y^2 − 55y + 70\).</para>
+  
   <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Here is how to use the “\(ac\)” method to factor a trinomial.</para>
+  
   <para><emphasis>Step 1 -</emphasis> Is there a greatest common factor?</para>
+  
   <para> \(10y^2-55y+70\)
     Yes. The GCF is 5.</para>
+  
   <para><emphasis>Step 2 -</emphasis> Factor it.</para>
+  
   <para> \(5(2y^2-11y+14)\)</para>
+  
   <para><emphasis>Step 3 - </emphasis>The trinomial inside the parentheses has a leading coefficient that is not \(1\).</para>
+  
   <para> \(\begin{array}{c}{\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}+{\style{color:red}b}{\style{color:red}x}+{\style{color:red}c}\\5(2y^2-11y+14)\end{array}\) </para>
+  
   <para>Find the product \(ac\).
     \(ac=28\)</para>
+  
   <para><emphasis>Step 4 - </emphasis>Find two numbers that multiply to \(ac\) and add to \(b\).</para>
+  
   <para> \((-4)(-7)=28\)
     \(-4+(-7)=-11\)</para>
+  
   <para><emphasis>Step 5 - </emphasis>Split the middle term.</para>
+  
   <para><figure><media alt="."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/2bd20fbcb7c846a9536d0ae1464d5c3bde7ccaea"/></media></figure></para>
+  
   <para><emphasis>Step 6 -</emphasis> Factor the trinomial by grouping.</para>
+  
   <para> \(5(y(2y-7)-2(2y-7))\)
     \(5(y-2)(2y-7)\)</para>
+  
   <para><emphasis>Step 7 -</emphasis> Check by multiplying all three factors.</para>
+  
   <para>
     <m:math display="inline">
       <m:semantics>
@@ -286,6 +303,7 @@
       </m:semantics>
     </m:math>
   </para>
+
 </solution></exercise>
 </example>
 <title>Factoring Trinomials Using Substitution</title>
@@ -461,22 +479,38 @@
   <problem>
     
     <para>Factor by substitution: \((x − 2)^2 + 7(x − 2) + 12\).</para>
+    
     <para>In this case, the expression to be substituted is not a monomial. Let \(u = x − 2\).</para>
+  
   <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Here is how to factor using substitution.</para>
+  
   <para>The binomial in the middle term, \((x − 2)\), is squared in the first term. If we let \(u = x − 2\) and substitute, our trinomial will be in \(ax^2 + bx + c\) form.</para>
+  
   <para><emphasis>Step 1 - </emphasis>Rewrite the trinomial to prepare for the substitution.</para>
+  
   <para> \({\style{color:red}(}{\style{color:red}x}\;{\style{color:red}-}\;{\style{color:red}2}{\style{color:red})}^2+7{\style{color:red}(}{\style{color:red}x}\;{\style{color:red}-}\;{\style{color:red}2}{\style{color:red})}+12\)</para>
+  
   <para><emphasis>Step 2  - </emphasis>Let \(u=x−2\) and substitute.</para>
+  
   <para> \(u^2+7u+12\) </para>
+  
   <para><emphasis>Step 3 -</emphasis> Factor the trinomial.</para>
+  
   <para> \(({\style{color:red}u}+3)({\style{color:red}u}+4)\)</para>
+  
   <para><emphasis>Step 4 -</emphasis> Replace \(u\) with \(x−2\).</para>
+  
   <para> \(({\style{color:red}(}{\style{color:red}x}\;{\style{color:red}-}\;{\style{color:red}2}{\style{color:red})}+3)({\style{color:red}(}{\style{color:red}x}\;{\style{color:red}-}\;{\style{color:red}2}{\style{color:red})}+4)\)</para>
+  
   <para><emphasis>Step 5 -</emphasis> Simplify inside the parentheses.</para>
+  
   <para> \((x+1)(x+2)\) </para>
+  
   <para>This could also be factored by first multiplying out the \((x − 2)^2\) and the \(7(x − 2)\), combining like terms, and then factoring. Most students prefer the substitution method.</para>
+
 </solution></exercise>
 </example></section>
 </content>

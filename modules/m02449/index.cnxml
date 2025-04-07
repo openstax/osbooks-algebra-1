@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02449</md:content-id>
     <md:title>9.7.3: Additional Resources</md:title>
-    <md:uuid>66375082-f086-4299-9f82-73844aaf4969</md:uuid>
+    <md:uuid>b6a597cd-1821-4275-b733-1cebf355e0e0</md:uuid>
   </metadata>
   <content>
   <section><title>Answering Questions About Situations With the Quadratic Formula</title>
@@ -24,21 +24,32 @@
   <problem>
     
     <para>Function \(h\) models the height of an object, in meters, \(t\) seconds after it is launched into the air. It is defined by \(h(t)=-5t^2+25t\). How much time will it take the object to reach 15 meters?</para>
+  
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  
   </problem><solution>
   <para>Here is how to solve this word problem using the <term data-schema-version="“1.0”" data-store="glossary-tooltip">quadratic formula</term>:</para>
+  
   <para>To know how much time it would take the object to reach 15 meters, we could solve the equation \(15=-5t^2+25t\).</para>
+  
   <list>
     <item> Rewriting it in standard form gives \(-5t^2+25t-15=0\). The expression on the left side of the equation cannot be written in factored form, however. </item>
     <item> Completing the square isn't convenient because the coefficient of the squared term is not a perfect square and the coefficient for the linear term is an odd number. </item>
     <item> Let's use the quadratic formula, using \(a=-5\), \(b=25\), and \(c = -15\)! </item>
   </list>
+  
   <para><emphasis>Step 1</emphasis> - \(t=\frac {-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
+  
   <para><emphasis>Step 2</emphasis> - \(t=\frac{-25 \pm \sqrt{25^2- 4(-5)(-15)}}{2(-5)}\)</para>
+  
   <para><emphasis>Step 3</emphasis> - \(t=\frac{-25 \pm \sqrt{325}}{-10}\)</para>
+  
   <para>The expression \(\frac{-25 \pm \sqrt{325}}{-10}\) represents the two exact solutions of the equation.</para>
+  
   <para>We can get approximate solutions by using a calculator, or by reasoning the \(\sqrt{325} \approx 18\).</para>
+  
   <para>The solutions tell us that there are two times after the launch when the object is at a height of 15 meters: at about 0.7 seconds (as the object is going up) and 4.3 seconds (as it comes back down).</para>
+
 </solution></exercise>
 </example></section>
 </content>

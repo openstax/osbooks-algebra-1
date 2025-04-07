@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01520</md:content-id>
     <md:title>5.15.3: Growth Rate of an Exponential Function</md:title>
-    <md:uuid>1ec60443-4681-4e7d-b20a-ddcfe79b4dc2</md:uuid>
+    <md:uuid>767f37b0-537b-4226-acc4-56db9130e62b</md:uuid>
   </metadata>
   <content>
   <section><title>Activity </title>
@@ -91,9 +91,12 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para> The output values increase by a factor of 3. For example: When we divide two consecutive output values, the
       quotient is always 3. </para>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -107,9 +110,12 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para>\(g(10)=3^{10}\) and \(g(11)=3^{11}\). The output still grows by a factor of 3 when the input increases by 1
       (from 10 to 11). </para>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -122,7 +128,9 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <table class="os-raise-skinnytable">
       <thead>
         <row>
@@ -147,6 +155,7 @@
         </row>
       </tbody>
     </table>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -160,9 +169,12 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para>Yes, the outputs still increase by a factor of 3. By rules of exponents, we know that \(3x \cdot 3=3^{x+1}\). (Or
       by rules of exponents, we know that \(\frac {3^{x+1}}{3^x}=3^{x+1-x}\), which equals 3.) </para>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -178,8 +190,11 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para> The output values increase by a factor of 27 or \(3^3\). </para>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -218,7 +233,9 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <table class="os-raise-skinnytable">
       <thead>
         <row>
@@ -243,8 +260,10 @@
         </row>
       </tbody>
     </table>
+    
     <para>Yes, the outputs still increase by a factor of 27. By rules of exponents, we know that \(3x \cdot 3^3=3^{x+3}\).
       (Or by rules of exponents, we know that \(\frac{3^{x+3}}{3^x}=3^{x+3-x}\), which equals \(3^3\) or 27.) </para>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -256,8 +275,11 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para>Answers will vary.</para>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -269,8 +291,11 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para>Answers will vary.</para>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -281,12 +306,18 @@
   <problem>
     
     <!-- INSERT ANY VALID HTML HERE -->
+  
   <!-- INSERT ANY VALID HTML HERE -->
+  
   </problem><solution>
   <title>Extending Your Thinking </title>
   
+  
+  
   <para>For integer inputs, we can think of multiplication as repeated addition and exponentiation as repeated
     multiplication:</para>
+  
+  
   
   <table class="os-raise-wideadjustedtable">
     <thead>
@@ -307,8 +338,11 @@
     </tbody>
   </table>
   
+  
+  
   <para>We could continue this process with a new operation called tetration. It uses the symbol \(\uparrow \uparrow\), and
     it is defined as repeated exponentiation:</para>
+  
   <table class="os-raise-skinnytable">
     <thead>
       <row>
@@ -325,6 +359,8 @@
     </tbody>
   </table>
   
+  
+
 </solution></exercise>
 </example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
 <section class="check-understanding"><title>Video: Analyzing Tables of Exponential Functions</title><exercise data-content-id="313acd1a-7c7e-4fbb-afb2-d1bcadcd6aa4" class="multiple-choice"><problem><para>Enter your answer here:</para><para>Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\).</para>
@@ -340,9 +376,12 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para>The numbers output by this function get large absurdly fast, even in comparison to exponential functions. We
       calculated \(f(2)=27\) above, and now \(f(3)=3^{f(2)}=3^{27}=7,625,597,484,987\).</para>
+  
   </solution></exercise></section>
 </content>
 </document>

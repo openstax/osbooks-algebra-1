@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01760</md:content-id>
     <md:title>7.2.2: Additional Resources</md:title>
-    <md:uuid>ea925f9d-7ba5-4c1e-96cb-9fb7366a4d8a</md:uuid>
+    <md:uuid>aa1f71ea-c727-498c-aecf-deb61c6f473e</md:uuid>
   </metadata>
   <content>
   <section><title>Writing Expressions for Patterns</title>
@@ -82,13 +82,19 @@
   <problem>
     
     <para>Use the figure below to find the number of squares in Step 5 and then Step \(n\).</para>
+    
     <para><figure><media alt="DIAGRAM WITH 3 FIGURES. STEP 1 HAS A RECTANGLE WITH 2 ROWS AND 3 COLUMNS. 2 SQUARES OF A THIRD ROW ARE ADDED. STEP 2 HAS A RECTANGLE WITH 3 ROWS AND 4 COLUMNS. 3 SQUARES OF A FOURTH ROW ARE ADDED. STEP 3 HAS A RECTANGLE WITH 4 ROWS AND 5 COLUMNS. 4 SQUARES OF A FIFTH ROW ARE ADDED.&#10;"><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/1b6a05a9afdaeddde371b9f9242292998e4cc777"/></media></figure></para>
+  
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Here is how to determine the number of squares in each step:</para>
+  
   <para>Notice that each figure adds a row and column, and then subtracts one square. The number of rows is always 2 more
     than the step number.</para>
+  
   <para>Begin by making a table:</para>
+  
   <table class="os-raise-midsizetable">
     <thead>
       <row>
@@ -142,8 +148,12 @@
     </tbody>
   </table>
   
+  
+  
   <para>There are 48 squares in Step 5.</para>
+  
   <para>Step \(n\) would be found with \((n+2)(n+2)-1\) or \((n+2)^2-1\).</para>
+
 </solution></exercise>
 </example></section>
 </content>

@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01446</md:content-id>
     <md:title>5.11.3: Modeling with Exponential Functions</md:title>
-    <md:uuid>6d959269-3aa0-432d-ac2e-e3e9e24fb81d</md:uuid>
+    <md:uuid>2bf57462-b28c-4596-8b73-28d269dfb520</md:uuid>
   </metadata>
   <content>
   <section><title>Activity</title>
@@ -65,13 +65,18 @@
       </tbody>
     </table>
     
+    
+  
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Compare your answers: 
     Sample Data:</para>
+  
   <list class="os-raise-noindent" type="enumerated">
     <item/>
   </list>
+  
   <table class="os-raise-wideequaltable">
     <thead>
       <row>
@@ -151,6 +156,8 @@
     </tbody>
   </table>
   
+  
+
 </solution></exercise>
 </example>
 <example><exercise>
@@ -159,11 +166,15 @@
     <para>Which one appears to be the bounciest? Which one appears to be the least bouncy? Be prepared to show your
         reasoning. </para>
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Compare your answer:</para>
   
+  
+  
   <para>The second ball is the bounciest. The balls were all dropped from the same height, and its bounces are the highest.
     The third ball is the least bouncy. </para>
+
 </solution></exercise>
 </example>
 <example><exercise>
@@ -171,14 +182,18 @@
     
     <para> For each one, write an equation expressing the bounce height in terms of the bounce number \(n\). </para>
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Compare your answers:</para>
+  
+  
   
   <list>
     <item> Ball 1: \(a=150 \cdot (\frac{1}{2})^n\) or \(a=150 \cdot (0.5)^n\) </item>
     <item> Ball 2: \(b=150 \cdot (\frac{7}{10})^n\) or \(b=150 \cdot (0.7)^n\) </item>
     <item> Ball 3: \(c=150 \cdot (\frac{2}{5})^n\) or \(c=150 (0.4)^n\)</item>
   </list>
+
 </solution></exercise>
 </example>
 <example><exercise>
@@ -186,12 +201,16 @@
     
     <para> Explain how the equations could tell us which one is the most bouncy. </para>
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Compare your answers:</para>
+  
+  
   
   <para>The bounciness of the ball is measured by the rebound factor, which is the base of the exponential expression. That
     is \(\frac12\) for the first ball, \(\frac{7}{10}\) for the second ball, and \(\frac25\) for the third ball. The
     larger this number, the bouncier the ball.</para>
+
 </solution></exercise>
 </example>
 <example><exercise>
@@ -200,10 +219,14 @@
     <para> If the bounciest one were dropped from a height of 300 cm, what equation would model its bounce height \(h\)?
       </para>
     <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
   <para>Compare your answer:</para>
   
+  
+  
   <para> \(h=300 \cdot (\frac{7}{10})^n\) </para>
+
 </solution></exercise>
 </example>
 
@@ -216,12 +239,18 @@
     
     <para>Graph, on the same coordinate plane, the equation for each ball that models the bounce height \(h\) after \(n\) bounces using the Desmos tool below. </para> 
     <!-- INSERT ANY VALID HTML HERE -->
+      
       <para>After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
     <para>Compare your answer:</para>
+     
      <para><figure><media alt="Graph of the equation that models the bounce height \(h\) after \(n\) bounces for all 3 balls to predict the difference in the height of Ball 1 after 5 bounces."><image mime-type="image/png" src="https://k12.openstax.org/contents/raise/resources/a0ea1844e190e6f8c8571d03e9e03e64e09a8617"/></media></figure></para>
     
+    
+    
       
+  
 </solution></exercise>  
 </example><div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
 <!--END ADD DESMOS INTERATIVE-->
@@ -233,16 +262,20 @@
 <exercise>
   <problem>
     <para>7. Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for all 3 balls to predict the difference in the height of Ball 1 after 5 bounces.</para>
+  
   </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para> The difference in height after 5 bounces is 5.5.
       Using the equation: 
       \(h=150 \cdot (0.50)^n\) and graphing \(h=150 \cdot (0.50)^5\) The graph shows the height to be 4.6875 after 5 bounces \((n=5)\).
 
       This is consistent with the reasoning:
     </para>
+    
     <list>
       <item>The height of the ball is decreasing by a factor of about
         \( \frac{1}{2}\) after each bounce. </item>
@@ -253,6 +286,7 @@
       <item>Take the average of the two numbers.
         \(\frac{5+6}{2}=5.5\)</item>
     </list>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -260,16 +294,20 @@
 <exercise>
   <problem>
     <para>8. Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for all 3 balls to predict the difference in the height of Ball 2 after 5 bounces.</para>
+  
   </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para> The difference in height after 5 bounces is 25.
       Using the equation: 
       \(h=150 \cdot (0.7)^n\) and graphing \(h=150 \cdot (0.7)^5\). The graph shows the height to be 25.2105 after 5 bounces \((n=5)\).
 
       This is consistent with the reasoning:
     </para>
+    
     <list>
       <item>The height of the ball is decreasing by a factor of about
         \(\frac {7}{10}\) after each bounce. </item>
@@ -278,6 +316,7 @@
         decrease by a factor of about \(\frac {7}{10}\). The 5th bounce would be \(35 \cdot \frac {7}{10} \approx 24.5\). </item>
       <item>Rounding either 25.2105 or 24.5 results in the answer 25</item>
     </list>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -285,16 +324,20 @@
 <exercise>
   <problem>
     <para>9. Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for all 3 balls to predict the difference in the height of Ball 3 after 5 bounces.</para>
+  
   </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para> The difference in height after 5 bounces is 2.
       Using the equation: 
       \(h=150 \cdot (0.4)^n\) and graphing \(h=150 \cdot (0.4)^5\). The graph shows the height to be 1.636 after 5 bounces \((n=5)\).
 
       This is consistent with the reasoning:
     </para>
+    
     <list>
       <item>The height of the ball is decreasing by a factor of about
         \(\frac{2}{5}\) after each bounce. </item>
@@ -303,6 +346,7 @@
         it will decrease by a factor of about \(\frac{2}{5}\). The 5th bounce would be \(6 \cdot \frac{2}{5} \approx 2.4\). </item>
       <item>Rounding either 1.636 or 2.4 results in the answer 2. </item>
     </list>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -311,12 +355,15 @@
   <problem>
     
     <!-- INSERT ANY VALID HTML HERE -->
+  
   <!-- INSERT ANY VALID HTML HERE -->
+  
   </problem></exercise>
 </example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
 <exercise data-wait-for-event="RFM1">
   <problem>
     <title>Extending Your Thinking</title>
+    
     <para> If Ball 1 were dropped from a point that is twice as high, would its bounciness be greater, less, or the
         same? Be prepared to show your reasoning. </para>
       <para> Ball 4 is half as bouncy as the least bouncy ball. What equation would describe its height \(h\) in terms of
@@ -326,7 +373,9 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <list class="os-raise-noindent" type="enumerated">
       <item> The same. The bounciness of the ball does not depend on the height from which it is dropped. This is why the
         successive rebound heights are modeled by an exponential function. </item>
@@ -334,6 +383,7 @@
       <item> The rebound factor is very close to 0. Because the ball barely left the ground after hitting it, we could say
         that it lost almost all of its height with each bounce. </item>
     </list>
+  
   </solution></exercise>
 <!--End interaction--></section>
 </content>

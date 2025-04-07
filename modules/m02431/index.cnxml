@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02431</md:content-id>
     <md:title>9.6.3: Additional Resources</md:title>
-    <md:uuid>e384300f-c838-4e71-a69b-ae474af6f462</md:uuid>
+    <md:uuid>fc6ed555-e634-4d9a-a598-c5c6688f0eb9</md:uuid>
   </metadata>
   <content>
   <section><title>Solving With the Quadratic Formula</title>
@@ -52,39 +52,57 @@
   <problem>
     
     <para>Solve \(2x^2+10x+11=0\) using the quadratic formula.</para>
+  
   <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  
   </problem><solution>
   <para>Here is how to solve this quadratic equation using the quadratic formula:</para>
+  
   <para>Solve by using the quadratic formula: \(2x^2+10x+11=0\).</para>
+  
   <para><emphasis>Step 1</emphasis> - This equation is in standard form. 
     \({\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}\;{\style{color:red}+}\;{\style{color:red}b}{\style{color:red}x}\;{\style{color:red}+}\;{\style{color:red}c}\;{\style{color:red}=}\;{\style{color:red}0}\) 
     \(2x^2+10x+11=0\)</para>
+  
   <para><emphasis>Step 2</emphasis> - Identify the values of \(a\), \(b\), and \(c\). 
     \(a=2\), \(b=10\), \(c=11\)</para>
+  
   <para><emphasis>Step 3</emphasis> - Write the quadratic formula. 
     \(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\) </para>
+  
   <para><emphasis>Step 4</emphasis> - Then substitute in the values of \(a\), \(b\), and \(c\). 
     Substitute in: 
     \({\style{color:blue}a}\;{\style{color:blue}=}\;{\style{color:blue}2}\), \({\style{color:red}b}\;{\style{color:red}=}\;{\style{color:red}1}{\style{color:red}0}\), \({\style{color:green}c}\;{\style{color:green}=}\;{\style{color:green}1}{\style{color:green}1}\)</para>
+  
   <para>\(x=\frac{-{\style{color:red}1}{\style{color:red}0} \pm \sqrt{{\style{color:red}1}{\style{color:red}0}^2- 4 \cdot {\style{color:blue}2} \cdot ({\style{color:green}1}{\style{color:green}1})}}{2 \cdot {\style{color:blue}2}}\)</para>
+  
   <para><emphasis>Step 5</emphasis> - Simplify. 
     \(x=\frac{-10 \pm \sqrt{100-88}}{4}\) 
     \(x=\frac{-10 \pm \sqrt{12}}{4}\) </para>
+  
   <para>Simplify the <term data-schema-version="1.0" data-store="glossary-tooltip">radical expression</term>. 
     \(x=\frac{-10 \pm 2 \sqrt{3}}{4}\) </para>
+  
   <para>Factor out the common factor in the numerator.
     \(x=\frac{2(-5 \pm \sqrt{3})}{4}\) </para>
+  
   <para>Remove the common factors.
     \(x=\frac{-5 \pm \sqrt{3}}{2}\) </para>
+  
   <para>Rewrite to show two solutions.
     \(x=\frac{-5 + \sqrt{3}}{2}\), \(x=\frac{-5 - \sqrt{3}}{2}\) </para>
+  
   <para><emphasis>Step 6 </emphasis>
     Check the solutions. 
     Put each answer in the original equation to check. 
     Substitute \(x=\frac{{\style{color:red}-}{\style{color:red}5}{\style{color:red} +} \sqrt{{\style{color:red}3}}}{{\style{color:red}2}}\). </para>
+  
   <para>\(\begin{array}{l} 2\left[\left(\frac{{\style{color:red}-}{\style{color:red}5}}{{\style{color:red}2}}{\style{color:red}+}\frac{\sqrt{{\style{color:red}3}}}{{\style{color:red}2}}\right)\left(\frac{{\style{color:red}-}{\style{color:red}5}}{{\style{color:red}2}}{\style{color:red}+}\frac{\sqrt{{\style{color:red}3}}}{{\style{color:red}2}}\right)\right]+10\frac{{\style{color:red}-}{\style{color:red}5}{\style{color:red} +} \sqrt{{\style{color:red}3}}}{{\style{color:red}2}}+11 \stackrel{?}{=} 0\\ 2\left[\frac{25}{4}-\frac{5 \sqrt{3}}{4}-\frac{5 \sqrt{3}}{4}+\frac{3}{4}\right]+5(-5+\sqrt{3})+11 \stackrel{?}{=} 0\\ \left.2\left[\frac{25}{4}-\frac{10 \sqrt{3}}{4}+\frac{3}{4}\right]+(-25)+5 \sqrt{3}\right)+11 \stackrel{?}{=} 0\\ \frac{25}{2}-\frac{10 \sqrt{3}}{2}+\frac{3}{2}-14+5 \sqrt{3}\stackrel{?}{=} 0\\ \frac{28}{2}-5 \sqrt{3}-14+5 \sqrt{3} \stackrel{?}{=} 0\\ 14-5 \sqrt{3}-14+5 \sqrt{3}\stackrel{?}{=} 0\\ 0=0 \text{ ✔} \end{array}\)</para>
+  
   <para>Substitute \(x=\frac{-5-\sqrt{3}}{2}\).</para>
+  
   <para>\(\begin{array}{l} 2\left(\frac{-5-\sqrt{3}}{2}\right)^{2}+10 \cdot \frac{-5-\sqrt{3}}{2}+11 \stackrel{?}{=} 0\\ 2\left[\left(\frac{-5}{2}-\frac{\sqrt{3}}{2}\right)\left(\frac{-5}{2}-\frac{\sqrt{3}}{2}\right)\right]+10\left(\frac{-5-\sqrt{3}}{2}\right)+11 \stackrel{?}{=} 0\\ 2\left[\frac{25}{4}+\frac{5 \sqrt{3}}{4}+\frac{5 \sqrt{3}}{4}+\frac{3}{4}\right]+5(-5-\sqrt{3})+11 \stackrel{?}{=} 0\\ 2\left[\frac{25}{4}+\frac{10 \sqrt{3}}{4}+\frac{3}{4}\right]+\left(-25-5 \sqrt{3}\right)+11 \stackrel{?}{=} 0\\ \frac{25}{2}+\frac{10 \sqrt{3}}{2}+\frac{3}{2}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ \frac{28}{2}+5 \sqrt{3}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ 14+5 \sqrt{3}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ 0=0 \text{ ✔} \end{array}\)</para>
+
 </solution></exercise>
 </example></section>
 </content>

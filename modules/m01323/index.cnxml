@@ -3,7 +3,7 @@
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01323</md:content-id>
     <md:title>5.5.3: Using Graphs to Represent Exponential Decay</md:title>
-    <md:uuid>b5d43a28-11bb-48d4-98cf-88550b18e537</md:uuid>
+    <md:uuid>35e6fa84-8ca9-428d-8036-abc0c10f6d84</md:uuid>
   </metadata>
   <content>
   <section><title>Activity </title>
@@ -19,8 +19,11 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para> The algae initially covers 240 square yards. </para>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -32,8 +35,11 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para> Every week, the area covered is \(\frac13\) of the area covered the previous week. </para>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -50,9 +56,14 @@
         (\frac{1}{3})^t\) when \(t\) is 0, 1, 2, 3, and 4. Think carefully about how you choose the scale for the axes.
         If you get stuck, consider creating a table of values.  Use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool below. </para> 
     <!-- INSERT ANY VALID HTML HERE -->
+      
       <para>After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work. </para>
+  
   </problem><solution>
     <para>Compare your answer:</para>
+
+
+
 
 
 <div class="os-raise-d-flex os-raise-justify-content-between">
@@ -61,6 +72,8 @@
 
 </div>
 
+
+     
      <table class="os-raise-midsizetable">
         <thead>
           <row>
@@ -109,6 +122,7 @@
           </row>
         </tbody>
       </table>
+
 </solution></exercise>  
 </example><div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
 <!--END ADD DESMOS INTERATIVE-->
@@ -129,9 +143,12 @@
     </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Your answers may vary, but here is an example: </para>
+    
     <para>The algae will cover fewer than 27 square yards and more than 9 square yards because the area covered by the
       algae is decreasing. A number between 15 and 20 would be a good guess. </para>
+  
   </solution></exercise>
 <!--Interaction End -->
 
@@ -141,21 +158,28 @@
   <problem>
     
     <!-- INSERT ANY VALID HTML HERE -->
+  
   <!-- INSERT ANY VALID HTML HERE -->
+  
   </problem></exercise>
 </example><!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
 <exercise data-wait-for-event="RFM1">
   <problem>
     <title>Extending Your Thinking </title>
+    
     <para>The scientists estimate that to keep the algae bloom from spreading after the treatment concludes, they will need
       to get the area covered under one square foot. How many weeks should they run the treatment to achieve this?</para>
+  
   </problem><solution>
     
     <para>Enter your answer here:</para>
+  
   <para>Compare your answer:</para>
+    
     <para>7 weeks. There are 9 square feet in every square yard, so 1 square foot is \(\frac19\) square yard (or about
       0.111 square yard). At 7 weeks is the first time the area covered by algae is less than \(\frac19\) because \(240
       \cdot (\frac{1}{3})^6 \approx 0.329\), and \(240 \cdot (\frac{1}{3})^7 \approx 0.110\).</para>
+  
   </solution></exercise></section>
 </content>
 </document>
