@@ -6,22 +6,22 @@
     <md:uuid>af970849-fde2-480a-b1ec-3bddfccd7f8a</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
       <div class="os-raise-familysupport">
-        <para>Access the <link url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
+        <para id="para-00001">Access the <link url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
       </div>
-      <para>Watch the following video to help you answer the questions below.</para>
+      <para id="para-00002">Watch the following video to help you answer the questions below.</para>
       <newline/>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://player.vimeo.com/video/304121358"/>
       </media>
       <!--Q#1-->
-      <example>
-        <exercise>
-          <problem>
-            <para>To complete the table, record the weight for the number of oranges in the box from the video.</para>
-            <table class="os-raise-skinnytable">
+      <example id="exam-00001">
+        <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <para id="para-00003">To complete the table, record the weight for the number of oranges in the box from the video.</para>
+            <table class="os-raise-skinnytable" id="table-00001">
               <thead>
                 <row>
                   <entry>
@@ -88,11 +88,11 @@
                 </row>
               </tbody>
             </table>
-            <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00004">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answers:</para>
-            <table class="os-raise-skinnytable">
+          <solution id="sol-00001">
+            <para id="para-00005">Compare your answers:</para>
+            <table class="os-raise-skinnytable" id="table-00002">
               <thead>
                 <row>
                   <entry>
@@ -142,23 +142,23 @@
         </exercise>
       </example>
       <!--Interaction End -->
-      <list class="os-raise-noindent" start="2" type="enumerated">
+      <list class="os-raise-noindent" start="2" type="enumerated" id="list-00001">
         <item>Create a scatter plot of the data.</item>
       </list>
       <div class="os-raise-ib-desmos-gc" data-bottom="-50" data-height="500" data-left="-50" data-right="50" data-schema-version="1.0" data-top="50" data-width="600"> </div>
       <!--Q#2-->
-      <example>
-        <exercise>
-          <problem>
+      <example id="exam-00002">
+        <exercise id="exer-00002">
+          <problem id="prob-00002">
             <!-- had to move question content above to allow desmos to show up under question-->
-            <para>Use the graphing tool here. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00006">Use the graphing tool here. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
+          <solution id="sol-00002">
+            <para id="para-00007">Compare your answer:</para>
+            <para id="para-00008">
               <b>Answer:</b>
             </para>
-            <figure>
+            <figure id="fig-00001">
               <media alt="Scatter plot. Weight in kilograms. Number of oranges.">
                 <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_03_03_01.svg"/>
               </media>
@@ -168,17 +168,17 @@
       </example>
       <!--Interaction End -->
       <!--Q#3-->
-      <example>
-        <exercise>
-          <problem>
-            <para> Approximate the equation of the line that best fits the data. Use the same graphing tool you used in the question above. Approximate the equation of the line that best fits the data.</para>
-            <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <example id="exam-00003">
+        <exercise id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00009"> Approximate the equation of the line that best fits the data. Use the same graphing tool you used in the question above. Approximate the equation of the line that best fits the data.</para>
+            <para id="para-00010">When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Your answer may vary, but here is a sample. The least squares regression line is shown in the scatter plot.
+          <solution id="sol-00003">
+            <para id="para-00011">Compare your answer:</para>
+            <para id="para-00012">Your answer may vary, but here is a sample. The least squares regression line is shown in the scatter plot.
     \(y=0.216x+0.345\)</para>
-            <figure>
+            <figure id="fig-00002">
               <media alt="Scatter plot. Weight in kilograms. Number of oranges.">
                 <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_03_03_02.svg"/>
               </media>
@@ -188,78 +188,78 @@
       </example>
       <!--Interaction End -->
       <!--Interaction End -->
-      <exercise>
-        <problem>
-          <para>Estimate a value for the slope of the line that you drew. What does the value of the slope represent?</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00013">Estimate a value for the slope of the line that you drew. What does the value of the slope represent?</para>
         </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer: </para>
-          <para><b>Answer: </b>The slope is about 0.2. This means that for each additional orange added to the box, the weight is predicted to increase by about 0.2 kg.</para>
+        <solution id="sol-00004">
+          <para id="para-00014">Enter your answer here:</para>
+          <para id="para-00015">Compare your answer: </para>
+          <para id="para-00016"><b>Answer: </b>The slope is about 0.2. This means that for each additional orange added to the box, the weight is predicted to increase by about 0.2 kg.</para>
         </solution>
       </exercise>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Estimate the weight of a box containing 11 oranges. Will this estimate be close to the actual value? Be prepared to show your reasoning.</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00017">Estimate the weight of a box containing 11 oranges. Will this estimate be close to the actual value? Be prepared to show your reasoning.</para>
         </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer:</para>
-          <para><b>Answer: </b>About 2.8 kilograms \((2.6+0.2=2.8)\). The estimate should be close to the actual value since there is only 1 additional orange added, and while there is some variability, it is not great.</para>
+        <solution id="sol-00005">
+          <para id="para-00018">Enter your answer here:</para>
+          <para id="para-00019">Compare your answer:</para>
+          <para id="para-00020"><b>Answer: </b>About 2.8 kilograms \((2.6+0.2=2.8)\). The estimate should be close to the actual value since there is only 1 additional orange added, and while there is some variability, it is not great.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Estimate the weight of a box containing 50 oranges. Will this estimate be close to the actual value? Be prepared to show your reasoning.</para>
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00021">Estimate the weight of a box containing 50 oranges. Will this estimate be close to the actual value? Be prepared to show your reasoning.</para>
         </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer:</para>
-          <para><b>Answer: </b>About 10.6 kilograms \((2.6+40⋅0.2=10.6)\). This estimate will probably not be very close. With data only going to 10 oranges, the variability in orange weight will make it harder to get an estimate that is close to the actual value with more oranges. </para>
+        <solution id="sol-00006">
+          <para id="para-00022">Enter your answer here:</para>
+          <para id="para-00023">Compare your answer:</para>
+          <para id="para-00024"><b>Answer: </b>About 10.6 kilograms \((2.6+40⋅0.2=10.6)\). This estimate will probably not be very close. With data only going to 10 oranges, the variability in orange weight will make it harder to get an estimate that is close to the actual value with more oranges. </para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <note><para>When you use a linear</para><term data-schema-version="1.0" data-store="glossary-tooltip">model</term> to estimate a value in the data given in a scatter plot, that is called <term data-schema-version="1.0" data-store="glossary-tooltip">interpolation</term>. When you use a linear model to estimate the value outside the data given in the scatter plot, that is called <term data-schema-version="1.0" data-store="glossary-tooltip">extrapolation</term>.</note>
+      <note id="note-00001"><para id="para-00025">When you use a linear</para><term data-schema-version="1.0" data-store="glossary-tooltip" id="term-00001">model</term> to estimate a value in the data given in a scatter plot, that is called <term data-schema-version="1.0" data-store="glossary-tooltip" id="term-00002">interpolation</term>. When you use a linear model to estimate the value outside the data given in the scatter plot, that is called <term data-schema-version="1.0" data-store="glossary-tooltip" id="term-00003">extrapolation</term>.</note>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Estimate the coordinates for the vertical intercept of the line you drew. What might the <emphasis effect="italics">y</emphasis>-coordinate for this point represent?</para>
+      <exercise id="exer-00007">
+        <problem id="prob-00007">
+          <para id="para-00026">Estimate the coordinates for the vertical intercept of the line you drew. What might the <emphasis effect="italics">y</emphasis>-coordinate for this point represent?</para>
         </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer:</para>
-          <para><b>Answer: </b>About 0.3 kilogram. The <emphasis effect="italics">y</emphasis>-coordinate estimates the weight of the box with no oranges in it.</para>
-        </solution>
-      </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Which point(s) are best fit by your linear model? How did you decide?</para>
-        </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer:</para>
-          <para><b>Answer: </b>When there were 6 oranges in the box, it was closest to my line. I decided this because the line almost goes through that point.</para>
+        <solution id="sol-00007">
+          <para id="para-00027">Enter your answer here:</para>
+          <para id="para-00028">Compare your answer:</para>
+          <para id="para-00029"><b>Answer: </b>About 0.3 kilogram. The <emphasis effect="italics">y</emphasis>-coordinate estimates the weight of the box with no oranges in it.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Which point(s) fit the least well by your linear model? How did you decide?</para>
+      <exercise id="exer-00008">
+        <problem id="prob-00008">
+          <para id="para-00030">Which point(s) are best fit by your linear model? How did you decide?</para>
         </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer:</para>
-          <para><b>Answer: </b>When there were 7 oranges in the basket, it was the worst estimate. I decided this since this point is the farthest from the line.</para>
+        <solution id="sol-00008">
+          <para id="para-00031">Enter your answer here:</para>
+          <para id="para-00032">Compare your answer:</para>
+          <para id="para-00033"><b>Answer: </b>When there were 6 oranges in the box, it was closest to my line. I decided this because the line almost goes through that point.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <para>Compare your line with that of a partner. Discuss why you chose to put your lines where you did. How are your answers different? Which of you has a line that is the better fit? Why?</para>
+      <!--Text Entry Interaction Start -->
+      <exercise id="exer-00009">
+        <problem id="prob-00009">
+          <para id="para-00034">Which point(s) fit the least well by your linear model? How did you decide?</para>
+        </problem>
+        <solution id="sol-00009">
+          <para id="para-00035">Enter your answer here:</para>
+          <para id="para-00036">Compare your answer:</para>
+          <para id="para-00037"><b>Answer: </b>When there were 7 oranges in the basket, it was the worst estimate. I decided this since this point is the farthest from the line.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <para id="para-00038">Compare your line with that of a partner. Discuss why you chose to put your lines where you did. How are your answers different? Which of you has a line that is the better fit? Why?</para>
     </section>
   </content>
 </document>

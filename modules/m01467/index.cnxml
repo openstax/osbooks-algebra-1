@@ -6,18 +6,18 @@
     <md:uuid>2cd8b0e4-8c9e-4a45-aa4a-958db49d888d</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Matching Exponential Functions and Graphs</title>
-      <para>For each of the following, match each function with one of the graphs in the picture below.</para>
-      <para>
-        <figure>
+      <para id="para-00001">For each of the following, match each function with one of the graphs in the picture below.</para>
+      <para id="para-00002">
+        <figure id="fig-00001">
           <media alt="Graph of six exponential functions.">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_14_08_01.jpg"/>
           </media>
         </figure>
       </para>
-      <para>Remember, the equation for an exponential function is \(y=a\cdot b^x\). The \(a\) will affect the \(y\)-intercept. When \(b&lt;1\), there is exponential decay. The closer \(b\) is to 0, the faster it decays. The closer \(b\) is to 1, the slower it decays. When \(b&gt;1\), the larger the value of \(b\), the faster it grows.</para>
-      <table class="os-raise-wideadjustedtable">
+      <para id="para-00003">Remember, the equation for an exponential function is \(y=a\cdot b^x\). The \(a\) will affect the \(y\)-intercept. When \(b&lt;1\), there is exponential decay. The closer \(b\) is to 0, the faster it decays. The closer \(b\) is to 1, the slower it decays. When \(b>1\), the larger the value of \(b\), the faster it grows.</para>
+      <table class="os-raise-wideadjustedtable" id="table-00001">
         <thead>
           <row>
             <entry>
@@ -37,7 +37,7 @@
         <tbody>
           <row>
             <entry>
-              <list class="os-raise-noindent" type="enumerated">
+              <list class="os-raise-noindent" type="enumerated" id="list-00001">
                 <item>\(f(x)=2(0.68)^x\) </item>
               </list>
             </entry>
@@ -53,7 +53,7 @@
           </row>
           <row>
             <entry>
-              <list class="os-raise-noindent" start="2" type="enumerated">
+              <list class="os-raise-noindent" start="2" type="enumerated" id="list-00002">
                 <item>\(
           f(x)=2(1.28)^x\) </item>
               </list>
@@ -70,7 +70,7 @@
           </row>
           <row>
             <entry>
-              <list class="os-raise-noindent" start="3" type="enumerated">
+              <list class="os-raise-noindent" start="3" type="enumerated" id="list-00003">
                 <item>\(
           f(x)=2(0.81)^x\) </item>
               </list>
@@ -87,7 +87,7 @@
           </row>
           <row>
             <entry>
-              <list class="os-raise-noindent" start="4" type="enumerated">
+              <list class="os-raise-noindent" start="4" type="enumerated" id="list-00004">
                 <item>\( f(x)=4(1.28)^x\)</item>
               </list>
             </entry>
@@ -103,7 +103,7 @@
           </row>
           <row>
             <entry>
-              <list class="os-raise-noindent" start="5" type="enumerated">
+              <list class="os-raise-noindent" start="5" type="enumerated" id="list-00005">
                 <item>\(f(x)=2(1.59)^x\)</item>
               </list>
             </entry>
@@ -119,7 +119,7 @@
           </row>
           <row>
             <entry>
-              <list class="os-raise-noindent" start="6" type="enumerated">
+              <list class="os-raise-noindent" start="6" type="enumerated" id="list-00006">
                 <item>\(f(x)=4(0.68)^x\)</item>
               </list>
             </entry>
@@ -136,23 +136,23 @@
         </tbody>
       </table>
       <title> Try It: Matching Exponential Functions and Graphs</title>
-      <example>
-        <exercise>
-          <problem>
-            <para>
-              <figure>
+      <example id="exam-00001">
+        <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <para id="para-00004">
+              <figure id="fig-00002">
                 <media alt="Graph of six exponential functions.">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_05_14_08_02.jpg"/>
                 </media>
               </figure>
             </para>
-            <para>In the graph above, which function, \(f(x)=a \cdot b^x\), has the largest value for \(a\)?</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+            <para id="para-00005">In the graph above, which function, \(f(x)=a \cdot b^x\), has the largest value for \(a\)?</para>
+            <para id="para-00006">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Here is how to identify which has the largest value for \(a\):</para>
-            <para>In the function \(f(x)=a \cdot b^x\), \(a\) changes the \(y\)-intercept. The function with the largest \(y\)-intercept is C. It crosses the \(y\)-axis at the highest point.</para>
+          <solution id="sol-00001">
+            <para id="para-00007">Compare your answer:</para>
+            <para id="para-00008">Here is how to identify which has the largest value for \(a\):</para>
+            <para id="para-00009">In the function \(f(x)=a \cdot b^x\), \(a\) changes the \(y\)-intercept. The function with the largest \(y\)-intercept is C. It crosses the \(y\)-axis at the highest point.</para>
           </solution>
         </exercise>
       </example>

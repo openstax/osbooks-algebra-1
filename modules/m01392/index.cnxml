@@ -6,57 +6,57 @@
     <md:uuid>eeadf469-35b2-44c0-8397-57265acb07a1</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title> Cool Down Activity</title>
-      <para>The graph shows the population of beavers in a forest for different numbers of years after 1995. The beaver population is growing exponentially.</para>
-      <para>
-        <figure>
+      <para id="para-00001">The graph shows the population of beavers in a forest for different numbers of years after 1995. The beaver population is growing exponentially.</para>
+      <para id="para-00002">
+        <figure id="fig-00001">
           <media alt="Graph of function.">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_10_09_01.svg"/>
           </media>
         </figure>
       </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Explain why we can think of the beaver population as a function of time in years.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003"> Explain why we can think of the beaver population as a function of time in years.</para>
         </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer:</para>
-          <para> The number of beavers depends on time in years. In any given year, there is a particular number of beavers in the forest.</para>
+        <solution id="sol-00001">
+          <para id="para-00004">Enter your answer here:</para>
+          <para id="para-00005">Compare your answer:</para>
+          <para id="para-00006"> The number of beavers depends on time in years. In any given year, there is a particular number of beavers in the forest.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> What is the meaning of the point labeled \(Q\) in this context?</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00007"> What is the meaning of the point labeled \(Q\) in this context?</para>
         </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer:</para>
-          <para> The point \(Q\) indicates that 3.5 years after 1995, the beaver population was about 550.</para>
+        <solution id="sol-00002">
+          <para id="para-00008">Enter your answer here:</para>
+          <para id="para-00009">Compare your answer:</para>
+          <para id="para-00010"> The point \(Q\) indicates that 3.5 years after 1995, the beaver population was about 550.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Write an equation using function notation to represent this situation.</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00011"> Write an equation using function notation to represent this situation.</para>
         </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer:</para>
-          <para> \(p(t)=50 \cdot 2^t\) where \(t\) is years after 1995 and \(p(t)\) is the beaver population at that time.</para>
+        <solution id="sol-00003">
+          <para id="para-00012">Enter your answer here:</para>
+          <para id="para-00013">Compare your answer:</para>
+          <para id="para-00014"> \(p(t)=50 \cdot 2^t\) where \(t\) is years after 1995 and \(p(t)\) is the beaver population at that time.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <section class="check-understanding">
-        <exercise data-content-id="0c20dc9a-915d-4066-ab59-64b5717b29be" class="multiple-choice">
-          <problem>
-            <para>4. Which equation is most appropriate for modeling this data?</para>
-            <table class="os-raise-horizontaltable">
+      <section class="check-understanding" id="sect-00002">
+        <exercise id="0c20dc9a-915d-4066-ab59-64b5717b29be" class="multiple-choice" id="exer-00004">
+          <problem id="prob-00004">
+            <para id="para-00015">4. Which equation is most appropriate for modeling this data?</para>
+            <table class="os-raise-horizontaltable" id="table-00001">
               <thead/>
               <tbody>
                 <row>
@@ -81,14 +81,14 @@
                 </row>
               </tbody>
             </table>
-            <para>Multiple Choice:</para>
-            <para>\(y=10 + (4x)^2\)</para>
-            <para>\(y=10 + 4^x\)</para>
-            <para>\(y=10 + 4x^2\)</para>
-            <para>\(y=10 + 4^{\frac{1}{x}}\)</para>
+            <para id="para-00016">Multiple Choice:</para>
+            <para id="para-00017">\(y=10 + (4x)^2\)</para>
+            <para id="para-00018">\(y=10 + 4^x\)</para>
+            <para id="para-00019">\(y=10 + 4x^2\)</para>
+            <para id="para-00020">\(y=10 + 4^{\frac{1}{x}}\)</para>
           </problem>
-          <solution>
-            <para>The correct answer is \(y=10 + 4^x\)</para>
+          <solution id="sol-00004">
+            <para id="para-00021">The correct answer is \(y=10 + 4^x\)</para>
           </solution>
         </exercise>
       </section>

@@ -6,26 +6,26 @@
     <md:uuid>506aa52d-0310-42ca-add8-88ad6333b815</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>A patient who is diabetic receives 100 micrograms of insulin. The graph shows the amount of insulin, in micrograms,
+      <para id="para-00001">A patient who is diabetic receives 100 micrograms of insulin. The graph shows the amount of insulin, in micrograms,
   remaining in his bloodstream over time, in minutes.</para>
-      <para>
-        <figure>
+      <para id="para-00002">
+        <figure id="fig-00001">
           <media alt="Graph of an exponential function, origin O. time (minutes) insulin (mg).">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_07_09_01.svg"/>
           </media>
         </figure>
       </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">
         Scientists have found that the amount of insulin in a patient’s body changes exponentially. How can you
         check if the graph supports the scientists’ claim?
       </para>
         </problem>
-        <solution><para>Enter your answer here:</para><para>Compare your answer:</para>
+        <solution id="sol-00001"><para id="para-00004">Enter your answer here:</para><para id="para-00005">Compare your answer:</para>
     If the insulin decays exponentially, that means that after each minute, the same fraction of insulin will decay and
     remain. So one way to check if this prediction matches the data is to see what fraction of insulin decays (or
     remains) after the first minute, then after the second minute, and so on. If these fractions are the same, then the
@@ -39,15 +39,15 @@
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Answer the following questions:
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00006">Answer the following questions:
       </para>
-          <para>
+          <para id="para-00007">
           How much insulin broke down in the first minute?
         </para>
         </problem>
-        <solution><para>Enter your answer here:</para><para>Compare your answer:</para>
+        <solution id="sol-00002"><para id="para-00008">Enter your answer here:</para><para id="para-00009">Compare your answer:</para>
     10 micrograms broke down.
   
     10 micrograms broke down.
@@ -55,11 +55,11 @@
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> What fraction of the original insulin is that?</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00010"> What fraction of the original insulin is that?</para>
         </problem>
-        <solution><para>Enter your answer here:</para><para>Compare your answer:</para>
+        <solution id="sol-00003"><para id="para-00011">Enter your answer here:</para><para id="para-00012">Compare your answer:</para>
     \(\frac{1}{10}\) of the initial injection
   
     \(\frac{1}{10}\) of the initial injection
@@ -67,14 +67,14 @@
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Answer the following questions. 
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00013"> Answer the following questions. 
       </para>
-          <para>
+          <para id="para-00014">
           How much insulin broke down in the second minute? </para>
         </problem>
-        <solution><para>Enter your answer here:</para><para>Compare your answer:</para>
+        <solution id="sol-00004"><para id="para-00015">Enter your answer here:</para><para id="para-00016">Compare your answer:</para>
     9 micrograms broke down.
   
     9 micrograms broke down.
@@ -82,11 +82,11 @@
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> What fraction is that of the amount one minute earlier?</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00017"> What fraction is that of the amount one minute earlier?</para>
         </problem>
-        <solution><para>Enter your answer here:</para><para>Compare your answer:</para>
+        <solution id="sol-00005"><para id="para-00018">Enter your answer here:</para><para id="para-00019">Compare your answer:</para>
     \(\frac{1}{10}\) of the amount one minute earlier
   
     \(\frac{1}{10}\) of the amount one minute earlier
@@ -94,27 +94,27 @@
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00020">
         What fraction of insulin remains in the bloodstream for each minute that passes? Be prepared to show your
         reasoning.
       </para>
         </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer:</para>
-          <para>\(\frac{9}{10}\). For example: In the next minute, another \(\frac{1}{10}\) of insulin broke down. Each time,
+        <solution id="sol-00006">
+          <para id="para-00021">Enter your answer here:</para>
+          <para id="para-00022">Compare your answer:</para>
+          <para id="para-00023">\(\frac{9}{10}\). For example: In the next minute, another \(\frac{1}{10}\) of insulin broke down. Each time,
       \(\frac{9}{10}\) of the amount remains. </para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <example>
-        <exercise>
-          <problem>
-            <para>
+      <example id="exam-00001">
+        <exercise id="exer-00007">
+          <problem id="prob-00007">
+            <para id="para-00024">
         Complete the table to show the predicted amount of insulin 4 and 5 minutes after injection.</para>
-            <table class="os-raise-horizontaltable">
+            <table class="os-raise-horizontaltable" id="table-00001">
               <thead/>
               <tbody>
                 <row>
@@ -161,12 +161,12 @@
                 </row>
               </tbody>
             </table>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+            <para id="para-00025">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
     </para>
           </problem>
-          <solution>
-            <para>Compare your answers:</para>
-            <table class="os-raise-horizontaltable">
+          <solution id="sol-00007">
+            <para id="para-00026">Compare your answers:</para>
+            <table class="os-raise-horizontaltable" id="table-00002">
               <thead/>
               <tbody>
                 <row>
@@ -221,38 +221,38 @@
         </exercise>
       </example>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Answer the following questions.
+      <exercise id="exer-00008">
+        <problem id="prob-00008">
+          <para id="para-00027">Answer the following questions.
       </para>
-          <para>
+          <para id="para-00028">
           Describe how you would find how many micrograms of insulin remain in his bloodstream after 10 minutes. 
         </para>
         </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer:</para>
-          <para>Multiply 100 by \(\frac{9}{10}\) ten times: \(100 \cdot (\frac{9}{10})^{10}\).</para>
+        <solution id="sol-00008">
+          <para id="para-00029">Enter your answer here:</para>
+          <para id="para-00030">Compare your answer:</para>
+          <para id="para-00031">Multiply 100 by \(\frac{9}{10}\) ten times: \(100 \cdot (\frac{9}{10})^{10}\).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>
-            <para>
+      <exercise id="exer-00009">
+        <problem id="prob-00009">
+          <para id="para-00032">
+            <para id="para-00033">
             After \(m\) minutes? </para>
           </para>
         </problem>
-        <solution>
-          <para>Enter your answer here:</para>
-          <para>Compare your answer:</para>
-          <para> For example: Multiply 100 by \(\frac{9}{10}\) \(m\) times: \(100 \cdot (\frac{9}{10})^m\).</para>
+        <solution id="sol-00009">
+          <para id="para-00034">Enter your answer here:</para>
+          <para id="para-00035">Compare your answer:</para>
+          <para id="para-00036"> For example: Multiply 100 by \(\frac{9}{10}\) \(m\) times: \(100 \cdot (\frac{9}{10})^m\).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <title> Video: Analyzing Exponential Graphs and Writing Equations</title>
-      <para>Watch the following video to learn more about analyzing exponential graphs and using the graphs to write an equation.
+      <para id="para-00037">Watch the following video to learn more about analyzing exponential graphs and using the graphs to write an equation.
 </para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/fe068a2a74f0c4e7b754654213f3c60db3177152"/>
