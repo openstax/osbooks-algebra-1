@@ -13,20 +13,22 @@
 <para><emphasis>Step 3</emphasis> - Write a sentence or create a table using the relationship among the values. </para>
 <para><emphasis>Step 4</emphasis> - Translate the sentence or table into an equation</para>
 <para>Let’s look at an example. Using the steps above, we can model a linear equation to solve a real-world application.</para>
-<emphasis>Example
-</emphasis>
+
+
+<section>
+<title>Example</title>
 <para>Cell phone Company A charges a monthly service fee of $34 plus $0.05/minute talk time.</para>
 <para><emphasis>Step 1</emphasis> - Read the problem.</para>
 <para>Cell phone Company A charges a monthly service fee of $34 plus $0.05/minute talk time.</para>
 
 <para><emphasis>Step 2</emphasis> - Identify the variables and known values. If needed, sketch a picture of the scenario.</para>
-<para>\(t\): total cost (in dollars)
-  \(m\): number of minutes
-</para>
+<para>\(t\): total cost (in dollars)</para>
+<para>\(m\): number of minutes</para>
+
 <para><emphasis>Step 3</emphasis> - Write a sentence or create a table using the relationship among the values.</para>
 <table class="os-raise-horizontaltable">
   <caption>Company A:</caption>
-  <thead/>
+  <tgroup cols="6">
   <tbody>
     <row>
       <entry><emphasis>
@@ -67,10 +69,16 @@
       </entry>
     </row>
   </tbody>
+  </tgroup>
 </table>
+
 <para>Company A: The total cost, \(t\), equals the fee, 34, plus 0.05 per minute, \( 0.05m \).</para>
 <para><emphasis>Step 4</emphasis> - Translate the sentence or table into an equation.
   \(t = 34 + 0.05m\)</para>
+  </section>
+
+  <section>
+  <note class="try">
 <title>Try It: Modeling Linear Equations</title>
 
 <!--Text Entry Interaction Start -->
@@ -78,11 +86,8 @@
   <problem>
     <para>Cell phone Company B charges a monthly service fee of $40 plus $0.04/min talk-time. Write an equation to describe
       the relationship between the number of minutes and the total cost.</para>
-  
+      <para>Enter your answer here:</para>
   </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
   <para>Compare your answer:</para>
     
     <para><emphasis>Step 1</emphasis> - Read the problem.</para>
@@ -103,7 +108,7 @@
     <para>Company B:</para>
     
     <table class="os-raise-horizontaltable">
-      <thead/>
+      <tgroup cols="6">
       <tbody>
         <row>
           <entry><emphasis>
@@ -144,6 +149,7 @@
           </entry>
         </row>
       </tbody>
+      </tgroup>
     </table>
     
     
@@ -156,5 +162,6 @@
   
   </solution></exercise>
 <!--Interaction End --></section>
+</section>
 </content>
 </document>

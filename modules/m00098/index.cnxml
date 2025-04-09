@@ -6,26 +6,55 @@
     <md:uuid>347a5d69-bb2f-48bf-9d0a-765ac1abab09</md:uuid>
   </metadata>
   <content>
-  <section><para>Clare volunteers at a local library during the summer. Her work includes putting labels on 750 books.</para>
-<section class="check-understanding"><title>Cool Down Activity</title><exercise id="d423a733-5c35-4496-b8ac-13fb08612146" class="multiple-choice"><problem><para>Enter your answer here.</para><para>How many minutes will she need to finish labeling all books if she takes no breaks and labels <emphasis>10 books a minute?
-          </emphasis></para>
-      </problem><solution><para>Correct! 75</para><para>The correct answer is 75.</para></solution></exercise><exercise id="f3720a12-3b19-4d81-8868-acba7b1560ea" class="multiple-choice"><problem><para>Enter your answer here.</para><para>How many minutes will she need to finish labeling all books if she takes no breaks and labels <emphasis>15 books a minute?</emphasis> </para>
-      </problem><solution><para>Correct! 50</para><para>Nice try! The correct answer is 50.</para></solution></exercise></section>
-<!--Q2 -->
-<exercise>
-  <problem>
-    <para>Suppose Clare labels the books at a constant speed of \(s\) books per minute. Write an equation that represents
-        the relationship between her labeling speed and the number of minutes it would take her to finish labeling.</para>
-    </problem><solution>
-    
-    <para>Enter your answer here:</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\( s * m=750 \) or \( m= \frac{750}{s} \), where \(m\) is the number of minutes and \(s\) is
-      the speed in books per minute.</para>
-  
-  </solution></exercise>
-<!--Interaction End --></section>
-</content>
+    <section>
+        <title>Cool Down Activity</title>
+      <para>Clare volunteers at a local library during the summer. Her work includes putting labels
+        on 750 books.</para>
+
+        <exercise id="d423a733-5c35-4496-b8ac-13fb08612146" class="multiple-choice">
+          <problem>
+            <para>How many minutes will she need to finish labeling all books if she takes no breaks
+              and labels <emphasis>10 books a minute? </emphasis></para>
+            <para>Enter your answer here.</para>
+          </problem>
+          <solution>
+            <para>Correct! 75</para>
+            <para>The correct answer is 75.</para>
+          </solution>
+        </exercise>
+      <!--Q2 -->
+        <exercise id="f3720a12-3b19-4d81-8868-acba7b1560ea" class="multiple-choice">
+          <problem>
+            <para>How many minutes will she need to finish labeling all books if she takes no breaks
+              and labels <emphasis>15 books a minute?</emphasis>
+            </para>
+            <para>Enter your answer here.</para>
+          </problem>
+          <solution>
+            <para>Correct! 50</para>
+            <para>Nice try! The correct answer is 50.</para>
+          </solution>
+        </exercise>
+      </section>
+      <!--Q3 -->
+      <exercise>
+        <problem>
+          <para>Suppose Clare labels the books at a constant speed of \(s\) books per minute. Write
+            an equation that represents the relationship between her labeling speed and the number
+            of minutes it would take her to finish labeling.</para>
+
+          <para>Enter your answer here:</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+
+          <para>\( s * m=750 \) or \( m= \frac{750}{s} \), where \(m\) is the number of minutes and
+            \(s\) is the speed in books per minute.</para>
+
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+    </section>
+  </content>
 </document>

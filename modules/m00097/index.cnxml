@@ -6,135 +6,252 @@
     <md:uuid>5132c2bd-0729-4f78-8380-6015180f82a7</md:uuid>
   </metadata>
   <content>
-  <section id="sect-00001"><para id="para-00001">There are times when the relationship between quantities may not be obvious. In some cases, the relationship between
-  quantities might take a bit of work to figure out, by doing calculations several times or by looking for a
-  pattern. </para>
-<para id="para-00002">Here are two examples.</para>
-<para id="para-00003">Example 1</para>
-<para id="para-00004">A plane departed from New Orleans and is heading to San Diego. The table shows its distance from New Orleans, \( x
-  \), and its distance from San Diego, \( y \), at some points along the way.</para>
-<table class="os-raise-midsizetable" id="table-00001">
-  <thead>
-    <row>
-      <entry><emphasis>miles from New Orleans</emphasis></entry><entry><emphasis>miles from San Diego</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
-      <entry>100</entry>
-      <entry>1,500</entry>
-    </row>
-    <row>
-      <entry>300</entry>
-      <entry>1,300</entry>
-    </row>
-    <row>
-      <entry>500</entry>
-      <entry>1,100</entry>
-    </row>
-    <row>
-      <entry/>
-      <entry>1,020</entry>
-    </row>
-    <row>
-      <entry>900</entry>
-      <entry>700</entry>
-    </row>
-    <row>
-      <entry>1,450</entry>
-      <entry/>
-    </row>
-    <row>
-      <entry>\( x \)</entry>
-      <entry>\( y \)</entry>
-    </row>
-  </tbody>
-</table>
+    <section id="sect-00001">
+    <title>Finding Relationships between Quantities</title>
+      <para id="para-00001">There are times when the relationship between quantities may not be
+        obvious. In some cases, the relationship between quantities might take a bit of work to
+        figure out, by doing calculations several times or by looking for a pattern. </para>
+      <para id="para-00002">Here are two examples.</para>
+      <section>
+      <title>Example 1</title>
+      <para id="para-00004">A plane departed from New Orleans and is heading to San Diego. The table
+        shows its distance from New Orleans, \( x \), and its distance from San Diego, \( y \), at
+        some points along the way.</para>
+      <table class="os-raise-midsizetable" id="table-00001">
+        <tgroup cols="2">
+        <thead>
+          <row>
+            <entry>
+              <emphasis>miles from New Orleans</emphasis>
+            </entry>
+            <entry>
+              <emphasis>miles from San Diego</emphasis>
+            </entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>100</entry>
+            <entry>1,500</entry>
+          </row>
+          <row>
+            <entry>300</entry>
+            <entry>1,300</entry>
+          </row>
+          <row>
+            <entry>500</entry>
+            <entry>1,100</entry>
+          </row>
+          <row>
+            <entry />
+            <entry>1,020</entry>
+          </row>
+          <row>
+            <entry>900</entry>
+            <entry>700</entry>
+          </row>
+          <row>
+            <entry>1,450</entry>
+            <entry />
+          </row>
+          <row>
+            <entry>\( x \)</entry>
+            <entry>\( y \)</entry>
+          </row>
+        </tbody>
+        </tgroup>
+      </table>
+      </section>
 
 
-<!--Q1 -->
-<exercise id="exer-00001">
-  <problem id="prob-00001">
-    <para id="para-00005">What is the relationship between the two distances?
-      </para>
-    </problem><solution id="sol-00001">
-    
-    <para id="para-00006">Enter your answer here:</para>
-  
-  <para id="para-00007">Compare your answer: Your answer may vary, but here are some samples.</para>
-    
-    <para id="para-00008">The distances represent one path—the distance from New Orleans to San Diego. The two distances sum to 1600 miles. \(x
-      + y = 160\)
-    </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+      <!--Q1 -->
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00005">What is the relationship between the two distances? </para>
+          <para id="para-00006">Enter your answer here:</para>
+        </problem>
+        <solution id="sol-00001">
+          <para id="para-00007">Compare your answer: Your answer may vary, but here are some
+            samples.</para>
 
-<!--Q2 -->
-<exercise id="exer-00002">
-  <problem id="prob-00002">
-    <para id="para-00009">Do you see any patterns in how each quantity is changing?
-      </para>
-    </problem><solution id="sol-00002">
-    
-    <para id="para-00010">Enter your answer here:</para>
-  
-  <para id="para-00011">Compare your answer: Your answer may vary, but here is a sample.</para>
-    
-    <para id="para-00012">As the \(x\)-values increase, the \(y\)-values decrease. As the \(x\)-values increase by 200 miles, the \(y\)-values
-      decrease by 200 miles. The quantities, \(x\) and \(y\), sum to 1600 even after changing.
-    </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+          <para id="para-00008">The distances represent one path—the distance from New Orleans to
+            San Diego. The two distances sum to 1600 miles. \(x + y = 160\) </para>
 
-<section class="check-understanding" id="sect-00002"><title>Finding Relationships between Quantities</title><exercise id="9705ea6f-ee8b-4623-ad07-3be096ad7681" class="multiple-choice" id="exer-00003"><problem id="prob-00003"><para id="para-00013">Enter your answer here:</para><para id="para-00014">What is the value of \(x\) when \(y\) = 1020?
-        </para>
-      </problem><solution id="sol-00003"><para id="para-00015">Correct! </para><para id="para-00016">Nice try! The correct answer is 580 miles.</para></solution></exercise><exercise id="17964aaa-6e91-4908-91f1-f7f789df3289" class="multiple-choice" id="exer-00004"><problem id="prob-00004"><para id="para-00017">Enter your answer here:</para><para id="para-00018">What is the value of \(y\) when \(x\) = 1450?
-        </para>
-      </problem><solution id="sol-00004"><para id="para-00019">Correct!</para><para id="para-00020">Nice try! The correct answer is 150.</para></solution></exercise></section><para id="para-00021">Example 2</para>
-<para id="para-00022">A company decides to donate $50,000 to charity. It will select up to 20 charitable organizations, as nominated by its employees. Each selected organization will receive an equal donation amount.
-</para>
-<para id="para-00023">What is the relationship between the number of students, \(s\), and the dollar amount each student will receive,
-  \(d\)?
-  To begin, let's examine some specific values to help uncover the pattern.
-</para>
-<section class="check-understanding" id="sect-00003"><exercise id="c139ee28-73dc-4737-9b32-167f1010a9aa" class="multiple-choice" id="exer-00005"><problem id="prob-00005"><para id="para-00024">Enter your answer here:</para><para id="para-00025">If 5 organizations are selected, how much will each charity receive?</para>
-      </problem><solution id="sol-00005"><para id="para-00026">Correct! $10,000</para><para id="para-00027">Nice try! The correct answer is 10000 miles.</para></solution></exercise><exercise id="b994dfe2-48dc-40bb-afa4-4e2b4b067038" class="multiple-choice" id="exer-00006"><problem id="prob-00006"><para id="para-00028">Enter your answer here:</para><para id="para-00029">If 10 organizations are selected, how much will each charity receive?
-        </para>
-      </problem><solution id="sol-00006"><para id="para-00030">Correct! $5,000</para><para id="para-00031">Nice try! The correct answer is 5000.</para></solution></exercise><exercise id="53c37854-fad0-4fad-8327-6b1bb5f6fec9" class="multiple-choice" id="exer-00007"><problem id="prob-00007"><para id="para-00032">Enter your answer here:</para><para id="para-00033">If 20 organizations are selected, how much will each charity receive?
-        </para>
-      </problem><solution id="sol-00007"><para id="para-00034">Correct! $2,500</para><para id="para-00035">Nice try! The correct answer is 2500.</para></solution></exercise></section><para id="para-00036">Do you notice a pattern here? 10,000 is \( \frac{50,000}{5} \), 5,000 is \( \frac{50,000}{10} \), and 2,500 is
-  \( \frac{50,000}{20} \).</para>
-<para id="para-00037">We can generalize that the amount each organization receives is 50,000 divided by the number of selected
-  organizations, or \( d=\frac{50,000}{n} \).</para>
-<para id="para-00038">A local business is going to hand out $20,000 in scholarships to students at local high schools.</para>
-<para id="para-00039">What is the relationship between the number of students, \( s \), and the dollar amount each student will receive, \(
-  d \)?</para>
-<section class="check-understanding" id="sect-00004"><title>Try It: Finding Relationships between Quantities</title><exercise id="5413bfaf-044d-4833-994b-536ca9b8ea53" class="multiple-choice" id="exer-00008"><problem id="prob-00008"><para id="para-00040">Enter your answer here:</para><para id="para-00041">If 2 students are selected, what is the amount of the scholarship they will receive?
-        </para>
-      </problem><solution id="sol-00008"><para id="para-00042">Correct! 10,000</para><para id="para-00043">Nice try! The correct answer is 1000.</para></solution></exercise><exercise id="b227027d-baec-4d60-8959-55f8180fea10" class="multiple-choice" id="exer-00009"><problem id="prob-00009"><para id="para-00044">Enter your answer here:</para><para id="para-00045">If there are 5 students selected, what is the amount of the scholarship they will receive?
-        </para>
-      </problem><solution id="sol-00009"><para id="para-00046">Correct! 4,000</para><para id="para-00047">Nice try! The correct answer is 4000.</para></solution></exercise><exercise id="aec9601d-6cbb-4815-8e11-7b8c0e18a7cf" class="multiple-choice" id="exer-00010"><problem id="prob-00010"><para id="para-00048">Enter your answer here:</para><para id="para-00049">If there are 10 students selected, what is the amount of the scholarship they will receive?
-        </para>
-      </problem><solution id="sol-00010"><para id="para-00050">Correct! 2,000</para><para id="para-00051">Nice try! The correct answer is 2000.</para></solution></exercise><exercise id="6367aa25-7eeb-4ec5-b216-ae94b7e174c1" class="multiple-choice" id="exer-00011"><problem id="prob-00011"><para id="para-00052">Enter your answer here:</para><para id="para-00053">If there are 20 students selected, what is the amount of the scholarship they will receive?
-        </para>
-      </problem><solution id="sol-00011"><para id="para-00054">Correct! 1,000</para><para id="para-00055">Nice try! The correct answer is 1000.</para></solution></exercise></section>
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00012">
-  <problem id="prob-00012">
-    <para id="para-00056">What equation can be used to model the relationship between the number of students, \(s\), receiving scholarships
-        and the dollar amount, \(d\), they receive?</para>
-    </problem><solution id="sol-00012">
-    
-    <para id="para-00057">Enter your answer:</para>
-  
-  <para id="para-00058">Compare your answer:</para>
-    
-    <para id="para-00059">Your answer may vary, but here is a sample.
-      The amount each student receives is $20,000 divided by the number of students or, \(d= \frac{20000}{s} \). The dollar amount each student receives, \(d\), varies inversely as the number of students, \(s\).</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-</section>
-</content>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+      <!--Q2 -->
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00009">Do you see any patterns in how each quantity is changing? </para>
+          <para id="para-00010">Enter your answer here:</para>
+        </problem>
+        <solution id="sol-00002">
+
+          <para id="para-00011">Compare your answer: Your answer may vary, but here is a sample.</para>
+
+          <para id="para-00012">As the \(x\)-values increase, the \(y\)-values decrease. As the
+            \(x\)-values increase by 200 miles, the \(y\)-values decrease by 200 miles. The
+            quantities, \(x\) and \(y\), sum to 1600 even after changing. </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+        <exercise id="_9705ea6f-ee8b-4623-ad07-3be096ad7681" class="multiple-choice">
+          <problem id="prob-00003">
+            <para id="para-00014">What is the value of \(x\) when \(y\) = 1020? </para>
+            <para id="para-00013">Enter your answer here:</para>
+          </problem>
+          <solution id="sol-00003">
+            <para id="para-00015">Correct! </para>
+            <para id="para-00016">Nice try! The correct answer is 580 miles.</para>
+          </solution>
+        </exercise>
+        <exercise id="_17964aaa-6e91-4908-91f1-f7f789df3289" class="multiple-choice">
+          <problem id="prob-00004">
+            <para id="para-00018">What is the value of \(y\) when \(x\) = 1450? </para>
+            <para id="para-00017">Enter your answer here:</para>
+          </problem>
+          <solution id="sol-00004">
+            <para id="para-00019">Correct!</para>
+            <para id="para-00020">Nice try! The correct answer is 150.</para>
+          </solution>
+        </exercise>
+      </section>
+
+      <section>
+      <title>Example 2</title>
+      <para id="para-00022">A company decides to donate $50,000 to charity. It will select up to 20
+        charitable organizations, as nominated by its employees. Each selected organization will
+        receive an equal donation amount. </para>
+      <para id="para-00023">What is the relationship between the number of students, \(s\), and the
+        dollar amount each student will receive, \(d\)? To begin, let's examine some specific values
+        to help uncover the pattern. </para>
+
+        <exercise id="c139ee28-73dc-4737-9b32-167f1010a9aa" class="multiple-choice">
+          <problem id="prob-00005">
+            <para id="para-00025">If 5 organizations are selected, how much will each charity
+              receive?</para>
+            <para id="para-00024">Enter your answer here:</para>
+          </problem>
+          <solution id="sol-00005">
+            <para id="para-00026">Correct! $10,000</para>
+            <para id="para-00027">Nice try! The correct answer is 10000 miles.</para>
+          </solution>
+        </exercise>
+
+        <exercise id="b994dfe2-48dc-40bb-afa4-4e2b4b067038" class="multiple-choice">
+          <problem id="prob-00006">
+            <para id="para-00029">If 10 organizations are selected, how much will each charity
+              receive? </para>
+            <para id="para-00028">Enter your answer here:</para>
+          </problem>
+          <solution id="sol-00006">
+            <para id="para-00030">Correct! $5,000</para>
+            <para id="para-00031">Nice try! The correct answer is 5000.</para>
+          </solution>
+        </exercise>
+
+        <exercise id="_53c37854-fad0-4fad-8327-6b1bb5f6fec9" class="multiple-choice">
+          <problem id="prob-00007">
+            <para id="para-00033">If 20 organizations are selected, how much will each charity
+              receive? </para>
+            <para id="para-00032">Enter your answer here:</para>
+          </problem>
+          <solution id="sol-00007">
+            <para id="para-00034">Correct! $2,500</para>
+            <para id="para-00035">Nice try! The correct answer is 2500.</para>
+          </solution>
+        </exercise>
+      </section>
+
+
+      <para id="para-00036">Do you notice a pattern here? 10,000 is \( \frac{50,000}{5} \), 5,000 is
+        \( \frac{50,000}{10} \), and 2,500 is \( \frac{50,000}{20} \).</para>
+      <para id="para-00037">We can generalize that the amount each organization receives is 50,000
+        divided by the number of selected organizations, or \( d=\frac{50,000}{n} \).</para>
+      
+      <note class="try">
+        <title>Try It: Finding Relationships between Quantities</title>
+      <para id="para-00038">A local business is going to hand out $20,000 in scholarships to
+        students at local high schools.</para>
+      <para id="para-00039">What is the relationship between the number of students, \( s \), and
+        the dollar amount each student will receive, \( d \)?</para>
+        </note>
+
+        <exercise id="_5413bfaf-044d-4833-994b-536ca9b8ea53" class="multiple-choice">
+          <problem id="prob-00008">
+            <para id="para-00041">If 2 students are selected, what is the amount of the scholarship
+              they will receive? </para>
+            <para id="para-00040">Enter your answer here:</para>
+          </problem>
+          <solution id="sol-00008">
+            <para id="para-00042">Correct! 10,000</para>
+            <para id="para-00043">Nice try! The correct answer is 1000.</para>
+          </solution>
+        </exercise>
+
+        <exercise id="b227027d-baec-4d60-8959-55f8180fea10" class="multiple-choice">
+          <problem id="prob-00009">
+            <para id="para-00045">If there are 5 students selected, what is the amount of the
+              scholarship they will receive? </para>
+            <para id="para-00044">Enter your answer here:</para>
+          </problem>
+          <solution id="sol-00009">
+            <para id="para-00046">Correct! 4,000</para>
+            <para id="para-00047">Nice try! The correct answer is 4000.</para>
+          </solution>
+        </exercise>
+
+        <exercise id="aec9601d-6cbb-4815-8e11-7b8c0e18a7cf" class="multiple-choice">
+          <problem id="prob-00010">
+            <para id="para-00049">If there are 10 students selected, what is the amount of the
+              scholarship they will receive? </para>
+              <para id="para-00048">Enter your answer here:</para>
+          </problem>
+          <solution id="sol-00010">
+            <para id="para-00050">Correct! 2,000</para>
+            <para id="para-00051">Nice try! The correct answer is 2000.</para>
+          </solution>
+        </exercise>
+
+        <exercise id="_6367aa25-7eeb-4ec5-b216-ae94b7e174c1" class="multiple-choice">
+          <problem id="prob-00011">
+            <para id="para-00053">If there are 20 students selected, what is the amount of the
+              scholarship they will receive? </para>
+                <para id="para-00052">Enter your answer here:</para>
+          </problem>
+          <solution id="sol-00011">
+            <para id="para-00054">Correct! 1,000</para>
+            <para id="para-00055">Nice try! The correct answer is 1000.</para>
+          </solution>
+        </exercise>
+      </section>
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00012">
+        <problem id="prob-00012">
+          <para id="para-00056">What equation can be used to model the relationship between the
+            number of students, \(s\), receiving scholarships and the dollar amount, \(d\), they
+            receive?</para>
+                      <para id="para-00057">Enter your answer:</para>
+        </problem>
+        <solution id="sol-00012">
+          <para id="para-00058">Compare your answer:</para>
+
+          <para id="para-00059">Your answer may vary, but here is a sample. The amount each student
+            receives is $20,000 divided by the number of students or, \(d= \frac{20000}{s} \). The
+            dollar amount each student receives, \(d\), varies inversely as the number of students,
+            \(s\).</para>
+
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+    </section>
+  </content>
 </document>
