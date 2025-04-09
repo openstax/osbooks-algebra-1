@@ -7,78 +7,78 @@
   </metadata>
   <content>
     <section>
-      <div class="os-raise-familysupport">
-        <para>Access the <link url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
-      </div>
-      <para>Use the following scenario for questions 1 - 5:
-  A student has a savings account with $475 in it. She deposits $125 of her paycheck into the account every week. Her
-  goal is to save $7000 for college.
-</para>
-      <section class="check-understanding">
-        <title>Activity</title>
+      <title>Activity</title>
+
+      <note class="link-to-learning">
+        <para>Access the <link
+            url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos
+        guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
+      </note>
+
+      <para>Use the following scenario for questions 1 - 5:<newline />
+        A student has a savings account with
+        $475 in it. She deposits $125 of her paycheck into the account every week. Her goal is to
+        save $7000 for college. </para>
+
         <exercise id="ada32325-2724-477f-90a1-aa013e3a2f66" class="multiple-choice">
           <problem>
-            <para>Enter your answer here:</para>
             <para>How much will be in the account after 3 weeks?</para>
+            <para>Enter your answer here:</para>
           </problem>
           <solution>
             <para>Correct! 850</para>
             <para>Nice try! The correct answer.</para>
           </solution>
         </exercise>
-        <exercise id="2497e810-58d6-409f-ad78-5207d7fd06e0" class="multiple-choice">
+
+        <exercise id="_2497e810-58d6-409f-ad78-5207d7fd06e0" class="multiple-choice">
           <problem>
+            <para>How many weeks will it take until she has $1350? </para>
             <para>Enter your answer here:</para>
-            <para>How many weeks will it take until she has $1350?
-        </para>
           </problem>
           <solution>
             <para>Correct! 7</para>
             <para>Nice try! The correct answer.</para>
           </solution>
         </exercise>
-      </section>
+
       <!--Q3-->
       <exercise>
         <problem>
-          <para>Write an equation that represents the relationship between the dollar amount in her account and the number of
-        weeks of saving.</para>
+          <para>Write an equation that represents the relationship between the dollar amount in her
+            account and the number of weeks of saving.</para>
           <para>Enter your answer here:</para>
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>\(a=475+125w\), where \(a\) is the dollar amount in the account and \(w\) is the number of
-      weeks of savings.</para>
+          <para>\(a=475+125w\), where \(a\) is the dollar amount in the account and \(w\) is the
+            number of weeks of savings.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q4-->
-      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
-      <example>
+
+      <!-- INSERT DESMOS GRAPHING TOOL HERE-->
+
         <exercise>
           <problem>
-            <para>Graph your equation using graphing technology. Mark the points on the graph that represent the amount after 3
-        weeks and the week she has $1350. Write down the coordinates.
-        Use the graphing tool or technology outside the course. Graph the equation that represents this scenario using
-        the Desmos tool above.
-      </para>
-            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para>Graph your equation using graphing technology. Mark the points on the graph that
+              represent the amount after 3 weeks and the week she has $1350. Write down the
+              coordinates. Use the graphing tool or technology outside the course. Graph the
+              equation that represents this scenario using the Desmos tool above. </para>
+            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button
+              to compare your work.</para>
           </problem>
           <solution>
             <para>Compare your Answer:</para>
-            <figure>
               <media alt="Graph of a linear function. amount in account (dollars), number of weeks.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_07_09_01.svg"/>
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_07_09_01.svg" />
               </media>
-            </figure>
           </solution>
         </exercise>
-      </example>
-      <!--Interaction End -->
-      <!--Do not edit below line.-->
-      <solution>
-        <!-- INSERT ANY VALID HTML HERE -->
-      </solution>
+
+  
       <!--Q#5-->
       <exercise>
         <problem>
@@ -90,7 +90,8 @@
           <para>The correct answer is \((475, 0)\).</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q6-->
       <exercise>
         <problem>
@@ -98,10 +99,12 @@
           <para>Enter your answer here:</para>
         </problem>
         <solution>
-          <para>Compare your answer: The \(x\)-intercept can identify the zero of the function since it represents where the function equals zero \((y = 0)\).</para>
+          <para>Compare your answer: The \(x\)-intercept can identify the zero of the function since
+            it represents where the function equals zero \((y = 0)\).</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#7-->
       <exercise>
         <problem>
@@ -113,7 +116,8 @@
           <para>The correct answer is \((0, -3.8)\).</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#-->
       <exercise>
         <problem>
@@ -125,27 +129,29 @@
           <para>The correct answer is \(-\frac{1}{125}\).</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      <example>
-        <exercise>
-          <problem>
-            <!-- INSERT ANY VALID HTML HERE -->
-            <!-- INSERT ANY VALID HTML HERE -->
-          </problem>
-        </exercise>
-      </example>
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+      <!--Interaction
+      End -->
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+      will need to change the Data-fire/data-wait-for-events for each set.-->
+     
+      <!--Start
+      interaction.  If multiple interactions appear under "are you ready for more?, they should all
+      have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+      button. Note in this sample, they are all RFM1-->
       <!--Q1-->
+    </section>
+
+    <section>
+      <title>Extending Your Thinking</title>
+<para>
+  <quote>Use the following information to answer questions 1 - 5. A 450-gallon tank full
+  of water is draining at a rate of 20 gallons per minute.</quote>
+</para>
+
       <exercise class="RFM1">
         <problem>
-          <title>Extending Your Thinking</title>
-          <para>
-            <quote>Use the following information to answer questions 1 - 5. A 450-gallon tank full of water is draining at a rate of 20 gallons per minute.</quote>
-          </para>
-          <para>Write an equation that represents the relationship between the gallons of water in the tank and hours the tank
-        has
-        been draining.</para>
+          <para>Write an equation that represents the relationship between the gallons of water in
+            the tank and hours the tank has been draining.</para>
           <para>Enter your answer here:</para>
         </problem>
         <solution>
@@ -153,13 +159,13 @@
           <para>\(a=450-1,200h\) where \(h\) is time in hours.</para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
       <!--Q2-->
       <exercise class="RFM1">
         <problem>
-          <para>Write an equation that represents the relationship between the gallons of water in the tank and seconds the
-        tank
-        has been draining.</para>
+          <para>Write an equation that represents the relationship between the gallons of water in
+            the tank and seconds the tank has been draining.</para>
           <para>Enter your answer here:</para>
         </problem>
         <solution>
@@ -167,58 +173,183 @@
           <para>\(a=450-\frac{s}{3}\) where \(s\) is time in seconds.</para>
         </solution>
       </exercise>
-      <!--End interaction-->
-      <!--Q3 new-->
-      <div class="os-raise-ib-desmos-gc" data-schema-version="1.0" class="RFM1"/>
+      <!--End
+      interaction-->
+
+      <!-- INSERT DESMOS GRAPHING TOOL HERE-->
+
+      <!--Q3
+      new-->
       <exercise class="RFM1">
         <problem>
-          <para>Graph each of your new equations.Use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool above. </para>
+          <para>Graph each of your new equations. Use the graphing tool or technology outside the
+            course. Graph the equation that represents this scenario using the Desmos tool above. </para>
           <para>Enter your answer here:</para>
         </problem>
         <solution>
           <para>Compare your Answer:</para>
-          <figure>
             <media alt="Linear function.">
-              <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_07_09_02.svg"/>
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_07_09_02.svg" />
             </media>
-          </figure>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
       <!--Q4-->
       <exercise class="RFM1">
         <problem>
-          <para>In what way are all of the graphs the same? In what way are they all different? Write down your answer. </para>
+          <para>In what way are all of the graphs the same? In what way are they all different?
+            Write down your answer. </para>
           <para>Enter your answer here:</para>
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Your answer may vary, but here are some samples. </para>
           <list>
-            <item>They all have the same \(y\)-intercept.
-      </item>
-            <item>They all decrease.
-      </item>
-            <item>The slopes are different.
-      </item>
+            <item>They all have the same \(y\)-intercept. </item>
+            <item>They all decrease. </item>
+            <item>The slopes are different. </item>
           </list>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
       <!--Q5-->
       <exercise class="RFM1">
         <problem>
-          <para>How would these graphs change if we used quarts of water instead of gallons? What would stay the same?</para>
+          <para>How would these graphs change if we used quarts of water instead of gallons? What
+            would stay the same?</para>
           <para>Enter your answer here:</para>
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>Your answer may vary, but here are some sample samples:
-      The graphs would still be lines with negative slopes that are different. They would have the same horizontal intercepts. The vertical intercepts would be different, but they would represent the same amount of water.
-    </para>
+          <para>Your answer may vary, but here are some sample samples: The graphs would still be
+            lines with negative slopes that are different. They would have the same horizontal
+            intercepts. The vertical intercepts would be different, but they would represent the
+            same amount of water. </para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
     </section>
+
+    <section>
+      <title>Self Check</title>
+      <para>Which of the following points is a solution to the graph below?</para>
+          <media alt="">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_01_07_10_01.jpg"/>
+          </media>
+    </section>
+
+    <section>
+      <title>Additional Resources</title>
+
+      <section>
+        <title>Writing Equations Using Graphs in Situations</title>
+        <para>An equation that contains two unknown quantities or two quantities that vary is called
+          an equation in two variables. A solution to such an equation is a pair of numbers that makes
+          the equation true. </para>
+        <para>Suppose Tyler spends $40 on T-shirts and socks. A T-shirt costs $10 and a pair of socks
+          costs $2.50. If \(t\) represents the number of T-shirts and \(p\) represents the number of
+          pairs of socks that Tyler buys, what is an equation that represents the equation?</para>
+        <section>
+          <title>Example 1</title>
+        <para><emphasis>Step 1</emphasis> - Create a two-variable equation.<newline />
+          The cost is $10 per t-shirt \((10t)\) plus $2.50 per pair of socks \((2.50p)\) which equals $40.<newline />
+          \(10t +2.50p = 40\)</para>
+        <para>Now, we have to graph the equation.  We will let \(t=x\) and \(p=y\).</para>
+        <para><emphasis>Step 2</emphasis> - Find the \(x\)-intercept.<newline />
+          To find the \(x\)-intercept, let \(p=0\).</para>
+        <para>\(10t +2.50p = 40\)<newline />
+           \(10t +2.50(0) = 40\)<newline />
+           \(10t +0 = 40\) \(t = 4\)</para>
+        <para>\((4, 0)\) is the \(x\)-intercept.<newline />
+         The \(x\)-intercept is also called a solution or zero. </para>
+        <para>In this scenario, 4 represents the number of T-shirts Tyler can buy if he doesn't
+          purchase any socks with $40.</para>
+        <para><emphasis>Step 3</emphasis> - Find the \(y\)-intercept.<newline />
+         To find the \(y\)-intercept, let
+          \(t=0\). </para>
+        <para>\(10t +2.50p = 40\)<newline />
+         \(10(0) +2.50p = 40\)<newline />
+         \((0) +2.50p = 40\)<newline />
+         \(2.50p = 16\)</para>
+        <para>\((0, 16)\) is the  \(y\)-intercept.</para>
+        <para>In this scenario, 16 represents the number of socks Tyler can buy if he doesn't purchase
+          any T-shirts with $40.</para>
+        <para><emphasis>Step 4</emphasis> - Graph the line by connecting the intercepts. </para>
+        <para>Let’s look at the graph of this equation: </para>
+          <media alt="Insert Alt Text">
+            <image mime-type="image/png" src="../../media/Algebra-1_01_07_11_01.png" />
+          </media>
+
+        <para>Let’s reflect about the graph and what it means. </para>
+        </section>
+        <section>
+          <title>Example 2</title>
+        <para>What is the slope of the graph? </para>
+        <para>Solution </para>
+        <para>\(m = -4\)</para>
+    </section>
+    <section>
+          <title>Example 3</title>
+          <!--Q#-->
+        <exercise>
+          <problem>
+            <para>What does the point \((4, 6)\) mean on this graph?</para>
+            <para>Enter your answer here:</para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>If Tyler bought 4 T-shirts and 6 pairs of socks, it would cost more than $40.</para>
+          </solution>
+        </exercise>
+        </section>
+        <!--Interaction
+        End -->
+        <note class="try">
+        <title>Try It: Writing Equations Using Graphs in Situations </title>
+        <para>Use Desmos or a graphing calculator to create a graph for \( 40x +20y = 180 \).</para>
+        <!-- INSERT DESMOS GRAPHING TOOL HERE-->
+        <!--Q1-->
+        <exercise>
+          <problem>
+            <para>If \(x\) represents the number of pairs of shoes and \(y\) represents the number of
+              pairs of jeans, what is one combination that is a solution?</para>
+            <para>Enter your answer here:</para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>Your answer may vary, but here are some samples: \((2, 5)\), \((1, 7)\), \((3, 3)\),
+              \((4, 1)\)</para>
+          </solution>
+        </exercise>
+        <!--Interaction
+        End -->
+        <!--Q2-->
+        <exercise>
+          <problem>
+            <para>What does the combination you identified mean on the graph? </para>
+            <para>Enter your answer here:</para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>Your answer may vary, but here is a sample. For \((2, 5)\), that means buying 2
+              pairs of shoes and 5 pairs of jeans will cost $180. </para>
+            <para>This is how to find a solution and determine its meaning:</para>
+            <list class="os-raise-noindent" type="enumerated">
+              <item>Find a point on the graph of the line. </item>
+              <item>The point \((2, 5)\) is on the graph. Since 2 is the coordinate of the
+                \(x\)-coordinate, it represents 2 pairs of shoes. </item>
+              <item>Since 5 is the \(y\)-coordinate, it represents 5 pairs of jeans. </item>
+              <item>The line represents all combinations that equal $180. </item>
+            </list>
+          </solution>
+        </exercise>
+      </note>
+        <!--Interaction
+        End -->
+    </section>
+  </section>
   </content>
 </document>
