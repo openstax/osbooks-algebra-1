@@ -10,7 +10,7 @@
     <title>Activity</title>
       <para>These three figures are called Platonic solids.</para>
 
-<table>
+<table class="unnumbered">
 <tgroup cols="3">
 <tbody>
 <row>
@@ -33,7 +33,8 @@
 </tgroup>
       </table>
       
-      <table class="os-raise-doubleheadertable">
+      <table class="unnumbered">
+        <tgroup cols="4"></tgroup>
         <thead>
           <row>
             <entry>
@@ -76,6 +77,7 @@
             <entry>30</entry>
           </row>
         </tbody>
+        </tgroup>
       </table>
       <para>The table shows the number of faces, vertices, and edges for the tetrahedron and
         dodecahedron.</para>
@@ -240,9 +242,11 @@
     <section>
       <title>Self Check</title>
       <para>The sum of the measures of the angles of a triangle is \( 180° \). The right triangle shown has angle measures \( a \), \( b \), and \( 90° \). Which equation could model this relationship?</para>
-          <media alt="A right triangle with angle measures a, b, and ninety degrees.">
+      <figure class="unnumbered"> 
+      <media alt="A right triangle with angle measures a, b, and ninety degrees.">
             <image mime-type="image/png" src="../../media/Algebra-1_01_04_04_01.png"/>
           </media>
+        </figure>
     </section>
 
     <section>
@@ -279,9 +283,11 @@
         <para> Let \( x \) = the first integer. There are two more numbers that follow \( x \).<newline />
         Each number is 1 more than the number before it: \(x + 1\) and \(x + 2\)<newline />
         The sum of all three numbers is 372.</para>
+        <figure class="unnumbered">
           <media alt="Insert Alt Text">
             <image mime-type="image/png" src="../../media/Algebra-1_01_04_05_01.png" />
           </media>
+        </figure>
         <para><emphasis>Step 3</emphasis> - Write a sentence using the relationship among the values.<newline />
         The sum of \(x\), \(x+1\), and \(x+2\) is 372.</para>
         <para><emphasis>Step 4</emphasis> - Translate the sentence into an equation.<newline />
@@ -299,9 +305,11 @@
         <para>Let \(x\) = the first integer. There are two more ODD numbers that follow \(x\).<newline />
         Each number is 2 more than the number before it: \(x + 2\) and \(x + 4\)<newline />
         The sum of all three numbers is 93. </para>
+        <figure class="unnumbered">
           <media alt="Insert Alt Text">
             <image mime-type="image/png" src="../../media/Algebra-1_01_04_05_02.png" />
           </media>
+        </figure>
         <para><emphasis>Step 3</emphasis> - Write a sentence using the relationship among the values.<newline />
         The sum of \(x\), \(x+2\), and \(x+4\) is 93.</para>
         <para><emphasis>Step 4</emphasis> - Translate the sentence into an equation.<newline />
