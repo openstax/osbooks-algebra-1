@@ -14,7 +14,7 @@
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_13_03_01.jpg"/>
           </media>
         </figure>
-      </para>
+     </para>
       <para>Here are measurements for the maximum height of a tennis ball after bouncing several times on a concrete surface.</para>
       <table class="os-raise-midsizetable">
         <tgroup cols="2"><tbody><row>
@@ -71,17 +71,17 @@
           <problem>
             <para>Which is more appropriate for modeling the maximum height \(h\), in centimeters, of the tennis ball after
         \(n\) bounces: A linear function or an exponential function? Use data from the table to support your answer.
-      </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+     </para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution>
             <para>Compare your answer:</para>
-            <para> Exponential. Sample explanations: </para>
+            <para> Exponential. Sample explanations:</para>
             <para> Plotting the points in the plane, they are not close to being on a line. 
     <figure><media alt="5 points on coordinate plane, showing exponential decay. Horizontal axis from 0 to 8, labeled number of bounces. Vertical axis from 0 to 200, labeled height in centimeters."><image mime-type="image/svg+xml" src="../../media/Algebra-1_05_13_03_02.svg"/></media></figure></para>
             <para>A linear function of the bounce height would decrease by the same amount for each successive bounce. The
     differences in heights between successive bounces are not close to being the same, as shown in the table. They are
-    decreasing with each bounce, so the function is not linear. </para>
+    decreasing with each bounce, so the function is not linear.</para>
             <table class="os-raise-midsizetable">
               <tgroup cols="2"><tbody><row>
                   <entry>
@@ -134,7 +134,7 @@
               </tbody></tgroup></table>
             <para>An exponential function of the bounce height would decrease by the same factor for each successive bounce. It looks
     like each successive bounce is about half as high as the previous bounce, making an exponential model appropriate.
-  </para>
+ </para>
           </solution>
         </exercise>
       </example>
@@ -143,18 +143,18 @@
           <problem>
             <para>Regulations say that a tennis ball, dropped on concrete, should rebound to a height between 53% and 58% of the
         height from which it is dropped. Does the tennis ball here meet this requirement? Be prepared to show your
-        reasoning. </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+        reasoning.</para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution>
             <para>Compare your answer:</para>
             <list>
               <item>Yes. The first rebound is a little over 53%, the second is almost 54%, and the fourth is 55%. The third rebound
-      is only about 47%, but there could be some measurement error. </item>
+      is only about 47%, but there could be some measurement error.</item>
               <item> No, the third rebound is less than 50% of the height from which the tennis ball fell, falling out of the
-      allowable range. </item>
+      allowable range.</item>
               <item> It is not possible to tell. One of the values is too low, and the others are close enough to 53% that it is
-      impossible to be sure whether the bounces of this ball fall within the regulations. </item>
+      impossible to be sure whether the bounces of this ball fall within the regulations.</item>
             </list>
           </solution>
         </exercise>
@@ -162,13 +162,13 @@
       <example>
         <exercise>
           <problem>
-            <para> Write an equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball. </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+            <para> Write an equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball.</para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution>
             <para>Compare your answer:</para>
             <para>\(
-    h=150 \cdot (0.53)^n\) (A factor of exactly 0.5 is also acceptable, or any value between 0.53 and 0.58.) </para>
+    h=150 \cdot (0.53)^n\) (A factor of exactly 0.5 is also acceptable, or any value between 0.53 and 0.58.)</para>
           </solution>
         </exercise>
       </example>
@@ -177,17 +177,17 @@
           <problem>
             <para> About how many bounces will it take before the rebound height of the tennis ball is less than 1 centimeter?
         Be prepared to show your reasoning.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution>
             <para>Compare your answer:</para>
-            <para> 8 bounces. For example: </para>
+            <para> 8 bounces. For example:</para>
             <para> The height of the ball is decreasing by a factor of about \(\frac12\) after each bounce. So after 3 more bounces,
     it will decrease by a factor of about \(\frac18\) (giving a little more than 1 cm), but after 4 more bounces, it
-    will decrease by a factor of about \(\frac{1}{16}\). </para>
+    will decrease by a factor of about \(\frac{1}{16}\).</para>
             <para> Graphing \(
     h=150 \cdot (0.53)^n\) and \(h=1\) simultaneously using graphing technology shows the bounce height first goes below
-    \(h=1\) on the 8th bounce. </para>
+    \(h=1\) on the 8th bounce.</para>
           </solution>
         </exercise>
       </example>
@@ -197,8 +197,8 @@
         <exercise>
           <problem>
             <!-- INSERT ANY VALID HTML HERE -->
-            <para>Graph the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball using the Desmos tool below. </para>
-            <para>After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work. </para>
+            <para>Graph the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball using the Desmos tool below.</para>
+            <para>After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution>
             <para>Compare your answer:</para>
@@ -208,7 +208,7 @@
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_05_13_03_03.jpg"/>
                 </media>
               </figure>
-            </para>
+           </para>
           </solution>
         </exercise>
       </example>
@@ -216,7 +216,7 @@
       <exercise>
         <problem>
           <para>Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball to predict the difference in height after 6 bounces.
-      </para>
+     </para>
           <para>Enter your answer here:</para>
         </problem>
         <solution>
@@ -230,7 +230,7 @@
       After the 4th bounce, the height difference is 9. It should decrease by \(\frac {1}{2}\) for each bounce after that.
       So, after 2 more bounces (the 6th bounce), it will decrease by a factor of about \(\frac {1}{4}\). The 6th bounce would be \(9 \cdot \frac{1}{4} \approx 2.25\). 
       Rounding either 2.344 or 2.25 results in the answer 2.
-    </para>
+   </para>
         </solution>
       </exercise>
       <title>Video: Determining a Model and an Equation from a Real-World Scenario</title>
