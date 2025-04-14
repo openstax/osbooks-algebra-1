@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.15.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -13,8 +14,7 @@
   \(\triangle f\)? Could the function be linear or exponential? Write a linear or an exponential function formula that
   generates the same input–output pairs as given in the table.</para>
       <table class="os-raise-wideequaltable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis>
         \(x\)
@@ -31,9 +31,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         1
       </entry>
@@ -83,8 +81,7 @@
             <entry>
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>For each row, you subtract \(f(x)\) values. The first row would be \(1- (-3) =4\), then \(5 - 1 =4\), then \(9 - 5
   =4\), and then \(13 - 9 = 4\). Think back to the lessons on the slope or rate of change of a linear function. The
   numerator was always the change in \(y\) or output, which is the same as the change in \(f(x)\). Notice that all the

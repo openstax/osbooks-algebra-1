@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.3.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,8 +11,7 @@
       <title>Finding Residuals</title>
       <para>The gestation time for an animal is the typical duration between conception and birth. The longevity of an animal is the typical lifespan for that animal. The gestation times, in days, and longevities, in years, for 13 types of animals are shown in the table below. </para>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis>Animal </emphasis>
             </entry>
@@ -24,9 +24,7 @@
         (Years)</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
               <para>Baboon</para>
             </entry>
@@ -169,8 +167,7 @@
               <para>5</para>
             </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>The equation of a line of best fit is \(y = 9.875 + 0.02039x\), where \(x\) represents the gestational time, in days, and \(y\) represents longevity, in years. </para>
       <para>
         <figure>

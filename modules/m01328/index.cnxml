@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.5.4: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -28,8 +29,7 @@
           <problem>
             <para>The following table represents the number of people who have read a book. Does the table represent exponential growth? Be prepared to show your reasoning.</para>
             <table class="os-raise-midsizetable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>Number of Months</emphasis>
                   </entry>
@@ -37,9 +37,7 @@
                     <emphasis>Number of People who have Read a Book</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           0
         </entry>
@@ -71,8 +69,7 @@
           2400
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
           <solution>

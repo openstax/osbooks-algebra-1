@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.16.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -27,9 +28,7 @@
       <para>This table shows some values of the function for some values of \(x\). Notice that the output is the least when
   \(x=3\) and it increases both as \(x\) increases and as it decreases.</para>
       <table class="os-raise-horizontaltable">
-        <thead/>
-        <tbody>
-          <row>
+        <tgroup cols="8"><tbody><row>
             <entry>
               <emphasis>
         \(x\)
@@ -85,8 +84,7 @@
         \(10\)
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>The squared term sometimes has a negative coefficient, for instance: \(h(x)=-2(x+4)^2\). The \(x\) value that makes
   \((x+4)^2\) equal 0 is -4, because \((-4+4)^2=0^2=0\). Any other \(x\) value makes \((x+4)^2\) greater than 0. But
   when \((x+4)^2\) is multiplied by a negative number (-2), the resulting expression, \(-2(x+4)^2\), ends up being

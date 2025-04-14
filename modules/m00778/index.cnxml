@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.5.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -21,8 +22,7 @@
       </list>
       <para id="para-00002">Using the data of shoe length in inches and height in inches for 10 men, find the correlation coefficient of the data with graphing technology.</para>
       <table class="os-raise-midsizetable" id="table-00001">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>\(x\) (Shoe Length)Inches</emphasis>
             </entry>
@@ -30,9 +30,7 @@
               <emphasis>\(y\) (Height)  Inches</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>12.6</entry>
             <entry>74</entry>
           </row>
@@ -72,15 +70,13 @@
             <entry>11.8</entry>
             <entry>71</entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para id="para-00003">
   The correlation coefficient is \(r \approx 0.65\).</para>
       <para id="para-00004">Based on the table, there is a moderate positive linear relationship between shoe length and height.</para>
       <para id="para-00005">The table below shows how you can informally interpret the value of a correlation coefficient</para>
       <table class="os-raise-wideadjustedtable" id="table-00002">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>If the value of the correlation coefficient is . . .</emphasis>
             </entry>
@@ -88,9 +84,7 @@
               <emphasis>You can say that . . .</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>\(r=1.0\)</entry>
             <entry>There is a perfect positive linear relationship.</entry>
           </row>
@@ -126,8 +120,7 @@
             <entry>\(r=-1.0\)</entry>
             <entry>There is a perfect negative linear relationship.</entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <note class="try look-at-me"/>
   <title>Try It: Calculating and Interpreting Correlation Coefficients</title>
       <para id="para-00006">Consumer Reports published a study of fast-food items. The table and scatter plot below display the fat content (in grams) and number of calories per serving for 16 fast-food items.</para>
@@ -140,8 +133,7 @@
           </figure>
         </div>
         <table class="os-raise-skinnytable" id="table-00003">
-          <thead>
-            <row>
+          <tgroup cols="2"><tbody><row>
               <entry>
                 <emphasis>Fat(g)</emphasis>
               </entry>
@@ -149,9 +141,7 @@
                 <emphasis>Calories(kcal)</emphasis>
               </entry>
             </row>
-          </thead>
-          <tbody>
-            <row>
+          <row>
               <entry>2</entry>
               <entry>268</entry>
             </row>
@@ -215,13 +205,12 @@
               <entry>3</entry>
               <entry>180</entry>
             </row>
-          </tbody>
-        </table>
+          </tbody></tgroup></table>
       </div>
       <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
       <!--Q#-->
       <example id="exam-00001">
-        <exercise id="exer-00001">
+        <exercise>
           <problem id="prob-00001">
             <para id="para-00007">What is the correlation coefficient for this data and what does it tell us about the strength and type of relationship represented?</para>
             <para id="para-00008">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>

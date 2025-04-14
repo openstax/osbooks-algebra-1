@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.1.4: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -70,9 +71,7 @@
   function of the percent grade? Is the percent grade a function of the grade point average? The table below shows a possible
   rule for assigning grade points.</para>
       <table class="os-raise-horizontaltable">
-        <thead/>
-        <tbody>
-          <row>
+        <tgroup cols="9"><tbody><row>
             <entry>
               <emphasis>Percent grade</emphasis>
             </entry>
@@ -130,8 +129,7 @@
           4.0
         </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <title>Solution</title>
       <para>For any percent grade earned, there is an associated grade point average, so the grade point average is a function of
   the percent grade. In other words, if we input the percent grade, the output is a specific grade point average.</para>
@@ -142,8 +140,7 @@
   <title>Try It: Identifying if a Relationship Is a Function</title>
       <para>The table below lists the five greatest baseball players of all time in order of rank.</para>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>Player</emphasis>
             </entry>
@@ -151,9 +148,7 @@
               <emphasis>Rank</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         Babe Ruth
       </entry>
@@ -194,8 +189,7 @@
         5
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <example>
         <exercise>
           <problem>

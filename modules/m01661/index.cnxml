@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>6.5.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -32,8 +33,7 @@
       </list>
       <para>Find two numbers that multiply to 24 and add to 11.</para>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis> Factors of 24 </emphasis>
             </entry>
@@ -41,9 +41,7 @@
               <emphasis> Sum of factors </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry> \(1, 24\) </entry>
             <entry> \(1 + 24 = 25\) </entry>
           </row>
@@ -59,8 +57,7 @@
             <entry> \(4, 6\) </entry>
             <entry> \(4 + 6 = 10\) </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <emphasis>
 </emphasis>
       <para><emphasis>Step 3 - </emphasis>Use \(m\) and \(n\) as the last terms of the factors.</para>
@@ -93,8 +90,7 @@
       <para> \((y \;\;\;\; )(y \;\;\;\; )\) </para>
       <para><emphasis>Step 2 -</emphasis> Find two numbers that multiply to 28 and add to –11. </para>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis> Factors of 28 </emphasis>
             </entry>
@@ -102,9 +98,7 @@
               <emphasis> Sum of factors </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry> \(−1,−28\) </entry>
             <entry> \(−1+(−28)= −29\) </entry>
           </row>
@@ -116,8 +110,7 @@
             <entry> \(−4,−7\) </entry>
             <entry> \(−4+(−7)= −11 \checkmark\) </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para><emphasis>Step 3 - </emphasis>Use –4 and –7 as the last two terms of the binomials.</para>
       <para> \((y−4)(y−7)\) </para>
       <para><emphasis>Step 4 - </emphasis>Check.</para>
@@ -135,8 +128,7 @@
       <para> \((x \;\;\;\; )(x \;\;\;\; )\)</para>
       <para><emphasis>Step 3 -</emphasis> Find two numbers that multiply to −48 and add to 2. </para>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis> Factors of –48 </emphasis>
             </entry>
@@ -144,9 +136,7 @@
               <emphasis> Sum of factors </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry> \(−1,48\) </entry>
             <entry> \(−1+48=47\) </entry>
           </row>
@@ -166,8 +156,7 @@
             <entry> \(−6,8\) </entry>
             <entry> \(−6+8=2^ \ast\) </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>Since the middle term of the trinomial is positive, the sum of the factors must also be positive. This means that we
   are only looking at the factors in which the larger number is positive. This is why factors such as 1 and −48
   are not included in the table.</para>
@@ -188,8 +177,7 @@
       <para> \((r \;\;\;\; s)(r \;\;\;\; s)\)</para>
       <para><emphasis>Step 2 - </emphasis>Find the numbers that multiply to −9 and add to −8.</para>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis> Factors of −9 </emphasis>
             </entry>
@@ -197,9 +185,7 @@
               <emphasis> Sum of factors </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry> \(-1,9\) </entry>
             <entry> \(−1+9=8\) </entry>
           </row>
@@ -211,8 +197,7 @@
             <entry> \(3,−3\) </entry>
             <entry> \(3+(−3)=0\) </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para><emphasis>Step 3  -</emphasis> Use 1 and –9 as coefficients of the last terms. </para>
       <para> \((r+s)(r−9s)\) </para>
       <para><emphasis>Step 4 - </emphasis>Check.</para>
@@ -748,10 +733,10 @@
               <item>\(
       (q + 4)(q + 6)\) </item>
             </list>
-            <list class="os-raise-noindent" start="2" type="enumerated">
+            <list class="os-raise-noindent" type="enumerated">
               <item> \((n − 3)(n − 4)\) </item>
             </list>
-            <list class="os-raise-noindent" start="3" type="enumerated">
+            <list class="os-raise-noindent" type="enumerated">
               <item> \((m − n)(m − 12n)\) </item>
             </list>
           </solution>

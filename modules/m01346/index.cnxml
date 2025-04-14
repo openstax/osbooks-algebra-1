@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.6.3: Interpreting Negative Exponents in Exponential Decay</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,8 +11,7 @@
       <para id="para-00001">A person took some medicine but does not remember how much. Concerned that she took too much, she has a blood test
   every hour for several hours.</para>
       <table class="os-raise-midsizetable" id="table-00001">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>\(t\), time (hours)</emphasis>
             </entry>
@@ -19,9 +19,7 @@
               <emphasis>\(m\), medicine (mg)</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         –3
       </entry>
@@ -57,12 +55,11 @@
         25
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para id="para-00002">Answer the following questions. Double click on mathematical expressions/equations to enlarge.
 </para>
       <!--Text Entry Interaction Start -->
-      <exercise id="exer-00001">
+      <exercise>
         <problem id="prob-00001">
           <para id="para-00003">Time \(t\) is measured in hours since the blood test, and amount of medicine in her body, \(m\), is
         measured in milligrams. What is the decay factor? That is, what is \(b\) in an equation of the form
@@ -75,7 +72,7 @@
         </solution>
       </exercise>
       <!--Text Entry Interaction Start -->
-      <exercise id="exer-00002">
+      <exercise>
         <problem id="prob-00002">
           <para id="para-00007"> What is \(a\)?</para>
         </problem>
@@ -87,7 +84,7 @@
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise id="exer-00003">
+      <exercise>
         <problem id="prob-00003">
           <para id="para-00011">Find the amounts of medicine in the patient’s body when \(t\) is –1.</para>
         </problem>
@@ -98,7 +95,7 @@
         </solution>
       </exercise>
       <!--Text Entry Interaction Start -->
-      <exercise id="exer-00004">
+      <exercise>
         <problem id="prob-00004">
           <para id="para-00015">Find the amounts of medicine in the patient’s body when \(t\) is –3.</para>
         </problem>
@@ -111,7 +108,7 @@
       <!--Interaction End -->
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise id="exer-00005">
+      <exercise>
         <problem id="prob-00005">
           <para id="para-00019">What does \(t=0\) mean in this context?</para>
         </problem>
@@ -122,7 +119,7 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <exercise id="exer-00006">
+      <exercise>
         <problem id="prob-00006">
           <para id="para-00023">What does \(t=-3\) mean in this context?</para>
         </problem>
@@ -133,7 +130,7 @@
         </solution>
       </exercise>
       <!--Text Entry Interaction Start -->
-      <exercise id="exer-00007">
+      <exercise>
         <problem id="prob-00007">
           <para id="para-00027">The medicine was taken when \(t\) is –5. Assuming the person did not have any of the medication in
         her body beforehand, how much medicine did the patient take?</para>
@@ -147,7 +144,7 @@
       </exercise>
       <!--Interaction End -->
       <example id="exam-00001">
-        <exercise id="exer-00008">
+        <exercise>
           <problem id="prob-00008">
             <para id="para-00031">Create a graph by plotting the points whose coordinates are in the table from question 1 above. Make sure to
         draw and label tick marks on the axes.</para>
@@ -174,7 +171,7 @@
         </exercise>
       </example>
       <!--Text Entry Interaction Start -->
-      <exercise id="exer-00009">
+      <exercise>
         <problem id="prob-00009">
           <para id="para-00036">Based on your graph, when do you think the patient will have: 500 mg of medicine remaining in her body</para>
         </problem>
@@ -186,7 +183,7 @@
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise id="exer-00010">
+      <exercise>
         <problem id="prob-00010">
           <para id="para-00040">Based on your graph, when do you think the patient will have: No medicine remaining in her body</para>
         </problem>
@@ -206,7 +203,7 @@
       <!--Interaction End -->
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
       <example id="exam-00002">
-        <exercise id="exer-00011">
+        <exercise>
           <problem id="prob-00011">
             <!-- INSERT ANY VALID HTML HERE -->
             <!-- INSERT ANY VALID HTML HERE -->
@@ -216,7 +213,7 @@
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       <section class="check-understanding" id="sect-00002">
         <title>Activity</title>
-        <exercise id="a1f54a9b-cea1-45c5-ac43-2ac7329663a6" class="multiple-choice" id="exer-00012">
+        <exercise id="a1f54a9b-cea1-45c5-ac43-2ac7329663a6" class="multiple-choice">
           <problem id="prob-00012">
             <para id="para-00043">Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
         than 1.</para>
@@ -229,7 +226,7 @@
             <para id="para-00046">The correct answer is: close to 1</para>
           </solution>
         </exercise>
-        <exercise id="5ca31138-9e4f-4b4d-ad63-509dbdb6a8ef" class="multiple-choice" id="exer-00013">
+        <exercise id="_5ca31138-9e4f-4b4d-ad63-509dbdb6a8ef" class="multiple-choice">
           <problem id="prob-00013">
             <para id="para-00047">Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
         than 1.</para>
@@ -241,7 +238,7 @@
             <para id="para-00050">The correct answer is: close to 1</para>
           </solution>
         </exercise>
-        <exercise id="edc064ea-76ed-49fe-aa30-d41afe493426" class="multiple-choice" id="exer-00014">
+        <exercise id="edc064ea-76ed-49fe-aa30-d41afe493426" class="multiple-choice">
           <problem id="prob-00014">
             <para id="para-00051">Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
         than 1.</para>
@@ -253,7 +250,7 @@
             <para id="para-00054">The correct answer is: close to 0</para>
           </solution>
         </exercise>
-        <exercise id="a715a50b-aebc-4bb7-9e97-346d824a0243" class="multiple-choice" id="exer-00015">
+        <exercise id="a715a50b-aebc-4bb7-9e97-346d824a0243" class="multiple-choice">
           <problem id="prob-00015">
             <para id="para-00055">Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
         than 1.</para>
@@ -265,7 +262,7 @@
             <para id="para-00058">The correct answer is: close to 0</para>
           </solution>
         </exercise>
-        <exercise id="fff56ade-4ac8-4bb1-95e8-015e427ddb17" class="multiple-choice" id="exer-00016">
+        <exercise id="fff56ade-4ac8-4bb1-95e8-015e427ddb17" class="multiple-choice">
           <problem id="prob-00016">
             <para id="para-00059">Without evaluating them, describe each of the following quantities as close to 0, close to 1, or much larger
         than 1.</para>

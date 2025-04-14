@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.5.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -8,15 +9,12 @@
   <content>
   <section><title>Determine the Strength of a Linear Relationship</title>
 <para>Finding a Correlation Coefficient</para>
-<list class="os-raise-noindent" start="1" type="enumerated">
+<list class="os-raise-noindent" type="enumerated">
   <item>Calculate the correlation coefficient for cricket-chirp data in the table below.</item>
   <item>Tell if the linear relationship is positive or negative and if it is strong, weak, or moderate.</item>
 </list>
 <table class="os-raise-horizontaltable">
-  <thead>
-  </thead>
-  <tbody>
-    <row>
+  <tgroup cols="10"><tbody><row>
       <entry><emphasis>Chirps</emphasis></entry><entry>44</entry>
       <entry>35</entry>
       <entry>20.4</entry>
@@ -38,10 +36,9 @@
       <entry>73.5</entry>
       <entry>53</entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
-<list class="os-raise-noindent" start="1" type="enumerated">
+<list class="os-raise-noindent" type="enumerated">
   <item> Using graphing technology, enter the chirps in the \(x\)-column of the table and the temperature in the \(y\)-column of the table. The correlation coefficient is \(r=0.9509\). </item>
   <item>This value is very close to 1, which suggests a strong, positive, linear relationship.</item>
 </list>
@@ -49,10 +46,7 @@
 <title>Try It: Determine the Strength of a Linear Relationship</title>
 <para>Calculate the correlation coefficient for data in the table below. Tell if the linear relationship is positive or negative and if it is strong, weak, or moderate.</para>
 <table class="os-raise-horizontaltable">
-  <thead>
-  </thead>
-  <tbody>
-    <row>
+  <tgroup cols="7"><tbody><row>
       <entry><emphasis>\(x\)</emphasis></entry><entry>21</entry>
       <entry>25</entry>
       <entry>30</entry>
@@ -68,8 +62,7 @@
       <entry>-18</entry>
       <entry>-40</entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <example><exercise>
   <problem> 

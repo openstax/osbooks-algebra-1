@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.5.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -13,9 +14,7 @@
       <para id="para-00002">Answer the following questions that would complete the table and create a graph to show the population \(p\) of
   migrating butterflies at the number of weeks since they began their migration.</para>
       <table class="os-raise-horizontaltable" id="table-00001">
-        <thead/>
-        <tbody>
-          <row>
+        <tgroup cols="6"><tbody><row>
             <entry>
               <emphasis>\(w\)</emphasis>
             </entry>
@@ -45,8 +44,7 @@
             <entry> </entry>
             <entry> </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <list class="os-raise-noindent" type="enumerated" id="list-00001">
         <item> The number of butterflies when they began their migration.</item>
         <item> The number of butterflies 1 week after they began their migration.</item>
@@ -67,9 +65,7 @@
     plot the points. Once you have plotted the points, you can connect them with a smooth curve. </item>
       </list>
       <table class="os-raise-horizontaltable" id="table-00002">
-        <thead/>
-        <tbody>
-          <row>
+        <tgroup cols="6"><tbody><row>
             <entry>
               <emphasis>\(w\)</emphasis>
             </entry>
@@ -109,8 +105,7 @@
         40,960
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para id="para-00004">
         <figure id="fig-00001">
           <media alt="GRAPH SHOWING THE RELATIONSHIP BETWEEN NUMBER OF WEEKS AND POPULATION OF BUTTERFLIES. PLOTTED POINTS INCLUDE (0, 100000), (1, 80000), (2, 64000), (3, 51200), AND (4, 40960).">
@@ -144,12 +139,11 @@
       <para id="para-00005">The number of copies of a book sold the year it was released was 600,000. Each year after that, the number of copies
   sold decreased by \(\frac12\).</para>
       <example id="exam-00001">
-        <exercise id="exer-00001">
+        <exercise>
           <problem id="prob-00001">
             <para id="para-00006"> Complete the table showing the number of copies of the book sold each year. </para>
             <table class="os-raise-midsizetable" id="table-00003">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>Years Since Published</emphasis>
                   </entry>
@@ -157,9 +151,7 @@
                     <emphasis>Number of Copies Sold</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
             0
           </entry>
@@ -194,8 +186,7 @@
                   <entry> 
           </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para id="para-00007">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
           <solution id="sol-00001">
@@ -204,8 +195,7 @@
             <para id="para-00010">To complete the table, you enter 600,000 in the first line of the table, since it is the initial value or the starting point. For each entry after the first, you multiply each term by
     \(\frac12\). The table below has an extra row with the process worked out.</para>
             <table class="os-raise-wideequaltable" id="table-00004">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>Years Since Published</emphasis>
                   </entry>
@@ -216,9 +206,7 @@
                     <emphasis>Number of Copies Sold</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           0
         </entry>
@@ -273,13 +261,12 @@
           \(600,000(\frac{1}{2})^y\)
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>
       <!--Q2-->
-      <exercise id="exer-00002">
+      <exercise>
         <problem id="prob-00002">
           <para id="para-00011"> Write an equation representing the number of copies, \(c\), sold \(y\) years after the book was released.
       </para>
@@ -294,7 +281,7 @@
       <!--Interaction End -->
       <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
       <!--Q4-->
-      <exercise id="exer-00004">
+      <exercise>
         <problem id="prob-00004">
           <para id="para-00019"> Use your equation or graph to find \(c\) when \(y=6\). What does this mean in terms of the book sales?
       </para>
@@ -310,7 +297,7 @@
       </exercise>
       <!--Interaction End -->
       <!--Q5-->
-      <exercise id="exer-00005">
+      <exercise>
         <problem id="prob-00005">
           <para id="para-00023">What is the vertical intercept, or y-intercept of the graph? What does it tell you about the number of copies sold?
       </para>
@@ -328,7 +315,7 @@
       </exercise>
       <!--Interaction End -->
       <!--Q6-->
-      <exercise id="exer-00006">
+      <exercise>
         <problem id="prob-00006">
           <para id="para-00026">What is the asymptote of the graph? What does it tell you about the number of copies sold over time?
       </para>
@@ -349,7 +336,7 @@
       </exercise>
       <!--Interaction End -->
     <example id="exam-00002">
-        <exercise id="exer-00003">
+        <exercise>
           <problem id="prob-00003">
             <para id="para-00015"> Use the graphing tool or technology outside the course. Graph the equation that represents the situation, using the Desmos tool below.
 

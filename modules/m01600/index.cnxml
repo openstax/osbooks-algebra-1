@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>6.2.4: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -163,8 +164,7 @@
         <emphasis>COMPARING THE SPECIAL PRODUCT PATTERNS</emphasis>
       </para>
       <table class="os-raise-wideequaltable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>Binomial Squares</emphasis>
             </entry>
@@ -172,9 +172,7 @@
               <emphasis>Product of Conjugates</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
               <para>\((a+b)^2=a^2+2ab+b^2\)</para>
             </entry>
@@ -221,8 +219,7 @@
               <para>There is <emphasis>no</emphasis> middle term.</para>
             </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <note class="try look-at-me"/>
   <title>Try It: Conjugate Pairs</title>
       <example>

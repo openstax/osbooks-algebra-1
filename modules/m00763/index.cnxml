@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.4.4: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -21,8 +22,7 @@
       </para>
       <emphasis>
         <table class="os-raise-doubleheadertable">
-          <thead>
-            <row>
+          <tgroup cols="2"><tbody><row>
               <entry>
                 <emphasis>Scatter plot</emphasis>
               </entry>
@@ -30,9 +30,7 @@
                 <emphasis>Correlation coefficient</emphasis>
               </entry>
             </row>
-          </thead>
-          <tbody>
-            <row>
+          <row>
               <entry>
                 <emphasis>Scatter plot A</emphasis>
               </entry>
@@ -64,8 +62,7 @@
                 <para>\(r=0.65\)</para>
               </entry>
             </row>
-          </tbody>
-        </table>
+          </tbody></tgroup></table>
       </emphasis>
       <note class="try look-at-me"/>
   <title>Try It: Correlation Coefficient</title>

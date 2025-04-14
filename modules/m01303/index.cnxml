@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.4.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -9,10 +10,7 @@
   <section><title>Identifying the Constant Ratio of the Exponential Function</title>
 <para>What is the constant ratio (also called the growth factor) of the exponential function shown in the table? Rewrite each term to show the initial value and repeated use of the constant ratio.</para>
 <table class="os-raise-horizontaltable">
-  <thead>
-  </thead>
-  <tbody>
-    <row>
+  <tgroup cols="6"><tbody><row>
       <entry><emphasis> \(x\) </emphasis></entry><entry> 0 </entry>
       <entry> 1 </entry>
       <entry> 2 </entry>
@@ -26,8 +24,7 @@
       <entry> 108 </entry>
       <entry> 324 </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <title>Defining Exponential Growth</title>
 <para>Because the output of exponential functions increases very rapidly, the term “exponential growth” is often used in everyday language to describe anything that grows or increases rapidly. However, exponential growth can be defined more precisely in a mathematical sense. If the growth rate is proportional to the amount present, the function models exponential growth.</para>
@@ -49,10 +46,7 @@
 <para>The initial or starting value of the function is 4, because that is when the value of \(x\) is 0.</para>
 <para>The constant ratio, \(b\), would be 3, since every value in the table is 3 times the previous term.</para>
 <table class="os-raise-horizontaltable">
-  <thead>
-  </thead>
-  <tbody>
-    <row>
+  <tgroup cols="6"><tbody><row>
       <entry><emphasis> \(x\) </emphasis></entry><entry> 0 </entry>
       <entry> 1 </entry>
       <entry> 2 </entry>
@@ -66,8 +60,7 @@
       <entry> \(4\cdot3^3\) </entry>
       <entry> \(4\cdot3^4\) </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <note class="try look-at-me"/>
 <title>Try It: Identifying the Constant Ratio of the Exponential Function</title>
@@ -77,10 +70,7 @@
     <para>What is the constant ratio of the following exponential function?</para>
     
     <table class="os-raise-horizontaltable">
-      <thead>
-      </thead>
-      <tbody>
-        <row>
+      <tgroup cols="5"><tbody><row>
           <entry><emphasis> \(x\) </emphasis></entry><entry> 1 </entry>
           <entry> 2 </entry>
           <entry> 3 </entry>
@@ -92,8 +82,7 @@
           <entry> 40 </entry>
           <entry> 80 </entry>
         </row>
-      </tbody>
-    </table>
+      </tbody></tgroup></table>
     
     
   

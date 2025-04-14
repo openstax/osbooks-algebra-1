@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.15.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -13,8 +14,7 @@
   you notice about \(\triangle f\)? Could the function be linear or exponential? Write a linear or an exponential
   function formula that generates the same input–output pairs as given in the table.</para>
       <table class="os-raise-wideequaltable" id="table-00001">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis>
         \(x\)
@@ -31,9 +31,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         0
       </entry>
@@ -78,8 +76,7 @@
       </entry>
             <entry/>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para id="para-00002">For each row, you subtract \(f(x)\) values. The first row would be \(6- 2 =4\), then \(18 - 6 =12\), then \(54 - 18
   =36\), and then \(162 - 54 = 108\). Since the rate of change isn’t consistent, it is not a linear
   function.  Exponential functions have a growth factor or a repeated rate that terms are being multiplied by. If
@@ -93,7 +90,7 @@
       <para id="para-00004">For the graph provided, assume that the function is defined for all real numbers. What is the rate of change? Write
   an equation that would define this function.</para>
       <example id="exam-00001">
-        <exercise id="exer-00001">
+        <exercise>
           <problem id="prob-00001">
             <para id="para-00005">
               <figure id="fig-00001">

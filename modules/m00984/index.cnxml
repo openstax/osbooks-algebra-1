@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.8.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,9 +11,7 @@
       <title>Finding Rates of Change</title>
       <para>Jay was racing bikes with a friend on the way to the park. A table and a graph of the times are shown below.</para>
       <table class="os-raise-midsizetable">
-        <caption>Jay</caption>
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>Time (minutes)</emphasis>
             </entry>
@@ -20,9 +19,7 @@
               <emphasis>Distance (miles)</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         0
       </entry>
@@ -70,8 +67,8 @@
         5.67
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup><caption>Jay</caption>
+        </table>
       <para>
         <figure>
           <media alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67).">
@@ -90,9 +87,7 @@
   <title>Try It: Finding Rates of Change</title>
       <para>Jay was racing bikes with a friend on the way to the park. A table and a graph of the times are shown below.</para>
       <table class="os-raise-midsizetable">
-        <caption>Jay</caption>
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>Time (minutes)</emphasis>
             </entry>
@@ -100,9 +95,7 @@
               <emphasis>Distance (miles)</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         0
       </entry>
@@ -150,8 +143,8 @@
         5.67
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup><caption>Jay</caption>
+        </table>
       <para>
         <figure>
           <media alt="A SCATTERPLOT THAT SHOWS THE RELATIONSHIP BETWEEN TIME IN MINUTES (X-AXIS) AND DISTANCE IN MILES (Y-AXIS). PLOTTED POINTS INCLUDE (0, 0), (5, 0.84), (10, 1.86), (15, 3), (20, 4.27), AND (25, 5.67). ">

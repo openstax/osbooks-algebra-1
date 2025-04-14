@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>6.7.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -88,8 +89,7 @@
           <problem>
             <para>Look at each polynomial. Review the steps to decide which strategy to use. </para>
             <table class="os-raise-wideequaltable">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>
             Polynomial
@@ -107,9 +107,7 @@
           </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
             \(x^2 − 3x − 10\)
           </entry>
@@ -130,15 +128,13 @@
                   <entry/>
                   <entry/>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
           <solution>
             <para>Compare your answers:</para>
             <table class="os-raise-wideequaltable">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>
           Polynomial
@@ -155,9 +151,7 @@
         </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           \(x^2 − 3x − 10\)
         </entry>
@@ -190,8 +184,7 @@
           a binomial of squares
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>

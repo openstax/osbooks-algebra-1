@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.7.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -109,10 +110,7 @@
       </para>
       <para>Find the slope of the line whose table of values is shown:</para>
       <table class="os-raise-horizontaltable">
-        <thead>
-  </thead>
-        <tbody>
-          <row>
+        <tgroup cols="6"><tbody><row>
             <entry>
               <emphasis>\(x\)</emphasis>
             </entry>
@@ -132,8 +130,7 @@
             <entry>13</entry>
             <entry>16</entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para><emphasis>Step 1</emphasis> - Locate two points on the line whose coordinates are integers.</para>
       <para>\((3,4)\) \((5,7)\)</para>
       <para><emphasis>Step 2</emphasis> - Label the points \((x_1, y_1)\) and \((x_2,y_2)\).</para>
@@ -146,14 +143,11 @@
       <section class="check-understanding">
         <note class="try look-at-me"/>
     <title>Try It: Finding Slope from a Table</title>
-        <exercise id="1187649f-cac9-495b-92ce-31992caae26f" class="multiple-choice">
+        <exercise id="_1187649f-cac9-495b-92ce-31992caae26f" class="multiple-choice">
           <problem>
             <para>Find the slope of the line whose table of values is shown:</para>
             <table class="os-raise-horizontaltable">
-              <thead>
-        </thead>
-              <tbody>
-                <row>
+              <tgroup cols="5"><tbody><row>
                   <entry>
                     <emphasis>\(x\)</emphasis>
                   </entry>
@@ -171,8 +165,7 @@
                   <entry>6</entry>
                   <entry>8</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Enter your answer here:</para>
           </problem>
           <solution>

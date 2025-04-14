@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>2.11.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -27,8 +28,7 @@
       </figure>
       <para id="para-00005">Similarly, for an inequality in two variables, the boundary line is shown with a solid or dashed line to show whether or not it the line is included in the solution. </para>
       <table class="os-raise-textheavytable" id="table-00001">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis/>
             </entry>
@@ -36,9 +36,7 @@
               <emphasis/>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>\( Ax + By &lt; C \)</entry>
             <entry>\( Ax + By \leq C \)</entry>
           </row>
@@ -62,8 +60,7 @@
               <emphasis>Boundary line is solid. </emphasis>
             </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para id="para-00006">Now, let’s take a look at what we found in the example above. We’ll start by graphing the line \( y = x + 4 \), and then we’ll plot the five points we tested, as shown in the graph. See the figure below.
 </para>
       <figure id="fig-00003">
@@ -113,7 +110,7 @@
       <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
       <!--Q#-->
       <example id="exam-00001">
-        <exercise id="exer-00001">
+        <exercise>
           <problem id="prob-00001">
             <para id="para-00023">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>

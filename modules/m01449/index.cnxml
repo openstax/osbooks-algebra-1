@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.11.4: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,10 +11,7 @@
 <para id="para-00001">Example 1</para>
 <para id="para-00002">Data has been entered into a table that shows exponential decay.  How would you write the equation that represents this model? </para>
 <table class="os-raise-horizontaltable" id="table-00001">
-  <thead>
-  </thead>
-  <tbody>
-    <row>
+  <tgroup cols="5"><tbody><row>
       <entry><emphasis>\(x\)</emphasis></entry><entry>0</entry>
       <entry>1</entry>
       <entry>2</entry>
@@ -25,8 +23,7 @@
       <entry>50</entry>
       <entry>25</entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <para id="para-00003">The formula for exponential decay is \(y=a \cdot (1-b)^x\) where a is the starting value and \(b\) is the amount that value decreases each unit of time \(x\).</para>
 <para id="para-00004">The pattern for the decay is starting at 200 and then decreasing by 12 with only 12 remaining. The equation is \(y=200 \cdot (1-\frac12)^x\) or \(y=200 \cdot (\frac12)^x\).</para>
@@ -42,16 +39,14 @@
 <title>Try It: Writing Exponential Decay Functions</title>
 
 <!--Q#-->
-<example id="exam-00001"><exercise id="exer-00001">
+<example id="exam-00001"><exercise>
   <problem id="prob-00001">
 
     <para id="para-00009">
     <para id="para-00010">What exponential decay equation is modeled by the table of data given? </para>
   </para>
 <table class="os-raise-horizontaltable" id="table-00002">
-  <thead/>
-  <tbody>
-      <row>
+  <tgroup cols="6"><tbody><row>
         <entry><emphasis>\(x\)</emphasis></entry><entry>1</entry>
         <entry>2</entry>
         <entry>3</entry>
@@ -65,8 +60,7 @@
         <entry>266</entry>
         <entry>1034</entry>
       </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 
 
@@ -87,7 +81,7 @@
 </example><!--Interaction End -->
 
 <para id="para-00014">A computer is purchased for $1,000 and loses \(\frac15\) of its value per year.</para>
-<example id="exam-00002"><exercise id="exer-00002">
+<example id="exam-00002"><exercise>
   <problem id="prob-00002">
 
     <para id="para-00015">Write a function for the computer’s value, \(V(t)\), \(t\) years after it is purchased.</para>

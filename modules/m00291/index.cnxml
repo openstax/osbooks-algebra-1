@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>1.13.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -13,10 +14,7 @@
       <para>Sadie pays $15 a month for ballet classes plus $5 each lesson she takes.</para>
       <para>First, make a table of values to represent how much Sadie pays for the first 5 lessons.</para>
       <table class="os-raise-horizontaltable">
-        <thead>
-  </thead>
-        <tbody>
-          <row>
+        <tgroup cols="7"><tbody><row>
             <entry>
               <emphasis>Number of Lessons</emphasis>
             </entry>
@@ -38,8 +36,7 @@
             <entry>35</entry>
             <entry>40</entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>Next, graph all of the points:</para>
       <para>
         <figure>
@@ -64,10 +61,7 @@
           <problem>
             <para>Write an equation from the table:</para>
             <table class="os-raise-horizontaltable">
-              <thead>
-  </thead>
-              <tbody>
-                <row>
+              <tgroup cols="6"><tbody><row>
                   <entry>
                     <emphasis>\(x\)</emphasis>
                   </entry>
@@ -87,8 +81,7 @@
                   <entry>19</entry>
                   <entry>23</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution>

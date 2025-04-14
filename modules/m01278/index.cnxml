@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.3.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,13 +11,9 @@
   growth pattern as the others?</para>
 <div class="os-raise-d-flex os-raise-justify-content-between">
   <table class="os-raise-skinnytable">
-    <caption>Table A</caption>
-    <thead>
-      <row>
+    <tgroup cols="2"><tbody><row>
         <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(y\)</emphasis></entry></row>
-    </thead>
-    <tbody>
-      <row>
+    <row>
         <entry>
           1
         </entry>
@@ -56,16 +53,12 @@
           64
         </entry>
       </row>
-    </tbody>
-  </table>
+    </tbody></tgroup><caption>Table A</caption>
+    </table>
   <table class="os-raise-skinnytable">
-    <caption>Table B</caption>
-    <thead>
-      <row>
+    <tgroup cols="2"><tbody><row>
         <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(y\)</emphasis></entry></row>
-    </thead>
-    <tbody>
-      <row>
+    <row>
         <entry>
           0
         </entry>
@@ -105,18 +98,14 @@
           64
         </entry>
       </row>
-    </tbody>
-  </table>
+    </tbody></tgroup><caption>Table B</caption>
+    </table>
 </div>
 <div class="os-raise-d-flex os-raise-justify-content-between">
   <table class="os-raise-skinnytable">
-    <caption>Table C</caption>
-    <thead>
-      <row>
+    <tgroup cols="2"><tbody><row>
         <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(y\)</emphasis></entry></row>
-    </thead>
-    <tbody>
-      <row>
+    <row>
         <entry>
           0
         </entry>
@@ -157,16 +146,12 @@
           256
         </entry>
       </row>
-    </tbody>
-  </table>
+    </tbody></tgroup><caption>Table C</caption>
+    </table>
   <table class="os-raise-skinnytable">
-    <caption>Table D</caption>
-    <thead>
-      <row>
+    <tgroup cols="2"><tbody><row>
         <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(y\)</emphasis></entry></row>
-    </thead>
-    <tbody>
-      <row>
+    <row>
         <entry>
           0
         </entry>
@@ -206,8 +191,8 @@
           20
         </entry>
       </row>
-    </tbody>
-  </table>
+    </tbody></tgroup><caption>Table D</caption>
+    </table>
 </div>
 
 <para>When determining growth, there are a few ways to check. When given a table, you could graph each, or you could check
@@ -228,12 +213,9 @@
 <para>The table shows the height, in centimeters, of the water in a swimming pool at different times since the pool started
   to be filled.</para>
 <table class="os-raise-skinnytable">
-  <thead>
-    <row>
+  <tgroup cols="2"><tbody><row>
       <entry><emphasis>minutes</emphasis></entry><entry><emphasis>height</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry>
         0
       </entry>
@@ -265,8 +247,7 @@
         151.5
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <section class="check-understanding"><note class="try look-at-me"/><title>Try It: Exploring Linear and Exponential Growth</title><exercise id="f569274a-d28f-40e6-99ed-cd30e693f365" class="multiple-choice"><problem><para> Does the height of the water have a common difference or a common ratio? </para>
         </problem><solution><para>Correct! Common Difference</para><para>Nice try! The correct answer is: Common Difference</para></solution></exercise><example><exercise>

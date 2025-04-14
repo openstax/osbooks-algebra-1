@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.15.3: The Coordinates of the Vertex</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -8,7 +9,7 @@
   <content>
     <section id="sect-00001">
       <example id="exam-00001">
-        <exercise id="exer-00001">
+        <exercise>
           <problem id="prob-00001">
             <para id="para-00001">Use the graphing tool or technology outside the course. Graph \(y=x^2\). Then, add different numbers to \(x\) before it is squared (for example, \(y=(x+4)^2\), \(y=(x−3)^2\)) and observe how the graph changes.</para>
             <para id="para-00002">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
@@ -19,7 +20,7 @@
           </solution>
         </exercise>
       </example>
-      <list class="os-raise-noindent" start="2" type="enumerated" id="list-00001">
+      <list class="os-raise-noindent" type="enumerated" id="list-00001">
         <item>Use the graphing tool or technology outside the course. Graph \(y=(x−1)^2\). Then, experiment with each of the following changes to the function and see how they affect the graph and the vertex.</item>
       </list>
       <list class="os-raise-noindent" type="enumerated" id="list-00002">
@@ -27,7 +28,7 @@
       </list>
       <div class="os-raise-ib-desmos-gc" data-schema-version="1.0"/>
       <example id="exam-00002">
-        <exercise id="exer-00002">
+        <exercise>
           <problem id="prob-00002">
             <para id="para-00005">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
@@ -38,7 +39,7 @@
         <para id="para-00007">Adding a constant term moves it up and subtracting moves it down. The \(x\)-coordinate of the vertex doesn't change.</para>
       </div>
       <example id="exam-00003">
-        <exercise id="exer-00003">
+        <exercise>
           <problem id="prob-00003">
             <para id="para-00008"> Multiplying \((x−1)^2\) by different coefficients (for example: \(y=3(x−1)^2\), \(y=-2(x−1)^2\), \(y=0.5(x−1)^2\). </para>
             <para id="para-00009">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
@@ -51,7 +52,7 @@
       </example>
       <section class="check-understanding" id="sect-00002">
         <title>Activity</title>
-        <exercise id="f0b34626-53c2-444d-bdc8-ff755e0788a6" class="multiple-choice" id="exer-00004">
+        <exercise id="f0b34626-53c2-444d-bdc8-ff755e0788a6" class="multiple-choice">
           <problem id="prob-00004">
             <para id="para-00012">Enter your answer here:</para>
             <para id="para-00013">Without graphing, find the coordinates of the vertex of \(y=(x+10)^2\) and determine if it opens up or down.</para>
@@ -62,7 +63,7 @@
             <para id="para-00016">The correct answer is is -10. The \(x\)-coordinate of the vertex of this equation is -10.</para>
           </solution>
         </exercise>
-        <exercise id="78115021-dd69-4349-a6b0-ee2dbb7a4169" class="multiple-choice" id="exer-00005">
+        <exercise id="_78115021-dd69-4349-a6b0-ee2dbb7a4169" class="multiple-choice">
           <problem id="prob-00005">
             <para id="para-00017">Enter your answer here:</para>
             <para id="para-00018"> What is the \(y\)-coordinate of the vertex?</para>
@@ -72,7 +73,7 @@
             <para id="para-00020">The correct answer is is 0. The \(y\)-coordinate of the vertex of this equation is 0.</para>
           </solution>
         </exercise>
-        <exercise id="fa086711-1ff1-437c-a416-95dafb171f2b" class="multiple-choice" id="exer-00006">
+        <exercise id="fa086711-1ff1-437c-a416-95dafb171f2b" class="multiple-choice">
           <problem id="prob-00006">
             <para id="para-00021"> Does the graph open up or down? </para>
           </problem>
@@ -83,15 +84,14 @@
         </exercise>
       </section>
       <example id="exam-00004">
-        <exercise id="exer-00007">
+        <exercise>
           <problem id="prob-00007">
             <para id="para-00024">Select the <emphasis>solution</emphasis> button to see the solutions to question 3 organized into a table.</para>
           </problem>
           <solution id="sol-00006">
             <para id="para-00025">Compare your Answer:</para>
             <table class="os-raise-midsizetable" id="table-00001">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>
           Equation
@@ -108,9 +108,7 @@
         </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           \(y=(x+10)^2\)
         </entry>
@@ -121,13 +119,12 @@
           Up
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>
       <section class="check-understanding" id="sect-00003">
-        <exercise id="888b0421-a3b8-4c69-954a-7b61207524da" class="multiple-choice" id="exer-00008">
+        <exercise id="_888b0421-a3b8-4c69-954a-7b61207524da" class="multiple-choice">
           <problem id="prob-00008">
             <para id="para-00026">Enter your answer here:</para>
             <para id="para-00027">Without graphing, find the coordinates of the vertex of \(y=(x−4)^2+8\) and determine if it opens up or down.</para>
@@ -138,7 +135,7 @@
             <para id="para-00030">The correct answer is is 4. The \(x\)-coordinate of the vertex of this equation is 4.</para>
           </solution>
         </exercise>
-        <exercise id="bbb6f97f-b144-4be0-89e9-52604b454621" class="multiple-choice" id="exer-00009">
+        <exercise id="bbb6f97f-b144-4be0-89e9-52604b454621" class="multiple-choice">
           <problem id="prob-00009">
             <para id="para-00031">Enter your answer here:</para>
             <para id="para-00032"> What is the \(y\)-coordinate of the vertex? </para>
@@ -148,7 +145,7 @@
             <para id="para-00034">The correct answer is is 8. The \(y\)-coordinate of the vertex of this equation is 8.</para>
           </solution>
         </exercise>
-        <exercise id="798d9134-c715-4e30-8eda-95ddc060c136" class="multiple-choice" id="exer-00010">
+        <exercise id="_798d9134-c715-4e30-8eda-95ddc060c136" class="multiple-choice">
           <problem id="prob-00010">
             <para id="para-00035"> Does the graph open up or down? </para>
           </problem>
@@ -159,15 +156,14 @@
         </exercise>
       </section>
       <example id="exam-00005">
-        <exercise id="exer-00011">
+        <exercise>
           <problem id="prob-00011">
             <para id="para-00038">Select the <emphasis>solution</emphasis> button to see the solutions to questions 3 – 4 organized into a table.</para>
           </problem>
           <solution id="sol-00010">
             <para id="para-00039">Compare your Answer:</para>
             <table class="os-raise-midsizetable" id="table-00002">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>
           Equation
@@ -184,9 +180,7 @@
         </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           \(y=(x+10)^2\)
         </entry>
@@ -208,14 +202,13 @@
           Up
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>
       <para id="para-00040">What patterns do you notice? Can you use those ideas to find the vertices for the next equation? What do you know about whether it will open up or down?</para>
       <section class="check-understanding" id="sect-00004">
-        <exercise id="e97a365f-1e27-4b93-bd6d-96a10e2e7517" class="multiple-choice" id="exer-00012">
+        <exercise id="e97a365f-1e27-4b93-bd6d-96a10e2e7517" class="multiple-choice">
           <problem id="prob-00012">
             <para id="para-00041">Enter your answer here:</para>
             <para id="para-00042">Without graphing, find the coordinates of the vertex of \(y=-(x−4)^2+8\) and determine if it opens up or down.</para>
@@ -226,7 +219,7 @@
             <para id="para-00045">The correct answer is is 4. The x-coordinate of the vertex of this equation is 4.</para>
           </solution>
         </exercise>
-        <exercise id="cc967510-ac1e-4d56-9e53-cfdeb3d963a6" class="multiple-choice" id="exer-00013">
+        <exercise id="cc967510-ac1e-4d56-9e53-cfdeb3d963a6" class="multiple-choice">
           <problem id="prob-00013">
             <para id="para-00046">Enter your answer here:</para>
             <para id="para-00047"> What is the \(y\)-coordinate of the vertex?</para>
@@ -236,7 +229,7 @@
             <para id="para-00049">The correct answer is is 8. The \(y\)-coordinate of the vertex of this equation is 8.</para>
           </solution>
         </exercise>
-        <exercise id="82feb2b3-eeb0-4f87-a8d9-d9ec880ba7e9" class="multiple-choice" id="exer-00014">
+        <exercise id="_82feb2b3-eeb0-4f87-a8d9-d9ec880ba7e9" class="multiple-choice">
           <problem id="prob-00014">
             <para id="para-00050"> Does the graph open up or down?</para>
           </problem>
@@ -247,15 +240,14 @@
         </exercise>
       </section>
       <example id="exam-00006">
-        <exercise id="exer-00015">
+        <exercise>
           <problem id="prob-00015">
             <para id="para-00053">Select the<emphasis> solution </emphasis>button to see the solutions to questions 3 – 5 organized into a table</para>
           </problem>
           <solution id="sol-00014">
             <para id="para-00054">Compare your Answer:</para>
             <table class="os-raise-midsizetable" id="table-00003">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>
           Equation
@@ -272,9 +264,7 @@
         </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           \(y=(x+10)^2\)
         </entry>
@@ -307,13 +297,12 @@
           Down
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>
       <section class="check-understanding" id="sect-00005">
-        <exercise id="b7ffe64f-8102-4a51-9f6f-84b79dbfdc7e" class="multiple-choice" id="exer-00016">
+        <exercise id="b7ffe64f-8102-4a51-9f6f-84b79dbfdc7e" class="multiple-choice">
           <problem id="prob-00016">
             <para id="para-00055">Enter your answer here:</para>
             <para id="para-00056">The next equation, \(y=x^2−7\), looks a little different from the previous ones. Can you use what you’ve learned to find the coordinates of its vertex and determine if it opens up or down.</para>
@@ -324,7 +313,7 @@
             <para id="para-00059">The correct answer is is 0. The x-coordinate of the vertex of this equation is 0.</para>
           </solution>
         </exercise>
-        <exercise id="063d8b56-a3bd-4556-aef6-27009f2924b7" class="multiple-choice" id="exer-00017">
+        <exercise id="_063d8b56-a3bd-4556-aef6-27009f2924b7" class="multiple-choice">
           <problem id="prob-00017">
             <para id="para-00060">Enter your answer here:</para>
             <para id="para-00061"> What is the \(y\)-coordinate of the vertex?</para>
@@ -334,7 +323,7 @@
             <para id="para-00063">The correct answer is is -7. The \(y\)-coordinate of the vertex of this equation is -7.</para>
           </solution>
         </exercise>
-        <exercise id="1784d2b5-6e56-46d5-bb4f-108a5d865091" class="multiple-choice" id="exer-00018">
+        <exercise id="_1784d2b5-6e56-46d5-bb4f-108a5d865091" class="multiple-choice">
           <problem id="prob-00018">
             <para id="para-00064"> Does the graph open up or down?</para>
           </problem>
@@ -345,15 +334,14 @@
         </exercise>
       </section>
       <example id="exam-00007">
-        <exercise id="exer-00019">
+        <exercise>
           <problem id="prob-00019">
             <para id="para-00067">Select the<emphasis> solution </emphasis>button to see the solutions to questions 3 – 6 organized into a table</para>
           </problem>
           <solution id="sol-00018">
             <para id="para-00068">Compare your Answer:</para>
             <table class="os-raise-midsizetable" id="table-00004">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>
           Equation
@@ -370,9 +358,7 @@
         </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           \(y=(x+10)^2\)
         </entry>
@@ -416,16 +402,15 @@
           Up
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>
-      <list class="os-raise-noindent" start="7" type="enumerated" id="list-00003">
+      <list class="os-raise-noindent" type="enumerated" id="list-00003">
         <item>Are the patterns you noticed still happening? See if you can apply those patterns to the following equations.</item>
       </list>
       <section class="check-understanding" id="sect-00006">
-        <exercise id="8fd2bb2b-35a9-49b3-93e0-6b1010b68b27" class="multiple-choice" id="exer-00020">
+        <exercise id="_8fd2bb2b-35a9-49b3-93e0-6b1010b68b27" class="multiple-choice">
           <problem id="prob-00020">
             <para id="para-00069">Enter your answer here:</para>
             <para id="para-00070"> For the equation \(y=\frac{1}{2}(x+3)^2−5\), what is the \(x\)-coordinate of the vertex?</para>
@@ -435,7 +420,7 @@
             <para id="para-00072">The correct answer is is \(–3\). The \(x\)-coordinate of the vertex of this equation is \(–3\).</para>
           </solution>
         </exercise>
-        <exercise id="97021ac7-5208-432a-a6f5-432c6448485f" class="multiple-choice" id="exer-00021">
+        <exercise id="_97021ac7-5208-432a-a6f5-432c6448485f" class="multiple-choice">
           <problem id="prob-00021">
             <para id="para-00073">Enter your answer here:</para>
             <para id="para-00074"> For the equation \(y=\frac{1}{2}(x+3)^2−5\), what is the \(y\)-coordinate of the vertex?</para>
@@ -445,7 +430,7 @@
             <para id="para-00076">The correct answer is is \(n\). The \(y\)-coordinate of the vertex of this equation is \(-5\).</para>
           </solution>
         </exercise>
-        <exercise id="1d9cfcdf-595c-471d-9307-16dd20ce2f36" class="multiple-choice" id="exer-00022">
+        <exercise id="_1d9cfcdf-595c-471d-9307-16dd20ce2f36" class="multiple-choice">
           <problem id="prob-00022">
             <para id="para-00077"> For the equation \(y=\frac{1}{2}(x+3)^2−5\), does the graph open up or down?</para>
           </problem>
@@ -454,7 +439,7 @@
             <para id="para-00079">Incorrect. The correct answer is Up.The graph opens upward. The squared term has a positive coefficient \(\frac{1}{2})\). </para>
           </solution>
         </exercise>
-        <exercise id="16199d79-2505-408f-b4ff-e5b931fa83bb" class="multiple-choice" id="exer-00023">
+        <exercise id="_16199d79-2505-408f-b4ff-e5b931fa83bb" class="multiple-choice">
           <problem id="prob-00023">
             <para id="para-00080">Enter your answer here:</para>
             <para id="para-00081"> For the equation \(y=-(x+100)^2+50\), what is the \(x\)-coordinate of the vertex? </para>
@@ -464,7 +449,7 @@
             <para id="para-00083">The correct answer is is \(–100\). The \(x\)-coordinate of the vertex of this equation is \(–100\).</para>
           </solution>
         </exercise>
-        <exercise id="a1771807-d7bb-465d-9019-eabb1fce4737" class="multiple-choice" id="exer-00024">
+        <exercise id="a1771807-d7bb-465d-9019-eabb1fce4737" class="multiple-choice">
           <problem id="prob-00024">
             <para id="para-00084">Enter your answer here:</para>
             <para id="para-00085"> For the equation \(y=-(x+100)^2+50\), what is the \(y\)-coordinate of the vertex?</para>
@@ -474,7 +459,7 @@
             <para id="para-00087">The correct answer is is \(n\). The \(y\)-coordinate of the vertex of this equation is \(50\).</para>
           </solution>
         </exercise>
-        <exercise id="7fc8f227-f6be-48a3-97bf-c9787f891f76" class="multiple-choice" id="exer-00025">
+        <exercise id="_7fc8f227-f6be-48a3-97bf-c9787f891f76" class="multiple-choice">
           <problem id="prob-00025">
             <para id="para-00088"> For the equation \(y=-(x+100)^2+50\), does the graph open up or down? </para>
           </problem>
@@ -485,15 +470,14 @@
         </exercise>
       </section>
       <example id="exam-00008">
-        <exercise id="exer-00026">
+        <exercise>
           <problem id="prob-00026">
             <para id="para-00091">Select the <emphasis>solution</emphasis> button to see the solutions to questions 3 – 7 organized into a table.</para>
           </problem>
           <solution id="sol-00025">
             <para id="para-00092">Compare your Answer:</para>
             <table class="os-raise-midsizetable" id="table-00005">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>
           Equation
@@ -510,9 +494,7 @@
         </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           \(y=(x+10)^2\)
         </entry>
@@ -589,14 +571,13 @@
           c. _____
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para id="para-00093">The table now has all the equations from questions 3 – 7, plus an additional row. Use this information to answer question 8. Do the patterns you noticed help you fill in the last row?</para>
           </solution>
         </exercise>
       </example>
       <section class="check-understanding" id="sect-00007">
-        <exercise id="06c86bbb-e9b6-4927-8751-95ce8e76aef4" class="multiple-choice" id="exer-00027">
+        <exercise id="_06c86bbb-e9b6-4927-8751-95ce8e76aef4" class="multiple-choice">
           <problem id="prob-00027">
             <para id="para-00094">Enter your answer here:</para>
             <para id="para-00095">Use the completed rows of the table to hypothesize about the coordinates of the vertex of the equation in the last row, and whether the parabola opens up or down.</para>
@@ -607,7 +588,7 @@
             <para id="para-00098">The correct answer is is –\(m\). The \(x\)-coordinate of the vertex of this equation is –\(m\).</para>
           </solution>
         </exercise>
-        <exercise id="8e9f2598-2017-457c-bd50-9015f7ebfbb7" class="multiple-choice" id="exer-00028">
+        <exercise id="_8e9f2598-2017-457c-bd50-9015f7ebfbb7" class="multiple-choice">
           <problem id="prob-00028">
             <para id="para-00099">Enter your answer here:</para>
             <para id="para-00100"> For the equation \(y=a(x+m)^2+n\), what is the \(y\)-coordinate of the vertex? </para>
@@ -617,7 +598,7 @@
             <para id="para-00102">The correct answer is is \(n\). The \(y\)-coordinate of the vertex of this equation is \(n\).</para>
           </solution>
         </exercise>
-        <exercise id="10468be6-f473-420b-b5a3-b14329156584" class="multiple-choice" id="exer-00029">
+        <exercise id="_10468be6-f473-420b-b5a3-b14329156584" class="multiple-choice">
           <problem id="prob-00029">
             <para id="para-00103"> For the equation \(y=a(x+m)^2+n\), can you determine if the graph opens up or down with the information you are given? </para>
           </problem>
@@ -634,7 +615,7 @@
       </media>
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
       <example id="exam-00009">
-        <exercise id="exer-00030">
+        <exercise>
           <problem id="prob-00030">
             <!-- INSERT ANY VALID HTML HERE -->
             <!-- INSERT ANY VALID HTML HERE -->
@@ -642,7 +623,7 @@
         </exercise>
       </example>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1" id="exer-00031">
+      <exercise class="RFM1">
         <problem id="prob-00031">
           <title>Extending Your Thinking</title>
           <para id="para-00107">Examine the graph below, then use it to answer questions 1 – 3.</para>
@@ -660,7 +641,7 @@
           <para id="para-00111">Compare your answer: 3</para>
         </solution>
       </exercise>
-      <exercise class="RFM1" id="exer-00032">
+      <exercise class="RFM1">
         <problem id="prob-00032">
           <para id="para-00112">What is the \(y\)-coordinate of the vertex of this graph?</para>
         </problem>
@@ -669,7 +650,7 @@
           <para id="para-00114">Compare your answer: -4</para>
         </solution>
       </exercise>
-      <exercise class="RFM1" id="exer-00033">
+      <exercise class="RFM1">
         <problem id="prob-00033">
           <para id="para-00115">Which quadratic equation best fits the function in the graph? </para>
         </problem>

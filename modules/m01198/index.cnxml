@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.18.5: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,8 +11,7 @@
 <para>A recursive formula defines each term of a sequence using the previous terms.</para>
 <table class="os-raise-doubleheadertable">
  
-  <thead>
-    <row>
+  <tgroup cols="3"><tbody><row>
       <entry><emphasis>
         Sequence
       </emphasis></entry><entry><emphasis>
@@ -19,8 +19,7 @@
       </emphasis></entry><entry><emphasis>
         Explicit or nth Term Formula
       </emphasis></entry></row>
-  </thead><tbody>
-    <row>
+  <row>
       <entry><emphasis>
         Arithmetic
       </emphasis></entry><entry>
@@ -43,8 +42,7 @@
          Where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <para><emphasis>Example 1</emphasis></para>
 <para>Find the explicit general formula for the arithmetic sequence given in recursive form.</para>
@@ -65,9 +63,7 @@
 <para>Check by finding the first 3 terms using each formula:</para>
 
 <table class="os-raise-horizontaltable">
-  <thead/>
-  <tbody>
-    <row>
+  <tgroup cols="4"><tbody><row>
       <entry><emphasis>
         \(a_1=5\), \(a(n)=a_n=a_{n-1}+6\), \(n\geq2\)
       </emphasis></entry><entry>
@@ -93,8 +89,7 @@
        \(a_3=5+(3-1)6=17\)
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 
 <para>Both formulas produce the same first 3 terms: 5, 11, 17.</para>
@@ -117,9 +112,7 @@
 
 
 <table class="os-raise-horizontaltable">
-  <thead/>
-  <tbody>
-    <row>
+  <tgroup cols="4"><tbody><row>
       <entry><emphasis>
         \(b_1=4\),\(b_n=b_{n-1}\cdot 5\),\(n\geq2\)
       </emphasis></entry><entry>
@@ -147,8 +140,7 @@
         \(a_3=4(5)^{3-1}=100\)
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 
 <para>Both formulas produce the same first 3 terms: 4, 20, 100.</para>

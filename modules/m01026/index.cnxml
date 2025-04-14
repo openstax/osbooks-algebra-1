@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.10.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -18,8 +19,7 @@
         </figure>
       </para>
       <table class="os-raise-wideequaltable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis>What can we tell about the populations?</emphasis>
             </entry>
@@ -30,9 +30,7 @@
               <emphasis>How can we convey this with function notation? </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>In the early 1900s, California had a smaller population than Texas.
       </entry>
             <entry>The graph of \(C\) is below the graph of \(T\) when \(x\)<emphasis> </emphasis>is 1900.
@@ -76,8 +74,7 @@
             <entry>\(\frac{C(2010)-C(1900)}{201-1900}&gt;\frac{T(2010)-T(1900)}{2010-1900}\)
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>Examine the graph given above that displays the populations of California and Texas over time.</para>
       <section class="check-understanding">
         <note class="try look-at-me"/>

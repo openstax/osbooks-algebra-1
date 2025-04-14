@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.14.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -27,12 +28,9 @@
 </list>
 
 <table class="os-raise-doubleheadertable">
-  <thead>
-    <row>
+  <tgroup cols="3"><tbody><row>
       <entry><emphasis/></entry><entry><emphasis>Linear Model</emphasis></entry><entry><emphasis>Exponential Model</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry><emphasis>General Form</emphasis></entry><entry>
         \(f(x)=ax+b\)
       </entry>
@@ -67,17 +65,12 @@
       </entry>
     </row>
 
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <div class="os-raise-d-flex os-raise-justify-content-between"><table class="os-raise-skinnytable">
-<caption>Linear Model Table</caption>
-  <thead>
-    <row>
+<tgroup cols="2"><tbody><row>
       <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(f(x)\)</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry> 0 </entry>
       <entry> 0 </entry>
     </row>
@@ -93,17 +86,13 @@
       <entry> 3 </entry>
       <entry> 4.50 </entry>
     </row>
-  </tbody>
-</table> 
+  </tbody></tgroup><caption>Linear Model Table</caption>
+  </table> 
 
   <table class="os-raise-skinnytable">
-    <caption>Exponential Model Table</caption>
-  <thead>
-    <row>
+    <tgroup cols="2"><tbody><row>
       <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(f(x)\)</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry> 0 </entry>
       <entry> 0.01 </entry>
     </row>
@@ -119,25 +108,22 @@
       <entry> 3 </entry>
       <entry> 0.27 </entry>
     </row>
-  </tbody>
-</table></div>
+  </tbody></tgroup><caption>Exponential Model Table</caption>
+  </table></div>
 
-<list class="os-raise-noindent" start="2" type="enumerated">
+<list class="os-raise-noindent" type="enumerated">
   <item> To create the table for Option A, add $1.50 to each consecutive term. To create the table for Option B, multiply
     each term by 3 to get the next term. </item>
 </list>
 <para>Option A table
 </para><table class="os-raise-midsizetable">
-  <thead>
-    <row>
+  <tgroup cols="2"><tbody><row>
       <entry><emphasis>
         Number of bushels
       </emphasis></entry><entry><emphasis>
         Amount of money earned
       </emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry>
         1
       </entry>
@@ -185,21 +171,17 @@
         9.00
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <para>Option B table</para>
 <table class="os-raise-midsizetable">
-  <thead>
-    <row>
+  <tgroup cols="2"><tbody><row>
       <entry><emphasis>
         Number of bushels
       </emphasis></entry><entry><emphasis>
         Amount of money earned
       </emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry>
         1
       </entry>
@@ -247,19 +229,18 @@
         7.29
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
-<list class="os-raise-noindent" start="3" type="enumerated">
+<list class="os-raise-noindent" type="enumerated">
   <item> To determine which scenario is better when she picks 6 bushels, you can look at the values in your table, or you
     can write the equation modeling each scenario and substitute in 6 for \(x\). For 6 bushels, Option A is better at
     $9.00. </item>
 </list>
-<list class="os-raise-noindent" start="4" type="enumerated">
+<list class="os-raise-noindent" type="enumerated">
   <item> To determine which scenario is better when she picks 12 bushels, you can extend the table or use the graph or
     equation. Option A is $18.00 for 12 bushels, and Option B is $5,314.41 for 12 bushels, so Option B is better. </item>
 </list>
-<list class="os-raise-noindent" start="5" type="enumerated">
+<list class="os-raise-noindent" type="enumerated">
   <item> To determine where Option B becomes the better option, you can extend the table, or you can graph the functions
     and find the \(x\)-value where Option B surpasses Option A. You can also use problems 3 and 4 to help you. The
     number of bushels is more than 6 but less than 12. Option B is better if you are going to pick 7 or more bushels of

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.3.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -20,8 +21,7 @@
       <para>First, try to find the pattern if the missing squares were actually there.</para>
       <para>Make a table:</para>
       <table class="os-raise-wideequaltable">
-        <thead>
-          <row>
+        <tgroup cols="4"><tbody><row>
             <entry>
               <emphasis> Step </emphasis>
             </entry>
@@ -35,9 +35,7 @@
               <emphasis> # of squares </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry> 1 </entry>
             <entry> 2 </entry>
             <entry> 2 </entry>
@@ -61,8 +59,7 @@
             <entry> \(n + 1\) </entry>
             <entry> \((n+1)^2-2\) </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>There would be \((n+1)(n+1)\) squares, but there are 2 missing from each step, so the equation would be:</para>
       <para>\(y=(n+1)^2-2\).</para>
       <note class="try look-at-me"/>
@@ -85,8 +82,7 @@
             <para>Here is how to represent the quadratic sequence with an equation:</para>
             <para>Notice there are no missing squares. Complete the table for each step:</para>
             <table class="os-raise-wideequaltable">
-              <thead>
-                <row>
+              <tgroup cols="4"><tbody><row>
                   <entry>
                     <emphasis> Step </emphasis>
                   </entry>
@@ -100,9 +96,7 @@
                     <emphasis> # of squares </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry> 1 </entry>
                   <entry> 4 </entry>
                   <entry> 4 </entry>
@@ -126,8 +120,7 @@
                   <entry> \(n + 3\) </entry>
                   <entry> \((n+3)^2\) </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>The number of columns is always \(n+3\), and the number of rows is \(n+3\).</para>
             <para>The number of squares will be represented by \(y=(n+3)^2\).</para>
           </solution>

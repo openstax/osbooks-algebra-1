@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>8.6.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -25,8 +26,7 @@
       </para>
       <para><emphasis>Step 2</emphasis> - Then we multiply the corresponding rows and columns.</para>
       <table class="os-raise-doubleheadertable os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis/>
             </entry>
@@ -41,9 +41,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
               <emphasis>
         \(x\)
@@ -69,12 +67,10 @@
         \(3 \cdot 5 = 15\)
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>This leaves the diagram shown here.</para>
       <table class="os-raise-doubleheadertable os-raise-skinnytable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis/>
             </entry>
@@ -89,9 +85,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
               <emphasis>
         \(x\)
@@ -117,8 +111,7 @@
         15
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para><emphasis>Step 3</emphasis> - We can use this diagram to find our expression in standard form.</para>
       <para>
         <figure>
@@ -139,8 +132,7 @@
       <para>So \((x − 6)(x − 9)\) becomes \((x + (-6))(x + (-9))\). Now the process is the same.</para>
       <para><emphasis>Step 1</emphasis> - Let’s populate the table.</para>
       <table class="os-raise-doubleheadertable os-raise-skinnytable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis/>
             </entry>
@@ -155,9 +147,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
               <emphasis>
         \(x\)
@@ -175,12 +165,10 @@
             <entry> </entry>
             <entry> </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para><emphasis>Step 2</emphasis> - Multiply the columns and rows.</para>
       <table class="os-raise-doubleheadertable os-raise-skinnytable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis/>
             </entry>
@@ -195,9 +183,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
               <emphasis>
         \(x\)
@@ -223,8 +209,7 @@
         54
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para><emphasis>Step 3</emphasis> - Use the diagram to write the expression in standard form.</para>
       <para>\(x^2−15x+54\)</para>
       <para>The expressions are equivalent.</para>
@@ -248,8 +233,7 @@
           <problem>
             <para>Use a diagram to write \((x + 2)(x + 7)\) in standard form.</para>
             <table class="os-raise-doubleheadertable os-raise-skinnytable">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis/>
                   </entry>
@@ -264,9 +248,7 @@
           </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
                     <emphasis>
             \(x\)
@@ -292,8 +274,7 @@
             24
           </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Based on the diagram, what is an equivalent factored form of this expression?</para>
             <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
@@ -301,8 +282,7 @@
             <para>Here is how to use a diagram to help convert between standard and factored forms:</para>
             <para> \(x^2+9x +14\)</para>
             <table class="os-raise-doubleheadertable os-raise-skinnytable">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis/>
                   </entry>
@@ -317,9 +297,7 @@
         </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
                     <emphasis>
           \(x\)
@@ -345,8 +323,7 @@
           14
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>
@@ -355,8 +332,7 @@
           <problem>
             <para>The diagram shown breaks down \(x^2−11x +24\).</para>
             <table class="os-raise-doubleheadertable os-raise-skinnytable">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis/>
                   </entry>
@@ -371,9 +347,7 @@
           </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
                     <emphasis>
             \(x\)
@@ -399,8 +373,7 @@
             24
           </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Based on the diagram, what is an equivalent factored form of this expression?</para>
             <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>

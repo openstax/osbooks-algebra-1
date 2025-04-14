@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.7.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,12 +11,9 @@
 <para>Example 1</para>
 <para>When you look at equations in these forms, it's easy to identify the slope of \(m\).</para>
 <table class="os-raise-wideequaltable">
-  <thead>
-    <row>
+  <tgroup cols="4"><tbody><row>
       <entry><emphasis>Equation</emphasis></entry><entry><emphasis>Equation Formula</emphasis></entry><entry><emphasis>Slope Formula</emphasis></entry><entry><emphasis>Slope Value</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry>\(y=5x-15\)</entry>
       <entry>\(y=mx+b\)</entry>
       <entry>\(m\)</entry>
@@ -51,8 +49,7 @@
       <entry>\(m = -\frac AB\)</entry>
       <entry>\(-\frac{30}{15}= -2\)</entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <para>Example 2</para>
 <para>Find the equation of a line with slope −9 and \(y\)-intercept \((0,−4)\) in slope-intercept form.</para>

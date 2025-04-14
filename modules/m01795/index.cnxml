@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.4.2: Exploring Linear, Exponential, and Quadratic Growth</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -21,7 +22,7 @@
         </figure>
       </para>
       <!--Text Entry Interaction Start -->
-      <exercise id="exer-00001">
+      <exercise>
         <problem id="prob-00001">
           <para id="para-00004"> Write an equation to represent the number of small squares at Step \(n\) in Pattern A. </para>
         </problem>
@@ -35,7 +36,7 @@
       </exercise>
       <!--Interaction End -->
       <section class="check-understanding" id="sect-00002">
-        <exercise id="b03ffaee-7ef7-4c98-8cf3-161785ba20bf" class="multiple-choice" id="exer-00002">
+        <exercise id="b03ffaee-7ef7-4c98-8cf3-161785ba20bf" class="multiple-choice">
           <problem id="prob-00002">
             <para id="para-00007"> Is the function in Pattern A linear, quadratic, or exponential? </para>
           </problem>
@@ -46,12 +47,11 @@
         </exercise>
       </section>
       <example id="exam-00001">
-        <exercise id="exer-00003">
+        <exercise>
           <problem id="prob-00003">
             <para id="para-00010"> Complete the table for Pattern A. </para>
             <table class="os-raise-wideadjustedtable" id="table-00001">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>Step Number \(n\)</emphasis>
                   </entry>
@@ -59,9 +59,7 @@
                     <emphasis>Number of Small Squares  \(f(n)\)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>\(0\)</entry>
                   <entry> </entry>
                 </row>
@@ -97,15 +95,13 @@
                   <entry>\(8\)</entry>
                   <entry> </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para id="para-00011">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
           <solution id="sol-00003">
             <para id="para-00012">Compare your answers:</para>
             <table class="os-raise-wideadjustedtable" id="table-00002">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>Step Number \(n\)</emphasis>
                   </entry>
@@ -113,9 +109,7 @@
                     <emphasis>Number of Small Squares  \(f(n)\)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>\(0\)</entry>
                   <entry>\(0\)</entry>
                 </row>
@@ -151,12 +145,11 @@
                   <entry>\(8\)</entry>
                   <entry>\(64\)</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>
-      <list class="os-raise-noindent" start="2" type="enumerated" id="list-00002">
+      <list class="os-raise-noindent" type="enumerated" id="list-00002">
         <item> In Pattern B, the number of small squares doubles from each step to the next.</item>
       </list>
       <para id="para-00013">Pattern B</para>
@@ -168,7 +161,7 @@
         </figure>
       </para>
       <!--Text Entry Interaction Start -->
-      <exercise id="exer-00004">
+      <exercise>
         <problem id="prob-00004">
           <para id="para-00015"> Write an equation to represent the number of small squares at Step \(n\) in Pattern B. </para>
         </problem>
@@ -180,7 +173,7 @@
       </exercise>
       <!--Interaction End -->
       <section class="check-understanding" id="sect-00003">
-        <exercise id="4878fa90-3d82-4e1d-98c2-47593b1e9296" class="multiple-choice" id="exer-00005">
+        <exercise id="_4878fa90-3d82-4e1d-98c2-47593b1e9296" class="multiple-choice">
           <problem id="prob-00005">
             <para id="para-00019"> Is the function in Pattern B linear, quadratic, or exponential? </para>
           </problem>
@@ -191,12 +184,11 @@
         </exercise>
       </section>
       <example id="exam-00002">
-        <exercise id="exer-00006">
+        <exercise>
           <problem id="prob-00006">
             <para id="para-00022"> Complete the table for Pattern B. </para>
             <table class="os-raise-wideadjustedtable" id="table-00003">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>Step Number\(n\)</emphasis>
                   </entry>
@@ -204,9 +196,7 @@
                     <emphasis>Number of Small Squares\(g(n)\)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>\(0\)</entry>
                   <entry> </entry>
                 </row>
@@ -242,15 +232,13 @@
                   <entry>\(8\)</entry>
                   <entry> </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para id="para-00023">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
           <solution id="sol-00006">
             <para id="para-00024">Compare your answers:</para>
             <table class="os-raise-wideadjustedtable" id="table-00004">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>Step Number\(n\)</emphasis>
                   </entry>
@@ -258,9 +246,7 @@
                     <emphasis>Number of Small Squares\(g(n)\)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>\(0\)</entry>
                   <entry>\(1\)</entry>
                 </row>
@@ -296,13 +282,12 @@
                   <entry>\(8\)</entry>
                   <entry>\(256\)</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>
       <!--Text Entry Interaction Start -->
-      <exercise id="exer-00007">
+      <exercise>
         <problem id="prob-00007">
           <para id="para-00025">How would the two patterns compare if they continue to grow? Make one to two observations.</para>
         </problem>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.2.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -18,8 +19,7 @@
       </para>
       <para><emphasis>Step 1</emphasis> - Make a table to help you find the pattern. </para>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>
         Step number
@@ -31,9 +31,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         0
       </entry>
@@ -65,8 +63,7 @@
         13
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para><emphasis>Step 2</emphasis> - Notice that the start has 2 rows and 2 columns, or 4 dots.
   Each step adds a row of 2 dots, plus 1 more dot.
   So, each step adds 3 dots.</para>
@@ -91,8 +88,7 @@
           <solution>
             <para>Here is how to write an expression from a pattern:</para>
             <table class="os-raise-midsizetable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>
           Step
@@ -104,9 +100,7 @@
         </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           0
         </entry>
@@ -138,8 +132,7 @@
           19
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Each step has that number of dots squared, then doubled, and then one is added.</para>
             <para>So, Step 5 would have 51 dots.</para>
             <para>The expression would be \(2n^2+1\), where \(n\) is the step number.</para>

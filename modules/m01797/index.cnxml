@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.4.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -18,8 +19,7 @@
       </para>
       <para><emphasis>Step 1</emphasis> - Draw a table. In the right column, determine the growth factor.</para>
       <table class="os-raise-wideequaltable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis>Step Number\(x\)</emphasis>
             </entry>
@@ -30,9 +30,7 @@
               <emphasis>Growth Factor</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>\(0\)</entry>
             <entry>\(1\)</entry>
             <entry>\(3\)</entry>
@@ -52,8 +50,7 @@
             <entry>\(27\)</entry>
             <entry>\(3\)</entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para><emphasis>Step 2</emphasis> - Write the function to represent the pattern.</para>
       <para>\(f(x)=3^x\)</para>
       <para><emphasis>Step 3</emphasis> - Determine what type of function this is.</para>
@@ -78,8 +75,7 @@
     exponential function:</para>
             <para><emphasis>Step 1</emphasis> - Create a table and determine the growth factor.</para>
             <table class="os-raise-wideequaltable">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>Step Number\(x\)</emphasis>
                   </entry>
@@ -90,9 +86,7 @@
                     <emphasis>Growth Factor</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>\(0\)</entry>
                   <entry>\(0\)</entry>
                   <entry> </entry>
@@ -112,8 +106,7 @@
                   <entry>\(27\)</entry>
                   <entry>\(2.25\)</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para><emphasis>Step 2</emphasis> - Determine the function.</para>
             <para>\(f(x)=3x^2\)</para>
             <para><emphasis>Step 3</emphasis> - Determine what type of function this is.</para>

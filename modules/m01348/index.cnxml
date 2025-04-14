@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.6.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -11,12 +12,9 @@
 <para>A scientist records the population of a bacterial population in a petri dish. The data are shown in the table.</para>
 
 <table class="os-raise-midsizetable">
-  <thead>
-    <row>
+  <tgroup cols="2"><tbody><row>
       <entry><emphasis>\(d\), days since first test</emphasis></entry><entry><emphasis>\(b\), number of bacteria</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry>
        –3
       </entry>
@@ -52,8 +50,7 @@
        5,000
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <para>The number of days \(d\) since the first test corresponds with the number of bacteria, \(b\), estimated to be alive in the petri dish.</para>
 <list class="os-raise-noindent" type="enumerated">
@@ -115,12 +112,9 @@
     
    
     <table class="os-raise-midsizetable">
-      <thead>
-        <row>
+      <tgroup cols="2"><tbody><row>
           <entry><emphasis>\(y\), years since 2016</emphasis></entry><entry><emphasis>\(v\), value of investment ($)</emphasis></entry></row>
-      </thead>
-      <tbody>
-        <row>
+      <row>
           <entry>
            –2
           </entry>
@@ -156,8 +150,7 @@
             4,000
           </entry>
         </row>
-      </tbody>
-    </table>
+      </tbody></tgroup></table>
     
     
     
@@ -184,13 +177,13 @@
     </item>
   </list>
   
-  <list class="os-raise-noindent" start="2" type="enumerated">
+  <list class="os-raise-noindent" type="enumerated">
     <item>
       \(y=-1\) means 1 year before 2016, which is 2015. \(y=-2\) means 2 years before 2016, which is 2014.
     </item>
   </list>
   
-  <list class="os-raise-noindent" start="3" type="enumerated">
+  <list class="os-raise-noindent" type="enumerated">
     <item>
       The maximum value of the investment was $324,000.
       

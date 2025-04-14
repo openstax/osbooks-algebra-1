@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.3.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -19,8 +20,7 @@
       </para>
       <para>Make a table for the number of columns and rows of each step and the number of squares:</para>
       <table class="os-raise-wideequaltable">
-        <thead>
-          <row>
+        <tgroup cols="4"><tbody><row>
             <entry>
               <emphasis>
         Step
@@ -42,9 +42,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         1
       </entry>
@@ -100,8 +98,7 @@
         \(3n^2\)
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>First, count how many columns there are in each step (the length):</para>
       <para>For each, there are \(n\) columns.</para>
       <para>Next, count how many rows there are in each step (the height): </para>
@@ -127,8 +124,7 @@
             <para>Here is how to represent this pattern as a quadratic:</para>
             <para>Make a table for the number of columns and rows of each step and the number of squares:</para>
             <table class="os-raise-wideequaltable">
-              <thead>
-                <row>
+              <tgroup cols="4"><tbody><row>
                   <entry>
                     <emphasis>
           Step
@@ -150,9 +146,7 @@
         </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           1
         </entry>
@@ -208,8 +202,7 @@
           \(n^2-1\)
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>For this pattern, notice that the area would be the number of columns times the number of rows, but then one block
     is subtracted.</para>
             <para>Note that for Step 1, there was a \(1 \times 1\) block there, but then it was subtracted with the equation given.

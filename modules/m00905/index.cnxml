@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.4.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -9,9 +10,7 @@
   <section><title>Write the Function Rule from a Table</title>
 <para>Kelly can tune 6 cars in 3 hours. The table below is completed to show this relationship. The last column has the output for any \(x\). This is the rule of the function.</para>
 <table class="os-raise-horizontaltable">
-  <thead/>
-	<tbody>
-    <row>
+  <tgroup cols="6"><tbody><row>
       <entry><emphasis>
        Time spent tuning cars (\(x\))
       </emphasis></entry><entry>
@@ -50,17 +49,14 @@
         \(2x\)
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <para>Kelly can tune 6 cars in 3 hours or 2 cars in 1 hour, so the function rule is \(f(x)=2x\).</para>
 <note class="try look-at-me"/>
 <title>Try It: Write the Function Rule from a Table</title>
 <para>Determine the rule in function notation for the table below:</para>
 <table class="os-raise-horizontaltable">
-<thead/>
-  <tbody>
-    <row>
+<tgroup cols="6"><tbody><row>
       <entry><emphasis>
        \(x\) (input)
       </emphasis></entry><entry>
@@ -98,8 +94,7 @@
        ?
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <example><exercise>
   <problem>
