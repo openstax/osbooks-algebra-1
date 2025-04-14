@@ -1,0 +1,1 @@
+window.parameters = {"disableExpressions":false,"equations":"[\"y=-0.46x^2+14x+17\"]","scaleTop":"300","scaleBottom":"-150","scaleRight":"35","scaleLeft":"-10"};

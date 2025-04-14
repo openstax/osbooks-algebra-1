@@ -1,0 +1,1 @@
+window.parameters = {"disableExpressions":false,"equations":"[\"y_1~ax_1^2+bx_1+c\"]","scaleTop":"60","scaleBottom":"-10","scaleRight":"12","scaleLeft":"-1","tables":"[[{\"variable\": \"x_1\", \"values\": [0.5,1,2,2.5,3,3.5]}, {\"variable\": \"y_1\", \"values\": [20.2,24.1,28.8,31.6,33.1,34.2]}]]"};
