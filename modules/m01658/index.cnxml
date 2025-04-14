@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>6.5.1: Undoing FOIL</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -14,12 +15,9 @@
     
     <para>Find all the different combinations of factors of \(24\). One example is provided in the table.</para>
     <table class="os-raise-midsizetable">
-      <thead>
-        <row>
+      <tgroup cols="2"><tbody><row>
           <entry><emphasis> Factors of 24</emphasis></entry><entry><emphasis> Sum of factors</emphasis></entry></row>
-      </thead>
-      <tbody>
-        <row>
+      <row>
           <entry><para>\(1, 24\)</para></entry>
           <entry><para>\(1 + 24 = 25\)</para></entry>
         </row>
@@ -35,8 +33,7 @@
           <entry> </entry>
           <entry> </entry>
         </row>
-      </tbody>
-    </table>
+      </tbody></tgroup></table>
     
     
   
@@ -46,12 +43,9 @@
   <para>Compare your answers:</para>
     
     <table class="os-raise-midsizetable">
-      <thead>
-        <row>
+      <tgroup cols="2"><tbody><row>
           <entry><emphasis> Factors of 24</emphasis></entry><entry><emphasis> Sum of factors</emphasis></entry></row>
-      </thead>
-		<tbody>
-			<row>
+      <row>
         <entry><para>\(1\), \(24\)</para></entry>
         <entry><para>\(1 + 24 = 25\)</para></entry>
       </row>
@@ -67,8 +61,7 @@
         <entry><para>\(4\), \(6\)</para></entry>
         <entry><para>\(4 + 6 = 10\)</para></entry>
       </row>
-    </tbody>
-  </table>
+    </tbody></tgroup></table>
   
   
 

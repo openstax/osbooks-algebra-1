@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.14.2: Using Tables to Compare Linear and Exponential Growth Functions</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -15,9 +16,7 @@
   amounts or withdraw any money.</para>
       <div class="os-raise-d-flex os-raise-justify-content-between">
         <table class="os-raise-skinnytable">
-          <caption>Bonds</caption>
-          <thead>
-            <row>
+          <tgroup cols="2"><tbody><row>
               <entry>
                 <emphasis>
           years of investment
@@ -29,9 +28,7 @@
         </emphasis>
               </entry>
             </row>
-          </thead>
-          <tbody>
-            <row>
+          <row>
               <entry>
           0
         </entry>
@@ -55,12 +52,10 @@
           $1,040
         </entry>
             </row>
-          </tbody>
-        </table>
+          </tbody></tgroup><caption>Bonds</caption>
+          </table>
         <table class="os-raise-skinnytable">
-          <caption>Savings Account</caption>
-          <thead>
-            <row>
+          <tgroup cols="2"><tbody><row>
               <entry>
                 <emphasis>
           years of investment
@@ -73,9 +68,7 @@
         </emphasis>
               </entry>
             </row>
-          </thead>
-          <tbody>
-            <row>
+          <row>
               <entry>
           0
         </entry>
@@ -99,8 +92,8 @@
           $1,019.59
         </entry>
             </row>
-          </tbody>
-        </table>
+          </tbody></tgroup><caption>Savings Account</caption>
+          </table>
       </div>
       <!--Text Entry Interaction Start -->
       <exercise>

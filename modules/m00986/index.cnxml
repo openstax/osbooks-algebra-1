@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.8.3: Self Check</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -8,13 +9,9 @@
   <content>
   <section><para dir="ltr">Brooke was racing bikes with a friend on the way to the park. A table of her distance traveled over time is shown.</para>
 <table class="os-raise-midsizetable">
-  <caption>Brooke</caption>
-  <thead>
-    <row>
+  <tgroup cols="2"><tbody><row>
       <entry><emphasis>Time (minutes)</emphasis></entry><entry><emphasis>Distance (miles)</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry>
         0
       </entry>
@@ -62,8 +59,8 @@
         6.0
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup><caption>Brooke</caption>
+  </table>
 
 <para>What was Brooke’s average rate of change between 5 minutes and 20 minutes? </para></section>
 </content>

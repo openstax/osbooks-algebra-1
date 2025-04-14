@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.5.2: Finding and Using Correlation Coefficient to Interpret the Strength of Linear Relationships</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -13,8 +14,7 @@
       </div>
       <para>Priya takes note of the distance the car drives and the time it takes to get to the destination for many trips.</para>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>distance (mi) (\(x\))</emphasis>
             </entry>
@@ -22,9 +22,7 @@
               <emphasis>travel time (min) (\(y\))</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>2</entry>
             <entry>4</entry>
           </row>
@@ -84,8 +82,7 @@
             <entry>78</entry>
             <entry>72</entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <!--Question 1 -->
       <exercise>
         <problem>

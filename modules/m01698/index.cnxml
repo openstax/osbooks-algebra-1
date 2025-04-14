@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>6.7.2: Reviewing General Strategies to Factor a Polynomial</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -22,8 +23,7 @@
   GCF first, if necessary, before choosing a strategy. If a polynomial is prime, write “prime.” An example
   is provided.</para>
       <table class="os-raise-wideequaltable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis>
         Polynomial
@@ -40,9 +40,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         \(4x^2 + 20xy + 25y^2\)
       </entry>
@@ -53,8 +51,7 @@
         trinomial square pattern
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <!--Text Entry Interaction Start -->
       <exercise>
         <problem>

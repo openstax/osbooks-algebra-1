@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Analyze Percent Change Over Time</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -7,12 +8,9 @@
   </metadata>
   <content>
   <section><para><quote>A cell phone is plugged in to be charged. The table below shows the percent of battery power at a few times after it was plugged in. Use the data to find out. Be prepared to show your reasoning.</quote></para><table class="os-raise-midsizetable">
-  <thead>
-    <row>
+  <tgroup cols="2"><tbody><row>
       <entry><emphasis>Time</emphasis></entry><entry><emphasis>Percentage Charged</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry>11:00 a.m.</entry>
       <entry>6%</entry>
     </row>
@@ -28,8 +26,7 @@
       <entry>11:40 a.m.</entry>
       <entry>43%</entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <list list-type="enumerated"><item>At what time will the battery be 100% charged?</item></list></section>
 </content>

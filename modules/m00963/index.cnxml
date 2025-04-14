@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.7.2: Finding Slope From Tables, Graphs, and Points</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -113,10 +114,7 @@
             <para>Enter your answer here:</para>
             <para> Determine the slope of the equation whose values are in the given table. </para>
             <table class="os-raise-horizontaltable">
-              <thead>
-        </thead>
-              <tbody>
-                <row>
+              <tgroup cols="5"><tbody><row>
                   <entry>
                     <emphasis>\(x\)</emphasis>
                   </entry>
@@ -134,8 +132,7 @@
                   <entry>15</entry>
                   <entry>20</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </problem>
           <solution>
             <para>Correct! \(\frac52\)</para>
@@ -147,10 +144,7 @@
             <para>Enter your answer here:</para>
             <para> Determine the slope of the equation whose values are in the given table. Simplify your answer. </para>
             <table class="os-raise-horizontaltable">
-              <thead>
-        </thead>
-              <tbody>
-                <row>
+              <tgroup cols="5"><tbody><row>
                   <entry>
                     <emphasis>\(x\)</emphasis>
                   </entry>
@@ -168,8 +162,7 @@
                   <entry>-3</entry>
                   <entry>-6</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </problem>
           <solution>
             <para>Correct! \(\frac{-3}{3}=-1\)</para>

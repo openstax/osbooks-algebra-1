@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.11.3: Modeling with Exponential Functions</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -24,8 +25,7 @@
             <para id="para-00004">Create a table similar to the one below and begin your investigation. Make sure to note which ball goes with
         which column. </para>
             <table class="os-raise-wideequaltable" id="table-00001">
-              <thead>
-                <row>
+              <tgroup cols="4"><tbody><row>
                   <entry>
                     <emphasis>\(n\), Number of Bounces</emphasis>
                   </entry>
@@ -39,9 +39,7 @@
                     <emphasis>\(c\), Height for Ball 3 (cm)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
             0
           </entry>
@@ -81,8 +79,7 @@
                   <entry> </entry>
                   <entry> </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para id="para-00005">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
           <solution id="sol-00001">
@@ -92,8 +89,7 @@
               <item/>
             </list>
             <table class="os-raise-wideequaltable" id="table-00002">
-              <thead>
-                <row>
+              <tgroup cols="4"><tbody><row>
                   <entry>
                     <emphasis>\(n\), Number of Bounces</emphasis>
                   </entry>
@@ -107,9 +103,7 @@
                     <emphasis>\(c\), Height for Ball 3 (cm)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           0
         </entry>
@@ -179,8 +173,7 @@
           6
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>

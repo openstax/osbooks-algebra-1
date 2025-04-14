@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.1.3: Examining Relations and Functions</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -18,8 +19,7 @@
           <newline/>
           <div class="os-raise-d-flex os-raise-justify-content-between">
             <table class="os-raise-skinnytable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>\(x\)</emphasis>
                   </entry>
@@ -27,9 +27,7 @@
                     <emphasis>\(y\)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
               -3
             </entry>
@@ -86,8 +84,7 @@
               3
             </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </div>
           <para>Enter your answer here:</para>
         </problem>

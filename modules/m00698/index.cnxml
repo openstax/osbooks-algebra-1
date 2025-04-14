@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.1.4: Interpreting the Slope and Vertical Intercept of a Scatter Plot</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -158,8 +159,7 @@
           </para>
           <para>Elena made a table for data she collected on 11 hybrid cars at another dealership.</para>
           <table class="os-raise-skinnytable">
-            <thead>
-              <row>
+            <tgroup cols="2"><tbody><row>
                 <entry>
                   <emphasis> mass (kilograms) </emphasis>
                 </entry>
@@ -167,9 +167,7 @@
                   <emphasis> fuel economy (miles per gallon) </emphasis>
                 </entry>
               </row>
-            </thead>
-            <tbody>
-              <row>
+            <row>
                 <entry> 1,100 </entry>
                 <entry> 38 </entry>
               </row>
@@ -197,8 +195,7 @@
                 <entry> 1,650 </entry>
                 <entry> 28 </entry>
               </row>
-            </tbody>
-          </table>
+            </tbody></tgroup></table>
           <para>Interpret the slope and \(y\)-intercept of Clare’s line of best fit in this situation.</para>
           <para>Enter your answer here:</para>
         </problem>

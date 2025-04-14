@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>9.2.3: Completing the Square</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,8 +11,7 @@
       <title>Activity</title>
       <para>One technique for solving <term class="glossary-tooltip">quadratic equation</term>s is called <term class="glossary-tooltip">completing the square</term>. Here are two examples of how Diego and Mai completed the square to solve the same equation.</para>
       <table class="os-raise-wideequaltable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>Diego</emphasis>
             </entry>
@@ -19,9 +19,7 @@
               <emphasis>Mai</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>\(\begin{aligned} x^{2}+10 x+9 &amp;=0 \\ x^{2}+10 x &amp;=-9 \\ x^{2}+10 x+25 &amp;=-9+25 \\ x^{2}+10 x+25 &amp;=16
         \\ (x+5)^{2} &amp;=16 \\ \sqrt{(x+5)^{2}} &amp;=\sqrt{16} \\ x+5 &amp;=\pm \;4 \\ \\ x+5=4 \text { or } x+5 &amp;=-4
         \\ x=-1 \text { and } x=-9 &amp; \end{aligned}\)</entry>
@@ -29,8 +27,7 @@
         \sqrt{(x+5)^{2}} &amp;=\sqrt{16} \\ (x+5) &amp;=\pm \;4 \\ \\ x+5=4 \text { and } x+5=-4 \\ x=-1 \text { or } x=-9
         \end{aligned} \)</entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>Study the worked examples. Then, try solving these equations by completing the square for questions 1 – 5.</para>
       <example>
         <exercise>

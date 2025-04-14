@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>2.2.5: Practice</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -72,8 +73,7 @@
         <quote>A streaming service has two different membership plans. Option A charges $10 per month plus $5 for each movie. Option B charges $20 a month then $2 a movie.</quote>
       </para>
       <table class="os-raise-doubleheadertable">
-        <thead>
-          <row>
+        <tgroup cols="6"><tbody><row>
             <entry>
               <emphasis>
                 <para>Number of movies in a month, \(x\).</para>
@@ -105,9 +105,7 @@
               </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
               <emphasis>
                 <para>Option A</para>
@@ -151,8 +149,7 @@
               <para>28</para>
             </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <section class="check-understanding">
         <exercise id="a77aa2bc-c28c-4a82-bce2-f92d629bcdf3" class="multiple-choice">
           <problem>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.12.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -16,10 +17,9 @@
           </media>
         </figure>
       </para>
-      <para id="para-00003">Remember, the equation for an exponential function is \(y=a\cdot b^x\). The \(a\) will affect the \(y\)-intercept. When \(b&lt;1\), there is exponential decay. The closer \(b\) is to 0, the faster it decays. The closer \(b\) is to 1, the slower it decays. When \(b>1\), the larger the value of \(b\), the faster it grows.</para>
+      <para id="para-00003">Remember, the equation for an exponential function is \(y=a\cdot b^x\). The \(a\) will affect the \(y\)-intercept. When \(b&lt;1\), there is exponential decay. The closer \(b\) is to 0, the faster it decays. The closer \(b\) is to 1, the slower it decays. When \(b&gt;1\), the larger the value of \(b\), the faster it grows.</para>
       <table class="os-raise-wideadjustedtable" id="table-00001">
-        <thead>
-          <row>
+        <tgroup cols="4"><tbody><row>
             <entry>
               <emphasis>Equation</emphasis>
             </entry>
@@ -33,9 +33,7 @@
               <emphasis>Match</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
               <list class="os-raise-noindent" type="enumerated" id="list-00001">
                 <item>\(f(x)=2(0.68)^x\) </item>
@@ -133,8 +131,7 @@
       C
     </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <title> Try It: Matching Exponential Functions and Graphs</title>
       <example id="exam-00001">
         <exercise id="exer-00001">

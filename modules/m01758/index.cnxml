@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.2.2: Constant and Exponential Change</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -76,8 +77,7 @@
       <!--Interaction End -->
       <para>Consider the following table.</para>
       <table class="os-raise-wideadjustedtable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis>
         Step
@@ -94,9 +94,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         0
       </entry>
@@ -175,8 +173,7 @@
             <entry/>
             <entry/>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <list class="os-raise-noindent" start="3" type="enumerated">
         <item>Complete the table with the number of dots for Pattern 1.</item>
       </list>

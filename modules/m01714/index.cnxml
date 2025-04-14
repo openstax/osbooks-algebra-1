@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Create Your Own Rectangles</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -24,11 +25,8 @@
   <item> Fill in the table with the binomial or trinomial that represents the area of the third rectangle you created. Leave the length and width columns blank for rectangle C. </item>
 </list>
 <table class="os-raise-wideadjustedtable">
-  <thead>
-    <row>
+  <tgroup cols="4"><tbody><row>
       <entry><emphasis> Rectangle </emphasis></entry><entry><emphasis> Length (units) </emphasis></entry><entry><emphasis> Width (units) </emphasis></entry><entry><emphasis> Area (square units) </emphasis></entry></row> 
-    </thead>
-  <tbody>
     <row>
       <entry>
         A
@@ -53,8 +51,7 @@
       <entry/>
       <entry/>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 <emphasis>
 </emphasis>
 <para><emphasis>Step 3 - 

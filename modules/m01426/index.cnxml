@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.10.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -9,12 +10,9 @@
   <section><title>Average Rate of Change from a Table</title>
 <para>Let’s look at an exponential function we studied earlier. Let \(A(t)\) be the function that models the area \(A\), in square yards, of algae covering a pond \(t\) weeks after beginning treatment to control the algae bloom. Here is a table showing approximately how many square yards of algae remain during the first 5 weeks of treatment.</para>
 <table class="os-raise-skinnytable">
-  <thead>
-    <row>
+  <tgroup cols="2"><tbody><row>
       <entry><emphasis>\(t\) </emphasis></entry><entry><emphasis>\(A(t)\) </emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
     <entry>
       0
     </entry>
@@ -54,8 +52,7 @@
     3
     </entry>
   </row>
-</tbody>
-</table>
+</tbody></tgroup></table>
 
 <para>The average rate of change of \(A\) from the start of treatment to week 2 is about –107 square yards per week since \(\frac{A(2)-A(0)}{2-0} \approx -107\). The average rate of change of \(A\) from week 2 to week 4, however, is only about –12 square yards per week since \(\frac{A(4)-A(2)}{4-2} \approx -12\).</para>
 <title> Try It: Average Rate of Change from a Table</title>
@@ -65,12 +62,9 @@
     <para>Using the same table from above, what is the average rate of change of \(A\) from week 1 to week 3?</para>
     
     <table class="os-raise-skinnytable">
-      <thead>
-        <row>
+      <tgroup cols="2"><tbody><row>
           <entry><emphasis>\(t\) </emphasis></entry><entry><emphasis>\(A(t)\) </emphasis></entry></row>
-      </thead>
-      <tbody>
-        <row>
+      <row>
         <entry>
           0
         </entry>
@@ -110,8 +104,7 @@
         3
         </entry>
       </row>
-    </tbody>
-    </table>
+    </tbody></tgroup></table>
     
     
   
@@ -123,9 +116,7 @@
   <para>Here is how to use the table to find the average rate of change:</para>
   
   <table class="os-raise-horizontaltable">
-    <thead/>
-    <tbody>
-      <row>
+    <tgroup cols="2"><tbody><row>
           <entry><emphasis> Find the points on the table when \(t=1\) and \(t=3\).</emphasis></entry><entry>
          \((1, 80)\), \((3,9)\)
         </entry>
@@ -142,8 +133,7 @@
           \(\frac{-71}{2}=-35.5\) square yards per week
         </entry>
       </row>
-    </tbody>
-  </table>
+    </tbody></tgroup></table>
 
 </solution></exercise>
 </example></section>

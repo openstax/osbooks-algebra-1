@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.6.7: Practice</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -25,12 +26,9 @@
         measured, the average volume was determined to be 40,000 liters. Double click on mathematical
         expression/equation to enlarge.</para>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry><emphasis>\(y\), years</emphasis></entry><entry><emphasis>\(v\), volume (liters)</emphasis></entry></row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
               –4
             </entry>
@@ -66,8 +64,7 @@
               5,000
             </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       
       <para> Which equation represents the pond’s water loss?</para>
       <para>Multiple Choice:</para><para>\(y=40,000\cdot\left(\frac12\right)^v\)</para><para>\(v=40,000\cdot\left(\frac12\right)^y\)</para><para>\(v=20,000\cdot\left(\frac14\right)^y\)</para><para>\(v=\frac12\cdot\left(40,000\right)^y\)</para></problem><solution><para>Correct!</para><para>Try again. Revisit activity 5.6.3.</para><para>The correct answer is
@@ -89,9 +86,7 @@
       </para></solution></exercise><exercise id="a543be8b-3931-41cd-87a0-e0cb9643cf50" class="multiple-choice"><problem><para> Which of the following correctly orders these values from greatest to least?
           
           <table class="os-raise-horizontaltable">
-            <thead/>
-            <tbody>
-              <row>
+            <tgroup cols="2"><tbody><row>
                 <entry><emphasis>Value R</emphasis></entry><entry>
                   0.00161
                 </entry>
@@ -111,8 +106,7 @@
                   \(7.23\times 10^{-4}\)
                 </entry>
               </row>
-            </tbody>
-          </table>
+            </tbody></tgroup></table>
         </para>
       <para>Multiple Choice:</para><para>Value S, Value R, Value T, Value U</para><para>Value R, Value S, Value T, Value U</para><para>Value S, Value R, Value U, Value T</para><para>Value R, Value S, Value U, Value T</para></problem><solution><para>Correct!</para><para>Try again. Revisit activity 5.6.5.
       </para><para>The correct answer is Value S, Value R, Value U, Value T.

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.2.5: Working with Fitted Lines</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -46,8 +47,7 @@
             </figure>
           </div>
           <table class="os-raise-midsizetable">
-            <thead>
-              <row>
+            <tgroup cols="2"><tbody><row>
                 <entry>
                   <emphasis> number
         of trees in a forest </emphasis>
@@ -57,9 +57,7 @@
         of oxygen produced by the forest </emphasis>
                 </entry>
               </row>
-            </thead>
-            <tbody>
-              <row>
+            <row>
                 <entry> 148 </entry>
                 <entry> 16.43 </entry>
               </row>
@@ -99,8 +97,7 @@
                 <entry> 585 </entry>
                 <entry> 84.24 </entry>
               </row>
-            </tbody>
-          </table>
+            </tbody></tgroup></table>
           <para>Enter your answer here:</para>
         </problem>
         <solution>

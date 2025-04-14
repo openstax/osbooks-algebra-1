@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.2.6: Practice</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -17,8 +18,7 @@
         <exercise id="2213c4f6-63a8-43f1-88d4-65cbbcb95f2b" class="multiple-choice">
           <problem>
             <table class="os-raise-skinnytable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis> \(x\) </emphasis>
                   </entry>
@@ -26,9 +26,7 @@
                     <emphasis> \(y\) </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry> 83 </entry>
                   <entry> 102 </entry>
                 </row>
@@ -60,8 +58,7 @@
                   <entry> 104 </entry>
                   <entry> 127 </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Multiple Choice:</para>
             <para>100</para>
             <para>125</para>
@@ -152,10 +149,7 @@
             <para>Which of the following equations is a linear model representing the number of yards, \(Y\), Mike can cut in \(x\) days.</para>
             <para>Mike owns a grass cutting business. The table below shows how many yards, \(Y\), he can cut in \(x\) days.</para>
             <table class="os-raise-horizontaltable">
-              <thead>
-        </thead>
-              <tbody>
-                <row>
+              <tgroup cols="5"><tbody><row>
                   <entry>
                     <emphasis>Number of days, x</emphasis>
                   </entry>
@@ -173,8 +167,7 @@
                   <entry>18</entry>
                   <entry>24</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Multiple Choice:</para>
             <para>\(Y=6x\)</para>
             <para>\(Y=6x+6\)</para>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.5.4: Justifying Exponential Models</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -115,9 +116,7 @@
             <para id="para-00024">
         Complete the table to show the predicted amount of insulin 4 and 5 minutes after injection.</para>
             <table class="os-raise-horizontaltable" id="table-00001">
-              <thead/>
-              <tbody>
-                <row>
+              <tgroup cols="7"><tbody><row>
                   <entry>
                     <emphasis>Time after Injection (Minutes)</emphasis>
                   </entry>
@@ -159,17 +158,14 @@
                   <entry> </entry>
                   <entry> </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para id="para-00025">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
     </para>
           </problem>
           <solution id="sol-00007">
             <para id="para-00026">Compare your answers:</para>
             <table class="os-raise-horizontaltable" id="table-00002">
-              <thead/>
-              <tbody>
-                <row>
+              <tgroup cols="7"><tbody><row>
                   <entry>
                     <emphasis>Time after Injection (Minutes)</emphasis>
                   </entry>
@@ -215,8 +211,7 @@
           59.05
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>

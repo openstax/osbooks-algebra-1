@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.8.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,8 +11,7 @@
       <title> Different Exponential Representations</title>
       <para>A table of values is shown below for a function \(g(x)=(\frac{1}{2})^x\), which represents exponential decay.</para>
       <table class="os-raise-textheavytable">
-        <thead>
-          <row>
+        <tgroup cols="8"><tbody><row>
             <entry>
               <emphasis>
                 <para>\(x\)</para>
@@ -53,9 +53,7 @@
               </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
               <para>\(g(x) = (\frac{1}{2})^x\)</para>
             </entry>
@@ -81,8 +79,7 @@
               <para>\(\frac18\)</para>
             </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>When these points are graphed, they show the decay because the function graphed decreases from left to right:</para>
       <para>
         <figure>
@@ -103,8 +100,7 @@
             <para>Here is how to make a table and then graph the exponential function:</para>
             <para>First, substitute values in for \(x\) to find the values of \(f(x)\).</para>
             <table class="os-raise-textheavytable">
-              <thead>
-                <row>
+              <tgroup cols="6"><tbody><row>
                   <entry>
                     <emphasis>
                       <para>\(x\)</para>
@@ -136,9 +132,7 @@
                     </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
                     <para> \(f(x)=4^x\)</para>
                   </entry>
@@ -158,8 +152,7 @@
                     <para>\(4^4=256\)</para>
                   </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>
               <figure>
                 <media alt="">

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.7.3: Writing Linear Equations</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -9,12 +10,9 @@
   <section><title>Student Activity </title>
 <para>In Algebra, equations are commonly written in three different ways: slope-intercept form, point-slope form, and standard form. They are equivalent ways to write the same equation, but each one is useful for different reasons.</para>
 <table class="os-raise-textheavytable">
-  <thead>
-    <row>
+  <tgroup cols="3"><tbody><row>
       <entry><emphasis>Slope-Intercept Form</emphasis></entry><entry><emphasis>Point-Slope Form</emphasis></entry><entry><emphasis>Standard Form</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry> \(y = mx + b\)
         Given:
         \(m =\) slope 
@@ -29,8 +27,7 @@
         There are no fractions and
         \(A\) cannot be negative. </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <para>For <term class="glossary-tooltip">slope-intercept form</term>, the slope and \(y\)-intercept are needed:</para>
 

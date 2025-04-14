@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.5.5: Practice</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -37,8 +38,7 @@
             <para>A baseball travels \(d\) meters \(t\) seconds after being dropped from the top of a building. The distance
           traveled by the baseball can be modeled by the equation \(d=5t^2\).</para>
             <table class="os-raise-skinnytable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>
               \(t\) (seconds)
@@ -51,9 +51,7 @@
             </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
               0
             </entry>
@@ -83,8 +81,7 @@
             </entry>
                   <entry> </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para> How many meters \((d)\) did the baseball travel in 0 seconds \((t)\)? </para>
             <para> Enter your answer here:</para>
           </problem>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.1.2: Creating a Scatter Plot Using Data</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -22,8 +23,7 @@
           <problem id="prob-00001">
             <para id="para-00003">To complete the table, record the weight for the number of oranges in the box from the video.</para>
             <table class="os-raise-skinnytable" id="table-00001">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>number of oranges</emphasis>
                   </entry>
@@ -31,9 +31,7 @@
                     <emphasis>weight in kilograms</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry> 3 </entry>
                   <entry>
                     <emphasis>
@@ -86,15 +84,13 @@
                   <entry> 10 </entry>
                   <entry/>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para id="para-00004">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00001">
             <para id="para-00005">Compare your answers:</para>
             <table class="os-raise-skinnytable" id="table-00002">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>number of oranges</emphasis>
                   </entry>
@@ -102,9 +98,7 @@
                     <emphasis>weight in kilograms</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry> 3 </entry>
                   <entry> 1.027 </entry>
                 </row>
@@ -136,8 +130,7 @@
                   <entry> 10 </entry>
                   <entry> 2.569 </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>

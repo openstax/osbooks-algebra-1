@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.11.2: Choosing an Appropriate Model</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -17,8 +18,7 @@
       </para>
       <para>Here are measurements for the maximum height of a tennis ball after bouncing several times on a concrete surface.</para>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis> \(n\)Bounce Number</emphasis>
             </entry>
@@ -26,9 +26,7 @@
               <emphasis> \(h\)Height (Centimeters)</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         0
       </entry>
@@ -68,8 +66,7 @@
         11
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <example>
         <exercise>
           <problem>
@@ -87,8 +84,7 @@
     differences in heights between successive bounces are not close to being the same, as shown in the table. They are
     decreasing with each bounce, so the function is not linear. </para>
             <table class="os-raise-midsizetable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>Bounce Number</emphasis>
                   </entry>
@@ -96,9 +92,7 @@
                     <emphasis>Difference from Height of Previous Bounce</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           0
         </entry>
@@ -138,8 +132,7 @@
           9
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>An exponential function of the bounce height would decrease by the same factor for each successive bounce. It looks
     like each successive bounce is about half as high as the previous bounce, making an exponential model appropriate.
   </para>

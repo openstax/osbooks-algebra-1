@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.2.4: Self Check</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -8,9 +9,7 @@
   <content>
   <section><para>Old Faithful is a geyser in Yellowstone National Park. The following table offers some rough estimates of the length of an eruption (in minutes) and the amount of water (in gallons) in that eruption.</para>
 <table class="os-raise-horizontaltable">
-  <thead/>
-  <tbody>
-              <row>
+  <tgroup cols="5"><tbody><row>
                 <entry><emphasis>
                   Length (minutes)
                 </emphasis></entry><entry>
@@ -43,8 +42,7 @@
                   8,400
                 </entry>
               </row>
-            </tbody>
-          </table>
+            </tbody></tgroup></table>
 <para>Use technology to find an equation of the line of best fit. Round to the nearest hundredth.</para></section>
 </content>
 </document>

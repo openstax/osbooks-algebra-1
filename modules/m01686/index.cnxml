@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>6.6.4: Sorting Polynomials by Factoring Methods</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -16,8 +17,7 @@
             <para>Draw a table similar to this on a sheet of paper. Record your results. If a polynomial requires both methods,
       place it in both columns.</para>
             <table class="os-raise-midsizetable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>Difference of Squares Method</emphasis>
                   </entry>
@@ -25,9 +25,7 @@
                     <emphasis>Perfect Square Trinomial Method</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
              
              
@@ -39,15 +37,13 @@
              
           </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
           <solution>
             <para>Compare your answers:</para>
             <table class="os-raise-midsizetable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>Difference of Squares Method</emphasis>
                   </entry>
@@ -55,9 +51,7 @@
                     <emphasis>Perfect Square Trinomial Method</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           \(27q^2 − 3\)
           \(4p^2 − 100\)
@@ -71,8 +65,7 @@
           \(x^2 + 12x + 36 − y^2\)
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.8.6: Practice</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -150,9 +151,7 @@
             <para>The function \(P\) gives the percent of voters ages 18 to 29 years old who participated in the election in year \(t\).</para>
             <para>The percentage of voters ages 18 to 29 who participated in each United States presidential election between the years 1988 and 2016 is shown in the table.</para>
             <table class="os-raise-horizontaltable">
-              <thead/>
-              <tbody>
-                <row>
+              <tgroup cols="9"><tbody><row>
                   <entry>
                     <emphasis>
               Year
@@ -214,8 +213,7 @@
               43.4
             </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Determine the average rate of change for \(P\) between 1992 and 2000.</para>
             <para>Multiple Choice:</para>
             <para>1.025 percent per year</para>
@@ -233,9 +231,7 @@
           <problem>
             <para>Some points from a linear function, \(f(x)\), are listed in the table below. What is the rate of change of this linear function?</para>
             <table class="os-raise-horizontaltable">
-              <thead/>
-              <tbody>
-                <row>
+              <tgroup cols="5"><tbody><row>
                   <entry>
                     <emphasis>
               \(x\)
@@ -273,8 +269,7 @@
               10
             </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Multiple Choice:</para>
             <para>2</para>
             <para>\(\frac25\)</para>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.5.6: Practice</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -25,8 +26,7 @@
             <para>Answer the following questions that would complete the table to show the value of the computer at the listed times.</para>
             <para>A computer costs $800. It loses \(\frac14\) of its value every year after it is purchased.</para>
             <table class="os-raise-wideequaltable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>Time (Years)</emphasis>
                   </entry>
@@ -34,9 +34,7 @@
                     <emphasis>Value of Computer (Dollars)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
               0
             </entry>
@@ -66,8 +64,7 @@
             </entry>
                   <entry> </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>
           The value of the computer, in dollars, when it is purchased. </para>
           </problem>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.9.3: Graph Equations to Solve Problems</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -45,8 +46,7 @@
             <para>Compare your answer:</para>
             <para> Here is a table of values for the thickness of the paper after different numbers of folds: </para>
             <table class="os-raise-skinnytable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>\(n\)</emphasis>
                   </entry>
@@ -54,9 +54,7 @@
                     <emphasis>\(t\)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           0
         </entry>
@@ -104,8 +102,7 @@
           1.6
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>
               <figure>
                 <media alt="7 points on coordinate plane, showing exponential growth. Horizontal axis from 0 to 8, labeled number of folds. Vertical axis from 0 to 4, labeled thickness in millimeters.">

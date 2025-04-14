@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.13.6: Practice</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -106,8 +107,7 @@
           <problem>
             <para>Without graphing the equations, answer questions 2 – 5 to complete the table.</para>
             <table class="os-raise-wideequaltable">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>Equation</emphasis>
                   </entry>
@@ -118,9 +118,7 @@
                     <emphasis>\(x\)-coordinate of vertex</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
                     <para>\(y=x^2+12x\)</para>
                   </entry>
@@ -164,8 +162,7 @@
                     <para>5b. _____</para>
                   </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Find the \(x\)-intercepts and the \(x\)-coordinate of the vertex for the equation \(y=x^2+12x\).</para>
             <para>What are the \(x\)-intercepts for the equation \(y=x^2+12x\)?
           </para>

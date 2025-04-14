@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.5.3: Using Correlation Coefficient to Describe Relationships between Two Variables</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -128,12 +129,9 @@
     <para>A biologist is trying to determine if a group of dolphins is a new species of dolphin or if it is a new group of individuals within the same species of dolphin. The biologist measures the width (in millimeters) of the largest part of the skull, zygomatic width, and the length (in millimeters) of the snout, rostral length, of 10 dolphins from the same group of individuals.</para>
     
     <table class="os-raise-wideequaltable">
-      <thead>
-        <row>
+      <tgroup cols="2"><tbody><row>
           <entry><emphasis>\(x\), rostral length (mm)</emphasis></entry><entry><emphasis>\(y\), zygomatic width (mm)</emphasis></entry></row>
-      </thead>
-      <tbody>
-        <row>
+      <row>
           <entry>
             <para>288</para>
           </entry>
@@ -213,8 +211,7 @@
             <para>166</para>
           </entry>
         </row>
-      </tbody>
-    </table>
+      </tbody></tgroup></table>
 
     
 

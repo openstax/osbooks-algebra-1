@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.1.2: The Relationship between Length and Area</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -25,8 +26,7 @@
           <solution id="sol-00001">
             <para id="para-00005">Your answers will vary. Did you consider organizing your lengths, widths, and areas into a table? For example:</para>
             <table class="os-raise-wideequaltable" id="table-00001">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>Length (meters)</emphasis>
                   </entry>
@@ -37,9 +37,7 @@
                     <emphasis>Area (square meters)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>5</entry>
                   <entry>20</entry>
                   <entry>100</entry>
@@ -74,8 +72,7 @@
                   <entry>1</entry>
                   <entry>24</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>

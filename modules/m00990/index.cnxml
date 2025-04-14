@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.8.4: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -27,8 +28,7 @@
         <item>Find the rate of change of a linear function from a table.</item>
       </list>
       <table class="os-raise-skinnytable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>
         Input
@@ -40,9 +40,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         -2
       </entry>
@@ -74,8 +72,7 @@
         -8
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>The rate of change of a linear function is constant, so you can choose any 2 points to find the slope.</para>
       <para>Use \((-2, 3)\) and \((8, -2)\). </para>
       <para>\(m=\frac{y_2-y_1}{x_2-x_1}=\frac{-2-3}{8-(-2)}=\frac{-5}{10}=-\frac{1}{2}\)</para>

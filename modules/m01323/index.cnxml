@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.5.3: Using Graphs to Represent Exponential Decay</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -67,8 +68,7 @@
               </div>
             </div>
             <table class="os-raise-midsizetable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>\(t\) (Weeks)</emphasis>
                   </entry>
@@ -76,9 +76,7 @@
                     <emphasis>\(A\) (Square Yards)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
              0
             </entry>
@@ -118,8 +116,7 @@
               3
             </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>

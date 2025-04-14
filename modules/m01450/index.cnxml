@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.11.5: Using Relationship Models to Answer Questions</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,12 +11,9 @@
 <para>A ball is dropped from a certain height. The table shows the rebound heights of the ball after a series of bounces.
 </para>
 <table class="os-raise-midsizetable">
-  <thead>
-    <row>
+  <tgroup cols="2"><tbody><row>
       <entry><emphasis>Bounce Number</emphasis></entry><entry><emphasis>Height in Centimeters</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry>
         1
       </entry>
@@ -47,8 +45,7 @@
         0
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <example><exercise>
   <problem>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.2.4: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,9 +11,7 @@
       <title>Technology for Best Fitting Lines</title>
       <para>Scientists are interested in finding out how different species adapt to finding food sources. One group studied crocodilians to find out how their bite force was related to body mass and diet. The table below displays the information they collected on body mass (in pounds) and bite force (in pounds). </para>
       <table class="os-raise-wideequaltable">
-        <caption>Crocodilian Biting</caption>
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis>
         Species
@@ -31,9 +30,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         Dwarf
           crocodile
@@ -255,8 +252,8 @@
         1,450
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup><caption>Crocodilian Biting</caption>
+        </table>
       <para>The scatter plot below displays the data on body mass and bite force for the crocodilians in the study. </para>
       <para>
         <figure>
@@ -274,8 +271,7 @@
       <para>The following table gives the times of the gold, silver, and bronze medal winners for the men’s 100-meter race (in seconds) for the past 10 Olympic Games.</para>
       <para>Use technology to write an equation of the line that represents the line of best fit for the years since 1976 and the mean times each year. Round to the nearest hundredth.</para>
       <table class="os-raise-doubleheadertable">
-        <thead>
-          <row>
+        <tgroup cols="11"><tbody><row>
             <entry>
               <emphasis>
         Year
@@ -332,9 +328,7 @@
       </emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
               <emphasis>
         Number of Years (since 1976)
@@ -519,8 +513,7 @@
         10.09
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <example>
         <exercise>
           <problem>
@@ -531,9 +524,7 @@
             <para>Compare your answer: Here is how to find the line of best fit.</para>
             <para>Enter the number of years and the mean time into your technology:</para>
             <table class="os-raise-horizontaltable">
-              <thead/>
-              <tbody>
-                <row>
+              <tgroup cols="11"><tbody><row>
                   <entry>
                     <emphasis>
             \(x\)
@@ -607,8 +598,7 @@
             10.09
           </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Create a scatter plot and line of best fit. </para>
             <figure>
               <media alt="A SCATTER PLOT THAT SHOWS YEAR ON THE X-AXIS AND MEAN TIME IN SECONDS ON THE Y-AXIS. THE LINE DRAWN DECREASES FROM LEFT TO RI">

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.1.5: Simplifying Exponents</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -12,12 +13,8 @@
   <problem>
     
     <table class="os-raise-textheavytable">
-      <caption>Exponent Property Review</caption>
-      <thead>
-        <row>
+      <tgroup cols="2"><tbody><row>
           <entry><emphasis>Expression</emphasis></entry><entry><emphasis>Simplified Result</emphasis></entry></row>
-          </thead>
-          <tbody>
           <row>
           <entry>
             \(j^5 \cdot j^3\)
@@ -66,8 +63,8 @@
           </entry>
           <entry> </entry>
         </row>
-      </tbody>
-    </table>
+      </tbody></tgroup><caption>Exponent Property Review</caption>
+      </table>
     
     
   
@@ -79,12 +76,8 @@
   
   
   <table class="os-raise-textheavytable">
-    <caption>Exponent Property Review</caption>
-    <thead>
-      <row>
+    <tgroup cols="2"><tbody><row>
         <entry><emphasis>Expression</emphasis></entry><entry><emphasis>Simplified Result</emphasis></entry></row>
-        </thead>
-        <tbody>
         <row>
           <entry>
          \(j^5 \cdot j^3\)
@@ -149,8 +142,8 @@
           \(\frac{d^2}{b^2}\)
         </entry>
       </row>
-    </tbody>
-  </table>
+    </tbody></tgroup><caption>Exponent Property Review</caption>
+    </table>
   
   
 
@@ -163,12 +156,9 @@
   <hr/>
   <para>If \(a\) and \(b\) are real numbers and \(m\) and \(n\) are integers, then</para>
   <table class="os-raise-midsizetable">
-    <thead>
-      <row>
+    <tgroup cols="2"><tbody><row>
         <entry><emphasis>Property</emphasis></entry><entry><emphasis>Description</emphasis></entry></row>
-    </thead>
-    <tbody>
-      <row>
+    <row>
         <entry> Product Property </entry>
         <entry> \(a^m \cdot a^n={a^{m+n}}\) </entry>
       </row>
@@ -200,8 +190,7 @@
         <entry> Quotient to a Negative Exponent </entry>
         <entry> \((\frac{a}{b})^{−n}=(\frac{b}{a})^n\) </entry>
       </row>
-    </tbody>
-  </table>
+    </tbody></tgroup></table>
 </note>
 </section>
 </content>

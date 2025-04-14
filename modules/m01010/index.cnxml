@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.9.4: Representing Quantities in a Situation</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -104,8 +105,7 @@
       <exercise id="exer-00001">
         <problem id="prob-00001">
           <table class="os-raise-midsizetable" id="table-00001">
-            <thead>
-              <row>
+            <tgroup cols="2"><tbody><row>
                 <entry>
                   <emphasis>
             Time (seconds)
@@ -117,9 +117,7 @@
           </emphasis>
                 </entry>
               </row>
-            </thead>
-            <tbody>
-              <row>
+            <row>
                 <entry>
                   <para id="para-00019">0</para>
                 </entry>
@@ -183,16 +181,14 @@
                   <para id="para-00034">H. ______</para>
                 </entry>
               </row>
-            </tbody>
-          </table>
+            </tbody></tgroup></table>
         </problem>
         <solution id="sol-00001">
           <para id="para-00035">Enter your answer here:</para>
           <para id="para-00036">Compare your answer:</para>
           <list class="os-raise-noindent" type="enumerated" id="list-00002">
             <table class="os-raise-midsizetable" id="table-00002">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>
               Time (seconds)
@@ -204,9 +200,7 @@
             </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
                     <para id="para-00037">0</para>
                   </entry>
@@ -270,8 +264,7 @@
                     <para id="para-00052">H. 0</para>
                   </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </list>
         </solution>
       </exercise>

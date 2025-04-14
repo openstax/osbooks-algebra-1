@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.1.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -19,9 +20,7 @@
       <para>Example: Using a Scatter Plot to Investigate Cricket Chirps</para>
       <para>The table shows the number of cricket chirps in 15 seconds for several different air temperatures in degrees Fahrenheit.</para>
       <table class="os-raise-horizontaltable">
-        <thead/>
-        <tbody>
-          <row>
+        <tgroup cols="10"><tbody><row>
             <entry>
               <emphasis>
           Chirps
@@ -89,8 +88,7 @@
           53
         </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>Plotting these data suggests that there may be a trend. We can see from the trend in the data that as the number of chirps increases every 15 seconds, the temperature increases. The trend appears to be roughly linear, though certainly not perfectly so.</para>
       <figure>
         <media alt="Scatter plot, titled 'Cricket Chirps vs. Air Temperature'. The \(x\)-axis is the Cricket Chirps in 15 Seconds, and the \(y\)-axis is the Temperature (F). The line regression is generally positive.">

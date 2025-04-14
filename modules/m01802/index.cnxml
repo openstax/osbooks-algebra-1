@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.4.5: Practice</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -9,12 +10,9 @@
   <section><para>Complete the following questions to practice the skills you have learned in this lesson.</para>
 <section class="check-understanding"><exercise id="4b80f75e-83fa-47fa-908b-5f41956b3084" class="multiple-choice"><problem><para>Use the following to answer questions 1 – 7.</para><para>The table shows values of the expressions \(10x^2\) and \(2^x\).</para>
       <table class="os-raise-skinnytable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(10x^2\)</emphasis></entry><entry><emphasis>\(2^x\)</emphasis></entry></row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>\(1\)</entry>
             <entry>\(10\)</entry>
             <entry>\(2\)</entry>
@@ -49,8 +47,7 @@
             <entry> </entry>
             <entry> </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       
       <para>Complete the statement.</para>
         
@@ -92,12 +89,9 @@
         of \(x\). </para></solution></exercise><exercise id="f710b5e0-1775-4c25-8da8-e04c35ea4aff" class="multiple-choice"><problem><para>The table shows the values of \(4^x\) and \(100x^2\) for some values of \(x\).
           
           <table class="os-raise-skinnytable">
-            <thead>
-              <row>
+            <tgroup cols="3"><tbody><row>
                 <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(4^x\)</emphasis></entry><entry><emphasis>\(100x^2\)</emphasis></entry></row>
-            </thead>
-            <tbody>
-              <row>
+            <row>
                 <entry>\(1\)</entry>
                 <entry>\(4\)</entry>
                 <entry>\(100\)</entry>
@@ -122,8 +116,7 @@
                 <entry>\(1,024\)</entry>
                 <entry>\(2,500\)</entry>
               </row>
-            </tbody>
-          </table>
+            </tbody></tgroup></table>
           
           <para>Looking at the patterns in the table, choose the best answer to explain why, as the value of \(x\)
             increases, the values of the exponential expression \(4^x\) will eventually overtake the values of the

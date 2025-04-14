@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.6.2: The Force of Gravity Change in Quadratic Functions</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,9 +11,7 @@
       <para>Earlier, in activity 7.6.1, you completed a table that represents the height of a cannonball, in feet, as a function of time, in seconds, if there was no gravity.</para>
       <para>This table shows the actual heights of the ball at different times.</para>
       <table class="os-raise-horizontaltable">
-        <thead/>
-        <tbody>
-          <row>
+        <tgroup cols="7"><tbody><row>
             <entry>
               <emphasis>Seconds</emphasis>
             </entry>
@@ -58,8 +57,7 @@
         1640
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <example>
         <exercise>
           <problem>

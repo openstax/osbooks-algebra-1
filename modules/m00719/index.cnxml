@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.2.3 Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -11,10 +12,7 @@
       <para>Linear Equations from Tables</para>
       <para>The number of texts a teen sends, \(T\), in days, \(d\), is shown in the table below.</para>
       <table class="os-raise-horizontaltable">
-        <thead>
-  </thead>
-        <tbody>
-          <row>
+        <tgroup cols="5"><tbody><row>
             <entry>
               <emphasis>Days, \(d\)</emphasis>
             </entry>
@@ -32,8 +30,7 @@
             <entry>195</entry>
             <entry>260</entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>Write an equation in slope-intercept form to represent the situation then predict the number of texts sent in 8 days.</para>
       <para><emphasis>Step 1</emphasis> - Find the \(y\)-intercept.
   Since the value when \(d=0\) is not present, work backwards to \(d=0\). 
@@ -70,10 +67,7 @@
       <title>Try It-Writing Linear Equations From Tables and Graphs</title>
       <para>Naomi is a professional painter. The table below shows how many square feet, \(F\), she can paint in \(h\) hours.</para>
       <table class="os-raise-horizontaltable">
-        <thead>
-  </thead>
-        <tbody>
-          <row>
+        <tgroup cols="5"><tbody><row>
             <entry>
               <emphasis>Time in hours, \(h\)</emphasis>
             </entry>
@@ -91,8 +85,7 @@
             <entry>360</entry>
             <entry>480</entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <!--Q#-->
       <exercise>
         <problem>

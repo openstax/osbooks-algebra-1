@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.14.3: Self Check</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -8,16 +9,13 @@
   <content>
   <section><para>Terence looked down the second column of the table below and noticed that \(\frac{3}{1}=\frac{9}{3}=\frac{27}{9}=\frac{81}{27}\). Because of his observation, he claimed that the input-output pairs in this table could be modeled with an exponential function. Explain why Terence is correct or incorrect. </para>
 <table class="os-raise-skinnytable">
-  <thead>
-    <row>
+  <tgroup cols="2"><tbody><row>
       <entry><emphasis>
         \(x\)
       </emphasis></entry><entry><emphasis>
         \(T(x)\)
       </emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry>
         0
       </entry>
@@ -57,8 +55,7 @@
         81
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 </section>
 </content>
 </document>

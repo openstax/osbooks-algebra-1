@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Question #3: Compare Linear and Exponential Functions</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -9,12 +10,8 @@
   <section><para>Which statement best describes the following tables?</para>
 
 <table class="os-raise-skinnytable">
-    <caption>Table A</caption>
-    <thead>
-    <row>
+    <tgroup cols="2"><tbody><row>
       <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(y\)</emphasis></entry></row>
-    </thead>
-    <tbody>
     <row>
       <entry>1 </entry>
       <entry>3 </entry>
@@ -35,15 +32,11 @@
       <entry>5 </entry>
       <entry>15 </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup><caption>Table A</caption>
+    </table>
 <table class="os-raise-skinnytable">
-    <caption>Table B</caption>
-    <thead>
-    <row>
+    <tgroup cols="2"><tbody><row>
       <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(y\)</emphasis></entry></row>
-    </thead>
-    <tbody>
     <row>
       <entry>1 </entry>
       <entry>3 </entry>
@@ -64,8 +57,8 @@
       <entry>5 </entry>
       <entry>48 </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup><caption>Table B</caption>
+    </table>
 <newline/></section>
 </content>
 </document>

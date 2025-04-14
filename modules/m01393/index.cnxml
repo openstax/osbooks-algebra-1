@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.8.5: Practice</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -179,9 +180,7 @@
           <problem>
             <para>Which equation is most appropriate for modeling this data?</para>
             <table class="os-raise-horizontaltable">
-              <thead/>
-              <tbody>
-                <row>
+              <tgroup cols="7"><tbody><row>
                   <entry>
                     <emphasis>x</emphasis>
                   </entry>
@@ -203,8 +202,7 @@
                   <entry>800</entry>
                   <entry>1600</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Multiple Choice:</para>
             <para>\(y=25 \cdot (2x)^2\)</para>
             <para>\(y=25 \cdot 2^x\)</para>

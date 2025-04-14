@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>1.13.2: Creating Tables from Verbal Descriptions</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -20,10 +21,7 @@
   <para>Compare your answer:</para>
   
   <table class="os-raise-horizontaltable">
-    <thead>
-    </thead>
-    <tbody>
-      <row>
+    <tgroup cols="7"><tbody><row>
         <entry><emphasis>Number of Hours</emphasis></entry><entry>0</entry>
         <entry>1</entry>
         <entry>2</entry>
@@ -39,8 +37,7 @@
         <entry>56</entry>
         <entry>70</entry>
       </row>
-    </tbody>
-  </table>
+    </tbody></tgroup></table>
   
   
 
@@ -59,10 +56,7 @@
   <para>Compare your answer:</para>
   
   <table class="os-raise-horizontaltable">
-    <thead>
-    </thead>
-    <tbody>
-      <row>
+    <tgroup cols="6"><tbody><row>
         <entry><emphasis>Amount Earned</emphasis></entry><entry>1</entry>
         <entry>2</entry>
         <entry>3</entry>
@@ -76,8 +70,7 @@
         <entry>8</entry>
         <entry>10</entry>
       </row>
-    </tbody>
-  </table>
+    </tbody></tgroup></table>
   
   
 
@@ -96,10 +89,7 @@
   <para>Compare your answer:</para>
   
   <table class="os-raise-horizontaltable">
-    <thead>
-    </thead>
-    <tbody>
-      <row>
+    <tgroup cols="7"><tbody><row>
         <entry><emphasis>\(x\)</emphasis></entry><entry>0</entry>
         <entry>1</entry>
         <entry>2</entry>
@@ -115,8 +105,7 @@
         <entry>17</entry>
         <entry>20</entry>
       </row>
-    </tbody>
-  </table>
+    </tbody></tgroup></table>
   
   
 
@@ -127,10 +116,7 @@
 <para>Table of values can be used to write equations. The tables from <emphasis>Creating a Table of Values</emphasis> all represent linear equations. </para>
 <para>For 4 - 8, revisit the table from question 1 and write an equation to represent the table of values. Notice that columns for the \(x\) and \(y\) values are added. </para>
 <table class="os-raise-horizontaltable">
-  <thead>
-  </thead>
-  <tbody>
-    <row>
+  <tgroup cols="7"><tbody><row>
       <entry><emphasis>\(x\)</emphasis></entry><entry>0</entry>
       <entry>1</entry>
       <entry>2</entry>
@@ -146,8 +132,7 @@
       <entry>56</entry>
       <entry>70</entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <section class="check-understanding"><exercise id="7a5095fe-59e3-4bcf-9f11-a5bdfa8e1c46" class="multiple-choice"><problem><para>Enter your answer here.</para><para>What is the starting value (when \(x = 0\), what does \(y\) equal)? </para>
       </problem><solution><para>Correct! \(y = 0\)</para><para>The correct answer is \(y = 0\).</para></solution></exercise></section>
@@ -223,10 +208,7 @@
     <para>Hint: (Work backward to find the value where \(x = 0\) using the pattern set in the table of values).</para>
     
     <table class="os-raise-horizontaltable">
-      <thead>
-      </thead>
-      <tbody>
-        <row>
+      <tgroup cols="7"><tbody><row>
           <entry><emphasis>\(x\)</emphasis></entry><entry>0</entry>
           <entry>1</entry>
           <entry>2</entry>
@@ -242,8 +224,7 @@
           <entry>8</entry>
           <entry>10</entry>
         </row>
-      </tbody>
-    </table>
+      </tbody></tgroup></table>
     
     
   
@@ -264,10 +245,7 @@
   <problem>
     <para>Write an equation from the table of values created in question 3 of <emphasis>Creating a Table of Values</emphasis></para>
     <table class="os-raise-horizontaltable">
-      <thead>
-      </thead>
-      <tbody>
-        <row>
+      <tgroup cols="7"><tbody><row>
           <entry><emphasis>\(x\)</emphasis></entry><entry>0</entry>
           <entry>1</entry>
           <entry>2</entry>
@@ -283,8 +261,7 @@
           <entry>8</entry>
           <entry>10</entry>
         </row>
-      </tbody>
-    </table>
+      </tbody></tgroup></table>
     
     
   
@@ -383,12 +360,9 @@
   <para>Compare your answer:</para>
     
     <table class="os-raise-midsizetable">
-      <thead>
-        <row>
+      <tgroup cols="6"><tbody><row>
           <entry><emphasis>0</emphasis></entry><entry><emphasis>1</emphasis></entry><entry><emphasis>2</emphasis></entry><entry><emphasis>3</emphasis></entry><entry><emphasis>4</emphasis></entry><entry><emphasis>5</emphasis></entry></row>
-      </thead>
-      <tbody>
-        <row>
+      <row>
           <entry>20</entry>
           <entry>20.40</entry>
           <entry>20.80</entry>
@@ -396,8 +370,7 @@
           <entry>21.60</entry>
           <entry>22.10</entry>
         </row>
-      </tbody>
-    </table>
+      </tbody></tgroup></table>
     
     
   

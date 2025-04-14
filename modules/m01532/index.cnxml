@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Write Equations to Model Populations</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -8,9 +9,7 @@
   <content>
   <section id="sect-00001"><para id="para-00001">Use the following prompt and table to answer questions 1 - 7.</para>
 <para id="para-00002"><quote id="quote-00001">The table below shows the population data for three cities at different times between 1950 and 2000.</quote></para><table class="os-raise-wideequaltable" id="table-00001">
-  <thead>
- 
-    <row>
+  <tgroup cols="7"><tbody><row>
       <entry><emphasis>
         City
       </emphasis></entry><entry><emphasis>
@@ -26,8 +25,6 @@
       </emphasis></entry><entry><emphasis>
         2000
       </emphasis></entry></row>   
-    </thead>
-  <tbody>
     <row>
       <entry>
         Paris
@@ -97,8 +94,7 @@
         2,900,000
       </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 
 <list class="os-raise-noindent" type="enumerated" id="list-00001">
   <item>What does the data tell us, if anything, about the current population in the cities or what the population will be in 2050?</item> 

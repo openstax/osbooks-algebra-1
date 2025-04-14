@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.16.3: A Sequence Is a Type of Function</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,8 +11,7 @@
       <title>Activity </title>
       <para>Jada and Mai are trying to decide what type of sequence this could be:</para>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>term number</emphasis>
             </entry>
@@ -19,9 +19,7 @@
               <emphasis>value</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         1
       </entry>
@@ -45,8 +43,7 @@
         18
       </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <para>Jada says: “I think this sequence is geometric because in the value column, each row is 3 times the previous row.”</para>
       <para>Mai says: “I don’t think it is geometric. I graphed it, and it doesn’t look geometric.”</para>
       <!--Text Entry Interaction Start -->

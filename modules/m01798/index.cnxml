@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.4.3: Comparing Exponential and Quadratic Functions</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -23,8 +24,7 @@
             <para> \(q\) is larger when \(x=0\) and again when \(x=5\). Once \(x\) is larger than \(5\), \(q\) is growing much more
     quickly, as shown in the table.</para>
             <table class="os-raise-doubleheadertable">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis/>
                   </entry>
@@ -35,9 +35,7 @@
                     <emphasis>\(q(x)\)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
                     <emphasis>\(0\)</emphasis>
                   </entry>
@@ -93,8 +91,7 @@
                   <entry>\(294\)</entry>
                   <entry>\(2,187\)</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Alternatively, here is a graph showing the plotted values from the table and another showing \(y=p(x)\) and
     \(y=q(x)\).</para>
             <para>

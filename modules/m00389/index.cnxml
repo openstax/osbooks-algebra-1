@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>2.2.2: Self Check</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -8,12 +9,9 @@
   <content>
   <section><para>A streaming service offers two options for subscription plans. Option A charges $10.99 a month plus $2 per movie. Option B charges $5.99 a month plus $3 per movie. The table below describes this. Which of the following systems of equations represents the two options for one month?</para>
 <table class="os-raise-doubleheadertable">
-  <thead>
-    <row>
+  <tgroup cols="5"><tbody><row>
       <entry><emphasis>\(x\) (Number of movies</emphasis></entry><entry><emphasis>0</emphasis></entry><entry><emphasis>1</emphasis></entry><entry><emphasis>2</emphasis></entry><entry><emphasis>3</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry><emphasis>Option A</emphasis></entry><entry>10.99</entry>
       <entry>12.99</entry>
       <entry>14.99</entry>
@@ -25,8 +23,7 @@
       <entry>11.99</entry>
       <entry>14.99</entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 </section>
 </content>
 </document>

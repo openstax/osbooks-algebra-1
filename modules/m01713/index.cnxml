@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Dimensions and Areas of Rectangles</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -8,12 +9,9 @@
   <content>
   <section><para>Use the given information in the table to find the missing length, width, or area of each rectangle. Be prepared to discuss the strategies you used as you found the missing measures.</para>
 <table class="os-raise-wideadjustedtable">
-  <thead>
-    <row>
+  <tgroup cols="4"><tbody><row>
       <entry><emphasis> Rectangle </emphasis></entry><entry><emphasis> Length (units) </emphasis></entry><entry><emphasis> Width (units) </emphasis></entry><entry><emphasis> Area (square units) </emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry> A </entry>
       <entry> \(x+3\) </entry>
       <entry> \(x-4\) </entry>
@@ -85,8 +83,7 @@
       <entry/>
       <entry> \(4x^2-12xy+9y^2-25\) </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup></table>
 </section>
 </content>
 </document>

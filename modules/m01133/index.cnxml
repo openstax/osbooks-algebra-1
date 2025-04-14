@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.15.2: Using Tables and Graphs to Represent Geometric Sequences</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -16,8 +17,7 @@
   </item>
       </list>
       <table class="os-raise-midsizetable">
-        <thead>
-          <row>
+        <tgroup cols="3"><tbody><row>
             <entry>
               <emphasis>number of cuts</emphasis>
             </entry>
@@ -28,9 +28,7 @@
               <emphasis>area in square inches of each piece</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>
         0
       </entry>
@@ -72,8 +70,7 @@
             <entry> </entry>
             <entry> </entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <example>
         <exercise>
           <problem>
@@ -82,8 +79,7 @@
           </problem>
           <solution>
             <table class="os-raise-midsizetable">
-              <thead>
-                <row>
+              <tgroup cols="3"><tbody><row>
                   <entry>
                     <emphasis>number of cuts</emphasis>
                   </entry>
@@ -94,9 +90,7 @@
                     <emphasis>area in square inches of each piece</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           0
         </entry>
@@ -138,8 +132,7 @@
                   <entry>32</entry>
                   <entry>\(\frac52\) or 2.5</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>

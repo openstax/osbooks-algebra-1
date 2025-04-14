@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>What is a function?</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -43,8 +44,7 @@
           <newline/>
           <item>Complete the following table, sketching what happens after going through the function.</item>
           <table class="os-raise-midsizetable">
-            <thead>
-              <row>
+            <tgroup cols="2"><tbody><row>
                 <entry>
                   <emphasis>Input</emphasis>
                 </entry>
@@ -52,9 +52,7 @@
                   <emphasis>Output</emphasis>
                 </entry>
               </row>
-            </thead>
-            <tbody>
-              <row>
+            <row>
                 <entry>
                   <para>
                     <figure>
@@ -144,8 +142,7 @@
                   <newline/>
                 </entry>
               </row>
-            </tbody>
-          </table>
+            </tbody></tgroup></table>
           <newline/>
           <item>Write a rule that describes what the function does. Compare with your group. 💬</item>
         </list>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Understanding an Area Model</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -27,8 +28,7 @@
         Multiply 10✕15 using an area model. Find two different ways to partition the 10x15 rectangle. Use the sim to support you in filling out this table. 💬
     </item>
         <table class="os-raise-wideadjustedtable">
-          <thead>
-            <row>
+          <tgroup cols="4"><tbody><row>
               <entry>
                 <emphasis>Problem</emphasis>
               </entry>
@@ -42,9 +42,7 @@
                 <emphasis>Total area of rectangle</emphasis>
               </entry>
             </row>
-          </thead>
-          <tbody>
-            <row>
+          <row>
               <entry>
                 <para>10✕15</para>
               </entry>
@@ -84,8 +82,7 @@
                 <newline/>
               </entry>
             </row>
-          </tbody>
-        </table>
+          </tbody></tgroup></table>
         <newline/>
         <item>Use the sim to model 6✕18. What is the total area of this rectangle? Represent the total area in multiple ways.</item>
         <figure>

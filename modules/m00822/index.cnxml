@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Different Kinds of Functions</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -49,8 +50,7 @@
     Manipulate your function in different ways. Describe the effects on the table, graph, and equation that each of your actions has.
   </item>
         <table class="os-raise-wideequaltable">
-          <thead>
-            <row>
+          <tgroup cols="4"><tbody><row>
               <entry>
                 <emphasis>Action</emphasis>
               </entry>
@@ -64,9 +64,7 @@
                 <emphasis>Effect on equation</emphasis>
               </entry>
             </row>
-          </thead>
-          <tbody>
-            <row>
+          <row>
               <entry>Click the up arrow on the addition operation <figure><media alt="Insert Alt Text"><image mime-type="image/png" src="../../media/Algebra-1_04_02_04_03.png"/></media></figure></entry>
               <entry> </entry>
               <entry> </entry>
@@ -90,8 +88,7 @@
               <entry> </entry>
               <entry> </entry>
             </row>
-          </tbody>
-        </table>
+          </tbody></tgroup></table>
         <list class="os-raise-noindent" start="7" type="enumerated">
           <newline/>
           <item>What does your graph look like? What other graphs can you make?</item>

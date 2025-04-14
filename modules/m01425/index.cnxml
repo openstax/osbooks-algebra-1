@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.10.2: Self Check</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -8,12 +9,9 @@
   <content>
   <section><para>Suppose a population of cells starts at 500 and triples every day. The number of cells each day can be calculated as follows:</para>
 <table class="os-raise-midsizetable">
-  <thead>
-    <row>
+  <tgroup cols="2"><tbody><row>
       <entry><emphasis>Number Of Days</emphasis></entry><entry><emphasis>Number Of Cells</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>          
+  <row>          
     <entry>
      0
     </entry>
@@ -45,8 +43,7 @@
       13,500
     </entry>
   </row>
-</tbody>
-</table>
+</tbody></tgroup></table>
 <para>Find the average rate of change from day 0 to day 2.</para></section>
 </content>
 </document>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>2.13.4: Solving Inequality Problems Using Tables</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -25,8 +26,7 @@
           <problem>
             <para>The related equation \(y = -2x + 18\) represents the boundary line of the inequality. Complete the table of values to find points on the boundary line of the inequality.</para>
             <table class="os-raise-skinnytable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>\(x\)</emphasis>
                   </entry>
@@ -34,9 +34,7 @@
                     <emphasis>\(y\)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>0</entry>
                   <entry/>
                 </row>
@@ -52,15 +50,13 @@
                   <entry>6</entry>
                   <entry/>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution>
             <para>Compare your answer:</para>
             <table class="os-raise-skinnytable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>\(x\)</emphasis>
                   </entry>
@@ -68,9 +64,7 @@
                     <emphasis>\(y\)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>0</entry>
                   <entry>18</entry>
                 </row>
@@ -86,8 +80,7 @@
                   <entry>6</entry>
                   <entry>6</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
           </solution>
         </exercise>
       </example>
@@ -162,8 +155,7 @@
       <!--Interaction End -->
       <para>In problems 6–10, use the data from the table to graph the inequality and write an inequality with two variables.</para>
       <table class="os-raise-skinnytable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry>
               <emphasis>\(x\)</emphasis>
             </entry>
@@ -171,9 +163,7 @@
               <emphasis>\(y\)</emphasis>
             </entry>
           </row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry>-2</entry>
             <entry>-5</entry>
           </row>
@@ -189,8 +179,7 @@
             <entry>3</entry>
             <entry>5</entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
       <list class="os-raise-noindent" start="6" type="enumerated">
         <item>Use the graphing tool or technology outside the course. Graph the data from your table of values that represents this scenario using the Desmos tool below.</item>
       </list>

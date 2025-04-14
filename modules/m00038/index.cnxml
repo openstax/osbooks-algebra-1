@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Classify Equations: Mini-Lesson Review</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -11,9 +12,7 @@
       <para>An equation that is true for one or more values of the variable and false for all other values of the variable is a <emphasis>conditional equation</emphasis>.</para>
       <para>Consider the equation \( 7x + 8= −13 \). </para>
       <table class="os-raise-horizontaltable">
-        <tgroup cols="2">
-          <tbody>
-            <row>
+        <tgroup cols="2"><tbody><row>
               <entry>
                 <emphasis>Subtract 8 to get the constants on one side.</emphasis>
               </entry>
@@ -25,17 +24,13 @@
               </entry>
               <entry>\( x = −3 \)</entry>
             </row>
-          </tbody>
-        </tgroup>
-      </table>
+          </tbody></tgroup></table>
 
       <para>The solution is \( x = −3 \). This means the equation \( 7x + 8= −13 \) is true when we replace the variable, \(x\), with the value \( −3 \), but it is not true when we replace \(x\) with any other value. Whether the equation \( 7x + 8 = −13 \) is true depends on the value of the variable. The equation is a conditional equation. </para>
       <para>An equation that is true for any value of the variable is called an <emphasis>identity</emphasis>. The solution of an identity is all real numbers.</para>
       <para>Consider the equation \( 2y + 6 = 2(y + 3) \). Do you recognize that the left side and the right side are equivalent? Let’s see what happens when we solve for \(y\).</para>
       <table class="os-raise-horizontaltable">
-        <tgroup cols="2">
-          <tbody>
-            <row>
+        <tgroup cols="2"><tbody><row>
               <entry>
                 <emphasis>Distribute.</emphasis>
               </entry>
@@ -47,48 +42,25 @@
               </entry>
               <entry>\( 6 = 6 \)</entry>
             </row>
-          </tbody>
-        </tgroup>
-      </table>
+          </tbody></tgroup></table>
 
 
       <para>But \( 6 = 6 \) is true. This means the equation \( 2y + 6 = 2(y + 3) \) is true for any value of \( y \). The equation is an identity, and we say the solution is all real numbers. </para>
       <para>An equation that is false for all values of the variable is called a <emphasis> contradiction</emphasis>. A contradiction has no solution.</para>
       <para>Consider the equation \( 5z = 5z − 1 \).</para>
       <table class="os-raise-horizontaltable">
-        <tgroup cols="2">
-          <tbody>
-            <row>
+        <tgroup cols="2"><tbody><row>
               <entry>
                 <emphasis>Subtract \( 5z \) to get the variables on one side.</emphasis>
               </entry>
               <entry>\( 0 ≠ -1 \)</entry>
             </row>
-          </tbody>
-        </tgroup>
-      </table>
+          </tbody></tgroup></table>
 
 
       <para>The table summarizes the types of equations and solutions.</para>
       <table class="os-raise-horizontaltable">
-        <title />
-        <tgroup cols="3">
-          <thead>
-            <row>
-              <entry>
-                <emphasis>Type of Equation</emphasis>
-              </entry>
-              <entry>
-                <emphasis>             What happens when you solve it?</emphasis>
-              </entry>
-              <entry>
-                <emphasis>      Solution</emphasis>
-              </entry>
-            </row>
-          </thead>
-
-          <tbody>
-            <row>
+        <tgroup cols="3"><tbody><row>
               <entry>
                 <emphasis>Conditional Equation</emphasis>
               </entry>
@@ -118,9 +90,8 @@
               <entry>
                 <para>No solution</para>&gt;</entry>
             </row>
-          </tbody>
-        </tgroup>
-      </table>
+          </tbody></tgroup><title/>
+        </table>
 
       <note class="try"><title>Try It: Use Solutions to Classify Equations</title>
         <exercise>
@@ -132,9 +103,7 @@
             <para>Here is how to classify the equation by finding the solution:</para>
 
             <table class="os-raise-horizontaltable">
-              <tgroup cols="2">
-                <tbody>
-                  <row>
+              <tgroup cols="2"><tbody><row>
                     <entry>
                       <emphasis>Classify.</emphasis>
                     </entry>
@@ -171,9 +140,7 @@
                     </entry>
                     <entry>The equation is a contradiction. It has no solution.</entry>
                   </row>
-                </tbody>
-              </tgroup>
-            </table>
+                </tbody></tgroup></table>
           </solution>
         </exercise>
       </note>
@@ -181,8 +148,7 @@
 
     <section class="check-understanding">
       <title>Check Your Understanding</title>
-      <exercise id="ed3fbca8-7f19-4584-b4a7-89668dfca666"
-        class="multiple-choice">
+      <exercise id="ed3fbca8-7f19-4584-b4a7-89668dfca666" class="multiple-choice">
         <problem>
           <para>Which of the following correctly classifies the equation and the solution?\( 4 + 9(3x − 7) = −42x − 13 + 23(3x − 2) \)</para>
           <para>Multiple Choice:</para>
@@ -205,8 +171,7 @@
 
         <para>Watch the video to see how a linear equation may have one solution, no solution, or infinite solutions.</para>
         <media alt="Placeholder for Alt Text">
-          <iframe width="660" height="371.4"
-            src="https://www.youtube-nocookie.com/embed/qsL_5Y8uWPU;&amp;rel=0" />
+          <iframe width="660" height="371.4" src="https://www.youtube-nocookie.com/embed/qsL_5Y8uWPU;&amp;rel=0"/>
         </media>
       </section>
     </section>

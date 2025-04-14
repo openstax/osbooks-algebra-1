@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>3.5.5: Practice</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -29,12 +30,9 @@
       <exercise id="4a9a07e0-d20f-436c-a54e-37744d12d3bd" class="multiple-choice">
         <problem><para>For questions 3 to 6, use a graphing calculator to answer the questions. Technology required.</para><para>Use technology to find the equation of the line of best fit. What is the value of the correlation coefficient?</para>
       <table class="os-raise-skinnytable">
-        <thead>
-          <row>
+        <tgroup cols="2"><tbody><row>
             <entry><emphasis>x</emphasis></entry><entry><emphasis>y</emphasis></entry></row>
-        </thead>
-        <tbody>
-          <row>
+        <row>
             <entry><para>5</para></entry>
             <entry><para>2</para></entry>
           </row>
@@ -74,8 +72,7 @@
             <entry><para>12</para></entry>
             <entry><para>12.5</para></entry>
           </row>
-        </tbody>
-      </table>
+        </tbody></tgroup></table>
     <para>Multiple Choice:</para><para>\(r \approx -0.96\)</para><para>\(r \approx 0.96\)</para><para>\(r \approx 0.04\)</para><para>\(r \approx -0.04\)</para></problem>
         <solution>
           <para>Correct! The line of best fit is \(y=1.25x - 2.79\), so the value of the correlation coefficient is \(r \approx 0.96\) </para>

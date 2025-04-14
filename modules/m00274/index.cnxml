@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>1.12.6: Choosing a Method to Write an Equation</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -10,15 +11,9 @@
 <para>You have seen that you can use either the slope-intercept form or the point-slope form to find an equation of a line. Which form you use will depend on the information you are given.</para>
 <para>The table can be used as a reference.</para>
 <table class="os-raise-wideequaltable">
-  <caption>
-  To Write an Equation of a Line
-  </caption>
-  <thead>
-    <row>
+  <tgroup cols="3"><tbody><row>
       <entry><emphasis>If given:</emphasis></entry><entry><emphasis>Use:</emphasis></entry><entry><emphasis>Form:</emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry> Slope and \(y\)-intercept</entry>
       <entry> slope-intercept </entry>
       <entry> \( y = mx + b \)</entry>
@@ -33,8 +28,10 @@
       <entry> point-slope </entry>
       <entry> \( y - y_1 = m(x - x_1) \)</entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup><caption>
+  To Write an Equation of a Line
+  </caption>
+  </table>
 
 <exercise>
   <problem>

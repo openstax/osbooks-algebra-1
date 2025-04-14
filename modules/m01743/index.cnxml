@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.1.3: Plotting Measurements</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -17,8 +18,7 @@
             <para>Use your table, or here is a sample table of values if you need one:</para>
             <title>Values for a Rectangular Garden with a Perimeter of 50 Meters</title>
             <table class="os-raise-midsizetable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>Length (meters)</emphasis>
                   </entry>
@@ -26,9 +26,7 @@
                     <emphasis>Area (square meters)</emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>5</entry>
                   <entry>100</entry>
                 </row>
@@ -56,8 +54,7 @@
                   <entry>24</entry>
                   <entry>24</entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Be sure to label your axes. Select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
           <solution>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>5.11.2: Self Check</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -9,15 +10,9 @@
   <section><para>The table gives predictions of the average costs of a gasoline car after the year 2030.</para>
 <para>Which graph best represents the relationship between time and the predicted cost?</para>
 <table class="os-raise-midsizetable">
-  <caption>
-  Gasoline car
-  </caption>
-  <thead>
-    <row>
+  <tgroup cols="2"><tbody><row>
       <entry><emphasis> Time (years) </emphasis></entry><entry><emphasis> Cost (thousand of dollars) </emphasis></entry></row>
-  </thead>
-  <tbody>
-    <row>
+  <row>
       <entry> 0 </entry>
       <entry> 35 </entry>
     </row>
@@ -37,8 +32,10 @@
       <entry> 20 </entry>
       <entry> 61.2 </entry>
     </row>
-  </tbody>
-</table>
+  </tbody></tgroup><caption>
+  Gasoline car
+  </caption>
+  </table>
 
 </section>
 </content>

@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>4.17.3: Ways to Represent a Sequence</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -59,8 +60,7 @@
               <item>\(f(n)=\frac{f(n-1)}2\) for \(n\geq2\)</item>
             </list>
             <table class="os-raise-skinnytable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>
           \(n\)
@@ -72,9 +72,7 @@
       </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           1
         </entry>
@@ -114,8 +112,7 @@
           1
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <para>Problem Card 2:</para>
             <list class="os-raise-noindent" type="enumerated">
               <item>What is the fifth term of sequence \(K\)?</item>
@@ -150,8 +147,7 @@
               <item/>
             </list>
             <table class="os-raise-skinnytable">
-              <thead>
-                <row>
+              <tgroup cols="2"><tbody><row>
                   <entry>
                     <emphasis>
           \(n\)
@@ -163,9 +159,7 @@
         </emphasis>
                   </entry>
                 </row>
-              </thead>
-              <tbody>
-                <row>
+              <row>
                   <entry>
           1
         </entry>
@@ -205,8 +199,7 @@
           –4 
         </entry>
                 </row>
-              </tbody>
-            </table>
+              </tbody></tgroup></table>
             <list class="os-raise-noindent" start="2" type="enumerated">
               <item> \(Q(1)=16\), \(Q(n)=Q(n−1)−5\) for \(n\geq2\)</item>
             </list>
