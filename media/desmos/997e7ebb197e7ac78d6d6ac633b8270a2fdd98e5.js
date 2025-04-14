@@ -1,0 +1,1 @@
+window.parameters = {"disableExpressions":false,"scaleTop":"225","scaleBottom":"-25","scaleRight":"20","scaleLeft":"-10"};
