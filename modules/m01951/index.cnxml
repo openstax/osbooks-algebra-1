@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>7.12.3: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -334,25 +335,29 @@
           </solution>
         </exercise>
       </example>
-      <example>
+      <!--Q#-->
+      <!--Interaction End -->
+    </note>
+  <example>
         <exercise>
           <problem>
-            <para>If the red graph (in the middle) is the parent function, \(f(x)=x^2\), what are the equations of the blue
-        graph (to the right) and green graph (to the left)?</para>
+            <para>The black graph (in the middle) is the parent function f(x) = x2. The equations of the other graphs are f(x) = (25x)2 and f(x) = (43x)2. 
+    Which function matches the green graph (on the inside)? The blue graph (on the outside)?  
+</para>
             <para>
               <figure>
-                <media alt="">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_08_14_08_07.jpg"/>
+                <media alt="Insert Alt Text">
+                  <image mime-type="image/png" src="../../media/Algebra-1_08_14_08_09.png"/>
                 </media>
               </figure>
             </para>
-            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution>
-            <para>Here is how to solve to find the equations of the other graphs.</para>
-            <para>The green graph is the same as \(f(x)=x^2\) but is shifted left \(\frac32\). The function will be
-    \(f(x)=(x+\frac{3}{2})^2\).</para>
-            <para>The blue graph is the same as \(f(x)=x^2\) but is shifted right 3. The function will be \(f(x)=(x-3)^2\).</para>
+            <para>Compare your answer:</para>
+            <para>Here is how to solve to find the equations of the other graphs:</para>
+            <para>The green graph has been horizontally compressed in comparison to the parent function. Therefore, the coefficient impacting the input value must be greater than 1. That means the green graph represents \(f(x) = (\frac43x)^2\).</para>
+            <para>The blue graph has been horizontally stretched in comparison to the parent function. So, the coefficient impacting the input value must be greater than 0 but less than 1. That means the blue graph represents \(f(x) = (\frac25x)^2\).</para>
           </solution>
         </exercise>
       </example>
@@ -379,31 +384,28 @@
           </solution>
         </exercise>
       </example>
-      <!--Q#-->
       <example>
         <exercise>
           <problem>
-            <para>The black graph (in the middle) is the parent function f(x) = x2. The equations of the other graphs are f(x) = (25x)2 and f(x) = (43x)2. 
-    Which function matches the green graph (on the inside)? The blue graph (on the outside)?  
-</para>
+            <para>If the red graph (in the middle) is the parent function, \(f(x)=x^2\), what are the equations of the blue
+        graph (to the right) and green graph (to the left)?</para>
             <para>
               <figure>
-                <media alt="Insert Alt Text">
-                  <image mime-type="image/png" src="../../media/Algebra-1_08_14_08_09.png"/>
+                <media alt="">
+                  <image mime-type="image/jpeg" src="../../media/Algebra-1_08_14_08_07.jpg"/>
                 </media>
               </figure>
             </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
           </problem>
           <solution>
-            <para>Compare your answer:</para>
-            <para>Here is how to solve to find the equations of the other graphs:</para>
-            <para>The green graph has been horizontally compressed in comparison to the parent function. Therefore, the coefficient impacting the input value must be greater than 1. That means the green graph represents \(f(x) = (\frac43x)^2\).</para>
-            <para>The blue graph has been horizontally stretched in comparison to the parent function. So, the coefficient impacting the input value must be greater than 0 but less than 1. That means the blue graph represents \(f(x) = (\frac25x)^2\).</para>
+            <para>Here is how to solve to find the equations of the other graphs.</para>
+            <para>The green graph is the same as \(f(x)=x^2\) but is shifted left \(\frac32\). The function will be
+    \(f(x)=(x+\frac{3}{2})^2\).</para>
+            <para>The blue graph is the same as \(f(x)=x^2\) but is shifted right 3. The function will be \(f(x)=(x-3)^2\).</para>
           </solution>
         </exercise>
       </example>
-      <!--Interaction End -->
-    </section>
-  </content>
+      </section>
+</content>
 </document>

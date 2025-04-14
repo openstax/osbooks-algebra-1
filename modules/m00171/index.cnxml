@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>1.7.2: Additional Resources</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
@@ -93,8 +94,7 @@
       <title>Video: Acceptable Moves</title>
       <para>Watch the following video to learn more about acceptable moves. </para>
       <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4"
-          src="https://k12.openstax.org/contents/raise/resources/84fd718f1e7fa4c23f38cb1f2a45b7a21744d55f" />
+        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/84fd718f1e7fa4c23f38cb1f2a45b7a21744d55f"/>
       </media>
       <note class="try">
       <title>Try It: Solving Equations and Creating Equivalent Equations</title>
@@ -121,7 +121,56 @@
           </solution>
         </exercise>
       </example>
-      <example>
+      </note>
+  <example>
+        <exercise>
+          <problem>
+
+            <para> Solve \(-12+8(x−5)=-4+3(5x-2) \)</para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+              compare your work.</para>
+
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+
+            <para><emphasis>Step 1 -</emphasis> Simplify each side of the equation as much as
+              possible.</para>
+
+            <para>\(\begin{array}{rcl}-12 + 8(x - 5) &amp;=&amp; -4 + 3(5x - 2) \\ -12 + 8x - 40
+              &amp;=&amp; -4 + 15x - 6 \\ 8x - 52 &amp;=&amp; 15x - 10\end{array}\)</para>
+
+
+            <para><emphasis>Step 2 -</emphasis> Collect all the variable terms on one side of the
+              equation.</para>
+
+            <para>\(\begin{array}{rcl}8x - 52 - 15x &amp;=&amp; 15x - 10 - 15x \\ -7x -52
+              &amp;=&amp; - 10\end{array}\)</para>
+
+
+            <para><emphasis>Step 3 -</emphasis> Collect all the constant terms on the other side of
+              the equation.</para>
+
+            <para>\(\begin{array}{rcl}-7x - 52 + 52 &amp;=&amp; -10 + 52 \\ -7x &amp;=&amp;
+              42\end{array}\)</para>
+
+            <para><emphasis>Step 4 - </emphasis>Make the coefficient of the variable term equal to
+              1.</para>
+
+            <para>\(\begin{array}{rcl}\frac{-7x}{-7} &amp;=&amp; \frac {42}{-7} \\ x &amp;=&amp;
+              -6\end{array}\)</para>
+
+            <para><emphasis>Step 5 -</emphasis> Check the solution.</para>
+
+            <para>\(\begin{array}{rcl}-12 + 8(x - 5) &amp;=&amp; -4 + 3(5x - 2) ? \\ -12 + 8(-6 - 5)
+              &amp;=&amp; -4 + 3(5(-6) - 2) ? \\ -12 + 8(-11) &amp;=&amp; -4 + 3(-30 - 2) ? \\ -12 +
+              -88 &amp;=&amp; -4 + 3(-32) ? \\ -100 &amp;=&amp; -4 + -96 \\ -100 &amp;=&amp; -100 
+              \checkmark\end{array}\)</para>
+
+          </solution>
+        </exercise>
+      </example>
+    <example>
         <exercise>
           <problem>
 
@@ -171,54 +220,5 @@
           </solution>
         </exercise>
       </example>
-      <example>
-        <exercise>
-          <problem>
-
-            <para> Solve \(-12+8(x−5)=-4+3(5x-2) \)</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
-              compare your work.</para>
-
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-
-            <para><emphasis>Step 1 -</emphasis> Simplify each side of the equation as much as
-              possible.</para>
-
-            <para>\(\begin{array}{rcl}-12 + 8(x - 5) &amp;=&amp; -4 + 3(5x - 2) \\ -12 + 8x - 40
-              &amp;=&amp; -4 + 15x - 6 \\ 8x - 52 &amp;=&amp; 15x - 10\end{array}\)</para>
-
-
-            <para><emphasis>Step 2 -</emphasis> Collect all the variable terms on one side of the
-              equation.</para>
-
-            <para>\(\begin{array}{rcl}8x - 52 - 15x &amp;=&amp; 15x - 10 - 15x \\ -7x -52
-              &amp;=&amp; - 10\end{array}\)</para>
-
-
-            <para><emphasis>Step 3 -</emphasis> Collect all the constant terms on the other side of
-              the equation.</para>
-
-            <para>\(\begin{array}{rcl}-7x - 52 + 52 &amp;=&amp; -10 + 52 \\ -7x &amp;=&amp;
-              42\end{array}\)</para>
-
-            <para><emphasis>Step 4 - </emphasis>Make the coefficient of the variable term equal to
-              1.</para>
-
-            <para>\(\begin{array}{rcl}\frac{-7x}{-7} &amp;=&amp; \frac {42}{-7} \\ x &amp;=&amp;
-              -6\end{array}\)</para>
-
-            <para><emphasis>Step 5 -</emphasis> Check the solution.</para>
-
-            <para>\(\begin{array}{rcl}-12 + 8(x - 5) &amp;=&amp; -4 + 3(5x - 2) ? \\ -12 + 8(-6 - 5)
-              &amp;=&amp; -4 + 3(5(-6) - 2) ? \\ -12 + 8(-11) &amp;=&amp; -4 + 3(-30 - 2) ? \\ -12 +
-              -88 &amp;=&amp; -4 + 3(-32) ? \\ -100 &amp;=&amp; -4 + -96 \\ -100 &amp;=&amp; -100 
-              \checkmark\end{array}\)</para>
-
-          </solution>
-        </exercise>
-      </example>
-    </section>
-  </content>
-</document>
+      </section>
+</content></document>
