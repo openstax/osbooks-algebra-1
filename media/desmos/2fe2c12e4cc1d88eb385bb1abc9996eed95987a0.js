@@ -1,0 +1,1 @@
+window.parameters = {"disableExpressions":false,"scaleTop":"1600","scaleBottom":"-200","scaleRight":"200","scaleLeft":"-50","tables":"[[{\"variable\": \"x_1\", \"values\": [14, 24,35,60,95,107]}, {\"variable\": \"y_1\", \"values\": [600,800,1050,1350,1092,840]}]]"};

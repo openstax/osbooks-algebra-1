@@ -1,0 +1,1 @@
+window.parameters = {"disableExpressions":false,"equations":"[\"x+y\\\\ge9.5\\\\left\\\\{y>0\\\\right\\\\}\\\\left\\\\{x>0\\\\right\\\\}\",\"9x+13y \\\\le 110\\\\left\\\\{y>0\\\\right\\\\}\\\\left\\\\{x>0\\\\right\\\\}\"]"};
