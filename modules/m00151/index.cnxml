@@ -149,6 +149,9 @@
       interaction.  If multiple interactions appear under "are you ready for more?, they should all
       have matching "data-wait-for-event", which should also match the "data-fire-event" for the
       button. Note in this sample, they are all RFM1-->
+
+      <section>
+        <title>Are you ready for more?</title>
 <section>
   <title>Extending Your Thinking</title>      
   <para id="para-00023">Here is a puzzle:</para>
@@ -176,10 +179,12 @@
       <!--End
       interaction-->
     </section>
+    </section>
 
     <section>
-      <title>Self Check</title>
+      <note class="self-check">
       <para>Which equation is equivalent to \( 3x-6=18 \)?</para>
+      </note>
     </section>
 
     <section>
@@ -236,7 +241,7 @@
         <!--Interaction End -->
     </section>
      
-    <note class="try look-at-me"/>
+    <note class="try">
         <title>Try It: Finding Equivalent Equations</title>
         <!--Q1-->
         <exercise>
@@ -322,6 +327,7 @@
             <para>No. Each term in the first equation was multiplied by a different number to get equation two.</para>
           
           </solution></exercise>
+        </note>
         <!--Interaction End --></section>
     </section>
 

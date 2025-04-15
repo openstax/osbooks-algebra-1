@@ -13,7 +13,7 @@
         <problem>
       <para>The table represents the relationship between the base length and the height of some
         parallelograms. Both measurements are in inches.</para>
-      <table class="unnumbered">
+      <table class="os-raise-skinnytable unnumbered">
         <tgroup cols="2"><tbody><row>
             <entry>
               1
@@ -84,7 +84,7 @@
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <table class="unnumbered">
+          <table class="os-raise-midsizetable unnumbered">
             <tgroup cols="2"><tbody><row>
                 <entry>
                   1
@@ -149,7 +149,7 @@
           <para>If 4 cups contain 32 fluid ounces, then 8 cups must contain 64 fluid ounces. Because
             there are 16 cups in 1 gallon and 16 is twice as much as 8, there must be 128 fluid
             ounces in a gallon.</para>
-          <table class="unnumbered">
+          <table class="os-raise-midsizetable unnumbered">
             <tgroup cols="3"><tbody><row>
                 <entry>
                   \( \frac{1}{2} \)
@@ -203,7 +203,7 @@
     </section>
 
     <section>
-      <title>Self Check</title>
+      <note class="self-check">
       <table class="unnumbered">
       <tgroup cols="5"><tbody><row>
         <entry><emphasis>Number of guests, \( g \)</emphasis></entry><entry>1 </entry>
@@ -220,6 +220,7 @@
     </tbody></tgroup></table>
     
     <para>What is one way to write the relationship between the number of guests and the number of cupcakes per guest from the table above?</para>
+    </note>
     </section>
 
     <section>
@@ -236,7 +237,7 @@
           <para id="para-00004">A plane departed from New Orleans and is heading to San Diego. The table
             shows its distance from New Orleans, \( x \), and its distance from San Diego, \( y \), at
             some points along the way.</para>
-          <table class="unnumbered">
+          <table class="os-raise-midsizetable unnumbered">
             <tgroup cols="2"><tbody><row>
                 <entry>100</entry>
                 <entry>1,500</entry>
@@ -380,7 +381,7 @@
           <para id="para-00037">We can generalize that the amount each organization receives is 50,000
             divided by the number of selected organizations, or \( d=\frac{50,000}{n} \).</para>
           
-          <note class="try look-at-me"/>
+          <note class="try">
           <title>Try It: Finding Relationships between Quantities</title>
           <para id="para-00038">A local business is going to hand out $20,000 in scholarships to
             students at local high schools.</para>
@@ -453,6 +454,7 @@
     
             </solution>
           </exercise>
+          </note>
         <!--Interaction
           End -->
         </section>
