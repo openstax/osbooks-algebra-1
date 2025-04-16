@@ -6,6 +6,7 @@
     <md:uuid>627e384f-0a40-4130-a48d-dd8044abfc27</md:uuid>
   </metadata>
   <content>
+<<<<<<< HEAD
     <section>
       <title>Question #2: Factoring Perfect Square Trinomials</title>
       <para>Which of the following expressions is equivalent to \(4x^2-12x+9\)?</para>
@@ -89,4 +90,94 @@
       </section>
     </section>
   </content>
+=======
+  <section><title>Factor Perfect Square Trinomials</title>
+<para>Some trinomials are perfect squares. They result from multiplying a binomial times itself.</para>
+<para>\(\begin{pmatrix}
+  {\style{color:red}a}\;
+  {\style{color:red}+}\;
+  {\style{color:red}b}
+  \\3x+4\end{pmatrix}^2\)</para>
+<para>\({\style{color:red}a}^
+  {\style{color:red}2}\;
+  {\style{color:red}+}\;
+  {\style{color:red}2}\;
+  {\style{color:red}\cdot }\;
+  {\style{color:red}a}\;
+  {\style{color:red}\cdot }\;
+  {\style{color:red}b }\;
+  {\style{color:red}+ }\;
+  {\style{color:red}b }^
+  {\style{color:red}2 }\\{(3x)}^2+2(3x\cdot4)+4^2\)</para>
+<para>\(9x^2+24x+16\)</para>
+<para>The trinomial \(9x^2+24x+16\) is called a <term class="glossary-tooltip"> perfect square trinomial</term>. It is the square of the binomial \(3x+4\).</para>
+<para>If you recognize that the first and last terms are squares and the trinomial fits the perfect square trinomial pattern, you will save yourself a lot of work.</para>
+<para>Here is the pattern: the reverse of the binomial squares pattern.</para>
+<note>
+  <para> <emphasis> Perfect Square Trinomials Pattern </emphasis></para>
+  <hr/>
+  <para>If \(a\) and \(b\) are real numbers, then
+    \(a^2+2ab+b^2=(a+b)^2\)
+    \(a^2-2ab+b^2=(a-b)^2\)</para>
+</note>
+
+<para><emphasis>Example</emphasis></para>
+<para>Here is an example of how to factor a perfect square trinomial.</para>
+<para>Factor \(9x^2+12x+4\).</para>
+<para><emphasis>Step 1</emphasis> - Does the trinomial fit the perfect square trinomials pattern, \(a^2+2ab+b^2\)?</para>
+<list>
+  <item> Is the first term a perfect square? Write it as a square, \(a^2\).</item>
+  <item> Is the last term a perfect square? Write it as a square, \(b^2\).</item>
+  <item> Check the middle term. Is it \(2ab\)?</item>
+</list>
+<para>Is \(9x^2\) a perfect square? Yes: write it as \((3x)^2\).
+  Is 4 a perfect square? Yes: write it as \((2)^2\).
+  Is \(12x\) twice the product of \(3x\) and 2? Does it match? Yes, so we have a perfect square trinomial.</para>
+<para>\(9x^2\;\;\;\;\;+\;\;\;\;\;12x\;\;\;\;\;+\;\;\;\;\;4 \\ (3x)^2 \\ \\ (3x)^2\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;(2)^2 \\ (3x)^2\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;(2)^2 \\ \;\;\;{\style{color:blue}\searrow}\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;{\style{color:blue}\swarrow} \\ \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;2(3x)(2) \\ \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;12x\)</para>
+<para><emphasis>Step 2</emphasis> - Write the square of the binomial.
+  \(9x^2+12x+4\)</para>
+<para>\(a^2+2 \cdot a \cdot b+b^2\\ ({\style{color:red}3}{\style{color:red}x})^2+2 \cdot \;{\style{color:red}3}{\style{color:red}x}\cdot {\style{color:blue}2}+{\style{color:blue}2}^2\)</para>
+<para>\((a+b)^2\\ ({\style{color:red}3}{\style{color:red}x}+{\style{color:blue}2})^2\)</para>
+<para><emphasis>Step 3</emphasis> - Check.
+  \((3x+2)^2\)
+  \((3x)^2+2 \cdot 3x+2+2^2\)
+  \(9x^2+12x+4 \checkmark\)</para>
+<note class="try look-at-me"/>
+<title>Try It: Factor Perfect Square Trinomials</title>
+<example><exercise>
+  <problem>
+    
+    <para>Factor \(81y^2-72y+16\).</para>
+  
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  
+  </problem><solution>
+  <para>Here is how to factor the perfect square trinomial:</para>
+  
+  <para>\(81y^2-72y+16\)</para>
+  
+  <para><emphasis>Step 1</emphasis> - Are the first and last terms perfect squares?
+    \((9y)^2\;\;\;\;\;\;\;\;\;4^2\)
+    Is the middle term \(2ab\)?
+    \(2(9y)(4)=72y\)</para>
+  
+  <para><emphasis>Step 2</emphasis> - Write the square of the binomial.
+    \((9y-4)^2\)</para>
+  
+  <para><emphasis>Step 3</emphasis> - Check.
+    \((9y-4)^2\)
+    \((9y-4)\cdot (9y-4)\)
+    \((9y)^2-36y-36y+4^2\)
+    \(81y^2-72y+16\checkmark\)</para>
+
+</solution></exercise>
+</example>
+<section class="check-understanding"><title>Check Your Understanding</title><exercise id="e322e94e-9d53-4abb-b924-0b86a4d3b54e" class="multiple-choice"><problem><para>Which of the following is equivalent to \(36y^2+12y+1\)?</para><para>Multiple Choice:</para><para>\((6y+1)(6y-1)\)</para><para>\((6y+1)^2\)</para><para>\((6y-1)^2\)</para><para>\(12(3y^2+y+1)\)</para></problem><solution><para>Correct! Check yourself: \((6y+1)^2=(6y+1)(6y+1)\), then, using the distributive property, becomes \(36y^2+6y+6y+1\), which becomes the given perfect square trinomial.</para><para>Try again. Take a moment to think about what you learned in the mini-lesson review.</para></solution></exercise></section>
+<para>Watch the following videos to learn more about factoring perfect square trinomials and perfect square form.</para>
+<para><emphasis>Khan Academy: Factoring Perfect Squares</emphasis></para>
+<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://www.youtube-nocookie.com/embed/liRNTieIU_k;&amp;rel=0"/></media><para><emphasis>Khan Academy: Identifying Perfect Square Form</emphasis></para>
+<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://www.youtube-nocookie.com/embed/4STGvuoBi5U;&amp;rel=0"/></media><title>Videos</title>
+</section>
+</content>
+>>>>>>> parent of b77700716 (removing hr tags and extra spaces around emphasis)
 </document>

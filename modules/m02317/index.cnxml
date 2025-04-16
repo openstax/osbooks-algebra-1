@@ -6,6 +6,7 @@
     <md:uuid>c49a426c-82c0-42a0-b382-5f7c40e3d089</md:uuid>
   </metadata>
   <content>
+<<<<<<< HEAD
     <section>
       <title>Question #1: Simplifying Radicals</title>
       <para>Simplify \(\sqrt{45}\).</para>
@@ -77,4 +78,63 @@
       </section>
     </section>
   </content>
+=======
+  <section><title>Simplifying a Square Root</title>
+<para>Some square roots can be simplified using the product property. Here is the product property:</para>
+<note>
+  <para> <emphasis> Product Property of \(n^{th}\) Roots </emphasis></para>
+  <hr/>
+  <para>If \(\sqrt[n]a\) and \(\sqrt[n]b\) are real numbers, and \(n\geq 2\) is an integer, then</para>
+  <para>\(\sqrt[n]{ab}=\sqrt[n]a\cdot\sqrt[n]b\) and \(\sqrt[n]a\cdot\sqrt[n]b=\sqrt[n]{ab}\)</para>
+</note>
+
+<para>Here is how the product property can be used to simplify square roots:</para>
+<note>
+  <para> <emphasis> How to Simplify a Radical Expression Using the Product Property </emphasis></para>
+  <hr/>
+  <para><emphasis>Step 1</emphasis> - Find the largest factor in the radicand that is a perfect power of the index. Use that factor to rewrite the radicand as a product of two factors.</para>
+  <para><emphasis>Step 2</emphasis> - Use the product rule to rewrite the radical as the product of two radicals.</para>
+  <para><emphasis>Step 3</emphasis> - Simplify the root of the perfect power.</para>
+</note>
+
+<para><emphasis>Example</emphasis></para>
+<para>Find the simplest form of \(\sqrt{98}\).</para>
+<para><emphasis>Step 1</emphasis> - Find the largest factor in the radicand that is a perfect power of the index. Use that factor to rewrite the radicand as a product of two factors.
+  We see that 49 is the largest factor of 98 that has a power of 2. In other words, 49 is the largest perfect square factor of 98.
+  \(98=49 \cdot 2\)
+  Always write the perfect square factor first.
+  \(\sqrt{49 \cdot 2}\)</para>
+<para><emphasis>Step 2</emphasis> - Use the product rule to rewrite the radical as the product of two radicals.
+  \(\sqrt{49} \cdot \sqrt{2}\)</para>
+<para><emphasis>Step 3</emphasis> - Simplify the root of the perfect power.
+  \(7\sqrt{2}\)</para>
+<note class="try look-at-me"/>
+<title>Try It: Simplifying a Square Root</title>
+<example><exercise>
+  <problem>
+    
+    <para>Simplify \(\sqrt{48}\).</para>
+  
+  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+  
+  </problem><solution>
+  <para>Here is how to simplify a square root:</para>
+  
+  <para><emphasis>Step 1</emphasis> - Find the largest factor in the radicand and rewrite the radical as a product of factors.
+    \(\sqrt{48}=\sqrt{16 \cdot 3}\)</para>
+  
+  <para><emphasis>Step 2</emphasis> - Use the product rule to rewrite the radical as a product of two radicals.
+    \(\sqrt{16} \cdot \sqrt{3}\)</para>
+  
+  <para><emphasis>Step 3</emphasis> - Simplify the radical with the perfect square root.
+    \(\sqrt{16} \cdot \sqrt{3}=4\sqrt{3}\)</para>
+
+</solution></exercise>
+</example><section class="check-understanding"><title>Check Your Understanding</title><exercise id="_414e87d7-61a3-4bae-b82f-8105fb1d906f" class="multiple-choice"><problem><para>Find the simplest form of \(\sqrt{500}\).</para><para>Multiple Choice:</para><para>\(10\sqrt{5}\)</para><para>\(100\sqrt{5}\)</para><para>\(5\sqrt{20}\)</para><para>\(2\sqrt{125}\)</para></problem><solution><para>Correct! Check yourself: The \(\sqrt{500}\) can be broken into \(\sqrt{100} \cdot \sqrt{5}\). This simplifies to \(10\sqrt{5}\).</para><para>Try again. Take a moment to think about what you learned in the mini-lesson review.</para></solution></exercise></section>
+<para>Watch the following video to learn more about how to simplify square roots using perfect squares.</para>
+<para><emphasis>Khan Academy: Simplifying Square Roots</emphasis></para>
+<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://www.youtube-nocookie.com/embed/cw3mp8oNASk;&amp;rel=0"/></media><title>Videos</title>
+</section>
+</content>
+>>>>>>> parent of b77700716 (removing hr tags and extra spaces around emphasis)
 </document>
