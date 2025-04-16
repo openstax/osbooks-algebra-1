@@ -11,7 +11,7 @@
     <title>Activity</title>
       <para>These three figures are called Platonic solids.</para>
 
-<table class="unnumbered">
+<table class="os-raise-doubleheadertable unnumbered">
 <tgroup cols="3"><tbody><row>
 <entry>Tetrahedron</entry>
 <entry>Cube</entry>
@@ -30,7 +30,7 @@
 </row>
 </tbody></tgroup></table>
       
-      <table class="os-raise-doubleheadertable">
+      <table class="os-raise-doubleheadertable unnumbered">
         <tgroup cols="4"><tbody><row>
             <entry>
               <emphasis/>
@@ -70,7 +70,7 @@
             <entry>30</entry>
           </row>
         </tbody></tgroup></table>
-      </section>
+
       <para>The table shows the number of faces, vertices, and edges for the tetrahedron and
         dodecahedron.</para>
       <para>Determine the following values regarding the cube.</para>
@@ -160,12 +160,15 @@
             = E\).</para>
         </solution>
       </exercise>
-      </content>
+
       <!--Interaction
       End -->
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
       will need to change the Data-fire/data-wait-for-events for each set.-->
+    </section>
     <section>
+      <title>Are you ready for more?</title>
+      <section>
     <title>Extending Your Thinking</title>
       <para>There are two more Platonic solids: an octahedron, which has 8 faces that are all triangles, and an icosahedron, which has 20 faces that are all triangles.</para>
         <exercise id="e9f36468-a618-4a55-b863-9bf452b3b22c" class="multiple-choice">
@@ -214,8 +217,7 @@
             <para>Nice try! The correct answer is: The icosahedron has 30 vertices.</para>
           </solution>
         </exercise>
-      </section>
-      <section>
+
       <exercise class="RFM1">
         <problem>
           <para>For all 5 Platonic solids, determine how many faces meet at each vertex.</para>
@@ -229,15 +231,17 @@
         </solution>
       </exercise>
     </section>
+    </section>
 
     <section>
-      <title>Self Check</title>
+      <note class="self-check">
       <para>The sum of the measures of the angles of a triangle is \( 180° \). The right triangle shown has angle measures \( a \), \( b \), and \( 90° \). Which equation could model this relationship?</para>
       <figure class="unnumbered"> 
       <media alt="A right triangle with angle measures a, b, and ninety degrees.">
             <image mime-type="image/png" src="../../media/Algebra-1_01_04_04_01.png"/>
           </media>
         </figure>
+      </note>
     </section>
 
     <section>
@@ -309,10 +313,10 @@
         </section>
   
         <section>
-        <note class="try look-at-me"/>  
+        <note class="try">  
     <title>Try It: Writing Equations Using Symbols</title>
         <para>Now it’s your turn. Write the statement below algebraically using symbols.</para>
-        <example>
+
           <exercise>
             <problem>
               <para>The sum of three consecutive integers is 1,623.</para>
@@ -324,8 +328,9 @@
               <para> \( x+(x+1)+(x+2)=1,623 \) \(3x + 3 = 1,623\)</para>
             </solution>
           </exercise>
-        </example>
+</note>
       </section>
     </section>
   </section>
+</content>
 </document>

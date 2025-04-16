@@ -14,7 +14,7 @@
       <exercise>
         <problem>
           <para><emphasis>Table A</emphasis></para>
-          <table class="unnumbered">
+          <table class="os-raise-horizontaltable unnumbered">
           <tgroup cols="6"><tbody><row>
                 <entry>
                   <emphasis>
@@ -78,7 +78,7 @@
       <exercise>
         <problem>
           <para><emphasis>Table B</emphasis></para>
-          <table class="unnumbered">
+          <table class="os-raise-horizontaltable unnumbered">
             <tgroup cols="6"><tbody><row>
                 <entry>
                   <emphasis>
@@ -142,7 +142,7 @@
       <exercise>
         <problem>
           <para><emphasis>Table C</emphasis></para>
-          <table class="unnumbered">
+          <table class="os-raise-horizontaltable unnumbered">
             <tgroup cols="5"><tbody><row>
                 <entry>
                   <emphasis>
@@ -200,7 +200,7 @@
       <exercise>
         <problem>
           <para><emphasis>Table D</emphasis></para>
-          <table class="unnumbered">
+          <table class="os-raise-horizontaltable unnumbered">
             <tgroup cols="5"><tbody><row>
                 <entry>
                   <emphasis>
@@ -325,6 +325,8 @@
       End -->
 </section>
 
+<section>
+  <title>Are you ready for more?</title>
       <section>
       <title>Extending Your Thinking</title>
       <exercise class="RFM1">
@@ -349,7 +351,7 @@
         </solution>
       </exercise>
       </section>
-
+</section>
       <section>
       <title>Video: Describing Relationships</title>
       <para>Watch the following video to learn more about describing relationships using words and
@@ -360,7 +362,7 @@
     </section>
 
     <section>
-      <title>Self Check</title>
+      <note class="self-check">
       <table class="unnumbered">
       <tgroup cols="4"><tbody><row>
           <entry><emphasis>
@@ -392,6 +394,7 @@
     
     <para>Using the table above, what is an equation that shows the relationship between miles from home and miles from school?
    </para>
+   </note>
   </section>
 
   <section>
@@ -418,7 +421,7 @@
       \(m\): number of minutes</para>
       
       <para><emphasis>Step 3</emphasis> - Write a sentence or create a table using the relationship among the values.</para>
-      <table class="unnumbered">
+      <table class="os-raise-horizontaltable unnumbered">
         <tgroup cols="6"><tbody><row>
             <entry><emphasis>
               Minutes Talked in One Month
@@ -457,7 +460,7 @@
               39
             </entry>
           </row>
-        </tbody></tgroup><title>Company A:</title>
+        </tbody></tgroup><caption>Company A:</caption>
         </table>
       
       <para>Company A: The total cost, \(t\), equals the fee, 34, plus 0.05 per minute, \( 0.05m \).</para>
@@ -465,7 +468,7 @@
         \(t = 34 + 0.05m\)</para>
       </section>
 
-      <note class="try look-at-me"/>
+      <note class="try">
       <title>Try It: Modeling Linear Equations</title>
       
       <!--Text Entry Interaction Start -->
@@ -494,7 +497,7 @@
           
           <para>Company B:</para>
           
-          <table class="unnumbered">
+          <table class="os-raise-horizontaltable unnumbered">
             <tgroup cols="6"><tbody><row>
                 <entry><emphasis>
                   Minutes Talked in One Month
@@ -543,6 +546,7 @@
         
         </solution>
       </exercise>
+      </note>
         <!--Interaction End -->
       </section>
   </section>
