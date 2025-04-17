@@ -144,5 +144,119 @@
     <para>\(4^3\) or \(64\)</para>
   
   </solution></exercise></section>
+  <note class="self-check" id="sect-00001">
+    <para id="para-00001">Which of the following equations is correct?</para>
+  </note>
+
+<section>
+  <title>Additional Resources</title>
+  
+  <section id="sect-00001">
+    <title>Using the Zero Exponent Property</title>
+    <para id="para-00001">A special case of the Quotient Property is when the exponents of the numerator and denominator are equal, such as an expression like \(\frac{a^m}{a^m}\). We know \(\frac{x}{x}=1\) for any \(x\) (\(x\neq0\)) since any number divided by itself is 1. The Quotient Property for Exponents shows us how to simplify \(\frac{a^m}{a^m}\) when \(m&gt;n\) and when \(n&lt;m\) by subtracting exponents. What if \(m=n\)? We will simplify \(\frac{a^m}{a^m}\) in two ways to lead us to the definition of the <term class="glossary-tooltip" id="term-00001">Zero Exponent Property</term>. In general, for \(a\neq0\):</para>
+    <para id="para-00002">
+      <figure id="fig-00001">
+        <media alt="">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_05_03_08_01.jpg"/>
+        </media>
+      </figure>
+   </para>
+    <note id="note-00001">
+      <para id="para-00003">Zero Exponent Property</para>
+      
+      <para id="para-00004">If \(a\) is a non-zero number, then \(a^0=1\).</para>
+      <para id="para-00005">If \(a\) is a non-zero number, then \(a\) to the power of zero equals 1.</para>
+      <para id="para-00006">Any non-zero number raised to the zero power is 1.</para>
+    </note>
+    <title>Using the Definition of a Negative Exponent</title>
+    <para id="para-00007">We saw that the Quotient Property for Exponents has two forms depending on whether the exponent is larger in the numerator or the denominator. What if we just subtract exponents regardless of which is larger?</para>
+    <para id="para-00008">Let’s consider \(\frac{x^2}{x^5}\). We subtract the exponent in the denominator from the exponent in the numerator. We see \(\frac{x^2}{x^5}\) is \(x^{2-5}\) or \(x^{-3}\).</para>
+    <para id="para-00009">We can also simplify \(\frac{x^2}{x^5}\) by dividing out common factors:</para>
+    <para id="para-00010">\(\frac{x^2}{x^5}\)</para>
+    <para id="para-00011">
+      <m:math>
+        <m:mfrac>
+          <m:mrow>
+            <m:menclose notation="updiagonalstrike">
+              <m:mi>x</m:mi>
+            </m:menclose>
+            <m:mo> </m:mo>
+            <m:mo>·</m:mo>
+            <m:mo> </m:mo>
+            <m:menclose notation="updiagonalstrike">
+              <m:mi>x</m:mi>
+            </m:menclose>
+          </m:mrow>
+          <m:mrow>
+            <m:menclose notation="updiagonalstrike">
+              <m:mi>x</m:mi>
+            </m:menclose>
+            <m:mo>·</m:mo>
+            <m:menclose notation="updiagonalstrike">
+              <m:mi>x</m:mi>
+            </m:menclose>
+            <m:mo>·</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>·</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:math>
+   </para>
+    <para id="para-00012">\(\frac{1}{x^3}\)</para>
+    <para id="para-00013">This implies that \(x^{-3}=\frac{1}{x^3}\), and it leads us to the definition of a <emphasis>negative exponent</emphasis>. If \(n\) is an integer and \(a\neq0\), then \(a^{-n}=\frac{1}{a^n}\).</para>
+    <para id="para-00014">Let’s now look at what happens to a fraction whose numerator is one and whose denominator is an integer raised to a negative exponent.</para>
+    <para id="para-00015">\(\frac{1}{a^{−n}}\)</para>
+    <para id="para-00016"><emphasis>Step 1 -</emphasis> Use the definition of a negative exponent, \(a^{−n}=\frac{1}{a^n}\).
+\(\frac{1}{\frac{1}{a^n}}\)</para>
+    <para id="para-00017"><emphasis>Step 2 -</emphasis> Simplify the complex fraction.
+\(1 \cdot \frac{a^n}{1}\) 
+</para>
+    <para id="para-00018"><emphasis>Step 3 -</emphasis> Multiply.
+\(a^n\)</para>
+    <para id="para-00019">This implies \(\frac{1}{a^{-n}}=a^n\) and is another form of the definition of <term class="glossary-tooltip" id="term-00002">Properties of Negative Exponents</term>.</para>
+    <note id="note-00002">
+      <para id="para-00020">Properties of Negative Exponents</para>
+      
+      <para id="para-00021">If \(n\) is an integer and \(a\neq0\), then \(a^{−n}=\frac{1}{a^n}\) or \(\frac{1}{a^{−n}}=a^n\).</para>
+    </note>
+    <para id="para-00022">The negative exponent tells us we can rewrite the expression by taking the reciprocal of the base and then changing the sign of the exponent.</para>
+    <para id="para-00023">Any expression that has negative exponents is not considered to be in simplest form. We will use the definition of a negative exponent and other properties for exponents to write the expression with only positive exponents.</para>
+    <para id="para-00024">For example, if after simplifying an expression we end up with the expression \(x^{-3}\), we will take one more step and write \(\frac{1}{x^3}\). The answer is considered to be in simplest form when it has only positive exponents.</para>
+    <note class="try look-at-me"/>
+<title>Try It: Using the Zero Exponent Property and Negative Exponents</title>
+    <para id="para-00025">Simplify each expression.</para>
+    <example id="exam-00001">
+      <exercise>
+        <problem id="prob-00001">
+          <para id="para-00026">\(
+      h^0\)</para>
+          <para id="para-00027"> \(7^0\)</para>
+          <para id="para-00028">\(
+      (-g)^0\)</para>
+          <para id="para-00029"> \(a^{-4}\)</para>
+          <para id="para-00030">\(9^{-3}\)</para>
+          <para id="para-00031"> \(\frac{1}{n^{-5}}\)</para>
+          <para id="para-00032">Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution id="sol-00001">
+          <para id="para-00033">Compare your answers:</para>
+          <para id="para-00034">Here is how to simplify the expressions:</para>
+          <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
+            <item> 1</item>
+            <item> 1</item>
+            <item> 1</item>
+            <item>\(\frac{1}{a^4}\)</item>
+            <item>\(\frac{1}{9^3}=\frac{1}{729}\)</item>
+            <item> \(n^5\)</item>
+          </list>
+        </solution>
+      </exercise>
+    </example>
+  </section>
+</section>
+
 </content>
 </document>

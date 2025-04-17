@@ -235,5 +235,179 @@
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/f012f2931d956078be6f22f90b24f63f50921333"/>
       </media>
     </section>
+
+  <note class="self-check"><para>Suppose a population of cells starts at 500 and triples every day. The number of cells each day can be calculated as follows:</para>
+    <table class="os-raise-midsizetable">
+      <tgroup cols="2"><tbody><row>
+          <entry><emphasis>Number Of Days</emphasis></entry><entry><emphasis>Number Of Cells</emphasis></entry></row>
+      <row>          
+        <entry>
+         0
+        </entry>
+        <entry>
+         500
+        </entry>
+      </row>
+      <row>
+        <entry>
+          1
+        </entry>
+        <entry>
+         1,500
+        </entry>
+      </row>
+      <row>
+        <entry>
+          2
+        </entry>
+        <entry>
+          4,500
+        </entry>
+      </row>
+      <row>
+        <entry>
+         3
+        </entry>
+        <entry>
+          13,500
+        </entry>
+      </row>
+    </tbody></tgroup></table>
+    <para>Find the average rate of change from day 0 to day 2.</para></note>
+    <section>
+      <title>Additional Resources</title>
+      
+  <section><title>Average Rate of Change from a Table</title>
+    <para>Let’s look at an exponential function we studied earlier. Let \(A(t)\) be the function that models the area \(A\), in square yards, of algae covering a pond \(t\) weeks after beginning treatment to control the algae bloom. Here is a table showing approximately how many square yards of algae remain during the first 5 weeks of treatment.</para>
+    <table class="os-raise-skinnytable">
+      <tgroup cols="2"><tbody><row>
+          <entry><emphasis>\(t\)</emphasis> </entry><entry><emphasis>\(A(t)\)</emphasis> </entry></row>
+      <row>
+        <entry>
+          0
+        </entry>
+        <entry>
+          240
+        </entry>
+      </row>
+      <row>
+        <entry>
+          1
+        </entry>
+        <entry>
+        80
+        </entry>
+      </row>
+      <row>
+        <entry>
+         2
+        </entry>
+        <entry>
+          27
+        </entry>
+      </row>
+      <row>
+        <entry>
+       3
+        </entry>
+        <entry>
+        9
+        </entry>
+      </row>
+      <row>
+        <entry>
+          4
+        </entry>
+        <entry>
+        3
+        </entry>
+      </row>
+    </tbody></tgroup></table>
+    
+    <para>The average rate of change of \(A\) from the start of treatment to week 2 is about –107 square yards per week since \(\frac{A(2)-A(0)}{2-0} \approx -107\). The average rate of change of \(A\) from week 2 to week 4, however, is only about –12 square yards per week since \(\frac{A(4)-A(2)}{4-2} \approx -12\).</para>
+    <title> Try It: Average Rate of Change from a Table</title>
+    <example><exercise>
+      <problem>
+        
+        <para>Using the same table from above, what is the average rate of change of \(A\) from week 1 to week 3?</para>
+        
+        <table class="os-raise-skinnytable">
+          <tgroup cols="2"><tbody><row>
+              <entry><emphasis>\(t\)</emphasis> </entry><entry><emphasis>\(A(t)\)</emphasis> </entry></row>
+          <row>
+            <entry>
+              0
+            </entry>
+            <entry>
+              240
+            </entry>
+          </row>
+          <row>
+            <entry>
+              1
+            </entry>
+            <entry>
+            80
+            </entry>
+          </row>
+          <row>
+            <entry>
+             2
+            </entry>
+            <entry>
+              27
+            </entry>
+          </row>
+          <row>
+            <entry>
+           3
+            </entry>
+            <entry>
+            9
+            </entry>
+          </row>
+          <row>
+            <entry>
+              4
+            </entry>
+            <entry>
+            3
+            </entry>
+          </row>
+        </tbody></tgroup></table>
+        
+        
+      
+      <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      
+      </problem><solution>
+      <para>Compare your answer:</para>
+      
+      <para>Here is how to use the table to find the average rate of change:</para>
+      
+      <table class="os-raise-horizontaltable">
+        <tgroup cols="2"><tbody><row>
+              <entry><emphasis>Find the points on the table when \(t=1\) and \(t=3\).</emphasis></entry><entry>
+             \((1, 80)\), \((3,9)\)
+            </entry>
+          </row>
+          <row>
+            
+              <entry><emphasis>Substitute into the slope formula to find the rate of change.</emphasis></entry><entry>
+              \(\frac{A(3)-A(1)}{3-1}=\frac{9-80}{2}\)
+            </entry>
+          </row>
+          <row>
+            
+              <entry><emphasis>Simplify to find the rate of change.</emphasis></entry><entry>
+              \(\frac{-71}{2}=-35.5\) square yards per week
+            </entry>
+          </row>
+        </tbody></tgroup></table>
+    
+    </solution></exercise>
+    </example></section>
+    </section>
+    
   </content>
 </document>
