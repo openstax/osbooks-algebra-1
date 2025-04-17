@@ -138,5 +138,87 @@
   </solution>
       </exercise>
     </section>
+
+    <section>
+      <note class="self-check"><para>An artist is designing a sculpture to be displayed hanging in the lobby of a museum. She is using \(x\) wooden rods and \(y\) metal pipes.</para>
+        <list>
+          <item>Each wooden rod, \(x\), weighs 4 pounds.</item>
+          <item>Each metal pipe, \(y\), weighs 7 pounds.</item>
+          <item>The total weight of these materials cannot be more than 510 pounds.</item>
+        </list>
+        <para>Which of these ordered pairs represents an amount of materials that meets the artist’s constraints?</para>
+         </note>  
+    </section>
+
+    <section>
+      <section>
+        <title>Graph Linear Inequalities in Two Variables</title>
+        <para>Now that we know what the graph of a linear inequality looks like and how it relates to a boundary equation we can use this knowledge to graph a given linear inequality.</para>
+        <para><emphasis>Example</emphasis> How to Graph a Linear Equation in Two Variables</para>
+        <para>Graph the linear inequality \( y ≥ \frac{3}{4} x − 2 \).</para>
+        <para>Step 1 - Identify and graph the boundary line. </para>
+        <para>If the inequality is \(\leq\) or \(\geq\) boundary line is solid. </para>
+        <para>If the inequality is &lt; or &gt;, the boundary line is dashed. </para>
+        <para>Replace the inequality sign with an equal sign to find the boundary line</para>
+        <para>\(y=\frac34x-2.\)</para>
+        <para>The inequality sign is \(\geq\), so we draw a solid line.</para>
+        <para>
+          <figure>
+            <media alt="">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_02_14_08_01.jpg" />
+            </media>
+          </figure>
+        </para>
+        <para><emphasis>Step 2 -</emphasis> Test a point that is not on the boundary line. Is it a solution of the inequality?</para>
+        <para>We’ll test \((0,0)\).</para>
+        <para>Is it a solution of the inequality?</para>
+        <para>At \((0, 0)\), is \(y \geq \frac34x-2.\)?</para>
+        <para>\(0\overset?\geq\frac34(0)-2\)</para>
+        <para>\(0\geq-2\)</para>
+        <para>So, \((90,0)\) is a solution.</para>
+        <para><emphasis>Step 3 -</emphasis> Shade in one side of the boundary line. </para>
+        <para>If the test point is a solution, shade in the side that includes the point. </para>
+        <para>If the test point is not a solution, shade in the opposite side. </para>
+        <para>The test point \((0,0)\) is a solution to \(y\geq\frac34x-2.\) So we shade in that side.</para>
+        <para>
+          <figure>
+            <media alt="">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_02_14_08_02.jpg" />
+            </media>
+          </figure>
+        </para>
+        <para>All points in the shaded region and on the boundary line represent the solutions to \(y\geq\frac34x-2.\)</para>
+        <note class="try">
+          <title>Try It: Graph Linear Inequalities in Two Variables</title>
+          <!--BEGIN ADD DESMOS INTERATIVE-->
+          <!--START QUESTION #1-->
+        <example>
+            <exercise>
+              <problem>
+                
+                
+                <!--CHANGE THE TEXT BEFORE Use the graphing tool or technology outside the course. TO FIT THE PROBLEM-->
+                <para>Graph the linear inequality \(y\;&gt;\;\frac52x\;-\;4\). Use the graphing tool or technology outside the course. Graph the inequality using the Desmos tool below. </para>
+                
+                <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work. </para>
+              </problem>
+              <solution>
+                <para>Compare your answer:</para>
+                <!--REPLACE IMAGE BELOW WITH CORRECT IMAGE-->
+                <para>All points in the shaded region represent the solutions to \(y\;&gt;\;\frac52x\;-\;4\)</para>
+                <figure>
+                  <media alt="">
+                    <image mime-type="image/png" src="../../media/Algebra-1_02_14_08_02.jpg" />
+                  </media>
+                </figure>
+              </solution>
+            </exercise>
+          </example>
+        <media alt="...">
+            <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" /><!--END ADD DESMOS INTERATIVE-->
+          </media>
+        </note>
+      </section>
+    </section>
   </content>
 </document>

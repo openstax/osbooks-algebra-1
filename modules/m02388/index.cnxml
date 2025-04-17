@@ -109,5 +109,74 @@
 <title>Video: Rewrite Squared Expressions</title>
 <para>Watch the following video to learn more about rewriting squared expressions.</para>
 <media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/72e5797ce35541d183e0ff3955751a0ef621703e"/></media></section>
+
+<note class="self-check">
+  <para>Find the equivalent factored expression for \(4x^2+12x+9\).</para>
+</note>
+
+<section><title>Factoring Perfect Square Trinomials</title>
+  <para>To factor <term class="glossary-tooltip">perfect square trinomial</term>s, follow the formulas:</para>
+  <para>\(a^2+2ab+b^2=(a+b)^2\)</para>
+  <para>\(a^2-2ab+b^2=(a-b)^2\)</para>
+  <para>Let's look at an example of how to factor perfect square trinomials.</para>
+  <para><emphasis>Example</emphasis></para>
+  <para>Factor \(9x^2+12x+4\).</para>
+  <para><emphasis>Step 1</emphasis> - Does the trinomial fit the perfect square trinomial pattern, \(a^2+2ab+b^2\)? If so, write the first term as \(a^2\) and last constant as \(b^2\).</para>
+  <list>
+    <item> Is the first term a perfect square? Write it as a square, \(a^2\). 
+      Is \(9x^2\) a perfect square? 
+      Yes — write it as \((3x)^2\). 
+      \(\begin{array}{l}9x^2\;+\;12x\;+\;4 \\ (3x)^2\;\end{array}\)</item>
+  </list>
+  <list>
+    <item> Is the last term a perfect square? Write it as a square, \(b^2\). 
+      Is 4 a perfect square? 
+      Yes — write it as \((2)^2\). 
+      \(\begin{array}{l}9x^2\;+\;12x\;+\;4 \\ (3x)^2\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;(2)^2\end{array}\)</item>
+  </list>
+  <list>
+    <item> Check the middle term. Is it \(2ab\)?
+      Is \(12x\) twice the product of \(3x\) and 2? 
+      Does it match? 
+      Yes, so we have a perfect trinomial.</item>
+  </list>
+  <para>\(\begin{array}{c}9x^2\;\;\;\;\;\;+\;\;\;\;\;\;12x\;\;\;\;\;\;+\;\;\;\;\;\;4\; \\ (3x)^2\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;(2)^2 \\ (3x)^2\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;(2)^2 \\ {\style{color:green}\searrow}\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;{\style{color:green}\swarrow} \\ 2(3x)(2) \\ 12x\;\end{array}\)</para>
+  <para><emphasis>Step 2</emphasis> - Factor the binomial into: \(a^2+2ab+b^2=(a+b)^2\). 
+    \(9x^2+12x+4\) 
+    \(\begin{array}{l}a^2\;\;\;\;\;\;+2\cdot a\cdot b+b^2 \\ \;({\style{color:red}3}{\style{color:red}x})^2\;+2 \cdot {\style{color:red}3}{\style{color:red}x} \cdot {\style{color:purple}2}+{\style{color:purple}2}^2\; \\ \;\;\;\;\;\;\;(a+b)^2\; \\ \;\;\;\;\;({\style{color:red}3}{\style{color:red}x}+{\style{color:green}2})^{\style{color:green}2}\end{array}\)</para>
+  <para><emphasis>Step 3</emphasis> - Check. 
+    \((3x+2)^2\) 
+    \((3x)^2+2 \cdot 3x \cdot 2+2^2\) 
+    \(9x^2+12x+4 ✔\)</para>
+  <note class="try look-at-me"/>
+  <title>Try It: Factoring Perfect Square Trinomials</title>
+  <example><exercise>
+    <problem>
+      
+      <para>Factor \(9x^2-30x+25\).</para>
+    
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+    
+    </problem><solution>
+    <para>Here is how to factor a perfect square trinomial:</para>
+    
+    <para><emphasis>Step 1</emphasis> - Write the first term as \(a^2\) and the last constant as \(b^2\). 
+      \(a^2=(3x)^2\), \(b^2=5^2\)</para>
+    
+    <para>Make sure the middle term is \(2ab\).
+      \(2ab=2(3x)(5)=30x\)</para>
+    
+    <para><emphasis>Step 2</emphasis> - Factor the binomial into: \(a^2-2ab+b^2=(a-b)^2\). 
+      \((3x-5)^2\)</para>
+    
+    <para><emphasis>Step 3</emphasis> - Check.</para>
+    
+    <para>\((3x-5)(3x-5)\)
+      \(=9x^2-15x-15x+25\) 
+      \(=9x^2-30x+25\)</para>
+  
+  </solution></exercise>
+  </example></section>
+  
 </content>
 </document>
