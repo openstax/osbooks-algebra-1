@@ -249,5 +249,143 @@
 <!--End interaction-->
 
 <!-- END ARE YOU READY FOR MORE--></section>
+
+
+<section>
+  <note class="self-check" id="sect-00001"><para id="para-00001">Solve the system of equations using elimination.</para>
+    <para id="para-00002">\(\left\{\begin{array}{l}7x\;–\;2y\;=\;3\\4x\;+\;5y\;=\;3.25\end{array}\right.\)</para></note>
+</section>
+
+<section>
+  <section><title>Solving a System of Equations by Elimination Involving Fractions
+  </title>
+  <para>You just ordered the steps for solving a system of equations using elimination. Try
+    using these steps when the system has equations containing fractions.</para>
+  <para>When the system of equations contains fractions, we will first clear the fractions by
+    multiplying each equation by the least common denominator (LCD) of all the
+    fractions in the equation.</para>
+  <para>Solve the system by elimination: \( \left\{ \begin{array}{c l} x + \frac{1}{2}y =6\\ \frac{3}{2}x + \frac{2}{3}y = \frac{17}{2} \end{array}\right. \)</para>
+  
+  <!--BEGIN STEPS-->
+  <para><emphasis>Step 1 -</emphasis> Check to see if each equation is in standard form \(Ax+By=C\).
+    Both equations are in standard form.
+    \(x+\frac12 y=6\)
+    \(\frac32x + \frac23 y=\frac{17}{2} \) 
+   <emphasis>Step 2 -</emphasis> To clear the fractions, multiply each equation by its LCD (Least Common Denominator).
+    \(2(x+\frac12 y=6)\)
+    \(6(\frac32 x+\frac23 y=\frac{17}{2})\)
+    <emphasis>Step 3 -</emphasis> Simplify the equations.
+     \(2x+y=12\)
+    \(9x+4y=51\)
+   <emphasis>Step 4 -</emphasis> Eliminate one of the variables and simplify the equation.	
+    \(-4(2x+y=12)=- 8x-4y=-48\)
+   <emphasis>Step 5 -</emphasis> Add the two equations to eliminate \(y\). 
+    <!--BEGIN ALIGN TO EQUALS WITH LINE-->
+    \(\begin{align*}-8x-4y&amp;=-48
+    \\9x+4y&amp;=51
+    \\ \hline
+     x&amp;=3
+    \end{align*}\)
+  <!--End ALIGN TO EQUALS WITH LINE-->	
+  <emphasis>Step 6 -</emphasis> Solve for \(y\) by substituting \(x\) back into one of the equations.	
+  <!--BEGIN ALIGN TO EQUALS -->
+  \(\begin{align*}2x+y&amp;=12
+  \\2(3)+y&amp;=12
+  \\6+y&amp;=12
+  \\y&amp;=6
+  \\\end{align*}\)
+  <!--END ALIGN TO EQUALS -->		
+  <emphasis>Step 7 -</emphasis> Write the solution as an ordered pair.	
+  The ordered pair is \((3,6)\).	
+  <emphasis>Step 8 -</emphasis> Check that the ordered pair is a solution to <emphasis>both</emphasis> original equations.	
+   <!--BEGIN SIDE BY SIDE EQUATIONS-->
+  </para><para>\(\begin{array}{rr}
+      &amp; \frac32 x+\frac23 y= \frac{17}{2}	\\
+    x+\frac12 y \overset?=6 &amp; \frac32 (3)+\frac23 (6) \overset?= \frac{17}{2}\\
+    3+\frac12 (6) \overset?= 6&amp;\frac92 +4 \overset?=\frac{17}{2}	\\
+    3+3\overset?=6 &amp; \frac92 + \frac82 \overset?=\frac{17}{2} \\  
+    6=6\checkmark &amp; \frac{17}{2}=\frac{17}{2}\checkmark
+    \end{array}\)</para>
+    <!--END SIDE BY SIDE EQUATIONS -->
+   
+   <para>The solution is \((3,6)\).</para>
+  <!-- END STEPS -->
+  <note class="try look-at-me"/>
+  <title>Try It: Solving a System of Equations by Elimination Involving Fractions</title>
+  <para>Solve the following system of equations.</para>
+  <example><exercise>
+    <problem>
+      
+      <para>\(\left\{\begin{array}{l}\frac13\;x\;-\;\frac12y\;=\;1\\\frac34x\;\;-\;y\;=\;\frac52\end{array}\right.\)</para>
+    
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+     </para>
+    
+    </problem><solution>
+     <para>Compare your answer:</para>
+    
+    <para><emphasis>Step 1 -</emphasis> Check to see if each equation is in standard form \(Ax+By=C\).
+      Both equations are in standard form.
+      \(\frac13x-\frac12y=1\\\frac34x-y=\frac52\)
+     <emphasis>Step 2 -</emphasis> To clear the fractions, multiply each equation by its LCD (Least Common Denominator).
+       \({\style{color:red}6}(\frac13x-\frac12y) ={\style{color:red}6}(1)\\{\style{color:red}4}(\frac34x-y)={\style{color:red}4}(\frac52)\)
+      <emphasis>Step 3 -</emphasis> Simplify the equations.
+      \(2x-3y=6\)
+      \(3x-4y=10\)
+     <emphasis>Step 4 -</emphasis> To get equivalent coefficients of \(x\), we will need to multiply the first equation by 3 and the second equation by 2.	
+      \({\style{color:red}3} (2 x – 3 y ) = {\style{color:red}3} ( 6 ) \)
+         \({\style{color:red}2} (3 x – 4 y ) = {\style{color:red}2} ( 10 )\) 
+     <emphasis>Step 5 -</emphasis> Simplify. 	
+      \(6 x – 9 y = 18\)
+      \(6 x – 8 y = 20\) 
+     <emphasis>Step 6 -</emphasis> Subtract the equations to eliminate one variable. 
+      <!--BEGIN ALIGN TO EQUALS WITH LINE-->		
+      \(\begin{align*}6x-9y&amp;=18
+      \\6x-8y&amp;=20
+      \\ \hline
+      -y&amp;=-2
+      \\y&amp;=2
+      \end{align*}\)
+      <!--BEGIN ALIGN TO EQUALS WITH LINE-->	
+     <emphasis>Step 7 -</emphasis> Solve for \(x\) by substituting \(y\) back into one of the equations.	
+      <!--BEGIN ALIGN TO EQUALS -->	
+      \(\begin{align*}2x-3y&amp;=6
+      \\2x-3(2)&amp;=6
+      \\2x-6&amp;=6
+      \\2x&amp;=12
+      \\x&amp;=6
+      \\\end{align*}\)
+      <!--END ALIGN TO EQUALS -->		
+     <emphasis>Step 8 -</emphasis> Write the solution as an ordered pair.	
+      The ordered pair is \((6,2)\).	
+     <emphasis>Step 9 -</emphasis> Check that the ordered pair is a solution to <emphasis>both</emphasis> original equations.	</para>
+        
+        <!--BEGIN SIDE BY SIDE EQUATIONS-->
+      
+      <para>\(\begin{array}{rr}
+        &amp; \frac34 -y = \frac{5}{2}	\\
+          &amp; \frac34 (6)-2= \frac52	\\
+        \frac13 x-\frac12 \overset?=1 &amp; \frac{18}{4}-2 \overset?= \frac52 \\
+        \frac13 (6)\frac12 (6) \overset?= 6&amp;\frac{18}{4} -\frac84 \overset?=\frac52	\\
+        2-1\overset?=1 &amp; \frac92 + \frac{10}{4} \overset?= \frac52 \\  
+        1=1\checkmark &amp; \frac52=\frac52 \checkmark
+        \end{array}\)</para>
+        
+        <!--END SIDE BY SIDE EQUATIONS -->
+    
+    <para>
+    The solution is \((6,2)\).</para>
+    
+    <!-- END STEPS -->
+  
+    
+  
+    
+    
+  
+    
+  </solution></exercise>
+  </example></section>
+</section>
 </content>
 </document>
