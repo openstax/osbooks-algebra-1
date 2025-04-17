@@ -126,9 +126,9 @@
       <list class="os-raise-noindent" list-type="enumerated">
         <item>The temperature values varied from 52 to 80.5. Predicting the number of chirps at 40 degrees is extrapolation because 40 is outside the range of our data. Using our model:</item>
       </list>
-      <div>
+      
         <para>\(\begin{array}{rcl}40\;&amp;=&amp;\;30\;+\;1.2c\\10\;&amp;=&amp;\;1.2c\\c\;&amp;\approx&amp;\;8.33\end{array}\)</para>
-      </div>
+      
       <para>We can compare the regions of interpolation and extrapolation using the following figure.</para>
       <figure>
         <media alt="Scatter plot, showing the line of best fit. It is titled 'Cricket Chirps Vs Air Temperature'. The \(x\)-axis is 'c, Number of Chirps', and the \(y\)-axis is 'T(c), Temperature (F)'.  The area around the scattered points is enclosed in a box labeled: Interpolation.  The area outside of this box is labeled: Extrapolation.">
