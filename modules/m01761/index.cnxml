@@ -231,5 +231,144 @@
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/9429b37b256ebf82ca64508151eae28b120c65d0"/>
       </media>
     </section>
+
+    <note class="self-check">
+      <para>Which of the following is an example of a quadratic expression?</para>
+    </note>
+
+    <section>
+      <title>Writing Expression from Patterns</title>
+      <para>Find the number of dots in Step 5, and write an expression to find \(n\) number of dots.</para>
+      <para>
+        <figure>
+          <media alt="Insert Alt Text">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_08_01.jpg"/>
+          </media>
+        </figure>
+     </para>
+      <para><emphasis>Step 1</emphasis> - Make a table to help you find the pattern.</para>
+      <table class="os-raise-midsizetable">
+        <tgroup cols="2"><tbody><row>
+            <entry>
+             <emphasis>
+        Step number
+     </emphasis> 
+            </entry>
+            <entry>
+             <emphasis>
+        Number of dots
+     </emphasis> 
+            </entry>
+          </row>
+        <row>
+            <entry>
+        0
+      </entry>
+            <entry>
+        4
+      </entry>
+          </row>
+          <row>
+            <entry>
+        1
+      </entry>
+            <entry>
+        7
+      </entry>
+          </row>
+          <row>
+            <entry>
+        2
+      </entry>
+            <entry>
+        10
+      </entry>
+          </row>
+          <row>
+            <entry>
+        3
+      </entry>
+            <entry>
+        13
+      </entry>
+          </row>
+        </tbody></tgroup></table>
+      <para><emphasis>Step 2</emphasis> - Notice that the start has 2 rows and 2 columns, or 4 dots.
+  Each step adds a row of 2 dots, plus 1 more dot.
+  So, each step adds 3 dots.</para>
+      <para><emphasis>Step 3</emphasis> - Continuing this linear pattern, Step 5 would have 19 dots.</para>
+      <para><emphasis>Step 4</emphasis> - An expression could be \(3n+4\). 
+  This is a linear expression.</para>
+      <note class="try look-at-me"/>
+  <title>Try It: Writing Expression from Patterns</title>
+      <example>
+        <exercise>
+          <problem>
+            <para>Find the number of dots in Step 5, and write an expression to find \(n\) number of dots.</para>
+            <para>
+              <figure>
+                <media alt="Insert Alt Text">
+                  <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_08_02.jpg"/>
+                </media>
+              </figure>
+           </para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          </problem>
+          <solution>
+            <para>Here is how to write an expression from a pattern:</para>
+            <table class="os-raise-midsizetable">
+              <tgroup cols="2"><tbody><row>
+                  <entry>
+                   <emphasis>
+          Step
+       </emphasis> 
+                  </entry>
+                  <entry>
+                   <emphasis>
+          Number of dots
+       </emphasis> 
+                  </entry>
+                </row>
+              <row>
+                  <entry>
+          0
+        </entry>
+                  <entry>
+          1
+        </entry>
+                </row>
+                <row>
+                  <entry>
+          1
+        </entry>
+                  <entry>
+          3
+        </entry>
+                </row>
+                <row>
+                  <entry>
+          2
+        </entry>
+                  <entry>
+          9
+        </entry>
+                </row>
+                <row>
+                  <entry>
+          3
+        </entry>
+                  <entry>
+          19
+        </entry>
+                </row>
+              </tbody></tgroup></table>
+            <para>Each step has that number of dots squared, then doubled, and then one is added.</para>
+            <para>So, Step 5 would have 51 dots.</para>
+            <para>The expression would be \(2n^2+1\), where \(n\) is the step number.</para>
+            <para>This is a quadratic expression.</para>
+          </solution>
+        </exercise>
+      </example>
+    </section>
   </content>
 </document>

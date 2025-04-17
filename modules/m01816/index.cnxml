@@ -196,5 +196,51 @@
 <title>Video: Distance as a Quadratic Function of Elapsed Time</title>
 <para id="para-00041">Watch the following video to learn more about quadratic functions.</para>
 <media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/005a0fd918a3812ba158602b14d462d900fd0661"/></media></section>
+
+<note class="self-check">
+  <para>A small ball is dropped from a 350-foot-tall building. Which equation could represent the ball’s height, \(h(t)\), in feet, relative to the ground, as a function of time, \(t\), in seconds?</para>
+ </note>
+
+ <section><title>Height as a Quadratic Function</title>
+  <para>The general formula for a free falling object is:</para>
+  <para>\(h(t)=-16t^2+v_0t+h_0\).</para>
+  <para>Let’s look at the meaning of the coefficients in the formula:</para>
+  <para>In the formula, \(-16\) is the constant that has been determined by a combination of Newton’s Laws and Earth’s weight and is used with the units feet/second\(^2\).</para>
+  <para>\(v_0\) is the vertical speed of the object. If the object is simply dropped, the vertical speed is 0. If the object were thrown upward, this value would be positive, and if the object were thrown down, this value would be negative.</para>
+  <para>\(h_0\) is the initial height of the object.</para>
+  <para>A man drops his keys from a restaurant at the top of a 196-foot-tall building. If the keys are free falling, will they reach the ground within 3 seconds?</para>
+  <para><emphasis>Step 1</emphasis> -  Write an equation for the height at a given time, \(t\).
+    \(h(t)=196-16t^2\)</para>
+  <para><emphasis>Step 2</emphasis> - Substitute \(t=3\) into the function.
+    \(h(3)=196-16(3)^2\)</para>
+  <para><emphasis>Step 3</emphasis> - Evaluate.
+    \(h(3)=196-144=52\)</para>
+  <para>At \(t=3\) seconds, the keys will still have 52 feet to travel to hit the ground.</para>
+  <note class="try look-at-me"/>
+  <title>Try It: Height as a Quadratic Function</title>
+  
+  <example><exercise>
+    <problem>
+      
+      <para>Will the keys in the situation above reach the ground after 5 seconds?</para>
+    
+    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+    
+    </problem><solution>
+    <para>Here is how to determine if the keys reach the ground after 5 seconds:</para>
+    
+    <para><emphasis>Step 1</emphasis> - Write an equation for the height at a given time, \(t\).
+      \(h(t)=196-16t^2\)</para>
+    
+    <para><emphasis>Step 2</emphasis> - Substitute \(t=5\) into the function.
+      \(h(5)=196-16(5)^2\)</para>
+    
+    <para><emphasis>Step 3</emphasis> - Evaluate.
+      \(h(5)=196-400=-204\)</para>
+    
+    <para>The keys reach the ground before \(t=5\) seconds since substituting in 5 creates a negative height, which implies they have fallen below ground level and does not make sense for this scenario.</para>
+  
+  </solution></exercise>
+  </example></section>
 </content>
 </document>

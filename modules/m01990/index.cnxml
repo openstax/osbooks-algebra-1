@@ -146,5 +146,58 @@
       </exercise>
       <!--End interaction-->
     </section>
+
+    <note class="self-check">
+      <para>The function that gives the height, \(h\), in feet of a cannonball \(t\) seconds after the ball leaves the cannon is graphed below.</para>
+      <para>
+        <figure>
+          <media alt="Graph with time in seconds on \(x\)-axis and distance above ground in feet on \(y\)-axis.">
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_16_04_01.svg"/>
+          </media>
+        </figure>
+     </para>
+      <para>What is the point \((10, 1,600)\) and what does it mean in this situation?</para>
+    </note>
+
+    <section>
+      <title>The Meaning of Values on a Graph</title>
+      <para>Let’s say a tennis ball is hit straight up in the air, and its height in feet above the ground is modeled by the equation \(f(t)=4+12t−16t^2\) where \(t\) represents the time in seconds after the ball is hit. Here is a graph that represents the function, from the time the tennis ball was hit until the time it reached the ground.</para>
+      <para>
+        <figure>
+          <media alt="Insert Alt Text">
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_16_05_01.svg"/>
+          </media>
+        </figure>
+     </para>
+      <para>In the graph, we can see some information we already know, and some new information:</para>
+      <list>
+        <item> The 4 in the equation means the graph of the function intersects the vertical axis at 4. It shows that the tennis ball was 4 feet off the ground at \(t=0\), when it was hit.</item>
+        <item> The horizontal intercept is \((1,0)\). It tells us that the tennis ball hit the ground 1 second after it was hit.</item>
+        <item> The vertex of the graph is at approximately \((0.4,6.3)\). This means that about 0.4 second after the ball was hit, it reached the maximum height of about 6.3 feet.</item>
+      </list>
+      <para>The equation can be written in factored form as \(f(t)=(-16t−4)(t−1)\). From this form, we can see that the zeros of the function are \(t=1\) and \(t=\frac{1}{4}\). The negative zero, -14, is not meaningful in this situation because the time before the ball was hit is irrelevant.</para>
+      <note class="try look-at-me"/>
+  <title>Try It: The Meaning of Values on a Graph</title>
+      <para>An object is thrown upward from a height of 5 feet with a velocity of 60 feet per second. Its height h(t) in feet after \(t\) seconds is modeled by the function \(h(t)=5+60t-16t^2\) and graphed below.</para>
+      <example>
+        <exercise>
+          <problem>
+            <para>What is the value of the vertical intercept (\(y\)-intercept) and what does it mean in the function?</para>
+            <para>
+              <figure>
+                <media alt="Insert Alt Text">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_16_05_02.svg"/>
+                </media>
+              </figure>
+           </para>
+            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          </problem>
+          <solution>
+            <para>Here is how to determine the \(y\)-intercept:</para>
+            <para>The vertical intercept, or \(y\)-intercept, is where the graph crosses the \(y\)-axis. It occurs when \(x=0\). You can also identify the \(y\)-intercept by looking at the constant in the function. This occurs at \(y=5\). The point is (0,5). The \(y\)-intercept represents the initial height. It means the object is thrown from 5 feet above the ground.</para>
+          </solution>
+        </exercise>
+      </example>
+    </section>
   </content>
 </document>
