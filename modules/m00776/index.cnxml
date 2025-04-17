@@ -177,5 +177,245 @@
         </solution>
       </exercise>
     </section>
+    <note class="self-check" id="sect-00001"><para id="para-00001">Determine the correlation coefficient of the data in the table below to 3 decimal places  and interpret the value.</para>
+      <table class="os-raise-horizontaltable" id="table-00001">
+        <tgroup cols="6"><tbody><row>
+            <entry><emphasis>\(x\)</emphasis></entry><entry>8</entry>
+            <entry>15</entry>
+            <entry>26</entry>
+            <entry>31</entry>
+            <entry>56</entry>
+          </row>
+          <row>
+            <entry><emphasis>\(y\)</emphasis></entry><entry>23</entry>
+            <entry>41</entry>
+            <entry>53</entry>
+            <entry>72</entry>
+            <entry>103</entry>
+          </row>
+        </tbody></tgroup></table></note>
+        <section>
+          <title>Additional Resources</title>
+          
+    <section id="sect-00001">
+      <title>Calculating and Interpreting Correlation Coefficients</title>
+      <para id="para-00001">Properties of the correlation coefficient:</para>
+      <list id="list-00001">
+        <item>
+    Property 1: The sign of \(r\) (positive or negative) corresponds to the direction of the linear relationship.</item>
+        <item>
+    Property 2: A value of \(r = +1\) indicates a perfect positive linear relationship, with all points in the scatter plot falling exactly on a straight line.</item>
+        <item>
+    Property 3: A value of \(r = -1\) indicates a perfect negative linear relationship, with all points in the scatter plot falling exactly on a straight line.</item>
+        <item>
+    Property 4: The closer the value of \(r\) is to \(+1\) or \(-1\), the stronger the linear relationship.</item>
+      </list>
+      <para id="para-00002">Using the data of shoe length in inches and height in inches for 10 men, find the correlation coefficient of the data with graphing technology.</para>
+      <table class="os-raise-midsizetable" id="table-00001">
+        <tgroup cols="2"><tbody><row>
+            <entry>
+             <emphasis>\(x\) (Shoe Length)Inches</emphasis>
+            </entry>
+            <entry>
+             <emphasis>\(y\) (Height)  Inches</emphasis>
+            </entry>
+          </row>
+        <row>
+            <entry>12.6</entry>
+            <entry>74</entry>
+          </row>
+          <row>
+            <entry>11.8</entry>
+            <entry>65</entry>
+          </row>
+          <row>
+            <entry>12.2</entry>
+            <entry>71</entry>
+          </row>
+          <row>
+            <entry>11.6</entry>
+            <entry>67</entry>
+          </row>
+          <row>
+            <entry>12.2</entry>
+            <entry>69</entry>
+          </row>
+          <row>
+            <entry>11.4</entry>
+            <entry>68</entry>
+          </row>
+          <row>
+            <entry>12.8</entry>
+            <entry>70</entry>
+          </row>
+          <row>
+            <entry>12.2</entry>
+            <entry>69</entry>
+          </row>
+          <row>
+            <entry>12.6</entry>
+            <entry>72</entry>
+          </row>
+          <row>
+            <entry>11.8</entry>
+            <entry>71</entry>
+          </row>
+        </tbody></tgroup></table>
+      <para id="para-00003">
+  The correlation coefficient is \(r \approx 0.65\).</para>
+      <para id="para-00004">Based on the table, there is a moderate positive linear relationship between shoe length and height.</para>
+      <para id="para-00005">The table below shows how you can informally interpret the value of a correlation coefficient</para>
+      <table class="os-raise-wideadjustedtable" id="table-00002">
+        <tgroup cols="2"><tbody><row>
+            <entry>
+             <emphasis>If the value of the correlation coefficient is . . .</emphasis>
+            </entry>
+            <entry>
+             <emphasis>You can say that . . .</emphasis>
+            </entry>
+          </row>
+        <row>
+            <entry>\(r=1.0\)</entry>
+            <entry>There is a perfect positive linear relationship.</entry>
+          </row>
+          <row>
+            <entry>\(0.7\leq r&lt;1.0\)</entry>
+            <entry>There is a strong positive linear relationship.</entry>
+          </row>
+          <row>
+            <entry>\(0.3\leq r&lt;0.7\)</entry>
+            <entry>There is a moderate positive linear relationship.</entry>
+          </row>
+          <row>
+            <entry>\(0&lt;r&lt;0.3\)</entry>
+            <entry>There is a weak positive linear relationship.</entry>
+          </row>
+          <row>
+            <entry>\(r=0\)</entry>
+            <entry>There is no linear relationship.</entry>
+          </row>
+          <row>
+            <entry>\(-0.3&lt;r&lt;0\)</entry>
+            <entry>There is a weak negative linear relationship.</entry>
+          </row>
+          <row>
+            <entry>\(-0.7&lt;r\leq-0.3\)</entry>
+            <entry>There is a moderate negative linear relationship.</entry>
+          </row>
+          <row>
+            <entry>\(-1.0&lt;r\leq-0.7\)</entry>
+            <entry>There is a strong negative linear relationship.</entry>
+          </row>
+          <row>
+            <entry>\(r=-1.0\)</entry>
+            <entry>There is a perfect negative linear relationship.</entry>
+          </row>
+        </tbody></tgroup></table>
+      <note class="try look-at-me"/>
+  <title>Try It: Calculating and Interpreting Correlation Coefficients</title>
+      <para id="para-00006">Consumer Reports published a study of fast-food items. The table and scatter plot below display the fat content (in grams) and number of calories per serving for 16 fast-food items.</para>
+      <div class="os-raise-d-flex os-raise-justify-content-between">
+        <div class="os-raise-mx-auto">
+          <figure id="fig-00001">
+            <media alt="GRAPH OF THE RELATIONSHIP BETWEEN FAT IN GRAMS AND CALORIES IN KILOCALORIES, SHOWS A MODERATE POSITIVE CORRELATION.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_03_07_05_01.jpg"/>
+            </media>
+          </figure>
+        
+        <table class="os-raise-skinnytable" id="table-00003">
+          <tgroup cols="2"><tbody><row>
+              <entry>
+               <emphasis>Fat(g)</emphasis>
+              </entry>
+              <entry>
+               <emphasis>Calories(kcal)</emphasis>
+              </entry>
+            </row>
+          <row>
+              <entry>2</entry>
+              <entry>268</entry>
+            </row>
+            <row>
+              <entry>5</entry>
+              <entry>3,003</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>260</entry>
+            </row>
+            <row>
+              <entry>3.5</entry>
+              <entry>300</entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>315</entry>
+            </row>
+            <row>
+              <entry>2</entry>
+              <entry>160</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>200</entry>
+            </row>
+            <row>
+              <entry>6</entry>
+              <entry>320</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>420</entry>
+            </row>
+            <row>
+              <entry>5</entry>
+              <entry>290</entry>
+            </row>
+            <row>
+              <entry>3.5</entry>
+              <entry>285</entry>
+            </row>
+            <row>
+              <entry>2.5</entry>
+              <entry>390</entry>
+            </row>
+            <row>
+              <entry>0</entry>
+              <entry>140</entry>
+            </row>
+            <row>
+              <entry>2.5</entry>
+              <entry>330</entry>
+            </row>
+            <row>
+              <entry>1</entry>
+              <entry>120</entry>
+            </row>
+            <row>
+              <entry>3</entry>
+              <entry>180</entry>
+            </row>
+          </tbody></tgroup></table>
+      
+      <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
+      <!--Q#-->
+      <example id="exam-00001">
+        <exercise>
+          <problem id="prob-00001">
+            <para id="para-00007">What is the correlation coefficient for this data and what does it tell us about the strength and type of relationship represented?</para>
+            <para id="para-00008">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          </problem>
+          <solution id="sol-00001">
+            <para id="para-00009">Compare your answer: Your answer many vary, but here is a sample.</para>
+            <para id="para-00010"> The correlation coefficient is \(r≈0.44\). By the table, this indicates a moderate, positive
+    linear relationship between fat content and calories.</para>
+          </solution>
+        </exercise>
+      </example>
+      <!--Interaction End -->
+      <!-- END CLICK TO REVEAL NO TEXTBOX -->
+    </section>
+        </section>
+        
   </content>
 </document>
