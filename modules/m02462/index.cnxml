@@ -6,57 +6,6 @@
     <md:uuid>ca99c280-52b6-470e-981c-7883891eb98c</md:uuid>
   </metadata>
   <content>
-  <section><title>Deriving the Quadratic Formula Using an Example</title>
-<para>Here is another example that goes through the process of deriving the <term data-schema-version="“1.0”" class="glossary-tooltip">quadratic formula</term>:</para>
-<para>Original equation
-  \(x^2+7x+4=0\)</para>
-<para><emphasis>Step 1</emphasis> - Multiply each side by 4. This helps us avoid some tricky fractions. (In general, multiply each side of the equation by 4 times the coefficient of the \(x^2\) term. In this case, that is just 4 times 1, which is 4.)
-  \(4x^2+28x+16=0\)</para>
-<para><emphasis>Step 2</emphasis> - Subtract 16 from each side.
-  \(4x^2+28x=-16\)</para>
-<para><emphasis>Step 3</emphasis> - Rewrite.
-  \(4x^2\) as \((2x)^2\) and \(28x\) as \(14(2x)\)
-  \((2x)^2+14(2x)=-16\)</para>
-<para><emphasis>Step 4</emphasis> - Use \(P\) as a placeholder for \(2x\).
-  \(P^2+14P=-16\)</para>
-<para><emphasis>Step 5</emphasis> - Add to complete the square.
-  \(P^2+14P+7^2=-16+7^2\)</para>
-<para><emphasis>Step 6</emphasis> - Write the left side as a squared factor.
-  \((P+7)^2=-16+7^2\)</para>
-<para><emphasis>Step 7</emphasis> - Find the square root of the expression on the right.
-  \(P+7= \pm \sqrt{-16+7^2}\)</para>
-<para><emphasis>Step 8</emphasis> - Subtract 7 from both sides to isolate.
-  \(P=-7 \pm \sqrt{-16+7^2}\)</para>
-<para><emphasis>Step 9</emphasis> - Rearrange the expression under the square root sign.
-  \(P=-7 \pm \sqrt{7^2-16}\)</para>
-  <para><emphasis>Step 10</emphasis> - 
-  Re-substitute \(2x\) for \(P\).
-  \(2x=-7 \pm \sqrt{7^2-16}\)</para>
-  <para><emphasis>Step 11</emphasis> - 
-  Divide each side by 2 to isolate \(x\).
-  \(x=\frac{-7 \pm \sqrt{7^2-16}}{2}\)</para>
-<para>Notice the original equation, \(y=x^2+7x+4\), has \(a=1\), \(b=7\), \(c=4\), and the last step is of the form \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\), which is the quadratic formula.</para>
-<note class="try look-at-me"/>
-<title>Try It: Deriving the Quadratic Formula Using an Example</title>
-<example><exercise>
-  <problem>
-    
-    <para>Jaiden was deriving the quadratic formula from the quadratic \(x^2+11x+5=0\). What is the step after the step shown below?</para>
-    
-    <para>\((x+\frac{11}{2})^2=\frac{11^2-4(1)(5)}{4(1)}\)</para>
-    
-    <para>\((x+\frac{11}{2})^2=\frac{121-20}{4}\)</para>
   
-  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Here is how to find the next step:</para>
-  
-  <para>To isolate \(x\), take the square root of both sides:</para>
-  
-  <para>\(\sqrt{(x+\frac{11}{2})^2}=\sqrt{\frac{121-20}{4}}\)</para>
-
-</solution></exercise>
-</example></section>
 </content>
 </document>

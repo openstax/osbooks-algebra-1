@@ -167,5 +167,89 @@
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/5efbfb814353b59bcac07ce4ec580d32fe82cc12"/>
       </media>
     </section>
+
+    <note class="self-check" id="sect-00001">
+      <para id="para-00001">Find the solutions to \(x^2-10x=-9\) by completing the square.</para>
+    </note>
+
+    <section><title>Solving Quadratic Equations by Completing the Square</title>
+      <para><emphasis>Example</emphasis></para>
+      <para>Solve \(x^2+8x=48\) by <term class="glossary-tooltip">completing the square</term>.</para>
+      <para><emphasis>Step 1</emphasis> - Isolate the variable terms on one side and place the constant term on the other.
+        This equation has all the variables on the left.
+        \({\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}\;{\style{color:red}+}\;{\style{color:red}b}{\style{color:red}x}\;{\style{color:red}=}\;{\style{color:red}c}\)
+        \(x^2+8x=48\)</para>
+      <para><emphasis>Step 2</emphasis> - Find (\(\frac{b}{2})^2\), the number to complete the square. Add to both sides of the equation.
+        Take half of 8 and square it.
+        \(4^2=16\)
+        Add 16 to BOTH sides of the equation.
+        \(x^2+8x+ \_\_\_\_ =48\)
+        \((\frac{b}{2})^2\)
+        \(x^2+8x \;{\style{color:red}+}\;{\style{color:red}1}{\style{color:red}6} =48 \;{\style{color:red}+}\;{\style{color:red}1}{\style{color:red}6}\)</para>
+      <para><emphasis>Step 3</emphasis> - Factor the <term class="glossary-tooltip">perfect square trinomial</term> as a binomial square.
+        \(x^2+8x+16=(x+4)^2\)
+        Substitute the binomial square term for the trinomial.
+        \((x+4)^2=64\)</para>
+      <para><emphasis>Step 4</emphasis> - Use the square root property.
+        \(\sqrt{(x+4)^2}=\sqrt{64}\)
+        \(x+4= \pm \;8\)</para>
+      <para><emphasis>Step 5</emphasis> - Simplify the radical and then solve the two resulting equations.
+        \(x+4= \pm \;8\)
+        \(x+4=8\)          \(x+4=-8\)
+        \(x =4\)             \(x=-12\)</para>
+      <para><emphasis>Step 6</emphasis> - Check the solutions.
+        Put each answer in the original equation to check.</para>
+      <para>Substitute \(x=4\).
+        \(x^2+8x=48\)
+        \(({\style{color:red}4})^2+8({\style{color:red}4}) &amp;questeq; 48\)
+        \(16+32 &amp;questeq; 48\)
+        \(48=48 ✔\)</para>
+      <para>Substitute \(x=-12\). 
+        \(x^2+8x=48\)
+        \(({\style{color:red}-}{\style{color:red}1}{\style{color:red}2})^2+8({\style{color:red}-}{\style{color:red}1}{\style{color:red}2}) &amp;questeq; 48\)
+        \(144-96 &amp;questeq; 48\)
+        \(48=48 ✔\)</para>
+      <note class="try look-at-me"/>
+      <title>Try It: Solving Quadratic Equations by Completing the Square</title>
+      <example><exercise>
+        <problem>
+          
+          <para>Solve \(x^2+4x=5\) by completing the square.</para>
+        
+        <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        
+        </problem><solution>
+        <para>Here is how to solve this quadratic using completing the square:</para>
+        
+        <para><emphasis>Step 1</emphasis> - Isolate the constants on one side of the equation.
+          \(x^2+4x=5\)</para>
+        
+        <para><emphasis>Step 2</emphasis> - Find \((\frac{b}{2})^2\). Add this number to both sides of the equation.
+          \(b=4\), \((\frac{4}{2})^2=2^2=4\)
+          \(x^2+4x+4=5+4\)
+          \(x^2+4x+4=9\)</para>
+        
+        <para><emphasis>Step 3</emphasis> - Factor the perfect square trinomial.
+          \((x+2)^2=9\)</para>
+        
+        <para><emphasis>Step 4</emphasis> - Use the square root property.
+          \(\sqrt{(x+2)^2}=9\)
+          \(x+2= \pm \;3\)</para>
+        
+        <para><emphasis>Step 5</emphasis> - Separate into two equations and solve.
+          \(x+2=-3\)          \(x+2=3\)
+          \(x =-5\)             \(x=1\)</para>
+        
+        <para><emphasis>Step 6</emphasis> - Check into the original equation.
+          \(x=-5\)
+          \((-5)^2+4(-5)=5\)
+          \(25+-20=5\)</para>
+        
+        <para>\(x=1\)
+          \(1^2+4(1)=5\)
+          \(5=5\)</para>
+      
+      </solution></exercise>
+      </example></section>
   </content>
 </document>
