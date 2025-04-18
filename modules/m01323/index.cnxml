@@ -204,7 +204,7 @@
             <entry> </entry>
           </row>
         </tbody></tgroup></table>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
+      <list class="os-raise-noindent" list-type="enumerated">
         <item>The number of butterflies when they began their migration.</item>
         <item>The number of butterflies 1 week after they began their migration.</item>
         <item>The number of butterflies 3 weeks after they began their migration.</item>
@@ -215,7 +215,7 @@
       </list>
       <para>When you have the equation that represents the situation, you can substitute values in and use the order of
   operations to find the values for the table.</para>
-      <list id="list-00002">
+      <list>
         <item>Part 1 is asking for the initial value. Since the equation \(p=100,000\cdot(\frac{4}{5})^w\) is in the form
     \(y=ab^x\), you know the initial value is \(a\) or 100,000.</item>
         <item>Part 2 is 1 week after migration, so replace the \(w\) in the equation with 1 to get 80,000.</item>
@@ -272,7 +272,7 @@
           </media>
         </figure>
      </para>
-      <list id="list-00003">
+      <list>
         <item>Part 5 asks about the vertical intercept and what it means. The vertical intercept is 100,000, which is the
     initial amount of the butterfly population. This means that when the butterflies start their migration (at
     \(w=0\) weeks), the population is initially 100,000.
@@ -287,7 +287,7 @@
           <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_08_02.jpg"/>
         </media>
       </figure>
-      <list id="list-00004">
+      <list>
         <item>For part 7, an asymptote is a line or curve that a function approaches but does not intersect or touch. In other words, as the input values of a function approach a certain value or tend towards infinity or negative infinity, the function values get arbitrarily close to the asymptote without actually crossing it. Asymptotes can provide valuable information about the behavior of a function and can help in understanding its limits and range.
     
     To determine the asymptote, we examine the behavior of the function as 𝑤 approaches infinity. In this case, as 𝑤 becomes larger and larger, the term \((\frac{4}{5})^𝑤\) will grow exponentially smaller. Consequently, the population 𝑝 will also grow infinitely smaller as it gets closer and closer to zero. Thus, the horizontal asymptote in this equation is the \(x\)-axis. The graph of the function will continue to decrease towards the \(x\)-axis as 𝑤 increases, approaching \(y = 0\). The butterfly population will decrease over time due to the migration.
@@ -463,7 +463,7 @@
         <solution>
           <para/>
           <para>Compare your answer:</para>
-          <list id="list-00005">
+          <list>
             <item>The \(y\)-intercept represents the value of the function when
         \(t=0\), which corresponds to the year the book was released. Substituting \(t=0\) into the function, we have \(f(0)=600,000 \cdot ( 21&amp;ZeroWidthSpace; )^ 0 =600,000 \cdot 1=600,000\).</item>
             <item>The \(y\)-intercept is 600,000. This means that, in the year the book was released (at
@@ -481,7 +481,7 @@
         <solution>
           <para/>
           <para>Compare your answer:</para>
-          <list id="list-00006">
+          <list>
             <item>To determine the asymptote, we need to consider the behavior of the function as \(t\) approaches infinity. As \(t\) increases, the exponent
         \((\frac {1}{2})t\) becomes smaller and smaller. Eventually, as \(t\) approaches infinity, the exponent approaches 0.
      </item>
