@@ -6,49 +6,49 @@
     <md:uuid>e70c82ec-7f61-4cf4-956e-211cc9451f76</md:uuid>
   </metadata>
   <content>
-    <section id="sect-00001">
+    <section>
       <title>Activity </title>
-      <para id="para-00001">An engineer is designing a fountain that shoots out drops of water. The nozzle from which the water is launched is 3 meters above the ground. It shoots out a drop of water at a vertical velocity of 9 meters per second.</para>
-      <para id="para-00002">Function \(h\) models the height in meters, \(h\), of a drop of water \(t\) seconds after it is shot out from the nozzle. The function is defined by the equation \(h(t) = -5t^2+ 9t + 3\).</para>
-      <para id="para-00003">How many seconds until the drop of water hits the ground?</para>
+      <para>An engineer is designing a fountain that shoots out drops of water. The nozzle from which the water is launched is 3 meters above the ground. It shoots out a drop of water at a vertical velocity of 9 meters per second.</para>
+      <para>Function \(h\) models the height in meters, \(h\), of a drop of water \(t\) seconds after it is shot out from the nozzle. The function is defined by the equation \(h(t) = -5t^2+ 9t + 3\).</para>
+      <para>How many seconds until the drop of water hits the ground?</para>
       <!--Text Entry Interaction Start -->
       <exercise>
-        <problem id="prob-00001">
-          <para id="para-00004">Write an equation that we could solve to answer the question.</para>
+        <problem>
+          <para>Write an equation that we could solve to answer the question.</para>
         </problem>
-        <solution id="sol-00001">
-          <para id="para-00005">Enter your equation.</para>
-          <para id="para-00006">Compare your answer:</para>
-          <para id="para-00007"> \(-5t^2+ 9t + 3 = 0\)</para>
+        <solution>
+          <para>Enter your equation.</para>
+          <para>Compare your answer:</para>
+          <para> \(-5t^2+ 9t + 3 = 0\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
       <exercise>
-        <problem id="prob-00002">
-          <para id="para-00008">Try to solve the equation by writing the expression in <term class="glossary-tooltip" id="term-00001">factored form</term> and using the <term class="glossary-tooltip" id="term-00002">zero product property</term>. If it cannot be factored, explain how you came to this conclusion.</para>
+        <problem>
+          <para>Try to solve the equation by writing the expression in <term class="glossary-tooltip" id="term-00001">factored form</term> and using the <term class="glossary-tooltip" id="term-00002">zero product property</term>. If it cannot be factored, explain how you came to this conclusion.</para>
         </problem>
-        <solution id="sol-00002">
-          <para id="para-00009">Enter your solution to the equation or explanation.</para>
-          <para id="para-00010">Compare your answer:</para>
-          <para id="para-00011"> There is no combination of integer factors of the first coefficient, -5, and the third coefficient, 3, that would result in a middle term of 9. Because it is prime, the expression cannot be written in factored form.</para>
+        <solution>
+          <para>Enter your solution to the equation or explanation.</para>
+          <para>Compare your answer:</para>
+          <para> There is no combination of integer factors of the first coefficient, -5, and the third coefficient, 3, that would result in a middle term of 9. Because it is prime, the expression cannot be written in factored form.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>Solve the equation by graphing the function.</item>
       </list>
-      <para id="para-00012">Use the Desmos graphing tool or technology outside the course.</para>
+      <para>Use the Desmos graphing tool or technology outside the course.</para>
       <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/><!--Text Entry Interaction Start -->
       <exercise>
-        <problem id="prob-00003">
-          <para id="para-00013">Explain how you found the solution.</para>
+        <problem>
+          <para>Explain how you found the solution.</para>
         </problem>
-        <solution id="sol-00003">
-          <para id="para-00014">Enter your explanation.</para>
-          <para id="para-00015">Compare your answer:</para>
-          <para id="para-00016"> About 2. The graph shows two horizontal intercepts, one with a positive \(x\)-coordinate and one negative \(x\)-coordinate. The negative one does not apply here because time in seconds cannot be a negative value. The other horizontal intercept is around \((2.087,0)\). This means it takes about 2 seconds for the drop to hit the ground.</para>
-          <para id="para-00017">
+        <solution>
+          <para>Enter your explanation.</para>
+          <para>Compare your answer:</para>
+          <para> About 2. The graph shows two horizontal intercepts, one with a positive \(x\)-coordinate and one negative \(x\)-coordinate. The negative one does not apply here because time in seconds cannot be a negative value. The other horizontal intercept is around \((2.087,0)\). This means it takes about 2 seconds for the drop to hit the ground.</para>
+          <para>
             <figure id="fig-00001">
               <media alt="Insert Alt Text">
                 <image mime-type="image/svg+xml" src="../../media/Algebra-1_09_12_06_01.svg"/>
@@ -59,7 +59,7 @@
       </exercise>
       <!--Interaction End -->
       <title>Using Technology to Find the Rational Factors</title>
-      <para id="para-00018">Watch the following video to learn more about using technology to find the rational factors of a <term class="glossary-tooltip" id="term-00003">quadratic equation</term>.</para>
+      <para>Watch the following video to learn more about using technology to find the rational factors of a <term class="glossary-tooltip" id="term-00003">quadratic equation</term>.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/c4a36219b2c62fa8ffe57f47a507437fcb41b12f"/>
       </media>
@@ -97,7 +97,7 @@
   <para>We can also tell that the cable attaches to the column 5 meters off the ground at the \(y\)-intercept and the loop is approximately 21 meters high at the vertex of the parabola.</para>
   <note class="try look-at-me"/>
 <title>Try It: Using Technology to Find Rational Factors</title>
-  <example>
+  
     <exercise>
       <problem>
         <para>The height, in meters, of a model rocket being launched is modeled by the function \(h(t) = -2t^2 + 14t + 2\) where \(t\) is the number of seconds after launch.</para>
@@ -118,7 +118,7 @@
         <para>This means the rocket travels for 7.14 seconds before reaching the ground.</para>
       </solution>
     </exercise>
-  </example>
+  
 </section>
   </content>
 </document>
