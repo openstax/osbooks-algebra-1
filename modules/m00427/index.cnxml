@@ -7,39 +7,49 @@
   </metadata>
   <content>
     <section>
-      <note>
-        <para>Access the <link url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
-      
+      <title>Activity</title>
+      <note class="link-to-learning">
+      <para>Access the <link
+          url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos
+        guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
+        </note>
+
       <para>Below are three systems of equations you saw earlier.</para>
       <para>Use System A to answer questions 1 – 6.</para>
       <para>System A</para>
       <para>\(\left\{\begin{array}{c}4x+3y=10\;\\-4x+5y=6\end{array}\right.\)</para>
       <!--Q#1-->
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Use the graphing tool or technology outside the course. Graph the equations for System A that represent this scenario using the Desmos tool below.</item>
-      </list>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <figure>
-              <media alt="Insert Alt Text">
-                <image mime-type="image/png" src="../../media/Algebra-1_02_06_06_01.png"/>
-              </media>
-            </figure>
-          </solution>
-        </exercise>
+
       
-      <!--Interaction End -->
-      <section class="check-understanding">
-        <title>Activity</title>
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Use the graphing tool or technology outside the course. Graph the equations for System
+            A that represent this scenario using the Desmos tool below.</para>
+        <media alt="">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+          height="400" />
+        </media>
+          <para>When you have finished graphing, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <figure class="unnumbered">
+            <media alt="Insert Alt Text">
+              <image mime-type="image/png" src="../../media/Algebra-1_02_06_06_01.png" />
+            </media>
+          </figure>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
+
         <exercise id="_4da44566-324d-4927-8c3f-81dbeb4e1863" class="multiple-choice">
           <problem>
-            
+
             <para>Identify the \(x\) coordinate of the solution.</para>
           </problem>
           <solution>
@@ -47,9 +57,9 @@
             <para>The answer is 1.</para>
           </solution>
         </exercise>
+
         <exercise id="efc3fc12-dbd8-4bf8-9e76-6c35c06b71c5" class="multiple-choice">
           <problem>
-            
             <para>Identify the \(y\) coordinate of the solution.</para>
           </problem>
           <solution>
@@ -57,12 +67,14 @@
             <para>The answer is 1.</para>
           </solution>
         </exercise>
-      </section>
+
+
       <!--Q#4-->
       <exercise>
         <problem>
-          <para>Find the sum or difference of the two original equations that would enable the system to be solved.</para>
-          
+          <para>Find the sum or difference of the two original equations that would enable the
+            system to be solved.</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
@@ -74,74 +86,88 @@
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#5-->
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Use the graphing tool or technology outside the course. Graph your third equation and the System A equations using the Desmos tool below. </item>
-      </list>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="Graph of a linear system.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_06_06_02.svg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+     
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Use the graphing tool or technology outside the course. Graph your third equation and
+            the System A equations using the Desmos tool below.</para>
+        <media alt="">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+          height="400" />
+        </media>
+          <para>When you have finished graphing, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure class="unnumbered">
+              <media alt="Graph of a linear system.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_06_06_02.svg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#6-->
       <exercise>
         <problem>
           <para>Make an observation about the graph.</para>
-          
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Your answer may vary, but here is a sample.</para>
-          <para>All three lines intersect at \((1, 2)\). If students graph \(8y=16\), the graph of the new equation is a horizontal line. If students graph \(8x−2y=4\), the graph of the new equation is a new line between the two original lines.</para>
+          <para>All three lines intersect at \((1, 2)\). If students graph \(8y=16\), the graph of
+            the new equation is a horizontal line. If students graph \(8x−2y=4\), the graph of the
+            new equation is a new line between the two original lines.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <para>Use System B to answer questions 7 – 12.</para>
       <para>System B</para>
       <para>\(\left\{\begin{array}{c}2x+y=4\\x-y=11\end{array}\right.\)</para>
       <!--Q#7-->
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Use the graphing tool or technology outside the course. Graph the equations for System B that represent this scenario using the Desmos tool below.</item>
-      </list>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.
-   </para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="Graph of a linear system.">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_02_06_06_03.jpg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
-      <section class="check-understanding">
+
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Use the graphing tool or technology outside the course. Graph the equations for System
+            B that represent this scenario using the Desmos tool below.</para>
+      <media alt="">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+          height="400" />
+        </media>
+          <para>When you have finished graphing, then select the <emphasis>solution</emphasis>
+            button to compare your work. </para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure class="unnumbered">
+              <media alt="Graph of a linear system.">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_02_06_06_03.jpg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
+
         <exercise id="_7931bfa9-6a91-45e6-9178-17c48e4825a5" class="multiple-choice">
           <problem>
-            
             <para>Identify the \(x\) coordinate of the solution.</para>
           </problem>
           <solution>
@@ -149,9 +175,10 @@
             <para>The answer is 5.</para>
           </solution>
         </exercise>
+
         <exercise id="a3dfa06c-07eb-4022-9ead-e3e1ead6d268" class="multiple-choice">
           <problem>
-            
+
             <para>Identify the \(y\) coordinate of the solution.</para>
           </problem>
           <solution>
@@ -159,12 +186,13 @@
             <para>The answer is -6.</para>
           </solution>
         </exercise>
-      </section>
+
       <!--Q#10-->
       <exercise>
         <problem>
-          <para>Find the sum or difference of the two original equations that would enable the system to be solved.</para>
-          
+          <para>Find the sum or difference of the two original equations that would enable the
+            system to be solved.</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
@@ -175,84 +203,99 @@
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#11-->
-      <list class="os-raise-noindent" start="11" list-type="enumerated">
-        <item>Use the graphing tool or technology outside the course. Graph your third equation and the System B equations using the Desmos tool below.</item>
-      </list>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="Graph of a linear system.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_06_06_04.svg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Use the graphing tool or technology outside the course. Graph your third equation and
+            the System B equations using the Desmos tool below.</para>
+       <media alt="">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+          height="400" />
+        </media>
+          <para>When you have finished graphing, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure class="unnumbered">
+              <media alt="Graph of a linear system.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_06_06_04.svg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#12-->
       <exercise>
         <problem>
           <para>Make an observation about the graph.</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>Your answer may vary, but here is a sample. All three lines intersect at \((5, -6)\). If students graph \(3x=15\), the graph of the new equation is a vertical line.</para>
+          <para>Your answer may vary, but here is a sample. All three lines intersect at \((5,
+            -6)\). If students graph \(3x=15\), the graph of the new equation is a vertical line.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <para>Use System C to answer questions 13–18.</para>
       <para>System C</para>
       <para>\(\left\{\begin{array}{c}8x+11y=37\\8x+y=7\end{array}\right.\)</para>
       <!--Q13-->
-      <list class="os-raise-noindent" start="13" list-type="enumerated">
-        <item>Use the graphing tool or technology outside the course. Graph the equations for System C that represent this scenario using the Desmos tool below.</item>
-      </list>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="Graph of a linear system.">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_02_06_06_05.jpg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Use the graphing tool or technology outside the course. Graph the equations for System
+            C that represent this scenario using the Desmos tool below.</para>
+        <media alt="">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+          height="400" />
+        </media>
+          <para>When you have finished graphing, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure class="unnumbered">
+              <media alt="Graph of a linear system.">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_02_06_06_05.jpg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#14-->
       <exercise>
         <problem>
           <para>Identify the \(x\) coordinate of the solution.</para>
-          
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>\(\frac12\)</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <section class="check-understanding">
+      <!--Interaction
+      End -->
+
         <exercise id="f55ee52c-860b-453e-bf06-d178b89a8990" class="multiple-choice">
           <problem>
-            
+
             <para>Identify the \(y\) coordinate of the solution.</para>
           </problem>
           <solution>
@@ -260,12 +303,13 @@
             <para>The answer is 3.</para>
           </solution>
         </exercise>
-      </section>
+
       <!--Q#16-->
       <exercise>
         <problem>
-          <para>Find the sum or difference of the two original equations that would enable the system to be solved.</para>
-          
+          <para>Find the sum or difference of the two original equations that would enable the
+            system to be solved.</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
@@ -278,190 +322,232 @@
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#17-->
-      <list class="os-raise-noindent" start="17" list-type="enumerated">
-        <item>Use the graphing tool or technology outside the course. Graph your third equation and the System C equations using the Desmos tool below.</item>
-      </list>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="Graph of a linear system.Graph of a linear system.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_06_06_06.svg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Use the graphing tool or technology outside the course. Graph your third equation and
+            the System C equations using the Desmos tool below.</para>
+        <media alt=".">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+          height="400" />
+        </media>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure class="unnumbered">
+              <media alt="Graph of a linear system.Graph of a linear system.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_06_06_06.svg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#18-->
       <exercise>
         <problem>
           <para>Make an observation about the graph.</para>
-          
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>Your answer may vary, but here is a sample. All three lines intersect at \((\frac12,3)\). If students graph \(10y=30\), the graph of the new equation is a horizontal line.</para>
+          <para>Your answer may vary, but here is a sample. All three lines intersect at
+            \((\frac12,3)\). If students graph \(10y=30\), the graph of the new equation is a
+            horizontal line.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-          <solution>
-            <list class="os-raise-noindent" list-type="enumerated">
-              <item>Use the graphing tool or technology outside the course. Graph your third equation and the System B equations using the Desmos tool below.</item>
-            </list>
-          </solution>
-        </exercise>
-      
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+    </section>
+      <!--Interaction
+      End -->
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+      will need to change the Data-fire/data-wait-for-events for each set.-->
+<section>
+  <title>Are you ready for more?</title>
+
+  <section>
+    <title>Extending Your Thinking</title>
+    <para>Mai wonders what would happen if we multiply equations. That is, we multiply the
+      expressions on the left side of the two equations and set them equal to the expressions
+      on the right side of the two equations.</para>
+    <para>Use System B to answer questions 1 – 4.</para>
+    <para>System B</para>
+    <para>\(\left\{\begin{array}{c}2x+y=4\\x-y=11\end{array}\right.\)</para>
+
+    <!--Start
+      interaction.  If multiple interactions appear under "are you ready for more?, they should all
+      have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+      button. Note in this sample, they are all RFM1-->
       <exercise class="RFM1">
         <problem>
-          <title>Extending Your Thinking</title>
-          <para>Mai wonders what would happen if we multiply equations. That is, we multiply the expressions on the left side of the two equations and set them equal to the expressions on the right side of the two equations.</para>
-          <para>Use System B to answer questions 1 – 4.</para>
-          <para>System B</para>
-          <para>\(\left\{\begin{array}{c}2x+y=4\\x-y=11\end{array}\right.\)</para>
-          <para>Write out an equation that you would get if you multiply the two equations in this manner.</para>
-          
+    
+          <para>Write out an equation that you would get if you multiply the two equations in this
+            manner.</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Your answer may vary, but here is a sample. \((2x+y)(x−y)=44\)</para>
         </solution>
       </exercise>
-      <!--End interaction-->
+
+
       <!--Q#2-->
       <exercise class="RFM1">
         <problem>
           <para>Does your original solution still work in this new equation?</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Yes</para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
+      
       <!--Q#3-->
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/><exercise class="RFM1">
-        <problem/>
-        <solution>
-          <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise class="RFM1">
+        <problem>
+          <para>Use the graphing tool or technology outside the course. Graph your third equation
+            and the System B equations using the Desmos tool below.</para>
+            <media alt="">
+              <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+              height="400" />
+            </media>
+          <para>When you have finished graphing, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+          </problem>
+          <solution>
           <para>Compare your answer:</para>
           <para>
-            <figure>
+            <figure class="unnumbered">
               <media alt="A system of equations.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_06_06_07.svg"/>
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_06_06_07.svg" />
               </media>
             </figure>
-         </para>
+          </para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
       <!--Q#4-->
       <exercise class="RFM1">
         <problem>
-          <para>Explain if the approach of graphing the new equation is or is not particularly helpful.</para>
-          
+          <para>Explain if the approach of graphing the new equation is or is not particularly
+            helpful.</para>
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>This approach is not helpful because the new equation is not a line and therefore not so easy to work with.</para>
+          <para>This approach is not helpful because the new equation is not a line and therefore
+            not so easy to work with.</para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
+    </section>
+    </section>
+
+
+    <section>
+      <note class="self-check">
+        <para>Solve the system of equations using elimination. Check the
+        solution by graphing.</para>
+        <para>
+        \(\begin{array}{rcl}&amp;&amp;\left\{\begin{array}{l}2x\;–\;4y\;=\;–26\\-3x\;+\;4y\;=\;29\end{array}\right.\end{array}\)</para>
+      </note>
     </section>
 
     <section>
-      <note class="self-check"><para>Solve the system of equations using elimination. Check the solution by graphing.</para>
-        <para>\(\begin{array}{rcl}&amp;&amp;\left\{\begin{array}{l}2x\;–\;4y\;=\;–26\\-3x\;+\;4y\;=\;29\end{array}\right.\end{array}\)</para></note>
-    </section>
-
-    <section>
+      <title>Additional Resources</title>
       <section>
         <title>Adding Systems of Equations and Using Their Graphs</title>
         <para>Look at the system of equations shown here:</para>
-        <para>\(\begin{array}{rcl}&amp;&amp;\left\{\begin{array}{l}–3x\;+\;4y\;=\;7\\3x\;+\;2y\;=\;17\end{array}\right.\end{array}\)</para>
+        <para>
+          \(\begin{array}{rcl}&amp;&amp;\left\{\begin{array}{l}–3x\;+\;4y\;=\;7\\3x\;+\;2y\;=\;17\end{array}\right.\end{array}\)</para>
         <para>Let’s graph each equation on the coordinate plane. Identify the point of intersection.</para>
-        <figure>
+        <figure class="unnumbered">
           <media alt="GRAPH OF TWO LINES INTERSECTING AT THE POINT (3, 4).">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_02_06_08_01.jpg"/>
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_02_06_08_01.jpg" />
           </media>
         </figure>
-        <emphasis/>
+     
         <para>The lines intersect at \((3, 4)\).</para>
         <para>Add the two equations together. Simplify the resulting equation.</para>
         <para>\(\begin{array}{r}-3x+4y=7\\3x+2y=17\\\hline6y=24\\y=4\end{array}\)</para>
         <para>Graph the resulting equation on the same coordinate plane.</para>
-        <figure>
+        <figure class="unnumbered">
           <media alt="GRAPH OF THREE LINES INTERSECTING AT THE POINT (3,4).">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_02_06_08_02.jpg"/>
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_02_06_08_02.jpg" />
           </media>
         </figure>
-        <emphasis/>
+
         <para>All three lines intersect at \((3, 4)\).</para>
-        <para>You verified that by adding the two equations in the system, you created a third equation that is also true.</para>
+        <para>You verified that by adding the two equations in the system, you created a third
+          equation that is also true.</para>
         <para>The solution to the system is \(x = 3\), \(y = 4\).</para>
-        <note class="try look-at-me"/>
-    <title>Try It: Adding Systems of Equations and Using Their Graphs</title>
-        <para>Add the equations to find the resulting equation. Then graph all three equations to find the ordered pair where they intersect.</para>
+        <note class="try look-at-me">
+        <title>Try It: Adding Systems of Equations and Using Their Graphs</title>
+        <para>Add the equations to find the resulting equation. Then graph all three equations to
+          find the ordered pair where they intersect.</para>
         <para>Use this system of equations to answer questions 1 – 4.</para>
         <para>\(\left\{\begin{array}{c}-2x-3y=7\\2x+y=3\end{array}\right.\)</para>
         <!--Q#1-->
         <exercise>
           <problem>
             <para>Add the equations to find the resulting equation.</para>
-            
+
           </problem>
           <solution>
             <para>Compare your answer:</para>
-            <para>\(\underline{\;\;\;\;\;-2x-3y=7\\+\;\;\;\;\;\;\;2x+y=3}\\\;\;\;\;\;\;\;\;\;\;\;\;-2y\;=10\\\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;y\;=-5\\\)</para>
-            <para>\(9\begin{array}{rcl}2x+\;y&amp;=&amp;3\;\\2x+\;(-5)&amp;=&amp;3\\2x&amp;=&amp;8\\x&amp;=&amp;4\\&amp;&amp;\end{array}\)</para>
+            <para>
+              \(\underline{\;\;\;\;\;-2x-3y=7\\+\;\;\;\;\;\;\;2x+y=3}\\\;\;\;\;\;\;\;\;\;\;\;\;-2y\;=10\\\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;y\;=-5\\\)</para>
+            <para>
+              \(9\begin{array}{rcl}2x+\;y&amp;=&amp;3\;\\2x+\;(-5)&amp;=&amp;3\\2x&amp;=&amp;8\\x&amp;=&amp;4\\&amp;&amp;\end{array}\)</para>
           </solution>
         </exercise>
-        <!--Interaction End -->
+        <!--Interaction
+        End -->
+
         <!--Q#2-->
-        <list class="os-raise-noindent" list-type="enumerated">
-          <item>Use the graphing tool or technology outside the course. Graph your third equation and the system of equations for this scenario using the Desmos tool below.</item>
-        </list>
-        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-          <exercise>
-            <problem>
-              <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-              <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-            </problem>
-            <solution>
-              <para>Compare your answer:</para>
-              <para>
-                <figure>
-                  <media alt="GRAPH OF THREE LINES THAT INTERSECT AT THE POINT (4,-5).">
-                    <image mime-type="image/jpeg" src="../../media/Algebra-1_02_06_08_03.jpg"/>
-                  </media>
-                </figure>
-             </para>
-            </solution>
-          </exercise>
-        
-        <!--Interaction End -->
-        <section class="check-understanding">
+        <exercise>
+          <problem>
+            <!--QUESTION
+            IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+            <para>Use the graphing tool or technology outside the course. Graph your third equation
+              and the system of equations for this scenario using the Desmos tool below.</para>
+          <media alt="">
+          <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+            height="400" />
+          </media>
+            <para>When you have finished graphing, then select the <emphasis>solution</emphasis>
+              button to compare your work.</para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>
+              <figure class="unnumbered">
+                <media alt="GRAPH OF THREE LINES THAT INTERSECT AT THE POINT (4,-5).">
+                  <image mime-type="image/jpeg" src="../../media/Algebra-1_02_06_08_03.jpg" />
+                </media>
+              </figure>
+            </para>
+          </solution>
+        </exercise>
+
+        <!--Interaction
+        End -->
+
           <exercise id="_1fd4bad7-932b-4253-85d8-cb8048e5005b" class="multiple-choice">
             <problem>
-              
               <para>Identify the \(x\) coordinate of the solution.</para>
             </problem>
             <solution>
@@ -469,9 +555,9 @@
               <para>The answer is 4.</para>
             </solution>
           </exercise>
+
           <exercise id="_1bf21b85-50fb-45c0-8750-77d5b5cf4e0e" class="multiple-choice">
             <problem>
-              
               <para>Identify the \(y\) coordinate of the solution.</para>
             </problem>
             <solution>
@@ -479,8 +565,8 @@
               <para>The answer is -5.</para>
             </solution>
           </exercise>
+          </note>
         </section>
       </section>
-    </section>
   </content>
 </document>
