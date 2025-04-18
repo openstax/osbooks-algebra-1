@@ -7,262 +7,236 @@
   </metadata>
   <content>
     <section>
-      <div class="os-raise-familysupport">
+      <title>Activity</title>
+      <note>
         <para>Access the <link url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
-      
+      </note>
       <para>Here is an example of an equation being solved by graphing and by <term class="glossary-tooltip">completing the square</term>.</para>
       <para>
         <figure>
           <media alt="Insert Alt Text">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_07_06_01.svg"/>
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_07_06_01.svg" />
           </media>
         </figure>
-     </para>
-      <para>\(\begin{aligned} x^{2}+6 x+7 &amp;=0 \\ x^{2}+6 x+9 &amp;=2 \\ (x+3)^{2} &amp;=2 \\ x+3 &amp;=\pm \sqrt{2} \\ x &amp;=-3 \pm \sqrt{2} \end{aligned}\) 
-</para>
+      </para>
+      <para>\(\begin{aligned} x^{2}+6 x+7 &amp;=0 \\ x^{2}+6 x+9 &amp;=2 \\ (x+3)^{2} &amp;=2 \\ x+3 &amp;=\pm \sqrt{2} \\ x &amp;=-3 \pm \sqrt{2} \end{aligned}\) </para>
       <para>Verify: \(\sqrt{2}\) is approximately 1.414. So \(-3+ \sqrt{2} \approx -1.586\) and \(-3- \sqrt{2} \approx -4.414\).</para>
       <para>For each equation, find the exact solutions by completing the square and the approximate solutions by graphing. Then, verify that the solutions found using the two methods are close. If you get stuck, refer back to the example.</para>
-      
-        <exercise>
-          <problem>
-            <para>\(x^2+4x+1=0\)</para>
-            <para>Find the exact solutions by completing the square.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(\begin{aligned} x^{2}+4 x+1 &amp;=0 \\ x^{2}+4 x &amp;=-1 \\ x^{2}+4 x+4 &amp;=-1+4 \\ x^{2}+4 x+4 &amp;=3 \\ (x+2)^{2} &amp;=3 \\ \sqrt{(x+2)^{2}} &amp;=\sqrt{3} \\ x+2 &amp;=\pm \sqrt{3} \\x&amp;=-2 \pm \sqrt{3} \end{aligned}\) 
- </para>
-          </solution>
-        </exercise>
-      
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Graph the equation to find approximate solutions.</item>
-      </list>
-      <para>Use the Desmos graphing tool or technology outside the course.</para>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_02.jpg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <section class="check-understanding">
-        <title>Activity</title>
-        <exercise id="e4b9dc8d-0ea3-4566-af06-451d36647eee" class="multiple-choice">
-          <problem>
-            <para>Are the solutions you found using the two methods close?</para>
-          </problem>
-          <solution>
-            <para>Correct! Yes. Solutions were the same: \(x \approx -0.268\) and \(x \approx -3.732\).</para>
-            <para>Incorrect. The correct answer is Yes. Solutions were the same: \(x \approx -0.268\) and \(x \approx -3.732\).</para>
-          </solution>
-        </exercise>
-      </section>
-      
-        <exercise>
-          <problem>
-            <para>\(x^2−10x+18=0\)</para>
-            <para>Find the exact solutions by completing the square.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(\begin{aligned} x^{2}-10 x+18 &amp;=0 \\ x^{2}-10 x &amp;=-18 \\ x^{2}-10 x+25 &amp;=-18+25 \\ x^{2}-10 x+25 &amp;=7 \\ (x-5)^{2} &amp;=7 \\ \sqrt{(x-5)^{2}} &amp;=\sqrt{7} \\ x-5 &amp;=\pm \sqrt{7} \\ x &amp;=5 \pm \sqrt{7} \end{aligned}\) 
- </para>
-          </solution>
-        </exercise>
-      
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Graph the equation to find approximate solutions.</item>
-      </list>
-      <para>Use the Desmos graphing tool or technology outside the course.</para>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_03.jpg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <section class="check-understanding">
-        <exercise id="_0f0d59d2-2fcd-4daf-ac6a-c1ab9c931506" class="multiple-choice">
-          <problem>
-            <para>Are the solutions you found using the two methods close?</para>
-          </problem>
-          <solution>
-            <para>Correct! Yes. Solutions were the same: \(x \approx 7.646\) and \(x \approx 2.354\).</para>
-            <para>Incorrect. The correct answer is Yes. \(x \approx 7.646\) and \(x \approx 2.354\).</para>
-          </solution>
-        </exercise>
-      </section>
-      
-        <exercise>
-          <problem>
-            <para>\(x^2+5x+\frac{1}{4}=0\)</para>
-            <para>Find the exact solutions by completing the square.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(\begin{array}{rcl} x^{2}+5 x+\frac{1}{4} &amp;=&amp; 0 \\ x^{2}+5 x &amp;=&amp; -\frac{1}{4} \\ x^{2}+5 x+\left(\frac{5}{2}\right)^{2} &amp;=&amp; -\frac{1}{4}+\left(\frac{5}{2}\right)^{2} \\ x^{2}+5 x+\frac{25}{4} &amp;=&amp; -\frac{1}{4}+\frac{25}{4} \\ x^{2}+5 x+\frac{25}{4} &amp;=&amp; \frac{24}{4} \\ x^{2}+5 x+\frac{25}{4} &amp;=&amp; 6 \\ \left(x+\frac{5}{2}\right)^{2} &amp;=&amp; 6 \\ \sqrt{\left(x+\frac{5}{2}\right)^{2}} &amp;=&amp; \sqrt{6} \\ x+\frac{5}{2} &amp;=&amp; \pm \sqrt{6} \\ x &amp;=&amp; -\frac{5}{2} \pm \sqrt{6} \end{array}\)</para>
-          </solution>
-        </exercise>
-      
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Graph the equation to find approximate solutions.</item>
-      </list>
-      <para>Use the Desmos graphing tool or technology outside the course.</para>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <figure>
-              <media alt="">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_04.jpg"/>
-              </media>
-            </figure>
-          </solution>
-        </exercise>
-      
-      <section class="check-understanding">
-        <exercise id="e91e1f89-ee24-4fd8-a748-9709bcd4de75" class="multiple-choice">
-          <problem>
-            <para>Are the solutions you found using the two methods close?</para>
-          </problem>
-          <solution>
-            <para>Correct! Yes. Solutions were the same: \(x \approx -4.949\) and \(x \approx -0.051\).</para>
-            <para>Incorrect. The correct answer is Yes. \(x \approx -4.949\) and \(x \approx -0.051\).</para>
-          </solution>
-        </exercise>
-      </section>
-      
-        <exercise>
-          <problem>
-            <para>\(x^2+\frac{8}{3}x+\frac{14}{9}=0\)</para>
-            <para>Find the exact solutions by completing the square.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(\begin{array}{rcl} x^{2}+\frac{8}{3} x+\frac{14}{9} &amp;=&amp;0 \\ x^{2}+\frac{8}{3} x &amp;=&amp;-\frac{14}{9} \\ x^{2}+\frac{8}{3} x+\left(\frac{1}{2} \cdot \frac{8}{3}\right)^{2} &amp;=&amp;-\frac{14}{9}+\left(\frac{1}{2} \cdot \frac{8}{3}\right)^{2} \\ x^{2}+\frac{8}{3} x+\left(\frac{4}{3}\right)^{2} &amp;=&amp;-\frac{14}{9}+\left(\frac{4}{3}\right)^{2} \\ x^{2}+\frac{8}{3} x+\frac{16}{9} &amp;=&amp;-\frac{14}{9}+\frac{16}{9} \\ x^{2}+\frac{8}{3} x+\frac{16}{9} &amp;=&amp;\frac{2}{9} \\ \left(x+\frac{4}{3}\right)^{2} &amp;=&amp;\frac{2}{9} \\ \sqrt{\left(x+\frac{4}{3}\right)^{2}} &amp;=&amp;\sqrt{\frac{2}{9}} \\ x+\frac{4}{3} &amp;=&amp;\pm \frac{\sqrt{2}}{3} \\ x &amp;=&amp;-\frac{4}{3} \pm \frac{\sqrt{2}}{3} \end{array}\)</para>
-          </solution>
-        </exercise>
-      
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Graph the equation to find approximate solutions.</item>
-      </list>
-      <para>Use the Desmos graphing tool or technology outside the course.</para>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_05.jpg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <section class="check-understanding">
-        <exercise id="b14e169f-7b9e-4e99-ac18-2c18cbeddb81" class="multiple-choice">
-          <problem>
-            <para>Are the solutions you found using the two methods close?</para>
-          </problem>
-          <solution>
-            <para>Correct! Yes. Solutions were the same: \(x \approx -0.862\) and \(x \approx -1.805\).</para>
-            <para>Incorrect. The correct answer is Yes. \(x \approx -0.862\) and \(x \approx -1.805\).</para>
-          </solution>
-        </exercise>
-      </section>
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-        </exercise>
-      
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1">
+      <exercise>
         <problem>
-          <title>Extending Your Thinking</title>
-          <para>What quadratic equation of the form \(ax^2+bx+c=0\) would have the solutions \(x=5− \sqrt{2}\) and \(x=5+ \sqrt{2}\)?</para>
+          <para>\(x^2+4x+1=0\)</para>
+          <para>Find the exact solutions by completing the square.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution>
-          <para>Enter the quadratic equation.</para>
           <para>Compare your answer:</para>
-          <para>\(x^2−10x+23=0\). Working backward, these are solutions to \((x−5)^2=2\). In standard form, this is \(x^2−10x+23=0\).</para>
+          <para>\(\begin{aligned} x^{2}+4 x+1 &amp;=0 \\ x^{2}+4 x &amp;=-1 \\ x^{2}+4 x+4 &amp;=-1+4 \\ x^{2}+4 x+4 &amp;=3 \\ (x+2)^{2} &amp;=3 \\ \sqrt{(x+2)^{2}} &amp;=\sqrt{3} \\ x+2 &amp;=\pm \sqrt{3} \\x&amp;=-2 \pm \sqrt{3} \end{aligned}\) </para>
         </solution>
       </exercise>
-      <!--End interaction-->
-      <!--Start interaction.  If click to reveal is to appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-    </section>
-
-    <note class="self-check">
-      <para>Which of the following are the solutions to \((x-2)^2=12\), rounded to the nearest thousandth?</para>
-    </note>
-
-    <section>
-      <title>Using the Calculator for Approximate Solutions</title>
-      <para>Let's look at the solutions to the equations from 9.5.2: Additional Resources:</para>
-      <para>A more compact way to write the two solutions to the equation \((x+4)^2=11\) is: \(x=-4 \pm \sqrt{11}\).</para>
-      <para>How large or small are those numbers? Are they positive or negative? We can use a calculator to compute the approximate values of both expressions:</para>
-      <para>\(-4+ \sqrt{11} \approx -0.683\) or \(-4- \sqrt{11} \approx -7.317\)</para>
-      <para>We can also approximate the solutions by graphing. The equation \((x+4)^2=11\) is equivalent to \((x+4)^2−11=0\), so we can graph the function \(y=(x+4)^2−11\) and find its zeros by locating the \(x\)-intercepts of the graph.</para>
-      <para>
-        <figure>
-          <media alt="Insert Alt Text">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_07_08_01.svg"/>
-          </media>
-        </figure>
-     </para>
-      <note class="try look-at-me"/>
-  <title>Try It: Using the Calculator for Approximate Solutions</title>
-      
-        <exercise>
+      <list class="os-raise-noindent" list-type="enumerated">
+        <item>Graph the equation to find approximate solutions.</item>
+      </list>
+      <para>Use the Desmos graphing tool or technology outside the course.</para>
+      <media alt="...">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" />
+      </media>
+      <exercise>
+        <problem>
+          <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure>
+              <media alt="">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_02.jpg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+      <exercise id="e4b9dc8d-0ea3-4566-af06-451d36647eee" class="multiple-choice">
+        <problem>
+          <para>Are the solutions you found using the two methods close?</para>
+        </problem>
+        <solution>
+          <para>Correct! Yes. Solutions were the same: \(x \approx -0.268\) and \(x \approx -3.732\).</para>
+          <para>Incorrect. The correct answer is Yes. Solutions were the same: \(x \approx -0.268\) and \(x \approx -3.732\).</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>\(x^2−10x+18=0\)</para>
+          <para>Find the exact solutions by completing the square.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(\begin{aligned} x^{2}-10 x+18 &amp;=0 \\ x^{2}-10 x &amp;=-18 \\ x^{2}-10 x+25 &amp;=-18+25 \\ x^{2}-10 x+25 &amp;=7 \\ (x-5)^{2} &amp;=7 \\ \sqrt{(x-5)^{2}} &amp;=\sqrt{7} \\ x-5 &amp;=\pm \sqrt{7} \\ x &amp;=5 \pm \sqrt{7} \end{aligned}\) </para>
+        </solution>
+      </exercise>
+      <list class="os-raise-noindent" list-type="enumerated">
+        <item>Graph the equation to find approximate solutions.</item>
+      </list>
+      <para>Use the Desmos graphing tool or technology outside the course.</para>
+      <media alt="...">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" />
+      </media>
+      <exercise>
+        <problem>
+          <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure>
+              <media alt="">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_03.jpg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+      <exercise id="_0f0d59d2-2fcd-4daf-ac6a-c1ab9c931506" class="multiple-choice">
+        <problem>
+          <para>Are the solutions you found using the two methods close?</para>
+        </problem>
+        <solution>
+          <para>Correct! Yes. Solutions were the same: \(x \approx 7.646\) and \(x \approx 2.354\).</para>
+          <para>Incorrect. The correct answer is Yes. \(x \approx 7.646\) and \(x \approx 2.354\).</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>\(x^2+5x+\frac{1}{4}=0\)</para>
+          <para>Find the exact solutions by completing the square.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(\begin{array}{rcl} x^{2}+5 x+\frac{1}{4} &amp;=&amp; 0 \\ x^{2}+5 x &amp;=&amp; -\frac{1}{4} \\ x^{2}+5 x+\left(\frac{5}{2}\right)^{2} &amp;=&amp; -\frac{1}{4}+\left(\frac{5}{2}\right)^{2} \\ x^{2}+5 x+\frac{25}{4} &amp;=&amp; -\frac{1}{4}+\frac{25}{4} \\ x^{2}+5 x+\frac{25}{4} &amp;=&amp; \frac{24}{4} \\ x^{2}+5 x+\frac{25}{4} &amp;=&amp; 6 \\ \left(x+\frac{5}{2}\right)^{2} &amp;=&amp; 6 \\ \sqrt{\left(x+\frac{5}{2}\right)^{2}} &amp;=&amp; \sqrt{6} \\ x+\frac{5}{2} &amp;=&amp; \pm \sqrt{6} \\ x &amp;=&amp; -\frac{5}{2} \pm \sqrt{6} \end{array}\)</para>
+        </solution>
+      </exercise>
+      <list class="os-raise-noindent" list-type="enumerated">
+        <item>Graph the equation to find approximate solutions.</item>
+      </list>
+      <para>Use the Desmos graphing tool or technology outside the course.</para>
+      <media alt="...">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" />
+      </media>
+      <exercise>
+        <problem>
+          <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <figure>
+            <media alt="">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_04.jpg" />
+            </media>
+          </figure>
+        </solution>
+      </exercise>
+      <exercise id="e91e1f89-ee24-4fd8-a748-9709bcd4de75" class="multiple-choice">
+        <problem>
+          <para>Are the solutions you found using the two methods close?</para>
+        </problem>
+        <solution>
+          <para>Correct! Yes. Solutions were the same: \(x \approx -4.949\) and \(x \approx -0.051\).</para>
+          <para>Incorrect. The correct answer is Yes. \(x \approx -4.949\) and \(x \approx -0.051\).</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>\(x^2+\frac{8}{3}x+\frac{14}{9}=0\)</para>
+          <para>Find the exact solutions by completing the square.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(\begin{array}{rcl} x^{2}+\frac{8}{3} x+\frac{14}{9} &amp;=&amp;0 \\ x^{2}+\frac{8}{3} x &amp;=&amp;-\frac{14}{9} \\ x^{2}+\frac{8}{3} x+\left(\frac{1}{2} \cdot \frac{8}{3}\right)^{2} &amp;=&amp;-\frac{14}{9}+\left(\frac{1}{2} \cdot \frac{8}{3}\right)^{2} \\ x^{2}+\frac{8}{3} x+\left(\frac{4}{3}\right)^{2} &amp;=&amp;-\frac{14}{9}+\left(\frac{4}{3}\right)^{2} \\ x^{2}+\frac{8}{3} x+\frac{16}{9} &amp;=&amp;-\frac{14}{9}+\frac{16}{9} \\ x^{2}+\frac{8}{3} x+\frac{16}{9} &amp;=&amp;\frac{2}{9} \\ \left(x+\frac{4}{3}\right)^{2} &amp;=&amp;\frac{2}{9} \\ \sqrt{\left(x+\frac{4}{3}\right)^{2}} &amp;=&amp;\sqrt{\frac{2}{9}} \\ x+\frac{4}{3} &amp;=&amp;\pm \frac{\sqrt{2}}{3} \\ x &amp;=&amp;-\frac{4}{3} \pm \frac{\sqrt{2}}{3} \end{array}\)</para>
+        </solution>
+      </exercise>
+      <list class="os-raise-noindent" list-type="enumerated">
+        <item>Graph the equation to find approximate solutions.</item>
+      </list>
+      <para>Use the Desmos graphing tool or technology outside the course.</para>
+      <media alt="...">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" />
+      </media>
+      <exercise>
+        <problem>
+          <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure>
+              <media alt="...">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_05.jpg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+      <exercise id="b14e169f-7b9e-4e99-ac18-2c18cbeddb81" class="multiple-choice">
+        <problem>
+          <para>Are the solutions you found using the two methods close?</para>
+        </problem>
+        <solution>
+          <para>Correct! Yes. Solutions were the same: \(x \approx -0.862\) and \(x \approx -1.805\).</para>
+          <para>Incorrect. The correct answer is Yes. \(x \approx -0.862\) and \(x \approx -1.805\).</para>
+        </solution>
+      </exercise>
+      <section>
+        <title>Are you ready for more?</title>
+        <exercise class="RFM1">
           <problem>
-            <para>Approximate the solutions to \(x=3 \pm \sqrt{19}\).</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <title>Extending Your Thinking</title>
+            <para>What quadratic equation of the form \(ax^2+bx+c=0\) would have the solutions \(x=5− \sqrt{2}\) and \(x=5+ \sqrt{2}\)?</para>
           </problem>
           <solution>
-            <para>Here is how to approximate the solutions:</para>
-            <para><emphasis>Step 1</emphasis> - Write two expressions.
-    \(x=3+ \sqrt{19}, x=3- \sqrt{19}\)</para>
-            <para><emphasis>Step 2</emphasis> - Use the calculator to approximate the solutions to three decimal places.
-    \(x \approx -1.359, x \approx 7.359\)</para>
+            <para>Enter the quadratic equation.</para>
+            <para>Compare your answer:</para>
+            <para>\(x^2−10x+23=0\). Working backward, these are solutions to \((x−5)^2=2\). In standard form, this is \(x^2−10x+23=0\).</para>
           </solution>
         </exercise>
-      
+      </section>
+      <note class="self-check">
+        <para>Which of the following are the solutions to \((x-2)^2=12\), rounded to the nearest thousandth?</para>
+      </note>
+      <section>
+        <title>Additional Resources</title>
+        <section>
+          <title>Using the Calculator for Approximate Solutions</title>
+          <para>Let's look at the solutions to the equations from 9.5.2: Additional Resources:</para>
+          <para>A more compact way to write the two solutions to the equation \((x+4)^2=11\) is: \(x=-4 \pm \sqrt{11}\).</para>
+          <para>How large or small are those numbers? Are they positive or negative? We can use a calculator to compute the approximate values of both expressions:</para>
+          <para>\(-4+ \sqrt{11} \approx -0.683\) or \(-4- \sqrt{11} \approx -7.317\)</para>
+          <para>We can also approximate the solutions by graphing. The equation \((x+4)^2=11\) is equivalent to \((x+4)^2−11=0\), so we can graph the function \(y=(x+4)^2−11\) and find its zeros by locating the \(x\)-intercepts of the graph.</para>
+          <para>
+            <figure>
+              <media alt="Insert Alt Text">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_07_08_01.svg" />
+              </media>
+            </figure>
+          </para>
+          <note class="try">
+            <title>Try It: Using the Calculator for Approximate Solutions</title>
+        <exercise>
+              <problem>
+                <para>Approximate the solutions to \(x=3 \pm \sqrt{19}\).</para>
+                <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+              </problem>
+              <solution>
+                <para>Here is how to approximate the solutions:</para>
+                <para><emphasis>Step 1</emphasis> - Write two expressions. \(x=3+ \sqrt{19}, x=3- \sqrt{19}\)</para>
+                <para><emphasis>Step 2</emphasis> - Use the calculator to approximate the solutions to three decimal places. \(x \approx -1.359, x \approx 7.359\)</para>
+              </solution>
+            </exercise>
+          </note>
+        </section>
+      </section>
     </section>
   </content>
 </document>
