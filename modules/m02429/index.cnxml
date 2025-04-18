@@ -6,231 +6,148 @@
     <md:uuid>6e13dccf-d991-4584-a595-b56ca736265b</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<para>Here is a formula called the <term data-schema-version="“1.0”" class="glossary-tooltip" id="term-00001">quadratic formula</term>.</para>
-<para>\(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
-<para>The formula can be used to find the solutions to any quadratic equation in the form of \(ax^2+bx+c=0\), where \(a\), \(b\), and \(c\) are numbers and \(a\) is not 0.</para>
-<para>This example shows how it is used to solve \(x^2−8x+15=0\), in which \(a=\)1, \(b=-8\), and \(c=15\).</para>
-<para><emphasis>Step 1</emphasis> - State the original equation.
-  \(x^2−8x+15=0\)</para>
-<para><emphasis>Step 2</emphasis> - Identify the values of \(a\), \(b\), and \(c\).
-  \(a=1\), \(b=-8\), and \(c=15\)</para>
-<para><emphasis>Step 3</emphasis> - Substitute the values of \(a\), \(b\), and \(c\) into the formula.
-  \(x=\frac{-(-8) \pm \sqrt{(-8)^2-(4)(1)(15)}}{2(1)}\)</para>
-<para><emphasis>Step 4</emphasis> - Evaluate each part of the expression.
-  \(x=\frac{8 \pm \sqrt{64-60}}{2}\)
-  \(x=\frac{8 \pm \sqrt{4}}{2}\)
-  \(x=\frac{8 \pm 2}{2}\)</para>
-<para><emphasis>Step 5</emphasis> - Write each equation separately and solve.
-  \(x=\frac{8+2}{2}\) and \(x=\frac{8-2}{2}\)</para>
-<para><emphasis>Step 6</emphasis> - Simplify.
-  \(x=\frac{10}{2}\) and \(x=\frac{6}{2}\)</para>
-<para><emphasis>Step 7</emphasis> - Find the solutions.
-  \(x=5\) and \(x=3\)</para>
-<para>Here are some quadratic equations and their solutions. Use the quadratic formula to show that the solutions are correct.</para>
-<exercise>
-  <problem>
-    
-    <para>\(x^2+4x−5=0\). The solutions are \(x=-5\) and \(x=1\).</para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>\(\begin{array}{l} x^{2}+4 x-5=0 \\ a=1, b=4, c=-5 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(4) \pm \sqrt{(4)^{2}-(4)(1)(-5)}}{2(1)} \\ x=\frac{-4 \pm \sqrt{16+20}}{2} \\ x=\frac{-4 \pm \sqrt{36}}{2} \\ x=\frac{-4 \pm 6}{2} \\ x=\frac{2}{2} \text { and } x=\frac{-10}{2} \\ x=1 \text { and } x=-5 \end{array}\)</para>
-
-</solution></exercise>
-
-<exercise>
-  <problem>
-    
-    <para>\(x^2+7x+12=0\). The solutions are \(x=-3\) and \(x=-4\).</para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>\(\begin{array}{l} x^{2}+7 x+12=0 \\ a=1, b=7, c=12 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(7) \pm \sqrt{(7)^{2}-(4)(1)(12)}}{2(1)} \\ x=\frac{-7 \pm \sqrt{49-48}}{2} \\ x=\frac{-7 \pm \sqrt{1}}{2} \\ x=\frac{-7 \pm 1}{2} \\ x=\frac{-6}{2} \text { and } x=\frac{-8}{2} \\ x=-3 \text { and } x=-4 \end{array}\)</para>
-
-</solution></exercise>
-
-<exercise>
-  <problem>
-    
-    <para>\(x^2+10x+18=0\). The solution is \(x=-5\pm\sqrt{7}\).</para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>\(x^2+10x+18=0\)
-    \(a=1\), \(b=10\), \(c=18\)
-    \(x=\frac{-b \pm \sqrt{b2- 4ac}}{2a}\)
-    \(x=\frac{-(10)\pm \sqrt{(10)2- (4)(1)(18)}}{2(1)}\)
-    \(x=\frac{-10\pm \sqrt{ 100-72}}{2}\)
-    \(x=\frac{-10\pm \sqrt{28}}{2}\)
-    \(x=\frac{-10\pm \sqrt{(4)(7)}}{2}\)
-    \(x=\frac{-10\pm \sqrt{4}\sqrt{7}}{2}\)
-    \(x=\frac{-10\pm 2\sqrt{7}}{2}\)
-    \(x=-5\pm \sqrt{7}\)</para>
-
-</solution></exercise>
-
-<exercise>
-  <problem>
-    
-    <para>\( x^2−8x+11=0\). The solution is \(x=4\pm\sqrt{5}\).</para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>\(x^2−8x+11=0\)
-    \(a=1\), \(b=-8\), \(c=11\)
-    \(x=\frac{-b\pm \sqrt{ b2- 4ac}}{2a}\)
-    \(x=\frac{-(-8)\pm \sqrt{ (-8)2- (4)(1)(11)}}{2(1)}\)
-    \(x=\frac{8\pm \sqrt{ 64-44}}{2}\)
-    \(x=\frac{8\pm\sqrt{ 20}}{2}\)
-    \(x=\frac{8\pm\sqrt{ (4)(5)}}{2}\)
-    \(x=\frac{8\pm \sqrt{4}\sqrt{5}}{2}\)
-    \(x=\frac{8\pm 2\sqrt{5}}{2}\)
-    \(x=4\pm\sqrt{5}\)</para>
-
-</solution></exercise>
-
-<exercise>
-  <problem>
-    
-    <para>\(9x^2−6x+1=0\). The solution is \(x=\frac{1}{3}\).</para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>\(\begin{array}{l} 9 x^{2}-6 x+1=0 \\ a=9, b=-6, c=1 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(-6) \pm \sqrt{(-6)^{2}-(4)(9)(1)}}{2(9)} \\ x=\frac{6 \pm \sqrt{36-36}}{18} \\ x=\frac{6}{18} \\ x=\frac{1}{3} \end{array} \)</para>
-
-</solution></exercise>
-
-<exercise>
-  <problem>
-    
-    <para>\(6x^2+9x−15=0\). The solutions are \(x=-\frac{5}{2}\) and \(x=1\).</para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>\(\begin{array}{l} 6 x^{2}+9 x-15=0 \\ a=6, b=9, c=-15 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(9) \pm \sqrt{(9)^{2}-(4)(6)(-15)}}{2(6)} \\ x=\frac{-9 \pm \sqrt{81-(-360)}}{12} \\ x=\frac{-9 \pm \sqrt{441}}{12} \\ x=\frac{-9 \pm 21}{12} \\ x=\frac{-9+21}{12} \\ x=\frac{-9-21}{12} \\ x=\frac{12}{12}=1 \\ x=\frac{-30}{12}=\frac{-5}{2} \end{array}\)</para>
-
-</solution></exercise>
-
-<title>Video: Solving Quadratics With the Quadratic Formula</title>
-<para>Watch the following video to learn more about solving quadratics with the quadratic formula.</para>
-<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/44f83ee622ab7d49053fb9d6a565e28717f75e74"/></media></section>
-
-<note class="self-check">
-  <para>Solve \(2x^2-6x+3=0\) using the quadratic formula.</para>
-</note>
-
-<section><title>Solving With the Quadratic Formula</title>
-
-  <note>
-    <para>
-     <emphasis> Quadratic Formula
-     </emphasis> 
-   </para>
+    <section>
+      <title>Activity</title>
+      <para>Here is a formula called the <term class="glossary-tooltip" id="term-00001">quadratic formula</term>.</para>
+      <para>\(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
+      <para>The formula can be used to find the solutions to any quadratic equation in the form of \(ax^2+bx+c=0\), where \(a\), \(b\), and \(c\) are numbers and \(a\) is not 0.</para>
+      <para>This example shows how it is used to solve \(x^2−8x+15=0\), in which \(a=\)1, \(b=-8\), and \(c=15\).</para>
+      <para><emphasis>Step 1</emphasis> - State the original equation. \(x^2−8x+15=0\)</para>
+      <para><emphasis>Step 2</emphasis> - Identify the values of \(a\), \(b\), and \(c\). \(a=1\), \(b=-8\), and \(c=15\)</para>
+      <para><emphasis>Step 3</emphasis> - Substitute the values of \(a\), \(b\), and \(c\) into the formula. \(x=\frac{-(-8) \pm \sqrt{(-8)^2-(4)(1)(15)}}{2(1)}\)</para>
+      <para><emphasis>Step 4</emphasis> - Evaluate each part of the expression. \(x=\frac{8 \pm \sqrt{64-60}}{2}\) \(x=\frac{8 \pm \sqrt{4}}{2}\) \(x=\frac{8 \pm 2}{2}\)</para>
+      <para><emphasis>Step 5</emphasis> - Write each equation separately and solve. \(x=\frac{8+2}{2}\) and \(x=\frac{8-2}{2}\)</para>
+      <para><emphasis>Step 6</emphasis> - Simplify. \(x=\frac{10}{2}\) and \(x=\frac{6}{2}\)</para>
+      <para><emphasis>Step 7</emphasis> - Find the solutions. \(x=5\) and \(x=3\)</para>
+      <para>Here are some quadratic equations and their solutions. Use the quadratic formula to show that the solutions are correct.</para>
+      <exercise>
+        <problem>
+          <para>\(x^2+4x−5=0\). The solutions are \(x=-5\) and \(x=1\).</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(\begin{array}{l} x^{2}+4 x-5=0 \\ a=1, b=4, c=-5 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(4) \pm \sqrt{(4)^{2}-(4)(1)(-5)}}{2(1)} \\ x=\frac{-4 \pm \sqrt{16+20}}{2} \\ x=\frac{-4 \pm \sqrt{36}}{2} \\ x=\frac{-4 \pm 6}{2} \\ x=\frac{2}{2} \text { and } x=\frac{-10}{2} \\ x=1 \text { and } x=-5 \end{array}\)</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>\(x^2+7x+12=0\). The solutions are \(x=-3\) and \(x=-4\).</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(\begin{array}{l} x^{2}+7 x+12=0 \\ a=1, b=7, c=12 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(7) \pm \sqrt{(7)^{2}-(4)(1)(12)}}{2(1)} \\ x=\frac{-7 \pm \sqrt{49-48}}{2} \\ x=\frac{-7 \pm \sqrt{1}}{2} \\ x=\frac{-7 \pm 1}{2} \\ x=\frac{-6}{2} \text { and } x=\frac{-8}{2} \\ x=-3 \text { and } x=-4 \end{array}\)</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>\(x^2+10x+18=0\). The solution is \(x=-5\pm\sqrt{7}\).</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(x^2+10x+18=0\) \(a=1\), \(b=10\), \(c=18\) \(x=\frac{-b \pm \sqrt{b2- 4ac}}{2a}\) \(x=\frac{-(10)\pm \sqrt{(10)2- (4)(1)(18)}}{2(1)}\) \(x=\frac{-10\pm \sqrt{ 100-72}}{2}\) \(x=\frac{-10\pm \sqrt{28}}{2}\) \(x=\frac{-10\pm \sqrt{(4)(7)}}{2}\) \(x=\frac{-10\pm \sqrt{4}\sqrt{7}}{2}\) \(x=\frac{-10\pm 2\sqrt{7}}{2}\) \(x=-5\pm \sqrt{7}\)</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>\( x^2−8x+11=0\). The solution is \(x=4\pm\sqrt{5}\).</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(x^2−8x+11=0\) \(a=1\), \(b=-8\), \(c=11\) \(x=\frac{-b\pm \sqrt{ b2- 4ac}}{2a}\) \(x=\frac{-(-8)\pm \sqrt{ (-8)2- (4)(1)(11)}}{2(1)}\) \(x=\frac{8\pm \sqrt{ 64-44}}{2}\) \(x=\frac{8\pm\sqrt{ 20}}{2}\) \(x=\frac{8\pm\sqrt{ (4)(5)}}{2}\) \(x=\frac{8\pm \sqrt{4}\sqrt{5}}{2}\) \(x=\frac{8\pm 2\sqrt{5}}{2}\) \(x=4\pm\sqrt{5}\)</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>\(9x^2−6x+1=0\). The solution is \(x=\frac{1}{3}\).</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(\begin{array}{l} 9 x^{2}-6 x+1=0 \\ a=9, b=-6, c=1 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(-6) \pm \sqrt{(-6)^{2}-(4)(9)(1)}}{2(9)} \\ x=\frac{6 \pm \sqrt{36-36}}{18} \\ x=\frac{6}{18} \\ x=\frac{1}{3} \end{array} \)</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>\(6x^2+9x−15=0\). The solutions are \(x=-\frac{5}{2}\) and \(x=1\).</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(\begin{array}{l} 6 x^{2}+9 x-15=0 \\ a=6, b=9, c=-15 \\ x=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ x=\frac{-(9) \pm \sqrt{(9)^{2}-(4)(6)(-15)}}{2(6)} \\ x=\frac{-9 \pm \sqrt{81-(-360)}}{12} \\ x=\frac{-9 \pm \sqrt{441}}{12} \\ x=\frac{-9 \pm 21}{12} \\ x=\frac{-9+21}{12} \\ x=\frac{-9-21}{12} \\ x=\frac{12}{12}=1 \\ x=\frac{-30}{12}=\frac{-5}{2} \end{array}\)</para>
+        </solution>
+      </exercise>
+      <section>
+        <title>Video: Solving Quadratics With the Quadratic Formula</title>
+        <para>Watch the following video to learn more about solving quadratics with the quadratic formula.</para>
+        <media alt="Placeholder for Alt Text">
+          <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/44f83ee622ab7d49053fb9d6a565e28717f75e74" />
+        </media>
+      </section>
+    </section>
+    <note class="self-check">
+      <para>Solve \(2x^2-6x+3=0\) using the quadratic formula.</para>
+    </note>
+    <section>
+      <title>Additional Resources</title>
+      <section>
+        <title>Solving With the Quadratic Formula</title>
+        <note>
+          <para>
+            <emphasis> Quadratic Formula </emphasis>
+          </para>
     
     <para>The solutions to a quadratic equation of the form \(ax^2+bx+c\), where \(a \neq 0\), are given by the formula:</para>
     <para>\(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
-  </note>
-  
-  <para>To use the <term class="glossary-tooltip">quadratic formula</term>, we substitute the values of \(a\), \(b\), and \(c\) from the standard form into the expression on the right side of the formula. Then we simplify the expression. The result is the pair of solutions to the quadratic equation.</para>
-  <para>Notice the formula is an equation. Make sure you use both sides of the equation.</para>
-  <para><emphasis>How to Solve a Quadratic Equation Using the Quadratic Formula</emphasis></para>
-  <para>Solve by using the quadratic formula: \(2x^2+9x-5=0\).</para>
-  <para><emphasis>Step 1</emphasis> - Write the quadratic equation in standard form.  
-    This equation is in standard form. 
-    \({\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}\;{\style{color:red}+}\;{\style{color:red}b}{\style{color:red}x}\;{\style{color:red}+}\;{\style{color:red}c}\;{\style{color:red}=}\;{\style{color:red}0}\) 
-    \(2x^2+9x-5=0\)</para>
-  <para><emphasis>Step 2</emphasis> - Identify the \(a\), \(b\), and \(c\) values. 
-    \( a=2\), \(b=9\), \(c=-5\)</para>
-  <para><emphasis>Step 3</emphasis> - Write the quadratic formula.  
-    \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\)</para>
-  <para><emphasis>Step 4</emphasis> - Then substitute in the values of \(a\), \(b\), and \(c\). 
-    \({\style{color:blue}a}\;{\style{color:blue}=}\;{\style{color:blue}2}\), \({\style{color:red}b}\;{\style{color:red}=}\;{\style{color:red}9}\), \({\style{color:green}c}\;{\style{color:green}=}\;{\style{color:green}-}{\style{color:green}5}\)
-  </para>
-  <para>\(x=\frac{-{\style{color:red}9} \pm \sqrt{{\style{color:red}9}^2- 4 \cdot 
-    {\style{color:blue}2} \cdot ({\style{color:green}-}{\style{color:green}5})}}{2 \cdot {\style{color:blue}2}}\)</para>
-  <para><emphasis>Step 5</emphasis> - Simplify the fraction and solve for \(x\). 
-    \(x=\frac{-9 \pm \sqrt{81-(-40)}}{4}\)</para>
-  <para>\(x=\frac{-9 \pm \sqrt{121}}{4}\)</para>
-  <para>\(x=\frac{-9 +11}{4}\)   \(x=\frac{-9-11}{4}\)</para>
-  <para>\(x=\frac{2}{4}\)           \(x=\frac{-20}{4}\)</para>
-  <para>\(x=\frac{1}{2}\)           \(x=-5\)</para>
-  <para><emphasis>Step 6</emphasis> - Check the solutions. 
-    Put each answer in the original equation to check. 
-    Substitute \(x=\frac{\style{color:red}1}{\style{color:red}2}\).</para>
-  <para>\(\begin{array}{l} 2\left(\frac{{\style{color:red}1}}{{\style{color:red}2}}\right)^{2}+9 \cdot \frac{{\style{color:red}1}}{{\style{color:red}2}}-5 \stackrel{?}{=} 0 \\ 2\left(\frac{1}{4}\right)+9 \cdot \frac{1}{2}-5 \stackrel{?}{=} 0 \\ \frac{2}{4}+\frac{9}{2}-5 \stackrel{?}{=} 0 \\ \frac{1}{2}+\frac{9}{2}-5 \stackrel{?}{=} 0 \\ \frac{10}{2}-5 \stackrel{?}{=} 0 \\ 5-5 \stackrel{?}{=} 0 \\ 0=0 \text{ ✔} \end{array}\)</para>
-  <para>Substitute \(x={\style{color:red}-}{\style{color:red}5}\).</para>
-  <para>\(\begin{array}{l} 2({\style{color:red}-}{\style{color:red}5})^{2}+9({\style{color:red}-}{\style{color:red}5})-5 \stackrel{?}{=} 0 \\ 2(25)-45-5 \stackrel{?}{=} 0 \\ 50-45-5 \stackrel{?}{=} 0 \\ 0=0 \text{ ✔} \end{array}\)</para>
-  <note class="try look-at-me"/>
-  <title>Try It: Solving With the Quadratic Formula</title>
+        </note>
+        <para>To use the <term class="glossary-tooltip">quadratic formula</term>, we substitute the values of \(a\), \(b\), and \(c\) from the standard form into the expression on the right side of the formula. Then we simplify the expression. The result is the pair of solutions to the quadratic equation.</para>
+        <para>Notice the formula is an equation. Make sure you use both sides of the equation.</para>
+        <para><emphasis>How to Solve a Quadratic Equation Using the Quadratic Formula</emphasis></para>
+        <para>Solve by using the quadratic formula: \(2x^2+9x-5=0\).</para>
+        <para><emphasis>Step 1</emphasis> - Write the quadratic equation in standard form.   This equation is in standard form. \({\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}\;{\style{color:red}+}\;{\style{color:red}b}{\style{color:red}x}\;{\style{color:red}+}\;{\style{color:red}c}\;{\style{color:red}=}\;{\style{color:red}0}\) \(2x^2+9x-5=0\)</para>
+        <para><emphasis>Step 2</emphasis> - Identify the \(a\), \(b\), and \(c\) values. \( a=2\), \(b=9\), \(c=-5\)</para>
+        <para><emphasis>Step 3</emphasis> - Write the quadratic formula.   \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\)</para>
+        <para><emphasis>Step 4</emphasis> - Then substitute in the values of \(a\), \(b\), and \(c\). \({\style{color:blue}a}\;{\style{color:blue}=}\;{\style{color:blue}2}\), \({\style{color:red}b}\;{\style{color:red}=}\;{\style{color:red}9}\), \({\style{color:green}c}\;{\style{color:green}=}\;{\style{color:green}-}{\style{color:green}5}\) </para>
+        <para>\(x=\frac{-{\style{color:red}9} \pm \sqrt{{\style{color:red}9}^2- 4 \cdot {\style{color:blue}2} \cdot ({\style{color:green}-}{\style{color:green}5})}}{2 \cdot {\style{color:blue}2}}\)</para>
+        <para><emphasis>Step 5</emphasis> - Simplify the fraction and solve for \(x\). \(x=\frac{-9 \pm \sqrt{81-(-40)}}{4}\)</para>
+        <para>\(x=\frac{-9 \pm \sqrt{121}}{4}\)</para>
+        <para>\(x=\frac{-9 +11}{4}\)   \(x=\frac{-9-11}{4}\)</para>
+        <para>\(x=\frac{2}{4}\)           \(x=\frac{-20}{4}\)</para>
+        <para>\(x=\frac{1}{2}\)           \(x=-5\)</para>
+        <para><emphasis>Step 6</emphasis> - Check the solutions. Put each answer in the original equation to check. Substitute \(x=\frac{\style{color:red}1}{\style{color:red}2}\).</para>
+        <para>\(\begin{array}{l} 2\left(\frac{{\style{color:red}1}}{{\style{color:red}2}}\right)^{2}+9 \cdot \frac{{\style{color:red}1}}{{\style{color:red}2}}-5 \stackrel{?}{=} 0 \\ 2\left(\frac{1}{4}\right)+9 \cdot \frac{1}{2}-5 \stackrel{?}{=} 0 \\ \frac{2}{4}+\frac{9}{2}-5 \stackrel{?}{=} 0 \\ \frac{1}{2}+\frac{9}{2}-5 \stackrel{?}{=} 0 \\ \frac{10}{2}-5 \stackrel{?}{=} 0 \\ 5-5 \stackrel{?}{=} 0 \\ 0=0 \text{ ✔} \end{array}\)</para>
+        <para>Substitute \(x={\style{color:red}-}{\style{color:red}5}\).</para>
+        <para>\(\begin{array}{l} 2({\style{color:red}-}{\style{color:red}5})^{2}+9({\style{color:red}-}{\style{color:red}5})-5 \stackrel{?}{=} 0 \\ 2(25)-45-5 \stackrel{?}{=} 0 \\ 50-45-5 \stackrel{?}{=} 0 \\ 0=0 \text{ ✔} \end{array}\)</para>
+        <note class="try">
+          <title>Try It: Solving With the Quadratic Formula</title>
   <exercise>
-    <problem>
-      
-      <para>Solve \(2x^2+10x+11=0\) using the quadratic formula.</para>
-    
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-    
-    </problem><solution>
-    <para>Here is how to solve this quadratic equation using the quadratic formula:</para>
-    
-    <para>Solve by using the quadratic formula: \(2x^2+10x+11=0\).</para>
-    
-    <para><emphasis>Step 1</emphasis> - This equation is in standard form. 
-      \({\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}\;{\style{color:red}+}\;{\style{color:red}b}{\style{color:red}x}\;{\style{color:red}+}\;{\style{color:red}c}\;{\style{color:red}=}\;{\style{color:red}0}\) 
-      \(2x^2+10x+11=0\)</para>
-    
-    <para><emphasis>Step 2</emphasis> - Identify the values of \(a\), \(b\), and \(c\). 
-      \(a=2\), \(b=10\), \(c=11\)</para>
-    
-    <para><emphasis>Step 3</emphasis> - Write the quadratic formula. 
-      \(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
-    
-    <para><emphasis>Step 4</emphasis> - Then substitute in the values of \(a\), \(b\), and \(c\). 
-      Substitute in: 
-      \({\style{color:blue}a}\;{\style{color:blue}=}\;{\style{color:blue}2}\), \({\style{color:red}b}\;{\style{color:red}=}\;{\style{color:red}1}{\style{color:red}0}\), \({\style{color:green}c}\;{\style{color:green}=}\;{\style{color:green}1}{\style{color:green}1}\)</para>
-    
-    <para>\(x=\frac{-{\style{color:red}1}{\style{color:red}0} \pm \sqrt{{\style{color:red}1}{\style{color:red}0}^2- 4 \cdot {\style{color:blue}2} \cdot ({\style{color:green}1}{\style{color:green}1})}}{2 \cdot {\style{color:blue}2}}\)</para>
-    
-    <para><emphasis>Step 5</emphasis> - Simplify. 
-      \(x=\frac{-10 \pm \sqrt{100-88}}{4}\) 
-      \(x=\frac{-10 \pm \sqrt{12}}{4}\)</para>
-    
-    <para>Simplify the <term class="glossary-tooltip">radical expression</term>. 
-      \(x=\frac{-10 \pm 2 \sqrt{3}}{4}\)</para>
-    
-    <para>Factor out the common factor in the numerator.
-      \(x=\frac{2(-5 \pm \sqrt{3})}{4}\)</para>
-    
-    <para>Remove the common factors.
-      \(x=\frac{-5 \pm \sqrt{3}}{2}\)</para>
-    
-    <para>Rewrite to show two solutions.
-      \(x=\frac{-5 + \sqrt{3}}{2}\), \(x=\frac{-5 - \sqrt{3}}{2}\)</para>
-    
-    <para><emphasis>Step 6</emphasis> 
-      Check the solutions. 
-      Put each answer in the original equation to check. 
-      Substitute \(x=\frac{{\style{color:red}-}{\style{color:red}5}{\style{color:red} +} \sqrt{{\style{color:red}3}}}{{\style{color:red}2}}\).</para>
-    
-    <para>\(\begin{array}{l} 2\left[\left(\frac{{\style{color:red}-}{\style{color:red}5}}{{\style{color:red}2}}{\style{color:red}+}\frac{\sqrt{{\style{color:red}3}}}{{\style{color:red}2}}\right)\left(\frac{{\style{color:red}-}{\style{color:red}5}}{{\style{color:red}2}}{\style{color:red}+}\frac{\sqrt{{\style{color:red}3}}}{{\style{color:red}2}}\right)\right]+10\frac{{\style{color:red}-}{\style{color:red}5}{\style{color:red} +} \sqrt{{\style{color:red}3}}}{{\style{color:red}2}}+11 \stackrel{?}{=} 0\\ 2\left[\frac{25}{4}-\frac{5 \sqrt{3}}{4}-\frac{5 \sqrt{3}}{4}+\frac{3}{4}\right]+5(-5+\sqrt{3})+11 \stackrel{?}{=} 0\\ \left.2\left[\frac{25}{4}-\frac{10 \sqrt{3}}{4}+\frac{3}{4}\right]+(-25)+5 \sqrt{3}\right)+11 \stackrel{?}{=} 0\\ \frac{25}{2}-\frac{10 \sqrt{3}}{2}+\frac{3}{2}-14+5 \sqrt{3}\stackrel{?}{=} 0\\ \frac{28}{2}-5 \sqrt{3}-14+5 \sqrt{3} \stackrel{?}{=} 0\\ 14-5 \sqrt{3}-14+5 \sqrt{3}\stackrel{?}{=} 0\\ 0=0 \text{ ✔} \end{array}\)</para>
-    
-    <para>Substitute \(x=\frac{-5-\sqrt{3}}{2}\).</para>
-    
-    <para>\(\begin{array}{l} 2\left(\frac{-5-\sqrt{3}}{2}\right)^{2}+10 \cdot \frac{-5-\sqrt{3}}{2}+11 \stackrel{?}{=} 0\\ 2\left[\left(\frac{-5}{2}-\frac{\sqrt{3}}{2}\right)\left(\frac{-5}{2}-\frac{\sqrt{3}}{2}\right)\right]+10\left(\frac{-5-\sqrt{3}}{2}\right)+11 \stackrel{?}{=} 0\\ 2\left[\frac{25}{4}+\frac{5 \sqrt{3}}{4}+\frac{5 \sqrt{3}}{4}+\frac{3}{4}\right]+5(-5-\sqrt{3})+11 \stackrel{?}{=} 0\\ 2\left[\frac{25}{4}+\frac{10 \sqrt{3}}{4}+\frac{3}{4}\right]+\left(-25-5 \sqrt{3}\right)+11 \stackrel{?}{=} 0\\ \frac{25}{2}+\frac{10 \sqrt{3}}{2}+\frac{3}{2}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ \frac{28}{2}+5 \sqrt{3}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ 14+5 \sqrt{3}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ 0=0 \text{ ✔} \end{array}\)</para>
-  
-  </solution></exercise>
-  </section>
-</content>
+            <problem>
+              <para>Solve \(2x^2+10x+11=0\) using the quadratic formula.</para>
+              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution>
+              <para>Here is how to solve this quadratic equation using the quadratic formula:</para>
+              <para>Solve by using the quadratic formula: \(2x^2+10x+11=0\).</para>
+              <para><emphasis>Step 1</emphasis> - This equation is in standard form. \({\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}\;{\style{color:red}+}\;{\style{color:red}b}{\style{color:red}x}\;{\style{color:red}+}\;{\style{color:red}c}\;{\style{color:red}=}\;{\style{color:red}0}\) \(2x^2+10x+11=0\)</para>
+              <para><emphasis>Step 2</emphasis> - Identify the values of \(a\), \(b\), and \(c\). \(a=2\), \(b=10\), \(c=11\)</para>
+              <para><emphasis>Step 3</emphasis> - Write the quadratic formula. \(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
+              <para><emphasis>Step 4</emphasis> - Then substitute in the values of \(a\), \(b\), and \(c\). Substitute in: \({\style{color:blue}a}\;{\style{color:blue}=}\;{\style{color:blue}2}\), \({\style{color:red}b}\;{\style{color:red}=}\;{\style{color:red}1}{\style{color:red}0}\), \({\style{color:green}c}\;{\style{color:green}=}\;{\style{color:green}1}{\style{color:green}1}\)</para>
+              <para>\(x=\frac{-{\style{color:red}1}{\style{color:red}0} \pm \sqrt{{\style{color:red}1}{\style{color:red}0}^2- 4 \cdot {\style{color:blue}2} \cdot ({\style{color:green}1}{\style{color:green}1})}}{2 \cdot {\style{color:blue}2}}\)</para>
+              <para><emphasis>Step 5</emphasis> - Simplify. \(x=\frac{-10 \pm \sqrt{100-88}}{4}\) \(x=\frac{-10 \pm \sqrt{12}}{4}\)</para>
+              <para>Simplify the <term class="glossary-tooltip">radical expression</term>. \(x=\frac{-10 \pm 2 \sqrt{3}}{4}\)</para>
+              <para>Factor out the common factor in the numerator. \(x=\frac{2(-5 \pm \sqrt{3})}{4}\)</para>
+              <para>Remove the common factors. \(x=\frac{-5 \pm \sqrt{3}}{2}\)</para>
+              <para>Rewrite to show two solutions. \(x=\frac{-5 + \sqrt{3}}{2}\), \(x=\frac{-5 - \sqrt{3}}{2}\)</para>
+              <para><emphasis>Step 6</emphasis> Check the solutions. Put each answer in the original equation to check. Substitute \(x=\frac{{\style{color:red}-}{\style{color:red}5}{\style{color:red} +} \sqrt{{\style{color:red}3}}}{{\style{color:red}2}}\).</para>
+              <para>\(\begin{array}{l} 2\left[\left(\frac{{\style{color:red}-}{\style{color:red}5}}{{\style{color:red}2}}{\style{color:red}+}\frac{\sqrt{{\style{color:red}3}}}{{\style{color:red}2}}\right)\left(\frac{{\style{color:red}-}{\style{color:red}5}}{{\style{color:red}2}}{\style{color:red}+}\frac{\sqrt{{\style{color:red}3}}}{{\style{color:red}2}}\right)\right]+10\frac{{\style{color:red}-}{\style{color:red}5}{\style{color:red} +} \sqrt{{\style{color:red}3}}}{{\style{color:red}2}}+11 \stackrel{?}{=} 0\\ 2\left[\frac{25}{4}-\frac{5 \sqrt{3}}{4}-\frac{5 \sqrt{3}}{4}+\frac{3}{4}\right]+5(-5+\sqrt{3})+11 \stackrel{?}{=} 0\\ \left.2\left[\frac{25}{4}-\frac{10 \sqrt{3}}{4}+\frac{3}{4}\right]+(-25)+5 \sqrt{3}\right)+11 \stackrel{?}{=} 0\\ \frac{25}{2}-\frac{10 \sqrt{3}}{2}+\frac{3}{2}-14+5 \sqrt{3}\stackrel{?}{=} 0\\ \frac{28}{2}-5 \sqrt{3}-14+5 \sqrt{3} \stackrel{?}{=} 0\\ 14-5 \sqrt{3}-14+5 \sqrt{3}\stackrel{?}{=} 0\\ 0=0 \text{ ✔} \end{array}\)</para>
+              <para>Substitute \(x=\frac{-5-\sqrt{3}}{2}\).</para>
+              <para>\(\begin{array}{l} 2\left(\frac{-5-\sqrt{3}}{2}\right)^{2}+10 \cdot \frac{-5-\sqrt{3}}{2}+11 \stackrel{?}{=} 0\\ 2\left[\left(\frac{-5}{2}-\frac{\sqrt{3}}{2}\right)\left(\frac{-5}{2}-\frac{\sqrt{3}}{2}\right)\right]+10\left(\frac{-5-\sqrt{3}}{2}\right)+11 \stackrel{?}{=} 0\\ 2\left[\frac{25}{4}+\frac{5 \sqrt{3}}{4}+\frac{5 \sqrt{3}}{4}+\frac{3}{4}\right]+5(-5-\sqrt{3})+11 \stackrel{?}{=} 0\\ 2\left[\frac{25}{4}+\frac{10 \sqrt{3}}{4}+\frac{3}{4}\right]+\left(-25-5 \sqrt{3}\right)+11 \stackrel{?}{=} 0\\ \frac{25}{2}+\frac{10 \sqrt{3}}{2}+\frac{3}{2}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ \frac{28}{2}+5 \sqrt{3}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ 14+5 \sqrt{3}-14-5 \sqrt{3} \stackrel{?}{=} 0\\ 0=0 \text{ ✔} \end{array}\)</para>
+            </solution>
+          </exercise></note>
+      </section>
+    </section>
+  </content>
 </document>
