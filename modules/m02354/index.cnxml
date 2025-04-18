@@ -10,246 +10,185 @@
       <title>Activity</title>
       <para>One technique for solving <term class="glossary-tooltip">quadratic equation</term>s is called <term class="glossary-tooltip">completing the square</term>. Here are two examples of how Diego and Mai completed the square to solve the same equation.</para>
       <table class="os-raise-wideequaltable">
-        <tgroup cols="2"><tbody><row>
-            <entry>
-             <emphasis>Diego</emphasis>
-            </entry>
-            <entry>
-             <emphasis>Mai</emphasis>
-            </entry>
-          </row>
-        <row>
-            <entry>\(\begin{aligned} x^{2}+10 x+9 &amp;=0 \\ x^{2}+10 x &amp;=-9 \\ x^{2}+10 x+25 &amp;=-9+25 \\ x^{2}+10 x+25 &amp;=16
-        \\ (x+5)^{2} &amp;=16 \\ \sqrt{(x+5)^{2}} &amp;=\sqrt{16} \\ x+5 &amp;=\pm \;4 \\ \\ x+5=4 \text { or } x+5 &amp;=-4
-        \\ x=-1 \text { and } x=-9 &amp; \end{aligned}\)</entry>
-            <entry>\(\begin{aligned} x^{2}+10 x+9 &amp;=0 \\ x^{2}+10 x+9+16 &amp;=16 \\ x^{2}+10 x+25 &amp;=16 \\ (x+5)^{2} &amp;=16 \\
-        \sqrt{(x+5)^{2}} &amp;=\sqrt{16} \\ (x+5) &amp;=\pm \;4 \\ \\ x+5=4 \text { and } x+5=-4 \\ x=-1 \text { or } x=-9
-        \end{aligned} \)</entry>
-          </row>
-        </tbody></tgroup></table>
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>
+                <emphasis>Diego</emphasis>
+              </entry>
+              <entry>
+                <emphasis>Mai</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>\(\begin{aligned} x^{2}+10 x+9 &amp;=0 \\ x^{2}+10 x &amp;=-9 \\ x^{2}+10 x+25 &amp;=-9+25 \\ x^{2}+10 x+25 &amp;=16 \\ (x+5)^{2} &amp;=16 \\ \sqrt{(x+5)^{2}} &amp;=\sqrt{16} \\ x+5 &amp;=\pm \;4 \\ \\ x+5=4 \text { or } x+5 &amp;=-4 \\ x=-1 \text { and } x=-9 &amp; \end{aligned}\)</entry>
+              <entry>\(\begin{aligned} x^{2}+10 x+9 &amp;=0 \\ x^{2}+10 x+9+16 &amp;=16 \\ x^{2}+10 x+25 &amp;=16 \\ (x+5)^{2} &amp;=16 \\ \sqrt{(x+5)^{2}} &amp;=\sqrt{16} \\ (x+5) &amp;=\pm \;4 \\ \\ x+5=4 \text { and } x+5=-4 \\ x=-1 \text { or } x=-9 \end{aligned} \)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
       <para>Study the worked examples. Then, try solving these equations by completing the square for questions 1 – 5.</para>
-      <example>
-        <exercise>
-          <problem>
-            <para>\(x^2+6x+8=0\)</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(\begin{aligned} x^{2}+6 x+8 &amp;=0 \\ x^{2}+6 x &amp;=-8 \\ x^{2}+6 x+9 &amp;=-8+9 \\ (x+3)^{2} &amp;=1 \\ \sqrt{(x+3)^{2}} &amp;=\sqrt{1} \\ x+3 &amp;=\pm \;1 \\ x+3 &amp;=1 \\ x+3 &amp;=-1 \\ \\ x=-4 &amp; \text { and } x=-2 \end{aligned}\)</para>
-          </solution>
-        </exercise>
-      </example>
-      <example>
-        <exercise>
-          <problem>
-            <para>\(x^2+12x=13\)</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(\begin{aligned} x^{2}+12 x &amp;=13 \\ x^{2}+12 x+36 &amp;=13+36 \\ x^{2}+12 x+36 &amp;=49 \\ (x+6)^{2} &amp;=49 \\ \sqrt{(x+6)^{2}} &amp;=\sqrt{49} \\ x+6 &amp;=\pm \;7 \\ x+6 &amp;=7 \\ x+6 &amp;=-7 \\ \\ x=-13 &amp; \text { and } x=1 \end{aligned}\)</para>
-          </solution>
-        </exercise>
-      </example>
-      <example>
-        <exercise>
-          <problem>
-            <para>\(0=x^2−10x+21\)</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(\begin{aligned} 0=\; &amp; x^{2}-10 x+21 \\ x^{2}-10 x+21 &amp;=0 \\ x^{2}-10 x &amp;=-21 \\ x^{2}-10 x+25 &amp;=-21+25 \\ x^{2}-10 x+25 &amp;=4 \\ (x-5)^{2} &amp;=4 \\ \sqrt{(x-5)^{2}} &amp;=\sqrt{4} \\ x-5 &amp;=\pm \;2 \\ x-5 &amp;=2 \\ x-5 &amp;=-2 \\ \\ x=3 &amp; \text { and } x=7 \end{aligned}\)</para>
-          </solution>
-        </exercise>
-      </example>
-      <example>
-        <exercise>
-          <problem>
-            <para>\(x^2−2x+3=83\)</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(\begin{aligned} x^{2}-2 x+3 &amp;=83 \\ x^{2}-2 x &amp;=83-3 \\ x^{2}-2 x &amp;=80 \\ x^{2}-2 x+1 &amp;=80+1 \\ x^{2}-2 x+1 &amp;=81 \\ \sqrt{(x-1)^{2}} &amp;=\sqrt{81} \\ x-1 &amp;=\pm \;9 \\ x-1 &amp;=9 \\ x-1 &amp;=-9 \\ \\ x=-8 &amp; \text { and } x=10 \end{aligned}\)</para>
-          </solution>
-        </exercise>
-      </example>
-      <example>
-        <exercise>
-          <problem>
-            <para>\(x^2+40=14x\)</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(\begin{aligned} x^{2}+40 &amp;=14 x \\ x^{2}-14 x+40 &amp;=0 \\ x^{2}-14 x &amp;=-40 \\ x^{2}-14 x+49 &amp;=-40+49 \\ x^{2}-14 x+49 &amp;=9 \\ \sqrt{(x-7)^{2}} &amp;=\sqrt{9} \\ x-7 &amp;=\pm \;3 \\ x-7 &amp;=3 \\ x-7 &amp;=-3 \\ \\ x=4 &amp; \text { and } x=10 \end{aligned}\)</para>
-          </solution>
-        </exercise>
-      </example>
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      <example>
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-        </exercise>
-      </example>
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1">
+      <exercise>
         <problem>
-          <title>Extending Your Thinking</title>
-          <para>Here is a diagram made of a square and two congruent rectangles. Its total area is \(x^2+35x\) square units.</para>
-          <para>Diagram A</para>
-          <para>
-            <figure>
-              <media alt="Insert Alt Text">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_04_06_01.svg"/>
-              </media>
-            </figure>
-         </para>
-          <para>What is the length of the unlabeled side of each of the two rectangles in Diagram A?</para>
+          <para>\(x^2+6x+8=0\)</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution>
-          <para>Enter the length of the unlabeled side of each of the two rectangles.</para>
           <para>Compare your answer:</para>
-          <para>17.5</para>
+          <para>\(\begin{aligned} x^{2}+6 x+8 &amp;=0 \\ x^{2}+6 x &amp;=-8 \\ x^{2}+6 x+9 &amp;=-8+9 \\ (x+3)^{2} &amp;=1 \\ \sqrt{(x+3)^{2}} &amp;=\sqrt{1} \\ x+3 &amp;=\pm \;1 \\ x+3 &amp;=1 \\ x+3 &amp;=-1 \\ \\ x=-4 &amp; \text { and } x=-2 \end{aligned}\)</para>
         </solution>
       </exercise>
-      <!--End interaction-->
-      <exercise class="RFM1">
+      <exercise>
         <problem>
-          <para>In Diagram B, we add lines to make the figure a square. The area of the square becomes a quadratic equation.</para>
-          <para>
-            <figure>
-              <media alt="">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_10_04_06_02.jpg"/>
-              </media>
-            </figure>
-         </para>
-          <para>Calculate the equation, then put that equation in the standard form \(ax^2+bx+c\) to answer questions a and b.</para>
-          <para>Using the standard form \(ax^2+bx+c\) to represent the area of the square in Diagram B, what is the value of the coefficient \(b\)? </para>
+          <para>\(x^2+12x=13\)</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution>
-          <para>Enter the value of the coefficient \(b\).</para>
           <para>Compare your answer:</para>
-          <para>35</para>
+          <para>\(\begin{aligned} x^{2}+12 x &amp;=13 \\ x^{2}+12 x+36 &amp;=13+36 \\ x^{2}+12 x+36 &amp;=49 \\ (x+6)^{2} &amp;=49 \\ \sqrt{(x+6)^{2}} &amp;=\sqrt{49} \\ x+6 &amp;=\pm \;7 \\ x+6 &amp;=7 \\ x+6 &amp;=-7 \\ \\ x=-13 &amp; \text { and } x=1 \end{aligned}\)</para>
         </solution>
       </exercise>
-      <!--End interaction-->
-      <exercise class="RFM1">
+      <exercise>
         <problem>
-          <para>Using the standard form \(ax^2+bx+c\) to represent the area of the square in Diagram B, what is the value of the constant \(c\)? </para>
+          <para>\(0=x^2−10x+21\)</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution>
-          <para>Enter the value of the constant \(c\).</para>
           <para>Compare your answer:</para>
-          <para>306.25</para>
+          <para>\(\begin{aligned} 0=\; &amp; x^{2}-10 x+21 \\ x^{2}-10 x+21 &amp;=0 \\ x^{2}-10 x &amp;=-21 \\ x^{2}-10 x+25 &amp;=-21+25 \\ x^{2}-10 x+25 &amp;=4 \\ (x-5)^{2} &amp;=4 \\ \sqrt{(x-5)^{2}} &amp;=\sqrt{4} \\ x-5 &amp;=\pm \;2 \\ x-5 &amp;=2 \\ x-5 &amp;=-2 \\ \\ x=3 &amp; \text { and } x=7 \end{aligned}\)</para>
         </solution>
       </exercise>
-      <!--End interaction-->
-      <exercise class="RFM1">
+      <exercise>
         <problem>
-          <para>How is the process of finding the area of the entire figure like the process of building perfect squares for expressions like \(x^2+bx\)?</para>
+          <para>\(x^2−2x+3=83\)</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution>
-          <para>Enter your explanation of how the two processes are alike.</para>
           <para>Compare your answer:</para>
-          <para>First, we had to figure out what number was half of 35 (which is 17.5) to find the side length of the rectangles. Then, we had to square the number 17.5 to find the area of the missing piece.</para>
+          <para>\(\begin{aligned} x^{2}-2 x+3 &amp;=83 \\ x^{2}-2 x &amp;=83-3 \\ x^{2}-2 x &amp;=80 \\ x^{2}-2 x+1 &amp;=80+1 \\ x^{2}-2 x+1 &amp;=81 \\ \sqrt{(x-1)^{2}} &amp;=\sqrt{81} \\ x-1 &amp;=\pm \;9 \\ x-1 &amp;=9 \\ x-1 &amp;=-9 \\ \\ x=-8 &amp; \text { and } x=10 \end{aligned}\)</para>
         </solution>
       </exercise>
+      <exercise>
+        <problem>
+          <para>\(x^2+40=14x\)</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(\begin{aligned} x^{2}+40 &amp;=14 x \\ x^{2}-14 x+40 &amp;=0 \\ x^{2}-14 x &amp;=-40 \\ x^{2}-14 x+49 &amp;=-40+49 \\ x^{2}-14 x+49 &amp;=9 \\ \sqrt{(x-7)^{2}} &amp;=\sqrt{9} \\ x-7 &amp;=\pm \;3 \\ x-7 &amp;=3 \\ x-7 &amp;=-3 \\ \\ x=4 &amp; \text { and } x=10 \end{aligned}\)</para>
+        </solution>
+      </exercise>
+      <section>
+        <title>Are you ready for more?</title>
+        <exercise class="RFM1">
+          <problem>
+            <title>Extending Your Thinking</title>
+            <para>Here is a diagram made of a square and two congruent rectangles. Its total area is \(x^2+35x\) square units.</para>
+            <para>Diagram A</para>
+            <para>
+              <figure>
+                <media alt="Insert Alt Text">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_04_06_01.svg" />
+                </media>
+              </figure>
+            </para>
+            <para>What is the length of the unlabeled side of each of the two rectangles in Diagram A?</para>
+          </problem>
+          <solution>
+            <para>Enter the length of the unlabeled side of each of the two rectangles.</para>
+            <para>Compare your answer:</para>
+            <para>17.5</para>
+          </solution>
+        </exercise>
+        <!--End interaction-->
+        <exercise class="RFM1">
+          <problem>
+            <para>In Diagram B, we add lines to make the figure a square. The area of the square becomes a quadratic equation.</para>
+            <para>
+              <figure>
+                <media alt="">
+                  <image mime-type="image/jpeg" src="../../media/Algebra-1_10_04_06_02.jpg" />
+                </media>
+              </figure>
+            </para>
+            <para>Calculate the equation, then put that equation in the standard form \(ax^2+bx+c\) to answer questions a and b.</para>
+            <para>Using the standard form \(ax^2+bx+c\) to represent the area of the square in Diagram B, what is the value of the coefficient \(b\)? </para>
+          </problem>
+          <solution>
+            <para>Enter the value of the coefficient \(b\).</para>
+            <para>Compare your answer:</para>
+            <para>35</para>
+          </solution>
+        </exercise>
+        <!--End interaction-->
+        <exercise class="RFM1">
+          <problem>
+            <para>Using the standard form \(ax^2+bx+c\) to represent the area of the square in Diagram B, what is the value of the constant \(c\)? </para>
+          </problem>
+          <solution>
+            <para>Enter the value of the constant \(c\).</para>
+            <para>Compare your answer:</para>
+            <para>306.25</para>
+          </solution>
+        </exercise>
+        <!--End interaction-->
+        <exercise class="RFM1">
+          <problem>
+            <para>How is the process of finding the area of the entire figure like the process of building perfect squares for expressions like \(x^2+bx\)?</para>
+          </problem>
+          <solution>
+            <para>Enter your explanation of how the two processes are alike.</para>
+            <para>Compare your answer:</para>
+            <para>First, we had to figure out what number was half of 35 (which is 17.5) to find the side length of the rectangles. Then, we had to square the number 17.5 to find the area of the missing piece.</para>
+          </solution>
+        </exercise>
+      </section>
       <!--End interaction-->
-      <title>Video: Solve Equations by Completing the Square</title>
-      <para>Watch the following video to learn more about solving equations by completing the square.</para>
-      <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/5efbfb814353b59bcac07ce4ec580d32fe82cc12"/>
-      </media>
+      <section>
+        <title>Video: Solve Equations by Completing the Square</title>
+        <para>Watch the following video to learn more about solving equations by completing the square.</para>
+        <media alt="Placeholder for Alt Text">
+          <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/5efbfb814353b59bcac07ce4ec580d32fe82cc12" />
+        </media>
+      </section>
     </section>
-
     <note class="self-check" id="sect-00001">
       <para id="para-00001">Find the solutions to \(x^2-10x=-9\) by completing the square.</para>
     </note>
-
-    <section><title>Solving Quadratic Equations by Completing the Square</title>
-      <para><emphasis>Example</emphasis></para>
-      <para>Solve \(x^2+8x=48\) by <term class="glossary-tooltip">completing the square</term>.</para>
-      <para><emphasis>Step 1</emphasis> - Isolate the variable terms on one side and place the constant term on the other.
-        This equation has all the variables on the left.
-        \({\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}\;{\style{color:red}+}\;{\style{color:red}b}{\style{color:red}x}\;{\style{color:red}=}\;{\style{color:red}c}\)
-        \(x^2+8x=48\)</para>
-      <para><emphasis>Step 2</emphasis> - Find (\(\frac{b}{2})^2\), the number to complete the square. Add to both sides of the equation.
-        Take half of 8 and square it.
-        \(4^2=16\)
-        Add 16 to BOTH sides of the equation.
-        \(x^2+8x+ \_\_\_\_ =48\)
-        \((\frac{b}{2})^2\)
-        \(x^2+8x \;{\style{color:red}+}\;{\style{color:red}1}{\style{color:red}6} =48 \;{\style{color:red}+}\;{\style{color:red}1}{\style{color:red}6}\)</para>
-      <para><emphasis>Step 3</emphasis> - Factor the <term class="glossary-tooltip">perfect square trinomial</term> as a binomial square.
-        \(x^2+8x+16=(x+4)^2\)
-        Substitute the binomial square term for the trinomial.
-        \((x+4)^2=64\)</para>
-      <para><emphasis>Step 4</emphasis> - Use the square root property.
-        \(\sqrt{(x+4)^2}=\sqrt{64}\)
-        \(x+4= \pm \;8\)</para>
-      <para><emphasis>Step 5</emphasis> - Simplify the radical and then solve the two resulting equations.
-        \(x+4= \pm \;8\)
-        \(x+4=8\)          \(x+4=-8\)
-        \(x =4\)             \(x=-12\)</para>
-      <para><emphasis>Step 6</emphasis> - Check the solutions.
-        Put each answer in the original equation to check.</para>
-      <para>Substitute \(x=4\).
-        \(x^2+8x=48\)
-        \(({\style{color:red}4})^2+8({\style{color:red}4}) &amp;questeq; 48\)
-        \(16+32 &amp;questeq; 48\)
-        \(48=48 ✔\)</para>
-      <para>Substitute \(x=-12\). 
-        \(x^2+8x=48\)
-        \(({\style{color:red}-}{\style{color:red}1}{\style{color:red}2})^2+8({\style{color:red}-}{\style{color:red}1}{\style{color:red}2}) &amp;questeq; 48\)
-        \(144-96 &amp;questeq; 48\)
-        \(48=48 ✔\)</para>
-      <note class="try look-at-me"/>
-      <title>Try It: Solving Quadratic Equations by Completing the Square</title>
-      <example><exercise>
-        <problem>
-          
-          <para>Solve \(x^2+4x=5\) by completing the square.</para>
-        
-        <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-        
-        </problem><solution>
-        <para>Here is how to solve this quadratic using completing the square:</para>
-        
-        <para><emphasis>Step 1</emphasis> - Isolate the constants on one side of the equation.
-          \(x^2+4x=5\)</para>
-        
-        <para><emphasis>Step 2</emphasis> - Find \((\frac{b}{2})^2\). Add this number to both sides of the equation.
-          \(b=4\), \((\frac{4}{2})^2=2^2=4\)
-          \(x^2+4x+4=5+4\)
-          \(x^2+4x+4=9\)</para>
-        
-        <para><emphasis>Step 3</emphasis> - Factor the perfect square trinomial.
-          \((x+2)^2=9\)</para>
-        
-        <para><emphasis>Step 4</emphasis> - Use the square root property.
-          \(\sqrt{(x+2)^2}=9\)
-          \(x+2= \pm \;3\)</para>
-        
-        <para><emphasis>Step 5</emphasis> - Separate into two equations and solve.
-          \(x+2=-3\)          \(x+2=3\)
-          \(x =-5\)             \(x=1\)</para>
-        
-        <para><emphasis>Step 6</emphasis> - Check into the original equation.
-          \(x=-5\)
-          \((-5)^2+4(-5)=5\)
-          \(25+-20=5\)</para>
-        
-        <para>\(x=1\)
-          \(1^2+4(1)=5\)
-          \(5=5\)</para>
-      
-      </solution></exercise>
-      </example></section>
+    <section>
+      <title>Additional Resources</title>
+      <section>
+        <title>Solving Quadratic Equations by Completing the Square</title>
+        <para><emphasis>Example</emphasis></para>
+        <para>Solve \(x^2+8x=48\) by <term class="glossary-tooltip">completing the square</term>.</para>
+        <para><emphasis>Step 1</emphasis> - Isolate the variable terms on one side and place the constant term on the other. This equation has all the variables on the left. \({\style{color:red}a}{\style{color:red}x}^{\style{color:red}2}\;{\style{color:red}+}\;{\style{color:red}b}{\style{color:red}x}\;{\style{color:red}=}\;{\style{color:red}c}\) \(x^2+8x=48\)</para>
+        <para><emphasis>Step 2</emphasis> - Find (\(\frac{b}{2})^2\), the number to complete the square. Add to both sides of the equation. Take half of 8 and square it. \(4^2=16\) Add 16 to BOTH sides of the equation. \(x^2+8x+ \_\_\_\_ =48\) \((\frac{b}{2})^2\) \(x^2+8x \;{\style{color:red}+}\;{\style{color:red}1}{\style{color:red}6} =48 \;{\style{color:red}+}\;{\style{color:red}1}{\style{color:red}6}\)</para>
+        <para><emphasis>Step 3</emphasis> - Factor the <term class="glossary-tooltip">perfect square trinomial</term> as a binomial square. \(x^2+8x+16=(x+4)^2\) Substitute the binomial square term for the trinomial. \((x+4)^2=64\)</para>
+        <para><emphasis>Step 4</emphasis> - Use the square root property. \(\sqrt{(x+4)^2}=\sqrt{64}\) \(x+4= \pm \;8\)</para>
+        <para><emphasis>Step 5</emphasis> - Simplify the radical and then solve the two resulting equations. \(x+4= \pm \;8\) \(x+4=8\)          \(x+4=-8\) \(x =4\)             \(x=-12\)</para>
+        <para><emphasis>Step 6</emphasis> - Check the solutions. Put each answer in the original equation to check.</para>
+        <para>Substitute \(x=4\). \(x^2+8x=48\) \(({\style{color:red}4})^2+8({\style{color:red}4}) &amp;questeq; 48\) \(16+32 &amp;questeq; 48\) \(48=48 ✔\)</para>
+        <para>Substitute \(x=-12\). \(x^2+8x=48\) \(({\style{color:red}-}{\style{color:red}1}{\style{color:red}2})^2+8({\style{color:red}-}{\style{color:red}1}{\style{color:red}2}) &amp;questeq; 48\) \(144-96 &amp;questeq; 48\) \(48=48 ✔\)</para>
+        <note class="try">
+          <title>Try It: Solving Quadratic Equations by Completing the Square</title>
+      <exercise>
+            <problem>
+              <para>Solve \(x^2+4x=5\) by completing the square.</para>
+              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution>
+              <para>Here is how to solve this quadratic using completing the square:</para>
+              <para><emphasis>Step 1</emphasis> - Isolate the constants on one side of the equation. \(x^2+4x=5\)</para>
+              <para><emphasis>Step 2</emphasis> - Find \((\frac{b}{2})^2\). Add this number to both sides of the equation. \(b=4\), \((\frac{4}{2})^2=2^2=4\) \(x^2+4x+4=5+4\) \(x^2+4x+4=9\)</para>
+              <para><emphasis>Step 3</emphasis> - Factor the perfect square trinomial. \((x+2)^2=9\)</para>
+              <para><emphasis>Step 4</emphasis> - Use the square root property. \(\sqrt{(x+2)^2}=9\) \(x+2= \pm \;3\)</para>
+              <para><emphasis>Step 5</emphasis> - Separate into two equations and solve. \(x+2=-3\)          \(x+2=3\) \(x =-5\)             \(x=1\)</para>
+              <para><emphasis>Step 6</emphasis> - Check into the original equation. \(x=-5\) \((-5)^2+4(-5)=5\) \(25+-20=5\)</para>
+              <para>\(x=1\) \(1^2+4(1)=5\) \(5=5\)</para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
+    </section>
   </content>
 </document>
