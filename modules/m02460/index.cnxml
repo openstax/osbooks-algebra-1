@@ -6,157 +6,93 @@
     <md:uuid>4908747a-8746-42ce-a10a-42d90d8a12f2</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<exercise>
-  <problem>
-    
-    <para>One way to solve the quadratic equation \(x^2+5x+3=0\) is by <term  class="glossary-tooltip" id="term-00001">completing the square</term>. A partially solved equation is shown here. Study Steps 1 – 4.</para>
-    <para>Original equation
-      \(x^2+5x+3=0\)</para>
-    
-    <para><emphasis>Step 1</emphasis> - Multiply each side by 4. This helps us avoid some tricky fractions. (In general, multiply each side of the equation by 4 times the coefficient of the \(x^2\) term. In this case, that is just 4 times 1, which is 4.)
-      \(4x^2+20x+12=0\)</para>
-    
-    <para><emphasis>Step 2</emphasis> - Subtract 12 from each side.
-      \(4x^2+20x=-12\)</para>
-    
-    <para><emphasis>Step 3</emphasis> - Rewrite \(4x^2\) as \((2x)^2\) and \(20x\) as \(10(2x)\).
-      \((2x)^2+10(2x)=-12\)</para>
-    
-    <para><emphasis>Step 4</emphasis> - Use \(P\) as a placeholder for \(2x\).
-      \(P^2+10P=-12\)</para>
-    
-    <para>For steps 5 – 11, let \(P\) serve as a placeholder for \(2x\), continue to solve for \( x\) but without evaluating any part of the expression. For each step, explain the mathematical operation(s) being performed.</para>
-    
-    <para><emphasis>Step 5</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
-      \(P^2+10P+\_\_\_\_^2=-12+\_\_\_\_^2\)</para>
-    
-    <para><emphasis>Step 6</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
-      \((P+\_\_\_\_)^2=-12+\_\_\_\_^2\)</para>
-    
-    <para><emphasis>Step 7</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
-      \( \sqrt{(P+\_\_\_\_)^2}=\sqrt{-12+\_\_\_\_^2}\)</para>
-    \(P+\_\_\_\_= \pm \sqrt{-12+\_\_\_\_^2}\)
-    
-    \(P+\_\_\_\_= \pm \sqrt{-12+\_\_\_\_^2}\)
-    <para><emphasis>Step 8</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
-      \(P=\_\_\_\_ \pm \sqrt{-12+\_\_\_\_^2}\)</para>
-    
-    <para><emphasis>Step 9</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
-      \(P=\_\_\_\_ \pm \sqrt{\_\_\_\_^2-12}\)</para>
-      
-      <para><emphasis>Step 10</emphasis> - 
-      \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
-      \(2x=\_\_\_\_ \pm \sqrt {\_\_\_\_^2-12}\)</para>
-    
-    <para><emphasis>Step 11</emphasis>
-      \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)
-      \(x=\)</para>
-  
-  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para><emphasis>Step 5</emphasis> - 
-    Add to complete the square.
-    \(P^2+10P+5^2=-12+5^2\)</para>
-  
-  <para><emphasis>Step 6</emphasis> - Write the left side as a squared factor.
-    \((P+5)^2=-12+5^2\)</para>
-  
-  <para><emphasis>Step 7</emphasis> - Find the square root of both sides of the equation.
-    
-    \( \sqrt {(P+5)^2}= \sqrt {-12+5^2}\)
-    \(P+5= \pm \sqrt {-12+5^2}\)
- </para>
-  
-  <para><emphasis>Step 8</emphasis> - Subtract 5 from both sides to isolate.
-    \(P=-5 \pm \sqrt {-12+5^2}\)</para>
-  
-  <para><emphasis>Step 9</emphasis> - Rearrange the expression under the square root sign.
-    \(P=-5 \pm \sqrt {5^2-12}\)</para>
-    
-    <para><emphasis>Step 10</emphasis> - 
-    Re-substitute \(2x\) for \(P\).
-    \(2x=-5 \pm \sqrt {5^2-12}\)</para>
-  
-  <para><emphasis>Step 11</emphasis>
-    Divide each side by 2 to isolate \(x\).
-    \(x=\frac{-5 \pm \sqrt{5^2-12}}{2}\)</para>
-
-</solution></exercise>
-
-<exercise>
-  <problem>
-    
-    <para>Explain how the solution is related to the <term  class="glossary-tooltip" id="term-00002">quadratic formula</term>.</para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>The numbers in the solution are the values of \(a\), \(b\), and \(c\) in the original equation, \(x^2+5x+3=0\), which is in the form of \(ax^2+bx+c=0\). The -5 is \(-b\). The \(5^2\) is \(b^2\). The 12, which is \(4(3)(1)\), is the value of \(4ac\). The \(a\) in the original equation is 1, and \(2(1)\) is 2, which is the number in the denominator in the solution.</para>
-
-</solution></exercise>
-</section>
-
-<note class="self-check"><para>After completing the square, Odem used the following steps when deriving the quadratic formula.</para>
-  <para>\(x^2+8x+16= -11+16\)
-    \(x^2+8x+16=5\)</para>
-  <para>What should he do next?</para></note>
-
-  <section><title>Deriving the Quadratic Formula Using an Example</title>
-    <para>Here is another example that goes through the process of deriving the <term  class="glossary-tooltip">quadratic formula</term>:</para>
-    <para>Original equation
-      \(x^2+7x+4=0\)</para>
-    <para><emphasis>Step 1</emphasis> - Multiply each side by 4. This helps us avoid some tricky fractions. (In general, multiply each side of the equation by 4 times the coefficient of the \(x^2\) term. In this case, that is just 4 times 1, which is 4.)
-      \(4x^2+28x+16=0\)</para>
-    <para><emphasis>Step 2</emphasis> - Subtract 16 from each side.
-      \(4x^2+28x=-16\)</para>
-    <para><emphasis>Step 3</emphasis> - Rewrite.
-      \(4x^2\) as \((2x)^2\) and \(28x\) as \(14(2x)\)
-      \((2x)^2+14(2x)=-16\)</para>
-    <para><emphasis>Step 4</emphasis> - Use \(P\) as a placeholder for \(2x\).
-      \(P^2+14P=-16\)</para>
-    <para><emphasis>Step 5</emphasis> - Add to complete the square.
-      \(P^2+14P+7^2=-16+7^2\)</para>
-    <para><emphasis>Step 6</emphasis> - Write the left side as a squared factor.
-      \((P+7)^2=-16+7^2\)</para>
-    <para><emphasis>Step 7</emphasis> - Find the square root of the expression on the right.
-      \(P+7= \pm \sqrt{-16+7^2}\)</para>
-    <para><emphasis>Step 8</emphasis> - Subtract 7 from both sides to isolate.
-      \(P=-7 \pm \sqrt{-16+7^2}\)</para>
-    <para><emphasis>Step 9</emphasis> - Rearrange the expression under the square root sign.
-      \(P=-7 \pm \sqrt{7^2-16}\)</para>
-      <para><emphasis>Step 10</emphasis> - 
-      Re-substitute \(2x\) for \(P\).
-      \(2x=-7 \pm \sqrt{7^2-16}\)</para>
-      <para><emphasis>Step 11</emphasis> - 
-      Divide each side by 2 to isolate \(x\).
-      \(x=\frac{-7 \pm \sqrt{7^2-16}}{2}\)</para>
-    <para>Notice the original equation, \(y=x^2+7x+4\), has \(a=1\), \(b=7\), \(c=4\), and the last step is of the form \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\), which is the quadratic formula.</para>
-    <note class="try look-at-me"/>
-    <title>Try It: Deriving the Quadratic Formula Using an Example</title>
-    <exercise>
-      <problem>
-        
-        <para>Jaiden was deriving the quadratic formula from the quadratic \(x^2+11x+5=0\). What is the step after the step shown below?</para>
-        
-        <para>\((x+\frac{11}{2})^2=\frac{11^2-4(1)(5)}{4(1)}\)</para>
-        
-        <para>\((x+\frac{11}{2})^2=\frac{121-20}{4}\)</para>
-      
-      <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-      
-      </problem><solution>
-      <para>Here is how to find the next step:</para>
-      
-      <para>To isolate \(x\), take the square root of both sides:</para>
-      
-      <para>\(\sqrt{(x+\frac{11}{2})^2}=\sqrt{\frac{121-20}{4}}\)</para>
-    
-    </solution></exercise>
+    <section>
+      <title>Activity</title>
+      <exercise>
+        <problem>
+          <para>One way to solve the quadratic equation \(x^2+5x+3=0\) is by <term class="glossary-tooltip" id="term-00001">completing the square</term>. A partially solved equation is shown here. Study Steps 1 – 4.</para>
+          <para>Original equation \(x^2+5x+3=0\)</para>
+          <para><emphasis>Step 1</emphasis> - Multiply each side by 4. This helps us avoid some tricky fractions. (In general, multiply each side of the equation by 4 times the coefficient of the \(x^2\) term. In this case, that is just 4 times 1, which is 4.) \(4x^2+20x+12=0\)</para>
+          <para><emphasis>Step 2</emphasis> - Subtract 12 from each side. \(4x^2+20x=-12\)</para>
+          <para><emphasis>Step 3</emphasis> - Rewrite \(4x^2\) as \((2x)^2\) and \(20x\) as \(10(2x)\). \((2x)^2+10(2x)=-12\)</para>
+          <para><emphasis>Step 4</emphasis> - Use \(P\) as a placeholder for \(2x\). \(P^2+10P=-12\)</para>
+          <para>For steps 5 – 11, let \(P\) serve as a placeholder for \(2x\), continue to solve for \( x\) but without evaluating any part of the expression. For each step, explain the mathematical operation(s) being performed.</para>
+          <para><emphasis>Step 5</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
+          <para> \(P^2+10P+\_\_\_\_^2=-12+\_\_\_\_^2\)</para>
+          <para><emphasis>Step 6</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
+          <para> \((P+\_\_\_\_)^2=-12+\_\_\_\_^2\)</para>
+          <para><emphasis>Step 7</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
+          <para> \( \sqrt{(P+\_\_\_\_)^2}=\sqrt{-12+\_\_\_\_^2}\)</para>
+          <para>\(P+\_\_\_\_= \pm \sqrt{-12+\_\_\_\_^2}\)</para>
+          <para><emphasis>Step 8</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
+          <para> \(P=\_\_\_\_ \pm \sqrt{-12+\_\_\_\_^2}\)</para>
+          <para><emphasis>Step 9</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
+          <para> \(P=\_\_\_\_ \pm \sqrt{\_\_\_\_^2-12}\)</para>
+          <para><emphasis>Step 10</emphasis> - \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
+          <para> \(2x=\_\_\_\_ \pm \sqrt {\_\_\_\_^2-12}\)</para>
+          <para><emphasis>Step 11</emphasis> \(\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\)</para>
+          <para> \(x=\)</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para><emphasis>Step 5</emphasis> - Add to complete the square. \(P^2+10P+5^2=-12+5^2\)</para>
+          <para><emphasis>Step 6</emphasis> - Write the left side as a squared factor. \((P+5)^2=-12+5^2\)</para>
+          <para><emphasis>Step 7</emphasis> - Find the square root of both sides of the equation. \( \sqrt {(P+5)^2}= \sqrt {-12+5^2}\) \(P+5= \pm \sqrt {-12+5^2}\) </para>
+          <para><emphasis>Step 8</emphasis> - Subtract 5 from both sides to isolate. \(P=-5 \pm \sqrt {-12+5^2}\)</para>
+          <para><emphasis>Step 9</emphasis> - Rearrange the expression under the square root sign. \(P=-5 \pm \sqrt {5^2-12}\)</para>
+          <para><emphasis>Step 10</emphasis> - Re-substitute \(2x\) for \(P\). \(2x=-5 \pm \sqrt {5^2-12}\)</para>
+          <para><emphasis>Step 11</emphasis> Divide each side by 2 to isolate \(x\). \(x=\frac{-5 \pm \sqrt{5^2-12}}{2}\)</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>Explain how the solution is related to the <term class="glossary-tooltip" id="term-00002">quadratic formula</term>.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>The numbers in the solution are the values of \(a\), \(b\), and \(c\) in the original equation, \(x^2+5x+3=0\), which is in the form of \(ax^2+bx+c=0\). The -5 is \(-b\). The \(5^2\) is \(b^2\). The 12, which is \(4(3)(1)\), is the value of \(4ac\). The \(a\) in the original equation is 1, and \(2(1)\) is 2, which is the number in the denominator in the solution.</para>
+        </solution>
+      </exercise>
     </section>
-</content>
+    <note class="self-check"><para>After completing the square, Odem used the following steps when deriving the quadratic formula.</para>
+  <para>\(x^2+8x+16= -11+16\) \(x^2+8x+16=5\)</para>
+  <para>What should he do next?</para></note>
+    <section>
+      <title>Additional Resources</title>
+      <section>
+        <title>Deriving the Quadratic Formula Using an Example</title>
+        <para>Here is another example that goes through the process of deriving the <term class="glossary-tooltip">quadratic formula</term>:</para>
+        <para>Original equation \(x^2+7x+4=0\)</para>
+        <para><emphasis>Step 1</emphasis> - Multiply each side by 4. This helps us avoid some tricky fractions. (In general, multiply each side of the equation by 4 times the coefficient of the \(x^2\) term. In this case, that is just 4 times 1, which is 4.) \(4x^2+28x+16=0\)</para>
+        <para><emphasis>Step 2</emphasis> - Subtract 16 from each side. \(4x^2+28x=-16\)</para>
+        <para><emphasis>Step 3</emphasis> - Rewrite. \(4x^2\) as \((2x)^2\) and \(28x\) as \(14(2x)\) \((2x)^2+14(2x)=-16\)</para>
+        <para><emphasis>Step 4</emphasis> - Use \(P\) as a placeholder for \(2x\). \(P^2+14P=-16\)</para>
+        <para><emphasis>Step 5</emphasis> - Add to complete the square. \(P^2+14P+7^2=-16+7^2\)</para>
+        <para><emphasis>Step 6</emphasis> - Write the left side as a squared factor. \((P+7)^2=-16+7^2\)</para>
+        <para><emphasis>Step 7</emphasis> - Find the square root of the expression on the right. \(P+7= \pm \sqrt{-16+7^2}\)</para>
+        <para><emphasis>Step 8</emphasis> - Subtract 7 from both sides to isolate. \(P=-7 \pm \sqrt{-16+7^2}\)</para>
+        <para><emphasis>Step 9</emphasis> - Rearrange the expression under the square root sign. \(P=-7 \pm \sqrt{7^2-16}\)</para>
+        <para><emphasis>Step 10</emphasis> - Re-substitute \(2x\) for \(P\). \(2x=-7 \pm \sqrt{7^2-16}\)</para>
+        <para><emphasis>Step 11</emphasis> - Divide each side by 2 to isolate \(x\). \(x=\frac{-7 \pm \sqrt{7^2-16}}{2}\)</para>
+        <para>Notice the original equation, \(y=x^2+7x+4\), has \(a=1\), \(b=7\), \(c=4\), and the last step is of the form \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\), which is the quadratic formula.</para>
+        <note class="try">
+          <title>Try It: Deriving the Quadratic Formula Using an Example</title>
+          <exercise>
+            <problem>
+              <para>Jaiden was deriving the quadratic formula from the quadratic \(x^2+11x+5=0\). What is the step after the step shown below?</para>
+              <para>\((x+\frac{11}{2})^2=\frac{11^2-4(1)(5)}{4(1)}\)</para>
+              <para>\((x+\frac{11}{2})^2=\frac{121-20}{4}\)</para>
+              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution>
+              <para>Here is how to find the next step:</para>
+              <para>To isolate \(x\), take the square root of both sides:</para>
+              <para>\(\sqrt{(x+\frac{11}{2})^2}=\sqrt{\frac{121-20}{4}}\)</para>
+            </solution>
+          </exercise></note>
+      </section>
+    </section>
+  </content>
 </document>
