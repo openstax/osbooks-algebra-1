@@ -7,140 +7,127 @@
   </metadata>
   <content>
     <section>
-    <title>Activity</title>
+      <title>Activity</title>
       <para>These three figures are called Platonic solids.</para>
-
-<table class="os-raise-doubleheadertable unnumbered">
-<tgroup cols="3"><tbody><row>
-<entry>Tetrahedron</entry>
-<entry>Cube</entry>
-<entry>Dodecahedron</entry>
-</row>
-<row>
-<entry><media alt="A tetrahedron.">
-              <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_04_03_01.svg"/>
-            </media></entry>
-<entry><media alt="A cube.">
-              <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_04_03_02.svg"/>
-            </media></entry>
-<entry><media alt="A dodecahderon. A 3-D shape with 12 pentagonal faces.">
-              <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_04_03_03.svg"/>
-            </media></entry>
-</row>
-</tbody></tgroup></table>
-      
       <table class="os-raise-doubleheadertable unnumbered">
-        <tgroup cols="4"><tbody><row>
-            <entry>
-              <emphasis/>
-            </entry>
-            <entry>
-             <emphasis>faces</emphasis>
-            </entry>
-            <entry>
-             <emphasis>vertices</emphasis>
-            </entry>
-            <entry>
-             <emphasis>edges</emphasis>
-            </entry>
-          </row>
-        <row>
-            <entry>
-             <emphasis>tetrahedron</emphasis>
-            </entry>
-            <entry>4</entry>
-            <entry>4</entry>
-            <entry>6</entry>
-          </row>
-          <row>
-            <entry>
-             <emphasis>cube</emphasis>
-            </entry>
-            <entry/>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry>
-             <emphasis>dodecahedron</emphasis>
-            </entry>
-            <entry>12</entry>
-            <entry>20</entry>
-            <entry>30</entry>
-          </row>
-        </tbody></tgroup></table>
-
-      <para>The table shows the number of faces, vertices, and edges for the tetrahedron and
-        dodecahedron.</para>
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>Tetrahedron</entry>
+              <entry>Cube</entry>
+              <entry>Dodecahedron</entry>
+            </row>
+            <row>
+              <entry><media alt="A tetrahedron.">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_04_03_01.svg" />
+                </media></entry>
+              <entry><media alt="A cube.">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_04_03_02.svg" />
+                </media></entry>
+              <entry><media alt="A dodecahderon. A 3-D shape with 12 pentagonal faces.">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_04_03_03.svg" />
+                </media></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table class="os-raise-doubleheadertable unnumbered">
+        <tgroup cols="4">
+          <tbody>
+            <row>
+              <entry>
+                <emphasis />
+              </entry>
+              <entry>
+                <emphasis>faces</emphasis>
+              </entry>
+              <entry>
+                <emphasis>vertices</emphasis>
+              </entry>
+              <entry>
+                <emphasis>edges</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>tetrahedron</emphasis>
+              </entry>
+              <entry>4</entry>
+              <entry>4</entry>
+              <entry>6</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>cube</emphasis>
+              </entry>
+              <entry />
+              <entry />
+              <entry />
+            </row>
+            <row>
+              <entry>
+                <emphasis>dodecahedron</emphasis>
+              </entry>
+              <entry>12</entry>
+              <entry>20</entry>
+              <entry>30</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para>The table shows the number of faces, vertices, and edges for the tetrahedron and dodecahedron.</para>
       <para>Determine the following values regarding the cube.</para>
-    
-        
-        <exercise id="a4de0230-e91f-48b4-bbfc-e1250afb4a9b" class="multiple-choice">
-          <problem>
-            <para>Number of faces.</para>
-            
-          </problem>
-          <solution>
-            <para>Correct! 6.</para>
-            <para>Nice try! The correct answer is: 6</para>
-          </solution>
-        </exercise>
-
-        <exercise id="cdf77a10-ae30-4d5e-b741-0050e643db28" class="multiple-choice">
-          <problem>
-            <para>Number of edges.</para>
-            
-          </problem>
-          <solution>
-            <para>Correct! 8.</para>
-            <para>Nice try! The correct answer is: 8</para>
-          </solution>
-        </exercise>
-
-        <exercise id="_13797257-27a3-4f32-adc3-da4166352174" class="multiple-choice">
-          <problem>
-            <para>Number of vertices.</para>
-            
-          </problem>
-          <solution>
-            <para>Correct! 12.</para>
-            <para>Nice try! The correct answer is: 12</para>
-          </solution>
-        </exercise>
-
-      <para>There are some interesting relationships between the number of faces (\( F \)), edges
-        (\( E \)), and vertices (\( V \)) in all Platonic solids.</para>
-      
+      <exercise id="a4de0230-e91f-48b4-bbfc-e1250afb4a9b" class="multiple-choice">
+        <problem>
+          <para>Number of faces.</para>
+        </problem>
+        <solution>
+          <para>Correct! 6.</para>
+          <para>Nice try! The correct answer is: 6</para>
+        </solution>
+      </exercise>
+      <exercise id="cdf77a10-ae30-4d5e-b741-0050e643db28" class="multiple-choice">
+        <problem>
+          <para>Number of edges.</para>
+        </problem>
+        <solution>
+          <para>Correct! 8.</para>
+          <para>Nice try! The correct answer is: 8</para>
+        </solution>
+      </exercise>
+      <exercise id="_13797257-27a3-4f32-adc3-da4166352174" class="multiple-choice">
+        <problem>
+          <para>Number of vertices.</para>
+        </problem>
+        <solution>
+          <para>Correct! 12.</para>
+          <para>Nice try! The correct answer is: 12</para>
+        </solution>
+      </exercise>
+      <para>There are some interesting relationships between the number of faces (\( F \)), edges (\( E \)), and vertices (\( V \)) in all Platonic solids.</para>
       <!-- Q4 -->
       <exercise>
         <problem>
-        <para>What do you notice about the relationships between the numbers of faces, edges, and
-          vertices of the Platonic solids?</para>
-          
+          <para>What do you notice about the relationships between the numbers of faces, edges, and vertices of the Platonic solids?</para>
         </problem>
         <solution>
           <para>Your answer may vary, but here are some examples.</para>
           <list>
             <item>I noticed all the numbers are even.</item>
-            <item>I noticed the number of faces is less than or equal to the number of vertices, or
-              \(F \leq V\)</item>
-            <item>I noticed the number of edges is always greater than the number of faces, or \(E
-              \gt F\).</item>
+            <item>I noticed the number of faces is less than or equal to the number of vertices, or \(F \leq V\)</item>
+            <item>I noticed the number of edges is always greater than the number of faces, or \(E \gt F\).</item>
           </list>
         </solution>
       </exercise>
-<!-- Q5 -->
+      <!-- Q5 -->
       <exercise>
         <problem>
-        <para>What do you wonder about the relationships between the numbers of faces, edges, and
-          vertices of the Platonic solids?</para>
-          
+          <para>What do you wonder about the relationships between the numbers of faces, edges, and vertices of the Platonic solids?</para>
         </problem>
         <solution>
           <para>Your answer may vary, but here are some examples.</para>
           <list>
-            <item>I wonder if the number of edges is always less than the sum of the number of faces
-              and the number of vertices, or \(E \lt F + V\).</item>
+            <item>I wonder if the number of edges is always less than the sum of the number of faces and the number of vertices, or \(E \lt F + V\).</item>
             <item>I wonder if there is an equation that connects all of the variables.</item>
           </list>
         </solution>
@@ -148,18 +135,13 @@
       <!-- Q6 -->
       <exercise>
         <problem>
-          <para>There is a relationship that can be expressed with an equation using all three
-            values: \(F, V, E\). Write the equation that represents how the three values are
-            related.</para>
-          
+          <para>There is a relationship that can be expressed with an equation using all three values: \(F, V, E\). Write the equation that represents how the three values are related.</para>
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>The number of edges is 2 less than the sum of the other two numbers, or \(V + F - 2
-            = E\).</para>
+          <para>The number of edges is 2 less than the sum of the other two numbers, or \(V + F - 2 = E\).</para>
         </solution>
       </exercise>
-
       <!--Interaction
       End -->
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
@@ -168,12 +150,11 @@
     <section>
       <title>Are you ready for more?</title>
       <section>
-    <title>Extending Your Thinking</title>
-      <para>There are two more Platonic solids: an octahedron, which has 8 faces that are all triangles, and an icosahedron, which has 20 faces that are all triangles.</para>
+        <title>Extending Your Thinking</title>
+        <para>There are two more Platonic solids: an octahedron, which has 8 faces that are all triangles, and an icosahedron, which has 20 faces that are all triangles.</para>
         <exercise id="e9f36468-a618-4a55-b863-9bf452b3b22c" class="multiple-choice">
           <problem>
-            <para>How many edges would each of these solids have? (Keep in mind that each edge is
-              used in two faces.)</para>
+            <para>How many edges would each of these solids have? (Keep in mind that each edge is used in two faces.)</para>
             <para>The octahedron has how many edges?</para>
           </problem>
           <solution>
@@ -181,155 +162,116 @@
             <para>Nice try! The correct answer is: The octahedron has 12 edges.</para>
           </solution>
         </exercise>
-
         <exercise id="ea62c583-6289-4dca-904c-a02e8d2aa5a4" class="multiple-choice">
           <problem>
             <para>The icosahedron has how many edges?</para>
-            
           </problem>
           <solution>
             <para>Correct! The icosahedron has 30 edges.</para>
             <para>Nice try! The correct answer is: The icosahedron has 30 edges.</para>
           </solution>
         </exercise>
-
         <exercise id="b87cc191-53ed-4e73-b056-a9786c8409a7" class="multiple-choice">
           <problem>
-            <para>Use your discoveries from the activity to determine how many vertices each of
-              these solids would have.</para>
+            <para>Use your discoveries from the activity to determine how many vertices each of these solids would have.</para>
             <para>The octahedron has how many vertices?</para>
-            
           </problem>
           <solution>
             <para>Correct! The octahedron has 6 vertices.</para>
             <para>Nice try! The correct answer is: The octahedron has 6 vertices.</para>
           </solution>
         </exercise>
-
         <exercise id="_7a2261b6-0c6f-4594-99b2-7534849eed92" class="multiple-choice">
           <problem>
             <para>The icosahedron has how many vertices?</para>
-            
           </problem>
           <solution>
             <para>Correct! The icosahedron has 30 vertices.</para>
             <para>Nice try! The correct answer is: The icosahedron has 30 vertices.</para>
           </solution>
         </exercise>
-
-      <exercise class="RFM1">
-        <problem>
-          <para>For all 5 Platonic solids, determine how many faces meet at each vertex.</para>
-          
-        </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The tetrahedron, cube, and dodecahedron have 3 faces meeting at each vertex. The
-            octahedron has 4 faces meeting at each vertex. The icosahedron has 5 faces meeting at
-            each vertex.</para>
-        </solution>
-      </exercise>
+        <exercise class="RFM1">
+          <problem>
+            <para>For all 5 Platonic solids, determine how many faces meet at each vertex.</para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>The tetrahedron, cube, and dodecahedron have 3 faces meeting at each vertex. The octahedron has 4 faces meeting at each vertex. The icosahedron has 5 faces meeting at each vertex.</para>
+          </solution>
+        </exercise>
+      </section>
     </section>
-    </section>
-
     <section>
       <note class="self-check">
-      <para>The sum of the measures of the angles of a triangle is \( 180° \). The right triangle shown has angle measures \( a \), \( b \), and \( 90° \). Which equation could model this relationship?</para>
-      <figure class="unnumbered"> 
-      <media alt="A right triangle with angle measures a, b, and ninety degrees.">
-            <image mime-type="image/png" src="../../media/Algebra-1_01_04_04_01.png"/>
+        <para>The sum of the measures of the angles of a triangle is \( 180° \). The right triangle shown has angle measures \( a \), \( b \), and \( 90° \). Which equation could model this relationship?</para>
+      <figure class="unnumbered">
+          <media alt="A right triangle with angle measures a, b, and ninety degrees.">
+            <image mime-type="image/png" src="../../media/Algebra-1_01_04_04_01.png" />
           </media>
         </figure>
       </note>
     </section>
-
     <section>
       <title>Additonal Resources</title>
-
       <section>
         <title>Writing Equations Using Symbols</title>
         <!-- <p> When writing statements using algebraic symbols, the following steps may be helpful.
         </p> -->
         <note>
           <title>How to write statements using algebraic symbols</title>
-          <para><emphasis>Step
-          1</emphasis> - Read the problem.</para>
-          <para><emphasis>Step 2</emphasis> - Identify the variables and
-          known values. If needed, sketch a picture of the scenario.</para>
-          <para><emphasis>Step 3</emphasis> -
-          Write a sentence using the relationship among the values.</para>
-          <para><emphasis>Step 4</emphasis> -
-          Translate the sentence into an equation.</para>
+          <para><emphasis>Step 1</emphasis> - Read the problem.</para>
+          <para><emphasis>Step 2</emphasis> - Identify the variables and known values. If needed, sketch a picture of the scenario.</para>
+          <para><emphasis>Step 3</emphasis> - Write a sentence using the relationship among the values.</para>
+          <para><emphasis>Step 4</emphasis> - Translate the sentence into an equation.</para>
         </note>
-
-        <para>Remember that <term class="glossary-tooltip">variables</term> represent values in the
-          problem that can change.</para>
+        <para>Remember that <term class="glossary-tooltip">variables</term> represent values in the problem that can change.</para>
         <para>Let's examine two examples of how to write statements algebraically using symbols.</para>
         <section>
           <title>Example 1</title>
-        <para>We want to express the following statement using symbolic language: The sum of three
-          consecutive integers is 372.</para>
-        <para><emphasis>Step 1</emphasis> - Read the problem.<newline/>
-        The sum of three consecutive integers
-          is 372.</para>
-        <para><emphasis>Step 2</emphasis> - Identify the variables and known values. If needed,
-          sketch a picture of the scenario.</para>
-        <para>Let \( x \) = the first integer. There are two more numbers that follow \( x \).<newline/>
-        Each number is 1 more than the number before it: \(x + 1\) and \(x + 2\)<newline/>
-        The sum of all three numbers is 372.</para>
-        <figure class="unnumbered">
-          <media alt="Insert Alt Text">
-            <image mime-type="image/png" src="../../media/Algebra-1_01_04_05_01.png"/>
-          </media>
-        </figure>
-        <para><emphasis>Step 3</emphasis> - Write a sentence using the relationship among the values.<newline/>
-        The sum of \(x\), \(x+1\), and \(x+2\) is 372.</para>
-        <para><emphasis>Step 4</emphasis> - Translate the sentence into an equation.<newline/>
-        \(x + (x + 1) + (x + 2) = 372\)<newline/>
-        \(3x + 3 = 372\)</para>
+          <para>We want to express the following statement using symbolic language: The sum of three consecutive integers is 372.</para>
+          <para><emphasis>Step 1</emphasis> - Read the problem.<newline /> The sum of three consecutive integers is 372.</para>
+          <para><emphasis>Step 2</emphasis> - Identify the variables and known values. If needed, sketch a picture of the scenario.</para>
+          <para>Let \( x \) = the first integer. There are two more numbers that follow \( x \).<newline /> Each number is 1 more than the number before it: \(x + 1\) and \(x + 2\)<newline /> The sum of all three numbers is 372.</para>
+          <figure class="unnumbered">
+            <media alt="Insert Alt Text">
+              <image mime-type="image/png" src="../../media/Algebra-1_01_04_05_01.png" />
+            </media>
+          </figure>
+          <para><emphasis>Step 3</emphasis> - Write a sentence using the relationship among the values.<newline /> The sum of \(x\), \(x+1\), and \(x+2\) is 372.</para>
+          <para><emphasis>Step 4</emphasis> - Translate the sentence into an equation.<newline /> \(x + (x + 1) + (x + 2) = 372\)<newline /> \(3x + 3 = 372\)</para>
         </section>
         <section>
           <title>Example 2</title>
-        <para>We want to express the following statement using symbolic language:<newline/>
-         The sum of three consecutive odd integers is 93.</para>
-        <para><emphasis>Step 1</emphasis> - Read the problem.<newline/>
-        The sum of three consecutive odd integers is 93.</para>
-        <para><emphasis>Step 2</emphasis> - Identify the variables and known values. If needed,
-          sketch a picture of the scenario.</para>
-        <para>Let \(x\) = the first integer. There are two more ODD numbers that follow \(x\).<newline/>
-        Each number is 2 more than the number before it: \(x + 2\) and \(x + 4\)<newline/>
-        The sum of all three numbers is 93.</para>
-        <figure class="unnumbered">
-          <media alt="Insert Alt Text">
-            <image mime-type="image/png" src="../../media/Algebra-1_01_04_05_02.png"/>
-          </media>
-        </figure>
-        <para><emphasis>Step 3</emphasis> - Write a sentence using the relationship among the values.<newline/>
-        The sum of \(x\), \(x+2\), and \(x+4\) is 93.</para>
-        <para><emphasis>Step 4</emphasis> - Translate the sentence into an equation.<newline/>
-        \(x + (x + 2) + (x + 4) = 93\)<newline/>
-        \(3x + 6 = 93\)</para>
+          <para>We want to express the following statement using symbolic language:<newline /> The sum of three consecutive odd integers is 93.</para>
+          <para><emphasis>Step 1</emphasis> - Read the problem.<newline /> The sum of three consecutive odd integers is 93.</para>
+          <para><emphasis>Step 2</emphasis> - Identify the variables and known values. If needed, sketch a picture of the scenario.</para>
+          <para>Let \(x\) = the first integer. There are two more ODD numbers that follow \(x\).<newline /> Each number is 2 more than the number before it: \(x + 2\) and \(x + 4\)<newline /> The sum of all three numbers is 93.</para>
+          <figure class="unnumbered">
+            <media alt="Insert Alt Text">
+              <image mime-type="image/png" src="../../media/Algebra-1_01_04_05_02.png" />
+            </media>
+          </figure>
+          <para><emphasis>Step 3</emphasis> - Write a sentence using the relationship among the values.<newline /> The sum of \(x\), \(x+2\), and \(x+4\) is 93.</para>
+          <para><emphasis>Step 4</emphasis> - Translate the sentence into an equation.<newline /> \(x + (x + 2) + (x + 4) = 93\)<newline /> \(3x + 6 = 93\)</para>
         </section>
-  
         <section>
-        <note class="try">  
-    <title>Try It: Writing Equations Using Symbols</title>
+          <note class="try">
+            <title>Try It: Writing Equations Using Symbols</title>
         <para>Now it’s your turn. Write the statement below algebraically using symbols.</para>
 
           <exercise>
-            <problem>
-              <para>The sum of three consecutive integers is 1,623.</para>
-              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare
-          your work.</para>
-            </problem>
-            <solution>
-              <para>Here is how to express this statement using symbols.</para>
-              <para>\( x+(x+1)+(x+2)=1,623 \) \(3x + 3 = 1,623\)</para>
-            </solution>
-          </exercise>
-</note>
+              <problem>
+                <para>The sum of three consecutive integers is 1,623.</para>
+                <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+              </problem>
+              <solution>
+                <para>Here is how to express this statement using symbols.</para>
+                <para>\( x+(x+1)+(x+2)=1,623 \) \(3x + 3 = 1,623\)</para>
+              </solution>
+            </exercise>
+          </note>
+        </section>
       </section>
     </section>
-  </section>
-</content>
+  </content>
 </document>

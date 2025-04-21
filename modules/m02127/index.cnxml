@@ -13,10 +13,10 @@
       <para>
         <figure id="fig-00001">
           <media alt="Insert Alt Text">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_09_05_06_01.jpg"/>
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_09_05_06_01.jpg" />
           </media>
         </figure>
-     </para>
+      </para>
       <para>Once the binomial is isolated, the square root property can be used. You can reason the solution by taking the square root and then appropriately isolating the variable using the two different square roots.</para>
       <para>Solve the following quadratic equations. Explain or show your reasoning.</para>
       <!--Text Entry Interaction Start -->
@@ -71,16 +71,9 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-        </exercise>
-      
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+    </section>
+    <section>
+      <title>Are you ready for more?</title>
       <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking</title>
@@ -97,69 +90,54 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <title>Video: Solving More Complex Quadratic Equations</title>
-      <para>Watch the following video to learn more about how to solve a quadratic equation of the form \(a(x−h)^2=k\).</para>
-      <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/ece9009efec5cf2b9b57449f601cd71c89a38156"/>
-      </media>
+      <section>
+        <title>Video: Solving More Complex Quadratic Equations</title>
+        <para>Watch the following video to learn more about how to solve a quadratic equation of the form \(a(x−h)^2=k\).</para>
+        <media alt="Placeholder for Alt Text">
+          <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/ece9009efec5cf2b9b57449f601cd71c89a38156" />
+        </media>
+      </section>
     </section>
-
     <note class="self-check"><para>Solve the following quadratic equation.</para>
       <para>\((x+3)^2−16=48\)</para></note>
-
-      <section><title>Solving Quadratic Equations of the Form \(a(x - h)^2 = k\)</title>
-        <para>We can use the square root property to solve an equation of the form \(a(x-h)^2=k\) as well.</para>
-        <para>Notice that the quadratic term, \(x\), in the original form \(ax^2=k\) is replaced with \((x−h)\).</para>
-        <para>\(a {\style{color:red}x}^{2}=k \quad a{\style{color:red}(}{\style{color:red}x}\;{\style{color:red}-}\;{\style{color:red}h}{\style{color:red})}^{2}=k\)</para>
-        <para>Like before, the first step is to isolate the term that has the variable squared. In this case, a binomial is being squared.</para>
-        <para>Once the binomial is isolated, by dividing each side by the coefficient of \(a\), the square root property can be used on \((x−h)^2\).</para>
-        <para>Solve \(4(y−7)^2=48\).</para>
-        <para><emphasis>Step 1</emphasis> - Isolate the quadratic term and make its coefficient 1.</para>
-        <para> So, divide both sides of the equation by 4.</para>
-        <para>\(4(y−7)^2=48\)
-          \((y−7)^2=12\)</para>
-        <para><emphasis>Step 2</emphasis> - Use the square root property on the binomial.</para>
-        <para>  \(y−7= \pm \sqrt{12}\)</para>
-        <para><emphasis>Step 3</emphasis> - Simplify the radical by pulling out the factors that are perfect squares.</para>
-        <para>  Solve for \(y\). Rewrite the two solutions.</para>
-        <para>\(y−7= \pm \sqrt{12}\)
-          \(y−7= \pm \sqrt{(4 \cdot 3})\)
-          \(y−7= \pm 2 \sqrt{3}\)
-          \(y =7 \pm 2 \sqrt{3}\)
-          \(y =7+2 \sqrt{3}\), \(y=7−2 \sqrt{3}\)</para>
-        <para><emphasis>Step 4</emphasis> 
-          Check the solutions.</para>
-        <para>\(\begin{array}{rrr} 4(y-7)^{2}=48 &amp; 4(y-7)^{2}=48 \\ 4({\style{color:red}7}\;{\style{color:red}+}\;{\style{color:red}2} \sqrt{{\style{color:red}3}}-7)^{2} \stackrel{?}{=} 48 &amp; 4({\style{color:red}7}\;{\style{color:red}-}\;{\style{color:red}2} \sqrt{{\style{color:red}3}}-7)^{2} \stackrel{?}{=} 48 \\ 4(2 \sqrt{3})^{2} \stackrel{?}{=} 48 &amp; 4(-2 \sqrt{3})^{2} \stackrel{?}{=} 48 \\ 4(12)^{2} \stackrel{?}{=} 48 &amp; 4(12)^{2} \stackrel{?}{=} 48 \\ 48=48 {\style{color:red}\checkmark} &amp; 48=48 {\style{color:red}\checkmark} \end{array} \)</para>
-        <note class="try look-at-me"/>
+    <section>
+      <title>Solving Quadratic Equations of the Form \(a(x - h)^2 = k\)</title>
+      <para>We can use the square root property to solve an equation of the form \(a(x-h)^2=k\) as well.</para>
+      <para>Notice that the quadratic term, \(x\), in the original form \(ax^2=k\) is replaced with \((x−h)\).</para>
+      <para>\(a {\style{color:red}x}^{2}=k \quad a{\style{color:red}(}{\style{color:red}x}\;{\style{color:red}-}\;{\style{color:red}h}{\style{color:red})}^{2}=k\)</para>
+      <para>Like before, the first step is to isolate the term that has the variable squared. In this case, a binomial is being squared.</para>
+      <para>Once the binomial is isolated, by dividing each side by the coefficient of \(a\), the square root property can be used on \((x−h)^2\).</para>
+      <para>Solve \(4(y−7)^2=48\).</para>
+      <para><emphasis>Step 1</emphasis> - Isolate the quadratic term and make its coefficient 1.</para>
+      <para> So, divide both sides of the equation by 4.</para>
+      <para>\(4(y−7)^2=48\) \((y−7)^2=12\)</para>
+      <para><emphasis>Step 2</emphasis> - Use the square root property on the binomial.</para>
+      <para> \(y−7= \pm \sqrt{12}\)</para>
+      <para><emphasis>Step 3</emphasis> - Simplify the radical by pulling out the factors that are perfect squares.</para>
+      <para> Solve for \(y\). Rewrite the two solutions.</para>
+      <para>\(y−7= \pm \sqrt{12}\) \(y−7= \pm \sqrt{(4 \cdot 3})\) \(y−7= \pm 2 \sqrt{3}\) \(y =7 \pm 2 \sqrt{3}\) \(y =7+2 \sqrt{3}\), \(y=7−2 \sqrt{3}\)</para>
+      <para><emphasis>Step 4</emphasis> Check the solutions.</para>
+      <para>\(\begin{array}{rrr} 4(y-7)^{2}=48 &amp; 4(y-7)^{2}=48 \\ 4({\style{color:red}7}\;{\style{color:red}+}\;{\style{color:red}2} \sqrt{{\style{color:red}3}}-7)^{2} \stackrel{?}{=} 48 &amp; 4({\style{color:red}7}\;{\style{color:red}-}\;{\style{color:red}2} \sqrt{{\style{color:red}3}}-7)^{2} \stackrel{?}{=} 48 \\ 4(2 \sqrt{3})^{2} \stackrel{?}{=} 48 &amp; 4(-2 \sqrt{3})^{2} \stackrel{?}{=} 48 \\ 4(12)^{2} \stackrel{?}{=} 48 &amp; 4(12)^{2} \stackrel{?}{=} 48 \\ 48=48 {\style{color:red}\checkmark} &amp; 48=48 {\style{color:red}\checkmark} \end{array} \)</para>
+      <note class="try">
         <title>Try It: Solving Quadratic Equations of the Form \(a(x-h)^2=k\)</title>
-        <para>Solve the following quadratic equations.</para>
-        <exercise>
+      <para>Solve the following quadratic equations.</para>
+      <exercise>
           <problem>
-            
             <para>\(3(a−3)^2=363\)</para>
             <para> \(\frac{1}{2} (b+2)^2=200\)</para>
             <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          
-          </problem><solution>
-          <para>Here is how to solve these quadratic equations of the form \(a(x-h)^2=k\):</para>
-          
-          <list class="os-raise-noindent" list-type="enumerated">
-            <item>\(3(a−3)^2 =363\) 
-              \((a−3)^2=121\)
-              \(a−3= \pm 11\)
-              \(a−3=11\)      \(a−3=-11\)
-              \(a= 14\) and \(a=-8\)</item>
-          </list>
-          
-          <list class="os-raise-noindent" list-type="enumerated">
-            <item>\(\frac{1}{2}(b+2)^2=200\)
-              \((b+2)^2=400\)
-              \(b+2= \pm 20\)
-              \(b+2=20\)      \(b+2=-20\)
-              \(b=18\) and \(b=-22\)</item>
-          </list>
-        
-        </solution></exercise>
-        </section>
+          </problem>
+          <solution>
+            <para>Here is how to solve these quadratic equations of the form \(a(x-h)^2=k\):</para>
+            <list class="os-raise-noindent" list-type="enumerated">
+              <item>\(3(a−3)^2 =363\) \((a−3)^2=121\) \(a−3= \pm 11\) \(a−3=11\)      \(a−3=-11\) \(a= 14\) and \(a=-8\)</item>
+            </list>
+            <list class="os-raise-noindent" list-type="enumerated">
+              <item>\(\frac{1}{2}(b+2)^2=200\) \((b+2)^2=400\) \(b+2= \pm 20\) \(b+2=20\)      \(b+2=-20\) \(b=18\) and \(b=-22\)</item>
+            </list>
+          </solution>
+        </exercise>
+      </note>
+    </section>
   </content>
 </document>
