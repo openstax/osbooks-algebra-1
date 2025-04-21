@@ -6,7 +6,8 @@
     <md:uuid>9797dc54-9f7d-41f7-b250-34eeb66e11db</md:uuid>
   </metadata>
   <content>
-  <section><para>Divide the polynomial functions. Find the quotient value.</para>
+  <section><title>Activity</title>
+    <para>Divide the polynomial functions. Find the quotient value.</para>
 
 <!--Text Entry Interaction Start -->
 <exercise>
@@ -78,19 +79,19 @@
 
 <para>The Remainder Theorem states that if a polynomial function \(f(x)\) is divided by \(x-c\), then the remainder is \(f(c)\). This means we can always compare the remainder by finding \(f(c)\) when the divisor is written in the form \(x-c\).</para>
 
-<section class="check-understanding"><title>Activity</title><exercise id="_1354241e-b60c-45b8-951b-099be0a8eba8" class="multiple-choice"><problem><para>Use the Remainder Theorem to find the remainder when \(f(x)=x^3-7x+12\) is divided by \(x + 3\).</para>
+<exercise id="_1354241e-b60c-45b8-951b-099be0a8eba8" class="multiple-choice"><problem><para>Use the Remainder Theorem to find the remainder when \(f(x)=x^3-7x+12\) is divided by \(x + 3\).</para>
         <para>Enter the remainder here.</para>
       </problem><solution><para>Correct! The remainder is 6</para><para>Nice try! The correct answer is: 6</para></solution></exercise><exercise id="_53f4a375-e2b9-4945-a16f-9fc9e4fd3361" class="multiple-choice"><problem><para>Enter the remainder here.</para><para>Use the Remainder Theorem to find the remainder when \(f(x)=2x^3-6x-24\) is divided by \(x - 3\).</para>
-      </problem><solution><para>Correct! The remainder is 12</para><para>Nice try! The correct answer is: 12</para></solution></exercise></section></section>
+      </problem><solution><para>Correct! The remainder is 12</para><para>Nice try! The correct answer is: 12</para></solution></exercise></section>
 
-      <note class="self-check"><para>For functions \(f(x)=x^3+2x^2-19x+12\) and \(g(x)=x-3\):</para>
+<note class="self-check"><para>For functions \(f(x)=x^3+2x^2-19x+12\) and \(g(x)=x-3\):</para>
         <para>Find \((\frac{f}{g})(x)\) and \((\frac{f}{g})(0)\).</para></note>
         
 <section>
   <title>Additional Resources</title>
  
-  <section>
     <para>In this unit, remember to double click on mathematical expressions/equations to enlarge, if needed.</para>
+    <section>
     <title>Dividing Polynomial Functions</title>
     <para>Just as polynomials can be divided, polynomial functions can also be divided.</para>
     
@@ -120,7 +121,7 @@
     <para><emphasis>Step 2 -</emphasis> To find \((\frac{f}{g})(-4)\), substitute \(x=-4\).</para>
     <para>\((\frac{f}{g})(-4)=-4-7\)
 \((\frac{f}{g})(-4)=-11\)</para>
-    <note class="try look-at-me"/>
+    <note class="try">
 <title>Try It: Dividing Polynomial Functions</title>
     
       <exercise>
@@ -139,8 +140,9 @@
             <item>\((\frac{f}{g})(-5)=x-9=(-5)-9=-14\)</item>
           </list>
         </solution>
-      </exercise>
-    
+      </exercise></note>
+    </section>
+    <section>  <title>Using the Remainder Theorem</title>
     <para>Let’s look at some division problems and their remainders. They are summarized in the chart below. If we take the dividend from each division problem and use it to define a function, we get the functions shown in the chart. When the divisor is written as \(x - c\), the value of the function at \(c\), \(f(c)\), is the same as the remainder from the division problem.</para>
     <table class="os-raise-wideadjustedtable">
       <tgroup cols="5"><tbody><row>
@@ -245,8 +247,7 @@ The remainder is 5 when \(f(x)=x^3+3x+19\) is divided by \(x+2\).</para>
         </media>
       </figure>
    </para>
-    <newline/>
-    <note class="try look-at-me"/>
+    <note class="try">
 <title>Try It: Using the Remainder Theorem</title>
     
       <exercise>
@@ -262,10 +263,8 @@ The remainder is 5 when \(f(x)=x^3+3x+19\) is divided by \(x+2\).</para>
           <para>The remainder is \(-1\).</para>
         </solution>
       </exercise>
-    
-  <title>Using the Remainder Theorem</title>
+    </note>
     </section> 
 </section>
-   
 </content>
 </document>
