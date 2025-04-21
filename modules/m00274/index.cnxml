@@ -6,98 +6,76 @@
     <md:uuid>cc7b0d15-fddb-4991-ad7e-c02cc82774e6</md:uuid>
   </metadata>
   <content>
-  <section><title>Cool Down Activity</title>
-<para>You have seen that you can use either the slope-intercept form or the point-slope form to find an equation of a line. Which form you use will depend on the information you are given.</para>
-<para>The table can be used as a reference.</para>
-<table class="os-raise-wideequaltable unnumbered">
-  <tgroup cols="3"><tbody><row>
-      <entry><emphasis>If given:</emphasis></entry><entry><emphasis>Use:</emphasis></entry><entry><emphasis>Form:</emphasis></entry></row>
-  <row>
-      <entry> Slope and \(y\)-intercept</entry>
-      <entry> slope-intercept </entry>
-      <entry> \( y = mx + b \)</entry>
-    </row>
-    <row>
-      <entry> Slope and a point </entry>
-      <entry> point-slope </entry>
-      <entry> \( y - y_1 = m(x - x_1) \)</entry>
-    </row>
-    <row>
-      <entry> Two points </entry>
-      <entry> point-slope </entry>
-      <entry> \( y - y_1 = m(x - x_1) \)</entry>
-    </row>
-  </tbody></tgroup><caption>
-  To Write an Equation of a Line
-  </caption>
-  </table>
-
-<exercise>
-  <problem>
-    <para>Each partner should find a slip labeled “Points.” Place the remaining equation slips in a pile face down to be used in the second step.</para>
-    <para>Find the slope of the line containing the points on your slip.</para>
-    
-    <para>Take turns sharing with your partner the slope of your line and the method used to find the slope.</para>
-  
-  </problem><solution>
-    
-    
-  
-  <para>Compare your answer:</para>
-    
-    <para>Your answer may vary, but here is a sample. You will use the point-slope form to find the line \( y - y_1 = m(x - x_1) \) given the two points on your slip.</para>
-   
-   <para>Points \((3, 4)\) and \((6, 2)\)
-  
-  \(\begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1)\\y-(4)&amp;=&amp;m(x-(3))\\(6)-4&amp;=&amp;m((2)-3)\\2&amp;=&amp;m(-1)\\2&amp;=&amp;-m\\m&amp;=&amp;-2\end{array}\)</para>
-
-<para>Points \((−3, −4)\) and \((6, 2)\)
-  
-\(\begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1)\\y-(-4)&amp;=&amp;m(x-(-3))\\(6)+4&amp;=&amp;m((2)+3)\\10&amp;=&amp;m(5)\\10&amp;=&amp;5m\\m&amp;=&amp;2\end{array}\)</para>
-  
-  </solution></exercise>
-<exercise>
-  <problem>
-    <para>Partners take turns choosing slips from the pile to see if the equation on the slip represents the line formed by the points on their Points slip.</para>
-    <list>
-      <item>One partner chooses an Equation slip from the pile. Decide if the equation represents a line through the points on your Points slip. If it does, explain to your partner how you know. Keep the slip. If it does not represent a line through your points, give the Equation slip to your partner.</item>
-      <item>Your partner should verify the equation represents a line through the points on your partner’s Points slip. Discuss and reach an agreement. If the equation does not represent a line through either partner’s points, set it aside.</item>
-      <item>Take turns choosing Equation slips until they are all gone. (There are 6 Equation slips.) Each partner should end with a total of 2 Equation slips that match. There will be 2 Equations slips that do not match either set of points.</item>
-      <item>Which equations represent a line through your points?</item></list>
-    </problem><solution>
-<para>    Compare your answers: Your answers may vary, but here are some samples.</para>
-    
-    
-  
-  <para>Points: \( (3, 4) \) and \( (6, 2) \)
-      
-      \( y - 2 = -\frac23(x - 6) \)
-    \( y - 4 = -\frac23(x - 3) \)</para>
-    
-    <para>Points: \( (‒3, ‒4) \) and \( (6, 2) \)
-      
-      \( y - 2 = -\frac23(x - 6) \)
-    \( y + 4 = -\frac23(x + 3) \)</para>
-    
-    <para>Equations with no match: 
-      \( y + 4 = -\frac23(x + 3) \)
-    \( y - 4 = -\frac23(x - 3) \)</para>
-  
-  </solution></exercise>
-
-<exercise>
-  <problem>
-    <para>Is identifying the slope enough to match your set of points to an equation?</para>
-    </problem><solution>
-    
-    
-  
-  <para>Compare your answer:</para>
-    
-    <para>Your answer may vary, but here is a sample. No, the slope is not enough to identify the equation, because lines with the same slope can go through different points.</para>
-  </solution></exercise>
-</section>
-
-
-</content>
+    <section>
+      <title>Cool Down Activity</title>
+      <para>You have seen that you can use either the slope-intercept form or the point-slope form to find an equation of a line. Which form you use will depend on the information you are given.</para>
+      <para>The table can be used as a reference.</para>
+      <table class="os-raise-wideequaltable unnumbered">
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry><emphasis>If given:</emphasis></entry>
+              <entry><emphasis>Use:</emphasis></entry>
+              <entry><emphasis>Form:</emphasis></entry>
+            </row>
+            <row>
+              <entry> Slope and \(y\)-intercept</entry>
+              <entry> slope-intercept </entry>
+              <entry> \( y = mx + b \)</entry>
+            </row>
+            <row>
+              <entry> Slope and a point </entry>
+              <entry> point-slope </entry>
+              <entry> \( y - y_1 = m(x - x_1) \)</entry>
+            </row>
+            <row>
+              <entry> Two points </entry>
+              <entry> point-slope </entry>
+              <entry> \( y - y_1 = m(x - x_1) \)</entry>
+            </row>
+          </tbody>
+        </tgroup>
+        <caption> To Write an Equation of a Line </caption>
+      </table>
+      <exercise>
+        <problem>
+          <para>Each partner should find a slip labeled “Points.” Place the remaining equation slips in a pile face down to be used in the second step.</para>
+          <para>Find the slope of the line containing the points on your slip.</para>
+          <para>Take turns sharing with your partner the slope of your line and the method used to find the slope.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>Your answer may vary, but here is a sample. You will use the point-slope form to find the line \( y - y_1 = m(x - x_1) \) given the two points on your slip.</para>
+          <para>Points \((3, 4)\) and \((6, 2)\) \(\begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1)\\y-(4)&amp;=&amp;m(x-(3))\\(6)-4&amp;=&amp;m((2)-3)\\2&amp;=&amp;m(-1)\\2&amp;=&amp;-m\\m&amp;=&amp;-2\end{array}\)</para>
+          <para>Points \((−3, −4)\) and \((6, 2)\) \(\begin{array}{rcl}y-y_1&amp;=&amp;m(x-x_1)\\y-(-4)&amp;=&amp;m(x-(-3))\\(6)+4&amp;=&amp;m((2)+3)\\10&amp;=&amp;m(5)\\10&amp;=&amp;5m\\m&amp;=&amp;2\end{array}\)</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>Partners take turns choosing slips from the pile to see if the equation on the slip represents the line formed by the points on their Points slip.</para>
+          <list>
+            <item>One partner chooses an Equation slip from the pile. Decide if the equation represents a line through the points on your Points slip. If it does, explain to your partner how you know. Keep the slip. If it does not represent a line through your points, give the Equation slip to your partner.</item>
+            <item>Your partner should verify the equation represents a line through the points on your partner’s Points slip. Discuss and reach an agreement. If the equation does not represent a line through either partner’s points, set it aside.</item>
+            <item>Take turns choosing Equation slips until they are all gone. (There are 6 Equation slips.) Each partner should end with a total of 2 Equation slips that match. There will be 2 Equations slips that do not match either set of points.</item>
+            <item>Which equations represent a line through your points?</item>
+          </list>
+        </problem>
+        <solution>
+          <para> Compare your answers: Your answers may vary, but here are some samples.</para>
+          <para>Points: \( (3, 4) \) and \( (6, 2) \) \( y - 2 = -\frac23(x - 6) \) \( y - 4 = -\frac23(x - 3) \)</para>
+          <para>Points: \( (‒3, ‒4) \) and \( (6, 2) \) \( y - 2 = -\frac23(x - 6) \) \( y + 4 = -\frac23(x + 3) \)</para>
+          <para>Equations with no match: \( y + 4 = -\frac23(x + 3) \) \( y - 4 = -\frac23(x - 3) \)</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>Is identifying the slope enough to match your set of points to an equation?</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>Your answer may vary, but here is a sample. No, the slope is not enough to identify the equation, because lines with the same slope can go through different points.</para>
+        </solution>
+      </exercise>
+    </section>
+  </content>
 </document>
