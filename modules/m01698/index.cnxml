@@ -136,18 +136,15 @@
       </exercise>
       <!--Interaction End -->
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-        </exercise>
+    </section>
+    <section>
+        <title>Are you ready for more?</title>
+          <section>
+            <title>Extend Your Thinking</title>
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       <exercise class="RFM1">
         <problem>
-          <title>Extending Your Thinking</title>
           <para>Factor the polynomial below. Write down every factoring strategy that you use.</para>
           <para>\(9x^2 − 12xy + 4y^2 − 49\)</para>
           
@@ -330,9 +327,11 @@
       </exercise>
       <!--End interaction-->
     </section>
+  </section>
     <note class="self-check">
       (    <para>Which strategy would you use to factor \(40x^2y + 44xy − 24y\)? What is the factored result?</para>)
         </note>
+
         <section>
           <title>Additional Resources</title>
           
@@ -517,7 +516,7 @@
           </solution>
         </exercise>
       
-      <note class="try look-at-me"/>
+      <note class="try">
   <title>Try It: Reviewing General Strategies to Factor a Polynomial</title>
       <para>Identify the strategy you would use to factor each polynomial.</para>
       
@@ -548,7 +547,7 @@
             <para>Factor out GCF of \(4\). Then factor by grouping since there are four terms.</para>
           </solution>
         </exercise>
-      
+      </note>
       </section>
         </section>
         
