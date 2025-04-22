@@ -13,7 +13,6 @@
   interest. Both options pay interest annually.</para>
       <para>Here are two tables showing what they would earn in the first couple of years if they do not invest additional
   amounts or withdraw any money.</para>
-      <div class="os-raise-d-flex os-raise-justify-content-between">
         <table class="os-raise-skinnytable">
           <tgroup cols="2"><tbody><row>
               <entry>
@@ -103,7 +102,7 @@
         <solution>
           <para>Compare your answer:</para>
           <para>The investment grows linearly. It increases by $20 every year. 
-   </para>
+  </para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -116,7 +115,7 @@
         <solution>
           <para>Compare your answer:</para>
           <para>$999.60 is 1.02 times $980, and $1,019.59 is 1.02 times $999.60. 
-   </para>
+  </para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -134,7 +133,7 @@
           <para>\(
       b=1,000+20x\) where \(x\) is the years since the investments were made and \(b\) is the value of the
       bonds.
-   </para>
+  </para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -148,7 +147,7 @@
           <para>Compare your answer:</para>
           <para>\(s=980 \cdot (1.02)^x\) where \(s\) represents the value of the savings account, in dollars, where and
       \(x\) is the years since the investments were made
-   </para>
+  </para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -156,25 +155,25 @@
       <exercise>
         <problem>
           <para>Which investment option should the family choose? Use your equations or calculations to support your answer.
-     </para>
+    </para>
           
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <item>The family should choose bonds if they are investing for less than 12 years. After 12 years, the savings account
+          <para>The family should choose bonds if they are investing for less than 12 years. After 12 years, the savings account
       contains $1,242.88 because this is the value from \(980 \cdot (1.02)^{12} \). And, the bonds are worth $1,240
-      after 12 years because \(1,000 + 20(12)\) is the value.</item>
-          <item>The family should choose the savings account if they are saving for something long term like college or
+      after 12 years because \(1,000 + 20(12)\) is the value.</para>
+          <para>The family should choose the savings account if they are saving for something long term like college or
       retirement. This is because over time, the savings account will contain more money than the bonds have earned. For
       instance, after 20 years, the savings account holds $1,456.23 from \([980 \cdot (1.02)^{20}]\) while the bonds
-      only yield $1,400 from \([ 1,000 + 20(20)]\).</item>
+      only yield $1,400 from \([ 1,000 + 20(20)]\).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <list class="os-raise-noindent" list-type="enumerated">
-        <item>Use the Desmos graphing tool to graph the two investment options and show how the money grows in each.</item>
+        <item>Use the Desmos graphing tool to graph the two investment options and show how the money grows in each.<media alt="">
+      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media></item>
       </list>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
         <exercise>
           <problem>
             <para>Then select the <emphasis>solution</emphasis> button to compare your work.</para>
@@ -186,10 +185,11 @@
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_16_03_01.svg"/>
                 </media>
               
-           </para>
+          </para>
           </solution>
         </exercise>
-      
+      </section>
+      <section>
       <title>Video: Using Tables to Compare Linear and Exponential Functions</title>
       <para>Watch the following video to learn more about comparing linear and exponential functions:</para>
       <media alt="Placeholder for Alt Text">
@@ -269,9 +269,7 @@
       
   <section><title>Comparing Linear and Exponential Growth Using Tables</title>
     <para>Classify each of the following tables as linear, exponential growth, or exponential decay.</para>
-    
-    <div class="os-raise-d-flex os-raise-justify-content-between">
-    
+        
       <table class="os-raise-skinnytable">
         <tgroup cols="2"><tbody><row>
             <entry><emphasis>
@@ -446,12 +444,13 @@
     <para>In Table C, the quotient of consecutive terms is \(\frac{60}{30}=2\). This relationship holds true for all of the
       pairs of consecutive terms, which means this table represents an exponential relationship. Since the growth factor is
       greater than one, Table C represents exponential growth.</para>
+
+      <note class="try">
     <title> Try It: Comparing Linear and Exponential Growth Using Tables</title>
     <para>Which of the following tables represents exponential growth? Be prepared to show your reasoning.</para>
     <exercise>
       <problem>
         
-        <div class="os-raise-d-flex os-raise-justify-content-between">
           <table class="os-raise-skinnytable">
             <tgroup cols="2"><tbody><row>
                 <entry><emphasis>
@@ -635,13 +634,13 @@
       <para>Next, check for connections between consecutive terms. In Table A, \(2+6= 8\) and \(2 \cdot 4=8\). Since there
         seems to be the possibility of either a linear relationship or exponential growth, you need to check the next set of
         terms. Since \(8 \cdot 4 \neq 14\) and \(8+6 =14\), the relationship in Table A is linear, not exponential. 
-     </para>
+    </para>
       
       <para>This means the answer should be Table C, but we should always check to confirm. If we check consecutive terms in
         Table C for a growth factor, we get the following: \(\frac {16}{4}=4\), \(\frac{64}{16}=4\), and
         \(\frac{256}{64}=4\). This proves that the growth factor is 4 and Table C represents exponential growth.</para>
     
-    </solution></exercise>
+    </solution></exercise></note>
     </section>
     </section>
     

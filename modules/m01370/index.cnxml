@@ -6,10 +6,10 @@
     <md:uuid>f9d51a47-d5aa-49cd-ab95-2c842807e928</md:uuid>
   </metadata>
   <content>
-    <section>
       <para>Your teacher will give you a <link url="https://k12.openstax.org/contents/raise/resources/404be7223239829b36370c118b70d9dac9e44f8b">set of cards</link> containing descriptions of situations and graphs. Match each situation with a graph that represents it. Record your matches and be prepared to explain your reasoning.</para>
       <para>Use the cards to answer questions 1 – 4. Match each graph representation to the description of the situation characterized by exponential change. Then choose the relationship between the number of years since purchase and the value.</para>
-      <section class="check-understanding">
+
+      <section>
         <title>Activity</title>
         <exercise id="ee94e163-7f73-4cab-8d33-69086729ff4f" class="multiple-choice">
           <problem>
@@ -29,7 +29,6 @@
             <para>Nice try! The correct answer is: A car loses \(\frac14\) of its value every year after purchase.</para>
           </solution>
         </exercise>
-      </section>
       <!--Q#2-->
       <exercise>
         <problem>
@@ -48,7 +47,6 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <section class="check-understanding">
         <exercise id="_4f069820-3994-4438-ad4e-1d04aced19a6" class="multiple-choice">
           <problem>
             <para>Choose the description of exponential change shown in the graph.</para>
@@ -67,7 +65,6 @@
             <para>Nice try! The correct answer is: The value of a stock triples roughly every 8 years.</para>
           </solution>
         </exercise>
-      </section>
       <!--Q#4-->
       <exercise>
         <problem>
@@ -85,7 +82,6 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <section class="check-understanding">
         <exercise id="_425179bb-4b3d-40b6-b1e9-35c21f92dc6a" class="multiple-choice">
           <problem>
             <para>Choose the description of exponential change shown in the graph.</para>
@@ -104,7 +100,6 @@
             <para>Nice try! The correct answer is: The value of a stock doubles approximately every 4 years.</para>
           </solution>
         </exercise>
-      </section>
       <!--Q#6-->
       <exercise>
         <problem>
@@ -121,7 +116,7 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <section class="check-understanding">
+   
         <exercise id="_9a2c8284-2058-460c-a669-4671a60164b7" class="multiple-choice">
           <problem>
             <para>Choose the description of exponential change shown in the graph.</para>
@@ -140,7 +135,6 @@
             <para>Nice try! The correct answer is: A laptop loses \(\frac25\) of its value every year after purchase.</para>
           </solution>
         </exercise>
-      </section>
       <!--Q#8-->
       <exercise>
         <problem>
@@ -158,6 +152,8 @@
         </solution>
       </exercise>
       <!--Interaction End -->
+    </section>
+    <section>
       <title>Video: Analyzing Graphs of Exponential Scenarios</title>
       <para>Watch the following video to learn more about how to analyze a graph to determine which exponential scenario it represents.</para>
       <media alt="Placeholder for Alt Text">
@@ -165,13 +161,12 @@
       </media>
     </section>
     <note class="self-check">
-      <para>Which scenario could be represented by the following graph? </para>
+      <para>Which scenario could be represented by the following graph?</para>
       <para>
           <media alt="GRAPH OF AN INCREASING EXPONENTIAL FUNCTION THAT SHOWS TOTAL AMOUNT IN DOLLARS AS A FUNCTION OF TIME IN MONTHS. THE FUNCTION HAS A \(y\)-intercepts OF APPROXIMATELY 500.">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_09_07_01.jpg"/>
           </media>
-        
-     </para>
+    </para>
     </note>
     <section>
       <title>Additional Resources</title>
@@ -185,13 +180,13 @@
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_09_08_01.jpg"/>
           </media>
         
-     </para>
+    </para>
       <para>Graph 2
   (<media alt="GRAPH 2 SHOWS AN INCREASING EXPONENTIAL FUNCTION WITH A \(y\)-intercepts OF 1 AND PASSING THROUGH THE POINTS (1, 5) AND (2, 25)."><image mime-type="image/jpeg" src="../../media/Algebra-1_05_09_08_02.jpg"/></media>)</para>
       <para>Situation 1: A dangerous bacterial compound forms in a closed environment but is immediately detected. This bacteria is known to double in concentration in a closed environment every hour and can be modeled by the function \(P(t) = 100 \cdot 2^t\), where \(t\)<emphasis> </emphasis>is measured in hours.</para>
       <para>Situation 2: Loggerhead turtles reproduce every 2 to 4 years, laying approximately 120 eggs in a clutch. Using this information, we can derive an approximate equation to model the turtle population. As is often the case in biological studies, we will count only the female turtles. If we start with a population of one female turtle in a protected area and assume that all turtles survive, we can roughly approximate the population of female turtles by \(P(t) = 5^t\).</para>
       <para>Since each graph represents exponential growth, and they both have the same labels, you have to look more closely at each. The biggest difference is the \(y\)-intercept or initial value. Graph 1 has an initial value of 100, and Graph 2 has a very small initial value. When you reread the situations, you can see that Situation 1 starts with 100 bacteria, and Situation 2 starts with 1 female turtle. This helps you see that Situation 1 belongs to Graph 1 and Situation 2 belongs to Graph 2.</para>
-      <note class="try look-at-me"/>
+      <note class="try">
   <title>Try It: Connecting Exponential Situations and Graphs</title>
       <para>
           <media alt="Graph of function.">
@@ -202,8 +197,7 @@
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_09_08_04.svg"/>
           </media>
         
-     </para>
-      
+    </para>
         <exercise>
           <problem>
             <para>Write a possible situation for each graph. Make sure to include vocabulary about exponential functions.</para>
@@ -217,7 +211,7 @@
             <para>Second, graph the amount of medicine in the body starting at 80 mg and decaying by a factor of \(\frac14\) each hour.</para>
           </solution>
         </exercise>
-      
+      </note>
     </section>
     </section>
     
