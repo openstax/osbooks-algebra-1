@@ -6,228 +6,187 @@
     <md:uuid>e0c65a88-519b-4fd7-af8e-26f741e5fa90</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity </title>
-<para>For each equation, find its solution or solutions. Be prepared to explain your reasoning.</para>
-<para>For questions 1 – 3, review the process of solving equations.</para>
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>\(x−3=0\)</para>
-    </problem><solution>
-    
-    <para>Enter the solution or solutions for the equation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(x=3\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>\(x+11=0\)</para>
-    </problem><solution>
-    
-    <para>Enter the solution or solutions for the equation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(x=-11\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>\(2x+11=0\)</para>
-    </problem><solution>
-    
-    <para>Enter the solution or solutions for the equation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(x=\frac {-11}{2}\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<para>For questions 4 – 7, recall the <term class="glossary-tooltip">zero product property</term> means that each (or all) of the factors could be equal to zero when their product is zero. Solve each equation by setting each factor equal to zero and solving.</para>
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>\(x(2x+11)=0\)</para>
-    </problem><solution>
-    
-    <para>Enter the solution or solutions for the equation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(x=0\) and \(x=\frac {-11}{2}\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>\((x−3)(x+11)=0\)</para>
-    </problem><solution>
-    
-    <para>Enter the solution or solutions for the equation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(x=3\) and \(x=-11\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>\((x−3)(2x+11)=0\)</para>
-    </problem><solution>
-    
-    <para>Enter the solution or solutions for the equation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(x=3\) and \(x=\frac{-11}{2}\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>\(x(x+3)(3x−4)=0\)</para>
-    </problem><solution>
-    
-    <para>Enter the solution or solutions for the equation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(x=0\), \(x=-3\), and \(x= \frac {4}{3}\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<exercise>
-  <problem>
-    
-    
-  
-  
-  
-  </problem></exercise>
-<!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<exercise class="RFM1">
-  <problem>
-    <title>Extending Your Thinking</title>
-    
-    <para>Use factors of 48 to find as many solutions as you can to the equation \((x−3)(x+5)=48\).</para>
-    </problem><solution>
-    
-    <para>Enter the solution or solutions for the equation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(x=7\) and \(x=−9\)</para>
-  
-  </solution></exercise>
-<!--End interaction-->
-
-<!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<exercise class="RFM1">
-  <problem>
-    <para>Once you think you have all the solutions, explain why these must be the only solutions.</para>
-    </problem><solution>
-    
-    <para>Enter your explanation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>The numbers expressed by \(x−3\) and \(x+5\) are 8 units apart. The <emphasis>only</emphasis> factor pairs of 48 that are 8 units apart are 4 and 12, as well as –4 and –12.</para>
-    
-    <para>Think:</para>
-    
-    <list>
-      <item>What value of \(x\) would make the factors \((x−3)(x+5)\) equivalent to \((4)(12)\)? \(x=7\).</item>
-      <item>What value of \(x\) would make the factors \((x−3)(x+5)\) equivalent to \((-4)(-12)\)? \(x=-9\).</item>
-    </list>
-    
-    <para>Check:</para>
-    
-    <list>
-      <item>If \(x=7\), then \((x−3)(x+5) = 4 \cdot 12\).</item>
-      <item>If \(x=-9\), then \((x−3)(x+5)=-12 \cdot (-4)\).</item>
-    </list>
-  
-  </solution></exercise>
-<!--End interaction--></section>
-
-<note class="self-check"><para>Solve the equation.</para>
+    <section>
+      <title>Activity </title>
+      <para>For each equation, find its solution or solutions. Be prepared to explain your reasoning.</para>
+      <para>For questions 1 – 3, review the process of solving equations.</para>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>\(x−3=0\)</para>
+        </problem>
+        <solution>
+          <para>Enter the solution or solutions for the equation.</para>
+          <para>Compare your answer:</para>
+          <para>\(x=3\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>\(x+11=0\)</para>
+        </problem>
+        <solution>
+          <para>Enter the solution or solutions for the equation.</para>
+          <para>Compare your answer:</para>
+          <para>\(x=-11\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>\(2x+11=0\)</para>
+        </problem>
+        <solution>
+          <para>Enter the solution or solutions for the equation.</para>
+          <para>Compare your answer:</para>
+          <para>\(x=\frac {-11}{2}\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <para>For questions 4 – 7, recall the <term class="glossary-tooltip">zero product property</term> means that each (or all) of the factors could be equal to zero when their product is zero. Solve each equation by setting each factor equal to zero and solving.</para>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>\(x(2x+11)=0\)</para>
+        </problem>
+        <solution>
+          <para>Enter the solution or solutions for the equation.</para>
+          <para>Compare your answer:</para>
+          <para>\(x=0\) and \(x=\frac {-11}{2}\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>\((x−3)(x+11)=0\)</para>
+        </problem>
+        <solution>
+          <para>Enter the solution or solutions for the equation.</para>
+          <para>Compare your answer:</para>
+          <para>\(x=3\) and \(x=-11\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>\((x−3)(2x+11)=0\)</para>
+        </problem>
+        <solution>
+          <para>Enter the solution or solutions for the equation.</para>
+          <para>Compare your answer:</para>
+          <para>\(x=3\) and \(x=\frac{-11}{2}\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>\(x(x+3)(3x−4)=0\)</para>
+        </problem>
+        <solution>
+          <para>Enter the solution or solutions for the equation.</para>
+          <para>Compare your answer:</para>
+          <para>\(x=0\), \(x=-3\), and \(x= \frac {4}{3}\)</para>
+        </solution>
+      </exercise>
+      <section>
+        <title>Are you ready for more?</title>
+        <exercise class="RFM1">
+          <problem>
+            <title>Extending Your Thinking</title>
+            <para>Use factors of 48 to find as many solutions as you can to the equation \((x−3)(x+5)=48\).</para>
+          </problem>
+          <solution>
+            <para>Enter the solution or solutions for the equation.</para>
+            <para>Compare your answer:</para>
+            <para>\(x=7\) and \(x=−9\)</para>
+          </solution>
+        </exercise>
+        <!--End interaction-->
+        <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+        <exercise class="RFM1">
+          <problem>
+            <para>Once you think you have all the solutions, explain why these must be the only solutions.</para>
+          </problem>
+          <solution>
+            <para>Enter your explanation.</para>
+            <para>Compare your answer:</para>
+            <para>The numbers expressed by \(x−3\) and \(x+5\) are 8 units apart. The <emphasis>only</emphasis> factor pairs of 48 that are 8 units apart are 4 and 12, as well as –4 and –12.</para>
+            <para>Think:</para>
+            <list>
+              <item>What value of \(x\) would make the factors \((x−3)(x+5)\) equivalent to \((4)(12)\)? \(x=7\).</item>
+              <item>What value of \(x\) would make the factors \((x−3)(x+5)\) equivalent to \((-4)(-12)\)? \(x=-9\).</item>
+            </list>
+            <para>Check:</para>
+            <list>
+              <item>If \(x=7\), then \((x−3)(x+5) = 4 \cdot 12\).</item>
+              <item>If \(x=-9\), then \((x−3)(x+5)=-12 \cdot (-4)\).</item>
+            </list>
+          </solution>
+        </exercise>
+        <!--End interaction-->
+      </section>
+    </section>
+    <note class="self-check">
+      <para>Solve the equation.</para>
   <para>\((x+4)(8x−16)=0\)</para></note>
-
-  <section><title>Solving Equations of Increasing Complexity Using Reasoning</title>
-    <para>Let’s look again at the <term class="glossary-tooltip">zero product property</term>.</para>
-    
-    <note>
-      <para>ZERO PRODUCT PROPERTY</para>
+    <section>
+      <title>Additional Resources</title>
+      <section>
+        <title>Solving Equations of Increasing Complexity Using Reasoning</title>
+        <para>Let’s look again at the <term class="glossary-tooltip">zero product property</term>.</para>
+        <note>
+          <para>ZERO PRODUCT PROPERTY</para>
       <para>If the product of two expressions is 0, then one or both of the expressions equal 0.</para>
       <para>If \(ab=0\), then \(a=0\) or \(b=0\), or \(a=b=0\).</para>
-    </note>
-    
-    <para>We can use the zero product property to help reason through finding the solutions to complex quadratic equations.</para>
-    <para>We know that if factors are multiplied together and the result is 0, then one of those factors must equal 0.</para>
-    <para>Example 1</para>
-    <para>\((x−7)(2x+12)=0\)</para>
-    <para>This equation has two different factors that, when multiplied, result in a product of 0.</para>
-    <para>To find possible solutions to this equation, we can set each factor equal to 0 and solve.</para>
-    <para>\((x-7)=0\;\;\;\;\;\;\;(2x+12)=0\)</para>
-    <para>The value \(x=7\) makes the first factor equal to 0. The value \(x=−6\) makes the second factor equal to 0.</para>
-    <para>So, the solutions to the original equation are \(x=7\) and \(x=−6\).</para>
-    <para>Example 2</para>
-    <para>\(x(x−9)(3x−8)=0\)</para>
-    <para>This equation has three different factors, but the reasoning is the same. We can still set each factor equal to 0 and solve.</para>
-    <para>The first factor is just \(x\). So, \(x=0\) is a solution.</para>
-    <para>The second factor gives a solution of \(x=9\) when we solve \((x−9)=0\).</para>
-    <para>The third factor gives a solution of \(x=\frac {8}{3}\) when we solve \((3x−8)=0\).</para>
-    <para>So, the solutions to \(x(x−9)(3x−8)=0\) are \(x=0\), \(x=\frac {8}{3}\), and \(x=9\).</para>
-    <note class="try look-at-me"/>
-    <title>Try It: Solving Equations of Increasing Complexity Using Reasoning</title>
-    <exercise>
-      <problem>
-        
-        <para>Use the zero product property to reason through finding the solutions to the following quadratic equations.</para>
-        
-        <para>\((x−6)(4x+20)=0\)</para>
-        <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-      
-      </problem><solution>
-      <para>Think about which values make each factor equal to 0.</para>
-      
-      <para>\(x=6\) and \(x=-5\)</para>
-    
-    </solution></exercise>
-    <exercise>
-      <problem>
-        
-        <para>Use the zero product property to reason through finding the solutions to the following quadratic equations.</para>
-        
-        <para>\((x+1)(5x+14)=0\)</para>
-        <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-      
-      </problem><solution>
-      <para>Think about which values make each factor equal to 0.</para>
-      
-      <para>\(x=-1\) and \(x=\frac {-14}{5}\)</para>
-    
-    </solution></exercise>
+        </note>
+        <para>We can use the zero product property to help reason through finding the solutions to complex quadratic equations.</para>
+        <para>We know that if factors are multiplied together and the result is 0, then one of those factors must equal 0.</para>
+        <para>Example 1</para>
+        <para>\((x−7)(2x+12)=0\)</para>
+        <para>This equation has two different factors that, when multiplied, result in a product of 0.</para>
+        <para>To find possible solutions to this equation, we can set each factor equal to 0 and solve.</para>
+        <para>\((x-7)=0\;\;\;\;\;\;\;(2x+12)=0\)</para>
+        <para>The value \(x=7\) makes the first factor equal to 0. The value \(x=−6\) makes the second factor equal to 0.</para>
+        <para>So, the solutions to the original equation are \(x=7\) and \(x=−6\).</para>
+        <para>Example 2</para>
+        <para>\(x(x−9)(3x−8)=0\)</para>
+        <para>This equation has three different factors, but the reasoning is the same. We can still set each factor equal to 0 and solve.</para>
+        <para>The first factor is just \(x\). So, \(x=0\) is a solution.</para>
+        <para>The second factor gives a solution of \(x=9\) when we solve \((x−9)=0\).</para>
+        <para>The third factor gives a solution of \(x=\frac {8}{3}\) when we solve \((3x−8)=0\).</para>
+        <para>So, the solutions to \(x(x−9)(3x−8)=0\) are \(x=0\), \(x=\frac {8}{3}\), and \(x=9\).</para>
+        <note class="try">
+          <title>Try It: Solving Equations of Increasing Complexity Using Reasoning</title>
+      <exercise>
+            <problem>
+              <para>Use the zero product property to reason through finding the solutions to the following quadratic equations.</para>
+              <para>\((x−6)(4x+20)=0\)</para>
+              <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution>
+              <para>Think about which values make each factor equal to 0.</para>
+              <para>\(x=6\) and \(x=-5\)</para>
+            </solution>
+          </exercise>
+      <exercise>
+            <problem>
+              <para>Use the zero product property to reason through finding the solutions to the following quadratic equations.</para>
+              <para>\((x+1)(5x+14)=0\)</para>
+              <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution>
+              <para>Think about which values make each factor equal to 0.</para>
+              <para>\(x=-1\) and \(x=\frac {-14}{5}\)</para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
     </section>
-</content>
+  </content>
 </document>
