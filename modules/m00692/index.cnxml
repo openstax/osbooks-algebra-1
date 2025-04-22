@@ -8,95 +8,104 @@
   <content>
     <section>
       <title>Activity</title>
-      <note>
-        <para>Access the <link url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
-      
+      <note class="link-to-learning">
+        <para>Access the <link
+            url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos
+        guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
+      </note>
+
       <para>Watch the following video to help you answer the questions below.</para>
       <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://player.vimeo.com/video/304121358"/>
+        <iframe width="660" height="371.4" src="https://player.vimeo.com/video/304121358" />
       </media>
       <!--Q#1-->
-      
-        <exercise>
-          <problem>
-            <para>To complete the table, record the weight for the number of oranges in the box from the video.</para>
-            <table class="os-raise-skinnytable" id="table-00001">
-              <tgroup cols="2"><tbody><row>
+
+      <exercise>
+        <problem>
+          <para>To complete the table, record the weight for the number of oranges in the box from
+            the video.</para>
+          <table class="os-raise-skinnytable unnumbered" id="table-00001">
+            <tgroup cols="2">
+              <thead>
+                <row>
                   <entry>
-                   <emphasis>number of oranges</emphasis>
+                    <emphasis>number of oranges</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>weight in kilograms</emphasis>
+                    <emphasis>weight in kilograms</emphasis>
                   </entry>
                 </row>
-              <row>
+              </thead>
+              <tbody>
+                <row>
                   <entry> 3 </entry>
                   <entry>
-                   <emphasis>
-           </emphasis> 
+                    <emphasis> </emphasis>
                   </entry>
                 </row>
                 <row>
                   <entry> 4 </entry>
                   <entry>
-                   <emphasis>
-           </emphasis> 
+                    <emphasis> </emphasis>
                   </entry>
                 </row>
                 <row>
                   <entry> 5 </entry>
                   <entry>
-                   <emphasis>
-           </emphasis> 
+                    <emphasis> </emphasis>
                   </entry>
                 </row>
                 <row>
                   <entry> 6 </entry>
                   <entry>
-                   <emphasis>
-           </emphasis> 
+                    <emphasis> </emphasis>
                   </entry>
                 </row>
                 <row>
                   <entry> 7 </entry>
                   <entry>
-                   <emphasis>
-           </emphasis> 
+                    <emphasis> </emphasis>
                   </entry>
                 </row>
                 <row>
                   <entry> 8 </entry>
                   <entry>
-                   <emphasis>
-           </emphasis> 
+                    <emphasis> </emphasis>
                   </entry>
                 </row>
                 <row>
                   <entry> 9 </entry>
                   <entry>
-                   <emphasis>
-           </emphasis> 
+                    <emphasis> </emphasis>
                   </entry>
                 </row>
                 <row>
                   <entry> 10 </entry>
-                  <entry/>
+                  <entry />
                 </row>
-              </tbody></tgroup></table>
-            <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answers:</para>
-            <table class="os-raise-skinnytable" id="table-00002">
-              <tgroup cols="2"><tbody><row>
+              </tbody>
+            </tgroup>
+          </table>
+
+          <para>Write down your answers, then select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answers:</para>
+          <table class="os-raise-skinnytable unnumbered" id="table-00002">
+            <tgroup cols="2">
+              <thead>
+                <row>
                   <entry>
-                   <emphasis>number of oranges</emphasis>
+                    <emphasis>number of oranges</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>weight in kilograms</emphasis>
+                    <emphasis>weight in kilograms</emphasis>
                   </entry>
                 </row>
-              <row>
+              </thead>
+              <tbody>
+                <row>
                   <entry> 3 </entry>
                   <entry> 1.027 </entry>
                 </row>
@@ -128,294 +137,343 @@
                   <entry> 10 </entry>
                   <entry> 2.569 </entry>
                 </row>
-              </tbody></tgroup></table>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Create a scatter plot of the data.</item>
-      </list>
-      <iframe src="../../media/desmos/07fc80ad88200557d177340fd8af317ef8ad972d.html" width="600" height="500"/><!--Q#2-->
-      
-        <exercise>
-          <problem>
-            <!-- had to move question content above to allow desmos to show up under question-->
-            <para>Use the graphing tool here. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-             <emphasis>Answer:</emphasis>
-           </para>
-            
-              <media alt="Scatter plot. Weight in kilograms. Number of oranges.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_03_03_01.svg"/>
-              </media>
-            
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
+
+      <!--Q#2-->
+      <exercise>
+        <problem>
+          <!-- had to move question content above to allow desmos to show up under question-->
+          <para>Create a scatter plot of the data.</para>
+          <media alt="">
+            <iframe src="../../media/desmos/07fc80ad88200557d177340fd8af317ef8ad972d.html"
+              width="600"
+              height="500" />
+          </media>
+          <para>Use the graphing tool here. Then select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <emphasis>Answer:</emphasis>
+          </para>
+
+          <media alt="Scatter plot. Weight in kilograms. Number of oranges.">
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_03_03_01.svg" />
+          </media>
+
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#3-->
-      
-        <exercise>
-          <problem>
-            <para> Approximate the equation of the line that best fits the data. Use the same graphing tool you used in the question above. Approximate the equation of the line that best fits the data.</para>
-            <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Your answer may vary, but here is a sample. The least squares regression line is shown in the scatter plot.
-    \(y=0.216x+0.345\)</para>
-            
-              <media alt="Scatter plot. Weight in kilograms. Number of oranges.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_03_03_02.svg"/>
-              </media>
-            
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
-      <!--Interaction End -->
+
       <exercise>
         <problem>
-          <para>Estimate a value for the slope of the line that you drew. What does the value of the slope represent?</para>
+          <para> Approximate the equation of the line that best fits the data. Use the same graphing
+            tool you used in the question above. Approximate the equation of the line that best fits
+            the data.</para>
+          <para>When you have finished graphing, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
         </problem>
         <solution>
-          <para/>
           <para>Compare your answer:</para>
-          <para><emphasis>Answer:</emphasis> The slope is about 0.2. This means that for each additional orange added to the box, the weight is predicted to increase by about 0.2 kg.</para>
+          <para>Your answer may vary, but here is a sample. The least squares regression line is
+            shown in the scatter plot. \(y=0.216x+0.345\)</para>
+
+          <media alt="Scatter plot. Weight in kilograms. Number of oranges.">
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_03_03_02.svg" />
+          </media>
+
         </solution>
       </exercise>
-      <!--Text Entry Interaction Start -->
+
+      <!--Interaction
+      End -->
+      <!--Interaction
+      End -->
       <exercise>
         <problem>
-          <para>Estimate the weight of a box containing 11 oranges. Will this estimate be close to the actual value? Be prepared to show your reasoning.</para>
+          <para>Estimate a value for the slope of the line that you drew. What does the value of the
+            slope represent?</para>
         </problem>
         <solution>
-          <para/>
+          <para />
           <para>Compare your answer:</para>
-          <para><emphasis>Answer:</emphasis> About 2.8 kilograms \((2.6+0.2=2.8)\). The estimate should be close to the actual value since there is only 1 additional orange added, and while there is some variability, it is not great.</para>
+          <para><emphasis>Answer:</emphasis> The slope is about 0.2. This means that for each
+            additional orange added to the box, the weight is predicted to increase by about 0.2 kg.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise>
         <problem>
-          <para>Estimate the weight of a box containing 50 oranges. Will this estimate be close to the actual value? Be prepared to show your reasoning.</para>
+          <para>Estimate the weight of a box containing 11 oranges. Will this estimate be close to
+            the actual value? Be prepared to show your reasoning.</para>
         </problem>
         <solution>
-          <para/>
+          <para />
           <para>Compare your answer:</para>
-          <para><emphasis>Answer:</emphasis> About 10.6 kilograms \((2.6+40⋅0.2=10.6)\). This estimate will probably not be very close. With data only going to 10 oranges, the variability in orange weight will make it harder to get an estimate that is close to the actual value with more oranges.</para>
+          <para><emphasis>Answer:</emphasis> About 2.8 kilograms \((2.6+0.2=2.8)\). The estimate
+            should be close to the actual value since there is only 1 additional orange added, and
+            while there is some variability, it is not great.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <note id="note-00001"><para>When you use a linear</para><term class="glossary-tooltip" id="term-00001">model</term> to estimate a value in the data given in a scatter plot, that is called <term class="glossary-tooltip" id="term-00002">interpolation</term>. When you use a linear model to estimate the value outside the data given in the scatter plot, that is called <term class="glossary-tooltip" id="term-00003">extrapolation</term>.</note>
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise>
         <problem>
-          <para>Estimate the coordinates for the vertical intercept of the line you drew. What might the <emphasis effect="italics">y</emphasis>-coordinate for this point represent?</para>
+          <para>Estimate the weight of a box containing 50 oranges. Will this estimate be close to
+            the actual value? Be prepared to show your reasoning.</para>
         </problem>
         <solution>
-          <para/>
+          <para />
           <para>Compare your answer:</para>
-          <para><emphasis>Answer:</emphasis> About 0.3 kilogram. The <emphasis effect="italics">y</emphasis>-coordinate estimates the weight of the box with no oranges in it.</para>
+          <para><emphasis>Answer:</emphasis> About 10.6 kilograms \((2.6+40⋅0.2=10.6)\). This
+            estimate will probably not be very close. With data only going to 10 oranges, the
+            variability in orange weight will make it harder to get an estimate that is close to the
+            actual value with more oranges.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <note id="note-00001">
+        <para>When you use a linear <term class="glossary-tooltip"
+            id="term-00001">model</term> to estimate a value in the data given in a scatter plot,
+        that is called <term class="glossary-tooltip" id="term-00002">interpolation</term>. When you
+        use a linear model to estimate the value outside the data given in the scatter plot, that is
+        called <term class="glossary-tooltip" id="term-00003">extrapolation</term>.</para>
+      </note>
+      <!--Text
+      Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Estimate the coordinates for the vertical intercept of the line you drew. What might
+            the <emphasis effect="italics">y</emphasis>-coordinate for this point represent?</para>
+        </problem>
+        <solution>
+          <para />
+          <para>Compare your answer:</para>
+          <para><emphasis>Answer:</emphasis> About 0.3 kilogram. The <emphasis effect="italics">y</emphasis>-coordinate
+            estimates the weight of the box with no oranges in it.</para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise>
         <problem>
           <para>Which point(s) are best fit by your linear model? How did you decide?</para>
         </problem>
         <solution>
-          <para/>
+          <para />
           <para>Compare your answer:</para>
-          <para><emphasis>Answer:</emphasis> When there were 6 oranges in the box, it was closest to my line. I decided this because the line almost goes through that point.</para>
+          <para><emphasis>Answer:</emphasis> When there were 6 oranges in the box, it was closest to
+            my line. I decided this because the line almost goes through that point.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise>
         <problem>
           <para>Which point(s) fit the least well by your linear model? How did you decide?</para>
         </problem>
         <solution>
-          <para/>
+          <para />
           <para>Compare your answer:</para>
-          <para><emphasis>Answer:</emphasis> When there were 7 oranges in the basket, it was the worst estimate. I decided this since this point is the farthest from the line.</para>
+          <para><emphasis>Answer:</emphasis> When there were 7 oranges in the basket, it was the
+            worst estimate. I decided this since this point is the farthest from the line.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <para>Compare your line with that of a partner. Discuss why you chose to put your lines where you did. How are your answers different? Which of you has a line that is the better fit? Why?</para>
+      <!--Interaction
+      End -->
+      <para>Compare your line with that of a partner. Discuss why you chose to put your lines where
+        you did. How are your answers different? Which of you has a line that is the better fit?
+        Why?</para>
     </section>
-    <note class="self-check">
-      <para>The plot below is a scatter plot of mean temperature in July and mean inches of rain per year for a sample of midwestern cities. A line is drawn to fit the data.</para>
-      <para>
-          <media alt="A SCATTER PLOT THAT SHOWS MEAN TEMPERATURE IN JULY IN DEGREES FAHRENHEIT ON THE X-AXIS AND MEAN RAINFALL PER YEAR IN INCHES ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_04_01.jpg"/>
-          </media>
-        
-    </para>
-      <para>Use the line provided to predict the mean number of inches of rain per year for a city that has a mean temperature of 70°F in July.</para>
-    </note>
+
+    <section>
+      <note class="self-check">
+        <para>The plot below is a scatter plot of mean temperature in July and mean inches of rain
+        per year for a sample of midwestern cities. A line is drawn to fit the data.</para>
+        <media
+          alt="A SCATTER PLOT THAT SHOWS MEAN TEMPERATURE IN JULY IN DEGREES FAHRENHEIT ON THE X-AXIS AND MEAN RAINFALL PER YEAR IN INCHES ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_04_01.jpg" />
+        </media>
+      <para>Use
+        the line provided to predict the mean number of inches of rain per year for a city that has
+        a mean temperature of 70°F in July.</para>
+      </note>
+    </section>
+
     <section>
       <title>Additional Resources</title>
-      
-    <section>
-      <title>Drawing and Interpreting Scatter Plots</title>
-      <para>A scatter plot is a graph of plotted points that may show a relationship between two sets of data. If the relationship is from a linear model or from a model that is nearly linear, the professor can draw conclusions using his knowledge of linear functions.</para>
-      <para>Here is an example of a scatter plot.</para>
-      
-        <media alt="Scatter plot, titled 'Final Exam Score VS Age'. The \(x\)-axis is the age, and the \(y\)-axis is the final exam score. The range of ages are between 20s - 50s, and the range for scores are between upper 50s and 90s.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_05_01.jpg"/>
+
+      <section>
+        <title>Drawing and Interpreting Scatter Plots</title>
+        <para>A scatter plot is a graph of plotted points that may show a relationship between two
+          sets of data. If the relationship is from a linear model or from a model that is nearly
+          linear, the professor can draw conclusions using his knowledge of linear functions.</para>
+        <para>Here is an example of a scatter plot.</para>
+
+        <media
+          alt="Scatter plot, titled 'Final Exam Score VS Age'. The \(x\)-axis is the age, and the \(y\)-axis is the final exam score. The range of ages are between 20s - 50s, and the range for scores are between upper 50s and 90s.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_05_01.jpg" />
         </media>
-      
-      <para>Notice this scatter plot does not indicate a linear relationship. The points do not appear to follow a trend. In other words, there does not appear to be a relationship between the age of the student and the score on the final exam.</para>
-      <para>Example: Using a Scatter Plot to Investigate Cricket Chirps</para>
-      <para>The table shows the number of cricket chirps in 15 seconds for several different air temperatures in degrees Fahrenheit.</para>
-      <table class="os-raise-horizontaltable">
-        <tgroup cols="10"><tbody><row>
-            <entry>
-             <emphasis>
-          Chirps
-       </emphasis> 
-            </entry>
-            <entry>
-          44
-        </entry>
-            <entry>
-          35
-        </entry>
-            <entry>
-          20.4
-        </entry>
-            <entry>
-          33
-        </entry>
-            <entry>
-          31
-        </entry>
-            <entry>
-          35
-        </entry>
-            <entry>
-          18.5
-        </entry>
-            <entry>
-          37
-        </entry>
-            <entry>
-          26
-        </entry>
-          </row>
-          <row>
-            <entry>
-             <emphasis>
-          Temperature
-       </emphasis> 
-            </entry>
-            <entry>
-          80.5
-        </entry>
-            <entry>
-          70.5
-        </entry>
-            <entry>
-          57
-        </entry>
-            <entry>
-          66
-        </entry>
-            <entry>
-          68
-        </entry>
-            <entry>
-          72
-        </entry>
-            <entry>
-          52
-        </entry>
-            <entry>
-          73.5
-        </entry>
-            <entry>
-          53
-        </entry>
-          </row>
-        </tbody></tgroup></table>
-      <para>Plotting these data suggests that there may be a trend. We can see from the trend in the data that as the number of chirps increases every 15 seconds, the temperature increases. The trend appears to be roughly linear, though certainly not perfectly so.</para>
-      
-        <media alt="Scatter plot, titled 'Cricket Chirps vs. Air Temperature'. The \(x\)-axis is the Cricket Chirps in 15 Seconds, and the \(y\)-axis is the Temperature (F). The line regression is generally positive.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_05_02.jpg"/>
+
+        <para>Notice this scatter plot does not indicate a linear relationship. The points do not
+          appear to follow a trend. In other words, there does not appear to be a relationship
+          between the age of the student and the score on the final exam.</para>
+       
+          <para><emphasis>Example: Using a Scatter Plot to Investigate Cricket Chirps</emphasis></para>
+        <para>The table shows the number of cricket chirps in 15 seconds for several different air
+          temperatures in degrees Fahrenheit.</para>
+        <table class="os-raise-horizontaltable unnumbered">
+          <tgroup cols="10">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis> Chirps </emphasis>
+                </entry>
+                <entry> 44 </entry>
+                <entry> 35 </entry>
+                <entry> 20.4 </entry>
+                <entry> 33 </entry>
+                <entry> 31 </entry>
+                <entry> 35 </entry>
+                <entry> 18.5 </entry>
+                <entry> 37 </entry>
+                <entry> 26 </entry>
+              </row>
+              <row>
+                <entry>
+                  <emphasis> Temperature </emphasis>
+                </entry>
+                <entry> 80.5 </entry>
+                <entry> 70.5 </entry>
+                <entry> 57 </entry>
+                <entry> 66 </entry>
+                <entry> 68 </entry>
+                <entry> 72 </entry>
+                <entry> 52 </entry>
+                <entry> 73.5 </entry>
+                <entry> 53 </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para>Plotting these data suggests that there may be a trend. We can see from the trend in
+          the data that as the number of chirps increases every 15 seconds, the temperature
+          increases. The trend appears to be roughly linear, though certainly not perfectly so.</para>
+
+        <media
+          alt="Scatter plot, titled 'Cricket Chirps vs. Air Temperature'. The \(x\)-axis is the Cricket Chirps in 15 Seconds, and the \(y\)-axis is the Temperature (F). The line regression is generally positive.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_05_02.jpg" />
         </media>
-      
-      <para>Once we recognize a need for a linear function to model that data, the natural follow-up question is: “What is that linear function?” One way to approximate our linear function is to sketch the line that seems to best fit the data. Then we can extend the line until we can verify the \(y\)-intercept. We can approximate the slope of the line by extending it until we can estimate the \(\frac{rise}{run}\).</para>
-     <emphasis>Continuing the Example: Finding a Line of Best Fit</emphasis>
-      <para>Find a linear function that fits the data above by “eyeballing” a line that seems to fit.</para>
-      <para>On a graph, we could try sketching a line. Using the starting and ending points of our hand-drawn line, points \((0, 30)\) and \((50, 90)\), this graph has a slope of \(m\;=\;\frac{60}{50}\;=\;1.2\) and a \(y\)-intercept at 30.</para>
-      <para>The slope means that for every increase of 1 chirp per 15 seconds, the temperature increases 1.2 degrees.</para>
-      <para>The \(y\)-intercept stands for the temperature needed for crickets to start chirping.</para>
-      
+
+        <para>Once we recognize a need for a linear function to model that data, the natural
+          follow-up question is: “What is that linear function?” One way to approximate our linear
+          function is to sketch the line that seems to best fit the data. Then we can extend the
+          line until we can verify the \(y\)-intercept. We can approximate the slope of the line by
+          extending it until we can estimate the \(\frac{rise}{run}\).</para>
+        
+          <para><emphasis>Continuing the Example: Finding a Line of Best Fit</emphasis></para>
+        <para>Find a linear function that fits the data above by “eyeballing” a line that seems to
+          fit.</para>
+        <para>On a graph, we could try sketching a line. Using the starting and ending points of our
+          hand-drawn line, points \((0, 30)\) and \((50, 90)\), this graph has a slope of
+          \(m\;=\;\frac{60}{50}\;=\;1.2\) and a \(y\)-intercept at 30.</para>
+        <para>The slope means that for every increase of 1 chirp per 15 seconds, the temperature
+          increases 1.2 degrees.</para>
+        <para>The \(y\)-intercept stands for the temperature needed for crickets to start chirping.</para>
+
         <media alt="">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_05_03.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_05_03.jpg" />
         </media>
-      
-      <para>Different methods of making predictions are used to analyze data. The method of interpolation involves predicting a value inside the domain and/or range of the data. The method of extrapolation involves predicting a value outside the domain and/or range of the data.</para>
-      <para>Model breakdown occurs at the point when the model no longer applies.</para>
-      <para>Continuing the Example: Understanding Interpolation and Extrapolation</para>
-      <para>Use the cricket data from the table to answer the following questions:</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+
+        <para>Different methods of making predictions are used to analyze data. The method of
+          interpolation involves predicting a value inside the domain and/or range of the data. The
+          method of extrapolation involves predicting a value outside the domain and/or range of the
+          data.</para>
+        <para>Model breakdown occurs at the point when the model no longer applies.</para>
+        
+        <para><emphasis>Continuing the Example: Understanding Interpolation and Extrapolation</emphasis></para>
+        <para>Use the cricket data from the table to answer the following questions:</para>
         <list class="os-raise-noindent" list-type="enumerated">
-          <item>Would predicting the temperature when crickets are chirping 30 times in 15 seconds be interpolation or extrapolation? Make the prediction and discuss whether it is reasonable.</item>
-          <item>Would predicting the number of chirps crickets will make at 40 degrees be interpolation or extrapolation? Make the prediction and discuss whether it is reasonable.</item>
-        </list>
-      </list>
-      <para>
-       <emphasis>Solution:</emphasis>
-    </para>
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>The number of chirps in the data provided varied from 18.5 to 44. A prediction at 30 chirps per 15 seconds is inside the domain of our data, so it would be interpolation. Using our model:</item>
-      </list>
-      <para>\(\begin{array}{rcl}T(30)&amp;=&amp;30+1.2(30)\\&amp;=&amp;66\;degrees\end{array}\)</para>
-      <para>Based on the data we have, this value seems reasonable.</para>
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>The temperature values varied from 52 to 80.5. Predicting the number of chirps at 40 degrees is extrapolation because 40 is outside the range of our data. Using our model:</item>
-      </list>
-      
-        <para>\(\begin{array}{rcl}40\;&amp;=&amp;\;30\;+\;1.2c\\10\;&amp;=&amp;\;1.2c\\c\;&amp;\approx&amp;\;8.33\end{array}\)</para>
-      
-      <para>We can compare the regions of interpolation and extrapolation using the following figure.</para>
-      
-        <media alt="Scatter plot, showing the line of best fit. It is titled 'Cricket Chirps Vs Air Temperature'. The \(x\)-axis is 'c, Number of Chirps', and the \(y\)-axis is 'T(c), Temperature (F)'.  The area around the scattered points is enclosed in a box labeled: Interpolation.  The area outside of this box is labeled: Extrapolation.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_05_04.jpg"/>
+            <item>Would predicting the temperature when crickets are chirping 30 times in 15 seconds
+              be interpolation or extrapolation? Make the prediction and discuss whether it is
+              reasonable.</item>
+            <item>Would predicting the number of chirps crickets will make at 40 degrees be
+              interpolation or extrapolation? Make the prediction and discuss whether it is
+              reasonable.</item>
+          </list>
+
+        <para>
+          <emphasis>Solution:</emphasis>
+        </para>
+        <para>1. The number of chirps in the data provided varied from 18.5 to 44. A prediction at 30
+            chirps per 15 seconds is inside the domain of our data, so it would be interpolation.
+            Using our model:</para>
+        <para>\(\begin{array}{rcl}T(30)&amp;=&amp;30+1.2(30)\\&amp;=&amp;66\;degrees\end{array}\)</para>
+        <para>Based on the data we have, this value seems reasonable.</para>
+
+        <para>2. The temperature values varied from 52 to 80.5. Predicting the number of chirps at 40
+            degrees is extrapolation because 40 is outside the range of our data. Using our model:</para>
+
+        <para>
+          \(\begin{array}{rcl}40\;&amp;=&amp;\;30\;+\;1.2c\\10\;&amp;=&amp;\;1.2c\\c\;&amp;\approx&amp;\;8.33\end{array}\)</para>
+
+        <para>We can compare the regions of interpolation and extrapolation using the following
+          figure.</para>
+
+        <media
+          alt="Scatter plot, showing the line of best fit. It is titled 'Cricket Chirps Vs Air Temperature'. The \(x\)-axis is 'c, Number of Chirps', and the \(y\)-axis is 'T(c), Temperature (F)'.  The area around the scattered points is enclosed in a box labeled: Interpolation.  The area outside of this box is labeled: Extrapolation.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_05_04.jpg" />
         </media>
-      
-      <para>
-       <emphasis>Try It: Drawing and Interpreting Scatter Plots</emphasis> 
-    </para>
-      <para>The scatter plot below shows the height and speed of some of the world’s fastest roller coasters. A linear model was drawn to fit the data.</para>
-      
-        <media alt="A SCATTER PLOT THAT SHOWS MAXIMUM HEIGHT IN FEET ON THE X-AXIS AND SPEED IN MILES PER HOUR ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_05_05.jpg"/>
+
+        <note class="try">
+        <title>Try It: Drawing and Interpreting Scatter Plots</title>
+        <para>The scatter plot below shows the height and speed of some of the world’s fastest
+          roller coasters. A linear model was drawn to fit the data.</para>
+
+        <media
+          alt="A SCATTER PLOT THAT SHOWS MAXIMUM HEIGHT IN FEET ON THE X-AXIS AND SPEED IN MILES PER HOUR ON THE Y-AXIS. THE LINE DRAWN INCREASES FROM LEFT TO RIGHT.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_05_05.jpg" />
         </media>
-      
-      <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What would you expect the speed to be for a roller coaster that is 350 feet tall?</para>
-          
-        </problem>
-        <solution>
-          <para>Here is how to find the estimate of the speed.</para>
-          <para>Looking at the linear model, when the height on the \(x\)-axis is 350 feet, the value meets the line at approximately 98 mph. Since this is an estimate, you may have an answer close to 98, but it should be closer to 100 mph than 95 mph based on the graph.</para>
-        </solution>
-      </exercise>
-      <!--Interaction End -->
+
+        <!--Text
+        Entry Interaction Start -->
+        <exercise>
+          <problem>
+            <para>What would you expect the speed to be for a roller coaster that is 350 feet tall?</para>
+          </problem>
+          <solution>
+            <para>Here is how to find the estimate of the speed.</para>
+            <para>Looking at the linear model, when the height on the \(x\)-axis is 350 feet, the
+              value meets the line at approximately 98 mph. Since this is an estimate, you may have
+              an answer close to 98, but it should be closer to 100 mph than 95 mph based on the
+              graph.</para>
+          </solution>
+        </exercise>
+        </note>
+        <!--Interaction
+        End -->
+      </section>
     </section>
-    </section>
-    
+
   </content>
 </document>
