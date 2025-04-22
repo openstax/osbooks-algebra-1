@@ -282,33 +282,22 @@
   
   </solution></exercise>
 <!--Interaction End -->
-
-
+</section>
+<section><title>Video: Analyzing Tables of Exponential Functions</title>
 <para>Watch the following video to learn more about analyzing the tables of exponential functions:</para>
-<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/2ad184a8d1b79f957dc77e16c376203270d3e473"/></media><!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<exercise>
-  <problem>
-    
-    
-  
-  
-  
-  </problem><solution>
-  <title>Extending Your Thinking </title>
-  
-  
-  
-  <para>For integer inputs, we can think of multiplication as repeated addition and exponentiation as repeated
-    multiplication:</para>
-  
-  
+<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/2ad184a8d1b79f957dc77e16c376203270d3e473"/></media>
+</section>
+<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+<section>
+  <title>Are you ready for more?</title>
+    <section><title>Extend Your Thinking</title>
+  <para>For integer inputs, we can think of multiplication as repeated addition and exponentiation as repeated multiplication:</para>
   
   <table class="os-raise-wideadjustedtable">
     <tgroup cols="2"><tbody><row>
-        <entry><emphasis>
-          Multiplication representing repeated addition
-       </emphasis> </entry><entry><emphasis>
-          Exponentiation representing repeated multiplication
+        <entry><emphasis>Multiplication representing repeated addition
+       </emphasis> </entry>
+       <entry><emphasis>Exponentiation representing repeated multiplication
        </emphasis> </entry></row>
     <row>
         <entry>
@@ -317,16 +306,12 @@
         <entry>\(3^5=3 \cdot 3 \cdot 3 \cdot 3 \cdot 3\)</entry>
       </row>
     </tbody></tgroup></table>
-  
-  
-  
   <para>We could continue this process with a new operation called tetration. It uses the symbol \(\uparrow \uparrow\), and
     it is defined as repeated exponentiation:</para>
   
   <table class="os-raise-skinnytable">
     <tgroup cols="1"><tbody><row>
-        <entry><emphasis>
-          Tetration representing repeated exponentiation
+        <entry><emphasis>Tetration representing repeated exponentiation
        </emphasis> </entry></row>
     <row>
         <entry>
@@ -334,18 +319,17 @@
         </entry>
       </row>
     </tbody></tgroup></table>
-  
-  
 
-</solution></exercise>
+
 <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<section class="check-understanding"><title>Video: Analyzing Tables of Exponential Functions</title><exercise id="_313acd1a-7c7e-4fbb-afb2-d1bcadcd6aa4" class="multiple-choice"><problem><para>Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\).</para>
+<exercise id="_313acd1a-7c7e-4fbb-afb2-d1bcadcd6aa4" class="multiple-choice"><problem><para>Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\).</para>
       </problem><solution><para>Correct! \(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
      </para><para>Nice try! The correct answer is: \(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
      </para></solution></exercise><exercise id="e74fe222-cc10-4559-8c03-0680b1d0a710" class="multiple-choice"><problem><para>Compute \(f(x)=3 \uparrow \uparrow x\).</para>
       </problem><solution><para>Correct! \(3 \uparrow \uparrow 2=3^3=27\)
      </para><para>Nice try! The correct answer is: \(3 \uparrow \uparrow 2=3^3=27\)
-     </para></solution></exercise></section>
+     </para></solution></exercise>
+
 <exercise class="RFM1">
   <problem>
     <para>What is the relationship between \(f(x)\) and \(f(x+1)\)?</para>
@@ -358,10 +342,11 @@
     <para>The numbers output by this function get large absurdly fast, even in comparison to exponential functions. We
       calculated \(f(2)=27\) above, and now \(f(3)=3^{f(2)}=3^{27}=7,625,597,484,987\).</para>
   
-  </solution></exercise></section>
+  </solution></exercise></section></section>
   <note class="self-check">
     (    <para>Given \(f(x) = 4^x\), what is \(\frac{f(x+2)}{f(x+1)}\)?</para>)
       </note>
+  
       <section>
         <title>Additional Resources</title>
         
@@ -443,7 +428,8 @@
       <para>Since this function is exponential, an equation will have the form \(f(x) = initial \;\ value \;\ (growth \;\
   rate)^x\). The growth rate is 3. The initial value is the same as the \(y\)-intercept, or where \(x=0\). \(f(0)\) is
   given in the table, so the initial value is 2. The equation for this table would be \(f(x) = 2(3)^x\).</para>
-      <note class="try look-at-me"/>
+
+      <note class="try">
   <title>Try It: Determining the Growth Rate of Exponential Functions</title>
       <para>For the graph provided, assume that the function is defined for all real numbers. What is the rate of change? Write
   an equation that would define this function.</para>
@@ -468,7 +454,7 @@
     graph is \(f(x) = 2^x\).</para>
           </solution>
         </exercise>
-      
+      </note>
     </section>
       </section>
       
