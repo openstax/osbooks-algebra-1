@@ -7,21 +7,43 @@
   </metadata>
   <content>
     <section>
-      <para>Linear models can also be found by hand in some situations when the data follows a linear pattern since the slope remains the same between data points.</para>
+      <title>Activity</title>
+      <para>Linear models can also be found by hand in some situations when the data follows a
+        linear pattern since the slope remains the same between data points.</para>
       <para>
-       <emphasis>Linear Models from Tables</emphasis>
-    </para>
+        <emphasis>Linear Models from Tables</emphasis>
+      </para>
       <para>
-        <quote>
-  </quote>
         <quote>For 1 - 4, use the scenario and table below:</quote>
-        <quote>The table below shows the number of songs Marcus will have in his collection as he adds new songs each month.</quote>
-    </para>
-      <section class="check-understanding">
-        <title>Activity</title>
+        <quote>The table
+        below shows the number of songs Marcus will have in his collection as he adds new songs each
+        month.</quote>
+        <quote>
+          <table class="unnumbered">
+            <tgroup cols="5">
+              <tbody>
+                <row>
+                  <entry><emphasis>Number of months,</emphasis> <emphasis effect="italics">t</emphasis></entry>
+                  <entry>0</entry>
+                  <entry>1</entry>
+                  <entry>2</entry>
+                  <entry>3</entry>
+                </row>
+                <row>
+                  <entry><emphasis>Number of songs,</emphasis> <emphasis effect="italics">N</emphasis></entry>
+                  <entry>200</entry>
+                  <entry>215</entry>
+                  <entry>230</entry>
+                  <entry>245</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </quote>
+      </para>
+
         <exercise id="_50701f9a-8db4-46eb-a7b0-673edcb2a852" class="multiple-choice">
           <problem>
-            
             <para>What is the initial amount of songs, or the \(y\)-intercept of this situation?</para>
           </problem>
           <solution>
@@ -31,7 +53,7 @@
         </exercise>
         <exercise id="b76d8608-acae-4296-83b1-ea0609be1338" class="multiple-choice">
           <problem>
-            
+
             <para>What is the slope, or rate of change?</para>
           </problem>
           <solution>
@@ -39,45 +61,68 @@
             <para>The correct answer is 15.</para>
           </solution>
         </exercise>
-      </section>
+
       <!--Q#3-->
       <exercise>
         <problem>
-          <para>Write the equation of the linear model that represents the situation in slope-intercept form.</para>
-          
+          <para>Write the equation of the linear model that represents the situation in
+            slope-intercept form.</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>\(N = 15t + 200\)</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <section class="check-understanding">
+      <!--Interaction
+      End -->
         <exercise id="_487937b8-cda6-4e24-836b-d9802cb72dac" class="multiple-choice">
           <problem>
-            
             <para>How many songs will Marcus have in 8 months?</para>
           </problem>
           <solution>
             <para>Correct! 320</para>
-            <para>Compare your answer: 
-        \(N = 15(8) + 200=320\)
-        \(N = 15(8) + 200=320\)</para>
+            <para>Compare your answer:  \(N = 15(8) + 200=320\) \(N = 15(8) + 200=320\)</para>
             <para>The correct answer is 320.</para>
           </solution>
         </exercise>
+
+        <para>
+          <quote>For 5 - 8, use the situation and table below:</quote>
+          <quote>A new plant food is
+          introduced to a young tree to test its effect on the height of the tree. The table
+          shows the height of the tree, H, in feet \(x\) months since measurements began.</quote>
+          <quote>
+            <table class="unnumbered">
+              <tgroup cols="5">
+                <tbody>
+                  <row>
+                    <entry><emphasis>Number of months,</emphasis> <emphasis effect="italics">x</emphasis></entry>
+                    <entry>2</entry>
+                    <entry>4</entry>
+                    <entry>6</entry>
+                    <entry>8</entry>
+                  </row>
+                  <row>
+                    <entry><emphasis>Height in feet,</emphasis> <emphasis effect="italics">H</emphasis></entry>
+                    <entry>13.5</entry>
+                    <entry>14.5</entry>
+                    <entry>15.5</entry>
+                    <entry>16.5</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </quote>
+        </para>
         <exercise id="c2dc9fc0-7c03-4b46-aa0b-09e5d9f9e26e" class="multiple-choice">
           <problem>
+            <para>What is the initial height of the tree, or the \(y\)-intercept, when measurements
+              began?</para>
             <para>(Hint: Work each row backwards to where \(x= 0\).)</para>
-            <para>
-              <quote>For 5 - 8, use the situation and table below:</quote>
-              <quote>A new plant food is introduced to a young tree to test its effect on the height of the tree. The table shows the height of the tree, H, in feet \(x\) months since measurements began.</quote>
-          </para>
-            <para>What is the initial height of the tree, or the \(y\)-intercept, when measurements began?</para>
-            
           </problem>
           <solution>
-            
+
             <para>The correct answer is .</para>
           </solution>
         </exercise>
@@ -91,43 +136,49 @@
             <para>The correct answer is \(\frac12\).</para>
           </solution>
         </exercise>
-      </section>
+
       <!--Q#7-->
       <exercise>
         <problem>
-          <para>Write the equation of the linear model that represents the situation in slope-intercept form.</para>
-          
+          <para>Write the equation of the linear model that represents the situation in
+            slope-intercept form.</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>\(H= \frac12 x\) +12.5\)</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <section class="check-understanding">
+      <!--Interaction
+      End -->
+
         <exercise id="_2f1f631d-86fb-4a2c-bbb4-bf2eafd59a62" class="multiple-choice">
           <problem>
-            
             <para>What will the height of the tree be in 14 months?</para>
           </problem>
           <solution>
             <para>Correct! 19.5</para>
-            <para>Compare your answer: 
-        \(H= \frac12 (14) +12.5 =19.5\)
-        \(H= \frac12 (14) +12.5 =19.5\)</para>
+            <para>Compare your answer:  \(H= \frac12 (14) +12.5 =19.5\) \(H= \frac12 (14) +12.5
+              =19.5\)</para>
             <para>The correct answer is 19.5.</para>
           </solution>
         </exercise>
+        
+        <para><emphasis>Linear Models from Graphs</emphasis></para>
+        <para>
+          <quote>For 9 - 12, use the situation and graph below:</quote>
+          <quote>The graph models
+          the cost in dollars, \(C\), of renting a tent at a campground for n nights.
+          <media
+              alt="Insert Alt Text">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_03_04_06_01.jpg" />
+            </media>
+          </quote>
+        </para>
         <exercise id="_10194ca5-8de5-4c66-80e3-516330af7969" class="multiple-choice">
           <problem>
-            <para>Linear Models from Graphs</para>
-            <para>
-              <quote>For 9 - 12, use the situation and graph below:</quote>
-              <quote>The graph models the cost in dollars, \(C\), of renting a tent at a campground for n nights.
-          (<media alt="Insert Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_03_04_06_01.jpg"/></media>)</quote>
-          </para>
             <para>What is the \(y\)-intercept of the graph?</para>
-            
+
           </problem>
           <solution>
             <para>Correct! 30</para>
@@ -136,7 +187,6 @@
         </exercise>
         <exercise id="_04a3607e-460c-4272-bfb0-71b0d83a10b9" class="multiple-choice">
           <problem>
-            
             <para>What is the slope, or rate of change?</para>
           </problem>
           <solution>
@@ -144,163 +194,188 @@
             <para>The correct answer is 10.</para>
           </solution>
         </exercise>
-      </section>
+
       <!--Q#11-->
       <exercise>
         <problem>
-          <para>Write the equation of the linear model that represents the situation in slope-intercept form.</para>
-          
+          <para>Write the equation of the linear model that represents the situation in
+            slope-intercept form.</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>\(C=10n + 30\)</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <section class="check-understanding">
+      <!--Interaction
+      End -->
+
         <exercise id="_18d01656-b556-4ad1-97c4-43280947ff88" class="multiple-choice">
           <problem>
-            
+
             <para>How much does it cost to rent a tent for 5 nights?</para>
           </problem>
           <solution>
-            
-            <para>Compare your answer: 
-        \(C=10n + 30\)
-        \(C=10n + 30\)
-        \(C=10(5) + 30=80\)
-        \(C=10(5) + 30=80\)</para>
+
+            <para>Compare your answer:  \(C=10n + 30\) \(C=10n + 30\) \(C=10(5) + 30=80\) \(C=10(5)
+              + 30=80\)</para>
             <para>The correct answer is .</para>
           </solution>
         </exercise>
-      </section>
     </section>
-    <note class="self-check"><para>The table below shows the revenue for the number of pizzas sold at a restaurant.</para>
-      <table class="os-raise-horizontaltable">
-        <tgroup cols="5"><tbody><row>
-            <entry><emphasis>Number of Pizzas</emphasis></entry><entry>20</entry>
-            <entry>30</entry>
-            <entry>40</entry>
-            <entry>50</entry>
-          </row>
-          <row>
-            <entry><emphasis>Revenue</emphasis></entry><entry>110</entry>
-            <entry>160</entry>
-            <entry>210</entry>
-            <entry>260</entry>
-          </row>
-        </tbody></tgroup></table>
-      
-      <para>Which linear model could be used to predict the revenue if 4000 pizzas were sold?</para></note>
-      <section>
-        <title>Additional Resources</title>
-        
+
     <section>
-      <title>Writing Linear Equations From Tables and Graphs</title>
-      <para>Linear Equations from Tables</para>
-      <para>The number of texts a teen sends, \(T\), in days, \(d\), is shown in the table below.</para>
-      <table class="os-raise-horizontaltable">
-        <tgroup cols="5"><tbody><row>
-            <entry>
-             <emphasis>Days, \(d\)</emphasis>
-            </entry>
-            <entry>1</entry>
-            <entry>2</entry>
-            <entry>3</entry>
-            <entry>4</entry>
-          </row>
-          <row>
-            <entry>
-             <emphasis>Number of texts, \(T|)</emphasis>
-            </entry>
-            <entry>65</entry>
-            <entry>130</entry>
-            <entry>195</entry>
-            <entry>260</entry>
-          </row>
-        </tbody></tgroup></table>
-      <para>Write an equation in slope-intercept form to represent the situation then predict the number of texts sent in 8 days.</para>
-      <para><emphasis>Step 1</emphasis> - Find the \(y\)-intercept.
-  Since the value when \(d=0\) is not present, work backwards to \(d=0\). 
-  If \(d=0\) was present, then \(T=0\) since as each <emphasis effect="italics">x</emphasis>-value increases by 1, the \(y\)-values increase by 65.</para>
-      <para><emphasis>Step 2</emphasis> - Find the slope of the situation.
-  Find the rate of change. The change in y is 65 and the change in \(x\) is 1, so the slope is 65</para>
-      <para><emphasis>Step 3</emphasis> -Write the equation in slope-intercept form.
-  \(y=mx+b\)
-  \(T=65d +0\)
-  \(T=65d\)</para>
-      <para><emphasis>Step 4</emphasis> -Make a prediction.
-  Substitute \(d=8\) into the equation.
-  \(T=65(8)=520\)</para>
-      <para>After 8 days, the teen would have sent 520 texts.</para>
-      <para>
-       <emphasis>Linear Equations from Graphs</emphasis>
-    </para>
-      <para>The cost, C, for the number of days, \(d\), a dog spends at doggie daycare is shown in the graph below.
-  (<media alt="Insert Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_03_04_08_01.jpg"/></media>)</para>
-      <para>Write an equation in slope-intercept form to represent the situation then predict the cost of a dog staying at doggie daycare after 7 days.</para>
-      <para><emphasis>Step 1</emphasis> - Find the \(y\)-intercept.
-  Since the value when \(d=0\) is not present, work backwards to \(d=0\). 
-  If \(d=0\) was present, then \(C=0\) since as each \(x\)-value increases by 1, the \(y\)-values increase by 35.</para>
-      <para><emphasis>Step 2</emphasis> - Find the slope of the situation.
-  Find the rate of change. The change in \(y\) is 35 and the change in \(x\) is 1, so the slope is 35</para>
-      <para><emphasis>Step 3</emphasis> -Write the equation in slope-intercept form.
-  \(y=mx+b\)
-  \(C=35d +0\)
-  \(C=35d\)</para>
-      <para><emphasis>Step 4</emphasis> -Make a prediction.
-  Substitute \(d=7\) into the equation.
-  \(C=35(7)=245\)</para>
-      <para>After 7 days, the cost of doggie daycare would be $245.</para>
-      <title>Try It-Writing Linear Equations From Tables and Graphs</title>
-      <para>Naomi is a professional painter. The table below shows how many square feet, \(F\), she can paint in \(h\) hours.</para>
-      <table class="os-raise-horizontaltable">
-        <tgroup cols="5"><tbody><row>
-            <entry>
-             <emphasis>Time in hours, \(h\)</emphasis>
-            </entry>
-            <entry>1</entry>
-            <entry>2</entry>
-            <entry>3</entry>
-            <entry>4</entry>
-          </row>
-          <row>
-            <entry>
-             <emphasis>Number of square feet, \(F\)</emphasis>
-            </entry>
-            <entry>120</entry>
-            <entry>240</entry>
-            <entry>360</entry>
-            <entry>480</entry>
-          </row>
-        </tbody></tgroup></table>
-      <!--Q#-->
-      <exercise>
-        <problem>
-          <para>How many square feet can Naomi paint in 8 hours?</para>
-          
-        </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>960</para>
-          <para><emphasis>Step 1</emphasis> - Find the \(y\)-intercept.
-      Since the value when \(h=0\) is not present, work backwards to \(h=0\). 
-      If \(h=0\) was present, then \(F=0\) since as each \(x\)-value increases by 1, the \(y\)-values increase by 120.</para>
-          <para><emphasis>Step 2</emphasis> - Find the slope of the situation.
-      Find the rate of change. The change in \(y\) is 120 and the change in \(x\) is 1, so the slope is 120</para>
-          <para><emphasis>Step 3</emphasis> -Write the equation in slope-intercept form.
-      \(y=mx+b\)
-      \(F=120h+0\)
-      \(F=120h\)</para>
-          <para><emphasis>Step 4</emphasis> -Make a prediction.
-      Substitute \(h=8\) into the equation.
-      \(F=120(8)=960\)</para>
-          <para>Naomi can paint 960 square feet in 8 hours.</para>
-        </solution>
-      </exercise>
-      <!--Interaction End -->
-    </section>
-      </section>
+    <note class="self-check">
+      <para>The table below shows the revenue for the number of pizzas sold
+      at a restaurant.</para>
+      <table class="os-raise-horizontaltable unnumbered">
+        <tgroup cols="5">
+          <tbody>
+            <row>
+              <entry><emphasis>Number of Pizzas</emphasis></entry>
+              <entry>20</entry>
+              <entry>30</entry>
+              <entry>40</entry>
+              <entry>50</entry>
+            </row>
+            <row>
+              <entry><emphasis>Revenue</emphasis></entry>
+              <entry>110</entry>
+              <entry>160</entry>
+              <entry>210</entry>
+              <entry>260</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
       
+      <para>Which
+      linear model could be used to predict the revenue if 4000 pizzas were sold?</para>
+    </note>
+    </section>
+
+    <section>
+      <title>Additional Resources</title>
+
+      <section>
+        <title>Writing Linear Equations From Tables and Graphs</title>
+        <para>Linear Equations from Tables</para>
+        <para>The number of texts a teen sends, \(T\), in days, \(d\), is shown in the table below.</para>
+        <table class="os-raise-horizontaltable unnumbered">
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis>Days, \(d\)</emphasis>
+                </entry>
+                <entry>1</entry>
+                <entry>2</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+              </row>
+              <row>
+                <entry>
+                  <emphasis>Number of texts, \(T|)</emphasis>
+                </entry>
+                <entry>65</entry>
+                <entry>130</entry>
+                <entry>195</entry>
+                <entry>260</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para>Write an equation in slope-intercept form to represent the situation then predict the
+          number of texts sent in 8 days.</para>
+        <para><emphasis>Step 1</emphasis> - Find the \(y\)-intercept. Since the value when \(d=0\)
+          is not present, work backwards to \(d=0\).  If \(d=0\) was present, then \(T=0\) since as
+          each <emphasis effect="italics">x</emphasis>-value increases by 1, the \(y\)-values
+          increase by 65.</para>
+        <para><emphasis>Step 2</emphasis> - Find the slope of the situation. Find the rate of
+          change. The change in y is 65 and the change in \(x\) is 1, so the slope is 65</para>
+        <para><emphasis>Step 3</emphasis> -Write the equation in slope-intercept form. \(y=mx+b\)
+          \(T=65d +0\) \(T=65d\)</para>
+        <para><emphasis>Step 4</emphasis> -Make a prediction. Substitute \(d=8\) into the equation.
+          \(T=65(8)=520\)</para>
+        <para>After 8 days, the teen would have sent 520 texts.</para>
+        
+        <para>
+          <emphasis>Linear Equations from Graphs</emphasis>
+        </para>
+        <para>The cost, C, for the number of days, \(d\), a dog spends at doggie daycare is shown in
+          the graph below.</para>
+          <media alt="Insert Alt Text">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_04_08_01.jpg" />
+          </media>
+          
+        <para>Write an equation in slope-intercept form to represent the situation then predict the
+          cost of a dog staying at doggie daycare after 7 days.</para>
+       
+          <para><emphasis>Step 1</emphasis> - Find the \(y\)-intercept. Since the value when \(d=0\)
+          is not present, work backwards to \(d=0\).  If \(d=0\) was present, then \(C=0\) since as
+          each \(x\)-value increases by 1, the \(y\)-values increase by 35.</para>
+        <para><emphasis>Step 2</emphasis> - Find the slope of the situation. Find the rate of
+          change. The change in \(y\) is 35 and the change in \(x\) is 1, so the slope is 35</para>
+        <para><emphasis>Step 3</emphasis> -Write the equation in slope-intercept form. \(y=mx+b\)
+          \(C=35d +0\) \(C=35d\)</para>
+        <para><emphasis>Step 4</emphasis> -Make a prediction. Substitute \(d=7\) into the equation.
+          \(C=35(7)=245\)</para>
+        <para>After 7 days, the cost of doggie daycare would be $245.</para>
+
+        <note class="try">
+        <title>Try It-Writing Linear Equations From Tables and Graphs</title>
+        <para>Naomi is a professional painter. The table below shows how many square feet, \(F\),
+          she can paint in \(h\) hours.</para>
+        <table class="os-raise-horizontaltable unnumbered">
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis>Time in hours, \(h\)</emphasis>
+                </entry>
+                <entry>1</entry>
+                <entry>2</entry>
+                <entry>3</entry>
+                <entry>4</entry>
+              </row>
+              <row>
+                <entry>
+                  <emphasis>Number of square feet, \(F\)</emphasis>
+                </entry>
+                <entry>120</entry>
+                <entry>240</entry>
+                <entry>360</entry>
+                <entry>480</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <!--Q#-->
+        <exercise>
+          <problem>
+            <para>How many square feet can Naomi paint in 8 hours?</para>
+          </problem>
+          <solution>
+            <para>Compare your answer:</para>
+            <para>960</para>
+            <para><emphasis>Step 1</emphasis> - Find the \(y\)-intercept. Since the value when
+              \(h=0\) is not present, work backwards to \(h=0\).  If \(h=0\) was present, then
+              \(F=0\) since as each \(x\)-value increases by 1, the \(y\)-values increase by 120.</para>
+            <para><emphasis>Step 2</emphasis> - Find the slope of the situation. Find the rate of
+              change. The change in \(y\) is 120 and the change in \(x\) is 1, so the slope is 120</para>
+            <para><emphasis>Step 3</emphasis> -Write the equation in slope-intercept form.
+              \(y=mx+b\) \(F=120h+0\) \(F=120h\)</para>
+            <para><emphasis>Step 4</emphasis> -Make a prediction. Substitute \(h=8\) into the
+              equation. \(F=120(8)=960\)</para>
+            <para>Naomi can paint 960 square feet in 8 hours.</para>
+          </solution>
+        </exercise>
+      </note>
+        <!--Interaction
+        End -->
+      </section>
+    </section>
+
   </content>
 </document>
