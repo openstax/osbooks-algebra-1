@@ -10,11 +10,11 @@
       <title>Activity</title>
       <note>
         <para>Access the <link url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
-      
+      </note>
       <para>In an exponential function, the output is multiplied by the same factor every time the input increases by one. The multiplier is called the growth factor.</para>
       <para>Use the graphing tool or technology outside the course. Refer back to your work in the table in activity 5.4.3: Exponential Change: The Growth Factor, where \(n=500 \cdot 2^t\) and \(p=100 \cdot 3^t\). Use that information and the given coordinate planes to graph the following using the Desmos tool below.</para>
-      <para>Use the equation \(n=500 \cdot 2^t\) to answer questions 1 – 7</para>
-      <iframe src="../../media/desmos/febe5da3890f275ffd7a99061e734d10f5842e5b.html" width="500" height="400"/><!--Q#1-->
+      <para>Use the equation \(n=500 \cdot 2^t\) to answer questions 1 – 7</para><media alt="insert alt text">
+      <iframe src="../../media/desmos/febe5da3890f275ffd7a99061e734d10f5842e5b.html" width="500" height="400"/></media><!--Q#1-->
       
         <exercise>
           <problem>
@@ -61,7 +61,7 @@
       <list class="os-raise-noindent" list-type="enumerated">
         <item>Graph \((t,n)\) when \(t\) is 0, 1, 2, 3, and 4.</item>
       </list>
-      <iframe src="../../media/desmos/febe5da3890f275ffd7a99061e734d10f5842e5b.html" width="500" height="400"/>
+<media alt="insert alt text">      <iframe src="../../media/desmos/febe5da3890f275ffd7a99061e734d10f5842e5b.html" width="500" height="400"/></media>
         <exercise>
           <problem>
             <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
@@ -95,9 +95,9 @@
       <!--Interaction End -->
       <list class="os-raise-noindent" list-type="enumerated">
         <item>Graph \((t,p)\) when \(t\) is 0, 1, 2, 3, and 4. (If you get stuck, you can create a table.)</item>
-      </list>
-      <iframe src="../../media/desmos/febe5da3890f275ffd7a99061e734d10f5842e5b.html" width="500" height="400"/><!--Q#6-->
-      
+      </list><media alt="insert alt text">
+      <iframe src="../../media/desmos/febe5da3890f275ffd7a99061e734d10f5842e5b.html" width="500" height="400"/>      </media><!--Q#6-->
+
         <exercise>
           <problem>
             <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
@@ -128,13 +128,15 @@
           </solution>
         </exercise>
       
-      <!--Interaction End -->
+      <!--Interaction End --></section>
+      <section>
       <title>Video: Graphing Exponential Functions</title>
       <para>Watch the following video to learn more about graphing exponential functions.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/2e4579dad761a34795c42564577ce2c33577f7de"/>
       </media>
     </section>
+
     <note class="self-check">
       (    <para> Which is the graph of \(y=2\cdot3^x\)?</para>)
         </note>
@@ -232,15 +234,13 @@
             <entry> \((5, 1024)\) </entry>
           </row>
         </tbody></tgroup></table>
-      <div class="os-raise-d-flex os-raise-justify-content-between">
-        <div class="os-raise-mx-auto">
+
           <figure>
             <media alt="GRAPH WITH PLOTTED POINTS AT (0, 1), (1, 4), (2, 16), AND (3, 64).">
               <image mime-type="image/jpeg" src="../../media/Algebra-1_05_06_11_02.jpg"/>
             </media>
           </figure>
         
-        <div class="os-raise-mx-auto">
           <figure>
             <media alt="Insert Alt Text">
               <image mime-type="image/jpeg" src="../../media/Algebra-1_05_06_11_03.jpg"/>
@@ -252,8 +252,8 @@
       <para>Since equation \(y=4^x\) represents an exponential function, we determine the asymptote of this function by considering the behavior of the function as \(x\) approaches positive or negative infinity.</para>
       <para>As \(x\) approaches positive infinity, the values of \(4^x\) will grow exponentially larger. There is no upper bound, and the function increases without bound as \(x\) increases. Therefore, there is no horizontal asymptote in the positive direction.</para>
       <para>Similarly, as \(x\) approaches negative infinity, the values of \(4^x\) will become very small but never reach zero. In this case, there is also no horizontal asymptote in the negative direction.</para>
-      <para>Therefore, the function \(y=4^x\) does not have a horizontal asymptote in either direction. The graph of the function will continue to increase, <term class="glossary-tooltip" data-schema-version="1.0">continue off the coordinate plane</term>, indefinitely as \(x\) increases or decreases.</para>
-      <note class="try look-at-me"/>
+      <para>Therefore, the function \(y=4^x\) does not have a horizontal asymptote in either direction. The graph of the function will continue to increase, <term class="glossary-tooltip">continue off the coordinate plane</term>, indefinitely as \(x\) increases or decreases.</para>
+      <note class="try">
   <title>Try It: Graphing Exponential Functions</title>
       
         <exercise>
@@ -307,8 +307,6 @@
                   <entry> \((5, 243)\) </entry>
                 </row>
               </tbody></tgroup></table>
-            <div class="os-raise-d-flex os-raise-justify-content-between">
-              <div class="os-raise-mx-auto">
                 <para>
                   <figure>
                     <media alt="GRAPH WITH PLOTTED POINTS AT (0, 1), (1, 3), (2, 9), (3, 27), AND (4, 81).">
@@ -317,7 +315,6 @@
                   </figure>
                </para>
               
-              <div class="os-raise-mx-auto">
                 <figure>
                   <media alt="THE GRAPH OF AN EXPONENTIAL FUNCTION WITH \(y\)-intercepts OF 1 AND PASSING THROUGH THE POINTS (1, 3), (2, 9), (3, 27), AND (4, 81).">
                     <image mime-type="image/jpeg" src="../../media/Algebra-1_05_06_11_05.jpg"/>
@@ -327,7 +324,7 @@
             
           </solution>
         </exercise>
-      
+      </note>
     </section>
         </section>
         

@@ -57,8 +57,7 @@
           </problem>
           <solution>
             <para>Compare your answer:</para>
-            <div class="os-raise-d-flex os-raise-justify-content-between">
-              <div class="os-raise-mx-auto">
+
                 <figure>
                   <media alt="A discrete graph. Area, square yards. Time, weeks.">
                     <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_07_06_02.svg"/>
@@ -118,8 +117,8 @@
               </tbody></tgroup></table>
           </solution>
         </exercise>
-      
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/><!--END ADD DESMOS INTERATIVE-->
+      <media alt="insert alt text">
+      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media><!--END ADD DESMOS INTERATIVE-->
       <!--Text Entry Interaction Start -->
       <exercise>
         <problem>
@@ -132,16 +131,14 @@
           <para>The algae will cover fewer than 27 square yards and more than 9 square yards because the area covered by the
       algae is decreasing. A number between 15 and 20 would be a good guess.</para>
         </solution>
-      </exercise>
+      </exercise></section>
       <!--Interaction End -->
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
       
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-        </exercise>
+      <section>
+        <title>Are you ready for more?</title>
+          <section>
+            <title>Extend Your Thinking</title>
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       <exercise class="RFM1">
@@ -159,7 +156,7 @@
         </solution>
       </exercise>
     </section>
-
+  </section>
   <note class="self-check">
     (    <para>Which of the following is the graph of \(y = 12(\frac{1}{2})^x\)?</para>)
       </note>
@@ -293,7 +290,7 @@
     To determine the asymptote, we examine the behavior of the function as 𝑤 approaches infinity. In this case, as 𝑤 becomes larger and larger, the term \((\frac{4}{5})^𝑤\) will grow exponentially smaller. Consequently, the population 𝑝 will also grow infinitely smaller as it gets closer and closer to zero. Thus, the horizontal asymptote in this equation is the \(x\)-axis. The graph of the function will continue to decrease towards the \(x\)-axis as 𝑤 increases, approaching \(y = 0\). The butterfly population will decrease over time due to the migration.
  </item>
       </list>
-      <note class="try look-at-me"/>
+      <note class="try">
   <title>Try It: Connecting Tables and Graphs in Exponential Decay Functions</title>
       <para>The number of copies of a book sold the year it was released was 600,000. Each year after that, the number of copies
   sold decreased by \(\frac12\).</para>
@@ -438,7 +435,9 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/><!--Q4-->
+      <media alt="insert alt text">
+      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
+      <!--Q4-->
       <exercise>
         <problem>
           <para> Use your equation or graph to find \(c\) when \(y=6\). What does this mean in terms of the book sales?
@@ -511,7 +510,7 @@
             </figure>
           </solution>
         </exercise>
-      
+      </note>
       </section>
       </section>
       

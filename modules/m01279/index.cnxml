@@ -100,12 +100,10 @@
       <!--Interaction End -->
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
       
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-        </exercise>
+      <section>
+        <title>Are you ready for more?</title>
+          <section>
+            <title>Extend Your Thinking</title>
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       <exercise class="RFM1">
@@ -121,6 +119,7 @@
       </exercise>
       <!--End interaction-->
     </section>
+  </section>
     <note class="self-check">
       <para>The graph shows the yearly balance, in dollars, in two investment accounts. Account A starts with $2,000. Account B starts with $1,000.</para>
       <para>
@@ -139,8 +138,6 @@
     <title> Compare and Contrast Graphs</title>
     <para>Compare and contrast the graphs of \(y=2x\) and \(y=2^x\).</para>
     <para>To compare and contrast the graphs of these functions, you would first need to graph them.</para>
-    <div class="os-raise-d-flex os-raise-justify-content-between">
-      <div class="os-raise-mx-auto">
         <figure>
           <media alt="GRAPH OF A LINE THAT PASSES THROUGH THE ORIGIN AND THE POINTS (1, 2) AND (NEGATIVE 1, NEGATIVE 2).">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_05_08_01.jpg"/>
@@ -258,7 +255,7 @@ discuss the key features and compare the graphs.</para>
       <item>\(y=2x\) has a \(y\)-intercept of \((0, 0)\). \(y=ß2^x\) has a \(y\)-intercept of \((0, 1)\).</item>
       <item>When \(1&lt;x&lt;2\), \(y=2x\) is greater than \(y=2^x\).</item>
     </list>
-    <note class="try look-at-me"/>
+    <note class="try">
 <title>Try It: Compare and Contrast Graphs</title>
     
       <exercise>
@@ -287,7 +284,7 @@ discuss the key features and compare the graphs.</para>
           </list>
         </solution>
       </exercise>
-    
+    </note>
   </section>
 </section>
 
