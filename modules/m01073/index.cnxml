@@ -110,14 +110,18 @@
 
   <note class="self-check"><para>Jose created a function \(W(h)\) for the weight, \(W\), of his family members given their height, \(h\), in inches.</para>
     <para>Which of the following provides a group of possible inputs for the function?</para></note>
-    </content>
+
     <section>
       <title>Additional Resources</title>
-      
-  <section><!--BEGIN  MULTISELECT -->
-    <section class="check-understanding"><title>Finding Possible Input Values</title><exercise id="ac817e0d-3c86-4c30-bd59-c0f2b343deec" class="multiple-choice"><problem><para>Micah mows lawns every week where the function \(M\) represents the number of lawns mowed as a function of \(d\), days, modeled by the equation \(M(d)=4d\). Select <emphasis>three</emphasis> of the following that are inputs for this function.</para>
-          </problem><solution><para>Correct! 0, 2.5, and 4</para><para>Nice try! The correct answers are 0, 2.5 and 4. −2 is incorrect because it is not possible for him to work a negative number of days.</para></solution></exercise></section><section><exercise id="_1adf5871-0933-40de-9ec0-58f84ee64223" class="multiple-choice"><problem><para>Elena runs at a constant speed. Her distance, \(D\), in miles is a function of the time, \(t\), in minutes. Her running distance is represented by the function \(D(t)=9t\). Select <emphasis>three</emphasis> of the following that are inputs for this function.</para>
-          </problem><solution><para>Correct! 40, \(\frac23\), and 60.5</para><para>Nice try! The correct answers are: 40, \(\frac23\), and 60.5.</para><para>−7 is not possible because she cannot run for a negative amount of time</para><para>\(\frac23\) is possible. However, it is not always reasonable because it stands for \(\frac23\) of one minute. It is important to always look at the entire problem to see if there are any other restrictions, like a minimum amount of time running.</para><para>45 - 60.5 are both possible input values because she could run for 45 minutes or 60.5 minutes.</para></solution></exercise></section><!--END MULTISELECT -->
+      <!--BEGIN  MULTISELECT -->
+    <section><title>Finding Possible Input Values</title>
+      <exercise id="ac817e0d-3c86-4c30-bd59-c0f2b343deec" class="multiple-choice"><problem><para>Micah mows lawns every week where the function \(M\) represents the number of lawns mowed as a function of \(d\), days, modeled by the equation \(M(d)=4d\). Select <emphasis>three</emphasis> of the following that are inputs for this function.</para>
+          </problem><solution><para>Correct! 0, 2.5, and 4</para><para>Nice try! The correct answers are 0, 2.5 and 4. −2 is incorrect because it is not possible for him to work a negative number of days.</para></solution></exercise>
+            
+        <exercise id="_1adf5871-0933-40de-9ec0-58f84ee64223" class="multiple-choice"><problem><para>Elena runs at a constant speed. Her distance, \(D\), in miles is a function of the time, \(t\), in minutes. Her running distance is represented by the function \(D(t)=9t\). Select <emphasis>three</emphasis> of the following that are inputs for this function.</para>
+          </problem><solution><para>Correct! 40, \(\frac23\), and 60.5</para><para>Nice try! The correct answers are: 40, \(\frac23\), and 60.5.</para><para>−7 is not possible because she cannot run for a negative amount of time</para><para>\(\frac23\) is possible. However, it is not always reasonable because it stands for \(\frac23\) of one minute. It is important to always look at the entire problem to see if there are any other restrictions, like a minimum amount of time running.</para><para>45 - 60.5 are both possible input values because she could run for 45 minutes or 60.5 minutes.</para></solution></exercise>
+        </section><!--END MULTISELECT -->
+    <section>
     <title>Using Inequalities to Determine Domain </title>
     <para>The domain and range of a function describe the set of possible input values (domain) and output values (range) for that function. The domain represents the values that can be plugged into the function, Inequalities can be used to represent the domain. Remember to consider the nature of the function, its properties, and any specific restrictions when determining the domain using inequalities. Graphing the function can often provide visual clues and help confirm your analysis.</para>
     
@@ -132,8 +136,8 @@
    </para><list>
       <item>Use interval notation or set notation to represent the valid input values for the function.</item>
       <item>Use inequalities to express any restrictions.</item>
-      For example, if \(x\) cannot be negative, you would write \((x ≥0)\) or \((0, +∞)\) in interval notation.
-    </list>
+
+    </list><para>      For example, if \(x\) cannot be negative, you would write \((x ≥0)\) or \((0, +∞)\) in interval notation.</para>
     <!-- BEGIN GRAY BOX STYLING-->
     
     <note id="note-00001">
@@ -148,7 +152,7 @@
     <para>The inequality \(x ≥ −2\) indicates that the function is defined for all values of \(x\) that are greater than or equal to \(x ≥ −2\).</para>
     <para>Therefore, the domain of \(p(x) = 3\), \(x ≥ −2\) is \(x ≥ −2\), or in interval notation, (−2, +∞).</para>
     
-    <note class="try look-at-me"/>
+    <note class="try">
     <title>Try It: Determine the Domain of a Function Using Inequalities</title>
     <!-- BEGIN SOLUTION REVEAL -->
     <!--Q#1-->
@@ -202,7 +206,7 @@
       <para> Compare your answer
           \(x  2\) or \(x &gt; 2\) is the domain written with inequalities. To write the domain in interval notation, we use: \((- \infty, 2) \cup (2, + \infty)\). The domain cannot include 2, so it is not part of the interval.</para>
       
-      </solution></exercise>
+      </solution></exercise></note>
     <!--Interaction End -->
     <!-- END SOLUTION REVEAL -->
     </section>
