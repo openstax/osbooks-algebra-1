@@ -11,29 +11,27 @@
       <para>
         <figure>
           <media alt="Pattern. Step 0,1 dot. Step 1, 3 dots, 2 by 2 with upper left dot removed. Step 2, 5 dots, 3 by 2 with upper left dot removed. Step 3, 7 dots, 4 by 2 with upper left dot removed.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_03_01.svg"/>
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_03_01.svg" />
           </media>
         </figure>
-     </para>
+      </para>
       <para>Pattern 2</para>
       <para>
         <figure>
           <media alt="Pattern. Step 0, 0 dots. Step 1, 1 dot. Step 2, 4 dots, arranged 2 by 2. Step 3, 9 dots, arranged 3 by 3.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_03_02.svg"/>
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_03_02.svg" />
           </media>
         </figure>
-     </para>
+      </para>
       <!--Text Entry Interaction Start -->
       <exercise>
         <problem>
           <para>Look at Pattern 1.</para>
           <para>How is the number of dots in each step changing?</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>Each step has 2 rows of dots, with each row having the same number of dots as the step number, plus one extra
-      dot.</para>
+          <para>Each step has 2 rows of dots, with each row having the same number of dots as the step number, plus one extra dot.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -41,7 +39,6 @@
       <exercise>
         <problem>
           <para>How many dots will be in Step 5 in the pattern, and how will they be arranged?</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
@@ -54,7 +51,6 @@
         <problem>
           <para>Look at Pattern 2.</para>
           <para>How is the number of dots in each step changing?</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
@@ -66,7 +62,6 @@
       <exercise>
         <problem>
           <para>How many dots will be in Step 5 in the pattern, and how will they be arranged?</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
@@ -76,154 +71,110 @@
       <!--Interaction End -->
       <para>Consider the following table.</para>
       <table class="os-raise-wideadjustedtable">
-        <tgroup cols="3"><tbody><row>
-            <entry>
-             <emphasis>
-        Step
-     </emphasis> 
-            </entry>
-            <entry>
-             <emphasis>
-        Number of dots in Pattern 1
-     </emphasis> 
-            </entry>
-            <entry>
-             <emphasis>
-        Number of dots in Pattern 2
-     </emphasis> 
-            </entry>
-          </row>
-        <row>
-            <entry>
-        0
-      </entry>
-            <entry>
-        1
-      </entry>
-            <entry>
-        0
-      </entry>
-          </row>
-          <row>
-            <entry>
-        1
-      </entry>
-            <entry>
-        3
-      </entry>
-            <entry>
-        1
-      </entry>
-          </row>
-          <row>
-            <entry>
-        2
-      </entry>
-            <entry>
-        5
-      </entry>
-            <entry>
-        4
-      </entry>
-          </row>
-          <row>
-            <entry>
-        3
-      </entry>
-            <entry>
-        7
-      </entry>
-            <entry>
-        9
-      </entry>
-          </row>
-          <row>
-            <entry>
-        4
-      </entry>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry>
-        5
-      </entry>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry>
-        10
-      </entry>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry>
-        12
-      </entry>
-            <entry/>
-            <entry/>
-          </row>
-          <row>
-            <entry>
-        \(n\)
-      </entry>
-            <entry/>
-            <entry/>
-          </row>
-        </tbody></tgroup></table>
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>
+                <emphasis> Step </emphasis>
+              </entry>
+              <entry>
+                <emphasis> Number of dots in Pattern 1 </emphasis>
+              </entry>
+              <entry>
+                <emphasis> Number of dots in Pattern 2 </emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry> 0 </entry>
+              <entry> 1 </entry>
+              <entry> 0 </entry>
+            </row>
+            <row>
+              <entry> 1 </entry>
+              <entry> 3 </entry>
+              <entry> 1 </entry>
+            </row>
+            <row>
+              <entry> 2 </entry>
+              <entry> 5 </entry>
+              <entry> 4 </entry>
+            </row>
+            <row>
+              <entry> 3 </entry>
+              <entry> 7 </entry>
+              <entry> 9 </entry>
+            </row>
+            <row>
+              <entry> 4 </entry>
+              <entry />
+              <entry />
+            </row>
+            <row>
+              <entry> 5 </entry>
+              <entry />
+              <entry />
+            </row>
+            <row>
+              <entry> 10 </entry>
+              <entry />
+              <entry />
+            </row>
+            <row>
+              <entry> 12 </entry>
+              <entry />
+              <entry />
+            </row>
+            <row>
+              <entry> \(n\) </entry>
+              <entry />
+              <entry />
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
       <list class="os-raise-noindent" list-type="enumerated">
         <item>Complete the table with the number of dots for Pattern 1.</item>
       </list>
-      <section class="check-understanding">
-        <title>Activity</title>
-        <exercise id="_8095bb6a-6ede-482f-978e-394579c2a588" class="multiple-choice">
-          <problem>
-            
-            <para>In Step 4, what is the number of dots in Pattern 1?</para>
-          </problem>
-          <solution>
-            <para>Correct! Step 4 has 9 dots in Pattern 1.</para>
-            <para>The correct answer is 9. Step 4 has 9 dots in Pattern 1.</para>
-          </solution>
-        </exercise>
-        <exercise id="_8139dd15-22b1-4be7-9a65-6a4492b88b72" class="multiple-choice">
-          <problem>
-            
-            <para>In Step 5, what is the number of dots in Pattern 1?</para>
-          </problem>
-          <solution>
-            <para>Correct! Step 5 has 11 dots in Pattern 1.</para>
-            <para>The correct answer is 11. Step 5 has 11 dots in Pattern 1.</para>
-          </solution>
-        </exercise>
-        <exercise id="_9330201a-1aa8-48b6-b4c5-f7beef96cfe7" class="multiple-choice">
-          <problem>
-            
-            <para>In Step 10, what is the number of dots in Pattern 1?</para>
-          </problem>
-          <solution>
-            <para>Correct! Step 10 has 21 dots in Pattern 1.</para>
-            <para>The correct answer is 21. Step 10 has 21 dots in Pattern 1.</para>
-          </solution>
-        </exercise>
-        <exercise id="a74ee2de-72ef-4d03-bd65-da607a8f852e" class="multiple-choice">
-          <problem>
-            
-            <para>In Step 12, what is the number of dots in Pattern 1?</para>
-          </problem>
-          <solution>
-            <para>Correct! Step 12 has 25 dots in Pattern 1.</para>
-            <para>The correct answer is 25. Step 12 has 25 dots in Pattern 1.</para>
-          </solution>
-        </exercise>
-      </section>
+      <exercise id="_8095bb6a-6ede-482f-978e-394579c2a588" class="multiple-choice">
+        <problem>
+          <para>In Step 4, what is the number of dots in Pattern 1?</para>
+        </problem>
+        <solution>
+          <para>Correct! Step 4 has 9 dots in Pattern 1.</para>
+          <para>The correct answer is 9. Step 4 has 9 dots in Pattern 1.</para>
+        </solution>
+      </exercise>
+      <exercise id="_8139dd15-22b1-4be7-9a65-6a4492b88b72" class="multiple-choice">
+        <problem>
+          <para>In Step 5, what is the number of dots in Pattern 1?</para>
+        </problem>
+        <solution>
+          <para>Correct! Step 5 has 11 dots in Pattern 1.</para>
+          <para>The correct answer is 11. Step 5 has 11 dots in Pattern 1.</para>
+        </solution>
+      </exercise>
+      <exercise id="_9330201a-1aa8-48b6-b4c5-f7beef96cfe7" class="multiple-choice">
+        <problem>
+          <para>In Step 10, what is the number of dots in Pattern 1?</para>
+        </problem>
+        <solution>
+          <para>Correct! Step 10 has 21 dots in Pattern 1.</para>
+          <para>The correct answer is 21. Step 10 has 21 dots in Pattern 1.</para>
+        </solution>
+      </exercise>
+      <exercise id="a74ee2de-72ef-4d03-bd65-da607a8f852e" class="multiple-choice">
+        <problem>
+          <para>In Step 12, what is the number of dots in Pattern 1?</para>
+        </problem>
+        <solution>
+          <para>Correct! Step 12 has 25 dots in Pattern 1.</para>
+          <para>The correct answer is 25. Step 12 has 25 dots in Pattern 1.</para>
+        </solution>
+      </exercise>
       <!--Text Entry Interaction Start -->
       <exercise>
         <problem>
           <para>In Step \(n\), what is the number of dots in Pattern 1?</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
@@ -234,53 +185,46 @@
       <list class="os-raise-noindent" list-type="enumerated">
         <item>Complete the table with the number of dots for Pattern 2.</item>
       </list>
-      <section class="check-understanding">
-        <exercise id="_2b787d9d-44ad-4bb3-a433-1acdd39ddf49" class="multiple-choice">
-          <problem>
-            
-            <para>In Step 4, what is the number of dots in Pattern 2?</para>
-          </problem>
-          <solution>
-            <para>Correct! Step 4 has 16 dots in Pattern 2.</para>
-            <para>The correct answer is 16. Step 4 has 16 dots in Pattern 2.</para>
-          </solution>
-        </exercise>
-        <exercise id="_277c86eb-6bf2-4c19-824e-49ea954daf66" class="multiple-choice">
-          <problem>
-            
-            <para>In Step 5, what is the number of dots in Pattern 2?</para>
-          </problem>
-          <solution>
-            <para>Correct! Step 5 has 25 dots in Pattern 2.</para>
-            <para>The correct answer is 25. Step 5 has 25 dots in Pattern 2.</para>
-          </solution>
-        </exercise>
-        <exercise id="_95eaf6ac-0fbb-4732-9a7e-d258e1c80258" class="multiple-choice">
-          <problem>
-            
-            <para>In Step 10, what is the number of dots in Pattern 2?</para>
-          </problem>
-          <solution>
-            <para>Correct! Step 10 has 100 dots in Pattern 2.</para>
-            <para>The correct answer is 100. Step 10 has 100 dots in Pattern 2.</para>
-          </solution>
-        </exercise>
-        <exercise id="af51617b-17bb-4e0d-9cd3-c26d38266205" class="multiple-choice">
-          <problem>
-            
-            <para>In Step 12, what is the number of dots in Pattern 2?</para>
-          </problem>
-          <solution>
-            <para>Correct! Step 12 has 144 dots in Pattern 2.</para>
-            <para>The correct answer is 144. Step 12 has 144 dots in Pattern 2.</para>
-          </solution>
-        </exercise>
-      </section>
+      <exercise id="_2b787d9d-44ad-4bb3-a433-1acdd39ddf49" class="multiple-choice">
+        <problem>
+          <para>In Step 4, what is the number of dots in Pattern 2?</para>
+        </problem>
+        <solution>
+          <para>Correct! Step 4 has 16 dots in Pattern 2.</para>
+          <para>The correct answer is 16. Step 4 has 16 dots in Pattern 2.</para>
+        </solution>
+      </exercise>
+      <exercise id="_277c86eb-6bf2-4c19-824e-49ea954daf66" class="multiple-choice">
+        <problem>
+          <para>In Step 5, what is the number of dots in Pattern 2?</para>
+        </problem>
+        <solution>
+          <para>Correct! Step 5 has 25 dots in Pattern 2.</para>
+          <para>The correct answer is 25. Step 5 has 25 dots in Pattern 2.</para>
+        </solution>
+      </exercise>
+      <exercise id="_95eaf6ac-0fbb-4732-9a7e-d258e1c80258" class="multiple-choice">
+        <problem>
+          <para>In Step 10, what is the number of dots in Pattern 2?</para>
+        </problem>
+        <solution>
+          <para>Correct! Step 10 has 100 dots in Pattern 2.</para>
+          <para>The correct answer is 100. Step 10 has 100 dots in Pattern 2.</para>
+        </solution>
+      </exercise>
+      <exercise id="af51617b-17bb-4e0d-9cd3-c26d38266205" class="multiple-choice">
+        <problem>
+          <para>In Step 12, what is the number of dots in Pattern 2?</para>
+        </problem>
+        <solution>
+          <para>Correct! Step 12 has 144 dots in Pattern 2.</para>
+          <para>The correct answer is 144. Step 12 has 144 dots in Pattern 2.</para>
+        </solution>
+      </exercise>
       <!--Text Entry Interaction Start -->
       <exercise>
         <problem>
           <para>In Step \(n\), what is the number of dots in Pattern 2?</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
@@ -288,240 +232,204 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/><list class="os-raise-noindent" list-type="enumerated">
-        <item>Use the graphing tool or technology outside the course. Plot the number of dots at each step number for Pattern 1
-    and Pattern 2.</item>
+      <media alt="...">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" />
+      </media>
+      <list class="os-raise-noindent" list-type="enumerated">
+        <item>Use the graphing tool or technology outside the course. Plot the number of dots at each step number for Pattern 1 and Pattern 2.</item>
       </list>
-      
-        <exercise>
-          <problem>
-            <para>Pattern 1</para>
-            <para>Select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="Points plotted on a grid. Number of dots. Step number.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_03_03.svg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      
-        <exercise>
-          <problem>
-            <para>Pattern 2</para>
-            <para>Select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="Points plotted on a grid. Number of dots. Step number.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_03_04.svg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
+      <exercise>
+        <problem>
+          <para>Pattern 1</para>
+          <para>Select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure>
+              <media alt="Points plotted on a grid. Number of dots. Step number.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_03_03.svg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>Pattern 2</para>
+          <para>Select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure>
+              <media alt="Points plotted on a grid. Number of dots. Step number.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_03_04.svg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
       <!--Text Entry Interaction Start -->
       <exercise>
         <problem>
           <para>Explain why the graphs of the two patterns look the way they do.</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>The points representing the first pattern lie on a line because getting from one step to the next involves adding
-      the same number of dots (2 dots). The points representing the second pattern do not lie on a line. They
-      “curve” upward because the number of dots added at each step increases from step to step.</para>
+          <para>The points representing the first pattern lie on a line because getting from one step to the next involves adding the same number of dots (2 dots). The points representing the second pattern do not lie on a line. They “curve” upward because the number of dots added at each step increases from step to step.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
-
     <note class="self-check">
       <para>
         <figure>
           <media alt="Insert Alt Text">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_04_01.svg"/>
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_04_01.svg" />
           </media>
         </figure>
-     </para>
+      </para>
       <para>How many squares will be in Step 5?</para>
     </note>
-
     <section>
-      <title>Writing Expressions for Patterns</title>
-      <para>Example 1</para>
-      <para>
-        <figure>
-          <media alt="DIAGRAM WITH 3 FIGURES. STEP 1 IS SHAPED LIKE A PLUS SIGN, WITH 1 SQUARE IN THE MIDDLE AND 1 SQUARE ATTACHED TO EACH OF ITS SIDES. STEP 2 HAS A RECTANGLE WITH 2 ROWS AND 4 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE. STEP 3 HAS A RECTANGLE WITH 3 ROWS AND 5 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE.&#10;">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_05_01.jpg"/>
-          </media>
-        </figure>
-     </para>
-      <para>Find the number of squares in Step 5:</para>
-      <para>First, look to see the pattern. Every step, another row and another column are added, plus the two extra squares.</para>
-      <list>
-        <item>Step 1: 1 row of \(3 + 2\)</item>
-        <item>Step 2: 2 rows of \(4 +2\)</item>
-        <item>Step 3: 3 rows of \(5 + 2\)</item>
-      </list>
-      <para>So the width is always 1 by \(n\), or \(n\). The length is \(n+2\), and then another 2 is added.</para>
-      <para>Then, draw pictures or create a table:</para>
-      <table class="os-raise-midsizetable">
-        <tgroup cols="2"><tbody><row>
-            <entry>
-             <emphasis>
-        Step
-     </emphasis> 
-            </entry>
-            <entry>
-             <emphasis>
-        # of squares
-     </emphasis> 
-            </entry>
-          </row>
-        <row>
-            <entry>
-              <para>1
-     </para>
-            </entry>
-            <entry>
-              <para>5
-     </para>
-            </entry>
-          </row>
-          <row>
-            <entry>
-              <para>2
-     </para>
-            </entry>
-            <entry>
-              <para>10
-     </para>
-            </entry>
-          </row>
-          <row>
-            <entry>
-              <para>3
-     </para>
-            </entry>
-            <entry>
-              <para>17
-     </para>
-            </entry>
-          </row>
-          <row>
-            <entry>
-              <para>4
-     </para>
-            </entry>
-            <entry>
-              <para>26
-     </para>
-            </entry>
-          </row>
-          <row>
-            <entry>
-              <para>5
-     </para>
-            </entry>
-            <entry>
-              <para>37
-     </para>
-            </entry>
-          </row>
-        </tbody></tgroup></table>
-      <para>At Step 5, there are 37 squares.</para>
-      <para>Example 2</para>
-      <para>Find the expression for Step \(n\).</para>
-      <para>Multiply the length and width, and then add the 2 extra squares:</para>
-      <para>\(n(n+2)+2 = n^2+2n+n\)</para>
-      <note class="try look-at-me"/>
-  <title>Try It: Writing Expressions for Patterns</title>
-      
-        <exercise>
-          <problem>
-            <para>Use the figure below to find the number of squares in Step 5 and then Step \(n\).</para>
-            <para>
-              <figure>
-                <media alt="DIAGRAM WITH 3 FIGURES. STEP 1 HAS A RECTANGLE WITH 2 ROWS AND 3 COLUMNS. 2 SQUARES OF A THIRD ROW ARE ADDED. STEP 2 HAS A RECTANGLE WITH 3 ROWS AND 4 COLUMNS. 3 SQUARES OF A FOURTH ROW ARE ADDED. STEP 3 HAS A RECTANGLE WITH 4 ROWS AND 5 COLUMNS. 4 SQUARES OF A FIFTH ROW ARE ADDED.&#10;">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_05_02.jpg"/>
-                </media>
-              </figure>
-           </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Here is how to determine the number of squares in each step:</para>
-            <para>Notice that each figure adds a row and column, and then subtracts one square. The number of rows is always 2 more
-    than the step number.</para>
-            <para>Begin by making a table:</para>
-            <table class="os-raise-midsizetable">
-              <tgroup cols="2"><tbody><row>
-                  <entry>
-                   <emphasis>
-          Step
-       </emphasis> 
-                  </entry>
-                  <entry>
-                   <emphasis>
-          # of squares
-       </emphasis> 
-                  </entry>
-                </row>
+      <title>Additional Resources</title>
+      <section>
+        <title>Writing Expressions for Patterns</title>
+        <para>Example 1</para>
+        <para>
+          <figure>
+            <media alt="DIAGRAM WITH 3 FIGURES. STEP 1 IS SHAPED LIKE A PLUS SIGN, WITH 1 SQUARE IN THE MIDDLE AND 1 SQUARE ATTACHED TO EACH OF ITS SIDES. STEP 2 HAS A RECTANGLE WITH 2 ROWS AND 4 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE. STEP 3 HAS A RECTANGLE WITH 3 ROWS AND 5 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE.&#10;">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_05_01.jpg" />
+            </media>
+          </figure>
+        </para>
+        <para>Find the number of squares in Step 5:</para>
+        <para>First, look to see the pattern. Every step, another row and another column are added, plus the two extra squares.</para>
+        <list>
+          <item>Step 1: 1 row of \(3 + 2\)</item>
+          <item>Step 2: 2 rows of \(4 +2\)</item>
+          <item>Step 3: 3 rows of \(5 + 2\)</item>
+        </list>
+        <para>So the width is always 1 by \(n\), or \(n\). The length is \(n+2\), and then another 2 is added.</para>
+        <para>Then, draw pictures or create a table:</para>
+        <table class="os-raise-midsizetable">
+          <tgroup cols="2">
+            <tbody>
               <row>
-                  <entry>
-          1
-        </entry>
-                  <entry>
-          8
-        </entry>
-                </row>
-                <row>
-                  <entry>
-          2
-        </entry>
-                  <entry>
-          15
-        </entry>
-                </row>
-                <row>
-                  <entry>
-          3
-        </entry>
-                  <entry>
-          24
-        </entry>
-                </row>
-                <row>
-                  <entry>
-          4
-        </entry>
-                  <entry>
-          35
-        </entry>
-                </row>
-                <row>
-                  <entry>
-          5
-        </entry>
-                  <entry>
-          48
-        </entry>
-                </row>
-              </tbody></tgroup></table>
-            <para>There are 48 squares in Step 5.</para>
-            <para>Step \(n\) would be found with \((n+2)(n+2)-1\) or \((n+2)^2-1\).</para>
-          </solution>
-        </exercise>
-      
+                <entry>
+                  <emphasis> Step </emphasis>
+                </entry>
+                <entry>
+                  <emphasis> # of squares </emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>1 </para>
+                </entry>
+                <entry>
+                  <para>5 </para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>2 </para>
+                </entry>
+                <entry>
+                  <para>10 </para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>3 </para>
+                </entry>
+                <entry>
+                  <para>17 </para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>4 </para>
+                </entry>
+                <entry>
+                  <para>26 </para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>5 </para>
+                </entry>
+                <entry>
+                  <para>37 </para>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para>At Step 5, there are 37 squares.</para>
+        <para>Example 2</para>
+        <para>Find the expression for Step \(n\).</para>
+        <para>Multiply the length and width, and then add the 2 extra squares:</para>
+        <para>\(n(n+2)+2 = n^2+2n+n\)</para>
+        <note class="try">
+          <title>Try It: Writing Expressions for Patterns</title>
+      <exercise>
+            <problem>
+              <para>Use the figure below to find the number of squares in Step 5 and then Step \(n\).</para>
+              <para>
+                <figure>
+                  <media alt="DIAGRAM WITH 3 FIGURES. STEP 1 HAS A RECTANGLE WITH 2 ROWS AND 3 COLUMNS. 2 SQUARES OF A THIRD ROW ARE ADDED. STEP 2 HAS A RECTANGLE WITH 3 ROWS AND 4 COLUMNS. 3 SQUARES OF A FOURTH ROW ARE ADDED. STEP 3 HAS A RECTANGLE WITH 4 ROWS AND 5 COLUMNS. 4 SQUARES OF A FIFTH ROW ARE ADDED.&#10;">
+                    <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_05_02.jpg" />
+                  </media>
+                </figure>
+              </para>
+              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution>
+              <para>Here is how to determine the number of squares in each step:</para>
+              <para>Notice that each figure adds a row and column, and then subtracts one square. The number of rows is always 2 more than the step number.</para>
+              <para>Begin by making a table:</para>
+              <table class="os-raise-midsizetable">
+                <tgroup cols="2">
+                  <tbody>
+                    <row>
+                      <entry>
+                        <emphasis> Step </emphasis>
+                      </entry>
+                      <entry>
+                        <emphasis> # of squares </emphasis>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry> 1 </entry>
+                      <entry> 8 </entry>
+                    </row>
+                    <row>
+                      <entry> 2 </entry>
+                      <entry> 15 </entry>
+                    </row>
+                    <row>
+                      <entry> 3 </entry>
+                      <entry> 24 </entry>
+                    </row>
+                    <row>
+                      <entry> 4 </entry>
+                      <entry> 35 </entry>
+                    </row>
+                    <row>
+                      <entry> 5 </entry>
+                      <entry> 48 </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <para>There are 48 squares in Step 5.</para>
+              <para>Step \(n\) would be found with \((n+2)(n+2)-1\) or \((n+2)^2-1\).</para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
     </section>
   </content>
 </document>
