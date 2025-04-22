@@ -9,9 +9,7 @@
     <section>
       <title>Activity</title>
       <para>In a bungee jump, the height of the jumper is a function of time since the jump begins.</para>
-      <div class="os-raise-d-flex os-raise-justify-content-between">
         <!-- Graph Cell -->
-        <div class="graph-cell">
           <para>
                   <media alt="Graph of curve. Horizontal axis, 0 to 35 by 5’s, t, seconds. Vertical axis, 0 to 90 by 10’s, h, meters. Curve starts a 0 comma 80, decreases then increases, 4 times.">
                 <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_09_06_01.svg"/>
@@ -20,7 +18,6 @@
         </para>
         
         <!-- Expressions and Equations Cell -->
-        <div class="expressions-cell">
           <para>Expressions and Equations:</para>
           <list>
             <item>\(h(0)\)</item>
@@ -31,7 +28,6 @@
           </list>
         
         <!-- Features Cell -->
-        <div class="features-cell">
           <para>Features:</para>
           <list>
             <item>first dip in the graph</item>
@@ -282,27 +278,25 @@
           <para>There is no solution to \(h(t) = 0\) when \(t\) is between 0 and 35, which is what is shown on the graph. We don't know if the function will have a solution when \(t\) is greater than 35.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction End --></section>
+      <section>
       <title>Video: The Meaning of Function Notation</title>
       <para>Watch the following video to learn more about connecting graphical and verbal representations of a function.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/08336f60e67c7d416294bbeff0c6da750df4db0f"/>
       </media>
       <para>The horizontal intercept is also called the \(x\)-<term class="glossary-tooltip">intercept,</term> or <term class="glossary-tooltip">zero</term>.</para>
-      <para>The vertical intercept is also called the \(y\)<term class="glossary-tooltip">-intercept</term>.</para>
+      <para>The vertical intercept is also called the \(y\)<term class="glossary-tooltip">-intercept</term>.</para></section>
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
       
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-        </exercise>
+      <section>
+        <title>Are you ready for more?</title>
+          <section>
+            <title>Extending Your Thinking</title>
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       <exercise class="RFM1">
         <problem>
-          <title>Extending Your Thinking</title>
           <para>Based on the information available, how long do you think the bungee cord is? Make an estimate and explain your reasoning.</para>
         </problem>
         <solution>
@@ -311,7 +305,7 @@
         </solution>
       </exercise>
       <!--End interaction-->
-    </section>
+    </section></section>
     <note class="self-check">
       <title>Self Check</title>
       <para>The graph models the height, in feet, of a kickball over time. When is the ball at its maximum height?</para>
@@ -336,7 +330,7 @@
     </para>
       <para>Why does \(f(20) = f(22)\)?</para>
       <para>Since section B is not changing, it represents the period of time where the store did not receive new shipments, so \(f(20)=f(22)\).</para>
-      <note class="try look-at-me"/>
+      <note class="try">
   <title>Try It: More Real-Life Graphs</title>
       <para>The relationship between Jameson’s account balance \(B\), in dollars, and time \(t\), in days, is modeled by the graph below.</para>
       <para>
@@ -357,7 +351,7 @@
             <para>\(B(9)=98\) represents the maximum amount of money Jameson had in his account over the time period shown. It also represents that after 9 days, Jameson had $98 in his account. It is the maximum because it is the highest point on the graph provided.</para>
           </solution>
         </exercise>
-      
+      </note>
     </section>
     </section>
     
