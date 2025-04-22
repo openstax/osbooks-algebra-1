@@ -8,23 +8,26 @@
   <content>
     <section>
       <title>Activity</title>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <para>Use the graphing tool or technology outside the course. Plot some values for the length and area of the garden
-        with perimeter 50 meters on the coordinate plane.</para>
-            <para>Use your table, or here is a sample table of values if you need one:</para>
+      <media alt="...">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" />
+      </media>
+      <exercise>
+        <problem>
+          <para>Use the graphing tool or technology outside the course. Plot some values for the length and area of the garden with perimeter 50 meters on the coordinate plane.</para>
+          <para>Use your table, or here is a sample table of values if you need one:</para>
+          <table class="os-raise-midsizetable">
             <title>Values for a Rectangular Garden with a Perimeter of 50 Meters</title>
-            <table class="os-raise-midsizetable">
-              <tgroup cols="2"><tbody><row>
+            <tgroup cols="2">
+              <tbody>
+                <row>
                   <entry>
-                   <emphasis>Length (meters)</emphasis>
+                    <emphasis>Length (meters)</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>Area (square meters)</emphasis>
+                    <emphasis>Area (square meters)</emphasis>
                   </entry>
                 </row>
-              <row>
+                <row>
                   <entry>5</entry>
                   <entry>100</entry>
                 </row>
@@ -52,47 +55,41 @@
                   <entry>24</entry>
                   <entry>24</entry>
                 </row>
-              </tbody></tgroup></table>
-            <para>Be sure to label your axes. Select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="Points plotted on a grid. Area of garden, square meters. Length of garden, meters.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_03_06_01.svg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
+              </tbody>
+            </tgroup>
+          </table>
+          <para>Be sure to label your axes. Select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure>
+              <media alt="Points plotted on a grid. Area of garden, square meters. Length of garden, meters.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_03_06_01.svg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
       <!--Text Entry Interaction Start -->
       <exercise>
         <problem>
           <para>What do you notice about how the plotted points increase and decrease?</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>At first, the area grows as the length increases, but then it decreases. Also, the area increases more and more
-      slowly as the length increases.</para>
+          <para>At first, the area grows as the length increases, but then it decreases. Also, the area increases more and more slowly as the length increases.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
       <exercise>
         <problem>
-          <para>The points \((3, 66)\) and \((22, 66)\) each represent the length and area of the garden. Plot these two
-        points on a coordinate plane, if you haven’t already done so. What do these points mean in this situation?
-     </para>
-          
+          <para>The points \((3, 66)\) and \((22, 66)\) each represent the length and area of the garden. Plot these two points on a coordinate plane, if you haven’t already done so. What do these points mean in this situation? </para>
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>The point \((3, 66)\) means that if the length of the garden is 3 meters, then the area is 66 square meters. This
-      is right because the width is 22 meters and \(3 \cdot 22=66\). The point \((22, 66)\) means that the length of the
-      garden is 22 meters, so its width is 3 meters, and the area is again 66 square meters.</para>
+          <para>The point \((3, 66)\) means that if the length of the garden is 3 meters, then the area is 66 square meters. This is right because the width is 22 meters and \(3 \cdot 22=66\). The point \((22, 66)\) means that the length of the garden is 22 meters, so its width is 3 meters, and the area is again 66 square meters.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -100,100 +97,85 @@
       <exercise>
         <problem>
           <para>Could the point \((1, 25)\) represent the length and area of the garden?</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>The point \((1, 25)\) cannot represent the length and area of the garden. If the length of the garden is 1 meter,
-      the width would be 24 meters, so the area is 24 square meters, not 25 square meters.</para>
+          <para>The point \((1, 25)\) cannot represent the length and area of the garden. If the length of the garden is 1 meter, the width would be 24 meters, so the area is 24 square meters, not 25 square meters.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <title>Video: The Meaning of Points on a Graph</title>
-      <para>Watch the following video to learn more about the meaning of points on a graph.</para>
-      <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/4855a37f7605c512fcb9fc25f46c9a7c16b17fdd"/>
-      </media>
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-        </exercise>
-      
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+      <section>
+        <title>Video: The Meaning of Points on a Graph</title>
+        <para>Watch the following video to learn more about the meaning of points on a graph.</para>
+        <media alt="Placeholder for Alt Text">
+          <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/4855a37f7605c512fcb9fc25f46c9a7c16b17fdd" />
+        </media>
+      </section>
+    </section>
+    <section>
+      <title>Are you ready for more?</title>
       <exercise class="RFM1">
         <problem>
           <title>Extending Your Thinking</title>
-          <para>What happens to the area when you interchange the length and width? For example, compare the areas of a
-        rectangle of length 11 meters and width 14 meters with a rectangle of length 14 meters and width 11 meters.</para>
-          
+          <para>What happens to the area when you interchange the length and width? For example, compare the areas of a rectangle of length 11 meters and width 14 meters with a rectangle of length 14 meters and width 11 meters.</para>
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>The area stays the same if the length and width are interchanged because the area is the product of the length
-      and the width.</para>
+          <para>The area stays the same if the length and width are interchanged because the area is the product of the length and the width.</para>
         </solution>
       </exercise>
       <exercise class="RFM1">
         <problem>
           <para>What patterns would you notice if you were to plot more length and area pairs on the graph?</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
-          <para>Many of the areas would come with two different pairs: for example, 100 comes from the pair \((5, 100)\) and also
-      from the pair \((20, 100)\) because a rectangle with length 5 meters and width 20 meters is the same as a
-      rectangle with length 20 meters and width 5 meters. Using a different length and corresponding width, the 156
-      comes from the pair \((12, 156)\) and also from the pair \((13, 156)\). The points on the graph would have
-      reflectional symmetry about the line \(x=12.5\).</para>
+          <para>Many of the areas would come with two different pairs: for example, 100 comes from the pair \((5, 100)\) and also from the pair \((20, 100)\) because a rectangle with length 5 meters and width 20 meters is the same as a rectangle with length 20 meters and width 5 meters. Using a different length and corresponding width, the 156 comes from the pair \((12, 156)\) and also from the pair \((13, 156)\). The points on the graph would have reflectional symmetry about the line \(x=12.5\).</para>
         </solution>
       </exercise>
       <!--End interaction-->
     </section>
-
     <note class="self-check">
       <para>The graph below shows a rectangle’s side length and its area. What is true about the point \((3, 21)\)?</para>
       <para>
         <figure>
           <media alt="">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_08_03_07_01.jpg"/>
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_08_03_07_01.jpg" />
           </media>
         </figure>
-     </para>
+      </para>
     </note>
-
     <section>
-      <title>Determining the Meaning of a Point on a Graph</title>
-      <para>The graph below shows the relationship between a rectangle’s side length and area.</para>
-      <para>
-        <figure>
-          <media alt="Points plotted. Horizontal axis, length in inches, 0 to 10. Vertical axis, area in square inches, 0 to 32. Selected points at 2 comma 18, 3 comma 24, 5 comma 30, 6 comma 30, 8 comma 24, 10 comma 10.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_03_08_01.svg"/>
-          </media>
-        </figure>
-     </para>
-      <para>What does the point \((7, 28)\) mean in the situation?</para>
-      <para>The \(x\)-axis represents the length of the rectangle in inches. So, when \(x=7\), the rectangle has a side length of 7 inches.</para>
-      <para>The \(y\)-axis represents the area of the rectangle. So, when \(y=28\), the rectangle has an area of 28 square inches.</para>
-      <para>This also means the rectangle has a width of 4 inches since \(7 \times 4=28\).</para>
-      <note class="try look-at-me"/>
-  <title>Try It: Determining the Meaning of a Point on a Graph</title>
-      
+      <title>Additional Resources</title>
+      <section>
+        <title>Determining the Meaning of a Point on a Graph</title>
+        <para>The graph below shows the relationship between a rectangle’s side length and area.</para>
+        <para>
+          <figure>
+            <media alt="Points plotted. Horizontal axis, length in inches, 0 to 10. Vertical axis, area in square inches, 0 to 32. Selected points at 2 comma 18, 3 comma 24, 5 comma 30, 6 comma 30, 8 comma 24, 10 comma 10.">
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_03_08_01.svg" />
+            </media>
+          </figure>
+        </para>
+        <para>What does the point \((7, 28)\) mean in the situation?</para>
+        <para>The \(x\)-axis represents the length of the rectangle in inches. So, when \(x=7\), the rectangle has a side length of 7 inches.</para>
+        <para>The \(y\)-axis represents the area of the rectangle. So, when \(y=28\), the rectangle has an area of 28 square inches.</para>
+        <para>This also means the rectangle has a width of 4 inches since \(7 \times 4=28\).</para>
+        <note class="try">
+          <title>Try It: Determining the Meaning of a Point on a Graph</title>
         <exercise>
-          <problem>
-            <para>Using the same graph above, determine the meaning of the point \((3, 24)\) and the width of the rectangle.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Here is how to determine the meaning of the point \((3, 24)\) and the width of the rectangle:</para>
-            <para>Since the \(x\)-axis is the length of the rectangle in inches, \(x=3\) represents the length of the rectangle is 3 inches. Since the \(y\)-axis represents the area in square inches, the area of the rectangle is 24 square inches.</para>
-            <para>This means the width of the rectangle must be 8 inches since \(3 \times 8 = 24\).</para>
-          </solution>
-        </exercise>
-      
+            <problem>
+              <para>Using the same graph above, determine the meaning of the point \((3, 24)\) and the width of the rectangle.</para>
+              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution>
+              <para>Here is how to determine the meaning of the point \((3, 24)\) and the width of the rectangle:</para>
+              <para>Since the \(x\)-axis is the length of the rectangle in inches, \(x=3\) represents the length of the rectangle is 3 inches. Since the \(y\)-axis represents the area in square inches, the area of the rectangle is 24 square inches.</para>
+              <para>This means the width of the rectangle must be 8 inches since \(3 \times 8 = 24\).</para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
     </section>
   </content>
 </document>
