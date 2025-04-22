@@ -10,7 +10,6 @@
       <title>Activity</title>
       <para>A flag ceremony is held at a Fourth of July event. The height of the flag is a function of time.</para>
       <para>Here are some graphs that could each be a possible representation of the function.</para>
-      <div class="os-raise-d-flex os-raise-align-items-center">
         <!-- Row 1 -->
         <para>a.</para>
           <media alt="Graph A">
@@ -129,27 +128,20 @@
       This graph does not represent a function. A function has only one output for every input. If we assume that time is measured in seconds and the height is measured in meters, this graph shows many possible outputs when the input is 3 seconds.
   </para>
         </solution>
-      </exercise>
+      </exercise></section>
       <!--Interaction End -->
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
       
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-          <solution>
-            <list class="os-raise-noindent" list-type="enumerated">
-              <item>Use the Desmos graphing tool or technology outside the course to graph the equation.
-   </item>
-            </list>
-          </solution>
-        </exercise>
+      <section>
+        <title>Are you ready for more?</title>
+          <section>
+            <title>Extending Your Thinking</title>
+
+     
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       <exercise class="RFM1">
         <problem>
-          <title>Extending Your Thinking </title>
           <para>Suppose an ant is moving at a rate of 1 millimeter per second and keeps going at that rate for a long time.
       If time, \(x\), is measured in seconds, then the distance the ant has traveled in millimeters, \(y\), is \(y=1x\). If time, \(x\), is measured in minutes, the distance in millimeters is \(y=60x\).</para>
           <para>Explain why the equation \(y=(365\cdot24\cdot3600)x\) gives the distance the ant has traveled, in millimeters, as a function of time, \(x\), in years.</para>
@@ -161,9 +153,12 @@
         </solution>
       </exercise>
       <!--End interaction-->
-      <iframe src="../../media/desmos/4b9a64a46a036b3781e2d69e39fcb57b5725d9e6.html" width="600" height="500"/>
+      
         <exercise class="RFM1">
-          <problem>
+          <problem> <media alt=""><iframe src="../../media/desmos/4b9a64a46a036b3781e2d69e39fcb57b5725d9e6.html" width="600" height="500"/></media>          
+                <para>1. Use the Desmos graphing tool or technology outside the course to graph the equation.
+                </para>
+          
             <para>When you have finished graphing, then select the <emphasis>Solution</emphasis> button to compare your work.
   </para>
           </problem>
@@ -171,7 +166,7 @@
                   <media alt="Insert Alt Text">
                 <image mime-type="image/jpeg" src="../../media/Algebra-1_04_12_03_08.jpg"/>
               </media>
-            
+   
           </solution>
         </exercise>
       
@@ -202,20 +197,23 @@
       <exercise class="RFM1">
         <problem>
           <para>Do you think the last graph in the flag activity, Graph F, could represent a function relating time and height of a flag? Explain your reasoning.</para>
-          <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
+
+      <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
         </problem>
         <solution>
           <para>Compare your answer: Your answer may vary, but here is a sample.</para>
           <para>It could, depending on the unit of time being used and the scale of the horizontal and vertical axes. If the time is measured in months, for instance, each point on the graph could represent a time value that is just a tiny bit more than 3 months—say, 3 months and 1 second, 3 months and 2 seconds, and so on. A horizontal change of 1 second would not be visible when the horizontal units are measured in months, so all input-output pairs marking the height of the flag at each second would appear to be stacked exactly on top of one another.</para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End interaction--></section>
+      <section>
       <title>Video: Interpreting Graphs Without Units</title>
       <para>Watch the following video to learn more about how to determine if a graph is realistic when it doesn’t have units.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/87ae00400d6a712d7c1fd3467031b8618a04c24d"/>
       </media>
-    </section>
+    </section></section>
+
     <note class="self-check">
       (    <para>Shannon is running on a flat, rocky trail that eventually rises up a steep mountain. Which graph below represents the total distance she covers with respect to time?</para>)
         </note>
@@ -257,7 +255,7 @@
       <para>Description 1 best matches part C of the graph. If half of the workers went on strike, then the number of smartphones produced would be less than normal. The rate of change for C is less than the rate of change for A.</para>
       <para>Description 3 best matches part B of the graph. If no smartphones are shipped to the sore, the total number remains constant during that time.</para>
       <para>Part A of the graph best matches description 2. If the production schedule is normal, the rate of change of interval A is greater than the rate of change of interval C.</para>
-      <note class="try look-at-me"/>
+      <note class="try">
   <title>Try It: Interpreting Graphs of Functions</title>
       <para>The relationship between Jameson’s account balance and time is modeled by the graph below.</para>
       <para>
@@ -278,7 +276,7 @@
             <para>Jameson was sick and did not work for almost a whole week. Then, he mowed several lawns over the next few days and deposited the money into his account after each job. It rained several days, so instead of working, Jameson withdrew money from his account each day to go to the movies and out to lunch with friends.</para>
           </solution>
         </exercise>
-      
+      </note>
     </section>
         </section>
         
