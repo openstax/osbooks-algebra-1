@@ -8,7 +8,7 @@
   <content>
     <section>
       <title>Activity</title>
-      <title>Horizontal Shifts</title>
+      <section><title>Horizontal Shifts</title>
       <list class="os-raise-noindent" list-type="enumerated">
         <item>Use the Desmos graphing tool or technology outside the course. Graph the following linear functions.</item>
       </list>
@@ -19,7 +19,7 @@
         <item>\(f(x)=2(x-2)\)</item>
         <item>\(f(x)=2(x-4)\)</item>
       </list>
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
+      <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
         <exercise>
           <problem>
             <para>When you have finished graphing, then select the <emphasis>solution</emphasis> button to compare your work.
@@ -74,12 +74,12 @@
       <note>
         <title>Horizontal Shift of a Function</title>
         <para>A horizontal shift “transforms” the parent function into another function by moving the graph to the left or right \(c\) units.</para>
-        <para align="center">Horizontal Shift → \(f(x - c)\)</para>
+        <para>Horizontal Shift → \(f(x - c)\)</para>
       </note>
       <para>If the \(c\) value is positive, the graph of the function shifts right. If the \(c\) value is negative, the graph of the function shifts left. 
 
     But, be careful! The sign of the \(c\) value is preceded by subtraction in the equation. When the equation is simplified, the sign of the \(c\) value is changed.</para>
-    </section>
+    </section></section>
     <note class="self-check"><title>Self Check</title>
       <para>Which graph represents \(f(x-5)\) when \(f(x) = x\), the linear parent function? The parent function is represented by the dashed, blue line.</para></note>
       <section>
@@ -106,9 +106,9 @@ y = 1(x + 7)
 \]</para>
       <para>So, the equation of a line that has been shifted 7 units to the left from the parent function, \( f(x) = x \), is \( y = x + 7 \)</para>
       <para>But, doesn’t it look like the function \( f(x) = x + 7 \) was shifted up 7 units, too? This is because \( f(x) = x+7 \) is equivalent to \( f(x) = 1(x+7) \). And this is what makes horizontal shifts difficult to see.</para>
-      <title>Example 1</title>
+      <para><emphasis>Example 1</emphasis></para>
       <para>How has the function \( f(x) = 3(x-4) \) been transformed from \( f(x) = 3x \)?</para>
-      <para><emphasis>Solution:</emphasis>
+      <para><emphasis>Solution:</emphasis> 
 To answer this question, first consider how the <emphasis effect="italics">x</emphasis>-values, including the \(x\)-intercept, are being changed. The function says to subtract 4 from each <emphasis effect="italics">x</emphasis>-value. This means the function is being shifted 4 units.</para>
       <para>Next, we need to determine which direction the <emphasis effect="italics">x</emphasis>-values are being shifted. Let’s look at the graphs.</para>
       <para>
@@ -125,7 +125,7 @@ To answer this question, first consider how the <emphasis effect="italics">x</em
         <item>Each point on the parent function has been shifted 4 units to the right.</item>
       </list>
       <para>Therefore, we conclude the line representing \( f(x) = 3(x-4) \) appears to have been shifted 4 units to the right from the function \( f(x) = 3x \).</para>
-      <title>Example 2</title>
+      <para><emphasis>Example 2</emphasis></para>
       <para>Use the \(x\)-intercept to describe how the function \( f(x) = x+9 \) has been transformed from the parent function \( f(x) = x \).</para>
       <para><emphasis>Solution:</emphasis>
 We know the shift is 9 units, but we need to consider which direction the \(x\)-intercept has been moved.</para>
@@ -138,7 +138,7 @@ We know the shift is 9 units, but we need to consider which direction the \(x\)-
       <para>The orange dashed line represents the parent function, \( f(x) = x \) and the solid blue line represents the shifted function.</para>
       <para>Carefully looking at the \(x\)-intercepts, we see the line representing \( f(x) = x+9 \) has been shifted 9 units to the left from the parent function, \( f(x)=x \).</para>
       <para>Often the horizontal shift is denoted using parentheses to explicitly identify how the values of the independent variable, or domain, are being changed.</para>
-      <title>Example 3</title>
+      <para><emphasis>Example 3</emphasis></para>
       <para>Describe how the function \( f(x) = ½ (x + 4) \) is horizontally transformed to \( g(x) = ½ (x - 2) \).</para>
       <para><emphasis>Solution:</emphasis>
 Let’s rewrite the equations in point-slope form, \((y - y_{1}) = m(x - x_{1})\):
@@ -171,12 +171,12 @@ g(x) &amp;= \frac{1}{2}(x - 2) \\
       <note>
         <title>Horizontal Shift of a Function</title>
         <para>A horizontal shift “transforms” the parent function into another function by moving the graph to the left or right \(c\) units.</para>
-        <para align="center">Horizontal Shift → \(f(x - c)\)</para>
+        <para >Horizontal Shift → \(f(x - c)\)</para>
       </note>
       <para>If the \(c\) value is positive, the graph of the function shifts right. If the \(c\) value is negative, the graph of the function shifts left. 
 
     But, be careful! The sign of the \(c\) value is preceded by subtraction in the equation. When the equation is simplified, the sign of the \(c\) value is changed.</para>
-      <note class="try look-at-me"/>
+      <note class="try">
   <title>Try It: Horizontal Shifts and \(x\)-intercepts</title>
       
         <exercise>
@@ -191,7 +191,7 @@ g(x) &amp;= \frac{1}{2}(x - 2) \\
             <para>Since the \(x\)-intercept of \(f(x)\) = x-5 is \((5,0)\), the graph of \(f(x)=x\) is shifted right 5 units to arrive at \(f(x)=x-5\).</para>
           </solution>
         </exercise>
-      
+      </note>
     </section>
       </section>
       
