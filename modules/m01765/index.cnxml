@@ -6,123 +6,101 @@
     <md:uuid>35d50e3c-816e-4335-8754-eab477955059</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section class="practice">
       <para>Complete the following questions to practice the skills you have learned in this lesson.</para>
-      <section class="check-understanding">
-        <exercise id="d58381a9-a116-4e2c-81b3-94b5b3cd37d1" class="multiple-choice">
-          <problem>
-            <para>Pattern A</para>
-            <para>Here are two patterns of dots.</para>
-            <para>
-              <figure>
-                <media alt="Four figures, labeled step 0 through 3. Step 0, no dots. Step 1, row of 4 dots. Step 2, 2 rows of 4 dots each. Step 3, 3 rows of 4 dots each.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_10_01.svg"/>
-                </media>
-              </figure>
-           </para>
-            <para>Pattern B</para>
-            <para>
-              <figure>
-                <media alt="Four figures, step 0 through 3. Step 0, 2 dots. Step 1 row of 1 dot above a row of 2 dots. Step 2, 2 rows of 2 dots each, above a row of 2 dots. Step 3, 3 rows of 3 dots each, above row of 2 dots.">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_10_02.jpg"/>
-                </media>
-              </figure>
-           </para>
-            <para>How many dots will there be in Step 4 of Pattern A?</para>
-            
-          </problem>
-          <solution>
-            <para>Correct! There will be 4 rows and 4 columns in Step 4.</para>
-            <para>Try again. Revisit activity 7.2.2.</para>
-            <para>The correct answer is 16.
-     </para>
-          </solution>
-        </exercise>
-        <exercise id="bedc6d9a-4d0e-4890-901f-10b2428b8966" class="multiple-choice">
-          <problem>
-            
-            <para>How many dots will there be in Step 4 of Pattern B?</para>
-          </problem>
-          <solution>
-            <para>Correct! The relationship is \(n^2+2\).</para>
-            <para>Try again. Revisit activity 7.2.2.</para>
-            <para>The correct answer is 18.
-     </para>
-          </solution>
-        </exercise>
-        <exercise id="_78ee8dd0-f16f-48fb-9102-636e1d540108" class="multiple-choice">
-          <problem>
-            <para>Which pattern shows a quadratic relationship between the step number and the number of dots?</para>
-          </problem>
-          <solution>
-            <para>Correct! The relationship is \(n^2+2\).</para>
-            <para>Try again. Revisit activities 7.2.3 and 7.2.4.</para>
-            <para>The correct answer is Pattern B. This is because the relationship is \(n^2+2\).
-     </para>
-          </solution>
-        </exercise>
-        <exercise id="_5df82e90-55ae-44d5-ad83-882333ba247f" class="multiple-choice">
-          <problem>
-            <para>Select two expressions that represent a quadratic relationship between the step number and the total number of dots. (If you get stuck, consider sketching the first few steps of each pattern as described by the expression.)</para>
-            <para>Each expression represents the total number of dots in a pattern where \(n\) represents the step number.</para>
-          </problem>
-          <solution>
-            
-            <para>Try again. Revisit activities 7.2.3 and 7.2.4.
-     </para>
-            <para>The correct answers are \(n^2\) and \(n \cdot n\).
-
-     </para>
-          </solution>
-        </exercise>
-        <exercise id="_2937ceb9-af8f-40b1-8969-71308b1f2a66" class="multiple-choice">
-          <problem>
-            <newline/>
-            <para>Use the pattern below to answer the questions.</para>
-            <para>How many blocks are in Step 4?</para>
-            
-          </problem>
-          <solution>
-            <para>Correct! The length is always \(n+2\), the width is always \(n+2\), and then \(n\) blocks are subtracted.
-     </para>
-            <para>Try again. Revisit activities 7.3.2 and 7.3.4. 
-     </para>
-            <para>The correct answer is 32.
-     </para>
-          </solution>
-        </exercise>
-        <exercise id="_6e40b6dc-235c-482f-a9cc-eeada42e60f2" class="multiple-choice">
-          <problem>
-            
-            <para>How many blocks are in Step 5?</para>
-          </problem>
-          <solution>
-            <para>Correct! The length is always \(n+2\), the width is always \(n+2\), and then \(n\) blocks are subtracted.
-     </para>
-            <para>Try again. Revisit activities 7.3.2 and 7.3.4. 
-     </para>
-            <para>The correct answer is 44.
-     </para>
-          </solution>
-        </exercise>
-        <exercise id="fdbe403b-0f9a-4799-ae16-bfce47321e47" class="multiple-choice">
-          <problem>
-            <para>How many blocks are in Step \(n\)?</para>
-            <para>Multiple Choice:</para>
-            <para>\(n^2-2\)</para>
-            <para>\(n+6\)</para>
-            <para>\((n+2)^2-n\)</para>
-            <para>\((n+2)^2\)</para>
-          </problem>
-          <solution>
-            <para>Correct! The length is always \(n+2\), the width is \(n+2\), and then \(n\) blocks are subtracted.</para>
-            <para>Try again. Revisit activities 7.3.2 – 7.3.4.</para>
-            <para>The correct answer is \((n+2)^2-n\).
-
-     </para>
-          </solution>
-        </exercise>
-      </section>
+      <exercise id="d58381a9-a116-4e2c-81b3-94b5b3cd37d1" class="multiple-choice">
+        <problem>
+          <para>Pattern A</para>
+          <para>Here are two patterns of dots.</para>
+          <para>
+            <figure>
+              <media alt="Four figures, labeled step 0 through 3. Step 0, no dots. Step 1, row of 4 dots. Step 2, 2 rows of 4 dots each. Step 3, 3 rows of 4 dots each.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_10_01.svg" />
+              </media>
+            </figure>
+          </para>
+          <para>Pattern B</para>
+          <para>
+            <figure>
+              <media alt="Four figures, step 0 through 3. Step 0, 2 dots. Step 1 row of 1 dot above a row of 2 dots. Step 2, 2 rows of 2 dots each, above a row of 2 dots. Step 3, 3 rows of 3 dots each, above row of 2 dots.">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_10_02.jpg" />
+              </media>
+            </figure>
+          </para>
+          <para>How many dots will there be in Step 4 of Pattern A?</para>
+        </problem>
+        <solution>
+          <para>Correct! There will be 4 rows and 4 columns in Step 4.</para>
+          <para>Try again. Revisit activity 7.2.2.</para>
+          <para>The correct answer is 16. </para>
+        </solution>
+      </exercise>
+      <exercise id="bedc6d9a-4d0e-4890-901f-10b2428b8966" class="multiple-choice">
+        <problem>
+          <para>How many dots will there be in Step 4 of Pattern B?</para>
+        </problem>
+        <solution>
+          <para>Correct! The relationship is \(n^2+2\).</para>
+          <para>Try again. Revisit activity 7.2.2.</para>
+          <para>The correct answer is 18. </para>
+        </solution>
+      </exercise>
+      <exercise id="_78ee8dd0-f16f-48fb-9102-636e1d540108" class="multiple-choice">
+        <problem>
+          <para>Which pattern shows a quadratic relationship between the step number and the number of dots?</para>
+        </problem>
+        <solution>
+          <para>Correct! The relationship is \(n^2+2\).</para>
+          <para>Try again. Revisit activities 7.2.3 and 7.2.4.</para>
+          <para>The correct answer is Pattern B. This is because the relationship is \(n^2+2\). </para>
+        </solution>
+      </exercise>
+      <exercise id="_5df82e90-55ae-44d5-ad83-882333ba247f" class="multiple-choice">
+        <problem>
+          <para>Select two expressions that represent a quadratic relationship between the step number and the total number of dots. (If you get stuck, consider sketching the first few steps of each pattern as described by the expression.)</para>
+          <para>Each expression represents the total number of dots in a pattern where \(n\) represents the step number.</para>
+        </problem>
+        <solution>
+          <para>Try again. Revisit activities 7.2.3 and 7.2.4. </para>
+          <para>The correct answers are \(n^2\) and \(n \cdot n\). </para>
+        </solution>
+      </exercise>
+      <exercise id="_2937ceb9-af8f-40b1-8969-71308b1f2a66" class="multiple-choice">
+        <problem>
+          <para>Use the pattern below to answer the questions.</para>
+          <para>How many blocks are in Step 4?</para>
+        </problem>
+        <solution>
+          <para>Correct! The length is always \(n+2\), the width is always \(n+2\), and then \(n\) blocks are subtracted. </para>
+          <para>Try again. Revisit activities 7.3.2 and 7.3.4. </para>
+          <para>The correct answer is 32. </para>
+        </solution>
+      </exercise>
+      <exercise id="_6e40b6dc-235c-482f-a9cc-eeada42e60f2" class="multiple-choice">
+        <problem>
+          <para>How many blocks are in Step 5?</para>
+        </problem>
+        <solution>
+          <para>Correct! The length is always \(n+2\), the width is always \(n+2\), and then \(n\) blocks are subtracted. </para>
+          <para>Try again. Revisit activities 7.3.2 and 7.3.4. </para>
+          <para>The correct answer is 44. </para>
+        </solution>
+      </exercise>
+      <exercise id="fdbe403b-0f9a-4799-ae16-bfce47321e47" class="multiple-choice">
+        <problem>
+          <para>How many blocks are in Step \(n\)?</para>
+          <para>Multiple Choice:</para>
+          <para>\(n^2-2\)</para>
+          <para>\(n+6\)</para>
+          <para>\((n+2)^2-n\)</para>
+          <para>\((n+2)^2\)</para>
+        </problem>
+        <solution>
+          <para>Correct! The length is always \(n+2\), the width is \(n+2\), and then \(n\) blocks are subtracted.</para>
+          <para>Try again. Revisit activities 7.3.2 – 7.3.4.</para>
+          <para>The correct answer is \((n+2)^2-n\). </para>
+        </solution>
+      </exercise>
     </section>
   </content>
 </document>
