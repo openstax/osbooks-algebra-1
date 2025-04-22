@@ -9,570 +9,737 @@
     <section>
       <title>Activity</title>
       <para>Here are three types of situations. Answer the questions about each situation.</para>
+      <section>
       <title>
-       <emphasis>Bank Accounts</emphasis>
+        <emphasis>Bank Accounts</emphasis>
       </title>
       <para>For questions 1 – 4, use the following scenario:</para>
       <para>
-        <quote>A customer opens a checking account and a savings account at a bank.  A maximum of $600 will be deposited into the two accounts, some in the checking account and some in the savings account. (They might not deposit all of it and keep some of the money as cash.)</quote>
-     </para>
+        <quote>A customer opens a checking account and a savings account at a bank. A maximum of
+        $600 will be deposited into the two accounts, some in the checking account and some in the
+        savings account. (They might not deposit all of it and keep some of the money as cash.)</quote>
+      </para>
       <!--Q#1-->
-      
-        <exercise>
-          <problem>
-            <para>Write an inequality to describe the constraints. Specify what each variable represents.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(x+y \leq 600\), where \(x\) represents the amount deposited in the checking account and \(y\) the amount deposited in the savings account.</para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+
+      <exercise>
+        <problem>
+          <para>Write an inequality to describe the constraints. Specify what each variable
+            represents.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(x+y \leq 600\), where \(x\) represents the amount deposited in the checking
+            account and \(y\) the amount deposited in the savings account.</para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#2-->
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or technology outside the course. Graph the inequality that represents this scenario using the Desmos tool below.</item>
-        <para><emphasis>Hint:</emphasis> To restrict the \(x\) and \(y\) values to the constraints of the problem, enter \(\{0 \leq x \leq 600\}\{0 \leq y \leq 600\}\) after your equation.</para>
-      </list>
-      <iframe src="../../media/desmos/121fc7d48b7024ae528b71bf02c757bb2abd5a17.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:
-    <figure><media alt="Graph of inequality.  "><image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_01.svg"/></media></figure></para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or
+            technology outside the course. Graph the inequality that represents this scenario using
+            the Desmos tool below.</para>
+          <para><emphasis>Hint:</emphasis> To restrict the \(x\) and \(y\) values to the constraints
+            of the problem, enter \(\{0 \leq x \leq 600\}\{0 \leq y \leq 600\}\) after your equation.</para>
+        <media alt="">
+        <iframe src="../../media/desmos/121fc7d48b7024ae528b71bf02c757bb2abd5a17.html" width="500"
+          height="400" />
+        </media>
+          <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer: <figure class="unnumbered">
+              <media alt="Graph of inequality.  ">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_01.svg" />
+              </media>
+            </figure></para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#3-->
       <exercise>
         <problem>
-          <para>Name one solution to the inequality and explain what it represents in that situation.</para>
-          
+          <para>Name one solution to the inequality and explain what it represents in that
+            situation.</para>
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Your answer may vary, but here is a sample.</para>
-          <para>\((500, 100)\). $500 is deposited in checking and $100 in savings. The total is $600, which is the maximum amount the customer plans to deposit.</para>
+          <para>\((500, 100)\). $500 is deposited in checking and $100 in savings. The total is
+            $600, which is the maximum amount the customer plans to deposit.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#4-->
       <exercise>
         <problem>
-          <para>If the customer deposits $200 in their checking account, what can you say about the amount they deposit in their savings account?</para>
-          
+          <para>If the customer deposits $200 in their checking account, what can you say about the
+            amount they deposit in their savings account?</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>The customer deposits $400 or less in savings.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <para>For questions 5 – 8, use the following scenario:</para>
       <para>
-        <quote>A customer opens a checking account and a savings account at a bank. The bank requires a minimum balance of $50 in the savings account. It does not matter how much money is kept in the checking account.</quote>
-     </para>
+        <quote>A customer opens a checking account and a savings account at a bank. The bank
+        requires a minimum balance of $50 in the savings account. It does not matter how much money
+        is kept in the checking account.</quote>
+      </para>
       <!--Q#5-->
-      
-        <exercise>
-          <problem>
-            <para>Write an inequality to describe the constraints. Specify what each variable represents</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(y \geq 50\), where \(y\) is the balance in the savings account.</para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+
+      <exercise>
+        <problem>
+          <para>Write an inequality to describe the constraints. Specify what each variable
+            represents</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(y \geq 50\), where \(y\) is the balance in the savings account.</para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#6-->
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or technology outside the course. Graph the inequality that represents this scenario using the Desmos tool below.</item>
-        <para><emphasis>Hint:</emphasis> To restrict the \(x\) values to the constraints of the problem (the checking account should never have less than $0), enter \(\{x \geq 0\}\) after your equation.</para>
-      </list>
-      <iframe src="../../media/desmos/121fc7d48b7024ae528b71bf02c757bb2abd5a17.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="Graph of inequality.  ">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_02.svg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or
+            technology outside the course. Graph the inequality that represents this scenario using
+            the Desmos tool below.</para>
+          <para><emphasis>Hint:</emphasis> To restrict the \(x\) values to the constraints of the
+            problem (the checking account should never have less than $0), enter \(\{x \geq 0\}\)
+            after your equation.</para>
+        <media alt="">
+        <iframe src="../../media/desmos/121fc7d48b7024ae528b71bf02c757bb2abd5a17.html" width="500"
+          height="400" />
+        </media>
+          <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure class="unnumbered">
+              <media alt="Graph of inequality.  ">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_02.svg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#7-->
       <exercise>
         <problem>
-          <para>Name one solution to the inequality and explain what it represents in that situation.</para>
-          
+          <para>Name one solution to the inequality and explain what it represents in that
+            situation.</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Your answer may vary, but here is a sample.</para>
-          <para>\((50, 50)\). The customer keeps $50 in savings and $50 in checking, which meets the minimum of $50 deposited in savings.</para>
+          <para>\((50, 50)\). The customer keeps $50 in savings and $50 in checking, which meets the
+            minimum of $50 deposited in savings.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#8-->
       <exercise>
         <problem>
-          <para>If the customer deposits no money in the checking account but is able to maintain both accounts without penalty, what can you say about the amount deposited in the savings account?</para>
-          
+          <para>If the customer deposits no money in the checking account but is able to maintain
+            both accounts without penalty, what can you say about the amount deposited in the
+            savings account?</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>The customer deposits at least $50 in the savings account.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
+      </section>
+      <section>
       <title>
-       <emphasis>Concert Tickets</emphasis>
+        <emphasis>Concert Tickets</emphasis>
       </title>
       <para>For questions 1 – 4, use the following scenario:</para>
       <para>
-        <quote>Two kinds of tickets to an outdoor concert were sold: lawn tickets and seat tickets. Fewer than 400 tickets in total were sold.</quote>
-     </para>
+        <quote>Two kinds of tickets to an outdoor concert were sold: lawn tickets and seat tickets.
+        Fewer than 400 tickets in total were sold.</quote>
+      </para>
       <!--Q#1-->
-      
-        <exercise>
-          <problem>
-            <para>Write an inequality to describe the constraints. Specify what each variable represents.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(x+y&lt;400\), where \(x\) represents the number of lawn tickets and \(y\) represents the number of seat tickets.</para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+
+      <exercise>
+        <problem>
+          <para>Write an inequality to describe the constraints. Specify what each variable
+            represents.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(x+y&lt;400\), where \(x\) represents the number of lawn tickets and \(y\)
+            represents the number of seat tickets.</para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#-->
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or technology outside the course. Graph the inequality that represents this scenario using the Desmos tool below.</item>
-        <para><emphasis>Hint:</emphasis> To restrict the \(x\) and \(y\) values to the constraints of the problem, enter \(\{0 \leq x \}\{0 \leq y \}\) after your equation (because you cannot have a negative number of tickets).</para>
-      </list>
-      <iframe src="../../media/desmos/121fc7d48b7024ae528b71bf02c757bb2abd5a17.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:
-    <figure><media alt="Graph of inequality.  "><image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_03.svg"/></media></figure></para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or
+            technology outside the course. Graph the inequality that represents this scenario using
+            the Desmos tool below.</para>
+          <para><emphasis>Hint:</emphasis> To restrict the \(x\) and \(y\) values to the constraints
+            of the problem, enter \(\{0 \leq x \}\{0 \leq y \}\) after your equation (because you
+            cannot have a negative number of tickets).</para>
+        <media alt="">
+        <iframe src="../../media/desmos/121fc7d48b7024ae528b71bf02c757bb2abd5a17.html" width="500"
+          height="400" />
+        </media>
+          <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer: <figure class="unnumbered">
+              <media alt="Graph of inequality.  ">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_03.svg" />
+              </media>
+            </figure></para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#3-->
       <exercise>
         <problem>
-          <para>Name one solution to the inequality and explain what it represents in that situation.</para>
-          
+          <para>Name one solution to the inequality and explain what it represents in that
+            situation.</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Your answer may vary, but here is a sample.</para>
-          <para>\((100, 200)\). 100 lawn tickets and 200 seat tickets were sold. The total is 300 tickets, which is fewer than 400.</para>
+          <para>\((100, 200)\). 100 lawn tickets and 200 seat tickets were sold. The total is 300
+            tickets, which is fewer than 400.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#4-->
       <exercise>
         <problem>
-          <para>If you know that exactly 100 lawn tickets were sold, what can you say about the number of seat tickets?</para>
-          
+          <para>If you know that exactly 100 lawn tickets were sold, what can you say about the
+            number of seat tickets?</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Fewer than 300 seat tickets were sold.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <para>For questions 5 – 8, use the following scenario:</para>
       <para>
-        <quote>Lawn tickets cost $30 each and seat tickets cost $50 each. The organizers made at least $14,000 from ticket sales.</quote>
-     </para>
+        <quote>Lawn tickets cost $30 each and seat tickets cost $50 each. The organizers made at
+        least $14,000 from ticket sales.</quote>
+      </para>
       <!--Q#5-->
-      
-        <exercise>
-          <problem>
-            <para>Write an inequality to describe the constraints. Specify what each variable represents.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Your answer may vary, but here is a sample. \(30x+50y \geq 14,000\), where \(x\) represents the number of lawn tickets and \(y\) represents the number of seat tickets.</para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+
+      <exercise>
+        <problem>
+          <para>Write an inequality to describe the constraints. Specify what each variable
+            represents.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Your answer may vary, but here is a sample. \(30x+50y \geq 14,000\),
+            where \(x\) represents the number of lawn tickets and \(y\) represents the number of
+            seat tickets.</para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#6-->
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or technology outside the course. Graph the inequality that represents this scenario using the Desmos tool below.</item>
-        <para><emphasis>Hint:</emphasis> To restrict the \(x\) and \(y\) values to the constraints of the problem, enter \(\{0 \geq x \}\{0 \geq y \}\) after your equation (because you cannot have a negative number of tickets).</para>
-      </list>
-      <iframe src="../../media/desmos/121fc7d48b7024ae528b71bf02c757bb2abd5a17.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="Graph of inequality. Horizontal axis, number of lawn tickets, from 0 to 500 by 50s. Vertical axis, number of seat tickets, from 0 to 500 by 50s. Slanted, solid line. Shading above.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_04.svg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or
+            technology outside the course. Graph the inequality that represents this scenario using
+            the Desmos tool below.</para>
+          <para><emphasis>Hint:</emphasis> To restrict the \(x\) and \(y\) values to the constraints
+            of the problem, enter \(\{0 \geq x \}\{0 \geq y \}\) after your equation (because you
+            cannot have a negative number of tickets).</para>
+        <media alt="">
+        <iframe src="../../media/desmos/121fc7d48b7024ae528b71bf02c757bb2abd5a17.html" width="500"
+          height="400" />
+        </media>
+          <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure class="unnumbered">
+              <media
+                alt="Graph of inequality. Horizontal axis, number of lawn tickets, from 0 to 500 by 50s. Vertical axis, number of seat tickets, from 0 to 500 by 50s. Slanted, solid line. Shading above.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_04.svg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#7-->
       <exercise>
         <problem>
-          <para>Name one solution to the inequality and explain what it represents in that situation.</para>
-          
+          <para>Name one solution to the inequality and explain what it represents in that
+            situation.</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Your answer may vary, but here is a sample.</para>
-          <para>\((100, 250)\). 100 lawn tickets and 250 seat tickets. The ticket sales would be $15,500, which is more than $14,000.</para>
+          <para>\((100, 250)\). 100 lawn tickets and 250 seat tickets. The ticket sales would be
+            $15,500, which is more than $14,000.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#8-->
       <exercise>
         <problem>
-          <para>If you know that exactly 200 seat tickets were sold, what can you say about the number of lawn tickets?</para>
-          
+          <para>If you know that exactly 200 seat tickets were sold, what can you say about the
+            number of lawn tickets?</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>At least 134 lawn tickets must be sold to make at least $14,000.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
+      </section>
+      <section>
       <title>
-       <emphasis>Advertising Packages</emphasis>
+        <emphasis>Advertising Packages</emphasis>
       </title>
       <para>For questions 1 – 4, use the following scenario:</para>
       <para>
-        <quote>An advertising agency offers two packages for small businesses who need advertising services. A basic package includes only design services. A premium package includes design and promotion. The agency's goal is to sell at least 60 packages in total.</quote>
-     </para>
+        <quote>An advertising agency offers two packages for small businesses who need advertising
+        services. A basic package includes only design services. A premium package includes design
+        and promotion. The agency's goal is to sell at least 60 packages in total.</quote>
+      </para>
       <!--Q#1-->
-      
-        <exercise>
-          <problem>
-            <para>Write an inequality to describe the constraints. Specify what each variable represents.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(x+y \geq 60\), where \(x\) represents the number of basic packages and \(y\) represents the number of premium packages.</para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+
+      <exercise>
+        <problem>
+          <para>Write an inequality to describe the constraints. Specify what each variable
+            represents.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(x+y \geq 60\), where \(x\) represents the number of basic packages
+            and \(y\) represents the number of premium packages.</para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#2-->
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or technology outside the course. Graph the inequality that represents this scenario using the Desmos tool below.</item>
-        <para><emphasis>Hint:</emphasis> To restrict the x and y values to the constraints of the problem, enter \(\{x \geq 0\}\{y \geq 0\}\) after your equation (because the business will not have a negative number of packages).</para>
-      </list>
-      <iframe src="../../media/desmos/41e534468511ee366a55eaf635a19ab9ff1afd95.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
-              <figure>
-                <media alt="Graph of inequality. Horizontal axis, number of basic packages, from 0 to 100 by 10s. Vertical axis, number of premium packages, from 0 to 100 by 10s. Slanted, solid line. Shading above.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_05.svg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or
+            technology outside the course. Graph the inequality that represents this scenario using
+            the Desmos tool below.</para>
+          <para><emphasis>Hint:</emphasis> To restrict the x and y values to the constraints of the
+            problem, enter \(\{x \geq 0\}\{y \geq 0\}\) after your equation (because the business will
+            not have a negative number of packages).</para>
+        <media alt="">
+        <iframe src="../../media/desmos/41e534468511ee366a55eaf635a19ab9ff1afd95.html" width="500"
+          height="400" />
+        </media>
+          <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>
+            <figure class="unnumbered">
+              <media
+                alt="Graph of inequality. Horizontal axis, number of basic packages, from 0 to 100 by 10s. Vertical axis, number of premium packages, from 0 to 100 by 10s. Slanted, solid line. Shading above.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_05.svg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#3-->
       <exercise>
         <problem>
-          <para>Name one solution to the inequality and explain what it represents in that situation.</para>
-          
+          <para>Name one solution to the inequality and explain what it represents in that
+            situation.</para>
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Your answer may vary, but here is a sample.</para>
-          <para>\((50, 30)\). 50 basic packages and 30 premium ones are sold. The total is 80, which is more than 60.</para>
+          <para>\((50, 30)\). 50 basic packages and 30 premium ones are sold. The total is 80, which
+            is more than 60.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#4-->
       <exercise>
         <problem>
-          <para>If the agency sells exactly 45 basic packages, what can you say about the number of premium packages it needs to sell to meet its goal?</para>
-          
+          <para>If the agency sells exactly 45 basic packages, what can you say about the number of
+            premium packages it needs to sell to meet its goal?</para>
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>The agency needs to sell at least 15 premium packages to meet its goal.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <para>For questions 5 – 8, use the following scenario:</para>
       <para>
-        <quote>The basic advertising package has a value of $1000 and the premium package has a value of $2500. The goal of the agency is to sell more than $60,000 worth of small-business advertising packages.</quote>
-     </para>
+        <quote>The basic advertising package has a value of $1000 and the premium package has a
+        value of $2500. The goal of the agency is to sell more than $60,000 worth of small-business
+        advertising packages.</quote>
+      </para>
       <!--Q#5-->
-      
-        <exercise>
-          <problem>
-            <para>Write an inequality to describe the constraints. Specify what each variable represents.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(1,000x+2,500y&gt;60,000\), where \(x\) represents the number of basic packages and \(y\) represents the number of premium packages.</para>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+
+      <exercise>
+        <problem>
+          <para>Write an inequality to describe the constraints. Specify what each variable
+            represents.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\(1,000x+2,500y&gt;60,000\), where \(x\) represents the number of basic packages
+            and \(y\) represents the number of premium packages.</para>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#-->
-      <list class="os-raise-noindent" list-type="enumerated">
-        <item>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or technology outside the course. Graph the inequality that represents this scenario using the Desmos tool below.</item>
-        <para><emphasis>Hint:</emphasis> To restrict the \(x\) and \(y\) values to the constraints of the problem, enter \(\{x \geq 0\}\{y \geq 0\}\) after your equation.</para>
-      </list>
-      <iframe src="../../media/desmos/41e534468511ee366a55eaf635a19ab9ff1afd95.html" width="500" height="400"/>
-        <exercise>
-          <problem>
-            <!--QUESTION IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <figure>
-              <media alt="Graph of inequality. Horizontal axis, number of basic packages, from 0 to 100 by 10s. Vertical axis, number of premium packages, from 0 to 100 by 10s. Slanted, dotted line. Shading above.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_06.svg"/>
-              </media>
-            </figure>
-          </solution>
-        </exercise>
-      
-      <!--Interaction End -->
+      <exercise>
+        <problem>
+          <!--QUESTION
+          IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
+          <para>Rewrite your inequality using slope-intercept form. Then, use the graphing tool or
+            technology outside the course. Graph the inequality that represents this scenario using
+            the Desmos tool below.</para>
+          <para><emphasis>Hint:</emphasis> To restrict the \(x\) and \(y\) values to the constraints
+            of the problem, enter \(\{x \geq 0\}\{y \geq 0\}\) after your equation.</para>
+        <media alt="">
+        <iframe src="../../media/desmos/41e534468511ee366a55eaf635a19ab9ff1afd95.html" width="500"
+          height="400" />
+        </media>
+          <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to
+            compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <figure class="unnumbered">
+            <media
+              alt="Graph of inequality. Horizontal axis, number of basic packages, from 0 to 100 by 10s. Vertical axis, number of premium packages, from 0 to 100 by 10s. Slanted, dotted line. Shading above.">
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_15_03_06.svg" />
+            </media>
+          </figure>
+        </solution>
+      </exercise>
+
+      <!--Interaction
+      End -->
       <!--Q#7-->
       <exercise>
         <problem>
-          <para>Name one solution to the inequality and explain what it represents in that situation.</para>
-          
+          <para>Name one solution to the inequality and explain what it represents in that
+            situation.</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Your answer may vary, but here is a sample.</para>
-          <para>\((10, 30)\). 10 basic packages and 30 premium packages are sold. The total value is $85,000, which is more than $60,000.</para>
+          <para>\((10, 30)\). 10 basic packages and 30 premium packages are sold. The total value is
+            $85,000, which is more than $60,000.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#8-->
       <exercise>
         <problem>
-          <para>If you know that exactly 10 premium packages were sold, what can you say about the number of basic packages the agency needs to sell to meet its goal?</para>
-          
+          <para>If you know that exactly 10 premium packages were sold, what can you say about the
+            number of basic packages the agency needs to sell to meet its goal?</para>
+
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>The agency needs to sell more than 35 basic packages.</para>
-          <newline/>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      </section>
+    </section>
+      <!--Interaction
+      End -->
+      <section>
       <title>Video: Solving Problems with Inequalities in Two Variables</title>
-      <para>Watch the following video to learn more about solving inequalities in two variables.
-</para>
+      <para>Watch the following video to learn more about solving inequalities in two variables. </para>
       <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/677d4998c3993ec07f8d8d2259047887e38ec5b3"/>
+        <iframe width="660" height="371.4"
+          src="https://k12.openstax.org/contents/raise/resources/677d4998c3993ec07f8d8d2259047887e38ec5b3" />
       </media>
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-        </exercise>
-      
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+      will need to change the Data-fire/data-wait-for-events for each set.-->
+    </section>
+
+    <section>
+      <title>Are you ready for more?</title>
+      <section>
+        <title>Extending Your Title</title>
+        <para>This activity will require a partner and either graph paper or Desmos.</para>
+      <!--Start
+      interaction.  If multiple interactions appear under "are you ready for more?, they should all
+      have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+      button. Note in this sample, they are all RFM1-->
       <exercise class="RFM1">
         <problem>
-          <title>Extending Your Thinking</title>
-          <para>This activity will require a partner and either graph paper or Desmos.</para>
-          <para>Without letting your partner see it, write an equation of a line so that both the \(x\)-intercepts and the \(y\)-intercepts are each between -3 and 3. Graph your equation.</para>
-          
+          <para>Without letting your partner see it, write an equation of a line so that both the
+            \(x\)-intercepts and the \(y\)-intercepts are each between -3 and 3. Graph your
+            equation.</para>
+
         </problem>
         <solution>
           <para>Compare your answer: Your answer may vary, but here is a sample.</para>
           <para>\(y = (\frac23)x + 1\)</para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
       <!--Q#2-->
       <exercise class="RFM1">
         <problem>
-          <para>Still without letting your partner see it, rewrite your equation as an inequality. That is, write an inequality for which your equation is the related equation. In other words, your line should be the boundary between the solution region and non-solution region. Shade the solutions on your graph.</para>
-          
+          <para>Still without letting your partner see it, rewrite your equation as an inequality.
+            That is, write an inequality for which your equation is the related equation. In other
+            words, your line should be the boundary between the solution region and non-solution
+            region. Shade the solutions on your graph.</para>
+
         </problem>
         <solution>
           <para>Compare your answer: Your answer may vary, but here is a sample.</para>
           <para>\(y ≥ (\frac23)x + 1\)</para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
       <!--Q#3-->
       <exercise class="RFM1">
         <problem>
-          <para>Take turns stating coordinates of points. Your partner will tell you whether your guess is a solution to their inequality. After each partner has stated a point, each may guess what the other's inequality is. If neither guesses correctly, play continues. Use another coordinate system to keep track of your guesses.</para>
+          <para>Take turns stating coordinates of points. Your partner will tell you whether your
+            guess is a solution to their inequality. After each partner has stated a point, each may
+            guess what the other's inequality is. If neither guesses correctly, play continues. Use
+            another coordinate system to keep track of your guesses.</para>
           <para>What was your process for determining your partner’s inequality?</para>
-          
+
         </problem>
         <solution>
           <para>Compare your answer: Your answer may vary, but here is a sample.</para>
-          <para>I know the \(y\)-intercept is between -3 and 3, so I can guess a coordinate value of \(y\) between -3 and 3 and \(x = 0\).</para>
+          <para>I know the \(y\)-intercept is between -3 and 3, so I can guess a coordinate value of
+            \(y\) between -3 and 3 and \(x = 0\).</para>
         </solution>
       </exercise>
-      <!--End interaction-->
+      <!--End
+      interaction-->
+    </section>
     </section>
 
     <section>
-      <note class="self-check"><para>Use graphing technology to solve the following problem.</para>
-        <para>Jacob charges $20 to mow a lawn in his neighborhood and $100 to paint a room. </para>
-        <para>Which combination of jobs earns Jacob more than $1,000?</para>
-         </note>
+      <note class="self-check">
+        <para>Use graphing technology to solve the following problem.</para>
+        <para>Jacob
+        charges $20 to mow a lawn in his neighborhood and $100 to paint a room. </para>
+        <para>Which
+        combination of jobs earns Jacob more than $1,000?</para>
+      </note>
     </section>
 
 
     <section>
+      <title>Additional Resources</title>
       <section>
         <title>Graphing Linear Inequalities in Two Variables to Solve Applications</title>
-        <para>Many fields use linear inequalities to model a problem. While our examples may be about simple situations, they give us an opportunity to build our skills and to get a feel for how they might be used.</para>
-        <para>For questions 1 – 3, use the following scenario to write, graph, and find solutions to an inequality:</para>
+        <para>Many fields use linear inequalities to model a problem. While our examples may be
+          about simple situations, they give us an opportunity to build our skills and to get a feel
+          for how they might be used.</para>
+        <para>For questions 1 – 3, use the following scenario to write, graph, and find solutions to
+          an inequality:</para>
         <para>
-         <emphasis>Example</emphasis>
-       </para>
+          <emphasis>Example</emphasis>
+        </para>
         <para>
-          <quote>Hilaria works two part-time jobs in order to earn enough money to meet her obligations of at least $240 a week. Her job in food service pays $10 an hour and her tutoring job on campus pays $15 an hour. How many hours does Hilaria need to work at each job to earn at least $240? </quote>
-       </para>
-        <list class="os-raise-noindent" list-type="enumerated">
-          <item>Let \(x\) be the number of hours she works at the job in food service and let \(y\) be the number of hours she works tutoring. Write an inequality that would model this situation.</item>
-        </list>
+          <quote>Hilaria works two part-time jobs in order to earn enough money to meet her
+          obligations of at least $240 a week. Her job in food service pays $10 an hour and her
+          tutoring job on campus pays $15 an hour. How many hours does Hilaria need to work at each
+          job to earn at least $240? </quote>
+        </para>
+        <para>1. Let \(x\) be the number of hours she works at the job in food service and let \(y\)
+            be the number of hours she works tutoring. Write an inequality that would model this
+            situation.</para>
         <para>
-         <emphasis>Solution:</emphasis>
-       </para>
-        <para>We let \( x \) be the number of hours she works at the job in food service and let \( y \) be the number of hours she works tutoring. She earns $10 per hour at the job in food service and $15 an hour tutoring. At each job, the number of hours multiplied by the hourly wage will gives the amount earned at that job.</para>
+          <emphasis>Solution:</emphasis>
+        </para>
+        <para>We let \( x \) be the number of hours she works at the job in food service and let \(
+          y \) be the number of hours she works tutoring. She earns $10 per hour at the job in food
+          service and $15 an hour tutoring. At each job, the number of hours multiplied by the
+          hourly wage will gives the amount earned at that job.</para>
         <para>
-          <figure id="fig-00001">
+          <figure id="fig-00001" class="unnumbered">
             <media alt="Insert Alt Text">
               <image mime-type="image/jpeg" src="../../media/Algebra-1_02_15_05_01.jpg" />
             </media>
           </figure>
-       </para>
-        <list class="os-raise-noindent" list-type="enumerated">
-          <item>Graph the inequality.</item>
-        </list>
+        </para>
+        <para>2. Graph the inequality.</para>
         <para>To graph the inequity, we put it in slope-intercept form.</para>
-        <para>\( \begin{eqnarray} 10x + 15y \geq 240 \\ 15y \geq -10x + 240 \\y \geq - \frac{2}{3}x + 16 \end{eqnarray} \)</para>
-        <para>
-          <figure id="fig-00002">
+        <para>\( \begin{eqnarray} 10x + 15y \geq 240 \\ 15y \geq -10x + 240 \\y \geq - \frac{2}{3}x
+          + 16 \end{eqnarray} \)</para>
+  
+          <figure id="fig-00002" class="unnumbered">
             <media alt="">
               <image mime-type="image/jpeg" src="../../media/Algebra-1_02_15_05_02.jpg" />
             </media>
           </figure>
-       </para>
-        <list class="os-raise-noindent" list-type="enumerated">
-          <item>Find three ordered pairs \((x, y)\) that would be solutions to the inequality. Then, explain what that means for Hilaria.</item>
-        </list>
-        <para>From the graph, we see that the ordered pairs \( (15,10) \), \( (0,16) \), \( (24,0) \) represent three of infinitely many solutions. Check the values in the inequality.</para>
-        <figure id="fig-00003">
+   
+        <para>3. Find three ordered pairs \((x, y)\) that would be solutions to the inequality. Then,
+            explain what that means for Hilaria.</para>
+        <para>From the graph, we see that the ordered pairs \( (15,10) \), \( (0,16) \), \( (24,0)
+          \) represent three of infinitely many solutions. Check the values in the inequality.</para>
+        <figure id="fig-00003" class="unnumbered">
           <media alt="">
-            <image mime-type="image/jpg" src="../../media/Algebra-1_02_15_05_02.1.jpg"/>
+            <image mime-type="image/jpg" src="../../media/Algebra-1_02_15_05_02.1.jpg" />
           </media>
         </figure>
-        <para>For Hilaria, it means that to earn at least $240, she can work 15 hours tutoring and 10 hours at her fast-food job, earn all her money tutoring for 16 hours, or earn all her money while working 24 hours at the job in food service.</para>
+        <para>For Hilaria, it means that to earn at least $240, she can work 15 hours tutoring and
+          10 hours at her fast-food job, earn all her money tutoring for 16 hours, or earn all her
+          money while working 24 hours at the job in food service.</para>
+
         <note class="try">
           <title>Try It: Graphing Linear Inequalities in Two Variables to Solve Applications</title>
-        <para>For questions 1 – 3, use the following scenario to write, graph, and find solutions to an inequality:</para>
+        <para>For
+          questions 1 – 3, use the following scenario to write, graph, and find solutions to an
+          inequality:</para>
         <para>
-            <quote>Elijah works two part-time jobs. One is at a grocery store that pays $10 an hour and the other is babysitting for $13 per hour. Between the two jobs, Elijah wants to earn at least $260 a week. How many hours does Elijah need to work at each job to earn at least $260? </quote>
-         </para>
+            <quote>Elijah works two part-time jobs. One is at a grocery store that pays $10 an hour
+          and the other is babysitting for $13 per hour. Between the two jobs, Elijah wants to earn
+          at least $260 a week. How many hours does Elijah need to work at each job to earn at least
+          $260? </quote>
+          </para>
           <!--Q#1-->
         <exercise>
             <problem>
-              <para>Let \(x\) be the number of hours he works at the grocery store and let \(y\) be the number of hours he works babysitting. Write an inequality that would model this situation.</para>
+              <para>Let \(x\) be the number of hours he works at the grocery store and let \(y\) be
+          the number of hours he works babysitting. Write an inequality that would model this
+          situation.</para>
             </problem>
             <solution>
-              <para/>
+              <para />
               <para>Compare your answer:</para>
               <para>\(10x+13y \geq 260\)</para>
             </solution>
           </exercise>
-          <!--Interaction End -->
+          <!--Interaction
+          End -->
           <!--Q#2-->
-        <list class="os-raise-noindent" list-type="enumerated">
-            <item>Graph the inequality.</item>
-          </list>
-        <media alt="...">
-            <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" />
-          </media>
         
             <exercise>
-              <problem>
-                <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-              </problem>
-              <solution>
-                <para>Compare your answer:</para>
-                <para>
-                  <figure id="fig-00004">
-                    <media alt="Insert Alt Text">
-                      <image mime-type="image/jpeg" src="../../media/Algebra-1_02_15_05_03.jpg" />
-                    </media>
-                  </figure>
-               </para>
-              </solution>
-            </exercise>
-          
-          <!--Interaction End -->
+            <problem>
+              <para>Graph the inequality.</para>
+              <media alt="...">
+                  <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html"
+                    width="500" height="400" />
+                </media>
+              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+          compare your work.</para>
+            </problem>
+            <solution>
+              <para>Compare your answer:</para>
+              <para>
+                <figure id="fig-00004" class="unnumbered">
+                  <media alt="Insert Alt Text">
+                    <image mime-type="image/jpeg" src="../../media/Algebra-1_02_15_05_03.jpg" />
+                  </media>
+                </figure>
+              </para>
+            </solution>
+          </exercise>
+
+          <!--Interaction
+          End -->
           <!--Q#3-->
         <exercise>
             <problem>
-              <para>Find three ordered pairs \((x, y)\) that would be solutions to the inequality. Then, explain what that means for Elijah.</para>
+              <para>Find three ordered pairs \((x, y)\) that would be solutions to the inequality.
+          Then, explain what that means for Elijah.</para>
             </problem>
             <solution>
-              <para/>
+              <para />
               <para>Compare your answer:</para>
               <para>Your answer may vary, but here is a sample.</para>
-              <para>\((20, 10)\), \((15, 20)\), \((10, 25)\). For each of these coordinate points, if Elijah worked \(x\) hours at the grocery store and \(y\) hours babysitting, he would earn at least $260.</para>
+              <para>\((20, 10)\), \((15, 20)\), \((10, 25)\). For each of these coordinate points,
+          if Elijah worked \(x\) hours at the grocery store and \(y\) hours babysitting, he would
+          earn at least $260.</para>
             </solution>
           </exercise>
-          <!--Interaction End -->
+          <!--Interaction
+          End -->
         </note>
       </section>
     </section>
