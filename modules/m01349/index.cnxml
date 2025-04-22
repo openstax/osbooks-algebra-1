@@ -9,7 +9,6 @@
   <section><title>Activity</title>
 <exercise>
   <problem>
-    
     <para>How would you write each of the following numbers in scientific notation?</para>
     <table class="os-raise-midsizetable">
       <tgroup cols="2"><tbody><row>
@@ -225,13 +224,17 @@
   
 
 </solution></exercise>
+</section>
+<section>
 <title>Video: Converting between Scientific Notation and Decimal Form</title>
 <para>Watch the following video to learn more about rewriting scientific notation in decimal form and decimal form in
   scientific notation.</para>
 <media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/65d24174dc794f36c8a7e4f9f62645f31aea59f8"/></media></section>
+
 <note class="self-check">
   (    <para>Which of the following equations is true?</para>)
     </note>
+
     <section>
       <title>Additional Resources</title>
       
@@ -240,12 +243,10 @@
       <para>Working with very large or very small numbers can be awkward. Since our number system is base ten, we can use powers of ten to rewrite very large or very small numbers to make them easier to work with. Consider the numbers 4,000 and 0.004.</para>
       <para>Using place value, we can rewrite the numbers 4,000 and 0.004. We know that 4,000 means \(4\times 1,000\) and 0.004 means \(4\times\frac1{1000}\).</para>
       <para>If we write the 1,000 as a power of ten in exponential form, we can rewrite these numbers in this way:</para>
-      <div class="os-raise-d-flex os-raise-justify-content-evenly">
         <para>4,000</para>
         <para>\(4\times 1,000\)</para>
         <para>\(4\times 10^3\)</para>
       
-      <div class="os-raise-d-flex os-raise-justify-content-evenly">
         <para>0.004</para>
         <para>\(4\times\frac1{1000}\)</para>
         <para>\(4\times\frac1{10^3}\)</para>
@@ -255,9 +256,9 @@
       <para>A number is expressed in scientific notation when it is in this form :</para>
       <para>\(a\times 10^n\), where \(1 \leq&amp;boxv;a&amp;boxv;&lt; 10\) and \(n\) is an integer.</para>
       <!--Interaction End -->
-      <para>It is customary in scientific notation to use × as the multiplication sign, even though we avoid using this sign elsewhere in algebra.</para>
-      <title>To convert a decimal to scientific notation:
-    </title>
+      <para>It is customary in scientific notation to use × as the multiplication sign, even though we avoid using this sign elsewhere in algebra.</para></section>
+      <section>
+      <title>To convert a decimal to scientific notation:</title>
       <para>Step 1. Move the decimal point so that the first factor is greater than or equal to 1 but less than 10.</para>
       <para>Step 2. Count the number of decimal places, \(n\), that the decimal point was moved.</para>
       <para>Step 3. Write the number as a product with a power of 10. If the original number is</para>
@@ -272,7 +273,8 @@
    <emphasis>Solution:</emphasis> (<media alt="Insert Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_05_08_11_01.jpg"/></media>)</item>
         <item>0.0052 
    <emphasis>Solution:</emphasis> (<media alt="Insert Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_05_08_11_02.jpg"/></media>)</item>
-      </list>
+      </list></section>
+      <section>
       <title> To convert scientific notation to decimal form:</title>
       <para>Step 1. Determine the exponent, \(n\), on the factor of 10.</para>
       <para>Step 2. Move the decimal \(n\) places, adding zeros if needed.</para>
@@ -288,7 +290,7 @@
         <item>\(-8.9\times10^{-2}\) 
    <emphasis>Solution:</emphasis> (<media alt="Insert Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_05_08_11_04.jpg"/></media>)</item>
       </list>
-      <note class="try look-at-me"/>
+      <note class="try">
   <title>Try It: Using Scientific Notation</title>
       
         <exercise>
@@ -317,7 +319,7 @@
             </list>
           </solution>
         </exercise>
-      
+      </note>
     </section>
     </section>
     

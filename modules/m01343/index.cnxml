@@ -144,15 +144,11 @@
       (    <para>Using the equation \(p=10,000\cdot 2^d\), find the value of \(p\) when \(d = -2\).</para>)
         </note>
 
-        <section>
-          <title>Additional Resources</title>
+        <section><title>Additional Resources</title>
           
   <section><title>Interpreting Negative Exponents in Exponential Growth</title><para>Let’s look at a problem involving an exponential growth equation and negative exponents.</para>
-    <para>A forest fire has been burning for several days. The burned area, in acres, is given by the equation \(y=4800\cdot
-      2^d\), where \(d\) is the number of days since the area of the fire was first measured.</para>
-      <para>
-        1. Let’s complete the table.
-      </para>
+    <para>A forest fire has been burning for several days. The burned area, in acres, is given by the equation \(y=4800\cdot 2^d\), where \(d\) is the number of days since the area of the fire was first measured.</para>
+      <para> 1. Let’s complete the table.</para>
       
       <table class="os-raise-wideequaltable">
         <tgroup cols="3"><tbody><row>
@@ -223,19 +219,16 @@
       <para>Determine the value for \(y\) when \(d = -5\)</para>
       <para><emphasis>Step 1</emphasis> -Substitute the given domain value for d into the expression.</para>
       <para>\(4800 \cdot 2^{-5}\)</para>
-      <para><emphasis>Step 2</emphasis> -Evaluate the exponential value. Recall that a negative exponent represents how many times
-        the reciprocal of the base should be multiplied.</para>
+      <para><emphasis>Step 2</emphasis> -Evaluate the exponential value. Recall that a negative exponent represents how many times the reciprocal of the base should be multiplied.</para>
       <para>\(= 4800 \cdot (\frac{1}{2})^5 = 4800 \cdot \frac{1}{32}\)</para>
       <para><emphasis>Step 3</emphasis> -Evaluate the remaining expression to determine \(y\).</para>
       <para>\(= 150\)</para>
       <para><emphasis>Example 4</emphasis></para>
       <para>What does the value of \(y\) tell you about the area burned in the fire when \(d=-1\)?</para>
-      <para>The \(y\) value at \(d= -1\) represents the fact that 2,400 acres had burned 1 day before the first measurement was
-        taken.</para>
+      <para>The \(y\) value at \(d= -1\) represents the fact that 2,400 acres had burned 1 day before the first measurement was taken.</para>
         <para><emphasis>Example 5</emphasis></para>
         <para>How much area had the fire burned a week before it measured 4,800 acres? Explain your reasoning.</para>
-      <para>Since there are 7 days in a week, to find the area burned a week before the fire was measured, we need to determine
-        the value of \(y\) when \(d = -7\).</para>
+      <para>Since there are 7 days in a week, to find the area burned a week before the fire was measured, we need to determine   the value of \(y\) when \(d = -7\).</para>
       <para><emphasis>Step 1</emphasis> -Substitute the given domain value for d into the expression.</para>
       <para>\(4800 \cdot 2^{-7}\)</para>
       <para><emphasis>Step 2</emphasis> -Evaluate the exponential value. Recall that a negative exponent represents how many times
@@ -243,9 +236,8 @@
       <para>\(= 4800 \cdot \frac12 ^7 = 4800 \cdot \frac{1}{128}\)</para>
       <para><emphasis>Step 3</emphasis> -Evaluate the remaining expression to determine \(y\).</para>
       <para>\(= 37.5\)</para>
-      <para>\(37.5\) acres had burned a week before the fire measured \(4,800\) acres. The value is found by substituting
-        \(-7\) for d since that represents \(7\) days before the first measurement of \(4,800\) acres.</para>
-    </list>
+      <para>\(37.5\) acres had burned a week before the fire measured \(4,800\) acres. The value is found by substituting   \(-7\) for d since that represents \(7\) days before the first measurement of \(4,800\) acres.</para>
+
     <exercise>
       <problem>
         
@@ -265,7 +257,9 @@
     
     </solution></exercise>
 
-    <note class="try"><title>Try It: Interpreting Negative Exponents in Exponential Growth</title><exercise id="_2b67ffaa-723e-487c-8c95-d16dc41948b7" class="multiple-choice"><problem><para>What is \(v\) when \(d=-1\)?
+    <note class="try"><title>Try It: Interpreting Negative Exponents in Exponential Growth</title>
+      <exercise id="_2b67ffaa-723e-487c-8c95-d16dc41948b7" class="multiple-choice">
+        <problem><para>What is \(v\) when \(d=-1\)?
            </para>
           </problem><solution><para>Correct! \(v=200,000\)
             \(v=400,000\cdot 2^{-1}\)
@@ -323,8 +317,8 @@
             \(v=400,000\cdot\frac18\)
             \(v=50,000\)
           \(v=50,000\)
-         </para></solution></exercise></note>
-    </section>
+         </para></solution></exercise>
+        </note>
         </section>
       </section>
   </content>
