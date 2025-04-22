@@ -6,348 +6,249 @@
     <md:uuid>d4fe1ad8-27f3-44ef-8494-99869579604c</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-
-<exercise>
-  <problem>
-    
-    <para>Each row in the table contains a pair of equivalent expressions.</para>
-    
-    <para>Complete the table with the missing expressions. If you get stuck, consider drawing a diagram.</para>
-    
-    <table class="os-raise-midsizetable">
-      <tgroup cols="2"><tbody><row>
-          <entry><emphasis>
-            Factored form
-         </emphasis> </entry><entry><emphasis>
-            Standard form
-         </emphasis> </entry></row>
-      <row>
-          <entry>
-            \(x(x + 7)\)
-          </entry>
-          <entry> </entry>
-        </row>
-        <row>
-          <entry> </entry>
-          <entry>
-            \(x^2+ 9x\)
-          </entry>
-        </row>
-        <row>
-          <entry> </entry>
-          <entry>
-            \(x^2−8x\)
-          </entry>
-        </row>
-        <row>
-          <entry>
-            \((x + 6)(x + 2)\)
-          </entry>
-          <entry> </entry>
-        </row>
-        <row>
-          <entry> </entry>
-          <entry>
-            \(x^2+13x +12\)
-          </entry>
-        </row>
-        <row>
-          <entry>
-            \((x − 6)(x − 2)\)
-          </entry>
-          <entry> </entry>
-        </row>
-        <row>
-          <entry> </entry>
-          <entry>
-            \(x^2−7x +12\)
-          </entry>
-        </row>
-        <row>
-          <entry> </entry>
-          <entry>
-            \(x^2+6x + 9\)
-          </entry>
-        </row>
-        <row>
-          <entry> </entry>
-          <entry>
-            \(x^2+ 10x + 9\)
-          </entry>
-        </row>
-        <row>
-          <entry> </entry>
-          <entry>
-            \(x^2−10x +9\)
-          </entry>
-        </row>
-        <row>
-          <entry> </entry>
-          <entry>
-            \(x^2−6x +9\)
-          </entry>
-        </row>
-        <row>
-          <entry> </entry>
-          <entry>
-            \(x^2+(m + n)x +mn\)
-          </entry>
-        </row>
-      </tbody></tgroup></table>
-    
-    
-  
-  <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answers:</para>
-  
-  <table class="os-raise-midsizetable">
-    <tgroup cols="2"><tbody><row>
-        <entry><emphasis>
-          Factored form
-       </emphasis> </entry><entry><emphasis>
-          Standard form
-       </emphasis> </entry></row>
-    <row>
-        <entry>
-          \(x(x + 7)\)
-        </entry>
-        <entry>
-          \(x^2+7x\)
-        </entry>
-      </row>
-      <row>
-        <entry>
-          \(x(x + 9)\)
-        </entry>
-        <entry>
-          \(x^2+9x\)
-        </entry>
-      </row>
-      <row>
-        <entry>
-          \(x(x − 8)\)
-        </entry>
-        <entry>
-          \(x^2−8x\)
-        </entry>
-      </row>
-      <row>
-        <entry>
-          \((x + 6)(x + 2)\)
-        </entry>
-        <entry>
-          \(x^2+8x+12\)
-        </entry>
-      </row>
-      <row>
-        <entry>
-          \((x + 12)(x + 1)\)
-        </entry>
-        <entry>
-          \(x^2+13x +12\)
-        </entry>
-      </row>
-      <row>
-        <entry>
-          \((x − 6)(x − 2)\)
-        </entry>
-        <entry>
-          \(x^2−8x +12\)
-        </entry>
-      </row>
-      <row>
-        <entry>
-          \((x − 4)(x − 3)\)
-        </entry>
-        <entry>
-          \(x^2−7x +12\)
-        </entry>
-      </row>
-      <row>
-        <entry>
-          \((x + 3)(x + 3)\)
-        </entry>
-        <entry>
-          \(x^2+6x +9\)
-        </entry>
-      </row>
-      <row>
-        <entry>
-          \((x + 9)(x + 1)\)
-        </entry>
-        <entry>
-          \(x^2+10x +9\)
-        </entry>
-      </row>
-      <row>
-        <entry>
-          \((x − 9)(x − 1)\)
-        </entry>
-        <entry>
-          \(x^2−10x +9\)
-        </entry>
-      </row>
-      <row>
-        <entry>
-          \((x − 3)(x − 3)\)
-        </entry>
-        <entry>
-          \(x^2− 6x +9\)
-        </entry>
-      </row>
-      <row>
-        <entry>
-          \((x + m)(x + n)\)
-        </entry>
-        <entry>
-          \(x^2+(m + n)x + mn\)
-        </entry>
-      </row>
-    </tbody></tgroup></table>
-
-</solution></exercise>
-
-<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<exercise>
-  <problem>
-    
-    
-  
-  
-  
-  </problem></exercise>
-<!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<exercise class="RFM1">
-  <problem>
-    <title>Extending Your Thinking</title>
-    
-    <para>A mathematician threw a party. She told her guests, “I have a riddle for you. I have three daughters. The
-      product of their ages is 72. The sum of their ages is the same as my house number. How old are my
-      daughters?”</para>
-    
-    <para>The guests went outside to look at the house number. They thought for a few minutes, and then they said,
-      “This riddle can’t be solved!”</para>
-    
-    <para>The mathematician said, “Oh yes, I forgot to tell you the last clue. My youngest daughter prefers
-      strawberry ice cream.”</para>
-    
-    <para>With this last clue, the guests could solve the riddle. How old are the mathematician’s daughters? Be
-      prepared to show your reasoning.</para>
-  
-  </problem><solution>
-    
-    <para>Enter your explanation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>2, 6, and 6.</para>
-    
-    <para>If the product of their ages is 72, there are twelve possibilities:</para>
-    
-    <list>
-      <item>1, 1, 72</item>
-      <item>1, 2, 36</item>
-      <item>1, 3, 24</item>
-      <item>1, 4, 18</item>
-    </list>
-    
-    <list>
-      <item>1, 6, 12</item>
-      <item>1, 8, 9</item>
-      <item>2, 2, 18</item>
-      <item>2, 3, 12</item>
-    </list>
-    
-    <list>
-      <item>2, 4, 9</item>
-      <item>2, 6 ,6</item>
-      <item>3, 3, 8</item>
-      <item>3, 4, 6</item>
-    </list>
-    
-    <para>Because the riddle can’t be solved by knowing the house number (the sum of the three numbers), it must be
-      the case that there are ages that have the same sum. The only sets of ages with the same sum are 3, 3, 8 and 2, 6,
-      6, which each add up to 14. From the last clue, we know that there is a youngest daughter. The only set of ages
-      that has a “youngest” age are 2, 6, 6, so these are the ages of the three daughters.</para>
-  
-  </solution></exercise>
-<!--End interaction-->
-
-<title>Video: Rewriting Quadratic Expressions</title>
-<para>Watch the following video to learn more about rewriting quadratic expressions into factored form.</para>
-<media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/7d5b893f71e3f9f93bc1a3b98454bbc93e29d76b"/></media></section>
-
-<note class="self-check">
-  <para>Find the factored form of \(x^2− 18x + 80\).</para>
- </note>
-
- <section>
-  <title>Rewriting Quadratic Expressions in Standard Form</title>
-  <para>We have had a lot of practice rewriting factored form into standard form. To reverse this process, many of the same skills are needed.</para>
-  <para>Let’s look at an example.</para>
-  <para>
-   <emphasis>Example 1</emphasis>
- </para>
-  <para>Write \(x^2+16x +63\) in factored form.</para>
-  <para>To do this, we must think about how you converted from factored form into standard form. First, check if the leading coefficient (for the quadratic term) is 1. If so, then:</para>
-  <list>
-    <item>To find the coefficient of the middle term, 16, we added two numbers together from the diagram.</item>
-  </list>
-  <list>
-    <item>To find the last term or constant, 63, we multiplied two numbers together from the diagram.</item>
-  </list>
-  <para>So, which numbers, \(a\) and \(b\), have a sum of 16 and a product of 63?</para>
-  <para>
-    <figure>
-      <media alt=" DIAGRAM THAT SHOWS A PLUS B AND A TIMES B WITH ARROWS GOING TO 16 AND 63 IN THE QUADRATIC EXPRESSION, X-SQUARED PLUS 16X PLUS 63.">
-        <image mime-type="image/jpeg" src="../../media/Algebra-1_09_08_08_01.jpg"/>
-      </media>
-    </figure>
- </para>
-  <para>The positive factors of 63 include:</para>
-  <para>1, 63
-3, 21
-7, 9</para>
-  <para>With some reasoning, we find that 7 and 9 are the numbers we want.</para>
-  <para>So, the factored form of \(x^2+16x +63\) is \((x + 7)(x + 9)\).</para>
-  <para>Let’s look at another example.</para>
-  <para>
-   <emphasis>Example 2</emphasis>
- </para>
-  <para>Write \(x^2−10x +16\) in factored form.</para>
-  <para>The sign of the middle term is negative, but we follow the same process since the coefficient of \(x^2\) is 1.</para>
-  <para>Let’s rewrite the expression as \(x^2+ -10x +16\).</para>
-  <para>Which numbers have a sum of –10 and a product of 16?</para>
-  <para>The factors of 16 include:</para>
-  <para>1, 16–1, –16
-2, 8–2, –8
-4, 4–4, –4</para>
-  <para>The numbers we need are –2 and –8 because they have a product of 16 and a sum of –10.</para>
-  <para>So, the factored form is \((x + (-2))(x + (-8))\). This can be rewritten as \((x − 2)(x − 8)\).</para>
-  <note class="try look-at-me"/>
-<title>Try It: Rewriting Quadratic Expressions in Standard Form</title>
-  
-    <exercise>
-      <problem>
-        <para>Find the factored form of each expression.</para>
-        <para>\(x^2+9x +18\)</para>
-        <para>\(x^2−12x +35\)</para>
-        <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-      </problem>
-      <solution>
-        <para>Here is how to rewrite quadratic equations in standard form into factored form:</para>
-        <list class="os-raise-noindent" list-type="enumerated">
-          <item>\((x + 6)(x + 3)\); Since the coefficients of the \(x\)-terms are both 1, think of two numbers that have a sum of 9 and a product of 18.</item>
+    <section>
+      <title>Activity</title>
+      <exercise>
+        <problem>
+          <para>Each row in the table contains a pair of equivalent expressions.</para>
+          <para>Complete the table with the missing expressions. If you get stuck, consider drawing a diagram.</para>
+          <table class="os-raise-midsizetable">
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factored form </emphasis>
+                  </entry>
+                  <entry><emphasis> Standard form </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry> \(x(x + 7)\) </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> \(x^2+ 9x\) </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> \(x^2−8x\) </entry>
+                </row>
+                <row>
+                  <entry> \((x + 6)(x + 2)\) </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> \(x^2+13x +12\) </entry>
+                </row>
+                <row>
+                  <entry> \((x − 6)(x − 2)\) </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> \(x^2−7x +12\) </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> \(x^2+6x + 9\) </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> \(x^2+ 10x + 9\) </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> \(x^2−10x +9\) </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> \(x^2−6x +9\) </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> \(x^2+(m + n)x +mn\) </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answers:</para>
+          <table class="os-raise-midsizetable">
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factored form </emphasis>
+                  </entry>
+                  <entry><emphasis> Standard form </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry> \(x(x + 7)\) </entry>
+                  <entry> \(x^2+7x\) </entry>
+                </row>
+                <row>
+                  <entry> \(x(x + 9)\) </entry>
+                  <entry> \(x^2+9x\) </entry>
+                </row>
+                <row>
+                  <entry> \(x(x − 8)\) </entry>
+                  <entry> \(x^2−8x\) </entry>
+                </row>
+                <row>
+                  <entry> \((x + 6)(x + 2)\) </entry>
+                  <entry> \(x^2+8x+12\) </entry>
+                </row>
+                <row>
+                  <entry> \((x + 12)(x + 1)\) </entry>
+                  <entry> \(x^2+13x +12\) </entry>
+                </row>
+                <row>
+                  <entry> \((x − 6)(x − 2)\) </entry>
+                  <entry> \(x^2−8x +12\) </entry>
+                </row>
+                <row>
+                  <entry> \((x − 4)(x − 3)\) </entry>
+                  <entry> \(x^2−7x +12\) </entry>
+                </row>
+                <row>
+                  <entry> \((x + 3)(x + 3)\) </entry>
+                  <entry> \(x^2+6x +9\) </entry>
+                </row>
+                <row>
+                  <entry> \((x + 9)(x + 1)\) </entry>
+                  <entry> \(x^2+10x +9\) </entry>
+                </row>
+                <row>
+                  <entry> \((x − 9)(x − 1)\) </entry>
+                  <entry> \(x^2−10x +9\) </entry>
+                </row>
+                <row>
+                  <entry> \((x − 3)(x − 3)\) </entry>
+                  <entry> \(x^2− 6x +9\) </entry>
+                </row>
+                <row>
+                  <entry> \((x + m)(x + n)\) </entry>
+                  <entry> \(x^2+(m + n)x + mn\) </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
+    </section>
+    <section>
+      <title>Are you ready for more?</title>
+      <exercise class="RFM1">
+        <problem>
+          <title>Extending Your Thinking</title>
+          <para>A mathematician threw a party. She told her guests, “I have a riddle for you. I have three daughters. The product of their ages is 72. The sum of their ages is the same as my house number. How old are my daughters?”</para>
+          <para>The guests went outside to look at the house number. They thought for a few minutes, and then they said, “This riddle can’t be solved!”</para>
+          <para>The mathematician said, “Oh yes, I forgot to tell you the last clue. My youngest daughter prefers strawberry ice cream.”</para>
+          <para>With this last clue, the guests could solve the riddle. How old are the mathematician’s daughters? Be prepared to show your reasoning.</para>
+        </problem>
+        <solution>
+          <para>Enter your explanation.</para>
+          <para>Compare your answer:</para>
+          <para>2, 6, and 6.</para>
+          <para>If the product of their ages is 72, there are twelve possibilities:</para>
+          <list>
+            <item>1, 1, 72</item>
+            <item>1, 2, 36</item>
+            <item>1, 3, 24</item>
+            <item>1, 4, 18</item>
+          </list>
+          <list>
+            <item>1, 6, 12</item>
+            <item>1, 8, 9</item>
+            <item>2, 2, 18</item>
+            <item>2, 3, 12</item>
+          </list>
+          <list>
+            <item>2, 4, 9</item>
+            <item>2, 6 ,6</item>
+            <item>3, 3, 8</item>
+            <item>3, 4, 6</item>
+          </list>
+          <para>Because the riddle can’t be solved by knowing the house number (the sum of the three numbers), it must be the case that there are ages that have the same sum. The only sets of ages with the same sum are 3, 3, 8 and 2, 6, 6, which each add up to 14. From the last clue, we know that there is a youngest daughter. The only set of ages that has a “youngest” age are 2, 6, 6, so these are the ages of the three daughters.</para>
+        </solution>
+      </exercise>
+      <!--End interaction-->
+      <section>
+        <title>Video: Rewriting Quadratic Expressions</title>
+        <para>Watch the following video to learn more about rewriting quadratic expressions into factored form.</para>
+        <media alt="Placeholder for Alt Text">
+          <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/7d5b893f71e3f9f93bc1a3b98454bbc93e29d76b" />
+        </media>
+      </section>
+    </section>
+    <note class="self-check">
+      <para>Find the factored form of \(x^2− 18x + 80\).</para>
+    </note>
+    <section>
+      <title>Additional Resources</title>
+      <section>
+        <title>Rewriting Quadratic Expressions in Standard Form</title>
+        <para>We have had a lot of practice rewriting factored form into standard form. To reverse this process, many of the same skills are needed.</para>
+        <para>Let’s look at an example.</para>
+        <para>
+          <emphasis>Example 1</emphasis>
+        </para>
+        <para>Write \(x^2+16x +63\) in factored form.</para>
+        <para>To do this, we must think about how you converted from factored form into standard form. First, check if the leading coefficient (for the quadratic term) is 1. If so, then:</para>
+        <list>
+          <item>To find the coefficient of the middle term, 16, we added two numbers together from the diagram.</item>
         </list>
-        <list class="os-raise-noindent" list-type="enumerated">
-          <item>\((x − 5)(x − 7)\); Since the coefficients of the \(x\)-terms are both 1, think of two numbers that have a sum of –12 and a product of 35.</item>
+        <list>
+          <item>To find the last term or constant, 63, we multiplied two numbers together from the diagram.</item>
         </list>
-      </solution>
-    </exercise>
-  
-</section>
-</content>
+        <para>So, which numbers, \(a\) and \(b\), have a sum of 16 and a product of 63?</para>
+        <para>
+          <figure>
+            <media alt=" DIAGRAM THAT SHOWS A PLUS B AND A TIMES B WITH ARROWS GOING TO 16 AND 63 IN THE QUADRATIC EXPRESSION, X-SQUARED PLUS 16X PLUS 63.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_09_08_08_01.jpg" />
+            </media>
+          </figure>
+        </para>
+        <para>The positive factors of 63 include:</para>
+        <para>1, 63 3, 21 7, 9</para>
+        <para>With some reasoning, we find that 7 and 9 are the numbers we want.</para>
+        <para>So, the factored form of \(x^2+16x +63\) is \((x + 7)(x + 9)\).</para>
+        <para>Let’s look at another example.</para>
+        <para>
+          <emphasis>Example 2</emphasis>
+        </para>
+        <para>Write \(x^2−10x +16\) in factored form.</para>
+        <para>The sign of the middle term is negative, but we follow the same process since the coefficient of \(x^2\) is 1.</para>
+        <para>Let’s rewrite the expression as \(x^2+ -10x +16\).</para>
+        <para>Which numbers have a sum of –10 and a product of 16?</para>
+        <para>The factors of 16 include:</para>
+        <para>1, 16–1, –16 2, 8–2, –8 4, 4–4, –4</para>
+        <para>The numbers we need are –2 and –8 because they have a product of 16 and a sum of –10.</para>
+        <para>So, the factored form is \((x + (-2))(x + (-8))\). This can be rewritten as \((x − 2)(x − 8)\).</para>
+        <note class="try">
+          <title>Try It: Rewriting Quadratic Expressions in Standard Form</title>
+      <exercise>
+            <problem>
+              <para>Find the factored form of each expression.</para>
+              <para>\(x^2+9x +18\)</para>
+              <para>\(x^2−12x +35\)</para>
+              <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution>
+              <para>Here is how to rewrite quadratic equations in standard form into factored form:</para>
+              <list class="os-raise-noindent" list-type="enumerated">
+                <item>\((x + 6)(x + 3)\); Since the coefficients of the \(x\)-terms are both 1, think of two numbers that have a sum of 9 and a product of 18.</item>
+              </list>
+              <list class="os-raise-noindent" list-type="enumerated">
+                <item>\((x − 5)(x − 7)\); Since the coefficients of the \(x\)-terms are both 1, think of two numbers that have a sum of –12 and a product of 35.</item>
+              </list>
+            </solution>
+          </exercise>
+        </note>
+      </section>
+    </section>
+  </content>
 </document>
