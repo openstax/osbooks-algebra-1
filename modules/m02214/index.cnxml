@@ -6,392 +6,307 @@
     <md:uuid>e81e8d2a-8bd7-454d-9c2c-60a1c3a93942</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Clare claims that \((10 + 3)(10 - 3)\) is equivalent to \(10^2-3^2\) and \((20 + 1)(20 - 1)\) is equivalent to \(20^2-1^2\). Do you agree? Show your reasoning.</para>
-    </problem><solution>
-    
-    <para>Enter your answer and your reasoning.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>Agree.</para>
-    
-    <para>\((10+3)(10-3)\)
-      \(\begin{array}{rcl}&amp;&amp;{=\left(10+3\right)\left(10+(-3)\right)\\=10^2+10\left(-3\right)+3\left(10\right)+3\left(-3\right)\\=10^2-30+30-3^2\\=10^2-3^2}\\&amp;&amp;\end{array}\)</para>
-    
-    <para>\((20 + 1)(20 - 1)\)
-      \(\begin{array}{rcl}&amp;&amp;{=\left(20 + (-1)\right)\left(20 -1\right)\\= 20^2+ 20\left(-1\right) + 20\left(1\right) + 1\left(-1\right) \\= 20^2- 12}\\&amp;&amp;\end{array}\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<list class="os-raise-noindent" list-type="enumerated">
-  <item>You can use your observations from the first question to mentally solve an expression such as \(105 \cdot 95\).</item>
-</list>
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>First, think about the problem differently. Evaluate \((100 + 5)(100 - 5)\) using the distributive property, or FOIL. Show your reasoning.</para>
-    </problem><solution>
-    
-    <para>Enter your answer and your reasoning.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\((100 + 5)(100 - 5) = 100^2- 5^2= 10,000 - 25 = 9975\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Check your answer by computing \(105 \cdot 95\).</para>
-    </problem><solution>
-    
-    <para>Enter your answer.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(105 \cdot 95 = 9975\)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
-
-<exercise>
-  <problem>
-    
-    <para>Is \((x + 4)(x - 4)\) equivalent to \(x^2-4^2\)?</para>
-    <para>First, support your thinking using a diagram.</para>
-    <table class="os-raise-doubleheadertable">
-      
-      <tgroup cols="3"><tbody><row>
-          <entry><emphasis/></entry><entry><emphasis>
-            \(x\)
-         </emphasis> </entry><entry><emphasis>
-            4
-         </emphasis> </entry></row><row>
-          <entry><emphasis>
-          \(x\)
-         </emphasis> </entry><entry> </entry>
-          <entry> </entry>
-        </row>
-        <row>
-          <entry><emphasis>
-            -4
-         </emphasis> </entry><entry> </entry>
-          <entry> </entry>
-        </row>
-      </tbody></tgroup></table>
-    
-    
-  
-  <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>Yes.</para>
-  
-  <table class="os-raise-doubleheadertable">
-    
-    <tgroup cols="3"><tbody><row>
-        <entry><emphasis/></entry><entry><emphasis>
-          \(x\)
-       </emphasis> </entry><entry><emphasis>
-         4
-		 </emphasis> </entry></row><row>
-        <entry><emphasis>
-          \(x\)
-       </emphasis> </entry><entry>
-          \(x^2\)
-        </entry>
-        <entry>
-        \(4x\)
-        </entry>
-      </row>
-      <row>
-        <entry><emphasis>
-       -4
-       </emphasis> </entry><entry>
-          \(-4x\)
-        </entry>
-        <entry>
-         \(-4(4)\)
-        </entry>
-      </row>
-    </tbody></tgroup></table>
-  
-  
-
-</solution></exercise>
-
-<exercise>
-  <problem>
-    
-    <para>Now, support your thinking using the distributive property, or FOIL.</para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>\((x + 4)(x - 4)= x^2+ 4x - 4x - 4(4) = x^2- 4^2\)</para>
-
-</solution></exercise>
-
-<exercise>
-  <problem>
-    
-    <para>Is \((x + 4)^2\) equivalent to \(x^2+4^2\)? Support your answer, either with or without a diagram.</para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-  
-  </problem><solution>
-  <para>Compare your answer:</para>
-  
-  <para>No.
-    With a diagram:</para>
-  
-  <table class="os-raise-doubleheadertable">
-    
-    <tgroup cols="3"><tbody><row>
-        <entry><emphasis/></entry><entry><emphasis>
-          \(x\)
-       </emphasis> </entry><entry><emphasis>
-          4
-       </emphasis> </entry></row><row>
-        <entry><emphasis>
-         \(x\)
-       </emphasis> </entry><entry>
-          \(x^2\)
-        </entry>
-        <entry>
-        \(4x\)
-			
-        </entry>
-      </row>
-      <row>
-        <entry><emphasis>
-          4
-       </emphasis> </entry><entry>
-         \(4x\)
-        </entry>
-        <entry>
-        \(4(4)\)
-        </entry>
-      </row>
-    </tbody></tgroup></table>
-  
-  
-  
-  <para>With FOIL:
-    \((x + 4)^2= (x + 4)(x + 4) = x^2+4x +4x +4(4) = x^2+8x +16\)
-    \(x^2+ 4^2 = x^2+ 16\)</para>
-
-</solution></exercise>
-
-<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<exercise>
-  <problem>
-    
-    
-  
-  
-  
-  </problem></exercise>
-<!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<exercise class="RFM1">
-  <problem>
-    <title>Extending Your Thinking</title>
-    
-    <para>Explain how your work in the previous questions can help you mentally evaluate \(22 \cdot 18\).</para>
-    </problem><solution>
-    
-    <para>Enter your explanation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(22 \cdot 18\) can be written as \((20 + 2)(20 - 2)\), which is equivalent to \(202 - 22\), which is \(400 - 4\), or 396.</para>
-  
-  </solution></exercise>
-<!--End interaction-->
-
-<exercise class="RFM1">
-  <problem>
-    <para>Explain how your work in the previous questions can help you mentally evaluate \(45 \cdot 35\).</para>
-    </problem><solution>
-    
-    <para>Enter your explanation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>\(45 \cdot 35\) can be written as \((40 + 5)(40 - 5)\), which is equivalent to \(40^2-5^2\), which is \(1600 - 25\), or 1575.</para>
-    
-    
-  
-  </solution></exercise>
-
-<exercise class="RFM1">
-  <problem>
-    <para>Here is a shortcut that can be used to mentally square any two-digit number. Let's take \(83^2\), for example.</para>
-    
-    <para>83 is \(80 + 3\).</para>
-      <para>Compute \(80^2\) and \(3^2\), which gives 6400 and 9. Add these values to get 6409.</para>
-      <para>Compute \(80 \cdot 3\), which is 240. Double it to get 480.</para>
-      <para>Add 6409 and 480 to get 6889.</para>
-    <para>Try using this method to find the squares of some other two-digit numbers. (With some practice, it is possible to get really fast at this!)</para>
-    
-    <para>Explain why this method works.</para>
-    </problem><solution>
-    
-    <para>Enter your explanation.</para>
-  
-  <para>Compare your answer:</para>
-    
-    <para>Any two-digit number can be written as \(a + b\), where \(a\) is 10 times the first digit and \(b\) is the second digit. We are interested in squaring \(a + b\):</para>
-    
-    <para>\((a + b)^2=(a + b)(a + b)\)</para>
-    
-    <para>\(= a^2+ab +ab +b^2\) by the distributive property</para>
-    
-    <para>\(= a^2+ 2ab +b^2\) by combining like terms</para>
-    
-    <para>\(= a^2+b^2+2ab\) because addition is commutative</para>
-    
-    
-    
-    <para>We get the \(a^2 + b^2\) from squaring \(a\) and \(b\) and adding them, and the \(2ab\) from multiplying the two values and doubling them.</para>
-  
-  </solution></exercise>
-<!--End interaction--></section>
-
-
-<note class="self-check">
-  <para>Which of the following is equivalent to \(9^2 − 6^2\)?</para>
-</note>
-
-<section><title>Recognizing the Expanded Product of the Difference of Two Squares</title>
-  <para>Mathematically, something special happens when two binomials that are conjugates are multiplied. In other words, the product of an expression of the form (\(a - b)(a + b)\) results in a unique expression called a difference of two squares. Here are some examples of these special products.</para>
-  <para><emphasis>Example 1</emphasis></para>
-  <para>Let's look at the expression \((12 + 5)(12 − 5)\). We want to determine if it is equivalent to \(12^2−5^2\).</para>
-  <para>We can use the distributive property of multiplication over addition, or FOIL process, to multiply.</para>
-  <para>\((12 + 5)(12 − 5)\) 
-    
-    \(\begin{array}{rcl} &amp;=&amp;12^2-12\left(5\right)+5\left(12\right)-5^2\\&amp;&amp;\\&amp;=&amp;12^2-60+60-5^2\\&amp;&amp;\\&amp;=&amp;12^2-5^2\\&amp;&amp;\end{array}\)
-    So, \((12 + 5)(12 − 5)\) is equivalent to \(12^2-5^2\).
-  </para>
-  <para><emphasis>Example 2</emphasis></para>
-  <para>Let's look at a different example using a <term class="glossary-tooltip">variable</term>.</para>
-  <para>\((x + 7)(x − 7)\)</para>
-  <para>Is this equivalent to \(x^2−7^2\)?</para>
-  <para>\((x + 7)(x − 7)\)
-    
-    \(\begin{array}{rcl} &amp;=&amp;x^2-7x+7x-7^2\\&amp;&amp;\\&amp;=&amp;x^2-7^2=x^2-49\\&amp;&amp;\end{array}\)
-    This can also be shown using a diagram.
-  </para>
-  <table class="os-raise-doubleheadertable">
-    
-    <tgroup cols="3"><tbody><row>
-        <entry><emphasis/></entry><entry><emphasis>
-         \(x\)
-       </emphasis> </entry><entry><emphasis>
-          –7
-       </emphasis> </entry></row><row>
-        <entry><emphasis>
-          \(x\)
-        
-       </emphasis> </entry><entry>
-          \(x^2\)
-        </entry>
-        <entry>
-          \(-7x\)
-        </entry>
-      </row>
-      <row>
-        <entry><emphasis>
-          7
-       </emphasis> </entry><entry>
-         \(7x\)
-        </entry>
-        <entry>
-         \(-7(7)\)
-        </entry>
-      </row>
-    </tbody></tgroup></table>
-  
-  <para>You have studied this process earlier when you learned the difference of squares.</para>
-  <para>In this lesson, we will reverse this process to rewrite the <term  class="glossary-tooltip">standard form</term> of a <term  class="glossary-tooltip">quadratic expression</term> into its <term  class="glossary-tooltip">factored form</term>.</para>
-  <para>It is important to remember the <term  class="glossary-tooltip">linear term</term>, or middle term of a quadratic trinomial, equals zero only holds true for the <term  class="glossary-tooltip">difference of squares</term>. It does not work for an expression such as \(x^2+25\). (In fact, there is no way to multiply two binomials that would result in this expression.)</para>
-  <para><emphasis>Example 3</emphasis></para>
-  <para>Is \((x + 5)^2\) equivalent to \(x^2+25\)?</para>
-  <para>Let's find the equivalent expression for \((x + 5)^2\) or \((x + 5)(x + 5)\).</para>
-  <para>\(\begin{array}{rcl}\left(x+5\right)^2&amp;=&amp;\left(x+5\right)\left(x+5\right)\\&amp;&amp;\\&amp;=&amp;x^2+5x+5x+25\\&amp;&amp;\\&amp;=&amp;x^2+10x+25\\&amp;&amp;\end{array}\)
-    Since \(x^2+ 10x + 25\) is not equivalent to \(x^2+25\), these expressions are not the same.</para>
-  <note class="try look-at-me"/>
-  <title>Try It: Recognizing the Expanded Product of the Difference of Two Squares</title>
-  <exercise>
-    <problem>
-      
-      <para>Is the expression \((8 − 7)(8 + 7)\) equivalent to the expression \(8^2−7^2\)? Show your reasoning using the distributive property, or FOIL.</para>
-      <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-    
-    </problem><solution>
-    <para>Here is how to recognize the expanded product of the difference of two squares:</para>
-    
-    <para>Yes. Here is how to use the difference of squares to show equivalency between the expressions:</para>
-    
-    <para>\((8 − 7)(8 + 7) = 8^2+ 56 − 56 − 7^2= 8^2 − 7^2\)</para>
-  
-  </solution></exercise>
-  <exercise>
-    <problem>
-  
-      <para>Is \((x + 4)(x + 4)\) equivalent to \(x^2+ 4^2\)? Support your answer with a diagram.</para>
-      <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-    
-    </problem><solution>
-    <para>Here is how to recognize the expanded product of the difference of two squares:</para>
-    
-    <para>No. The expressions are not equivalent.</para>
-    
-    <table class="os-raise-doubleheadertable">
-     
-      <tgroup cols="3"><tbody><row>
-          <entry><emphasis/></entry><entry><emphasis>
-            \(x\)
-         </emphasis> </entry><entry><emphasis>
-           4
-         </emphasis> </entry></row><row>
-          <entry><emphasis>
-            \(x\)
-         </emphasis> </entry><entry>
-            \(x^2\)
-          </entry>
-          <entry>
-           \(4x\)
-          </entry>
-        </row>
-        <row>
-          <entry><emphasis>
-          4
-         </emphasis> </entry><entry>
-          \(4x\)
-          </entry>
-          <entry>
-            <para>\(4(4)\)</para>
-          </entry>
-        </row>
-      </tbody></tgroup></table>
-    
-    
-    
-    <para>\((x + 4)(x + 4) = x^2 + 8x + 4^2 = x^2 + 8x + 16\)</para>
-    
-    <para>It is not equivalent to \(x^2 + 4^2 = x^2 + 16\).</para>
-  
-  </solution></exercise>
-  </section>
-</content>
+    <section>
+      <title>Activity</title>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Clare claims that \((10 + 3)(10 - 3)\) is equivalent to \(10^2-3^2\) and \((20 + 1)(20 - 1)\) is equivalent to \(20^2-1^2\). Do you agree? Show your reasoning.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer and your reasoning.</para>
+          <para>Compare your answer:</para>
+          <para>Agree.</para>
+          <para>\((10+3)(10-3)\) \(\begin{array}{rcl}&amp;&amp;{=\left(10+3\right)\left(10+(-3)\right)\\=10^2+10\left(-3\right)+3\left(10\right)+3\left(-3\right)\\=10^2-30+30-3^2\\=10^2-3^2}\\&amp;&amp;\end{array}\)</para>
+          <para>\((20 + 1)(20 - 1)\) \(\begin{array}{rcl}&amp;&amp;{=\left(20 + (-1)\right)\left(20 -1\right)\\= 20^2+ 20\left(-1\right) + 20\left(1\right) + 1\left(-1\right) \\= 20^2- 12}\\&amp;&amp;\end{array}\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <list class="os-raise-noindent" list-type="enumerated">
+        <item>You can use your observations from the first question to mentally solve an expression such as \(105 \cdot 95\).</item>
+      </list>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>First, think about the problem differently. Evaluate \((100 + 5)(100 - 5)\) using the distributive property, or FOIL. Show your reasoning.</para>
+        </problem>
+        <solution>
+          <para>Enter your answer and your reasoning.</para>
+          <para>Compare your answer:</para>
+          <para>\((100 + 5)(100 - 5) = 100^2- 5^2= 10,000 - 25 = 9975\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Check your answer by computing \(105 \cdot 95\).</para>
+        </problem>
+        <solution>
+          <para>Enter your answer.</para>
+          <para>Compare your answer:</para>
+          <para>\(105 \cdot 95 = 9975\)</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <exercise>
+        <problem>
+          <para>Is \((x + 4)(x - 4)\) equivalent to \(x^2-4^2\)?</para>
+          <para>First, support your thinking using a diagram.</para>
+          <table class="os-raise-doubleheadertable">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis /></entry>
+                  <entry><emphasis> \(x\) </emphasis>
+                  </entry>
+                  <entry><emphasis> 4 </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry><emphasis> \(x\) </emphasis>
+                  </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry><emphasis> -4 </emphasis>
+                  </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>Yes.</para>
+          <table class="os-raise-doubleheadertable">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis /></entry>
+                  <entry><emphasis> \(x\) </emphasis>
+                  </entry>
+                  <entry><emphasis> 4 </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry><emphasis> \(x\) </emphasis>
+                  </entry>
+                  <entry> \(x^2\) </entry>
+                  <entry> \(4x\) </entry>
+                </row>
+                <row>
+                  <entry><emphasis> -4 </emphasis>
+                  </entry>
+                  <entry> \(-4x\) </entry>
+                  <entry> \(-4(4)\) </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>Now, support your thinking using the distributive property, or FOIL.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>\((x + 4)(x - 4)= x^2+ 4x - 4x - 4(4) = x^2- 4^2\)</para>
+        </solution>
+      </exercise>
+      <exercise>
+        <problem>
+          <para>Is \((x + 4)^2\) equivalent to \(x^2+4^2\)? Support your answer, either with or without a diagram.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>No. With a diagram:</para>
+          <table class="os-raise-doubleheadertable">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis /></entry>
+                  <entry><emphasis> \(x\) </emphasis>
+                  </entry>
+                  <entry><emphasis> 4 </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry><emphasis> \(x\) </emphasis>
+                  </entry>
+                  <entry> \(x^2\) </entry>
+                  <entry> \(4x\) </entry>
+                </row>
+                <row>
+                  <entry><emphasis> 4 </emphasis>
+                  </entry>
+                  <entry> \(4x\) </entry>
+                  <entry> \(4(4)\) </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para>With FOIL: \((x + 4)^2= (x + 4)(x + 4) = x^2+4x +4x +4(4) = x^2+8x +16\) \(x^2+ 4^2 = x^2+ 16\)</para>
+        </solution>
+      </exercise>
+    </section>
+    <section>
+      <title>Are you ready for more?</title>
+      <exercise class="RFM1">
+        <problem>
+          <title>Extending Your Thinking</title>
+          <para>Explain how your work in the previous questions can help you mentally evaluate \(22 \cdot 18\).</para>
+        </problem>
+        <solution>
+          <para>Enter your explanation.</para>
+          <para>Compare your answer:</para>
+          <para>\(22 \cdot 18\) can be written as \((20 + 2)(20 - 2)\), which is equivalent to \(202 - 22\), which is \(400 - 4\), or 396.</para>
+        </solution>
+      </exercise>
+      <!--End interaction-->
+      <exercise class="RFM1">
+        <problem>
+          <para>Explain how your work in the previous questions can help you mentally evaluate \(45 \cdot 35\).</para>
+        </problem>
+        <solution>
+          <para>Enter your explanation.</para>
+          <para>Compare your answer:</para>
+          <para>\(45 \cdot 35\) can be written as \((40 + 5)(40 - 5)\), which is equivalent to \(40^2-5^2\), which is \(1600 - 25\), or 1575.</para>
+        </solution>
+      </exercise>
+      <exercise class="RFM1">
+        <problem>
+          <para>Here is a shortcut that can be used to mentally square any two-digit number. Let's take \(83^2\), for example.</para>
+          <para>83 is \(80 + 3\).</para>
+          <para>Compute \(80^2\) and \(3^2\), which gives 6400 and 9. Add these values to get 6409.</para>
+          <para>Compute \(80 \cdot 3\), which is 240. Double it to get 480.</para>
+          <para>Add 6409 and 480 to get 6889.</para>
+          <para>Try using this method to find the squares of some other two-digit numbers. (With some practice, it is possible to get really fast at this!)</para>
+          <para>Explain why this method works.</para>
+        </problem>
+        <solution>
+          <para>Enter your explanation.</para>
+          <para>Compare your answer:</para>
+          <para>Any two-digit number can be written as \(a + b\), where \(a\) is 10 times the first digit and \(b\) is the second digit. We are interested in squaring \(a + b\):</para>
+          <para>\((a + b)^2=(a + b)(a + b)\)</para>
+          <para>\(= a^2+ab +ab +b^2\) by the distributive property</para>
+          <para>\(= a^2+ 2ab +b^2\) by combining like terms</para>
+          <para>\(= a^2+b^2+2ab\) because addition is commutative</para>
+          <para>We get the \(a^2 + b^2\) from squaring \(a\) and \(b\) and adding them, and the \(2ab\) from multiplying the two values and doubling them.</para>
+        </solution>
+      </exercise>
+      <!--End interaction-->
+    </section>
+    <note class="self-check">
+      <para>Which of the following is equivalent to \(9^2 − 6^2\)?</para>
+    </note>
+    <section>
+      <title>Additional Resources</title>
+      <section>
+        <title>Recognizing the Expanded Product of the Difference of Two Squares</title>
+        <para>Mathematically, something special happens when two binomials that are conjugates are multiplied. In other words, the product of an expression of the form (\(a - b)(a + b)\) results in a unique expression called a difference of two squares. Here are some examples of these special products.</para>
+        <para><emphasis>Example 1</emphasis></para>
+        <para>Let's look at the expression \((12 + 5)(12 − 5)\). We want to determine if it is equivalent to \(12^2−5^2\).</para>
+        <para>We can use the distributive property of multiplication over addition, or FOIL process, to multiply.</para>
+        <para>\((12 + 5)(12 − 5)\) \(\begin{array}{rcl} &amp;=&amp;12^2-12\left(5\right)+5\left(12\right)-5^2\\&amp;&amp;\\&amp;=&amp;12^2-60+60-5^2\\&amp;&amp;\\&amp;=&amp;12^2-5^2\\&amp;&amp;\end{array}\) So, \((12 + 5)(12 − 5)\) is equivalent to \(12^2-5^2\). </para>
+        <para><emphasis>Example 2</emphasis></para>
+        <para>Let's look at a different example using a <term class="glossary-tooltip">variable</term>.</para>
+        <para>\((x + 7)(x − 7)\)</para>
+        <para>Is this equivalent to \(x^2−7^2\)?</para>
+        <para>\((x + 7)(x − 7)\) \(\begin{array}{rcl} &amp;=&amp;x^2-7x+7x-7^2\\&amp;&amp;\\&amp;=&amp;x^2-7^2=x^2-49\\&amp;&amp;\end{array}\) This can also be shown using a diagram. </para>
+        <table class="os-raise-doubleheadertable">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry><emphasis /></entry>
+                <entry><emphasis> \(x\) </emphasis>
+                </entry>
+                <entry><emphasis> –7 </emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry><emphasis> \(x\) </emphasis>
+                </entry>
+                <entry> \(x^2\) </entry>
+                <entry> \(-7x\) </entry>
+              </row>
+              <row>
+                <entry><emphasis> 7 </emphasis>
+                </entry>
+                <entry> \(7x\) </entry>
+                <entry> \(-7(7)\) </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para>You have studied this process earlier when you learned the difference of squares.</para>
+        <para>In this lesson, we will reverse this process to rewrite the <term class="glossary-tooltip">standard form</term> of a <term class="glossary-tooltip">quadratic expression</term> into its <term class="glossary-tooltip">factored form</term>.</para>
+        <para>It is important to remember the <term class="glossary-tooltip">linear term</term>, or middle term of a quadratic trinomial, equals zero only holds true for the <term class="glossary-tooltip">difference of squares</term>. It does not work for an expression such as \(x^2+25\). (In fact, there is no way to multiply two binomials that would result in this expression.)</para>
+        <para><emphasis>Example 3</emphasis></para>
+        <para>Is \((x + 5)^2\) equivalent to \(x^2+25\)?</para>
+        <para>Let's find the equivalent expression for \((x + 5)^2\) or \((x + 5)(x + 5)\).</para>
+        <para>\(\begin{array}{rcl}\left(x+5\right)^2&amp;=&amp;\left(x+5\right)\left(x+5\right)\\&amp;&amp;\\&amp;=&amp;x^2+5x+5x+25\\&amp;&amp;\\&amp;=&amp;x^2+10x+25\\&amp;&amp;\end{array}\) Since \(x^2+ 10x + 25\) is not equivalent to \(x^2+25\), these expressions are not the same.</para>
+        <note class="try">
+          <title>Try It: Recognizing the Expanded Product of the Difference of Two Squares</title>
+      <exercise>
+            <problem>
+              <para>Is the expression \((8 − 7)(8 + 7)\) equivalent to the expression \(8^2−7^2\)? Show your reasoning using the distributive property, or FOIL.</para>
+              <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution>
+              <para>Here is how to recognize the expanded product of the difference of two squares:</para>
+              <para>Yes. Here is how to use the difference of squares to show equivalency between the expressions:</para>
+              <para>\((8 − 7)(8 + 7) = 8^2+ 56 − 56 − 7^2= 8^2 − 7^2\)</para>
+            </solution>
+          </exercise>
+      <exercise>
+            <problem>
+              <para>Is \((x + 4)(x + 4)\) equivalent to \(x^2+ 4^2\)? Support your answer with a diagram.</para>
+              <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution>
+              <para>Here is how to recognize the expanded product of the difference of two squares:</para>
+              <para>No. The expressions are not equivalent.</para>
+              <table class="os-raise-doubleheadertable">
+                <tgroup cols="3">
+                  <tbody>
+                    <row>
+                      <entry><emphasis /></entry>
+                      <entry><emphasis> \(x\) </emphasis>
+                      </entry>
+                      <entry><emphasis> 4 </emphasis>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry><emphasis> \(x\) </emphasis>
+                      </entry>
+                      <entry> \(x^2\) </entry>
+                      <entry> \(4x\) </entry>
+                    </row>
+                    <row>
+                      <entry><emphasis> 4 </emphasis>
+                      </entry>
+                      <entry> \(4x\) </entry>
+                      <entry>
+                        <para>\(4(4)\)</para>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <para>\((x + 4)(x + 4) = x^2 + 8x + 4^2 = x^2 + 8x + 16\)</para>
+              <para>It is not equivalent to \(x^2 + 4^2 = x^2 + 16\).</para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
+    </section>
+  </content>
 </document>
