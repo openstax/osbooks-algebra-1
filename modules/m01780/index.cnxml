@@ -11,14 +11,13 @@
       <para>
         <figure>
           <media alt="Three steps of a growing pattern.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_05_06_01.svg"/>
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_05_06_01.svg" />
           </media>
         </figure>
-     </para>
+      </para>
       <exercise>
         <problem>
           <para>Sketch the next step in the pattern. Explain what you sketched.</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
@@ -28,169 +27,174 @@
       <exercise>
         <problem>
           <para>Kiran says that the pattern is growing linearly because as the step number goes up by 1, the number of rows and the number of columns also increase by 1. Do you agree? Be prepared to show your reasoning.</para>
-          
         </problem>
         <solution>
           <para>Compare your answer:</para>
           <para>Kiran is correct that the number of rows and the number of columns each grow by 1, but the total number of squares does not increase by the same amount from step to step. So, the total number of squares does not grow linearly.</para>
         </solution>
       </exercise>
-      
-        <exercise>
-          <problem>
-            <para>To represent the number of squares after \(n\) steps, Diego and Jada wrote different equations. Diego wrote the equation \(f(n)=n(n+2)\). Jada wrote the equation \(f(n)=n^2+2n\). Is either Diego or Jada correct? Be prepared to show your reasoning.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Diego’s expression \(n(n+2)\) is correct because there are \(n\) columns and \(n+2\) rows of small squares in Step \(n\). Jada’s expression is also correct because the \(n(n+2)\) array of small squares can be divided into an \(n\)-by-\(n\) square (having \(n^2\) small squares) and an \(n\)-by-2 rectangle (having \(2n\) small squares).</para>
-            <para>
-              <figure>
-                <media alt="Insert Alt Text">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_08_05_06_02.jpg"/>
-                </media>
-              </figure>
-           </para>
-          </solution>
-        </exercise>
-      
-      <title>Video: Quadratic Sequences</title>
-      <para>Watch the following video to learn more about quadratic sequences.</para>
-      <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/66bb3acd4e854e909605679f84a3a85434ae661f"/>
-      </media>
+      <exercise>
+        <problem>
+          <para>To represent the number of squares after \(n\) steps, Diego and Jada wrote different equations. Diego wrote the equation \(f(n)=n(n+2)\). Jada wrote the equation \(f(n)=n^2+2n\). Is either Diego or Jada correct? Be prepared to show your reasoning.</para>
+          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution>
+          <para>Compare your answer:</para>
+          <para>Diego’s expression \(n(n+2)\) is correct because there are \(n\) columns and \(n+2\) rows of small squares in Step \(n\). Jada’s expression is also correct because the \(n(n+2)\) array of small squares can be divided into an \(n\)-by-\(n\) square (having \(n^2\) small squares) and an \(n\)-by-2 rectangle (having \(2n\) small squares).</para>
+          <para>
+            <figure>
+              <media alt="Insert Alt Text">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_08_05_06_02.jpg" />
+              </media>
+            </figure>
+          </para>
+        </solution>
+      </exercise>
+      <section>
+        <title>Video: Quadratic Sequences</title>
+        <para>Watch the following video to learn more about quadratic sequences.</para>
+        <media alt="Placeholder for Alt Text">
+          <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/66bb3acd4e854e909605679f84a3a85434ae661f" />
+        </media>
+      </section>
     </section>
-
     <note class="self-check">
       <para>
         <figure>
           <media alt="Insert Alt Text">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_05_07_01.svg"/>
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_05_07_01.svg" />
           </media>
         </figure>
-     </para>
+      </para>
       <para>Which equation represents the relationship between the step number \(n\) and the number of squares \(y\)?</para>
     </note>
-
     <section>
-      <title>More Complex Quadratic Patterns</title>
-      <para>See Steps 1 – 3 of a pattern of squares below. Write an equation representing the relationship between the step
-  number \(n\) and the number of squares \(y\).</para>
-      <para>
-        <figure>
-          <media alt="">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_08_05_08_01.jpg"/>
-          </media>
-        </figure>
-     </para>
-      <para>First, try to find the pattern if the missing squares were actually there.</para>
-      <para>Make a table:</para>
-      <table class="os-raise-wideequaltable">
-        <tgroup cols="4"><tbody><row>
-            <entry>
-             <emphasis> Step</emphasis> 
-            </entry>
-            <entry>
-             <emphasis> # of columns</emphasis> 
-            </entry>
-            <entry>
-             <emphasis> # of rows</emphasis> 
-            </entry>
-            <entry>
-             <emphasis> # of squares</emphasis> 
-            </entry>
-          </row>
-        <row>
-            <entry> 1 </entry>
-            <entry> 2 </entry>
-            <entry> 2 </entry>
-            <entry> 2 </entry>
-          </row>
-          <row>
-            <entry> 2 </entry>
-            <entry> 2 </entry>
-            <entry> 2 </entry>
-            <entry> 7 </entry>
-          </row>
-          <row>
-            <entry> 3 </entry>
-            <entry> 4 </entry>
-            <entry> 4 </entry>
-            <entry> 14 </entry>
-          </row>
-          <row>
-            <entry> \(n\) </entry>
-            <entry> \(n + 1\) </entry>
-            <entry> \(n + 1\) </entry>
-            <entry> \((n+1)^2-2\) </entry>
-          </row>
-        </tbody></tgroup></table>
-      <para>There would be \((n+1)(n+1)\) squares, but there are 2 missing from each step, so the equation would be:</para>
-      <para>\(y=(n+1)^2-2\).</para>
-      <note class="try look-at-me"/>
-  <title>Try It: More Complex Quadratic Patterns</title>
-      <para>See Steps 1 – 3 of a pattern of squares below. Write an equation representing the relationship between the step
-  number \(n\) and the number of squares \(y\).</para>
-      
-        <exercise>
-          <problem>
-            <para>
-              <figure>
-                <media alt="Insert Alt Text">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_08_05_08_02.jpg"/>
-                </media>
-              </figure>
-           </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution>
-            <para>Here is how to represent the quadratic sequence with an equation:</para>
-            <para>Notice there are no missing squares. Complete the table for each step:</para>
-            <table class="os-raise-wideequaltable">
-              <tgroup cols="4"><tbody><row>
-                  <entry>
-                   <emphasis> Step</emphasis> 
-                  </entry>
-                  <entry>
-                   <emphasis> # of columns</emphasis> 
-                  </entry>
-                  <entry>
-                   <emphasis> # of rows</emphasis> 
-                  </entry>
-                  <entry>
-                   <emphasis> # of squares</emphasis> 
-                  </entry>
-                </row>
+      <title>Additional Resources</title>
+      <section>
+        <title>More Complex Quadratic Patterns</title>
+        <para>See Steps 1 – 3 of a pattern of squares below. Write an equation representing the relationship between the step number \(n\) and the number of squares \(y\).</para>
+        <para>
+          <figure>
+            <media alt="">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_08_05_08_01.jpg" />
+            </media>
+          </figure>
+        </para>
+        <para>First, try to find the pattern if the missing squares were actually there.</para>
+        <para>Make a table:</para>
+        <table class="os-raise-wideequaltable">
+          <tgroup cols="4">
+            <tbody>
               <row>
-                  <entry> 1 </entry>
-                  <entry> 4 </entry>
-                  <entry> 4 </entry>
-                  <entry> 16 </entry>
-                </row>
-                <row>
-                  <entry> 2 </entry>
-                  <entry> 5 </entry>
-                  <entry> 5 </entry>
-                  <entry> 25 </entry>
-                </row>
-                <row>
-                  <entry> 3 </entry>
-                  <entry> 6 </entry>
-                  <entry> 6 </entry>
-                  <entry> 36 </entry>
-                </row>
-                <row>
-                  <entry> \(n\) </entry>
-                  <entry> \(n + 3\) </entry>
-                  <entry> \(n + 3\) </entry>
-                  <entry> \((n+3)^2\) </entry>
-                </row>
-              </tbody></tgroup></table>
-            <para>The number of columns is always \(n+3\), and the number of rows is \(n+3\).</para>
-            <para>The number of squares will be represented by \(y=(n+3)^2\).</para>
-          </solution>
-        </exercise>
-      
+                <entry>
+                  <emphasis> Step</emphasis>
+                </entry>
+                <entry>
+                  <emphasis> # of columns</emphasis>
+                </entry>
+                <entry>
+                  <emphasis> # of rows</emphasis>
+                </entry>
+                <entry>
+                  <emphasis> # of squares</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry> 1 </entry>
+                <entry> 2 </entry>
+                <entry> 2 </entry>
+                <entry> 2 </entry>
+              </row>
+              <row>
+                <entry> 2 </entry>
+                <entry> 2 </entry>
+                <entry> 2 </entry>
+                <entry> 7 </entry>
+              </row>
+              <row>
+                <entry> 3 </entry>
+                <entry> 4 </entry>
+                <entry> 4 </entry>
+                <entry> 14 </entry>
+              </row>
+              <row>
+                <entry> \(n\) </entry>
+                <entry> \(n + 1\) </entry>
+                <entry> \(n + 1\) </entry>
+                <entry> \((n+1)^2-2\) </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para>There would be \((n+1)(n+1)\) squares, but there are 2 missing from each step, so the equation would be:</para>
+        <para>\(y=(n+1)^2-2\).</para>
+        <note class="try">
+          <title>Try It: More Complex Quadratic Patterns</title>
+      <para>See Steps 1 – 3 of a pattern of squares below. Write an equation representing the relationship between the step number \(n\) and the number of squares \(y\).</para>
+      <exercise>
+            <problem>
+              <para>
+                <figure>
+                  <media alt="Insert Alt Text">
+                    <image mime-type="image/jpeg" src="../../media/Algebra-1_08_05_08_02.jpg" />
+                  </media>
+                </figure>
+              </para>
+              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution>
+              <para>Here is how to represent the quadratic sequence with an equation:</para>
+              <para>Notice there are no missing squares. Complete the table for each step:</para>
+              <table class="os-raise-wideequaltable">
+                <tgroup cols="4">
+                  <tbody>
+                    <row>
+                      <entry>
+                        <emphasis> Step</emphasis>
+                      </entry>
+                      <entry>
+                        <emphasis> # of columns</emphasis>
+                      </entry>
+                      <entry>
+                        <emphasis> # of rows</emphasis>
+                      </entry>
+                      <entry>
+                        <emphasis> # of squares</emphasis>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry> 1 </entry>
+                      <entry> 4 </entry>
+                      <entry> 4 </entry>
+                      <entry> 16 </entry>
+                    </row>
+                    <row>
+                      <entry> 2 </entry>
+                      <entry> 5 </entry>
+                      <entry> 5 </entry>
+                      <entry> 25 </entry>
+                    </row>
+                    <row>
+                      <entry> 3 </entry>
+                      <entry> 6 </entry>
+                      <entry> 6 </entry>
+                      <entry> 36 </entry>
+                    </row>
+                    <row>
+                      <entry> \(n\) </entry>
+                      <entry> \(n + 3\) </entry>
+                      <entry> \(n + 3\) </entry>
+                      <entry> \((n+3)^2\) </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <para>The number of columns is always \(n+3\), and the number of rows is \(n+3\).</para>
+              <para>The number of squares will be represented by \(y=(n+3)^2\).</para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
     </section>
   </content>
 </document>
