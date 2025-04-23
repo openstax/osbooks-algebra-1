@@ -6,186 +6,187 @@
     <md:uuid>25bc5347-6037-4262-a3e5-632d205bd6f3</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>A <term class="glossary-tooltip">discrete function</term> has distinct separate values in the domain and range, rather than an interval of values.</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00001">A <term class="glossary-tooltip" id="term-00001">discrete function</term> has distinct separate values in the domain and range, rather than an interval of values.</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>Below is a graph from the previous lesson that graphs the number of students attending a camp and the amount, in dollars, the camp earns. There must be 5 students to hold the camp.</item>
       </list>
-      <para>
+      <para id="para-00002">
           <media alt="A graph. ">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_09_01.svg"/>
           </media>
         
     </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What are the \(x\)-values of this function that make up the domain?</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">What are the \(x\)-values of this function that make up the domain?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16</para>
+        <solution id="sol-00001">
+          <para id="para-00004">Compare your answers:</para>
+          <para id="para-00005">5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Why can’t we say the domain is all values from 5 to 16?</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00006">Why can’t we say the domain is all values from 5 to 16?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>The number of students cannot be fractions or decimals, so those values are not in the domain.</para>
+        <solution id="sol-00002">
+          <para id="para-00007">Compare your answers:</para>
+          <para id="para-00008">The number of students cannot be fractions or decimals, so those values are not in the domain.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What are the \(y\)-values of this function that make up the range?</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00009">What are the \(y\)-values of this function that make up the range?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>200, 250, 300, 350, 400, 450, 500, 550, 600, 650</para>
+        <solution id="sol-00003">
+          <para id="para-00010">Compare your answers:</para>
+          <para id="para-00011">200, 250, 300, 350, 400, 450, 500, 550, 600, 650</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <para>A <term class="glossary-tooltip">continuous function</term> refers to a function that does not have any breaks in its graph. The domain and range of a continuous function are often represented by an interval that can be written as an inequality.</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00012">A <term class="glossary-tooltip" id="term-00002">continuous function</term> refers to a function that does not have any breaks in its graph. The domain and range of a continuous function are often represented by an interval that can be written as an inequality.</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>The graph below represents a continuous function. The function, \(P\), is the cost of parking in a garage for \(t\) hours. It is represented by the function \(P(t)=5h +10\).</item>
       </list>
-      <para>
+      <para id="para-00013">
           <media alt="A GRAPHED LINE WITH A \(y\)-intercepts AT (0, 10), PASSING THROUGH THE POINTS (2, 20) AND (4, 30).">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_16_09_02.jpg"/>
           </media>
         
     </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What does \(P(0)\) represent?</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00014">What does \(P(0)\) represent?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>It represents the starting price of parking for the day.</para>
+        <solution id="sol-00004">
+          <para id="para-00015">Compare your answer:</para>
+          <para id="para-00016">It represents the starting price of parking for the day.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>In words, what are the values of the domain?</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00017">In words, what are the values of the domain?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The domain includes the values where \(x\) is at least 0.</para>
+        <solution id="sol-00005">
+          <para id="para-00018">Compare your answer:</para>
+          <para id="para-00019">The domain includes the values where \(x\) is at least 0.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>How can you write the domain values as an inequality?</para>
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00020">How can you write the domain values as an inequality?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(\;x\geq0\)</para>
+        <solution id="sol-00006">
+          <para id="para-00021">Compare your answer:</para>
+          <para id="para-00022">\(\;x\geq0\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>In words, what are the values of the range?</para>
+      <exercise id="exer-00007">
+        <problem id="prob-00007">
+          <para id="para-00023">In words, what are the values of the range?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The range includes the values where \(y\) is at least 10.</para>
+        <solution id="sol-00007">
+          <para id="para-00024">Compare your answer:</para>
+          <para id="para-00025">The range includes the values where \(y\) is at least 10.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>How can you write the range values as an inequality?</para>
+      <exercise id="exer-00008">
+        <problem id="prob-00008">
+          <para id="para-00026">How can you write the range values as an inequality?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(\;y\geq10\)</para>
+        <solution id="sol-00008">
+          <para id="para-00027">Compare your answer:</para>
+          <para id="para-00028">\(\;y\geq10\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
-    <note class="self-check">
-      <para>Which of the following correctly describes the domain and range of the graph below?</para>
-      <para>
-          <media alt="GRAPH OF A LINE FOR ALL X GREATER THAN OR EQUAL TO 2, WITH POINT SHOWN AT (2, 3), AND PASSING THROUGH THE POINTS (5, 9) AND (8, 15).&#10;">
+    <note class="self-check" id="note-00001">
+      <para id="para-00029">Which of the following correctly describes the domain and range of the graph below?</para>
+      <para id="para-00030">
+          <media alt="GRAPH OF A LINE FOR ALL X GREATER THAN OR EQUAL TO 2, WITH POINT SHOWN AT (2, 3), AND PASSING THROUGH THE POINTS (5, 9) AND (8, 15).
+">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_16_10_01.jpg"/>
           </media>
         
     </para>
     </note>
-    <section>
+    <section id="sect-00002">
       <title>Additional Resources</title>
       
-    <section>
+    <section id="sect-00003">
       <title> Domain and Range as Inequalities</title>
-      <para>Looking at the linear function below, use inequalities to represent the domain and range.</para>
-      <para>
+      <para id="para-00031">Looking at the linear function below, use inequalities to represent the domain and range.</para>
+      <para id="para-00032">
         
           <media alt="GRAPH OF A LINE FOR ALL X GREATER THAN OR EQUAL TO 5, WITH POINT SHOWN AT (5, 0), AND PASSING THROUGH THE POINTS (10, 5), AND (15, 10). ">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_16_11_01.jpg"/>
           </media>
         
     </para>
-      <para>Domain:</para>
-      <para>Since the domain is all \(x\)-values, look left to right for the least to greatest values.</para>
-      <para>The smallest \(x\)-value on this linear function is 5, and then the line continues to the right forever.</para>
-      <para>So, the domain is all values that are at least 5.</para>
-      <para>As an inequality, write this as \(x\geq5\).</para>
-      <para>Range:</para>
-      <para>Since the range is all \(y\)-values, look from the bottom to the top for the least to greatest values.</para>
-      <para>The smallest \(y\)-value is 0, and then the line continues up forever.</para>
-      <para>So, the range is all values that are at least 0.</para>
-      <para>An an inequality, the range is \(y\geq0\).</para>
-      <note class="try">
+      <para id="para-00033">Domain:</para>
+      <para id="para-00034">Since the domain is all \(x\)-values, look left to right for the least to greatest values.</para>
+      <para id="para-00035">The smallest \(x\)-value on this linear function is 5, and then the line continues to the right forever.</para>
+      <para id="para-00036">So, the domain is all values that are at least 5.</para>
+      <para id="para-00037">As an inequality, write this as \(x\geq5\).</para>
+      <para id="para-00038">Range:</para>
+      <para id="para-00039">Since the range is all \(y\)-values, look from the bottom to the top for the least to greatest values.</para>
+      <para id="para-00040">The smallest \(y\)-value is 0, and then the line continues up forever.</para>
+      <para id="para-00041">So, the range is all values that are at least 0.</para>
+      <para id="para-00042">An an inequality, the range is \(y\geq0\).</para>
+      <note class="try" id="note-00002">
   <title>Try It: Domain and Range as Inequalities</title>
       
-        <exercise>
-          <problem>
-            <para>Looking at the linear function below, use inequalities to represent the domain and range.</para>
-            <para>
+        <exercise id="exer-00009">
+          <problem id="prob-00009">
+            <para id="para-00043">Looking at the linear function below, use inequalities to represent the domain and range.</para>
+            <para id="para-00044">
               
                 <media alt="GRAPH OF A LINE FOR ALL X GREATER THAN OR EQUAL TO 5, WITH POINT SHOWN AT (5, 6), AND PASSING THROUGH THE POINTS (7, 10) AND (10, 16).">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_04_16_11_02.jpg"/>
                 </media>
               
           </para>
-            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00045">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Your answers may vary, but here are some examples:
+          <solution id="sol-00009">
+            <para id="para-00046">Your answers may vary, but here are some examples:
 </para>
-            <para>Here is how to write the domain and range of the linear function as an inequality:</para>
-            <para>Domain:</para>
-            <para>Since the domain is all \(x\)-values, look left to right for the least to greatest values.</para>
-            <para>The smallest \(x\)-value on this linear function is 5, and then the line continues to the right forever.</para>
-            <para>So, the domain is all values that are at least 5.</para>
-            <para>As an inequality, write this as \(x\geq5\).</para>
-            <para>Range:</para>
-            <para>Since the range is all \(y\)-values, look from the bottom to the top for the least to greatest values.</para>
-            <para>The smallest \(y\)-value is 6, and then the line continues up forever.</para>
-            <para>So, the range is all values that are at least 6.</para>
-            <para>An an inequality, the range is \(y\geq6\).</para>
+            <para id="para-00047">Here is how to write the domain and range of the linear function as an inequality:</para>
+            <para id="para-00048">Domain:</para>
+            <para id="para-00049">Since the domain is all \(x\)-values, look left to right for the least to greatest values.</para>
+            <para id="para-00050">The smallest \(x\)-value on this linear function is 5, and then the line continues to the right forever.</para>
+            <para id="para-00051">So, the domain is all values that are at least 5.</para>
+            <para id="para-00052">As an inequality, write this as \(x\geq5\).</para>
+            <para id="para-00053">Range:</para>
+            <para id="para-00054">Since the range is all \(y\)-values, look from the bottom to the top for the least to greatest values.</para>
+            <para id="para-00055">The smallest \(y\)-value is 6, and then the line continues up forever.</para>
+            <para id="para-00056">So, the range is all values that are at least 6.</para>
+            <para id="para-00057">An an inequality, the range is \(y\geq6\).</para>
           </solution>
         </exercise>
       </note>

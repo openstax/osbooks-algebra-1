@@ -6,15 +6,15 @@
     <md:uuid>c5ea4448-eb5b-4224-bb5b-d07dde90cca2</md:uuid>
   </metadata>
   <content>
-    <note class="mini-lesson-question">
+    <note class="mini-lesson-question" id="note-00001">
       <title>Question #2: Classify Equations</title>
-      <para>Which of the following correctly classifies the equation and the solution?\( 6(2n - 1) + 3 = 2n - 8 + 5(2n + 1) \)</para>
+      <para id="para-00001">Which of the following correctly classifies the equation and the solution?\( 6(2n - 1) + 3 = 2n - 8 + 5(2n + 1) \)</para>
     </note>
-    <section>
+    <section id="sect-00001">
       <title>Use Solutions to Classify Equations</title>
-      <para>An equation that is true for one or more values of the variable and false for all other values of the variable is a <emphasis>conditional equation</emphasis>.</para>
-      <para>Consider the equation \( 7x + 8= −13 \).</para>
-      <table class="os-raise-horizontaltable">
+      <para id="para-00002">An equation that is true for one or more values of the variable and false for all other values of the variable is a <emphasis>conditional equation</emphasis>.</para>
+      <para id="para-00003">Consider the equation \( 7x + 8= −13 \).</para>
+      <table class="os-raise-horizontaltable" id="table-00001">
         <tgroup cols="2">
           <tbody>
             <row>
@@ -32,10 +32,10 @@
           </tbody>
         </tgroup>
       </table>
-      <para>The solution is \( x = −3 \). This means the equation \( 7x + 8= −13 \) is true when we replace the variable, \(x\), with the value \( −3 \), but it is not true when we replace \(x\) with any other value. Whether the equation \( 7x + 8 = −13 \) is true depends on the value of the variable. The equation is a conditional equation.</para>
-      <para>An equation that is true for any value of the variable is called an <emphasis>identity</emphasis>. The solution of an identity is all real numbers.</para>
-      <para>Consider the equation \( 2y + 6 = 2(y + 3) \). Do you recognize that the left side and the right side are equivalent? Let’s see what happens when we solve for \(y\).</para>
-      <table class="os-raise-horizontaltable">
+      <para id="para-00004">The solution is \( x = −3 \). This means the equation \( 7x + 8= −13 \) is true when we replace the variable, \(x\), with the value \( −3 \), but it is not true when we replace \(x\) with any other value. Whether the equation \( 7x + 8 = −13 \) is true depends on the value of the variable. The equation is a conditional equation.</para>
+      <para id="para-00005">An equation that is true for any value of the variable is called an <emphasis>identity</emphasis>. The solution of an identity is all real numbers.</para>
+      <para id="para-00006">Consider the equation \( 2y + 6 = 2(y + 3) \). Do you recognize that the left side and the right side are equivalent? Let’s see what happens when we solve for \(y\).</para>
+      <table class="os-raise-horizontaltable" id="table-00002">
         <tgroup cols="2">
           <tbody>
             <row>
@@ -53,10 +53,10 @@
           </tbody>
         </tgroup>
       </table>
-      <para>But \( 6 = 6 \) is true. This means the equation \( 2y + 6 = 2(y + 3) \) is true for any value of \( y \). The equation is an identity, and we say the solution is all real numbers.</para>
-      <para>An equation that is false for all values of the variable is called a <emphasis> contradiction</emphasis>. A contradiction has no solution.</para>
-      <para>Consider the equation \( 5z = 5z − 1 \).</para>
-      <table class="os-raise-horizontaltable">
+      <para id="para-00007">But \( 6 = 6 \) is true. This means the equation \( 2y + 6 = 2(y + 3) \) is true for any value of \( y \). The equation is an identity, and we say the solution is all real numbers.</para>
+      <para id="para-00008">An equation that is false for all values of the variable is called a <emphasis> contradiction</emphasis>. A contradiction has no solution.</para>
+      <para id="para-00009">Consider the equation \( 5z = 5z − 1 \).</para>
+      <table class="os-raise-horizontaltable" id="table-00003">
         <tgroup cols="2">
           <tbody>
             <row>
@@ -68,8 +68,8 @@
           </tbody>
         </tgroup>
       </table>
-      <para>The table summarizes the types of equations and solutions.</para>
-      <table class="os-raise-horizontaltable">
+      <para id="para-00010">The table summarizes the types of equations and solutions.</para>
+      <table class="os-raise-horizontaltable" id="table-00004">
         <tgroup cols="3">
           <tbody>
             <row>
@@ -77,10 +77,10 @@
                 <emphasis>Conditional Equation</emphasis>
               </entry>
               <entry>
-                <para>True for one or more values of the variables and false for all other values</para>
+                <para id="para-00011">True for one or more values of the variables and false for all other values</para>
               </entry>
               <entry>
-                <para>One or more values</para>
+                <para id="para-00012">One or more values</para>
               </entry>
             </row>
             <row>
@@ -88,7 +88,7 @@
                 <emphasis>Identity</emphasis>
               </entry>
               <entry>
-                <para><emphasis>True</emphasis> for any value of the variable</para>
+                <para id="para-00013"><emphasis>True</emphasis> for any value of the variable</para>
               </entry>
               <entry>All real numbers</entry>
             </row>
@@ -97,24 +97,24 @@
                 <emphasis>Contradiction</emphasis>
               </entry>
               <entry>
-                <para><emphasis>False</emphasis> for all values of the variable</para>
+                <para id="para-00014"><emphasis>False</emphasis> for all values of the variable</para>
               </entry>
               <entry>
-                <para>No solution</para>&gt;</entry>
+                <para id="para-00015">No solution</para>></entry>
             </row>
           </tbody>
         </tgroup>
       </table>
-      <note class="try">
+      <note class="try" id="note-00002">
         <title>Try It: Use Solutions to Classify Equations</title>
-        <exercise>
-          <problem>
-            <para>Classify the following: \( 5m +3(9 + 3m) = 2(7m - 11) \).</para>
-            <para>Write down your answer, and then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <para id="para-00016">Classify the following: \( 5m +3(9 + 3m) = 2(7m - 11) \).</para>
+            <para id="para-00017">Write down your answer, and then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Here is how to classify the equation by finding the solution:</para>
-            <table class="os-raise-horizontaltable">
+          <solution id="sol-00001">
+            <para id="para-00018">Here is how to classify the equation by finding the solution:</para>
+            <table class="os-raise-horizontaltable" id="table-00005">
               <tgroup cols="2">
                 <tbody>
                   <row>
@@ -137,7 +137,7 @@
                   </row>
                   <row>
                     <entry>
-                      <emphasis>Subtract \( 14m \) from both sides./th&gt;</emphasis>
+                      <emphasis>Subtract \( 14m \) from both sides./th></emphasis>
                     </entry>
                     <entry>\( 14m - 14m + 27 = 14m - 14m - 22 \)</entry>
                   </row>
@@ -160,30 +160,30 @@
         </exercise>
       </note>
     </section>
-    <section class="check-understanding">
+    <section class="check-understanding" id="sect-00002">
       <title>Check Your Understanding</title>
       <exercise id="ed3fbca8-7f19-4584-b4a7-89668dfca666" class="multiple-choice">
-        <problem>
-          <para>Which of the following correctly classifies the equation and the solution?\( 4 + 9(3x − 7) = −42x − 13 + 23(3x − 2) \)</para>
-          <para>Multiple Choice:</para>
-          <para>identity; all real numbers</para>
-          <para>conditional equation; \( x = 0 \)</para>
-          <para>conditional equation; \( x = 2 \frac{5}{27} \)</para>
-          <para>contradiction; no solution</para>
+        <problem id="prob-00002">
+          <para id="para-00019">Which of the following correctly classifies the equation and the solution?\( 4 + 9(3x − 7) = −42x − 13 + 23(3x − 2) \)</para>
+          <para id="para-00020">Multiple Choice:</para>
+          <para id="para-00021">identity; all real numbers</para>
+          <para id="para-00022">conditional equation; \( x = 0 \)</para>
+          <para id="para-00023">conditional equation; \( x = 2 \frac{5}{27} \)</para>
+          <para id="para-00024">contradiction; no solution</para>
         </problem>
-        <solution>
-          <para>Incorrect. Let’s try again a different way: Use the Distributive Property to eliminate the parentheses on both sides of the equation. Simplify both sides to get the equation \( 27x − 59 = 27x − 59 \). Be sure to subtract \( 27x \) from both sides to get the variables on one side and add 59 to get the constants on one side. This gives the equation \( 0 = 0 \).</para>
+        <solution id="sol-00002">
+          <para id="para-00025">Incorrect. Let’s try again a different way: Use the Distributive Property to eliminate the parentheses on both sides of the equation. Simplify both sides to get the equation \( 27x − 59 = 27x − 59 \). Be sure to subtract \( 27x \) from both sides to get the variables on one side and add 59 to get the constants on one side. This gives the equation \( 0 = 0 \).</para>
         </solution>
       </exercise>
     </section>
-    <section>
+    <section id="sect-00003">
       <title>Videos</title>
-      <para>Watch the following videos to learn more about solving different types of linear equations.</para>
-      <section>
+      <para id="para-00026">Watch the following videos to learn more about solving different types of linear equations.</para>
+      <section id="sect-00004">
         <title>Khan Academy: Number of Solutions to Linear Equations</title>
-        <para>Watch the video to see how a linear equation may have one solution, no solution, or infinite solutions.</para>
+        <para id="para-00027">Watch the video to see how a linear equation may have one solution, no solution, or infinite solutions.</para>
         <media alt="Placeholder for Alt Text">
-          <iframe width="660" height="371.4" src="https://www.youtube-nocookie.com/embed/qsL_5Y8uWPU;&amp;rel=0" />
+          <iframe width="660" height="371.4" src="https://www.youtube-nocookie.com/embed/qsL_5Y8uWPU;&amp;rel=0"/>
         </media>
       </section>
     </section>

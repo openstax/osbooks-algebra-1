@@ -6,13 +6,13 @@
     <md:uuid>2266a479-05ca-4b2d-af37-8f39482426e6</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Warm Up Activity</title>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Look at the patterns in the three tables. What do you notice? What do you wonder?</para>
-          <table class="os-raise-skinnytable">
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00001">Look at the patterns in the three tables. What do you notice? What do you wonder?</para>
+          <table class="os-raise-skinnytable" id="table-00001">
             <tgroup cols="2">
               <tbody>
                 <row>
@@ -42,7 +42,7 @@
               </tbody>
             </tgroup>
           </table>
-          <table class="os-raise-skinnytable">
+          <table class="os-raise-skinnytable" id="table-00002">
             <tgroup cols="2">
               <tbody>
                 <row>
@@ -72,7 +72,7 @@
               </tbody>
             </tgroup>
           </table>
-          <table class="os-raise-skinnytable">
+          <table class="os-raise-skinnytable" id="table-00003">
             <tgroup cols="2">
               <tbody>
                 <row>
@@ -103,17 +103,17 @@
             </tgroup>
           </table>
         </problem>
-        <solution>
-          <para>Enter your answers here:</para>
-          <para>Compare your answers:</para>
-          <para>Things you may notice:</para>
-          <list>
+        <solution id="sol-00001">
+          <para id="para-00002">Enter your answers here:</para>
+          <para id="para-00003">Compare your answers:</para>
+          <para id="para-00004">Things you may notice:</para>
+          <list id="list-00001">
             <item>The \(x\)-values are \(1\), \(2\), \(3\), \(4\), and \(5\) in all three tables.</item>
             <item>In the first two tables, the \(y\)-values increase, while in the third table, they increase and then decrease.</item>
             <item>The \(y\)-values in the first table are all multiples of \(5\), and they grow linearly. In the second table, the \(y\)-values grow by a factor of \(2\) each time \(x\) increases by \(1\). In the third table, there isn’t an obvious pattern in how the \(y\)-values change.</item>
           </list>
-          <para>Things you may wonder:</para>
-          <list>
+          <para id="para-00005">Things you may wonder:</para>
+          <list id="list-00002">
             <item>Is there a rule for the relationship in the third table?</item>
             <item>Will the \(y\)-values in the third table continue to decrease, or will they increase again at some point? </item>
             <item>What would the third relationship look like if graphed?</item>

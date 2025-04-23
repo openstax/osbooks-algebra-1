@@ -6,20 +6,19 @@
     <md:uuid>73c3e1b0-1117-41d0-a4b1-1ec13c0caeb6</md:uuid>
   </metadata>
   <content>
-    <section>
-      <para>Throughout the Algebra I curriculum, you will find Desmos activities and graphing calculators embedded in lessons. Desmos activities are interactive online problem sets located on the Desmos website. They can be assigned to your students and graded automatically if you have a Desmos account. Desmos graphing calculators are interactive online graphs embedded under graphing problems in the Algebra I course. Note, the embedded calculator adheres to instructional requirements, not assessment requirements.</para>
-      <para>We have created a how-to guide with helpful screenshots and links to help you and your students use Desmos. If you need additional help, <link
-          url="https://help.desmos.com/hc/en-us/articles/4406040715149-Getting-Started-Desmos-Graphing-Calculator">view the official Desmos guide</link>.</para>
-      <section>
+    <section id="sect-00001">
+      <para id="para-00001">Throughout the Algebra I curriculum, you will find Desmos activities and graphing calculators embedded in lessons. Desmos activities are interactive online problem sets located on the Desmos website. They can be assigned to your students and graded automatically if you have a Desmos account. Desmos graphing calculators are interactive online graphs embedded under graphing problems in the Algebra I course. Note, the embedded calculator adheres to instructional requirements, not assessment requirements.</para>
+      <para id="para-00002">We have created a how-to guide with helpful screenshots and links to help you and your students use Desmos. If you need additional help, <link url="https://help.desmos.com/hc/en-us/articles/4406040715149-Getting-Started-Desmos-Graphing-Calculator">view the official Desmos guide</link>.</para>
+      <section id="sect-00002">
         <title>I. Understanding Desmos Tools</title>
           <media alt="Labeled Graph">
-            <image mime-type="image/png" src="../../media/Algebra-1_00_02_02_01.png" />
+            <image mime-type="image/png" src="../../media/Algebra-1_00_02_02_01.png"/>
           </media>
         
-        <list list-type="enumerated">
+        <list list-type="enumerated" id="list-00001">
           <item>
-            <para><emphasis>View and change graph settings</emphasis></para>
-          <list bullet-style="open-circle">
+            <para id="para-00003"><emphasis>View and change graph settings</emphasis></para>
+          <list bullet-style="open-circle" id="list-00002">
               <item>Change limits of the <emphasis effect="italics">x</emphasis>- and\(y\)-axis and the scale for each</item>
               <item>Toggle display color and font size</item>
               <item>Toggle between radians and degrees</item>
@@ -32,8 +31,8 @@
           <item><emphasis>Undo:</emphasis> undo your last action</item>
           <item><emphasis>Redo:</emphasis> redo your last action</item>
           <item>
-            <para><emphasis>Edit expression list:</emphasis></para>
-          <list bullet-style="open-circle">
+            <para id="para-00004"><emphasis>Edit expression list:</emphasis></para>
+          <list bullet-style="open-circle" id="list-00003">
               <item>Quickly copy or delete expressions in the expression list</item>
               <item>Convert expressions to tables</item>
               <item>Select the colored dot to the left of the expression to change the line's color, thickness, opacity, and line type</item>
@@ -41,8 +40,8 @@
             </list>
          </item>
           <item><emphasis>Hide left window:</emphasis> collapse or expand the window containing the expression list</item>
-          <item><para><emphasis>Add special item to expression list:</emphasis> add an</para>
-          <list bullet-style="open-circle">
+          <item><para id="para-00005"><emphasis>Add special item to expression list:</emphasis> add an</para>
+          <list bullet-style="open-circle" id="list-00004">
               <item>expression, an equation of a line;</item>
               <item>note, a text description or note about the graph (a good scaffold to support differentiation);</item>
               <item>table, a basic table where you can input <emphasis effect="italics">x</emphasis>- and<emphasis effect="italics">y</emphasis>-coordinates;</item>
@@ -50,63 +49,60 @@
             </list>
          </item>
           <item><emphasis>Open math keyboard:</emphasis> open a digital keypad that allows you to quickly add special math functions and symbols, like \(sin\) or ÷, to your expression. View our guide to the Desmos math keyboard below.
-            <list bullet-style="open-circle">
-              <item>Tip: You can use your physical, non-Desmos keyboard to type math and interact with the graph. To learn more check out these guides <link
-                  url="https://www.purplemath.com/modules/mathtext.htm">Math Notation Guide by PurpleMath</link> and <link
-                  url="https://help.desmos.com/hc/en-us/articles/4405966811021-Keyboard-Shortcuts">Desmos Keyboard Shortcuts</link></item>
+            <list bullet-style="open-circle" id="list-00005">
+              <item>Tip: You can use your physical, non-Desmos keyboard to type math and interact with the graph. To learn more check out these guides <link url="https://www.purplemath.com/modules/mathtext.htm">Math Notation Guide by PurpleMath</link> and <link url="https://help.desmos.com/hc/en-us/articles/4405966811021-Keyboard-Shortcuts">Desmos Keyboard Shortcuts</link></item>
             </list>
            </item>
         </list>
           <media alt="Labeled keyboard">
-            <image mime-type="image/png" src="../../media/Algebra-1_00_02_02_02.png" />
+            <image mime-type="image/png" src="../../media/Algebra-1_00_02_02_02.png"/>
           </media>
         
       </section>
-      <section>
+      <section id="sect-00003">
         <title>II. Graphing Regressions Using the Desmos Graphing Calculator</title>
-        <para>You can use Desmos to graph a regression, regression line, regression curve, scatter plot, stat plot, and create a line of best fit. Check out our guide to using these features in Desmos, if you have additional questions, <link
-            url="https://help.desmos.com/hc/en-us/articles/4406972958733-Regressions">view the official Desmos regressions guide</link>.</para>
-          <figure>
+        <para id="para-00006">You can use Desmos to graph a regression, regression line, regression curve, scatter plot, stat plot, and create a line of best fit. Check out our guide to using these features in Desmos, if you have additional questions, <link url="https://help.desmos.com/hc/en-us/articles/4406972958733-Regressions">view the official Desmos regressions guide</link>.</para>
+          <figure id="fig-00001">
                   <media alt="Scatter Plot">
-                <image mime-type="image/png" src="../../media/Algebra-1_00_02_02_03.png" />
+                <image mime-type="image/png" src="../../media/Algebra-1_00_02_02_03.png"/>
               </media>
               <caption>Image 1</caption>
             </figure>
           
-        <figure>
+        <figure id="fig-00002">
                   <media alt="Line of Best Fit">
-                <image mime-type="image/png" src="../../media/Algebra-1_00_02_02_04.png" />
+                <image mime-type="image/png" src="../../media/Algebra-1_00_02_02_04.png"/>
               </media>
               <caption>Image 2</caption>
             </figure>
            
           
         
-        <section>
+        <section id="sect-00004">
           <title>Creating a Scatter Plot from a Table (Image 1)</title>
-          <list list-type="enumerated">
+          <list list-type="enumerated" id="list-00006">
             <item>On the Desmos graphing calculator, click the + button in the top left corner and add a table.</item>
             <item>You can copy and paste an existing table in, or enter it manually. On the left side of the table, type the first <emphasis effect="italics">x</emphasis>-coordinate from your reference table. On the right side, type the first <emphasis effect="italics">y</emphasis>-coordinate. This will create a point on your graph.</item>
             <item>Go to the next line of the table and repeat until all coordinates have been entered. Inputting all the coordinates will create a graph called a scatter plot, pictured above and left.
-            <list>
+            <list id="list-00007">
               <item>Tip: If you do not see your point graphed in the Desmos window, you may need to
                 “Zoom” or change the graph settings for the window.</item>
             </list>
            </item>
           </list>
         </section>
-        <section>
+        <section id="sect-00005">
           <title>Creating a Line of Best Fit on a Scatter Plot (Image 2)</title>
-          <list list-type="enumerated">
+          <list list-type="enumerated" id="list-00008">
             <item>To create a line or curve that approximates the data trend, calculate a regression. Depending on the type of data (linear, exponential, or quadratic), the format of the regression equation will differ:
-            <list>
+            <list id="list-00009">
               <item>Linear: \(y_{1} ~ mx_{1} + b\)</item>
               <item>Exponential: \(y_{1} ~ ax_{1}b\)</item>
               <item>Quadratic: \(y_{1} ~ ax_{1}^2 + bx_{1} + c\)</item>
             </list>
            </item>
             <item>Click the pointer below the table into entry box #2 to enter a new function. The cursor should start blinking. Enter the correct equation you found in step 4 using the following tips:
-            <list>
+            <list id="list-00010">
               <item>Notice that when you type the "1" after \(y\) or \(x\), Desmos automatically places
                 it as subscript.</item>
               <item>Also notice that we are not using an equal sign. The symbol ~ means approximately
@@ -118,7 +114,7 @@
             </list>
            </item>
             <item>Once you have entered the regression equation, you can press Enter. The graph of the line or curve of best fit will appear. Pictured above and right is a quadratic curve of best fit. Desmos will also report correlation statistics such as \(r\) and \(R^2\), as well as the \(a\) value, \(b\) value, and \(c\) value in the expression list below the quadratic equation you entered.
-            <list>
+            <list id="list-00011">
               <item>Tip: The window should be appropriately set to display the points in the table, but
                 sometimes you have to adjust the window of the graph in order to properly view your data
                 set. Click and drag the mouse to shift the viewing window. To zoom in or out, use the

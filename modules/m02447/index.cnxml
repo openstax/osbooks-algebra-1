@@ -6,161 +6,161 @@
     <md:uuid>3318d1c5-c5c8-47c8-8f62-d3fe41f934a8</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>The equation \(h(t)=2+30t−5t^2\) represents the height, as a function of time, of a pumpkin that was catapulted up in the air. Height is measured in meters and time is measured in seconds.</item>
       </list>
       <exercise id="_6982616e-89d3-4477-83e6-257950690eaa" class="multiple-choice">
-        <problem>
-          <para>Enter the number of seconds after launch.</para>
-          <para>The pumpkin reached a maximum height of 47 meters. How many seconds after launch did that happen?</para>
+        <problem id="prob-00001">
+          <para id="para-00001">Enter the number of seconds after launch.</para>
+          <para id="para-00002">The pumpkin reached a maximum height of 47 meters. How many seconds after launch did that happen?</para>
         </problem>
-        <solution>
-          <para>Correct! The pumpkin reached a maximum height of 47 meters 3 seconds after launch.</para>
-          <para>The correct answer is 3. The pumpkin reached a maximum height of 47 meters 3 seconds after launch.</para>
+        <solution id="sol-00001">
+          <para id="para-00003">Correct! The pumpkin reached a maximum height of 47 meters 3 seconds after launch.</para>
+          <para id="para-00004">The correct answer is 3. The pumpkin reached a maximum height of 47 meters 3 seconds after launch.</para>
         </solution>
       </exercise>
-      <exercise>
-        <problem>
-          <para>Show your reasoning.</para>
-          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00002">
+          <para id="para-00005">Show your reasoning.</para>
+          <para id="para-00006">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your Answer:</para>
-          <para>\(\begin{array}{l} h(t)=-5 t^{2}+30 t+2 \\ -5 t^{2}+30 t+2=47 \\ -5 t^{2}+30 t-45=0 \\ a=-5, b=30, c=-45 \\ t=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ t=\frac{-(30) \pm \sqrt{(30)^{2}-(4)(-5)(-45)}}{2(-5)} \\ t=\frac{-30 \pm \sqrt{900-900}}{-10} \\ t=\frac{-30}{-10} \\ t=3 \end{array}\)</para>
+        <solution id="sol-00002">
+          <para id="para-00007">Compare your Answer:</para>
+          <para id="para-00008">\(\begin{array}{l} h(t)=-5 t^{2}+30 t+2 \\ -5 t^{2}+30 t+2=47 \\ -5 t^{2}+30 t-45=0 \\ a=-5, b=30, c=-45 \\ t=\frac{-b \pm \sqrt{b^{2}-4 a c}}{2 a} \\ t=\frac{-(30) \pm \sqrt{(30)^{2}-(4)(-5)(-45)}}{2(-5)} \\ t=\frac{-30 \pm \sqrt{900-900}}{-10} \\ t=\frac{-30}{-10} \\ t=3 \end{array}\)</para>
         </solution>
       </exercise>
-      <exercise>
-        <problem>
-          <para>Suppose someone was unconvinced by your solution. Find another way (besides the steps you already took) to show your solution is correct.</para>
-          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00003">
+          <para id="para-00009">Suppose someone was unconvinced by your solution. Find another way (besides the steps you already took) to show your solution is correct.</para>
+          <para id="para-00010">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your Answer:</para>
-          <list>
+        <solution id="sol-00003">
+          <para id="para-00011">Compare your Answer:</para>
+          <list id="list-00002">
             <item>Substitute 3 for \(t\) in the original expression; evaluating it gives \(2+30(3)−5(3)^2\) or \(2+90−45\), which is 47.</item>
             <item>Graphing \(y=2+30t−5t^2\) and \(y=47\) shows an intersection is located at \((3,47)\).</item>
             <item>Graphing \(y=-45+30t−5t^2\) shows a zero at \((3,0)\).</item>
           </list>
         </solution>
       </exercise>
-      <exercise>
-        <problem>
-          <para>The equation \(r(p)=80p−p^2\) models the revenue a band expects to collect as a function of the price of one concert ticket. Ticket prices and revenues are in dollars.</para>
-          <para>A band member says that a ticket price of either $15.50 or $74.50 would generate approximately $1000 in revenue. Do you agree? Show your reasoning.</para>
-          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00004">
+          <para id="para-00012">The equation \(r(p)=80p−p^2\) models the revenue a band expects to collect as a function of the price of one concert ticket. Ticket prices and revenues are in dollars.</para>
+          <para id="para-00013">A band member says that a ticket price of either $15.50 or $74.50 would generate approximately $1000 in revenue. Do you agree? Show your reasoning.</para>
+          <para id="para-00014">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your Answer:</para>
-          <list>
+        <solution id="sol-00004">
+          <para id="para-00015">Compare your Answer:</para>
+          <list id="list-00003">
             <item>Partially agree. A ticket price of $15.50 will generate about $1000 in revenue, but a ticket price of $74.50 will generate much less (about $410).</item>
-            <item>Using the <term class="glossary-tooltip">quadratic formula</term> to solve \(1000=80p−p^2\) gives \(p \approx 15.50\) and \(p \approx 64.50\) as the solutions.</item>
+            <item>Using the <term class="glossary-tooltip" id="term-00001">quadratic formula</term> to solve \(1000=80p−p^2\) gives \(p \approx 15.50\) and \(p \approx 64.50\) as the solutions.</item>
             <item>Substituting 15.50 into the expression \(80p−p^2\) gives 999.75, which is close to 1000. \((80(15.50)−(15.50)2=999.75)\). Substituting 74.50 into the expression \(80p−p^2\) gives 409.75.</item>
             <item>Graphing the equation \(y=r(p)\) and \(y=1000\) shows two intersections at approximately \((15.50,1000)\) and \((64.50,1000)\).</item>
           </list>
         </solution>
       </exercise>
     </section>
-    <section>
+    <section id="sect-00002">
       <title>Video: Explaining Your Solutions to Quadratic Situations</title>
-      <para>Watch the following video to learn more about proving quadratic solutions.</para>
+      <para id="para-00016">Watch the following video to learn more about proving quadratic solutions.</para>
       <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/53a8917c8b3418a7473a16ad7d50f607dfbe26ea" />
+        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/53a8917c8b3418a7473a16ad7d50f607dfbe26ea"/>
       </media>
     </section>
-    <section>
+    <section id="sect-00003">
       <title>Are you ready for more?</title>
-      <exercise class="RFM1">
-        <problem>
+      <exercise class="RFM1" id="exer-00004">
+        <problem id="prob-00005">
           <title>Extending Your Thinking</title>
-          <para>Function \(g\) is defined by the equation \(g(t)=2+30t−5t^2−47\). Its graph opens downward.</para>
-          <para>Find the zeros of function \(g\) without graphing.</para>
+          <para id="para-00017">Function \(g\) is defined by the equation \(g(t)=2+30t−5t^2−47\). Its graph opens downward.</para>
+          <para id="para-00018">Find the zeros of function \(g\) without graphing.</para>
         </problem>
-        <solution>
-          <para>Enter the zeros of function \(g\).</para>
-          <para>Compare your answer:</para>
-          <para>Function \(g\) has one zero: 3.</para>
+        <solution id="sol-00005">
+          <para id="para-00019">Enter the zeros of function \(g\).</para>
+          <para id="para-00020">Compare your answer:</para>
+          <para id="para-00021">Function \(g\) has one zero: 3.</para>
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise class="RFM1">
-        <problem>
-          <para>Show your reasoning.</para>
+      <exercise class="RFM1" id="exer-00005">
+        <problem id="prob-00006">
+          <para id="para-00022">Show your reasoning.</para>
         </problem>
-        <solution>
-          <para>Enter your reasoning.</para>
-          <para>Compare your answer:</para>
-          <list>
+        <solution id="sol-00006">
+          <para id="para-00023">Enter your reasoning.</para>
+          <para id="para-00024">Compare your answer:</para>
+          <list id="list-00004">
             <item>\(2+30t−5t^2−47\) is equivalent to \(-5t^2+30t−45\). Solving \(-5t^2+30t−45=0\) using the quadratic formula gives \(t=3\).</item>
             <item>\(-5t^2+30t−45\) can be rewritten as \(-5(t^2−6t+9)\) and then as \(-5(t−3)(t−3)\). Applying the zero product property to solve \(-5(t−3)(t−3)=0\) gives \(t=3\).</item>
           </list>
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise class="RFM1">
-        <problem>
-          <para>Explain or show how the zeros you found can tell us the vertex of the graph of \(g\).</para>
+      <exercise class="RFM1" id="exer-00006">
+        <problem id="prob-00007">
+          <para id="para-00025">Explain or show how the zeros you found can tell us the vertex of the graph of \(g\).</para>
         </problem>
-        <solution>
-          <para>Enter your reasoning.</para>
-          <para>Compare your answer:</para>
-          <para>Function \(g\) only has one zero, which means its graph has only one horizontal intercept, occurring when \(t=3\). Because the point \((3,0)\) is the only intercept, it must also be the vertex of the graph, otherwise there would have been either two horizontal intercepts, or none.</para>
+        <solution id="sol-00007">
+          <para id="para-00026">Enter your reasoning.</para>
+          <para id="para-00027">Compare your answer:</para>
+          <para id="para-00028">Function \(g\) only has one zero, which means its graph has only one horizontal intercept, occurring when \(t=3\). Because the point \((3,0)\) is the only intercept, it must also be the vertex of the graph, otherwise there would have been either two horizontal intercepts, or none.</para>
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise class="RFM1">
-        <problem>
-          <para>Recall that \(g(t)=2+30t−5t^2−47\) and \(h(t)=2+30t−5t^2\). Examine these functions \(g\) and \(h\) (which defined the height of the pumpkin). Explain how the maximum of function \(h\), once we know it, can tell us the maximum of \(g\).</para>
+      <exercise class="RFM1" id="exer-00007">
+        <problem id="prob-00008">
+          <para id="para-00029">Recall that \(g(t)=2+30t−5t^2−47\) and \(h(t)=2+30t−5t^2\). Examine these functions \(g\) and \(h\) (which defined the height of the pumpkin). Explain how the maximum of function \(h\), once we know it, can tell us the maximum of \(g\).</para>
         </problem>
-        <solution>
-          <para>Enter your reasoning.</para>
-          <para>Compare your answer:</para>
-          <para>The value of the expression for \(g\) is 47 less than that of \(h\), so if we know the maximum of \(h\), we know that the maximum of \(g\) is 47 less than that. We saw that the maximum of \(h\) is 47, so the maximum of \(g\) is 47 less than 47, which is 0.</para>
+        <solution id="sol-00008">
+          <para id="para-00030">Enter your reasoning.</para>
+          <para id="para-00031">Compare your answer:</para>
+          <para id="para-00032">The value of the expression for \(g\) is 47 less than that of \(h\), so if we know the maximum of \(h\), we know that the maximum of \(g\) is 47 less than that. We saw that the maximum of \(h\) is 47, so the maximum of \(g\) is 47 less than 47, which is 0.</para>
         </solution>
       </exercise>
     </section>
     <!--End interaction-->
-    <note class="self-check">
-      <para>The equation \(g(t) = 2 + 23.7t - 4.9t^2\) models the height, in meters, of a pumpkin \(t\) seconds after it has been launched from a catapult. Which of the following substitutions into the quadratic formula is correct to find the value of \(t\) where the pumpkin hit the ground?</para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00033">The equation \(g(t) = 2 + 23.7t - 4.9t^2\) models the height, in meters, of a pumpkin \(t\) seconds after it has been launched from a catapult. Which of the following substitutions into the quadratic formula is correct to find the value of \(t\) where the pumpkin hit the ground?</para>
     </note>
-    <section>
+    <section id="sect-00004">
       <title>Additional Resources</title>
-      <section>
+      <section id="sect-00005">
         <title>Answering Questions About Situations With the Quadratic Formula</title>
-        <para>Here is an example of someone solving a <term class="glossary-tooltip">quadratic equation</term> that has no solutions:</para>
-        <para><emphasis>Step 1</emphasis> - \((x+3)^2+9=0\)</para>
-        <para><emphasis>Step 2</emphasis> - \((x+3)^2=-9\)</para>
-        <para><emphasis>Step 3</emphasis> - \(x+3=\pm \sqrt{-9}\)</para>
-        <para>Study the example. At what point did you realize the equation had no solutions?</para>
-        <list>
+        <para id="para-00034">Here is an example of someone solving a <term class="glossary-tooltip" id="term-00002">quadratic equation</term> that has no solutions:</para>
+        <para id="para-00035"><emphasis>Step 1</emphasis> - \((x+3)^2+9=0\)</para>
+        <para id="para-00036"><emphasis>Step 2</emphasis> - \((x+3)^2=-9\)</para>
+        <para id="para-00037"><emphasis>Step 3</emphasis> - \(x+3=\pm \sqrt{-9}\)</para>
+        <para id="para-00038">Study the example. At what point did you realize the equation had no solutions?</para>
+        <list id="list-00005">
           <item>For two numbers to add up to 0, they have to be opposites. Since the number 9 is positive, the other number must be negative, which a square cannot be.</item>
         </list>
-        <para>Explain how you know the equation \(49+x^2=0\) has no solutions.</para>
-        <list>
+        <para id="para-00039">Explain how you know the equation \(49+x^2=0\) has no solutions.</para>
+        <list id="list-00006">
           <item>A square is always positive, so a square plus a positive number must also be positive and can never equal zero.</item>
         </list>
-        <note class="try">
+        <note class="try" id="note-00002">
           <title>Try It: Answering Questions About Situations With the Quadratic Formula</title>
-          <exercise>
-            <problem>
-              <para>Function \(h\) models the height of an object, in meters, \(t\) seconds after it is launched into the air. It is defined by \(h(t)=-5t^2+25t\). How much time will it take the object to reach 15 meters?</para>
-              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          <exercise id="exer-00008">
+            <problem id="prob-00009">
+              <para id="para-00040">Function \(h\) models the height of an object, in meters, \(t\) seconds after it is launched into the air. It is defined by \(h(t)=-5t^2+25t\). How much time will it take the object to reach 15 meters?</para>
+              <para id="para-00041">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
             </problem>
-            <solution>
-              <para>Here is how to solve this word problem using the <term class="glossary-tooltip">quadratic formula</term>:</para>
-              <para>To know how much time it would take the object to reach 15 meters, we could solve the equation \(15=-5t^2+25t\).</para>
-              <list>
+            <solution id="sol-00009">
+              <para id="para-00042">Here is how to solve this word problem using the <term class="glossary-tooltip" id="term-00003">quadratic formula</term>:</para>
+              <para id="para-00043">To know how much time it would take the object to reach 15 meters, we could solve the equation \(15=-5t^2+25t\).</para>
+              <list id="list-00007">
                 <item>Rewriting it in standard form gives \(-5t^2+25t-15=0\). The expression on the left side of the equation cannot be written in factored form, however.</item>
                 <item>Completing the square isn't convenient because the coefficient of the squared term is not a perfect square and the coefficient for the linear term is an odd number.</item>
                 <item>Let's use the quadratic formula, using \(a=-5\), \(b=25\), and \(c = -15\)!</item>
               </list>
-              <para><emphasis>Step 1</emphasis> - \(t=\frac {-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
-              <para><emphasis>Step 2</emphasis> - \(t=\frac{-25 \pm \sqrt{25^2- 4(-5)(-15)}}{2(-5)}\)</para>
-              <para><emphasis>Step 3</emphasis> - \(t=\frac{-25 \pm \sqrt{325}}{-10}\)</para>
-              <para>The expression \(\frac{-25 \pm \sqrt{325}}{-10}\) represents the two exact solutions of the equation.</para>
-              <para>We can get approximate solutions by using a calculator, or by reasoning the \(\sqrt{325} \approx 18\).</para>
-              <para>The solutions tell us that there are two times after the launch when the object is at a height of 15 meters: at about 0.7 seconds (as the object is going up) and 4.3 seconds (as it comes back down).</para>
+              <para id="para-00044"><emphasis>Step 1</emphasis> - \(t=\frac {-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
+              <para id="para-00045"><emphasis>Step 2</emphasis> - \(t=\frac{-25 \pm \sqrt{25^2- 4(-5)(-15)}}{2(-5)}\)</para>
+              <para id="para-00046"><emphasis>Step 3</emphasis> - \(t=\frac{-25 \pm \sqrt{325}}{-10}\)</para>
+              <para id="para-00047">The expression \(\frac{-25 \pm \sqrt{325}}{-10}\) represents the two exact solutions of the equation.</para>
+              <para id="para-00048">We can get approximate solutions by using a calculator, or by reasoning the \(\sqrt{325} \approx 18\).</para>
+              <para id="para-00049">The solutions tell us that there are two times after the launch when the object is at a height of 15 meters: at about 0.7 seconds (as the object is going up) and 4.3 seconds (as it comes back down).</para>
             </solution>
           </exercise>
         </note>

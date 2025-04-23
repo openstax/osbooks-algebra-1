@@ -6,82 +6,83 @@
     <md:uuid>952dc309-bbb5-41dd-82f4-3933113af5a7</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://www.geogebra.org/material/iframe/id/qugvaudj/width/681/height/350/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false"/>
       </media>
-      <para>Some checkers are lined up, with blue on one side, red on the other, and 1 empty space between them. A <emphasis>move</emphasis> in this checker game pushes any checker forward 1 space, or jumps over any 1 checker of the other color. Jumping the same color is not allowed, moving backward is not allowed, and 2 checkers cannot occupy the same space.</para>
-      <para>
-          <media alt="THREE BLACK CHECKERS, A SPACE, AND THEN THREE RED CHECKERS.&#10;">
+      <para id="para-00001">Some checkers are lined up, with blue on one side, red on the other, and 1 empty space between them. A <emphasis>move</emphasis> in this checker game pushes any checker forward 1 space, or jumps over any 1 checker of the other color. Jumping the same color is not allowed, moving backward is not allowed, and 2 checkers cannot occupy the same space.</para>
+      <para id="para-00002">
+          <media alt="THREE BLACK CHECKERS, A SPACE, AND THEN THREE RED CHECKERS.
+">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_17_06_01.svg"/>
           </media>
         
     </para>
-      <para>You complete the puzzle by switching the colors completely: ending up with black on the right, red on the left, and 1 empty space between them.</para>
+      <para id="para-00003">You complete the puzzle by switching the colors completely: ending up with black on the right, red on the left, and 1 empty space between them.</para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Using 1 checker on each side, complete the puzzle. What is the smallest number of moves needed?</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00004">Using 1 checker on each side, complete the puzzle. What is the smallest number of moves needed?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>3 moves</para>
+        <solution id="sol-00001">
+          <para id="para-00005">Compare your answer:</para>
+          <para id="para-00006">3 moves</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Using 3 checkers on each side, complete the puzzle. What is the smallest number of moves needed?</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00007">Using 3 checkers on each side, complete the puzzle. What is the smallest number of moves needed?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>15 moves</para>
+        <solution id="sol-00002">
+          <para id="para-00008">Compare your answer:</para>
+          <para id="para-00009">15 moves</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Estimate the number of moves needed if there are 2 or 4 checkers on each side. Then test your guesses.</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00010">Estimate the number of moves needed if there are 2 or 4 checkers on each side. Then test your guesses.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>8 moves and 24 moves</para>
+        <solution id="sol-00003">
+          <para id="para-00011">Compare your answer:</para>
+          <para id="para-00012">8 moves and 24 moves</para>
         </solution>
       </exercise>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Noah says he used the solution for 3 checkers on each side to help him solve the puzzle for 4 checkers. Describe how this might happen.</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00013">Noah says he used the solution for 3 checkers on each side to help him solve the puzzle for 4 checkers. Describe how this might happen.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The moves that don’t involve the fourth checker on each side are the same as before, so it is possible to decide the number of moves by running the first half of the three-checker game, then moving the fourth checkers, and then running the second half.</para>
+        <solution id="sol-00004">
+          <para id="para-00014">Compare your answer:</para>
+          <para id="para-00015">The moves that don’t involve the fourth checker on each side are the same as before, so it is possible to decide the number of moves by running the first half of the three-checker game, then moving the fourth checkers, and then running the second half.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>How many moves do you think it will take to complete a puzzle with 7 checkers on each side?</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00016">How many moves do you think it will take to complete a puzzle with 7 checkers on each side?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>63 moves</para>
+        <solution id="sol-00005">
+          <para id="para-00017">Compare your answer:</para>
+          <para id="para-00018">63 moves</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
-    <note class="self-check"><title>Self Check</title>
-      <para>The table below shows the number of checkers and the number of moves needed to win a skipping game.</para>
-      <table class="os-raise-horizontaltable">
+    <note class="self-check" id="note-00001"><title>Self Check</title>
+      <para id="para-00019">The table below shows the number of checkers and the number of moves needed to win a skipping game.</para>
+      <table class="os-raise-horizontaltable" id="table-00001">
         <tgroup cols="5"><tbody><row>
             <entry><emphasis>Number of Checkers</emphasis></entry><entry>
               1
@@ -112,13 +113,13 @@
           </row>
         </tbody></tgroup></table>
       
-      <para>How many skips are needed with 6 checkers on each side?</para></note>
-      <section>
+      <para id="para-00020">How many skips are needed with 6 checkers on each side?</para></note>
+      <section id="sect-00002">
         <title>Additional Resources</title>
         
-  <section><title>Using a Table to Find Missing Values</title>
+  <section id="sect-00003"><title>Using a Table to Find Missing Values</title>
 
-    <table class="os-raise-horizontaltable">
+    <table class="os-raise-horizontaltable" id="table-00002">
       <tgroup cols="7"><tbody><row>
           <entry><emphasis>Number of Checkers</emphasis></entry><entry>
             1
@@ -161,36 +162,36 @@
         </row>
       </tbody></tgroup></table>
     
-    <para>What is the pattern that you used in the previous activity to find the number of moves depending on the number of
+    <para id="para-00021">What is the pattern that you used in the previous activity to find the number of moves depending on the number of
       checkers?</para>
-    <para>Each row is multiplied by 1 more, so:</para>
-    <para>\(1\cdot3=3\)</para>
-    <para>\(2\cdot4=8\)</para>
-    <para>\(3\cdot5=15\)</para>
-    <para>\(4\cdot6=24\)</para>
-    <para>How many moves are needed with 5 checkers?</para>
-    <para>\(5\cdot7=35\) moves</para>
-    <para>What about 6 checkers?</para>
-    <para>\(6\cdot8=48\) moves</para>
-    <note class="try">
+    <para id="para-00022">Each row is multiplied by 1 more, so:</para>
+    <para id="para-00023">\(1\cdot3=3\)</para>
+    <para id="para-00024">\(2\cdot4=8\)</para>
+    <para id="para-00025">\(3\cdot5=15\)</para>
+    <para id="para-00026">\(4\cdot6=24\)</para>
+    <para id="para-00027">How many moves are needed with 5 checkers?</para>
+    <para id="para-00028">\(5\cdot7=35\) moves</para>
+    <para id="para-00029">What about 6 checkers?</para>
+    <para id="para-00030">\(6\cdot8=48\) moves</para>
+    <note class="try" id="note-00002">
     <title>Try It: Using a Table to Find Missing Values</title>
-    <exercise>
-      <problem>
+    <exercise id="exer-00006">
+      <problem id="prob-00006">
         
-        <para>Using the table and the pattern, how many moves are needed with 8 checkers?</para>
+        <para id="para-00031">Using the table and the pattern, how many moves are needed with 8 checkers?</para>
       
-      <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <para id="para-00032">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
       
-      </problem><solution>
-      <para>Here is how to solve this problem using a general strategy:</para>
+      </problem><solution id="sol-00006">
+      <para id="para-00033">Here is how to solve this problem using a general strategy:</para>
       
-      <para>The next column in the table had 7 checkers and then multiplied 7 by 9 to get 63 moves.</para>
+      <para id="para-00034">The next column in the table had 7 checkers and then multiplied 7 by 9 to get 63 moves.</para>
       
-      <para>Next, the 8 would need to be multiplied by 10, so:</para>
+      <para id="para-00035">Next, the 8 would need to be multiplied by 10, so:</para>
       
-      <para>\(8\cdot10=80\)</para>
+      <para id="para-00036">\(8\cdot10=80\)</para>
       
-      <para>80 moves are needed.</para>
+      <para id="para-00037">80 moves are needed.</para>
     
     </solution></exercise></note>
     </section>

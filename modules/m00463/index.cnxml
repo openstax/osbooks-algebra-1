@@ -6,52 +6,52 @@
     <md:uuid>1f377df3-5bf3-4ba4-a9f8-09643dea8dd3</md:uuid>
   </metadata>
   <content>
-  <section>
+  <section id="sect-00001">
     <title>Activity</title>
-<para>Your teacher will give you <link url="https://k12.openstax.org/contents/raise/resources/44bc8768abb54e8e3ed6544ec6108f910b72028d">some slips of paper</link> with systems of equations written on them. Each system represents a step in solving this system:</para>
-<para>  
+<para id="para-00001">Your teacher will give you <link url="https://k12.openstax.org/contents/raise/resources/44bc8768abb54e8e3ed6544ec6108f910b72028d">some slips of paper</link> with systems of equations written on them. Each system represents a step in solving this system:</para>
+<para id="para-00002">  
   \( \begin {cases}\frac45 x + 6y = 15\\ \text-x + 18y = 11 \end{cases} \)
 </para>
-<para>Arrange the slips in the order that would lead to a solution. Be prepared to:</para>
+<para id="para-00003">Arrange the slips in the order that would lead to a solution. Be prepared to:</para>
 <!-- BEGIN TEXT ENTRY WITH REVEAL -->
 
 <!--Q#-->
-<exercise>
-  <problem>
-    <para>Describe what move takes one system to the next system.</para>
+<exercise id="exer-00001">
+  <problem id="prob-00001">
+    <para id="para-00004">Describe what move takes one system to the next system.</para>
     </problem>
-    <solution>
-  <para>Compare your answer:</para>
+    <solution id="sol-00001">
+  <para id="para-00005">Compare your answer:</para>
     
-    <para>\( \begin {cases}\frac45 x + 6y = 15\\ \text-x + 18y = 11 \end{cases} \)</para>
+    <para id="para-00006">\( \begin {cases}\frac45 x + 6y = 15\\ \text-x + 18y = 11 \end{cases} \)</para>
     
-    <para><emphasis>Step 1 -</emphasis></para>
+    <para id="para-00007"><emphasis>Step 1 -</emphasis></para>
     
-    <para>\( \begin {cases} \begin{align}4x + 30y = 75\\ \text-x + 18y = 11 \end{align} \end{cases} \)</para>
+    <para id="para-00008">\( \begin {cases} \begin{align}4x + 30y = 75\\ \text-x + 18y = 11 \end{align} \end{cases} \)</para>
     
-    <para><emphasis>Step 2 -</emphasis></para>
+    <para id="para-00009"><emphasis>Step 2 -</emphasis></para>
     
-    <para>\( \begin {cases} \begin{align}4x + 30y = 75\\ \text-4x + 72y = 44 \end{align} \end{cases} \)</para>
+    <para id="para-00010">\( \begin {cases} \begin{align}4x + 30y = 75\\ \text-4x + 72y = 44 \end{align} \end{cases} \)</para>
     
-    <para><emphasis>Step 3 -</emphasis></para>
+    <para id="para-00011"><emphasis>Step 3 -</emphasis></para>
     
-    <para>\( \begin {cases} \begin{align}4x + 30y &amp;= \hspace{2mm}75\\ 102y &amp;=119 \end{align} \end{cases} \)</para>
+    <para id="para-00012">\( \begin {cases} \begin{align}4x + 30y &amp;= \hspace{2mm}75\\ 102y &amp;=119 \end{align} \end{cases} \)</para>
     
-    <para><emphasis>Step 4 -</emphasis></para>
+    <para id="para-00013"><emphasis>Step 4 -</emphasis></para>
     
-    <para>\( \begin {cases} \begin{align}4x + 30y &amp;=75\\ y &amp;=\frac76 \end{align} \end{cases} \)</para>
+    <para id="para-00014">\( \begin {cases} \begin{align}4x + 30y &amp;=75\\ y &amp;=\frac76 \end{align} \end{cases} \)</para>
     
-    <para><emphasis>Step 5 -</emphasis></para>
+    <para id="para-00015"><emphasis>Step 5 -</emphasis></para>
     
-    <para>\( \begin {cases} \begin{align}4x +35 &amp;=75\\ y &amp;=\frac76 \end{align}\end{cases} \)</para>
+    <para id="para-00016">\( \begin {cases} \begin{align}4x +35 &amp;=75\\ y &amp;=\frac76 \end{align}\end{cases} \)</para>
     
-    <para><emphasis>Step 6 -</emphasis></para>
+    <para id="para-00017"><emphasis>Step 6 -</emphasis></para>
     
-    <para>\( \begin {cases} \begin{align}4x &amp;=40\\ y &amp;=\frac76\end{align} \end{cases} \)</para>
+    <para id="para-00018">\( \begin {cases} \begin{align}4x &amp;=40\\ y &amp;=\frac76\end{align} \end{cases} \)</para>
     
-    <para><emphasis>Step 7 -</emphasis></para>
+    <para id="para-00019"><emphasis>Step 7 -</emphasis></para>
     
-    <para>\( \begin {cases} \begin{align}x &amp;=10\\ y &amp;=\frac76\end{align} \end{cases} \)</para>  
+    <para id="para-00020">\( \begin {cases} \begin{align}x &amp;=10\\ y &amp;=\frac76\end{align} \end{cases} \)</para>  
   </solution>
 </exercise>
 <!--Interaction End -->
@@ -60,16 +60,16 @@
 <!-- BEGIN TEXT ENTRY WITH REVEAL -->
 
 <!--Q#2-->
-<exercise>
-  <problem>
-    <para>Explain why the systems are equivalent between the original system and step 1.</para>
+<exercise id="exer-00002">
+  <problem id="prob-00002">
+    <para id="para-00021">Explain why the systems are equivalent between the original system and step 1.</para>
     </problem>
-    <solution>
-  <para>Compare your answer:</para>
+    <solution id="sol-00002">
+  <para id="para-00022">Compare your answer:</para>
     
-    <para>Your answer may vary, but here is a sample.</para>
+    <para id="para-00023">Your answer may vary, but here is a sample.</para>
     
-    <list>
+    <list id="list-00001">
       <item>Multiply the first equation by 5.</item>
     </list>
   </solution>
@@ -80,16 +80,16 @@
 <!-- BEGIN TEXT ENTRY WITH REVEAL -->
 
 <!--Q#3-->
-<exercise>
-  <problem>
-    <para>Explain why the systems are equivalent between the system in step 1 to the system in step 2.</para>
+<exercise id="exer-00003">
+  <problem id="prob-00003">
+    <para id="para-00024">Explain why the systems are equivalent between the system in step 1 to the system in step 2.</para>
     </problem>
-    <solution>
-  <para>Compare your answer:</para>
+    <solution id="sol-00003">
+  <para id="para-00025">Compare your answer:</para>
     
-    <para>Your answer may vary, but here is a samples.</para>
+    <para id="para-00026">Your answer may vary, but here is a samples.</para>
     
-    <list>
+    <list id="list-00002">
       <item>Multiply the second equation by 4.</item>
     </list>
   </solution>
@@ -100,16 +100,16 @@
 <!-- BEGIN TEXT ENTRY WITH REVEAL -->
 
 <!--Q#4-->
-<exercise>
-  <problem>
-    <para>Explain why the systems are equivalent between the system in step 2 to the system in step 3.</para>
+<exercise id="exer-00004">
+  <problem id="prob-00004">
+    <para id="para-00027">Explain why the systems are equivalent between the system in step 2 to the system in step 3.</para>
     </problem>
-    <solution>
-  <para>Compare your answer:</para>
+    <solution id="sol-00004">
+  <para id="para-00028">Compare your answer:</para>
     
-    <para>Your answer may vary, but here is a samples.</para>
+    <para id="para-00029">Your answer may vary, but here is a samples.</para>
     
-    <list>
+    <list id="list-00003">
       <item>Add the two equations in Step 2.</item>
     </list>
   </solution>
@@ -120,16 +120,16 @@
 <!-- BEGIN TEXT ENTRY WITH REVEAL -->
 
 <!--Q#5-->
-<exercise>
-  <problem>
-    <para>Explain why the systems are equivalent between the system in step 3 to the system in step 4.</para>
+<exercise id="exer-00005">
+  <problem id="prob-00005">
+    <para id="para-00030">Explain why the systems are equivalent between the system in step 3 to the system in step 4.</para>
     </problem>
-    <solution>
-    <para>Compare your answer:</para>
+    <solution id="sol-00005">
+    <para id="para-00031">Compare your answer:</para>
     
-    <para>Your answer may vary, but here is a samples.</para>
+    <para id="para-00032">Your answer may vary, but here is a samples.</para>
     
-    <list>
+    <list id="list-00004">
       <item>Divide each side of \( 102y=119 \) by 102 to solve for \( y \).</item>
     </list>
   </solution>
@@ -140,16 +140,16 @@
 <!-- BEGIN TEXT ENTRY WITH REVEAL -->
 
 <!--Q#6-->
-<exercise>
-  <problem>
-    <para>Explain why the systems are equivalent between the system in step 4 to the system in step 5.</para>
+<exercise id="exer-00006">
+  <problem id="prob-00006">
+    <para id="para-00033">Explain why the systems are equivalent between the system in step 4 to the system in step 5.</para>
     </problem>
-    <solution>
-    <para>Compare your answer:</para>
+    <solution id="sol-00006">
+    <para id="para-00034">Compare your answer:</para>
     
-    <para>Your answer may vary, but here is a samples.</para>
+    <para id="para-00035">Your answer may vary, but here is a samples.</para>
     
-    <list>
+    <list id="list-00005">
       <item>Substitute \( \frac{7}{6} \)  for y in the first equation and evaluating the expression.</item>
     </list>
   
@@ -158,16 +158,16 @@
 
 <!-- END TEXT ENTRY WITH REVEAL -->
 <!--Q#7-->
-<exercise>
-  <problem>
-    <para>Explain why the systems are equivalent between the system in step 5 to the system in step 6.</para>
+<exercise id="exer-00007">
+  <problem id="prob-00007">
+    <para id="para-00036">Explain why the systems are equivalent between the system in step 5 to the system in step 6.</para>
     </problem>
-    <solution>
-  <para>Compare your answer:</para>
+    <solution id="sol-00007">
+  <para id="para-00037">Compare your answer:</para>
     
-    <para>Your answer may vary, but here is a samples.</para>
+    <para id="para-00038">Your answer may vary, but here is a samples.</para>
     
-    <para>From Step 5 to Step 6: Subtract 35 from each side of the first equation.</para>
+    <para id="para-00039">From Step 5 to Step 6: Subtract 35 from each side of the first equation.</para>
   
   </solution>
 </exercise>
@@ -175,16 +175,16 @@
 
 <!-- END TEXT ENTRY WITH REVEAL -->
 <!--Q#8-->
-<exercise>
-  <problem>
-    <para>Explain why the systems are equivalent between the system in step 6 to the system in step 7.</para>
+<exercise id="exer-00008">
+  <problem id="prob-00008">
+    <para id="para-00040">Explain why the systems are equivalent between the system in step 6 to the system in step 7.</para>
     </problem>
-    <solution>
-  <para>Compare your answer:</para>
+    <solution id="sol-00008">
+  <para id="para-00041">Compare your answer:</para>
     
-    <para>Your answer may vary, but here is a samples.</para>
+    <para id="para-00042">Your answer may vary, but here is a samples.</para>
     
-    <para>From Step 6 to Step 7: Divide each side of \( 4x = 40 \) by 4 to solve for \( x \).</para>
+    <para id="para-00043">From Step 6 to Step 7: Divide each side of \( 4x = 40 \) by 4 to solve for \( x \).</para>
   </solution>
 </exercise>
 </section>
@@ -195,33 +195,33 @@
 <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
 
 <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<section>
+<section id="sect-00002">
   <title>Are you ready for more?</title>
-  <section>
+  <section id="sect-00003">
     <title>Extending Your Thinking</title>
-    <para>This system of equations has the solution \( (5,\text-2) \): \( \begin {cases}Ax - By = 24\\ Bx + Ay = 31 \end{cases} \)</para>
+    <para id="para-00044">This system of equations has the solution \( (5,\text-2) \): \( \begin {cases}Ax - By = 24\\ Bx + Ay = 31 \end{cases} \)</para>
 
-<exercise class="RFM1">
-  <problem>
-    <para>Find the missing value of \( A \).</para>
+<exercise class="RFM1" id="exer-00009">
+  <problem id="prob-00009">
+    <para id="para-00045">Find the missing value of \( A \).</para>
     </problem>
-    <solution>
-  <para>Compare your answer:</para>
+    <solution id="sol-00009">
+  <para id="para-00046">Compare your answer:</para>
     
-    <para>\( A = 2 \)</para>  
+    <para id="para-00047">\( A = 2 \)</para>  
   </solution>
 </exercise>
 <!--End interaction-->
 
-<exercise class="RFM1">
-  <problem>
-    <para>Find the missing value of \( B \).
+<exercise class="RFM1" id="exer-00010">
+  <problem id="prob-00010">
+    <para id="para-00048">Find the missing value of \( B \).
     </para>
     </problem>
-    <solution>  
-  <para>Compare your answer:</para>
+    <solution id="sol-00010">  
+  <para id="para-00049">Compare your answer:</para>
     
-    <para>\( B = 7 \)</para>
+    <para id="para-00050">\( B = 7 \)</para>
   
   </solution>
 </exercise>
@@ -232,47 +232,47 @@
 </section>
 
 
-<section>
-  <note class="self-check"><para>Solve the system of equations using elimination.</para>
-    <para>\(\left\{\begin{array}{l}7x\;–\;2y\;=\;3\\4x\;+\;5y\;=\;3.25\end{array}\right.\)</para>
+<section id="sect-00004">
+  <note class="self-check" id="note-00001"><para id="para-00051">Solve the system of equations using elimination.</para>
+    <para id="para-00052">\(\left\{\begin{array}{l}7x\;–\;2y\;=\;3\\4x\;+\;5y\;=\;3.25\end{array}\right.\)</para>
   </note>
 </section>
 
-<section>
+<section id="sect-00005">
   <title>Additional Resources</title>
-  <section>
+  <section id="sect-00006">
     <title>Solving a System of Equations by Elimination Involving Fractions</title>
-  <para>You just ordered the steps for solving a system of equations using elimination. Try
+  <para id="para-00053">You just ordered the steps for solving a system of equations using elimination. Try
     using these steps when the system has equations containing fractions.</para>
-  <para>When the system of equations contains fractions, we will first clear the fractions by
+  <para id="para-00054">When the system of equations contains fractions, we will first clear the fractions by
     multiplying each equation by the least common denominator (LCD) of all the
     fractions in the equation.</para>
-  <para>Solve the system by elimination: \( \left\{ \begin{array}{c l} x + \frac{1}{2}y =6\\ \frac{3}{2}x + \frac{2}{3}y = \frac{17}{2} \end{array}\right. \)</para>
+  <para id="para-00055">Solve the system by elimination: \( \left\{ \begin{array}{c l} x + \frac{1}{2}y =6\\ \frac{3}{2}x + \frac{2}{3}y = \frac{17}{2} \end{array}\right. \)</para>
   
   <!--BEGIN STEPS-->
-  <para><emphasis>Step 1 -</emphasis> Check to see if each equation is in standard form \(Ax+By=C\).
+  <para id="para-00056"><emphasis>Step 1 -</emphasis> Check to see if each equation is in standard form \(Ax+By=C\).
     Both equations are in standard form.</para>
-    <para>
+    <para id="para-00057">
     \(x+\frac12 y=6\)
     \(\frac32x + \frac23 y=\frac{17}{2} \) 
    </para>
 
-   <para><emphasis>Step 2 -</emphasis> To clear the fractions, multiply each equation by its LCD (Least Common Denominator).</para>
-   <para> 
+   <para id="para-00058"><emphasis>Step 2 -</emphasis> To clear the fractions, multiply each equation by its LCD (Least Common Denominator).</para>
+   <para id="para-00059"> 
    \(2(x+\frac12 y=6)\)
     \(6(\frac32 x+\frac23 y=\frac{17}{2})\)
   </para>
-    <para><emphasis>Step 3 -</emphasis> Simplify the equations.</para>
-    <para> 
+    <para id="para-00060"><emphasis>Step 3 -</emphasis> Simplify the equations.</para>
+    <para id="para-00061"> 
     \(2x+y=12\)
     \(9x+4y=51\)
  </para>
-   <para><emphasis>Step 4 -</emphasis> Eliminate one of the variables and simplify the equation.</para>
-    <para>\(-4(2x+y=12)=- 8x-4y=-48\)</para>
+   <para id="para-00062"><emphasis>Step 4 -</emphasis> Eliminate one of the variables and simplify the equation.</para>
+    <para id="para-00063">\(-4(2x+y=12)=- 8x-4y=-48\)</para>
 
-   <para><emphasis>Step 5 -</emphasis> Add the two equations to eliminate \(y\).</para>
+   <para id="para-00064"><emphasis>Step 5 -</emphasis> Add the two equations to eliminate \(y\).</para>
     <!--BEGIN ALIGN TO EQUALS WITH LINE-->
-    <para>
+    <para id="para-00065">
     \(\begin{align*}-8x-4y&amp;=-48
     \\9x+4y&amp;=51
     \\ \hline
@@ -280,9 +280,9 @@
     \end{align*}\)
  </para>
   <!--End ALIGN TO EQUALS WITH LINE-->	
-  <para><emphasis>Step 6 -</emphasis> Solve for \(y\) by substituting \(x\) back into one of the equations.</para>
+  <para id="para-00066"><emphasis>Step 6 -</emphasis> Solve for \(y\) by substituting \(x\) back into one of the equations.</para>
   <!--BEGIN ALIGN TO EQUALS -->
-  <para>
+  <para id="para-00067">
   \(\begin{align*}2x+y&amp;=12
   \\2(3)+y&amp;=12
   \\6+y&amp;=12
@@ -290,12 +290,12 @@
   \\\end{align*}\)
  </para>
   <!--END ALIGN TO EQUALS -->		
-  <para><emphasis>Step 7 -</emphasis> Write the solution as an ordered pair.</para>
-  <para>The ordered pair is \((3,6)\).</para>
+  <para id="para-00068"><emphasis>Step 7 -</emphasis> Write the solution as an ordered pair.</para>
+  <para id="para-00069">The ordered pair is \((3,6)\).</para>
 
-  <para><emphasis>Step 8 -</emphasis> Check that the ordered pair is a solution to <emphasis>both</emphasis> original equations.</para>
+  <para id="para-00070"><emphasis>Step 8 -</emphasis> Check that the ordered pair is a solution to <emphasis>both</emphasis> original equations.</para>
    <!--BEGIN SIDE BY SIDE EQUATIONS-->
-  <para>\(\begin{array}{rr}
+  <para id="para-00071">\(\begin{array}{rr}
       &amp; \frac32 x+\frac23 y= \frac{17}{2}	\\
     x+\frac12 y \overset?=6 &amp; \frac32 (3)+\frac23 (6) \overset?= \frac{17}{2}\\
     3+\frac12 (6) \overset?= 6&amp;\frac92 +4 \overset?=\frac{17}{2}	\\
@@ -304,49 +304,49 @@
     \end{array}\)</para>
     <!--END SIDE BY SIDE EQUATIONS -->
    
-   <para>The solution is \((3,6)\).</para>
+   <para id="para-00072">The solution is \((3,6)\).</para>
   <!-- END STEPS -->
 
-  <note class="try look-at-me">
+  <note class="try look-at-me" id="note-00002">
   <title>Try It: Solving a System of Equations by Elimination Involving Fractions</title>
 
-  <exercise>
-    <problem>
-      <para>Solve the following system of equations.</para>      
-      <para>\(\left\{\begin{array}{l}\frac13\;x\;-\;\frac12y\;=\;1\\\frac34x\;\;-\;y\;=\;\frac52\end{array}\right.\)</para>
+  <exercise id="exer-00011">
+    <problem id="prob-00011">
+      <para id="para-00073">Solve the following system of equations.</para>      
+      <para id="para-00074">\(\left\{\begin{array}{l}\frac13\;x\;-\;\frac12y\;=\;1\\\frac34x\;\;-\;y\;=\;\frac52\end{array}\right.\)</para>
     
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+    <para id="para-00075">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
     </problem>
-    <solution>
-     <para>Compare your answer:</para>
+    <solution id="sol-00011">
+     <para id="para-00076">Compare your answer:</para>
     
-    <para><emphasis>Step 1 -</emphasis> Check to see if each equation is in standard form \(Ax+By=C\).
+    <para id="para-00077"><emphasis>Step 1 -</emphasis> Check to see if each equation is in standard form \(Ax+By=C\).
       Both equations are in standard form.</para>
-      <para>\(\frac13x-\frac12y=1\\\frac34x-y=\frac52\)</para>
-     <para><emphasis>Step 2 -</emphasis> To clear the fractions, multiply each equation by its LCD (Least Common Denominator).</para>
-       <para>\({\style{color:red}6}(\frac13x-\frac12y) ={\style{color:red}6}(1)\\{\style{color:red}4}(\frac34x-y)={\style{color:red}4}(\frac52)\)</para>
+      <para id="para-00078">\(\frac13x-\frac12y=1\\\frac34x-y=\frac52\)</para>
+     <para id="para-00079"><emphasis>Step 2 -</emphasis> To clear the fractions, multiply each equation by its LCD (Least Common Denominator).</para>
+       <para id="para-00080">\({\style{color:red}6}(\frac13x-\frac12y) ={\style{color:red}6}(1)\\{\style{color:red}4}(\frac34x-y)={\style{color:red}4}(\frac52)\)</para>
 
-      <para><emphasis>Step 3 -</emphasis> Simplify the equations.</para>
-      <para>
+      <para id="para-00081"><emphasis>Step 3 -</emphasis> Simplify the equations.</para>
+      <para id="para-00082">
       \(2x-3y=6\)
       \(3x-4y=10\)
    </para>
 
-     <para><emphasis>Step 4 -</emphasis> To get equivalent coefficients of \(x\), we will need to multiply the first equation by 3 and the second equation by 2.</para>
-     <para>
+     <para id="para-00083"><emphasis>Step 4 -</emphasis> To get equivalent coefficients of \(x\), we will need to multiply the first equation by 3 and the second equation by 2.</para>
+     <para id="para-00084">
       \({\style{color:red}3} (2 x – 3 y ) = {\style{color:red}3} ( 6 ) \)
          \({\style{color:red}2} (3 x – 4 y ) = {\style{color:red}2} ( 10 )\) 
        </para>
 
-     <para><emphasis>Step 5 -</emphasis> Simplify.</para>
-     <para>
+     <para id="para-00085"><emphasis>Step 5 -</emphasis> Simplify.</para>
+     <para id="para-00086">
       \(6 x – 9 y = 18\)
       \(6 x – 8 y = 20\)
    </para>
 
-     <para><emphasis>Step 6 -</emphasis> Subtract the equations to eliminate one variable.</para>
+     <para id="para-00087"><emphasis>Step 6 -</emphasis> Subtract the equations to eliminate one variable.</para>
       <!--BEGIN ALIGN TO EQUALS WITH LINE-->		
-      <para>
+      <para id="para-00088">
       \(\begin{align*}6x-9y&amp;=18
       \\6x-8y&amp;=20
       \\ \hline
@@ -355,9 +355,9 @@
       \end{align*}\)
    </para>
       <!--BEGIN ALIGN TO EQUALS WITH LINE-->	
-     <para><emphasis>Step 7 -</emphasis> Solve for \(x\) by substituting \(y\) back into one of the equations.</para>
+     <para id="para-00089"><emphasis>Step 7 -</emphasis> Solve for \(x\) by substituting \(y\) back into one of the equations.</para>
       <!--BEGIN ALIGN TO EQUALS -->	
-      <para>
+      <para id="para-00090">
       \(\begin{align*}2x-3y&amp;=6
       \\2x-3(2)&amp;=6
       \\2x-6&amp;=6
@@ -366,14 +366,14 @@
       \\\end{align*}\)
    </para>
       <!--END ALIGN TO EQUALS -->		
-     <para><emphasis>Step 8 -</emphasis> Write the solution as an ordered pair.</para>
-      <para>The ordered pair is \((6,2)\).</para>
+     <para id="para-00091"><emphasis>Step 8 -</emphasis> Write the solution as an ordered pair.</para>
+      <para id="para-00092">The ordered pair is \((6,2)\).</para>
 
-     <para><emphasis>Step 9 -</emphasis> Check that the ordered pair is a solution to <emphasis>both</emphasis> original equations.	</para>
+     <para id="para-00093"><emphasis>Step 9 -</emphasis> Check that the ordered pair is a solution to <emphasis>both</emphasis> original equations.	</para>
         
         <!--BEGIN SIDE BY SIDE EQUATIONS-->
       
-      <para>\(\begin{array}{rr}
+      <para id="para-00094">\(\begin{array}{rr}
         &amp; \frac34 -y = \frac{5}{2}	\\
           &amp; \frac34 (6)-2= \frac52	\\
         \frac13 x-\frac12 \overset?=1 &amp; \frac{18}{4}-2 \overset?= \frac52 \\
@@ -384,7 +384,7 @@
         
         <!--END SIDE BY SIDE EQUATIONS -->
     
-    <para>The solution is \((6,2)\).</para>
+    <para id="para-00095">The solution is \((6,2)\).</para>
   </solution>
 </exercise>
 </note>

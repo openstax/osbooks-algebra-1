@@ -6,104 +6,104 @@
     <md:uuid>b943d03e-b169-4373-ac2c-61f1fc49d1ce</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>A tennis ball was dropped from a certain height. It bounced several times, rolled along for a short period, and then stopped. Function \(H\) gives its height over time.</para>
-      <para>Here is a partial graph of \(H\). Height is measured in feet. Time is measured in seconds.</para>
-      <para>Use the graph to help you answer the questions.</para>
-      <para>Be prepared to explain what each value or set of values means in this situation.</para>
-      <para>
+      <para id="para-00001">A tennis ball was dropped from a certain height. It bounced several times, rolled along for a short period, and then stopped. Function \(H\) gives its height over time.</para>
+      <para id="para-00002">Here is a partial graph of \(H\). Height is measured in feet. Time is measured in seconds.</para>
+      <para id="para-00003">Use the graph to help you answer the questions.</para>
+      <para id="para-00004">Be prepared to explain what each value or set of values means in this situation.</para>
+      <para id="para-00005">
           <media alt="Nonlinear function. Time (seconds) and height (feet).">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_01.svg"/>
           </media>
         
     </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Find \(H(0)\). What point is this on the graph? What does it represent?</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00006">Find \(H(0)\). What point is this on the graph? What does it represent?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(H(0)=6\). It tells us the ball was dropped from a height of 6 feet at \(t=0\).</para>
+        <solution id="sol-00001">
+          <para id="para-00007">Compare your answer:</para>
+          <para id="para-00008">\(H(0)=6\). It tells us the ball was dropped from a height of 6 feet at \(t=0\).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Solve \(H(x)=0\).</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00009">Solve \(H(x)=0\).</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(x=0.54\), \(x=1.48\), and \(x=2.25\) are three possible solutions, but there are others. Each one represents the time when the ball hit the ground.</para>
+        <solution id="sol-00002">
+          <para id="para-00010">Compare your answer:</para>
+          <para id="para-00011">\(x=0.54\), \(x=1.48\), and \(x=2.25\) are three possible solutions, but there are others. Each one represents the time when the ball hit the ground.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Describe the domain of the function.</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00012">Describe the domain of the function.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The domain includes all values between 0 and the time when the ball stopped moving, which, based on the graph, is about 3.8.</para>
+        <solution id="sol-00003">
+          <para id="para-00013">Compare your answer:</para>
+          <para id="para-00014">The domain includes all values between 0 and the time when the ball stopped moving, which, based on the graph, is about 3.8.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Describe the range of the function.</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00015">Describe the range of the function.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The range includes all values between 0 and 6 feet, the height from which the ball was dropped.</para>
+        <solution id="sol-00004">
+          <para id="para-00016">Compare your answer:</para>
+          <para id="para-00017">The range includes all values between 0 and 6 feet, the height from which the ball was dropped.</para>
         </solution>
       </exercise>
       <!--Interaction End --></section>
-      <section>
+      <section id="sect-00002">
       <title>Video: Interpreting Function Notation</title>
-      <para>Watch the following video to learn more about function notation.</para>
+      <para id="para-00018">Watch the following video to learn more about function notation.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/20f903eb50ca52bd9b9bfa4a7db8be6af298e6be"/>
       </media></section>
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
       
-      <section>
+      <section id="sect-00003">
         <title>Are you ready for more?</title>
-          <section>
+          <section id="sect-00004">
             <title>Extending Your Thinking</title>
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1">
-        <problem>
-          <para>In function \(H\), the input was time in seconds, and the output was height in feet.</para>
-          <para>Think about some other quantities that could be inputs or outputs in this situation.</para>
-          <para>Describe a function whose domain includes only integers. Be sure to specify the units.</para>
+      <exercise class="RFM1" id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00019">In function \(H\), the input was time in seconds, and the output was height in feet.</para>
+          <para id="para-00020">Think about some other quantities that could be inputs or outputs in this situation.</para>
+          <para id="para-00021">Describe a function whose domain includes only integers. Be sure to specify the units.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The maximum height, in feet, that the ball reaches after \(n\) bounces as a function of the number of bounces.</para>
+        <solution id="sol-00005">
+          <para id="para-00022">Compare your answer:</para>
+          <para id="para-00023">The maximum height, in feet, that the ball reaches after \(n\) bounces as a function of the number of bounces.</para>
         </solution>
       </exercise>
       <!--End interaction-->
       
-        <exercise class="RFM1">
-          <problem>
-            <para>Sketch a graph of this function. Write down your answer then select the <emphasis>solution</emphasis> button to compare your answer.  </para>
-        <para>(<media alt="A blank graph. Origin O. "><image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_02.svg"/></media>)</para>
+        <exercise class="RFM1" id="exer-00006">
+          <problem id="prob-00006">
+            <para id="para-00024">Sketch a graph of this function. Write down your answer then select the <emphasis>solution</emphasis> button to compare your answer.  </para>
+        <para id="para-00025">(<media alt="A blank graph. Origin O. "><image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_02.svg"/></media>)</para>
   
-            <para>Select the <emphasis>solution</emphasis> button to compare your sketch and answer.</para>
+            <para id="para-00026">Select the <emphasis>solution</emphasis> button to compare your sketch and answer.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
+          <solution id="sol-00006">
+            <para id="para-00027">Compare your answer:</para>
+            <para id="para-00028">
                       <media alt="">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_03.svg"/>
                 </media>
@@ -114,27 +114,27 @@
         </exercise>
       
       <!--End interaction-->
-      <exercise class="RFM1">
-        <problem>
-          <para>Describe a function whose range includes only integers. Be sure to specify the units.</para>
+      <exercise class="RFM1" id="exer-00007">
+        <problem id="prob-00007">
+          <para id="para-00029">Describe a function whose range includes only integers. Be sure to specify the units.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The number of times the ball has hit the ground as a function of time, in seconds, since the ball was dropped.</para>
+        <solution id="sol-00007">
+          <para id="para-00030">Compare your answer:</para>
+          <para id="para-00031">The number of times the ball has hit the ground as a function of time, in seconds, since the ball was dropped.</para>
         </solution>
       </exercise>
       <!--End interaction-->
       
-        <exercise class="RFM1">
-          <problem>
-            <para>Sketch a graph of this function. Write down your answer then select the <emphasis>solution</emphasis> button to compare your answer. 
+        <exercise class="RFM1" id="exer-00008">
+          <problem id="prob-00008">
+            <para id="para-00032">Sketch a graph of this function. Write down your answer then select the <emphasis>solution</emphasis> button to compare your answer. 
         (<media alt="A blank graph. Origin O. "><image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_04.svg"/></media>)</para>
-            <para>Select the <emphasis>solution</emphasis> button to compare your sketch and answer.</para>
+            <para id="para-00033">Select the <emphasis>solution</emphasis> button to compare your sketch and answer.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
+          <solution id="sol-00008">
+            <para id="para-00034">Compare your answer:</para>
+            <para id="para-00035">
                       <media alt="A blank graph. Origin O. ">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_05.svg"/>
                 </media>
@@ -144,58 +144,58 @@
         </exercise>
       </section>
     </section>
-    <note class="self-check">
-      <para>The graph below shows the number of customers, \(C\), in a restaurant \(x\) hours after 8 a.m.</para>
-      <para>What does \(C(14)\) equal, and what does it mean?</para>
-      <para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00036">The graph below shows the number of customers, \(C\), in a restaurant \(x\) hours after 8 a.m.</para>
+      <para id="para-00037">What does \(C(14)\) equal, and what does it mean?</para>
+      <para id="para-00038">
           <media alt="A GRAPHED FUNCTION, WHERE NUMBER OF CUSTOMERS IS A FUNCTION OF THE NUMBER OF HOURS AFTER 8 AM. THE GRAPH INCREASES, DECREASES, INCREASES, AND THEN DECREASES AGAIN.">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_16_07_01.jpg"/>
           </media>
         
     </para>
     </note>
-    <section>
+    <section id="sect-00005">
       <title>Additional Resources</title>
       
-    <section>
+    <section id="sect-00006">
       <title>Domain and Range from Graphs</title>
-      <para>The graph below shows the distance Carl drives from home, \(D(t)\), when \(t\) is time in seconds.</para>
-      <para>
+      <para id="para-00039">The graph below shows the distance Carl drives from home, \(D(t)\), when \(t\) is time in seconds.</para>
+      <para id="para-00040">
           <media alt="Graph on coordinate grid, origin O.">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_08_01.svg"/>
           </media>
         
     </para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>What is the domain of the graph?</item>
       </list>
-      <para>The domain is \(x\)-values that are at least 0 and a maximum of 400.</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00041">The domain is \(x\)-values that are at least 0 and a maximum of 400.</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>What is the range of the graph?</item>
       </list>
-      <para>The range is the \(y\)-values that are at least 0 and a maximum of 285.</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00042">The range is the \(y\)-values that are at least 0 and a maximum of 285.</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
         <item>What are the values of \(x\) where \(D(x)=0\), and what do they mean?</item>
       </list>
-      <para>\(D(0)=0\) and \(D(400)=0\), and this is when Carl left home and then arrived home, so the distance was 0.</para>
-      <note class="try">
+      <para id="para-00043">\(D(0)=0\) and \(D(400)=0\), and this is when Carl left home and then arrived home, so the distance was 0.</para>
+      <note class="try" id="note-00002">
   <title>Try It: Domain and Range from Graphs</title>
       
-        <exercise>
-          <problem>
-            <para>What are the values for the domain and range of the graph below?</para>
-            <para>
+        <exercise id="exer-00009">
+          <problem id="prob-00009">
+            <para id="para-00044">What are the values for the domain and range of the graph below?</para>
+            <para id="para-00045">
                       <media alt="A graph. ">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_08_02.svg"/>
                 </media>
               
           </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00046">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Here is how to find the domain and range of the graph:</para>
-            <para>The domain includes the \(x\)-values or inputs of the graph. The domain is from at least 0 to at most 10.</para>
-            <para>The range includes the \(y\)-values or outputs of the graph. The range is from at least 1 to at most 3.</para>
+          <solution id="sol-00009">
+            <para id="para-00047">Here is how to find the domain and range of the graph:</para>
+            <para id="para-00048">The domain includes the \(x\)-values or inputs of the graph. The domain is from at least 0 to at most 10.</para>
+            <para id="para-00049">The range includes the \(y\)-values or outputs of the graph. The range is from at least 1 to at most 3.</para>
           </solution>
         </exercise>
       </note>

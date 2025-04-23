@@ -6,59 +6,59 @@
     <md:uuid>09473a2f-c05b-45d9-bb74-3ee7b5a65201</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<list class="os-raise-noindent" list-type="enumerated">
+  <section id="sect-00001"><title>Activity</title>
+<list class="os-raise-noindent" list-type="enumerated" id="list-00001">
   <item>Clare takes a piece of paper with length 8 inches and width 10 inches and cuts it in half. Then she cuts it in half again, and again . . .</item>
 </list>
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Instead of writing a recursive definition, Clare writes \(C(n)=80 \cdot(\frac12)^n\), where \(C\) is the area, in square inches, of the paper after \(n\) cuts. Explain where the different terms in her expression came from.
+<exercise id="exer-00001">
+  <problem id="prob-00001">
+    <para id="para-00001">Instead of writing a recursive definition, Clare writes \(C(n)=80 \cdot(\frac12)^n\), where \(C\) is the area, in square inches, of the paper after \(n\) cuts. Explain where the different terms in her expression came from.
     </para>
-    </problem><solution>
+    </problem><solution id="sol-00001">
     
     
   
-  <para>Compare your answers:</para>
+  <para id="para-00002">Compare your answers:</para>
     
-    <para>Each cut halves the area, and there are \(n\) cuts. The original area is 80, so \(80 \cdot \frac12 \cdot \frac12 \cdot \cdot \cdot \cdot \cdot \frac12\) with \(n\) multiplications of \(\frac12\) is the same as saying \(80 \cdot (\frac{1}{2})^n\).</para>
+    <para id="para-00003">Each cut halves the area, and there are \(n\) cuts. The original area is 80, so \(80 \cdot \frac12 \cdot \frac12 \cdot \cdot \cdot \cdot \cdot \frac12\) with \(n\) multiplications of \(\frac12\) is the same as saying \(80 \cdot (\frac{1}{2})^n\).</para>
   
   </solution></exercise>
 <!--Interaction End -->
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Approximately what is the area of the paper after 10 cuts?
+<exercise id="exer-00002">
+  <problem id="prob-00002">
+    <para id="para-00004">Approximately what is the area of the paper after 10 cuts?
     </para>
-    </problem><solution>
+    </problem><solution id="sol-00002">
     
     
   
-  <para>Compare your answers:</para>
+  <para id="para-00005">Compare your answers:</para>
     
-    <para>Approximately 0.078 square inches (exactly \(\frac{80}{1024}\) inches)</para>
+    <para id="para-00006">Approximately 0.078 square inches (exactly \(\frac{80}{1024}\) inches)</para>
   
   </solution></exercise>
 <!--Interaction End -->
 
-<list class="os-raise-noindent" list-type="enumerated">
+<list class="os-raise-noindent" list-type="enumerated" id="list-00002">
   <item>
     Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1 inch of the width. Then he does it again, and again . . .
  </item>  </list>
  
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem> <list class="os-raise-noindent" list-type="enumerated">
+<exercise id="exer-00003">
+  <problem id="prob-00003"> <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
     <item>
       Complete the table for the area of Kiran’s paper \(K(n)\), in square inches, after \(n\) cuts.
    </item>
 
 </list>
-<table class="os-raise-midsizetable">
+<table class="os-raise-midsizetable" id="table-00001">
   
   <tgroup cols="2"><tbody><row>
       <entry><emphasis>
@@ -67,52 +67,52 @@
         \(K(n)\)
      </emphasis> </entry></row><row>
       <entry>
-        <para>0</para>
+        <para id="para-00007">0</para>
       </entry>
       <entry>
-        <para>80</para>
+        <para id="para-00008">80</para>
       </entry>
     </row>
     <row>
       <entry>
-        <para>1</para>
+        <para id="para-00009">1</para>
       </entry>
       <entry/>
     </row>
     <row>
       <entry>
-        <para>2</para>
+        <para id="para-00010">2</para>
       </entry>
       <entry>
-        <para>\(80−8−8=80−8(2)=64\)</para>
+        <para id="para-00011">\(80−8−8=80−8(2)=64\)</para>
       </entry>
     </row>
     <row>
       <entry>
-        <para>3</para>
+        <para id="para-00012">3</para>
       </entry>
       <entry/>
     </row>
     <row>
       <entry>
-        <para>4</para>
+        <para id="para-00013">4</para>
       </entry>
       <entry/>
     </row>
     <row>
       <entry>
-        <para>5</para>
+        <para id="para-00014">5</para>
       </entry>
       <entry/>
     </row>
   </tbody></tgroup></table>
-  </problem><solution>
+  </problem><solution id="sol-00003">
     
     
   
-  <para>Compare your answers:</para>
+  <para id="para-00015">Compare your answers:</para>
     
-    <para>When \(n\) is 1, \(K(n)\) is 72.
+    <para id="para-00016">When \(n\) is 1, \(K(n)\) is 72.
       When \(n\) is 3,
       \(K(n)\) is 56.
       When \(n\) is 4,
@@ -125,17 +125,17 @@
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Kiran says the area after 6 cuts, in square inches, is \(80−8 \cdot6\). Explain where the different terms in his expression came from.
+<exercise id="exer-00004">
+  <problem id="prob-00004">
+    <para id="para-00017">Kiran says the area after 6 cuts, in square inches, is \(80−8 \cdot6\). Explain where the different terms in his expression came from.
     </para>
-    </problem><solution>
+    </problem><solution id="sol-00004">
     
     
   
-  <para>Compare your answers:</para>
+  <para id="para-00018">Compare your answers:</para>
     
-    <para>Each cut removes 8 square inches, so 6 cuts removes 48 square inches. The original area was 80 square inches, so the remaining area, in square inches, is \(80−8 \cdot 6\).
+    <para id="para-00019">Each cut removes 8 square inches, so 6 cuts removes 48 square inches. The original area was 80 square inches, so the remaining area, in square inches, is \(80−8 \cdot 6\).
   </para>
   
   </solution></exercise>
@@ -143,16 +143,16 @@
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Write a definition for \(K(n)\) that is not recursive.</para>
-    </problem><solution>
+<exercise id="exer-00005">
+  <problem id="prob-00005">
+    <para id="para-00020">Write a definition for \(K(n)\) that is not recursive.</para>
+    </problem><solution id="sol-00005">
     
     
   
-  <para>Compare your answers:</para>
+  <para id="para-00021">Compare your answers:</para>
     
-    <para>\( K(n)=80−8n\) for integers \(0\leq n\leq9\) or equivalent.
+    <para id="para-00022">\( K(n)=80−8n\) for integers \(0\leq n\leq9\) or equivalent.
   </para>
   
   </solution></exercise>
@@ -160,127 +160,127 @@
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem><list class="os-raise-noindent" list-type="enumerated">
+<exercise id="exer-00006">
+  <problem id="prob-00006"><list class="os-raise-noindent" list-type="enumerated" id="list-00004">
   <item>Which is larger, \(K(6)\) or \(C(6)\)?</item>
 </list>
-  </problem><solution>
+  </problem><solution id="sol-00006">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00023">Compare your answer:</para>
     
-    <para>\(K(6)\) is larger.</para>
+    <para id="para-00024">\(K(6)\) is larger.</para>
   
   </solution></exercise>
 <!--Interaction End -->
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem><list class="os-raise-noindent" list-type="enumerated">
+<exercise id="exer-00007">
+  <problem id="prob-00007"><list class="os-raise-noindent" list-type="enumerated" id="list-00005">
   <item>Is \(K(n)\) arithmetic or geometric?</item>
 </list>
-  </problem><solution>
+  </problem><solution id="sol-00007">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00025">Compare your answer:</para>
     
-    <para>\(K(n)\) is arithmetic.</para>
+    <para id="para-00026">\(K(n)\) is arithmetic.</para>
   
   </solution></exercise>
 <!--Interaction End -->
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-<list class="os-raise-noindent" list-type="enumerated">
+<exercise id="exer-00008">
+  <problem id="prob-00008">
+<list class="os-raise-noindent" list-type="enumerated" id="list-00006">
   <item>Is \(C(n)\) arithmetic or geometric?</item>
 </list>
-  </problem><solution>
+  </problem><solution id="sol-00008">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00027">Compare your answer:</para>
     
-    <para>\(C(n)\) is geometric.</para>
+    <para id="para-00028">\(C(n)\) is geometric.</para>
   
   </solution></exercise>
 <!--Interaction End -->
 
-<para>A recursive sequence is a sequence in which terms are defined using one or more of the previous terms. If you know the nth term of an arithmetic or geometric sequence and the common difference or factor, you can find the (n+1)th term by using the recursive formula.</para>
-<para>Different definitions can often create the same sequence. For arithmetic and geometric sequences, there are general rules, called explicit rules, that can be followed to help find any term in the sequences.</para>
-<para>These are called the nth <term class="glossary-tooltip">term</term> or the general term of the sequence.</para>
+<para id="para-00029">A recursive sequence is a sequence in which terms are defined using one or more of the previous terms. If you know the nth term of an arithmetic or geometric sequence and the common difference or factor, you can find the (n+1)th term by using the recursive formula.</para>
+<para id="para-00030">Different definitions can often create the same sequence. For arithmetic and geometric sequences, there are general rules, called explicit rules, that can be followed to help find any term in the sequences.</para>
+<para id="para-00031">These are called the nth <term class="glossary-tooltip" id="term-00001">term</term> or the general term of the sequence.</para>
 
-<note>
+<note id="note-00001">
   <title>Arithmetic Sequence Formulas</title>
 
-  <para><emphasis>Recursive Formula</emphasis></para>
-  <para>\(a_n = a_{n-1} + d\), \(a_1\) = first term where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</para>
+  <para id="para-00032"><emphasis>Recursive Formula</emphasis></para>
+  <para id="para-00033">\(a_n = a_{n-1} + d\), \(a_1\) = first term where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</para>
   
-  <para><emphasis>Explicit General Formula</emphasis></para>
-  <para>\(a_n = a_1 + (n-1)d\)</para>
-  <para>Where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</para>
+  <para id="para-00034"><emphasis>Explicit General Formula</emphasis></para>
+  <para id="para-00035">\(a_n = a_1 + (n-1)d\)</para>
+  <para id="para-00036">Where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</para>
 </note></section>
-<note class="self-check"><title>Self Check</title>
-  <para>What is the 12th term in an arithmetic sequence where the first term is 22 and the common difference is –2?</para></note>
+<note class="self-check" id="note-00002"><title>Self Check</title>
+  <para id="para-00037">What is the 12th term in an arithmetic sequence where the first term is 22 and the common difference is –2?</para></note>
 
-<section>
+<section id="sect-00002">
   <title>Additional Resources</title>
   
-  <section><note class="extra-support">
-    <title>The nth Term of Arithmetic Sequences</title><para><!--Extra Support Name--> GENERAL TERM (NTH TERM) OF AN ARITHMETIC SEQUENCE</para>
+  <section id="sect-00003"><note class="extra-support" id="note-00003">
+    <title>The nth Term of Arithmetic Sequences</title><para id="para-00038"><!--Extra Support Name--> GENERAL TERM (NTH TERM) OF AN ARITHMETIC SEQUENCE</para>
     <!--Support Content-->
-      <para>The general term of an arithmetic sequence with first term \(a_1\) and common difference \(d\) is: \(a_n=a_1+(n-1)d\).</para>
+      <para id="para-00039">The general term of an arithmetic sequence with first term \(a_1\) and common difference \(d\) is: \(a_n=a_1+(n-1)d\).</para>
       <!-- Extra Support Content--> 
     </note>
   
-  <para><emphasis>Example 1</emphasis></para>
-  <para>Write the explicit formula for the sequence given by the terms 18, 21, 24, 27, ...</para>
-  <para>Solution:</para>
-  <para><emphasis>Step 1-</emphasis> Write the general formula.
+  <para id="para-00040"><emphasis>Example 1</emphasis></para>
+  <para id="para-00041">Write the explicit formula for the sequence given by the terms 18, 21, 24, 27, ...</para>
+  <para id="para-00042">Solution:</para>
+  <para id="para-00043"><emphasis>Step 1-</emphasis> Write the general formula.
     \(a_n = a_1 + (n - 1)d\)</para>
-  <para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
+  <para id="para-00044"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
     \(a_1 = 18\), \(d = 3\)
     \(a_n = 18 + (n - 1)3\)</para>
   
-  <para>So, the explicit formula for the sequence 18, 21, 24, 27… is \(a_n = 18 + (n - 1)3\).</para>
-  <para>Now any term can more easily be determined - even the 1000th term!</para>
+  <para id="para-00045">So, the explicit formula for the sequence 18, 21, 24, 27… is \(a_n = 18 + (n - 1)3\).</para>
+  <para id="para-00046">Now any term can more easily be determined - even the 1000th term!</para>
   
-  <para><emphasis>Example 2</emphasis></para>
-  <para>Find the 15th term of a sequence where the first term is 3 and the common difference is 6.</para>
-  <para><emphasis>Step 1 -</emphasis> Write the general formula.
+  <para id="para-00047"><emphasis>Example 2</emphasis></para>
+  <para id="para-00048">Find the 15th term of a sequence where the first term is 3 and the common difference is 6.</para>
+  <para id="para-00049"><emphasis>Step 1 -</emphasis> Write the general formula.
     \(a_n=a_1+(n−1)d\)</para>
-  <para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
+  <para id="para-00050"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
     \(a_1 = 3, d = 6\), \(n = 15\)
     \(a_{15} = 3 + (15 - 1)6\)</para>
-  <para><emphasis>Step 3 -</emphasis> Simplify the expression. 
+  <para id="para-00051"><emphasis>Step 3 -</emphasis> Simplify the expression. 
     \(a_{15} = 3 + (14)6\) 
     \(a_{15} = 3 + 84\)
     \(a_15 = 87\)</para>
-  <para>If the explicit formula for this question was needed, we would not have substituted \(n = 15\) and the \(n\)th term formula would have been \(a_n = 3 + (n - 1)6\). This formula is also equivalent to</para>
-  <para>\(a_n = 3 + 6(n - 1)\).</para>
-  <note class="try">
+  <para id="para-00052">If the explicit formula for this question was needed, we would not have substituted \(n = 15\) and the \(n\)th term formula would have been \(a_n = 3 + (n - 1)6\). This formula is also equivalent to</para>
+  <para id="para-00053">\(a_n = 3 + 6(n - 1)\).</para>
+  <note class="try" id="note-00004">
   <title> Try It: The nth Term of Arithmetic Sequences</title>
   
-  <exercise>
-    <problem>
+  <exercise id="exer-00009">
+    <problem id="prob-00009">
       
-      <para>Find the formula for the \(n\)th term of a sequence where the first term is 7 and the common difference is 9.</para>
+      <para id="para-00054">Find the formula for the \(n\)th term of a sequence where the first term is 7 and the common difference is 9.</para>
     
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+    <para id="para-00055">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
     </para>
     
-    </problem><solution>
-    <para>Compare your answer:</para>
+    </problem><solution id="sol-00009">
+    <para id="para-00056">Compare your answer:</para>
     
-    <para>Here is how to find the 27th term of the sequence:</para>
+    <para id="para-00057">Here is how to find the 27th term of the sequence:</para>
     
-    <para><emphasis>Step 1 -</emphasis> Write the general formula.
+    <para id="para-00058"><emphasis>Step 1 -</emphasis> Write the general formula.
     \(a_n=a_1+(n−1)d\)</para>
   
-  <para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
+  <para id="para-00059"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
     \(a_1 = 7\), \(d = 9\)
     \(a_n = 7 + (n - 1)9\)</para>
   

@@ -8,18 +8,17 @@
     <md:uuid>9afa0eb2-cf52-4cf7-b0eb-a8d588dbe030</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <note class="link-to-learning">
-      <para>Access the <link
-          url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos
+      <note class="link-to-learning" id="note-00001">
+      <para id="para-00001">Access the <link url="https://k12.openstax.org/contents/raise/resources/b62c9150250bf52d6cc37569213ab516e0090dca">Desmos
         guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
         </note>
 
-      <para>Priya takes note of the distance the car drives and the time it takes to get to the
+      <para id="para-00002">Priya takes note of the distance the car drives and the time it takes to get to the
         destination for many trips.</para>
 
-      <table class="os-raise-midsizetable unnumbered">
+      <table class="os-raise-midsizetable unnumbered" id="table-00004">
         <tgroup cols="2">
           <thead>
             <row>
@@ -97,29 +96,29 @@
       </table>
       <!--Question
       1 -->
-      <exercise>
-        <problem>
-          <para>Distance is one factor that influences the travel time of Priya’s car trips. What
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">Distance is one factor that influences the travel time of Priya’s car trips. What
             are some other factors? </para>
 
         </problem>
-        <solution>
-          <para>Your answers may vary, but here are some examples:</para>
-          <para>Traffic, stop signs, stop lights, refueling, whether the driver is in a hurry,
+        <solution id="sol-00001">
+          <para id="para-00004">Your answers may vary, but here are some examples:</para>
+          <para id="para-00005">Traffic, stop signs, stop lights, refueling, whether the driver is in a hurry,
             driving on surface streets or interstate.</para>
         </solution>
       </exercise>
       <!--Question
       2 -->
-      <exercise>
-        <problem>
-          <para>Which of these factors (including distance) most likely has the most consistent
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00006">Which of these factors (including distance) most likely has the most consistent
             influence for all the car trips? Be prepared to show your reasoning. </para>
 
         </problem>
-        <solution>
-          <para>Your answers may vary, but here are some examples:</para>
-          <para>Distance is the most consistent influence since it is always part of the reason a
+        <solution id="sol-00002">
+          <para id="para-00007">Your answers may vary, but here are some examples:</para>
+          <para id="para-00008">Distance is the most consistent influence since it is always part of the reason a
             trip will take the time it does. The other factors, like stop lights, are only a factor
             sometimes since you may hit all green lights one day and all red lights the next day.</para>
         </solution>
@@ -129,47 +128,45 @@
     <!--BEGIN
       ADD DESMOS INTERATIVE-->
 
-      <exercise>
-        <problem>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
           <!--QUESTION
           IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-          <para>Use the graphing tool or technology outside the course. Create the scatter plot and
+          <para id="para-00009">Use the graphing tool or technology outside the course. Create the scatter plot and
             calculate the best fit line using the Desmos tool below. </para>
         <media alt="">
-        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
-          height="400" />
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
         </media>
-          <para>After you have finished graphing, select the <emphasis>solution</emphasis> button to
+          <para id="para-00010">After you have finished graphing, select the <emphasis>solution</emphasis> button to
             compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>Your answer may vary, but here is a s sample. \(y=0.93x+4.15\) </para>
-          <para>
+        <solution id="sol-00003">
+          <para id="para-00011">Compare your answer:</para>
+          <para id="para-00012">Your answer may vary, but here is a s sample. \(y=0.93x+4.15\) </para>
+          <para id="para-00013">
             <media alt="Scatter plot with line of best fit.  ">
-              <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_07_03_01.svg" />
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_07_03_01.svg"/>
             </media>
 
           </para>
         </solution>
       </exercise>
     <media alt="">
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
-        height="400" />
+      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
       </media>
         <!--END
       ADD DESMOS INTERATIVE-->
       <!--Question
       4 -->
-      <exercise>
-        <problem>
-          <para>What do the slope and \(y\)-intercept for the line of best fit mean in this
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00014">What do the slope and \(y\)-intercept for the line of best fit mean in this
             situation? </para>
 
         </problem>
-        <solution>
-          <para>Your answers may vary, but here are some examples:</para>
-          <para>The slope represents the number of minutes it takes to drive one additional mile
+        <solution id="sol-00004">
+          <para id="para-00015">Your answers may vary, but here are some examples:</para>
+          <para id="para-00016">The slope represents the number of minutes it takes to drive one additional mile
             using the linear model. Assuming the linear relationship continues, the \(y\)-intercept
             represents the number of minutes it takes to drive zero miles; this may account for
             things like time getting ready or warming up the car before driving.</para>
@@ -177,35 +174,35 @@
       </exercise>
       <!--Question
       5 -->
-      <exercise>
-        <problem>
-          <para>Use technology to find the correlation coefficient for this data. Based on the
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00017">Use technology to find the correlation coefficient for this data. Based on the
             value, how would you describe the strength of the linear relationship? </para>
 
         </problem>
-        <solution>
-          <para>Your answers may vary, but here are some examples:</para>
-          <para>\(𝑟=0.99\). Since \(r\) is near 1, there is strong positive linear relationship
+        <solution id="sol-00005">
+          <para id="para-00018">Your answers may vary, but here are some examples:</para>
+          <para id="para-00019">\(𝑟=0.99\). Since \(r\) is near 1, there is strong positive linear relationship
             between distance \((x)\) and travel time \((y)\).</para>
         </solution>
       </exercise>
-      <exercise>
-        <problem>
-          <para>How long do you think it would take Priya to make a trip of 90 miles if the linear
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00020">How long do you think it would take Priya to make a trip of 90 miles if the linear
             relationship continues? </para>
 
         </problem>
-        <solution>
-          <para>Your answer may vary, but here are some examples:</para>
-          <para>It would take Priya about 88 minutes. I used the equation \(y=0.93x+4.15\) and
+        <solution id="sol-00006">
+          <para id="para-00021">Your answer may vary, but here are some examples:</para>
+          <para id="para-00022">It would take Priya about 88 minutes. I used the equation \(y=0.93x+4.15\) and
             figured out that \(y\) was 87.85 minutes by substituting 90 miles for \(x\).</para>
         </solution>
       </exercise>
     </section>
 
-    <section>
-    <note class="self-check">
-      <para>Determine the correlation coefficient of the data in the table
+    <section id="sect-00002">
+    <note class="self-check" id="note-00002">
+      <para id="para-00023">Determine the correlation coefficient of the data in the table
       below to 3 decimal places  and interpret the value.</para>
       <table class="os-raise-horizontaltable unnumbered" id="table-00001">
         <tgroup cols="6">
@@ -232,13 +229,13 @@
     </note>
   </section>
   
-    <section>
+    <section id="sect-00003">
       <title>Additional Resources</title>
 
-      <section>
+      <section id="sect-00004">
         <title>Calculating and Interpreting Correlation Coefficients</title>
-        <para>Properties of the correlation coefficient:</para>
-        <list>
+        <para id="para-00024">Properties of the correlation coefficient:</para>
+        <list id="list-00001">
           <item> Property 1: The sign of \(r\) (positive or negative) corresponds to the direction
             of the linear relationship.</item>
           <item> Property 2: A value of \(r = +1\) indicates a perfect positive linear relationship,
@@ -248,9 +245,9 @@
           <item> Property 4: The closer the value of \(r\) is to \(+1\) or \(-1\), the stronger the
             linear relationship.</item>
         </list>
-        <para>Using the data of shoe length in inches and height in inches for 10 men, find the
+        <para id="para-00025">Using the data of shoe length in inches and height in inches for 10 men, find the
           correlation coefficient of the data with graphing technology.</para>
-        <table class="os-raise-midsizetable unnumbered">
+        <table class="os-raise-midsizetable unnumbered" id="table-00005">
           <tgroup cols="2">
             <thead>
               <row>
@@ -307,10 +304,10 @@
           </tgroup>
         </table>
 
-        <para> The correlation coefficient is \(r \approx 0.65\).</para>
-        <para>Based on the table, there is a moderate positive linear relationship between shoe
+        <para id="para-00026"> The correlation coefficient is \(r \approx 0.65\).</para>
+        <para id="para-00027">Based on the table, there is a moderate positive linear relationship between shoe
           length and height.</para>
-        <para>The table below shows how you can informally interpret the value of a correlation
+        <para id="para-00028">The table below shows how you can informally interpret the value of a correlation
           coefficient</para>
 
         <table class="os-raise-wideadjustedtable unnumbered" id="table-00002">
@@ -366,14 +363,13 @@
           </tgroup>
         </table>
 
-        <note class="try look-at-me">
+        <note class="try look-at-me" id="note-00003">
         <title>Try It: Calculating and Interpreting Correlation Coefficients</title>
-        <para>Consumer Reports published a study of fast-food items. The table and scatter plot
+        <para id="para-00029">Consumer Reports published a study of fast-food items. The table and scatter plot
           below display the fat content (in grams) and number of calories per serving for 16
           fast-food items.</para>
-        <media
-          alt="GRAPH OF THE RELATIONSHIP BETWEEN FAT IN GRAMS AND CALORIES IN KILOCALORIES, SHOWS A MODERATE POSITIVE CORRELATION.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_07_05_01.jpg" />
+        <media alt="GRAPH OF THE RELATIONSHIP BETWEEN FAT IN GRAMS AND CALORIES IN KILOCALORIES, SHOWS A MODERATE POSITIVE CORRELATION.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_07_05_01.jpg"/>
         </media>
 
 
@@ -461,16 +457,16 @@
         <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
         <!--Q#-->
 
-        <exercise>
-          <problem>
-            <para>What is the correlation coefficient for this data and what does it tell us about
+        <exercise id="exer-00007">
+          <problem id="prob-00007">
+            <para id="para-00030">What is the correlation coefficient for this data and what does it tell us about
               the strength and type of relationship represented?</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+            <para id="para-00031">Write down your answer, then select the <emphasis>solution</emphasis> button to
               compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer: Your answer many vary, but here is a sample.</para>
-            <para> The correlation coefficient is \(r≈0.44\). By the table, this indicates a
+          <solution id="sol-00007">
+            <para id="para-00032">Compare your answer: Your answer many vary, but here is a sample.</para>
+            <para id="para-00033"> The correlation coefficient is \(r≈0.44\). By the table, this indicates a
               moderate, positive linear relationship between fat content and calories.</para>
           </solution>
         </exercise>

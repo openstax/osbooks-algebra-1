@@ -6,15 +6,15 @@
     <md:uuid>eb451905-600e-4701-836c-182b158064e8</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>Use the following scenario to answer questions 1 - 2.</para>
-      <para><quote>Andre and Priya used different strategies to solve the following inequality, but
-        they reached the same solution.</quote><quote>\(2(2x + 1.5) \le 18 - x\)</quote>
-        <quote>Make
+      <para id="para-00001">Use the following scenario to answer questions 1 - 2.</para>
+      <para id="para-00002"><quote id="quote-00001">Andre and Priya used different strategies to solve the following inequality, but
+        they reached the same solution.</quote><quote id="quote-00002">\(2(2x + 1.5) \le 18 - x\)</quote>
+        <quote id="quote-00003">Make
         sense of each strategy until you can explain what each student has done. </quote></para>
 
-      <table class="os-raise-wideequaltable unnumbered">
+      <table class="os-raise-wideequaltable unnumbered" id="table-00001">
         <tgroup cols="2">
           <thead>
             <row>
@@ -25,27 +25,27 @@
           <tbody>
           <row>
             <entry>
-              <para>
+              <para id="para-00003">
               \(\begin{array}{rcl}2(2x\;+\;1.5)\;&amp;=&amp;\;18\;-\;x\\4x+3&amp;=&amp;18-x\\4x\;-\;15\;&amp;=&amp;\;-x\\-15\;&amp;=&amp;\;-5x\\3\;&amp;=&amp;\;x\end{array}\)</para>
-          <para>Testing
+          <para id="para-00004">Testing
               to see if \(x = 4\) is a solution:</para>
-          <para>
+          <para id="para-00005">
               \(\begin{array}{rcl}2(2⋅4+1.5)\;&amp;&lt;&amp;\;18-4\\2(9.5)\;&amp;&lt;&amp;\;14\\19\;&amp;&lt;&amp;\;14\end{array}\)
                </para>
-                <para>The
+                <para id="para-00006">The
               inequality is false, so 4 is not a solution. If a number greater than 3 is not a
               solution, the solution must be less than 3, or \(x &lt; 3\).</para>
             </entry>
             <entry>
-              <para>
+              <para id="para-00007">
               \(\begin{array}{rcl}2(2x+1.5)&amp;=&amp;18-x\\4x+3&amp;=&amp;18-x\\5x+3&amp;=&amp;18\\5x&amp;=&amp;15\\x&amp;=&amp;3\end{array}\)
                </para>
-                <para>In
+                <para id="para-00008">In
               \(4x + 3 = 18 − x\), there is \(4x\) on the left and \(-x\) on the right.</para>
-          <para>If
+          <para id="para-00009">If
               \(x\) is a negative number, \(4x + 3\) could be positive or negative, but \(18 - x\)
               will always be positive.</para>
-          <para>For \(4𝑥 + 3 \lt 18 − 𝑥 \) to be true, 𝑥 must
+          <para id="para-00010">For \(4𝑥 + 3 \lt 18 − 𝑥 \) to be true, 𝑥 must
               include negative numbers or 𝑥 must be less than 3.</para>
             </entry>
           </row>
@@ -56,12 +56,12 @@
 
       <!--Text
       Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Summarize the strategy Andre used to solve the inequality.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00011">Summarize the strategy Andre used to solve the inequality.</para>
         </problem>
-        <solution>
-          <para>Compare your answer: Your answer may vary, but here is a sample. Andre solved the
+        <solution id="sol-00001">
+          <para id="para-00012">Compare your answer: Your answer may vary, but here is a sample. Andre solved the
             companion equation and found \(3 = x\). Then, he tested a number greater than 3. That
             created a false mathematical statement so he concluded that any number greater than 3
             would not be a solution.</para>
@@ -70,12 +70,12 @@
 
       <!--Text
       Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Summarize the strategy Priya used to solve the inequality.</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00013"> Summarize the strategy Priya used to solve the inequality.</para>
         </problem>
-        <solution>
-          <para>Compare your answer: Your answer may vary, but here is a sample. Priya solved the
+        <solution id="sol-00002">
+          <para id="para-00014">Compare your answer: Your answer may vary, but here is a sample. Priya solved the
             companion equation and found \(x = 3\). Then, she reasoned that the left side of the
             equation, \(4x + 3\), could be either negative or positive while the right side of the
             equation, \(18 - x\), would always be positive - if negative \(x\) values for are
@@ -87,28 +87,28 @@
       <!-- BEGIN CLICK TO REVEAL NO TEXTBOX -->
 
       <!--Q#3-->
-      <exercise>
-        <problem>
-        <para> Examine four inequalities:</para>
-        <para>Inequality A: \(\frac15p\gt−10\)</para>
-        <para>Inequality B: \(4(x+7)\leq4(2x+8)\)</para>
-        <para>Inequality C: \(−9n\lt36\)</para>
-        <para>Inequality D: \(\frac{c}{3}\lt−2(c−7)\)</para>
-        <para>Work with a partner to decide on at least two
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+        <para id="para-00015"> Examine four inequalities:</para>
+        <para id="para-00016">Inequality A: \(\frac15p\gt−10\)</para>
+        <para id="para-00017">Inequality B: \(4(x+7)\leq4(2x+8)\)</para>
+        <para id="para-00018">Inequality C: \(−9n\lt36\)</para>
+        <para id="para-00019">Inequality D: \(\frac{c}{3}\lt−2(c−7)\)</para>
+        <para id="para-00020">Work with a partner to decide on at least two
             inequalities to solve. Solve one inequality using Andre's strategy (by testing values on
             either side of the given solution), while your partner uses Priya's strategy (by
             reasoning about the parts of the inequality). Switch strategies for the other
             inequality.</para>
-          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+          <para id="para-00021">Write down your answer, then select the <emphasis>solution</emphasis> button to
             compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your answer: Your answer may vary, but here are some samples.</para>
+        <solution id="sol-00003">
+          <para id="para-00022">Compare your answer: Your answer may vary, but here are some samples.</para>
 
-          <para>Inequality A: \(\frac15p\gt−10\)</para>
+          <para id="para-00023">Inequality A: \(\frac15p\gt−10\)</para>
 
-          <list>
-            <item>\(p&gt;-50\). Sample reasoning (after solving \(\frac15p=-10\) to get \(p=-50):\) <list>
+          <list id="list-00001">
+            <item>\(p>-50\). Sample reasoning (after solving \(\frac15p=-10\) to get \(p=-50):\) <list id="list-00002">
                 <item> Using Andre's strategy: Test a value more than or less than -50, and check to
               see if that value gives a true statement when substituting back to the original
               inequality. </item>
@@ -121,11 +121,11 @@
           </list>
 
 
-          <para>Inequality B: \(4(x+7)\leq4(2x+8)\)</para>
+          <para id="para-00024">Inequality B: \(4(x+7)\leq4(2x+8)\)</para>
 
-          <list>
+          <list id="list-00003">
             <item> Sample reasoning using Priya's strategy (after solving \(4(x+7)=4(2x+8)\) and
-              getting \((x=-1)\): <list>
+              getting \((x=-1)\): <list id="list-00004">
                 <item> After dividing each side by 4, the left side of the inequality has \(x\),
               while the right side has \(2x\). This means the expression on the left side will be
               less than that on the right when \(x\) includes positive numbers, so \(x\) must be
@@ -135,11 +135,11 @@
             </item>
           </list>
 
-          <para>Inequality C: \(−9n\lt36\)</para>
+          <para id="para-00025">Inequality C: \(−9n\lt36\)</para>
 
-          <list>
+          <list id="list-00005">
             <item>Sample reasoning using Priya's strategy (after solving \(-9n=36\) to get
-              \(n=-4\)): <list>
+              \(n=-4\)): <list id="list-00006">
                 <item> If \(n\) includes large positive numbers, then \(-9n\) will be smaller than
               36, so \(n\) must include positive numbers which are greater than -4. </item>
                 <item> If \(n\) is less than -4, then it would include negative numbers like -10,
@@ -149,9 +149,9 @@
             </item>
           </list>
 
-          <para>Inequality D: \(\frac{c}{3}\lt−2(c−7)\)</para>
+          <para id="para-00026">Inequality D: \(\frac{c}{3}\lt−2(c−7)\)</para>
 
-          <list>
+          <list id="list-00007">
             <item>Sample reasoning using Priya's strategy (after solving \(\frac{c}{3}=-2(c−7)\) and
               getting \(c=6)\): </item>
             <item> The right side of the inequality has \(-2c\) while the left side has
@@ -176,40 +176,40 @@
       have matching "data-wait-for-event", which should also match the "data-fire-event" for the
       button. Note in this sample, they are all RFM1-->
 
-      <section>
+      <section id="sect-00002">
         <title>Are you ready for more?</title>
-        <section>
+        <section id="sect-00003">
           <title>Extending Your Thinking</title>
-      <exercise class="RFM1">
-        <problem>
-          <para>Using positive integers between 1 and 9 and each positive integer at most once, fill
+      <exercise class="RFM1" id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00027">Using positive integers between 1 and 9 and each positive integer at most once, fill
             in values to get two constraints so that \(x=7\) is the only integer that will satisfy
             both constraints at the same time. ▢x + ▢ &lt;▢x + ▢</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
+        <solution id="sol-00004">
+          <para id="para-00028">Compare your answer:</para>
 
-          <para>Your answers may vary, but here is a sample.</para>
+          <para id="para-00029">Your answers may vary, but here is a sample.</para>
 
-          <para>\(4x + 1 &lt; 3x + 9\)</para>
+          <para id="para-00030">\(4x + 1 &lt; 3x + 9\)</para>
 
         </solution>
       </exercise>
       <!--End
       interaction-->
 
-      <exercise class="RFM1">
-        <problem>
-          <para>Using positive integers between 1 and 9 and each positive integer at most once, fill
+      <exercise class="RFM1" id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00031">Using positive integers between 1 and 9 and each positive integer at most once, fill
             in values to get two constraints so that \(x=7\) is the only integer that will satisfy
-            both constraints at the same time. ▢x + ▢ &gt;▢x + ▢</para>
+            both constraints at the same time. ▢x + ▢ >▢x + ▢</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
+        <solution id="sol-00005">
+          <para id="para-00032">Compare your answer:</para>
 
-          <para>Your answers may vary, but here is a sample.</para>
+          <para id="para-00033">Your answers may vary, but here is a sample.</para>
 
-          <para>\(6x + 2 &gt; 5x + 8\)</para>
+          <para id="para-00034">\(6x + 2 > 5x + 8\)</para>
 
         </solution>
       </exercise>
@@ -220,51 +220,51 @@
     </section>
     </section>
 
-    <section>
-      <note class="self-check">
-        <para>Solve the following inequality by solving the related equation
+    <section id="sect-00004">
+      <note class="self-check" id="note-00001">
+        <para id="para-00035">Solve the following inequality by solving the related equation
         and reasoning what the answer may be given the situation.</para>
-        <para>\(\frac13p&lt;4\)</para>
+        <para id="para-00036">\(\frac13p&lt;4\)</para>
   </note>
     </section>
 
-    <section>
+    <section id="sect-00005">
       <title>Additional Resources</title>
-      <section>
+      <section id="sect-00006">
         <title>Reasoning about Solution Sets to Linear Inequalities</title>
-        <para>You can derive a lot of information about the solution set to an inequality by
+        <para id="para-00037">You can derive a lot of information about the solution set to an inequality by
           studying the inequality itself.</para>
-        <para>Let’s look at the inequality shown.</para>
-        <para>\(12x&gt;-3(x−1)\)</para>
-        <para>The left side of the inequality contains \(12x\). The right side of the inequality
+        <para id="para-00038">Let’s look at the inequality shown.</para>
+        <para id="para-00039">\(12x>-3(x−1)\)</para>
+        <para id="para-00040">The left side of the inequality contains \(12x\). The right side of the inequality
           contains \(-3x\).</para>
-        <para>We can think to ourselves: “What values of \(x\) would make \(12x\) greater than
+        <para id="para-00041">We can think to ourselves: “What values of \(x\) would make \(12x\) greater than
           \(-3x\)?”</para>
-        <para>If \(x\) is a large positive number, then \(12x\) will still be positive. If \(x\) is
+        <para id="para-00042">If \(x\) is a large positive number, then \(12x\) will still be positive. If \(x\) is
           a large positive number, then \(-3x\) will be a negative number. This makes the inequality
           true, so the solution set must include large positive numbers.</para>
-        <para>Let’s solve the related equation.</para>
-        <para>
-          \(\begin{array}{rcl}12x&amp;&gt;&amp;-3(x-1)\\12x\;&amp;=&amp;\;–3(x\;–\;1)\\12x\;&amp;=&amp;\;–3x\;+3\\15x\;&amp;=&amp;\;3\\x\;&amp;=&amp;\;\frac{3}{15}\end{array}\)</para>
-        <para>Since we know that the solution set must include large positive numbers, then \(x &gt;
+        <para id="para-00043">Let’s solve the related equation.</para>
+        <para id="para-00044">
+          \(\begin{array}{rcl}12x&amp;>&amp;-3(x-1)\\12x\;&amp;=&amp;\;–3(x\;–\;1)\\12x\;&amp;=&amp;\;–3x\;+3\\15x\;&amp;=&amp;\;3\\x\;&amp;=&amp;\;\frac{3}{15}\end{array}\)</para>
+        <para id="para-00045">Since we know that the solution set must include large positive numbers, then \(x >
           \frac{3}{15}\) must be the solution to the inequality.</para>
 
-        <note class="try look-at-me">
+        <note class="try look-at-me" id="note-00002">
         <title>Try It: Reasoning about Solution Sets to Linear Inequalities</title>
 
-        <para>For questions 1 - 2, solve the related equation for each inequality. Use what you know
+        <para id="para-00046">For questions 1 - 2, solve the related equation for each inequality. Use what you know
           about the inequality to determine the solution set.</para>
         <!--Q#-->
-        <exercise>
+        <exercise id="exer-00006">
           <!--Interaction
           End -->
-          <problem>
-            <para>\(-5y\geq30\)</para>
+          <problem id="prob-00006">
+            <para id="para-00047">\(-5y\geq30\)</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
+          <solution id="sol-00006">
+            <para id="para-00048">Compare your answer:</para>
 
-            <para>The solution \(y = -6\). Since any positive number substituted for \(y\) makes
+            <para id="para-00049">The solution \(y = -6\). Since any positive number substituted for \(y\) makes
               \(-5y\) a negative value, then the solution set cannot include positive numbers. This
               means the solution is \(y\leq-6\).</para>
           </solution>
@@ -272,14 +272,14 @@
 
         <!--Text
         Entry Interaction Start -->
-        <exercise>
-          <problem>
-            <para>\(4p&lt;-4\)</para>
+        <exercise id="exer-00007">
+          <problem id="prob-00007">
+            <para id="para-00050">\(4p&lt;-4\)</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
+          <solution id="sol-00007">
+            <para id="para-00051">Compare your answer:</para>
 
-            <para>The solution \(p = -1\). Since any positive number substituted for \(p\) makes
+            <para id="para-00052">The solution \(p = -1\). Since any positive number substituted for \(p\) makes
               \(4p\) a positive value, the solution set cannot include positive numbers. This means
               the solution is \(p &lt; -1\).</para>
           </solution>

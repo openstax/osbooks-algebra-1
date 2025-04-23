@@ -6,66 +6,66 @@
     <md:uuid>43b50209-567b-428f-a1e0-5c043274b51d</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>A Sierpinski triangle can be created by starting with an equilateral triangle, breaking the triangle into 4 congruent equilateral triangles, and then removing the middle triangle. Starting from a single black equilateral triangle:</para>
-      <para>
+      <para id="para-00001">A Sierpinski triangle can be created by starting with an equilateral triangle, breaking the triangle into 4 congruent equilateral triangles, and then removing the middle triangle. Starting from a single black equilateral triangle:</para>
+      <para id="para-00002">
           <media alt="Insert Alt Text">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_21_03_01.svg"/>
           </media>
         
     </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">
         Let \(S\) be the number of black triangles in Step \(n\). Define \(S(n)\) recursively.
     </para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>\(S(1)=3\), \(S(n)=3 \cdot S(n−1)\) for \(n\geq2\).</para>
+        <solution id="sol-00001">
+          <para id="para-00004">Compare your answers:</para>
+          <para id="para-00005">\(S(1)=3\), \(S(n)=3 \cdot S(n−1)\) for \(n\geq2\).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00006">
         Andre and Lin are asked to write an equation for \(S\) that isn’t recursive. Andre writes \(S(n)=3^n\) for \(n\geq0\), while Lin writes \(S(n)=3^n−1\) for \(n\geq1\). Whose equation do you think is correct? Be prepared to show your reasoning.
     </para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>They are both correct. For example: Lin is correct because if the image shows Steps 1 to 4, her equation gives the correct number of triangles for each step. Andre is correct since if we start with the black triangle, which is like Step 0, then Step 1 is the one with 3 triangles and Step 2 has 9 triangles, and those numbers match his equation.
+        <solution id="sol-00002">
+          <para id="para-00007">Compare your answers:</para>
+          <para id="para-00008">They are both correct. For example: Lin is correct because if the image shows Steps 1 to 4, her equation gives the correct number of triangles for each step. Andre is correct since if we start with the black triangle, which is like Step 0, then Step 1 is the one with 3 triangles and Step 2 has 9 triangles, and those numbers match his equation.
   </para>
         </solution>
       </exercise>
       <!--Interaction End --></section>
-      <section>
+      <section id="sect-00002">
       <title>Video: Learning About Sierpinski’s Triangle</title>
-      <para>Watch the following video to learn more about how to write a pattern as an nth term.</para>
+      <para id="para-00009">Watch the following video to learn more about how to write a pattern as an nth term.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/17bb2699a589cb2724aca3802df06b559f5373eb"/>
       </media></section>
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
       
-      <section>
+      <section id="sect-00003">
         <title>Are you ready for more?</title>
-          <section>
+          <section id="sect-00004">
             <title>Extending Your Thinking</title>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1">
-        <problem>
-          <para>Here is a geometric sequence. Find the missing terms.</para>
-          <para>3, ____, 6, ____, 12, ____, 24</para>
+      <exercise class="RFM1" id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00010">Here is a geometric sequence. Find the missing terms.</para>
+          <para id="para-00011">3, ____, 6, ____, 12, ____, 24</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>\(3\sqrt2\), \(6\sqrt2\), \(12\sqrt2\) or equivalent</para>
+        <solution id="sol-00003">
+          <para id="para-00012">Compare your answers:</para>
+          <para id="para-00013">\(3\sqrt2\), \(6\sqrt2\), \(12\sqrt2\) or equivalent</para>
         </solution>
       </exercise>
       <!--End interaction-->
