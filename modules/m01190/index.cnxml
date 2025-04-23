@@ -47,12 +47,16 @@
 <list class="os-raise-noindent" list-type="enumerated">
   <item>
     Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1 inch of the width. Then he does it again, and again . . .
- </item>
-  <list class="os-raise-noindent" list-type="enumerated">
+ </item>  </list>
+ 
+
+<!--Text Entry Interaction Start -->
+<exercise>
+  <problem> <list class="os-raise-noindent" list-type="enumerated">
     <item>
       Complete the table for the area of Kiran’s paper \(K(n)\), in square inches, after \(n\) cuts.
    </item>
-  </list>
+
 </list>
 <table class="os-raise-midsizetable">
   
@@ -102,10 +106,6 @@
       <entry/>
     </row>
   </tbody></tgroup></table>
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
   </problem><solution>
     
     
@@ -158,12 +158,12 @@
   </solution></exercise>
 <!--Interaction End -->
 
-<list class="os-raise-noindent" list-type="enumerated">
-  <item>Which is larger, \(K(6)\) or \(C(6)\)?</item>
-</list>
+
 <!--Text Entry Interaction Start -->
 <exercise>
-  <problem>
+  <problem><list class="os-raise-noindent" list-type="enumerated">
+  <item>Which is larger, \(K(6)\) or \(C(6)\)?</item>
+</list>
   </problem><solution>
     
     
@@ -175,12 +175,12 @@
   </solution></exercise>
 <!--Interaction End -->
 
-<list class="os-raise-noindent" list-type="enumerated">
-  <item>Is \(K(n)\) arithmetic or geometric?</item>
-</list>
+
 <!--Text Entry Interaction Start -->
 <exercise>
-  <problem>
+  <problem><list class="os-raise-noindent" list-type="enumerated">
+  <item>Is \(K(n)\) arithmetic or geometric?</item>
+</list>
   </problem><solution>
     
     
@@ -192,12 +192,12 @@
   </solution></exercise>
 <!--Interaction End -->
 
-<list class="os-raise-noindent" list-type="enumerated">
-  <item>Is \(C(n)\) arithmetic or geometric?</item>
-</list>
 <!--Text Entry Interaction Start -->
 <exercise>
   <problem>
+<list class="os-raise-noindent" list-type="enumerated">
+  <item>Is \(C(n)\) arithmetic or geometric?</item>
+</list>
   </problem><solution>
     
     
@@ -216,10 +216,10 @@
 <note>
   <title>Arithmetic Sequence Formulas</title>
 
-  <h6>Recursive Formula</h6>
+  <para><emphasis>Recursive Formula</emphasis></para>
   <para>\(a_n = a_{n-1} + d\), \(a_1\) = first term where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</para>
   
-  <h6>Explicit General Formula</h6>
+  <para><emphasis>Explicit General Formula</emphasis></para>
   <para>\(a_n = a_1 + (n-1)d\)</para>
   <para>Where \(a_1\) is the first term, \(n\) is the term you want, and \(d\) is the common difference.</para>
 </note></section>
@@ -261,7 +261,7 @@
     \(a_15 = 87\)</para>
   <para>If the explicit formula for this question was needed, we would not have substituted \(n = 15\) and the \(n\)th term formula would have been \(a_n = 3 + (n - 1)6\). This formula is also equivalent to</para>
   <para>\(a_n = 3 + 6(n - 1)\).</para>
-  
+  <note class="try">
   <title> Try It: The nth Term of Arithmetic Sequences</title>
   
   <exercise>
@@ -286,7 +286,7 @@
   
   
   
-  </solution></exercise>
+  </solution></exercise></note>
   </section>
 </section>
 
