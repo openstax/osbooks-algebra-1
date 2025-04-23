@@ -6,16 +6,16 @@
     <md:uuid>fb84e946-8524-4c07-9167-f67b4fabfc33</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>Clare takes a piece of paper, cuts it in half, and then stacks the pieces. She takes the stack of two pieces and cuts
+      <para id="para-00001">Clare takes a piece of paper, cuts it in half, and then stacks the pieces. She takes the stack of two pieces and cuts
   it in half again to form four pieces, stacking them. She keeps repeating the process.</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>
     The original piece of paper has length 8 inches and width 10 inches. Complete the table.
  </item>
       </list>
-      <table class="os-raise-midsizetable">
+      <table class="os-raise-midsizetable" id="table-00001">
         <tgroup cols="3"><tbody><row>
             <entry>
              <emphasis>number of cuts</emphasis>
@@ -71,13 +71,13 @@
           </row>
         </tbody></tgroup></table>
       
-        <exercise>
-          <problem>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+        <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <para id="para-00002">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
   </para>
           </problem>
-          <solution>
-            <table class="os-raise-midsizetable">
+          <solution id="sol-00001">
+            <table class="os-raise-midsizetable" id="table-00002">
               <tgroup cols="3"><tbody><row>
                   <entry>
                    <emphasis>number of cuts</emphasis>
@@ -136,31 +136,31 @@
         </exercise>
       
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00003">
         Describe in words how you can use the results after 5 cuts to find the results after 6 cuts.
     </para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>Double the number of pieces, from 32 to 64. Halve the area of each piece, from \(\frac52\) to \(\frac54\).</para>
+        <solution id="sol-00002">
+          <para id="para-00004">Compare your answer:</para>
+          <para id="para-00005">Double the number of pieces, from 32 to 64. Halve the area of each piece, from \(\frac52\) to \(\frac54\).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media><!--Text Entry Interaction Start -->
       
-        <exercise>
-          <problem>
-              <para>Use the graphing tool above or technology outside the course, on the given axes, sketch a graph of the number of pieces as a function of the number of cuts.
+        <exercise id="exer-00003">
+          <problem id="prob-00003">
+              <para id="para-00006">Use the graphing tool above or technology outside the course, on the given axes, sketch a graph of the number of pieces as a function of the number of cuts.
 
           </para>
-            <para>Then select the <emphasis>solution</emphasis> button to compare your work.
+            <para id="para-00007">Then select the <emphasis>solution</emphasis> button to compare your work.
   </para>
           </problem>
-          <solution>
-            <para>
+          <solution id="sol-00003">
+            <para id="para-00008">
                       <media alt="Insert Alt Text">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_18_03_01.svg"/>
                 </media>
@@ -171,29 +171,29 @@
       
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>How can you see on the graph how the number of pieces is changing with each cut?</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00009">How can you see on the graph how the number of pieces is changing with each cut?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The height of each plotted point is twice the height of the previous plotted point.</para>
+        <solution id="sol-00004">
+          <para id="para-00010">Compare your answer:</para>
+          <para id="para-00011">The height of each plotted point is twice the height of the previous plotted point.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media><!--Text Entry Interaction Start -->
       
-        <exercise>
-          <problem>
-              <para>Use the graphing tool above or technology outside the course, on the given axes, sketch a graph of the
+        <exercise id="exer-00005">
+          <problem id="prob-00005">
+              <para id="para-00012">Use the graphing tool above or technology outside the course, on the given axes, sketch a graph of the
             area of each piece as a function of the number of cuts.
           </para>
-            <para>Then select the <emphasis>solution</emphasis> button to compare your work.
+            <para id="para-00013">Then select the <emphasis>solution</emphasis> button to compare your work.
   </para>
           </problem>
-          <solution>
-            <para>
+          <solution id="sol-00005">
+            <para id="para-00014">
                       <media alt="Insert Alt Text">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_18_03_02.svg"/>
                 </media>
@@ -204,64 +204,64 @@
       
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>How can you see how the area of each piece is changing with each cut?</para>
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00015">How can you see how the area of each piece is changing with each cut?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The height of each plotted point is half the height of the previous plotted point.</para>
+        <solution id="sol-00006">
+          <para id="para-00016">Compare your answer:</para>
+          <para id="para-00017">The height of each plotted point is half the height of the previous plotted point.</para>
         </solution>
       </exercise></section>
       <!--Interaction End -->
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      <section>
+      <section id="sect-00002">
         <title>Are you ready for more?</title>
-          <section>
+          <section id="sect-00003">
             <title>Extending Your Thinking</title>
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1">
-        <problem>
-          <para>Clare has a piece of paper that is 8 inches by 10 inches. </para>
-        <para>How many pieces of paper will Clare have if she cuts the paper in half \(n\) times?</para>
+      <exercise class="RFM1" id="exer-00007">
+        <problem id="prob-00007">
+          <para id="para-00018">Clare has a piece of paper that is 8 inches by 10 inches. </para>
+        <para id="para-00019">How many pieces of paper will Clare have if she cuts the paper in half \(n\) times?</para>
      
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(2^n\) pieces</para>
+        <solution id="sol-00007">
+          <para id="para-00020">Compare your answer:</para>
+          <para id="para-00021">\(2^n\) pieces</para>
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise class="RFM1">
-        <problem>
-            <para>What will the area of each piece be?</para>          
+      <exercise class="RFM1" id="exer-00008">
+        <problem id="prob-00008">
+            <para id="para-00022">What will the area of each piece be?</para>          
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>Each piece has an area of \(\frac{80}{2^n}\) square inches.</para>
+        <solution id="sol-00008">
+          <para id="para-00023">Compare your answer:</para>
+          <para id="para-00024">Each piece has an area of \(\frac{80}{2^n}\) square inches.</para>
         </solution>
       </exercise>
       <!--End interaction-->
-      <exercise class="RFM1">
-        <problem>
-          <para>Why is the product of the number of pieces and the area of each piece always the same? Explain how you know.
+      <exercise class="RFM1" id="exer-00009">
+        <problem id="prob-00009">
+          <para id="para-00025">Why is the product of the number of pieces and the area of each piece always the same? Explain how you know.
     </para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>It’s always the same because adding up the area of the little pieces of paper gives the area of the
+        <solution id="sol-00009">
+          <para id="para-00026">Compare your answer:</para>
+          <para id="para-00027">It’s always the same because adding up the area of the little pieces of paper gives the area of the
       original sheet of paper.</para>
         </solution>
       </exercise>
       <!--End interaction-->
     </section></section>
-    <note class="self-check"><title>Self Check</title>
-      <para>Given the table below, what would be the next term in the sequence?</para>
-      <table class="os-raise-horizontaltable">
+    <note class="self-check" id="note-00001"><title>Self Check</title>
+      <para id="para-00028">Given the table below, what would be the next term in the sequence?</para>
+      <table class="os-raise-horizontaltable" id="table-00003">
         <tgroup cols="6"><tbody><row>
             <entry><emphasis>
               \(x\)
@@ -302,14 +302,14 @@
           </row>
         </tbody></tgroup></table></note>
 
-    <section>
+    <section id="sect-00004">
          <title>Additional Resources</title>
           
-    <section>
+    <section id="sect-00005">
       <title>Graphs of Sequences</title>
-      <para>Graph the sequence {18, 36, 72, 144, 288, . . .}.</para>
-      <para>First, make a table:</para>
-      <table class="os-raise-horizontaltable">
+      <para id="para-00029">Graph the sequence {18, 36, 72, 144, 288, . . .}.</para>
+      <para id="para-00030">First, make a table:</para>
+      <table class="os-raise-horizontaltable" id="table-00004">
         <tgroup cols="6"><tbody><row>
             <entry>
              <emphasis>Term</emphasis>
@@ -351,29 +351,29 @@
       </entry>
           </row>
         </tbody></tgroup></table>
-      <para>Now, plot the points:</para>
-      <para>
+      <para id="para-00031">Now, plot the points:</para>
+      <para id="para-00032">
           <media alt="Graph of the geometric sequence.">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_18_05_01.jpg"/>
           </media>
         
     </para>
-      <para>Notice that each height is double the previous height.</para>
-      <para>Each term is also double the previous term.</para>
-      <note class="try">
+      <para id="para-00033">Notice that each height is double the previous height.</para>
+      <para id="para-00034">Each term is also double the previous term.</para>
+      <note class="try" id="note-00002">
   <title>Try It: Graphs of Sequences</title>
-      <para>Graph the following sequence and explain the pattern.</para>
+      <para id="para-00035">Graph the following sequence and explain the pattern.</para>
       
-        <exercise>
-          <problem>
-            <para>1, 3, 9, 27, . . .</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+        <exercise id="exer-00010">
+          <problem id="prob-00010">
+            <para id="para-00036">1, 3, 9, 27, . . .</para>
+            <para id="para-00037">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
   </para>
           </problem>
-          <solution>
-            <para>Here is how to determine the pattern of a sequence with a graph:</para>
-            <para>First, make a table:</para>
-            <table class="os-raise-horizontaltable">
+          <solution id="sol-00010">
+            <para id="para-00038">Here is how to determine the pattern of a sequence with a graph:</para>
+            <para id="para-00039">First, make a table:</para>
+            <table class="os-raise-horizontaltable" id="table-00005">
               <tgroup cols="5"><tbody><row>
                   <entry>
                    <emphasis>Term</emphasis>
@@ -409,15 +409,15 @@
         </entry>
                 </row>
               </tbody></tgroup></table>
-            <para>Next, plot the points:</para>
-            <para>
+            <para id="para-00040">Next, plot the points:</para>
+            <para id="para-00041">
                       <media alt="GRAPH SHOWING PLOTTED POINTS (1, 1), (2, 3), (3, 9), AND (4, 27).">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_04_18_05_02.jpg"/>
                 </media>
               
           </para>
-            <para>Each point is 3 times the height of the previous point.</para>
-            <para>Notice that in the sequence, each term is 3 times the previous term.</para>
+            <para id="para-00042">Each point is 3 times the height of the previous point.</para>
+            <para id="para-00043">Notice that in the sequence, each term is 3 times the previous term.</para>
           </solution>
         </exercise>
       </note>

@@ -6,45 +6,45 @@
     <md:uuid>bbb742b1-42c6-4915-9c42-1eacdd5126b4</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>The thickness \(t\) in millimeters of a folded sheet of paper after it is folded \(n\) times is given by the equation \(t=(0.05) \cdot 2^n\).</item>
       </list>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What does the number 0.05 represent in the equation?</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00001">What does the number 0.05 represent in the equation?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The sheet of paper is 0.05 mm thick.</para>
+        <solution id="sol-00001">
+          <para id="para-00002">Compare your answer:</para>
+          <para id="para-00003">The sheet of paper is 0.05 mm thick.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What does the number 2 represent in the equation?</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00004">What does the number 2 represent in the equation?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The number 2 indicates that the thickness doubles with each increment of \(n\), the number of folds.</para>
+        <solution id="sol-00002">
+          <para id="para-00005">Compare your answer:</para>
+          <para id="para-00006">The number 2 indicates that the thickness doubles with each increment of \(n\), the number of folds.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       
-        <exercise>
-          <problem>
-            <para>Use graphing technology to graph the equation \(t=(0.05) \cdot 2^n\).</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00007">Use graphing technology to graph the equation \(t=(0.05) \cdot 2^n\).</para>
+            <para id="para-00008">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Here is a table of values for the thickness of the paper after different numbers of folds:</para>
-            <table class="os-raise-skinnytable">
+          <solution id="sol-00003">
+            <para id="para-00009">Compare your answer:</para>
+            <para id="para-00010">Here is a table of values for the thickness of the paper after different numbers of folds:</para>
+            <table class="os-raise-skinnytable" id="table-00001">
               <tgroup cols="2"><tbody><row>
                   <entry>
                    <emphasis>\(n\)</emphasis>
@@ -102,7 +102,7 @@
         </entry>
                 </row>
               </tbody></tgroup></table>
-            <para>
+            <para id="para-00011">
                       <media alt="7 points on coordinate plane, showing exponential growth. Horizontal axis from 0 to 8, labeled number of folds. Vertical axis from 0 to 4, labeled thickness in millimeters.">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_11_06_01.svg"/>
                 </media>
@@ -114,53 +114,53 @@
       <!--Interaction End -->
       <media alt="insert alt text">
       <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media><!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>How many folds does it take before the folded sheet of paper is more than 1 mm thick? How many folds before it is more than 1 cm thick? Explain how you know.</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00012">How many folds does it take before the folded sheet of paper is more than 1 mm thick? How many folds before it is more than 1 cm thick? Explain how you know.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>It takes 5 folds before the paper is more than 1 mm thick. After 4 folds, the paper is 0.8 mm thick, and after 5 folds, it is 1.6 mm thick. It takes 8 folds before the paper is more than 1 cm or 10 mm thick (1.28 cm to be precise).</para>
+        <solution id="sol-00004">
+          <para id="para-00013">Compare your answer:</para>
+          <para id="para-00014">It takes 5 folds before the paper is more than 1 mm thick. After 4 folds, the paper is 0.8 mm thick, and after 5 folds, it is 1.6 mm thick. It takes 8 folds before the paper is more than 1 cm or 10 mm thick (1.28 cm to be precise).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>The area of a sheet of paper is 93.5 square inches.</item>
       </list>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Find the remaining visible area of the sheet of paper after it is folded in half once, twice, and three times.</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00015">Find the remaining visible area of the sheet of paper after it is folded in half once, twice, and three times.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>46.75, 23.375, 11.6875 square inches</para>
+        <solution id="sol-00005">
+          <para id="para-00016">Compare your answer:</para>
+          <para id="para-00017">46.75, 23.375, 11.6875 square inches</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Write an equation expressing the visible area \(a\) of the sheet of paper in terms of the number of times it has been folded, \(n\).</para>
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00018">Write an equation expressing the visible area \(a\) of the sheet of paper in terms of the number of times it has been folded, \(n\).</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\( a=93.5 \cdot (\frac{1}{2})^n\)</para>
+        <solution id="sol-00006">
+          <para id="para-00019">Compare your answer:</para>
+          <para id="para-00020">\( a=93.5 \cdot (\frac{1}{2})^n\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       
-        <exercise>
-          <problem>
-            <para>Use graphing technology to graph the equation.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00007">
+          <problem id="prob-00007">
+            <para id="para-00021">Use graphing technology to graph the equation.</para>
+            <para id="para-00022">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
+          <solution id="sol-00007">
+            <para id="para-00023">Compare your answer:</para>
+            <para id="para-00024">
                       <media alt="7 points on coordinate plane, showing exponential decay. Horizontal axis from 0 to 10, labeled number of folds. Vertical axis from 0 to 100, labeled area in square inches.">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_11_06_02.svg"/>
                 </media>
@@ -170,155 +170,155 @@
         </exercise>
       <media alt="insert alt text">
       <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media><!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>In this context, can \(n\) take negative values? Be prepared to show your reasoning.</para>
+      <exercise id="exer-00008">
+        <problem id="prob-00008">
+          <para id="para-00025">In this context, can \(n\) take negative values? Be prepared to show your reasoning.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The variable \(n\)<emphasis> </emphasis>cannot take negative values (unless the original sheet of paper can be unfolded).</para>
+        <solution id="sol-00008">
+          <para id="para-00026">Compare your answer:</para>
+          <para id="para-00027">The variable \(n\)<emphasis> </emphasis>cannot take negative values (unless the original sheet of paper can be unfolded).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Can \(a\) take negative values? Be prepared to show your reasoning.</para>
+      <exercise id="exer-00009">
+        <problem id="prob-00009">
+          <para id="para-00028">Can \(a\) take negative values? Be prepared to show your reasoning.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>No. The area of the sheet of paper can never be negative, no matter how many times it is folded.</para>
+        <solution id="sol-00009">
+          <para id="para-00029">Compare your answer:</para>
+          <para id="para-00030">No. The area of the sheet of paper can never be negative, no matter how many times it is folded.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       
-        <exercise>
-          <problem>
-            <para>Identify the domain of the graph using an inequality.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00010">
+          <problem id="prob-00010">
+            <para id="para-00031">Identify the domain of the graph using an inequality.</para>
+            <para id="para-00032">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(n \geq 0\)</para>
+          <solution id="sol-00010">
+            <para id="para-00033">Compare your answer:</para>
+            <para id="para-00034">\(n \geq 0\)</para>
           </solution>
         </exercise>
       
       
-        <exercise>
-          <problem>
-            <para>Identify the range of the graph using an inequality.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00011">
+          <problem id="prob-00011">
+            <para id="para-00035">Identify the range of the graph using an inequality.</para>
+            <para id="para-00036">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(0&lt;a \leq 93.5\). Note that the area cannot be negative, or even 0, because the paper will not disappear.</para>
+          <solution id="sol-00011">
+            <para id="para-00037">Compare your answer:</para>
+            <para id="para-00038">\(0&lt;a \leq 93.5\). Note that the area cannot be negative, or even 0, because the paper will not disappear.</para>
           </solution>
         </exercise>
       
       
-        <exercise>
-          <problem>
-            <para>What equation represents the horizontal asymptote?</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00012">
+          <problem id="prob-00012">
+            <para id="para-00039">What equation represents the horizontal asymptote?</para>
+            <para id="para-00040">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(y=0\)</para>
+          <solution id="sol-00012">
+            <para id="para-00041">Compare your answer:</para>
+            <para id="para-00042">\(y=0\)</para>
           </solution>
         </exercise>
       
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Use the equation to make a prediction of the thickness with 7 folds.</para>
+      <exercise id="exer-00013">
+        <problem id="prob-00013">
+          <para id="para-00043">Use the equation to make a prediction of the thickness with 7 folds.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(t=(0.05) \cdot 2^7=(0.05)(128)=6.4\)</para>
+        <solution id="sol-00013">
+          <para id="para-00044">Compare your answer:</para>
+          <para id="para-00045">\(t=(0.05) \cdot 2^7=(0.05)(128)=6.4\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>The \(y\)-intercept represents the initial thickness of the paper \(t\) before folding (when \(n\) is zero). Calculate the value of the \(y\)-intercept.</para>
+      <exercise id="exer-00014">
+        <problem id="prob-00014">
+          <para id="para-00046">The \(y\)-intercept represents the initial thickness of the paper \(t\) before folding (when \(n\) is zero). Calculate the value of the \(y\)-intercept.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(t=(0.05) \cdot 2^0=(0.05)(1)=0.05\)</para>
+        <solution id="sol-00014">
+          <para id="para-00047">Compare your answer:</para>
+          <para id="para-00048">\(t=(0.05) \cdot 2^0=(0.05)(1)=0.05\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>The asymptote represents the possible limit of thickness of the paper as it is folded. What does this mean?</para>
+      <exercise id="exer-00015">
+        <problem id="prob-00015">
+          <para id="para-00049">The asymptote represents the possible limit of thickness of the paper as it is folded. What does this mean?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>In this equation, the value of thickness of the paper \(t\) becomes larger as the number of folds \(n\) increases (approaches infinity). This means that, as the paper is folded an increasing number of times, the thickness has the potential to be infinite, but in reality, it can never quite reach it.</para>
+        <solution id="sol-00015">
+          <para id="para-00050">Compare your answer:</para>
+          <para id="para-00051">In this equation, the value of thickness of the paper \(t\) becomes larger as the number of folds \(n\) increases (approaches infinity). This means that, as the paper is folded an increasing number of times, the thickness has the potential to be infinite, but in reality, it can never quite reach it.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
-    <note class="self-check">
-      <para>The graph below represents the function that gives the value of a computer in dollars, \(y\), as a function of time, \(x\)<emphasis>,</emphasis> measured in years since the time of purchase.</para>
-      <para>What is the range for this graph and situation?</para>
-      <para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00052">The graph below represents the function that gives the value of a computer in dollars, \(y\), as a function of time, \(x\)<emphasis>,</emphasis> measured in years since the time of purchase.</para>
+      <para id="para-00053">What is the range for this graph and situation?</para>
+      <para id="para-00054">
           <media alt="Graph of a decreasing exponential function, x y plane, origin O.">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_11_07_01.svg"/>
           </media>
         
     </para>
     </note>
-    <section>
+    <section id="sect-00002">
       <title>Additional Resources</title>
       
-    <section>
+    <section id="sect-00003">
       <title>Domain and Range of Exponential Graphs</title>
-      <para>The graph below describes the amount of caffeine, \(c\), in a person’s body \(t\) hours after an initial
+      <para id="para-00055">The graph below describes the amount of caffeine, \(c\), in a person’s body \(t\) hours after an initial
 measurement of 100 mg. The equation of this line is  \(y=100(1-0.1)^t\).</para>
-      <para>
+      <para id="para-00056">
           <media alt="Graph of function.">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_11_08_01.svg"/>
           </media>
         
     </para>
-      <para>What is the smallest value \(c\) can reach?</para>
-      <para>Since \(c\) is the amount of caffeine, it can get close to 0.</para>
-      <para>Can \(t\) ever take on negative values?</para>
-      <para>No, time will not be negative in this relationship because time is moving forward.</para>
-      <para>What are the lowest and highest values for \(t\)?</para>
-      <para>At the beginning, \(t=0\), and \(t\) can go as long as it takes for \(c\) to get so close to 0 it is insignificant.</para>
-      <para>The domain (or values of \(t\)) written as an inequality is \(t \geq 0\).</para>
-      <para>The range (or values of \(c\)) written as an inequality is \(0&lt;c \leq 100\).</para>
-      <note class="try">
+      <para id="para-00057">What is the smallest value \(c\) can reach?</para>
+      <para id="para-00058">Since \(c\) is the amount of caffeine, it can get close to 0.</para>
+      <para id="para-00059">Can \(t\) ever take on negative values?</para>
+      <para id="para-00060">No, time will not be negative in this relationship because time is moving forward.</para>
+      <para id="para-00061">What are the lowest and highest values for \(t\)?</para>
+      <para id="para-00062">At the beginning, \(t=0\), and \(t\) can go as long as it takes for \(c\) to get so close to 0 it is insignificant.</para>
+      <para id="para-00063">The domain (or values of \(t\)) written as an inequality is \(t \geq 0\).</para>
+      <para id="para-00064">The range (or values of \(c\)) written as an inequality is \(0&lt;c \leq 100\).</para>
+      <note class="try" id="note-00002">
       <title> Try It: Domain and Range of Exponential Graphs</title>
       
-        <exercise>
-          <problem>
-            <para>The dollar value of a car is a function, \(f\), of the number of years, \(t\), since the car was purchased. The car
+        <exercise id="exer-00016">
+          <problem id="prob-00016">
+            <para id="para-00065">The dollar value of a car is a function, \(f\), of the number of years, \(t\), since the car was purchased. The car
   was purchased at $12,000. Tell the domain and range. The equation of this line is \(y=12,000(1-0.25)^t\).</para>
-            <para>(\(t \)is exponent)</para>
-            <para>
+            <para id="para-00066">(\(t \)is exponent)</para>
+            <para id="para-00067">
                       <media alt="">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_05_11_08_02.jpg"/>
                 </media>
               
           </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00068">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Here is how to determine the domain and range of an exponential function:</para>
-            <para>To determine the domain, look at the \(t\) values. The car is bought when \(t=0\), so the domain is \(t \geq 0\).</para>
-            <para>To determine the range, look at the \(f\) values, or the possible dollar values of the car. The car is bought at $12,000 and will lose value until the value is close to $0, but it will never be worth negative dollars.</para>
-            <para>The range is \(0&lt;f \leq 12000\).</para>
+          <solution id="sol-00016">
+            <para id="para-00069">Compare your answer:</para>
+            <para id="para-00070">Here is how to determine the domain and range of an exponential function:</para>
+            <para id="para-00071">To determine the domain, look at the \(t\) values. The car is bought when \(t=0\), so the domain is \(t \geq 0\).</para>
+            <para id="para-00072">To determine the range, look at the \(f\) values, or the possible dollar values of the car. The car is bought at $12,000 and will lose value until the value is close to $0, but it will never be worth negative dollars.</para>
+            <para id="para-00073">The range is \(0&lt;f \leq 12000\).</para>
           </solution>
         </exercise>
       </note>

@@ -6,21 +6,21 @@
     <md:uuid>492926a3-a57c-483e-b072-639352d3e6a9</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Cool Down Activity</title>
-      <para>Here is the <term class="glossary-tooltip" id="term-00001">quadratic formula</term>:</para>
-      <para>\(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
-      <exercise>
-        <problem>
-          <para>Use the formula to solve the equation \(x^2+9x+8=0\).</para>
-          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <para id="para-00001">Here is the <term class="glossary-tooltip" id="term-00001">quadratic formula</term>:</para>
+      <para id="para-00002">\(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">Use the formula to solve the equation \(x^2+9x+8=0\).</para>
+          <para id="para-00004">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The solutions are -8 and -1.</para>
-          <para>Apply the quadratic formula for \(a=1\), \(b=9\), \(c=8\):</para>
-          <para>\(x=\frac{-9 \pm \sqrt{(9)^2- 4(1)(8)}}{2(1)}=\frac{-9 \pm \sqrt{49}}{2}\), which means</para>
-          <para>\(x=\frac{-9-7}{2}=-8\) and \(x=\frac{-9+7}{2}=-1\).</para>
+        <solution id="sol-00001">
+          <para id="para-00005">Compare your answer:</para>
+          <para id="para-00006">The solutions are -8 and -1.</para>
+          <para id="para-00007">Apply the quadratic formula for \(a=1\), \(b=9\), \(c=8\):</para>
+          <para id="para-00008">\(x=\frac{-9 \pm \sqrt{(9)^2- 4(1)(8)}}{2(1)}=\frac{-9 \pm \sqrt{49}}{2}\), which means</para>
+          <para id="para-00009">\(x=\frac{-9-7}{2}=-8\) and \(x=\frac{-9+7}{2}=-1\).</para>
         </solution>
       </exercise>
     </section>

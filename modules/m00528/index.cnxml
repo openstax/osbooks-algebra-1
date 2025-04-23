@@ -6,36 +6,35 @@
     <md:uuid>4bafaaaa-4f64-42ec-87a5-0b7ae2102853</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>Consider the inequality \( -\frac12 x + 6 &lt; 4x−3 \). Let’s look at another way to
+      <para id="para-00001">Consider the inequality \( -\frac12 x + 6 &lt; 4x−3 \). Let’s look at another way to
         find its solutions.</para>
       <!--BEGIN
       ADD DESMOS INTERATIVE-->
       <!--START
       QUESTION #1 -->
       
-      <exercise>
-        <problem>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
           <!--question
           moved outside of interactino due to DESMOS -->
-          <para>Use the graphing tool or technology outside the course. Graph \(y=-\frac12 x + 6 \)and
+          <para id="para-00002">Use the graphing tool or technology outside the course. Graph \(y=-\frac12 x + 6 \)and
             \(y=4x−3\) on the same coordinate plane using the Desmos tool below.</para>
         
             <media alt="">
-        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
-          height="400" />
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
         </media>
-          <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to
+          <para id="para-00003">When you have finished graphing, select the <emphasis>solution</emphasis> button to
             compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
+        <solution id="sol-00001">
+          <para id="para-00004">Compare your answer:</para>
           <!--REPLACE
           IMAGE BELOW WITH CORRECT IMAGE-->
           
             <media alt="">
-              <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_11_13_01.svg" />
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_11_13_01.svg"/>
             </media>
           
         </solution>
@@ -44,16 +43,16 @@
       <!--END
       ADD DESMOS INTERATIVE-->
       <!-- BEGIN TEXT ENTRY WITH REVEAL -->
-      <para>Use your graphs to answer the following questions:</para>
+      <para id="para-00005">Use your graphs to answer the following questions:</para>
       <!--Q#2-->
-      <exercise>
-        <problem>
-          <para>Find the values of \( -\frac {1}{2}x+6 \) and \( 4x-3 \) when \( x \) is 1.</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00006">Find the values of \( -\frac {1}{2}x+6 \) and \( 4x-3 \) when \( x \) is 1.</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>When \( x \) is 1, find the value of \( - \frac{1}{2} x+6 \) is \( 5 \frac{1}{2} \),
+        <solution id="sol-00002">
+          <para id="para-00007">Compare your answer:</para>
+          <para id="para-00008">When \( x \) is 1, find the value of \( - \frac{1}{2} x+6 \) is \( 5 \frac{1}{2} \),
             and the value of \( 4x-3 \) is 1.</para>
         </solution>
       </exercise>
@@ -62,14 +61,14 @@
       <!-- END TEXT ENTRY WITH REVEAL -->
       <!-- BEGIN TEXT ENTRY WITH REVEAL -->
       <!--Q#3-->
-      <exercise>
-        <problem>
-          <para>What value of \( x \) makes \( -\frac {1}{2}x+6 \) and \( 4x-3 \) equal?</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00009">What value of \( x \) makes \( -\frac {1}{2}x+6 \) and \( 4x-3 \) equal?</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>When \( x \) is equal to 2, the value of \( - \frac{1}{2} x+6 \) is equal to that
+        <solution id="sol-00003">
+          <para id="para-00010">Compare your answer:</para>
+          <para id="para-00011">When \( x \) is equal to 2, the value of \( - \frac{1}{2} x+6 \) is equal to that
             of \( 4x-2 \).</para>
         </solution>
       </exercise>
@@ -78,14 +77,14 @@
       <!-- END TEXT ENTRY WITH REVEAL -->
       <!-- BEGIN TEXT ENTRY WITH REVEAL -->
       <!--Q#4-->
-      <exercise>
-        <problem>
-          <para>For what values of \( x \) is \( - \frac12 x + 6 \) less than \( 4x−3 \)?</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00012">For what values of \( x \) is \( - \frac12 x + 6 \) less than \( 4x−3 \)?</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>When \( x \) is greater than 2, the value of \( - \frac{1}{2} x+6 \) is less than
+        <solution id="sol-00004">
+          <para id="para-00013">Compare your answer:</para>
+          <para id="para-00014">When \( x \) is greater than 2, the value of \( - \frac{1}{2} x+6 \) is less than
             that of \(4x-3\).</para>
         </solution>
       </exercise>
@@ -94,14 +93,14 @@
       <!-- END TEXT ENTRY WITH REVEAL -->
       <!-- BEGIN TEXT ENTRY WITH REVEAL -->
       <!--Q#5-->
-      <exercise>
-        <problem>
-          <para>For what values of \( x \) is \( - \frac12 x + 6 \) greater than \( 4x−3 \)?</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00015">For what values of \( x \) is \( - \frac12 x + 6 \) greater than \( 4x−3 \)?</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>When \( x \) is less than 2, the value of \( - \frac{1}{2} x+6 \) is greater than
+        <solution id="sol-00005">
+          <para id="para-00016">Compare your answer:</para>
+          <para id="para-00017">When \( x \) is less than 2, the value of \( - \frac{1}{2} x+6 \) is greater than
             that of \( 4x-3 \).</para>
         </solution>
       </exercise>
@@ -110,14 +109,14 @@
       <!-- END TEXT ENTRY WITH REVEAL -->
       <!--Text
       Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What is the solution to the inequality \( - \frac12 x+ 6 &lt; 4x−3 \)? Be prepared
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00018">What is the solution to the inequality \( - \frac12 x+ 6 &lt; 4x−3 \)? Be prepared
             to explain how you know.</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer: \( x &gt;2 \)</para>
+        <solution id="sol-00006">
+          <para id="para-00019">Compare your answer: \( x >2 \)</para>
         </solution>
       </exercise>
       <!--Interaction

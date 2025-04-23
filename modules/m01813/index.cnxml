@@ -6,74 +6,74 @@
     <md:uuid>99a708da-b97a-4600-b0d7-0efa7d7965de</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title> Activity </title>
-      <para>A rock is dropped from the top floor of a 500-foot-tall building. A camera captures the distance the rock traveled, in feet, after each second.</para>
-      <para>
+      <para id="para-00001">A rock is dropped from the top floor of a 500-foot-tall building. A camera captures the distance the rock traveled, in feet, after each second.</para>
+      <para id="para-00002">
         <media alt="An image of a rock dropped from the top floor of a 500-foot tall building.">
-          <image mime-type="image/png" src="../../media/Algebra-1_08_07_03_01.png" />
+          <image mime-type="image/png" src="../../media/Algebra-1_08_07_03_01.png"/>
         </media>
       </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>How many feet will the rock have fallen after 6 seconds? Be prepared to show your reasoning.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">How many feet will the rock have fallen after 6 seconds? Be prepared to show your reasoning.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The rock will have fallen 500 feet after 6 seconds. The distance fallen increased with each additional second. The rock fell 144 feet between 4 and 5 seconds, so between 5 - 6 seconds, it would fall more than 144 feet. After 5 seconds of falling, there is less than 144 feet to go before the rock hits the ground.</para>
+        <solution id="sol-00001">
+          <para id="para-00004">Compare your answer:</para>
+          <para id="para-00005">The rock will have fallen 500 feet after 6 seconds. The distance fallen increased with each additional second. The rock fell 144 feet between 4 and 5 seconds, so between 5 - 6 seconds, it would fall more than 144 feet. After 5 seconds of falling, there is less than 144 feet to go before the rock hits the ground.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>Jada noticed that the distances fallen are all multiples of 16. She wrote down: \(16=16 \cdot 1\) \(64=16 \cdot 4\) \(144=16 \cdot 9\) \(256=16 \cdot 16\) \(400=16 \cdot 25\) </item>
       </list>
-      <para>Then, she noticed that 1, 4, 9, 16, and 25 are \(1^2\), \(2^2\), \(3^2\), \(4^2\), \(5^2\).</para>
+      <para id="para-00006">Then, she noticed that 1, 4, 9, 16, and 25 are \(1^2\), \(2^2\), \(3^2\), \(4^2\), \(5^2\).</para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Use Jada’s observations to predict the distance fallen in feet after 7 seconds. (Assume the building is tall enough that an object dropped from the top of it will continue falling for at least 7 seconds.) Be prepared to explain your reasoning.</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00007">Use Jada’s observations to predict the distance fallen in feet after 7 seconds. (Assume the building is tall enough that an object dropped from the top of it will continue falling for at least 7 seconds.) Be prepared to explain your reasoning.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>784</para>
+        <solution id="sol-00002">
+          <para id="para-00008">Compare your answer:</para>
+          <para id="para-00009">784</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <exercise>
-        <problem>
-          <para>Write an equation for the function, with \(d\) representing the distance dropped after \(t\) seconds.</para>
-          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00010">Write an equation for the function, with \(d\) representing the distance dropped after \(t\) seconds.</para>
+          <para id="para-00011">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(d=16 \cdot t^2\)</para>
+        <solution id="sol-00003">
+          <para id="para-00012">Compare your answer:</para>
+          <para id="para-00013">\(d=16 \cdot t^2\)</para>
         </solution>
       </exercise>
     </section>
-    <note class="self-check">
-      <para>An object is dropped from a building and falls so that the distance in feet it falls, \(d(t)\), is found by \(d(t)=16t^2\), after \(t\) seconds. How many feet has it fallen after 10 seconds?</para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00014">An object is dropped from a building and falls so that the distance in feet it falls, \(d(t)\), is found by \(d(t)=16t^2\), after \(t\) seconds. How many feet has it fallen after 10 seconds?</para>
     </note>
-    <section>
+    <section id="sect-00002">
       <title>Additional Resources</title>
-      <section>
+      <section id="sect-00003">
         <title>Finding Distance Fallen</title>
-        <para>The Empire State Building is 1250 ft high (excluding the lightning rod). A visitor drops a penny from the top, and it falls straight down. How far has it fallen after 5 seconds?</para>
-        <para>Recall the previous activity’s formula \(h(t)=16t^2\).</para>
-        <para>Substitute \(t=5\).</para>
-        <para>\(h(5)=16(5)^2=16 \cdot 25=400\) feet.</para>
-        <note class="try">
+        <para id="para-00015">The Empire State Building is 1250 ft high (excluding the lightning rod). A visitor drops a penny from the top, and it falls straight down. How far has it fallen after 5 seconds?</para>
+        <para id="para-00016">Recall the previous activity’s formula \(h(t)=16t^2\).</para>
+        <para id="para-00017">Substitute \(t=5\).</para>
+        <para id="para-00018">\(h(5)=16(5)^2=16 \cdot 25=400\) feet.</para>
+        <note class="try" id="note-00002">
           <title>Try It: Finding Distance Fallen</title>
-      <exercise>
-            <problem>
-              <para>Will the penny dropped from the Empire State Building reach the ground after 9 seconds? Be prepared to show your reasoning.</para>
-              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00004">
+            <problem id="prob-00004">
+              <para id="para-00019">Will the penny dropped from the Empire State Building reach the ground after 9 seconds? Be prepared to show your reasoning.</para>
+              <para id="para-00020">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
             </problem>
-            <solution>
-              <para>Here is how to determine if the penny will hit the ground by 9 seconds:</para>
-              <para>Substitute \(t=9\) into \(h(t)=16t^2\).</para>
-              <para>\(h(9)=16(9)^2=16 \cdot 81=1,296\)</para>
-              <para>After 9 seconds, the penny could travel 1296 feet. The Empire State Building is 1250 feet tall, so the penny will have hit the ground by 9 seconds.</para>
+            <solution id="sol-00004">
+              <para id="para-00021">Here is how to determine if the penny will hit the ground by 9 seconds:</para>
+              <para id="para-00022">Substitute \(t=9\) into \(h(t)=16t^2\).</para>
+              <para id="para-00023">\(h(9)=16(9)^2=16 \cdot 81=1,296\)</para>
+              <para id="para-00024">After 9 seconds, the penny could travel 1296 feet. The Empire State Building is 1250 feet tall, so the penny will have hit the ground by 9 seconds.</para>
             </solution>
           </exercise></note>
       </section>

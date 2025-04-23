@@ -6,248 +6,248 @@
     <md:uuid>ff9c145f-d6eb-40d2-b0d9-db3d7c2413a5</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-                 <section>
+                 <section id="sect-00002">
             <title>Part 1: Use Long Division</title> 
-        <exercise>
-          <problem>
-            <para>In this activity we’re going to use synthetic division to divide a polynomial by a binomial.</para>
+        <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <para id="para-00001">In this activity we’re going to use synthetic division to divide a polynomial by a binomial.</para>
 
-            <para>You are going to solve a division problem using long division.</para>
-            <para>1. \((x^2-13x+42) \div (x-6)\)</para>
-            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00002">You are going to solve a division problem using long division.</para>
+            <para id="para-00003">1. \((x^2-13x+42) \div (x-6)\)</para>
+            <para id="para-00004">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\[\begin{array}{l}x - 6\mathop{\left){\vphantom{1{{x^2} - 13x + 42}}}\right.
+          <solution id="sol-00001">
+            <para id="para-00005">Compare your answer:</para>
+            <para id="para-00006">\[\begin{array}{l}x - 6\mathop{\left){\vphantom{1{{x^2} - 13x + 42}}}\right.
     \!\!\!\!\overline{\,\,\,\vphantom 1{{{x^2} - 13x + 42}}}}
     \limits^{\displaystyle\,\,\, {x\,\, - 7}}\\\,\,\,\,\,\,\,\,\underline { - ({x^2} - 6x)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 7x + 42\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ( - 7x + 42)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
           </solution>
         </exercise>
       </section>
-      <section>
+      <section id="sect-00003">
                   <title>Part 2: Use Synthetic Division</title>
-<exercise>
-          <problem>
-            <para>You are now going to solve the same division problem using synthetic division.</para>
-            <para>2. \((x^2-13x+42) \div (x-6)\)</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+<exercise id="exer-00002">
+          <problem id="prob-00002">
+            <para id="para-00007">You are now going to solve the same division problem using synthetic division.</para>
+            <para id="para-00008">2. \((x^2-13x+42) \div (x-6)\)</para>
+            <para id="para-00009">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\((x^2-13x+42) \div (x-6)\)</para>
-            <para><emphasis>Step 1 -</emphasis> Write the dividend with decreasing powers of \(x\). Make sure there is no degree missing from the highest degree down to a degree of \(0\).</para>
-            <para>\(x^2-13x+42\)</para>
-            <para><emphasis>Step 2 -</emphasis> Write the coefficients of the terms as the first row of the synthetic division.</para>
-            <para>
+          <solution id="sol-00002">
+            <para id="para-00010">Compare your answer:</para>
+            <para id="para-00011">\((x^2-13x+42) \div (x-6)\)</para>
+            <para id="para-00012"><emphasis>Step 1 -</emphasis> Write the dividend with decreasing powers of \(x\). Make sure there is no degree missing from the highest degree down to a degree of \(0\).</para>
+            <para id="para-00013">\(x^2-13x+42\)</para>
+            <para id="para-00014"><emphasis>Step 2 -</emphasis> Write the coefficients of the terms as the first row of the synthetic division.</para>
+            <para id="para-00015">
                       <media alt="Insert Alt Text">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_01.jpg"/>
                 </media>
               
           </para>
-            <para><emphasis>Step 3 -</emphasis> Write the divisor as \(x - c\) and place \(c\) in the synthetic division in the divisor box.</para>
-            <para>
+            <para id="para-00016"><emphasis>Step 3 -</emphasis> Write the divisor as \(x - c\) and place \(c\) in the synthetic division in the divisor box.</para>
+            <para id="para-00017">
                       <media alt="Insert Alt Text">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_02.jpg"/>
                 </media>
               
           </para>
-            <para><emphasis>Step 4 -</emphasis> Bring down the first coefficient to the third row.</para>
-            <para>
+            <para id="para-00018"><emphasis>Step 4 -</emphasis> Bring down the first coefficient to the third row.</para>
+            <para id="para-00019">
                       <media alt="Insert Alt Text">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_03.jpg"/>
                 </media>
               
           </para>
-            <para><emphasis>Step 5 -</emphasis> Multiply that coefficient by the divisor and place the result in the second row under the second coefficient.</para>
-            <para>
+            <para id="para-00020"><emphasis>Step 5 -</emphasis> Multiply that coefficient by the divisor and place the result in the second row under the second coefficient.</para>
+            <para id="para-00021">
                       <media alt="Insert Alt Text">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_04.jpg"/>
                 </media>
               
           </para>
-            <para><emphasis>Step 6 -</emphasis> Add the second column, putting the result in the third row.</para>
-            <para><emphasis>Step 7 -</emphasis> Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
-            <para>
+            <para id="para-00022"><emphasis>Step 6 -</emphasis> Add the second column, putting the result in the third row.</para>
+            <para id="para-00023"><emphasis>Step 7 -</emphasis> Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
+            <para id="para-00024">
                       <media alt="">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_05.jpg"/>
                 </media>
               
           </para>
-            <para><emphasis>Step 8 -</emphasis> Add the final column, putting the result in the third row.</para>
-            <para>
+            <para id="para-00025"><emphasis>Step 8 -</emphasis> Add the final column, putting the result in the third row.</para>
+            <para id="para-00026">
                       <media alt="">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_06.jpg"/>
                 </media>
               
           </para>
-            <para><emphasis>Step 9 -</emphasis> The division is complete. The numbers in the third row give us the result. The \(1\) \( −7\) in the third row are the coefficients of the quotient. The quotient is \(x - 7\). The \(0\) in the box in the third row is the remainder.</para>
+            <para id="para-00027"><emphasis>Step 9 -</emphasis> The division is complete. The numbers in the third row give us the result. The \(1\) \( −7\) in the third row are the coefficients of the quotient. The quotient is \(x - 7\). The \(0\) in the box in the third row is the remainder.</para>
           </solution>
         </exercise>
       
-      <note>
-        <para>Work with a partner to find each quotient. Discuss any differences you have in determining the correct solution.</para>
+      <note id="note-00001">
+        <para id="para-00028">Work with a partner to find each quotient. Discuss any differences you have in determining the correct solution.</para>
       </note>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>\(
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00029">\(
         (4x^3+5x^2-5x+3) \div (x+2)\)</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(4x^2-3x+1\); remainder of 1</para>
+        <solution id="sol-00003">
+          <para id="para-00030">Compare your answer:</para>
+          <para id="para-00031">\(4x^2-3x+1\); remainder of 1</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>\((2x^3-11x^2+16x-12) \div (x -4)\)</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00032">\((2x^3-11x^2+16x-12) \div (x -4)\)</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(2x^2-3x+4\); remainder of 4</para>
+        <solution id="sol-00004">
+          <para id="para-00033">Compare your answer:</para>
+          <para id="para-00034">\(2x^2-3x+4\); remainder of 4</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>\(
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00035">\(
         (x^4-9x^2+2x+6) \div (x + 3)\)</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(x^3-3x^2+2\); remainder of 0</para>
+        <solution id="sol-00005">
+          <para id="para-00036">Compare your answer:</para>
+          <para id="para-00037">\(x^3-3x^2+2\); remainder of 0</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>\((3x^4-11x^3+2x^2+10x+6) \div (x - 3)\)</para>
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00038">\((3x^4-11x^3+2x^2+10x+6) \div (x - 3)\)</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(3x^3-2x^2-4x-2\); remainder of 0</para>
+        <solution id="sol-00006">
+          <para id="para-00039">Compare your answer:</para>
+          <para id="para-00040">\(3x^3-2x^2-4x-2\); remainder of 0</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
   </section>
-    <note class="self-check">
-      (    <para>Use synthetic division to find the quotient and remainder when \(x^4+x^2+6x-10\) is divided by \(x + 2\).</para>)
+    <note class="self-check" id="note-00002">
+      (    <para id="para-00041">Use synthetic division to find the quotient and remainder when \(x^4+x^2+6x-10\) is divided by \(x + 2\).</para>)
         </note>
 
      
-<section>
+<section id="sect-00004">
   <title>Additional Resources</title>
-  <section>
+  <section id="sect-00005">
     <title>Dividing Polynomials Using Synthetic Division
 </title>
-    <para>Mathematicians like to find patterns to make their work easier. Since long division can be tedious, let’s look back at the long division we did in a previous example and look for some patterns. We will use this as a basis for what is called synthetic division. The same problem in the synthetic division format is shown next.</para>
-    <para>
+    <para id="para-00042">Mathematicians like to find patterns to make their work easier. Since long division can be tedious, let’s look back at the long division we did in a previous example and look for some patterns. We will use this as a basis for what is called synthetic division. The same problem in the synthetic division format is shown next.</para>
+    <para id="para-00043">
       
         <media alt="">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_01.jpg"/>
         </media>
       
   </para>
-    <para>Synthetic division basically just removes unnecessary repeated variables and numbers. Here, all the \(x\) and \(x^2\) are removed as well as the \(-x^2\) and \(-4x\) because they are opposite the term above.</para>
-    <para>The first row of the synthetic division is the coefficients of the dividend. The \(-5\) is the opposite of the \(5\) in the divisor.</para>
-    <para>The second row of the synthetic division is the numbers shown in red in the division problem.</para>
-    <para>The third row of the synthetic division is the numbers shown in blue in the division problem.</para>
-    <para>Notice the quotient and remainder are shown in the third row.</para>
-    <para><emphasis>Synthetic division only works when the divisor is of the form</emphasis> \(x-c\).</para>
-    <para>The following example will explain the process.</para>
-    <para>
+    <para id="para-00044">Synthetic division basically just removes unnecessary repeated variables and numbers. Here, all the \(x\) and \(x^2\) are removed as well as the \(-x^2\) and \(-4x\) because they are opposite the term above.</para>
+    <para id="para-00045">The first row of the synthetic division is the coefficients of the dividend. The \(-5\) is the opposite of the \(5\) in the divisor.</para>
+    <para id="para-00046">The second row of the synthetic division is the numbers shown in red in the division problem.</para>
+    <para id="para-00047">The third row of the synthetic division is the numbers shown in blue in the division problem.</para>
+    <para id="para-00048">Notice the quotient and remainder are shown in the third row.</para>
+    <para id="para-00049"><emphasis>Synthetic division only works when the divisor is of the form</emphasis> \(x-c\).</para>
+    <para id="para-00050">The following example will explain the process.</para>
+    <para id="para-00051">
      <emphasis>Example 1</emphasis>
   </para>
-    <para>Use synthetic division to find the quotient and remainder when \(2x^3+3x^2+x+8\) is divided by \(x + 2\).</para>
-    <para><emphasis>Step 1 -</emphasis> Write the dividend with decreasing powers of \(x\).</para>
-    <para>\(2x^3+3x^2+x+8\)</para>
-    <para><emphasis>Step 2 -</emphasis> Write the coefficients of the terms as the first row of the synthetic division.</para>
-    <para>
+    <para id="para-00052">Use synthetic division to find the quotient and remainder when \(2x^3+3x^2+x+8\) is divided by \(x + 2\).</para>
+    <para id="para-00053"><emphasis>Step 1 -</emphasis> Write the dividend with decreasing powers of \(x\).</para>
+    <para id="para-00054">\(2x^3+3x^2+x+8\)</para>
+    <para id="para-00055"><emphasis>Step 2 -</emphasis> Write the coefficients of the terms as the first row of the synthetic division.</para>
+    <para id="para-00056">
       
         <media alt=".">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_02.jpg"/>
         </media>
       
   </para>
-    <para><emphasis>Step 3 -</emphasis> Write the divisor as \(x-c\) and place \(c\) in the synthetic division in the divisor box.</para>
-    <para>
+    <para id="para-00057"><emphasis>Step 3 -</emphasis> Write the divisor as \(x-c\) and place \(c\) in the synthetic division in the divisor box.</para>
+    <para id="para-00058">
       
         <media alt=".">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_03.jpg"/>
         </media>
       
   </para>
-    <para><emphasis>Step 4 -</emphasis> Bring down the first coefficient to the third row.</para>
-    <para>
+    <para id="para-00059"><emphasis>Step 4 -</emphasis> Bring down the first coefficient to the third row.</para>
+    <para id="para-00060">
       
         <media alt=".">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_04.jpg"/>
         </media>
       
   </para>
-    <para><emphasis>Step 5 -</emphasis> Multiply that coefficient by the divisor and place the result in the second row under the second coefficient.</para>
-    <para>
+    <para id="para-00061"><emphasis>Step 5 -</emphasis> Multiply that coefficient by the divisor and place the result in the second row under the second coefficient.</para>
+    <para id="para-00062">
       
         <media alt=".">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_05.jpg"/>
         </media>
       
   </para>
-    <para><emphasis>Step 6 -</emphasis> Add the second column, putting the result in the third row.</para>
-    <para>
+    <para id="para-00063"><emphasis>Step 6 -</emphasis> Add the second column, putting the result in the third row.</para>
+    <para id="para-00064">
       
         <media alt=".">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_06.jpg"/>
         </media>
       
   </para>
-    <para><emphasis>Step 7 -</emphasis> Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
-    <para>
+    <para id="para-00065"><emphasis>Step 7 -</emphasis> Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
+    <para id="para-00066">
       
         <media alt=".">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_07.jpg"/>
         </media>
       
   </para>
-    <para><emphasis>Step 8 -</emphasis> Add the third column, putting the result in the third row.</para>
-    <para>
+    <para id="para-00067"><emphasis>Step 8 -</emphasis> Add the third column, putting the result in the third row.</para>
+    <para id="para-00068">
       
         <media alt=".">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_08.jpg"/>
         </media>
       
   </para>
-    <para><emphasis>Step 9 -</emphasis> Multiply that result by the divisor and place the result in the third row under the third coefficient.</para>
-    <para>
+    <para id="para-00069"><emphasis>Step 9 -</emphasis> Multiply that result by the divisor and place the result in the third row under the third coefficient.</para>
+    <para id="para-00070">
       
         <media alt=".">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_09.jpg"/>
         </media>
       
   </para>
-    <para><emphasis>Step 10 -</emphasis> Add the final column, putting the result in the third row.</para>
-    <para>
+    <para id="para-00071"><emphasis>Step 10 -</emphasis> Add the final column, putting the result in the third row.</para>
+    <para id="para-00072">
       
         <media alt=".">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_10.jpg"/>
         </media>
       
   </para>
-    <para><emphasis>Step 11 -</emphasis> The quotient is \(2x^2-1x+3\), and the remainder is \(2\).</para>
-    <para>The division is complete. The numbers in the third row give us the result. The \(2\) \(-1\) \(3\) are the coefficients of the quotient. The quotient is \(2x^2-1x+3\). The \(2\) in the box in the third row is the remainder.</para>
-    <para>Compare your answer:</para>
-    <para>
+    <para id="para-00073"><emphasis>Step 11 -</emphasis> The quotient is \(2x^2-1x+3\), and the remainder is \(2\).</para>
+    <para id="para-00074">The division is complete. The numbers in the third row give us the result. The \(2\) \(-1\) \(3\) are the coefficients of the quotient. The quotient is \(2x^2-1x+3\). The \(2\) in the box in the third row is the remainder.</para>
+    <para id="para-00075">Compare your answer:</para>
+    <para id="para-00076">
       <m:math display="inline">
         <m:semantics>
           <m:mrow>
@@ -587,41 +587,41 @@
         </m:semantics>
       </m:math>
   </para>
-    <para>
+    <para id="para-00077">
      <emphasis>Example 2</emphasis>
   </para>
-    <para>Use synthetic division to find the quotient and remainder when \(x^4-16x^2+3x+12\) is divided by \(x + 4\).</para>
-    <para>The polynomial \(x^4-16x^2+3x+12\) has its terms in order with descending degree, but we notice there is no \(x^3\) term. We will add a \(0\) as a placeholder for the \(x^3\) term. In \(x - c\) form, the divisor is \(x-(-4)\).</para>
-    <para>
+    <para id="para-00078">Use synthetic division to find the quotient and remainder when \(x^4-16x^2+3x+12\) is divided by \(x + 4\).</para>
+    <para id="para-00079">The polynomial \(x^4-16x^2+3x+12\) has its terms in order with descending degree, but we notice there is no \(x^3\) term. We will add a \(0\) as a placeholder for the \(x^3\) term. In \(x - c\) form, the divisor is \(x-(-4)\).</para>
+    <para id="para-00080">
       
         <media alt="The figure shows the results of using synthetic division with the example of the polynomial x to the fourth power minus 16 x squared plus 3 x plus 12 divided by x plus 4. The divisor number if negative 4. The first row is 1 0 negative 16 3 12. The first column is 1 blank 1. The second column is negative 16 16 0. The third column is 3 0 3. The fourth column is 12 negative 12 0.">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_11.jpg"/>
         </media>
       
   </para>
-    <para>We divided a 4th degree polynomial by a 1st degree polynomial, so the quotient will be a 3rd degree polynomial. Reading from the third row, the quotient has the coefficients \(1\) \(-4\) \(0\) \(3\), which is \(x^3-4x^2+3\). The remainder is \(0\).</para>
-    <note class="try">
+    <para id="para-00081">We divided a 4th degree polynomial by a 1st degree polynomial, so the quotient will be a 3rd degree polynomial. Reading from the third row, the quotient has the coefficients \(1\) \(-4\) \(0\) \(3\), which is \(x^3-4x^2+3\). The remainder is \(0\).</para>
+    <note class="try" id="note-00003">
 <title>Try It: Dividing Polynomials Using Synthetic Division</title>
     
-      <exercise>
-        <problem>
-          <para>Use synthetic division to find the quotient and remainder when \(3x^3+10x^2+6x-2\) is divided by \(x + 2\).</para>
-          <para>Use synthetic division to find the quotient and remainder when \(x^4-16x^2+5x+20\) is divided by \(x + 4\).</para>
-          <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00007">
+        <problem id="prob-00007">
+          <para id="para-00082">Use synthetic division to find the quotient and remainder when \(3x^3+10x^2+6x-2\) is divided by \(x + 2\).</para>
+          <para id="para-00083">Use synthetic division to find the quotient and remainder when \(x^4-16x^2+5x+20\) is divided by \(x + 4\).</para>
+          <para id="para-00084">Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Here is how to find these quotients using synthetic division:</para>
-          <list class="os-raise-noindent" list-type="enumerated">
+        <solution id="sol-00007">
+          <para id="para-00085">Here is how to find these quotients using synthetic division:</para>
+          <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
             <item>\(
     3x^2+4x-2\); remainder of \(2\)</item>
           </list>
-          <para>\(\begin{array}{l}\left. {\underline {\,
+          <para id="para-00086">\(\begin{array}{l}\left. {\underline {\,
   { - 2} \,}}\! \right| \,\,\,\,\,3\,\,\,\,\,\,10\,\,\,\,\,\,6\,\,\,\,\, - 2\\\underline {\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 6\,\,\,\, - 8\,\,\,\,\,\,\,4\,\,} \\\,\,\,\,\,\,\,\,\,\,\,\,3\,\,\,\,\,\,4\,\,\,\,\, - 2\,\,\,\,\,\,\left| \!{\overline {\,
   2 \,}} \right. \end{array}\)</para>
-          <list class="os-raise-noindent" list-type="enumerated">
+          <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
             <item>\(x^3-4x^2+5\); remainder of \(0\)</item>
           </list>
-          <para>\(\begin{array}{l}\left. {\underline {\,
+          <para id="para-00087">\(\begin{array}{l}\left. {\underline {\,
   { - 4} \,}}\! \right| \,\,\,\,\,1\,\,\,\,\,\,\,\,0\,\,\,\,\,\, - 16\,\,\,\,\,\,\,5\,\,\,\,\,\,\,\,20\\\underline {\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 4\,\,\,\,\,\,\,\,\,16\,\,\,\,\,\,\,0\,\,\,\, - 20\,} \\\,\,\,\,\,\,\,\,\,\,\,\,1\,\,\,\,\, - 4\,\,\,\,\,\,\,\,\,\,0\,\,\,\,\,\,\,\,5\,\,\,\,\,\,\,\,\,\left| \!{\overline {\,
   0 \,}} \right. \end{array}\)</para>
         </solution>

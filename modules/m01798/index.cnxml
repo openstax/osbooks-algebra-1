@@ -6,25 +6,25 @@
     <md:uuid>9795d3c4-b3f6-415c-baba-9480d68bac04</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <exercise>
-        <problem>
-          <para>Here are two functions: \(p(x)=6x^2\) and \(q(x)=3^x\).</para>
-          <para>Investigate the output of \(p\) and \(q\) for different values of \(x\). For large enough values of \(x\), one function will have a greater value than the other.</para>
-          <para>Which function will have a greater value as \(x\) increases?</para>
-          <para>Support your answer with tables, graphs, or other representations.</para>
-          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00001">Here are two functions: \(p(x)=6x^2\) and \(q(x)=3^x\).</para>
+          <para id="para-00002">Investigate the output of \(p\) and \(q\) for different values of \(x\). For large enough values of \(x\), one function will have a greater value than the other.</para>
+          <para id="para-00003">Which function will have a greater value as \(x\) increases?</para>
+          <para id="para-00004">Support your answer with tables, graphs, or other representations.</para>
+          <para id="para-00005">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(q\) is larger when \(x=0\) and again when \(x=5\). Once \(x\) is larger than \(5\), \(q\) is growing much more quickly, as shown in the table.</para>
-          <table class="os-raise-doubleheadertable">
+        <solution id="sol-00001">
+          <para id="para-00006">Compare your answer:</para>
+          <para id="para-00007">\(q\) is larger when \(x=0\) and again when \(x=5\). Once \(x\) is larger than \(5\), \(q\) is growing much more quickly, as shown in the table.</para>
+          <table class="os-raise-doubleheadertable" id="table-00005">
             <tgroup cols="3">
               <tbody>
                 <row>
                   <entry>
-                    <emphasis />
+                    <emphasis/>
                   </entry>
                   <entry>
                     <emphasis>\(p(x)\)</emphasis>
@@ -92,66 +92,66 @@
               </tbody>
             </tgroup>
           </table>
-          <para>Alternatively, here is a graph showing the plotted values from the table and another showing \(y=p(x)\) and \(y=q(x)\).</para>
-          <para>
+          <para id="para-00008">Alternatively, here is a graph showing the plotted values from the table and another showing \(y=p(x)\) and \(y=q(x)\).</para>
+          <para id="para-00009">
                   <media alt="A graph showing the plotted values from the table.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_06_06_01.svg" />
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_06_06_01.svg"/>
               </media>
             
          </para>
-          <para>
+          <para id="para-00010">
                   <media alt="Graphs of q and p on same graph.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_06_06_02.svg" />
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_06_06_02.svg"/>
               </media>
             
          </para>
         </solution>
       </exercise>
-      <section>
+      <section id="sect-00002">
         <title>Are you ready for more?</title>
-        <exercise class="RFM1">
-          <problem>
+        <exercise class="RFM1" id="exer-00002">
+          <problem id="prob-00002">
             <title>Extending Your Thinking</title>
-            <para>Janna says that some exponential functions grow more slowly than the quadratic function as \(x\) increases. Do you agree with Janna? Be prepared to show your reasoning.</para>
+            <para id="para-00011">Janna says that some exponential functions grow more slowly than the quadratic function as \(x\) increases. Do you agree with Janna? Be prepared to show your reasoning.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Yes. This is true for the functions \(g(x)=(1 \frac {1}{2})x\) and \(f(x)=x^2\) as \(x\) increases for \(x\)-values less than \(10\).</para>
+          <solution id="sol-00002">
+            <para id="para-00012">Compare your answer:</para>
+            <para id="para-00013">Yes. This is true for the functions \(g(x)=(1 \frac {1}{2})x\) and \(f(x)=x^2\) as \(x\) increases for \(x\)-values less than \(10\).</para>
           </solution>
         </exercise>
-        <exercise class="RFM1">
-          <problem>
-            <para>Could you have an exponential function \(g(x)=b^x\) so that \(g(x)&lt;f(x)\) for all values of \(x\)?</para>
+        <exercise class="RFM1" id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00014">Could you have an exponential function \(g(x)=b^x\) so that \(g(x)&lt;f(x)\) for all values of \(x\)?</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>No, \(g(0)&gt;f(0)\) for all values of \(b\) (except \(0\)), because \(b^0=1\) and \(0^2=0\). (If \(b=0\), there are problems if \(x\leq 0\), so this is not usually considered an exponential function.)</para>
+          <solution id="sol-00003">
+            <para id="para-00015">Compare your answer:</para>
+            <para id="para-00016">No, \(g(0)>f(0)\) for all values of \(b\) (except \(0\)), because \(b^0=1\) and \(0^2=0\). (If \(b=0\), there are problems if \(x\leq 0\), so this is not usually considered an exponential function.)</para>
           </solution>
         </exercise>
       </section>
       <!--End interaction-->
-      <section>
+      <section id="sect-00003">
         <title>Video: Comparing Exponential and Quadratic Functions</title>
-        <para>Watch the following video to learn more about functions.</para>
+        <para id="para-00017">Watch the following video to learn more about functions.</para>
         <media alt="Placeholder for Alt Text">
-          <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/a3e459a0bf5aade786458e33de808ab06fbd6993" />
+          <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/a3e459a0bf5aade786458e33de808ab06fbd6993"/>
         </media>
       </section>
     </section>
-    <note class="self-check">
-      <para>Which of the following has the greatest value as \(x\) increases?</para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00018">Which of the following has the greatest value as \(x\) increases?</para>
     </note>
-    <section>
+    <section id="sect-00004">
       <title>Additional Resources</title>
-      <section>
+      <section id="sect-00005">
         <title>Exponential versus Quadratic Functions</title>
-        <para>For each of the two functions, do the following:</para>
-        <list class="os-raise-noindent" list-type="enumerated">
+        <para id="para-00019">For each of the two functions, do the following:</para>
+        <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
           <item>Complete the table of values.</item>
           <item>Sketch a graph.</item>
           <item>Decide whether each function is linear, quadratic, or exponential, and be prepared to explain how you know.</item>
         </list>
-        <list class="os-raise-noindent" list-type="enumerated">
+        <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
           <item>\(f(x)=3\cdot 2^x\)</item>
         </list>
         <table class="os-raise-horizontaltable" id="table-00001">
@@ -182,15 +182,15 @@
             </tbody>
           </tgroup>
         </table>
-        <para>
+        <para id="para-00020">
           
             <media alt="Insert Alt Text">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_08_01.jpg" />
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_08_01.jpg"/>
             </media>
           
        </para>
-        <para>This function is exponential. It has a growth factor of \(2\).</para>
-        <list class="os-raise-noindent" list-type="enumerated">
+        <para id="para-00021">This function is exponential. It has a growth factor of \(2\).</para>
+        <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
           <item>\(g(x)=3\cdot x^2\)</item>
         </list>
         <table class="os-raise-horizontaltable" id="table-00002">
@@ -221,27 +221,27 @@
             </tbody>
           </tgroup>
         </table>
-        <para>
+        <para id="para-00022">
           
             <media alt="Insert Alt Text">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_08_02.jpg" />
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_08_02.jpg"/>
             </media>
           
        </para>
-        <para>This function is not linear because it does not have a constant rate of change, and it is not exponential because it does not have a constant growth factor. The function is quadratic because it can be represented by \(g(x)=3x^2\), which has \(x\) to the second power, and that is the greatest power.</para>
-        <para>Note: Between \(f(x)\) and \(g(x)\), \(f(x)\) will have the greater value as \(x\) increases.</para>
-        <note class="try">
+        <para id="para-00023">This function is not linear because it does not have a constant rate of change, and it is not exponential because it does not have a constant growth factor. The function is quadratic because it can be represented by \(g(x)=3x^2\), which has \(x\) to the second power, and that is the greatest power.</para>
+        <para id="para-00024">Note: Between \(f(x)\) and \(g(x)\), \(f(x)\) will have the greater value as \(x\) increases.</para>
+        <note class="try" id="note-00002">
           <title>Try It: Exponential versus Quadratic Functions</title>
-      <exercise>
-            <problem>
-              <para>Which of the following has the greater value as \(x\) increases, \(f(x)\) or \(g(x)\)?</para>
-              <para>\(f(x)=3x^2\)</para>
-              <para>\(g(x)=3^x\)</para>
-              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00004">
+            <problem id="prob-00004">
+              <para id="para-00025">Which of the following has the greater value as \(x\) increases, \(f(x)\) or \(g(x)\)?</para>
+              <para id="para-00026">\(f(x)=3x^2\)</para>
+              <para id="para-00027">\(g(x)=3^x\)</para>
+              <para id="para-00028">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
             </problem>
-            <solution>
-              <para>Here is how to determine which function has the greater value as \(x\) increases:</para>
-              <para>Make a table of values for each function, and then graph the function:</para>
+            <solution id="sol-00004">
+              <para id="para-00029">Here is how to determine which function has the greater value as \(x\) increases:</para>
+              <para id="para-00030">Make a table of values for each function, and then graph the function:</para>
               <table class="os-raise-horizontaltable" id="table-00003">
                 <tgroup cols="8">
                   <tbody>
@@ -272,10 +272,10 @@
                   </tbody>
                 </tgroup>
               </table>
-              <para>
+              <para id="para-00031">
                 
                   <media alt="">
-                    <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_08_03.jpg" />
+                    <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_08_03.jpg"/>
                   </media>
                 
              </para>
@@ -309,14 +309,14 @@
                   </tbody>
                 </tgroup>
               </table>
-              <para>
+              <para id="para-00032">
                 
                   <media alt="">
-                    <image mime-type="image/png" src="../../media/Algebra-1_08_06_08_04.png" />
+                    <image mime-type="image/png" src="../../media/Algebra-1_08_06_08_04.png"/>
                   </media>
                 
              </para>
-              <para>Looking at both the table of values and the graphs, \(g(x)\) will have a greater value than \(f(x)\) as \(x\) increases. This is because \(g(x)\) is exponential and has a constant growth factor.</para>
+              <para id="para-00033">Looking at both the table of values and the graphs, \(g(x)\) will have a greater value than \(f(x)\) as \(x\) increases. This is because \(g(x)\) is exponential and has a constant growth factor.</para>
             </solution>
           </exercise>
         </note>

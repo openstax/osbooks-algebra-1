@@ -6,20 +6,20 @@
     <md:uuid>a8fc5639-c598-4459-97b0-b97d202b8457</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
       <!--Text Entry Interaction Start -->
-      <para>In 2015, the number of wildcats in a national park was 284. It was estimated that the wildcat population increased by 4% each year.</para>
-      <exercise>
-        <problem>
-          <para>Instead of writing a recursive definition, a researcher for the park writes \(W_n = 284(1.04)^n\), where \(W\) is the projected wildcat population \(n\) years after 2015. Explain where the different factors in her expression came from.</para>
+      <para id="para-00001">In 2015, the number of wildcats in a national park was 284. It was estimated that the wildcat population increased by 4% each year.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00002">Instead of writing a recursive definition, a researcher for the park writes \(W_n = 284(1.04)^n\), where \(W\) is the projected wildcat population \(n\) years after 2015. Explain where the different factors in her expression came from.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para>Your answer may vary, but here are some samples. 
+        <solution id="sol-00001">
+          <para id="para-00003"/>
+          <para id="para-00004">Compare your answer:</para>
+          <para id="para-00005">Your answer may vary, but here are some samples. 
     </para>
-          <list>
+          <list id="list-00001">
             <item>The 284 is the starting population of the wildcats in 2015.</item>
             <item>The 1.04 represents that the population grows 4% or 0.04 each year.</item>
             <item>The 1.04 comes from 100% of the population + 4% growth = 104% or 1.04.</item>
@@ -31,11 +31,11 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <para>Work with a partner to discuss and create a table of values to estimate the projected wildcat population over the next 7 years.</para>
+      <para id="para-00006">Work with a partner to discuss and create a table of values to estimate the projected wildcat population over the next 7 years.</para>
       
-        <exercise>
-          <problem>
-            <para> Complete the table when \(n=-2\) on your paper and check your answers.</para>
+        <exercise id="exer-00002">
+          <problem id="prob-00002">
+            <para id="para-00007"> Complete the table when \(n=-2\) on your paper and check your answers.</para>
             <table class="os-raise-wideequaltable" id="table-00001">
               <tgroup cols="3"><tbody><row>
                   <entry>
@@ -89,10 +89,10 @@
                   <entry> </entry>
                 </row>
               </tbody></tgroup></table>
-            <para>When you have completed the table, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00008">When you have completed the table, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
+          <solution id="sol-00002">
+            <para id="para-00009">Compare your answer:</para>
             <table class="os-raise-wideequaltable" id="table-00002">
               <tgroup cols="3"><tbody><row>
                   <entry>
@@ -149,16 +149,16 @@
           </solution>
         </exercise>
       
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>Use the graphing tool or technology outside the course. Graph the data that represents the population projections for this scenario.</item>
       </list>
       <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
-        <exercise>
-          <problem>
-            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00010">When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answers:</para>
+          <solution id="sol-00003">
+            <para id="para-00011">Compare your answers:</para>
             
               <media alt="Insert Alt Text">
                 <image mime-type="image/png" src="../../media/Algebra-1_04_21_07_01.png"/>
@@ -167,106 +167,106 @@
           </solution>
         </exercise>
       
-      <exercise>
-        <problem>
-          <para>Calculate and enter the year when the wildcat population will exceed 500 members.</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00012">Calculate and enter the year when the wildcat population will exceed 500 members.</para>
         </problem>
-        <solution>
-          <para>Enter your prediction here:</para>
-          <para>Compare your answer:</para>
-          <para>The wildcat population is expected to exceed 500 members in 2030 when they are projected to have 511 wildcats.</para>
+        <solution id="sol-00004">
+          <para id="para-00013">Enter your prediction here:</para>
+          <para id="para-00014">Compare your answer:</para>
+          <para id="para-00015">The wildcat population is expected to exceed 500 members in 2030 when they are projected to have 511 wildcats.</para>
         </solution>
       </exercise>
-      <exercise>
-        <problem>
-          <para>Is the data that represents this scenario an arithmetic or geometric sequence? Explain your reasoning.</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00016">Is the data that represents this scenario an arithmetic or geometric sequence? Explain your reasoning.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para>Your answer may vary, but here are some samples: 
+        <solution id="sol-00005">
+          <para id="para-00017"/>
+          <para id="para-00018">Compare your answer:</para>
+          <para id="para-00019">Your answer may vary, but here are some samples: 
       
     </para>
-          <list>
+          <list id="list-00003">
             <item>This data represents a geometric sequence because the equation has a common ratio of 1.04.</item>
             <item>This data represents a geometric sequence because the ratio between consecutive terms in the table is 1.04.</item>
             <item>This data represents a geometric sequence because the graph does not depict a line, it is curved a little and does not have a constant slope.</item>
           </list>
         </solution>
       </exercise>
-      <para>Remember that a recursive formula defines terms using one or more of the previous terms. If you need to calculate the \(100^{th}\) term or the \(500^{th}\) term in a sequence, the recursive formula becomes difficult to use if you do not know the values of the terms near \(n = 100\) or \(n = 500\).</para>
-      <para>Different definitions can often create the same sequence but are more generalizable. These are called general rules or explicit rules. These formulas can be used to find any term in the sequence and may also be referred to as the rule to find the nth term.</para>
+      <para id="para-00020">Remember that a recursive formula defines terms using one or more of the previous terms. If you need to calculate the \(100^{th}\) term or the \(500^{th}\) term in a sequence, the recursive formula becomes difficult to use if you do not know the values of the terms near \(n = 100\) or \(n = 500\).</para>
+      <para id="para-00021">Different definitions can often create the same sequence but are more generalizable. These are called general rules or explicit rules. These formulas can be used to find any term in the sequence and may also be referred to as the rule to find the nth term.</para>
       <note id="note-00001">
         <title>Geometric Sequence Formulas</title>
-        <para><emphasis>Recursive Formula</emphasis></para>
-        <para>\(a_n = a_{n-1} \cdot r\), 
+        <para id="para-00022"><emphasis>Recursive Formula</emphasis></para>
+        <para id="para-00023">\(a_n = a_{n-1} \cdot r\), 
      Where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.</para>
-     <para><emphasis>Explicit General Formula</emphasis></para>
-        <para>\(a_n = a_1 (r)^{n-1} \)
+     <para id="para-00024"><emphasis>Explicit General Formula</emphasis></para>
+        <para id="para-00025">\(a_n = a_1 (r)^{n-1} \)
     Where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.</para>
       </note>
     </section>
-    <note class="self-check"><title>Self Check</title>
-      <para>For the function \(J(n)= 180(\frac13)^{n-1}\), what is the value of the function when \(n=5\)?</para></note>
-      <section>
+    <note class="self-check" id="note-00002"><title>Self Check</title>
+      <para id="para-00026">For the function \(J(n)= 180(\frac13)^{n-1}\), what is the value of the function when \(n=5\)?</para></note>
+      <section id="sect-00002">
         <title>Additional Resources</title>
         
-  <section><title>The nth Term of a Geometric Sequence</title>
-    <note class="extra-support">
-    <title>The nth Term of a Geometric Sequence</title><para><!--Extra Support Name-->General Term (nth Term) of a Geometric Sequence</para>
-    <!--Support Content--><para>The general term of a geometric sequence with first term \(a_1\) and the common ratio \(r\) is: \(a_n=a_1r^{n-1}\).</para>
+  <section id="sect-00003"><title>The nth Term of a Geometric Sequence</title>
+    <note class="extra-support" id="note-00003">
+    <title>The nth Term of a Geometric Sequence</title><para id="para-00027"><!--Extra Support Name-->General Term (nth Term) of a Geometric Sequence</para>
+    <!--Support Content--><para id="para-00028">The general term of a geometric sequence with first term \(a_1\) and the common ratio \(r\) is: \(a_n=a_1r^{n-1}\).</para>
     </note>
   
-    <para><emphasis>Example 1</emphasis></para>
-  <para>Write the explicit formula for the sequence given by the terms 3, 2, 43, 89 ...</para>
-  <para><emphasis>Solution: </emphasis></para>
-  <para><emphasis>Step 1-</emphasis> Write the general formula.
+    <para id="para-00029"><emphasis>Example 1</emphasis></para>
+  <para id="para-00030">Write the explicit formula for the sequence given by the terms 3, 2, 43, 89 ...</para>
+  <para id="para-00031"><emphasis>Solution: </emphasis></para>
+  <para id="para-00032"><emphasis>Step 1-</emphasis> Write the general formula.
   \(a_n = a_1 (r^{n-1})\)</para>
   
-  <para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
+  <para id="para-00033"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
   \(a_1 = 3\), \(r = \frac23\)
   \(a_n = 3 (\frac 23)^{n-1}\)</para>
-  <para>So, the explicit formula for the sequence 3, 2, 43, 89 ... is \(a_n = 3 (\frac23)^{n-1}\).</para>
-  <para>Just like it is with arithmetic sequences, the explicit formula makes finding any term easier to determine - especially term numbers that are very large!</para>
+  <para id="para-00034">So, the explicit formula for the sequence 3, 2, 43, 89 ... is \(a_n = 3 (\frac23)^{n-1}\).</para>
+  <para id="para-00035">Just like it is with arithmetic sequences, the explicit formula makes finding any term easier to determine - especially term numbers that are very large!</para>
   
-  <para>Example 2</para>
+  <para id="para-00036">Example 2</para>
   
-  <para>Find the 14th term of a sequence where the first term is 64 and the common ratio, \(r =\frac 12\).</para>
-  <para><emphasis>Solution: </emphasis></para>
-  <para><emphasis>Step 1 -</emphasis> Write the general formula.
+  <para id="para-00037">Find the 14th term of a sequence where the first term is 64 and the common ratio, \(r =\frac 12\).</para>
+  <para id="para-00038"><emphasis>Solution: </emphasis></para>
+  <para id="para-00039"><emphasis>Step 1 -</emphasis> Write the general formula.
   \(a_n = a_1 (r^{n-1})\)</para>
-  <para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number.
+  <para id="para-00040"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number.
   \(a_1 = 64\), \(r = \frac12\), \(n = 14\)
   \(a_{14} = 64 (\frac12)^{14-1}\)</para>
-  <para><emphasis>Step 3 -</emphasis> Simplify the expression.
+  <para id="para-00041"><emphasis>Step 3 -</emphasis> Simplify the expression.
   \(a_{14} = 64 (\frac12)^{13}\)
   \(a_{14} = 64 (\frac12)^{13}\)
   \(a_{14} = 64 (\frac{1}{8192})\)
   \(a_{14} = \frac{1}{128}\)</para>
-   <para>If the explicit formula for this question was needed, we would not have substituted \(n = 14\) and the nth term formula would have been \(a_n = 64 (\frac12)^{n-1}\).</para>
+   <para id="para-00042">If the explicit formula for this question was needed, we would not have substituted \(n = 14\) and the nth term formula would have been \(a_n = 64 (\frac12)^{n-1}\).</para>
   
   
-  <note class="try">
+  <note class="try" id="note-00004">
   <title>Try It: The nth Term of a Geometric Sequence</title>
   
-  <exercise>
-    <problem>
+  <exercise id="exer-00006">
+    <problem id="prob-00006">
        
         
-      <para>Find the formula for the nth term of a sequence where the first term is 81 and the common ratio  is \(r=\frac13\).</para>
+      <para id="para-00043">Find the formula for the nth term of a sequence where the first term is 81 and the common ratio  is \(r=\frac13\).</para>
     
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+    <para id="para-00044">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
     </para>
     
-    </problem><solution> 
-      <para>Compare your answer:</para>
+    </problem><solution id="sol-00006"> 
+      <para id="para-00045">Compare your answer:</para>
   
-  <para>Here is how to find the 11th term of the sequence:</para>
+  <para id="para-00046">Here is how to find the 11th term of the sequence:</para>
   
-  <para><emphasis>Step 1 -</emphasis> Write the general formula.
+  <para id="para-00047"><emphasis>Step 1 -</emphasis> Write the general formula.
   \(a_n=a_1(r^{n-1})\)</para>
   
-  <para><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
+  <para id="para-00048"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
   \(a_{11}=81\), \(r=\frac13\)
   \(a_n = 81 (\frac13)^{n-1}\)
  </para>

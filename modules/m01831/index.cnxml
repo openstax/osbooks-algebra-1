@@ -6,10 +6,10 @@
     <md:uuid>c1075676-fbfd-4cbb-b364-e4df4de863bc</md:uuid>
   </metadata>
   <content>
-    <section>
-      <para>Earlier, in activity 7.6.1, you completed a table that represents the height of a cannonball, in feet, as a function of time, in seconds, if there was no gravity.</para>
-      <para>This table shows the actual heights of the ball at different times.</para>
-      <table class="os-raise-horizontaltable">
+    <section id="sect-00001">
+      <para id="para-00001">Earlier, in activity 7.6.1, you completed a table that represents the height of a cannonball, in feet, as a function of time, in seconds, if there was no gravity.</para>
+      <para id="para-00002">This table shows the actual heights of the ball at different times.</para>
+      <table class="os-raise-horizontaltable" id="table-00001">
         <tgroup cols="7"><tbody><row>
             <entry>
              <emphasis>Seconds</emphasis>
@@ -58,14 +58,14 @@
           </row>
         </tbody></tgroup></table>
       
-        <exercise>
-          <problem>
-            <para>Compare the values in this table with those in the table you completed earlier. What are two similarities or differences that you notice?</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <para id="para-00003">Compare the values in this table with those in the table you completed earlier. What are two similarities or differences that you notice?</para>
+            <para id="para-00004">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <list>
+          <solution id="sol-00001">
+            <para id="para-00005">Compare your answer:</para>
+            <list id="list-00001">
               <item>The actual height values are all less than the hypothetical ones (except the first, before the cannonball has been fired).</item>
               <item>The difference between the distances after some number of seconds is not constant. For example, 1 second after firing, the distances in the two tables are 416 and 400, a difference of 16 feet. Two seconds after firing, the difference between the two values is 64 feet.</item>
             </list>
@@ -73,18 +73,18 @@
         </exercise>
       
       <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
-        <list class="os-raise-noindent" list-type="enumerated">
+        <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>Use the graphing tool or technology outside the course.</item>
       </list>
       
-        <exercise>
-          <problem>
-            <para>Plot the two sets of data you have on the same coordinate plane.</para>
-            <para>Select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00002">
+          <problem id="prob-00002">
+            <para id="para-00006">Plot the two sets of data you have on the same coordinate plane.</para>
+            <para id="para-00007">Select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
+          <solution id="sol-00002">
+            <para id="para-00008">Compare your answer:</para>
+            <para id="para-00009">
                       <media alt="Grid with points plotted. X-axis labeled with time in seconds and \(y\)-axis labeled with distance above ground in feet.">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_08_03_01.svg"/>
                 </media>
@@ -94,87 +94,87 @@
         </exercise>
       
       
-        <exercise>
-          <problem>
-            <para>How are the two graphs alike? How are they different?</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00010">How are the two graphs alike? How are they different?</para>
+            <para id="para-00011">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>The dots (triangles) that form a straight line represent the hypothetical data that ignore gravity. The dots that form a curve represent the actual heights. They both start at the same place (0,10). The hypothetical data show the heights increasing at a constant rate, in a linear pattern, while the actual data show values growing more slowly each successive second.</para>
+          <solution id="sol-00003">
+            <para id="para-00012">Compare your answer:</para>
+            <para id="para-00013">The dots (triangles) that form a straight line represent the hypothetical data that ignore gravity. The dots that form a curve represent the actual heights. They both start at the same place (0,10). The hypothetical data show the heights increasing at a constant rate, in a linear pattern, while the actual data show values growing more slowly each successive second.</para>
           </solution>
         </exercise>
       
-      <section class="check-understanding">
+      <section class="check-understanding" id="sect-00002">
         <title>Activity</title>
         <exercise id="_75cbaf70-41f2-4428-9349-568e519e5f94" class="multiple-choice">
-          <problem>
+          <problem id="prob-00004">
             
-            <para>What is the starting position for both graphs?</para>
+            <para id="para-00014">What is the starting position for both graphs?</para>
           </problem>
-          <solution>
-            <para>Correct! The starting position for both graphs is 10.</para>
-            <para>The correct answer is 10. The starting position for both graphs is 10.</para>
+          <solution id="sol-00004">
+            <para id="para-00015">Correct! The starting position for both graphs is 10.</para>
+            <para id="para-00016">The correct answer is 10. The starting position for both graphs is 10.</para>
           </solution>
         </exercise>
         <exercise id="ede0809e-5b2b-4de6-8c55-99f545c4f141" class="multiple-choice">
-          <problem>
+          <problem id="prob-00005">
             
-            <para>What was the constant rate of change for the cannonball without gravity?</para>
+            <para id="para-00017">What was the constant rate of change for the cannonball without gravity?</para>
           </problem>
-          <solution>
-            <para>Correct! The constant rate of change for the cannonball without gravity was 406.</para>
-            <para>The correct answer is 406. The constant rate of change for the cannonball without gravity was 406.</para>
+          <solution id="sol-00005">
+            <para id="para-00018">Correct! The constant rate of change for the cannonball without gravity was 406.</para>
+            <para id="para-00019">The correct answer is 406. The constant rate of change for the cannonball without gravity was 406.</para>
           </solution>
         </exercise>
       </section>
-      <para>The constant rate of change is also the <term class="glossary-tooltip">initial velocity</term>. Recall that the effect of gravity is represented by \(16t^2\). Gravity causes the bend in the curve for the second table and graph because it pulls the cannonball down toward the ground.</para>
+      <para id="para-00020">The constant rate of change is also the <term class="glossary-tooltip" id="term-00001">initial velocity</term>. Recall that the effect of gravity is represented by \(16t^2\). Gravity causes the bend in the curve for the second table and graph because it pulls the cannonball down toward the ground.</para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>With a partner, write an equation to model the actual distance \(d\), in feet, of the ball \(t\) seconds after it was fired from the cannon. Consider gravity and how the points changed on the graph.</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00006">
+          <para id="para-00021">With a partner, write an equation to model the actual distance \(d\), in feet, of the ball \(t\) seconds after it was fired from the cannon. Consider gravity and how the points changed on the graph.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>Notice that gravity caused the heights to decrease, so, the effect of gravity is to subtract \(16t^2\). An equation for the actual height of the cannonball is \(d=10+406t-16t^2\).</para>
+        <solution id="sol-00006">
+          <para id="para-00022">Compare your answer:</para>
+          <para id="para-00023">Notice that gravity caused the heights to decrease, so, the effect of gravity is to subtract \(16t^2\). An equation for the actual height of the cannonball is \(d=10+406t-16t^2\).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
 
-    <note class="self-check">
-      <para>An arrow is shot up into the air from 5 feet, at an initial velocity of 220 feet per second. Which equation can represent the height, \(h(t)\), for any time, \(t\)?</para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00024">An arrow is shot up into the air from 5 feet, at an initial velocity of 220 feet per second. Which equation can represent the height, \(h(t)\), for any time, \(t\)?</para>
     </note>
 
-    <section><title>The Effect of Gravity on Motion</title>
-      <para>A firework is sent up in the air, at an initial velocity of 130 feet per second, from a height of 6 feet. Write an equation that represents the height, \(h(t)\), of the firework for any second, \(t\). Remember to consider the effect of gravity.</para>
-      <para><emphasis>Step 1</emphasis> - Identify the initial velocity, \(v_0\).
+    <section id="sect-00003"><title>The Effect of Gravity on Motion</title>
+      <para id="para-00025">A firework is sent up in the air, at an initial velocity of 130 feet per second, from a height of 6 feet. Write an equation that represents the height, \(h(t)\), of the firework for any second, \(t\). Remember to consider the effect of gravity.</para>
+      <para id="para-00026"><emphasis>Step 1</emphasis> - Identify the initial velocity, \(v_0\).
         130 ft per second</para>
-      <para><emphasis>Step 2</emphasis> - Identify the starting height, \(h_0\).
+      <para id="para-00027"><emphasis>Step 2</emphasis> - Identify the starting height, \(h_0\).
         6</para>
-      <para><emphasis>Step 3</emphasis> - Write an equation of this form: \(h(t)=h_0+v_0t-16t^2\).
+      <para id="para-00028"><emphasis>Step 3</emphasis> - Write an equation of this form: \(h(t)=h_0+v_0t-16t^2\).
         \(h(t)=6+130t-16t^2\)</para>
-      <note class="try">
+      <note class="try" id="note-00002">
       <title>Try It: The Effect of Gravity on Motion</title>
       
-      <exercise>
-        <problem>
+      <exercise id="exer-00005">
+        <problem id="prob-00007">
           
-          <para>Write an equation if a firework is shot from 2 feet off the ground at an initial velocity of 110 feet per second. Write an equation that represents the height, \(h(t)\), of the firework for any second, \(t\). Remember to consider the effect of gravity.</para>
+          <para id="para-00029">Write an equation if a firework is shot from 2 feet off the ground at an initial velocity of 110 feet per second. Write an equation that represents the height, \(h(t)\), of the firework for any second, \(t\). Remember to consider the effect of gravity.</para>
         
-        <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <para id="para-00030">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         
-        </problem><solution>
-        <para>Here is how to write the equation for the height of the firework:</para>
+        </problem><solution id="sol-00007">
+        <para id="para-00031">Here is how to write the equation for the height of the firework:</para>
         
-        <para><emphasis>Step 1</emphasis> - Identify the initial velocity, \(v_0\).
+        <para id="para-00032"><emphasis>Step 1</emphasis> - Identify the initial velocity, \(v_0\).
           110 ft per second</para>
         
-        <para><emphasis>Step 2</emphasis> - Identify the starting height, \(h_0\).
+        <para id="para-00033"><emphasis>Step 2</emphasis> - Identify the starting height, \(h_0\).
           2</para>
         
-        <para><emphasis>Step 3</emphasis> - Write an equation of this form: \(h(t)=h_0+v_0t-16t^2\).
+        <para id="para-00034"><emphasis>Step 3</emphasis> - Write an equation of this form: \(h(t)=h_0+v_0t-16t^2\).
           \(h(t)=2+110t-16t^2\)</para>
       
       </solution></exercise></note>

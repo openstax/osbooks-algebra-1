@@ -6,62 +6,61 @@
     <md:uuid>a08f01af-c996-4c08-b54d-b70e1d35a505</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Warm Up Activity</title>
-      <para>In an earlier lesson, you saw the equation \( V + F - 2 = E \), which relates the number of vertices, faces, and edges in a Platonic solid.</para>
-      <para>In questions 1 - 2, write an equation that makes it easier to find the number of vertices in each of the Platonic solids described:</para>
+      <para id="para-00001">In an earlier lesson, you saw the equation \( V + F - 2 = E \), which relates the number of vertices, faces, and edges in a Platonic solid.</para>
+      <para id="para-00002">In questions 1 - 2, write an equation that makes it easier to find the number of vertices in each of the Platonic solids described:</para>
       <!--Q1-->
-      <exercise>
-        <problem>
-          <para>An octahedron (shown here), which has 8 faces</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">An octahedron (shown here), which has 8 faces</para>
           
-            <media
-              alt="Three dimensonal octahedron. Two triangular pyramids joined at rectangular bases.  ">
-              <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_11_02_01.svg" />
+            <media alt="Three dimensonal octahedron. Two triangular pyramids joined at rectangular bases.  ">
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_11_02_01.svg"/>
             </media>
           
         </problem>
-        <solution>
-          <para>Compare your answer: \(V=E-6\)</para>
-          <para> \(V+8−2=E\) \(V+6=E\) \(V=E-6\)</para>
+        <solution id="sol-00001">
+          <para id="para-00004">Compare your answer: \(V=E-6\)</para>
+          <para id="para-00005"> \(V+8−2=E\) \(V+6=E\) \(V=E-6\)</para>
         </solution>
       </exercise>
       <!--Interaction
       End -->
       <!--Q2-->
-      <exercise>
-        <problem>
-          <para>An icosahedron, which has 30 edges</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00006">An icosahedron, which has 30 edges</para>
         </problem>
-        <solution>
-          <para>Compare your answer: \(V=32-F\)</para>
-          <para> \(V+F−2=30\) \(V+F−2+2=30+2\) \(V+F=32\) \(F=32-F\)</para>
+        <solution id="sol-00002">
+          <para id="para-00007">Compare your answer: \(V=32-F\)</para>
+          <para id="para-00008"> \(V+F−2=30\) \(V+F−2+2=30+2\) \(V+F=32\) \(F=32-F\)</para>
         </solution>
       </exercise>
       <!--Interaction
       End -->
       <!--Q3-->
-      <exercise>
-        <problem>
-          <para>A Buckminsterfullerene (also called a “Buckyball”) is a polyhedron with 60 vertices. It is not a Platonic solid, but the numbers of faces, edges, and vertices are related the same way as those in a Platonic solid.</para>
-          <para>Write an equation that makes it easier to find the number of faces a Buckyball has if we know how many edges it has.</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00009">A Buckminsterfullerene (also called a “Buckyball”) is a polyhedron with 60 vertices. It is not a Platonic solid, but the numbers of faces, edges, and vertices are related the same way as those in a Platonic solid.</para>
+          <para id="para-00010">Write an equation that makes it easier to find the number of faces a Buckyball has if we know how many edges it has.</para>
         </problem>
-        <solution>
-          <para>Compare your answer: \(F=E−58\)</para>
-          <para>\(V+F−2=E\) \(60+F−2=E\) \(58+F=E\) \(58-58+F=E-58\) \(F=E-58\)</para>
+        <solution id="sol-00003">
+          <para id="para-00011">Compare your answer: \(F=E−58\)</para>
+          <para id="para-00012">\(V+F−2=E\) \(60+F−2=E\) \(58+F=E\) \(58-58+F=E-58\) \(F=E-58\)</para>
         </solution>
       </exercise>
       <!--Interaction
       End -->
-      <note>
+      <note id="note-00001">
         <title>Why Should I Care?</title>
         
           <media alt="Insert Alt Text">
-            <image mime-type="image/png" src="../../media/Algebra-1_01_11_02_02.png" />
+            <image mime-type="image/png" src="../../media/Algebra-1_01_11_02_02.png"/>
           </media>
         
-        <para>Alex's brother can use algebra to budget his paycheck from his job at a pizza place. He uses some money for food, some for going out with his friends, and some, he saves for college.</para>
-        <para>If he uses variables to represent the different ways he uses his money, he can put those variables into an equation to make sure he has enough money to last until his next paycheck.</para>
+        <para id="para-00013">Alex's brother can use algebra to budget his paycheck from his job at a pizza place. He uses some money for food, some for going out with his friends, and some, he saves for college.</para>
+        <para id="para-00014">If he uses variables to represent the different ways he uses his money, he can put those variables into an equation to make sure he has enough money to last until his next paycheck.</para>
       </note>
     </section>
   </content>

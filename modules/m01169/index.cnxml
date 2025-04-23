@@ -6,23 +6,23 @@
     <md:uuid>a1f6a500-f238-4200-956e-c123f469e3a4</md:uuid>
   </metadata>
   <content>
-    <section>        <title>Activity</title>
+    <section id="sect-00001">        <title>Activity</title>
 
-      <para>The <term class="glossary-tooltip">recursive definition</term> is a function that provides a repeated, or recurring, process to find terms in a sequence.</para>
-      <para>Start with the recursive definition: \(R(n)=3R(n-1) + 1\), \(n\geq2\) and given \(R(1)=-1\).</para>
-      <para>
+      <para id="para-00001">The <term class="glossary-tooltip" id="term-00001">recursive definition</term> is a function that provides a repeated, or recurring, process to find terms in a sequence.</para>
+      <para id="para-00002">Start with the recursive definition: \(R(n)=3R(n-1) + 1\), \(n\geq2\) and given \(R(1)=-1\).</para>
+      <para id="para-00003">
           <media alt="Insert Alt Text">
             <image mime-type="image/png" src="../../media/Algebra-1_04_20_03_01.png"/>
           </media>
         
     </para>
-      <list>
+      <list id="list-00001">
         <item>The first part of the recursive definition provides the instructions for how to generate the sequence. It provides the function rule or formula for the nth term.</item>
         <item>The second part states the domain of the sequence. It describes where we start and the values that are substituted into the function.</item>
         <item>The third part is the basis for the sequence or the smallest term value.</item>
       </list>
-      <para>See the table below for how to substitute to find more terms in the sequence using the recursive definition. Substitute the term number, \(n\), in for \(n\) in the recursive definition. Complete the table with a partner.</para>
-      <table class="os-raise-wideadjustedtable">
+      <para id="para-00004">See the table below for how to substitute to find more terms in the sequence using the recursive definition. Substitute the term number, \(n\), in for \(n\) in the recursive definition. Complete the table with a partner.</para>
+      <table class="os-raise-wideadjustedtable" id="table-00001">
         <tgroup cols="3"><tbody><row>
             <entry>
              <emphasis>Term number (n)</emphasis>
@@ -66,234 +66,234 @@
           </row>
         </tbody></tgroup></table>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Using the recursive definition:    </para>
-        <para>Substitute \(n=5\) in \(R(n)\)</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00005">Using the recursive definition:    </para>
+        <para id="para-00006">Substitute \(n=5\) in \(R(n)\)</para>
   
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(3R(5-1)+1\)</para>
+        <solution id="sol-00001">
+          <para id="para-00007">Compare your answer:</para>
+          <para id="para-00008">\(3R(5-1)+1\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Substitute \(n=6\) in \(R(n)\)</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00009">Substitute \(n=6\) in \(R(n)\)</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(3R(6-1)+1\)</para>
+        <solution id="sol-00002">
+          <para id="para-00010">Compare your answer:</para>
+          <para id="para-00011">\(3R(6-1)+1\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Determine the value for each term:  </para>
-            <para>Value when \(n=4\)</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00012">Determine the value for each term:  </para>
+            <para id="para-00013">Value when \(n=4\)</para>
     
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>–14</para>
+        <solution id="sol-00003">
+          <para id="para-00014">Compare your answer:</para>
+          <para id="para-00015">–14</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Value when \(n=5\)</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00016">Value when \(n=5\)</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>–41</para>
+        <solution id="sol-00004">
+          <para id="para-00017">Compare your answer:</para>
+          <para id="para-00018">–41</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Value when \(n=6\)</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00019">Value when \(n=6\)</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>–122</para>
+        <solution id="sol-00005">
+          <para id="para-00020">Compare your answer:</para>
+          <para id="para-00021">–122</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Write the full sequence out to 6 terms.</para>
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00022">Write the full sequence out to 6 terms.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>–1, –2, –5, –14, –41, –122</para>
+        <solution id="sol-00006">
+          <para id="para-00023">Compare your answer:</para>
+          <para id="para-00024">–1, –2, –5, –14, –41, –122</para>
         </solution>
       </exercise>
       <!--Interaction End -->
         <exercise id="_8482cb5d-ffd9-4df8-a1ea-03a368002bbc" class="multiple-choice">
-          <problem>
-            <para>Determine if the following sequences are arithmetic or geometric.  </para>
-          <para>3, 6, 12, 24</para>
+          <problem id="prob-00007">
+            <para id="para-00025">Determine if the following sequences are arithmetic or geometric.  </para>
+          <para id="para-00026">3, 6, 12, 24</para>
       
           </problem>
-          <solution>
-            <para>Correct! Geometric</para>
-            <para>Nice try! The correct answer is Geometric.</para>
+          <solution id="sol-00007">
+            <para id="para-00027">Correct! Geometric</para>
+            <para id="para-00028">Nice try! The correct answer is Geometric.</para>
           </solution>
         </exercise>
         <exercise id="e4499a8e-3c8c-4333-ac8d-a11528814f06" class="multiple-choice">
-          <problem>
-            <para>18, 36, 72, 144</para>
+          <problem id="prob-00008">
+            <para id="para-00029">18, 36, 72, 144</para>
           </problem>
-          <solution>
-            <para>Correct! Geometric</para>
-            <para>Nice try! The correct answer is Geometric.</para>
+          <solution id="sol-00008">
+            <para id="para-00030">Correct! Geometric</para>
+            <para id="para-00031">Nice try! The correct answer is Geometric.</para>
           </solution>
         </exercise>
         <exercise id="_510fe714-b9ad-405d-9b78-8ed6968e7062" class="multiple-choice">
-          <problem>
-            <para>3, 8, 13, 18</para>
+          <problem id="prob-00009">
+            <para id="para-00032">3, 8, 13, 18</para>
           </problem>
-          <solution>
-            <para>Correct! Arithmetic</para>
-            <para>Nice try! The correct answer is Arithmetic.</para>
+          <solution id="sol-00009">
+            <para id="para-00033">Correct! Arithmetic</para>
+            <para id="para-00034">Nice try! The correct answer is Arithmetic.</para>
           </solution>
         </exercise>
         <exercise id="_50feab68-5dea-4c36-be37-545bdaf60041" class="multiple-choice">
-          <problem>
-            <para>18, 13, 8, 3</para>
+          <problem id="prob-00010">
+            <para id="para-00035">18, 13, 8, 3</para>
           </problem>
-          <solution>
-            <para>Correct! Arithmetic</para>
-            <para>Nice try! The correct answer is Arithmetic.</para>
+          <solution id="sol-00010">
+            <para id="para-00036">Correct! Arithmetic</para>
+            <para id="para-00037">Nice try! The correct answer is Arithmetic.</para>
           </solution>
         </exercise>
         <exercise id="cf3aaa85-e458-44cf-b486-5f63ff2a8672" class="multiple-choice">
-          <problem>
-            <para>18, 9, 4.5, 2.25</para>
+          <problem id="prob-00011">
+            <para id="para-00038">18, 9, 4.5, 2.25</para>
           </problem>
-          <solution>
-            <para>Correct! Geometric</para>
-            <para>Nice try! The correct answer is Geometric.</para>
+          <solution id="sol-00011">
+            <para id="para-00039">Correct! Geometric</para>
+            <para id="para-00040">Nice try! The correct answer is Geometric.</para>
           </solution>
         </exercise>
         <exercise id="af41a1fe-53a0-42fa-a351-2dac2cdbb508" class="multiple-choice">
-          <problem>
-            <para>18, 20, 22, 24</para>
+          <problem id="prob-00012">
+            <para id="para-00041">18, 20, 22, 24</para>
           </problem>
-          <solution>
-            <para>Correct! Arithmetic</para>
-            <para>Nice try! The correct answer is Arithmetic.</para>
+          <solution id="sol-00012">
+            <para id="para-00042">Correct! Arithmetic</para>
+            <para id="para-00043">Nice try! The correct answer is Arithmetic.</para>
           </solution>
         </exercise>
         <exercise id="_1b175600-5dea-49f8-ac17-d905c8b82fb1" class="multiple-choice">
-          <problem>
-            <para>3, 15, 75, 375</para>
+          <problem id="prob-00013">
+            <para id="para-00044">3, 15, 75, 375</para>
           </problem>
-          <solution>
-            <para>Correct! Geometric</para>
-            <para>Nice try! The correct answer is Geometric.</para>
+          <solution id="sol-00013">
+            <para id="para-00045">Correct! Geometric</para>
+            <para id="para-00046">Nice try! The correct answer is Geometric.</para>
           </solution>
         </exercise>
       </section>
      
-      <note class="link-to-learning"> <title>Desmos Activity:</title>
-        <para>Log into <link url="https://student.desmos.com">student.desmos.com</link> using the information provided by your teacher to complete the activity.</para>
-      </note><section>
+      <note class="link-to-learning" id="note-00001"> <title>Desmos Activity:</title>
+        <para id="para-00047">Log into <link url="https://student.desmos.com">student.desmos.com</link> using the information provided by your teacher to complete the activity.</para>
+      </note><section id="sect-00002">
       <title>Video: Learning About Recursive Definitions and Sequences</title>
-      <para>Watch the following video to learn more about matching sequences to their recursive definitions.</para>
+      <para id="para-00048">Watch the following video to learn more about matching sequences to their recursive definitions.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/1ad29298163115b9ffa0ba588ead0d01ce6e667a"/>
       </media>
     </section>
-    <note class="self-check"><title>Self Check</title>
-      <para>Which of the following sequences matches the recursive definition for \(G(n)\) where \(G(n)=G(n-1)+4\) for \(n\geq2\) when \(G(1)=3\)?</para></note>
-      <section>
+    <note class="self-check" id="note-00002"><title>Self Check</title>
+      <para id="para-00049">Which of the following sequences matches the recursive definition for \(G(n)\) where \(G(n)=G(n-1)+4\) for \(n\geq2\) when \(G(1)=3\)?</para></note>
+      <section id="sect-00003">
         <title>Additional Resources</title>
         
-  <section><title>Writing Recursive Definitions</title>
-    <para>Sometimes we can define a sequence recursively. That is, we can describe how to calculate the next term in a sequence if we know the previous term.</para>
-    <para>Here’s a sequence: 6, 10, 14, 18, 22, . . . This is an arithmetic sequence, where each term is 4 more than the previous term. Since sequences are functions, let’s call this sequence \(f\). Then we can use function notation to write \(f(n)=f(n-1)+4\). Here, \(f(n)\) is the term, \(f(n-1)\) is the previous term, and + 4 represents the common difference since \(f\) is an arithmetic sequence.</para>
-    <para>When we define a function recursively, we must also say what the first term is. Without that, there would be no way of knowing if the sequence defined by \(f(n)=f(n-1)+4\) started with 6 or 81 or any other number. Here, one possible initial condition is \(f(1)=6\). It could also make sense to number the terms starting with 0, using \(f(0)=6\).</para>
-    <para>Combining this information gives the recursive definition: \(f(1)=6\) and \(f(n)=f(n-1)+4\) for \(n\geq2\), where \(n\) is an integer. We include the \(n\geq2\) at the end since the value of \(f\) at 1 is already given, and the other terms in the sequence are generated by inputting integers larger than 1 into the definition.</para>
-    <para>Let’s look at some examples from the first activity and write the recursive definition for each type of sequence:</para>
+  <section id="sect-00004"><title>Writing Recursive Definitions</title>
+    <para id="para-00050">Sometimes we can define a sequence recursively. That is, we can describe how to calculate the next term in a sequence if we know the previous term.</para>
+    <para id="para-00051">Here’s a sequence: 6, 10, 14, 18, 22, . . . This is an arithmetic sequence, where each term is 4 more than the previous term. Since sequences are functions, let’s call this sequence \(f\). Then we can use function notation to write \(f(n)=f(n-1)+4\). Here, \(f(n)\) is the term, \(f(n-1)\) is the previous term, and + 4 represents the common difference since \(f\) is an arithmetic sequence.</para>
+    <para id="para-00052">When we define a function recursively, we must also say what the first term is. Without that, there would be no way of knowing if the sequence defined by \(f(n)=f(n-1)+4\) started with 6 or 81 or any other number. Here, one possible initial condition is \(f(1)=6\). It could also make sense to number the terms starting with 0, using \(f(0)=6\).</para>
+    <para id="para-00053">Combining this information gives the recursive definition: \(f(1)=6\) and \(f(n)=f(n-1)+4\) for \(n\geq2\), where \(n\) is an integer. We include the \(n\geq2\) at the end since the value of \(f\) at 1 is already given, and the other terms in the sequence are generated by inputting integers larger than 1 into the definition.</para>
+    <para id="para-00054">Let’s look at some examples from the first activity and write the recursive definition for each type of sequence:</para>
     
-    <para><emphasis>Example 1</emphasis></para>
+    <para id="para-00055"><emphasis>Example 1</emphasis></para>
     
-    <para><emphasis>Sequence A:</emphasis> \(30, 40, 50, 60, 70, …\)</para>
-    <para><emphasis>Step 1</emphasis> - Determine the type of sequence</para>
-    <para>This sequence is arithmetic.</para>
+    <para id="para-00056"><emphasis>Sequence A:</emphasis> \(30, 40, 50, 60, 70, …\)</para>
+    <para id="para-00057"><emphasis>Step 1</emphasis> - Determine the type of sequence</para>
+    <para id="para-00058">This sequence is arithmetic.</para>
     
-    <para><emphasis>Step 2</emphasis> - Determine the common difference or common ratio</para>
-    <para>The terms increase by adding a value of 10, so the common difference is 10.</para>
+    <para id="para-00059"><emphasis>Step 2</emphasis> - Determine the common difference or common ratio</para>
+    <para id="para-00060">The terms increase by adding a value of 10, so the common difference is 10.</para>
     
-    <para><emphasis>Step 3</emphasis> - Determine the formula or rule</para>
-    <para>Since one term’s value comes from adding 10 to the term value before it, that means \( n = (n - 1) + 10 \). Now write this rule using function notation.</para>
-    <para>\( A(n) = A(n-1) + 10 \)</para>
+    <para id="para-00061"><emphasis>Step 3</emphasis> - Determine the formula or rule</para>
+    <para id="para-00062">Since one term’s value comes from adding 10 to the term value before it, that means \( n = (n - 1) + 10 \). Now write this rule using function notation.</para>
+    <para id="para-00063">\( A(n) = A(n-1) + 10 \)</para>
     
-    <para><emphasis>Step 4</emphasis> - Determine the initial condition or basis</para>
-    <para>\( A(1) = 30 \)</para>
+    <para id="para-00064"><emphasis>Step 4</emphasis> - Determine the initial condition or basis</para>
+    <para id="para-00065">\( A(1) = 30 \)</para>
     
-    <para><emphasis>Step 5</emphasis> - Determine the domain of the formula</para>
-    <para>We use the first term to find the second term, so that is where we start at \( n = 2 \). So, our domain is \( n \geq 2 \).</para>
+    <para id="para-00066"><emphasis>Step 5</emphasis> - Determine the domain of the formula</para>
+    <para id="para-00067">We use the first term to find the second term, so that is where we start at \( n = 2 \). So, our domain is \( n \geq 2 \).</para>
     
-    <para>The recursive definition for 30, 40, 50, 60, 70, … is \( A(1) = 30 \), \( A(n) = A(n-1) + 10 \), \( n \geq 2 \).</para>
+    <para id="para-00068">The recursive definition for 30, 40, 50, 60, 70, … is \( A(1) = 30 \), \( A(n) = A(n-1) + 10 \), \( n \geq 2 \).</para>
     
-    <para><emphasis>Example 2</emphasis></para>
+    <para id="para-00069"><emphasis>Example 2</emphasis></para>
     
-    <para><emphasis>Sequence B:</emphasis> \(80, 40, 20, 10, 5, 2.5, …\)</para>
-    <para><emphasis>Step 1</emphasis> - Determine the type of sequence</para>
-    <para>This sequence is geometric.</para>
+    <para id="para-00070"><emphasis>Sequence B:</emphasis> \(80, 40, 20, 10, 5, 2.5, …\)</para>
+    <para id="para-00071"><emphasis>Step 1</emphasis> - Determine the type of sequence</para>
+    <para id="para-00072">This sequence is geometric.</para>
     
-    <para><emphasis>Step 2</emphasis> - Determine the common difference or common ratio</para>
-    <para>The terms are divided by 2 each time, so the common ratio is \( \frac{1}{2} \) (since it is divided by 2).</para>
+    <para id="para-00073"><emphasis>Step 2</emphasis> - Determine the common difference or common ratio</para>
+    <para id="para-00074">The terms are divided by 2 each time, so the common ratio is \( \frac{1}{2} \) (since it is divided by 2).</para>
     
-    <para><emphasis>Step 3</emphasis> - Determine the formula or rule</para>
-    <para>Since one term’s value comes from multiplying \( \frac{1}{2} \) to the term value before it, that means \( n = (n - 1) \times \frac{1}{2} \). Now write this rule using function notation.</para>
-    <para>\( B(n) = B(n-1) \times \frac{1}{2} \)</para>
+    <para id="para-00075"><emphasis>Step 3</emphasis> - Determine the formula or rule</para>
+    <para id="para-00076">Since one term’s value comes from multiplying \( \frac{1}{2} \) to the term value before it, that means \( n = (n - 1) \times \frac{1}{2} \). Now write this rule using function notation.</para>
+    <para id="para-00077">\( B(n) = B(n-1) \times \frac{1}{2} \)</para>
     
-    <para><emphasis>Step 4</emphasis> - Determine the initial condition or basis</para>
-    <para>\( B(1) = 80 \)</para>
+    <para id="para-00078"><emphasis>Step 4</emphasis> - Determine the initial condition or basis</para>
+    <para id="para-00079">\( B(1) = 80 \)</para>
     
-    <para><emphasis>Step 5</emphasis> - Determine the domain of the formula</para>
-    <para>We use the first term to find the second term, so that is where we start at \( n = 2 \). So, our domain is \( n \geq 2 \).</para>
+    <para id="para-00080"><emphasis>Step 5</emphasis> - Determine the domain of the formula</para>
+    <para id="para-00081">We use the first term to find the second term, so that is where we start at \( n = 2 \). So, our domain is \( n \geq 2 \).</para>
     
-    <para>The recursive definition for 80, 40, 20, 10, 5, 2.5, … is \( B(1) = 80 \), \( B(n) = B(n-1) \times \frac{1}{2} \), \( n \geq 2 \).</para>
+    <para id="para-00082">The recursive definition for 80, 40, 20, 10, 5, 2.5, … is \( B(1) = 80 \), \( B(n) = B(n-1) \times \frac{1}{2} \), \( n \geq 2 \).</para>
     
-    <para><emphasis>Example 3</emphasis></para>
+    <para id="para-00083"><emphasis>Example 3</emphasis></para>
     
-    <para><emphasis>Sequence F:</emphasis> \(1, 3, 7, 15, 31, …\)</para>
-    <para><emphasis>Step 1</emphasis> - Determine the type of sequence</para>
-    <para>This sequence is neither arithmetic nor geometric.</para>
+    <para id="para-00084"><emphasis>Sequence F:</emphasis> \(1, 3, 7, 15, 31, …\)</para>
+    <para id="para-00085"><emphasis>Step 1</emphasis> - Determine the type of sequence</para>
+    <para id="para-00086">This sequence is neither arithmetic nor geometric.</para>
     
     
-    <note class="try">
+    <note class="try" id="note-00003">
     <title>Try It: Writing Recursive Definitions</title>
-    <para>Write \(E(1)\) and a recursive definition for \(E(n)\):</para>
+    <para id="para-00087">Write \(E(1)\) and a recursive definition for \(E(n)\):</para>
     
-    <exercise>
-      <problem>
+    <exercise id="exer-00007">
+      <problem id="prob-00014">
         
-        <para>E: 20, 13, 6, –1, –8, . . .</para>
+        <para id="para-00088">E: 20, 13, 6, –1, –8, . . .</para>
       
-      <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+      <para id="para-00089">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
       </para>
       
-      </problem><solution>
-      <para>Here is how to write the recursive definition for this sequence:</para>
+      </problem><solution id="sol-00014">
+      <para id="para-00090">Here is how to write the recursive definition for this sequence:</para>
       
-      <para>\(E(1)=20\), then each term after is formed by subtracting 7, so \(E(n)=E(n-1)-7\), \(n\geq2\).</para>
+      <para id="para-00091">\(E(1)=20\), then each term after is formed by subtracting 7, so \(E(n)=E(n-1)-7\), \(n\geq2\).</para>
     
     </solution></exercise></note>
     </section>

@@ -6,10 +6,10 @@
     <md:uuid>767f37b0-537b-4226-acc4-56db9130e62b</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<para>Here is a table that shows some input and output values of an exponential function \(g\). The equation \(g(x)=3^x\)
+  <section id="sect-00001"><title>Activity</title>
+<para id="para-00001">Here is a table that shows some input and output values of an exponential function \(g\). The equation \(g(x)=3^x\)
   defines the function.</para>
-<table class="os-raise-skinnytable">
+<table class="os-raise-skinnytable" id="table-00002">
   <tgroup cols="2"><tbody><row>
       <entry><emphasis>
         \(x\)
@@ -18,61 +18,61 @@
      </emphasis> </entry></row>
   <row>
       <entry>
-        <para>3</para>
+        <para id="para-00002">3</para>
       </entry>
       <entry>
-        <para>27</para>
-      </entry>
-    </row>
-    <row>
-      <entry>
-        <para>4</para>
-      </entry>
-      <entry>
-        <para>81</para>
+        <para id="para-00003">27</para>
       </entry>
     </row>
     <row>
       <entry>
-        <para>5</para>
+        <para id="para-00004">4</para>
       </entry>
       <entry>
-        <para>243</para>
-      </entry>
-    </row>
-    <row>
-      <entry>
-        <para>6</para>
-      </entry>
-      <entry>
-        <para>729</para>
+        <para id="para-00005">81</para>
       </entry>
     </row>
     <row>
       <entry>
-        <para>7</para>
+        <para id="para-00006">5</para>
       </entry>
       <entry>
-        <para>2,187</para>
-      </entry>
-    </row>
-    <row>
-      <entry>
-        <para>8</para>
-      </entry>
-      <entry>
-        <para>6,561</para>
+        <para id="para-00007">243</para>
       </entry>
     </row>
     <row>
       <entry>
-        <para>\(x\)</para>
+        <para id="para-00008">6</para>
+      </entry>
+      <entry>
+        <para id="para-00009">729</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para id="para-00010">7</para>
+      </entry>
+      <entry>
+        <para id="para-00011">2,187</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para id="para-00012">8</para>
+      </entry>
+      <entry>
+        <para id="para-00013">6,561</para>
+      </entry>
+    </row>
+    <row>
+      <entry>
+        <para id="para-00014">\(x\)</para>
       </entry>
       <entry/>
     </row>
     <row>
       <entry>
-        <para>\(x+1\)</para>
+        <para id="para-00015">\(x+1\)</para>
       </entry>
       <entry/>
     </row>
@@ -80,17 +80,17 @@
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>How does \(g(x)\) change every time \(x\) increases by 1? Show or explain your reasoning.
+<exercise id="exer-00001">
+  <problem id="prob-00001">
+    <para id="para-00016">How does \(g(x)\) change every time \(x\) increases by 1? Show or explain your reasoning.
     </para>
-    </problem><solution>
+    </problem><solution id="sol-00001">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00017">Compare your answer:</para>
     
-    <para>The output values increase by a factor of 3. For example: When we divide two consecutive output values, the
+    <para id="para-00018">The output values increase by a factor of 3. For example: When we divide two consecutive output values, the
       quotient is always 3.</para>
   
   </solution></exercise>
@@ -98,18 +98,18 @@
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Choose two new input values that are consecutive whole numbers and find their output values. Record them in
+<exercise id="exer-00002">
+  <problem id="prob-00002">
+    <para id="para-00019">Choose two new input values that are consecutive whole numbers and find their output values. Record them in
         the table. How do the output values change for those two input values?
     </para>
-    </problem><solution>
+    </problem><solution id="sol-00002">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00020">Compare your answer:</para>
     
-    <para>\(g(10)=3^{10}\) and \(g(11)=3^{11}\). The output still grows by a factor of 3 when the input increases by 1
+    <para id="para-00021">\(g(10)=3^{10}\) and \(g(11)=3^{11}\). The output still grows by a factor of 3 when the input increases by 1
       (from 10 to 11).</para>
   
   </solution></exercise>
@@ -117,17 +117,17 @@
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Complete the table with the output when the input is \(x\) and when it is \(x+1\).
+<exercise id="exer-00003">
+  <problem id="prob-00003">
+    <para id="para-00022">Complete the table with the output when the input is \(x\) and when it is \(x+1\).
     </para>
-    </problem><solution>
+    </problem><solution id="sol-00003">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00023">Compare your answer:</para>
     
-    <table class="os-raise-skinnytable">
+    <table class="os-raise-skinnytable" id="table-00003">
       <tgroup cols="2"><tbody><row>
           <entry><emphasis>
             \(x\)
@@ -136,13 +136,13 @@
          </emphasis> </entry></row>
       <row>
           <entry>
-            <para>\(x\)</para>
+            <para id="para-00024">\(x\)</para>
           </entry>
           <entry>\(3^x\)</entry>
         </row>
         <row>
           <entry>
-            <para>\(x+1\)</para>
+            <para id="para-00025">\(x+1\)</para>
           </entry>
           <entry>\(3^{x+1}\)</entry>
         </row>
@@ -153,51 +153,51 @@
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Look at the change in output values as the \(x\) increases by 1. Does it still agree with your earlier
+<exercise id="exer-00004">
+  <problem id="prob-00004">
+    <para id="para-00026">Look at the change in output values as the \(x\) increases by 1. Does it still agree with your earlier
         findings? Show your reasoning.
     </para>
-    </problem><solution>
+    </problem><solution id="sol-00004">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00027">Compare your answer:</para>
     
-    <para>Yes, the outputs still increase by a factor of 3. By rules of exponents, we know that \(3x \cdot 3=3^{x+1}\). (Or
+    <para id="para-00028">Yes, the outputs still increase by a factor of 3. By rules of exponents, we know that \(3x \cdot 3=3^{x+1}\). (Or
       by rules of exponents, we know that \(\frac {3^{x+1}}{3^x}=3^{x+1-x}\), which equals 3.)</para>
   
   </solution></exercise>
 <!--Interaction End -->
 
-<para>Pause here for a class discussion. Then, work with your group on the next few questions.</para>
+<para id="para-00029">Pause here for a class discussion. Then, work with your group on the next few questions.</para>
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Choose two \(x\)-values where one is 3 more than the other (for example, 1 and 4). How do the output values
+<exercise id="exer-00005">
+  <problem id="prob-00005">
+    <para id="para-00030">Choose two \(x\)-values where one is 3 more than the other (for example, 1 and 4). How do the output values
         of \(g\) change as \(x\) increases by 3? (Each group member should choose a different pair of numbers and study
         the outputs.)</para>
-    </problem><solution>
+    </problem><solution id="sol-00005">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00031">Compare your answer:</para>
     
-    <para>The output values increase by a factor of 27 or \(3^3\).</para>
+    <para id="para-00032">The output values increase by a factor of 27 or \(3^3\).</para>
   
   </solution></exercise>
 <!--Interaction End -->
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Complete this table with the output when the input is \(x\) and when it is \(x+3\). Look at the change in
+<exercise id="exer-00006">
+  <problem id="prob-00006">
+    <para id="para-00033">Complete this table with the output when the input is \(x\) and when it is \(x+3\). Look at the change in
         output values as \(x\) increases by 3. Does it agree with your group’s findings in the previous question?
         Show your reasoning. 
-        <table class="os-raise-skinnytable">
+        <table class="os-raise-skinnytable" id="table-00004">
           <tgroup cols="2"><tbody><row>
               <entry><emphasis>
                 \(x\)
@@ -206,25 +206,25 @@
              </emphasis> </entry></row>
           <row>
               <entry>
-                <para>\(x\)</para>
+                <para id="para-00034">\(x\)</para>
               </entry>
               <entry/>
             </row>
             <row>
               <entry>
-                <para>\(x+3\)</para>
+                <para id="para-00035">\(x+3\)</para>
               </entry>
               <entry/>
             </row>
           </tbody></tgroup></table>
     </para>
-    </problem><solution>
+    </problem><solution id="sol-00006">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00036">Compare your answer:</para>
     
-    <table class="os-raise-skinnytable">
+    <table class="os-raise-skinnytable" id="table-00005">
       <tgroup cols="2"><tbody><row>
           <entry><emphasis>
             \(x\)
@@ -233,19 +233,19 @@
          </emphasis> </entry></row>
       <row>
           <entry>
-            <para>\(x\)</para>
+            <para id="para-00037">\(x\)</para>
           </entry>
           <entry>\(3^x\)</entry>
         </row>
         <row>
           <entry>
-            <para>\(x+3\)</para>
+            <para id="para-00038">\(x+3\)</para>
           </entry>
           <entry>\(3^{x+3}\)</entry>
         </row>
       </tbody></tgroup></table>
     
-    <para>Yes, the outputs still increase by a factor of 27. By rules of exponents, we know that \(3x \cdot 3^3=3^{x+3}\).
+    <para id="para-00039">Yes, the outputs still increase by a factor of 27. By rules of exponents, we know that \(3x \cdot 3^3=3^{x+3}\).
       (Or by rules of exponents, we know that \(\frac{3^{x+3}}{3^x}=3^{x+3-x}\), which equals \(3^3\) or 27.)</para>
   
   </solution></exercise>
@@ -253,47 +253,47 @@
 
 
 <!--Q#7-->
-<exercise>
-  <problem>
-    <para>Summarize the process you used in questions 1 - 6 to analyze this data.</para>
-    </problem><solution>
+<exercise id="exer-00007">
+  <problem id="prob-00007">
+    <para id="para-00040">Summarize the process you used in questions 1 - 6 to analyze this data.</para>
+    </problem><solution id="sol-00007">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00041">Compare your answer:</para>
     
-    <para>Answers will vary.</para>
+    <para id="para-00042">Answers will vary.</para>
   
   </solution></exercise>
 <!--Interaction End -->
 
 
 <!--Q#7-->
-<exercise>
-  <problem>
-    <para>Explain if you found it helpful or not to analyze the data for simpler data (1 - 2) before analyzing it for more abstract data (questions 3 - 6).</para>
-    </problem><solution>
+<exercise id="exer-00008">
+  <problem id="prob-00008">
+    <para id="para-00043">Explain if you found it helpful or not to analyze the data for simpler data (1 - 2) before analyzing it for more abstract data (questions 3 - 6).</para>
+    </problem><solution id="sol-00008">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00044">Compare your answer:</para>
     
-    <para>Answers will vary.</para>
+    <para id="para-00045">Answers will vary.</para>
   
   </solution></exercise>
 <!--Interaction End -->
 </section>
-<section><title>Video: Analyzing Tables of Exponential Functions</title>
-<para>Watch the following video to learn more about analyzing the tables of exponential functions:</para>
+<section id="sect-00002"><title>Video: Analyzing Tables of Exponential Functions</title>
+<para id="para-00046">Watch the following video to learn more about analyzing the tables of exponential functions:</para>
 <media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/2ad184a8d1b79f957dc77e16c376203270d3e473"/></media>
 </section>
 <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<section>
+<section id="sect-00003">
   <title>Are you ready for more?</title>
-    <section><title>Extend Your Thinking</title>
-  <para>For integer inputs, we can think of multiplication as repeated addition and exponentiation as repeated multiplication:</para>
+    <section id="sect-00004"><title>Extend Your Thinking</title>
+  <para id="para-00047">For integer inputs, we can think of multiplication as repeated addition and exponentiation as repeated multiplication:</para>
   
-  <table class="os-raise-wideadjustedtable">
+  <table class="os-raise-wideadjustedtable" id="table-00006">
     <tgroup cols="2"><tbody><row>
         <entry><emphasis>Multiplication representing repeated addition
        </emphasis> </entry>
@@ -301,60 +301,60 @@
        </emphasis> </entry></row>
     <row>
         <entry>
-          <para>\(3 \cdot 5=3+3+3+3+3\)</para>
+          <para id="para-00048">\(3 \cdot 5=3+3+3+3+3\)</para>
         </entry>
         <entry>\(3^5=3 \cdot 3 \cdot 3 \cdot 3 \cdot 3\)</entry>
       </row>
     </tbody></tgroup></table>
-  <para>We could continue this process with a new operation called tetration. It uses the symbol \(\uparrow \uparrow\), and
+  <para id="para-00049">We could continue this process with a new operation called tetration. It uses the symbol \(\uparrow \uparrow\), and
     it is defined as repeated exponentiation:</para>
   
-  <table class="os-raise-skinnytable">
+  <table class="os-raise-skinnytable" id="table-00007">
     <tgroup cols="1"><tbody><row>
         <entry><emphasis>Tetration representing repeated exponentiation
        </emphasis> </entry></row>
     <row>
         <entry>
-          <para>\(3 \uparrow \uparrow 5=3^{3 \wedge 3 \wedge 3 \wedge 3}\)</para>
+          <para id="para-00050">\(3 \uparrow \uparrow 5=3^{3 \wedge 3 \wedge 3 \wedge 3}\)</para>
         </entry>
       </row>
     </tbody></tgroup></table>
 
 
 <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<exercise id="_313acd1a-7c7e-4fbb-afb2-d1bcadcd6aa4" class="multiple-choice"><problem><para>Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\).</para>
-      </problem><solution><para>Correct! \(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
-    </para><para>Nice try! The correct answer is: \(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
+<exercise id="_313acd1a-7c7e-4fbb-afb2-d1bcadcd6aa4" class="multiple-choice"><problem id="prob-00009"><para id="para-00051">Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\).</para>
+      </problem><solution id="sol-00009"><para id="para-00052">Correct! \(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
+    </para><para id="para-00053">Nice try! The correct answer is: \(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
     </para></solution></exercise>
       
-      <exercise id="e74fe222-cc10-4559-8c03-0680b1d0a710" class="multiple-choice"><problem><para>Compute \(f(x)=3 \uparrow \uparrow x\).</para>
-      </problem><solution><para>Correct! \(3 \uparrow \uparrow 2=3^3=27\)
-    </para><para>Nice try! The correct answer is: \(3 \uparrow \uparrow 2=3^3=27\)
+      <exercise id="e74fe222-cc10-4559-8c03-0680b1d0a710" class="multiple-choice"><problem id="prob-00010"><para id="para-00054">Compute \(f(x)=3 \uparrow \uparrow x\).</para>
+      </problem><solution id="sol-00010"><para id="para-00055">Correct! \(3 \uparrow \uparrow 2=3^3=27\)
+    </para><para id="para-00056">Nice try! The correct answer is: \(3 \uparrow \uparrow 2=3^3=27\)
     </para></solution></exercise>
 
-<exercise class="RFM1">
-  <problem>
-    <para>What is the relationship between \(f(x)\) and \(f(x+1)\)?</para>
-    </problem><solution>
+<exercise class="RFM1" id="exer-00009">
+  <problem id="prob-00011">
+    <para id="para-00057">What is the relationship between \(f(x)\) and \(f(x+1)\)?</para>
+    </problem><solution id="sol-00011">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00058">Compare your answer:</para>
     
-    <para>The numbers output by this function get large absurdly fast, even in comparison to exponential functions. We
+    <para id="para-00059">The numbers output by this function get large absurdly fast, even in comparison to exponential functions. We
       calculated \(f(2)=27\) above, and now \(f(3)=3^{f(2)}=3^{27}=7,625,597,484,987\).</para>
   
   </solution></exercise></section></section>
-  <note class="self-check">
-    (    <para>Given \(f(x) = 4^x\), what is \(\frac{f(x+2)}{f(x+1)}\)?</para>)
+  <note class="self-check" id="note-00001">
+    (    <para id="para-00060">Given \(f(x) = 4^x\), what is \(\frac{f(x+2)}{f(x+1)}\)?</para>)
       </note>
   
-      <section>
+      <section id="sect-00005">
         <title>Additional Resources</title>
         
-    <section>
+    <section id="sect-00006">
       <title> Determining the Growth Rate of Exponential Functions</title>
-      <para>For the table below, assume the function \(f\) is defined for all real numbers. Calculate \(\triangle f =
+      <para id="para-00061">For the table below, assume the function \(f\) is defined for all real numbers. Calculate \(\triangle f =
   f(x+1)-f(x)\) in the last column. (The symbol \(\triangle\) in this context means “change in.”) What do
   you notice about \(\triangle f\)? Could the function be linear or exponential? Write a linear or an exponential
   function formula that generates the same input–output pairs as given in the table.</para>
@@ -422,35 +422,35 @@
             <entry/>
           </row>
         </tbody></tgroup></table>
-      <para>For each row, you subtract \(f(x)\) values. The first row would be \(6- 2 =4\), then \(18 - 6 =12\), then \(54 - 18
+      <para id="para-00062">For each row, you subtract \(f(x)\) values. The first row would be \(6- 2 =4\), then \(18 - 6 =12\), then \(54 - 18
   =36\), and then \(162 - 54 = 108\). Since the rate of change isn’t consistent, it is not a linear
   function.  Exponential functions have a growth factor or a repeated rate that terms are being multiplied by. If
   you divide consecutive terms, you will find the growth rate is 3. Notice that the change between consecutive terms
   also has a growth rate of 3.</para>
-      <para>Since this function is exponential, an equation will have the form \(f(x) = initial \;\ value \;\ (growth \;\
+      <para id="para-00063">Since this function is exponential, an equation will have the form \(f(x) = initial \;\ value \;\ (growth \;\
   rate)^x\). The growth rate is 3. The initial value is the same as the \(y\)-intercept, or where \(x=0\). \(f(0)\) is
   given in the table, so the initial value is 2. The equation for this table would be \(f(x) = 2(3)^x\).</para>
 
-      <note class="try">
+      <note class="try" id="note-00002">
   <title>Try It: Determining the Growth Rate of Exponential Functions</title>
-      <para>For the graph provided, assume that the function is defined for all real numbers. What is the rate of change? Write
+      <para id="para-00064">For the graph provided, assume that the function is defined for all real numbers. What is the rate of change? Write
   an equation that would define this function.</para>
       
-        <exercise>
-          <problem>
-            <para>
+        <exercise id="exer-00010">
+          <problem id="prob-00012">
+            <para id="para-00065">
               
                 <media alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION WITH A \(y\)-intercepts OF 1 AND PASSING THROUGH THE POINTS 1 COMMA 2, 2 COMMA 4, AND 3 COMMA 8">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_05_17_08_01.jpg"/>
                 </media>
               
           </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00066">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Here is how to write the equation of an exponential function from a graph:</para>
-            <para>The graph seems to be exponential. If you find the rate of change between consecutive points, you find the graph is
+          <solution id="sol-00012">
+            <para id="para-00067">Compare your answer:</para>
+            <para id="para-00068">Here is how to write the equation of an exponential function from a graph:</para>
+            <para id="para-00069">The graph seems to be exponential. If you find the rate of change between consecutive points, you find the graph is
     exponential and the rate of change is 2 since the \(y\)-values increase by a factor of 2 every time the \(x\)-values
     increase by 1. Since the graph crosses the \(y\)-axis at \((0,1)\), that is the initial value. The equation for this
     graph is \(f(x) = 2^x\).</para>

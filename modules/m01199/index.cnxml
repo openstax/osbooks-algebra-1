@@ -6,21 +6,21 @@
     <md:uuid>519bca51-b316-4f18-a123-855167be2f91</md:uuid>
   </metadata>
   <content>
-  <section><title>Cool Down Activity</title>
+  <section id="sect-00001"><title>Cool Down Activity</title>
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>
+<exercise id="exer-00001">
+  <problem id="prob-00001">
+    <para id="para-00001">
         A sequence is defined by \(f_1=-3\), \(f_n=f_{n-1}+0.5\) for \(n\geq2\). Diego writes an equation for the nth term of the sequence as \(a_n=-3+(n-1)(0.5)\). Is he correct? Explain how you know.
     </para>
-    </problem><solution>
+    </problem><solution id="sol-00001">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00002">Compare your answer:</para>
     
-    <para>Yes. For example: Both definitions create a sequence that starts at –3 and increases by 0.5 each term.</para>
+    <para id="para-00003">Yes. For example: Both definitions create a sequence that starts at –3 and increases by 0.5 each term.</para>
   
   </solution></exercise>
 <!--Interaction End -->
@@ -28,19 +28,19 @@
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem><list class="os-raise-noindent" list-type="enumerated">
+<exercise id="exer-00002">
+  <problem id="prob-00002"><list class="os-raise-noindent" list-type="enumerated" id="list-00001">
   <item>
     How would you describe the representation \(f_1=-3\), \(f_n=f_{n-1}+0.5\) for \(n\geq2\) for Diego’s sequence?
  </item>
 </list>
-  </problem><solution>
+  </problem><solution id="sol-00002">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00004">Compare your answer:</para>
     
-    <para>It is the recursive definition of the sequence.</para>
+    <para id="para-00005">It is the recursive definition of the sequence.</para>
   
   </solution></exercise>
 <!--Interaction End -->
@@ -48,19 +48,19 @@
 
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem><list class="os-raise-noindent" list-type="enumerated">
+<exercise id="exer-00003">
+  <problem id="prob-00003"><list class="os-raise-noindent" list-type="enumerated" id="list-00002">
   <item>
     How would you describe the representation of Diego’s sequence, \(a_n=-3+(n-1)(0.5)\)?
  </item>
 </list>
-  </problem><solution>
+  </problem><solution id="sol-00003">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00006">Compare your answer:</para>
     
-    <para>This is the nth term of the sequence.</para>
+    <para id="para-00007">This is the nth term of the sequence.</para>
   
   </solution></exercise>
 <!--Interaction End -->

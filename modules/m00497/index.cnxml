@@ -6,30 +6,30 @@
     <md:uuid>0f03dc59-afb8-476f-bb5c-e934ddc5db33</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>Seniors in a high school student council are trying to develop a budget for the Senior
+      <para id="para-00001">Seniors in a high school student council are trying to develop a budget for the Senior
         Dance. The revenue from ticket sales needs to cover the cost of the meals and entertainment
         and also make a profit of at least $200 to be contributed to the school.</para>
-      <para>Here is some information they have gathered:</para>
-      <list>
+      <para id="para-00002">Here is some information they have gathered:</para>
+      <list id="list-00001">
         <item>Last year, 120 people attended. It was a success and is expected to be even bigger
           this year. Up to 200 people will attend.</item>
         <item>There needs to be at least 1 chaperone for every 20 students.</item>
         <item>The ticket price cannot exceed $20 per person.</item>
       </list>
-      <para>Here are some inequalities the seniors wrote about the situation. Each letter stands for
+      <para id="para-00003">Here are some inequalities the seniors wrote about the situation. Each letter stands for
         one quantity in the situation. Determine what is meant by each letter in 1 - 4.</para>
 
       <!--Q#1-->
-      <exercise>
-        <problem>
-          <para>\( t ≤ 20 \)</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00004">\( t ≤ 20 \)</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
+        <solution id="sol-00001">
+          <para id="para-00005">Compare your answer:</para>
 
-          <para>\( t ≤ 20 \) means that the ticket price, \( t \), must be less than or equal to
+          <para id="para-00006">\( t ≤ 20 \) means that the ticket price, \( t \), must be less than or equal to
             $20.</para>
 
         </solution>
@@ -39,14 +39,14 @@
 
 
       <!--Q#2-->
-      <exercise>
-        <problem>
-          <para>\( 120 ≤ p ≤ 200 \)</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00007">\( 120 ≤ p ≤ 200 \)</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
+        <solution id="sol-00002">
+          <para id="para-00008">Compare your answer:</para>
 
-          <para>\( 120 ≤ p ≤ 200 \) means that between 120 and 200 people are expected to attend
+          <para id="para-00009">\( 120 ≤ p ≤ 200 \) means that between 120 and 200 people are expected to attend
             (120 is less than or equal to the number of people; the number of people is less than or
             equal to 200). \( p \) represents the number of people attending the dance.</para>
 
@@ -57,14 +57,14 @@
 
 
       <!--Q#3-->
-      <exercise>
-        <problem>
-          <para>\( pt - m ≥ 200 \)</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00010">\( pt - m ≥ 200 \)</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
+        <solution id="sol-00003">
+          <para id="para-00011">Compare your answer:</para>
 
-          <para>\( pt − m ≥ 200 \) means that the total amount collected from ticket sales in
+          <para id="para-00012">\( pt − m ≥ 200 \) means that the total amount collected from ticket sales in
             dollars, \( pt \), minus the cost of meals and entertainment in dollars, \( m \), must
             be greater than or equal to $200.</para>
 
@@ -75,14 +75,14 @@
 
 
       <!--Q#4-->
-      <exercise>
-        <problem>
-          <para>\( c \geq \frac{p}{20} \)</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00013">\( c \geq \frac{p}{20} \)</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
+        <solution id="sol-00004">
+          <para id="para-00014">Compare your answer:</para>
 
-          <para>\( c \geq \frac{p}{20} \) means that the number of chaperones, \( c \), must be at
+          <para id="para-00015">\( c \geq \frac{p}{20} \) means that the number of chaperones, \( c \), must be at
             least \( \frac{1}{20} \) of the number of students attending.</para>
 
         </solution>
@@ -99,20 +99,20 @@
       interaction.  If multiple interactions appear under "are you ready for more?, they should all
       have matching "data-wait-for-event", which should also match the "data-fire-event" for the
       button. Note in this sample, they are all RFM1-->
-      <section>
+      <section id="sect-00002">
         <title>Are you ready for more?</title>
-        <section>
+        <section id="sect-00003">
           <title>Extending Your Thinking</title>
-          <para>Kiran says we should add the constraint \( t ≥ 0 \).</para>
+          <para id="para-00016">Kiran says we should add the constraint \( t ≥ 0 \).</para>
       
-          <exercise class="RFM1">
-        <problem>
-          <para>What is the reasoning behind this constraint?</para>
+          <exercise class="RFM1" id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00017">What is the reasoning behind this constraint?</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
+        <solution id="sol-00005">
+          <para id="para-00018">Compare your answer:</para>
 
-          <para>We can't have a negative ticket price.</para>
+          <para id="para-00019">We can't have a negative ticket price.</para>
 
         </solution>
       </exercise>
@@ -120,14 +120,14 @@
       interaction-->
 
       <!--Q#2-->
-      <exercise class="RFM1">
-        <problem>
-          <para>What other “natural constraint” like this should be added?</para>
+      <exercise class="RFM1" id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00020">What other “natural constraint” like this should be added?</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
+        <solution id="sol-00006">
+          <para id="para-00021">Compare your answer:</para>
 
-          <para>By the same reasoning, we might want to include \(m \geq 0\). Note that the other
+          <para id="para-00022">By the same reasoning, we might want to include \(m \geq 0\). Note that the other
             variables should also be greater than or equal to 0, but those conditions are already
             implied by the existing constraints.</para>
 
@@ -139,27 +139,27 @@
   </section>
 
 
-    <section>
-      <note class="self-check">
-        <para>A zookeeper feeds the tigers a meal of rabbits and chickens. The average rabbit weighs
+    <section id="sect-00004">
+      <note class="self-check" id="note-00001">
+        <para id="para-00023">A zookeeper feeds the tigers a meal of rabbits and chickens. The average rabbit weighs
         4 pounds, and the average chicken weighs 5 pounds. Each tiger must eat at least 15 pounds of
         meat per day.The zookeeper writes the inequality \( 4x + 5y ≥ 15 \) to represent a tiger’s
         daily diet.What is meant by the letter \( y \) in the inequality above?</para>
       </note>
     </section>
 
-    <section>
+    <section id="sect-00005">
       <title>Additional Resources</title>
-      <section>
+      <section id="sect-00006">
         <title>Translate to an Inequality</title>
-        <para>To translate English sentences into inequalities, we need to recognize the phrases
+        <para id="para-00024">To translate English sentences into inequalities, we need to recognize the phrases
           that indicate the inequality. Some words are easy, like “more than” and “less than.” But
           others are not as obvious. The table shows some common phrases that indicate inequalities.</para>
-        <table class="os-raise-textheavytable unnumbered">
+        <table class="os-raise-textheavytable unnumbered" id="table-00001">
           <tgroup cols="4">
             <thead>
               <row>
-                <entry><emphasis>\(&gt;\)</emphasis></entry>
+                <entry><emphasis>\(>\)</emphasis></entry>
                 <entry><emphasis>\(\geq\)</emphasis></entry>
                 <entry><emphasis>\(&lt;\)</emphasis></entry>
                 <entry><emphasis>\(\leq\)</emphasis></entry>
@@ -167,37 +167,37 @@
               </thead>
               <tbody>
               <row>
-                <entry>is greater than<newline />is more than<newline />is larger than<newline />exceeds </entry>
-                <entry>is greater than or equal to<newline />is at least<newline />is no less than<newline />is the minimum</entry>
-                <entry>is less than<newline />is smaller than<newline />has fewer than<newline />is lower than</entry>
-                <entry>is less than or equal to<newline />is at most<newline />is no more than<newline />is the maximum</entry>
+                <entry>is greater than<newline/>is more than<newline/>is larger than<newline/>exceeds </entry>
+                <entry>is greater than or equal to<newline/>is at least<newline/>is no less than<newline/>is the minimum</entry>
+                <entry>is less than<newline/>is smaller than<newline/>has fewer than<newline/>is lower than</entry>
+                <entry>is less than or equal to<newline/>is at most<newline/>is no more than<newline/>is the maximum</entry>
               </row>
             </tbody>
           </tgroup>
         </table>
 
-        <para><emphasis>Example</emphasis></para>
-        <para>Translate each phrase to an inequality.</para>
-        <para>Twenty-seven less than x \(\underbrace{is\;at\;least}\) 48 <emphasis>\(x-17\geq48\)</emphasis>
+        <para id="para-00025"><emphasis>Example</emphasis></para>
+        <para id="para-00026">Translate each phrase to an inequality.</para>
+        <para id="para-00027">Twenty-seven less than x \(\underbrace{is\;at\;least}\) 48 <emphasis>\(x-17\geq48\)</emphasis>
        </para>
-        <para>"is at least" means \( \geq \)</para>
+        <para id="para-00028">"is at least" means \( \geq \)</para>
 
-        <para>5 more than z \(\underbrace{is\;lower\;than}\) 52 <emphasis>\(z + 5 &lt; 52\)</emphasis></para>
-        <para>"is at least" means \( \geq \)</para>
+        <para id="para-00029">5 more than z \(\underbrace{is\;lower\;than}\) 52 <emphasis>\(z + 5 &lt; 52\)</emphasis></para>
+        <para id="para-00030">"is at least" means \( \geq \)</para>
 
-        <note class="try look-at-me">
+        <note class="try look-at-me" id="note-00002">
         <title>Try It: Translate to an Inequality </title>
-        <para>Translate the following sentences into inequalities.</para>
+        <para id="para-00031">Translate the following sentences into inequalities.</para>
 
         <!--Q#1-->
-        <exercise>
-          <problem>
-            <para>Nineteen less than \( p \) is no less than 47.</para>
+        <exercise id="exer-00007">
+          <problem id="prob-00007">
+            <para id="para-00032">Nineteen less than \( p \) is no less than 47.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
+          <solution id="sol-00007">
+            <para id="para-00033">Compare your answer:</para>
 
-            <para>Solution: \( p - 19 ≥ 47 \)</para>
+            <para id="para-00034">Solution: \( p - 19 ≥ 47 \)</para>
 
           </solution>
         </exercise>
@@ -206,14 +206,14 @@
 
 
         <!--Q#2-->
-        <exercise>
-          <problem>
-            <para>Four more than \( a \) is at most 15.</para>
+        <exercise id="exer-00008">
+          <problem id="prob-00008">
+            <para id="para-00035">Four more than \( a \) is at most 15.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
+          <solution id="sol-00008">
+            <para id="para-00036">Compare your answer:</para>
 
-            <para>Solution: \( a + 4 ≤ 15 \)</para>
+            <para id="para-00037">Solution: \( a + 4 ≤ 15 \)</para>
 
           </solution>
         </exercise>

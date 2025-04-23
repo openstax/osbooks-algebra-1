@@ -6,206 +6,206 @@
     <md:uuid>877aeae2-62fa-46b1-a771-fe211ff72af8</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>In an earlier activity, you saw a function representing the area of a square (function \(A\)) and another representing the revenue of a tennis camp (function \(R\)). Refer to the descriptions of those functions to answer these questions.</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00001">In an earlier activity, you saw a function representing the area of a square (function \(A\)) and another representing the revenue of a tennis camp (function \(R\)). Refer to the descriptions of those functions to answer these questions.</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>Here is a graph that represents function \(A\), defined by \(A(s)=s^2\), where \(s\) is the side length of the square in centimeters.</item>
       </list>
-      <para>
+      <para id="para-00002">
           <media alt="A graph. ">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_15_06_01.svg"/>
           </media>
         
     </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Name three possible input-output pairs of this function. Enter your answers as sets of ordered pairs.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">Name three possible input-output pairs of this function. Enter your answers as sets of ordered pairs.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>\(A(2)=4\), \(A(3)=9\), and \(A(7)=49\), or \((2,4)\), \((3,9)\), \((7,49)\)</para>
+        <solution id="sol-00001">
+          <para id="para-00004">Compare your answers:</para>
+          <para id="para-00005">\(A(2)=4\), \(A(3)=9\), and \(A(7)=49\), or \((2,4)\), \((3,9)\), \((7,49)\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <exercise>
-        <problem>
-          <para>Earlier, we described the set of all possible input values of \(A\) as “any number greater than or equal to 0.” How would you describe the set of all possible output values of \(A\)?</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00006">Earlier, we described the set of all possible input values of \(A\) as “any number greater than or equal to 0.” How would you describe the set of all possible output values of \(A\)?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>The outputs of \(A\) are also all numbers greater than or equal to 0.</para>
+        <solution id="sol-00002">
+          <para id="para-00007">Compare your answers:</para>
+          <para id="para-00008">The outputs of \(A\) are also all numbers greater than or equal to 0.</para>
         </solution>
       </exercise>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>Function \(R\) is defined by \(R(n)=40n\), where \(n\) is the number of campers.</item>
       </list>
-      <exercise>
-        <problem>
-          <para>Is 20 a possible output value in this situation? What about 100? Be prepared to show your reasoning.</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00009">Is 20 a possible output value in this situation? What about 100? Be prepared to show your reasoning.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>No, both 20 and 100 cannot be outputs because the input (the number of campers) cannot be fractions.</para>
+        <solution id="sol-00003">
+          <para id="para-00010">Compare your answers:</para>
+          <para id="para-00011">No, both 20 and 100 cannot be outputs because the input (the number of campers) cannot be fractions.</para>
         </solution>
       </exercise>
-      <exercise>
-        <problem>
-          <para>Here are two graphs that relate number of students and camp revenue in dollars. Which graph could represent function \(R\)? Explain why the other one could not represent the function.
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00012">Here are two graphs that relate number of students and camp revenue in dollars. Which graph could represent function \(R\)? Explain why the other one could not represent the function.
         
         (<media alt="A graph. "><image mime-type="image/svg+xml" src="../../media/Algebra-1_04_15_06_02.svg"/></media><media alt="A graph. "><image mime-type="image/svg+xml" src="../../media/Algebra-1_04_15_06_03.svg"/></media>)</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>The second graph could represent function \(R\). The first graph could not represent function \(R\) because it includes all points for \(n\)-values between 0 and 5, \(n\)-values greater than 16, and fractional \(n\)-values. All of these \(n\)-values don’t apply in this situation.</para>
+        <solution id="sol-00004">
+          <para id="para-00013">Compare your answers:</para>
+          <para id="para-00014">The second graph could represent function \(R\). The first graph could not represent function \(R\) because it includes all points for \(n\)-values between 0 and 5, \(n\)-values greater than 16, and fractional \(n\)-values. All of these \(n\)-values don’t apply in this situation.</para>
         </solution>
       </exercise>
-      <exercise>
-        <problem>
-          <para>Describe the set of all possible output values of \(R\).</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00015">Describe the set of all possible output values of \(R\).</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>The outputs of \(R\) are all multiples of 40 between 200 and 640 (200, 240, 280, and so on).</para>
+        <solution id="sol-00005">
+          <para id="para-00016">Compare your answers:</para>
+          <para id="para-00017">The outputs of \(R\) are all multiples of 40 between 200 and 640 (200, 240, 280, and so on).</para>
         </solution>
       </exercise>
-      <para>Write the following definition in your math notebook:
-  The set of output values form the <term class="glossary-tooltip">range</term> of the function.</para>
+      <para id="para-00018">Write the following definition in your math notebook:
+  The set of output values form the <term class="glossary-tooltip" id="term-00001">range</term> of the function.</para>
 </section>
-  <section>
+  <section id="sect-00002">
       <title>Video: Identifying Outputs of a Function</title>
-      <para>Watch the following video to learn more about identifying outputs of a function.</para>
+      <para id="para-00019">Watch the following video to learn more about identifying outputs of a function.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/21adf0146df228d483924077672ad2140a3bb95d"/>
       </media></section>
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
       
-      <section>
+      <section id="sect-00003">
         <title>Are you ready for more?</title>
-          <section>
+          <section id="sect-00004">
             <title>Extending Your Thinking</title>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1">
-        <problem>
+      <exercise class="RFM1" id="exer-00006">
+        <problem id="prob-00006">
           <title>Making a Real-World Connection </title>
-          <para>If the camp wishes to collect at least $500 from the participants, how many students can they have? Explain how this information is shown on the graph.</para>
+          <para id="para-00020">If the camp wishes to collect at least $500 from the participants, how many students can they have? Explain how this information is shown on the graph.</para>
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>They will need at least 13 students to collect $500 or more, so the possibilities are 13, 14, 15, and 16. On the graph, there are only 4 dots that lie on or above the horizontal line representing $500.</para>
+        <solution id="sol-00006">
+          <para id="para-00021">Compare your answers:</para>
+          <para id="para-00022">They will need at least 13 students to collect $500 or more, so the possibilities are 13, 14, 15, and 16. On the graph, there are only 4 dots that lie on or above the horizontal line representing $500.</para>
         </solution>
       </exercise>
       <!--End interaction-->
     </section></section>
-    <note class="self-check">
-      <para>Looking at the graph below, which statement about the values graphed is true?</para>
-      <para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00023">Looking at the graph below, which statement about the values graphed is true?</para>
+      <para id="para-00024">
           <media alt="SCATTER PLOT WITH POINTS AT (2, 7), (3, 9), (4, 11), (5, 13), (6, 15), (7, 17), AND (8, 19).">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_15_07_01.jpg"/>
           </media>
         
     </para>
     </note>
-    <section>
+    <section id="sect-00005">
       <title>Additional Resources</title>
       
-    <section>
+    <section id="sect-00006">
       <title>Naming Input-Output Pairs</title>
-      <para>A graph is yet another way that a relation can be represented. The set of ordered pairs of all the points plotted is the relation. The set of all \(x\)-coordinates, or the input values, is the <term class="glossary-tooltip">domain</term> of the relation, and the set of all \(y\)-coordinates, or outputs, is the <term class="glossary-tooltip">range</term>.</para>
-      <para>Recall a coordinate is written \((x, y)\).</para>
-      <para>Name the input-output pairs for the graph below:</para>
-      <para>
+      <para id="para-00025">A graph is yet another way that a relation can be represented. The set of ordered pairs of all the points plotted is the relation. The set of all \(x\)-coordinates, or the input values, is the <term class="glossary-tooltip" id="term-00002">domain</term> of the relation, and the set of all \(y\)-coordinates, or outputs, is the <term class="glossary-tooltip" id="term-00003">range</term>.</para>
+      <para id="para-00026">Recall a coordinate is written \((x, y)\).</para>
+      <para id="para-00027">Name the input-output pairs for the graph below:</para>
+      <para id="para-00028">
           <media alt="Insert Alt Text">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_15_08_01.jpg"/>
           </media>
         
     </para>
-      <para>The input values are the \(x\)-values, and the output values are \(y\)-values.  (1,3) (2,6) (3,12) (4,24)</para>
-      <para>This means the domain for the graphed relation is {1, 2, 3, 4} and the range is {3, 6, 12, 24}</para>
-      <note class="try">
+      <para id="para-00029">The input values are the \(x\)-values, and the output values are \(y\)-values.  (1,3) (2,6) (3,12) (4,24)</para>
+      <para id="para-00030">This means the domain for the graphed relation is {1, 2, 3, 4} and the range is {3, 6, 12, 24}</para>
+      <note class="try" id="note-00002">
 <title>Try It: Naming Input-Output Pairs</title>
       
-        <exercise>
-          <problem>
-            <para>Name the input-output pairs of the graph below:</para>
-            <para>
+        <exercise id="exer-00007">
+          <problem id="prob-00007">
+            <para id="para-00031">Name the input-output pairs of the graph below:</para>
+            <para id="para-00032">
                       <media alt="Insert Alt Text">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_04_15_08_02.jpg"/>
                 </media>
               
           </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00033">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Here is how to write the input-output pairs:</para>
-            <para>\((1, 4.5)\) \((2, 9)\) \((3, 18)\) \((4,36)\)</para>
+          <solution id="sol-00007">
+            <para id="para-00034">Here is how to write the input-output pairs:</para>
+            <para id="para-00035">\((1, 4.5)\) \((2, 9)\) \((3, 18)\) \((4,36)\)</para>
           </solution>
         </exercise>
       </note>
 
-    </section><section>    <title>Using Inequalities to Determine Range </title>
+    </section><section id="sect-00007">    <title>Using Inequalities to Determine Range </title>
 
-      <para>The domain and range of a function describe the set of possible input values (domain) and output values (range) for that function. The range represents the values that the function can output. Inequalities can be used to represent the range of a function. Remember to consider the nature of the function, its properties, and any specific restrictions when determining the range using inequalities. Graphing the function can often provide visual clues to help confirm your analysis.</para>
-      <para>Use the following information to determine the range of a function using inequalities:</para>
-      <list>
+      <para id="para-00036">The domain and range of a function describe the set of possible input values (domain) and output values (range) for that function. The range represents the values that the function can output. Inequalities can be used to represent the range of a function. Remember to consider the nature of the function, its properties, and any specific restrictions when determining the range using inequalities. Graphing the function can often provide visual clues to help confirm your analysis.</para>
+      <para id="para-00037">Use the following information to determine the range of a function using inequalities:</para>
+      <list id="list-00003">
         <item>Analyze the behavior and possible output values of the function, usually denoted as \(f(x)\).</item>
         <item>Consider the range of the function based on its graph or algebraic properties.</item>
         <item>Identify the minimum and maximum possible values that the function can reach.</item>
       </list>
-      <para>Use the following information to express the range of a function using inequalities:
+      <para id="para-00038">Use the following information to express the range of a function using inequalities:
 
 </para>
-      <list>
+      <list id="list-00004">
         <item>Use interval notation or set notation to represent the valid output values for the function.</item>
         <item>Use inequalities to express the minimum and maximum possible values. For example, if \(x\) cannot be negative, you would write \((x ≥ 0)\) or \([0, +∞)\) in interval notation. For example, if the function's graph never goes below −3 and can reach any positive value, you would write \((−3 &lt; y &lt; +∞)\) as an inequality.</item>
       </list>
       <!-- BEGIN GRAY BOX STYLING-->
-      <note>
+      <note id="note-00003">
         <title>Special cases
         </title>
         
-        <para>Consider any specific exclusions or additional conditions mentioned in the function's definition.</para>
-        <para>For instance, if a function has a denominator and \(x\) cannot equal certain values, denote those exclusions in the domain using the notation "\(x\) ≠ value."</para>
+        <para id="para-00039">Consider any specific exclusions or additional conditions mentioned in the function's definition.</para>
+        <para id="para-00040">For instance, if a function has a denominator and \(x\) cannot equal certain values, denote those exclusions in the domain using the notation "\(x\) ≠ value."</para>
       </note>
       <!-- END GRAY BOX STYLING-->
-      <para>
+      <para id="para-00041">
        <emphasis>Example:</emphasis>
     </para>
-      <para>Determine the range of this function: \(p(x) = 3, x ≥ −2.\)</para>
-      <para>Since the function \(p(x)\) is constant and always equal to 3, the range of the function is a single value, which is 3.</para>
-      <para>Therefore, the range of \(p(x) = 3\), \(x ≥ −2\) is the set {3}.</para>
-      <note class="try">
+      <para id="para-00042">Determine the range of this function: \(p(x) = 3, x ≥ −2.\)</para>
+      <para id="para-00043">Since the function \(p(x)\) is constant and always equal to 3, the range of the function is a single value, which is 3.</para>
+      <para id="para-00044">Therefore, the range of \(p(x) = 3\), \(x ≥ −2\) is the set {3}.</para>
+      <note class="try" id="note-00004">
   <title>Try It: Determine the Range of a Function Using Inequalities</title>
       <!-- BEGIN TEXT ENTRY WITH REVEAL -->
       <!--Q#1-->
-      <exercise>
-        <problem>
-          <para>What is the range of the function \(f(x)=2x-3\) using inequalities.</para>
+      <exercise id="exer-00008">
+        <problem id="prob-00008">
+          <para id="para-00045">What is the range of the function \(f(x)=2x-3\) using inequalities.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(R: (−∞ &lt;  f  &lt; +∞) \)</para>
+        <solution id="sol-00008">
+          <para id="para-00046">Compare your answer:</para>
+          <para id="para-00047">\(R: (−∞ &lt;  f  &lt; +∞) \)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!-- END TEXT ENTRY WITH REVEAL -->
       <!-- BEGIN TEXT ENTRY WITH REVEAL -->
       <!--Q#2-->
-      <exercise>
-        <problem>
-          <para>What is the range of the function \(g(x)=\frac{1}{(x-2)}\), \(x ≠ 2\) using inequalities.</para>
+      <exercise id="exer-00009">
+        <problem id="prob-00009">
+          <para id="para-00048">What is the range of the function \(g(x)=\frac{1}{(x-2)}\), \(x ≠ 2\) using inequalities.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(R: (−∞ &gt; g &gt; 0) \cup  (0 &lt; g&lt; +∞) \)indicating that the function can take any value except 0</para>
+        <solution id="sol-00009">
+          <para id="para-00049">Compare your answer:</para>
+          <para id="para-00050">\(R: (−∞ > g > 0) \cup  (0 &lt; g&lt; +∞) \)indicating that the function can take any value except 0</para>
         </solution>
       </exercise></note>
       <!--Interaction End -->

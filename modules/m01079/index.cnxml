@@ -6,13 +6,13 @@
     <md:uuid>93f84175-3337-44c8-898e-740170195bdc</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>Consider the function \(f(x) = \frac{6}{x-2}\).</para>
-      <para>To find out the sets of possible input and output values of the function, Clare created a table and evaluated \(f\) at some values of \(x\). Along the way, she ran into some trouble.</para>
-           <exercise>
-        <problem> <para>Find \(f(x)\) for each \(x\)-value Clare listed. Describe what Clare’s trouble might be.</para>
-      <table class="os-raise-horizontaltable">
+      <para id="para-00001">Consider the function \(f(x) = \frac{6}{x-2}\).</para>
+      <para id="para-00002">To find out the sets of possible input and output values of the function, Clare created a table and evaluated \(f\) at some values of \(x\). Along the way, she ran into some trouble.</para>
+           <exercise id="exer-00001">
+        <problem id="prob-00001"> <para id="para-00003">Find \(f(x)\) for each \(x\)-value Clare listed. Describe what Clare’s trouble might be.</para>
+      <table class="os-raise-horizontaltable" id="table-00001">
         <tgroup cols="6"><tbody><row>
             <entry>
              <emphasis>\(x\)</emphasis>
@@ -46,11 +46,11 @@
         </tbody></tgroup></table>
       <!--Text Entry Interaction Start -->
    </problem>
-        <solution>
+        <solution id="sol-00001">
           
-          <para>Compare your answer:</para>
-          <para>When \(x\) is \(2\), \(f(x)\) is \(\frac60\), which is undefined.</para>
-          <table class="os-raise-horizontaltable">
+          <para id="para-00004">Compare your answer:</para>
+          <para id="para-00005">When \(x\) is \(2\), \(f(x)\) is \(\frac60\), which is undefined.</para>
+          <table class="os-raise-horizontaltable" id="table-00002">
             <tgroup cols="6"><tbody><row>
                 <entry>
                  <emphasis>\(x\)</emphasis>
@@ -85,70 +85,70 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>Use graphing technology to graph function \(f\). What do you notice about the graph?
  </item>
       </list>
       <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media><!--Text Entry Interaction Start -->
       
-        <exercise>
-          <problem>
-            <para>Use the graphing tool here or technology outside the course. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00002">
+          <problem id="prob-00002">
+            <para id="para-00006">Use the graphing tool here or technology outside the course. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
+          <solution id="sol-00002">
+            <para id="para-00007">Compare your answer:</para>
+            <para id="para-00008">
                       <media alt="Insert Alt Text">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_15_09_01.svg"/>
                 </media>
               
           </para>
-            <para>The graph splits where the \(x\)-value is around 2. See graph.</para>
+            <para id="para-00009">The graph splits where the \(x\)-value is around 2. See graph.</para>
           </solution>
         </exercise>
       
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Use a calculator to compute the value you and Clare had trouble computing. What do you notice about the computation?</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00010">Use a calculator to compute the value you and Clare had trouble computing. What do you notice about the computation?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>When I tried to find \(f(2)\) with a calculator, it gave an error message.</para>
+        <solution id="sol-00003">
+          <para id="para-00011">Compare your answer:</para>
+          <para id="para-00012">When I tried to find \(f(2)\) with a calculator, it gave an error message.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>How would you describe the domain of function \(f\)?</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00013">How would you describe the domain of function \(f\)?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The domain includes all numbers except 2.</para>
+        <solution id="sol-00004">
+          <para id="para-00014">Compare your answer:</para>
+          <para id="para-00015">The domain includes all numbers except 2.</para>
         </solution>
       </exercise></section>
       <!--Interaction End -->
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
       
-      <section>
+      <section id="sect-00002">
         <title>Are you ready for more?</title>
-          <section>
+          <section id="sect-00003">
             <title>Extending Your Thinking</title>
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1">
-        <problem>
-          <para>Why do you think the graph of function \(f\) looks the way it does? Why are there two parts that split at \(x=2\), with one curving down as it approaches \(x=2\) from the left and the other curving up as it approaches \(x=2\) from the right?</para>
-          <para>Evaluate function \(f\) at different \(x\)-values that approach 2 but are not exactly 2, such as 1.8, 1.9, 1.95, 1.999, 2.2, 2.1, 2.05, 2.001, and so on. What do you notice about the values of \(f(x)\) as the \(x\)-values get closer and closer to 2?</para>
+      <exercise class="RFM1" id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00016">Why do you think the graph of function \(f\) looks the way it does? Why are there two parts that split at \(x=2\), with one curving down as it approaches \(x=2\) from the left and the other curving up as it approaches \(x=2\) from the right?</para>
+          <para id="para-00017">Evaluate function \(f\) at different \(x\)-values that approach 2 but are not exactly 2, such as 1.8, 1.9, 1.95, 1.999, 2.2, 2.1, 2.05, 2.001, and so on. What do you notice about the values of \(f(x)\) as the \(x\)-values get closer and closer to 2?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <list>
+        <solution id="sol-00005">
+          <para id="para-00018">Compare your answers:</para>
+          <list id="list-00002">
             <item>When \(x\) is less than 2, as it gets closer to 2 (from the left side), the denominator in 6x-2becomes a smaller and smaller negative value, so the quotient, \(f(x)\), gets larger and larger in the negative direction. It does so very quickly, which explains why the curve bends down rather dramatically.</item>
             <item>When \(x\) is greater than 2, as it approaches 2 (from the right side), the denominator in \(6x-2\) becomes a smaller and smaller positive value, so \(f(x)\) gets larger and larger in the positive direction. It does so very quickly as well, which explains the graph shooting up if we trace it from right to left.</item>
             <item>The expression \(6x-2\) undefined at \(x=2\) and we can see that the two pieces of the graph shoot off in opposite directions as x approaches 2 from the left and from the right, which explains the gap at \(x=2\).</item>

@@ -6,110 +6,110 @@
     <md:uuid>d3be6b21-1575-4b05-8609-25e359dbe07c</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>Here is a graph you saw in an earlier lesson. It represents the exponential function \(p\), which models the cost \(p(t)\), in dollars, of producing 1 watt of solar energy from 1977 to 1988, where \(t\) is years since 1977.</para>
-      <para>
+      <para id="para-00001">Here is a graph you saw in an earlier lesson. It represents the exponential function \(p\), which models the cost \(p(t)\), in dollars, of producing 1 watt of solar energy from 1977 to 1988, where \(t\) is years since 1977.</para>
+      <para id="para-00002">
           <media alt="Graph of an exponential function, origin O. t (years since 1977) and p (dollars per watt).">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_06_01.jpg"/>
           </media>
         
     </para>
       
-        <exercise>
-          <problem>
-            <para>Clare said, “In the first five years, between 1977 and 1982, the cost fell by about $12 per year. But in the second five years, between 1983 and 1988, the cost fell only by about $2 a year.” Show that Clare is correct.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <para id="para-00003">Clare said, “In the first five years, between 1977 and 1982, the cost fell by about $12 per year. But in the second five years, between 1983 and 1988, the cost fell only by about $2 a year.” Show that Clare is correct.</para>
+            <para id="para-00004">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para> \(\frac{p(5)−p(0)}{5−0} \approx -12.2\); \(\frac{p(11)−p(6)}{11−6} \approx -2.17\)</para>
+          <solution id="sol-00001">
+            <para id="para-00005">Compare your answer:</para>
+            <para id="para-00006"> \(\frac{p(5)−p(0)}{5−0} \approx -12.2\); \(\frac{p(11)−p(6)}{11−6} \approx -2.17\)</para>
           </solution>
         </exercise>
       
       
-        <exercise>
-          <problem>
-            <para>If the trend continues, will the average decrease in price be more or less than $2 per year between 1987 and 1992? Be prepared to show your reasoning.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00002">
+          <problem id="prob-00002">
+            <para id="para-00007">If the trend continues, will the average decrease in price be more or less than $2 per year between 1987 and 1992? Be prepared to show your reasoning.</para>
+            <para id="para-00008">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>From the first 5 years to the next 5 years, the rate of decrease slowed down, so if the trend continues, the decrease in price from 1987 to 1992 should be less than $2 per year.</para>
+          <solution id="sol-00002">
+            <para id="para-00009">Compare your answer:</para>
+            <para id="para-00010">From the first 5 years to the next 5 years, the rate of decrease slowed down, so if the trend continues, the decrease in price from 1987 to 1992 should be less than $2 per year.</para>
           </solution>
         </exercise>
       </section>
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      <section>
+      <section id="sect-00002">
         <title>Are you ready for more?</title>
-          <section>
+          <section id="sect-00003">
             <title>Extend Your Thinking</title>
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1">
-        <problem>
+      <exercise class="RFM1" id="exer-00003">
+        <problem id="prob-00003">
           <title>Extending Your Thinking</title>
-          <para>Suppose the cost of producing 1 watt of solar energy had instead decreased by $12.20 each year between 1977 and 1982. Compute what the costs would be each year and plot them on a graph. Compare your graph to the graph from the beginning of the 5.10.3 activity (top of page). How do these alternate costs compare to the actual costs shown?</para>
+          <para id="para-00011">Suppose the cost of producing 1 watt of solar energy had instead decreased by $12.20 each year between 1977 and 1982. Compute what the costs would be each year and plot them on a graph. Compare your graph to the graph from the beginning of the 5.10.3 activity (top of page). How do these alternate costs compare to the actual costs shown?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>
+        <solution id="sol-00003">
+          <para id="para-00012">Compare your answer:</para>
+          <para id="para-00013">
                   <media alt="">
                 <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_06_02.jpg"/>
               </media>
             
         </para>
-          <para>The alternate costs with the constant decrease would be the same in 1977 and 1982 and higher for each year in between.</para>
+          <para id="para-00014">The alternate costs with the constant decrease would be the same in 1977 and 1982 and higher for each year in between.</para>
         </solution>
       </exercise>
       <!--End interaction-->
     </section>
   </section>
-    <note class="self-check">
-      <para>The graph below shows the bounce height of a basketball at each bounce. What is the approximate average rate of change from the first bounce to the third bounce?</para>
-      <para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00015">The graph below shows the bounce height of a basketball at each bounce. What is the approximate average rate of change from the first bounce to the third bounce?</para>
+      <para id="para-00016">
           <media alt="">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_07_01.jpg"/>
           </media>
     </para>
     </note>
 
-    <section>
+    <section id="sect-00004">
       <title>Additional Resources</title>
       
-    <section>
+    <section id="sect-00005">
       <title> Trends in Average Rates of Change</title>
-      <para>A construction company purchased some equipment costing $300,000. The equipment depreciates in value over time.</para>
-      <para>
+      <para id="para-00017">A construction company purchased some equipment costing $300,000. The equipment depreciates in value over time.</para>
+      <para id="para-00018">
           <media alt="">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_08_01.jpg"/>
           </media>
         
     </para>
-      <para>Approximately how much did the value drop from years 0 to 5 compared to years 6 to 10?</para>
-      <para>\(\frac{v(5)-v(0)}{5-0} \approx \frac{140,000-300,000}{5}=-32,000\)</para>
-      <para>\(\frac{v(10)-v(6)}{10-6} \approx \frac{70,000-120,000}{4}=-12,500\)</para>
-      <para>Following this trend, we would expect the average rate of change of the value of the equipment from years 11 – 15 to be below –12,500 dollars per year.</para>
-      <note class="try">
+      <para id="para-00019">Approximately how much did the value drop from years 0 to 5 compared to years 6 to 10?</para>
+      <para id="para-00020">\(\frac{v(5)-v(0)}{5-0} \approx \frac{140,000-300,000}{5}=-32,000\)</para>
+      <para id="para-00021">\(\frac{v(10)-v(6)}{10-6} \approx \frac{70,000-120,000}{4}=-12,500\)</para>
+      <para id="para-00022">Following this trend, we would expect the average rate of change of the value of the equipment from years 11 – 15 to be below –12,500 dollars per year.</para>
+      <note class="try" id="note-00002">
   <title>Try It: Trends in Average Rates of Change</title>
       
-        <exercise>
-          <problem>
-            <para>
+        <exercise id="exer-00004">
+          <problem id="prob-00004">
+            <para id="para-00023">
                       <media alt="GRAPH SHOWING THE VALUE OF EQUIPMENT IN DOLLARS, OR V OF T, AS A FUNCTION OF THE NUMBER OF YEARS AFTER EQUIPMENT WAS PURCHASED, OR T. PLOTTED POINTS REPRESENTING EXPONENTIAL DECAY ARE SHOWN, INCLUDING THE \(y\)-intercepts 0 COMMA THREE HUNDRED THOUSAND AND THE POINTS 5 COMMA ONE HUNDRED FORTY THOUSAND, 6 COMMA ONE HUNDRED TWENTY THOUSAND, AND 10 COMMA SEVENTY THOUSAND.">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_08_02.jpg"/>
                 </media>
               
           </para>
-            <para>Approximately how much did the value drop from year 11 to year 15?</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00024">Approximately how much did the value drop from year 11 to year 15?</para>
+            <para id="para-00025">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Here is how to find the average value drop from year 11 to year 15:</para>
-            <para>(Note that approximate points are used, so your answer may vary a little, but the answer should still be below –10,000.)</para>
-            <para>\(\frac {v(15)-v(11)}{15-11} \approx \frac{30,000-60,000}{4}=-7,500\)</para>
+          <solution id="sol-00004">
+            <para id="para-00026">Compare your answer:</para>
+            <para id="para-00027">Here is how to find the average value drop from year 11 to year 15:</para>
+            <para id="para-00028">(Note that approximate points are used, so your answer may vary a little, but the answer should still be below –10,000.)</para>
+            <para id="para-00029">\(\frac {v(15)-v(11)}{15-11} \approx \frac{30,000-60,000}{4}=-7,500\)</para>
           </solution>
         </exercise>
       </note>

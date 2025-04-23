@@ -6,39 +6,39 @@
     <md:uuid>f1b3e77f-cccc-4879-86b0-832e27641e51</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Cool Down Activity</title>
-      <para>Here are three patterns of dots.</para>
-      <para>Pattern A</para>
-      <para>
+      <para id="para-00001">Here are three patterns of dots.</para>
+      <para id="para-00002">Pattern A</para>
+      <para id="para-00003">
           <media alt="Four steps of a growing pattern. Step 0 is blank. Step 1: 2 dots, one atop the other. Step 2: 4 dots, 2 in row 1 and 2 in row 2. Step 3: 6 dots, 3 dots on row 1 and 3 dots on row 2.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_09_01.svg" />
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_09_01.svg"/>
           </media>
         
      </para>
-      <para>Pattern B</para>
-      <para>
+      <para id="para-00004">Pattern B</para>
+      <para id="para-00005">
           <media alt="Four steps of a growing pattern.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_09_02.svg" />
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_09_02.svg"/>
           </media>
         
      </para>
-      <para>Pattern C</para>
-      <para>
+      <para id="para-00006">Pattern C</para>
+      <para id="para-00007">
           <media alt="Four steps of a growing pattern.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_09_03.svg" />
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_04_09_03.svg"/>
           </media>
         
      </para>
-      <exercise>
-        <problem>
-          <para>Which pattern shows a quadratic relationship between the step number and the number of dots? Explain how you know algebraically and in complete sentences.</para>
-          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00008">Which pattern shows a quadratic relationship between the step number and the number of dots? Explain how you know algebraically and in complete sentences.</para>
+          <para id="para-00009">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>Pattern B shows a quadratic relationship.</para>
-          <list>
+        <solution id="sol-00001">
+          <para id="para-00010">Compare your answer:</para>
+          <para id="para-00011">Pattern B shows a quadratic relationship.</para>
+          <list id="list-00001">
             <item>The number of dots is the step number squared plus 1, or \(n^2+1\).</item>
             <item>Pattern A is growing linearly. It is growing by 2 each time. Pattern C is growing by a factor of 3 each time, so it is growing exponentially.</item>
             <item>Pattern B is growing by 1, then by 3, and then by 5, which is the pattern we saw in other examples of quadratic relationships in the lesson.</item>

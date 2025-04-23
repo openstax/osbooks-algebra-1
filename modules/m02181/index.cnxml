@@ -6,13 +6,13 @@
     <md:uuid>d4fe1ad8-27f3-44ef-8494-99869579604c</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <exercise>
-        <problem>
-          <para>Each row in the table contains a pair of equivalent expressions.</para>
-          <para>Complete the table with the missing expressions. If you get stuck, consider drawing a diagram.</para>
-          <table class="os-raise-midsizetable">
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00001">Each row in the table contains a pair of equivalent expressions.</para>
+          <para id="para-00002">Complete the table with the missing expressions. If you get stuck, consider drawing a diagram.</para>
+          <table class="os-raise-midsizetable" id="table-00001">
             <tgroup cols="2">
               <tbody>
                 <row>
@@ -72,11 +72,11 @@
               </tbody>
             </tgroup>
           </table>
-          <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          <para id="para-00003">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <table class="os-raise-midsizetable">
+        <solution id="sol-00001">
+          <para id="para-00004">Compare your answers:</para>
+          <table class="os-raise-midsizetable" id="table-00002">
             <tgroup cols="2">
               <tbody>
                 <row>
@@ -139,109 +139,109 @@
         </solution>
       </exercise>
     </section>
-    <section>
+    <section id="sect-00002">
       <title>Are you ready for more?</title>
-      <exercise class="RFM1">
-        <problem>
+      <exercise class="RFM1" id="exer-00002">
+        <problem id="prob-00002">
           <title>Extending Your Thinking</title>
-          <para>A mathematician threw a party. She told her guests, “I have a riddle for you. I have three daughters. The product of their ages is 72. The sum of their ages is the same as my house number. How old are my daughters?”</para>
-          <para>The guests went outside to look at the house number. They thought for a few minutes, and then they said, “This riddle can’t be solved!”</para>
-          <para>The mathematician said, “Oh yes, I forgot to tell you the last clue. My youngest daughter prefers strawberry ice cream.”</para>
-          <para>With this last clue, the guests could solve the riddle. How old are the mathematician’s daughters? Be prepared to show your reasoning.</para>
+          <para id="para-00005">A mathematician threw a party. She told her guests, “I have a riddle for you. I have three daughters. The product of their ages is 72. The sum of their ages is the same as my house number. How old are my daughters?”</para>
+          <para id="para-00006">The guests went outside to look at the house number. They thought for a few minutes, and then they said, “This riddle can’t be solved!”</para>
+          <para id="para-00007">The mathematician said, “Oh yes, I forgot to tell you the last clue. My youngest daughter prefers strawberry ice cream.”</para>
+          <para id="para-00008">With this last clue, the guests could solve the riddle. How old are the mathematician’s daughters? Be prepared to show your reasoning.</para>
         </problem>
-        <solution>
-          <para>Enter your explanation.</para>
-          <para>Compare your answer:</para>
-          <para>2, 6, and 6.</para>
-          <para>If the product of their ages is 72, there are twelve possibilities:</para>
-          <list>
+        <solution id="sol-00002">
+          <para id="para-00009">Enter your explanation.</para>
+          <para id="para-00010">Compare your answer:</para>
+          <para id="para-00011">2, 6, and 6.</para>
+          <para id="para-00012">If the product of their ages is 72, there are twelve possibilities:</para>
+          <list id="list-00001">
             <item>1, 1, 72</item>
             <item>1, 2, 36</item>
             <item>1, 3, 24</item>
             <item>1, 4, 18</item>
           </list>
-          <list>
+          <list id="list-00002">
             <item>1, 6, 12</item>
             <item>1, 8, 9</item>
             <item>2, 2, 18</item>
             <item>2, 3, 12</item>
           </list>
-          <list>
+          <list id="list-00003">
             <item>2, 4, 9</item>
             <item>2, 6 ,6</item>
             <item>3, 3, 8</item>
             <item>3, 4, 6</item>
           </list>
-          <para>Because the riddle can’t be solved by knowing the house number (the sum of the three numbers), it must be the case that there are ages that have the same sum. The only sets of ages with the same sum are 3, 3, 8 and 2, 6, 6, which each add up to 14. From the last clue, we know that there is a youngest daughter. The only set of ages that has a “youngest” age are 2, 6, 6, so these are the ages of the three daughters.</para>
+          <para id="para-00013">Because the riddle can’t be solved by knowing the house number (the sum of the three numbers), it must be the case that there are ages that have the same sum. The only sets of ages with the same sum are 3, 3, 8 and 2, 6, 6, which each add up to 14. From the last clue, we know that there is a youngest daughter. The only set of ages that has a “youngest” age are 2, 6, 6, so these are the ages of the three daughters.</para>
         </solution>
       </exercise>
       <!--End interaction-->
-      <section>
+      <section id="sect-00003">
         <title>Video: Rewriting Quadratic Expressions</title>
-        <para>Watch the following video to learn more about rewriting quadratic expressions into factored form.</para>
+        <para id="para-00014">Watch the following video to learn more about rewriting quadratic expressions into factored form.</para>
         <media alt="Placeholder for Alt Text">
-          <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/7d5b893f71e3f9f93bc1a3b98454bbc93e29d76b" />
+          <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/7d5b893f71e3f9f93bc1a3b98454bbc93e29d76b"/>
         </media>
       </section>
     </section>
-    <note class="self-check">
-      <para>Find the factored form of \(x^2− 18x + 80\).</para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00015">Find the factored form of \(x^2− 18x + 80\).</para>
     </note>
-    <section>
+    <section id="sect-00004">
       <title>Additional Resources</title>
-      <section>
+      <section id="sect-00005">
         <title>Rewriting Quadratic Expressions in Standard Form</title>
-        <para>We have had a lot of practice rewriting factored form into standard form. To reverse this process, many of the same skills are needed.</para>
-        <para>Let’s look at an example.</para>
-        <para>
+        <para id="para-00016">We have had a lot of practice rewriting factored form into standard form. To reverse this process, many of the same skills are needed.</para>
+        <para id="para-00017">Let’s look at an example.</para>
+        <para id="para-00018">
           <emphasis>Example 1</emphasis>
        </para>
-        <para>Write \(x^2+16x +63\) in factored form.</para>
-        <para>To do this, we must think about how you converted from factored form into standard form. First, check if the leading coefficient (for the quadratic term) is 1. If so, then:</para>
-        <list>
+        <para id="para-00019">Write \(x^2+16x +63\) in factored form.</para>
+        <para id="para-00020">To do this, we must think about how you converted from factored form into standard form. First, check if the leading coefficient (for the quadratic term) is 1. If so, then:</para>
+        <list id="list-00004">
           <item>To find the coefficient of the middle term, 16, we added two numbers together from the diagram.</item>
         </list>
-        <list>
+        <list id="list-00005">
           <item>To find the last term or constant, 63, we multiplied two numbers together from the diagram.</item>
         </list>
-        <para>So, which numbers, \(a\) and \(b\), have a sum of 16 and a product of 63?</para>
-        <para>
+        <para id="para-00021">So, which numbers, \(a\) and \(b\), have a sum of 16 and a product of 63?</para>
+        <para id="para-00022">
               <media alt=" DIAGRAM THAT SHOWS A PLUS B AND A TIMES B WITH ARROWS GOING TO 16 AND 63 IN THE QUADRATIC EXPRESSION, X-SQUARED PLUS 16X PLUS 63.">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_09_08_08_01.jpg" />
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_09_08_08_01.jpg"/>
             </media>
           
        </para>
-        <para>The positive factors of 63 include:</para>
-        <para>1, 63 3, 21 7, 9</para>
-        <para>With some reasoning, we find that 7 and 9 are the numbers we want.</para>
-        <para>So, the factored form of \(x^2+16x +63\) is \((x + 7)(x + 9)\).</para>
-        <para>Let’s look at another example.</para>
-        <para>
+        <para id="para-00023">The positive factors of 63 include:</para>
+        <para id="para-00024">1, 63 3, 21 7, 9</para>
+        <para id="para-00025">With some reasoning, we find that 7 and 9 are the numbers we want.</para>
+        <para id="para-00026">So, the factored form of \(x^2+16x +63\) is \((x + 7)(x + 9)\).</para>
+        <para id="para-00027">Let’s look at another example.</para>
+        <para id="para-00028">
           <emphasis>Example 2</emphasis>
        </para>
-        <para>Write \(x^2−10x +16\) in factored form.</para>
-        <para>The sign of the middle term is negative, but we follow the same process since the coefficient of \(x^2\) is 1.</para>
-        <para>Let’s rewrite the expression as \(x^2+ -10x +16\).</para>
-        <para>Which numbers have a sum of –10 and a product of 16?</para>
-        <para>The factors of 16 include:</para>
-        <para>1, 16–1, –16 2, 8–2, –8 4, 4–4, –4</para>
-        <para>The numbers we need are –2 and –8 because they have a product of 16 and a sum of –10.</para>
-        <para>So, the factored form is \((x + (-2))(x + (-8))\). This can be rewritten as \((x − 2)(x − 8)\).</para>
-        <note class="try">
+        <para id="para-00029">Write \(x^2−10x +16\) in factored form.</para>
+        <para id="para-00030">The sign of the middle term is negative, but we follow the same process since the coefficient of \(x^2\) is 1.</para>
+        <para id="para-00031">Let’s rewrite the expression as \(x^2+ -10x +16\).</para>
+        <para id="para-00032">Which numbers have a sum of –10 and a product of 16?</para>
+        <para id="para-00033">The factors of 16 include:</para>
+        <para id="para-00034">1, 16–1, –16 2, 8–2, –8 4, 4–4, –4</para>
+        <para id="para-00035">The numbers we need are –2 and –8 because they have a product of 16 and a sum of –10.</para>
+        <para id="para-00036">So, the factored form is \((x + (-2))(x + (-8))\). This can be rewritten as \((x − 2)(x − 8)\).</para>
+        <note class="try" id="note-00002">
           <title>Try It: Rewriting Quadratic Expressions in Standard Form</title>
-      <exercise>
-            <problem>
-              <para>Find the factored form of each expression.</para>
-              <para>\(x^2+9x +18\)</para>
-              <para>\(x^2−12x +35\)</para>
-              <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00003">
+            <problem id="prob-00003">
+              <para id="para-00037">Find the factored form of each expression.</para>
+              <para id="para-00038">\(x^2+9x +18\)</para>
+              <para id="para-00039">\(x^2−12x +35\)</para>
+              <para id="para-00040">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
             </problem>
-            <solution>
-              <para>Here is how to rewrite quadratic equations in standard form into factored form:</para>
-              <list class="os-raise-noindent" list-type="enumerated">
+            <solution id="sol-00003">
+              <para id="para-00041">Here is how to rewrite quadratic equations in standard form into factored form:</para>
+              <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
                 <item>\((x + 6)(x + 3)\); Since the coefficients of the \(x\)-terms are both 1, think of two numbers that have a sum of 9 and a product of 18.</item>
               </list>
-              <list class="os-raise-noindent" list-type="enumerated">
+              <list class="os-raise-noindent" list-type="enumerated" id="list-00007">
                 <item>\((x − 5)(x − 7)\); Since the coefficients of the \(x\)-terms are both 1, think of two numbers that have a sum of –12 and a product of 35.</item>
               </list>
             </solution>

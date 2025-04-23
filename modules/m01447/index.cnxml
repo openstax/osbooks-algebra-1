@@ -6,9 +6,9 @@
     <md:uuid>5b645948-6b7a-444e-8999-5ccfe39eaa8a</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>The table shows some heights of a ball after a certain number of bounces.</para>
+      <para id="para-00001">The table shows some heights of a ball after a certain number of bounces.</para>
       <table class="os-raise-midsizetable" id="table-00001">
         <tgroup cols="2"><tbody><row>
             <entry>
@@ -56,80 +56,80 @@
           </row>
         </tbody></tgroup></table>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Is this ball more or less bouncy than the tennis ball in activity 5.11.2, which has the equation \(h=150
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00002"> Is this ball more or less bouncy than the tennis ball in activity 5.11.2, which has the equation \(h=150
         \cdot (0.53)^n\)? Explain or show your reasoning.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para>This ball is more bouncy. Each bounce of this ball reaches a height that is about 0.7 times that of the previous
+        <solution id="sol-00001">
+          <para id="para-00003"/>
+          <para id="para-00004">Compare your answer:</para>
+          <para id="para-00005">This ball is more bouncy. Each bounce of this ball reaches a height that is about 0.7 times that of the previous
       bounce \((51.5 \div 73.5 \approx 0.7)\). The tennis ball in the earlier task loses about half of its height with
       each bounce.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> From what height was the ball dropped? Explain or show your reasoning. Remember your units!</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00006"> From what height was the ball dropped? Explain or show your reasoning. Remember your units!</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para> 150 centimeters; \(73.5 \div 0.7=105\) and \(105 \div 0.7=150\).</para>
+        <solution id="sol-00002">
+          <para id="para-00007"/>
+          <para id="para-00008">Compare your answer:</para>
+          <para id="para-00009"> 150 centimeters; \(73.5 \div 0.7=105\) and \(105 \div 0.7=150\).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Write an equation that represents the bounce height of the ball, \(h\), in centimeters after \(n\) bounces.
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00010"> Write an equation that represents the bounce height of the ball, \(h\), in centimeters after \(n\) bounces.
         Remember that an exponent may be entered using the "^" symbol.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para> \(h=150 \cdot (0.7)^n\)</para>
+        <solution id="sol-00003">
+          <para id="para-00011"/>
+          <para id="para-00012">Compare your answer:</para>
+          <para id="para-00013"> \(h=150 \cdot (0.7)^n\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Which graph would more appropriately represent the equation for \(h\): Graph A or Graph B? Be prepared to show your reasoning.
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00014"> Which graph would more appropriately represent the equation for \(h\): Graph A or Graph B? Be prepared to show your reasoning.
         <media alt=""><image mime-type="image/svg+xml" src="../../media/Algebra-1_05_13_07_01.svg"/></media>
           <media alt=""><image mime-type="image/svg+xml" src="../../media/Algebra-1_05_13_07_02.svg"/></media></para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para> Graph B is more appropriate. Only whole-number \(n\) values make sense in this context. We cannot have bounce
+        <solution id="sol-00004">
+          <para id="para-00015"/>
+          <para id="para-00016">Compare your answer:</para>
+          <para id="para-00017"> Graph B is more appropriate. Only whole-number \(n\) values make sense in this context. We cannot have bounce
       number 3.4, for example.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Will the nth bounce of this ball be
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00018"> Will the nth bounce of this ball be
           lower than the nth bounce of the tennis ball with equation \(h=150⋅(0.53)^n\)? Be prepared to show your
           reasoning.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para> No, the height of this ball after any given bounce will not be lower than that of the tennis ball because they
+        <solution id="sol-00005">
+          <para id="para-00019"/>
+          <para id="para-00020">Compare your answer:</para>
+          <para id="para-00021"> No, the height of this ball after any given bounce will not be lower than that of the tennis ball because they
       were dropped from the same height and this ball has a greater rebound factor, so it will always bounce up to a
       higher point than the tennis ball.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Q#-->
-      <exercise>
-        <problem>
-          <para>
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00022">
         The table shows an exponential decay that starts at 640.  What exponential decay problem is it modeling? Use ^ to show your exponent.</para>
           <table class="os-raise-horizontaltable" id="table-00002">
             <tgroup cols="5"><tbody><row>
@@ -152,25 +152,25 @@
               </row>
             </tbody></tgroup></table>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para>The pattern for the decay is starting at 640 and then decreasing by \(\frac34\) with only \(\frac 14\) remaining.  The equation is \(y=640 \cdot (1- \frac 34)^x\) or \(y=640 \cdot (\frac 14)^x\).</para>
+        <solution id="sol-00006">
+          <para id="para-00023"/>
+          <para id="para-00024">Compare your answer:</para>
+          <para id="para-00025">The pattern for the decay is starting at 640 and then decreasing by \(\frac34\) with only \(\frac 14\) remaining.  The equation is \(y=640 \cdot (1- \frac 34)^x\) or \(y=640 \cdot (\frac 14)^x\).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
    
-  <note class="self-check">
-    (    <para>The population of deer in a forest is divided in half every decade. Which of the following graphs could represent this situation?</para>)
+  <note class="self-check" id="note-00001">
+    (    <para id="para-00026">The population of deer in a forest is divided in half every decade. Which of the following graphs could represent this situation?</para>)
       </note>
-      <section>
+      <section id="sect-00002">
         <title>Additional Resources</title>
         
-  <section><title> Writing Exponential Decay Functions</title>
-    <para>Example 1</para>
-    <para>Data has been entered into a table that shows exponential decay.  How would you write the equation that represents this model?</para>
-    <table class="os-raise-horizontaltable">
+  <section id="sect-00003"><title> Writing Exponential Decay Functions</title>
+    <para id="para-00027">Example 1</para>
+    <para id="para-00028">Data has been entered into a table that shows exponential decay.  How would you write the equation that represents this model?</para>
+    <table class="os-raise-horizontaltable" id="table-00003">
       <tgroup cols="5"><tbody><row>
           <entry><emphasis>\(x\)</emphasis></entry><entry>0</entry>
           <entry>1</entry>
@@ -185,24 +185,24 @@
         </row>
       </tbody></tgroup></table>
     
-    <para>The formula for exponential decay is \(y=a \cdot (1-b)^x\) where a is the starting value and \(b\) is the amount that value decreases each unit of time \(x\).</para>
-    <para>The pattern for the decay is starting at 200 and then decreasing by 12 with only 12 remaining. The equation is \(y=200 \cdot (1-\frac12)^x\) or \(y=200 \cdot (\frac12)^x\).</para>
+    <para id="para-00029">The formula for exponential decay is \(y=a \cdot (1-b)^x\) where a is the starting value and \(b\) is the amount that value decreases each unit of time \(x\).</para>
+    <para id="para-00030">The pattern for the decay is starting at 200 and then decreasing by 12 with only 12 remaining. The equation is \(y=200 \cdot (1-\frac12)^x\) or \(y=200 \cdot (\frac12)^x\).</para>
     
-    <para>Example 2</para>
-    <para>A car sells for $4,000 and loses \(\frac18\) of its value each year. Write a function that gives the car’s
+    <para id="para-00031">Example 2</para>
+    <para id="para-00032">A car sells for $4,000 and loses \(\frac18\) of its value each year. Write a function that gives the car’s
       value, \(V(t)\), \(t\) years after it is sold.</para>
-    <para>Since the car loses \(\frac18\) of its value each year, it keeps \(\frac78\) of its value from year to year, so the
+    <para id="para-00033">Since the car loses \(\frac18\) of its value each year, it keeps \(\frac78\) of its value from year to year, so the
       growth factor is \(\frac78\).</para>
-    <para>\(V(t)=4000 \cdot (\frac{7}{8})^t\)</para>
+    <para id="para-00034">\(V(t)=4000 \cdot (\frac{7}{8})^t\)</para>
     
-    <note class="try">
+    <note class="try" id="note-00002">
     <title>Try It: Writing Exponential Decay Functions</title>
     
     <!--Q#-->
-    <exercise>
-      <problem>
-        <para>What exponential decay equation is modeled by the table of data given?</para>
-    <table class="os-raise-horizontaltable" >
+    <exercise id="exer-00007">
+      <problem id="prob-00007">
+        <para id="para-00035">What exponential decay equation is modeled by the table of data given?</para>
+    <table class="os-raise-horizontaltable" id="table-00004">
       <tgroup cols="6"><tbody><row>
             <entry><emphasis>\(x\)</emphasis></entry><entry>1</entry>
             <entry>2</entry>
@@ -219,12 +219,12 @@
           </row>
       </tbody></tgroup></table>
     
-      <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <para id="para-00036">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
       
-      </problem><solution>
-    <para>Compare your answer:</para>
+      </problem><solution id="sol-00007">
+    <para id="para-00037">Compare your answer:</para>
         
-        <para>This ball is more bouncy. Each bounce of this ball reaches a height that is about 0.7 times that of the previous
+        <para id="para-00038">This ball is more bouncy. Each bounce of this ball reaches a height that is about 0.7 times that of the previous
           bounce \((51.5 \div 73.5 \approx 0.7)\). The tennis ball in the earlier task loses about half of its height with
           each bounce.</para>
     
@@ -233,21 +233,21 @@
     </solution></exercise>
     <!--Interaction End -->
     
-    <para>A computer is purchased for $1,000 and loses \(\frac15\) of its value per year.</para>
-    <exercise>
-      <problem>
+    <para id="para-00039">A computer is purchased for $1,000 and loses \(\frac15\) of its value per year.</para>
+    <exercise id="exer-00008">
+      <problem id="prob-00008">
     
-        <para>Write a function for the computer’s value, \(V(t)\), \(t\) years after it is purchased.</para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <para id="para-00040">Write a function for the computer’s value, \(V(t)\), \(t\) years after it is purchased.</para>
+    <para id="para-00041">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
       
-      </problem><solution>
-      <para>Compare your answer:</para>
+      </problem><solution id="sol-00008">
+      <para id="para-00042">Compare your answer:</para>
       
-      <para>Here is how to write the exponential function:</para>
+      <para id="para-00043">Here is how to write the exponential function:</para>
       
-      <para>The starting amount is $1,000. The computer loses \(\frac15\) of its value each year, so it maintains \(\frac45\) of its value. The growth factor is \(\frac45\).</para>
+      <para id="para-00044">The starting amount is $1,000. The computer loses \(\frac15\) of its value each year, so it maintains \(\frac45\) of its value. The growth factor is \(\frac45\).</para>
       
-      <para>The function is then \(V(t)=1000 \cdot (\frac{4}{5})^t\).</para>
+      <para id="para-00045">The function is then \(V(t)=1000 \cdot (\frac{4}{5})^t\).</para>
     
     </solution></exercise></note>
     </section>

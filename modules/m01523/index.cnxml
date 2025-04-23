@@ -6,20 +6,20 @@
     <md:uuid>5b9bd6ee-5dc9-4d89-8e28-e1c24e9324c2</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title> Cool Down Activity</title>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> The linear function \(g\) is defined by \(g(x)=4x\). 
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00001"> The linear function \(g\) is defined by \(g(x)=4x\). 
         
     </para>
-          <para> Show that \(g(3)\) and \(g(2)\) have a difference of 4.</para>
+          <para id="para-00002"> Show that \(g(3)\) and \(g(2)\) have a difference of 4.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <list>
+        <solution id="sol-00001">
+          <para id="para-00003"/>
+          <para id="para-00004">Compare your answer:</para>
+          <list id="list-00001">
             <item>\(
         g(3) = 4\cdot 3 = 12\), and \(g(2) = 4 \cdot 2 = 8\). The difference of 12 and 8 is 4.</item>
             <item>\(g(3) − g(2) = 4 \cdot (3) − 4 \cdot (2) = 4 \cdot (3−2) = 4\)</item>
@@ -27,29 +27,29 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <exercise>
-        <problem>
-          <para> Show that when the input value increases from \(x\) to \(x+1\), the output values \(g(x+1)\) and \(g(x)\) have a difference of 4. Use the '^' symbol to enter an exponent.</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00005"> Show that when the input value increases from \(x\) to \(x+1\), the output values \(g(x+1)\) and \(g(x)\) have a difference of 4. Use the '^' symbol to enter an exponent.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para> \(g(x+1) − g(x) = 4 \cdot (x+1) − 4x = 4 \cdot (x+1−x) = 4 \cdot (1)\), which equals 4.</para>
+        <solution id="sol-00002">
+          <para id="para-00006"/>
+          <para id="para-00007">Compare your answer:</para>
+          <para id="para-00008"> \(g(x+1) − g(x) = 4 \cdot (x+1) − 4x = 4 \cdot (x+1−x) = 4 \cdot (1)\), which equals 4.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> The exponential function \(h\) is defined by \(h(x)=4^x\). 
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00009"> The exponential function \(h\) is defined by \(h(x)=4^x\). 
         
     </para>
-          <para> Show that \(h(3)\) and \(h(2)\) have a quotient of 4. Use the '^' symbol to enter an exponent.</para>
+          <para id="para-00010"> Show that \(h(3)\) and \(h(2)\) have a quotient of 4. Use the '^' symbol to enter an exponent.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <list>
+        <solution id="sol-00003">
+          <para id="para-00011"/>
+          <para id="para-00012">Compare your answer:</para>
+          <list id="list-00002">
             <item>\(h(3) = 4^3= 64\), and \(h(2) = 4^2 = 16\). The quotient is \(\frac{64}{16}\), which is 4.</item>
             <item>\(\frac{
         h(3)}{h(2)}=\frac {4^3}{4^2}=4^{3−2} = 4\)</item>
@@ -57,14 +57,14 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <exercise>
-        <problem>
-          <para> Show that when the input value increases from \(x\) to \(x+1\), the output values \(h(x+1)\) and \(h(x)\) have a quotient of 4.</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00013"> Show that when the input value increases from \(x\) to \(x+1\), the output values \(h(x+1)\) and \(h(x)\) have a quotient of 4.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para> \(\frac {h(x+1)}{h(x)}=\frac{4^{x+1}}{4^x}=4^{x+1−x} = 4^1\), which equals 4.</para>
+        <solution id="sol-00004">
+          <para id="para-00014"/>
+          <para id="para-00015">Compare your answer:</para>
+          <para id="para-00016"> \(\frac {h(x+1)}{h(x)}=\frac{4^{x+1}}{4^x}=4^{x+1−x} = 4^1\), which equals 4.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -75,8 +75,8 @@
             <image mime-type="image/png" src="../../media/Algebra-1_05_17_09_01.png"/>
           </media>
         
-        <para>Exponential models can help you understand the power of investment. After two years, this investor made $210 off of an initial investment of $1000 because of the 10% interest rate.</para>
-        <para>Can you calculate how much money the investor will have made after twenty years?</para>
+        <para id="para-00017">Exponential models can help you understand the power of investment. After two years, this investor made $210 off of an initial investment of $1000 because of the 10% interest rate.</para>
+        <para id="para-00018">Can you calculate how much money the investor will have made after twenty years?</para>
       </note>
     </section>
   </content></document>

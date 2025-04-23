@@ -6,64 +6,64 @@
     <md:uuid>15cf4cee-164f-4e44-9a83-1340f6ca9288</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>A toy rocket and a drone were launched at the same time.</para>
-      <para>Here are the graphs that represent the heights of two objects as a function of time since they were launched.</para>
-      <para>Height is measured in meters above the ground, and time is measured in seconds since launch.</para>
-      <para>
+      <para id="para-00001">A toy rocket and a drone were launched at the same time.</para>
+      <para id="para-00002">Here are the graphs that represent the heights of two objects as a function of time since they were launched.</para>
+      <para id="para-00003">Height is measured in meters above the ground, and time is measured in seconds since launch.</para>
+      <para id="para-00004">
           <media alt="A GRAPH OF TWO FUNCTIONS, EACH REPRESENTING THE HEIGHT IN METERS OF AN OBJECT AFTER TIME IN SECONDS HAS PASSED. THE HEIGHT OF THE TOY ROCKET IS MODELED BY AN UPSIDE-DOWN PARABOLA WITH A \(y\)-intercepts OF 25 AND \(x\)-intercepts OF 5, WITH A MAXIMUM AT THE POINT (2, 45). THE HEIGHT OF THE DRONE IS MODELED BY A FUNCTION THAT INCREASES LINEARLY FROM X = 0 TO X = 2, UP TO THE POINT (2, 20), REMAINS CONSTANT FROM X = 2 TO X = 5, AND THEN DECREASES LINEARLY FROM X = 5 TO X = 7.">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_09_03_01.svg"/>
           </media>
         
     </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Analyze the graph of the toy rocket and describe as precisely as you can what was happening. Your description should be complete and precise enough that someone who is not looking at the graph could visualize how the object was behaving. Include where the toy rocket starts and when it stops.
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00005">Analyze the graph of the toy rocket and describe as precisely as you can what was happening. Your description should be complete and precise enough that someone who is not looking at the graph could visualize how the object was behaving. Include where the toy rocket starts and when it stops.
 </para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>The toy rocket was launched from a height of 25 meters above ground. It went up quickly, but it slowed down and then stopped getting higher when it reached 45 meters, which was 2 seconds after launch. At that point, it started to come back down. It hit the ground 5 seconds after it was launched.
+        <solution id="sol-00001">
+          <para id="para-00006">Compare your answers:</para>
+          <para id="para-00007">The toy rocket was launched from a height of 25 meters above ground. It went up quickly, but it slowed down and then stopped getting higher when it reached 45 meters, which was 2 seconds after launch. At that point, it started to come back down. It hit the ground 5 seconds after it was launched.
   </para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Analyze the graph of the drone and describe as precisely as you can what was happening. Your description should be complete and precise enough that someone who is not looking at the graph could visualize how the object was behaving. Include where the drone starts and when it stops.</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00008">Analyze the graph of the drone and describe as precisely as you can what was happening. Your description should be complete and precise enough that someone who is not looking at the graph could visualize how the object was behaving. Include where the drone starts and when it stops.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>The drone took off from the ground. It went up at a constant speed for 2 seconds, up to a height of 20 meters. Then, it hovered at that height for 3 seconds. Afterward, it started descending at a constant speed for 2 seconds. It landed back on the ground 7 seconds after launch.</para>
+        <solution id="sol-00002">
+          <para id="para-00009">Compare your answers:</para>
+          <para id="para-00010">The drone took off from the ground. It went up at a constant speed for 2 seconds, up to a height of 20 meters. Then, it hovered at that height for 3 seconds. Afterward, it started descending at a constant speed for 2 seconds. It landed back on the ground 7 seconds after launch.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>At what point were the drone and the toy rocket at the same height?</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00011">At what point were the drone and the toy rocket at the same height?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>A little after 4 seconds, the drone and the toy rocket were at the same height (20 meters).</para>
+        <solution id="sol-00003">
+          <para id="para-00012">Compare your answers:</para>
+          <para id="para-00013">A little after 4 seconds, the drone and the toy rocket were at the same height (20 meters).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Which parts or features of the graphs show important information about each object’s movement? List the features or mark them on the graphs.</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00014">Which parts or features of the graphs show important information about each object’s movement? List the features or mark them on the graphs.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <list>
+        <solution id="sol-00004">
+          <para id="para-00015">Compare your answers:</para>
+          <list id="list-00001">
             <item>the points where the graphs begin (when \(t\) is 0)</item>
             <item>the points where the graphs cross the horizontal axis</item>
             <item>the point where the graphs change direction</item>
@@ -80,9 +80,9 @@
       <!--Interaction End -->
     </section>
 
-    <note class="self-check">
+    <note class="self-check" id="note-00001">
       <title>Self Check</title>
-      <para>The graph below represents the temperature, \(t(m)\), in degrees Fahrenheit of water used for a cup of hot tea over time in minutes, \(m\). What does \(t(0)\) represent?</para>
+      <para id="para-00016">The graph below represents the temperature, \(t(m)\), in degrees Fahrenheit of water used for a cup of hot tea over time in minutes, \(m\). What does \(t(0)\) represent?</para>
 
               <media alt="GRAPH THAT SHOWS TEMPERATURE IN DEGREES FAHRENHEIT AS A FUNCTION OF TIME IN MINUTES WITH A \(y\)-intercepts OF 70. THE GRAPH INCREASES, THEN DECREASES, AND THEN REMAINS CONSTANT.">
               <image mime-type="image/jpeg" src="../../media/Algebra-1_04_09_04_01.jpg"/>
@@ -91,41 +91,41 @@
   
   
     </note>
-    <section>
+    <section id="sect-00002">
       <title>Additional Resources</title>
       
-    <section>
+    <section id="sect-00003">
       <title>Real-Life Graphs of Functions</title>
-      <para>A ball is bouncing across the school yard. The vertical or \(y\)-axis represents the height of the ball in feet, \(h(t)\), while the horizontal or \(x\)-axis represents the time, \(t\), that has passed in seconds.</para>
-      <para>
+      <para id="para-00017">A ball is bouncing across the school yard. The vertical or \(y\)-axis represents the height of the ball in feet, \(h(t)\), while the horizontal or \(x\)-axis represents the time, \(t\), that has passed in seconds.</para>
+      <para id="para-00018">
           <media alt="GRAPH THAT SHOWS THE HEIGHT OF A BALL IN FEET AS A FUNCTION OF TIME IN SECONDS WITH A \(y\)-intercepts OF 0 AND \(x\)-intercepts OF 0 AND 1. FROM X = 0 TO X = 1, THE HEIGHT OF THE BALL IS MODELED BY AN UPSIDE DOWN PARABOLA WITH A MAXIMUM AT THE POINT (0.5, 4).">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_09_05_01.jpg"/>
           </media>
         
     </para>
-      <para>On the graph, \(t=0\) represents the first time the ball touches the ground.</para>
-      <para>What is \(h(1)\), and what does it represent in the context of the problem?</para>
-      <para>\(h(1) = 0\), and it represents the height of the ball after 1 second, or the ball has a height of zero after 1 second. The value inside of the parentheses is the value from the \(x\)-axis or horizontal axis. The solution is the value of the graph at that point.</para>
-      <note class="try">
+      <para id="para-00019">On the graph, \(t=0\) represents the first time the ball touches the ground.</para>
+      <para id="para-00020">What is \(h(1)\), and what does it represent in the context of the problem?</para>
+      <para id="para-00021">\(h(1) = 0\), and it represents the height of the ball after 1 second, or the ball has a height of zero after 1 second. The value inside of the parentheses is the value from the \(x\)-axis or horizontal axis. The solution is the value of the graph at that point.</para>
+      <note class="try" id="note-00002">
   <title>Try It: Real-Life Graphs of Functions</title>
-      <para>A ball is thrown across the field from point \(A\) to point \(B\). It hits the ground at point \(B\). The path of the ball is shown in the diagram below. The \(x\)-axis shows the horizontal distance the ball travels in feet, and the \(y\)-axis shows the height of the ball in feet.</para>
-      <para>
+      <para id="para-00022">A ball is thrown across the field from point \(A\) to point \(B\). It hits the ground at point \(B\). The path of the ball is shown in the diagram below. The \(x\)-axis shows the horizontal distance the ball travels in feet, and the \(y\)-axis shows the height of the ball in feet.</para>
+      <para id="para-00023">
           <media alt="A GRAPH THAT SHOWS THE HEIGHT OF A BALL IN FEET AS A FUNCTION OF THE HORIZONTAL DISTANCE THE BALL TRAVELS IN FEET WITH A \(y\)-intercepts OF A AND \(x\)-intercepts OF B.">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_09_05_02.jpg"/>
           </media>
         
     </para>
       
-        <exercise>
-          <problem>
-            <para>Explain what \(f(C)\) means in this graph.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+        <exercise id="exer-00005">
+          <problem id="prob-00005">
+            <para id="para-00024">Explain what \(f(C)\) means in this graph.</para>
+            <para id="para-00025">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
   </para>
           </problem>
-          <solution>
-            <para>Here is how to explain \(f(C)\) in the graph:</para>
-            <para>\(f(C)\) tells you to look at the height of the graph when \(x=C\).</para>
-            <para>This point on the graph is the highest point, or maximum.</para>
+          <solution id="sol-00005">
+            <para id="para-00026">Here is how to explain \(f(C)\) in the graph:</para>
+            <para id="para-00027">\(f(C)\) tells you to look at the height of the graph when \(x=C\).</para>
+            <para id="para-00028">This point on the graph is the highest point, or maximum.</para>
           </solution>
         </exercise>
       </note>

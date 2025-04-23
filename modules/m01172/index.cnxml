@@ -6,11 +6,11 @@
     <md:uuid>fe160c4f-05cd-4512-bab3-a5c801692a2b</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>Your teacher will give you either a problem card or a data card. Do not show or read your card to your partner.</para>
-      <para>If your teacher gives you the data card:</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00001">Your teacher will give you either a problem card or a data card. Do not show or read your card to your partner.</para>
+      <para id="para-00002">If your teacher gives you the data card:</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>
     Silently read the information on your card.
  </item>
@@ -26,8 +26,8 @@
     Share the data card and discuss your reasoning.
  </item>
       </list>
-      <para>If your teacher gives you the problem card:</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00003">If your teacher gives you the problem card:</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>
     Silently read your card and think about what information you need to answer the question.
  </item>
@@ -45,20 +45,20 @@
  </item>
       </list>
       
-        <exercise>
-          <problem>
-            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.
+        <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <para id="para-00004">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.
   </para>
           </problem>
-          <solution>
-            <para>Problem Card 1:</para>
-            <para>Represent the first five terms of the sequence \(f\) by creating a table and sketching a graph.</para>
-            <para>Data Card 1:</para>
-            <list>
+          <solution id="sol-00001">
+            <para id="para-00005">Problem Card 1:</para>
+            <para id="para-00006">Represent the first five terms of the sequence \(f\) by creating a table and sketching a graph.</para>
+            <para id="para-00007">Data Card 1:</para>
+            <list id="list-00003">
               <item>\(f(1) = 16\)</item>
               <item>\(f(n)=\frac{f(n-1)}2\) for \(n\geq2\)</item>
             </list>
-            <table class="os-raise-skinnytable">
+            <table class="os-raise-skinnytable" id="table-00001">
               <tgroup cols="2"><tbody><row>
                   <entry>
                    <emphasis>
@@ -112,38 +112,38 @@
         </entry>
                 </row>
               </tbody></tgroup></table>
-            <para>Problem Card 2:</para>
-            <list class="os-raise-noindent" list-type="enumerated">
+            <para id="para-00008">Problem Card 2:</para>
+            <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
               <item>What is the fifth term of sequence \(K\)?</item>
               <item>Represent the first five terms of sequence \(K\) by sketching a graph.</item>
             </list>
-            <para>Data Card 2:</para>
-            <list>
+            <para id="para-00009">Data Card 2:</para>
+            <list id="list-00005">
               <item>\(K(1)=16\)</item>
               <item>\(K(n)=k(n-1)-n\) for \(n\geq2\)</item>
             </list>
-            <para>
+            <para id="para-00010">
                       <media alt="Insert Alt Text">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_20_06_01.svg"/>
                 </media>
               
           </para>
-            <para>Problem Card 3:</para>
-            <list class="os-raise-noindent" list-type="enumerated">
+            <para id="para-00011">Problem Card 3:</para>
+            <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
               <item>Represent the first five terms of sequence \(Q\) by making a table.</item>
               <item>Write a recursive definition for sequence \(Q\).</item>
             </list>
-            <para>Data Card 3:</para>
-            <para>
+            <para id="para-00012">Data Card 3:</para>
+            <para id="para-00013">
                       <media alt="GRAPH WITH PLOTTED POINTS (1, 16), (2, 11), (3, 6), (4, 1), AND (5, NEGATIVE 4). THE POINT (2, 11) IS LABELED Q.">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_20_06_02.svg"/>
                 </media>
               
           </para>
-            <list class="os-raise-noindent" list-type="enumerated">
+            <list class="os-raise-noindent" list-type="enumerated" id="list-00007">
               <item/>
             </list>
-            <table class="os-raise-skinnytable">
+            <table class="os-raise-skinnytable" id="table-00002">
               <tgroup cols="2"><tbody><row>
                   <entry>
                    <emphasis>
@@ -197,29 +197,29 @@
         </entry>
                 </row>
               </tbody></tgroup></table>
-            <list class="os-raise-noindent" list-type="enumerated">
+            <list class="os-raise-noindent" list-type="enumerated" id="list-00008">
               <item>\(Q(1)=16\), \(Q(n)=Q(n−1)−5\) for \(n\geq2\)</item>
             </list>
           </solution>
         </exercise>
       </section>
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      <section>
+      <section id="sect-00002">
         <title>Are you ready for more?</title>
-          <section>
+          <section id="sect-00003">
             <title>Extending Your Thinking</title>
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       
-        <exercise class="RFM1">
-          <problem>
-            <para>Make a visual pattern (for example, using dots or boxes), starting with Step 0, so the pattern for Step \(n\) contains \(n^2+3n+3\) dots.</para>
-            <para>Write down your answer and check by pressing the Solution button.</para>
+        <exercise class="RFM1" id="exer-00002">
+          <problem id="prob-00002">
+            <para id="para-00014">Make a visual pattern (for example, using dots or boxes), starting with Step 0, so the pattern for Step \(n\) contains \(n^2+3n+3\) dots.</para>
+            <para id="para-00015">Write down your answer and check by pressing the Solution button.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>an \(n+1\) by \(n+2\) rectangle with one additional dot</para>
-            <para>
+          <solution id="sol-00002">
+            <para id="para-00016">Compare your answer:</para>
+            <para id="para-00017">an \(n+1\) by \(n+2\) rectangle with one additional dot</para>
+            <para id="para-00018">
                       <media alt="Insert Alt Text">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_20_06_03.svg"/>
                 </media>
@@ -230,25 +230,25 @@
       
       <!--End interaction-->
     </section></section>
-    <note class="self-check">
+    <note class="self-check" id="note-00001">
       <title>Self Check</title>
-      <para>Which of the following recursive definitions is represented by the graph below?</para>
-      <para>
+      <para id="para-00019">Which of the following recursive definitions is represented by the graph below?</para>
+      <para id="para-00020">
           <media alt="Insert Alt Text">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_20_07_01.jpg"/>
           </media>
         
     </para>
     </note>
-    <section>
+    <section id="sect-00004">
       <title>Additional Resources</title>
       
-    <section>
+    <section id="sect-00005">
       <title>Representing Sequences</title>
-      <para>Let’s look at some more examples for finding the recursive definition of arithmetic and geometric sequences and ways to represent them.</para>
-      <para>Example 1:</para>
-      <para>An arithmetic sequence, \(a\), begins 11, 7, . . .</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00021">Let’s look at some more examples for finding the recursive definition of arithmetic and geometric sequences and ways to represent them.</para>
+      <para id="para-00022">Example 1:</para>
+      <para id="para-00023">An arithmetic sequence, \(a\), begins 11, 7, . . .</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00009">
         <item>
     Write a recursive definition for this sequence using function notation.
  </item>
@@ -259,28 +259,28 @@
     Explain how to use the recursive definition to find \(a(100)\). (Don’t actually determine the value.)
  </item>
       </list>
-      <para>Solutions:</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00024">Solutions:</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00010">
         <item>
     \(a(1)=11, a(n)=a(n-1)-4, n\geq2\)
  </item>
         <item>
  </item>
       </list>
-      <para>
+      <para id="para-00025">
           <media alt="Insert Alt Text">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_20_08_01.jpg"/>
           </media>
         
     </para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00011">
         <item>
     Starting with 11, keep subtracting 4 until you do that 99 times.
  </item>
       </list>
-      <para>Example 2:</para>
-      <para>A geometric sequence, \(g\), starts 80, 40, . . .</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00026">Example 2:</para>
+      <para id="para-00027">A geometric sequence, \(g\), starts 80, 40, . . .</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00012">
         <item>
     Write a recursive definition for this sequence using function notation.
  </item>
@@ -291,15 +291,15 @@
     Explain how to use the recursive definition to find \(g(100)\). (Don’t actually determine the value.)
  </item>
       </list>
-      <para>Solutions:</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00028">Solutions:</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00013">
         <item>
     \(g(1)=80, g(n)= \frac12 \cdot g(n-1), n\geq2\)
  </item>
         <item>
  </item>
       </list>
-      <table class="os-raise-horizontaltable">
+      <table class="os-raise-horizontaltable" id="table-00003">
         <tgroup cols="7"><tbody><row>
             <entry>
              <emphasis>
@@ -351,24 +351,24 @@
       </entry>
           </row>
         </tbody></tgroup></table>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00014">
         <item>
     Starting with 80, keep dividing by 2 until you do that 99 times.
  </item>
       </list>
-      <note class="try">
+      <note class="try" id="note-00002">
   <title>Try It: Representing Sequences</title>
-      <para>Write a recursive definition for \(P(n)\), the sequence below:</para>
+      <para id="para-00029">Write a recursive definition for \(P(n)\), the sequence below:</para>
       
-        <exercise>
-          <problem>
-            <para>1, 2, 4, 8, 16</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
+        <exercise id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00030">1, 2, 4, 8, 16</para>
+            <para id="para-00031">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
   </para>
           </problem>
-          <solution>
-            <para>Here is how to write the recursive definition for \(P(n)\):</para>
-            <para>First: \(P(1)=1\), then each term is 2 times the previous term, so \(P(n)=2P(n-1), n\geq2\).</para>
+          <solution id="sol-00003">
+            <para id="para-00032">Here is how to write the recursive definition for \(P(n)\):</para>
+            <para id="para-00033">First: \(P(1)=1\), then each term is 2 times the previous term, so \(P(n)=2P(n-1), n\geq2\).</para>
           </solution>
         </exercise>
       </note>
