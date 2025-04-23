@@ -202,21 +202,17 @@
             </list>
           </solution>
         </exercise>
-      
+      </section>
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-        </exercise>
+      <section>
+        <title>Are you ready for more?</title>
+          <section>
+            <title>Extending Your Thinking</title>
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       
         <exercise class="RFM1">
           <problem>
-            <title>Extending Your Thinking</title>
             <para>Make a visual pattern (for example, using dots or boxes), starting with Step 0, so the pattern for Step \(n\) contains \(n^2+3n+3\) dots.</para>
             <para>Write down your answer and check by pressing the Solution button.</para>
           </problem>
@@ -233,7 +229,7 @@
         </exercise>
       
       <!--End interaction-->
-    </section>
+    </section></section>
     <note class="self-check">
       <title>Self Check</title>
       <para>Which of the following recursive definitions is represented by the graph below?</para>
@@ -360,7 +356,7 @@
     Starting with 80, keep dividing by 2 until you do that 99 times.
  </item>
       </list>
-      <note class="try look-at-me"/>
+      <note class="try">
   <title>Try It: Representing Sequences</title>
       <para>Write a recursive definition for \(P(n)\), the sequence below:</para>
       
@@ -375,7 +371,7 @@
             <para>First: \(P(1)=1\), then each term is 2 times the previous term, so \(P(n)=2P(n-1), n\geq2\).</para>
           </solution>
         </exercise>
-      
+      </note>
     </section>
     </section>
     
