@@ -6,10 +6,10 @@
     <md:uuid>32d447b0-9307-4560-a89d-3ff42cd3e7c0</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>A table for the relation \(f\) is below.</para>
-      <table class="os-raise-horizontaltable">
+      <para id="para-00001">A table for the relation \(f\) is below.</para>
+      <table class="os-raise-horizontaltable" id="table-00001">
         <tgroup cols="7"><tbody><row>
             <entry>
              <emphasis>\(x\)</emphasis>
@@ -58,33 +58,33 @@
           </row>
         </tbody></tgroup></table>
       <!--Question 2 -->
-      <exercise>
-        <problem>
-          <para>Is this relation a function? Explain your answer.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00002">Is this relation a function? Explain your answer.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(f\) is not a function because \(f(1) =-1\) and \(f(1)=1 \).
+        <solution id="sol-00001">
+          <para id="para-00003">Compare your answer:</para>
+          <para id="para-00004">\(f\) is not a function because \(f(1) =-1\) and \(f(1)=1 \).
       
       
   </para>
         </solution>
       </exercise>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>Use the Desmos graphing tool or technology outside the course. Graph the points in the relation. 
     
     Interact with the graph. Graph the points in the relation on a coordinate grid.
  </item>
       </list>
       <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
-        <exercise>
-          <problem>
-            <para>When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00002">
+          <problem id="prob-00002">
+            <para id="para-00005">When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
+          <solution id="sol-00002">
+            <para id="para-00006">Compare your answer:</para>
+            <para id="para-00007">
                       <media alt="ALT TEXT: COORDINATE GRID FROM −1 TO 8 ON THE X-AXIS AND FROM −2 TO 6 ON THE Y-AXIS. THE POINTS (1, −1), (2, 5), (3, −2), (1, 1), (4, 3), AND (5, −2) ARE PLOTTED.">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_03_01.jpg"/>
                 </media>
@@ -94,34 +94,34 @@
         </exercise>
       
       <!--Question 3 -->
-      <exercise>
-        <problem>
-          <para>What do you notice about the points \((1, -1)\) and \((1,1)\)?
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00008">What do you notice about the points \((1, -1)\) and \((1,1)\)?
     </para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>They are on the same vertical line.</para>
+        <solution id="sol-00003">
+          <para id="para-00009">Compare your answer:</para>
+          <para id="para-00010">They are on the same vertical line.</para>
         </solution>
       </exercise>
-      <para>VERTICAL LINE TEST</para>
-      <para>A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point.</para>
-      <para>If any vertical line intersects the graph in more than one point, the graph does not represent a function.</para>
-      <para>If the graph does represent a function, we say it “passes the vertical line test.”</para>
+      <para id="para-00011">VERTICAL LINE TEST</para>
+      <para id="para-00012">A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point.</para>
+      <para id="para-00013">If any vertical line intersects the graph in more than one point, the graph does not represent a function.</para>
+      <para id="para-00014">If the graph does represent a function, we say it “passes the vertical line test.”</para>
       <!--Question Part A -->
-      <exercise>
-        <problem>
-          <para>For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not.</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00015">For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not.</para>
               <media alt="The figure has two graphs. In graph a there is a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (3, 0), and (6, negative 2). In graph b there is a parabola opening to the right graphed on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The parabola goes through the points (negative 1, 0), (0, 1), (0, negative 1), (3, 2), and (3, negative 2).">
               <image mime-type="image/png" src="../../media/Algebra-1_04_08_03_02.png"/>
             </media>
           
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>Yes, this passes the vertical line test (see the sample blue lines below) for all points on the line so the graph is a function.</para>
+        <solution id="sol-00004">
+          <para id="para-00016">Compare your answer:</para>
+          <para id="para-00017">Yes, this passes the vertical line test (see the sample blue lines below) for all points on the line so the graph is a function.</para>
               <media alt="ALT TEXT: THE GRAPH OF A STRAIGHT LINE THAT PASSES THROUGH THE POINTS (0, 2) AND (3, 0), SHOWN IN RED. A BLUE VERTICAL LINE PASSING THROUGH (−2, 0). A GREEN VERTICAL LINE PASSING THROUGH (4, 0).">
               <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_03_03.jpg"/>
             </media>
@@ -129,81 +129,81 @@
         </solution>
       </exercise>
       <!--Question Part b -->
-      <exercise>
-        <problem>
-          <para>For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not.</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00018">For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not.</para>
               <media alt="The figure has two graphs. In graph a there is a straight line graphed on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, 2), (3, 0), and (6, negative 2). In graph b there is a parabola opening to the right graphed on the x y-coordinate plane. The x and y-axes run from negative 6 to 6. The parabola goes through the points (negative 1, 0), (0, 1), (0, negative 1), (3, 2), and (3, negative 2).">
               <image mime-type="image/png" src="../../media/Algebra-1_04_08_03_04.png"/>
             </media>
           
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>No, this graph does not pass the vertical line test, so it is not a function. For example, the vertical line \(x=1\) crosses the graph more than once.</para>
+        <solution id="sol-00005">
+          <para id="para-00019">Compare your answer:</para>
+          <para id="para-00020">No, this graph does not pass the vertical line test, so it is not a function. For example, the vertical line \(x=1\) crosses the graph more than once.</para>
               <media alt="A SIDEWAYS PARABOLA THAT OPENS TO THE RIGHT AND PASSES THROUGH THE POINTS (−1, 0), (3, 2), AND (3, −2). A BLACK VERTICAL LINE PASSING THROUGH (1, 0).">
               <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_03_05.jpg"/>
             </media>
           
         </solution>
       </exercise>
-      <para>Notice that the graph of a non-vertical line will always be a function. This is called a <term class="glossary-tooltip">linear function</term>.</para></section>
-      <section>
+      <para id="para-00021">Notice that the graph of a non-vertical line will always be a function. This is called a <term class="glossary-tooltip" id="term-00001">linear function</term>.</para></section>
+      <section id="sect-00002">
       <title>Video: Interpreting Function Notation</title>
-      <para>Watch the following video to learn more about function notation.</para>
+      <para id="para-00022">Watch the following video to learn more about function notation.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/fe84d773f2ac6fbbb436b9cc3b52bf2479c62f05"/>
       </media>
     </section>
-    <note class="self-check">
-      (    <para>Which of the following graphs is the graph of a function?</para>)
+    <note class="self-check" id="note-00001">
+      (    <para id="para-00023">Which of the following graphs is the graph of a function?</para>)
         </note>
-        <section>
+        <section id="sect-00003">
           <title>Additional Resources</title>
           
-    <section>
+    <section id="sect-00004">
       <title>Determine If a Graph Is a Function</title>
-      <para>
+      <para id="para-00024">
           <media alt="This figure has a graph next to a table. The graph has a straight line on the x y-coordinate plane. The x and y-axes run from negative 10 to 10. The line goes through the points (0, negative 3), (1, negative 1), and (2, 1). The line is labeled f of x equals2 x minus 3. There are several vertical arrows that relate values on the \(x\)-axis to points on the line. The first arrow relates x equalsnegative 2 on the \(x\)-axis to the point (negative 2, negative 7) on the line. The second arrow relates x equalsnegative 1 on the \(x\)-axis to the point (negative 1, negative 5) on the line. The next arrow relates x equals0 on the \(x\)-axis to the point (0, negative 3) on the line. The next arrow relates x equals3 on the \(x\)-axis to the point (3, 3) on the line. The last arrow relates x equals4 on the \(x\)-axis to the point (4, 5) on the line. The table has 7 rows and 3 columns. The first row is a title row with the label f of x equals2 x minus 3. The second row is a header row with the headers x, f of x, and (x, f of x). The third row has the coordinates negative 2, negative 7, and (negative 2, negative 7). The fourth row has the coordinates negative 1, negative 5, and (negative 1, negative 5). The fifth row has the coordinates 0, negative 3, and (0, negative 3). The sixth row has the coordinates 3, 3, and (3, 3). The seventh row has the coordinates 4, 5, and (4, 5).">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_05_01.jpg"/>
           </media>
         
     </para>
-      <para>If we look at the graph, each vertical dashed line intersects the line at only one point. This makes sense because in a function, for every \(x\)-value there is only one \(y\)-value.</para>
-      <para>If the vertical line hit the graph twice, the \(x\)-value would be mapped to two \(y\)-values, so the graph would not represent a function.</para>
-      <para>This leads us to the vertical line test. A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point. If any vertical line intersects the graph in more than one point, the graph does not represent a function.</para>
-      <para>Look at the graphs below:</para>
-      <para>
+      <para id="para-00025">If we look at the graph, each vertical dashed line intersects the line at only one point. This makes sense because in a function, for every \(x\)-value there is only one \(y\)-value.</para>
+      <para id="para-00026">If the vertical line hit the graph twice, the \(x\)-value would be mapped to two \(y\)-values, so the graph would not represent a function.</para>
+      <para id="para-00027">This leads us to the vertical line test. A set of points in a rectangular coordinate system is the graph of a function if every vertical line intersects the graph in at most one point. If any vertical line intersects the graph in more than one point, the graph does not represent a function.</para>
+      <para id="para-00028">Look at the graphs below:</para>
+      <para id="para-00029">
           <media alt="The figure has two graphs. In graph a there is a parabola opening up graphed on the x y-coordinate plane. The \(x\)-axis runs from negative 6 to 6. The \(y\)-axis runs from negative 2 to 10. The parabola goes through the points (0, negative 1), (negative 1, 0), (1, 0), (negative 2, 3), and (2, 3). In graph b there is a circle graphed on the x y-coordinate plane. The \(x\)-axis runs from negative 6 to 6. The \(y\)-axis runs from negative 6 to 6. The circle goes through the points (negative 2, 0), (2, 0), (0, negative 2), and (0, 2).">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_05_02.jpg"/>
           </media>
         
     </para>
-      <para>Graph a passes the vertical line test because if an imaginary vertical line were drawn anywhere on the graph, it would only touch one time.</para>
-      <para>Graph a is a function.</para>
-      <para>Graph b does not pass the vertical line test because when a vertical line is drawn down the graph, there is at least one place where the vertical line touches twice.</para>
-      <para>Graph b is not a function.</para>
-      <note class="try">
+      <para id="para-00030">Graph a passes the vertical line test because if an imaginary vertical line were drawn anywhere on the graph, it would only touch one time.</para>
+      <para id="para-00031">Graph a is a function.</para>
+      <para id="para-00032">Graph b does not pass the vertical line test because when a vertical line is drawn down the graph, there is at least one place where the vertical line touches twice.</para>
+      <para id="para-00033">Graph b is not a function.</para>
+      <note class="try" id="note-00002">
   <title>Try It: Determine if a Graph Is a Function</title>
-      <para>Determine if each graph is a function. Use the vertical line test to explain.</para>
-      <para>
+      <para id="para-00034">Determine if each graph is a function. Use the vertical line test to explain.</para>
+      <para id="para-00035">
           <media alt="The figure has two graphs. In graph a there is an ellipse graphed on the x y-coordinate plane. The \(x\)-axis runs from negative 6 to 6. The \(y\)-axis runs from negative 6 to 6. The ellipse goes through the points (0, negative 3), (negative 2, 0), (2, 0), and (0, 3). In graph b there is a straight line graphed on the x y-coordinate plane. The \(x\)-axis runs from negative 12 to 12. The \(y\)-axis runs from negative 12 to 12. The line goes through the points (0, negative 2), (2, 0), and (4, 2).">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_05_03.jpg"/>
           </media>
         
     </para>
       
-        <exercise>
-          <problem>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00006">
+          <problem id="prob-00006">
+            <para id="para-00036">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answser:</para>
-            <para>Here is how to determine if a graph is a function:</para>
-            <para>Graph a does not pass the vertical line test because if a vertical line were drawn down the graph, there would be at least one place where the vertical line would touch more than once. For example, a vertical line drawn at \(x=1\) would cross the graph more than once.</para>
-            <para>Graph a is not a function.</para>
-            <para>Graph b does pass the vertical line test because a vertical line drawn anywhere on the graph will only touch one time.</para>
-            <para>Graph b is a function.</para>
+          <solution id="sol-00006">
+            <para id="para-00037">Compare your answser:</para>
+            <para id="para-00038">Here is how to determine if a graph is a function:</para>
+            <para id="para-00039">Graph a does not pass the vertical line test because if a vertical line were drawn down the graph, there would be at least one place where the vertical line would touch more than once. For example, a vertical line drawn at \(x=1\) would cross the graph more than once.</para>
+            <para id="para-00040">Graph a is not a function.</para>
+            <para id="para-00041">Graph b does pass the vertical line test because a vertical line drawn anywhere on the graph will only touch one time.</para>
+            <para id="para-00042">Graph b is a function.</para>
           </solution>
         </exercise>
       </note>

@@ -6,32 +6,32 @@
     <md:uuid>5cee9007-d079-4afe-ae92-d603bd945836</md:uuid>
   </metadata>
   <content>
-    <note class="mini-lesson-question">
-      <para>Factor: \(y^2-y-42\).</para>
+    <note class="mini-lesson-question" id="note-00001">
+      <para id="para-00001">Factor: \(y^2-y-42\).</para>
     </note>
-    <section>
+    <section id="sect-00001">
       <title>Factor Trinomials</title>
-      <para>
+      <para id="para-00002">
         <emphasis>Example 1</emphasis>
      </para>
-      <para>To factor the trinomial \(x^2+8x+12\), you can reverse the process of FOIL.</para>
-      <para>The trinomial factors to two binomials of the form \((x+m)(x+n)\).</para>
-      <list>
+      <para id="para-00003">To factor the trinomial \(x^2+8x+12\), you can reverse the process of FOIL.</para>
+      <para id="para-00004">The trinomial factors to two binomials of the form \((x+m)(x+n)\).</para>
+      <list id="list-00001">
         <item>Using FOIL: \((x+m)(x+n)=x^2+nx+mx+mn\).</item>
       </list>
-      <list>
+      <list id="list-00002">
         <item>Using the distributive property: \(x^2+(n+m)x+mn\).</item>
       </list>
-      <para>Take a look at the trinomial \(x^2+8x+12\):</para>
-      <para>
+      <para id="para-00005">Take a look at the trinomial \(x^2+8x+12\):</para>
+      <para id="para-00006">
           <media alt="IMAGE SHOWING x^2 + (n + m)x + mn and x^2 + 8x + 12 and arrow pointing from n + m to 8, and an arrow from mn to 12.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_08_02_06_01.jpg" />
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_08_02_06_01.jpg"/>
           </media>
         
      </para>
-      <para>To factor the trinomial, we need factors of 12, \(m\) and \(n\), so that the sum, \(n+m\), is 8.</para>
-      <para>Use a table to find all the different combinations of factors of 12. Then, find the sum of the factors.</para>
-      <table class="os-raise-midsizetable">
+      <para id="para-00007">To factor the trinomial, we need factors of 12, \(m\) and \(n\), so that the sum, \(n+m\), is 8.</para>
+      <para id="para-00008">Use a table to find all the different combinations of factors of 12. Then, find the sum of the factors.</para>
+      <table class="os-raise-midsizetable" id="table-00001">
         <tgroup cols="2">
           <tbody>
             <row>
@@ -44,43 +44,43 @@
             </row>
             <row>
               <entry>
-                <para>\(1, 12\)</para>
+                <para id="para-00009">\(1, 12\)</para>
               </entry>
               <entry>
-                <para>\(1 + 12 = 13\)</para>
-              </entry>
-            </row>
-            <row>
-              <entry>
-                <para>\(2, 6\)</para>
-              </entry>
-              <entry>
-                <para>\(2 + 6 = 8 &amp;checkmark;\)</para>
+                <para id="para-00010">\(1 + 12 = 13\)</para>
               </entry>
             </row>
             <row>
               <entry>
-                <para>\(3, 4\)</para>
+                <para id="para-00011">\(2, 6\)</para>
               </entry>
               <entry>
-                <para>\(3 + 4 = 7\)</para>
+                <para id="para-00012">\(2 + 6 = 8 &amp;checkmark;\)</para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <para id="para-00013">\(3, 4\)</para>
+              </entry>
+              <entry>
+                <para id="para-00014">\(3 + 4 = 7\)</para>
               </entry>
             </row>
           </tbody>
         </tgroup>
       </table>
-      <para>The numbers 2 and 6 have a product of 12 and a sum of 8. They are the factors we need:</para>
-      <para>\(x^2+8x+12=(x+6)(x+2)\)</para>
-      <para>
+      <para id="para-00015">The numbers 2 and 6 have a product of 12 and a sum of 8. They are the factors we need:</para>
+      <para id="para-00016">\(x^2+8x+12=(x+6)(x+2)\)</para>
+      <para id="para-00017">
         <emphasis>Example 2</emphasis>
      </para>
-      <para>Factor the trinomial \(x^2-5x-24\).</para>
-      <para>To factor the trinomial, we need factors of -24, \(m\) and \(n\), so that the sum, \(n+m\) is -5.</para>
-      <list>
+      <para id="para-00018">Factor the trinomial \(x^2-5x-24\).</para>
+      <para id="para-00019">To factor the trinomial, we need factors of -24, \(m\) and \(n\), so that the sum, \(n+m\) is -5.</para>
+      <list id="list-00003">
         <item>The product of the factors is negative, so the factors must have opposite signs. </item>
         <item>The sum is negative, so the negative sign will go with the factor with the greater absolute value.</item>
       </list>
-      <table class="os-raise-midsizetable">
+      <table class="os-raise-midsizetable" id="table-00002">
         <tgroup cols="2">
           <tbody>
             <row>
@@ -93,33 +93,33 @@
             </row>
             <row>
               <entry>
-                <para>\(1, −24\)</para>
-              <para>\(2, −12\)</para>
-              <para>\(3, −8\)</para>
-              <para>\(4, −6\)</para>
+                <para id="para-00020">\(1, −24\)</para>
+              <para id="para-00021">\(2, −12\)</para>
+              <para id="para-00022">\(3, −8\)</para>
+              <para id="para-00023">\(4, −6\)</para>
               </entry>
               <entry>
-                <para>\(1 + (−24) = −23\)</para>
-              <para>\(2 + (−12) = −10\)</para>
-              <para>\(3 + (−8) = −5 &amp;checkmark;\)</para>
-              <para>\(4 + (−6) = −2\)</para>
+                <para id="para-00024">\(1 + (−24) = −23\)</para>
+              <para id="para-00025">\(2 + (−12) = −10\)</para>
+              <para id="para-00026">\(3 + (−8) = −5 &amp;checkmark;\)</para>
+              <para id="para-00027">\(4 + (−6) = −2\)</para>
               </entry>
             </row>
           </tbody>
         </tgroup>
       </table>
-      <para>The numbers 3 and -8 have a product of -24 and a sum of -5.</para>
-      <para>\(x^2-5x-24=(x+3)(x-8)\)</para>
-      <para>
+      <para id="para-00028">The numbers 3 and -8 have a product of -24 and a sum of -5.</para>
+      <para id="para-00029">\(x^2-5x-24=(x+3)(x-8)\)</para>
+      <para id="para-00030">
         <emphasis>Example 3</emphasis>
      </para>
-      <para>Factor the trinomial \(x^2-9x+18\).</para>
-      <para>To factor the trinomial, we need factors of 18, \(m\) and \(n\), so that the sum, \(n+m\), is -9.</para>
-      <list>
+      <para id="para-00031">Factor the trinomial \(x^2-9x+18\).</para>
+      <para id="para-00032">To factor the trinomial, we need factors of 18, \(m\) and \(n\), so that the sum, \(n+m\), is -9.</para>
+      <list id="list-00004">
         <item>The product of the factors is positive, so the factors must have the same signs. </item>
         <item>The sum is negative, so both factors are negative.</item>
       </list>
-      <table class="os-raise-midsizetable">
+      <table class="os-raise-midsizetable" id="table-00003">
         <tgroup cols="2">
           <tbody>
             <row>
@@ -132,37 +132,37 @@
             </row>
             <row>
               <entry>
-                <para>\(−1, −18\)</para>
-              <para> \(−2, −9\)</para>
-              <para> \(−3, −6\)</para>
+                <para id="para-00033">\(−1, −18\)</para>
+              <para id="para-00034"> \(−2, −9\)</para>
+              <para id="para-00035"> \(−3, −6\)</para>
               </entry>
               <entry>
-                <para>\(−1 + (−18) = −19\)</para>
-              <para> \(−2 + (−9) = −11\)</para>
-              <para> \(−3 + (−6) = −9 &amp;checkmark;\)</para>
+                <para id="para-00036">\(−1 + (−18) = −19\)</para>
+              <para id="para-00037"> \(−2 + (−9) = −11\)</para>
+              <para id="para-00038"> \(−3 + (−6) = −9 &amp;checkmark;\)</para>
               </entry>
             </row>
           </tbody>
         </tgroup>
       </table>
-      <para>The numbers -3 and -6 have a product of 18 and a sum of -9.</para>
-      <para>\(x^2-9x+18=(x-3)(x-6)\)</para>
+      <para id="para-00039">The numbers -3 and -6 have a product of 18 and a sum of -9.</para>
+      <para id="para-00040">\(x^2-9x+18=(x-3)(x-6)\)</para>
     </section>
-    <note class="try">
+    <note class="try" id="note-00002">
       <title>Try It: Factoring Trinomials</title>
-      <exercise>
-        <problem>
-          <para>Factor the trinomial \(x^2+2x-24\).</para>
-          <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00041">Factor the trinomial \(x^2+2x-24\).</para>
+          <para id="para-00042">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Here is how to factor the trinomial \(x^2+2x-24\).</para>
-          <para>To factor the trinomial, we need factors of -24, \(m\) and \(n\), so that the sum, \(n+m\), is 2.</para>
-          <list>
+        <solution id="sol-00001">
+          <para id="para-00043">Here is how to factor the trinomial \(x^2+2x-24\).</para>
+          <para id="para-00044">To factor the trinomial, we need factors of -24, \(m\) and \(n\), so that the sum, \(n+m\), is 2.</para>
+          <list id="list-00005">
             <item>The product of the factors is negative, so the factors must have opposite signs. </item>
             <item>The sum is positive, so the greater factor is positive.</item>
           </list>
-          <table class="os-raise-midsizetable">
+          <table class="os-raise-midsizetable" id="table-00004">
             <tgroup cols="2">
               <tbody>
                 <row>
@@ -175,48 +175,48 @@
                 </row>
                 <row>
                   <entry>
-                    <para>\(−1, 24\)</para>
-                    <para>\(−2, 12\)</para>
-                    <para>\(−3, 8\)</para>
-                    <para>\(−4, 6\)</para>
+                    <para id="para-00045">\(−1, 24\)</para>
+                    <para id="para-00046">\(−2, 12\)</para>
+                    <para id="para-00047">\(−3, 8\)</para>
+                    <para id="para-00048">\(−4, 6\)</para>
                   </entry>
                   <entry>
-                    <para>\(−1 + 24 = 23\)</para>
-                    <para>\(−2 + 12 = 10\)</para>
-                    <para>\(−3 + 8 = 5\)</para>
-                    <para>\(−4 + 6 = 2 &amp;checkmark;\)</para>
+                    <para id="para-00049">\(−1 + 24 = 23\)</para>
+                    <para id="para-00050">\(−2 + 12 = 10\)</para>
+                    <para id="para-00051">\(−3 + 8 = 5\)</para>
+                    <para id="para-00052">\(−4 + 6 = 2 &amp;checkmark;\)</para>
                   </entry>
                 </row>
               </tbody>
             </tgroup>
           </table>
-          <para>The numbers 6 and -4 have a product of -24 and a sum of 2.</para>
-          <para>\(x^2+2x-24=(x+6)(x-4)\)</para>
+          <para id="para-00053">The numbers 6 and -4 have a product of -24 and a sum of 2.</para>
+          <para id="para-00054">\(x^2+2x-24=(x+6)(x-4)\)</para>
         </solution>
       </exercise>
     </note>
-    <section class="check-understanding">
+    <section class="check-understanding" id="sect-00002">
       <title>Check Your Understanding</title>
       <exercise id="_8e67e6b6-8ffe-437f-8758-f0876c913476" class="multiple-choice">
-        <problem>
-          <para>Factor: \(y^2-13y+36\).</para>
-          <para>Multiple Choice:</para>
-          <para>\((y-4)(y-9)\)</para>
-          <para>\((y-2)(y+18)\)</para>
-          <para>\((y+4)(y+9)\)</para>
-          <para>\((y-6)(y-6)\)</para>
+        <problem id="prob-00002">
+          <para id="para-00055">Factor: \(y^2-13y+36\).</para>
+          <para id="para-00056">Multiple Choice:</para>
+          <para id="para-00057">\((y-4)(y-9)\)</para>
+          <para id="para-00058">\((y-2)(y+18)\)</para>
+          <para id="para-00059">\((y+4)(y+9)\)</para>
+          <para id="para-00060">\((y-6)(y-6)\)</para>
         </problem>
-        <solution>
-          <para>Take a moment to think about what you learned in the mini-lesson review.</para>
+        <solution id="sol-00002">
+          <para id="para-00061">Take a moment to think about what you learned in the mini-lesson review.</para>
         </solution>
       </exercise>
     </section>
-    <section>
+    <section id="sect-00003">
       <title>Videos</title>
-      <para>Watch the following video to learn more about factoring trinomials.</para>
-      <para>Khan Academy: Factoring Quadratics</para>
+      <para id="para-00062">Watch the following video to learn more about factoring trinomials.</para>
+      <para id="para-00063">Khan Academy: Factoring Quadratics</para>
       <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://www.youtube-nocookie.com/embed/1kfq0aR3ASs;&amp;rel=0" />
+        <iframe width="660" height="371.4" src="https://www.youtube-nocookie.com/embed/1kfq0aR3ASs;&amp;rel=0"/>
       </media>
     </section>
   </content>

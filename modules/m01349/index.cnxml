@@ -6,11 +6,11 @@
     <md:uuid>b3852d9f-f996-4492-b8c7-b95b133f1c74</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<exercise>
-  <problem>
-    <para>How would you write each of the following numbers in scientific notation?</para>
-    <table class="os-raise-midsizetable">
+  <section id="sect-00001"><title>Activity</title>
+<exercise id="exer-00001">
+  <problem id="prob-00001">
+    <para id="para-00001">How would you write each of the following numbers in scientific notation?</para>
+    <table class="os-raise-midsizetable" id="table-00001">
       <tgroup cols="2"><tbody><row>
           <entry><emphasis>Decimal Form</emphasis></entry><entry><emphasis>Scientific Notation</emphasis></entry></row>
       <row>
@@ -53,13 +53,13 @@
     
     
   
-  <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.
+  <para id="para-00002">Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.
   </para>
   
-  </problem><solution>
-  <para>Compare your answers:</para>
+  </problem><solution id="sol-00001">
+  <para id="para-00003">Compare your answers:</para>
   
-  <table class="os-raise-midsizetable">
+  <table class="os-raise-midsizetable" id="table-00002">
     <tgroup cols="2"><tbody><row>
         <entry><emphasis>Decimal Form</emphasis></entry><entry><emphasis>Scientific Notation</emphasis></entry></row>
     <row>
@@ -115,11 +115,11 @@
   
 
 </solution></exercise>
-<exercise>
-  <problem>
+<exercise id="exer-00002">
+  <problem id="prob-00002">
     
-    <para>How would you write each of the following scientific notation values in decimal form?</para>
-    <table class="os-raise-midsizetable">
+    <para id="para-00004">How would you write each of the following scientific notation values in decimal form?</para>
+    <table class="os-raise-midsizetable" id="table-00003">
       <tgroup cols="2"><tbody><row>
           <entry><emphasis>Scientific Notation</emphasis></entry><entry><emphasis>Decimal Form</emphasis></entry></row>
       <row>
@@ -162,13 +162,13 @@
     
     
   
-  <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.
+  <para id="para-00005">Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.
   </para>
   
-  </problem><solution>
-  <para>Compare your answers:</para>
+  </problem><solution id="sol-00002">
+  <para id="para-00006">Compare your answers:</para>
   
-  <table class="os-raise-midsizetable">
+  <table class="os-raise-midsizetable" id="table-00004">
     <tgroup cols="2"><tbody><row>
         <entry><emphasis>Scientific Notation</emphasis></entry><entry><emphasis>Decimal Form</emphasis></entry></row>
     <row>
@@ -225,89 +225,89 @@
 
 </solution></exercise>
 </section>
-<section>
+<section id="sect-00002">
 <title>Video: Converting between Scientific Notation and Decimal Form</title>
-<para>Watch the following video to learn more about rewriting scientific notation in decimal form and decimal form in
+<para id="para-00007">Watch the following video to learn more about rewriting scientific notation in decimal form and decimal form in
   scientific notation.</para>
 <media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/65d24174dc794f36c8a7e4f9f62645f31aea59f8"/></media></section>
 
-<note class="self-check">
-  (    <para>Which of the following equations is true?</para>)
+<note class="self-check" id="note-00001">
+  (    <para id="para-00008">Which of the following equations is true?</para>)
     </note>
 
-    <section>
+    <section id="sect-00003">
       <title>Additional Resources</title>
       
-    <section>
+    <section id="sect-00004">
       <title>Using Scientific Notation</title>
-      <para>Working with very large or very small numbers can be awkward. Since our number system is base ten, we can use powers of ten to rewrite very large or very small numbers to make them easier to work with. Consider the numbers 4,000 and 0.004.</para>
-      <para>Using place value, we can rewrite the numbers 4,000 and 0.004. We know that 4,000 means \(4\times 1,000\) and 0.004 means \(4\times\frac1{1000}\).</para>
-      <para>If we write the 1,000 as a power of ten in exponential form, we can rewrite these numbers in this way:</para>
-        <para>4,000</para>
-        <para>\(4\times 1,000\)</para>
-        <para>\(4\times 10^3\)</para>
+      <para id="para-00009">Working with very large or very small numbers can be awkward. Since our number system is base ten, we can use powers of ten to rewrite very large or very small numbers to make them easier to work with. Consider the numbers 4,000 and 0.004.</para>
+      <para id="para-00010">Using place value, we can rewrite the numbers 4,000 and 0.004. We know that 4,000 means \(4\times 1,000\) and 0.004 means \(4\times\frac1{1000}\).</para>
+      <para id="para-00011">If we write the 1,000 as a power of ten in exponential form, we can rewrite these numbers in this way:</para>
+        <para id="para-00012">4,000</para>
+        <para id="para-00013">\(4\times 1,000\)</para>
+        <para id="para-00014">\(4\times 10^3\)</para>
       
-        <para>0.004</para>
-        <para>\(4\times\frac1{1000}\)</para>
-        <para>\(4\times\frac1{10^3}\)</para>
-        <para>\(4\times 10^{-3}\)</para>
+        <para id="para-00015">0.004</para>
+        <para id="para-00016">\(4\times\frac1{1000}\)</para>
+        <para id="para-00017">\(4\times\frac1{10^3}\)</para>
+        <para id="para-00018">\(4\times 10^{-3}\)</para>
       
-      <para>When a number is written as a product of two numbers, where the first factor is a number greater than or equal to 1 but less than 10, and the second factor is a power of 10 written in exponential form, it is said to be in <term class="glossary-tooltip">scientific notation</term>.</para>
-      <para>A number is expressed in scientific notation when it is in this form :</para>
-      <para>\(a\times 10^n\), where \(1 \leq&amp;boxv;a&amp;boxv;&lt; 10\) and \(n\) is an integer.</para>
+      <para id="para-00019">When a number is written as a product of two numbers, where the first factor is a number greater than or equal to 1 but less than 10, and the second factor is a power of 10 written in exponential form, it is said to be in <term class="glossary-tooltip" id="term-00001">scientific notation</term>.</para>
+      <para id="para-00020">A number is expressed in scientific notation when it is in this form :</para>
+      <para id="para-00021">\(a\times 10^n\), where \(1 \leq&amp;boxv;a&amp;boxv;&lt; 10\) and \(n\) is an integer.</para>
       <!--Interaction End -->
-      <para>It is customary in scientific notation to use × as the multiplication sign, even though we avoid using this sign elsewhere in algebra.</para></section>
-      <section>
+      <para id="para-00022">It is customary in scientific notation to use × as the multiplication sign, even though we avoid using this sign elsewhere in algebra.</para></section>
+      <section id="sect-00005">
       <title>To convert a decimal to scientific notation:</title>
-      <para>Step 1. Move the decimal point so that the first factor is greater than or equal to 1 but less than 10.</para>
-      <para>Step 2. Count the number of decimal places, \(n\), that the decimal point was moved.</para>
-      <para>Step 3. Write the number as a product with a power of 10. If the original number is</para>
-      <list>
+      <para id="para-00023">Step 1. Move the decimal point so that the first factor is greater than or equal to 1 but less than 10.</para>
+      <para id="para-00024">Step 2. Count the number of decimal places, \(n\), that the decimal point was moved.</para>
+      <para id="para-00025">Step 3. Write the number as a product with a power of 10. If the original number is</para>
+      <list id="list-00001">
         <item>greater than 1, the power of 10 will be \(10^n\).</item>
         <item>between 0 and 1, the power of 10 will be \(10^{−n}\).</item>
       </list>
-      <para>Step 4. Check.</para>
-      <para>Example: Write in scientific notation:</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00026">Step 4. Check.</para>
+      <para id="para-00027">Example: Write in scientific notation:</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>37,000 
    <emphasis>Solution:</emphasis> (<media alt="Insert Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_05_08_11_01.jpg"/></media>)</item>
         <item>0.0052 
    <emphasis>Solution:</emphasis> (<media alt="Insert Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_05_08_11_02.jpg"/></media>)</item>
       </list></section>
-      <section>
+      <section id="sect-00006">
       <title> To convert scientific notation to decimal form:</title>
-      <para>Step 1. Determine the exponent, \(n\), on the factor of 10.</para>
-      <para>Step 2. Move the decimal \(n\) places, adding zeros if needed.</para>
-      <list>
+      <para id="para-00028">Step 1. Determine the exponent, \(n\), on the factor of 10.</para>
+      <para id="para-00029">Step 2. Move the decimal \(n\) places, adding zeros if needed.</para>
+      <list id="list-00003">
         <item>If the exponent is positive, move the decimal point \(n\) places to the right.</item>
         <item>If the exponent is negative, move the decimal point \(n\) places to the left.</item>
       </list>
-      <para>Step 3. Check.</para>
-      <para>Example: Write in decimal form:</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00030">Step 3. Check.</para>
+      <para id="para-00031">Example: Write in decimal form:</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
         <item>\(6.2 \times 10^3\) 
    <emphasis>Solution:</emphasis> (<media alt="Insert Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_05_08_11_03.jpg"/></media>)</item>
         <item>\(-8.9\times10^{-2}\) 
    <emphasis>Solution:</emphasis> (<media alt="Insert Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_05_08_11_04.jpg"/></media>)</item>
       </list>
-      <note class="try">
+      <note class="try" id="note-00002">
   <title>Try It: Using Scientific Notation</title>
       
-        <exercise>
-          <problem>
-            <para>Write in scientific notation.</para>
-            <para>65,000,000</para>
-            <para>0.00034</para>
-            <para>Write in decimal form.</para>
-            <para>\(5.3 \times10^5
+        <exercise id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00032">Write in scientific notation.</para>
+            <para id="para-00033">65,000,000</para>
+            <para id="para-00034">0.00034</para>
+            <para id="para-00035">Write in decimal form.</para>
+            <para id="para-00036">\(5.3 \times10^5
         \)</para>
-            <para>\(4.25 \times10^{-3}\)</para>
-            <para>Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00037">\(4.25 \times10^{-3}\)</para>
+            <para id="para-00038">Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answers:</para>
-            <para>Here is how to write the numbers:</para>
-            <list class="os-raise-noindent" list-type="enumerated">
+          <solution id="sol-00003">
+            <para id="para-00039">Compare your answers:</para>
+            <para id="para-00040">Here is how to write the numbers:</para>
+            <list class="os-raise-noindent" list-type="enumerated" id="list-00005">
               <item>\(
       6.5 \times10^7
       \)</item>

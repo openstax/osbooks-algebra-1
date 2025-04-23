@@ -6,56 +6,56 @@
     <md:uuid>2eccc9c8-abe8-42ed-b7c3-c4708dbeff0c</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>The function defined by \(d=50+312t-16t^2\) gives the height in feet of a cannonball \(t\) seconds after the ball leaves the cannon.</item>
       </list>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What does the term 50 tell us about the cannonball?</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00001">What does the term 50 tell us about the cannonball?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The 50 tells us the cannonball is fired from 50 feet off of the ground.</para>
+        <solution id="sol-00001">
+          <para id="para-00002">Compare your answer:</para>
+          <para id="para-00003">The 50 tells us the cannonball is fired from 50 feet off of the ground.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What does the term \(312t\) tell us about the cannonball?</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00004">What does the term \(312t\) tell us about the cannonball?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The \(312t\) tells us that the initial upward velocity is 312 feet per second.</para>
+        <solution id="sol-00002">
+          <para id="para-00005">Compare your answer:</para>
+          <para id="para-00006">The \(312t\) tells us that the initial upward velocity is 312 feet per second.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What does \(-16t^2\) tell us about the cannonball?</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00007">What does \(-16t^2\) tell us about the cannonball?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The \(-16t^2\) represents the effect of gravity pulling the cannonball back to the ground.</para>
+        <solution id="sol-00003">
+          <para id="para-00008">Compare your answer:</para>
+          <para id="para-00009">The \(-16t^2\) represents the effect of gravity pulling the cannonball back to the ground.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
-        <exercise>
-          <problem>
-            <para>Use the graphing tool or technology outside the course. Graph the function. Adjust the graphing window to the following boundaries: \(0&lt;x&lt;25\) and \(0&lt;y&lt;2000\).</para>
-            <para>Select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00004">
+          <problem id="prob-00004">
+            <para id="para-00010">Use the graphing tool or technology outside the course. Graph the function. Adjust the graphing window to the following boundaries: \(0&lt;x&lt;25\) and \(0&lt;y&lt;2000\).</para>
+            <para id="para-00011">Select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
+          <solution id="sol-00004">
+            <para id="para-00012">Compare your answer:</para>
+            <para id="para-00013">
                       <media alt="Graph with time in seconds on \(x\)-axis and distance above ground in feet on \(y\)-axis.">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_08_06_01.svg"/>
                 </media>
@@ -64,88 +64,88 @@
           </solution>
         </exercise>
       
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>Observe the graph and:</item>
       </list>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Describe the shape of the graph. What does it tell us about the movement of the cannonball?</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00014">Describe the shape of the graph. What does it tell us about the movement of the cannonball?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The distance from the ground increases, reaches a peak, and then decreases, which makes sense in the situation. It also looks like the distance from the ground decreases in the same way that it increased on the way up. The graph tells us the cannonball went up in the air, and then fell back down to the ground.</para>
+        <solution id="sol-00005">
+          <para id="para-00015">Compare your answer:</para>
+          <para id="para-00016">The distance from the ground increases, reaches a peak, and then decreases, which makes sense in the situation. It also looks like the distance from the ground decreases in the same way that it increased on the way up. The graph tells us the cannonball went up in the air, and then fell back down to the ground.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <para>The shape of the quadratic function is called a <term class="glossary-tooltip">parabola</term>. It has a “U” shape.</para>
+      <para id="para-00017">The shape of the quadratic function is called a <term class="glossary-tooltip" id="term-00001">parabola</term>. It has a “U” shape.</para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Estimate the maximum height the ball reaches. When does this happen?</para>
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00018">Estimate the maximum height the ball reaches. When does this happen?</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The cannonball gets up to a little over 1500 feet, maybe to 1600 feet, at around 10 seconds.</para>
+        <solution id="sol-00006">
+          <para id="para-00019">Compare your answer:</para>
+          <para id="para-00020">The cannonball gets up to a little over 1500 feet, maybe to 1600 feet, at around 10 seconds.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <para>The peak of the parabola, where the maximum occurs, is also called the <term class="glossary-tooltip">vertex</term> of the graph.</para>
+      <para id="para-00021">The peak of the parabola, where the maximum occurs, is also called the <term class="glossary-tooltip" id="term-00002">vertex</term> of the graph.</para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Estimate when the ball hits the ground.</para>
+      <exercise id="exer-00007">
+        <problem id="prob-00007">
+          <para id="para-00022">Estimate when the ball hits the ground.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The cannonball hits the ground a little bit before 20 seconds.</para>
+        <solution id="sol-00007">
+          <para id="para-00023">Compare your answer:</para>
+          <para id="para-00024">The cannonball hits the ground a little bit before 20 seconds.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <para>The <term class="glossary-tooltip">zero</term> of a function is where the function equals 0, or where it crosses the \(x\)-axis. In this case, there is only one zero where the cannonball hits the ground. The parabola does cross the \(x\)-axis in the negative \(x\)-values, but that does not make sense in this problem.</para>
+      <para id="para-00025">The <term class="glossary-tooltip" id="term-00003">zero</term> of a function is where the function equals 0, or where it crosses the \(x\)-axis. In this case, there is only one zero where the cannonball hits the ground. The parabola does cross the \(x\)-axis in the negative \(x\)-values, but that does not make sense in this problem.</para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What domain is appropriate for this function? Be prepared to show your reasoning.</para>
+      <exercise id="exer-00008">
+        <problem id="prob-00008">
+          <para id="para-00026">What domain is appropriate for this function? Be prepared to show your reasoning.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The equation is a good model for the height of the cannonball from the time it is launched, \(t=0\), until the time it lands, just before \(t=20\). For times outside of these values, the function values do not mean anything in the context (for example, for \(t=21\) the function would place the cannonball underground).</para>
+        <solution id="sol-00008">
+          <para id="para-00027">Compare your answer:</para>
+          <para id="para-00028">The equation is a good model for the height of the cannonball from the time it is launched, \(t=0\), until the time it lands, just before \(t=20\). For times outside of these values, the function values do not mean anything in the context (for example, for \(t=21\) the function would place the cannonball underground).</para>
         </solution>
       </exercise></section>
       <!--Interaction End -->
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      <section>
+      <section id="sect-00002">
         <title>Are you ready for more?</title>
-          <section>
+          <section id="sect-00003">
             <title>Extending Your Thinking</title>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1">
-        <problem>
+      <exercise class="RFM1" id="exer-00009">
+        <problem id="prob-00009">
           <title>Extending Your Thinking</title>
-          <para>If the cannonball were fired at 800 feet per second, would it reach a mile in height? Remember there are 5280 feet in a mile. Be prepared to show your reasoning.</para>
+          <para id="para-00029">If the cannonball were fired at 800 feet per second, would it reach a mile in height? Remember there are 5280 feet in a mile. Be prepared to show your reasoning.</para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The equation here would be \(g(t)=50+800t-16t^2\). Since \(g(10)=6450\) and there are 5280 feet in a mile, this cannonball would reach over a mile in height. This could also be seen by graphing the function.</para>
+        <solution id="sol-00009">
+          <para id="para-00030">Compare your answer:</para>
+          <para id="para-00031">The equation here would be \(g(t)=50+800t-16t^2\). Since \(g(10)=6450\) and there are 5280 feet in a mile, this cannonball would reach over a mile in height. This could also be seen by graphing the function.</para>
         </solution>
       </exercise></section>
       <!--End interaction-->
-     <section> <title>Video: Using Quadratic Functions to Describe Height</title>
-      <para>Watch the following video to learn more about quadratic functions.</para>
+     <section id="sect-00004"> <title>Video: Using Quadratic Functions to Describe Height</title>
+      <para id="para-00032">Watch the following video to learn more about quadratic functions.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/093e5117403a8baf805f1828e852741db18c5d56"/>
       </media>
     </section>
   </section>
-    <note class="self-check">
-      <para>A toy rocket is launched from a platform 4 feet above the ground at a velocity of 128 feet per second. Its height is graphed below. Approximately what is the rocket’s maximum height?</para>
-      <para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00033">A toy rocket is launched from a platform 4 feet above the ground at a velocity of 128 feet per second. Its height is graphed below. Approximately what is the rocket’s maximum height?</para>
+      <para id="para-00034">
           <media alt="Insert Alt Text">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_08_08_07_01.jpg"/>
           </media>
@@ -153,41 +153,41 @@
     </para>
     </note>
 
-    <section>
+    <section id="sect-00005">
       <title>Reading Graphs of Quadratics</title>
-      <para>An object is thrown upward from a height of 5 feet with a velocity of 60 feet per second. Its height, \(h(t)\), in feet after \(t\) seconds is modeled by the function \(h(t)=5+60t-16t^2\).</para>
-      <para>
+      <para id="para-00035">An object is thrown upward from a height of 5 feet with a velocity of 60 feet per second. Its height, \(h(t)\), in feet after \(t\) seconds is modeled by the function \(h(t)=5+60t-16t^2\).</para>
+      <para id="para-00036">
           <media alt="Graph of the quadratic function h(t)=5+60t−16t2  on a coordinate plane, origin  O. Horizontal axis scale 0 to 4 by 1’s, labeled “time (seconds)”. Vertical axis scale 0 to 80 by 20’s, labeled “distance above ground (feet)”. Some of the points of this function are (0 comma 5), (1 comma 49), to a maximum near (1 point 9 comma 61 point 2 5) then decreasing through (2 comma 61), (3 comma 41) and (3.8 comma 0).">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_08_08_01.svg"/>
           </media>
         
     </para>
-      <para><emphasis>Step 1</emphasis> -Identify the starting height.
+      <para id="para-00037"><emphasis>Step 1</emphasis> -Identify the starting height.
   5 feet</para>
-      <para><emphasis>Step 2</emphasis> -Identify the maximum height by looking at the vertex or peak of the parabola.
+      <para id="para-00038"><emphasis>Step 2</emphasis> -Identify the maximum height by looking at the vertex or peak of the parabola.
   approximately 62 feet</para>
-      <para><emphasis>Step 3</emphasis> -Identify when the object reaches its maximum by matching the maximum with its matching time from the \(x\)-axis.
+      <para id="para-00039"><emphasis>Step 3</emphasis> -Identify when the object reaches its maximum by matching the maximum with its matching time from the \(x\)-axis.
   approximately 1.75 seconds</para>
-      <para><emphasis>Step 4</emphasis> -When does the object hit the ground? 
+      <para id="para-00040"><emphasis>Step 4</emphasis> -When does the object hit the ground? 
   Look at where the object has a height of 0 feet, or the zero of the function. This happens at approximately 3.75 seconds. Notice there would be another zero on the graph of the function to the left of \(x=0\), but that does not make sense in the problem because the object was thrown from 5 feet.</para>
-     <note class="try"> <title>Try It: Reading Graphs of Quadratics</title>
-      <para>A rock is launched into the air, and its height is represented by the graph below.</para>
-      <para>
+     <note class="try" id="note-00002"> <title>Try It: Reading Graphs of Quadratics</title>
+      <para id="para-00041">A rock is launched into the air, and its height is represented by the graph below.</para>
+      <para id="para-00042">
           <media alt="Insert Alt Text">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_08_08_08_02.jpg"/>
           </media>
         
     </para>
       
-        <exercise>
-          <problem>
-            <para>What is the maximum height of the rock?</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00010">
+          <problem id="prob-00010">
+            <para id="para-00043">What is the maximum height of the rock?</para>
+            <para id="para-00044">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Here is how to find the maximum height:</para>
-            <para>Look at the peak, or vertex of the parabola.</para>
-            <para>The maximum height is 25 feet after 2 seconds.</para>
+          <solution id="sol-00010">
+            <para id="para-00045">Here is how to find the maximum height:</para>
+            <para id="para-00046">Look at the peak, or vertex of the parabola.</para>
+            <para id="para-00047">The maximum height is 25 feet after 2 seconds.</para>
           </solution>
         </exercise>
       </note>

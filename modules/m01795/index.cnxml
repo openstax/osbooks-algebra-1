@@ -6,45 +6,45 @@
     <md:uuid>a2eb760f-6c1f-42b6-a8bc-82c9360ca3ab</md:uuid>
   </metadata>
   <content>
-    <section>
-      <para>In this activity, you will compare two different patterns. In each pattern, the number of small squares is a function of the step number, \(n\).</para>
-      <list class="os-raise-noindent" list-type="enumerated">
+    <section id="sect-00001">
+      <para id="para-00001">In this activity, you will compare two different patterns. In each pattern, the number of small squares is a function of the step number, \(n\).</para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>In Pattern A, the length and width of the rectangle grow by 1 small square from each step to the next.</item>
       </list>
-      <para>Pattern A</para>
-      <para>
+      <para id="para-00002">Pattern A</para>
+      <para id="para-00003">
         
           <media alt="Four steps of a growing pattern. Step 0 is blank. Step 1: One square. Step 2: Four squares in a two by two square. Step 3: Nine squares in a three by three square.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_06_03_01.svg" />
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_06_03_01.svg"/>
           </media>
         
      </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Write an equation to represent the number of small squares at Step \(n\) in Pattern A.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00004"> Write an equation to represent the number of small squares at Step \(n\) in Pattern A.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>\(f(n)=n^2\)</para>
-          <para>\(f(n)=n^2\)</para>
+        <solution id="sol-00001">
+          <para id="para-00005">Compare your answer:</para>
+          <para id="para-00006">\(f(n)=n^2\)</para>
+          <para id="para-00007">\(f(n)=n^2\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <section class="check-understanding">
+      <section class="check-understanding" id="sect-00002">
         <exercise id="b03ffaee-7ef7-4c98-8cf3-161785ba20bf" class="multiple-choice">
-          <problem>
-            <para> Is the function in Pattern A linear, quadratic, or exponential?</para>
+          <problem id="prob-00002">
+            <para id="para-00008"> Is the function in Pattern A linear, quadratic, or exponential?</para>
           </problem>
-          <solution>
-            <para>Correct! It is quadratic.</para>
-            <para>Incorrect. The correct answer is quadratic.</para>
+          <solution id="sol-00002">
+            <para id="para-00009">Correct! It is quadratic.</para>
+            <para id="para-00010">Incorrect. The correct answer is quadratic.</para>
           </solution>
         </exercise>
       </section>
-      <exercise>
-        <problem>
-          <para> Complete the table for Pattern A.</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00003">
+          <para id="para-00011"> Complete the table for Pattern A.</para>
           <table class="os-raise-wideadjustedtable" id="table-00001">
             <tgroup cols="2">
               <tbody>
@@ -95,10 +95,10 @@
               </tbody>
             </tgroup>
           </table>
-          <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          <para id="para-00012">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
+        <solution id="sol-00003">
+          <para id="para-00013">Compare your answers:</para>
           <table class="os-raise-wideadjustedtable" id="table-00002">
             <tgroup cols="2">
               <tbody>
@@ -151,43 +151,43 @@
           </table>
         </solution>
       </exercise>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>In Pattern B, the number of small squares doubles from each step to the next.</item>
       </list>
-      <para>Pattern B</para>
-      <para>
+      <para id="para-00014">Pattern B</para>
+      <para id="para-00015">
         
           <media alt="Four steps of a growing pattern. Step 0: One square. Step 1: Two squares, one atop the other. Step 2: Four squares in a two by two square. Step 3: Eight squares in a two by four rectangle.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_06_03_02.svg" />
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_06_03_02.svg"/>
           </media>
         
      </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Write an equation to represent the number of small squares at Step \(n\) in Pattern B.</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00004">
+          <para id="para-00016"> Write an equation to represent the number of small squares at Step \(n\) in Pattern B.</para>
         </problem>
-        <solution>
-          <para />
-          <para>Compare your answer:</para>
-          <para> \(g(n)=2^n\)</para>
+        <solution id="sol-00004">
+          <para id="para-00017"/>
+          <para id="para-00018">Compare your answer:</para>
+          <para id="para-00019"> \(g(n)=2^n\)</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <section class="check-understanding">
+      <section class="check-understanding" id="sect-00003">
         <exercise id="_4878fa90-3d82-4e1d-98c2-47593b1e9296" class="multiple-choice">
-          <problem>
-            <para> Is the function in Pattern B linear, quadratic, or exponential?</para>
+          <problem id="prob-00005">
+            <para id="para-00020"> Is the function in Pattern B linear, quadratic, or exponential?</para>
           </problem>
-          <solution>
-            <para>Correct! It is exponential.</para>
-            <para>Incorrect. The correct answer is exponential.</para>
+          <solution id="sol-00005">
+            <para id="para-00021">Correct! It is exponential.</para>
+            <para id="para-00022">Incorrect. The correct answer is exponential.</para>
           </solution>
         </exercise>
       </section>
-      <exercise>
-        <problem>
-          <para> Complete the table for Pattern B.</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00006">
+          <para id="para-00023"> Complete the table for Pattern B.</para>
           <table class="os-raise-wideadjustedtable" id="table-00003">
             <tgroup cols="2">
               <tbody>
@@ -238,10 +238,10 @@
               </tbody>
             </tgroup>
           </table>
-          <para>Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          <para id="para-00024">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
+        <solution id="sol-00006">
+          <para id="para-00025">Compare your answers:</para>
           <table class="os-raise-wideadjustedtable" id="table-00004">
             <tgroup cols="2">
               <tbody>
@@ -295,34 +295,34 @@
         </solution>
       </exercise>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>How would the two patterns compare if they continue to grow? Make one to two observations.</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00007">
+          <para id="para-00026">How would the two patterns compare if they continue to grow? Make one to two observations.</para>
         </problem>
-        <solution>
-          <para />
-          <para>Compare your answer:</para>
-          <para> The number of small squares in Pattern B grows much more quickly than the number of squares in Pattern A once \(n\) is greater than \(5\). The patterns have the same number of squares when \(n=2\) and when \(n=4\).</para>
+        <solution id="sol-00007">
+          <para id="para-00027"/>
+          <para id="para-00028">Compare your answer:</para>
+          <para id="para-00029"> The number of small squares in Pattern B grows much more quickly than the number of squares in Pattern A once \(n\) is greater than \(5\). The patterns have the same number of squares when \(n=2\) and when \(n=4\).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
-    <note class="self-check">
-      <para>Which of the following functions has a constant growth factor?</para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00030">Which of the following functions has a constant growth factor?</para>
     </note>
-    <section>
+    <section id="sect-00004">
       <title>Additional Resources</title>
-      <section>
+      <section id="sect-00005">
         <title>Determining Growth Factors</title>
-        <para>Is the pattern below represented by a function that is linear, exponential, or quadratic?</para>
-        <para>
+        <para id="para-00031">Is the pattern below represented by a function that is linear, exponential, or quadratic?</para>
+        <para id="para-00032">
               <media alt="DIAGRAM WITH 4 FIGURES, LABELED STEP 0 THROUGH STEP 3. STEP 0 HAS 1 SQUARE. STEP 1 HAS 3 SQUARES. STEP 2 HAS 9 SQUARES. STEP 3 HAS 27 SQUARES.">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_05_01.jpg" />
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_05_01.jpg"/>
             </media>
           
        </para>
-        <para><emphasis>Step 1</emphasis> - Draw a table. In the right column, determine the growth factor.</para>
-        <table class="os-raise-wideequaltable">
+        <para id="para-00033"><emphasis>Step 1</emphasis> - Draw a table. In the right column, determine the growth factor.</para>
+        <table class="os-raise-wideequaltable" id="table-00005">
           <tgroup cols="3">
             <tbody>
               <row>
@@ -359,28 +359,28 @@
             </tbody>
           </tgroup>
         </table>
-        <para><emphasis>Step 2</emphasis> - Write the function to represent the pattern.</para>
-        <para>\(f(x)=3^x\)</para>
-        <para><emphasis>Step 3</emphasis> - Determine what type of function this is.</para>
-        <para>The function is exponential.</para>
-        <note class="try">
+        <para id="para-00034"><emphasis>Step 2</emphasis> - Write the function to represent the pattern.</para>
+        <para id="para-00035">\(f(x)=3^x\)</para>
+        <para id="para-00036"><emphasis>Step 3</emphasis> - Determine what type of function this is.</para>
+        <para id="para-00037">The function is exponential.</para>
+        <note class="try" id="note-00002">
           <title>Try It: Determining Growth Factors</title>
       
-        <exercise>
-            <problem>
-              <para>Is the pattern below represented by a function that is linear, exponential, or quadratic?</para>
-              <para>
+        <exercise id="exer-00006">
+            <problem id="prob-00008">
+              <para id="para-00038">Is the pattern below represented by a function that is linear, exponential, or quadratic?</para>
+              <para id="para-00039">
                           <media alt="3 FIGURES, LABELED 1, 2, AND 3. FIGURE 1 IS A RECTANGLE WITH 3 ROWS AND 1 COLUMN. FIGURE 2 IS A RECTANGLE WITH 6 ROWS AND 2 COLUMNS. FIGURE 3 IS A RECTANGLE WITH 9 ROWS AND 3 COLUMNS.">
-                    <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_05_02.jpg" />
+                    <image mime-type="image/jpeg" src="../../media/Algebra-1_08_06_05_02.jpg"/>
                   </media>
                 
              </para>
-              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+              <para id="para-00040">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
             </problem>
-            <solution>
-              <para>Here is how to use the growth factor to determine if this pattern is represented by a linear, quadratic, or exponential function:</para>
-              <para><emphasis>Step 1</emphasis> - Create a table and determine the growth factor.</para>
-              <table class="os-raise-wideequaltable">
+            <solution id="sol-00008">
+              <para id="para-00041">Here is how to use the growth factor to determine if this pattern is represented by a linear, quadratic, or exponential function:</para>
+              <para id="para-00042"><emphasis>Step 1</emphasis> - Create a table and determine the growth factor.</para>
+              <table class="os-raise-wideequaltable" id="table-00006">
                 <tgroup cols="3">
                   <tbody>
                     <row>
@@ -417,10 +417,10 @@
                   </tbody>
                 </tgroup>
               </table>
-              <para><emphasis>Step 2</emphasis> - Determine the function.</para>
-              <para>\(f(x)=3x^2\)</para>
-              <para><emphasis>Step 3</emphasis> - Determine what type of function this is.</para>
-              <para>This is a quadratic function. The growth rate changes between each step.</para>
+              <para id="para-00043"><emphasis>Step 2</emphasis> - Determine the function.</para>
+              <para id="para-00044">\(f(x)=3x^2\)</para>
+              <para id="para-00045"><emphasis>Step 3</emphasis> - Determine what type of function this is.</para>
+              <para id="para-00046">This is a quadratic function. The growth rate changes between each step.</para>
             </solution>
           </exercise>
         </note>

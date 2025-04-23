@@ -6,13 +6,13 @@
     <md:uuid>611d5836-080a-485d-b6c4-b4344fc1d954</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<para> Consider the functions \(f(x)=2x\) and \(g(x)=(1.01)^x\).</para>
+  <section id="sect-00001"><title>Activity</title>
+<para id="para-00001"> Consider the functions \(f(x)=2x\) and \(g(x)=(1.01)^x\).</para>
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Complete the table of values for the functions \(f\) and \(g\).</para>
-    <table class="os-raise-midsizetable">
+<exercise id="exer-00001">
+  <problem id="prob-00001">
+    <para id="para-00002">Complete the table of values for the functions \(f\) and \(g\).</para>
+    <table class="os-raise-midsizetable" id="table-00001">
       <tgroup cols="3"><tbody><row>
           <entry><emphasis>
             \(x\)
@@ -58,13 +58,13 @@
         </row>
       </tbody></tgroup></table>
   
-  </problem><solution>
+  </problem><solution id="sol-00001">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00003">Compare your answer:</para>
     
-    <table class="os-raise-midsizetable">
+    <table class="os-raise-midsizetable" id="table-00002">
       <tgroup cols="3"><tbody><row>
           <entry><emphasis>
             \(x\)
@@ -135,34 +135,34 @@
   </solution></exercise>
 <!--Interaction End -->
 
-<exercise>
-  <problem>
+<exercise id="exer-00002">
+  <problem id="prob-00002">
     
-    <para>Based on the table of values, which function do you think grows faster? Be prepared to show your reasoning.
+    <para id="para-00004">Based on the table of values, which function do you think grows faster? Be prepared to show your reasoning.
     </para>
-    <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+    <para id="para-00005">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
   
-  </problem><solution>
-  <para>Compare your answer:</para>
+  </problem><solution id="sol-00002">
+  <para id="para-00006">Compare your answer:</para>
   
-  <para>\(f\) is growing faster for the values of \(x\) in the table, but
+  <para id="para-00007">\(f\) is growing faster for the values of \(x\) in the table, but
     as \(x\) increases, \(g\) starts to grow faster. So
     as \(x\) increases, \(g\) may eventually grow faster than \(f\).</para>
 
 </solution></exercise>
 
 <!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Which function do you think will reach a value of 2,000 first? Show your reasoning. If you get stuck, consider
+<exercise id="exer-00003">
+  <problem id="prob-00003">
+    <para id="para-00008">Which function do you think will reach a value of 2,000 first? Show your reasoning. If you get stuck, consider
         increasing \(x\) by 100 a few times and record the function values in the table.</para>
-    </problem><solution>
+    </problem><solution id="sol-00003">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00009">Compare your answer:</para>
     
-    <para>When \(x\) is 600, \(f(600)=1,200\) and \(g(600) \approx 392\), so \(f\) takes a larger value.
+    <para id="para-00010">When \(x\) is 600, \(f(600)=1,200\) and \(g(600) \approx 392\), so \(f\) takes a larger value.
       When \(x\) is 700, \(f(700)=1,400\) and \(g(700) \approx 1,059\), so \(f\) still takes a larger value.
       But when \(x\) is 800, \(f(800)=1,600\) and \(g(800) \approx 2,865\), so \(g\) takes a larger value.
   </para>
@@ -172,28 +172,28 @@
 
 
 <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<section>
+<section id="sect-00002">
   <title>Are you ready for more?</title>
-    <section>
+    <section id="sect-00003">
       <title>Extend Your Thinking</title>
 <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<exercise class="RFM1">
-  <problem>
-    <para>Consider the functions \(g(x)=x^5\) and \(f(x)=5^x\). While it is true that \(f(7)&gt;g(7)\), for example, it is hard to check this using mental math. Find a value of \(x\) for which properties of exponents allow you to conclude that \(f(x)&gt;g(x)\) without a calculator.</para>
+<exercise class="RFM1" id="exer-00004">
+  <problem id="prob-00004">
+    <para id="para-00011">Consider the functions \(g(x)=x^5\) and \(f(x)=5^x\). While it is true that \(f(7)>g(7)\), for example, it is hard to check this using mental math. Find a value of \(x\) for which properties of exponents allow you to conclude that \(f(x)>g(x)\) without a calculator.</para>
   
-  </problem><solution>
+  </problem><solution id="sol-00004">
     
     
   
-  <para>Compare your answer:</para>
+  <para id="para-00012">Compare your answer:</para>
     
-    <para>Your answer may vary, but here are some samples: One example is \(x=25\). We have \(f(25)=5^{25}\), whereas  \(g(25)=25^5=(5^2)^5=5^{10}\), which is certainly smaller than \(5^{25}\).</para>
+    <para id="para-00013">Your answer may vary, but here are some samples: One example is \(x=25\). We have \(f(25)=5^{25}\), whereas  \(g(25)=25^5=(5^2)^5=5^{10}\), which is certainly smaller than \(5^{25}\).</para>
   
   </solution></exercise>
 <!--End interaction--></section></section>
 
-<note class="self-check"><para>Terence looked down the second column of the table below and noticed that \(\frac{3}{1}=\frac{9}{3}=\frac{27}{9}=\frac{81}{27}\). Because of his observation, he claimed that the input-output pairs in this table could be modeled with an exponential function. Explain why Terence is correct or incorrect.</para>
-  <table class="os-raise-skinnytable">
+<note class="self-check" id="note-00001"><para id="para-00014">Terence looked down the second column of the table below and noticed that \(\frac{3}{1}=\frac{9}{3}=\frac{27}{9}=\frac{81}{27}\). Because of his observation, he claimed that the input-output pairs in this table could be modeled with an exponential function. Explain why Terence is correct or incorrect.</para>
+  <table class="os-raise-skinnytable" id="table-00003">
     <tgroup cols="2"><tbody><row>
         <entry><emphasis>
           \(x\)
@@ -243,30 +243,30 @@
     </tbody></tgroup></table>
   </note>
 
-  <section>
+  <section id="sect-00004">
     <title>Additional Resources</title>
     
-  <section><title>Determining and Comparing Linear and Exponential Functions</title>
-    <para>Mr. Smith has an apple orchard. He hires his daughter, Lucy, to pick apples and offers her two payment options:</para>
-    <para>Option A: $1.50 per bushel of apples picked</para>
-    <para>Option B: 1 cent for coming to work, 3 cents for picking one bushel, 9 cents for picking two bushels, 27 cents for
+  <section id="sect-00005"><title>Determining and Comparing Linear and Exponential Functions</title>
+    <para id="para-00015">Mr. Smith has an apple orchard. He hires his daughter, Lucy, to pick apples and offers her two payment options:</para>
+    <para id="para-00016">Option A: $1.50 per bushel of apples picked</para>
+    <para id="para-00017">Option B: 1 cent for coming to work, 3 cents for picking one bushel, 9 cents for picking two bushels, 27 cents for
       picking three bushels, and so on, with the amount of money tripling for each additional bushel picked</para>
-    <list class="os-raise-noindent" list-type="enumerated">
+    <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
       <item>Which option is linear, and which option is exponential? How do you know?</item>
       <item>Create a table to model each scenario.</item>
       <item>If she picks 6 bushels, which option is better?</item>
       <item>If she picks 12 bushels, which option is better?</item>
       <item>How many bushels does she need to pick for Option B to be better than Option A?</item>
     </list>
-    <para>Let’s first think about linear and exponential functions in general. Let’s also consider Options A and B
+    <para id="para-00018">Let’s first think about linear and exponential functions in general. Let’s also consider Options A and B
       when \(x\) represents the bushels of apples picked and \(f(x)\) represents the total amount she earns based on \(x\)
       bushels of apples.</para>
-    <list class="os-raise-noindent" list-type="enumerated">
+    <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
       <item>Since Option A is $1.50 per bushel picked, it is linear. For Option B, the amount of money is tripling for each
         bushel picked, so it is exponential.</item>
     </list>
     
-    <table class="os-raise-doubleheadertable">
+    <table class="os-raise-doubleheadertable" id="table-00004">
       <tgroup cols="3"><tbody><row>
           <entry><emphasis/></entry><entry><emphasis>Linear Model</emphasis></entry><entry><emphasis>Exponential Model</emphasis></entry></row>
       <row>
@@ -305,7 +305,7 @@
         </row>
     
       </tbody></tgroup></table>
-    <table class="os-raise-skinnytable">
+    <table class="os-raise-skinnytable" id="table-00005">
     <tgroup cols="2"><tbody><row>
           <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(f(x)\)</emphasis></entry></row>
       <row>
@@ -327,7 +327,7 @@
       </tbody></tgroup><caption>Linear Model Table</caption>
       </table> 
     
-      <table class="os-raise-skinnytable">
+      <table class="os-raise-skinnytable" id="table-00006">
         <tgroup cols="2"><tbody><row>
           <entry><emphasis>\(x\)</emphasis></entry><entry><emphasis>\(f(x)\)</emphasis></entry></row>
       <row>
@@ -349,12 +349,12 @@
       </tbody></tgroup><caption>Exponential Model Table</caption>
       </table>
     
-    <list class="os-raise-noindent" list-type="enumerated">
+    <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
       <item>To create the table for Option A, add $1.50 to each consecutive term. To create the table for Option B, multiply
         each term by 3 to get the next term.</item>
     </list>
-    <para>Option A table
-   </para><table class="os-raise-midsizetable">
+    <para id="para-00019">Option A table
+   </para><table class="os-raise-midsizetable" id="table-00007">
       <tgroup cols="2"><tbody><row>
           <entry><emphasis>
             Number of bushels
@@ -411,8 +411,8 @@
         </row>
       </tbody></tgroup></table>
     
-    <para>Option B table</para>
-    <table class="os-raise-midsizetable">
+    <para id="para-00020">Option B table</para>
+    <table class="os-raise-midsizetable" id="table-00008">
       <tgroup cols="2"><tbody><row>
           <entry><emphasis>
             Number of bushels
@@ -469,52 +469,52 @@
         </row>
       </tbody></tgroup></table>
     
-    <list class="os-raise-noindent" list-type="enumerated">
+    <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
       <item>To determine which scenario is better when she picks 6 bushels, you can look at the values in your table, or you
         can write the equation modeling each scenario and substitute in 6 for \(x\). For 6 bushels, Option A is better at
         $9.00.</item>
     </list>
-    <list class="os-raise-noindent" list-type="enumerated">
+    <list class="os-raise-noindent" list-type="enumerated" id="list-00005">
       <item>To determine which scenario is better when she picks 12 bushels, you can extend the table or use the graph or
         equation. Option A is $18.00 for 12 bushels, and Option B is $5,314.41 for 12 bushels, so Option B is better.</item>
     </list>
-    <list class="os-raise-noindent" list-type="enumerated">
+    <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
       <item>To determine where Option B becomes the better option, you can extend the table, or you can graph the functions
         and find the \(x\)-value where Option B surpasses Option A. You can also use problems 3 and 4 to help you. The
         number of bushels is more than 6 but less than 12. Option B is better if you are going to pick 7 or more bushels of
         apples.</item>
     </list>
-    <note class="try">
+    <note class="try" id="note-00002">
     <title>Try It: Determining and Comparing Linear and Exponential Functions</title>
-    <exercise>
-      <problem>
+    <exercise id="exer-00005">
+      <problem id="prob-00005">
         
-        <para>Jayden has a dog-walking business. He has two plans. Plan 1 includes walking a dog once a day for a rate of $5
+        <para id="para-00021">Jayden has a dog-walking business. He has two plans. Plan 1 includes walking a dog once a day for a rate of $5
           per day. Plan 2 also includes one walk a day but charges 1 cent for 1 day, 2 cents for 2 days, 4 cents for 3 days,
           and 8 cents for 4 days, and it continues to double for each additional day. Mrs. Maroney needs Jayden to walk her
           dog every day for two weeks. Which plan should she choose? Show the work to justify your answer.</para>
       
-      <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <para id="para-00022">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
       
-      </problem><solution>
-      <para>Compare your answer:</para>
+      </problem><solution id="sol-00005">
+      <para id="para-00023">Compare your answer:</para>
       
-      <para>Here is how to determine which of Jayden’s plans Mrs. Maroney should choose:</para>
+      <para id="para-00024">Here is how to determine which of Jayden’s plans Mrs. Maroney should choose:</para>
       
-      <para>Plan 1 is a linear plan since it’s $5 per day. Plan 2 is doubling each day, so it is an exponential plan.
+      <para id="para-00025">Plan 1 is a linear plan since it’s $5 per day. Plan 2 is doubling each day, so it is an exponential plan.
         Every other example has shown us that the exponential plan is going to be greater eventually. Since Mrs. Maroney
         needs Jayden for 2 weeks, or 14 days, we need to determine when Plan 2 becomes greater than Plan 1.</para>
       
-      <para>Plan 1 for 14 days would be:</para>
+      <para id="para-00026">Plan 1 for 14 days would be:</para>
       
-      <para>\(5+5+5+5+5+5+5+5+5+5+5+5+5+5 = 5 \cdot 14 = $70\)</para>
+      <para id="para-00027">\(5+5+5+5+5+5+5+5+5+5+5+5+5+5 = 5 \cdot 14 = $70\)</para>
       
-      <para>Plan 2 for 14 days would be:</para>
+      <para id="para-00028">Plan 2 for 14 days would be:</para>
       
-      <para>\(.01 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 =
+      <para id="para-00029">\(.01 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 =
         .01(2)^{14} =$163.84\)</para>
       
-      <para>Plan 1 would be better for Mrs. Maroney.</para>
+      <para id="para-00030">Plan 1 would be better for Mrs. Maroney.</para>
     
     </solution></exercise></note>
     </section>

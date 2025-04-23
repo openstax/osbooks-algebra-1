@@ -6,16 +6,16 @@
     <md:uuid>3f5042f0-076f-41da-8e65-fa0c0a678d6b</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>
+      <para id="para-00001">
           <media alt="Insert Alt Text">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_13_03_01.jpg"/>
           </media>
         
     </para>
-      <para>Here are measurements for the maximum height of a tennis ball after bouncing several times on a concrete surface.</para>
-      <table class="os-raise-midsizetable">
+      <para id="para-00002">Here are measurements for the maximum height of a tennis ball after bouncing several times on a concrete surface.</para>
+      <table class="os-raise-midsizetable" id="table-00001">
         <tgroup cols="2"><tbody><row>
             <entry>
              <emphasis> \(n\)Bounce Number</emphasis>
@@ -66,22 +66,22 @@
           </row>
         </tbody></tgroup></table>
       
-        <exercise>
-          <problem>
-            <para>Which is more appropriate for modeling the maximum height \(h\), in centimeters, of the tennis ball after
+        <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <para id="para-00003">Which is more appropriate for modeling the maximum height \(h\), in centimeters, of the tennis ball after
         \(n\) bounces: A linear function or an exponential function? Use data from the table to support your answer.
     </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00004">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Exponential. Sample explanations:</para>
-            <para>Plotting the points in the plane, they are not close to being on a line. 
+          <solution id="sol-00001">
+            <para id="para-00005">Compare your answer:</para>
+            <para id="para-00006">Exponential. Sample explanations:</para>
+            <para id="para-00007">Plotting the points in the plane, they are not close to being on a line. 
     (<media alt="5 points on coordinate plane, showing exponential decay. Horizontal axis from 0 to 8, labeled number of bounces. Vertical axis from 0 to 200, labeled height in centimeters."><image mime-type="image/svg+xml" src="../../media/Algebra-1_05_13_03_02.svg"/></media>)</para>
-            <para>A linear function of the bounce height would decrease by the same amount for each successive bounce. The
+            <para id="para-00008">A linear function of the bounce height would decrease by the same amount for each successive bounce. The
     differences in heights between successive bounces are not close to being the same, as shown in the table. They are
     decreasing with each bounce, so the function is not linear.</para>
-            <table class="os-raise-midsizetable">
+            <table class="os-raise-midsizetable" id="table-00002">
               <tgroup cols="2"><tbody><row>
                   <entry>
                    <emphasis>Bounce Number</emphasis>
@@ -131,23 +131,23 @@
         </entry>
                 </row>
               </tbody></tgroup></table>
-            <para>An exponential function of the bounce height would decrease by the same factor for each successive bounce. It looks
+            <para id="para-00009">An exponential function of the bounce height would decrease by the same factor for each successive bounce. It looks
     like each successive bounce is about half as high as the previous bounce, making an exponential model appropriate.
 </para>
           </solution>
         </exercise>
       
       
-        <exercise>
-          <problem>
-            <para>Regulations say that a tennis ball, dropped on concrete, should rebound to a height between 53% and 58% of the
+        <exercise id="exer-00002">
+          <problem id="prob-00002">
+            <para id="para-00010">Regulations say that a tennis ball, dropped on concrete, should rebound to a height between 53% and 58% of the
         height from which it is dropped. Does the tennis ball here meet this requirement? Be prepared to show your
         reasoning.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00011">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <list>
+          <solution id="sol-00002">
+            <para id="para-00012">Compare your answer:</para>
+            <list id="list-00001">
               <item>Yes. The first rebound is a little over 53%, the second is almost 54%, and the fourth is 55%. The third rebound
       is only about 47%, but there could be some measurement error.</item>
               <item>No, the third rebound is less than 50% of the height from which the tennis ball fell, falling out of the
@@ -159,32 +159,32 @@
         </exercise>
       
       
-        <exercise>
-          <problem>
-            <para>Write an equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        <exercise id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00013">Write an equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball.</para>
+            <para id="para-00014">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>\(
+          <solution id="sol-00003">
+            <para id="para-00015">Compare your answer:</para>
+            <para id="para-00016">\(
     h=150 \cdot (0.53)^n\) (A factor of exactly 0.5 is also acceptable, or any value between 0.53 and 0.58.)</para>
           </solution>
         </exercise>
       
       
-        <exercise>
-          <problem>
-            <para>About how many bounces will it take before the rebound height of the tennis ball is less than 1 centimeter?
+        <exercise id="exer-00004">
+          <problem id="prob-00004">
+            <para id="para-00017">About how many bounces will it take before the rebound height of the tennis ball is less than 1 centimeter?
         Be prepared to show your reasoning.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00018">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>8 bounces. For example:</para>
-            <para>The height of the ball is decreasing by a factor of about \(\frac12\) after each bounce. So after 3 more bounces,
+          <solution id="sol-00004">
+            <para id="para-00019">Compare your answer:</para>
+            <para id="para-00020">8 bounces. For example:</para>
+            <para id="para-00021">The height of the ball is decreasing by a factor of about \(\frac12\) after each bounce. So after 3 more bounces,
     it will decrease by a factor of about \(\frac18\) (giving a little more than 1 cm), but after 4 more bounces, it
     will decrease by a factor of about \(\frac{1}{16}\).</para>
-            <para>Graphing \(
+            <para id="para-00022">Graphing \(
     h=150 \cdot (0.53)^n\) and \(h=1\) simultaneously using graphing technology shows the bounce height first goes below
     \(h=1\) on the 8th bounce.</para>
           </solution>
@@ -193,15 +193,15 @@
       <!--BEGIN ADD DESMOS INTERATIVE-->
       <!--START QUESTION #5 -->
       
-        <exercise>
-          <problem>
+        <exercise id="exer-00005">
+          <problem id="prob-00005">
             
-            <para>Graph the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball using the Desmos tool below.</para>
-            <para>After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00023">Graph the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball using the Desmos tool below.</para>
+            <para id="para-00024">After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>
+          <solution id="sol-00005">
+            <para id="para-00025">Compare your answer:</para>
+            <para id="para-00026">
                       <media alt="Graph the equation that models the bounce height h after n bounces for a tennis ball  ">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_05_13_03_03.jpg"/>
                 </media>
@@ -211,15 +211,15 @@
         </exercise>
       <media alt=".">
       <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media><!--END ADD DESMOS INTERATIVE-->
-      <exercise>
-        <problem>
-          <para>Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball to predict the difference in height after 6 bounces.
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00027">Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball to predict the difference in height after 6 bounces.
     </para>
           
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The difference in height after 6 bounces is 2.
+        <solution id="sol-00006">
+          <para id="para-00028">Compare your answer:</para>
+          <para id="para-00029">The difference in height after 6 bounces is 2.
       Using the equation: 
       \(h=150 \cdot (0.50)^n\) and graphing \(h=150 \cdot (0.50)^6\). The graph shows the height to be 2.344 after 6 bounces \((n=6)\).
       
@@ -232,16 +232,16 @@
         </solution>
       </exercise>
     </section>
-    <section>
+    <section id="sect-00002">
       <title>Video: Determining a Model and an Equation from a Real-World Scenario</title>
-      <para>Watch the following video to learn more about modeling exponential functions:</para>
+      <para id="para-00030">Watch the following video to learn more about modeling exponential functions:</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/a7ccee1ed903f5974363946e57e5279ce4e0db1c"/>
       </media>
     </section>
-    <note class="self-check"><para>The table gives predictions of the average costs of a gasoline car after the year 2030.</para>
-      <para>Which graph best represents the relationship between time and the predicted cost?</para>
-      <table class="os-raise-midsizetable">
+    <note class="self-check" id="note-00001"><para id="para-00031">The table gives predictions of the average costs of a gasoline car after the year 2030.</para>
+      <para id="para-00032">Which graph best represents the relationship between time and the predicted cost?</para>
+      <table class="os-raise-midsizetable" id="table-00003">
         <tgroup cols="2"><tbody><row>
             <entry><emphasis>Time (years)</emphasis> </entry><entry><emphasis>Cost (thousand of dollars)</emphasis> </entry></row>
         <row>
@@ -270,13 +270,13 @@
         </table>
       
       </note>
-      <section>
+      <section id="sect-00003">
         <title>Additional Resources</title>
         
-    <section>
+    <section id="sect-00004">
       <title>Using an Exponential Model</title>
-      <para>A lab researcher records the growth of the population of a yeast colony and finds that the population doubles every hour. The table below records the first four hours.</para>
-      <table class="os-raise-horizontaltable">
+      <para id="para-00033">A lab researcher records the growth of the population of a yeast colony and finds that the population doubles every hour. The table below records the first four hours.</para>
+      <table class="os-raise-horizontaltable" id="table-00004">
         <tgroup cols="6"><tbody><row>
             <entry>
              <emphasis>Hours into Study</emphasis>
@@ -318,43 +318,43 @@
     </entry>
           </row>
         </tbody></tgroup></table>
-      <para>The starting value is 5 (in thousands) and the population doubles, so the growth factor is 2.</para>
-      <para>Example   </para>
-      <para>You can use the data you already have to predict the population size of the yeast colony in the future.      </para>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <para id="para-00034">The starting value is 5 (in thousands) and the population doubles, so the growth factor is 2.</para>
+      <para id="para-00035">Example   </para>
+      <para id="para-00036">You can use the data you already have to predict the population size of the yeast colony in the future.      </para>
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>What will the size of the population be in 5 hours? 
     The population will be 160,000. You will double the 80 which represents 80,000.</item>
       </list>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
         <item>What will the size of the population be in 6 hours? 
     The population will be 320,000. You will double the 160 which represents 160,000.</item>
       </list>
-      <list class="os-raise-noindent" list-type="enumerated">
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
         <item>What will the size of the population be in 10 hours?
     You may have to use a calculator to figure this one out.   You will double it four more times.   The population will be 5,120,000.</item>
       </list>
-      <para>The equation to model this growth is \(P(t)=5 \cdot 2^t\).</para>
-      <para>The graph is below:</para>
-      <para>
+      <para id="para-00037">The equation to model this growth is \(P(t)=5 \cdot 2^t\).</para>
+      <para id="para-00038">The graph is below:</para>
+      <para id="para-00039">
           <media alt="">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_13_05_01.jpg"/>
           </media>
         
     </para>
-      <note class="try">
+      <note class="try" id="note-00002">
   <title>Try It: Using an Exponential Model</title>
       
-        <exercise>
-          <problem>
-            <para>A ball bounces up and down from a starting height of 65 centimeters. As it bounces, its height decreases to
+        <exercise id="exer-00007">
+          <problem id="prob-00007">
+            <para id="para-00040">A ball bounces up and down from a starting height of 65 centimeters. As it bounces, its height decreases to
   \(\frac13\) the previous height. Complete a table to represent the first 4 bounces.  Predict the height after 5 bounces. Then write a function, \(h(x)\),
   to determine the height after \(x\) bounces.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00041">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Here is how to find the model for this situation:</para>
-            <table class="os-raise-horizontaltable">
+          <solution id="sol-00007">
+            <para id="para-00042">Compare your answer:</para>
+            <para id="para-00043">Here is how to find the model for this situation:</para>
+            <table class="os-raise-horizontaltable" id="table-00005">
               <tgroup cols="6"><tbody><row>
                   <entry>
                    <emphasis>Number of Bounces, \(x\)</emphasis>
@@ -396,9 +396,9 @@
         </entry>
                 </row>
               </tbody></tgroup></table>
-            <para>The initial height is 65, and the growth factor is \(\frac13\).</para>
-            <para>The height after the 5th bounce is \(\frac {65}{243}\)</para>
-            <para>The maximum height, \(h(x)\), after \(x\) bounces can be represented by \(h(x)=65 (\frac{1}{3})^x\).</para>
+            <para id="para-00044">The initial height is 65, and the growth factor is \(\frac13\).</para>
+            <para id="para-00045">The height after the 5th bounce is \(\frac {65}{243}\)</para>
+            <para id="para-00046">The maximum height, \(h(x)\), after \(x\) bounces can be represented by \(h(x)=65 (\frac{1}{3})^x\).</para>
           </solution>
         </exercise>
       </note>

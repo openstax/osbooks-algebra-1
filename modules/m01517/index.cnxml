@@ -6,10 +6,10 @@
     <md:uuid>49621e04-9a18-49b3-9f76-cc14e354998d</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>Here is a graph of \(y=f(x)\) where \(f(x)=2x+5\).</para>
-      <para>
+      <para id="para-00001">Here is a graph of \(y=f(x)\) where \(f(x)=2x+5\).</para>
+      <para id="para-00002">
         
           <media alt="Graph of an increasing linear function, x y plane, origin O.">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_17_03_01.svg"/>
@@ -17,15 +17,15 @@
         
     </para>
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> How do the values of \(f\) change whenever \(x\) increases by 1, for instance, when it increases from 1 to 2, or from 19 to 20? Be prepared to explain or show how you know.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003"> How do the values of \(f\) change whenever \(x\) increases by 1, for instance, when it increases from 1 to 2, or from 19 to 20? Be prepared to explain or show how you know.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para>The value of \(f\) increases by 2 whenever the input increases by 1. For example:</para>
-          <list class="os-raise-noindent" list-type="enumerated">
+        <solution id="sol-00001">
+          <para id="para-00004"/>
+          <para id="para-00005">Compare your answer:</para>
+          <para id="para-00006">The value of \(f\) increases by 2 whenever the input increases by 1. For example:</para>
+          <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
             <item>From the graph, we can see the \(y\)-value increasing by 2 when the \(x\)-value increases by 1.</item>
             <item>\(f(1)=7\) and \(f(2)=9\). The difference between \(f(1)\) and \(f(2)\) is 2. Likewise, \(f(20)=45\) and \(f(19)=43\), and \(f(20)−f(19)=2\).</item>
           </list>
@@ -33,78 +33,78 @@
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Here is an expression we can use to find the difference in the values of \(f\) when the input changes from \(x\) to \(x+1\).</para>
-          <para>
-            <quote>\(\lbrack 2(x+1)+5 \rbrack − \lbrack 2x+5 \rbrack \)</quote>
-            <quote>Does this expression have the same value as what you found in the previous questions? Show your reasoning.</quote>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00007"> Here is an expression we can use to find the difference in the values of \(f\) when the input changes from \(x\) to \(x+1\).</para>
+          <para id="para-00008">
+            <quote id="quote-00001">\(\lbrack 2(x+1)+5 \rbrack − \lbrack 2x+5 \rbrack \)</quote>
+            <quote id="quote-00002">Does this expression have the same value as what you found in the previous questions? Show your reasoning.</quote>
         </para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para>Yes. \(2(x+1)=2x+2\). Replacing \(2(x+1)\) with \(2x+2\) and performing arithmetic gives \(f(x+1)−f(x)=2\).</para>
+        <solution id="sol-00002">
+          <para id="para-00009"/>
+          <para id="para-00010">Compare your answer:</para>
+          <para id="para-00011">Yes. \(2(x+1)=2x+2\). Replacing \(2(x+1)\) with \(2x+2\) and performing arithmetic gives \(f(x+1)−f(x)=2\).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> How do the values of \(f\) change whenever \(x\) increases by 4? Explain or show how you know.</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00012"> How do the values of \(f\) change whenever \(x\) increases by 4? Explain or show how you know.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para> The values of \(f\) change by 8 if the input is increased by 4. Increasing the input by 4 is the same as increasing the input by 1 four successive times, and each time the value of \(f\) increased by 2.</para>
+        <solution id="sol-00003">
+          <para id="para-00013"/>
+          <para id="para-00014">Compare your answer:</para>
+          <para id="para-00015"> The values of \(f\) change by 8 if the input is increased by 4. Increasing the input by 4 is the same as increasing the input by 1 four successive times, and each time the value of \(f\) increased by 2.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Write an expression that shows the change in the values of \(f\) when the input value changes from \(x\) to \(x+4\).</para>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00016"> Write an expression that shows the change in the values of \(f\) when the input value changes from \(x\) to \(x+4\).</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para> \(f(x+4)−f(x)\) can be expressed as \(\lbrack 2(x+4)+5 \rbrack− \lbrack 2x+5 \rbrack \).</para>
+        <solution id="sol-00004">
+          <para id="para-00017"/>
+          <para id="para-00018">Compare your answer:</para>
+          <para id="para-00019"> \(f(x+4)−f(x)\) can be expressed as \(\lbrack 2(x+4)+5 \rbrack− \lbrack 2x+5 \rbrack \).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para> Show or explain how that expression has a value of 8.</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00020"> Show or explain how that expression has a value of 8.</para>
         </problem>
-        <solution>
-          <para/>
-          <para>Compare your answer:</para>
-          <para>Applying the distributive property to \( \lbrack 2(x+4)+5 \rbrack − \lbrack 2x+5 \rbrack \) gives us: \(2x+8+5−2x−5\) or \(2x−2x+8+5−5\), which equals 8.</para>
+        <solution id="sol-00005">
+          <para id="para-00021"/>
+          <para id="para-00022">Compare your answer:</para>
+          <para id="para-00023">Applying the distributive property to \( \lbrack 2(x+4)+5 \rbrack − \lbrack 2x+5 \rbrack \) gives us: \(2x+8+5−2x−5\) or \(2x−2x+8+5−5\), which equals 8.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
-    <note class="self-check">
-      <para>Here is a graph of \(y= f(x)\) where \(f(x) = 3x+2\).</para>
-      <para>
+    <note class="self-check" id="note-00001">
+      <para id="para-00024">Here is a graph of \(y= f(x)\) where \(f(x) = 3x+2\).</para>
+      <para id="para-00025">
           <media alt="GRAPH OF AN EXPONENTIAL GROWTH FUNCTION WITH A \(y\)-intercepts OF 1 AND PASSING THROUGH THE POINTS 1 COMMA 2, 2 COMMA 4, AND 3 COMMA 8.">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_17_04_01.jpg"/>
           </media>
         
     </para>
-      <para>How do the values of \(f\) change whenever \(x\) increases by 2?</para>
+      <para id="para-00026">How do the values of \(f\) change whenever \(x\) increases by 2?</para>
     </note>
-    <section>
+    <section id="sect-00002">
       <title>Additional Resources</title>
       
-    <section>
+    <section id="sect-00003">
       <title>Determining Rate of Change of Linear Functions</title>
-      <para>For the table below, assume the function \(f\) is defined for all real numbers. Calculate \(\triangle f=f(x+1)-f(x)\)
+      <para id="para-00027">For the table below, assume the function \(f\) is defined for all real numbers. Calculate \(\triangle f=f(x+1)-f(x)\)
   in the last column. (The symbol \(\triangle\) in this context means “change in.”) What do you notice about
   \(\triangle f\)? Could the function be linear or exponential? Write a linear or an exponential function formula that
   generates the same input–output pairs as given in the table.</para>
-      <table class="os-raise-wideequaltable">
+      <table class="os-raise-wideequaltable" id="table-00001">
         <tgroup cols="3"><tbody><row>
             <entry>
              <emphasis>
@@ -173,34 +173,34 @@
       </entry>
           </row>
         </tbody></tgroup></table>
-      <para>For each row, you subtract \(f(x)\) values. The first row would be \(1- (-3) =4\), then \(5 - 1 =4\), then \(9 - 5
+      <para id="para-00028">For each row, you subtract \(f(x)\) values. The first row would be \(1- (-3) =4\), then \(5 - 1 =4\), then \(9 - 5
   =4\), and then \(13 - 9 = 4\). Think back to the lessons on the slope or rate of change of a linear function. The
   numerator was always the change in \(y\) or output, which is the same as the change in \(f(x)\). Notice that all the
   changes in consecutive terms are the same, 4. This means that there is a constant rate of change and this particular
   function is linear.</para>
-      <para>Since this function is linear, an equation will have the form \(f(x) = rate \;\ of \;\ change \cdot x+ initial \;\
+      <para id="para-00029">Since this function is linear, an equation will have the form \(f(x) = rate \;\ of \;\ change \cdot x+ initial \;\
   value\). The rate of change is 4. The initial value is the same as the \(y\)-intercept, or where \(x=0\). \(f(0)\)
   would be 4 less than the first term listed in this case, which means that \(f(0)= -7\). The linear equation for this
   table would be \(f(x) = 4x -7\).</para>
-      <note class="try">
+      <note class="try" id="note-00002">
   <title>Try It: Determining Rate of Change of Linear Functions</title>
-      <para>For the graph provided, assume that the function is defined for all real numbers. What is the rate of change? Write
+      <para id="para-00030">For the graph provided, assume that the function is defined for all real numbers. What is the rate of change? Write
   an equation that would define this function.</para>
       
-        <exercise>
-          <problem>
-            <para>
+        <exercise id="exer-00006">
+          <problem id="prob-00006">
+            <para id="para-00031">
                       <media alt="GRAPH OF A LINEAR FUNCTION WITH A \(y\)-intercepts OF 2 AND PASSING THROUGH THE POINTS 2 COMMA 3, 4 COMMA 4, 6 COMMA 5, AND 8 COMMA 6.">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_05_17_05_01.jpg"/>
                 </media>
               
           </para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            <para id="para-00032">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Here is how to write the equation of the graph:</para>
-            <para>The graph seems to be linear. If you find the rate of change between consecutive points, you find the graph is
+          <solution id="sol-00006">
+            <para id="para-00033">Compare your answer:</para>
+            <para id="para-00034">Here is how to write the equation of the graph:</para>
+            <para id="para-00035">The graph seems to be linear. If you find the rate of change between consecutive points, you find the graph is
     linear and the rate of change is \(\frac12\) since the \(y\)-values increase by 1 every time the \(x\)-values
     increase by 2. Since the graph crosses the \(y\)-axis at \((0,2)\), that is the initial value. The equation for this
     graph is \(f(x) = \frac{1}{2} x +2\).</para>

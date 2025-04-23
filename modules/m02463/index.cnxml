@@ -6,213 +6,213 @@
     <md:uuid>b7eef1fb-b69c-4ea1-99b9-aa5af2a3a54e</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <exercise>
-        <problem>
-          <para>Here is one way to make sense of how the <term class="glossary-tooltip">quadratic formula</term> came about. Study the derivation until you can explain what happened in each step. Write down your explanation for each step.</para>
-          <para>Original equation \(ax^2+bx+c=0\)</para>
-          <para><emphasis>Step 1</emphasis> - \(4a^2x^2+4abx+4ac=0\)</para>
-          <para><emphasis>Step 2</emphasis> - \(4a^2x^2+4abx=-4ac\)</para>
-          <para><emphasis>Step 3</emphasis> - \((2ax)^2+2b(2ax)=-4ac\)</para>
-          <para><emphasis>Step 4</emphasis> - \(M^2+2bM=-4ac\)</para>
-          <para><emphasis>Step 5</emphasis> - \(M^2+2bM+b^2=-4ac+b^2\)</para>
-          <para><emphasis>Step 6</emphasis> - \((M+b)^2=b^2-4ac\)</para>
-          <para><emphasis>Step 7</emphasis> - \( \sqrt{(M+b)^2} =\sqrt{b^2-4ac}\)</para>
-          <para>\(M+b= \pm \sqrt{b^2-4ac}\)</para>
-          <para><emphasis>Step 8</emphasis> - \(M=-b \pm \sqrt{b^2-4ac}\)</para>
-          <para><emphasis>Step 9</emphasis> - \(2ax=-b \pm \sqrt{b^2-4ac}\)</para>
-          <para><emphasis>Step 10</emphasis> - \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\)</para>
-          <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00001">Here is one way to make sense of how the <term class="glossary-tooltip" id="term-00001">quadratic formula</term> came about. Study the derivation until you can explain what happened in each step. Write down your explanation for each step.</para>
+          <para id="para-00002">Original equation \(ax^2+bx+c=0\)</para>
+          <para id="para-00003"><emphasis>Step 1</emphasis> - \(4a^2x^2+4abx+4ac=0\)</para>
+          <para id="para-00004"><emphasis>Step 2</emphasis> - \(4a^2x^2+4abx=-4ac\)</para>
+          <para id="para-00005"><emphasis>Step 3</emphasis> - \((2ax)^2+2b(2ax)=-4ac\)</para>
+          <para id="para-00006"><emphasis>Step 4</emphasis> - \(M^2+2bM=-4ac\)</para>
+          <para id="para-00007"><emphasis>Step 5</emphasis> - \(M^2+2bM+b^2=-4ac+b^2\)</para>
+          <para id="para-00008"><emphasis>Step 6</emphasis> - \((M+b)^2=b^2-4ac\)</para>
+          <para id="para-00009"><emphasis>Step 7</emphasis> - \( \sqrt{(M+b)^2} =\sqrt{b^2-4ac}\)</para>
+          <para id="para-00010">\(M+b= \pm \sqrt{b^2-4ac}\)</para>
+          <para id="para-00011"><emphasis>Step 8</emphasis> - \(M=-b \pm \sqrt{b^2-4ac}\)</para>
+          <para id="para-00012"><emphasis>Step 9</emphasis> - \(2ax=-b \pm \sqrt{b^2-4ac}\)</para>
+          <para id="para-00013"><emphasis>Step 10</emphasis> - \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\)</para>
+          <para id="para-00014">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>Original equation \(ax^2+bx+c=0\)</para>
-          <para><emphasis>Step 1</emphasis> - Multiply by \(4a\) so the coefficient of \(x^2\) is a <term class="glossary-tooltip">perfect square</term>. \(4a^2x^2+4abx+4ac=0\)</para>
-          <para><emphasis>Step 2</emphasis> - Isolate the constant term to the right. \(4a^2x^2+4abx=-4ac\)</para>
-          <para><emphasis>Step 3</emphasis> - Write the squared term as (something)\(^2\). Write the linear term as \(2b \;\cdot\) (something). \((2ax)^2+2b(2ax)=-4ac\)</para>
-          <para><emphasis>Step 4</emphasis> - Use \(M\) as the placeholder for \(2ax\). \(M^2+2bM=-4ac\)</para>
-          <para><emphasis>Step 5</emphasis> - Add \(b^2\) to complete the square. \(M^2+2bM+b^2=-4ac+b^2\)</para>
-          <para><emphasis>Step 6</emphasis> - Write the left side as a squared factor and commute the terms on the right. \((M+b)^2=b^2-4ac\)</para>
-          <para><emphasis>Step 7</emphasis> - Find the square roots of each side of the equation. \( \sqrt{(M+b)^2} =\sqrt{b^2-4ac}\)</para>
-          <para>\(M+b= \pm \sqrt{b^2-4ac}\)</para>
-          <para><emphasis>Step 8</emphasis> - Subtract \(b\) to isolate \(M\). \(M=-b \pm \sqrt{b^2-4ac}\)</para>
-          <para><emphasis>Step 9</emphasis> - Replace \(M\) with \(2ax\). \(2ax=-b \pm \sqrt{b^2-4ac}\)</para>
-          <para><emphasis>Step 10</emphasis> - Divide both sides by \(2a\) to isolate \(x\). \(x= \frac{-b \pm \sqrt{b^2-4ac}}{2a}\)</para>
+        <solution id="sol-00001">
+          <para id="para-00015">Compare your answer:</para>
+          <para id="para-00016">Original equation \(ax^2+bx+c=0\)</para>
+          <para id="para-00017"><emphasis>Step 1</emphasis> - Multiply by \(4a\) so the coefficient of \(x^2\) is a <term class="glossary-tooltip" id="term-00002">perfect square</term>. \(4a^2x^2+4abx+4ac=0\)</para>
+          <para id="para-00018"><emphasis>Step 2</emphasis> - Isolate the constant term to the right. \(4a^2x^2+4abx=-4ac\)</para>
+          <para id="para-00019"><emphasis>Step 3</emphasis> - Write the squared term as (something)\(^2\). Write the linear term as \(2b \;\cdot\) (something). \((2ax)^2+2b(2ax)=-4ac\)</para>
+          <para id="para-00020"><emphasis>Step 4</emphasis> - Use \(M\) as the placeholder for \(2ax\). \(M^2+2bM=-4ac\)</para>
+          <para id="para-00021"><emphasis>Step 5</emphasis> - Add \(b^2\) to complete the square. \(M^2+2bM+b^2=-4ac+b^2\)</para>
+          <para id="para-00022"><emphasis>Step 6</emphasis> - Write the left side as a squared factor and commute the terms on the right. \((M+b)^2=b^2-4ac\)</para>
+          <para id="para-00023"><emphasis>Step 7</emphasis> - Find the square roots of each side of the equation. \( \sqrt{(M+b)^2} =\sqrt{b^2-4ac}\)</para>
+          <para id="para-00024">\(M+b= \pm \sqrt{b^2-4ac}\)</para>
+          <para id="para-00025"><emphasis>Step 8</emphasis> - Subtract \(b\) to isolate \(M\). \(M=-b \pm \sqrt{b^2-4ac}\)</para>
+          <para id="para-00026"><emphasis>Step 9</emphasis> - Replace \(M\) with \(2ax\). \(2ax=-b \pm \sqrt{b^2-4ac}\)</para>
+          <para id="para-00027"><emphasis>Step 10</emphasis> - Divide both sides by \(2a\) to isolate \(x\). \(x= \frac{-b \pm \sqrt{b^2-4ac}}{2a}\)</para>
         </solution>
       </exercise>
-      <section>
+      <section id="sect-00002">
         <title>Are you ready for more?</title>
-        <exercise class="RFM1">
-          <problem>
+        <exercise class="RFM1" id="exer-00002">
+          <problem id="prob-00002">
             <title>Extending Your Thinking</title>
-            <para>Here is another way to derive the quadratic formula by <term class="glossary-tooltip">completing the square</term>.</para>
-            <para>First, divide each side of the equation \(ax^2+bx+c=0\) by \(a\) to get \(x^2+\frac{b}{a}x+\frac{c}{a}=0\).</para>
-            <para>Then, complete the square for \(x^2+\frac{b}{a}x+\frac{c}{a}=0\).</para>
-            <para>In problems 1 – 10, briefly explain what happens in each step by answering the question. Use the "^" symbol to enter an exponent.</para>
-            <para>Original equation \(x^2+\frac{b}{a}x+\frac{c}{a}=0\)</para>
-            <para>Step 1 What constant should be subtracted from both sides?</para>
+            <para id="para-00028">Here is another way to derive the quadratic formula by <term class="glossary-tooltip" id="term-00003">completing the square</term>.</para>
+            <para id="para-00029">First, divide each side of the equation \(ax^2+bx+c=0\) by \(a\) to get \(x^2+\frac{b}{a}x+\frac{c}{a}=0\).</para>
+            <para id="para-00030">Then, complete the square for \(x^2+\frac{b}{a}x+\frac{c}{a}=0\).</para>
+            <para id="para-00031">In problems 1 – 10, briefly explain what happens in each step by answering the question. Use the "^" symbol to enter an exponent.</para>
+            <para id="para-00032">Original equation \(x^2+\frac{b}{a}x+\frac{c}{a}=0\)</para>
+            <para id="para-00033">Step 1 What constant should be subtracted from both sides?</para>
           </problem>
-          <solution>
-            <para>Enter the constant.</para>
-            <para>Compare your answer:</para>
-            <para>\(-\frac{c}{a}\)</para>
-            <para>Now the equation looks like</para>
-            <para>\(x^2+\frac{b}{a}x= -\frac{c}{a}\).</para>
+          <solution id="sol-00002">
+            <para id="para-00034">Enter the constant.</para>
+            <para id="para-00035">Compare your answer:</para>
+            <para id="para-00036">\(-\frac{c}{a}\)</para>
+            <para id="para-00037">Now the equation looks like</para>
+            <para id="para-00038">\(x^2+\frac{b}{a}x= -\frac{c}{a}\).</para>
           </solution>
         </exercise>
         <!--End interaction-->
-        <exercise class="RFM1">
-          <problem>
-            <para>Step 2 What constant do we need to add to both sides to complete the square?</para>
+        <exercise class="RFM1" id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00039">Step 2 What constant do we need to add to both sides to complete the square?</para>
           </problem>
-          <solution>
-            <para>Enter the constant.</para>
-            <para>Compare your answer:</para>
-            <para>\((\frac{b}{2a})^2\)</para>
-            <para>To complete the square, we add it to both sides. Now the equation looks like</para>
-            <para>\(x^2+(\frac{b}{2a})x+(\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
-            <para>Notice that the denominators are different on the left side of the equation (for the second and third terms). In order to form a common denominator of \(2a\), we must multiply the middle term by a factor of \frac{2}{2}.</para>
-            <para>\(x^2+\frac{2}{2} (\frac{b}{a})x+(\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
-            <para>Regrouping the factors in the middle term differently yields</para>
-            <para>\(x^2+2(\frac{b}{2a})x+ (\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
+          <solution id="sol-00003">
+            <para id="para-00040">Enter the constant.</para>
+            <para id="para-00041">Compare your answer:</para>
+            <para id="para-00042">\((\frac{b}{2a})^2\)</para>
+            <para id="para-00043">To complete the square, we add it to both sides. Now the equation looks like</para>
+            <para id="para-00044">\(x^2+(\frac{b}{2a})x+(\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
+            <para id="para-00045">Notice that the denominators are different on the left side of the equation (for the second and third terms). In order to form a common denominator of \(2a\), we must multiply the middle term by a factor of \frac{2}{2}.</para>
+            <para id="para-00046">\(x^2+\frac{2}{2} (\frac{b}{a})x+(\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
+            <para id="para-00047">Regrouping the factors in the middle term differently yields</para>
+            <para id="para-00048">\(x^2+2(\frac{b}{2a})x+ (\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
           </solution>
         </exercise>
         <!--End interaction-->
-        <exercise class="RFM1">
-          <problem>
-            <para>Step 3 Now we can complete the square. What is the binomial that is squared on the left side?</para>
+        <exercise class="RFM1" id="exer-00004">
+          <problem id="prob-00004">
+            <para id="para-00049">Step 3 Now we can complete the square. What is the binomial that is squared on the left side?</para>
           </problem>
-          <solution>
-            <para>Enter the binomial.</para>
-            <para>Compare your answer:</para>
-            <para>\(x+\frac{b}{2a}\)</para>
-            <para>Now the equation looks like \((x+\frac{b}{2a})^2= -\frac{c}{a}+\frac{b^2}{4a^2}\).</para>
+          <solution id="sol-00004">
+            <para id="para-00050">Enter the binomial.</para>
+            <para id="para-00051">Compare your answer:</para>
+            <para id="para-00052">\(x+\frac{b}{2a}\)</para>
+            <para id="para-00053">Now the equation looks like \((x+\frac{b}{2a})^2= -\frac{c}{a}+\frac{b^2}{4a^2}\).</para>
           </solution>
         </exercise>
         <!--End interaction-->
-        <exercise class="RFM1">
-          <problem>
-            <para>Step 4 Next, we add the fractions on the right side of the equation. What will the common denominator be?</para>
+        <exercise class="RFM1" id="exer-00005">
+          <problem id="prob-00005">
+            <para id="para-00054">Step 4 Next, we add the fractions on the right side of the equation. What will the common denominator be?</para>
           </problem>
-          <solution>
-            <para>Enter the common denominator.</para>
-            <para>Compare your answer:</para>
-            <para>The common denominator will be \(4a^2\).</para>
-            <para>Now the equation looks like \((x+\frac{b}{2a})^2= -\frac{4ac}{4a^2}+\frac{b^2}{4a^2}\).</para>
+          <solution id="sol-00005">
+            <para id="para-00055">Enter the common denominator.</para>
+            <para id="para-00056">Compare your answer:</para>
+            <para id="para-00057">The common denominator will be \(4a^2\).</para>
+            <para id="para-00058">Now the equation looks like \((x+\frac{b}{2a})^2= -\frac{4ac}{4a^2}+\frac{b^2}{4a^2}\).</para>
           </solution>
         </exercise>
         <!--End interaction-->
-        <exercise class="RFM1">
-          <problem>
-            <para>Step 5 Once the fractions on the right side of the equation are added together, what will the numerator of that new fraction be?</para>
+        <exercise class="RFM1" id="exer-00006">
+          <problem id="prob-00006">
+            <para id="para-00059">Step 5 Once the fractions on the right side of the equation are added together, what will the numerator of that new fraction be?</para>
           </problem>
-          <solution>
-            <para>Enter the numerator.</para>
-            <para>Compare your answer:</para>
-            <para>\(b^2-4ac\)</para>
-            <para>Now the equation looks like \((x+\frac{b}{2a})^2=\frac{b^2-4ac}{4a^2}\).</para>
+          <solution id="sol-00006">
+            <para id="para-00060">Enter the numerator.</para>
+            <para id="para-00061">Compare your answer:</para>
+            <para id="para-00062">\(b^2-4ac\)</para>
+            <para id="para-00063">Now the equation looks like \((x+\frac{b}{2a})^2=\frac{b^2-4ac}{4a^2}\).</para>
           </solution>
         </exercise>
         <!--End interaction-->
-        <exercise class="RFM1">
-          <problem>
-            <para>Step 6 What is the next step necessary to isolate \(x\) on the left side?</para>
+        <exercise class="RFM1" id="exer-00007">
+          <problem id="prob-00007">
+            <para id="para-00064">Step 6 What is the next step necessary to isolate \(x\) on the left side?</para>
           </problem>
-          <solution>
-            <para>Enter the next step.</para>
-            <para>Compare your answer:</para>
-            <para>Take the square root of both sides.</para>
-            <para>Remember to put the \(\pm\) in front of the radical! Now the equation looks like \(x+\frac{b}{2a}= \pm \sqrt{\frac{b^2-4ac}{4a^2}}\).</para>
+          <solution id="sol-00007">
+            <para id="para-00065">Enter the next step.</para>
+            <para id="para-00066">Compare your answer:</para>
+            <para id="para-00067">Take the square root of both sides.</para>
+            <para id="para-00068">Remember to put the \(\pm\) in front of the radical! Now the equation looks like \(x+\frac{b}{2a}= \pm \sqrt{\frac{b^2-4ac}{4a^2}}\).</para>
           </solution>
         </exercise>
         <!--End interaction-->
-        <exercise class="RFM1">
-          <problem>
-            <para>Step 7 How can the square root be simplified?</para>
+        <exercise class="RFM1" id="exer-00008">
+          <problem id="prob-00008">
+            <para id="para-00069">Step 7 How can the square root be simplified?</para>
           </problem>
-          <solution>
-            <para>Enter your explanation.</para>
-            <para>Compare your answer:</para>
-            <para>The square root of a fraction is the square root of the numerator divided by the square root of the denominator.</para>
-            <para>\(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{\sqrt{4a^2}}\)</para>
+          <solution id="sol-00008">
+            <para id="para-00070">Enter your explanation.</para>
+            <para id="para-00071">Compare your answer:</para>
+            <para id="para-00072">The square root of a fraction is the square root of the numerator divided by the square root of the denominator.</para>
+            <para id="para-00073">\(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{\sqrt{4a^2}}\)</para>
           </solution>
         </exercise>
         <!--End interaction-->
-        <exercise class="RFM1">
-          <problem>
-            <para>Step 8 What is the denominator of the fraction on the right side after simplification?</para>
+        <exercise class="RFM1" id="exer-00009">
+          <problem id="prob-00009">
+            <para id="para-00074">Step 8 What is the denominator of the fraction on the right side after simplification?</para>
           </problem>
-          <solution>
-            <para>Enter the denominator.</para>
-            <para>Compare your answer:</para>
-            <para>\(2a\)</para>
-            <para>Now the equation looks like \(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{2a}\).</para>
+          <solution id="sol-00009">
+            <para id="para-00075">Enter the denominator.</para>
+            <para id="para-00076">Compare your answer:</para>
+            <para id="para-00077">\(2a\)</para>
+            <para id="para-00078">Now the equation looks like \(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{2a}\).</para>
           </solution>
         </exercise>
         <!--End interaction-->
-        <exercise class="RFM1">
-          <problem>
-            <para>Step 9 What is the next step I need to take to isolate \(x\) on the left side of the equation?</para>
+        <exercise class="RFM1" id="exer-00010">
+          <problem id="prob-00010">
+            <para id="para-00079">Step 9 What is the next step I need to take to isolate \(x\) on the left side of the equation?</para>
           </problem>
-          <solution>
-            <para>Enter the next step.</para>
-            <para>Compare your answer:</para>
-            <para>Subtract \(\frac{b}{2a}\) from both sides.</para>
-            <para>Now the equation looks like \(x=-\frac b{2a} \pm\frac{\sqrt{b^2-4ac}}{2a}\).</para>
+          <solution id="sol-00010">
+            <para id="para-00080">Enter the next step.</para>
+            <para id="para-00081">Compare your answer:</para>
+            <para id="para-00082">Subtract \(\frac{b}{2a}\) from both sides.</para>
+            <para id="para-00083">Now the equation looks like \(x=-\frac b{2a} \pm\frac{\sqrt{b^2-4ac}}{2a}\).</para>
           </solution>
         </exercise>
         <!--End interaction-->
-        <exercise class="RFM1">
-          <problem>
-            <para><emphasis>Step 10</emphasis> - What do you notice about the denominator of both fractions on the right side?</para>
+        <exercise class="RFM1" id="exer-00011">
+          <problem id="prob-00011">
+            <para id="para-00084"><emphasis>Step 10</emphasis> - What do you notice about the denominator of both fractions on the right side?</para>
           </problem>
-          <solution>
-            <para>Enter your observation.</para>
-            <para>Compare your answer:</para>
-            <para>They are the same.</para>
-            <para>Add the fractions, and we come to the result: the quadratic equation, \(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\).</para>
+          <solution id="sol-00011">
+            <para id="para-00085">Enter your observation.</para>
+            <para id="para-00086">Compare your answer:</para>
+            <para id="para-00087">They are the same.</para>
+            <para id="para-00088">Add the fractions, and we come to the result: the quadratic equation, \(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\).</para>
           </solution>
         </exercise>
       </section>
     </section>
     <!--End interaction-->
-    <section>
+    <section id="sect-00003">
       <title>Video: Deriving the Quadratic Formula</title>
-      <para>Watch the following video to learn more about deriving the quadratic formula.</para>
+      <para id="para-00089">Watch the following video to learn more about deriving the quadratic formula.</para>
       <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/ea0b4447ec781db56cae7dec10ddfe3cace6df40" />
+        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/ea0b4447ec781db56cae7dec10ddfe3cace6df40"/>
       </media>
     </section>
-    <note class="self-check"><para>Looking at the steps of deriving the quadratic formula, which step should follow the one below?</para>
-  <para>\((x+\frac{b}{2a})^2=\frac{b^2-4ac}{4a^2}\)</para></note>
-    <section>
+    <note class="self-check" id="note-00001"><para id="para-00090">Looking at the steps of deriving the quadratic formula, which step should follow the one below?</para>
+  <para id="para-00091">\((x+\frac{b}{2a})^2=\frac{b^2-4ac}{4a^2}\)</para></note>
+    <section id="sect-00004">
       <title>Additional Resources</title>
-      <section>
+      <section id="sect-00005">
         <title>A General Way to Derive the Quadratic Formula</title>
-        <para>Here is another way to look at how to derive the <term class="glossary-tooltip">quadratic formula</term>:</para>
-        <para>We can derive the quadratic formula by <term class="glossary-tooltip">completing the square</term>. We will assume that the leading coefficient is positive; if it is negative, we can multiply the equation by −1 and obtain a positive \(a\). Given \(ax^2+bx+c=0\), \(a \neq 0\), we will complete the square as follows:</para>
-        <para><emphasis>Step 1</emphasis> - First, move the constant term to the right side of the equal sign: \(ax^2+bx= -c\)</para>
-        <para><emphasis>Step 2</emphasis> - As we want the leading coefficient to equal 1, divide through by \(a\): \(x^2+\frac{b}{a}x= -\frac{c}{a}\)</para>
-        <para><emphasis>Step 3</emphasis> - Then, find \(\frac{1}{2}\) of the middle term, and add \((\frac{1}{2} \cdot \frac{b}{a})^2=\frac{b^2}{4a^2}\) to both sides of the equal sign: \(x^2+\frac{b}{a}x+\frac{b^2}{4a^2}=\frac{b^2}{4a^2}−\frac{c}{a}\)</para>
-        <para><emphasis>Step 4</emphasis> - Next, write the left side as a <term class="glossary-tooltip">perfect square</term>. Find the common denominator of the right side and write it as a single fraction: \((x+\frac{b}{2a})^2=\frac{b^2−4ac}{4a^2}\)</para>
-        <para><emphasis>Step 5</emphasis> - Now, use the square root property, which gives:</para>
-        <para>\(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\)</para>
-        <para>\(x+\frac b{2a}=\frac{\pm\sqrt{b^2-4ac}}{2a}\)</para>
-        <para><emphasis>Step 6</emphasis> - Finally, add \(-\frac{b}{2a}\) to both sides of the equation and combine the terms on the right side. Thus:</para>
-        <para>\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\)</para>
-        <note class="try">
+        <para id="para-00092">Here is another way to look at how to derive the <term class="glossary-tooltip" id="term-00004">quadratic formula</term>:</para>
+        <para id="para-00093">We can derive the quadratic formula by <term class="glossary-tooltip" id="term-00005">completing the square</term>. We will assume that the leading coefficient is positive; if it is negative, we can multiply the equation by −1 and obtain a positive \(a\). Given \(ax^2+bx+c=0\), \(a \neq 0\), we will complete the square as follows:</para>
+        <para id="para-00094"><emphasis>Step 1</emphasis> - First, move the constant term to the right side of the equal sign: \(ax^2+bx= -c\)</para>
+        <para id="para-00095"><emphasis>Step 2</emphasis> - As we want the leading coefficient to equal 1, divide through by \(a\): \(x^2+\frac{b}{a}x= -\frac{c}{a}\)</para>
+        <para id="para-00096"><emphasis>Step 3</emphasis> - Then, find \(\frac{1}{2}\) of the middle term, and add \((\frac{1}{2} \cdot \frac{b}{a})^2=\frac{b^2}{4a^2}\) to both sides of the equal sign: \(x^2+\frac{b}{a}x+\frac{b^2}{4a^2}=\frac{b^2}{4a^2}−\frac{c}{a}\)</para>
+        <para id="para-00097"><emphasis>Step 4</emphasis> - Next, write the left side as a <term class="glossary-tooltip" id="term-00006">perfect square</term>. Find the common denominator of the right side and write it as a single fraction: \((x+\frac{b}{2a})^2=\frac{b^2−4ac}{4a^2}\)</para>
+        <para id="para-00098"><emphasis>Step 5</emphasis> - Now, use the square root property, which gives:</para>
+        <para id="para-00099">\(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\)</para>
+        <para id="para-00100">\(x+\frac b{2a}=\frac{\pm\sqrt{b^2-4ac}}{2a}\)</para>
+        <para id="para-00101"><emphasis>Step 6</emphasis> - Finally, add \(-\frac{b}{2a}\) to both sides of the equation and combine the terms on the right side. Thus:</para>
+        <para id="para-00102">\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\)</para>
+        <note class="try" id="note-00002">
           <title>Try It: A General Way to Derive the Quadratic Formula</title>
-          <exercise>
-            <problem>
-              <para>Using the general way to derive the quadratic formula, find the step after</para>
-              <para>\(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\).</para>
-              <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          <exercise id="exer-00012">
+            <problem id="prob-00012">
+              <para id="para-00103">Using the general way to derive the quadratic formula, find the step after</para>
+              <para id="para-00104">\(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\).</para>
+              <para id="para-00105">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
             </problem>
-            <solution>
-              <para>Here is how to find the next step:</para>
-              <para>When deriving the quadratic formula, the object is to get the \(x\) alone.</para>
-              <para>After \(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\), the \(\frac{b}{2a}\) must be subtracted from each side. Then \(x=-\frac b{2a}\pm\sqrt{\frac{b^2-4ac}{4a^2}}\) can be simplified.</para>
+            <solution id="sol-00012">
+              <para id="para-00106">Here is how to find the next step:</para>
+              <para id="para-00107">When deriving the quadratic formula, the object is to get the \(x\) alone.</para>
+              <para id="para-00108">After \(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\), the \(\frac{b}{2a}\) must be subtracted from each side. Then \(x=-\frac b{2a}\pm\sqrt{\frac{b^2-4ac}{4a^2}}\) can be simplified.</para>
             </solution>
           </exercise>
         </note>

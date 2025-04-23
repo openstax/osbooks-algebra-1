@@ -6,24 +6,23 @@
     <md:uuid>53c29147-8ca9-47dd-91f9-c08443bff9c5</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>With a partner, you will take turns to match the <link
-          url="https://k12.openstax.org/contents/raise/resources/9f98b8afb537f419fd418375a1084787e0af7f30">graphs
+      <para id="para-00001">With a partner, you will take turns to match the <link url="https://k12.openstax.org/contents/raise/resources/9f98b8afb537f419fd418375a1084787e0af7f30">graphs
         of residuals to the scatter plots that display linear models</link>. The scatter plots and
         their lines of best fit are located on cards A - F. The graphs of the residuals are located
         on cards G - L.</para>
-      <para>Matching Activity</para>
+      <para id="para-00002">Matching Activity</para>
       <!--Text
       Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Match the scatter plots and given linear models to the graph of the residuals.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">Match the scatter plots and given linear models to the graph of the residuals.</para>
 
         </problem>
-        <solution>
-          <para>Check your answer:</para>
-          <list>
+        <solution id="sol-00001">
+          <para id="para-00004">Check your answer:</para>
+          <list id="list-00001">
             <item>A matches with K</item>
             <item>B matches with G</item>
             <item>C matches with L</item>
@@ -35,32 +34,32 @@
       </exercise>
       <!--Text
       Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Turn over the scatter plots so that only the residuals are visible. Based on the
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00005">Turn over the scatter plots so that only the residuals are visible. Based on the
             residuals, which line would produce the most accurate estimates? Which line fits its
             data worst?</para>
 
         </problem>
-        <solution>
-          <para>Compare your answers:</para>
-          <para>B fits its data the best. C or E fits its data the worst.</para>
+        <solution id="sol-00002">
+          <para id="para-00006">Compare your answers:</para>
+          <para id="para-00007">B fits its data the best. C or E fits its data the worst.</para>
         </solution>
       </exercise>
       <!--Interaction
       End -->
-      <note>
+      <note id="note-00001">
         <title>What Do Residual Plots Tell Us?</title>
-        <para>Residuals tell us how close to accurate
+        <para id="para-00008">Residuals tell us how close to accurate
         a line of best fit really is.</para>
-        <para>Ideally, the residual from a line of best fit will
+        <para id="para-00009">Ideally, the residual from a line of best fit will
         be scattered randomly above and below the horizontal line \(y = 0\) on the residual plot.
         The residual plot would have points above and below the horizontal line \(y = 0\). This
         shows that the relationship between the two variables in the data set can be approximated by
         a linear model.</para>
-        <para>When the residuals are equal to 0, this indicates that the line
+        <para id="para-00010">When the residuals are equal to 0, this indicates that the line
         of best fit goes through those points.</para>
-        <para>A curved pattern shows that a nonlinear
+        <para id="para-00011">A curved pattern shows that a nonlinear
         model would be better to describe the relationships between points.</para>
       </note>
     </section>
@@ -72,116 +71,116 @@
       have matching "data-wait-for-event", which should also match the "data-fire-event" for the
       button. Note in this sample, they are all RFM1-->
 
-      <section>
+      <section id="sect-00002">
         <title>Are you ready for more?</title>
-        <section>
+        <section id="sect-00003">
           <title>Extending Your Thinking</title>
-          <para>Use the following information to answer questions 1 - 2.</para>
-          <para>
-            <quote>Tyler estimates a line of best fit for some linear data about the mass, in grams,
+          <para id="para-00012">Use the following information to answer questions 1 - 2.</para>
+          <para id="para-00013">
+            <quote id="quote-00001">Tyler estimates a line of best fit for some linear data about the mass, in grams,
             of different numbers of apples. Here is the graph of the residuals.</quote>
-            <quote>
+            <quote id="quote-00002">
               <media alt="Graph of residuals.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_05_06_01.svg" />
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_05_06_01.svg"/>
               </media>
             </quote>
           </para>
-      <exercise class="RFM1">
-        <problem>
-          <para>What does Tyler’s line of best fit look like according to the graph of the
+      <exercise class="RFM1" id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00014">What does Tyler’s line of best fit look like according to the graph of the
             residuals?</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>The data are between 10 and 30 grams above the line of best fit.</para>
+        <solution id="sol-00003">
+          <para id="para-00015">Compare your answer:</para>
+          <para id="para-00016">The data are between 10 and 30 grams above the line of best fit.</para>
         </solution>
       </exercise>
-      <exercise class="RFM1">
-        <problem>
-          <para> How well does Tyler’s line of best fit model the data? Be prepared to show your
+      <exercise class="RFM1" id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00017"> How well does Tyler’s line of best fit model the data? Be prepared to show your
             reasoning.</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>Tyler’s line does not model the data well because all of the residuals are positive.</para>
+        <solution id="sol-00004">
+          <para id="para-00018">Compare your answer:</para>
+          <para id="para-00019">Tyler’s line does not model the data well because all of the residuals are positive.</para>
         </solution>
       </exercise>
 
-      <para>Use the following information to answer questions 3 and 4.</para>
-          <para>
-            <quote>Lin estimates a line of best fit for the same data. The graph shows the
+      <para id="para-00020">Use the following information to answer questions 3 and 4.</para>
+          <para id="para-00021">
+            <quote id="quote-00003">Lin estimates a line of best fit for the same data. The graph shows the
             residuals.</quote>
-            <quote>
+            <quote id="quote-00004">
               <media alt="Graph of residuals.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_05_06_02.svg" />
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_05_06_02.svg"/>
               </media>
             </quote>
           </para>
-      <exercise class="RFM1">
-        <problem>
-          <para>What does Lin’s line of best fit look like in comparison to the data?</para>
+      <exercise class="RFM1" id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00022">What does Lin’s line of best fit look like in comparison to the data?</para>
         </problem>
-        <solution>
-          <para>Enter your answers here:</para>
-          <para>Compare your answer:</para>
-          <para>The line is below the lower half of the data and above the second half of the data.</para>
+        <solution id="sol-00005">
+          <para id="para-00023">Enter your answers here:</para>
+          <para id="para-00024">Compare your answer:</para>
+          <para id="para-00025">The line is below the lower half of the data and above the second half of the data.</para>
         </solution>
       </exercise>
-      <exercise class="RFM1">
-        <problem>
-          <para>How well does Lin’s line of best fit model the data? Be prepared to show your
+      <exercise class="RFM1" id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00026">How well does Lin’s line of best fit model the data? Be prepared to show your
             reasoning.</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>It is not a good fit because the first several residuals are all positive and the
+        <solution id="sol-00006">
+          <para id="para-00027">Compare your answer:</para>
+          <para id="para-00028">It is not a good fit because the first several residuals are all positive and the
             last several residuals are negative. They should not have a pattern if the line of best
             fit is good.</para>
         </solution>
       </exercise>
       
-      <para>Use the following information to answer questions 5 - 6.</para>
-          <para>
-            <quote>Kiran also estimates a line of best fit for the same data. The graph shows the
+      <para id="para-00029">Use the following information to answer questions 5 - 6.</para>
+          <para id="para-00030">
+            <quote id="quote-00005">Kiran also estimates a line of best fit for the same data. The graph shows the
             residuals.</quote>
-            <quote>
+            <quote id="quote-00006">
               <media alt="Graph of residuals.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_05_06_03.svg" />
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_05_06_03.svg"/>
               </media>
             </quote>
           </para>
-      <exercise class="RFM1">
-        <problem>
-          <para>What does Kiran’s line of best fit look like in comparison to the data?</para>
+      <exercise class="RFM1" id="exer-00007">
+        <problem id="prob-00007">
+          <para id="para-00031">What does Kiran’s line of best fit look like in comparison to the data?</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>Your answer may vary, but here is a sample. Kiran’s line appears to go through the
+        <solution id="sol-00007">
+          <para id="para-00032">Compare your answer:</para>
+          <para id="para-00033">Your answer may vary, but here is a sample. Kiran’s line appears to go through the
             middle of the data with some points above and some points below the line.</para>
         </solution>
       </exercise>
 
-      <exercise class="RFM1">
-        <problem>
-          <para>How well does Kiran’s line of best fit model the data? Be prepared to show your
+      <exercise class="RFM1" id="exer-00008">
+        <problem id="prob-00008">
+          <para id="para-00034">How well does Kiran’s line of best fit model the data? Be prepared to show your
             reasoning.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>Kiran’s line of best fit is a good one because it appears to pass through the middle
+        <solution id="sol-00008">
+          <para id="para-00035">Compare your answer:</para>
+          <para id="para-00036">Kiran’s line of best fit is a good one because it appears to pass through the middle
             of the data.</para>
         </solution>
       </exercise>
-      <exercise class="RFM1">
-        <problem>
-          <para>Who has the best estimate of the line of best fit: Tyler, Lin, or Kiran? Be prepared
+      <exercise class="RFM1" id="exer-00009">
+        <problem id="prob-00009">
+          <para id="para-00037">Who has the best estimate of the line of best fit: Tyler, Lin, or Kiran? Be prepared
             to show your reasoning.</para>
         </problem>
-        <solution>
-          <para>Compare your answer:</para>
-          <para>Kiran’s line of best fit is the best because the graph of the residuals lets me know
+        <solution id="sol-00009">
+          <para id="para-00038">Compare your answer:</para>
+          <para id="para-00039">Kiran’s line of best fit is the best because the graph of the residuals lets me know
             that some points are above the line of best fit and some are below. In addition, two of
             the residuals are close to 0, so that indicates that the line passes through or near
             those 2 points. Tylers line of best fit is not a good one because it is above all the
@@ -194,77 +193,74 @@
     </section>
     </section>
 
-    <section>
-    <note class="self-check">
-      <para>Which residual plot shows the most accurate line of best fit
+    <section id="sect-00004">
+    <note class="self-check" id="note-00002">
+      <para id="para-00040">Which residual plot shows the most accurate line of best fit
       for a scatter plot?</para>
     </note>
     </section>
 
-    <section>
+    <section id="sect-00005">
       <title>Additional Resources</title>
 
-      <section>
+      <section id="sect-00006">
         <title>The Meaning of Residuals</title>
-        <para>Suppose that you have a scatter plot and that you have drawn the line of best fit on
+        <para id="para-00041">Suppose that you have a scatter plot and that you have drawn the line of best fit on
           your plot. Remember that the residual for a point in the scatter plot is the vertical
           distance of that point from the line of best fit. In the previous lesson, you looked at a
           scatter plot showing how fuel efficiency was related to curb weight for five compact cars.
           The scatter plot and line of best fit are shown below.</para>
-        <para>
-          <media
-            alt="A SCATTER PLOT THAT SHOWS CURB WEIGHT IN HUNDREDS OF POUNDS ON THE X-AXIS AND FUEL EFFICIENCY IN MILES PER GALLON ON THE Y-AXIS. A LINE OF BEST FIT IS DRAWN. FOUR POINTS ARE ABOVE THE LINE AND ONE POINT IS BELOW.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_05_08_01.jpg" />
+        <para id="para-00042">
+          <media alt="A SCATTER PLOT THAT SHOWS CURB WEIGHT IN HUNDREDS OF POUNDS ON THE X-AXIS AND FUEL EFFICIENCY IN MILES PER GALLON ON THE Y-AXIS. A LINE OF BEST FIT IS DRAWN. FOUR POINTS ARE ABOVE THE LINE AND ONE POINT IS BELOW.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_05_08_01.jpg"/>
           </media>
 
         </para>
-        <para>Consider the following questions:</para>
-        <list class="os-raise-noindent" list-type="enumerated">
+        <para id="para-00043">Consider the following questions:</para>
+        <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
           <item>What kind of residual does Point A have? 
-            <list bullet-style="none"><item>Point A
+            <list bullet-style="none" id="list-00003"><item>Point A
             has a large positive residual.</item>
           </list>
           </item>
-          <item>What kind of residual does Point B have? <list bullet-style="none"><item>Point B
+          <item>What kind of residual does Point B have? <list bullet-style="none" id="list-00004"><item>Point B
             has a small positive residual.</item></list>
           </item>
-          <item>What kind of residual does Point C have? <list bullet-style="none"><item>Point C
+          <item>What kind of residual does Point C have? <list bullet-style="none" id="list-00005"><item>Point C
             has a very large negative residual.</item></list>
           </item>
         </list>
-          <media
-            alt="A RESIDUAL PLOT THAT SHOWS CURB WEIGHT IN HUNDREDS OF POUNDS ON THE X-AXIS AND RESIDUAL ON THE Y-AXIS. FOUR POINTS ARE ABOVE THE HORIZONTAL AXIS AND ONE POINT IS BELOW. ">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_05_08_02.jpg" />
+          <media alt="A RESIDUAL PLOT THAT SHOWS CURB WEIGHT IN HUNDREDS OF POUNDS ON THE X-AXIS AND RESIDUAL ON THE Y-AXIS. FOUR POINTS ARE ABOVE THE HORIZONTAL AXIS AND ONE POINT IS BELOW. ">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_05_08_02.jpg"/>
           </media>
 
 
-        <note class="try look-at-me">
+        <note class="try look-at-me" id="note-00003">
         <title>Try It: The Meaning of Residuals</title>
-        <para>Suppose you are given a scatter plot and a line of best fit that looks like this:</para>
-          <media
-            alt="A SCATTER PLOT WITH A LINE OF BEST FIT DRAWN. FROM LEFT TO RIGHT, POINTS ARE BELOW THE LINE, ABOVE THE LINE, AND THEN BELOW THE LINE.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_05_08_03.jpg" />
+        <para id="para-00044">Suppose you are given a scatter plot and a line of best fit that looks like this:</para>
+          <media alt="A SCATTER PLOT WITH A LINE OF BEST FIT DRAWN. FROM LEFT TO RIGHT, POINTS ARE BELOW THE LINE, ABOVE THE LINE, AND THEN BELOW THE LINE.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_05_08_03.jpg"/>
           </media>
 
 
-        <exercise>
-          <problem>
-            <para>Describe what you think the residual plot would look like.</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+        <exercise id="exer-00010">
+          <problem id="prob-00010">
+            <para id="para-00045">Describe what you think the residual plot would look like.</para>
+            <para id="para-00046">Write down your answer, then select the <emphasis>solution</emphasis> button to
               compare your work. </para>
           </problem>
-          <solution>
-            <para>Compare your answer:</para>
-            <para>Here is how to sketch the residual plot:</para>
-            <para>Moving from left to right, the points initially tend to be below the line of best
+          <solution id="sol-00010">
+            <para id="para-00047">Compare your answer:</para>
+            <para id="para-00048">Here is how to sketch the residual plot:</para>
+            <para id="para-00049">Moving from left to right, the points initially tend to be below the line of best
               fit, then move above it, and then below it. The residuals are negative, then positive,
               and then negative again. This means that the points in the residual plot will be below
               the horizontal axis, then above it, and then below it again.</para>
-            <para>The residual plot has an arch shape like this:</para>
-            <para>
-              <media
-                alt="A RESIDUAL PLOT THAT SHOWS FROM LEFT TO RIGHT POINTS BELOW THE HORIZONTAL AXIS, ABOVE THE HORIZONTAL AXIS, AND THEN BELOW THE HORIZONTAL AXIS.&#10;">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_03_05_08_04.jpg" />
+            <para id="para-00050">The residual plot has an arch shape like this:</para>
+            <para id="para-00051">
+              <media alt="A RESIDUAL PLOT THAT SHOWS FROM LEFT TO RIGHT POINTS BELOW THE HORIZONTAL AXIS, ABOVE THE HORIZONTAL AXIS, AND THEN BELOW THE HORIZONTAL AXIS.
+">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_03_05_08_04.jpg"/>
               </media>
             </para>
           </solution>

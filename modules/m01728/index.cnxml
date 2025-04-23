@@ -6,8 +6,8 @@
     <md:uuid>669cca44-cb71-4884-bb6b-c8243b126f19</md:uuid>
   </metadata>
   <content>
-    <note class="mini-lesson-question"><para>Which statement best describes the following tables?</para>
-      <table class="os-raise-skinnytable">
+    <note class="mini-lesson-question" id="note-00001"><para id="para-00001">Which statement best describes the following tables?</para>
+      <table class="os-raise-skinnytable" id="table-00001">
         <tgroup cols="2">
           <tbody>
             <row>
@@ -38,7 +38,7 @@
         </tgroup>
         <caption>Table A</caption>
       </table>
-      <table class="os-raise-skinnytable">
+      <table class="os-raise-skinnytable" id="table-00002">
         <tgroup cols="2">
           <tbody>
             <row>
@@ -70,10 +70,10 @@
         <caption>Table B</caption>
       </table>
     </note>
-    <section>
+    <section id="sect-00001">
       <title>Compare Linear and Exponential Functions</title>
-      <para>Look at the patterns in the two tables.</para>
-      <table class="os-raise-skinnytable">
+      <para id="para-00002">Look at the patterns in the two tables.</para>
+      <table class="os-raise-skinnytable" id="table-00003">
         <tgroup cols="2">
           <tbody>
             <row>
@@ -103,7 +103,7 @@
           </tbody>
         </tgroup>
       </table>
-      <table class="os-raise-skinnytable">
+      <table class="os-raise-skinnytable" id="table-00004">
         <tgroup cols="2">
           <tbody>
             <row>
@@ -133,20 +133,20 @@
           </tbody>
         </tgroup>
       </table>
-      <para>In each situation, the \(x\)-values are increasing by one. These can also be called consecutive terms.</para>
-      <list>
+      <para id="para-00003">In each situation, the \(x\)-values are increasing by one. These can also be called consecutive terms.</para>
+      <list id="list-00001">
         <item>If the difference in the \(y\)-values of consecutive terms is always the same constant, then the values in the table can be modeled by a linear function. The constant is the slope, or rate of change.</item>
         <item>If the quotient for the \(y\)-values of consecutive terms is always the same constant, then the values in the table can be modeled by an exponential function. The constant is the growth factor. </item>
         <item>It is possible for a table to be a set of values that is neither of these relationships.</item>
       </list>
-      <para>Using this information you can see that in the first table, the difference in consecutive \(y\)-values is the same constant: 8-\(4 = 4\), \(12-8 = 4\), \(16-12 = 4\), \(20 - 16 = 4\). The differences are the same, so the table represents a linear function.</para>
-      <para>In the second table, the quotient of consecutive terms is the same: \(\frac{8}{4} = 2\), \(\frac{16}{8} = 2, \frac{32}{16} = 2, \frac{64}{32} = 2\). The quotient is the same, so the table represents an exponential function.</para>
-      <para>Linear growth happens at a constant rate. The rate of change, or slope, in the first table is 4. The linear function is of the form \(y=mx+b\), where m is the slope.</para>
-      <para>Exponential growth that does not happen at a constant rate. The growth factor is constant, but the rate of growth changes as the value of the independent variable, \(x\), changes. The exponential function is of the form \(y=ab^x\), where \(b\) is the growth factor.</para>
-      <note class="try">
+      <para id="para-00004">Using this information you can see that in the first table, the difference in consecutive \(y\)-values is the same constant: 8-\(4 = 4\), \(12-8 = 4\), \(16-12 = 4\), \(20 - 16 = 4\). The differences are the same, so the table represents a linear function.</para>
+      <para id="para-00005">In the second table, the quotient of consecutive terms is the same: \(\frac{8}{4} = 2\), \(\frac{16}{8} = 2, \frac{32}{16} = 2, \frac{64}{32} = 2\). The quotient is the same, so the table represents an exponential function.</para>
+      <para id="para-00006">Linear growth happens at a constant rate. The rate of change, or slope, in the first table is 4. The linear function is of the form \(y=mx+b\), where m is the slope.</para>
+      <para id="para-00007">Exponential growth that does not happen at a constant rate. The growth factor is constant, but the rate of growth changes as the value of the independent variable, \(x\), changes. The exponential function is of the form \(y=ab^x\), where \(b\) is the growth factor.</para>
+      <note class="try" id="note-00002">
         <title>Try It: Compare Linear and Exponential Functions.</title>
-      <para>Look at the patterns in the two tables.</para>
-      <table class="os-raise-skinnytable">
+      <para id="para-00008">Look at the patterns in the two tables.</para>
+      <table class="os-raise-skinnytable" id="table-00005">
           <tgroup cols="2">
             <tbody>
               <row>
@@ -179,7 +179,7 @@
             </tbody>
           </tgroup>
         </table>
-      <table class="os-raise-skinnytable">
+      <table class="os-raise-skinnytable" id="table-00006">
           <tgroup cols="2">
             <tbody>
               <row>
@@ -212,29 +212,29 @@
             </tbody>
           </tgroup>
         </table>
-      <exercise>
-          <problem>
-            <para>Which of the following tables represents linear growth and which represents exponential growth? Be prepared to show your reasoning.</para>
-            <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <para id="para-00009">Which of the following tables represents linear growth and which represents exponential growth? Be prepared to show your reasoning.</para>
+            <para id="para-00010">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
-          <solution>
-            <para>Here is how to determine which table represents linear growth and which represents exponential growth:</para>
-            <para>Check for connections between consecutive terms.</para>
-            <list>
+          <solution id="sol-00001">
+            <para id="para-00011">Here is how to determine which table represents linear growth and which represents exponential growth:</para>
+            <para id="para-00012">Check for connections between consecutive terms.</para>
+            <list id="list-00002">
               <item>In Table A, \(5+10=15\) and \(5 \cdot 3=15\). There seems to be the possibility of either a linear relationship or exponential growth, so you need to check the next set of terms. \(15+10 \neq 45\) but \(15 \cdot 3=45\), so the relationship in Table A is exponential. To be sure, check the rest of the values in the table.</item>
             </list>
-            <list>
+            <list id="list-00003">
               <item>n Table B, \(5+10=15\) and \(5 \cdot 3=15\). There seems to be the possibility of either a linear relationship or exponential growth, so you need to check the next set of terms. \(15+10=25\) but \(15 \cdot 3 \neq 25\), so the relationship in Table B is linear. To be sure, check the rest of the values in the table.</item>
             </list>
           </solution>
         </exercise>
       </note>
-      <section class="check-understanding">
+      <section class="check-understanding" id="sect-00002">
         <title>Check Your Understanding</title>
         <exercise id="_8d6ee2c7-3efc-41b5-9688-87856d5bf689" class="multiple-choice">
-          <problem>
-            <para>Which statement best describes the following tables?</para>
-            <table class="os-raise-skinnytable">
+          <problem id="prob-00002">
+            <para id="para-00013">Which statement best describes the following tables?</para>
+            <table class="os-raise-skinnytable" id="table-00007">
               <tgroup cols="2">
                 <tbody>
                   <row>
@@ -269,7 +269,7 @@
               </tgroup>
               <caption> Table A </caption>
             </table>
-            <table class="os-raise-skinnytable">
+            <table class="os-raise-skinnytable" id="table-00008">
               <tgroup cols="2">
                 <tbody>
                   <row>
@@ -304,23 +304,23 @@
               </tgroup>
               <caption> Table B </caption>
             </table>
-            <para>Multiple Choice:</para>
-            <para>Table A represents an exponential function with a constant growth factor of 3; Table B represents a linear function with a constant difference of 4.</para>
-            <para>Table A represents a linear function with a constant difference of 4; Table B represents an exponential function with a constant growth factor of 3.</para>
-            <para>Table A represents a linear function with a constant growth factor of 3; Table B represents an exponential function with a constant difference of 4.</para>
-            <para>Table A represents an exponential function with a constant difference of 4; Table B represents a linear function with a constant growth factor of 3.</para>
+            <para id="para-00014">Multiple Choice:</para>
+            <para id="para-00015">Table A represents an exponential function with a constant growth factor of 3; Table B represents a linear function with a constant difference of 4.</para>
+            <para id="para-00016">Table A represents a linear function with a constant difference of 4; Table B represents an exponential function with a constant growth factor of 3.</para>
+            <para id="para-00017">Table A represents a linear function with a constant growth factor of 3; Table B represents an exponential function with a constant difference of 4.</para>
+            <para id="para-00018">Table A represents an exponential function with a constant difference of 4; Table B represents a linear function with a constant growth factor of 3.</para>
           </problem>
-          <solution>
-            <para>Try again. Take a moment to think about what you learned in the mini-lesson review.</para>
+          <solution id="sol-00002">
+            <para id="para-00019">Try again. Take a moment to think about what you learned in the mini-lesson review.</para>
           </solution>
         </exercise>
       </section>
-      <section>
+      <section id="sect-00003">
         <title>Videos</title>
-        <para>Watch the following video to learn more about linear and exponential growth.</para>
-        <para><emphasis>Khan Academy: Exponential VS Linear Growth</emphasis></para>
+        <para id="para-00020">Watch the following video to learn more about linear and exponential growth.</para>
+        <para id="para-00021"><emphasis>Khan Academy: Exponential VS Linear Growth</emphasis></para>
         <media alt="Placeholder for Alt Text">
-          <iframe width="660" height="371.4" src="https://www.youtube-nocookie.com/embed/_vlXdx-CqM0;&amp;rel=0" />
+          <iframe width="660" height="371.4" src="https://www.youtube-nocookie.com/embed/_vlXdx-CqM0;&amp;rel=0"/>
         </media>
       </section>
     </section>

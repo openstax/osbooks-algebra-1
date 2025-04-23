@@ -6,23 +6,23 @@
     <md:uuid>9d5ef92d-55b2-4224-b680-dd66219443e7</md:uuid>
   </metadata>
   <content>
-    <section>
+    <section id="sect-00001">
       <title>Activity</title>
-      <para>To make a quilt, a quilter is buying fabric in two colors, light and dark. He needs at
+      <para id="para-00001">To make a quilt, a quilter is buying fabric in two colors, light and dark. He needs at
         least 9.5 yards of fabric in total.</para>
-      <para>The light color costs $9 a yard. The dark color costs $13 a yard. The quilter can spend
+      <para id="para-00002">The light color costs $9 a yard. The dark color costs $13 a yard. The quilter can spend
         up to $110 on fabric.</para>
 
         
           <media alt="Close up of a quilt">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_02_16_03_01.jpg" />
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_02_16_03_01.jpg"/>
           </media>
         
 
 
-      <para>Here are two graphs that represent the two constraints.</para>
+      <para id="para-00003">Here are two graphs that represent the two constraints.</para>
 
-      <table class="unnumbered">
+      <table class="unnumbered" id="table-00001">
         <tgroup cols="2">
           <tbody>
             <row>
@@ -33,14 +33,14 @@
               <entry>
                 
                 <media alt="Inequality graphed on a coordinate plane.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_16_03_02.svg" />
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_16_03_02.svg"/>
                 </media>
               
             </entry>
               <entry>
                 
                   <media alt="Inequality graphed on a coordinate plane.">
-                    <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_16_03_03.svg" />
+                    <image mime-type="image/svg+xml" src="../../media/Algebra-1_02_16_03_03.svg"/>
                   </media>
                 
               </entry>
@@ -51,25 +51,25 @@
 
       <!--Text
       Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Write an inequality to represent the length constraint. Let \(x\) represent the
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00004">Write an inequality to represent the length constraint. Let \(x\) represent the
             yards of light fabric and \(y\) represent the yards of dark fabric.</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer: You answer may vary, but here is a sample.</para>
-          <para>\(x+y\geq9.5\)</para>
+        <solution id="sol-00001">
+          <para id="para-00005">Compare your answer: You answer may vary, but here is a sample.</para>
+          <para id="para-00006">\(x+y\geq9.5\)</para>
         </solution>
       </exercise>
 
         <exercise id="_53488a62-2b6e-4403-a16e-d01348f09e52" class="multiple-choice">
-          <problem>
-            <para>Select <emphasis>three</emphasis> pairs that satisfy the length constraint.</para>
+          <problem id="prob-00002">
+            <para id="para-00007">Select <emphasis>three</emphasis> pairs that satisfy the length constraint.</para>
           </problem>
-          <solution>
+          <solution id="sol-00002">
 
-            <para>Nice try! The correct answers are \((5,5)\), \((7.5,3.5)\), and \((12,10)\).</para>
+            <para id="para-00008">Nice try! The correct answers are \((5,5)\), \((7.5,3.5)\), and \((12,10)\).</para>
           </solution>
         </exercise>
 
@@ -77,24 +77,24 @@
       MULTISELECT -->
       <!--Text
       Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Write an inequality to represent the cost constraint.</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00003">
+          <para id="para-00009">Write an inequality to represent the cost constraint.</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer: Your answer may vary, but here is a sample.</para>
-          <para>\(9x+13y\leq110\)</para>
+        <solution id="sol-00003">
+          <para id="para-00010">Compare your answer: Your answer may vary, but here is a sample.</para>
+          <para id="para-00011">\(9x+13y\leq110\)</para>
         </solution>
       </exercise>
 
         <exercise id="_30eb6fbd-3d3e-4d80-b648-6d59163b5920" class="multiple-choice">
-          <problem>
-            <para>Select <emphasis>three</emphasis> the pairs that satisfy the cost constraint.</para>
+          <problem id="prob-00004">
+            <para id="para-00012">Select <emphasis>three</emphasis> the pairs that satisfy the cost constraint.</para>
           </problem>
-          <solution>
+          <solution id="sol-00004">
 
-            <para>Nice try! The correct answers are \((1,1)\), \((4,5)\), and \((10,1)\).</para>
+            <para id="para-00013">Nice try! The correct answers are \((1,1)\), \((4,5)\), and \((10,1)\).</para>
           </solution>
         </exercise>
 
@@ -102,169 +102,167 @@
       MULTISELECT -->
       <!--Text
       Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Explain why \((2,2)\) satisfies the cost constraint but not the length constraint.</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00005">
+          <para id="para-00014">Explain why \((2,2)\) satisfies the cost constraint but not the length constraint.</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer: Your answer may vary, but here is a sample.</para>
-          <para>2 yards of each color costs $44, which is less than $110, so it satisfies this
+        <solution id="sol-00005">
+          <para id="para-00015">Compare your answer: Your answer may vary, but here is a sample.</para>
+          <para id="para-00016">2 yards of each color costs $44, which is less than $110, so it satisfies this
             constraint. However, this is only 4 yards altogether, which is not at least 9.5 yards.</para>
         </solution>
       </exercise>
       <!--Text
       Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>Find at least one pair of numbers that satisfies both constraints. Be prepared to
+      <exercise id="exer-00004">
+        <problem id="prob-00006">
+          <para id="para-00017">Find at least one pair of numbers that satisfies both constraints. Be prepared to
             explain how you know.</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer: Your answer may vary, but here is a sample.</para>
-          <para>\((10,1)\), \((8,2)\), and (\(6.5,3.5)\) (any point that is in the intersection of
+        <solution id="sol-00006">
+          <para id="para-00018">Compare your answer: Your answer may vary, but here is a sample.</para>
+          <para id="para-00019">\((10,1)\), \((8,2)\), and (\(6.5,3.5)\) (any point that is in the intersection of
             the two inequalities).</para>
         </solution>
       </exercise>
       <!--Text
       Entry Interaction Start -->
-      <exercise>
-        <problem>
-          <para>What does the pair of numbers represent in this situation?</para>
+      <exercise id="exer-00005">
+        <problem id="prob-00007">
+          <para id="para-00020">What does the pair of numbers represent in this situation?</para>
 
         </problem>
-        <solution>
-          <para>Compare your answer: Yoru answer may vary, but here is a sample.</para>
-          <para>\((10,1)\) means 10 yards of light fabric and 1 yard of dark fabric. This is 11
+        <solution id="sol-00007">
+          <para id="para-00021">Compare your answer: Yoru answer may vary, but here is a sample.</para>
+          <para id="para-00022">\((10,1)\) means 10 yards of light fabric and 1 yard of dark fabric. This is 11
             yards of fabric altogether, which is more than 9.5. It costs $103 because
             \(9(10)+1(13)=103\). This is less than the $110 maximum.</para>
         </solution>
       </exercise>
      
-      <exercise>
-        <problem>
-          <para>Write the two inequalities together as a <term class="glossary-tooltip">system of
+      <exercise id="exer-00006">
+        <problem id="prob-00008">
+          <para id="para-00023">Write the two inequalities together as a <term class="glossary-tooltip" id="term-00004">system of
             inequalities</term>.</para>
         </problem>
-        <solution>
+        <solution id="sol-00008">
 
-          <para>Compare your answer: Your answer may vary, but here is a sample.</para>
-          <para>\(\left\{\begin{array}{l}9x+13y\leq110\\x+y\geq9.5\end{array}\right.\)</para>
+          <para id="para-00024">Compare your answer: Your answer may vary, but here is a sample.</para>
+          <para id="para-00025">\(\left\{\begin{array}{l}9x+13y\leq110\\x+y\geq9.5\end{array}\right.\)</para>
         </solution>
       </exercise>
       <!--Interaction
       End -->
     </section>
 
-    <section>
-      <note class="self-check">
-        <para>A singer sold two types of tickets to a performance, seated
+    <section id="sect-00002">
+      <note class="self-check" id="note-00001">
+        <para id="para-00026">A singer sold two types of tickets to a performance, seated
         tickets and standing-room tickets.</para>
-        <list>
+        <list id="list-00001">
           <item>Seated tickets cost $25.</item>
           <item>Standing-room tickets cost $15.</item>
           <item>More than 60 tickets were sold.</item>
           <item>More than $1,200 was made from selling tickets.</item>
         </list>
-        <para>Which of
+        <para id="para-00027">Which of
         the following ticket combinations is possible given the situation described here?</para>
       </note>
     </section>
 
-    <section>
+    <section id="sect-00003">
       <title>Additional Resources</title>
-      <section>
+      <section id="sect-00004">
         <title>Determine Whether an Ordered Pair Is a Solution of a System of Linear Inequalities</title>
-        <para>The definition of a <term class="glossary-tooltip" id="term-00001">system of linear inequalities</term> is very similar to the definition
+        <para id="para-00028">The definition of a <term class="glossary-tooltip" id="term-00001">system of linear inequalities</term> is very similar to the definition
           of a <term class="glossary-tooltip" id="term-00002">system of
           linear equations</term>.</para>
-          <section>
+          <section id="sect-00005">
         <title>System of Linear Inequalities</title>
-        <para>Two or more linear inequalities grouped together form a system of linear inequalities.</para>
-        <para>A system of linear inequalities looks like a system of linear equations, but it has
+        <para id="para-00029">Two or more linear inequalities grouped together form a system of linear inequalities.</para>
+        <para id="para-00030">A system of linear inequalities looks like a system of linear equations, but it has
           inequalities instead of equations. A system of two linear inequalities is shown here.</para>
-        <para>\(\left\{\begin{array}{l}x+4y\geq10\\3x-2y&lt;12\end{array}\right.\)</para>
-        <para>To solve a system of linear inequalities, we will find values of the variables that
+        <para id="para-00031">\(\left\{\begin{array}{l}x+4y\geq10\\3x-2y&lt;12\end{array}\right.\)</para>
+        <para id="para-00032">To solve a system of linear inequalities, we will find values of the variables that
           are solutions to both inequalities. We solve the system by using the graphs of each
           inequality and show the solution as a graph. We will find the region on the plane that
           contains all ordered pairs \((x,y)\) that make both inequalities true.</para>
           </section>
-          <section>
+          <section id="sect-00006">
         <title>Solutions of A System of Linear Inequalities</title>
-        <para>Solutions of a system of linear inequalities are the values of the variables that make
+        <para id="para-00033">Solutions of a system of linear inequalities are the values of the variables that make
           all the inequalities true.</para>
-        <para>The <term class="glossary-tooltip" id="term-00003">solution
+        <para id="para-00034">The <term class="glossary-tooltip" id="term-00003">solution
           of a system of linear inequalities</term> is shown as a shaded region in the \((x, y)\)
           coordinate system that includes all the points whose ordered pairs make the inequalities
           true.</para>
-        <para>To determine if an ordered pair is a solution to a system of two inequalities, we
+        <para id="para-00035">To determine if an ordered pair is a solution to a system of two inequalities, we
           substitute the values of the variables into each inequality. If the ordered pair makes
           both inequalities true, it is a solution to the system.</para>
-        <para>
+        <para id="para-00036">
           <emphasis>Example</emphasis>
        </para>
-        <para>Determine whether the ordered pair is a solution to this system:</para>
-        <para>\(\left\{\begin{array}{l}x+4y\geq10\\3x-2y&lt;12\end{array}\right.\)</para>
-        <para>a.) \((−2,4)\)      b.) \((3,1)\)</para>
-        <para>a.) Is the ordered pair \((−2,4)\) a solution?</para>
+        <para id="para-00037">Determine whether the ordered pair is a solution to this system:</para>
+        <para id="para-00038">\(\left\{\begin{array}{l}x+4y\geq10\\3x-2y&lt;12\end{array}\right.\)</para>
+        <para id="para-00039">a.) \((−2,4)\)      b.) \((3,1)\)</para>
+        <para id="para-00040">a.) Is the ordered pair \((−2,4)\) a solution?</para>
 
           
-            <media
-              alt="We substitute x equal to negative 2 and y equal to 4 into both inequalities. First inequality is x plus 4 times y greater than or equal to 10. So negative 2 plus 4 open parentheses 4 close parenthesis is greater than or equal to 10 or not. 14 is greater than or equal to 10 is true. Second inequality, 3 times x minus 2 times y is less than 12. Three open parentheses negative 2 close parentheses minus two open parentheses 4 close parentheses is less than 12 or not. Negative 14 is less than 12 is true.">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_02_16_05_01.jpg" />
+            <media alt="We substitute x equal to negative 2 and y equal to 4 into both inequalities. First inequality is x plus 4 times y greater than or equal to 10. So negative 2 plus 4 open parentheses 4 close parenthesis is greater than or equal to 10 or not. 14 is greater than or equal to 10 is true. Second inequality, 3 times x minus 2 times y is less than 12. Three open parentheses negative 2 close parentheses minus two open parentheses 4 close parentheses is less than 12 or not. Negative 14 is less than 12 is true.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_02_16_05_01.jpg"/>
             </media>
           
 
-        <para>The ordered pair \((−2,4)\) made both inequalities true. Therefore \((−2,4)\) is a
+        <para id="para-00041">The ordered pair \((−2,4)\) made both inequalities true. Therefore \((−2,4)\) is a
           solution to this system.</para>
-        <para>b.) Is the ordered pair \((3,1)\) a solution?</para>
+        <para id="para-00042">b.) Is the ordered pair \((3,1)\) a solution?</para>
 
           
-            <media
-              alt="We substitute x equal to three and y equal to one into both inequalities. First inequality is x plus four times y greater than or equal to ten. So three plus four open parentheses one close parenthesis is greater than or equal to ten or not. Seven greater than or equal to ten is false. Second inequality, three times x minus two times y is less than twelve. Three open parentheses three close parentheses minus two open parentheses one close parentheses is less than twelve or not. Seven less than 12 holds true.">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_02_16_05_02.jpg" />
+            <media alt="We substitute x equal to three and y equal to one into both inequalities. First inequality is x plus four times y greater than or equal to ten. So three plus four open parentheses one close parenthesis is greater than or equal to ten or not. Seven greater than or equal to ten is false. Second inequality, three times x minus two times y is less than twelve. Three open parentheses three close parentheses minus two open parentheses one close parentheses is less than twelve or not. Seven less than 12 holds true.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_02_16_05_02.jpg"/>
             </media>
           
 
-        <para>The ordered pair \((3,1)\) made one inequality true, but it made the other one false.
+        <para id="para-00043">The ordered pair \((3,1)\) made one inequality true, but it made the other one false.
           Therefore, \((3,1)\) is not a solution to this system.</para>
 
-        <note class="try look-at-me">
+        <note class="try look-at-me" id="note-00002">
         <title>Try It: Determine Whether an Ordered Pair is a Solution of a System of Linear
           Inequalities.</title>
 
-        <exercise>
-          <problem>
-            <para>Determine whether the ordered pair is a solution to the system:</para>
-            <para>\(\left\{\begin{array}{l}y&gt;4x-2\\4x-y&lt;20\end{array}\right.\)</para>
-            <para>a.)  \((−2,1)\)   b.) \((4,−1)\)</para>
-            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to
+        <exercise id="exer-00007">
+          <problem id="prob-00009">
+            <para id="para-00044">Determine whether the ordered pair is a solution to the system:</para>
+            <para id="para-00045">\(\left\{\begin{array}{l}y>4x-2\\4x-y&lt;20\end{array}\right.\)</para>
+            <para id="para-00046">a.)  \((−2,1)\)   b.) \((4,−1)\)</para>
+            <para id="para-00047">Write down your answer, then select the <emphasis>solution</emphasis> button to
               compare your work.</para>
           </problem>
-          <solution>
-            <list class="os-raise-noindent" list-type="enumerated">
+          <solution id="sol-00009">
+            <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
               <item>Yes.</item>
             </list>
-            <para>Here is how to determine if each ordered pair is a solution:</para>
-            <para><emphasis>Step 1 -</emphasis> Choose an ordered pair. \((-2,1)\) <emphasis>Step 2
-              -</emphasis> Substitute into the inequality. \(y&gt;4x−2\) \(1&gt;4(-2)-2\)
-              \(4x−y&lt;20\) \(4(-2)-1&lt;20\) <emphasis>Step 3 -</emphasis> Simplify. \(1&gt;-10\)
+            <para id="para-00048">Here is how to determine if each ordered pair is a solution:</para>
+            <para id="para-00049"><emphasis>Step 1 -</emphasis> Choose an ordered pair. \((-2,1)\) <emphasis>Step 2
+              -</emphasis> Substitute into the inequality. \(y>4x−2\) \(1>4(-2)-2\)
+              \(4x−y&lt;20\) \(4(-2)-1&lt;20\) <emphasis>Step 3 -</emphasis> Simplify. \(1>-10\)
               \(-9&lt;20\) <emphasis>Step 4 -</emphasis> True or false statement? True True Since
               the ordered pair makes both inequalities true, it is a solution to the system of
               inequalities.</para>
             <!-- END STEPS -->
-            <list class="os-raise-noindent" list-type="enumerated">
+            <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
               <item>No.</item>
             </list>
-            <para>Here is how to determine if each ordered pair is a solution:</para>
-            <para><emphasis>Step 1 -</emphasis> Choose an ordered pair. \((4, -1)\)</para>
-            <para><emphasis>Step 2
-              -</emphasis> Substitute into the inequality. \(y&gt;4x−2\) \(-1&gt;4(4)-2\)
+            <para id="para-00050">Here is how to determine if each ordered pair is a solution:</para>
+            <para id="para-00051"><emphasis>Step 1 -</emphasis> Choose an ordered pair. \((4, -1)\)</para>
+            <para id="para-00052"><emphasis>Step 2
+              -</emphasis> Substitute into the inequality. \(y>4x−2\) \(-1>4(4)-2\)
               \(4x−y&lt;20\) \(4(4)-1(-1)&lt;20\)</para>
-            <para><emphasis>Step 3 -</emphasis> Simplify.
-              \(-1&gt;14\) \(17&lt;20\)</para>
-            <para><emphasis>Step 4 -</emphasis> True or false statement? False
+            <para id="para-00053"><emphasis>Step 3 -</emphasis> Simplify.
+              \(-1>14\) \(17&lt;20\)</para>
+            <para id="para-00054"><emphasis>Step 4 -</emphasis> True or false statement? False
               True Since the ordered pair does not make a true statement in the first inequality, it
               is not a solution to the system of inequalities.</para>
             <!-- END STEPS -->
