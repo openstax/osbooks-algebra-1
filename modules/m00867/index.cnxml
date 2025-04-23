@@ -6,494 +6,467 @@
     <md:uuid>3a8d4e69-6cf1-4611-809c-6fe09c217928</md:uuid>
   </metadata>
   <content>
-  <section><title>Activity</title>
-<para>Rule G takes a person's name as its input and gives their high school graduation date as the output.</para>
-<table class="os-raise-midsizetable">
-  <tgroup cols="2"><tbody><row>
-      <entry><emphasis>
-        Input
-     </emphasis> </entry><entry><emphasis>
-        Output
-     </emphasis> </entry></row>
-  <row>
-      <entry>
-        <para>Taylor Swift</para>
-      </entry>
-      <entry>
-        <para>2008</para>
-      </entry>
-    </row>
-    <row>
-      <entry>
-        <para>Zendaya</para>
-      </entry>
-      <entry>2015</entry>
-    </row>
-    <row>
-      <entry>
-        <para>Storm Reid</para>
-      </entry>
-      <entry>2020</entry>
-    </row>
-    <row>
-      <entry>
-        <para>Johnny Orlando</para>
-      </entry>
-      <entry>2021</entry>
-    </row>
-    <row>
-      <entry/>
-      <entry/>
-    </row>
-    <row>
-      <entry/>
-      <entry/>
-    </row>
-    <row>
-      <entry/>
-      <entry/>
-    </row>
-    <row>
-      <entry/>
-      <entry/>
-    </row>
-  </tbody></tgroup></table>
+    <section>
+      <title>Activity</title>
+      <para>Rule G takes a person's name as its input and gives their high school graduation date as the output.</para>
+      <table class="os-raise-midsizetable">
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry><emphasis> Input </emphasis>
+              </entry>
+              <entry><emphasis> Output </emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <para>Taylor Swift</para>
+              </entry>
+              <entry>
+                <para>2008</para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <para>Zendaya</para>
+              </entry>
+              <entry>2015</entry>
+            </row>
+            <row>
+              <entry>
+                <para>Storm Reid</para>
+              </entry>
+              <entry>2020</entry>
+            </row>
+            <row>
+              <entry>
+                <para>Johnny Orlando</para>
+              </entry>
+              <entry>2021</entry>
+            </row>
+            <row>
+              <entry />
+              <entry />
+            </row>
+            <row>
+              <entry />
+              <entry />
+            </row>
+            <row>
+              <entry />
+              <entry />
+            </row>
+            <row>
+              <entry />
+              <entry />
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
 
-<para>Rule P takes a high school graduation date and gives a person with that graduation date as the output.</para>
-<table class="os-raise-midsizetable">
-  <tgroup cols="2"><tbody><row>
-      <entry><emphasis>
-        Input
-     </emphasis> </entry><entry><emphasis>
-        Output
-     </emphasis> </entry></row>
-  <row>
-      <entry>
-        <para>2020</para>
-      </entry>
-      <entry>
-        <para>Lil Tecca</para>
-      </entry>
-    </row>
-    <row>
-      <entry>
-        <para>2021</para>
-      </entry>
-      <entry>
-        <para>Olivia Rodrigo</para>
-      </entry>
-    </row>
-    <row>
-      <entry>
-        <para>2022</para>
-      </entry>
-      <entry>
-        <para>Forrest Wheeler</para>
-      </entry>
-    </row>
-    <row>
-      <entry>
-        <para>2023</para>
-      </entry>
-      <entry>
-        <para>Miles Brown</para>
-      </entry>
-    </row>
-    <row>
-      <entry/>
-      <entry/>
-    </row>
-    <row>
-      <entry/>
-      <entry/>
-    </row>
-    <row>
-      <entry/>
-      <entry/>
-    </row>
-  </tbody></tgroup></table>
-
-
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Complete the table for Rule G with three more examples of input-output pairs.</para>
-    </problem><solution>
-    
-    <para>Enter your first input-output pair example here:</para>
-  
-  <para>Compare your answers:</para>
-    
-    <para>Your answer may vary, but here are some samples.
-      Input: Skai Jackson; Output: 2020
-      Input: Keke Palmer; Output: 2010
-
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+      <para>Rule P takes a high school graduation date and gives a person with that graduation date as the output.</para>
+      <table class="os-raise-midsizetable">
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry><emphasis> Input </emphasis>
+              </entry>
+              <entry><emphasis> Output </emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <para>2020</para>
+              </entry>
+              <entry>
+                <para>Lil Tecca</para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <para>2021</para>
+              </entry>
+              <entry>
+                <para>Olivia Rodrigo</para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <para>2022</para>
+              </entry>
+              <entry>
+                <para>Forrest Wheeler</para>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <para>2023</para>
+              </entry>
+              <entry>
+                <para>Miles Brown</para>
+              </entry>
+            </row>
+            <row>
+              <entry />
+              <entry />
+            </row>
+            <row>
+              <entry />
+              <entry />
+            </row>
+            <row>
+              <entry />
+              <entry />
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
 
 
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Enter your second input-output pair example here:</para>
-  
-  </problem><solution>
-    
-    
-  
-  <para>Compare your answers:</para>
-    
-    <para>Your answer may vary, but here are some samples.
-      Input: Jeremy Pena; Output: 2015
-      Input: Mike Trout; 
-      Output: 2009
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Complete the table for Rule G with three more examples of input-output pairs.</para>
+        </problem>
+        <solution>
+
+          <para>Enter your first input-output pair example here:</para>
+
+          <para>Compare your answers:</para>
+
+          <para>Your answer may vary, but here are some samples. Input: Skai Jackson; Output: 2020 Input: Keke Palmer; Output: 2010 </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction End -->
 
 
-<exercise>
-  <problem>
-    <para>Enter your third input-output pair example here:</para>
-  
-  </problem><solution>
-    
-    
-  
-  <para>Compare your answers:</para>
-    
-    <para>Your answer may vary, but here are some samples.
-      Input: Bryce Young; Output: 2020
-      Input: Patrick Mahomes; Output: 2014
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Enter your second input-output pair example here:</para>
+
+        </problem>
+        <solution>
 
 
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Complete the table for Rule P with three more examples of input-output pairs</para>
-    </problem><solution>
-    
-    <para>Enter your first input-output pair example here:</para>
-  
-  <para>Compare your answer</para>
-    
-    <para>Your answer may vary, but here are some samples.
-      Input: 2012; Output: Ariana Grande
-      Input: 2012; 
-      Output: Drake
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+          <para>Compare your answers:</para>
+
+          <para>Your answer may vary, but here are some samples. Input: Jeremy Pena; Output: 2015 Input: Mike Trout; Output: 2009 </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction End -->
 
 
+      <exercise>
+        <problem>
+          <para>Enter your third input-output pair example here:</para>
 
-<exercise>
-  <problem>
-    <para>Enter your second input-output pair example here:</para>
-  
-  </problem><solution>
-    
-    
-  
-  <para>Compare your answers:</para>
-    
-    <para>Your answer may vary, but here are some samples.
-      Input: 2020; 
-      Output: Will Anderson, Jr.
-      Input: 2019; Output: Kenyon Green
-      Input: 2015; Output: Marisa Viggiano
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+        </problem>
+        <solution>
 
 
-<exercise>
-  <problem>
-    <para>Enter your third input-output pair example here:</para>
-  
-  </problem><solution>
-    
-    
-  
-  <para>Compare your answers:</para>
-    
-    <para>Your answer may vary, but here are some samples.
-      Input: 2018; Output: Naomi Girma
-      Input: 2011; Output: Lynn Williams
-      Input: 2018; Output: Sophia Smith
+          <para>Compare your answers:</para>
 
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+          <para>Your answer may vary, but here are some samples. Input: Bryce Young; Output: 2020 Input: Patrick Mahomes; Output: 2014 </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction End -->
 
 
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>If you use your own name as the input to G, explain how many outputs are possible and how you know.</para>
-    </problem><solution>
-    
-    
-  
-  <para>Compare your answer:</para>
-    
-    <para>Your answer may vary, but here is a sample.
-      One possible output. I can only graduate from high school once.
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Complete the table for Rule P with three more examples of input-output pairs</para>
+        </problem>
+        <solution>
 
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+          <para>Enter your first input-output pair example here:</para>
 
+          <para>Compare your answer</para>
 
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>If you use your graduation date as the input to P, explain how many outputs are possible and how you know.</para>
-    </problem><solution>
-    
-    
-  
-  <para>Compare your answer:</para>
-    
-    <para>Your answer may vary, but here is a sample.
-      Many possible outputs. There are other people who will share the same graduation date as mine - especially my classmates who graduate with me.
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+          <para>Your answer may vary, but here are some samples. Input: 2012; Output: Ariana Grande Input: 2012; Output: Drake </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction End -->
 
 
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Only one of these two relationships, G or P, is a function. The other is not a function. Which one is the function?</para>
-    </problem><solution>
-    
-    
-  
-  <para>Compare your answers:</para>
-    
-    <para>Rule G is a function and Rule P is not.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+      <exercise>
+        <problem>
+          <para>Enter your second input-output pair example here:</para>
+
+        </problem>
+        <solution>
 
 
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>How do you know the relationship you chose is a function?</para>
-    </problem><solution>
-    
-    
-  
-  <para>Compare your answers:</para>
-    
-    <para>Your answer may vary, but here is a sample.
-      G only assigns one output to the input value.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+          <para>Compare your answers:</para>
+
+          <para>Your answer may vary, but here are some samples. Input: 2020; Output: Will Anderson, Jr. Input: 2019; Output: Kenyon Green Input: 2015; Output: Marisa Viggiano </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction End -->
 
 
-<list class="os-raise-noindent" list-type="enumerated">
-  <item>For the relationship that is a function, write two input-output pairs from the table using function notation.</item>
-</list>
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Enter your first input-output pair example here:</para>
-    </problem><solution>
-    
-    
-  
-  <para>Compare your answers:</para>
-    
-    <para>Your answer may vary, but here are some samples.
-      \(G(Taylor Swift)\) = 2008
-      \(G(Storm Reid)\) = 2020
+      <exercise>
+        <problem>
+          <para>Enter your third input-output pair example here:</para>
 
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+        </problem>
+        <solution>
 
-<!--Text Entry Interaction Start -->
-<exercise>
-  <problem>
-    <para>Enter your second input-output pair example here:</para>
-    </problem><solution>
-    
-    
-  
-  <para>Compare your answers:</para>
-    
-    <para>Your answer may vary, but here are some samples.
-      \(G(Zendaya)\) = 2015
-      \(G(Johnny Orlando)\) = 2021
 
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+          <para>Compare your answers:</para>
 
-<!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-<exercise>
-  <problem>
-    
-    
-  
-  
-  
-  </problem></exercise>
-<!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<exercise class="RFM1">
-  <problem>
-    <title>Extending Your Thinking</title>
-    
-    <para>
-        Write a rule that describes these input-output pairs:\(F\)(ONE) \(=3\)\(F\)(TWO) \(=3\)\(F\)(THREE) \(=5\)\(F\)(FOUR) \(=4\)
+          <para>Your answer may vary, but here are some samples. Input: 2018; Output: Naomi Girma Input: 2011; Output: Lynn Williams Input: 2018; Output: Sophia Smith </para>
 
-        What rule could define function \(F\)?
-    </para>
-    </problem><solution>
-    
-    
-  
-  <para>Compare your answers:</para>
-    
-    <para>Function \(F\) takes a word for its input and gives the number of letters in that word for its output.</para>
-  
-  </solution></exercise>
-<!--End interaction-->
+        </solution>
+      </exercise>
+      <!--Interaction End -->
 
-<exercise class="RFM1">
-  <problem>
-    <para>
-        Here are some input-output pairs with the same inputs but different outputs:\(v\)(ONE) \(=2\)
-        \(v\)(TWO) \(=1\)
-        \(v\)(THREE) \(=2\)
-        \(v\)(FOUR) \(=2\)
 
-        What rule could define function \(v\)?
-    </para>
-    </problem><solution>
-    
-    
-  
-  <para>Compare your answers:</para>
-    
-    <para>Function \(v\) takes a word for its input and gives the number of vowels in that word as its output.</para>
-  
-  </solution></exercise>
-<!--End interaction--></section>
-<note class="self-check"><title>Self Check</title>
-  <para>The price for pizzas, in dollars, is a function of the number of pizzas bought, \(n\).
-    Identify the input, output, and meaning of the statement: \(p(11)=55\)</para></note>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>If you use your own name as the input to G, explain how many outputs are possible and how you know.</para>
+        </problem>
+        <solution>
+
+
+          <para>Compare your answer:</para>
+
+          <para>Your answer may vary, but here is a sample. One possible output. I can only graduate from high school once. </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+
+
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>If you use your graduation date as the input to P, explain how many outputs are possible and how you know.</para>
+        </problem>
+        <solution>
+
+
+          <para>Compare your answer:</para>
+
+          <para>Your answer may vary, but here is a sample. Many possible outputs. There are other people who will share the same graduation date as mine - especially my classmates who graduate with me. </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+
+
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Only one of these two relationships, G or P, is a function. The other is not a function. Which one is the function?</para>
+        </problem>
+        <solution>
+
+
+          <para>Compare your answers:</para>
+
+          <para>Rule G is a function and Rule P is not.</para>
+
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+
+
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>How do you know the relationship you chose is a function?</para>
+        </problem>
+        <solution>
+
+
+          <para>Compare your answers:</para>
+
+          <para>Your answer may vary, but here is a sample. G only assigns one output to the input value.</para>
+
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+
+
+      <list class="os-raise-noindent" list-type="enumerated">
+        <item>For the relationship that is a function, write two input-output pairs from the table using function notation.</item>
+      </list>
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Enter your first input-output pair example here:</para>
+        </problem>
+        <solution>
+
+
+          <para>Compare your answers:</para>
+
+          <para>Your answer may vary, but here are some samples. \(G(Taylor Swift)\) = 2008 \(G(Storm Reid)\) = 2020 </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+
+      <!--Text Entry Interaction Start -->
+      <exercise>
+        <problem>
+          <para>Enter your second input-output pair example here:</para>
+        </problem>
+        <solution>
+
+
+          <para>Compare your answers:</para>
+
+          <para>Your answer may vary, but here are some samples. \(G(Zendaya)\) = 2015 \(G(Johnny Orlando)\) = 2021 </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+
+
+      <section>
+        <title>Are you ready for more?</title>
+        <exercise class="RFM1">
+          <problem>
+            <title>Extending Your Thinking</title>
+
+            <para> Write a rule that describes these input-output pairs:\(F\)(ONE) \(=3\)\(F\)(TWO) \(=3\)\(F\)(THREE) \(=5\)\(F\)(FOUR) \(=4\) What rule could define function \(F\)? </para>
+          </problem>
+          <solution>
+
+
+            <para>Compare your answers:</para>
+
+            <para>Function \(F\) takes a word for its input and gives the number of letters in that word for its output.</para>
+
+          </solution>
+        </exercise>
+        <!--End interaction-->
+
+        <exercise class="RFM1">
+          <problem>
+            <para> Here are some input-output pairs with the same inputs but different outputs:\(v\)(ONE) \(=2\) \(v\)(TWO) \(=1\) \(v\)(THREE) \(=2\) \(v\)(FOUR) \(=2\) What rule could define function \(v\)? </para>
+          </problem>
+          <solution>
+
+
+            <para>Compare your answers:</para>
+
+            <para>Function \(v\) takes a word for its input and gives the number of vowels in that word as its output.</para>
+
+          </solution>
+        </exercise>
+        <!--End interaction-->
+      </section>
+    </section>
+    <note class="self-check"><title>Self Check</title>
+  <para>The price for pizzas, in dollars, is a function of the number of pizzas bought, \(n\). Identify the input, output, and meaning of the statement: \(p(11)=55\)</para></note>
     <section>
       <title>Additional Resources</title>
-      
-  <section><title>Meanings in Functions </title>
-    <para>Review the following examples to help you gain a better understanding of meanings in functions.</para>
-    <exercise>
-      <problem>
-        
-        <newline/><para><emphasis>Example 1</emphasis></para>
-        
-        <para>The number of cubic yards of dirt, \(D\), needed to cover a garden with an area of \(a\) square feet is given by \(D=g(a)\).
-      </para><para>A garden with area 5000 \(ft^2\) requires 50 \(yd^3\) of dirt. Express this information in terms of the function \(g\).</para>
-        <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-      
-      </problem><solution>
-      <para>
-       <emphasis>Solution:</emphasis> \(g(5000)=50\)
-    </para>
-    
-    </solution></exercise>
-    <exercise>
-      <problem>
-        
-        <para>Explain the meaning of the statement \(g(100)=1\).</para>
-        <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-      
-      </problem><solution>
-      <para>
-       <emphasis>Solution:</emphasis> The number of cubic yards of dirt required for a garden of 100 square feet is 1. 
-    </para>
-    
-    </solution></exercise>
-    <exercise>
-      <problem>
-        
-        <para><emphasis>Example 2</emphasis></para>
-        
-        <para>Let \(f(t)\) be the number of ducks in a lake \(t\) years after 1990. Explain the meaning of each statement:</para>
-        
-        <para>\(f(5)=30\)
-        </para>
-        <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-      
-      </problem><solution>
-      <para>
-       <emphasis>Solution:</emphasis> In 1995 (5 years after 1990), there were 30 ducks in the lake.
-    </para>
-    
-    </solution></exercise>
-    <exercise>
-      <problem>
-        
-        <para>\(f(10)=40\)</para>
-        <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-      
-      </problem><solution>
-      <para>
-       <emphasis>Solution:</emphasis> In 2000 (10 years after 1990), there were 40 ducks in the lake.
-    </para>
-    
-    </solution></exercise>
-    <note class="try">
-    <title>Try It: Meanings in Functions</title>
+
+      <section>
+        <title>Meanings in Functions </title>
+        <para>Review the following examples to help you gain a better understanding of meanings in functions.</para>
+        <exercise>
+          <problem>
+
+            <para><emphasis>Example 1</emphasis></para>
+
+            <para>The number of cubic yards of dirt, \(D\), needed to cover a garden with an area of \(a\) square feet is given by \(D=g(a)\). </para>
+            <para>A garden with area 5000 \(ft^2\) requires 50 \(yd^3\) of dirt. Express this information in terms of the function \(g\).</para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+
+          </problem>
+          <solution>
+            <para>
+              <emphasis>Solution:</emphasis> \(g(5000)=50\) </para>
+
+          </solution>
+        </exercise>
+        <exercise>
+          <problem>
+
+            <para>Explain the meaning of the statement \(g(100)=1\).</para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+
+          </problem>
+          <solution>
+            <para>
+              <emphasis>Solution:</emphasis> The number of cubic yards of dirt required for a garden of 100 square feet is 1. </para>
+
+          </solution>
+        </exercise>
+        <exercise>
+          <problem>
+
+            <para><emphasis>Example 2</emphasis></para>
+
+            <para>Let \(f(t)\) be the number of ducks in a lake \(t\) years after 1990. Explain the meaning of each statement:</para>
+
+            <para>\(f(5)=30\) </para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+
+          </problem>
+          <solution>
+            <para>
+              <emphasis>Solution:</emphasis> In 1995 (5 years after 1990), there were 30 ducks in the lake. </para>
+
+          </solution>
+        </exercise>
+        <exercise>
+          <problem>
+
+            <para>\(f(10)=40\)</para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+
+          </problem>
+          <solution>
+            <para>
+              <emphasis>Solution:</emphasis> In 2000 (10 years after 1990), there were 40 ducks in the lake. </para>
+
+          </solution>
+        </exercise>
+        <note class="try">
+          <title>Try It: Meanings in Functions</title>
     <para>The amount of garbage, \(G\), produced by a city with population \(p\) is given by \(G=f(p)\). \(G\) is measured in tons per week, and \(p\) is measured in thousands of people.</para>
     <exercise>
-      <problem>
-        <para>The town of Tola has a population of 40,000 and produces 13 tons of garbage each week. Express this information in terms of the function \(f\).</para>
-          <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.
-        </para>
-        </problem><solution>
-        
-        
-      
-      <para>Compare your answer:</para>
-        
-        <para>\(13=f(40)\)</para>
-      
-      </solution></exercise>
+            <problem>
+              <para>The town of Tola has a population of 40,000 and produces 13 tons of garbage each week. Express this information in terms of the function \(f\).</para>
+              <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+            </problem>
+            <solution>
+
+
+              <para>Compare your answer:</para>
+
+              <para>\(13=f(40)\)</para>
+
+            </solution>
+          </exercise>
     <exercise>
-      <problem>
-        <para>Explain the meaning of the statement \(f(5)=2\).</para>
-          <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.
-        </para>
-        </problem><solution>
-        
-        
-      
-      <para>Compare your answer:</para>
-        
-        <para>Five thousand people will produce 2 tons of garbage each week.</para>
-      
-      </solution></exercise></note></section>
+            <problem>
+              <para>Explain the meaning of the statement \(f(5)=2\).</para>
+              <para>Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work. </para>
+            </problem>
+            <solution>
+
+
+              <para>Compare your answer:</para>
+
+              <para>Five thousand people will produce 2 tons of garbage each week.</para>
+
+            </solution>
+          </exercise></note>
+      </section>
     </section>
-    
-</content>
+
+  </content>
 </document>
