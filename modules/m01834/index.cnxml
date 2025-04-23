@@ -47,7 +47,7 @@
         </solution>
       </exercise>
       <!--Interaction End -->
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
+      <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
         <exercise>
           <problem>
             <para>Use the graphing tool or technology outside the course. Graph the function. Adjust the graphing window to the following boundaries: \(0&lt;x&lt;25\) and \(0&lt;y&lt;2000\).</para>
@@ -116,17 +116,13 @@
           <para>Compare your answer:</para>
           <para>The equation is a good model for the height of the cannonball from the time it is launched, \(t=0\), until the time it lands, just before \(t=20\). For times outside of these values, the function values do not mean anything in the context (for example, for \(t=21\) the function would place the cannonball underground).</para>
         </solution>
-      </exercise>
+      </exercise></section>
       <!--Interaction End -->
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-        <exercise>
-          <problem>
-            
-            
-          </problem>
-        </exercise>
-      
+      <section>
+        <title>Are you ready for more?</title>
+          <section>
+            <title>Extending Your Thinking</title>
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       <exercise class="RFM1">
         <problem>
@@ -138,15 +134,15 @@
           <para>Compare your answer:</para>
           <para>The equation here would be \(g(t)=50+800t-16t^2\). Since \(g(10)=6450\) and there are 5280 feet in a mile, this cannonball would reach over a mile in height. This could also be seen by graphing the function.</para>
         </solution>
-      </exercise>
+      </exercise></section>
       <!--End interaction-->
-      <title>Video: Using Quadratic Functions to Describe Height</title>
+     <section> <title>Video: Using Quadratic Functions to Describe Height</title>
       <para>Watch the following video to learn more about quadratic functions.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/093e5117403a8baf805f1828e852741db18c5d56"/>
       </media>
     </section>
-
+  </section>
     <note class="self-check">
       <para>A toy rocket is launched from a platform 4 feet above the ground at a velocity of 128 feet per second. Its height is graphed below. Approximately what is the rocket’s maximum height?</para>
       <para>
@@ -174,7 +170,7 @@
   approximately 1.75 seconds</para>
       <para><emphasis>Step 4</emphasis> -When does the object hit the ground? 
   Look at where the object has a height of 0 feet, or the zero of the function. This happens at approximately 3.75 seconds. Notice there would be another zero on the graph of the function to the left of \(x=0\), but that does not make sense in the problem because the object was thrown from 5 feet.</para>
-      <title> Try It: Reading Graphs of Quadratics </title>
+     <note class="try"> <title>Try It: Reading Graphs of Quadratics</title>
       <para>A rock is launched into the air, and its height is represented by the graph below.</para>
       <para>
           <media alt="Insert Alt Text">
@@ -194,7 +190,7 @@
             <para>The maximum height is 25 feet after 2 seconds.</para>
           </solution>
         </exercise>
-      
+      </note>
     </section>
   </content>
 </document>
