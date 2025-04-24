@@ -116,11 +116,11 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00006">
-          <para id="para-00018">In Step \(n\), what is the number of small squares?</para>
+          <para id="para-00018">In Step <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, what is the number of small squares?</para>
         </problem>
         <solution id="sol-00006">
           <para id="para-00019">Compare your answer:</para>
-          <para id="para-00020">\(n^2+2\)</para>
+          <para id="para-00020"><m:math><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -131,11 +131,11 @@
         </problem>
         <solution id="sol-00007">
           <para id="para-00022">Compare your answer:</para>
-          <para id="para-00023">No, from Step 1 to Step 2, the number of squares doubles. From Step 2 to Step 3, the number of squares increases by a factor of \(\frac{11}{6}\). From Step 3 to Step 4, the number of squares increases by a factor of \(\frac{18}{11}\). These growth factors are all different; in contrast, for an exponential function, the values increase by equal growth factors over equal intervals.</para>
+          <para id="para-00023">No, from Step 1 to Step 2, the number of squares doubles. From Step 2 to Step 3, the number of squares increases by a factor of <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>11</m:mn></m:mrow><m:mrow><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow></m:math>. From Step 3 to Step 4, the number of squares increases by a factor of <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>18</m:mn></m:mrow><m:mrow><m:mn>11</m:mn></m:mrow></m:mfrac></m:mrow></m:math>. These growth factors are all different; in contrast, for an exponential function, the values increase by equal growth factors over equal intervals.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
-      <para id="para-00024">The nth expression, \(n^2+2\), is an example of a <term class="glossary-tooltip" id="term-00001">quadratic expression</term>. A quadratic expression can be written using a squared term. It can be written in other ways as well, but the expression should be able to be written with the highest exponent on the variable as 2.</para>
+      <para id="para-00024">The nth expression, <m:math display="inline"><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>, is an example of a <term class="glossary-tooltip" id="term-00001">quadratic expression</term>. A quadratic expression can be written using a squared term. It can be written in other ways as well, but the expression should be able to be written with the highest exponent on the variable as 2.</para>
       <list id="list-00002">
         <item>A quadratic relationship is not like a linear relationship because as one quantity increases by a certain amount, the second quantity doesn’t increase by the same amount.</item>
         <item>A quadratic relationship is not like an exponential relationship because as one quantity increases by a certain amount, the second quantity doesn’t change by the same factor. (In this case, if the number of squares grew exponentially, this would mean that, from each step to the next, the number of squares is multiplied by the same factor.)</item>
@@ -145,12 +145,12 @@
         <exercise class="RFM1" id="exer-00004">
           <problem id="prob-00008">
             <title>Extending Your Thinking</title>
-            <para id="para-00025">Han wrote \(n(n+2)-2(n-1)\) for the number of small squares in the design at Step \(n\) in the pattern at the beginning of the activity.</para>
+            <para id="para-00025">Han wrote <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for the number of small squares in the design at Step <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> in the pattern at the beginning of the activity.</para>
             <para id="para-00026">Explain why Han is correct.</para>
           </problem>
           <solution id="sol-00008">
             <para id="para-00027">Compare your answer:</para>
-            <para id="para-00028">At Step \(n\), there is an \(n\) by \(n+2\) rectangle containing \(n(n+2)\) small squares with two columns of \(n-1\) squares removed from either side.</para>
+            <para id="para-00028">At Step <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, there is an <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> by <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> rectangle containing <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> small squares with two columns of <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> squares removed from either side.</para>
           </solution>
         </exercise>
         <!--End interaction-->
@@ -186,7 +186,7 @@
       <title>Additional Resources</title>
       <section id="sect-00006">
         <title>Writing Expression from Patterns</title>
-        <para id="para-00035">Find the number of dots in Step 5, and write an expression to find \(n\) number of dots.</para>
+        <para id="para-00035">Find the number of dots in Step 5, and write an expression to find <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> number of dots.</para>
         <para id="para-00036">
               <media alt="Insert Alt Text">
               <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_08_01.jpg"/>
@@ -226,12 +226,12 @@
         </table>
         <para id="para-00038"><emphasis>Step 2</emphasis> - Notice that the start has 2 rows and 2 columns, or 4 dots. Each step adds a row of 2 dots, plus 1 more dot. So, each step adds 3 dots.</para>
         <para id="para-00039"><emphasis>Step 3</emphasis> - Continuing this linear pattern, Step 5 would have 19 dots.</para>
-        <para id="para-00040"><emphasis>Step 4</emphasis> - An expression could be \(3n+4\). This is a linear expression.</para>
+        <para id="para-00040"><emphasis>Step 4</emphasis> - An expression could be <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>. This is a linear expression.</para>
         <note class="try" id="note-00002">
           <title>Try It: Writing Expression from Patterns</title>
       <exercise id="exer-00006">
             <problem id="prob-00010">
-              <para id="para-00041">Find the number of dots in Step 5, and write an expression to find \(n\) number of dots.</para>
+              <para id="para-00041">Find the number of dots in Step 5, and write an expression to find <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> number of dots.</para>
               <para id="para-00042">
                           <media alt="Insert Alt Text">
                     <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_08_02.jpg"/>
@@ -274,7 +274,7 @@
               </table>
               <para id="para-00045">Each step has that number of dots squared, then doubled, and then one is added.</para>
               <para id="para-00046">So, Step 5 would have 51 dots.</para>
-              <para id="para-00047">The expression would be \(2n^2+1\), where \(n\) is the step number.</para>
+              <para id="para-00047">The expression would be <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is the step number.</para>
               <para id="para-00048">This is a quadratic expression.</para>
             </solution>
           </exercise>

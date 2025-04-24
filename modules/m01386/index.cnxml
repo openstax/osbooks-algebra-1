@@ -20,15 +20,15 @@
         </problem>
         <solution id="sol-00001">
           <para id="para-00003">Compare your answer:</para>
-          <para id="para-00004">16 square millimeters. \(2 \cdot 2 \cdot 2 \cdot 2\) or \(2^4\) is 16.</para>
+          <para id="para-00004">16 square millimeters. <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:msup><m:mn>2</m:mn><m:mn>4</m:mn></m:msup></m:mrow></m:math> is 16.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       
         <exercise id="exer-00002">
           <problem id="prob-00002">
-            <para id="para-00005">Represent the relationship between the area \(A\), in square millimeters, covered by the mold and the number
-        of days \(d\) since the mold was spotted using:      </para>
+            <para id="para-00005">Represent the relationship between the area <m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math>, in square millimeters, covered by the mold and the number
+        of days <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> since the mold was spotted using:      </para>
         <para id="para-00006">A table of values, showing the values from the day the mold was spotted through 5 days later.</para>
           <para id="para-00007">An equation</para>
           <para id="para-00008">A graph</para>
@@ -42,10 +42,10 @@
               <table class="os-raise-midsizetable" id="table-00001">
                 <tgroup cols="2"><tbody><row>
                     <entry>
-                     <emphasis>Number of days, \(d\)</emphasis>
+                     <emphasis>Number of days, <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math></emphasis>
                     </entry>
                     <entry>
-                     <emphasis>Area, \(A\), in sq mm</emphasis>
+                     <emphasis>Area, <m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math>, in sq mm</emphasis>
                     </entry>
                   </row>
                 <row>
@@ -97,7 +97,7 @@
           </entry>
                   </row>
                 </tbody></tgroup></table></item>
-              <item>Equation: \(A=1 \cdot 2^d\) or equivalent (like \(A=2^d\)).</item>
+              <item>Equation: <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>d</m:mi></m:msup></m:mrow></m:math> or equivalent (like <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>d</m:mi></m:msup></m:mrow></m:math>).</item>
               <item>Your graph may be discrete or continuous, this example is a discrete graph.
       (<media alt=""><image mime-type="image/jpeg" src="../../media/Algebra-1_05_10_03_01.jpg"/></media>)</item>
             </list>
@@ -135,16 +135,16 @@
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       <exercise class="RFM1" id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00014">What do you think is an appropriate domain for the mold area function \(A\)? Be prepared to show your reasoning.
+          <para id="para-00014">What do you think is an appropriate domain for the mold area function <m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math>? Be prepared to show your reasoning.
   </para>
           
         </problem>
         <solution id="sol-00004">
           <para id="para-00015">Compare your answer:</para>
-          <para id="para-00016">Your answer may vary, but here is an example.Some negative values of \(t\) could be relevant, but we
-      don’t know how the mold was growing before Clare started watching. Positive values of \(t\) will not be
+          <para id="para-00016">Your answer may vary, but here is an example.Some negative values of <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> could be relevant, but we
+      don’t know how the mold was growing before Clare started watching. Positive values of <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> will not be
       valid indefinitely as the bread will soon be completely covered by mold. If a piece of bread is 10 cm by 10 cm,
-      that’s 10,000 square mm. An appropriate domain would be \(0 \leq d \leq 14\).</para>
+      that’s 10,000 square mm. An appropriate domain would be <m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>d</m:mi><m:mo>≤</m:mo><m:mn>14</m:mn></m:mrow></m:math>.</para>
         </solution>
       </exercise>
       <!--End interaction-->
@@ -153,7 +153,7 @@
   <note class="self-check" id="note-00001"><para id="para-00017">Which of the following equations represents the values in the table?</para>
     <table class="os-raise-horizontaltable" id="table-00002">
       <tgroup cols="5"><tbody><row>
-          <entry><emphasis>\(x\)</emphasis></entry><entry>
+          <entry><emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis></entry><entry>
             0
           </entry>
           <entry>
@@ -167,7 +167,7 @@
           </entry>
         </row>
         <row>
-            <entry><emphasis>\(y\)</emphasis></entry><entry>
+            <entry><emphasis><m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math></emphasis></entry><entry>
            1
           </entry>
           <entry>
@@ -188,11 +188,11 @@
       
     <section id="sect-00005">
       <title> Different Exponential Representations</title>
-      <para id="para-00018">A table of values is shown below for a function \(g(x)=(\frac{1}{2})^x\), which represents exponential decay.</para>
+      <para id="para-00018">A table of values is shown below for a function <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math>, which represents exponential decay.</para>
       <table class="os-raise-textheavytable" id="table-00003">
         <tgroup cols="8"><tbody><row>
             <entry>
-                <para id="para-00019"><emphasis>\(x\)</emphasis></para>
+                <para id="para-00019"><emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis></para>
             </entry>
             <entry>
                 <para id="para-00020"><emphasis>–3</emphasis></para>
@@ -219,7 +219,7 @@
           </row>
         <row>
             <entry>
-              <para id="para-00027">\(g(x) = (\frac{1}{2})^x\)</para>
+              <para id="para-00027"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
             </entry>
             <entry>
               <para id="para-00028">8</para>
@@ -234,13 +234,13 @@
               <para id="para-00031">1</para>
             </entry>
             <entry>
-              <para id="para-00032">\(\frac12\)</para>
+              <para id="para-00032"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
             </entry>
             <entry>
-              <para id="para-00033">\(\frac14\)</para>
+              <para id="para-00033"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
             </entry>
             <entry>
-              <para id="para-00034">\(\frac18\)</para>
+              <para id="para-00034"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></para>
             </entry>
           </row>
         </tbody></tgroup></table>
@@ -256,17 +256,17 @@
       
         <exercise id="exer-00005">
           <problem id="prob-00005">
-            <para id="para-00037">Make a table for the function \(f(x)=4^x\). Then graph the function.</para>
+            <para id="para-00037">Make a table for the function <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>. Then graph the function.</para>
             <para id="para-00038">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00005">
             <para id="para-00039">Compare your answer:</para>
             <para id="para-00040">Here is how to make a table and then graph the exponential function:</para>
-            <para id="para-00041">First, substitute values in for \(x\) to find the values of \(f(x)\).</para>
+            <para id="para-00041">First, substitute values in for <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> to find the values of <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
             <table class="os-raise-textheavytable" id="table-00004">
               <tgroup cols="6"><tbody><row>
                   <entry>
-                      <para id="para-00042"><emphasis>\(x\)</emphasis></para> 
+                      <para id="para-00042"><emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis></para> 
                   </entry>
                   <entry>
                       <para id="para-00043"><emphasis>0</emphasis></para> 
@@ -286,22 +286,22 @@
                 </row>
               <row>
                   <entry>
-                    <para id="para-00048">\(f(x)=4^x\)</para>
+                    <para id="para-00048"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
                   </entry>
                   <entry>
-                    <para id="para-00049">\(4^0=1\)</para>
+                    <para id="para-00049"><m:math><m:mrow><m:msup><m:mn>4</m:mn><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
                   </entry>
                   <entry>
-                    <para id="para-00050">\(4^1=4\)</para>
+                    <para id="para-00050"><m:math><m:mrow><m:msup><m:mn>4</m:mn><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
                   </entry>
                   <entry>
-                    <para id="para-00051">\(4^2=16\)</para>
+                    <para id="para-00051"><m:math><m:mrow><m:msup><m:mn>4</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math></para>
                   </entry>
                   <entry>
-                    <para id="para-00052">\(4^3=64\)</para>
+                    <para id="para-00052"><m:math><m:mrow><m:msup><m:mn>4</m:mn><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>64</m:mn></m:mrow></m:math></para>
                   </entry>
                   <entry>
-                    <para id="para-00053">\(4^4=256\)</para>
+                    <para id="para-00053"><m:math><m:mrow><m:msup><m:mn>4</m:mn><m:mn>4</m:mn></m:msup><m:mo>=</m:mo><m:mn>256</m:mn></m:mrow></m:math></para>
                   </entry>
                 </row>
               </tbody></tgroup></table>

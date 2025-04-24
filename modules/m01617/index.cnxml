@@ -15,7 +15,7 @@
             <para id="para-00001">In this activity we’re going to use synthetic division to divide a polynomial by a binomial.</para>
 
             <para id="para-00002">You are going to solve a division problem using long division.</para>
-            <para id="para-00003">1. \((x^2-13x+42) \div (x-6)\)</para>
+            <para id="para-00003">1. <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>42</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
             <para id="para-00004">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00001">
@@ -31,14 +31,14 @@
 <exercise id="exer-00002">
           <problem id="prob-00002">
             <para id="para-00007">You are now going to solve the same division problem using synthetic division.</para>
-            <para id="para-00008">2. \((x^2-13x+42) \div (x-6)\)</para>
+            <para id="para-00008">2. <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>42</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
             <para id="para-00009">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00002">
             <para id="para-00010">Compare your answer:</para>
-            <para id="para-00011">\((x^2-13x+42) \div (x-6)\)</para>
-            <para id="para-00012"><emphasis>Step 1 -</emphasis> Write the dividend with decreasing powers of \(x\). Make sure there is no degree missing from the highest degree down to a degree of \(0\).</para>
-            <para id="para-00013">\(x^2-13x+42\)</para>
+            <para id="para-00011"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>42</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+            <para id="para-00012"><emphasis>Step 1 -</emphasis> Write the dividend with decreasing powers of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>. Make sure there is no degree missing from the highest degree down to a degree of <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math>.</para>
+            <para id="para-00013"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>42</m:mn></m:mrow></m:math></para>
             <para id="para-00014"><emphasis>Step 2 -</emphasis> Write the coefficients of the terms as the first row of the synthetic division.</para>
             <para id="para-00015">
                       <media alt="Insert Alt Text">
@@ -46,7 +46,7 @@
                 </media>
               
           </para>
-            <para id="para-00016"><emphasis>Step 3 -</emphasis> Write the divisor as \(x - c\) and place \(c\) in the synthetic division in the divisor box.</para>
+            <para id="para-00016"><emphasis>Step 3 -</emphasis> Write the divisor as <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow></m:math> and place <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> in the synthetic division in the divisor box.</para>
             <para id="para-00017">
                       <media alt="Insert Alt Text">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_02.jpg"/>
@@ -82,7 +82,7 @@
                 </media>
               
           </para>
-            <para id="para-00027"><emphasis>Step 9 -</emphasis> The division is complete. The numbers in the third row give us the result. The \(1\) \( −7\) in the third row are the coefficients of the quotient. The quotient is \(x - 7\). The \(0\) in the box in the third row is the remainder.</para>
+            <para id="para-00027"><emphasis>Step 9 -</emphasis> The division is complete. The numbers in the third row give us the result. The <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>−</m:mi><m:mn>7</m:mn></m:mrow></m:math> in the third row are the coefficients of the quotient. The quotient is <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math>. The <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> in the box in the third row is the remainder.</para>
           </solution>
         </exercise>
       
@@ -92,57 +92,55 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00029">\(
-        (4x^3+5x^2-5x+3) \div (x+2)\)</para>
+          <para id="para-00029"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
           
         </problem>
         <solution id="sol-00003">
           <para id="para-00030">Compare your answer:</para>
-          <para id="para-00031">\(4x^2-3x+1\); remainder of 1</para>
+          <para id="para-00031"><m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>; remainder of 1</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00032">\((2x^3-11x^2+16x-12) \div (x -4)\)</para>
+          <para id="para-00032"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
           
         </problem>
         <solution id="sol-00004">
           <para id="para-00033">Compare your answer:</para>
-          <para id="para-00034">\(2x^2-3x+4\); remainder of 4</para>
+          <para id="para-00034"><m:math display="inline"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>; remainder of 4</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00035">\(
-        (x^4-9x^2+2x+6) \div (x + 3)\)</para>
+          <para id="para-00035"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
           
         </problem>
         <solution id="sol-00005">
           <para id="para-00036">Compare your answer:</para>
-          <para id="para-00037">\(x^3-3x^2+2\); remainder of 0</para>
+          <para id="para-00037"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>; remainder of 0</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00006">
-          <para id="para-00038">\((3x^4-11x^3+2x^2+10x+6) \div (x - 3)\)</para>
+          <para id="para-00038"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
           
         </problem>
         <solution id="sol-00006">
           <para id="para-00039">Compare your answer:</para>
-          <para id="para-00040">\(3x^3-2x^2-4x-2\); remainder of 0</para>
+          <para id="para-00040"><m:math display="inline"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math>; remainder of 0</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
   </section>
     <note class="self-check" id="note-00002">
-      (    <para id="para-00041">Use synthetic division to find the quotient and remainder when \(x^4+x^2+6x-10\) is divided by \(x + 2\).</para>)
+      <para id="para-00041">Use synthetic division to find the quotient and remainder when <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>10</m:mn></m:mrow></m:math> is divided by <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
         </note>
 
      
@@ -159,19 +157,19 @@
         </media>
       
   </para>
-    <para id="para-00044">Synthetic division basically just removes unnecessary repeated variables and numbers. Here, all the \(x\) and \(x^2\) are removed as well as the \(-x^2\) and \(-4x\) because they are opposite the term above.</para>
-    <para id="para-00045">The first row of the synthetic division is the coefficients of the dividend. The \(-5\) is the opposite of the \(5\) in the divisor.</para>
+    <para id="para-00044">Synthetic division basically just removes unnecessary repeated variables and numbers. Here, all the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> are removed as well as the <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math> because they are opposite the term above.</para>
+    <para id="para-00045">The first row of the synthetic division is the coefficients of the dividend. The <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math> is the opposite of the <m:math display="inline"><m:mrow><m:mn>5</m:mn></m:mrow></m:math> in the divisor.</para>
     <para id="para-00046">The second row of the synthetic division is the numbers shown in red in the division problem.</para>
     <para id="para-00047">The third row of the synthetic division is the numbers shown in blue in the division problem.</para>
     <para id="para-00048">Notice the quotient and remainder are shown in the third row.</para>
-    <para id="para-00049"><emphasis>Synthetic division only works when the divisor is of the form</emphasis> \(x-c\).</para>
+    <para id="para-00049"><emphasis>Synthetic division only works when the divisor is of the form</emphasis> <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow></m:math>.</para>
     <para id="para-00050">The following example will explain the process.</para>
     <para id="para-00051">
      <emphasis>Example 1</emphasis>
   </para>
-    <para id="para-00052">Use synthetic division to find the quotient and remainder when \(2x^3+3x^2+x+8\) is divided by \(x + 2\).</para>
-    <para id="para-00053"><emphasis>Step 1 -</emphasis> Write the dividend with decreasing powers of \(x\).</para>
-    <para id="para-00054">\(2x^3+3x^2+x+8\)</para>
+    <para id="para-00052">Use synthetic division to find the quotient and remainder when <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math> is divided by <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+    <para id="para-00053"><emphasis>Step 1 -</emphasis> Write the dividend with decreasing powers of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>.</para>
+    <para id="para-00054"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
     <para id="para-00055"><emphasis>Step 2 -</emphasis> Write the coefficients of the terms as the first row of the synthetic division.</para>
     <para id="para-00056">
       
@@ -180,7 +178,7 @@
         </media>
       
   </para>
-    <para id="para-00057"><emphasis>Step 3 -</emphasis> Write the divisor as \(x-c\) and place \(c\) in the synthetic division in the divisor box.</para>
+    <para id="para-00057"><emphasis>Step 3 -</emphasis> Write the divisor as <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow></m:math> and place <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> in the synthetic division in the divisor box.</para>
     <para id="para-00058">
       
         <media alt=".">
@@ -244,8 +242,8 @@
         </media>
       
   </para>
-    <para id="para-00073"><emphasis>Step 11 -</emphasis> The quotient is \(2x^2-1x+3\), and the remainder is \(2\).</para>
-    <para id="para-00074">The division is complete. The numbers in the third row give us the result. The \(2\) \(-1\) \(3\) are the coefficients of the quotient. The quotient is \(2x^2-1x+3\). The \(2\) in the box in the third row is the remainder.</para>
+    <para id="para-00073"><emphasis>Step 11 -</emphasis> The quotient is <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>, and the remainder is <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math>.</para>
+    <para id="para-00074">The division is complete. The numbers in the third row give us the result. The <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>3</m:mn></m:mrow></m:math> are the coefficients of the quotient. The quotient is <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>. The <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math> in the box in the third row is the remainder.</para>
     <para id="para-00075">Compare your answer:</para>
     <para id="para-00076">
       <m:math display="inline">
@@ -590,8 +588,8 @@
     <para id="para-00077">
      <emphasis>Example 2</emphasis>
   </para>
-    <para id="para-00078">Use synthetic division to find the quotient and remainder when \(x^4-16x^2+3x+12\) is divided by \(x + 4\).</para>
-    <para id="para-00079">The polynomial \(x^4-16x^2+3x+12\) has its terms in order with descending degree, but we notice there is no \(x^3\) term. We will add a \(0\) as a placeholder for the \(x^3\) term. In \(x - c\) form, the divisor is \(x-(-4)\).</para>
+    <para id="para-00078">Use synthetic division to find the quotient and remainder when <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math> is divided by <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>.</para>
+    <para id="para-00079">The polynomial <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math> has its terms in order with descending degree, but we notice there is no <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> term. We will add a <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> as a placeholder for the <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> term. In <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow></m:math> form, the divisor is <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
     <para id="para-00080">
       
         <media alt="The figure shows the results of using synthetic division with the example of the polynomial x to the fourth power minus 16 x squared plus 3 x plus 12 divided by x plus 4. The divisor number if negative 4. The first row is 1 0 negative 16 3 12. The first column is 1 blank 1. The second column is negative 16 16 0. The third column is 3 0 3. The fourth column is 12 negative 12 0.">
@@ -599,27 +597,26 @@
         </media>
       
   </para>
-    <para id="para-00081">We divided a 4th degree polynomial by a 1st degree polynomial, so the quotient will be a 3rd degree polynomial. Reading from the third row, the quotient has the coefficients \(1\) \(-4\) \(0\) \(3\), which is \(x^3-4x^2+3\). The remainder is \(0\).</para>
+    <para id="para-00081">We divided a 4th degree polynomial by a 1st degree polynomial, so the quotient will be a 3rd degree polynomial. Reading from the third row, the quotient has the coefficients <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>3</m:mn></m:mrow></m:math>, which is <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>. The remainder is <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math>.</para>
     <note class="try" id="note-00003">
 <title>Try It: Dividing Polynomials Using Synthetic Division</title>
     
       <exercise id="exer-00007">
         <problem id="prob-00007">
-          <para id="para-00082">Use synthetic division to find the quotient and remainder when \(3x^3+10x^2+6x-2\) is divided by \(x + 2\).</para>
-          <para id="para-00083">Use synthetic division to find the quotient and remainder when \(x^4-16x^2+5x+20\) is divided by \(x + 4\).</para>
+          <para id="para-00082">Use synthetic division to find the quotient and remainder when <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> is divided by <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00083">Use synthetic division to find the quotient and remainder when <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow></m:math> is divided by <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>.</para>
           <para id="para-00084">Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution id="sol-00007">
           <para id="para-00085">Here is how to find these quotients using synthetic division:</para>
           <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-            <item>\(
-    3x^2+4x-2\); remainder of \(2\)</item>
+            <item><m:math display="inline"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math>; remainder of <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math></item>
           </list>
           <para id="para-00086">\(\begin{array}{l}\left. {\underline {\,
   { - 2} \,}}\! \right| \,\,\,\,\,3\,\,\,\,\,\,10\,\,\,\,\,\,6\,\,\,\,\, - 2\\\underline {\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 6\,\,\,\, - 8\,\,\,\,\,\,\,4\,\,} \\\,\,\,\,\,\,\,\,\,\,\,\,3\,\,\,\,\,\,4\,\,\,\,\, - 2\,\,\,\,\,\,\left| \!{\overline {\,
   2 \,}} \right. \end{array}\)</para>
           <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-            <item>\(x^3-4x^2+5\); remainder of \(0\)</item>
+            <item><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math>; remainder of <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math></item>
           </list>
           <para id="para-00087">\(\begin{array}{l}\left. {\underline {\,
   { - 4} \,}}\! \right| \,\,\,\,\,1\,\,\,\,\,\,\,\,0\,\,\,\,\,\, - 16\,\,\,\,\,\,\,5\,\,\,\,\,\,\,\,20\\\underline {\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 4\,\,\,\,\,\,\,\,\,16\,\,\,\,\,\,\,0\,\,\,\, - 20\,} \\\,\,\,\,\,\,\,\,\,\,\,\,1\,\,\,\,\, - 4\,\,\,\,\,\,\,\,\,\,0\,\,\,\,\,\,\,\,5\,\,\,\,\,\,\,\,\,\left| \!{\overline {\,

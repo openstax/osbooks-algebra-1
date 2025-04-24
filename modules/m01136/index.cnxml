@@ -117,7 +117,7 @@
 <exercise id="exer-00007">
   <problem id="prob-00007">
     <para id="para-00026">
-          \(\frac17\), __a__, \(\frac97\), \(\frac{27}7\), __b__
+          <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:math>, __a__, <m:math display="inline"><m:mrow><m:mfrac><m:mn>9</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>27</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac></m:mrow></m:math>, __b__
       </para>
       </problem><solution id="sol-00007">
     
@@ -125,7 +125,7 @@
   
   <para id="para-00028">Compare your answer:</para>
     
-    <para id="para-00029">\(\frac37\)</para>
+    <para id="para-00029"><m:math><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:math></para>
   
   </solution></exercise>
 <para id="para-00030">
@@ -142,7 +142,7 @@
   
   <para id="para-00032">Compare your answer:</para>
     
-    <para id="para-00033">\(\frac{81}7\)</para>
+    <para id="para-00033"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>81</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac></m:mrow></m:math></para>
   
   </solution></exercise>
 <!--Interaction End -->
@@ -229,7 +229,7 @@
   
   <para id="para-00050">Compare your answer:</para>
     
-    <para id="para-00051">\(\frac{1}{10}\)</para>
+    <para id="para-00051"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
   
   </solution></exercise>
 <para id="para-00052">
@@ -241,7 +241,7 @@
 <exercise id="exer-00014">
   <problem id="prob-00014">
     <para id="para-00053">
-          \(\frac17\), ___, \(\frac97\), \(\frac{27}7\), ___
+          <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:math>, ___, <m:math display="inline"><m:mrow><m:mfrac><m:mn>9</m:mn><m:mn>7</m:mn></m:mfrac></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>27</m:mn></m:mrow><m:mn>7</m:mn></m:mfrac></m:mrow></m:math>, ___
       </para>
       </problem><solution id="sol-00014">
     
@@ -269,7 +269,7 @@
   
   <para id="para-00058">Compare your answer:</para>
     
-    <para id="para-00059">\(\frac12\)</para>
+    <para id="para-00059"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
   
   </solution></exercise>
 <para id="para-00060">
@@ -287,8 +287,8 @@
     
   <section id="sect-00004"><title>Finding a Common Ratio</title>
    <section id="sect-00005"> <title>Definition of a Geometric Sequence</title>
-    <para id="para-00063">A geometric sequence is one in which any term divided by the previous term is a constant. This constant is called the common ratio of the sequence. The common ratio can be found by dividing any term in the sequence by the previous term. If \(a_1\) is the initial term of a geometric sequence and \(r\) is the common ratio, the sequence will be</para>
-    <para id="para-00064">{\(a_1, a_1\cdot r\), \(a_1\cdot r^2\), \(a_1\cdot r^3\), . . .}</para>
+    <para id="para-00063">A geometric sequence is one in which any term divided by the previous term is a constant. This constant is called the common ratio of the sequence. The common ratio can be found by dividing any term in the sequence by the previous term. If <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the initial term of a geometric sequence and <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> is the common ratio, the sequence will be</para>
+    <para id="para-00064">{<m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>,</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>·</m:mi><m:mi>r</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>·</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mi>·</m:mi><m:msup><m:mi>r</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math>, . . .}</para>
     <para id="para-00065">How to:</para>
     <para id="para-00066">Given a set of numbers, determine if they represent a geometric sequence.</para>
     <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
@@ -313,7 +313,7 @@
     <note class="try" id="note-00002">
     <title>Try It: Finding a Common Ratio</title>
     <para id="para-00069">Is the sequence geometric? If so, find the common ratio.</para>
-    <para id="para-00070">100, 20, 4, \(\frac45\), . . .</para>
+    <para id="para-00070">100, 20, 4, <m:math display="inline"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math>, . . .</para>
     
     <exercise id="exer-00016">
       <problem id="prob-00016">
@@ -324,7 +324,7 @@
       </problem><solution id="sol-00016">
       <para id="para-00072">Here is how to determine if the sequence is geometric:</para>
       
-      <para id="para-00073">Each term is \(\frac15\) of the previous term. So, the common ratio is \(\frac15\), and this is a geometric sequence.</para>
+      <para id="para-00073">Each term is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> of the previous term. So, the common ratio is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math>, and this is a geometric sequence.</para>
     
     </solution></exercise></note>
     </section>

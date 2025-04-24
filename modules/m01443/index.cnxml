@@ -18,10 +18,10 @@
       <table class="os-raise-midsizetable" id="table-00001">
         <tgroup cols="2"><tbody><row>
             <entry>
-             <emphasis> \(n\)Bounce Number</emphasis>
+             <emphasis> <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>Bounce Number</emphasis>
             </entry>
             <entry>
-             <emphasis> \(h\)Height (Centimeters)</emphasis>
+             <emphasis> <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>Height (Centimeters)</emphasis>
             </entry>
           </row>
         <row>
@@ -68,8 +68,8 @@
       
         <exercise id="exer-00001">
           <problem id="prob-00001">
-            <para id="para-00003">Which is more appropriate for modeling the maximum height \(h\), in centimeters, of the tennis ball after
-        \(n\) bounces: A linear function or an exponential function? Use data from the table to support your answer.
+            <para id="para-00003">Which is more appropriate for modeling the maximum height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>, in centimeters, of the tennis ball after
+        <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces: A linear function or an exponential function? Use data from the table to support your answer.
     </para>
             <para id="para-00004">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
@@ -161,13 +161,12 @@
       
         <exercise id="exer-00003">
           <problem id="prob-00003">
-            <para id="para-00013">Write an equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball.</para>
+            <para id="para-00013">Write an equation that models the bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces for this tennis ball.</para>
             <para id="para-00014">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00003">
             <para id="para-00015">Compare your answer:</para>
-            <para id="para-00016">\(
-    h=150 \cdot (0.53)^n\) (A factor of exactly 0.5 is also acceptable, or any value between 0.53 and 0.58.)</para>
+            <para id="para-00016"><m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.53</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> (A factor of exactly 0.5 is also acceptable, or any value between 0.53 and 0.58.)</para>
           </solution>
         </exercise>
       
@@ -181,12 +180,11 @@
           <solution id="sol-00004">
             <para id="para-00019">Compare your answer:</para>
             <para id="para-00020">8 bounces. For example:</para>
-            <para id="para-00021">The height of the ball is decreasing by a factor of about \(\frac12\) after each bounce. So after 3 more bounces,
-    it will decrease by a factor of about \(\frac18\) (giving a little more than 1 cm), but after 4 more bounces, it
-    will decrease by a factor of about \(\frac{1}{16}\).</para>
-            <para id="para-00022">Graphing \(
-    h=150 \cdot (0.53)^n\) and \(h=1\) simultaneously using graphing technology shows the bounce height first goes below
-    \(h=1\) on the 8th bounce.</para>
+            <para id="para-00021">The height of the ball is decreasing by a factor of about <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> after each bounce. So after 3 more bounces,
+    it will decrease by a factor of about <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math> (giving a little more than 1 cm), but after 4 more bounces, it
+    will decrease by a factor of about <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+            <para id="para-00022">Graphing <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.53</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> simultaneously using graphing technology shows the bounce height first goes below
+    <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> on the 8th bounce.</para>
           </solution>
         </exercise>
       
@@ -196,7 +194,7 @@
         <exercise id="exer-00005">
           <problem id="prob-00005">
             
-            <para id="para-00023">Graph the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball using the Desmos tool below.</para>
+            <para id="para-00023">Graph the equation that models the bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces for this tennis ball using the Desmos tool below.</para>
             <para id="para-00024">After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00005">
@@ -213,7 +211,7 @@
       <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media><!--END ADD DESMOS INTERATIVE-->
       <exercise id="exer-00006">
         <problem id="prob-00006">
-          <para id="para-00027">Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for this tennis ball to predict the difference in height after 6 bounces.
+          <para id="para-00027">Use the graph of the equation that models the bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces for this tennis ball to predict the difference in height after 6 bounces.
     </para>
           
         </problem>
@@ -221,12 +219,12 @@
           <para id="para-00028">Compare your answer:</para>
           <para id="para-00029">The difference in height after 6 bounces is 2.
       Using the equation: 
-      \(h=150 \cdot (0.50)^n\) and graphing \(h=150 \cdot (0.50)^6\). The graph shows the height to be 2.344 after 6 bounces \((n=6)\).
+      <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> and graphing <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:msup></m:mrow></m:math>. The graph shows the height to be 2.344 after 6 bounces <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.
       
       This is consistent with the reasoning :
-      The height of the ball is decreasing by a factor of about \(\frac {1}{2}\) after each bounce. 
-      After the 4th bounce, the height difference is 9. It should decrease by \(\frac {1}{2}\) for each bounce after that.
-      So, after 2 more bounces (the 6th bounce), it will decrease by a factor of about \(\frac {1}{4}\). The 6th bounce would be \(9 \cdot \frac{1}{4} \approx 2.25\). 
+      The height of the ball is decreasing by a factor of about <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math> after each bounce. 
+      After the 4th bounce, the height difference is 9. It should decrease by <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math> for each bounce after that.
+      So, after 2 more bounces (the 6th bounce), it will decrease by a factor of about <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math>. The 6th bounce would be <m:math display="inline"><m:mrow><m:mn>9</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>2.25</m:mn></m:mrow></m:math>. 
       Rounding either 2.344 or 2.25 results in the answer 2.
   </para>
         </solution>
@@ -333,7 +331,7 @@
         <item>What will the size of the population be in 10 hours?
     You may have to use a calculator to figure this one out.   You will double it four more times.   The population will be 5,120,000.</item>
       </list>
-      <para id="para-00037">The equation to model this growth is \(P(t)=5 \cdot 2^t\).</para>
+      <para id="para-00037">The equation to model this growth is <m:math display="inline"><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>t</m:mi></m:msup></m:mrow></m:math>.</para>
       <para id="para-00038">The graph is below:</para>
       <para id="para-00039">
           <media alt="">
@@ -347,8 +345,8 @@
         <exercise id="exer-00007">
           <problem id="prob-00007">
             <para id="para-00040">A ball bounces up and down from a starting height of 65 centimeters. As it bounces, its height decreases to
-  \(\frac13\) the previous height. Complete a table to represent the first 4 bounces.  Predict the height after 5 bounces. Then write a function, \(h(x)\),
-  to determine the height after \(x\) bounces.</para>
+  <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> the previous height. Complete a table to represent the first 4 bounces.  Predict the height after 5 bounces. Then write a function, <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>,
+  to determine the height after <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> bounces.</para>
             <para id="para-00041">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00007">
@@ -357,7 +355,7 @@
             <table class="os-raise-horizontaltable" id="table-00005">
               <tgroup cols="6"><tbody><row>
                   <entry>
-                   <emphasis>Number of Bounces, \(x\)</emphasis>
+                   <emphasis>Number of Bounces, <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>
          0
@@ -377,7 +375,7 @@
                 </row>
                 <row>
                   <entry>
-                   <emphasis>Height, \(h(x)\)</emphasis>
+                   <emphasis>Height, <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>
          65
@@ -396,9 +394,9 @@
         </entry>
                 </row>
               </tbody></tgroup></table>
-            <para id="para-00044">The initial height is 65, and the growth factor is \(\frac13\).</para>
-            <para id="para-00045">The height after the 5th bounce is \(\frac {65}{243}\)</para>
-            <para id="para-00046">The maximum height, \(h(x)\), after \(x\) bounces can be represented by \(h(x)=65 (\frac{1}{3})^x\).</para>
+            <para id="para-00044">The initial height is 65, and the growth factor is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>.</para>
+            <para id="para-00045">The height after the 5th bounce is <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>65</m:mn></m:mrow><m:mrow><m:mn>243</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+            <para id="para-00046">The maximum height, <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, after <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> bounces can be represented by <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>65</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math>.</para>
           </solution>
         </exercise>
       </note>

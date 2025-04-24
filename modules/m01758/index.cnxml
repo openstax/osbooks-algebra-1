@@ -172,11 +172,11 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00009">
-          <para id="para-00032">In Step \(n\), what is the number of dots in Pattern 1?</para>
+          <para id="para-00032">In Step <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, what is the number of dots in Pattern 1?</para>
         </problem>
         <solution id="sol-00009">
           <para id="para-00033">Compare your answer:</para>
-          <para id="para-00034">\(2n+1\)</para>
+          <para id="para-00034"><m:math><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -222,11 +222,11 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00014">
-          <para id="para-00047">In Step \(n\), what is the number of dots in Pattern 2?</para>
+          <para id="para-00047">In Step <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, what is the number of dots in Pattern 2?</para>
         </problem>
         <solution id="sol-00014">
           <para id="para-00048">Compare your answer:</para>
-          <para id="para-00049">\(n \cdot n\) or \(n^2\)</para>
+          <para id="para-00049"><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mi>·</m:mi><m:mi>n</m:mi></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -293,8 +293,7 @@
         <title>Writing Expressions for Patterns</title>
         <para id="para-00092"><emphasis id="para-00063">Example 1</emphasis></para>
         <para id="para-00064">
-              <media alt="DIAGRAM WITH 3 FIGURES. STEP 1 IS SHAPED LIKE A PLUS SIGN, WITH 1 SQUARE IN THE MIDDLE AND 1 SQUARE ATTACHED TO EACH OF ITS SIDES. STEP 2 HAS A RECTANGLE WITH 2 ROWS AND 4 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE. STEP 3 HAS A RECTANGLE WITH 3 ROWS AND 5 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE.
-">
+              <media alt="DIAGRAM WITH 3 FIGURES. STEP 1 IS SHAPED LIKE A PLUS SIGN, WITH 1 SQUARE IN THE MIDDLE AND 1 SQUARE ATTACHED TO EACH OF ITS SIDES. STEP 2 HAS A RECTANGLE WITH 2 ROWS AND 4 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE. STEP 3 HAS A RECTANGLE WITH 3 ROWS AND 5 COLUMNS. ABOVE AND BELOW THE SECOND COLUMN OF THE RECTANGLE IS 1 SQUARE. ">
               <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_05_01.jpg"/>
             </media>
           
@@ -302,11 +301,11 @@
         <para id="para-00065">Find the number of squares in Step 5:</para>
         <para id="para-00066">First, look to see the pattern. Every step, another row and another column are added, plus the two extra squares.</para>
         <list id="list-00004">
-          <item>Step 1: 1 row of \(3 + 2\)</item>
-          <item>Step 2: 2 rows of \(4 +2\)</item>
-          <item>Step 3: 3 rows of \(5 + 2\)</item>
+          <item>Step 1: 1 row of <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item>
+          <item>Step 2: 2 rows of <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item>
+          <item>Step 3: 3 rows of <m:math display="inline"><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item>
         </list>
-        <para id="para-00067">So the width is always 1 by \(n\), or \(n\). The length is \(n+2\), and then another 2 is added.</para>
+        <para id="para-00067">So the width is always 1 by <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, or <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>. The length is <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>, and then another 2 is added.</para>
         <para id="para-00068">Then, draw pictures or create a table:</para>
         <table class="os-raise-midsizetable" id="table-00002">
           <tgroup cols="2">
@@ -364,17 +363,16 @@
         </table>
         <para id="para-00079">At Step 5, there are 37 squares.</para>
         <para id="para-00093"><emphasis id="para-00080">Example 2</emphasis></para>
-        <para id="para-00081">Find the expression for Step \(n\).</para>
+        <para id="para-00081">Find the expression for Step <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>.</para>
         <para id="para-00082">Multiply the length and width, and then add the 2 extra squares:</para>
-        <para id="para-00083">\(n(n+2)+2 = n^2+2n+n\)</para>
+        <para id="para-00083"><m:math><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mi>n</m:mi></m:mrow></m:math></para>
         <note class="try" id="note-00002">
           <title>Try It: Writing Expressions for Patterns</title>
       <exercise id="exer-00010">
             <problem id="prob-00018">
-              <para id="para-00084">Use the figure below to find the number of squares in Step 5 and then Step \(n\).</para>
+              <para id="para-00084">Use the figure below to find the number of squares in Step 5 and then Step <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>.</para>
               <para id="para-00085">
-                          <media alt="DIAGRAM WITH 3 FIGURES. STEP 1 HAS A RECTANGLE WITH 2 ROWS AND 3 COLUMNS. 2 SQUARES OF A THIRD ROW ARE ADDED. STEP 2 HAS A RECTANGLE WITH 3 ROWS AND 4 COLUMNS. 3 SQUARES OF A FOURTH ROW ARE ADDED. STEP 3 HAS A RECTANGLE WITH 4 ROWS AND 5 COLUMNS. 4 SQUARES OF A FIFTH ROW ARE ADDED.
-">
+                          <media alt="DIAGRAM WITH 3 FIGURES. STEP 1 HAS A RECTANGLE WITH 2 ROWS AND 3 COLUMNS. 2 SQUARES OF A THIRD ROW ARE ADDED. STEP 2 HAS A RECTANGLE WITH 3 ROWS AND 4 COLUMNS. 3 SQUARES OF A FOURTH ROW ARE ADDED. STEP 3 HAS A RECTANGLE WITH 4 ROWS AND 5 COLUMNS. 4 SQUARES OF A FIFTH ROW ARE ADDED. ">
                     <image mime-type="image/jpeg" src="../../media/Algebra-1_08_04_05_02.jpg"/>
                   </media>
                 
@@ -420,7 +418,7 @@
                 </tgroup>
               </table>
               <para id="para-00090">There are 48 squares in Step 5.</para>
-              <para id="para-00091">Step \(n\) would be found with \((n+2)(n+2)-1\) or \((n+2)^2-1\).</para>
+              <para id="para-00091">Step <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> would be found with <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math>.</para>
             </solution>
           </exercise>
         </note>

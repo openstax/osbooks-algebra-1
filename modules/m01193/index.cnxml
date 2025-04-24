@@ -12,7 +12,7 @@
       <para id="para-00001">In 2015, the number of wildcats in a national park was 284. It was estimated that the wildcat population increased by 4% each year.</para>
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00002">Instead of writing a recursive definition, a researcher for the park writes \(W_n = 284(1.04)^n\), where \(W\) is the projected wildcat population \(n\) years after 2015. Explain where the different factors in her expression came from.</para>
+          <para id="para-00002">Instead of writing a recursive definition, a researcher for the park writes <m:math display="inline"><m:mrow><m:msub><m:mi>W</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>284</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1.04</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>W</m:mi></m:mrow></m:math> is the projected wildcat population <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> years after 2015. Explain where the different factors in her expression came from.</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00003"/>
@@ -24,8 +24,8 @@
             <item>The 1.04 represents that the population grows 4% or 0.04 each year.</item>
             <item>The 1.04 comes from 100% of the population + 4% growth = 104% or 1.04.</item>
             <item>
-          The \(n\) represents the number of years since 2015. 
-          So, in 2016, \(n = 1\) and in 2017, \(n = 2\).
+          The <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> represents the number of years since 2015. 
+          So, in 2016, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and in 2017, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.
        </item>
           </list>
         </solution>
@@ -35,14 +35,14 @@
       
         <exercise id="exer-00002">
           <problem id="prob-00002">
-            <para id="para-00007"> Complete the table when \(n=-2\) on your paper and check your answers.</para>
+            <para id="para-00007"> Complete the table when <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> on your paper and check your answers.</para>
             <table class="os-raise-wideequaltable" id="table-00001">
               <tgroup cols="3"><tbody><row>
                   <entry>
                    <emphasis>Year</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>\(n\)</emphasis>
+                   <emphasis><m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>
                    <emphasis>Wildcat Population</emphasis>
@@ -99,7 +99,7 @@
                    <emphasis>Year</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>\(n\)</emphasis>
+                   <emphasis><m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>
                    <emphasis>Wildcat Population</emphasis>
@@ -194,56 +194,56 @@
           </list>
         </solution>
       </exercise>
-      <para id="para-00020">Remember that a recursive formula defines terms using one or more of the previous terms. If you need to calculate the \(100^{th}\) term or the \(500^{th}\) term in a sequence, the recursive formula becomes difficult to use if you do not know the values of the terms near \(n = 100\) or \(n = 500\).</para>
+      <para id="para-00020">Remember that a recursive formula defines terms using one or more of the previous terms. If you need to calculate the <m:math display="inline"><m:mrow><m:msup><m:mn>100</m:mn><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:mrow></m:math> term or the <m:math display="inline"><m:mrow><m:msup><m:mn>500</m:mn><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:mrow></m:math> term in a sequence, the recursive formula becomes difficult to use if you do not know the values of the terms near <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>100</m:mn></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>500</m:mn></m:mrow></m:math>.</para>
       <para id="para-00021">Different definitions can often create the same sequence but are more generalizable. These are called general rules or explicit rules. These formulas can be used to find any term in the sequence and may also be referred to as the rule to find the nth term.</para>
       <note id="note-00001">
         <title>Geometric Sequence Formulas</title>
         <para id="para-00022"><emphasis>Recursive Formula</emphasis></para>
-        <para id="para-00023">\(a_n = a_{n-1} \cdot r\), 
-     Where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.</para>
+        <para id="para-00023"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mi>r</m:mi></m:mrow></m:math>, 
+     Where <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is the term you want, and <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> is the common ratio.</para>
      <para id="para-00024"><emphasis>Explicit General Formula</emphasis></para>
-        <para id="para-00025">\(a_n = a_1 (r)^{n-1} \)
-    Where \(a_1\) is the first term, \(n\) is the term you want, and \(r\) is the common ratio.</para>
+        <para id="para-00025"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>
+    Where <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is the term you want, and <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> is the common ratio.</para>
       </note>
     </section>
     <note class="self-check" id="note-00002"><title>Self Check</title>
-      <para id="para-00026">For the function \(J(n)= 180(\frac13)^{n-1}\), what is the value of the function when \(n=5\)?</para></note>
+      <para id="para-00026">For the function <m:math display="inline"><m:mrow><m:mi>J</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>180</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>, what is the value of the function when <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>?</para></note>
       <section id="sect-00002">
         <title>Additional Resources</title>
         
   <section id="sect-00003"><title>The nth Term of a Geometric Sequence</title>
     <note class="extra-support" id="note-00003">
     <title>The nth Term of a Geometric Sequence</title><para id="para-00027"><!--Extra Support Name-->General Term (nth Term) of a Geometric Sequence</para>
-    <!--Support Content--><para id="para-00028">The general term of a geometric sequence with first term \(a_1\) and the common ratio \(r\) is: \(a_n=a_1r^{n-1}\).</para>
+    <!--Support Content--><para id="para-00028">The general term of a geometric sequence with first term <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and the common ratio <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> is: <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>.</para>
     </note>
   
     <para id="para-00029"><emphasis>Example 1</emphasis></para>
   <para id="para-00030">Write the explicit formula for the sequence given by the terms 3, 2, 43, 89 ...</para>
   <para id="para-00031"><emphasis>Solution: </emphasis></para>
   <para id="para-00032"><emphasis>Step 1-</emphasis> Write the general formula.
-  \(a_n = a_1 (r^{n-1})\)</para>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
   
   <para id="para-00033"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
-  \(a_1 = 3\), \(r = \frac23\)
-  \(a_n = 3 (\frac 23)^{n-1}\)</para>
-  <para id="para-00034">So, the explicit formula for the sequence 3, 2, 43, 89 ... is \(a_n = 3 (\frac23)^{n-1}\).</para>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
+  <para id="para-00034">So, the explicit formula for the sequence 3, 2, 43, 89 ... is <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>.</para>
   <para id="para-00035">Just like it is with arithmetic sequences, the explicit formula makes finding any term easier to determine - especially term numbers that are very large!</para>
   
   <para id="para-00049"><emphasis id="para-00036">Example 2</emphasis></para>
   
-  <para id="para-00037">Find the 14th term of a sequence where the first term is 64 and the common ratio, \(r =\frac 12\).</para>
+  <para id="para-00037">Find the 14th term of a sequence where the first term is 64 and the common ratio, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>.</para>
   <para id="para-00038"><emphasis>Solution: </emphasis></para>
   <para id="para-00039"><emphasis>Step 1 -</emphasis> Write the general formula.
-  \(a_n = a_1 (r^{n-1})\)</para>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
   <para id="para-00040"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number.
-  \(a_1 = 64\), \(r = \frac12\), \(n = 14\)
-  \(a_{14} = 64 (\frac12)^{14-1}\)</para>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>64</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>14</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
   <para id="para-00041"><emphasis>Step 3 -</emphasis> Simplify the expression.
-  \(a_{14} = 64 (\frac12)^{13}\)
-  \(a_{14} = 64 (\frac12)^{13}\)
-  \(a_{14} = 64 (\frac{1}{8192})\)
-  \(a_{14} = \frac{1}{128}\)</para>
-   <para id="para-00042">If the explicit formula for this question was needed, we would not have substituted \(n = 14\) and the nth term formula would have been \(a_n = 64 (\frac12)^{n-1}\).</para>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:math>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:math>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>8192</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>128</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+   <para id="para-00042">If the explicit formula for this question was needed, we would not have substituted <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math> and the nth term formula would have been <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>.</para>
   
   
   <note class="try" id="note-00004">
@@ -253,7 +253,7 @@
     <problem id="prob-00006">
        
         
-      <para id="para-00043">Find the formula for the nth term of a sequence where the first term is 81 and the common ratio  is \(r=\frac13\).</para>
+      <para id="para-00043">Find the formula for the nth term of a sequence where the first term is 81 and the common ratio  is <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>.</para>
     
     <para id="para-00044">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
     </para>
@@ -264,11 +264,11 @@
   <para id="para-00046">Here is how to find the 11th term of the sequence:</para>
   
   <para id="para-00047"><emphasis>Step 1 -</emphasis> Write the general formula.
-  \(a_n=a_1(r^{n-1})\)</para>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
   
   <para id="para-00048"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
-  \(a_{11}=81\), \(r=\frac13\)
-  \(a_n = 81 (\frac13)^{n-1}\)
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>81</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>
+  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>81</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>
  </para>
     
   

@@ -232,7 +232,7 @@
 <media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/65d24174dc794f36c8a7e4f9f62645f31aea59f8"/></media></section>
 
 <note class="self-check" id="note-00001">
-  (    <para id="para-00008">Which of the following equations is true?</para>)
+  <para id="para-00008">Which of the following equations is true?</para>
     </note>
 
     <section id="sect-00003">
@@ -241,30 +241,30 @@
     <section id="sect-00004">
       <title>Using Scientific Notation</title>
       <para id="para-00009">Working with very large or very small numbers can be awkward. Since our number system is base ten, we can use powers of ten to rewrite very large or very small numbers to make them easier to work with. Consider the numbers 4,000 and 0.004.</para>
-      <para id="para-00010">Using place value, we can rewrite the numbers 4,000 and 0.004. We know that 4,000 means \(4\times 1,000\) and 0.004 means \(4\times\frac1{1000}\).</para>
+      <para id="para-00010">Using place value, we can rewrite the numbers 4,000 and 0.004. We know that 4,000 means <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>×</m:mi><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math> and 0.004 means <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>×</m:mi><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1000</m:mn></m:mrow></m:mfrac></m:mrow></m:math>.</para>
       <para id="para-00011">If we write the 1,000 as a power of ten in exponential form, we can rewrite these numbers in this way:</para>
         <para id="para-00012">4,000</para>
-        <para id="para-00013">\(4\times 1,000\)</para>
-        <para id="para-00014">\(4\times 10^3\)</para>
+        <para id="para-00013"><m:math><m:mrow><m:mn>4</m:mn><m:mi>×</m:mi><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math></para>
+        <para id="para-00014"><m:math><m:mrow><m:mn>4</m:mn><m:mi>×</m:mi><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math></para>
       
         <para id="para-00015">0.004</para>
-        <para id="para-00016">\(4\times\frac1{1000}\)</para>
-        <para id="para-00017">\(4\times\frac1{10^3}\)</para>
-        <para id="para-00018">\(4\times 10^{-3}\)</para>
+        <para id="para-00016"><m:math><m:mrow><m:mn>4</m:mn><m:mi>×</m:mi><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1000</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+        <para id="para-00017"><m:math><m:mrow><m:mn>4</m:mn><m:mi>×</m:mi><m:mfrac><m:mn>1</m:mn><m:mrow><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
+        <para id="para-00018"><m:math><m:mrow><m:mn>4</m:mn><m:mi>×</m:mi><m:msup><m:mn>10</m:mn><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
       
       <para id="para-00019">When a number is written as a product of two numbers, where the first factor is a number greater than or equal to 1 but less than 10, and the second factor is a power of 10 written in exponential form, it is said to be in <term class="glossary-tooltip" id="term-00001">scientific notation</term>.</para>
       <para id="para-00020">A number is expressed in scientific notation when it is in this form :</para>
-      <para id="para-00021">\(a\times 10^n\), where \(1 \leq&amp;boxv;a&amp;boxv;&lt; 10\) and \(n\) is an integer.</para>
+      <para id="para-00021"><m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>×</m:mi><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mn>1</m:mn><m:mo>≤</m:mo><m:mi>│</m:mi><m:mi>a</m:mi><m:mi>│</m:mi><m:mo>&lt;</m:mo><m:mn>10</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is an integer.</para>
       <!--Interaction End -->
       <para id="para-00022">It is customary in scientific notation to use × as the multiplication sign, even though we avoid using this sign elsewhere in algebra.</para></section>
       <section id="sect-00005">
       <title>To convert a decimal to scientific notation:</title>
       <para id="para-00023">Step 1. Move the decimal point so that the first factor is greater than or equal to 1 but less than 10.</para>
-      <para id="para-00024">Step 2. Count the number of decimal places, \(n\), that the decimal point was moved.</para>
+      <para id="para-00024">Step 2. Count the number of decimal places, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, that the decimal point was moved.</para>
       <para id="para-00025">Step 3. Write the number as a product with a power of 10. If the original number is</para>
       <list id="list-00001">
-        <item>greater than 1, the power of 10 will be \(10^n\).</item>
-        <item>between 0 and 1, the power of 10 will be \(10^{−n}\).</item>
+        <item>greater than 1, the power of 10 will be <m:math display="inline"><m:mrow><m:msup><m:mn>10</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:math>.</item>
+        <item>between 0 and 1, the power of 10 will be <m:math display="inline"><m:mrow><m:msup><m:mn>10</m:mn><m:mrow><m:mi>−</m:mi><m:mi>n</m:mi></m:mrow></m:msup></m:mrow></m:math>.</item>
       </list>
       <para id="para-00026">Step 4. Check.</para>
       <para id="para-00027">Example: Write in scientific notation:</para>
@@ -276,18 +276,18 @@
       </list></section>
       <section id="sect-00006">
       <title> To convert scientific notation to decimal form:</title>
-      <para id="para-00028">Step 1. Determine the exponent, \(n\), on the factor of 10.</para>
-      <para id="para-00029">Step 2. Move the decimal \(n\) places, adding zeros if needed.</para>
+      <para id="para-00028">Step 1. Determine the exponent, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, on the factor of 10.</para>
+      <para id="para-00029">Step 2. Move the decimal <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> places, adding zeros if needed.</para>
       <list id="list-00003">
-        <item>If the exponent is positive, move the decimal point \(n\) places to the right.</item>
-        <item>If the exponent is negative, move the decimal point \(n\) places to the left.</item>
+        <item>If the exponent is positive, move the decimal point <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> places to the right.</item>
+        <item>If the exponent is negative, move the decimal point <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> places to the left.</item>
       </list>
       <para id="para-00030">Step 3. Check.</para>
       <para id="para-00031">Example: Write in decimal form:</para>
       <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
-        <item>\(6.2 \times 10^3\) 
+        <item><m:math display="inline"><m:mrow><m:mn>6.2</m:mn><m:mi>×</m:mi><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math> 
    <emphasis>Solution:</emphasis> (<media alt="Insert Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_05_08_11_03.jpg"/></media>)</item>
-        <item>\(-8.9\times10^{-2}\) 
+        <item><m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>8.9</m:mn><m:mi>×</m:mi><m:msup><m:mn>10</m:mn><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math> 
    <emphasis>Solution:</emphasis> (<media alt="Insert Alt Text"><image mime-type="image/jpeg" src="../../media/Algebra-1_05_08_11_04.jpg"/></media>)</item>
       </list>
       <note class="try" id="note-00002">
@@ -299,21 +299,16 @@
             <para id="para-00033">65,000,000</para>
             <para id="para-00034">0.00034</para>
             <para id="para-00035">Write in decimal form.</para>
-            <para id="para-00036">\(5.3 \times10^5
-        \)</para>
-            <para id="para-00037">\(4.25 \times10^{-3}\)</para>
+            <para id="para-00036"><m:math><m:mrow><m:mn>5.3</m:mn><m:mi>×</m:mi><m:msup><m:mn>10</m:mn><m:mn>5</m:mn></m:msup></m:mrow></m:math></para>
+            <para id="para-00037"><m:math><m:mrow><m:mn>4.25</m:mn><m:mi>×</m:mi><m:msup><m:mn>10</m:mn><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
             <para id="para-00038">Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00003">
             <para id="para-00039">Compare your answers:</para>
             <para id="para-00040">Here is how to write the numbers:</para>
             <list class="os-raise-noindent" list-type="enumerated" id="list-00005">
-              <item>\(
-      6.5 \times10^7
-      \)</item>
-              <item>\(
-      3.4\times10^{-4}
-      \)</item>
+              <item><m:math><m:mrow><m:mn>6.5</m:mn><m:mi>×</m:mi><m:msup><m:mn>10</m:mn><m:mn>7</m:mn></m:msup></m:mrow></m:math></item>
+              <item><m:math><m:mrow><m:mn>3.4</m:mn><m:mi>×</m:mi><m:msup><m:mn>10</m:mn><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:math></item>
               <item>530,000</item>
               <item>0.00425</item>
             </list>

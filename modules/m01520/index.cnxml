@@ -7,14 +7,14 @@
   </metadata>
   <content>
   <section id="sect-00001"><title>Activity</title>
-<para id="para-00001">Here is a table that shows some input and output values of an exponential function \(g\). The equation \(g(x)=3^x\)
+<para id="para-00001">Here is a table that shows some input and output values of an exponential function <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math>. The equation <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>
   defines the function.</para>
 <table class="os-raise-skinnytable" id="table-00002">
   <tgroup cols="2"><tbody><row>
       <entry><emphasis>
-        \(x\)
+        <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>
      </emphasis> </entry><entry><emphasis>
-        \(g(x)\)
+        <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
      </emphasis> </entry></row>
   <row>
       <entry>
@@ -66,13 +66,13 @@
     </row>
     <row>
       <entry>
-        <para id="para-00014">\(x\)</para>
+        <para id="para-00014"><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></para>
       </entry>
       <entry/>
     </row>
     <row>
       <entry>
-        <para id="para-00015">\(x+1\)</para>
+        <para id="para-00015"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
       </entry>
       <entry/>
     </row>
@@ -82,7 +82,7 @@
 <!--Text Entry Interaction Start -->
 <exercise id="exer-00001">
   <problem id="prob-00001">
-    <para id="para-00016">How does \(g(x)\) change every time \(x\) increases by 1? Show or explain your reasoning.
+    <para id="para-00016">How does <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> change every time <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases by 1? Show or explain your reasoning.
     </para>
     </problem><solution id="sol-00001">
     
@@ -109,7 +109,7 @@
   
   <para id="para-00020">Compare your answer:</para>
     
-    <para id="para-00021">\(g(10)=3^{10}\) and \(g(11)=3^{11}\). The output still grows by a factor of 3 when the input increases by 1
+    <para id="para-00021"><m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mn>10</m:mn></m:mrow></m:msup></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mn>11</m:mn></m:mrow></m:msup></m:mrow></m:math>. The output still grows by a factor of 3 when the input increases by 1
       (from 10 to 11).</para>
   
   </solution></exercise>
@@ -119,7 +119,7 @@
 <!--Text Entry Interaction Start -->
 <exercise id="exer-00003">
   <problem id="prob-00003">
-    <para id="para-00022">Complete the table with the output when the input is \(x\) and when it is \(x+1\).
+    <para id="para-00022">Complete the table with the output when the input is <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> and when it is <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>.
     </para>
     </problem><solution id="sol-00003">
     
@@ -130,19 +130,19 @@
     <table class="os-raise-skinnytable" id="table-00003">
       <tgroup cols="2"><tbody><row>
           <entry><emphasis>
-            \(x\)
+            <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>
          </emphasis> </entry><entry><emphasis>
-            \(g(x)\)
+            <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
          </emphasis> </entry></row>
       <row>
           <entry>
-            <para id="para-00024">\(x\)</para>
+            <para id="para-00024"><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></para>
           </entry>
           <entry>\(3^x\)</entry>
         </row>
         <row>
           <entry>
-            <para id="para-00025">\(x+1\)</para>
+            <para id="para-00025"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
           </entry>
           <entry>\(3^{x+1}\)</entry>
         </row>
@@ -155,7 +155,7 @@
 <!--Text Entry Interaction Start -->
 <exercise id="exer-00004">
   <problem id="prob-00004">
-    <para id="para-00026">Look at the change in output values as the \(x\) increases by 1. Does it still agree with your earlier
+    <para id="para-00026">Look at the change in output values as the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases by 1. Does it still agree with your earlier
         findings? Show your reasoning.
     </para>
     </problem><solution id="sol-00004">
@@ -164,8 +164,8 @@
   
   <para id="para-00027">Compare your answer:</para>
     
-    <para id="para-00028">Yes, the outputs still increase by a factor of 3. By rules of exponents, we know that \(3x \cdot 3=3^{x+1}\). (Or
-      by rules of exponents, we know that \(\frac {3^{x+1}}{3^x}=3^{x+1-x}\), which equals 3.)</para>
+    <para id="para-00028">Yes, the outputs still increase by a factor of 3. By rules of exponents, we know that <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>·</m:mi><m:mn>3</m:mn><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>. (Or
+      by rules of exponents, we know that <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:msup></m:mrow></m:math>, which equals 3.)</para>
   
   </solution></exercise>
 <!--Interaction End -->
@@ -176,8 +176,8 @@
 <!--Text Entry Interaction Start -->
 <exercise id="exer-00005">
   <problem id="prob-00005">
-    <para id="para-00030">Choose two \(x\)-values where one is 3 more than the other (for example, 1 and 4). How do the output values
-        of \(g\) change as \(x\) increases by 3? (Each group member should choose a different pair of numbers and study
+    <para id="para-00030">Choose two <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values where one is 3 more than the other (for example, 1 and 4). How do the output values
+        of <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> change as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases by 3? (Each group member should choose a different pair of numbers and study
         the outputs.)</para>
     </problem><solution id="sol-00005">
     
@@ -185,7 +185,7 @@
   
   <para id="para-00031">Compare your answer:</para>
     
-    <para id="para-00032">The output values increase by a factor of 27 or \(3^3\).</para>
+    <para id="para-00032">The output values increase by a factor of 27 or <m:math display="inline"><m:mrow><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math>.</para>
   
   </solution></exercise>
 <!--Interaction End -->
@@ -194,25 +194,25 @@
 <!--Text Entry Interaction Start -->
 <exercise id="exer-00006">
   <problem id="prob-00006">
-    <para id="para-00033">Complete this table with the output when the input is \(x\) and when it is \(x+3\). Look at the change in
-        output values as \(x\) increases by 3. Does it agree with your group’s findings in the previous question?
+    <para id="para-00033">Complete this table with the output when the input is <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> and when it is <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>. Look at the change in
+        output values as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases by 3. Does it agree with your group’s findings in the previous question?
         Show your reasoning. 
         <table class="os-raise-skinnytable" id="table-00004">
           <tgroup cols="2"><tbody><row>
               <entry><emphasis>
-                \(x\)
+                <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>
              </emphasis> </entry><entry><emphasis>
-                \(g(x)\)
+                <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
              </emphasis> </entry></row>
           <row>
               <entry>
-                <para id="para-00034">\(x\)</para>
+                <para id="para-00034"><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></para>
               </entry>
               <entry/>
             </row>
             <row>
               <entry>
-                <para id="para-00035">\(x+3\)</para>
+                <para id="para-00035"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
               </entry>
               <entry/>
             </row>
@@ -227,26 +227,26 @@
     <table class="os-raise-skinnytable" id="table-00005">
       <tgroup cols="2"><tbody><row>
           <entry><emphasis>
-            \(x\)
+            <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>
          </emphasis> </entry><entry><emphasis>
-            \(g(x)\)
+            <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
          </emphasis> </entry></row>
       <row>
           <entry>
-            <para id="para-00037">\(x\)</para>
+            <para id="para-00037"><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></para>
           </entry>
           <entry>\(3^x\)</entry>
         </row>
         <row>
           <entry>
-            <para id="para-00038">\(x+3\)</para>
+            <para id="para-00038"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
           </entry>
           <entry>\(3^{x+3}\)</entry>
         </row>
       </tbody></tgroup></table>
     
-    <para id="para-00039">Yes, the outputs still increase by a factor of 27. By rules of exponents, we know that \(3x \cdot 3^3=3^{x+3}\).
-      (Or by rules of exponents, we know that \(\frac{3^{x+3}}{3^x}=3^{x+3-x}\), which equals \(3^3\) or 27.)</para>
+    <para id="para-00039">Yes, the outputs still increase by a factor of 27. By rules of exponents, we know that <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math>.
+      (Or by rules of exponents, we know that <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:msup></m:mrow></m:math>, which equals <m:math display="inline"><m:mrow><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math> or 27.)</para>
   
   </solution></exercise>
 <!--Interaction End -->
@@ -301,12 +301,12 @@
        </emphasis> </entry></row>
     <row>
         <entry>
-          <para id="para-00048">\(3 \cdot 5=3+3+3+3+3\)</para>
+          <para id="para-00048"><m:math><m:mrow><m:mn>3</m:mn><m:mi>·</m:mi><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
         </entry>
         <entry>\(3^5=3 \cdot 3 \cdot 3 \cdot 3 \cdot 3\)</entry>
       </row>
     </tbody></tgroup></table>
-  <para id="para-00049">We could continue this process with a new operation called tetration. It uses the symbol \(\uparrow \uparrow\), and
+  <para id="para-00049">We could continue this process with a new operation called tetration. It uses the symbol <m:math display="inline"><m:mrow><m:mo>↑</m:mo><m:mo>↑</m:mo></m:mrow></m:math>, and
     it is defined as repeated exponentiation:</para>
   
   <table class="os-raise-skinnytable" id="table-00007">
@@ -315,26 +315,26 @@
        </emphasis> </entry></row>
     <row>
         <entry>
-          <para id="para-00050">\(3 \uparrow \uparrow 5=3^{3 \wedge 3 \wedge 3 \wedge 3}\)</para>
+          <para id="para-00050"><m:math><m:mrow><m:mn>3</m:mn><m:mo>↑</m:mo><m:mo>↑</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mn>3</m:mn><m:mo>∧</m:mo><m:mn>3</m:mn><m:mo>∧</m:mo><m:mn>3</m:mn><m:mo>∧</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
         </entry>
       </row>
     </tbody></tgroup></table>
 
 
 <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-<exercise id="_313acd1a-7c7e-4fbb-afb2-d1bcadcd6aa4" class="multiple-choice"><problem id="prob-00009"><para id="para-00051">Compute \(2 \uparrow \uparrow 3\) and \(3 \uparrow \uparrow 2\).</para>
-      </problem><solution id="sol-00009"><para id="para-00052">Correct! \(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
-    </para><para id="para-00053">Nice try! The correct answer is: \(2 \uparrow \uparrow 3=2^{2 \wedge 2}=24=16\)
+<exercise id="_313acd1a-7c7e-4fbb-afb2-d1bcadcd6aa4" class="multiple-choice"><problem id="prob-00009"><para id="para-00051">Compute <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mo>↑</m:mo><m:mo>↑</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mo>↑</m:mo><m:mo>↑</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+      </problem><solution id="sol-00009"><para id="para-00052">Correct! <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mo>↑</m:mo><m:mo>↑</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mn>2</m:mn><m:mo>∧</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>24</m:mn><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math>
+    </para><para id="para-00053">Nice try! The correct answer is: <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mo>↑</m:mo><m:mo>↑</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mn>2</m:mn><m:mo>∧</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>24</m:mn><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math>
     </para></solution></exercise>
       
-      <exercise id="e74fe222-cc10-4559-8c03-0680b1d0a710" class="multiple-choice"><problem id="prob-00010"><para id="para-00054">Compute \(f(x)=3 \uparrow \uparrow x\).</para>
-      </problem><solution id="sol-00010"><para id="para-00055">Correct! \(3 \uparrow \uparrow 2=3^3=27\)
-    </para><para id="para-00056">Nice try! The correct answer is: \(3 \uparrow \uparrow 2=3^3=27\)
+      <exercise id="e74fe222-cc10-4559-8c03-0680b1d0a710" class="multiple-choice"><problem id="prob-00010"><para id="para-00054">Compute <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>↑</m:mo><m:mo>↑</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</para>
+      </problem><solution id="sol-00010"><para id="para-00055">Correct! <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mo>↑</m:mo><m:mo>↑</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>27</m:mn></m:mrow></m:math>
+    </para><para id="para-00056">Nice try! The correct answer is: <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mo>↑</m:mo><m:mo>↑</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>27</m:mn></m:mrow></m:math>
     </para></solution></exercise>
 
 <exercise class="RFM1" id="exer-00009">
   <problem id="prob-00011">
-    <para id="para-00057">What is the relationship between \(f(x)\) and \(f(x+1)\)?</para>
+    <para id="para-00057">What is the relationship between <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
     </problem><solution id="sol-00011">
     
     
@@ -342,11 +342,11 @@
   <para id="para-00058">Compare your answer:</para>
     
     <para id="para-00059">The numbers output by this function get large absurdly fast, even in comparison to exponential functions. We
-      calculated \(f(2)=27\) above, and now \(f(3)=3^{f(2)}=3^{27}=7,625,597,484,987\).</para>
+      calculated <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>27</m:mn></m:mrow></m:math> above, and now <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mn>27</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>625</m:mn><m:mo>,</m:mo><m:mn>597</m:mn><m:mo>,</m:mo><m:mn>484</m:mn><m:mo>,</m:mo><m:mn>987</m:mn></m:mrow></m:math>.</para>
   
   </solution></exercise></section></section>
   <note class="self-check" id="note-00001">
-    (    <para id="para-00060">Given \(f(x) = 4^x\), what is \(\frac{f(x+2)}{f(x+1)}\)?</para>)
+    <para id="para-00060">Given <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>, what is <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:math>?</para>
       </note>
   
       <section id="sect-00005">
@@ -354,25 +354,25 @@
         
     <section id="sect-00006">
       <title> Determining the Growth Rate of Exponential Functions</title>
-      <para id="para-00061">For the table below, assume the function \(f\) is defined for all real numbers. Calculate \(\triangle f =
-  f(x+1)-f(x)\) in the last column. (The symbol \(\triangle\) in this context means “change in.”) What do
-  you notice about \(\triangle f\)? Could the function be linear or exponential? Write a linear or an exponential
+      <para id="para-00061">For the table below, assume the function <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> is defined for all real numbers. Calculate \(\triangle f =
+  f(x+1)-f(x)\) in the last column. (The symbol <m:math display="inline"><m:mrow><m:mi>△</m:mi></m:mrow></m:math> in this context means “change in.”) What do
+  you notice about <m:math display="inline"><m:mrow><m:mi>△</m:mi><m:mi>f</m:mi></m:mrow></m:math>? Could the function be linear or exponential? Write a linear or an exponential
   function formula that generates the same input–output pairs as given in the table.</para>
       <table class="os-raise-wideequaltable" id="table-00001">
         <tgroup cols="3"><tbody><row>
             <entry>
              <emphasis>
-        \(x\)
+        <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>
      </emphasis> 
             </entry>
             <entry>
              <emphasis>
-        \(f(x)\)
+        <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
      </emphasis> 
             </entry>
             <entry>
              <emphasis>
-        \(\triangle f=f(x+1)-f(x)\)
+        <m:math display="inline"><m:mrow><m:mi>△</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
      </emphasis> 
             </entry>
           </row>
@@ -422,14 +422,14 @@
             <entry/>
           </row>
         </tbody></tgroup></table>
-      <para id="para-00062">For each row, you subtract \(f(x)\) values. The first row would be \(6- 2 =4\), then \(18 - 6 =12\), then \(54 - 18
-  =36\), and then \(162 - 54 = 108\). Since the rate of change isn’t consistent, it is not a linear
+      <para id="para-00062">For each row, you subtract <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> values. The first row would be <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, then <m:math display="inline"><m:mrow><m:mn>18</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>, then \(54 - 18
+  =36\), and then <m:math display="inline"><m:mrow><m:mn>162</m:mn><m:mo>−</m:mo><m:mn>54</m:mn><m:mo>=</m:mo><m:mn>108</m:mn></m:mrow></m:math>. Since the rate of change isn’t consistent, it is not a linear
   function.  Exponential functions have a growth factor or a repeated rate that terms are being multiplied by. If
   you divide consecutive terms, you will find the growth rate is 3. Notice that the change between consecutive terms
   also has a growth rate of 3.</para>
       <para id="para-00063">Since this function is exponential, an equation will have the form \(f(x) = initial \;\ value \;\ (growth \;\
-  rate)^x\). The growth rate is 3. The initial value is the same as the \(y\)-intercept, or where \(x=0\). \(f(0)\) is
-  given in the table, so the initial value is 2. The equation for this table would be \(f(x) = 2(3)^x\).</para>
+  rate)^x\). The growth rate is 3. The initial value is the same as the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept, or where <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is
+  given in the table, so the initial value is 2. The equation for this table would be <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math>.</para>
 
       <note class="try" id="note-00002">
   <title>Try It: Determining the Growth Rate of Exponential Functions</title>
@@ -451,9 +451,9 @@
             <para id="para-00067">Compare your answer:</para>
             <para id="para-00068">Here is how to write the equation of an exponential function from a graph:</para>
             <para id="para-00069">The graph seems to be exponential. If you find the rate of change between consecutive points, you find the graph is
-    exponential and the rate of change is 2 since the \(y\)-values increase by a factor of 2 every time the \(x\)-values
-    increase by 1. Since the graph crosses the \(y\)-axis at \((0,1)\), that is the initial value. The equation for this
-    graph is \(f(x) = 2^x\).</para>
+    exponential and the rate of change is 2 since the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values increase by a factor of 2 every time the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values
+    increase by 1. Since the graph crosses the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-axis at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, that is the initial value. The equation for this
+    graph is <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>.</para>
           </solution>
         </exercise>
       </note>

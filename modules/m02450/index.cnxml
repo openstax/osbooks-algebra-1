@@ -10,13 +10,13 @@
       <title>Cool Down Activity</title>
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00001">Here is someone's solution to the equation \(3x^2−4x=20\).</para>
-          <para id="para-00002"><emphasis>Step 1</emphasis> - \(3x^2−4x=20\)</para>
-          <para id="para-00003"><emphasis>Step 2</emphasis> - \(a=3\), \(b=-4\), \(c=20\)</para>
-          <para id="para-00004"><emphasis>Step 3</emphasis> - \(x=\frac{-b \pm \sqrt{b^2- 4ac}}{2a}\)</para>
-          <para id="para-00005"><emphasis>Step 4</emphasis> - \(x=\frac{-4 \pm \sqrt{(-4)^2- (4)(3)(20)}}{2(3)}\)</para>
-          <para id="para-00006"><emphasis>Step 5</emphasis> - \(x=\frac{-4 \pm \sqrt{-16-240}}{6}\)</para>
-          <para id="para-00007"><emphasis>Step 6</emphasis> - \(x=\frac{-4 \pm \sqrt{-256}}{6}\)</para>
+          <para id="para-00001">Here is someone's solution to the equation <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00002"><emphasis>Step 1</emphasis> - <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math></para>
+          <para id="para-00003"><emphasis>Step 2</emphasis> - <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math></para>
+          <para id="para-00004"><emphasis>Step 3</emphasis> - <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+          <para id="para-00005"><emphasis>Step 4</emphasis> - <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:math></para>
+          <para id="para-00006"><emphasis>Step 5</emphasis> - <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:mo>−</m:mo><m:mn>16</m:mn><m:mo>−</m:mo><m:mn>240</m:mn></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+          <para id="para-00007"><emphasis>Step 6</emphasis> - <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:mo>−</m:mo><m:mn>256</m:mn></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>6</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
           <para id="para-00008">No Solutions</para>
           <para id="para-00009">Identify as many errors as you can and briefly explain each error.</para>
           <para id="para-00010">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
@@ -24,10 +24,10 @@
         <solution id="sol-00001">
           <para id="para-00011">Compare your Answer:</para>
           <list id="list-00001">
-            <item>\(b\) is -4, so in Step 4, the value \(-b\) should be -(-4), which is 4.</item>
-            <item>In Step 1, the equation should be rewritten as \(ax^2+bx+c=0\), so the constant term \(c\) is -20, not 20. So, in Step 4, the last part of the numerator should be \(\sqrt{(-4)^2-4(3)(-20)}\).</item>
-            <item>In Step 4, \((-4)^2\) should be 16. Squaring a negative number gives a positive number.</item>
-            <item>If the earlier issues were fixed, then the values under the square root symbol would be \(16+240\) or 256.</item>
+            <item><m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> is -4, so in Step 4, the value <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mi>b</m:mi></m:mrow></m:math> should be -(-4), which is 4.</item>
+            <item>In Step 1, the equation should be rewritten as <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, so the constant term <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> is -20, not 20. So, in Step 4, the last part of the numerator should be <m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt></m:mrow></m:math>.</item>
+            <item>In Step 4, <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math> should be 16. Squaring a negative number gives a positive number.</item>
+            <item>If the earlier issues were fixed, then the values under the square root symbol would be <m:math display="inline"><m:mrow><m:mn>16</m:mn><m:mo>+</m:mo><m:mn>240</m:mn></m:mrow></m:math> or 256.</item>
           </list>
         </solution>
       </exercise>

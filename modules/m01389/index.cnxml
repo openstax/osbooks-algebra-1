@@ -7,7 +7,7 @@
   </metadata>
   <content>
   <section id="sect-00001"><title>Activity</title>
-<para id="para-00001">An exponential function is written in the form \(f(x)=ab^x\), where \(a\) is the initial value and \(b\) is the growth factor.</para>
+<para id="para-00001">An exponential function is written in the form <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> is the initial value and <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> is the growth factor.</para>
 
 <!--Text Entry Interaction Start -->
 <exercise id="exer-00001">
@@ -52,15 +52,14 @@
   
   <para id="para-00013">Compare your answer:</para>
     
-    <para id="para-00014">\(
-      f(t)=50 \cdot 2^t\)</para>
+    <para id="para-00014"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>50</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>t</m:mi></m:msup></m:mrow></m:math></para>
   
   </solution></exercise>
 
 <!--Text Entry Interaction Start -->
 <exercise id="exer-00004">
   <problem id="prob-00004">
-    <para id="para-00015"> Every year after a new car is purchased, it loses \(\frac13\) of its value. Let’s say that the new car costs $18,000.</para>
+    <para id="para-00015"> Every year after a new car is purchased, it loses <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> of its value. Let’s say that the new car costs $18,000.</para>
       
       <para id="para-00016"> Write a sentence of the form “_____ is a function of _____.”</para>
       </problem><solution id="sol-00004">
@@ -99,15 +98,14 @@
   
   <para id="para-00026">Compare your answer:</para>
     
-    <para id="para-00027">\(
-      f(t)=18,000 \cdot (\frac{2}{3})^t\). Note: \(\frac13\) is the rate, and growth factor \(=1-\) rate, so the growth factor is \(\frac23\) because there’s \(\frac23\) left.</para>
+    <para id="para-00027"><m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math>. Note: <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> is the rate, and growth factor <m:math display="inline"><m:mrow><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>−</m:mo></m:mrow></m:math> rate, so the growth factor is <m:math display="inline"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> because there’s <m:math display="inline"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> left.</para>
   
   </solution></exercise>
 
 <!--Text Entry Interaction Start -->
 <exercise id="exer-00007">
   <problem id="prob-00007">
-    <para id="para-00028">To control an algae bloom in a lake, scientists introduce some treatment products. The day they begin treatment, the area covered by algae is 240 square yards. Each day since the treatment began, a third of the previous day’s area (in square yards) remains covered by algae. Time \(t\) is measured in days.</para>
+    <para id="para-00028">To control an algae bloom in a lake, scientists introduce some treatment products. The day they begin treatment, the area covered by algae is 240 square yards. Each day since the treatment began, a third of the previous day’s area (in square yards) remains covered by algae. Time <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is measured in days.</para>
       
       <para id="para-00029"> Write a sentence of the form “_____ is a function of _____.”</para>
       </problem><solution id="sol-00007">
@@ -145,8 +143,7 @@
   
   <para id="para-00039">Compare your answer:</para>
     
-    <para id="para-00040">\(
-      f(t)=240 \cdot (\frac{1}{3})^t\). Note: \(\frac13\) is given as the growth factor because it represents what remains.</para>
+    <para id="para-00040"><m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math>. Note: <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> is given as the growth factor because it represents what remains.</para>
   
   </solution></exercise></section>
 <!--Interaction End -->
@@ -155,7 +152,7 @@
 <para id="para-00041">Watch the following video to learn more about exponential functions:</para>
 <media alt="Placeholder for Alt Text"><iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/f2d45c545d1156f3892ee978458e09e568332b09"/></media></section>
 <note class="self-check" id="note-00001">
-  <para id="para-00042">A new computer is purchased for $2,500. Each year after its purchase, it loses \(\frac15\) of its value. Which equation represents this situation?</para>
+  <para id="para-00042">A new computer is purchased for $2,500. Each year after its purchase, it loses <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> of its value. Which equation represents this situation?</para>
 </note>
 <section id="sect-00003">
   <title>Additional Resources</title>
@@ -165,13 +162,13 @@
     <note id="note-00002">
       <title> EXPONENTIAL GROWTH </title>
       <para id="para-00043">A function that models exponential growth grows by a rate proportional to the amount present. For any real number
-        \(x\) and any positive real numbers \(a\) and \(b\) such that \(b \neq 1\), an exponential growth function has
+        <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> and any positive real numbers <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> such that <m:math display="inline"><m:mrow><m:mi>b</m:mi><m:mo>≠</m:mo><m:mn>1</m:mn></m:mrow></m:math>, an exponential growth function has
         the form</para>
-      <para id="para-00044">\(f(x)=ab^x\)</para>
+      <para id="para-00044"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
       <para id="para-00045">where</para>
       <list id="list-00001">
-        <item>\(a\) is the initial or starting value of the function.</item>
-        <item>\(b\) is the growth factor or growth multiplier per unit \(x\).</item>
+        <item><m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> is the initial or starting value of the function.</item>
+        <item><m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> is the growth factor or growth multiplier per unit <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>.</item>
       </list>
     </note>
     
@@ -197,7 +194,7 @@
     
     <para id="para-00008"><emphasis id="para-00048">Example 2</emphasis></para>
     <para id="para-00049">An acre of land is worth $40,000 at the time of purchase. It doubles in value every decade. Write an equation for
-      this situation where \(t\) is time in decades.</para>
+      this situation where <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is time in decades.</para>
     <table class="os-raise-horizontaltable" id="table-00002">
       <tgroup cols="2"><tbody><row>
           <entry><emphasis>Identify the initial value.</emphasis></entry><entry> \(a=40,000\) </entry>
@@ -245,7 +242,7 @@
       <problem id="prob-00011">
         
         <para id="para-00054">When first measured, the population of deer in a forest is 40. Over time, the population triples every year.
-            Write an exponential equation where \(t\) is time in years.</para>
+            Write an exponential equation where <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is time in years.</para>
         <para id="para-00055">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
       
       </problem><solution id="sol-00011">

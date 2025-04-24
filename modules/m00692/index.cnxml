@@ -184,7 +184,7 @@
         <solution id="sol-00003">
           <para id="para-00012">Compare your answer:</para>
           <para id="para-00013">Your answer may vary, but here is a sample. The least squares regression line is
-            shown in the scatter plot. \(y=0.216x+0.345\)</para>
+            shown in the scatter plot. <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0.216</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0.345</m:mn></m:mrow></m:math></para>
 
           <media alt="Scatter plot. Weight in kilograms. Number of oranges.">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_03_03_02.svg"/>
@@ -219,7 +219,7 @@
         <solution id="sol-00005">
           <para id="para-00019"/>
           <para id="para-00020">Compare your answer:</para>
-          <para id="para-00021"><emphasis>Answer:</emphasis> About 2.8 kilograms \((2.6+0.2=2.8)\). The estimate
+          <para id="para-00021"><emphasis>Answer:</emphasis> About 2.8 kilograms <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.6</m:mn><m:mo>+</m:mo><m:mn>0.2</m:mn><m:mo>=</m:mo><m:mn>2.8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. The estimate
             should be close to the actual value since there is only 1 additional orange added, and
             while there is some variability, it is not great.</para>
         </solution>
@@ -236,7 +236,7 @@
         <solution id="sol-00006">
           <para id="para-00023"/>
           <para id="para-00024">Compare your answer:</para>
-          <para id="para-00025"><emphasis>Answer:</emphasis> About 10.6 kilograms \((2.6+40⋅0.2=10.6)\). This
+          <para id="para-00025"><emphasis>Answer:</emphasis> About 10.6 kilograms <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.6</m:mn><m:mo>+</m:mo><m:mn>40</m:mn><m:mi>⋅</m:mi><m:mn>0.2</m:mn><m:mo>=</m:mo><m:mn>10.6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. This
             estimate will probably not be very close. With data only going to 10 oranges, the
             variability in orange weight will make it harder to get an estimate that is close to the
             actual value with more oranges.</para>
@@ -381,18 +381,18 @@
         <para id="para-00048">Once we recognize a need for a linear function to model that data, the natural
           follow-up question is: “What is that linear function?” One way to approximate our linear
           function is to sketch the line that seems to best fit the data. Then we can extend the
-          line until we can verify the \(y\)-intercept. We can approximate the slope of the line by
-          extending it until we can estimate the \(\frac{rise}{run}\).</para>
+          line until we can verify the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept. We can approximate the slope of the line by
+          extending it until we can estimate the <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mi>r</m:mi><m:mi>i</m:mi><m:mi>s</m:mi><m:mi>e</m:mi></m:mrow><m:mrow><m:mi>r</m:mi><m:mi>u</m:mi><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:math>.</para>
         
           <para id="para-00049"><emphasis>Continuing the Example: Finding a Line of Best Fit</emphasis></para>
         <para id="para-00050">Find a linear function that fits the data above by “eyeballing” a line that seems to
           fit.</para>
         <para id="para-00051">On a graph, we could try sketching a line. Using the starting and ending points of our
-          hand-drawn line, points \((0, 30)\) and \((50, 90)\), this graph has a slope of
-          \(m\;=\;\frac{60}{50}\;=\;1.2\) and a \(y\)-intercept at 30.</para>
+          hand-drawn line, points <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>30</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>90</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, this graph has a slope of
+          <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mspace width="0.278em"/><m:mo>=</m:mo><m:mspace width="0.278em"/><m:mfrac><m:mrow><m:mn>60</m:mn></m:mrow><m:mrow><m:mn>50</m:mn></m:mrow></m:mfrac><m:mspace width="0.278em"/><m:mo>=</m:mo><m:mspace width="0.278em"/><m:mn>1.2</m:mn></m:mrow></m:math> and a <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept at 30.</para>
         <para id="para-00052">The slope means that for every increase of 1 chirp per 15 seconds, the temperature
           increases 1.2 degrees.</para>
-        <para id="para-00053">The \(y\)-intercept stands for the temperature needed for crickets to start chirping.</para>
+        <para id="para-00053">The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept stands for the temperature needed for crickets to start chirping.</para>
 
         <media alt="">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_03_03_05_03.jpg"/>
@@ -421,14 +421,14 @@
         <para id="para-00059">1. The number of chirps in the data provided varied from 18.5 to 44. A prediction at 30
             chirps per 15 seconds is inside the domain of our data, so it would be interpolation.
             Using our model:</para>
-        <para id="para-00060">\(\begin{array}{rcl}T(30)&amp;=&amp;30+1.2(30)\\&amp;=&amp;66\;degrees\end{array}\)</para>
+        <para id="para-00060"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>T</m:mi><m:mo stretchy="false">(</m:mo><m:mn>30</m:mn><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>30</m:mn><m:mo>+</m:mo><m:mn>1.2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>30</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"/><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>66</m:mn><m:mspace width="0.278em"/><m:mi>d</m:mi><m:mi>e</m:mi><m:mi>g</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>e</m:mi><m:mi>s</m:mi></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
         <para id="para-00061">Based on the data we have, this value seems reasonable.</para>
 
         <para id="para-00062">2. The temperature values varied from 52 to 80.5. Predicting the number of chirps at 40
             degrees is extrapolation because 40 is outside the range of our data. Using our model:</para>
 
         <para id="para-00063">
-          \(\begin{array}{rcl}40\;&amp;=&amp;\;30\;+\;1.2c\\10\;&amp;=&amp;\;1.2c\\c\;&amp;\approx&amp;\;8.33\end{array}\)</para>
+          <m:math display="inline"><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>40</m:mn><m:mspace width="0.278em"/></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mspace width="0.278em"/><m:mn>30</m:mn><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>1.2</m:mn><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>10</m:mn><m:mspace width="0.278em"/></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mspace width="0.278em"/><m:mn>1.2</m:mn><m:mi>c</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>c</m:mi><m:mspace width="0.278em"/></m:mtd><m:mtd columnalign="center"><m:mo>≈</m:mo></m:mtd><m:mtd columnalign="left"><m:mspace width="0.278em"/><m:mn>8.33</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
 
         <para id="para-00064">We can compare the regions of interpolation and extrapolation using the following
           figure.</para>
@@ -454,7 +454,7 @@
           </problem>
           <solution id="sol-00010">
             <para id="para-00067">Here is how to find the estimate of the speed.</para>
-            <para id="para-00068">Looking at the linear model, when the height on the \(x\)-axis is 350 feet, the
+            <para id="para-00068">Looking at the linear model, when the height on the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-axis is 350 feet, the
               value meets the line at approximately 98 mph. Since this is an estimate, you may have
               an answer close to 98, but it should be closer to 100 mph than 95 mph based on the
               graph.</para>

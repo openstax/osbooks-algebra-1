@@ -10,15 +10,15 @@
       <title>Activity</title>
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00001">Here are two functions: \(p(x)=6x^2\) and \(q(x)=3^x\).</para>
-          <para id="para-00002">Investigate the output of \(p\) and \(q\) for different values of \(x\). For large enough values of \(x\), one function will have a greater value than the other.</para>
-          <para id="para-00003">Which function will have a greater value as \(x\) increases?</para>
+          <para id="para-00001">Here are two functions: <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>.</para>
+          <para id="para-00002">Investigate the output of <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>q</m:mi></m:mrow></m:math> for different values of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>. For large enough values of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, one function will have a greater value than the other.</para>
+          <para id="para-00003">Which function will have a greater value as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases?</para>
           <para id="para-00004">Support your answer with tables, graphs, or other representations.</para>
           <para id="para-00005">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00006">Compare your answer:</para>
-          <para id="para-00007">\(q\) is larger when \(x=0\) and again when \(x=5\). Once \(x\) is larger than \(5\), \(q\) is growing much more quickly, as shown in the table.</para>
+          <para id="para-00007"><m:math display="inline"><m:mrow><m:mi>q</m:mi></m:mrow></m:math> is larger when <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and again when <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>. Once <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> is larger than <m:math display="inline"><m:mrow><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>q</m:mi></m:mrow></m:math> is growing much more quickly, as shown in the table.</para>
           <table class="os-raise-doubleheadertable" id="table-00005">
             <tgroup cols="3">
               <tbody>
@@ -27,64 +27,64 @@
                     <emphasis/>
                   </entry>
                   <entry>
-                    <emphasis>\(p(x)\)</emphasis>
+                    <emphasis><m:math><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>
-                    <emphasis>\(q(x)\)</emphasis>
+                    <emphasis><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis>
                   </entry>
                 </row>
                 <row>
                   <entry>
-                    <emphasis>\(0\)</emphasis>
+                    <emphasis><m:math><m:mrow><m:mn>0</m:mn></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>\(0\)</entry>
                   <entry>\(1\)</entry>
                 </row>
                 <row>
                   <entry>
-                    <emphasis>\(1\)</emphasis>
+                    <emphasis><m:math><m:mrow><m:mn>1</m:mn></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>\(6\)</entry>
                   <entry>\(3\)</entry>
                 </row>
                 <row>
                   <entry>
-                    <emphasis>\(2\)</emphasis>
+                    <emphasis><m:math><m:mrow><m:mn>2</m:mn></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>\(24\)</entry>
                   <entry>\(9\)</entry>
                 </row>
                 <row>
                   <entry>
-                    <emphasis>\(3\)</emphasis>
+                    <emphasis><m:math><m:mrow><m:mn>3</m:mn></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>\(54\)</entry>
                   <entry>\(27\)</entry>
                 </row>
                 <row>
                   <entry>
-                    <emphasis>\(4\)</emphasis>
+                    <emphasis><m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>\(96\)</entry>
                   <entry>\(81\)</entry>
                 </row>
                 <row>
                   <entry>
-                    <emphasis>\(5\)</emphasis>
+                    <emphasis><m:math><m:mrow><m:mn>5</m:mn></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>\(150\)</entry>
                   <entry>\(243\)</entry>
                 </row>
                 <row>
                   <entry>
-                    <emphasis>\(6\)</emphasis>
+                    <emphasis><m:math><m:mrow><m:mn>6</m:mn></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>\(216\)</entry>
                   <entry>\(729\)</entry>
                 </row>
                 <row>
                   <entry>
-                    <emphasis>\(7\)</emphasis>
+                    <emphasis><m:math><m:mrow><m:mn>7</m:mn></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>\(294\)</entry>
                   <entry>\(2,187\)</entry>
@@ -92,7 +92,7 @@
               </tbody>
             </tgroup>
           </table>
-          <para id="para-00008">Alternatively, here is a graph showing the plotted values from the table and another showing \(y=p(x)\) and \(y=q(x)\).</para>
+          <para id="para-00008">Alternatively, here is a graph showing the plotted values from the table and another showing <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
           <para id="para-00009">
                   <media alt="A graph showing the plotted values from the table.">
                 <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_06_06_01.svg"/>
@@ -112,20 +112,20 @@
         <exercise class="RFM1" id="exer-00002">
           <problem id="prob-00002">
             <title>Extending Your Thinking</title>
-            <para id="para-00011">Janna says that some exponential functions grow more slowly than the quadratic function as \(x\) increases. Do you agree with Janna? Be prepared to show your reasoning.</para>
+            <para id="para-00011">Janna says that some exponential functions grow more slowly than the quadratic function as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases. Do you agree with Janna? Be prepared to show your reasoning.</para>
           </problem>
           <solution id="sol-00002">
             <para id="para-00012">Compare your answer:</para>
-            <para id="para-00013">Yes. This is true for the functions \(g(x)=(1 \frac {1}{2})x\) and \(f(x)=x^2\) as \(x\) increases for \(x\)-values less than \(10\).</para>
+            <para id="para-00013">Yes. This is true for the functions <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases for <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values less than <m:math display="inline"><m:mrow><m:mn>10</m:mn></m:mrow></m:math>.</para>
           </solution>
         </exercise>
         <exercise class="RFM1" id="exer-00003">
           <problem id="prob-00003">
-            <para id="para-00014">Could you have an exponential function \(g(x)=b^x\) so that \(g(x)&lt;f(x)\) for all values of \(x\)?</para>
+            <para id="para-00014">Could you have an exponential function <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math> so that <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>&lt;</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for all values of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>?</para>
           </problem>
           <solution id="sol-00003">
             <para id="para-00015">Compare your answer:</para>
-            <para id="para-00016">No, \(g(0)>f(0)\) for all values of \(b\) (except \(0\)), because \(b^0=1\) and \(0^2=0\). (If \(b=0\), there are problems if \(x\leq 0\), so this is not usually considered an exponential function.)</para>
+            <para id="para-00016">No, <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>&gt;</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for all values of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> (except <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math>), because <m:math display="inline"><m:mrow><m:msup><m:mi>b</m:mi><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:msup><m:mn>0</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. (If <m:math display="inline"><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, there are problems if <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≤</m:mo><m:mn>0</m:mn></m:mrow></m:math>, so this is not usually considered an exponential function.)</para>
           </solution>
         </exercise>
       </section>
@@ -139,7 +139,7 @@
       </section>
     </section>
     <note class="self-check" id="note-00001">
-      <para id="para-00018">Which of the following has the greatest value as \(x\) increases?</para>
+      <para id="para-00018">Which of the following has the greatest value as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases?</para>
     </note>
     <section id="sect-00004">
       <title>Additional Resources</title>
@@ -152,14 +152,14 @@
           <item>Decide whether each function is linear, quadratic, or exponential, and be prepared to explain how you know.</item>
         </list>
         <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-          <item>\(f(x)=3\cdot 2^x\)</item>
+          <item><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></item>
         </list>
         <table class="os-raise-horizontaltable" id="table-00001">
           <tgroup cols="7">
             <tbody>
               <row>
                 <entry>
-                  <emphasis>\(x\)</emphasis>
+                  <emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis>
                 </entry>
                 <entry>\(-1\)</entry>
                 <entry>\(0\)</entry>
@@ -170,7 +170,7 @@
               </row>
               <row>
                 <entry>
-                  <emphasis>\(f(x)\)</emphasis>
+                  <emphasis><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis>
                 </entry>
                 <entry>\(\frac{3}{2}\) or equivalent </entry>
                 <entry>\(3\)</entry>
@@ -189,16 +189,16 @@
             </media>
           
        </para>
-        <para id="para-00021">This function is exponential. It has a growth factor of \(2\).</para>
+        <para id="para-00021">This function is exponential. It has a growth factor of <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math>.</para>
         <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
-          <item>\(g(x)=3\cdot x^2\)</item>
+          <item><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>·</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></item>
         </list>
         <table class="os-raise-horizontaltable" id="table-00002">
           <tgroup cols="7">
             <tbody>
               <row>
                 <entry>
-                  <emphasis>\(x\)</emphasis>
+                  <emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis>
                 </entry>
                 <entry>\(-1\)</entry>
                 <entry>\(0\)</entry>
@@ -209,7 +209,7 @@
               </row>
               <row>
                 <entry>
-                  <emphasis>\(g(x)\)</emphasis>
+                  <emphasis><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis>
                 </entry>
                 <entry>\(3\) </entry>
                 <entry>\(0\)</entry>
@@ -228,26 +228,26 @@
             </media>
           
        </para>
-        <para id="para-00023">This function is not linear because it does not have a constant rate of change, and it is not exponential because it does not have a constant growth factor. The function is quadratic because it can be represented by \(g(x)=3x^2\), which has \(x\) to the second power, and that is the greatest power.</para>
-        <para id="para-00024">Note: Between \(f(x)\) and \(g(x)\), \(f(x)\) will have the greater value as \(x\) increases.</para>
+        <para id="para-00023">This function is not linear because it does not have a constant rate of change, and it is not exponential because it does not have a constant growth factor. The function is quadratic because it can be represented by <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, which has <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> to the second power, and that is the greatest power.</para>
+        <para id="para-00024">Note: Between <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> will have the greater value as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases.</para>
         <note class="try" id="note-00002">
           <title>Try It: Exponential versus Quadratic Functions</title>
       <exercise id="exer-00004">
             <problem id="prob-00004">
-              <para id="para-00025">Which of the following has the greater value as \(x\) increases, \(f(x)\) or \(g(x)\)?</para>
-              <para id="para-00026">\(f(x)=3x^2\)</para>
-              <para id="para-00027">\(g(x)=3^x\)</para>
+              <para id="para-00025">Which of the following has the greater value as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases, <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
+              <para id="para-00026"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+              <para id="para-00027"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
               <para id="para-00028">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
             </problem>
             <solution id="sol-00004">
-              <para id="para-00029">Here is how to determine which function has the greater value as \(x\) increases:</para>
+              <para id="para-00029">Here is how to determine which function has the greater value as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases:</para>
               <para id="para-00030">Make a table of values for each function, and then graph the function:</para>
               <table class="os-raise-horizontaltable" id="table-00003">
                 <tgroup cols="8">
                   <tbody>
                     <row>
                       <entry>
-                        <emphasis>\(x\)</emphasis>
+                        <emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis>
                       </entry>
                       <entry>\(-2\)</entry>
                       <entry>\(-1\)</entry>
@@ -259,7 +259,7 @@
                     </row>
                     <row>
                       <entry>
-                        <emphasis>\(f(x)=3x^2\)</emphasis>
+                        <emphasis><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></emphasis>
                       </entry>
                       <entry>\(12\)</entry>
                       <entry>\(3\)</entry>
@@ -284,7 +284,7 @@
                   <tbody>
                     <row>
                       <entry>
-                        <emphasis>\(x\)</emphasis>
+                        <emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis>
                       </entry>
                       <entry>\(-2\)</entry>
                       <entry>\(-1\)</entry>
@@ -296,7 +296,7 @@
                     </row>
                     <row>
                       <entry>
-                        <emphasis>\(g(x)=3^x\)</emphasis>
+                        <emphasis><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></emphasis>
                       </entry>
                       <entry>\(\frac {1}{9}\)</entry>
                       <entry>\(\frac {1}{3}\)</entry>
@@ -316,7 +316,7 @@
                   </media>
                 
              </para>
-              <para id="para-00033">Looking at both the table of values and the graphs, \(g(x)\) will have a greater value than \(f(x)\) as \(x\) increases. This is because \(g(x)\) is exponential and has a constant growth factor.</para>
+              <para id="para-00033">Looking at both the table of values and the graphs, <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> will have a greater value than <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases. This is because <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is exponential and has a constant growth factor.</para>
             </solution>
           </exercise>
         </note>

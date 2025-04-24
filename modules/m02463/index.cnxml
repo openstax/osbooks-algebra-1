@@ -11,34 +11,34 @@
       <exercise id="exer-00001">
         <problem id="prob-00001">
           <para id="para-00001">Here is one way to make sense of how the <term class="glossary-tooltip" id="term-00001">quadratic formula</term> came about. Study the derivation until you can explain what happened in each step. Write down your explanation for each step.</para>
-          <para id="para-00002">Original equation \(ax^2+bx+c=0\)</para>
-          <para id="para-00003"><emphasis>Step 1</emphasis> - \(4a^2x^2+4abx+4ac=0\)</para>
-          <para id="para-00004"><emphasis>Step 2</emphasis> - \(4a^2x^2+4abx=-4ac\)</para>
-          <para id="para-00005"><emphasis>Step 3</emphasis> - \((2ax)^2+2b(2ax)=-4ac\)</para>
-          <para id="para-00006"><emphasis>Step 4</emphasis> - \(M^2+2bM=-4ac\)</para>
-          <para id="para-00007"><emphasis>Step 5</emphasis> - \(M^2+2bM+b^2=-4ac+b^2\)</para>
-          <para id="para-00008"><emphasis>Step 6</emphasis> - \((M+b)^2=b^2-4ac\)</para>
-          <para id="para-00009"><emphasis>Step 7</emphasis> - \( \sqrt{(M+b)^2} =\sqrt{b^2-4ac}\)</para>
-          <para id="para-00010">\(M+b= \pm \sqrt{b^2-4ac}\)</para>
-          <para id="para-00011"><emphasis>Step 8</emphasis> - \(M=-b \pm \sqrt{b^2-4ac}\)</para>
-          <para id="para-00012"><emphasis>Step 9</emphasis> - \(2ax=-b \pm \sqrt{b^2-4ac}\)</para>
-          <para id="para-00013"><emphasis>Step 10</emphasis> - \(x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\)</para>
+          <para id="para-00002">Original equation <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+          <para id="para-00003"><emphasis>Step 1</emphasis> - <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+          <para id="para-00004"><emphasis>Step 2</emphasis> - <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
+          <para id="para-00005"><emphasis>Step 3</emphasis> - <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
+          <para id="para-00006"><emphasis>Step 4</emphasis> - <m:math display="inline"><m:mrow><m:msup><m:mi>M</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>M</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
+          <para id="para-00007"><emphasis>Step 5</emphasis> - <m:math display="inline"><m:mrow><m:msup><m:mi>M</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>M</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+          <para id="para-00008"><emphasis>Step 6</emphasis> - <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
+          <para id="para-00009"><emphasis>Step 7</emphasis> - <m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+          <para id="para-00010"><m:math><m:mrow><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+          <para id="para-00011"><emphasis>Step 8</emphasis> - <m:math display="inline"><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+          <para id="para-00012"><emphasis>Step 9</emphasis> - <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+          <para id="para-00013"><emphasis>Step 10</emphasis> - <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
           <para id="para-00014">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00015">Compare your answer:</para>
-          <para id="para-00016">Original equation \(ax^2+bx+c=0\)</para>
-          <para id="para-00017"><emphasis>Step 1</emphasis> - Multiply by \(4a\) so the coefficient of \(x^2\) is a <term class="glossary-tooltip" id="term-00002">perfect square</term>. \(4a^2x^2+4abx+4ac=0\)</para>
-          <para id="para-00018"><emphasis>Step 2</emphasis> - Isolate the constant term to the right. \(4a^2x^2+4abx=-4ac\)</para>
-          <para id="para-00019"><emphasis>Step 3</emphasis> - Write the squared term as (something)\(^2\). Write the linear term as \(2b \;\cdot\) (something). \((2ax)^2+2b(2ax)=-4ac\)</para>
-          <para id="para-00020"><emphasis>Step 4</emphasis> - Use \(M\) as the placeholder for \(2ax\). \(M^2+2bM=-4ac\)</para>
-          <para id="para-00021"><emphasis>Step 5</emphasis> - Add \(b^2\) to complete the square. \(M^2+2bM+b^2=-4ac+b^2\)</para>
-          <para id="para-00022"><emphasis>Step 6</emphasis> - Write the left side as a squared factor and commute the terms on the right. \((M+b)^2=b^2-4ac\)</para>
-          <para id="para-00023"><emphasis>Step 7</emphasis> - Find the square roots of each side of the equation. \( \sqrt{(M+b)^2} =\sqrt{b^2-4ac}\)</para>
-          <para id="para-00024">\(M+b= \pm \sqrt{b^2-4ac}\)</para>
-          <para id="para-00025"><emphasis>Step 8</emphasis> - Subtract \(b\) to isolate \(M\). \(M=-b \pm \sqrt{b^2-4ac}\)</para>
-          <para id="para-00026"><emphasis>Step 9</emphasis> - Replace \(M\) with \(2ax\). \(2ax=-b \pm \sqrt{b^2-4ac}\)</para>
-          <para id="para-00027"><emphasis>Step 10</emphasis> - Divide both sides by \(2a\) to isolate \(x\). \(x= \frac{-b \pm \sqrt{b^2-4ac}}{2a}\)</para>
+          <para id="para-00016">Original equation <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+          <para id="para-00017"><emphasis>Step 1</emphasis> - Multiply by <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi></m:mrow></m:math> so the coefficient of <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> is a <term class="glossary-tooltip" id="term-00002">perfect square</term>. <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
+          <para id="para-00018"><emphasis>Step 2</emphasis> - Isolate the constant term to the right. <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
+          <para id="para-00019"><emphasis>Step 3</emphasis> - Write the squared term as (something)<m:math display="inline"><m:mrow><m:msup><m:mi/><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Write the linear term as <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi><m:mspace width="0.278em"/><m:mi>·</m:mi></m:mrow></m:math> (something). <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
+          <para id="para-00020"><emphasis>Step 4</emphasis> - Use <m:math display="inline"><m:mrow><m:mi>M</m:mi></m:mrow></m:math> as the placeholder for <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi></m:mrow></m:math>. <m:math display="inline"><m:mrow><m:msup><m:mi>M</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>M</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
+          <para id="para-00021"><emphasis>Step 5</emphasis> - Add <m:math display="inline"><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> to complete the square. <m:math display="inline"><m:mrow><m:msup><m:mi>M</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>M</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
+          <para id="para-00022"><emphasis>Step 6</emphasis> - Write the left side as a squared factor and commute the terms on the right. <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
+          <para id="para-00023"><emphasis>Step 7</emphasis> - Find the square roots of each side of the equation. <m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+          <para id="para-00024"><m:math><m:mrow><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+          <para id="para-00025"><emphasis>Step 8</emphasis> - Subtract <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> to isolate <m:math display="inline"><m:mrow><m:mi>M</m:mi></m:mrow></m:math>. <m:math display="inline"><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+          <para id="para-00026"><emphasis>Step 9</emphasis> - Replace <m:math display="inline"><m:mrow><m:mi>M</m:mi></m:mrow></m:math> with <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi></m:mrow></m:math>. <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
+          <para id="para-00027"><emphasis>Step 10</emphasis> - Divide both sides by <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:math> to isolate <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>. <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
         </solution>
       </exercise>
       <section id="sect-00002">
@@ -47,18 +47,18 @@
           <problem id="prob-00002">
             <title>Extending Your Thinking</title>
             <para id="para-00028">Here is another way to derive the quadratic formula by <term class="glossary-tooltip" id="term-00003">completing the square</term>.</para>
-            <para id="para-00029">First, divide each side of the equation \(ax^2+bx+c=0\) by \(a\) to get \(x^2+\frac{b}{a}x+\frac{c}{a}=0\).</para>
-            <para id="para-00030">Then, complete the square for \(x^2+\frac{b}{a}x+\frac{c}{a}=0\).</para>
+            <para id="para-00029">First, divide each side of the equation <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> to get <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+            <para id="para-00030">Then, complete the square for <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
             <para id="para-00031">In problems 1 – 10, briefly explain what happens in each step by answering the question. Use the "^" symbol to enter an exponent.</para>
-            <para id="para-00032">Original equation \(x^2+\frac{b}{a}x+\frac{c}{a}=0\)</para>
+            <para id="para-00032">Original equation <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
             <para id="para-00033">Step 1 What constant should be subtracted from both sides?</para>
           </problem>
           <solution id="sol-00002">
             <para id="para-00034">Enter the constant.</para>
             <para id="para-00035">Compare your answer:</para>
-            <para id="para-00036">\(-\frac{c}{a}\)</para>
+            <para id="para-00036"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
             <para id="para-00037">Now the equation looks like</para>
-            <para id="para-00038">\(x^2+\frac{b}{a}x= -\frac{c}{a}\).</para>
+            <para id="para-00038"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math>.</para>
           </solution>
         </exercise>
         <!--End interaction-->
@@ -69,13 +69,13 @@
           <solution id="sol-00003">
             <para id="para-00040">Enter the constant.</para>
             <para id="para-00041">Compare your answer:</para>
-            <para id="para-00042">\((\frac{b}{2a})^2\)</para>
+            <para id="para-00042"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
             <para id="para-00043">To complete the square, we add it to both sides. Now the equation looks like</para>
-            <para id="para-00044">\(x^2+(\frac{b}{2a})x+(\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
-            <para id="para-00045">Notice that the denominators are different on the left side of the equation (for the second and third terms). In order to form a common denominator of \(2a\), we must multiply the middle term by a factor of \frac{2}{2}.</para>
-            <para id="para-00046">\(x^2+\frac{2}{2} (\frac{b}{a})x+(\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
+            <para id="para-00044"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+            <para id="para-00045">Notice that the denominators are different on the left side of the equation (for the second and third terms). In order to form a common denominator of <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:math>, we must multiply the middle term by a factor of \frac{2}{2}.</para>
+            <para id="para-00046"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
             <para id="para-00047">Regrouping the factors in the middle term differently yields</para>
-            <para id="para-00048">\(x^2+2(\frac{b}{2a})x+ (\frac{b}{2a})^2= -\frac{c}{a}+(\frac{b}{2a})^2\).</para>
+            <para id="para-00048"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
           </solution>
         </exercise>
         <!--End interaction-->
@@ -86,8 +86,8 @@
           <solution id="sol-00004">
             <para id="para-00050">Enter the binomial.</para>
             <para id="para-00051">Compare your answer:</para>
-            <para id="para-00052">\(x+\frac{b}{2a}\)</para>
-            <para id="para-00053">Now the equation looks like \((x+\frac{b}{2a})^2= -\frac{c}{a}+\frac{b^2}{4a^2}\).</para>
+            <para id="para-00052"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+            <para id="para-00053">Now the equation looks like <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</para>
           </solution>
         </exercise>
         <!--End interaction-->
@@ -98,8 +98,8 @@
           <solution id="sol-00005">
             <para id="para-00055">Enter the common denominator.</para>
             <para id="para-00056">Compare your answer:</para>
-            <para id="para-00057">The common denominator will be \(4a^2\).</para>
-            <para id="para-00058">Now the equation looks like \((x+\frac{b}{2a})^2= -\frac{4ac}{4a^2}+\frac{b^2}{4a^2}\).</para>
+            <para id="para-00057">The common denominator will be <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
+            <para id="para-00058">Now the equation looks like <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</para>
           </solution>
         </exercise>
         <!--End interaction-->
@@ -110,20 +110,20 @@
           <solution id="sol-00006">
             <para id="para-00060">Enter the numerator.</para>
             <para id="para-00061">Compare your answer:</para>
-            <para id="para-00062">\(b^2-4ac\)</para>
-            <para id="para-00063">Now the equation looks like \((x+\frac{b}{2a})^2=\frac{b^2-4ac}{4a^2}\).</para>
+            <para id="para-00062"><m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
+            <para id="para-00063">Now the equation looks like <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</para>
           </solution>
         </exercise>
         <!--End interaction-->
         <exercise class="RFM1" id="exer-00007">
           <problem id="prob-00007">
-            <para id="para-00064">Step 6 What is the next step necessary to isolate \(x\) on the left side?</para>
+            <para id="para-00064">Step 6 What is the next step necessary to isolate <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> on the left side?</para>
           </problem>
           <solution id="sol-00007">
             <para id="para-00065">Enter the next step.</para>
             <para id="para-00066">Compare your answer:</para>
             <para id="para-00067">Take the square root of both sides.</para>
-            <para id="para-00068">Remember to put the \(\pm\) in front of the radical! Now the equation looks like \(x+\frac{b}{2a}= \pm \sqrt{\frac{b^2-4ac}{4a^2}}\).</para>
+            <para id="para-00068">Remember to put the <m:math display="inline"><m:mrow><m:mi>±</m:mi></m:mrow></m:math> in front of the radical! Now the equation looks like <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>.</para>
           </solution>
         </exercise>
         <!--End interaction-->
@@ -135,7 +135,7 @@
             <para id="para-00070">Enter your explanation.</para>
             <para id="para-00071">Compare your answer:</para>
             <para id="para-00072">The square root of a fraction is the square root of the numerator divided by the square root of the denominator.</para>
-            <para id="para-00073">\(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{\sqrt{4a^2}}\)</para>
+            <para id="para-00073"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>±</m:mi><m:mfrac><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></para>
           </solution>
         </exercise>
         <!--End interaction-->
@@ -146,20 +146,20 @@
           <solution id="sol-00009">
             <para id="para-00075">Enter the denominator.</para>
             <para id="para-00076">Compare your answer:</para>
-            <para id="para-00077">\(2a\)</para>
-            <para id="para-00078">Now the equation looks like \(x+\frac b{2a}=\pm\frac{\sqrt{b^2-4ac}}{2a}\).</para>
+            <para id="para-00077"><m:math><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:math></para>
+            <para id="para-00078">Now the equation looks like <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>±</m:mi><m:mfrac><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math>.</para>
           </solution>
         </exercise>
         <!--End interaction-->
         <exercise class="RFM1" id="exer-00010">
           <problem id="prob-00010">
-            <para id="para-00079">Step 9 What is the next step I need to take to isolate \(x\) on the left side of the equation?</para>
+            <para id="para-00079">Step 9 What is the next step I need to take to isolate <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> on the left side of the equation?</para>
           </problem>
           <solution id="sol-00010">
             <para id="para-00080">Enter the next step.</para>
             <para id="para-00081">Compare your answer:</para>
-            <para id="para-00082">Subtract \(\frac{b}{2a}\) from both sides.</para>
-            <para id="para-00083">Now the equation looks like \(x=-\frac b{2a} \pm\frac{\sqrt{b^2-4ac}}{2a}\).</para>
+            <para id="para-00082">Subtract <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math> from both sides.</para>
+            <para id="para-00083">Now the equation looks like <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>±</m:mi><m:mfrac><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math>.</para>
           </solution>
         </exercise>
         <!--End interaction-->
@@ -171,7 +171,7 @@
             <para id="para-00085">Enter your observation.</para>
             <para id="para-00086">Compare your answer:</para>
             <para id="para-00087">They are the same.</para>
-            <para id="para-00088">Add the fractions, and we come to the result: the quadratic equation, \(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\).</para>
+            <para id="para-00088">Add the fractions, and we come to the result: the quadratic equation, <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math>.</para>
           </solution>
         </exercise>
       </section>
@@ -185,34 +185,34 @@
       </media>
     </section>
     <note class="self-check" id="note-00001"><para id="para-00090">Looking at the steps of deriving the quadratic formula, which step should follow the one below?</para>
-  <para id="para-00091">\((x+\frac{b}{2a})^2=\frac{b^2-4ac}{4a^2}\)</para></note>
+  <para id="para-00091"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para></note>
     <section id="sect-00004">
       <title>Additional Resources</title>
       <section id="sect-00005">
         <title>A General Way to Derive the Quadratic Formula</title>
         <para id="para-00092">Here is another way to look at how to derive the <term class="glossary-tooltip" id="term-00004">quadratic formula</term>:</para>
-        <para id="para-00093">We can derive the quadratic formula by <term class="glossary-tooltip" id="term-00005">completing the square</term>. We will assume that the leading coefficient is positive; if it is negative, we can multiply the equation by −1 and obtain a positive \(a\). Given \(ax^2+bx+c=0\), \(a \neq 0\), we will complete the square as follows:</para>
-        <para id="para-00094"><emphasis>Step 1</emphasis> - First, move the constant term to the right side of the equal sign: \(ax^2+bx= -c\)</para>
-        <para id="para-00095"><emphasis>Step 2</emphasis> - As we want the leading coefficient to equal 1, divide through by \(a\): \(x^2+\frac{b}{a}x= -\frac{c}{a}\)</para>
-        <para id="para-00096"><emphasis>Step 3</emphasis> - Then, find \(\frac{1}{2}\) of the middle term, and add \((\frac{1}{2} \cdot \frac{b}{a})^2=\frac{b^2}{4a^2}\) to both sides of the equal sign: \(x^2+\frac{b}{a}x+\frac{b^2}{4a^2}=\frac{b^2}{4a^2}−\frac{c}{a}\)</para>
-        <para id="para-00097"><emphasis>Step 4</emphasis> - Next, write the left side as a <term class="glossary-tooltip" id="term-00006">perfect square</term>. Find the common denominator of the right side and write it as a single fraction: \((x+\frac{b}{2a})^2=\frac{b^2−4ac}{4a^2}\)</para>
+        <para id="para-00093">We can derive the quadratic formula by <term class="glossary-tooltip" id="term-00005">completing the square</term>. We will assume that the leading coefficient is positive; if it is negative, we can multiply the equation by −1 and obtain a positive <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math>. Given <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:math>, we will complete the square as follows:</para>
+        <para id="para-00094"><emphasis>Step 1</emphasis> - First, move the constant term to the right side of the equal sign: <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow></m:math></para>
+        <para id="para-00095"><emphasis>Step 2</emphasis> - As we want the leading coefficient to equal 1, divide through by <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math>: <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+        <para id="para-00096"><emphasis>Step 3</emphasis> - Then, find <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math> of the middle term, and add <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math> to both sides of the equal sign: <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mi>−</m:mi><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+        <para id="para-00097"><emphasis>Step 4</emphasis> - Next, write the left side as a <term class="glossary-tooltip" id="term-00006">perfect square</term>. Find the common denominator of the right side and write it as a single fraction: <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math></para>
         <para id="para-00098"><emphasis>Step 5</emphasis> - Now, use the square root property, which gives:</para>
-        <para id="para-00099">\(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\)</para>
-        <para id="para-00100">\(x+\frac b{2a}=\frac{\pm\sqrt{b^2-4ac}}{2a}\)</para>
-        <para id="para-00101"><emphasis>Step 6</emphasis> - Finally, add \(-\frac{b}{2a}\) to both sides of the equation and combine the terms on the right side. Thus:</para>
-        <para id="para-00102">\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\)</para>
+        <para id="para-00099"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math></para>
+        <para id="para-00100"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
+        <para id="para-00101"><emphasis>Step 6</emphasis> - Finally, add <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math> to both sides of the equation and combine the terms on the right side. Thus:</para>
+        <para id="para-00102"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
         <note class="try" id="note-00002">
           <title>Try It: A General Way to Derive the Quadratic Formula</title>
           <exercise id="exer-00012">
             <problem id="prob-00012">
               <para id="para-00103">Using the general way to derive the quadratic formula, find the step after</para>
-              <para id="para-00104">\(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\).</para>
+              <para id="para-00104"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>.</para>
               <para id="para-00105">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
             </problem>
             <solution id="sol-00012">
               <para id="para-00106">Here is how to find the next step:</para>
-              <para id="para-00107">When deriving the quadratic formula, the object is to get the \(x\) alone.</para>
-              <para id="para-00108">After \(x+\frac b{2a}=\pm\sqrt{\frac{b^2-4ac}{4a^2}}\), the \(\frac{b}{2a}\) must be subtracted from each side. Then \(x=-\frac b{2a}\pm\sqrt{\frac{b^2-4ac}{4a^2}}\) can be simplified.</para>
+              <para id="para-00107">When deriving the quadratic formula, the object is to get the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> alone.</para>
+              <para id="para-00108">After <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>, the <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math> must be subtracted from each side. Then <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>±</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math> can be simplified.</para>
             </solution>
           </exercise>
         </note>

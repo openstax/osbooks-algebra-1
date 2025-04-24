@@ -21,7 +21,7 @@
         <solution id="sol-00001">
           <para id="para-00003">Compare your answer: \(\left\{\begin{array}{rcl}4p+2g&amp;=&amp;96 \\
             2p+1g&amp;=&amp;72\end{array}\right.\),</para>
-          <para id="para-00004">where \( p \) is the price of each pool pass and \( g \) is the price of a gym
+          <para id="para-00004">where <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> is the price of each pool pass and <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> is the price of a gym
             membership for 1 person.</para>
         </solution>
       </exercise>
@@ -35,7 +35,7 @@
         </problem>
         <solution id="sol-00002">
           <para id="para-00006">Compare your answer: The system has no solutions. For example: Solving by
-            elimination or substitution leads to a false equation (such as \(0=24\)).</para>
+            elimination or substitution leads to a false equation (such as <m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>24</m:mn></m:mrow></m:math>).</para>
         </solution>
       </exercise>
       <!--Q#3-->
@@ -103,7 +103,7 @@
     <section id="sect-00003">
       <note class="self-check" id="note-00001">
         <para id="para-00016">Solve the system of equations.</para>
-        <para id="para-00017">\(\left\{\begin{array}{l}-0.1x\;–\;0.2y\;=\;0.6\\–5x\;–\;10y\;=\;1\end{array}\right.\\\)</para>
+        <para id="para-00017"><m:math><m:mrow><m:mrow><m:mo stretchy="true" fence="true" form="prefix">{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>0.1</m:mn><m:mi>x</m:mi><m:mspace width="0.278em"/><m:mi>–</m:mi><m:mspace width="0.278em"/><m:mn>0.2</m:mn><m:mi>y</m:mi><m:mspace width="0.278em"/><m:mo>=</m:mo><m:mspace width="0.278em"/><m:mn>0.6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mi>–</m:mi><m:mn>5</m:mn><m:mi>x</m:mi><m:mspace width="0.278em"/><m:mi>–</m:mi><m:mspace width="0.278em"/><m:mn>10</m:mn><m:mi>y</m:mi><m:mspace width="0.278em"/><m:mo>=</m:mo><m:mspace width="0.278em"/><m:mn>1</m:mn></m:mtd></m:mtr></m:mtable><m:mo stretchy="true" fence="true" form="postfix"/></m:mrow><m:mspace linebreak="newline"/></m:mrow></m:math></para>
       </note>
     </section>
 
@@ -113,27 +113,27 @@
         <title>Solving an Inconsistent System of Equations</title>
         <para id="para-00018">Now that we have several methods for solving systems of equations, we can use the
           methods to identify inconsistent systems. Recall that an inconsistent system consists of
-          parallel lines that have the same slope but different \(y\)-intercepts. They will never
+          parallel lines that have the same slope but different <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercepts. They will never
           intersect. When searching for a solution to an inconsistent system, we will come up with a
-          false statement, such as \( 12 = 0 \).</para>
+          false statement, such as <m:math display="inline"><m:mrow><m:mn>12</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
         <para id="para-00019">Solve the following system of equations.</para>
-        <para id="para-00020">\( x = 9 - 2y \) \( x+2y =13 \)</para>
+        <para id="para-00020"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>13</m:mn></m:mrow></m:math></para>
         <para id="para-00021"><emphasis>Solution</emphasis></para>
         <para id="para-00022">We can approach this problem in two ways. Because one equation is already solved for
-          \( x \), the most obvious step is to use substitution.</para>
+          <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, the most obvious step is to use substitution.</para>
         <para id="para-00023">\( \begin{array}{rcl}x+2y &amp;=&amp;13 \\ (9-2y)+2y &amp;=&amp;13 \\ 9+0y
           &amp;=&amp;13 \\ 9&amp;=&amp;13\end{array} \)</para>
-        <para id="para-00024">Clearly, this statement is a contradiction because \( 9 \neq 13 \). Therefore, the
+        <para id="para-00024">Clearly, this statement is a contradiction because <m:math display="inline"><m:mrow><m:mn>9</m:mn><m:mo>≠</m:mo><m:mn>13</m:mn></m:mrow></m:math>. Therefore, the
           system has no solution.</para>
         <para id="para-00025">The second approach would be to first manipulate the equations so that they are both
           in slope-intercept form. We manipulate the first equation as follows:</para>
-        <para id="para-00026">\( x = 9 - 2y \) \( 2y = -x + 9x\) \( y= -\frac{1}{2}x + \frac{9}{2} \)</para>
+        <para id="para-00026"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>9</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>9</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
         <para id="para-00027">We then convert the second equation expressed to slope-intercept form.</para>
         <para id="para-00028">\( \begin{array}{rcl}x + 2y &amp;=&amp; 13 \\ 2y &amp;=&amp; -x + 13 \\ y &amp;=&amp;
           -\frac{1}{2}x + \frac{13}{2}\end{array} \)</para>
         <para id="para-00029">Comparing the equations, we see that they have the same slope but different
-          \(y\)-intercepts. Therefore, the lines are parallel and do not intersect.</para>
-        <para id="para-00030">\( y= -\frac{1}{2}x + \frac{9}{2} \) \( y= -\frac{1}{2}x + \frac{13}{2} \)</para>
+          <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercepts. Therefore, the lines are parallel and do not intersect.</para>
+        <para id="para-00030"><m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>9</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>13</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
 
         <note class="try look-at-me" id="note-00002">
         <title>Try It: Solving an Inconsistent System of Equations</title>
@@ -142,7 +142,7 @@
             <para id="para-00031">Solve the following system of equations. If there is no solution, explain how you
               know.</para>
 
-            <para id="para-00032">\( 9x +3y = -24 \) \( 6x +2y = 14 \)</para>
+            <para id="para-00032"><m:math display="inline"><m:mrow><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>24</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math></para>
 
             <para id="para-00033">Write down your answer, then select the <emphasis>solution</emphasis> button to
               compare your work.</para>
@@ -153,23 +153,23 @@
             <para id="para-00035">To solve using elimination, we must first make the coefficients of one of the
               variables the same to use subtraction.</para>
 
-            <para id="para-00036">\( 2(9x +3y) = 2(-24) \) \( 3(6x +2y) = 3(14) \)</para>
+            <para id="para-00036"><m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>24</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mn>14</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
 
             <para id="para-00037">After simplifying, we have:</para>
 
-            <para id="para-00038">\( 18x +6y = -48 \) \( 18x +6y = 42 \)</para>
+            <para id="para-00038"><m:math display="inline"><m:mrow><m:mn>18</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>48</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>18</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>42</m:mn></m:mrow></m:math></para>
 
             <para id="para-00039">Let’s subtract the equations:</para>
 
-            <para id="para-00040">\( 18x +6y = -48 \) \( 18x +6y = 42 \) \( 0 = -90 \)</para>
+            <para id="para-00040"><m:math display="inline"><m:mrow><m:mn>18</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>48</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>18</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>42</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>90</m:mn></m:mrow></m:math></para>
 
             <para id="para-00041">Since this equation can never be true, the system has no solutions.</para>
 
             <para id="para-00042">Using another method, you can also write each equation in slope-intercept form:</para>
 
-            <para id="para-00043">\( y = -3x - 8 \) \( y = -3x - 7 \)</para>
+            <para id="para-00043"><m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>8</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
 
-            <para id="para-00044">Since the equations have the same slope and different \(y\)-intercepts, we know
+            <para id="para-00044">Since the equations have the same slope and different <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercepts, we know
               that the system has no solution.</para>
           </solution>
         </exercise>

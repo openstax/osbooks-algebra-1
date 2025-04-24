@@ -8,7 +8,7 @@
   <content>
     <section id="sect-00001">
       <title>Activity</title>
-      <para id="para-00001">Here is a graph you saw in an earlier lesson. It represents the exponential function \(p\), which models the cost \(p(t)\), in dollars, of producing 1 watt of solar energy from 1977 to 1988, where \(t\) is years since 1977.</para>
+      <para id="para-00001">Here is a graph you saw in an earlier lesson. It represents the exponential function <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math>, which models the cost <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, in dollars, of producing 1 watt of solar energy from 1977 to 1988, where <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is years since 1977.</para>
       <para id="para-00002">
           <media alt="Graph of an exponential function, origin O. t (years since 1977) and p (dollars per watt).">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_06_01.jpg"/>
@@ -23,7 +23,7 @@
           </problem>
           <solution id="sol-00001">
             <para id="para-00005">Compare your answer:</para>
-            <para id="para-00006"> \(\frac{p(5)−p(0)}{5−0} \approx -12.2\); \(\frac{p(11)−p(6)}{11−6} \approx -2.17\)</para>
+            <para id="para-00006"> <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>−</m:mi><m:mn>0</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>12.2</m:mn></m:mrow></m:math>; <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>11</m:mn><m:mi>−</m:mi><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>2.17</m:mn></m:mrow></m:math></para>
           </solution>
         </exercise>
       
@@ -88,8 +88,8 @@
         
     </para>
       <para id="para-00019">Approximately how much did the value drop from years 0 to 5 compared to years 6 to 10?</para>
-      <para id="para-00020">\(\frac{v(5)-v(0)}{5-0} \approx \frac{140,000-300,000}{5}=-32,000\)</para>
-      <para id="para-00021">\(\frac{v(10)-v(6)}{10-6} \approx \frac{70,000-120,000}{4}=-12,500\)</para>
+      <para id="para-00020"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mfrac><m:mrow><m:mn>140</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>−</m:mo><m:mn>300</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>32</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math></para>
+      <para id="para-00021"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mfrac><m:mrow><m:mn>70</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>−</m:mo><m:mn>120</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>500</m:mn></m:mrow></m:math></para>
       <para id="para-00022">Following this trend, we would expect the average rate of change of the value of the equipment from years 11 – 15 to be below –12,500 dollars per year.</para>
       <note class="try" id="note-00002">
   <title>Try It: Trends in Average Rates of Change</title>
@@ -109,7 +109,7 @@
             <para id="para-00026">Compare your answer:</para>
             <para id="para-00027">Here is how to find the average value drop from year 11 to year 15:</para>
             <para id="para-00028">(Note that approximate points are used, so your answer may vary a little, but the answer should still be below –10,000.)</para>
-            <para id="para-00029">\(\frac {v(15)-v(11)}{15-11} \approx \frac{30,000-60,000}{4}=-7,500\)</para>
+            <para id="para-00029"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>15</m:mn><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mfrac><m:mrow><m:mn>30</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>−</m:mo><m:mn>60</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>500</m:mn></m:mrow></m:math></para>
           </solution>
         </exercise>
       </note>

@@ -26,16 +26,16 @@
             <table class="os-raise-wideequaltable" id="table-00001">
               <tgroup cols="4"><tbody><row>
                   <entry>
-                   <emphasis>\(n\), Number of Bounces</emphasis>
+                   <emphasis><m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, Number of Bounces</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>\(a\), Height for Ball 1 (cm)</emphasis>
+                   <emphasis><m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math>, Height for Ball 1 (cm)</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>\(b\), Height for Ball 2 (cm)</emphasis>
+                   <emphasis><m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>, Height for Ball 2 (cm)</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>\(c\), Height for Ball 3 (cm)</emphasis>
+                   <emphasis><m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math>, Height for Ball 3 (cm)</emphasis>
                   </entry>
                 </row>
               <row>
@@ -90,16 +90,16 @@
             <table class="os-raise-wideequaltable" id="table-00002">
               <tgroup cols="4"><tbody><row>
                   <entry>
-                   <emphasis>\(n\), Number of Bounces</emphasis>
+                   <emphasis><m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, Number of Bounces</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>\(a\), Height for Ball 1 (cm)</emphasis>
+                   <emphasis><m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math>, Height for Ball 1 (cm)</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>\(b\), Height for Ball 2 (cm)</emphasis>
+                   <emphasis><m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>, Height for Ball 2 (cm)</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>\(c\), Height for Ball 3 (cm)</emphasis>
+                   <emphasis><m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math>, Height for Ball 3 (cm)</emphasis>
                   </entry>
                 </row>
               <row>
@@ -193,15 +193,15 @@
       
         <exercise id="exer-00003">
           <problem id="prob-00003">
-            <para id="para-00011"> For each one, write an equation expressing the bounce height in terms of the bounce number \(n\).</para>
+            <para id="para-00011"> For each one, write an equation expressing the bounce height in terms of the bounce number <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>.</para>
             <para id="para-00012">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00003">
             <para id="para-00013">Compare your answers:</para>
             <list id="list-00002">
-              <item>Ball 1: \(a=150 \cdot (\frac{1}{2})^n\) or \(a=150 \cdot (0.5)^n\)</item>
-              <item>Ball 2: \(b=150 \cdot (\frac{7}{10})^n\) or \(b=150 \cdot (0.7)^n\)</item>
-              <item>Ball 3: \(c=150 \cdot (\frac{2}{5})^n\) or \(c=150 (0.4)^n\)</item>
+              <item>Ball 1: <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math></item>
+              <item>Ball 2: <m:math display="inline"><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mi>b</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.7</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math></item>
+              <item>Ball 3: <m:math display="inline"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0.4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math></item>
             </list>
           </solution>
         </exercise>
@@ -215,7 +215,7 @@
           <solution id="sol-00004">
             <para id="para-00016">Compare your answers:</para>
             <para id="para-00017">The bounciness of the ball is measured by the rebound factor, which is the base of the exponential expression. That
-    is \(\frac12\) for the first ball, \(\frac{7}{10}\) for the second ball, and \(\frac25\) for the third ball. The
+    is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> for the first ball, <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math> for the second ball, and <m:math display="inline"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> for the third ball. The
     larger this number, the bouncier the ball.</para>
           </solution>
         </exercise>
@@ -223,13 +223,13 @@
       
         <exercise id="exer-00005">
           <problem id="prob-00005">
-            <para id="para-00018"> If the bounciest one were dropped from a height of 300 cm, what equation would model its bounce height \(h\)?
+            <para id="para-00018"> If the bounciest one were dropped from a height of 300 cm, what equation would model its bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>?
     </para>
             <para id="para-00019">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00005">
             <para id="para-00020">Compare your answer:</para>
-            <para id="para-00021"> \(h=300 \cdot (\frac{7}{10})^n\)</para>
+            <para id="para-00021"> <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>300</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math></para>
           </solution>
         </exercise>
       
@@ -238,7 +238,7 @@
       
         <exercise id="exer-00006">
           <problem id="prob-00006">
-            <para id="para-00022">Graph, on the same coordinate plane, the equation for each ball that models the bounce height \(h\) after \(n\) bounces using the Desmos tool below.</para>
+            <para id="para-00022">Graph, on the same coordinate plane, the equation for each ball that models the bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces using the Desmos tool below.</para>
             
             <para id="para-00023">After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
@@ -258,26 +258,26 @@
       <!--Q#7-->
       <exercise id="exer-00007">
         <problem id="prob-00007">
-          <para id="para-00026">7. Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for all 3 balls to predict the difference in the height of Ball 1 after 5 bounces.</para>
+          <para id="para-00026">7. Use the graph of the equation that models the bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces for all 3 balls to predict the difference in the height of Ball 1 after 5 bounces.</para>
         </problem>
         <solution id="sol-00007">
           <para id="para-00027"/>
           <para id="para-00028">Compare your answer:</para>
           <para id="para-00029"> The difference in height after 5 bounces is 5.5.
       Using the equation: 
-      \(h=150 \cdot (0.50)^n\) and graphing \(h=150 \cdot (0.50)^5\) The graph shows the height to be 4.6875 after 5 bounces \((n=5)\).
+      <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> and graphing <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>5</m:mn></m:msup></m:mrow></m:math> The graph shows the height to be 4.6875 after 5 bounces <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.
 
       This is consistent with the reasoning:
   </para>
           <list id="list-00003">
             <item>The height of the ball is decreasing by a factor of about
-        \( \frac{1}{2}\) after each bounce.</item>
+        <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math> after each bounce.</item>
             <item>After the 4th bounce, the height difference is 11. It should decrease by
-        \( \frac{1}{2}\) for each bounce after that. So, after 1 more bounce (the 5th bounce), it will decrease by a factor of about \( \frac{1}{2}\).
-        The 5th bounce would be \(11 \cdot \frac{1}{2}=5.5\).</item>
+        <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math> for each bounce after that. So, after 1 more bounce (the 5th bounce), it will decrease by a factor of about <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math>.
+        The 5th bounce would be <m:math display="inline"><m:mrow><m:mn>11</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>5.5</m:mn></m:mrow></m:math>.</item>
             <item>4.6875 rounds to 5, and 5.5 rounds to 6.</item>
             <item>Take the average of the two numbers.
-        \(\frac{5+6}{2}=5.5\)</item>
+        <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>5.5</m:mn></m:mrow></m:math></item>
           </list>
         </solution>
       </exercise>
@@ -285,23 +285,23 @@
       <!--Q#8-->
       <exercise id="exer-00008">
         <problem id="prob-00008">
-          <para id="para-00030">8. Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for all 3 balls to predict the difference in the height of Ball 2 after 5 bounces.</para>
+          <para id="para-00030">8. Use the graph of the equation that models the bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces for all 3 balls to predict the difference in the height of Ball 2 after 5 bounces.</para>
         </problem>
         <solution id="sol-00008">
           <para id="para-00031"/>
           <para id="para-00032">Compare your answer:</para>
           <para id="para-00033"> The difference in height after 5 bounces is 25.
       Using the equation: 
-      \(h=150 \cdot (0.7)^n\) and graphing \(h=150 \cdot (0.7)^5\). The graph shows the height to be 25.2105 after 5 bounces \((n=5)\).
+      <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.7</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> and graphing <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.7</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>5</m:mn></m:msup></m:mrow></m:math>. The graph shows the height to be 25.2105 after 5 bounces <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.
 
       This is consistent with the reasoning:
   </para>
           <list id="list-00004">
             <item>The height of the ball is decreasing by a factor of about
-        \(\frac {7}{10}\) after each bounce.</item>
+        <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math> after each bounce.</item>
             <item>After the 4th bounce, the height difference is 35. It should decrease by
-        \(\frac {7}{10}\) for each bounce after that. So, after 1 more bounce (the 5th bounce), it will
-        decrease by a factor of about \(\frac {7}{10}\). The 5th bounce would be \(35 \cdot \frac {7}{10} \approx 24.5\).</item>
+        <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math> for each bounce after that. So, after 1 more bounce (the 5th bounce), it will
+        decrease by a factor of about <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math>. The 5th bounce would be <m:math display="inline"><m:mrow><m:mn>35</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>24.5</m:mn></m:mrow></m:math>.</item>
             <item>Rounding either 25.2105 or 24.5 results in the answer 25</item>
           </list>
         </solution>
@@ -310,23 +310,23 @@
       <!--Q#9-->
       <exercise id="exer-00009">
         <problem id="prob-00009">
-          <para id="para-00034">9. Use the graph of the equation that models the bounce height \(h\) after \(n\) bounces for all 3 balls to predict the difference in the height of Ball 3 after 5 bounces.</para>
+          <para id="para-00034">9. Use the graph of the equation that models the bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces for all 3 balls to predict the difference in the height of Ball 3 after 5 bounces.</para>
         </problem>
         <solution id="sol-00009">
           <para id="para-00035"/>
           <para id="para-00036">Compare your answer:</para>
           <para id="para-00037"> The difference in height after 5 bounces is 2.
       Using the equation: 
-      \(h=150 \cdot (0.4)^n\) and graphing \(h=150 \cdot (0.4)^5\). The graph shows the height to be 1.636 after 5 bounces \((n=5)\).
+      <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> and graphing <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>5</m:mn></m:msup></m:mrow></m:math>. The graph shows the height to be 1.636 after 5 bounces <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.
 
       This is consistent with the reasoning:
   </para>
           <list id="list-00005">
             <item>The height of the ball is decreasing by a factor of about
-        \(\frac{2}{5}\) after each bounce.</item>
+        <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math> after each bounce.</item>
             <item>After the 4th bounce, the height difference is 6. It should decrease by
-        \(\frac{2}{5}\) for each bounce after that. So, after 1 more bounce (the 5th bounce),
-        it will decrease by a factor of about \(\frac{2}{5}\). The 5th bounce would be \(6 \cdot \frac{2}{5} \approx 2.4\).</item>
+        <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math> for each bounce after that. So, after 1 more bounce (the 5th bounce),
+        it will decrease by a factor of about <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math>. The 5th bounce would be <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mn>2.4</m:mn></m:mrow></m:math>.</item>
             <item>Rounding either 1.636 or 2.4 results in the answer 2.</item>
           </list>
         </solution>
@@ -344,8 +344,8 @@
           <title>Extending Your Thinking</title>
           <para id="para-00038"> If Ball 1 were dropped from a point that is twice as high, would its bounciness be greater, less, or the
         same? Be prepared to show your reasoning.</para>
-          <para id="para-00039"> Ball 4 is half as bouncy as the least bouncy ball. What equation would describe its height \(h\) in terms of
-        the number of bounces \(n\)?</para>
+          <para id="para-00039"> Ball 4 is half as bouncy as the least bouncy ball. What equation would describe its height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> in terms of
+        the number of bounces <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>?</para>
           <para id="para-00040"> Ball 5 was dropped from a height of 150 centimeters. It bounced up very slightly once or twice and then began
         rolling. How would you describe its rebound factor? Be prepared to show your reasoning.</para>
         </problem>
@@ -355,7 +355,7 @@
           <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
             <item>The same. The bounciness of the ball does not depend on the height from which it is dropped. This is why the
         successive rebound heights are modeled by an exponential function.</item>
-            <item>\(h=150(\frac{1}{5})^n\)</item>
+            <item><m:math><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math></item>
             <item>The rebound factor is very close to 0. Because the ball barely left the ground after hitting it, we could say
         that it lost almost all of its height with each bounce.</item>
           </list>

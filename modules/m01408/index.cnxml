@@ -9,7 +9,7 @@
     <section id="sect-00001">
       <title>Activity</title>
       <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-        <item>The thickness \(t\) in millimeters of a folded sheet of paper after it is folded \(n\) times is given by the equation \(t=(0.05) \cdot 2^n\).</item>
+        <item>The thickness <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> in millimeters of a folded sheet of paper after it is folded <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> times is given by the equation <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.05</m:mn><m:mo stretchy="false">)</m:mo><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:math>.</item>
       </list>
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00001">
@@ -31,14 +31,14 @@
         </problem>
         <solution id="sol-00002">
           <para id="para-00005">Compare your answer:</para>
-          <para id="para-00006">The number 2 indicates that the thickness doubles with each increment of \(n\), the number of folds.</para>
+          <para id="para-00006">The number 2 indicates that the thickness doubles with each increment of <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, the number of folds.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       
         <exercise id="exer-00003">
           <problem id="prob-00003">
-            <para id="para-00007">Use graphing technology to graph the equation \(t=(0.05) \cdot 2^n\).</para>
+            <para id="para-00007">Use graphing technology to graph the equation <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.05</m:mn><m:mo stretchy="false">)</m:mo><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:math>.</para>
             <para id="para-00008">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00003">
@@ -47,10 +47,10 @@
             <table class="os-raise-skinnytable" id="table-00001">
               <tgroup cols="2"><tbody><row>
                   <entry>
-                   <emphasis>\(n\)</emphasis>
+                   <emphasis><m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math></emphasis>
                   </entry>
                   <entry>
-                   <emphasis>\(t\)</emphasis>
+                   <emphasis><m:math><m:mrow><m:mi>t</m:mi></m:mrow></m:math></emphasis>
                   </entry>
                 </row>
               <row>
@@ -143,12 +143,12 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00006">
-          <para id="para-00018">Write an equation expressing the visible area \(a\) of the sheet of paper in terms of the number of times it has been folded, \(n\).</para>
+          <para id="para-00018">Write an equation expressing the visible area <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> of the sheet of paper in terms of the number of times it has been folded, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>.</para>
           
         </problem>
         <solution id="sol-00006">
           <para id="para-00019">Compare your answer:</para>
-          <para id="para-00020">\( a=93.5 \cdot (\frac{1}{2})^n\)</para>
+          <para id="para-00020"><m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>93.5</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math></para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -172,19 +172,19 @@
       <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media><!--Text Entry Interaction Start -->
       <exercise id="exer-00008">
         <problem id="prob-00008">
-          <para id="para-00025">In this context, can \(n\) take negative values? Be prepared to show your reasoning.</para>
+          <para id="para-00025">In this context, can <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> take negative values? Be prepared to show your reasoning.</para>
           
         </problem>
         <solution id="sol-00008">
           <para id="para-00026">Compare your answer:</para>
-          <para id="para-00027">The variable \(n\)<emphasis> </emphasis>cannot take negative values (unless the original sheet of paper can be unfolded).</para>
+          <para id="para-00027">The variable <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math><emphasis> </emphasis>cannot take negative values (unless the original sheet of paper can be unfolded).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00009">
         <problem id="prob-00009">
-          <para id="para-00028">Can \(a\) take negative values? Be prepared to show your reasoning.</para>
+          <para id="para-00028">Can <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> take negative values? Be prepared to show your reasoning.</para>
           
         </problem>
         <solution id="sol-00009">
@@ -201,7 +201,7 @@
           </problem>
           <solution id="sol-00010">
             <para id="para-00033">Compare your answer:</para>
-            <para id="para-00034">\(n \geq 0\)</para>
+            <para id="para-00034"><m:math><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
           </solution>
         </exercise>
       
@@ -213,7 +213,7 @@
           </problem>
           <solution id="sol-00011">
             <para id="para-00037">Compare your answer:</para>
-            <para id="para-00038">\(0&lt;a \leq 93.5\). Note that the area cannot be negative, or even 0, because the paper will not disappear.</para>
+            <para id="para-00038"><m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>a</m:mi><m:mo>≤</m:mo><m:mn>93.5</m:mn></m:mrow></m:math>. Note that the area cannot be negative, or even 0, because the paper will not disappear.</para>
           </solution>
         </exercise>
       
@@ -225,7 +225,7 @@
           </problem>
           <solution id="sol-00012">
             <para id="para-00041">Compare your answer:</para>
-            <para id="para-00042">\(y=0\)</para>
+            <para id="para-00042"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
           </solution>
         </exercise>
       
@@ -237,19 +237,19 @@
         </problem>
         <solution id="sol-00013">
           <para id="para-00044">Compare your answer:</para>
-          <para id="para-00045">\(t=(0.05) \cdot 2^7=(0.05)(128)=6.4\)</para>
+          <para id="para-00045"><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.05</m:mn><m:mo stretchy="false">)</m:mo><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mn>7</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.05</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>128</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6.4</m:mn></m:mrow></m:math></para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00014">
         <problem id="prob-00014">
-          <para id="para-00046">The \(y\)-intercept represents the initial thickness of the paper \(t\) before folding (when \(n\) is zero). Calculate the value of the \(y\)-intercept.</para>
+          <para id="para-00046">The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept represents the initial thickness of the paper <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> before folding (when <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is zero). Calculate the value of the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept.</para>
           
         </problem>
         <solution id="sol-00014">
           <para id="para-00047">Compare your answer:</para>
-          <para id="para-00048">\(t=(0.05) \cdot 2^0=(0.05)(1)=0.05\)</para>
+          <para id="para-00048"><m:math><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.05</m:mn><m:mo stretchy="false">)</m:mo><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.05</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0.05</m:mn></m:mrow></m:math></para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -261,13 +261,13 @@
         </problem>
         <solution id="sol-00015">
           <para id="para-00050">Compare your answer:</para>
-          <para id="para-00051">In this equation, the value of thickness of the paper \(t\) becomes larger as the number of folds \(n\) increases (approaches infinity). This means that, as the paper is folded an increasing number of times, the thickness has the potential to be infinite, but in reality, it can never quite reach it.</para>
+          <para id="para-00051">In this equation, the value of thickness of the paper <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> becomes larger as the number of folds <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> increases (approaches infinity). This means that, as the paper is folded an increasing number of times, the thickness has the potential to be infinite, but in reality, it can never quite reach it.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
     <note class="self-check" id="note-00001">
-      <para id="para-00052">The graph below represents the function that gives the value of a computer in dollars, \(y\), as a function of time, \(x\)<emphasis>,</emphasis> measured in years since the time of purchase.</para>
+      <para id="para-00052">The graph below represents the function that gives the value of a computer in dollars, <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, as a function of time, <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math><emphasis>,</emphasis> measured in years since the time of purchase.</para>
       <para id="para-00053">What is the range for this graph and situation?</para>
       <para id="para-00054">
           <media alt="Graph of a decreasing exponential function, x y plane, origin O.">
@@ -281,30 +281,30 @@
       
     <section id="sect-00003">
       <title>Domain and Range of Exponential Graphs</title>
-      <para id="para-00055">The graph below describes the amount of caffeine, \(c\), in a person’s body \(t\) hours after an initial
-measurement of 100 mg. The equation of this line is  \(y=100(1-0.1)^t\).</para>
+      <para id="para-00055">The graph below describes the amount of caffeine, <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math>, in a person’s body <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> hours after an initial
+measurement of 100 mg. The equation of this line is  <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.1</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math>.</para>
       <para id="para-00056">
           <media alt="Graph of function.">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_11_08_01.svg"/>
           </media>
         
     </para>
-      <para id="para-00057">What is the smallest value \(c\) can reach?</para>
-      <para id="para-00058">Since \(c\) is the amount of caffeine, it can get close to 0.</para>
-      <para id="para-00059">Can \(t\) ever take on negative values?</para>
+      <para id="para-00057">What is the smallest value <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> can reach?</para>
+      <para id="para-00058">Since <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> is the amount of caffeine, it can get close to 0.</para>
+      <para id="para-00059">Can <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> ever take on negative values?</para>
       <para id="para-00060">No, time will not be negative in this relationship because time is moving forward.</para>
-      <para id="para-00061">What are the lowest and highest values for \(t\)?</para>
-      <para id="para-00062">At the beginning, \(t=0\), and \(t\) can go as long as it takes for \(c\) to get so close to 0 it is insignificant.</para>
-      <para id="para-00063">The domain (or values of \(t\)) written as an inequality is \(t \geq 0\).</para>
-      <para id="para-00064">The range (or values of \(c\)) written as an inequality is \(0&lt;c \leq 100\).</para>
+      <para id="para-00061">What are the lowest and highest values for <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>?</para>
+      <para id="para-00062">At the beginning, <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> can go as long as it takes for <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> to get so close to 0 it is insignificant.</para>
+      <para id="para-00063">The domain (or values of <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>) written as an inequality is <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+      <para id="para-00064">The range (or values of <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math>) written as an inequality is <m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>c</m:mi><m:mo>≤</m:mo><m:mn>100</m:mn></m:mrow></m:math>.</para>
       <note class="try" id="note-00002">
       <title> Try It: Domain and Range of Exponential Graphs</title>
       
         <exercise id="exer-00016">
           <problem id="prob-00016">
-            <para id="para-00065">The dollar value of a car is a function, \(f\), of the number of years, \(t\), since the car was purchased. The car
-  was purchased at $12,000. Tell the domain and range. The equation of this line is \(y=12,000(1-0.25)^t\).</para>
-            <para id="para-00066">(\(t \)is exponent)</para>
+            <para id="para-00065">The dollar value of a car is a function, <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math>, of the number of years, <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>, since the car was purchased. The car
+  was purchased at $12,000. Tell the domain and range. The equation of this line is <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>0.25</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math>.</para>
+            <para id="para-00066">(<m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>is exponent)</para>
             <para id="para-00067">
                       <media alt="">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_05_11_08_02.jpg"/>
@@ -316,9 +316,9 @@ measurement of 100 mg. The equation of this line is  \(y=100(1-0.1)^t\).</para>
           <solution id="sol-00016">
             <para id="para-00069">Compare your answer:</para>
             <para id="para-00070">Here is how to determine the domain and range of an exponential function:</para>
-            <para id="para-00071">To determine the domain, look at the \(t\) values. The car is bought when \(t=0\), so the domain is \(t \geq 0\).</para>
-            <para id="para-00072">To determine the range, look at the \(f\) values, or the possible dollar values of the car. The car is bought at $12,000 and will lose value until the value is close to $0, but it will never be worth negative dollars.</para>
-            <para id="para-00073">The range is \(0&lt;f \leq 12000\).</para>
+            <para id="para-00071">To determine the domain, look at the <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> values. The car is bought when <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, so the domain is <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+            <para id="para-00072">To determine the range, look at the <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> values, or the possible dollar values of the car. The car is bought at $12,000 and will lose value until the value is close to $0, but it will never be worth negative dollars.</para>
+            <para id="para-00073">The range is <m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>f</m:mi><m:mo>≤</m:mo><m:mn>12000</m:mn></m:mrow></m:math>.</para>
           </solution>
         </exercise>
       </note>

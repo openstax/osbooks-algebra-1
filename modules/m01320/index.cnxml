@@ -8,8 +8,8 @@
   <content>
     <section id="sect-00001">
       <title>Activity</title>
-      <para id="para-00001">Every year after a new car is purchased, it loses \(\frac13\) of its value. Another way to think about this is that
-  the car retains \(\frac23\) of its value each year. Let’s say that a new car’s value is $18,000.</para>
+      <para id="para-00001">Every year after a new car is purchased, it loses <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> of its value. Another way to think about this is that
+  the car retains <m:math display="inline"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> of its value each year. Let’s say that a new car’s value is $18,000.</para>
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
@@ -20,10 +20,10 @@
         <solution id="sol-00001">
           <para id="para-00003">Your answers may vary, but here is an example:</para>
           <para id="para-00004">Disagree. Sample explanation: If the car loses a third of its value each year, then after one year its value
-      will be \(\frac23\) of $18,000 or $12,000. After two years its value will be \(\frac23\) of $12,000 or $8,000. And
-      after three years its value will be \(\frac23\) of $8,000 or about $5,333. The buyer might have thought that
+      will be <m:math display="inline"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> of $18,000 or $12,000. After two years its value will be <m:math display="inline"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> of $12,000 or $8,000. And
+      after three years its value will be <m:math display="inline"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> of $8,000 or about $5,333. The buyer might have thought that
       “losing a third of its value each year” meant losing $6,000 each year, so after 3 years the car would
-      be worthless (because \(3 \cdot 6,000=18,000\)). He may not realize that after one year, the value of the car is
+      be worthless (because <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mi>·</m:mi><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>=</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>). He may not realize that after one year, the value of the car is
       no longer $18,000.</para>
         </solution>
       </exercise>
@@ -149,40 +149,39 @@
       
         <exercise id="exer-00003">
           <problem id="prob-00003">
-            <para id="para-00008">Write an equation relating the value of the car in dollars, \(v\), to the number of years, \(t\). Write down
+            <para id="para-00008">Write an equation relating the value of the car in dollars, <m:math display="inline"><m:mrow><m:mi>v</m:mi></m:mrow></m:math>, to the number of years, <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>. Write down
         your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
             <para id="para-00009">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00003">
             <para id="para-00010">Compare your answer:</para>
-            <para id="para-00011">\(
-    v=18,000 \cdot (\frac{2}{3})^t\)</para>
+            <para id="para-00011"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math></para>
           </solution>
         </exercise>
       
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00012">Use your equation to find \(v\) when \(t\) is 0. What does this value of \(v\) mean in this situation?</para>
+          <para id="para-00012">Use your equation to find <m:math display="inline"><m:mrow><m:mi>v</m:mi></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is 0. What does this value of <m:math display="inline"><m:mrow><m:mi>v</m:mi></m:mrow></m:math> mean in this situation?</para>
           
         </problem>
         <solution id="sol-00004">
           <para id="para-00013">Compare your answer:</para>
-          <para id="para-00014">\(v=18,000\). This is the value of the car when \(t=0\), which is when the car is purchased.</para>
+          <para id="para-00014"><m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>18</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>. This is the value of the car when <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, which is when the car is purchased.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00015">A different car loses value at a different rate. The value of this different car in dollars, \(d\), after
-        \(t\) years can be represented by the equation \(d=10,000 \cdot (\frac{4}{5})^t\). Explain what the numbers
-        10,000 and \(\frac45\) mean in this situation.</para>
+          <para id="para-00015">A different car loses value at a different rate. The value of this different car in dollars, <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math>, after
+        <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> years can be represented by the equation <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math>. Explain what the numbers
+        10,000 and <m:math display="inline"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> mean in this situation.</para>
           
         </problem>
         <solution id="sol-00005">
           <para id="para-00016">Compare your answer:</para>
-          <para id="para-00017">10,000 is the initial value of the car in dollars, and the car retains \(\frac45\) of its value each year.</para>
+          <para id="para-00017">10,000 is the initial value of the car in dollars, and the car retains <m:math display="inline"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> of its value each year.</para>
         </solution>
       </exercise></section>
       <!--Interaction End -->
@@ -211,10 +210,10 @@
         </problem>
         <solution id="sol-00006">
           <para id="para-00021">Compare your answer:</para>
-          <para id="para-00022">Each step, \(\frac14\) of the remaining area is removed, since taking away \(\frac14\) from each smaller triangle
-      results in taking \(\frac14\) of the total remaining area. That means that each step, the remaining area is
-      multiplied by \(\frac34\) since \(1−\frac{1}{4} =\frac{3}{4}\). So after \(n\) steps, the remaining area is
-      simply \((\frac{3}{4})^n\). After 50 steps, this leaves an area of only about 0.000000566321656 square units, so
+          <para id="para-00022">Each step, <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> of the remaining area is removed, since taking away <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> from each smaller triangle
+      results in taking <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> of the total remaining area. That means that each step, the remaining area is
+      multiplied by <m:math display="inline"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> since <m:math display="inline"><m:mrow><m:mn>1</m:mn><m:mi>−</m:mi><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:mrow></m:math>. So after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> steps, the remaining area is
+      simply <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math>. After 50 steps, this leaves an area of only about 0.000000566321656 square units, so
       there’s almost nothing left!</para>
           <para id="para-00023">If you can imagine doing this process forever, the resulting shape is called the Sierpinski triangle.</para>
           <para id="para-00024">
@@ -228,7 +227,7 @@
       <!--End interaction-->
     </section></section>
     <note class="self-check" id="note-00001">
-      (    <para id="para-00025">Which of the following could represent a population of bacteria, \(b\), that decreases at a rate of \(\frac18\) every hour, \(h\)? Consider an initial amount of 100 bacteria.</para>)
+      <para id="para-00025">Which of the following could represent a population of bacteria, <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>, that decreases at a rate of <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math> every hour, <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>? Consider an initial amount of 100 bacteria.</para>
         </note>
         <section id="sect-00004">
           <title>Additional Resources</title>
@@ -236,47 +235,44 @@
   <section id="sect-00005"><title>Analyzing Exponential Decay</title>
     <para id="para-00026">At the beginning of April, a colony of ants had a population of 5,000.</para>
     <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-      <item>The colony decreases by \(\frac15\) during April. Write an expression that represents the ant population at the end of April.</item>
+      <item>The colony decreases by <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> during April. Write an expression that represents the ant population at the end of April.</item>
     </list>
     <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-      <item>During May, the colony decreases again by \(\frac15\) of its size. Write an expression that represents the ant population at the end of May.</item>
+      <item>During May, the colony decreases again by <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> of its size. Write an expression that represents the ant population at the end of May.</item>
     </list>
     <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
-      <item>The colony continues to decrease by \(\frac15\) of its size each month. Write an expression that represents the ant population after 6 months.</item>
+      <item>The colony continues to decrease by <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> of its size each month. Write an expression that represents the ant population after 6 months.</item>
     </list>
     <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
-      <item>Write an equation to represent the population of ants, \(p\), after \(m\) months.</item>
+      <item>Write an equation to represent the population of ants, <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math>, after <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math> months.</item>
     </list>
-    <para id="para-00027">When you are analyzing exponential decay and are given the fraction or percent by which it decreases, you need to remember that one minus that fraction or percent is the growth rate. In the case of the ant colony, because it is decreasing by \(\frac15\), that means that the growth factor is \(1-\frac15\) or \(\frac45\).</para>
+    <para id="para-00027">When you are analyzing exponential decay and are given the fraction or percent by which it decreases, you need to remember that one minus that fraction or percent is the growth rate. In the case of the ant colony, because it is decreasing by <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math>, that means that the growth factor is <m:math display="inline"><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math>.</para>
     <para id="para-00028">Part 1 asks for an expression to represent the ant population at the end of April. There are several options:</para>
     <list id="list-00005">
-      <item>\(
-        5000-(\frac{1}{5} \cdot 5000)\)</item>
-      <item>\(5000 \cdot \frac{4}{5}\)</item>
-      <item>\(
-        4000\)</item>
+      <item><m:math><m:mrow><m:mn>5000</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mn>5000</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+      <item><m:math><m:mrow><m:mn>5000</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></item>
+      <item><m:math><m:mrow><m:mn>4000</m:mn></m:mrow></m:math></item>
     </list>
     <para id="para-00029">Each line is the simplification of the line above it. Part 2 has a few more options.</para>
-    <para id="para-00030">Part 2 is asking you to find \(\frac45\) of April’s total. There are several expressions to represent that:</para>
+    <para id="para-00030">Part 2 is asking you to find <m:math display="inline"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> of April’s total. There are several expressions to represent that:</para>
     <list id="list-00006">
-      <item>\(5000 \cdot \frac{4}{5} \cdot \frac{4}{5}\)</item>
-      <item>\(4000 \cdot \frac{4}{5}\)</item>
-      <item>\(
-        4000-(\frac{1}{5} \cdot 4000)\)</item>
-      <item>\(3200\)</item>
+      <item><m:math><m:mrow><m:mn>5000</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></item>
+      <item><m:math><m:mrow><m:mn>4000</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></item>
+      <item><m:math><m:mrow><m:mn>4000</m:mn><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mn>4000</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
+      <item><m:math><m:mrow><m:mn>3200</m:mn></m:mrow></m:math></item>
     </list>
-    <para id="para-00031">Basically, you take the answer from April and multiply by \(\frac45\) again since the growth factor is \(\frac45\). You could also look at it as taking the initial value times \(\frac45\) twice.</para>
-    <para id="para-00032">Part 3 asks you to extend the pattern to 6 months after the initial population was measured. After the 2nd month, you multiplied the initial value by the growth factor twice, so for this situation you would need to multiply the initial value by the growth factor 6 times, or raise it to the sixth power. The possible answers would be \(5000 \cdot \frac{4}{5} \cdot \frac{4}{5} \cdot \frac{4}{5} \cdot \frac{4}{5} \cdot \frac{4}{5} \cdot \frac{4}{5}\) or \(5000 \cdot (\frac{4}{5})^6\), which means that after 6 months the population would be about 1,311.</para>
-    <para id="para-00033">Part 4 wants the general equation to represent the situation. If you use the pattern from part 3, you can see that it can be written in the exponential form \(y=ab^x\), where \(a\) is the initial value and \(b\) is the growth factor. Using the variables suggested, the equation would be \(p = 5000( \frac{4}{5})^m\).</para>
+    <para id="para-00031">Basically, you take the answer from April and multiply by <m:math display="inline"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> again since the growth factor is <m:math display="inline"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math>. You could also look at it as taking the initial value times <m:math display="inline"><m:mrow><m:mfrac><m:mn>4</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> twice.</para>
+    <para id="para-00032">Part 3 asks you to extend the pattern to 6 months after the initial population was measured. After the 2nd month, you multiplied the initial value by the growth factor twice, so for this situation you would need to multiply the initial value by the growth factor 6 times, or raise it to the sixth power. The possible answers would be <m:math display="inline"><m:mrow><m:mn>5000</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mn>5000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:msup></m:mrow></m:math>, which means that after 6 months the population would be about 1,311.</para>
+    <para id="para-00033">Part 4 wants the general equation to represent the situation. If you use the pattern from part 3, you can see that it can be written in the exponential form <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> is the initial value and <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> is the growth factor. Using the variables suggested, the equation would be <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>5000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>m</m:mi></m:msup></m:mrow></m:math>.</para>
     <note class="try" id="note-00002">
     <title>Try It: Analyzing Exponential Decay</title>
-    <para id="para-00034">A doctor prescribes 125 milligrams of a therapeutic drug that decreases in effectiveness by \(\frac{3}{10}\) each hour.</para>
+    <para id="para-00034">A doctor prescribes 125 milligrams of a therapeutic drug that decreases in effectiveness by <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math> each hour.</para>
     <exercise id="exer-00007">
       <problem id="prob-00007">
         
         <para id="para-00035">Write an expression to represent how much is left after 1 hour.</para>
           <para id="para-00036">Write an expression to represent how much is left after 3 hours.</para>
-          <para id="para-00037">Write an equation that represents the amount of drug, \(d\), left after \(h\) hours.</para>
+          <para id="para-00037">Write an equation that represents the amount of drug, <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math>, left after <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> hours.</para>
         <para id="para-00038">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
       
       </problem><solution id="sol-00007">
@@ -284,11 +280,11 @@
       
       <para id="para-00040">Here is how to analyze the exponential decay situation:</para>
       
-      <para id="para-00041">In part a, you need to multiply the initial amount by \(\frac{7}{10}\), or \(125 \cdot \frac{7}{10}\), or 87.5 mg.</para>
+      <para id="para-00041">In part a, you need to multiply the initial amount by <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math>, or <m:math display="inline"><m:mrow><m:mn>125</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math>, or 87.5 mg.</para>
       
-      <para id="para-00042">In part b, since it’s 3 hours later, it would be \(125 \cdot \frac{7}{10} \cdot \frac{7}{10} \cdot \frac{7}{10}\), or \(125 \cdot (\frac{7}{10})^3\), or 42.875 mg.</para>
+      <para id="para-00042">In part b, since it’s 3 hours later, it would be <m:math display="inline"><m:mrow><m:mn>125</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math>, or <m:math display="inline"><m:mrow><m:mn>125</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>3</m:mn></m:msup></m:mrow></m:math>, or 42.875 mg.</para>
       
-      <para id="para-00043">The equation that represents the situation for part c is \(d =125 \cdot (\frac{7}{10})^h\).</para>
+      <para id="para-00043">The equation that represents the situation for part c is <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>125</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>7</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>h</m:mi></m:msup></m:mrow></m:math>.</para>
     
     </solution></exercise></note>
     </section>

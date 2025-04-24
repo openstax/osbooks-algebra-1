@@ -19,7 +19,7 @@
           <item>
             <para id="para-00003"><emphasis>View and change graph settings</emphasis></para>
           <list bullet-style="open-circle" id="list-00002">
-              <item>Change limits of the <emphasis effect="italics">x</emphasis>- and\(y\)-axis and the scale for each</item>
+              <item>Change limits of the <emphasis effect="italics">x</emphasis>- and<m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-axis and the scale for each</item>
               <item>Toggle display color and font size</item>
               <item>Toggle between radians and degrees</item>
               <item>Turn on Braille mode</item>
@@ -27,7 +27,7 @@
          </item>
           <item><emphasis>Zoom in:</emphasis> focus on one part of the graph and see less of the rest of it</item>
           <item><emphasis>Zoom out:</emphasis> see less of one part of the graph and more of the rest of it</item>
-          <item><emphasis>Reset zoom:</emphasis> return to default window where \(-10 ≤ x ≤ 10\) and \(-10 ≤ y ≤ 10\).</item>
+          <item><emphasis>Reset zoom:</emphasis> return to default window where <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>≤</m:mi><m:mi>x</m:mi><m:mi>≤</m:mi><m:mn>10</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>≤</m:mi><m:mi>y</m:mi><m:mi>≤</m:mi><m:mn>10</m:mn></m:mrow></m:math>.</item>
           <item><emphasis>Undo:</emphasis> undo your last action</item>
           <item><emphasis>Redo:</emphasis> redo your last action</item>
           <item>
@@ -48,7 +48,7 @@
               <item>image, a resizable image from your computer</item>
             </list>
          </item>
-          <item><emphasis>Open math keyboard:</emphasis> open a digital keypad that allows you to quickly add special math functions and symbols, like \(sin\) or ÷, to your expression. View our guide to the Desmos math keyboard below.
+          <item><emphasis>Open math keyboard:</emphasis> open a digital keypad that allows you to quickly add special math functions and symbols, like <m:math display="inline"><m:mrow><m:mi>s</m:mi><m:mi>i</m:mi><m:mi>n</m:mi></m:mrow></m:math> or ÷, to your expression. View our guide to the Desmos math keyboard below.
             <list bullet-style="open-circle" id="list-00005">
               <item>Tip: You can use your physical, non-Desmos keyboard to type math and interact with the graph. To learn more check out these guides <link url="https://www.purplemath.com/modules/mathtext.htm">Math Notation Guide by PurpleMath</link> and <link url="https://help.desmos.com/hc/en-us/articles/4405966811021-Keyboard-Shortcuts">Desmos Keyboard Shortcuts</link></item>
             </list>
@@ -96,33 +96,33 @@
           <list list-type="enumerated" id="list-00008">
             <item>To create a line or curve that approximates the data trend, calculate a regression. Depending on the type of data (linear, exponential, or quadratic), the format of the regression equation will differ:
             <list id="list-00009">
-              <item>Linear: \(y_{1} ~ mx_{1} + b\)</item>
-              <item>Exponential: \(y_{1} ~ ax_{1}b\)</item>
-              <item>Quadratic: \(y_{1} ~ ax_{1}^2 + bx_{1} + c\)</item>
+              <item>Linear: <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext> </m:mtext><m:mi>m</m:mi><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></item>
+              <item>Exponential: <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext> </m:mtext><m:mi>a</m:mi><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>b</m:mi></m:mrow></m:math></item>
+              <item>Quadratic: <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext> </m:mtext><m:mi>a</m:mi><m:msubsup><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>b</m:mi><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math></item>
             </list>
            </item>
             <item>Click the pointer below the table into entry box #2 to enter a new function. The cursor should start blinking. Enter the correct equation you found in step 4 using the following tips:
             <list id="list-00010">
-              <item>Notice that when you type the "1" after \(y\) or \(x\), Desmos automatically places
+              <item>Notice that when you type the "1" after <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, Desmos automatically places
                 it as subscript.</item>
               <item>Also notice that we are not using an equal sign. The symbol ~ means approximately
                 and tells Desmos to approximate a line or curve of best fit. On your keyboard, you can
                 type it with Shift+` (in the top left corner). If you are using the Desmos on-screen
                 keyboard, it will be in the ABC/symbol keyboard.</item>
               <item>To type an exponent, use the ^ symbol on your physical keyboard. You can type it
-                using Shift+6. You can also use the Desmos keyboard button \(a^2\) or \(a^b\).</item>
+                using Shift+6. You can also use the Desmos keyboard button <m:math display="inline"><m:mrow><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:msup><m:mi>a</m:mi><m:mi>b</m:mi></m:msup></m:mrow></m:math>.</item>
             </list>
            </item>
-            <item>Once you have entered the regression equation, you can press Enter. The graph of the line or curve of best fit will appear. Pictured above and right is a quadratic curve of best fit. Desmos will also report correlation statistics such as \(r\) and \(R^2\), as well as the \(a\) value, \(b\) value, and \(c\) value in the expression list below the quadratic equation you entered.
+            <item>Once you have entered the regression equation, you can press Enter. The graph of the line or curve of best fit will appear. Pictured above and right is a quadratic curve of best fit. Desmos will also report correlation statistics such as <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, as well as the <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> value, <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> value, and <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> value in the expression list below the quadratic equation you entered.
             <list id="list-00011">
               <item>Tip: The window should be appropriately set to display the points in the table, but
                 sometimes you have to adjust the window of the graph in order to properly view your data
                 set. Click and drag the mouse to shift the viewing window. To zoom in or out, use the
                 buttons in the top right or the scrolling wheel on the mouse. Or, edit the graph
                 settings.</item>
-              <item>Tip: If you are having difficulty finding the correlation coefficient, \(r\), type
-                the command \(‘corr (𝑥_{1},y_{1})’\) on another expression line. It may also be helpful
-                to check the accuracy of the data entered into the \(𝑥_{1}\) and \(𝑦_{1}\) columns of
+              <item>Tip: If you are having difficulty finding the correlation coefficient, <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math>, type
+                the command <m:math display="inline"><m:mrow><m:mi>‘</m:mi><m:mi>c</m:mi><m:mi>o</m:mi><m:mi>r</m:mi><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>𝑥</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo>,</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mi>’</m:mi></m:mrow></m:math> on another expression line. It may also be helpful
+                to check the accuracy of the data entered into the <m:math display="inline"><m:mrow><m:msub><m:mi>𝑥</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:msub><m:mi>𝑦</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:math> columns of
                 the table.</item>
             </list>
            </item>

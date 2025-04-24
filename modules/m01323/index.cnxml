@@ -9,8 +9,8 @@
     <section id="sect-00001">
       <title>Activity</title>
       <para id="para-00001">To control an algae bloom in a lake, scientists introduce some treatment products.</para>
-      <para id="para-00002">Once the treatment begins, the area covered by algae in square yards, \(A\), is given by the equation \(A=240 \cdot
-  (\frac{1}{3})^t\). Time, \(t\), is measured in weeks.</para>
+      <para id="para-00002">Once the treatment begins, the area covered by algae in square yards, <m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math>, is given by the equation \(A=240 \cdot
+  (\frac{1}{3})^t\). Time, <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>, is measured in weeks.</para>
       <para id="para-00003">
           <media alt="Lake with algae growth.">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_06_01.jpg"/>
@@ -32,12 +32,12 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00007">What does the \(\frac13\) tell us?</para>
+          <para id="para-00007">What does the <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> tell us?</para>
           
         </problem>
         <solution id="sol-00002">
           <para id="para-00008">Compare your answer:</para>
-          <para id="para-00009">Every week, the area covered is \(\frac13\) of the area covered the previous week.</para>
+          <para id="para-00009">Every week, the area covered is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> of the area covered the previous week.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -49,7 +49,7 @@
             
             <!--CHANGE THE TEXT BEFORE Use the graphing tool or technology outside the course. TO FIT THE PROBLEM-->
             <para id="para-00010">Create a graph to represent \(A=240 \cdot
-        (\frac{1}{3})^t\) when \(t\) is 0, 1, 2, 3, and 4. Think carefully about how you choose the scale for the axes.
+        (\frac{1}{3})^t\) when <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is 0, 1, 2, 3, and 4. Think carefully about how you choose the scale for the axes.
         If you get stuck, consider creating a table of values.  Use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool below.</para>
             
             <para id="para-00011">After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
@@ -66,10 +66,10 @@
             <table class="os-raise-midsizetable" id="table-00005">
               <tgroup cols="2"><tbody><row>
                   <entry>
-                   <emphasis>\(t\) (Weeks)</emphasis>
+                   <emphasis><m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> (Weeks)</emphasis>
                   </entry>
                   <entry>
-                   <emphasis>\(A\) (Square Yards)</emphasis>
+                   <emphasis><m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> (Square Yards)</emphasis>
                   </entry>
                 </row>
               <row>
@@ -148,29 +148,29 @@
         </problem>
         <solution id="sol-00005">
           <para id="para-00017">Compare your answer:</para>
-          <para id="para-00018">7 weeks. There are 9 square feet in every square yard, so 1 square foot is \(\frac19\) square yard (or about
-      0.111 square yard). At 7 weeks is the first time the area covered by algae is less than \(\frac19\) because \(240
-      \cdot (\frac{1}{3})^6 \approx 0.329\), and \(240 \cdot (\frac{1}{3})^7 \approx 0.110\).</para>
+          <para id="para-00018">7 weeks. There are 9 square feet in every square yard, so 1 square foot is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math> square yard (or about
+      0.111 square yard). At 7 weeks is the first time the area covered by algae is less than <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math> because \(240
+      \cdot (\frac{1}{3})^6 \approx 0.329\), and <m:math display="inline"><m:mrow><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>7</m:mn></m:msup><m:mo>≈</m:mo><m:mn>0.110</m:mn></m:mrow></m:math>.</para>
         </solution>
       </exercise>
     </section>
   </section>
   <note class="self-check" id="note-00001">
-    (    <para id="para-00019">Which of the following is the graph of \(y = 12(\frac{1}{2})^x\)?</para>)
+    <para id="para-00019">Which of the following is the graph of <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math>?</para>
       </note>
       <section id="sect-00004">
         <title>Additional Resources</title>
         
     <section id="sect-00005">
       <title>Connecting Tables and Graphs in Exponential Decay Functions</title>
-      <para id="para-00020">A population \(p\) of migrating butterflies satisfies the equation \(p=100,000 \cdot (\frac{4}{5})^w\), where \(w\)
+      <para id="para-00020">A population <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> of migrating butterflies satisfies the equation <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>w</m:mi></m:msup></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>w</m:mi></m:mrow></m:math>
   is the number of weeks since they began their migration.</para>
-      <para id="para-00021">Answer the following questions that would complete the table and create a graph to show the population \(p\) of
+      <para id="para-00021">Answer the following questions that would complete the table and create a graph to show the population <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> of
   migrating butterflies at the number of weeks since they began their migration.</para>
       <table class="os-raise-horizontaltable" id="table-00001">
         <tgroup cols="6"><tbody><row>
             <entry>
-             <emphasis>\(w\)</emphasis>
+             <emphasis><m:math><m:mrow><m:mi>w</m:mi></m:mrow></m:math></emphasis>
             </entry>
             <entry>
         0
@@ -190,7 +190,7 @@
           </row>
           <row>
             <entry>
-             <emphasis>\(p\)</emphasis>
+             <emphasis><m:math><m:mrow><m:mi>p</m:mi></m:mrow></m:math></emphasis>
             </entry>
             <entry> </entry>
             <entry> </entry>
@@ -211,17 +211,17 @@
       <para id="para-00022">When you have the equation that represents the situation, you can substitute values in and use the order of
   operations to find the values for the table.</para>
       <list id="list-00002">
-        <item>Part 1 is asking for the initial value. Since the equation \(p=100,000\cdot(\frac{4}{5})^w\) is in the form
-    \(y=ab^x\), you know the initial value is \(a\) or 100,000.</item>
-        <item>Part 2 is 1 week after migration, so replace the \(w\) in the equation with 1 to get 80,000.</item>
-        <item>In part 3, the \(w\) can be replaced with 3 to get 51,200.</item>
+        <item>Part 1 is asking for the initial value. Since the equation <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>w</m:mi></m:msup></m:mrow></m:math> is in the form
+    <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math>, you know the initial value is <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> or 100,000.</item>
+        <item>Part 2 is 1 week after migration, so replace the <m:math display="inline"><m:mrow><m:mi>w</m:mi></m:mrow></m:math> in the equation with 1 to get 80,000.</item>
+        <item>In part 3, the <m:math display="inline"><m:mrow><m:mi>w</m:mi></m:mrow></m:math> can be replaced with 3 to get 51,200.</item>
         <item>The rest of the values of the table can be found the same way, and once you have the completed table, you can
     plot the points. Once you have plotted the points, you can connect them with a smooth curve.</item>
       </list>
       <table class="os-raise-horizontaltable" id="table-00002">
         <tgroup cols="6"><tbody><row>
             <entry>
-             <emphasis>\(w\)</emphasis>
+             <emphasis><m:math><m:mrow><m:mi>w</m:mi></m:mrow></m:math></emphasis>
             </entry>
             <entry>
         0
@@ -241,7 +241,7 @@
           </row>
           <row>
             <entry>
-             <emphasis>\(p\)</emphasis>
+             <emphasis><m:math><m:mrow><m:mi>p</m:mi></m:mrow></m:math></emphasis>
             </entry>
             <entry>
         100,000
@@ -269,9 +269,9 @@
       <list id="list-00003">
         <item>Part 5 asks about the vertical intercept and what it means. The vertical intercept is 100,000, which is the
     initial amount of the butterfly population. This means that when the butterflies start their migration (at
-    \(w=0\) weeks), the population is initially 100,000.
-    The \(y\)-intercept is the value of \(p\) when
-    \(w=0\), which corresponds to the initial condition or starting point of the migration. Substituting \(w=0\) into the equation, we have \(p=100000 \cdot (\frac{4}{5})^0=100000 \cdot 1=100000\).
+    <m:math display="inline"><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> weeks), the population is initially 100,000.
+    The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept is the value of <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> when
+    <m:math display="inline"><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, which corresponds to the initial condition or starting point of the migration. Substituting <m:math display="inline"><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> into the equation, we have <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>100000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>100000</m:mn><m:mi>·</m:mi><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>100000</m:mn></m:mrow></m:math>.
  </item>
         <item>For part 6, you could continue the table or use the graph to see where it is 50,000, which is around 3 weeks.
  </item>
@@ -283,13 +283,13 @@
       <list id="list-00004">
         <item>For part 7, an asymptote is a line or curve that a function approaches but does not intersect or touch. In other words, as the input values of a function approach a certain value or tend towards infinity or negative infinity, the function values get arbitrarily close to the asymptote without actually crossing it. Asymptotes can provide valuable information about the behavior of a function and can help in understanding its limits and range.
     
-    To determine the asymptote, we examine the behavior of the function as 𝑤 approaches infinity. In this case, as 𝑤 becomes larger and larger, the term \((\frac{4}{5})^𝑤\) will grow exponentially smaller. Consequently, the population 𝑝 will also grow infinitely smaller as it gets closer and closer to zero. Thus, the horizontal asymptote in this equation is the \(x\)-axis. The graph of the function will continue to decrease towards the \(x\)-axis as 𝑤 increases, approaching \(y = 0\). The butterfly population will decrease over time due to the migration.
+    To determine the asymptote, we examine the behavior of the function as 𝑤 approaches infinity. In this case, as 𝑤 becomes larger and larger, the term <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>𝑤</m:mi></m:msup></m:mrow></m:math> will grow exponentially smaller. Consequently, the population 𝑝 will also grow infinitely smaller as it gets closer and closer to zero. Thus, the horizontal asymptote in this equation is the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-axis. The graph of the function will continue to decrease towards the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-axis as 𝑤 increases, approaching <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. The butterfly population will decrease over time due to the migration.
  </item>
       </list>
       <note class="try" id="note-00002">
   <title>Try It: Connecting Tables and Graphs in Exponential Decay Functions</title>
       <para id="para-00024">The number of copies of a book sold the year it was released was 600,000. Each year after that, the number of copies
-  sold decreased by \(\frac12\).</para>
+  sold decreased by <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>.</para>
       
         <exercise id="exer-00006">
           <problem id="prob-00006">
@@ -345,7 +345,7 @@
             <para id="para-00027">Compare your answer:</para>
             <para id="para-00028">Here is how to turn an exponential decay situation into a table and a graph:</para>
             <para id="para-00029">To complete the table, you enter 600,000 in the first line of the table, since it is the initial value or the starting point. For each entry after the first, you multiply each term by
-    \(\frac12\). The table below has an extra row with the process worked out.</para>
+    <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>. The table below has an extra row with the process worked out.</para>
             <table class="os-raise-wideequaltable" id="table-00004">
               <tgroup cols="3"><tbody><row>
                   <entry>
@@ -420,7 +420,7 @@
       <!--Q2-->
       <exercise id="exer-00007">
         <problem id="prob-00007">
-          <para id="para-00030"> Write an equation representing the number of copies, \(c\), sold \(y\) years after the book was released.
+          <para id="para-00030"> Write an equation representing the number of copies, <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math>, sold <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> years after the book was released.
     </para>
         </problem>
         <solution id="sol-00007">
@@ -436,13 +436,13 @@
       <!--Q4-->
       <exercise id="exer-00008">
         <problem id="prob-00008">
-          <para id="para-00034"> Use your equation or graph to find \(c\) when \(y=6\). What does this mean in terms of the book sales?
+          <para id="para-00034"> Use your equation or graph to find <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>. What does this mean in terms of the book sales?
     </para>
         </problem>
         <solution id="sol-00008">
           <para id="para-00035"/>
           <para id="para-00036">Compare your answer:</para>
-          <para id="para-00037"> If you use the equation you would substitute 6 in for \(y\), or \(c=600,000(\frac{1}{2})^6\), and evaluate to find the solution.
+          <para id="para-00037"> If you use the equation you would substitute 6 in for <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, or <m:math display="inline"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:msup></m:mrow></m:math>, and evaluate to find the solution.
       
       The answer 9,375 means that six years after the book was published, 9,375 copies of the book were sold.
   </para>
@@ -459,10 +459,10 @@
           <para id="para-00039"/>
           <para id="para-00040">Compare your answer:</para>
           <list id="list-00005">
-            <item>The \(y\)-intercept represents the value of the function when
-        \(t=0\), which corresponds to the year the book was released. Substituting \(t=0\) into the function, we have \(f(0)=600,000 \cdot ( 21&amp;ZeroWidthSpace; )^ 0 =600,000 \cdot 1=600,000\).</item>
-            <item>The \(y\)-intercept is 600,000. This means that, in the year the book was released (at
-        \(t=0\)), 600,000 copies were sold.</item>
+            <item>The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept represents the value of the function when
+        <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, which corresponds to the year the book was released. Substituting <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> into the function, we have <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>21</m:mn><m:mi>​</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>.</item>
+            <item>The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept is 600,000. This means that, in the year the book was released (at
+        <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>), 600,000 copies were sold.</item>
           </list>
         </solution>
       </exercise>
@@ -477,13 +477,13 @@
           <para id="para-00042"/>
           <para id="para-00043">Compare your answer:</para>
           <list id="list-00006">
-            <item>To determine the asymptote, we need to consider the behavior of the function as \(t\) approaches infinity. As \(t\) increases, the exponent
-        \((\frac {1}{2})t\) becomes smaller and smaller. Eventually, as \(t\) approaches infinity, the exponent approaches 0.
+            <item>To determine the asymptote, we need to consider the behavior of the function as <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> approaches infinity. As <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> increases, the exponent
+        <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:mrow></m:math> becomes smaller and smaller. Eventually, as <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> approaches infinity, the exponent approaches 0.
      </item>
             <item>The function
-        \(f(t)\) approaches the value 0 as \(t\) tends towards infinity. In other words, the horizontal asymptote of the function is \(y=0\).</item>
+        <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> approaches the value 0 as <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> tends towards infinity. In other words, the horizontal asymptote of the function is <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</item>
             <item>The asymptote is
-        \(y=0\), indicating that as the number of years increases indefinitely, the number of copies sold approaches zero.</item>
+        <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, indicating that as the number of years increases indefinitely, the number of copies sold approaches zero.</item>
           </list>
         </solution>
       </exercise>
