@@ -271,36 +271,36 @@
           <entry><emphasis/></entry><entry><emphasis>Linear Model</emphasis></entry><entry><emphasis>Exponential Model</emphasis></entry></row>
       <row>
           <entry><emphasis>General Form</emphasis></entry><entry>
-            \(f(x)=ax+b\)
+            <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math>
           </entry>
           <entry>
-            \(f(x)=a(b)^x\)
+            <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math>
           </entry>
         </row>
         <row>
           <entry><emphasis>Meaning of Parameters <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math></emphasis></entry><entry>
-            \(a\) is the slope of the line or the constant rate of change; \(b\) is the \(y\)-intercept or the
-              \(f(x)\) value at \(x=0\).
+            <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> is the slope of the line or the constant rate of change; <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> is the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept or the
+              <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> value at <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.
           </entry>
           <entry>
-            \(a\) is the \(y\)-intercept or the \(f(x)\) value when \(x=0\); \(b\) is the base or the constant quotient
+            <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> is the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept or the <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> value when <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>; <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> is the base or the constant quotient
               of change.
           </entry>
         </row>
         <row>
           <entry><emphasis>Example</emphasis></entry><entry>
-            \(f(x)=1.50x\)
+            <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>1.50</m:mn><m:mi>x</m:mi></m:mrow></m:math>
           </entry>
           <entry>
-            \(f(x)=.01(3)^x\)
+            <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>.01</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math>
           </entry>
         </row>
         <row>
           <entry><emphasis>Rule for Finding <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> from <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry><entry>
-            Starting at \((0,0)\), to find \(f(x+1)\), add 1.5 to \(f(x)\).
+            Starting at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, to find <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, add 1.5 to <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.
           </entry>
           <entry>
-            Starting at \((0,0.1)\), to find \(f(x+1)\), multiply \(f(x)\) by 3.
+            Starting at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0.1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, to find <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, multiply <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> by 3.
           </entry>
         </row>
     
@@ -511,8 +511,7 @@
       
       <para id="para-00028">Plan 2 for 14 days would be:</para>
       
-      <para id="para-00029">\(.01 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 \cdot 2 =
-        .01(2)^{14} =$163.84\)</para>
+      <para id="para-00029"><m:math><m:mrow><m:mi>.01</m:mi><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mo>=</m:mo><m:mi>.01</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>14</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mi>$</m:mi><m:mn>163.84</m:mn></m:mrow></m:math></para>
       
       <para id="para-00030">Plan 1 would be better for Mrs. Maroney.</para>
     

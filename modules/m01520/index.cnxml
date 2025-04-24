@@ -138,13 +138,13 @@
           <entry>
             <para id="para-00024"><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></para>
           </entry>
-          <entry>\(3^x\)</entry>
+          <entry><m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></entry>
         </row>
         <row>
           <entry>
             <para id="para-00025"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
           </entry>
-          <entry>\(3^{x+1}\)</entry>
+          <entry><m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
         </row>
       </tbody></tgroup></table>
   
@@ -235,13 +235,13 @@
           <entry>
             <para id="para-00037"><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></para>
           </entry>
-          <entry>\(3^x\)</entry>
+          <entry><m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></entry>
         </row>
         <row>
           <entry>
             <para id="para-00038"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
           </entry>
-          <entry>\(3^{x+3}\)</entry>
+          <entry><m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></entry>
         </row>
       </tbody></tgroup></table>
     
@@ -303,7 +303,7 @@
         <entry>
           <para id="para-00048"><m:math><m:mrow><m:mn>3</m:mn><m:mi>·</m:mi><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
         </entry>
-        <entry>\(3^5=3 \cdot 3 \cdot 3 \cdot 3 \cdot 3\)</entry>
+        <entry><m:math><m:mrow><m:msup><m:mn>3</m:mn><m:mn>5</m:mn></m:msup><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>·</m:mi><m:mn>3</m:mn><m:mi>·</m:mi><m:mn>3</m:mn><m:mi>·</m:mi><m:mn>3</m:mn><m:mi>·</m:mi><m:mn>3</m:mn></m:mrow></m:math></entry>
       </row>
     </tbody></tgroup></table>
   <para id="para-00049">We could continue this process with a new operation called tetration. It uses the symbol <m:math display="inline"><m:mrow><m:mo>↑</m:mo><m:mo>↑</m:mo></m:mrow></m:math>, and
@@ -354,8 +354,7 @@
         
     <section id="sect-00006">
       <title> Determining the Growth Rate of Exponential Functions</title>
-      <para id="para-00061">For the table below, assume the function <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> is defined for all real numbers. Calculate \(\triangle f =
-  f(x+1)-f(x)\) in the last column. (The symbol <m:math display="inline"><m:mrow><m:mi>△</m:mi></m:mrow></m:math> in this context means “change in.”) What do
+      <para id="para-00061">For the table below, assume the function <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> is defined for all real numbers. Calculate <m:math display="inline"><m:mrow><m:mi>△</m:mi><m:mi>f</m:mi><m:mo>=</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> in the last column. (The symbol <m:math display="inline"><m:mrow><m:mi>△</m:mi></m:mrow></m:math> in this context means “change in.”) What do
   you notice about <m:math display="inline"><m:mrow><m:mi>△</m:mi><m:mi>f</m:mi></m:mrow></m:math>? Could the function be linear or exponential? Write a linear or an exponential
   function formula that generates the same input–output pairs as given in the table.</para>
       <table class="os-raise-wideequaltable" id="table-00001">
@@ -422,13 +421,12 @@
             <entry/>
           </row>
         </tbody></tgroup></table>
-      <para id="para-00062">For each row, you subtract <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> values. The first row would be <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, then <m:math display="inline"><m:mrow><m:mn>18</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>, then \(54 - 18
-  =36\), and then <m:math display="inline"><m:mrow><m:mn>162</m:mn><m:mo>−</m:mo><m:mn>54</m:mn><m:mo>=</m:mo><m:mn>108</m:mn></m:mrow></m:math>. Since the rate of change isn’t consistent, it is not a linear
+      <para id="para-00062">For each row, you subtract <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> values. The first row would be <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, then <m:math display="inline"><m:mrow><m:mn>18</m:mn><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>, then <m:math display="inline"><m:mrow><m:mn>54</m:mn><m:mo>−</m:mo><m:mn>18</m:mn><m:mo>=</m:mo><m:mn>36</m:mn></m:mrow></m:math>, and then <m:math display="inline"><m:mrow><m:mn>162</m:mn><m:mo>−</m:mo><m:mn>54</m:mn><m:mo>=</m:mo><m:mn>108</m:mn></m:mrow></m:math>. Since the rate of change isn’t consistent, it is not a linear
   function.  Exponential functions have a growth factor or a repeated rate that terms are being multiplied by. If
   you divide consecutive terms, you will find the growth rate is 3. Notice that the change between consecutive terms
   also has a growth rate of 3.</para>
-      <para id="para-00063">Since this function is exponential, an equation will have the form \(f(x) = initial \;\ value \;\ (growth \;\
-  rate)^x\). The growth rate is 3. The initial value is the same as the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept, or where <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is
+      <para id="para-00063">Since this function is exponential, an equation will have the form <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>i</m:mi><m:mi>n</m:mi><m:mi>i</m:mi><m:mi>t</m:mi><m:mi>i</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mspace width="0.278em"/><m:mtext> </m:mtext><m:mi>v</m:mi><m:mi>a</m:mi><m:mi>l</m:mi><m:mi>u</m:mi><m:mi>e</m:mi><m:mspace width="0.278em"/><m:mtext> </m:mtext><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mi>r</m:mi><m:mi>o</m:mi><m:mi>w</m:mi><m:mi>t</m:mi><m:mi>h</m:mi><m:mspace width="0.278em"/><m:mi>\
+</m:mi><m:mi>r</m:mi><m:mi>a</m:mi><m:mi>t</m:mi><m:mi>e</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math>. The growth rate is 3. The initial value is the same as the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept, or where <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is
   given in the table, so the initial value is 2. The equation for this table would be <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math>.</para>
 
       <note class="try" id="note-00002">

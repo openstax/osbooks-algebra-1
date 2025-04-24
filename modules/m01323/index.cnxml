@@ -9,8 +9,7 @@
     <section id="sect-00001">
       <title>Activity</title>
       <para id="para-00001">To control an algae bloom in a lake, scientists introduce some treatment products.</para>
-      <para id="para-00002">Once the treatment begins, the area covered by algae in square yards, <m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math>, is given by the equation \(A=240 \cdot
-  (\frac{1}{3})^t\). Time, <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>, is measured in weeks.</para>
+      <para id="para-00002">Once the treatment begins, the area covered by algae in square yards, <m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math>, is given by the equation <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math>. Time, <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>, is measured in weeks.</para>
       <para id="para-00003">
           <media alt="Lake with algae growth.">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_06_01.jpg"/>
@@ -48,8 +47,7 @@
           <problem id="prob-00003">
             
             <!--CHANGE THE TEXT BEFORE Use the graphing tool or technology outside the course. TO FIT THE PROBLEM-->
-            <para id="para-00010">Create a graph to represent \(A=240 \cdot
-        (\frac{1}{3})^t\) when <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is 0, 1, 2, 3, and 4. Think carefully about how you choose the scale for the axes.
+            <para id="para-00010">Create a graph to represent <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is 0, 1, 2, 3, and 4. Think carefully about how you choose the scale for the axes.
         If you get stuck, consider creating a table of values.  Use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool below.</para>
             
             <para id="para-00011">After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
@@ -149,8 +147,7 @@
         <solution id="sol-00005">
           <para id="para-00017">Compare your answer:</para>
           <para id="para-00018">7 weeks. There are 9 square feet in every square yard, so 1 square foot is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math> square yard (or about
-      0.111 square yard). At 7 weeks is the first time the area covered by algae is less than <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math> because \(240
-      \cdot (\frac{1}{3})^6 \approx 0.329\), and <m:math display="inline"><m:mrow><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>7</m:mn></m:msup><m:mo>≈</m:mo><m:mn>0.110</m:mn></m:mrow></m:math>.</para>
+      0.111 square yard). At 7 weeks is the first time the area covered by algae is less than <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math> because <m:math display="inline"><m:mrow><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:msup><m:mo>≈</m:mo><m:mn>0.329</m:mn></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>7</m:mn></m:msup><m:mo>≈</m:mo><m:mn>0.110</m:mn></m:mrow></m:math>.</para>
         </solution>
       </exercise>
     </section>
@@ -333,7 +330,7 @@
                 </row>
                 <row>
                   <entry>
-            \(y\)
+            <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>
           </entry>
                   <entry> 
           </entry>
@@ -363,10 +360,10 @@
           0
         </entry>
                   <entry>
-          \(600,000(\frac{1}{2} )^0\)
+          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>0</m:mn></m:msup></m:mrow></m:math>
         </entry>
                   <entry>
-          \(600,000\)
+          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
         </entry>
                 </row>
                 <row>
@@ -374,10 +371,10 @@
           1
         </entry>
                   <entry>
-          \(600,000(\frac{1}{2} )^1\)
+          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>1</m:mn></m:msup></m:mrow></m:math>
         </entry>
                   <entry>
-          \(300,000\)
+          <m:math display="inline"><m:mrow><m:mn>300</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
         </entry>
                 </row>
                 <row>
@@ -385,10 +382,10 @@
           2
         </entry>
                   <entry>
-          \(600,000(\frac{1}{2})^2\)
+          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math>
         </entry>
                   <entry>
-          \(150,000\)
+          <m:math display="inline"><m:mrow><m:mn>150</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
         </entry>
                 </row>
                 <row>
@@ -396,21 +393,21 @@
           3
         </entry>
                   <entry>
-          \(600,000(\frac{1}{2} )^3\)
+          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>3</m:mn></m:msup></m:mrow></m:math>
         </entry>
                   <entry>
-          \(75,000\)
+          <m:math display="inline"><m:mrow><m:mn>75</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
         </entry>
                 </row>
                 <row>
                   <entry>
-          \(y\)
+          <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>
         </entry>
                   <entry>
-          \(600,000(\frac{1}{2} )^y\)
+          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>y</m:mi></m:msup></m:mrow></m:math>
         </entry>
                   <entry>
-          \(600,000(\frac{1}{2})^y\)
+          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>y</m:mi></m:msup></m:mrow></m:math>
         </entry>
                 </row>
               </tbody></tgroup></table>
@@ -426,8 +423,7 @@
         <solution id="sol-00007">
           <para id="para-00031"/>
           <para id="para-00032">Compare your answer:</para>
-          <para id="para-00033"> The last row of the table is also the equation for the function, \(c =
-      600,000(\frac12)^y\).</para>
+          <para id="para-00033"> The last row of the table is also the equation for the function, <m:math display="inline"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>y</m:mi></m:msup></m:mrow></m:math>.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
