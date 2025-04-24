@@ -10,9 +10,7 @@
       <title>Activity</title>
       <para id="para-00001">Converting from a Recursive Formula to an Explicit Formula for Arithmetic Sequences</para>
       <para id="para-00002">An arithmetic sequence has the following recursive formula:</para>
-      <para id="para-00003"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
-      <para id="para-00004"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-      <para id="para-00005">Recall that this formula gives us the following two pieces of information:</para>
+      <para><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para><para><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00005">Recall that this formula gives us the following two pieces of information:</para>
       <list id="list-00001">
         <item>The first term is 3.</item>
         <item>To get any term from its previous term,<emphasis>add</emphasis> 2. In other words, the common difference is 2.</item>
@@ -28,15 +26,13 @@
         </problem>
         <solution id="sol-00001">
           <para id="para-00010">Compare your answer:</para>
-          <para id="para-00011"><m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
-        </solution>
+          <para><m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>7</m:mn></m:mrow></m:math></para></solution>
       </exercise>
       <!--Interaction End -->
       <para id="para-00012">Converting from a Explicit Formula to an Recursive Formula for Arithmetic Sequences</para>
       <para id="para-00013">Now try to take the nth term formula and use it to write the recursive formula of an arithmetic sequence.</para>
       <para id="para-00014">We are given the following nth term of an arithmetic sequence:</para>
-      <para id="para-00015"><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>·</m:mi><m:mn>16</m:mn></m:mrow></m:math></para>
-      <para id="para-00016">This formula is given in the standard explicit form <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> is the first term and <m:math display="inline"><m:mrow><m:mi>B</m:mi></m:mrow></m:math> is the common difference. Therefore, the first term of the sequence is 5, and the common difference is 16.</para>
+      <para><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>·</m:mi><m:mn>16</m:mn></m:mrow></m:math></para><para id="para-00016">This formula is given in the standard explicit form <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> is the first term and <m:math display="inline"><m:mrow><m:mi>B</m:mi></m:mrow></m:math> is the common difference. Therefore, the first term of the sequence is 5, and the common difference is 16.</para>
       <para id="para-00017">Let’s find a recursive formula for the sequence. Recall that the recursive formula gives us two pieces of information:</para>
       <list id="list-00002">
         <item>The first term, which we know is 5.</item>
@@ -53,8 +49,7 @@
         </problem>
         <solution id="sol-00002">
           <para id="para-00020">Compare your answer:</para>
-          <para id="para-00021"><m:math display="inline"><m:mrow><m:msub><m:mi>e</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>e</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>e</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-        </solution>
+          <para><m:math display="inline"><m:mrow><m:msub><m:mi>e</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>e</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>e</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para></solution>
       </exercise>
       <!--Interaction End -->
       <para id="para-00022">
@@ -62,8 +57,7 @@
     </para>
       <para id="para-00023">Now change the recursive formula of a geometric sequence into the nth term.</para>
       <para id="para-00024">Here is the recursive formula of a geometric sequence, <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>:</para>
-      <para id="para-00025"><m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>g</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-      <para id="para-00026">9 is the first term of the sequence, and 8 is the common ratio.</para>
+      <para><m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>g</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00026">9 is the first term of the sequence, and 8 is the common ratio.</para>
       <para id="para-00027">An explicit formula is structured as: <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:math> (1st term of sequence) <m:math display="inline"><m:mrow><m:mi>·</m:mi></m:mrow></m:math> (common ratio)<m:math display="inline"><m:mrow><m:msup><m:mi/><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msup></m:mrow></m:math>.</para>
       <para id="para-00028">Substitute the values, and you get the explicit formula: <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>9</m:mn><m:mi>·</m:mi><m:msup><m:mn>8</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msup></m:mrow></m:math>.</para>
       <!--Text Entry Interaction Start -->
@@ -74,8 +68,7 @@
         </problem>
         <solution id="sol-00003">
           <para id="para-00030">Compare your answer:</para>
-          <para id="para-00031"><m:math><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>·</m:mi><m:msup><m:mn>4</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msup></m:mrow></m:math></para>
-        </solution>
+          <para><m:math><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>·</m:mi><m:msup><m:mn>4</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msup></m:mrow></m:math></para></solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
@@ -95,8 +88,7 @@
         </problem>
         <solution id="sol-00004">
           <para id="para-00040">Compare your answer:</para>
-          <para id="para-00041"><m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>g</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>2</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-        </solution>
+          <para><m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>g</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>2</m:mn></m:mrow></m:math></para><para><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para></solution>
       </exercise>
       <note id="note-00001">
         <title>Why Should I Care?</title>
@@ -152,10 +144,7 @@
     
     <para id="para-00047"><emphasis>Example 1</emphasis></para>
     <para id="para-00048">Find the explicit general formula for the arithmetic sequence given in recursive form.</para>
-    <para id="para-00049">
-        <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>
-   </para>
-    <para id="para-00050"><emphasis>Step 1</emphasis> - Write the recursive formula. (given)<m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>
+    <para><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para><para><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00050"><emphasis>Step 1</emphasis> - Write the recursive formula. (given)<m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>
    </para>
     <para id="para-00051"><emphasis>Step 2</emphasis> - Identify the first term.<m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>
    </para>
@@ -202,8 +191,7 @@
     
     <para id="para-00057"><emphasis>Example 2</emphasis></para>
     <para id="para-00058">Find the explicit general formula for the geometric sequence given in recursive form.</para>
-    <para id="para-00059"><m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-    <para id="para-00060"><emphasis>Step 1</emphasis> - Write the recursive formula (given).
+    <para><m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>5</m:mn></m:mrow></m:math></para><para><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00060"><emphasis>Step 1</emphasis> - Write the recursive formula (given).
     <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
     <para id="para-00061"><emphasis>Step 2</emphasis> - Identify the first term.
     <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
@@ -254,9 +242,7 @@
     
     <para id="para-00067"><emphasis>Example 3</emphasis></para>
     <para id="para-00068">Find the recursive formula for the arithmetic sequence given in explicit general form.</para>
-    <para id="para-00069"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>21</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
-   </para>
-    <para id="para-00070"><emphasis>Step 1</emphasis> - Write the explicit formula (given).
+    <para><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>21</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00070"><emphasis>Step 1</emphasis> - Write the explicit formula (given).
     <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>21</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
     <para id="para-00071"><emphasis>Step 2</emphasis> - Identify the first term.
     <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>21</m:mn></m:mrow></m:math></para>
@@ -273,8 +259,7 @@
       <para id="para-00076"><emphasis>Example 4</emphasis></para>
       <para id="para-00077">Find the recursive formula for the arithmetic sequence given in explicit general form.</para>
     
-    <para id="para-00078"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
-    <para id="para-00079"><emphasis>Step 1</emphasis> - Write the explicit formula.
+    <para><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para><para id="para-00079"><emphasis>Step 1</emphasis> - Write the explicit formula.
     <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
     <para id="para-00080"><emphasis>Step 2</emphasis> - Identify the first term.
     <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
@@ -290,9 +275,7 @@
     <note class="try" id="note-00003">
     <title>Try It: Switching Between Definitions of Sequences</title>
     <para id="para-00085">Write the recursive formula for the sequence below that is given in explicit form:</para>
-    <para id="para-00086"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>14</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-    
-    <exercise id="exer-00005">
+    <para><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>14</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><exercise id="exer-00005">
       <problem id="prob-00005">
       
         <para id="para-00087">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
