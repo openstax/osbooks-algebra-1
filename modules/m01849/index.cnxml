@@ -160,7 +160,7 @@
           <para id="para-00018">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mi>x</m:mi></m:mrow></m:math> per download, what is the number of downloads in thousands?</para>
         </problem>
         <solution id="sol-00006"><para id="para-00019">Compare your answer:</para>
-    <para><m:math><m:mrow><m:mn>18</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:math></para></solution>
+    <para id="para-00020"><m:math><m:mrow><m:mn>18</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:math></para></solution>
       </exercise>
       <!--Interaction End -->
       <para id="para-00021">For 7 - 12 complete the table by finding the <term class="glossary-tooltip" id="term-00001">revenue</term> at each price. The first row has been completed for you.</para>
@@ -314,7 +314,7 @@
         </problem>
         <solution id="sol-00012">
           <para id="para-00038">Compare your answer:</para>
-          <para><m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mn>18</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution>
+          <para id="para-00039"><m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mn>18</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
@@ -402,7 +402,7 @@
         <para id="para-00060">Suppose we are selling raffle tickets and deciding how much to charge for each ticket. When the price of the tickets is higher, typically fewer tickets will be sold.</para>
         <para id="para-00061">Each ticket has a price of <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> dollars, and it is possible to sell <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>−</m:mo><m:mn>75</m:mn><m:mi>d</m:mi></m:mrow></m:math> tickets. We can find the revenue by multiplying the price by the number of tickets expected to be sold. A function that models the revenue, <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math>, collected is <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mn>600</m:mn><m:mo>−</m:mo><m:mn>75</m:mn><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Here is a graph that represents the function.</para>
         <para id="para-00062">
-              <media alt="&lt;p&gt;&lt;strong&gt;Graph of non linear function, origin O. Horizontal axis, price, dollars, from 0 to 9 by 1’s. Vertical axis, revenue, thousands of dollars, 0 to 1400 by 200’s. Line starts at 0 comma 0, increases until 4 comma 1200 then decreases until 8 comma 0. Passes through 2 comma 900 and 6 comma 900.&lt;/strong&gt;&lt;/p&gt;">
+              <media alt="&lt;p>&lt;strong>Graph of non linear function, origin O. Horizontal axis, price, dollars, from 0 to 9 by 1’s. Vertical axis, revenue, thousands of dollars, 0 to 1400 by 200’s. Line starts at 0 comma 0, increases until 4 comma 1200 then decreases until 8 comma 0. Passes through 2 comma 900 and 6 comma 900.&lt;/strong>&lt;/p>">
               <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_09_05_01.svg"/>
             </media>
           
@@ -421,9 +421,9 @@
             <solution id="sol-00018">
               <para id="para-00068">Compare your answer: Your answer may vary, here is a sample.</para>
               <para id="para-00069"><emphasis>Step 1 -</emphasis> Multiply the tickets sold by the price of each ticket, <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math>.</para>
-              <para><m:math><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>500</m:mn><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00071"><emphasis>Step 2 -</emphasis> Distribute the <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math>.</para>
-              <para><m:math><m:mrow><m:mn>500</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para><para id="para-00073"><emphasis>Step 3 -</emphasis> Write as a function, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
-              <para><m:math><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>500</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para></solution>
+              <para id="para-00070"><m:math><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>500</m:mn><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00071"><emphasis>Step 2 -</emphasis> Distribute the <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math>.</para>
+              <para id="para-00072"><m:math><m:mrow><m:mn>500</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para><para id="para-00073"><emphasis>Step 3 -</emphasis> Write as a function, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+              <para id="para-00074"><m:math><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>500</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para></solution>
           </exercise>
         </note>
       </section>
