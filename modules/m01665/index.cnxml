@@ -6,568 +6,2062 @@
     <md:uuid>afa14f4f-10b5-417e-9143-e54f50dfa242</md:uuid>
   </metadata>
   <content>
-  <section id="sect-00001"><title>Activity</title>
-<para id="para-00001">Let’s learn a new method that always works on any trinomial of the form <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>.</para>
+    <section id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">Let’s learn a new method that always works on any trinomial of the form <m:math display="inline">
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>c</m:mi>
+          </m:mrow>
+        </m:math>.</para>
 
-<note id="note-00001">
-  <para id="para-00002"><emphasis>How to factor trinomials of the form <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> using the “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” method:</emphasis></para>
+      <note id="note-00001">
+        <para id="para-00002"><emphasis>How to factor trinomials of the form <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math> using the “<m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math>” method:</emphasis></para>
   
   <para id="para-00003"><emphasis>Step 1 -</emphasis> Factor any GCF. Don’t forget!</para>
-  <para id="para-00004"><emphasis>Step 2 -</emphasis> Find the product <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>.</para>
-  <para id="para-00005"><emphasis>Step 3 -</emphasis> Find two numbers, <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, that</para>
+  <para id="para-00004"><emphasis>Step 2 -</emphasis> Find the product <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+  <para id="para-00005"><emphasis>Step
+        3 -</emphasis> Find two numbers, <m:math display="inline">
+            <m:mrow>
+              <m:mi>m</m:mi>
+            </m:mrow>
+          </m:math> and <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+            </m:mrow>
+          </m:math>, that</para>
   <list id="list-00001">
-    <item>multiply to <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>: <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mi>·</m:mi><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>·</m:mi><m:mi>c</m:mi></m:mrow></m:math>.</item>
-    <item>add to <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>: <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:mrow></m:math>.</item>
-  </list>
-  <para id="para-00006"><emphasis>Step 4 -</emphasis> Split the middle term using <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>.</para>
-  <para id="para-00007"><m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math></para><para id="para-00008"><emphasis>Step 5 -</emphasis> Factor by grouping.</para>
-  <para id="para-00009"><emphasis>Step 6 -</emphasis> Check by multiplying the factors.</para>
-</note>
+          <item>multiply to <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math>: <m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+                <m:mi>·</m:mi>
+                <m:mi>n</m:mi>
+                <m:mo>=</m:mo>
+                <m:mi>a</m:mi>
+                <m:mi>·</m:mi>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math>.</item>
+          <item>add to <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math>: <m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>=</m:mo>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math>.</item>
+        </list>
+  <para id="para-00006"><emphasis>Step 4 -</emphasis> Split the middle term using <m:math display="inline">
+            <m:mrow>
+              <m:mi>m</m:mi>
+            </m:mrow>
+          </m:math> and <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+  <para id="para-00007"><m:math>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>m</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>n</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math></para><para id="para-00008"><emphasis>Step
+        5 -</emphasis> Factor by grouping.</para>
+  <para id="para-00009"><emphasis>Step 6 -</emphasis>
+        Check by multiplying the factors.</para>
+      </note>
 
-<para id="para-00010">Factor each trinomial using the “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” method.</para>
+      <para id="para-00010">Factor each trinomial using the “<m:math display="inline">
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:mi>c</m:mi>
+          </m:mrow>
+        </m:math>” method.</para>
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00001">
-  <problem id="prob-00001">
-    <para id="para-00011"><m:math><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>32</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math></para></problem><solution id="sol-00001">
-    
-    
-  
-  <para id="para-00012">Compare your answer:</para>
-    
-    <para id="para-00013"><m:math><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End -->
-
-
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00002">
-  <problem id="prob-00002">
-    <para id="para-00014"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>y</m:mi><m:mi>−</m:mi><m:mn>15</m:mn></m:mrow></m:math></para></problem><solution id="sol-00002">
-    
-    
-  
-  <para id="para-00015">Compare your answer:</para>
-    
-    <para id="para-00016"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mi>−</m:mi><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End -->
-
-
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00003">
-  <problem id="prob-00003">
-    <para id="para-00017"><m:math><m:mrow><m:mn>48</m:mn><m:msup><m:mi>z</m:mi><m:mn>3</m:mn></m:msup><m:mi>−</m:mi><m:mn>102</m:mn><m:msup><m:mi>z</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>45</m:mn><m:mi>z</m:mi></m:mrow></m:math></para></problem><solution id="sol-00003">
-    
-    
-  
-  <para id="para-00018">Compare your answer:</para>
-    
-    <para id="para-00019"><m:math><m:mrow><m:mn>3</m:mn><m:mi>z</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>z</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End -->
-
-<para id="para-00020">There will be times when a trinomial does not seem to be in the form <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>.</para>
-<para id="para-00021">In some of these cases, we can make a substitution that allows the trinomial to be written in the <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> form. This is called factoring by substitution.</para>
-<para id="para-00022">It is standard to use <m:math display="inline"><m:mrow><m:mi>u</m:mi></m:mrow></m:math> for the substitution. The substitution for <m:math display="inline"><m:mrow><m:mi>u</m:mi></m:mrow></m:math> might be a variable with an exponent, such as <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, or it might be a binomial, such as <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
-<para id="para-00023">Factor each trinomial using the substitution method.</para>
-
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00004">
-  <problem id="prob-00004">
-    <para id="para-00024"><m:math><m:mrow><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mi>−</m:mi><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>20</m:mn></m:mrow></m:math></para></problem><solution id="sol-00004">
-    
-    
-  
-  <para id="para-00025">Compare your answer:</para>
-    
-    <para id="para-00026"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End -->
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00011"><m:math>
+              <m:mrow>
+                <m:mn>16</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>32</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>12</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00001">
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00005">
-  <problem id="prob-00005">
-    <para id="para-00027"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></para></problem><solution id="sol-00005">
-    
-    
-  
-  <para id="para-00028">Compare your answer:</para>
-    
-    <para id="para-00029"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End -->
+          <para id="para-00012">Compare your answer:</para>
+
+          <para id="para-00013"><m:math>
+              <m:mrow>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00006">
-  <problem id="prob-00006">
-    <para id="para-00030"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mi>−</m:mi><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>28</m:mn></m:mrow></m:math></para></problem><solution id="sol-00006">
-    
-    
-  
-  <para id="para-00031">Compare your answer:</para>
-    
-    <para id="para-00032"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End --></section>
-<note class="self-check" id="note-00002">
-  <para id="para-00033">Factor using the “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” method: <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00014"><m:math>
+              <m:mrow>
+                <m:mn>6</m:mn>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mi>y</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>15</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00002">
+
+
+          <para id="para-00015">Compare your answer:</para>
+
+          <para id="para-00016"><m:math>
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>y</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>y</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00017"><m:math>
+              <m:mrow>
+                <m:mn>48</m:mn>
+                <m:msup>
+                  <m:mi>z</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>102</m:mn>
+                <m:msup>
+                  <m:mi>z</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>45</m:mn>
+                <m:mi>z</m:mi>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00003">
+
+
+          <para id="para-00018">Compare your answer:</para>
+
+          <para id="para-00019"><m:math>
+              <m:mrow>
+                <m:mn>3</m:mn>
+                <m:mi>z</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>8</m:mn>
+                <m:mi>z</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>z</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>5</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+      <para id="para-00020">There will be times when a trinomial does not seem to be in the form <m:math display="inline">
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>c</m:mi>
+          </m:mrow>
+        </m:math>.</para>
+      <para id="para-00021">In some of these cases, we can make a substitution that allows the
+        trinomial to be written in the <m:math display="inline">
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>c</m:mi>
+          </m:mrow>
+        </m:math> form. This is called factoring by
+        substitution.</para>
+      <para id="para-00022">It is standard to use <m:math display="inline">
+          <m:mrow>
+            <m:mi>u</m:mi>
+          </m:mrow>
+        </m:math> for the substitution. The
+        substitution for <m:math display="inline">
+          <m:mrow>
+            <m:mi>u</m:mi>
+          </m:mrow>
+        </m:math> might be a variable with an exponent,
+        such as <m:math display="inline">
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math>, or it might
+        be a binomial, such as <m:math display="inline">
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mi>−</m:mi>
+            <m:mn>3</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math>.</para>
+      <para id="para-00023">Factor each trinomial using the substitution method.</para>
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00024"><m:math>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>4</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>20</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00004">
+
+
+          <para id="para-00025">Compare your answer:</para>
+
+          <para id="para-00026"><m:math>
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>5</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00027"><m:math>
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>5</m:mn>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>5</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>8</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00005">
+
+
+          <para id="para-00028">Compare your answer:</para>
+
+          <para id="para-00029"><m:math>
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00030"><m:math>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>4</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>3</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>28</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00006">
+
+
+          <para id="para-00031">Compare your answer:</para>
+
+          <para id="para-00032"><m:math>
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>7</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+    </section>
+    <note class="self-check" id="note-00002">
+      <para id="para-00033">Factor using the “<m:math display="inline">
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:mi>c</m:mi>
+          </m:mrow>
+        </m:math>” method: <m:math display="inline">
+          <m:mrow>
+            <m:mn>6</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>13</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:math>.</para>
     </note>
     <section id="sect-00002">
       <title>Additional Resources</title>
-      
-    <section id="sect-00003">
-      <title>Factoring Trinomials Using the “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” Method</title>
-      <para id="para-00034">Another way to factor trinomials of the form <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> is the “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” method. (The “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” method is sometimes called the grouping method.) The “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” method is actually an extension of the methods you used in the last section to factor trinomials with a leading coefficient of 1. This method is very structured (that is, step by step), and it always works!</para>
-      <para id="para-00110"><emphasis id="para-00035">Example 1</emphasis></para>
-      <para id="para-00036">Factor using the “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” method: <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
-      <para id="para-00037"><emphasis>Step 1 -</emphasis> Factor any GCF.</para>
-      <para id="para-00038">Is there a greatest common factor?
-  <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>
-  No!</para>
-      <para id="para-00039"><emphasis>Step 2 -</emphasis> Find the product <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>.</para>
-      <para id="para-00040"><m:math display="inline"><m:mrow><m:mrow><m:mi style="color:red">a</m:mi></m:mrow><m:msup><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mrow><m:mn style="color:red">2</m:mn></m:mrow></m:msup><m:mspace width="0.278em"/><m:mrow><m:mo style="color:red">+</m:mo></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mi style="color:red">b</m:mi></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mo style="color:red">+</m:mo></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mi style="color:red">c</m:mi></m:mrow><m:mspace linebreak="newline"/><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>
-  <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:mi>·</m:mi><m:mn>2</m:mn></m:mrow></m:math>
-  12</para>
-      <para id="para-00041"><emphasis>Step 3 -</emphasis> Find two numbers, <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, that</para>
-      <list id="list-00002">
-        <item>multiply to <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>: <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mi>·</m:mi><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>·</m:mi><m:mi>c</m:mi></m:mrow></m:math>.</item>
-        <item>add to <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>: <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:mrow></m:math>.</item>
-      </list>
-      <para id="para-00042">Find two numbers that multiply to 12 and add to 7. Both factors must be positive.
-  <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mi>·</m:mi><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>
-  <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math></para>
-      <para id="para-00043"><emphasis>Step 4 -</emphasis> Split the middle term using <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>.</para>
-      <para id="para-00044">
+
+      <section id="sect-00003">
+        <title>Factoring Trinomials Using the “<m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>” Method</title>
+        <para id="para-00034">Another way to factor trinomials of the form <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math> is the “<m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>” method. (The “<m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>” method is sometimes called the
+          grouping method.) The “<m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>” method is actually an
+          extension of the methods you used in the last section to factor trinomials with a leading
+          coefficient of 1. This method is very structured (that is, step by step), and it always
+          works!</para>
+        <para id="para-00110"><emphasis id="para-00035">Example 1</emphasis></para>
+        <para id="para-00036">Factor using the “<m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>” method: <m:math display="inline">
+            <m:mrow>
+              <m:mn>6</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>7</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00037"><emphasis>Step 1 -</emphasis> Factor any GCF.</para>
+        <para id="para-00038">Is there a greatest common factor?</para>
+        <para id="para-00116"><m:math display="inline">
+            <m:mrow>
+              <m:mn>6</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>7</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+          <para id="para-00117">No!</para>
+        <para id="para-00039"><emphasis>Step 2 -</emphasis> Find the product <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00040"><m:math display="inline">
+            <m:mrow>
+              <m:mrow>
+                <m:mi style="color:red">a</m:mi>
+              </m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mi style="color:red">x</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn style="color:red">2</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:mspace width="0.278em"/>
+              <m:mrow>
+                <m:mo style="color:red">+</m:mo>
+              </m:mrow>
+              <m:mspace width="0.278em"/>
+              <m:mrow>
+                <m:mi style="color:red">b</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mi style="color:red">x</m:mi>
+              </m:mrow>
+              <m:mspace width="0.278em"/>
+              <m:mrow>
+                <m:mo style="color:red">+</m:mo>
+              </m:mrow>
+              <m:mspace width="0.278em"/>
+              <m:mrow>
+                <m:mi style="color:red">c</m:mi>
+              </m:mrow>
+              <m:mspace linebreak="newline"/>
+              <m:mn>6</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>7</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>
+        </para>
+          <para id="para-00118">
+  <m:math display="inline">
+            <m:mrow>
+              <m:mn>6</m:mn>
+              <m:mi>·</m:mi>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+          <para id="para-00119"><m:math><m:mn>12</m:mn></m:math></para>
+        <para id="para-00041"><emphasis>Step 3 -</emphasis> Find two numbers, <m:math display="inline">
+            <m:mrow>
+              <m:mi>m</m:mi>
+            </m:mrow>
+          </m:math> and <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+            </m:mrow>
+          </m:math>, that</para>
+        <list id="list-00002">
+          <item>multiply to <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math>: <m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+                <m:mi>·</m:mi>
+                <m:mi>n</m:mi>
+                <m:mo>=</m:mo>
+                <m:mi>a</m:mi>
+                <m:mi>·</m:mi>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math>.</item>
+          <item>add to <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math>: <m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>=</m:mo>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math>.</item>
+        </list>
+        <para id="para-00042">Find two numbers that multiply to 12 and add to 7. Both factors must
+          be positive.</para>
+          <para id="para-00120"><m:math display="inline">
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:mi>·</m:mi>
+              <m:mn>4</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>12</m:mn>
+            </m:mrow>
+          </m:math>
+        </para>
+        <para id="para-00121">
+  <m:math display="inline">
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>7</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00043"><emphasis>Step 4 -</emphasis> Split the middle term using <m:math display="inline">
+            <m:mrow>
+              <m:mi>m</m:mi>
+            </m:mrow>
+          </m:math> and <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00044">
           <media alt=".">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_07_08_11_01.jpg"/>
           </media>
-        
-    </para>
-      <para id="para-00045">Rewrite <m:math display="inline"><m:mrow><m:mn>7</m:mn><m:mi>x</m:mi></m:mrow></m:math> as <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math>. It would give the same result if we used <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math>.</para>
-      <para id="para-00046">
+
+        </para>
+        <para id="para-00045">Rewrite <m:math display="inline">
+            <m:mrow>
+              <m:mn>7</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math> as <m:math display="inline">
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>. It would give the same result
+          if we used <m:math display="inline">
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00046">
           <media alt=".">
             <image mime-type="image/png" src="../../media/Algebra-1_07_08_11_02.png"/>
           </media>
-        
-    </para>
-      <para id="para-00047">Notice that <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math> is equal to <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>. We just split the middle term to get a more useful form.</para>
-      <para id="para-00048"><emphasis>Step 5 -</emphasis> Factor by grouping.</para>
-      <para id="para-00049"><m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00051"><m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00050"><emphasis>Step 6 -</emphasis> Check by multiplying the factors.</para>
-      <para id="para-00058"><m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00067"><m:math display="inline"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00069"><m:math display="inline"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>✓</m:mi></m:mrow></m:math></para><para id="para-00052">The “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” method is summarized here:</para>
-      <note id="note-00003">
-        <para id="para-00053">
-         <emphasis> How to factor trinomials of the form <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> using the “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” method:</emphasis> 
-      </para>
+
+        </para>
+        <para id="para-00047">Notice that <m:math display="inline">
+            <m:mrow>
+              <m:mn>6</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math> is equal to <m:math display="inline">
+            <m:mrow>
+              <m:mn>6</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>7</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>. We just split the middle term
+          to get a more useful form.</para>
+        <para id="para-00048"><emphasis>Step 5 -</emphasis> Factor by grouping.</para>
+        <para id="para-00049"><m:math display="inline">
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00051"><m:math display="inline">
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00050"><emphasis>Step 6 -</emphasis> Check by multiplying the factors.</para>
+        <para id="para-00058"><m:math display="inline">
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00067"><m:math display="inline">
+            <m:mrow>
+              <m:mn>6</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00069"><m:math display="inline">
+            <m:mrow>
+              <m:mn>6</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>7</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>✓</m:mi>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00052">The “<m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>” method is summarized here:</para>
+        <note id="note-00003">
+          <para id="para-00053">
+            <emphasis> How to factor trinomials of the form <m:math display="inline">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math> using the “<m:math display="inline">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math>” method:</emphasis>
+          </para>
         
         <para id="para-00054"><emphasis>Step 1 -</emphasis> Factor any GCF. Don’t forget!</para>
-        <para id="para-00055"><emphasis>Step 2 -</emphasis> Find the product <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>.</para>
-        <para id="para-00056"><emphasis>Step 3 -</emphasis> Find two numbers, <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, that</para>
+        <para id="para-00055"><emphasis>Step 2 -</emphasis> Find the product <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math>.</para>
+        <para id="para-00056"><emphasis>Step 3 -</emphasis> Find two numbers, <m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math>, that</para>
         <list id="list-00003">
-          <item>multiply to <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>: <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mi>·</m:mi><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>·</m:mi><m:mi>c</m:mi></m:mrow></m:math>.</item>
-          <item>add to <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>: <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mi>b</m:mi></m:mrow></m:math>.</item>
-        </list>
-        <para id="para-00057"><emphasis>Step 4 -</emphasis> Split the middle term using <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>.</para>
-        <para id="para-00072"><m:math><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>n</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math></para><para id="para-00059"><emphasis>Step 5 -</emphasis> Factor by grouping.</para>
+            <item>multiply to <m:math display="inline">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math>: <m:math display="inline">
+                <m:mrow>
+                  <m:mi>m</m:mi>
+                  <m:mi>·</m:mi>
+                  <m:mi>n</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mi>a</m:mi>
+                  <m:mi>·</m:mi>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math>.</item>
+            <item>add to <m:math display="inline">
+                <m:mrow>
+                  <m:mi>b</m:mi>
+                </m:mrow>
+              </m:math>: <m:math display="inline">
+                <m:mrow>
+                  <m:mi>m</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mi>b</m:mi>
+                </m:mrow>
+              </m:math>.</item>
+          </list>
+        <para id="para-00057"><emphasis>Step 4 -</emphasis> Split the middle term using <m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math>.</para>
+        <para id="para-00072"><m:math>
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mi>m</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>n</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math></para><para id="para-00059"><emphasis>Step 5 -</emphasis> Factor by grouping.</para>
         <para id="para-00060"><emphasis>Step 6 -</emphasis> Check by multiplying the factors.</para>
-      </note>
-      <note class="try" id="note-00004">
-  <title>Try It: Factoring Trinomials Using the “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” Method</title>
+        </note>
+        <note class="try" id="note-00004">
+          <title>Try It: Factoring Trinomials Using the “<m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math>” Method</title>
       
         <exercise id="exer-00007">
-          <problem id="prob-00007">
-            <para id="para-00061">Factor using the “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” method: <m:math display="inline"><m:mrow><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>55</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>70</m:mn></m:mrow></m:math>.</para>
-            <para id="para-00062">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00007">
-            <para id="para-00063">Here is how to use the “<m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>” method to factor a trinomial.</para>
-            <para id="para-00064"><emphasis>Step 1 -</emphasis> Is there a greatest common factor?</para>
-            <para id="para-00065"><m:math display="inline"><m:mrow><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>55</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>70</m:mn></m:mrow></m:math>
-    Yes. The GCF is 5.</para>
-            <para id="para-00066"><emphasis>Step 2 -</emphasis> Factor it.</para>
-            <para id="para-00076"><m:math><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>14</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00068"><emphasis>Step 3 -</emphasis> The trinomial inside the parentheses has a leading coefficient that is not <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math>.</para>
-            <para id="para-00078"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:mrow><m:mi style="color:red">a</m:mi></m:mrow><m:msup><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mrow><m:mn style="color:red">2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mrow><m:mi style="color:red">b</m:mi></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mo>+</m:mo><m:mrow><m:mi style="color:red">c</m:mi></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>14</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00070">Find the product <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math>.
-    <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>28</m:mn></m:mrow></m:math></para>
-            <para id="para-00071"><emphasis>Step 4 -</emphasis> Find two numbers that multiply to <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math> and add to <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.</para>
-            <para id="para-00085"><m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>28</m:mn></m:mrow></m:math></para><para id="para-00087"><m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:math></para><para id="para-00073"><emphasis>Step 5 -</emphasis> Split the middle term.</para>
-            <para id="para-00074">
-                      <media alt=".">
+            <problem id="prob-00007">
+              <para id="para-00061">Factor using the “<m:math display="inline">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                </m:math>” method: <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mi>−</m:mi>
+                    <m:mn>55</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>70</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00062">Write down your answer. Then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
+            </problem>
+            <solution id="sol-00007">
+              <para id="para-00063">Here is how to use the “<m:math display="inline">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                </m:math>” method to
+          factor a trinomial.</para>
+              <para id="para-00064"><emphasis>Step 1 -</emphasis> Is there a greatest common factor?</para>
+              <para id="para-00065"><m:math display="inline">
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>−</m:mo>
+                    <m:mn>55</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>70</m:mn>
+                  </m:mrow>
+                </m:math> Yes. The GCF
+          is 5.</para>
+              <para id="para-00066"><emphasis>Step 2 -</emphasis> Factor it.</para>
+              <para id="para-00076"><m:math>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>−</m:mo>
+                    <m:mn>11</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>14</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00068"><emphasis>Step 3 -</emphasis> The trinomial inside the
+          parentheses has a leading coefficient that is not <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00078"><m:math>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mtd columnalign="center">
+                          <m:mrow>
+                            <m:mi style="color:red">a</m:mi>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mrow>
+                              <m:mi style="color:red">x</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn style="color:red">2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo>+</m:mo>
+                          <m:mrow>
+                            <m:mi style="color:red">b</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi style="color:red">x</m:mi>
+                          </m:mrow>
+                          <m:mo>+</m:mo>
+                          <m:mrow>
+                            <m:mi style="color:red">c</m:mi>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="center">
+                          <m:mn>5</m:mn>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                          <m:mo>−</m:mo>
+                          <m:mn>11</m:mn>
+                          <m:mi>y</m:mi>
+                          <m:mo>+</m:mo>
+                          <m:mn>14</m:mn>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00070">Find the product <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                </m:math>. <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>c</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>28</m:mn>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00071"><emphasis>Step 4 -</emphasis> Find two numbers that multiply to <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                </m:math> and add to <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00085"><m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>28</m:mn>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00087"><m:math display="inline">
+                  <m:mrow>
+                    <m:mo>−</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>11</m:mn>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00073"><emphasis>Step 5 -</emphasis> Split the middle term.</para>
+              <para id="para-00074">
+                <media alt=".">
                   <image mime-type="image/jpeg" src="../../media/Algebra-1_07_08_11_03.jpg"/>
                 </media>
-              
-          </para>
-            <para id="para-00075"><emphasis>Step 6 -</emphasis> Factor the trinomial by grouping.</para>
-            <para id="para-00089"><m:math display="inline"><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00091"><m:math display="inline"><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00077"><emphasis>Step 7 -</emphasis> Check by multiplying all three factors.</para>
-            <para id="para-00093"><m:math display="inline">
-                <m:semantics>
-                  <m:mrow>
-                    <m:mrow>
-                      <m:mspace width="4em"/>
-                      <m:mtable>
-                        <m:mtr>
-                          <m:mtd columnalign="center">
-                            <m:mn>5</m:mn>
-                            <m:mrow>
-                              <m:mo>(</m:mo>
-                              <m:mrow>
-                                <m:mi>y</m:mi>
-                                <m:mo>−</m:mo>
-                                <m:mn>2</m:mn>
-                              </m:mrow>
-                              <m:mo>)</m:mo>
-                            </m:mrow>
-                            <m:mrow>
-                              <m:mo>(</m:mo>
-                              <m:mrow>
-                                <m:mn>2</m:mn>
-                                <m:mi>y</m:mi>
-                                <m:mo>−</m:mo>
-                                <m:mn>7</m:mn>
-                              </m:mrow>
-                              <m:mo>)</m:mo>
-                            </m:mrow>
-                          </m:mtd>
-                        </m:mtr>
-                        <m:mtr>
-                          <m:mtd columnalign="center">
-                            <m:mn>5</m:mn>
-                            <m:mrow>
-                              <m:mo>(</m:mo>
-                              <m:mrow>
-                                <m:mn>2</m:mn>
-                                <m:msup>
-                                  <m:mi>y</m:mi>
-                                  <m:mn>2</m:mn>
-                                </m:msup>
-                                <m:mo>−</m:mo>
-                                <m:mn>7</m:mn>
-                                <m:mi>y</m:mi>
-                                <m:mo>−</m:mo>
-                                <m:mn>4</m:mn>
-                                <m:mi>y</m:mi>
-                                <m:mo>+</m:mo>
-                                <m:mn>14</m:mn>
-                              </m:mrow>
-                              <m:mo>)</m:mo>
-                            </m:mrow>
-                          </m:mtd>
-                        </m:mtr>
-                        <m:mtr>
-                          <m:mtd columnalign="center">
-                            <m:mn>5</m:mn>
-                            <m:mrow>
-                              <m:mo>(</m:mo>
-                              <m:mrow>
-                                <m:mn>2</m:mn>
-                                <m:msup>
-                                  <m:mi>y</m:mi>
-                                  <m:mn>2</m:mn>
-                                </m:msup>
-                                <m:mo>−</m:mo>
-                                <m:mn>11</m:mn>
-                                <m:mi>y</m:mi>
-                                <m:mo>+</m:mo>
-                                <m:mn>14</m:mn>
-                              </m:mrow>
-                              <m:mo>)</m:mo>
-                            </m:mrow>
-                          </m:mtd>
-                        </m:mtr>
-                        <m:mtr>
-                          <m:mtd columnalign="center">
-                            <m:mn>10</m:mn>
-                            <m:msup>
-                              <m:mi>y</m:mi>
-                              <m:mn>2</m:mn>
-                            </m:msup>
-                            <m:mo>−</m:mo>
-                            <m:mn>55</m:mn>
-                            <m:mi>y</m:mi>
-                            <m:mo>+</m:mo>
-                            <m:mn>70</m:mn>
-                            <m:mo>&amp;checkmark;</m:mo>
-                          </m:mtd>
-                        </m:mtr>
-                      </m:mtable>
-                    </m:mrow>
-                  </m:mrow>
-                  <m:annotation-xml encoding="MathML-Content">
-                    <m:mrow>
-                      <m:mspace width="4em"/>
-                      <m:mtable>
-                        <m:mtr>
-                          <m:mtd columnalign="center">
-                            <m:mn>5</m:mn>
-                            <m:mrow>
-                              <m:mo>(</m:mo>
-                              <m:mrow>
-                                <m:mi>y</m:mi>
-                                <m:mo>−</m:mo>
-                                <m:mn>2</m:mn>
-                              </m:mrow>
-                              <m:mo>)</m:mo>
-                            </m:mrow>
-                            <m:mrow>
-                              <m:mo>(</m:mo>
-                              <m:mrow>
-                                <m:mn>2</m:mn>
-                                <m:mi>y</m:mi>
-                                <m:mo>−</m:mo>
-                                <m:mn>7</m:mn>
-                              </m:mrow>
-                              <m:mo>)</m:mo>
-                            </m:mrow>
-                          </m:mtd>
-                        </m:mtr>
-                        <m:mtr>
-                          <m:mtd columnalign="center">
-                            <m:mn>5</m:mn>
-                            <m:mrow>
-                              <m:mo>(</m:mo>
-                              <m:mrow>
-                                <m:mn>2</m:mn>
-                                <m:msup>
-                                  <m:mi>y</m:mi>
-                                  <m:mn>2</m:mn>
-                                </m:msup>
-                                <m:mo>−</m:mo>
-                                <m:mn>7</m:mn>
-                                <m:mi>y</m:mi>
-                                <m:mo>−</m:mo>
-                                <m:mn>4</m:mn>
-                                <m:mi>y</m:mi>
-                                <m:mo>+</m:mo>
-                                <m:mn>14</m:mn>
-                              </m:mrow>
-                              <m:mo>)</m:mo>
-                            </m:mrow>
-                          </m:mtd>
-                        </m:mtr>
-                        <m:mtr>
-                          <m:mtd columnalign="center">
-                            <m:mn>5</m:mn>
-                            <m:mrow>
-                              <m:mo>(</m:mo>
-                              <m:mrow>
-                                <m:mn>2</m:mn>
-                                <m:msup>
-                                  <m:mi>y</m:mi>
-                                  <m:mn>2</m:mn>
-                                </m:msup>
-                                <m:mo>−</m:mo>
-                                <m:mn>11</m:mn>
-                                <m:mi>y</m:mi>
-                                <m:mo>+</m:mo>
-                                <m:mn>14</m:mn>
-                              </m:mrow>
-                              <m:mo>)</m:mo>
-                            </m:mrow>
-                          </m:mtd>
-                        </m:mtr>
-                        <m:mtr>
-                          <m:mtd columnalign="center">
-                            <m:mn>10</m:mn>
-                            <m:msup>
-                              <m:mi>y</m:mi>
-                              <m:mn>2</m:mn>
-                            </m:msup>
-                            <m:mo>−</m:mo>
-                            <m:mn>55</m:mn>
-                            <m:mi>y</m:mi>
-                            <m:mo>+</m:mo>
-                            <m:mn>70</m:mn>
-                            <m:mo>&amp;checkmark;</m:mo>
-                          </m:mtd>
-                        </m:mtr>
-                      </m:mtable>
-                    </m:mrow>
-                  </m:annotation-xml>
-                </m:semantics>
-              </m:math></para></solution>
-        </exercise>
-      </note>
-    </section>
-    <section id="sect-00004">      <title>Factoring Trinomials Using Substitution</title>
 
-      <para id="para-00079">Sometimes a trinomial does not appear to be in the <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> form. However, we can often make a thoughtful substitution that will allow us to make it fit the <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> form. This is called factoring by substitution. It is standard to use <m:math display="inline"><m:mrow><m:mi>u</m:mi></m:mrow></m:math> for the substitution.</para>
-      <para id="para-00080">In the form <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>, the middle term has a variable, <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, and its square, <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, is the variable part of the first term. Look for this relationship as you try to find a substitution.</para>
-      <para id="para-00081">
-       <emphasis>Example 2</emphasis>
-    </para>
-      <para id="para-00082">Factor by substitution: <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mi>−</m:mi><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>5</m:mn></m:mrow></m:math>.</para>
-      <para id="para-00083">The variable part of the middle term is <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, and its square, <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup></m:mrow></m:math>, is the variable part of the first term. (We know <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. If we let <m:math display="inline"><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, we can put our trinomial in the <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> form we need to factor it.</para>
-      <para id="para-00084"><emphasis>Step 1 -</emphasis> Rewrite the trinomial to prepare for the substitution.</para>
-      <para id="para-00100"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mrow><m:mn style="color:red">2</m:mn></m:mrow></m:msup><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mrow><m:mn style="color:red">2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para><para id="para-00086"><emphasis>Step 2 -</emphasis> Let <m:math display="inline"><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and substitute.</para>
-      <para id="para-00102"><m:math><m:mrow><m:msup><m:mrow><m:mi style="color:red">u</m:mi></m:mrow><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mrow><m:mi style="color:red">u</m:mi></m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para><para id="para-00088"><emphasis>Step 3 -</emphasis> Factor the trinomial.</para>
-      <para id="para-00104"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>u</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00090"><emphasis>Step 4 -</emphasis> Replace <m:math display="inline"><m:mrow><m:mi>u</m:mi></m:mrow></m:math> with <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
-      <para id="para-00106"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mrow><m:mn style="color:red">2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mrow><m:mn style="color:red">2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00092"><emphasis>Step 5 -</emphasis> Check:</para>
-      <para id="para-00108"><m:math display="inline">
-          <m:semantics>
+              </para>
+              <para id="para-00075"><emphasis>Step 6 -</emphasis> Factor the trinomial by grouping.</para>
+              <para id="para-00089"><m:math display="inline">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00091"><m:math display="inline">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>y</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00077"><emphasis>Step 7 -</emphasis> Check by multiplying all three
+          factors.</para>
+              <para id="para-00093"><m:math display="inline">
+                  <m:semantics>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mspace width="4em"/>
+                        <m:mtable>
+                          <m:mtr>
+                            <m:mtd columnalign="center">
+                              <m:mn>5</m:mn>
+                              <m:mrow>
+                                <m:mo>(</m:mo>
+                                <m:mrow>
+                                  <m:mi>y</m:mi>
+                                  <m:mo>−</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mo>)</m:mo>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo>(</m:mo>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                  <m:mi>y</m:mi>
+                                  <m:mo>−</m:mo>
+                                  <m:mn>7</m:mn>
+                                </m:mrow>
+                                <m:mo>)</m:mo>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd columnalign="center">
+                              <m:mn>5</m:mn>
+                              <m:mrow>
+                                <m:mo>(</m:mo>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                  <m:msup>
+                                    <m:mi>y</m:mi>
+                                    <m:mn>2</m:mn>
+                                  </m:msup>
+                                  <m:mo>−</m:mo>
+                                  <m:mn>7</m:mn>
+                                  <m:mi>y</m:mi>
+                                  <m:mo>−</m:mo>
+                                  <m:mn>4</m:mn>
+                                  <m:mi>y</m:mi>
+                                  <m:mo>+</m:mo>
+                                  <m:mn>14</m:mn>
+                                </m:mrow>
+                                <m:mo>)</m:mo>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd columnalign="center">
+                              <m:mn>5</m:mn>
+                              <m:mrow>
+                                <m:mo>(</m:mo>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                  <m:msup>
+                                    <m:mi>y</m:mi>
+                                    <m:mn>2</m:mn>
+                                  </m:msup>
+                                  <m:mo>−</m:mo>
+                                  <m:mn>11</m:mn>
+                                  <m:mi>y</m:mi>
+                                  <m:mo>+</m:mo>
+                                  <m:mn>14</m:mn>
+                                </m:mrow>
+                                <m:mo>)</m:mo>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd columnalign="center">
+                              <m:mn>10</m:mn>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mn>2</m:mn>
+                              </m:msup>
+                              <m:mo>−</m:mo>
+                              <m:mn>55</m:mn>
+                              <m:mi>y</m:mi>
+                              <m:mo>+</m:mo>
+                              <m:mn>70</m:mn>
+                              <m:mo>&amp;checkmark;</m:mo>
+                            </m:mtd>
+                          </m:mtr>
+                        </m:mtable>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:annotation-xml encoding="MathML-Content">
+                      <m:mrow>
+                        <m:mspace width="4em"/>
+                        <m:mtable>
+                          <m:mtr>
+                            <m:mtd columnalign="center">
+                              <m:mn>5</m:mn>
+                              <m:mrow>
+                                <m:mo>(</m:mo>
+                                <m:mrow>
+                                  <m:mi>y</m:mi>
+                                  <m:mo>−</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mo>)</m:mo>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo>(</m:mo>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                  <m:mi>y</m:mi>
+                                  <m:mo>−</m:mo>
+                                  <m:mn>7</m:mn>
+                                </m:mrow>
+                                <m:mo>)</m:mo>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd columnalign="center">
+                              <m:mn>5</m:mn>
+                              <m:mrow>
+                                <m:mo>(</m:mo>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                  <m:msup>
+                                    <m:mi>y</m:mi>
+                                    <m:mn>2</m:mn>
+                                  </m:msup>
+                                  <m:mo>−</m:mo>
+                                  <m:mn>7</m:mn>
+                                  <m:mi>y</m:mi>
+                                  <m:mo>−</m:mo>
+                                  <m:mn>4</m:mn>
+                                  <m:mi>y</m:mi>
+                                  <m:mo>+</m:mo>
+                                  <m:mn>14</m:mn>
+                                </m:mrow>
+                                <m:mo>)</m:mo>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd columnalign="center">
+                              <m:mn>5</m:mn>
+                              <m:mrow>
+                                <m:mo>(</m:mo>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                  <m:msup>
+                                    <m:mi>y</m:mi>
+                                    <m:mn>2</m:mn>
+                                  </m:msup>
+                                  <m:mo>−</m:mo>
+                                  <m:mn>11</m:mn>
+                                  <m:mi>y</m:mi>
+                                  <m:mo>+</m:mo>
+                                  <m:mn>14</m:mn>
+                                </m:mrow>
+                                <m:mo>)</m:mo>
+                              </m:mrow>
+                            </m:mtd>
+                          </m:mtr>
+                          <m:mtr>
+                            <m:mtd columnalign="center">
+                              <m:mn>10</m:mn>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mn>2</m:mn>
+                              </m:msup>
+                              <m:mo>−</m:mo>
+                              <m:mn>55</m:mn>
+                              <m:mi>y</m:mi>
+                              <m:mo>+</m:mo>
+                              <m:mn>70</m:mn>
+                              <m:mo>&amp;checkmark;</m:mo>
+                            </m:mtd>
+                          </m:mtr>
+                        </m:mtable>
+                      </m:mrow>
+                    </m:annotation-xml>
+                  </m:semantics>
+                </m:math></para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
+      <section id="sect-00004">
+        <title>Factoring Trinomials Using Substitution</title>
+
+        <para id="para-00079">Sometimes a trinomial does not appear to be in the <m:math display="inline">
             <m:mrow>
-              <m:mrow>
-                <m:mspace width="3em"/>
-                <m:mtable>
-                  <m:mtr>
-                    <m:mtd columnalign="center">
-                      <m:mrow>
-                        <m:mo>(</m:mo>
-                        <m:mrow>
-                          <m:msup>
-                            <m:mi>x</m:mi>
-                            <m:mn>2</m:mn>
-                          </m:msup>
-                          <m:mo>+</m:mo>
-                          <m:mn>1</m:mn>
-                        </m:mrow>
-                        <m:mo>)</m:mo>
-                      </m:mrow>
-                      <m:mrow>
-                        <m:mo>(</m:mo>
-                        <m:mrow>
-                          <m:msup>
-                            <m:mi>x</m:mi>
-                            <m:mn>2</m:mn>
-                          </m:msup>
-                          <m:mo>−</m:mo>
-                          <m:mn>5</m:mn>
-                        </m:mrow>
-                        <m:mo>)</m:mo>
-                      </m:mrow>
-                    </m:mtd>
-                  </m:mtr>
-                  <m:mtr>
-                    <m:mtd columnalign="center">
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>4</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>5</m:mn>
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>+</m:mo>
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>5</m:mn>
-                    </m:mtd>
-                  </m:mtr>
-                  <m:mtr>
-                    <m:mtd columnalign="center">
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>4</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>4</m:mn>
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>5</m:mn>
-                      <m:mo>&amp;checkmark;</m:mo>
-                    </m:mtd>
-                  </m:mtr>
-                </m:mtable>
-              </m:mrow>
+              <m:mi>a</m:mi>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>c</m:mi>
             </m:mrow>
-            <m:annotation-xml encoding="MathML-Content">
+          </m:math> form. However, we can often
+          make a thoughtful substitution that will allow us to make it fit the <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math> form. This is called factoring
+          by substitution. It is standard to use <m:math display="inline">
+            <m:mrow>
+              <m:mi>u</m:mi>
+            </m:mrow>
+          </m:math> for the substitution.</para>
+        <para id="para-00080">In the form <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>, the middle term has a
+          variable, <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>, and its square, <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>, is
+          the variable part of the first term. Look for this relationship as you try to find a
+          substitution.</para>
+        <para id="para-00081">
+          <emphasis>Example 2</emphasis>
+        </para>
+        <para id="para-00082">Factor by substitution: <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>4</m:mn>
+              </m:msup>
+              <m:mi>−</m:mi>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mi>−</m:mi>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00083">The variable part of the middle term is <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>, and
+          its square, <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>4</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>, is
+          the variable part of the first term. (We know <m:math display="inline">
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>4</m:mn>
+              </m:msup>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>. If we let <m:math display="inline">
+            <m:mrow>
+              <m:mi>u</m:mi>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>, we
+          can put our trinomial in the <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math> form we need to factor it.</para>
+        <para id="para-00084"><emphasis>Step 1 -</emphasis> Rewrite the trinomial to prepare for the
+          substitution.</para>
+        <para id="para-00100"><m:math>
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mi style="color:red">x</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn style="color:red">2</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mi style="color:red">x</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn style="color:red">2</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00086"><emphasis>Step 2 -</emphasis> Let <m:math display="inline">
+            <m:mrow>
+              <m:mi>u</m:mi>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math> and
+          substitute.</para>
+        <para id="para-00102"><m:math>
+            <m:mrow>
+              <m:msup>
+                <m:mrow>
+                  <m:mi style="color:red">u</m:mi>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>4</m:mn>
               <m:mrow>
-                <m:mspace width="3em"/>
-                <m:mtable>
-                  <m:mtr>
-                    <m:mtd columnalign="center">
-                      <m:mrow>
-                        <m:mo>(</m:mo>
-                        <m:mrow>
-                          <m:msup>
-                            <m:mi>x</m:mi>
-                            <m:mn>2</m:mn>
-                          </m:msup>
-                          <m:mo>+</m:mo>
-                          <m:mn>1</m:mn>
-                        </m:mrow>
-                        <m:mo>)</m:mo>
-                      </m:mrow>
-                      <m:mrow>
-                        <m:mo>(</m:mo>
-                        <m:mrow>
-                          <m:msup>
-                            <m:mi>x</m:mi>
-                            <m:mn>2</m:mn>
-                          </m:msup>
-                          <m:mo>−</m:mo>
-                          <m:mn>5</m:mn>
-                        </m:mrow>
-                        <m:mo>)</m:mo>
-                      </m:mrow>
-                    </m:mtd>
-                  </m:mtr>
-                  <m:mtr>
-                    <m:mtd columnalign="center">
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>4</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>5</m:mn>
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>+</m:mo>
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>5</m:mn>
-                    </m:mtd>
-                  </m:mtr>
-                  <m:mtr>
-                    <m:mtd columnalign="center">
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>4</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>4</m:mn>
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>5</m:mn>
-                      <m:mo>&amp;checkmark;</m:mo>
-                    </m:mtd>
-                  </m:mtr>
-                </m:mtable>
+                <m:mi style="color:red">u</m:mi>
               </m:mrow>
-            </m:annotation-xml>
-          </m:semantics>
-        </m:math></para><note class="try" id="note-00005">    <title> Try It: Factoring Trinomials Using Substitution</title>
+              <m:mo>−</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00088"><emphasis>Step 3 -</emphasis> Factor the trinomial.</para>
+        <para id="para-00104"><m:math>
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>u</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>u</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>5</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00090"><emphasis>Step 4 -</emphasis> Replace <m:math display="inline">
+            <m:mrow>
+              <m:mi>u</m:mi>
+            </m:mrow>
+          </m:math> with <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00106"><m:math>
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mi style="color:red">x</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn style="color:red">2</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:msup>
+                <m:mrow>
+                  <m:mi style="color:red">x</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn style="color:red">2</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>5</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00092"><emphasis>Step 5 -</emphasis> Check:</para>
+        <para id="para-00108"><m:math display="inline">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mspace width="3em"/>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mtd columnalign="center">
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                            <m:mo>+</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                            <m:mo>−</m:mo>
+                            <m:mn>5</m:mn>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="center">
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>4</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>5</m:mn>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="center">
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>4</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:mo>&amp;checkmark;</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                  </m:mtable>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation-xml encoding="MathML-Content">
+                <m:mrow>
+                  <m:mspace width="3em"/>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mtd columnalign="center">
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                            <m:mo>+</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                            <m:mo>−</m:mo>
+                            <m:mn>5</m:mn>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="center">
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>4</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>5</m:mn>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="center">
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>4</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:mo>&amp;checkmark;</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                  </m:mtable>
+                </m:mrow>
+              </m:annotation-xml>
+            </m:semantics>
+          </m:math></para>
+        <note class="try" id="note-00005">
+          <title> Try It: Factoring Trinomials Using Substitution</title>
 
         <exercise id="exer-00008">
-          <problem id="prob-00008">
-            <para id="para-00094">Factor by substitution: <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>2</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math>.</para>
-            <para id="para-00095">In this case, the expression to be substituted is not a monomial. Let <m:math display="inline"><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>2</m:mn></m:mrow></m:math>.</para>
-            <para id="para-00096">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00008">
-            <para id="para-00097">Here is how to factor using substitution.</para>
-            <para id="para-00098">The binomial in the middle term, <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, is squared in the first term. If we let <m:math display="inline"><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>2</m:mn></m:mrow></m:math> and substitute, our trinomial will be in <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> form.</para>
-            <para id="para-00099"><emphasis>Step 1 -</emphasis> Rewrite the trinomial to prepare for the substitution.</para>
-            <para id="para-00111"><m:math><m:mrow><m:mrow><m:mo style="color:red" stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mo style="color:red">−</m:mo></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mn style="color:red">2</m:mn></m:mrow><m:msup><m:mrow><m:mo style="color:red" stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mrow><m:mo style="color:red" stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mo style="color:red">−</m:mo></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mn style="color:red">2</m:mn></m:mrow><m:mrow><m:mo style="color:red" stretchy="false">)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math></para><para id="para-00101"><emphasis>Step 2  -</emphasis> Let <m:math display="inline"><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>2</m:mn></m:mrow></m:math> and substitute.</para>
-            <para id="para-00112"><m:math><m:mrow><m:msup><m:mi>u</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>7</m:mn><m:mi>u</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math></para><para id="para-00103"><emphasis>Step 3 -</emphasis> Factor the trinomial.</para>
-            <para id="para-00113"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi style="color:red">u</m:mi></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi style="color:red">u</m:mi></m:mrow><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00105"><emphasis>Step 4 -</emphasis> Replace <m:math display="inline"><m:mrow><m:mi>u</m:mi></m:mrow></m:math> with <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>2</m:mn></m:mrow></m:math>.</para>
-            <para id="para-00114"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mo style="color:red" stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mo style="color:red">−</m:mo></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mn style="color:red">2</m:mn></m:mrow><m:mrow><m:mo style="color:red" stretchy="false">)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mo style="color:red" stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mo style="color:red">−</m:mo></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mn style="color:red">2</m:mn></m:mrow><m:mrow><m:mo style="color:red" stretchy="false">)</m:mo></m:mrow><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00107"><emphasis>Step 5 -</emphasis> Simplify inside the parentheses.</para>
-            <para id="para-00115"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00109">This could also be factored by first multiplying out the <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>2</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math> and the <m:math display="inline"><m:mrow><m:mn>7</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, combining like terms, and then factoring. Most students prefer the substitution method.</para>
-          </solution>
-        </exercise>
-      </note>
+            <problem id="prob-00008">
+              <para id="para-00094">Factor by substitution: <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>−</m:mi>
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>−</m:mi>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>+</m:mo>
+                    <m:mn>12</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00095">In this case, the expression to be substituted is not a
+          monomial. Let <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>u</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>−</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00096">Write down your answer. Then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
+            </problem>
+            <solution id="sol-00008">
+              <para id="para-00097">Here is how to factor using substitution.</para>
+              <para id="para-00098">The binomial in the middle term, <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>−</m:mi>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>,
+          is squared in the first term. If we let <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>u</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>−</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math> and
+          substitute, our trinomial will be in <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                </m:math> form.</para>
+              <para id="para-00099"><emphasis>Step 1 -</emphasis> Rewrite the trinomial to prepare
+          for the substitution.</para>
+              <para id="para-00111"><m:math>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo style="color:red" stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi style="color:red">x</m:mi>
+                    </m:mrow>
+                    <m:mspace width="0.278em"/>
+                    <m:mrow>
+                      <m:mo style="color:red">−</m:mo>
+                    </m:mrow>
+                    <m:mspace width="0.278em"/>
+                    <m:mrow>
+                      <m:mn style="color:red">2</m:mn>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo style="color:red" stretchy="false">)</m:mo>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mrow>
+                      <m:mo style="color:red" stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi style="color:red">x</m:mi>
+                    </m:mrow>
+                    <m:mspace width="0.278em"/>
+                    <m:mrow>
+                      <m:mo style="color:red">−</m:mo>
+                    </m:mrow>
+                    <m:mspace width="0.278em"/>
+                    <m:mrow>
+                      <m:mn style="color:red">2</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo style="color:red" stretchy="false">)</m:mo>
+                    </m:mrow>
+                    <m:mo>+</m:mo>
+                    <m:mn>12</m:mn>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00101"><emphasis>Step 2 -</emphasis> Let <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>u</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>−</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math> and
+          substitute.</para>
+              <para id="para-00112"><m:math>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>u</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mi>u</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>12</m:mn>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00103"><emphasis>Step 3 -</emphasis> Factor the trinomial.</para>
+              <para id="para-00113"><m:math>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mi style="color:red">u</m:mi>
+                    </m:mrow>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mi style="color:red">u</m:mi>
+                    </m:mrow>
+                    <m:mo>+</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00105"><emphasis>Step 4 -</emphasis> Replace <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>u</m:mi>
+                  </m:mrow>
+                </m:math> with <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mi>−</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00114"><m:math>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mo style="color:red" stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi style="color:red">x</m:mi>
+                    </m:mrow>
+                    <m:mspace width="0.278em"/>
+                    <m:mrow>
+                      <m:mo style="color:red">−</m:mo>
+                    </m:mrow>
+                    <m:mspace width="0.278em"/>
+                    <m:mrow>
+                      <m:mn style="color:red">2</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo style="color:red" stretchy="false">)</m:mo>
+                    </m:mrow>
+                    <m:mo>+</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mo style="color:red" stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi style="color:red">x</m:mi>
+                    </m:mrow>
+                    <m:mspace width="0.278em"/>
+                    <m:mrow>
+                      <m:mo style="color:red">−</m:mo>
+                    </m:mrow>
+                    <m:mspace width="0.278em"/>
+                    <m:mrow>
+                      <m:mn style="color:red">2</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo style="color:red" stretchy="false">)</m:mo>
+                    </m:mrow>
+                    <m:mo>+</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00107"><emphasis>Step 5 -</emphasis> Simplify inside the parentheses.</para>
+              <para id="para-00115"><m:math>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00109">This could also be factored by first multiplying out the <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>−</m:mi>
+                    <m:mn>2</m:mn>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+          and the <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>7</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mi>−</m:mi>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>,
+          combining like terms, and then factoring. Most students prefer the substitution method.</para>
+            </solution>
+          </exercise>
+        </note>
       </section>
     </section>
-    
-</content>
+
+  </content>
 </document>
