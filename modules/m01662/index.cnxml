@@ -6,433 +6,1585 @@
     <md:uuid>55751f10-0f21-4123-abcc-c95ab7874eaf</md:uuid>
   </metadata>
   <content>
-  <section id="sect-00001"><title>Activity</title>
-<para id="para-00001"><emphasis>How to factor trinomials of the form <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> using trial and error:</emphasis></para>
-<para id="para-00002"><emphasis>Step 1 -</emphasis> Write the trinomial in descending order of degrees as needed.</para>
-<para id="para-00003"><emphasis>Step 2 -</emphasis> Factor any GCF.</para>
-<para id="para-00004"><emphasis>Step 3 -</emphasis> Find all the factor pairs of the first term.</para>
-<para id="para-00005"><emphasis>Step 4 -</emphasis> Find all the factor pairs of the third term.</para>
-<para id="para-00006"><emphasis>Step 5 -</emphasis> Test all the possible combinations of the factors until the correct product is found.</para>
-<para id="para-00007"><emphasis>Step 6 -</emphasis> Check by multiplying.</para>
-<para id="para-00008"><emphasis>Remember these helpful rules when factoring trinomials:</emphasis></para>
-<list id="list-00001">
-  <item>Factor out the GCF first.
-    <list id="list-00002">
-      <item>This is an important rule since it makes the remaining trinomial much simpler to factor. It may change the trinomial from the form <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> to the form <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>. This would allow you to use the “undoing FOIL” process instead of trial and error.</item>
-    </list>
- </item>
-  <item>When the middle term is negative and the last term is positive, the signs in the binomials must both be negative.
-    <list id="list-00003">
-      <item>Only two negative numbers will result in a negative sum and a positive product.</item>
-    </list>
- </item>
-  <item>If the leading coefficient is negative, so is the GCF.
-    <list id="list-00004">
-      <item>Factoring out the negative sign from the leading coefficient will make the trinomial simpler to factor.</item>
-    </list>
- </item>
-  <item>When the leading term is not 1 and there is no GCF, then the first two terms of the binomial factors will multiply to equal the leading term.
-    <list id="list-00005">
-      <item>This means you can use trial and error to find the correct binomial factors.</item>
-    </list>
- </item>
-</list>
-<para id="para-00009">Work with a partner. Factor each trinomial. Ask your partner if you get stuck. Compare your answers and discuss any issues you had.</para>
+    <section id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001"><emphasis>How to factor trinomials of the form <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math> using trial and error:</emphasis></para>
+      <para id="para-00002"><emphasis>Step 1 -</emphasis> Write the trinomial in descending order of
+        degrees as needed.</para>
+      <para id="para-00003"><emphasis>Step 2 -</emphasis> Factor any GCF.</para>
+      <para id="para-00004"><emphasis>Step 3 -</emphasis> Find all the factor pairs of the first
+        term.</para>
+      <para id="para-00005"><emphasis>Step 4 -</emphasis> Find all the factor pairs of the third
+        term.</para>
+      <para id="para-00006"><emphasis>Step 5 -</emphasis> Test all the possible combinations of the
+        factors until the correct product is found.</para>
+      <para id="para-00007"><emphasis>Step 6 -</emphasis> Check by multiplying.</para>
+      <para id="para-00008"><emphasis>Remember these helpful rules when factoring trinomials:</emphasis></para>
+      <list id="list-00001">
+        <item>Factor out the GCF first. <list id="list-00002">
+            <item>This is an important rule since it makes the remaining trinomial much simpler to
+          factor. It may change the trinomial from the form <m:math display="inline">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math> to the form <m:math
+                display="inline">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math>. This would allow
+          you to use the “undoing FOIL” process instead of trial and error.</item>
+          </list>
+        </item>
+        <item>When the middle term is negative and the last term is positive, the signs in the
+          binomials must both be negative. <list id="list-00003">
+            <item>Only two negative numbers will result in a negative sum and a positive product.</item>
+          </list>
+        </item>
+        <item>If the leading coefficient is negative, so is the GCF. <list id="list-00004">
+            <item>Factoring out the negative sign from the leading coefficient will make the
+          trinomial simpler to factor.</item>
+          </list>
+        </item>
+        <item>When the leading term is not 1 and there is no GCF, then the first two terms of the
+          binomial factors will multiply to equal the leading term. <list id="list-00005">
+            <item>This means you can use trial and error to find the correct binomial factors.</item>
+          </list>
+        </item>
+      </list>
+      <para id="para-00009">Work with a partner. Factor each trinomial. Ask your partner if you get
+        stuck. Compare your answers and discuss any issues you had.</para>
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00001">
-  <problem id="prob-00001">
-    <para id="para-00010"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para></problem><solution id="sol-00001">
-    
-    
-  
-  <para id="para-00011">Compare your answer:</para>
-    
-    <para id="para-00012"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End -->
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00010"><m:math>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>a</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00001">
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00002">
-  <problem id="prob-00002">
-    <para id="para-00013"><m:math><m:mrow><m:mn>8</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>14</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para></problem><solution id="sol-00002">
-    
-    
-  
-  <para id="para-00014">Compare your answer:</para>
-    
-    <para id="para-00015"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End -->
+          <para id="para-00011">Compare your answer:</para>
+
+          <para id="para-00012"><m:math>
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>a</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>a</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00003">
-  <problem id="prob-00003">
-    <para id="para-00016"><m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mi>−</m:mi><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para></problem><solution id="sol-00003">
-    
-    
-  
-  <para id="para-00017">Compare your answer:</para>
-    
-    <para id="para-00018"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End -->
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00013"><m:math>
+              <m:mrow>
+                <m:mn>8</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>14</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00002">
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00004">
-  <problem id="prob-00004">
-    <para id="para-00019"><m:math><m:mrow><m:mn>15</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mi>−</m:mi><m:mn>85</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>100</m:mn><m:mi>n</m:mi></m:mrow></m:math></para></problem><solution id="sol-00004">
-    
-    
-  
-  <para id="para-00020">Compare your answer:</para>
-    
-    <para id="para-00021"><m:math><m:mrow><m:mn>5</m:mn><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End -->
+          <para id="para-00014">Compare your answer:</para>
+
+          <para id="para-00015"><m:math>
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00005">
-  <problem id="prob-00005">
-    <para id="para-00022"><m:math><m:mrow><m:mi>−</m:mi><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mi>−</m:mi><m:mn>55</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mi>−</m:mi><m:mn>60</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para></problem><solution id="sol-00005">
-    
-    
-  
-  <para id="para-00023">Compare your answer:</para>
-    
-    <para id="para-00024"><m:math><m:mrow><m:mi>−</m:mi><m:mn>5</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo stretchy="false">(</m:mo><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End -->
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00016"><m:math>
+              <m:mrow>
+                <m:mn>18</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>3</m:mn>
+                <m:mi>x</m:mi>
+                <m:mi>y</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>10</m:mn>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00003">
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00006">
-  <problem id="prob-00006">
-    <para id="para-00025"><m:math><m:mrow><m:mn>56</m:mn><m:msup><m:mi>q</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>320</m:mn><m:msup><m:mi>q</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>96</m:mn><m:mi>q</m:mi></m:mrow></m:math></para></problem><solution id="sol-00006">
-    
-    
-  
-  <para id="para-00026">Compare your answer:</para>
-    
-    <para id="para-00027"><m:math><m:mrow><m:mn>8</m:mn><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>q</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mi>q</m:mi><m:mi>−</m:mi><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution></exercise>
-<!--Interaction End --></section>
-<note class="self-check" id="note-00001">
-  <para id="para-00028">Factor the trinomial completely: <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>18</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>60</m:mn><m:mi>y</m:mi></m:mrow></m:math>.</para>
+          <para id="para-00017">Compare your answer:</para>
+
+          <para id="para-00018"><m:math>
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>y</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>6</m:mn>
+                <m:mi>x</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>5</m:mn>
+                <m:mi>y</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00019"><m:math>
+              <m:mrow>
+                <m:mn>15</m:mn>
+                <m:msup>
+                  <m:mi>n</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>85</m:mn>
+                <m:msup>
+                  <m:mi>n</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>100</m:mn>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00004">
+
+
+          <para id="para-00020">Compare your answer:</para>
+
+          <para id="para-00021"><m:math>
+              <m:mrow>
+                <m:mn>5</m:mn>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>n</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>5</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00022"><m:math>
+              <m:mrow>
+                <m:mi>−</m:mi>
+                <m:mn>10</m:mn>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>4</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>55</m:mn>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>60</m:mn>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00005">
+
+
+          <para id="para-00023">Compare your answer:</para>
+
+          <para id="para-00024"><m:math>
+              <m:mrow>
+                <m:mi>−</m:mi>
+                <m:mn>5</m:mn>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>y</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00025"><m:math>
+              <m:mrow>
+                <m:mn>56</m:mn>
+                <m:msup>
+                  <m:mi>q</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>320</m:mn>
+                <m:msup>
+                  <m:mi>q</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>96</m:mn>
+                <m:mi>q</m:mi>
+              </m:mrow>
+            </m:math></para>
+        </problem>
+        <solution id="sol-00006">
+
+
+          <para id="para-00026">Compare your answer:</para>
+
+          <para id="para-00027"><m:math>
+              <m:mrow>
+                <m:mn>8</m:mn>
+                <m:mi>q</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>q</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>7</m:mn>
+                <m:mi>q</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+    </section>
+    <note class="self-check" id="note-00001">
+      <para id="para-00028">Factor the trinomial completely: <m:math display="inline">
+          <m:mrow>
+            <m:mn>6</m:mn>
+            <m:msup>
+              <m:mi>y</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>18</m:mn>
+            <m:msup>
+              <m:mi>y</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>−</m:mi>
+            <m:mn>60</m:mn>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:math>.</para>
     </note>
     <section id="sect-00002">
       <title>Additional Resources</title>
-      
-    <section id="sect-00003">
-      <title>Factoring Trinomials Using Trial and Error</title>
-      <para id="para-00029">Our next step is to factor trinomials whose leading coefficient is not <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math>, trinomials of the form <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>. Remember to always check for a GCF first! Sometimes, after you factor the GCF, the leading coefficient of the
-  trinomial becomes <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math> and you can factor it by the methods we’ve used so far. Let’s do an example to see
-how this works.</para>
-      <para id="para-00086"><emphasis id="para-00030">Example 1</emphasis></para>
-      <para id="para-00031">Factor completely: <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>20</m:mn><m:mi>x</m:mi></m:mrow></m:math>.</para>
-      <para id="para-00032"><emphasis>Step 1 -</emphasis> The trinomial is already written in descending order of degrees.</para>
-      <para id="para-00033"><emphasis>Step 2 -</emphasis> Is there a greatest common factor?</para>
-      <para id="para-00034"><m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>20</m:mn><m:mi>x</m:mi></m:mrow></m:math>
-  Yes, <m:math display="inline"><m:mrow><m:mi>G</m:mi><m:mi>C</m:mi><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math>. Factor it.
-  <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-      <para id="para-00035">Is it a binomial, trinomial, or more than three terms?
-  <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> 
-  It is now a trinomial with a leading coefficient of <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math>. So “undo FOIL.”
-  <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-      <para id="para-00036"><emphasis>Step 3 -</emphasis> Use a table like the one shown to find two numbers that multiply to <m:math display="inline"><m:mrow><m:mi>−</m:mi><m:mn>5</m:mn></m:mrow></m:math> and add to <m:math display="inline"><m:mrow><m:mn>4</m:mn></m:mrow></m:math>.</para>
-      <table class="unnumbered os-raise-midsizetable" id="table-00001">
-        <tgroup cols="2"><tbody><row>
-            <entry>
-             <emphasis>Factors of <m:math display="inline"><m:mrow><m:mi>−</m:mi><m:mn>5</m:mn></m:mrow></m:math></emphasis>
-            </entry>
-            <entry>
-             <emphasis>Sum of factors</emphasis>
-            </entry>
-          </row>
-        <row>
-            <entry><m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>5</m:mn></m:mrow></m:math> </entry>
-            <entry><m:math><m:mrow><m:mi>−</m:mi><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>5</m:mn><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mi>*</m:mi></m:msup></m:mrow></m:math></entry>
-          </row>
-          <row>
-            <entry><m:math display="inline"><m:mrow><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math> </entry>
-            <entry><m:math display="inline"><m:mrow><m:mn>1</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>−</m:mi><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>−</m:mi><m:mn>4</m:mn></m:mrow></m:math> </entry>
-          </row>
-        </tbody></tgroup></table>
-      <para id="para-00037"><emphasis>Step 4 -</emphasis> Use −1 and 5 as coefficients of the last terms.</para>
-      <para id="para-00038"><m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00039"><emphasis>Step 5 -</emphasis> Check.</para>
-      <para id="para-00040"><m:math display="inline">
-          <m:semantics>
+
+      <section id="sect-00003">
+        <title>Factoring Trinomials Using Trial and Error</title>
+        <para id="para-00029">Our next step is to factor trinomials whose leading coefficient is not <m:math
+            display="inline">
             <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math>, trinomials of the form <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>. Remember to always check for a
+          GCF first! Sometimes, after you factor the GCF, the leading coefficient of the trinomial
+          becomes <m:math display="inline">
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math> and you can factor it by the
+          methods we’ve used so far. Let’s do an example to see how this works.</para>
+        <para id="para-00086"><emphasis id="para-00030">Example 1</emphasis></para>
+        <para id="para-00031">Factor completely: <m:math display="inline">
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>3</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>16</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mi>−</m:mi>
+              <m:mn>20</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00032"><emphasis>Step 1 -</emphasis> The trinomial is already written in
+          descending order of degrees.</para>
+        <para id="para-00033"><emphasis>Step 2 -</emphasis> Is there a greatest common factor?</para>
+        <para id="para-00034"><m:math display="inline">
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>3</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>16</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mi>−</m:mi>
+              <m:mn>20</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math></para>
+           <para>Yes, <m:math display="inline">
+            <m:mrow>
+              <m:mi>G</m:mi>
+              <m:mi>C</m:mi>
+              <m:mi>F</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>. Factor it.</para>
+          <para><m:math
+            display="inline">
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mi>−</m:mi>
+              <m:mn>5</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00035">Is it a binomial, trinomial, or more than three terms?</para>
+        <para> <m:math
+            display="inline">
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mi>−</m:mi>
+              <m:mn>5</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+          <para>It is now a
+          trinomial with a leading coefficient of <m:math display="inline">
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math>. So “undo FOIL.”</para>
+          <para><m:math
+            display="inline">
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00036"><emphasis>Step 3 -</emphasis> Use a table like the one shown to find
+          two numbers that multiply to <m:math display="inline">
+            <m:mrow>
+              <m:mi>−</m:mi>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math> and add to <m:math
+            display="inline">
+            <m:mrow>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <table class="unnumbered os-raise-midsizetable" id="table-00001">
+          <tgroup cols="2">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis>Factors of <m:math display="inline">
+                      <m:mrow>
+                        <m:mi>−</m:mi>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:math></emphasis>
+                </entry>
+                <entry>
+                  <emphasis>Sum of factors</emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry><m:math display="inline">
+                    <m:mrow>
+                      <m:mo>−</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry><m:math>
+                    <m:mrow>
+                      <m:mi>−</m:mi>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mo>=</m:mo>
+                      <m:msup>
+                        <m:mn>4</m:mn>
+                        <m:mi>*</m:mi>
+                      </m:msup>
+                    </m:mrow>
+                  </m:math></entry>
+              </row>
+              <row>
+                <entry><m:math display="inline">
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mo>−</m:mo>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry><m:math display="inline">
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>−</m:mi>
+                      <m:mn>5</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo>=</m:mo>
+                      <m:mi>−</m:mi>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="para-00037"><emphasis>Step 4 -</emphasis> Use −1 and 5 as coefficients of the last
+          terms.</para>
+        <para id="para-00038"><m:math>
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mi>−</m:mi>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>5</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00039"><emphasis>Step 5 -</emphasis> Check.</para>
+        <para id="para-00040"><m:math display="inline">
+            <m:semantics>
               <m:mrow>
-                <m:mspace/>
-                <m:mtable>
-                  <m:mtr>
-                    <m:mtd>
-                      <m:mn>4</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mrow>
-                        <m:mo>(</m:mo>
+                <m:mrow>
+                  <m:mspace />
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mtd>
+                        <m:mn>4</m:mn>
+                        <m:mi>x</m:mi>
                         <m:mrow>
-                          <m:mi>x</m:mi>
-                          <m:mo>−</m:mo>
-                          <m:mn>1</m:mn>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo>−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
                         </m:mrow>
-                        <m:mo>)</m:mo>
-                      </m:mrow>
-                      <m:mrow>
-                        <m:mo>(</m:mo>
                         <m:mrow>
-                          <m:mi>x</m:mi>
-                          <m:mo>+</m:mo>
-                          <m:mn>5</m:mn>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo>+</m:mo>
+                            <m:mn>5</m:mn>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
                         </m:mrow>
-                        <m:mo>)</m:mo>
-                      </m:mrow>
-                    </m:mtd>
-                  </m:mtr>
-                  <m:mtr>
-                    <m:mtd>
-                      <m:mn>4</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mo stretchy="false">(</m:mo>
-                      <m:msup>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd>
+                        <m:mn>4</m:mn>
                         <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>+</m:mo>
-                      <m:mn>5</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mo>−</m:mo>
-                      <m:mi>x</m:mi>
-                      <m:mo>−</m:mo>
-                      <m:mn>5</m:mn>
-                      <m:mo stretchy="false">)</m:mo>
-                    </m:mtd>
-                  </m:mtr>
-                  <m:mtr>
-                    <m:mtd>
-                      <m:mn>4</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mo stretchy="false">(</m:mo>
-                      <m:msup>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>5</m:mn>
                         <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>+</m:mo>
-                      <m:mn>4</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mo>−</m:mo>
-                      <m:mn>5</m:mn>
-                      <m:mo stretchy="false">)</m:mo>
-                    </m:mtd>
-                  </m:mtr>
-                  <m:mtr>
-                    <m:mtd>
-                      <m:mn>4</m:mn>
-                      <m:msup>
+                        <m:mo>−</m:mo>
                         <m:mi>x</m:mi>
-                        <m:mn>3</m:mn>
-                      </m:msup>
-                      <m:mo>+</m:mo>
-                      <m:mn>16</m:mn>
-                      <m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd>
+                        <m:mn>4</m:mn>
                         <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>20</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd>
+                        <m:mn>4</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>16</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>20</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>&amp;checkmark;</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                  </m:mtable>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation-xml encoding="MathML-Content">
+                <m:mrow>
+                  <m:mspace />
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mtd>
+                        <m:mn>4</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo>−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo>+</m:mo>
+                            <m:mn>5</m:mn>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd>
+                        <m:mn>4</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd>
+                        <m:mn>4</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd>
+                        <m:mn>4</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>16</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>20</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>&amp;checkmark;</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                  </m:mtable>
+                </m:mrow>
+              </m:annotation-xml>
+            </m:semantics>
+          </m:math></para>
+        <para id="para-00041">What happens when the leading coefficient is not <m:math
+            display="inline">
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math> and there is no GCF? There are
+          several methods that can be used to factor these trinomials. First we will use the trial
+          and error method.</para>
+        <para id="para-00087"><emphasis id="para-00042">Example 2</emphasis></para>
+        <para id="para-00043">Factor the trinomial <m:math display="inline">
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>5</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00044">The trinomial is already written in descending order of degrees. There
+          is no GCF to factor.</para>
+        <para id="para-00045">From our earlier work, we expect this will factor into two binomials.</para>
+        <para id="para-00046"><m:math>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mtd columnalign="center">
+                    <m:mn>3</m:mn>
+                    <m:msup>
                       <m:mi>x</m:mi>
-                      <m:mo>&amp;checkmark;</m:mo>
-                    </m:mtd>
-                  </m:mtr>
-                </m:mtable>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>2</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="center">
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mspace width="0.278em" />
+                    <m:mspace width="0.278em" />
+                    <m:mspace width="0.278em" />
+                    <m:mspace width="0.278em" />
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mspace width="0.278em" />
+                    <m:mspace width="0.278em" />
+                    <m:mspace width="0.278em" />
+                    <m:mspace width="0.278em" />
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00047">We know the first terms of the binomial factors will multiply to give
+          us <m:math display="inline">
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>. The
+          only factors of <m:math display="inline">
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math> are <m:math
+            display="inline">
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>. We can place them in the
+          binomials.</para>
+        <para id="para-00048">
+          <media alt="Insert Alt Text">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_08_08_01.jpg" width="150" />
+          </media>
+
+        </para>
+        <para id="para-00049">Check: Does  <m:math display="inline">
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mi>x</m:mi>
+              <m:mi>·</m:mi>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>?</para>
+        <para id="para-00050">We know the last terms of the binomials will multiply to <m:math
+            display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>. Since this trinomial has all
+          positive terms, we only need to consider positive factors. The only factors of <m:math
+            display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math> are <m:math display="inline">
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>. But we now have two cases to
+          consider because it will make a difference if we write <m:math display="inline">
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math> or <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00051">
+          <media alt="">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_08_08_02.jpg" width="327" />
+          </media>
+
+        </para>
+        <para id="para-00052">Which factors are correct? To decide that, we multiply the inner and
+          outer terms.</para>
+        <para id="para-00053">
+          <media alt="">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_08_08_03.jpg" width="367" />
+          </media>
+
+        </para>
+        <para id="para-00054">Since the middle term of the trinomial is <m:math display="inline">
+            <m:mrow>
+              <m:mn>5</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>, the factors in the first case
+          will work. Let’s use FOIL to check.</para>
+        <para id="para-00055"><m:math>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mtd columnalign="center">
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="center">
+                    <m:mn>3</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>2</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>2</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="center">
+                    <m:mn>3</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>2</m:mn>
+                    <m:mspace width="0.278em" />
+                    <m:mrow>
+                      <m:mi style="color:red">✓</m:mi>
+                    </m:mrow>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00056">Our result of the factoring is:</para>
+        <para id="para-00057"><m:math>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mtd columnalign="center">
+                    <m:mn>3</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>2</m:mn>
+                  </m:mtd>
+                </m:mtr>
+                <m:mtr>
+                  <m:mtd columnalign="center">
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mspace width="0.278em" />
+                    <m:mo>+</m:mo>
+                    <m:mspace width="0.278em" />
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:math></para>
+        <note id="note-00002">
+          <para id="para-00058"><emphasis>How to factor trinomials of the form</emphasis> <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math> <emphasis>using trial and error.</emphasis></para>
+        
+        <para
+            id="para-00059"><emphasis>Step 1 -</emphasis> Write the trinomial in descending order of
+          degrees as needed.</para>
+        <para id="para-00060"><emphasis>Step 2 -</emphasis> Factor any
+          GCF.</para>
+        <para id="para-00061"><emphasis>Step 3 -</emphasis> Find all the factor pairs
+          of the first term.</para>
+        <para id="para-00062"><emphasis>Step 4 -</emphasis> Find all the
+          factor pairs of the third term.</para>
+        <para id="para-00063"><emphasis>Step 5 -</emphasis>
+          Test all the possible combinations of the factors until the correct product is found.</para>
+        <para
+            id="para-00064"><emphasis>Step 6 -</emphasis> Check by multiplying.</para>
+        </note>
+        <para id="para-00065">Remember, when the middle term is negative and the last term is
+          positive, the signs in the binomials must both be negative.</para>
+        <para id="para-00066">When we factor an expression, we always look for a greatest common
+          factor first. If the expression does not have a greatest common factor, there cannot be
+          one in its factors either. This may help us eliminate some of the possible factor
+          combinations.</para>
+        <para id="para-00088"><emphasis id="para-00067">Example 3</emphasis></para>
+        <para id="para-00068">Factor completely using trial and error: <m:math display="inline">
+            <m:mrow>
+              <m:mn>18</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mi>−</m:mi>
+              <m:mn>37</m:mn>
+              <m:mi>x</m:mi>
+              <m:mi>y</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>15</m:mn>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00069"><emphasis>Step 1 -</emphasis> The trinomial is already in descending
+          order.</para>
+        <para id="para-00070"><m:math>
+            <m:mrow>
+              <m:mn>18</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>37</m:mn>
+              <m:mi>x</m:mi>
+              <m:mi>y</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>15</m:mn>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00071"><emphasis>Step 2 -</emphasis> Find the factors of the first term.</para>
+        <para id="para-00072"><m:math>
+            <m:mrow>
+              <m:mn>18</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>37</m:mn>
+              <m:mi>x</m:mi>
+              <m:mi>y</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>15</m:mn>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mspace linebreak="newline" />
+              <m:mrow>
+                <m:mn style="color:red">1</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mi style="color:red">x</m:mi>
+              </m:mrow>
+              <m:mspace width="0.278em" />
+              <m:mrow>
+                <m:mi style="color:red">·</m:mi>
+              </m:mrow>
+              <m:mspace width="0.278em" />
+              <m:mrow>
+                <m:mn style="color:red">1</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mn style="color:red">8</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mi style="color:red">x</m:mi>
+              </m:mrow>
+              <m:mspace linebreak="newline" />
+              <m:mrow>
+                <m:mn style="color:red">2</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mi style="color:red">x</m:mi>
+              </m:mrow>
+              <m:mspace width="0.278em" />
+              <m:mrow>
+                <m:mi style="color:red">·</m:mi>
+              </m:mrow>
+              <m:mspace width="0.278em" />
+              <m:mrow>
+                <m:mn style="color:red">9</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mi style="color:red">x</m:mi>
+              </m:mrow>
+              <m:mspace linebreak="newline" />
+              <m:mrow>
+                <m:mn style="color:red">3</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mi style="color:red">x</m:mi>
+              </m:mrow>
+              <m:mspace width="0.278em" />
+              <m:mrow>
+                <m:mi style="color:red">·</m:mi>
+              </m:mrow>
+              <m:mspace width="0.278em" />
+              <m:mrow>
+                <m:mn style="color:red">6</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mi style="color:red">x</m:mi>
               </m:mrow>
             </m:mrow>
-            <m:annotation-xml encoding="MathML-Content">
+          </m:math></para>
+        <para id="para-00073"><emphasis>Step 3 -</emphasis> Find the factors of the last term.
+          Consider the signs. Since 15 is positive and the coefficient of the middle term is
+          negative, we use the negative factors.</para>
+        <para id="para-00074">
+          <media alt="Insert Alt Text">
+            <image mime-type="image/png" src="../../media/Algebra-1_07_08_08_04.png" width="240" />
+          </media>
+
+        </para>
+        <para id="para-00075"><emphasis>Step 4 -</emphasis> Consider all the combinations of
+          factors.</para>
+        <para id="para-00076">
+          <media
+            alt="This table shows the possible factors and corresponding products of the trinomial 18 x squared minus 37xy plus 15 y squared. In some pairs of factors, when one factor contains two terms with a common factor, that factor is highlighted. In such cases, product is not an option because if trinomial has no common factors, then neither factor can contain a common factor. Factor: open parentheses x minus 1y close parentheses open parentheses 18x minus 15y close parentheses, highlighted. Factor, open parentheses x minus 15y close parentheses open parentheses 18x minus 1y close parentheses; product: 18 x squared minus 271xy plus 15 y squared. Factor open parentheses x minus 3y close parentheses open parentheses 18x minus 5 y close parentheses; product: 18 x squared minus 59xy plus 15 y squared. Factor: open parentheses x minus 5y close parentheses open parentheses 18x minus 3y close parentheses highlighted. Factor: open parentheses 2x minus 1y close parentheses open parentheses 9x minus 15y close parentheses highlighted. Factor: open parentheses 2x minus 15y close parentheses open parentheses 9x minus 1y close parentheses; product 18 x squared minus 137 xy plus 15y squared. Factor: open parentheses 2x minus 3y close parentheses open parentheses 9x minus 5y close parentheses; product: 18 x squared minus 37xy plus 15 y squared, which is the original trinomial. Factor: open parentheses 2x minus 57 close parentheses open parentheses 9x minus 3y close parentheses highlighted. Factor: open parentheses 3x minus 1y close parentheses open parentheses 6x minus 15y close parentheses highlighted. Factor: open parentheses 3x minus 15y close parentheses highlighted open parentheses 6x minus 1y close parentheses. Factor: open parentheses 3x minus 3y close parentheses highlighted open parentheses 6x minus 5y.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_08_08_05.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00077"><emphasis>Step 5 -</emphasis> The correct factors are those whose
+          product is the original trinomial.</para>
+          <para><m:math display="inline">
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>x</m:mi>
+              <m:mi>−</m:mi>
+              <m:mn>3</m:mn>
+              <m:mi>y</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>9</m:mn>
+              <m:mi>x</m:mi>
+              <m:mi>−</m:mi>
+              <m:mn>5</m:mn>
+              <m:mi>y</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+
+        <para id="para-00078"><emphasis>Step 6 -</emphasis> Check by multiplying.</para>
+        <para><m:math
+            display="inline">
+            <m:semantics>
               <m:mrow>
-                <m:mspace/>
-                <m:mtable>
-                  <m:mtr>
-                    <m:mtd>
-                      <m:mn>4</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mrow>
-                        <m:mo>(</m:mo>
+                <m:mrow>
+                  <m:mspace />
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mtd columnalign="center">
                         <m:mrow>
-                          <m:mi>x</m:mi>
-                          <m:mo>−</m:mo>
-                          <m:mn>1</m:mn>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                            <m:mi>x</m:mi>
+                            <m:mo>−</m:mo>
+                            <m:mn>3</m:mn>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mn>9</m:mn>
+                            <m:mi>x</m:mi>
+                            <m:mo>−</m:mo>
+                            <m:mn>5</m:mn>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
                         </m:mrow>
-                        <m:mo>)</m:mo>
-                      </m:mrow>
-                      <m:mrow>
-                        <m:mo>(</m:mo>
-                        <m:mrow>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="center">
+                        <m:mn>18</m:mn>
+                        <m:msup>
                           <m:mi>x</m:mi>
-                          <m:mo>+</m:mo>
-                          <m:mn>5</m:mn>
-                        </m:mrow>
-                        <m:mo>)</m:mo>
-                      </m:mrow>
-                    </m:mtd>
-                  </m:mtr>
-                  <m:mtr>
-                    <m:mtd>
-                      <m:mn>4</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mo stretchy="false">(</m:mo>
-                      <m:msup>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>10</m:mn>
                         <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>+</m:mo>
-                      <m:mn>5</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mo>−</m:mo>
-                      <m:mi>x</m:mi>
-                      <m:mo>−</m:mo>
-                      <m:mn>5</m:mn>
-                      <m:mo stretchy="false">)</m:mo>
-                    </m:mtd>
-                  </m:mtr>
-                  <m:mtr>
-                    <m:mtd>
-                      <m:mn>4</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mo stretchy="false">(</m:mo>
-                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mn>27</m:mn>
                         <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>+</m:mo>
-                      <m:mn>4</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mo>−</m:mo>
-                      <m:mn>5</m:mn>
-                      <m:mo stretchy="false">)</m:mo>
-                    </m:mtd>
-                  </m:mtr>
-                  <m:mtr>
-                    <m:mtd>
-                      <m:mn>4</m:mn>
-                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>15</m:mn>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="center">
+                        <m:mn>18</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>37</m:mn>
                         <m:mi>x</m:mi>
-                        <m:mn>3</m:mn>
-                      </m:msup>
-                      <m:mo>+</m:mo>
-                      <m:mn>16</m:mn>
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>20</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mo>&amp;checkmark;</m:mo>
-                    </m:mtd>
-                  </m:mtr>
-                </m:mtable>
+                        <m:mi>y</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>15</m:mn>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>&amp;checkmark;</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                  </m:mtable>
+                </m:mrow>
               </m:mrow>
-            </m:annotation-xml>
-          </m:semantics>
-        </m:math></para><para id="para-00041">What happens when the leading coefficient is not <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math> and there is no GCF? There are several methods that can be
-  used to factor these trinomials. First we will use the trial and error method.</para>
-      <para id="para-00087"><emphasis id="para-00042">Example 2</emphasis></para>
-      <para id="para-00043">Factor the trinomial <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
-      <para id="para-00044">The trinomial is already written in descending order of degrees. There is no GCF to factor.</para>
-      <para id="para-00045">From our earlier work, we expect this will factor into two binomials.</para>
-      <para id="para-00046"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>5</m:mn><m:mi>x</m:mi><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mo stretchy="false">(</m:mo><m:mspace width="0.278em"/><m:mspace width="0.278em"/><m:mspace width="0.278em"/><m:mspace width="0.278em"/><m:mspace width="0.278em"/><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mspace width="0.278em"/><m:mspace width="0.278em"/><m:mspace width="0.278em"/><m:mspace width="0.278em"/><m:mspace width="0.278em"/><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00047">We know the first terms of the binomial factors will multiply to give us <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>. The only factors of <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> are
-  <m:math display="inline"><m:mrow><m:mn>1</m:mn><m:mi>x</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mi>x</m:mi></m:mrow></m:math>. We can place them in the binomials.</para>
-      <para id="para-00048">
-          <media alt="Insert Alt Text">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_08_08_01.jpg"/>
-          </media>
-        
-    </para>
-      <para id="para-00049">Check: Does  <m:math display="inline"><m:mrow><m:mn>1</m:mn><m:mi>x</m:mi><m:mi>·</m:mi><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>?</para>
-      <para id="para-00050">We know the last terms of the binomials will multiply to <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math>. Since this trinomial has all positive terms, we only
-  need to consider positive factors. The only factors of <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math> are <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math>. But we now have two cases to consider
-  because it will make a difference if we write <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math>.</para>
-      <para id="para-00051">
-          <media alt="">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_08_08_02.jpg"/>
-          </media>
-        
-    </para>
-      <para id="para-00052">Which factors are correct? To decide that, we multiply the inner and outer terms.</para>
-      <para id="para-00053">
-          <media alt="">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_08_08_03.jpg"/>
-          </media>
-        
-    </para>
-      <para id="para-00054">Since the middle term of the trinomial is <m:math display="inline"><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi></m:mrow></m:math>, the factors in the first case will work. Let’s use FOIL to
-  check.</para>
-      <para id="para-00055"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>2</m:mn><m:mi>x</m:mi><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>3</m:mn><m:mi>x</m:mi><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>5</m:mn><m:mi>x</m:mi><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>2</m:mn><m:mspace width="0.278em"/><m:mrow><m:mi style="color:red">✓</m:mi></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00056">Our result of the factoring is:</para>
-      <para id="para-00057"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="center"><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>5</m:mn><m:mi>x</m:mi><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mspace width="0.278em"/><m:mo>+</m:mo><m:mspace width="0.278em"/><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><note id="note-00002">
-        <para id="para-00058">How to factor trinomials of the form <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> using trial and error.</para>
-        
-        <para id="para-00059"><emphasis>Step 1 -</emphasis> Write the trinomial in descending order of degrees as needed.</para>
-        <para id="para-00060"><emphasis>Step 2 -</emphasis> Factor any GCF.</para>
-        <para id="para-00061"><emphasis>Step 3 -</emphasis> Find all the factor pairs of the first term.</para>
-        <para id="para-00062"><emphasis>Step 4 -</emphasis> Find all the factor pairs of the third term.</para>
-        <para id="para-00063"><emphasis>Step 5 -</emphasis> Test all the possible combinations of the factors until the correct product is found.</para>
-        <para id="para-00064"><emphasis>Step 6 -</emphasis> Check by multiplying.</para>
-      </note>
-      <para id="para-00065">Remember, when the middle term is negative and the last term is positive, the signs in the binomials must both be
-  negative.</para>
-      <para id="para-00066">When we factor an expression, we always look for a greatest common factor first. If the expression does not have a
-  greatest common factor, there cannot be one in its factors either. This may help us eliminate some of the possible
-  factor combinations.</para>
-      <para id="para-00088"><emphasis id="para-00067">Example 3</emphasis></para>
-      <para id="para-00068">Factor completely using trial and error: <m:math display="inline"><m:mrow><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>37</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
-      <para id="para-00069"><emphasis>Step 1 -</emphasis> The trinomial is already in descending order.</para>
-      <para id="para-00070"><m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>37</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para><para id="para-00071"><emphasis>Step 2 -</emphasis> Find the factors of the first term.</para>
-      <para id="para-00072"><m:math><m:mrow><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>37</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mspace linebreak="newline"/><m:mrow><m:mn style="color:red">1</m:mn></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mi style="color:red">·</m:mi></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mn style="color:red">1</m:mn></m:mrow><m:mrow><m:mn style="color:red">8</m:mn></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mspace linebreak="newline"/><m:mrow><m:mn style="color:red">2</m:mn></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mi style="color:red">·</m:mi></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mn style="color:red">9</m:mn></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mspace linebreak="newline"/><m:mrow><m:mn style="color:red">3</m:mn></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mi style="color:red">·</m:mi></m:mrow><m:mspace width="0.278em"/><m:mrow><m:mn style="color:red">6</m:mn></m:mrow><m:mrow><m:mi style="color:red">x</m:mi></m:mrow></m:mrow></m:math></para><para id="para-00073"><emphasis>Step 3 -</emphasis> Find the factors of the last term. Consider the signs. Since 15 is positive and the coefficient of the middle term is
-  negative, we use the negative factors.</para>
-      <para id="para-00074">
-          <media alt="Insert Alt Text">
-            <image mime-type="image/png" src="../../media/Algebra-1_07_08_08_04.png"/>
-          </media>
-        
-    </para>
-      <para id="para-00075"><emphasis>Step 4 -</emphasis> Consider all the combinations of factors.</para>
-      <para id="para-00076">
-          <media alt="This table shows the possible factors and corresponding products of the trinomial 18 x squared minus 37xy plus 15 y squared. In some pairs of factors, when one factor contains two terms with a common factor, that factor is highlighted. In such cases, product is not an option because if trinomial has no common factors, then neither factor can contain a common factor. Factor: open parentheses x minus 1y close parentheses open parentheses 18x minus 15y close parentheses, highlighted. Factor, open parentheses x minus 15y close parentheses open parentheses 18x minus 1y close parentheses; product: 18 x squared minus 271xy plus 15 y squared. Factor open parentheses x minus 3y close parentheses open parentheses 18x minus 5 y close parentheses; product: 18 x squared minus 59xy plus 15 y squared. Factor: open parentheses x minus 5y close parentheses open parentheses 18x minus 3y close parentheses highlighted. Factor: open parentheses 2x minus 1y close parentheses open parentheses 9x minus 15y close parentheses highlighted. Factor: open parentheses 2x minus 15y close parentheses open parentheses 9x minus 1y close parentheses; product 18 x squared minus 137 xy plus 15y squared. Factor: open parentheses 2x minus 3y close parentheses open parentheses 9x minus 5y close parentheses; product: 18 x squared minus 37xy plus 15 y squared, which is the original trinomial. Factor: open parentheses 2x minus 57 close parentheses open parentheses 9x minus 3y close parentheses highlighted. Factor: open parentheses 3x minus 1y close parentheses open parentheses 6x minus 15y close parentheses highlighted. Factor: open parentheses 3x minus 15y close parentheses highlighted open parentheses 6x minus 1y close parentheses. Factor: open parentheses 3x minus 3y close parentheses highlighted open parentheses 6x minus 5y.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_08_08_05.jpg"/>
-          </media>
-        
-    </para>
-      <para id="para-00077"><emphasis>Step 5 -</emphasis> The correct factors are those whose product is the original trinomial.
-  <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>3</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-      <para id="para-00078"><emphasis>Step 6 -</emphasis> Check by multiplying.
-  <m:math display="inline"><m:semantics><m:mrow><m:mrow><m:mspace/><m:mtable><m:mtr><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>27</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>37</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>&amp;checkmark;</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow><m:annotation-xml encoding="MathML-Content"><m:mrow><m:mspace width="4em"/><m:mtable><m:mtr/><m:mtr/><m:mtr><m:mtd columnalign="center"><m:mrow><m:mo>(</m:mo><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>y</m:mi></m:mrow><m:mo>)</m:mo></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>27</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="center"><m:mn>18</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>37</m:mn><m:mi>x</m:mi><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>&amp;checkmark;</m:mo></m:mtd></m:mtr></m:mtable></m:mrow></m:annotation-xml></m:semantics></m:math>
-</para>
-      <para id="para-00079">In other trinomials, don’t forget to look for a GCF first, and remember if the leading coefficient is negative,
-  so is the GCF.</para>
-      <note class="try" id="note-00003">
-  <title>Try It: Factoring Trinomials Using Trial and Error</title>
+              <m:annotation-xml encoding="MathML-Content">
+                <m:mrow>
+                  <m:mspace width="4em" />
+                  <m:mtable>
+                    <m:mtr />
+                    <m:mtr />
+                    <m:mtr>
+                      <m:mtd columnalign="center">
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                            <m:mi>x</m:mi>
+                            <m:mo>−</m:mo>
+                            <m:mn>3</m:mn>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mn>9</m:mn>
+                            <m:mi>x</m:mi>
+                            <m:mo>−</m:mo>
+                            <m:mn>5</m:mn>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="center">
+                        <m:mn>18</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>10</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mi>y</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mn>27</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mi>y</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>15</m:mn>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="center">
+                        <m:mn>18</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>37</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mi>y</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>15</m:mn>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>&amp;checkmark;</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                  </m:mtable>
+                </m:mrow>
+              </m:annotation-xml>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="para-00079">In other trinomials, don’t forget to look for a GCF first, and
+          remember if the leading coefficient is negative, so is the GCF.</para>
+        <note class="try" id="note-00003">
+          <title>Try It: Factoring Trinomials Using Trial and Error</title>
       
         <exercise id="exer-00007">
-          <problem id="prob-00007">
-            <para id="para-00080">Factor each trinomial completely using trial and error.</para>
-            <para id="para-00081"><m:math><m:mrow><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>20</m:mn><m:mi>x</m:mi></m:mrow></m:math></para><para id="para-00082"><m:math><m:mrow><m:mn>10</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>37</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math></para><para id="para-00083"><m:math><m:mrow><m:mn>6</m:mn><m:msup><m:mi>n</m:mi><m:mn>3</m:mn></m:msup><m:mi>−</m:mi><m:mn>34</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>40</m:mn><m:mi>n</m:mi></m:mrow></m:math></para><para id="para-00084">Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00007">
-            <para id="para-00085">Here is how to factor trinomials using trial and error.</para>
-            <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
-              <item><m:math><m:mrow><m:mn>5</m:mn><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
-            </list>
-            <list class="os-raise-noindent" list-type="enumerated" id="list-00007">
-              <item><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mi>−</m:mi><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
-            </list>
-            <list class="os-raise-noindent" list-type="enumerated" id="list-00008">
-              <item><m:math><m:mrow><m:mn>2</m:mn><m:mi>n</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></item>
-            </list>
-          </solution>
-        </exercise>
-      </note>
+            <problem id="prob-00007">
+              <para id="para-00080">Factor each trinomial completely using trial and error.</para>
+              <para id="para-00081"><m:math>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>15</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mi>−</m:mi>
+                    <m:mn>20</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00082"><m:math>
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mi>−</m:mi>
+                    <m:mn>37</m:mn>
+                    <m:mi>y</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00083"><m:math>
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:msup>
+                      <m:mi>n</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mi>−</m:mi>
+                    <m:mn>34</m:mn>
+                    <m:msup>
+                      <m:mi>n</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>40</m:mn>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00084">Write down your answers. Then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
+            </problem>
+            <solution id="sol-00007">
+              <para id="para-00085">Here is how to factor trinomials using trial and error.</para>
+              <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
+                <item><m:math>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mi>−</m:mi>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:math></item>
+              </list>
+              <list class="os-raise-noindent" list-type="enumerated" id="list-00007">
+                <item><m:math>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mi>y</m:mi>
+                      <m:mi>−</m:mi>
+                      <m:mn>7</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mi>y</m:mi>
+                      <m:mi>−</m:mi>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:math></item>
+              </list>
+              <list class="os-raise-noindent" list-type="enumerated" id="list-00008">
+                <item><m:math>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mi>−</m:mi>
+                      <m:mn>4</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mi>n</m:mi>
+                      <m:mi>−</m:mi>
+                      <m:mn>5</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:math></item>
+              </list>
+            </solution>
+          </exercise>
+        </note>
+      </section>
     </section>
-    </section>
-    
-</content>
+
+  </content>
 
 </document>

@@ -132,8 +132,7 @@
 <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
 <exercise class="RFM1" id="exer-00006">
   <problem id="prob-00006">
-    <title>Extending Your Thinking</title>
-    
+
     <para id="para-00027">Find the quotient using long division.</para>
     
     <para id="para-00028"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>125</m:mn><m:msup><m:mi>y</m:mi><m:mn>5</m:mn></m:msup><m:mo>−</m:mo><m:mn>80</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>31</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>37</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>24</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></problem><solution id="sol-00006">
@@ -142,7 +141,8 @@
   
   <para id="para-00029">Compare your answer:</para>
     
-    <para id="para-00030"><m:math display="inline"><m:mrow><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para><para id="para-00031">\[\begin{array}{l}5y - 4\mathop{\left){\vphantom{1{125{y^5} - 80{y^4} - 31{y^3} + 37{y^2} + 10y - 24}}}\right.
+    <para id="para-00030"><m:math display="inline"><m:mrow><m:mn>25</m:mn><m:msup><m:mi>y</m:mi><m:mn>4</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>y</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>y</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
+    <para id="para-00031">\[\begin{array}{l}5y - 4\mathop{\left){\vphantom{1{125{y^5} - 80{y^4} - 31{y^3} + 37{y^2} + 10y - 24}}}\right.
       \!\!\!\!\overline{\,\,\,\vphantom 1{{125{y^5} - 80{y^4} - 31{y^3} + 37{y^2} + 10y - 24}}}}
       \limits^{\displaystyle\,\,\, {25{y^4} + \,\,\,4{y^3}\,\, - \,\,3{y^2}\,\, + \,\,5y\,\,\, + \,\,6\,}}\\\,\,\,\,\,\,\,\,\,\,\underline { - (125{y^5} - 100{y^4})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,20{y^4} - 31{y^3}\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (20{y^4} - 16{y^3})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - \,15{y^3} + 37{y^2}\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ( - \,15{y^3} + 12{y^2})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,25{y^2} + 10y\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (25{y^2} - 20y)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,30y - 24\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (30y - 24)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
   
@@ -176,7 +176,7 @@
     <para id="para-00038">
       
         <media alt="Insert Alt Text">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_02.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_02.jpg" width="200"/>
         </media>
       
   </para>
@@ -185,7 +185,7 @@
     <para id="para-00041">
       
         <media alt="Insert Alt Text">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_03.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_03.jpg" width="200"/>
         </media>
       
   </para>
@@ -193,7 +193,7 @@
     <para id="para-00043">
       
         <media alt="Insert Alt Text">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_04.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_04.jpg" width="200"/>
         </media>
       
   </para>
@@ -201,7 +201,7 @@
     <para id="para-00045">
       
         <media alt="Insert Alt Text">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_05.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_05.jpg" width="225"/>
         </media>
       
   </para>
@@ -210,7 +210,7 @@
     <para id="para-00048">
       
         <media alt="Insert Alt Text">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_06.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_06.jpg" width="225"/>
         </media>
       
   </para>
@@ -219,7 +219,7 @@
     <para id="para-00051">
       
         <media alt="Insert Alt Text">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_07.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_07.jpg" width="225"/>
         </media>
       
   </para>
@@ -228,7 +228,7 @@
     <para id="para-00054">
       
         <media alt="Insert Alt Text">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_08.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_08.jpg" width="225"/>
         </media>
       
   </para>
@@ -247,7 +247,7 @@
     <para id="para-00061">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_09.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_09.jpg" width="200"/>
         </media>
       
   </para>
@@ -255,7 +255,7 @@
     <para id="para-00063">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_10.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_10.jpg" width="200"/>
         </media>
       
   </para>
@@ -263,7 +263,7 @@
     <para id="para-00065">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_11.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_11.jpg" width="200"/>
         </media>
       
   </para>
@@ -271,7 +271,7 @@
     <para id="para-00067">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_12.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_12.jpg" width="225"/>
         </media>
       
   </para>
@@ -279,7 +279,7 @@
     <para id="para-00069">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_13.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_13.jpg" width="225"/>
         </media>
       
   </para>
@@ -287,7 +287,7 @@
     <para id="para-00071">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_14.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_14.jpg" width="225"/>
         </media>
       
   </para>
@@ -295,24 +295,26 @@
     <para id="para-00073">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_15.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_15.jpg" width="250"/>
         </media>
       
   </para>
     <para id="para-00074"><emphasis>Step 8 -</emphasis> Check: Multiply the quotient by the divisor. You should get the dividend.</para>
     <para id="para-00075"><m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00118"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn><m:mrow><m:mi style="color:red">✓</m:mi></m:mrow></m:mrow></m:math></para><para id="para-00076">When we divided <m:math display="inline"><m:mrow><m:mn>875</m:mn></m:mrow></m:math> by <m:math display="inline"><m:mrow><m:mn>25</m:mn></m:mrow></m:math>, we had no remainder. But sometimes division of numbers does leave a remainder. The same is true when we divide polynomials. In the next Example, we’ll have division that leaves a remainder. We write the remainder as a fraction with the divisor as the denominator.</para>
     <para id="para-00077">Look back at the dividend in the previous Example. The terms were written in descending order of degrees, and there were no missing degrees. The dividend in the next Example will be <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mn>5</m:mn><m:mi>x</m:mi></m:msup><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math>. It is missing an <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> term. We will add in <m:math display="inline"><m:mrow><m:mn>0</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> as a placeholder.</para>
+   
     <para id="para-00078">
      <emphasis>Example 2</emphasis>
   </para>
     <para id="para-00079">Find the quotient: <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
     <para id="para-00080">Notice that there is no <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> term in the dividend. We will add <m:math display="inline"><m:mrow><m:mn>0</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> as a placeholder.</para>
+   
     <para id="para-00081"><emphasis>Step 1 -</emphasis> Write it as a long division problem.</para>
     <para id="para-00082">Be sure the dividend is in standard form with placeholders for missing terms.</para>
     <para id="para-00083">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_16.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_16.jpg" width="300"/>
         </media>
       
   </para>
@@ -322,7 +324,7 @@
     <para id="para-00087">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_17.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_17.jpg" width="300"/>
         </media>
       
   </para>
@@ -333,7 +335,7 @@
     <para id="para-00092">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_18.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_18.jpg" width="325"/>
         </media>
       
   </para>
@@ -344,7 +346,7 @@
     <para id="para-00097">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_19.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_19.jpg" width="350"/>
         </media>
       
   </para>
@@ -355,7 +357,7 @@
     <para id="para-00102">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_20.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_20.jpg" width="375"/>
         </media>
       
   </para>
@@ -371,7 +373,7 @@
     <para id="para-00110">
       
         <media alt=".">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_21.jpg"/>
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_21.jpg" width="375"/>
         </media>
       
   </para>
