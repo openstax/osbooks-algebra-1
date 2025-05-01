@@ -209,100 +209,34 @@
             square yards because the area covered by the algae is decreasing. A number between 15
             and 20 would be a good guess.</para>
         </solution>
+      </exercise></section>
+      <!--Interaction End -->
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+      
+      <section id="sect-00002">
+        <title>Are you ready for more?</title>
+          <section class="practice" id="sect-00003"><title>Extending Your Thinking</title>
+      
+      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+      <exercise class="RFM1" id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00016">The scientists estimate that to keep the algae bloom from spreading after the treatment concludes, they will need
+      to get the area covered under one square foot. How many weeks should they run the treatment to achieve this?</para>
+          
+        </problem>
+        <solution id="sol-00005">
+          <para id="para-00017">Compare your answer:</para>
+          <para id="para-00018">7 weeks. There are 9 square feet in every square yard, so 1 square foot is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math> square yard (or about
+      0.111 square yard). At 7 weeks is the first time the area covered by algae is less than <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math> because <m:math display="inline"><m:mrow><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:msup><m:mo>≈</m:mo><m:mn>0.329</m:mn></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>7</m:mn></m:msup><m:mo>≈</m:mo><m:mn>0.110</m:mn></m:mrow></m:math>.</para>
+        </solution>
       </exercise>
     </section>
-    <!--Interaction
-    End -->
-    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
-    will need to change the Data-fire/data-wait-for-events for each set.-->
-
-    <section id="sect-00002">
-      <title>Are you ready for more?</title>
-      <section id="sect-00003">
-        <title>Extending Your Thinking</title>
-
-        <!--Start
-        interaction.  If multiple interactions appear under "are you ready for more?, they should all
-        have matching "data-wait-for-event", which should also match the "data-fire-event" for the
-        button. Note in this sample, they are all RFM1-->
-        <exercise class="RFM1" id="exer-00005">
-          <problem id="prob-00005">
-            <para id="para-00016">The scientists estimate that to keep the algae bloom from
-              spreading after the treatment concludes, they will need to get the area covered under
-              one square foot. How many weeks should they run the treatment to achieve this?</para>
-
-          </problem>
-          <solution id="sol-00005">
-            <para id="para-00017">Compare your answer:</para>
-            <para id="para-00018">7 weeks. There are 9 square feet in every square yard, so 1 square
-              foot is <m:math display="inline">
-                <m:mrow>
-                  <m:mfrac>
-                    <m:mn>1</m:mn>
-                    <m:mn>9</m:mn>
-                  </m:mfrac>
-                </m:mrow>
-              </m:math>
-              square yard (or about 0.111 square yard). At 7 weeks is the first time the area
-              covered by algae is less than <m:math display="inline">
-                <m:mrow>
-                  <m:mfrac>
-                    <m:mn>1</m:mn>
-                    <m:mn>9</m:mn>
-                  </m:mfrac>
-                </m:mrow>
-              </m:math>
-              because <m:math display="inline">
-                <m:mrow>
-                  <m:mn>240</m:mn>
-                  <m:mi>·</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mfrac>
-                    <m:mrow>
-                      <m:mn>1</m:mn>
-                    </m:mrow>
-                    <m:mrow>
-                      <m:mn>3</m:mn>
-                    </m:mrow>
-                  </m:mfrac>
-                  <m:msup>
-                    <m:mo stretchy="false">)</m:mo>
-                    <m:mn>6</m:mn>
-                  </m:msup>
-                  <m:mo>≈</m:mo>
-                  <m:mn>0.329</m:mn>
-                </m:mrow>
-              </m:math>, and <m:math
-                display="inline">
-                <m:mrow>
-                  <m:mn>240</m:mn>
-                  <m:mi>·</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mfrac>
-                    <m:mrow>
-                      <m:mn>1</m:mn>
-                    </m:mrow>
-                    <m:mrow>
-                      <m:mn>3</m:mn>
-                    </m:mrow>
-                  </m:mfrac>
-                  <m:msup>
-                    <m:mo stretchy="false">)</m:mo>
-                    <m:mn>7</m:mn>
-                  </m:msup>
-                  <m:mo>≈</m:mo>
-                  <m:mn>0.110</m:mn>
-                </m:mrow>
-              </m:math>.</para>
-          </solution>
-        </exercise>
-      </section>
-    </section>
-    <note class="self-check" id="note-00001">
-      <exercise id="exer-00012">
-        <problem id="prob-00012">
-          <para id="para-00019"><link class="os-embed" url="#exercise/Alg1_5_5_3_SC" /></para>
-        </problem>
+  </section>
+  <note class="self-check" id="note-00001">
+    <exercise id="exer-00012">
+      <problem id="prob-00012">
+      <para id="para-00019"><link class="os-embed" url="#exercise/Alg1_5_5_3_SC"/></para>
+      </problem>
       </exercise>
     </note>
     <section id="sect-00004">
