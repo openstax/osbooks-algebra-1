@@ -8,304 +8,2138 @@
   <content>
     <section id="sect-00001">
       <title>Activity</title>
-      <para id="para-00001">Converting from a Recursive Formula to an Explicit Formula for Arithmetic Sequences</para>
+      <para id="para-00001"><emphasis>Converting from a Recursive Formula to an Explicit Formula for
+        Arithmetic Sequences</emphasis></para>
       <para id="para-00002">An arithmetic sequence has the following recursive formula:</para>
-      <para id="para-00003"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para><para id="para-00004"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00005">Recall that this formula gives us the following two pieces of information:</para>
+      <para id="para-00003"><m:math>
+          <m:mrow>
+            <m:msub>
+              <m:mi>a</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00004"><m:math display="inline">
+          <m:mrow>
+            <m:msub>
+              <m:mi>a</m:mi>
+              <m:mi>n</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:msub>
+              <m:mi>a</m:mi>
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:math>, <m:math display="inline">
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>≥</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00005">Recall that this formula gives us the following two pieces of
+        information:</para>
       <list id="list-00001">
         <item>The first term is 3.</item>
-        <item>To get any term from its previous term,<emphasis>add</emphasis> 2. In other words, the common difference is 2.</item>
+        <item>To get any term from its previous term, <emphasis>add</emphasis> 2. In other words,
+          the common difference is 2.</item>
       </list>
       <para id="para-00006">Let’s find an explicit formula for the sequence.</para>
-      <para id="para-00007">We can represent a sequence whose first term is <m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> and common difference is <m:math display="inline"><m:mrow><m:mi>B</m:mi></m:mrow></m:math> with the standard explicit form <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
-      <para id="para-00008">Therefore, an explicit formula of the sequence is <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
-      <!--Text Entry Interaction Start -->
+      <para id="para-00007">We can represent a sequence whose first term is <m:math display="inline">
+          <m:mrow>
+            <m:mi>A</m:mi>
+          </m:mrow>
+        </m:math> and common difference is <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:math> with the standard explicit form <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>n</m:mi>
+            <m:mi>−</m:mi>
+            <m:mn>1</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math>.</para>
+      <para id="para-00008">Therefore, an explicit formula of the sequence is <m:math
+          display="inline">
+          <m:mrow>
+            <m:msub>
+              <m:mi>a</m:mi>
+              <m:mi>n</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>n</m:mi>
+            <m:mi>−</m:mi>
+            <m:mn>1</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math>.</para>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00009">Write an explicit (nth term) formula for an arithmetic sequence where <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>7</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
-          
+          <para id="para-00009">Write an explicit (nth term) formula for an arithmetic sequence
+            where <m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>b</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>b</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:msub>
+                  <m:mi>b</m:mi>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mo>+</m:mo>
+                <m:mn>7</m:mn>
+              </m:mrow>
+            </m:math>, <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>.</para>
+
         </problem>
         <solution id="sol-00001">
           <para id="para-00010">Compare your answer:</para>
-          <para id="para-00011"><m:math><m:mrow><m:msub><m:mi>b</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>2</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>7</m:mn></m:mrow></m:math></para></solution>
+          <para id="para-00011"><m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>b</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>+</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mn>7</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
-      <para id="para-00012">Converting from a Explicit Formula to an Recursive Formula for Arithmetic Sequences</para>
-      <para id="para-00013">Now try to take the nth term formula and use it to write the recursive formula of an arithmetic sequence.</para>
+      <!--Interaction
+      End -->
+      <para id="para-00012">Converting from a Explicit Formula to an Recursive Formula for
+        Arithmetic Sequences</para>
+      <para id="para-00013">Now try to take the nth term formula and use it to write the recursive
+        formula of an arithmetic sequence.</para>
       <para id="para-00014">We are given the following nth term of an arithmetic sequence:</para>
-      <para id="para-00015"><m:math><m:mrow><m:msub><m:mi>d</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>·</m:mi><m:mn>16</m:mn></m:mrow></m:math></para><para id="para-00016">This formula is given in the standard explicit form <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo>+</m:mo><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> is the first term and <m:math display="inline"><m:mrow><m:mi>B</m:mi></m:mrow></m:math> is the common difference. Therefore, the first term of the sequence is 5, and the common difference is 16.</para>
-      <para id="para-00017">Let’s find a recursive formula for the sequence. Recall that the recursive formula gives us two pieces of information:</para>
+      <para id="para-00015"><m:math>
+          <m:mrow>
+            <m:msub>
+              <m:mi>d</m:mi>
+              <m:mi>n</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mn>5</m:mn>
+            <m:mo>+</m:mo>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>n</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+            <m:mi>·</m:mi>
+            <m:mn>16</m:mn>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00016">This formula is given in the standard explicit form <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>B</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>n</m:mi>
+            <m:mi>−</m:mi>
+            <m:mn>1</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math>, where <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>A</m:mi>
+          </m:mrow>
+        </m:math> is the first term and <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:math> is the common difference. Therefore,
+        the first term of the sequence is 5, and the common difference is 16.</para>
+      <para id="para-00017">Let’s find a recursive formula for the sequence. Recall that the
+        recursive formula gives us two pieces of information:</para>
       <list id="list-00002">
         <item>The first term, which we know is 5.</item>
-        <item>The pattern rule to get any term from the term that comes before it, which we know is “add 16.”</item>
+        <item>The pattern rule to get any term from the term that comes before it, which we know is
+          “add 16.”</item>
       </list>
-      <para id="para-00018">Therefore, this is a recursive formula for the sequence:
-
-  <m:math display="inline"><m:mrow><m:msub><m:mi>d</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>d</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>d</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
-      <!--Text Entry Interaction Start -->
+      <para id="para-00018">Therefore, this is a recursive formula for the sequence: <m:math
+          display="inline">
+          <m:mrow>
+            <m:msub>
+              <m:mi>d</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mn>5</m:mn>
+          </m:mrow>
+        </m:math>, <m:math display="inline">
+          <m:mrow>
+            <m:msub>
+              <m:mi>d</m:mi>
+              <m:mi>n</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:msub>
+              <m:mi>d</m:mi>
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:mn>16</m:mn>
+          </m:mrow>
+        </m:math>, <m:math display="inline">
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>≥</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:math>.</para>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00019">Write the recursive formula of <m:math display="inline"><m:mrow><m:msub><m:mi>e</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>12</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
-          
+          <para id="para-00019">Write the recursive formula of <m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>e</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>12</m:mn>
+                <m:mo>+</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>.</para>
+
         </problem>
         <solution id="sol-00002">
           <para id="para-00020">Compare your answer:</para>
-          <para id="para-00021"><m:math display="inline"><m:mrow><m:msub><m:mi>e</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>e</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>e</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00025"><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para></solution>
+          <para id="para-00021"><m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>e</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>12</m:mn>
+              </m:mrow>
+            </m:math>, <m:math
+              display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>e</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:msub>
+                  <m:mi>e</m:mi>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00025"><m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <para id="para-00022">
-       <emphasis>Converting from a Recursive Formula to an Explicit Formula for Geometric Sequences</emphasis>
-    </para>
-      <para id="para-00023">Now change the recursive formula of a geometric sequence into the nth term.</para>
-      <para id="para-00024">Here is the recursive formula of a geometric sequence, <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>:</para>
-      <para id="para-00031"><m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>g</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00041"><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00026">9 is the first term of the sequence, and 8 is the common ratio.</para>
-      <para id="para-00027">An explicit formula is structured as: <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo></m:mrow></m:math> (1st term of sequence) <m:math display="inline"><m:mrow><m:mi>·</m:mi></m:mrow></m:math> (common ratio)<m:math display="inline"><m:mrow><m:msup><m:mi/><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msup></m:mrow></m:math>.</para>
-      <para id="para-00028">Substitute the values, and you get the explicit formula: <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>9</m:mn><m:mi>·</m:mi><m:msup><m:mn>8</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msup></m:mrow></m:math>.</para>
-      <!--Text Entry Interaction Start -->
+        <emphasis>Converting from a Recursive Formula to an Explicit Formula for Geometric Sequences</emphasis>
+      </para>
+      <para id="para-00023">Now change the recursive formula of a geometric sequence into the nth
+        term.</para>
+      <para id="para-00024">Here is the recursive formula of a geometric sequence, <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>g</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>n</m:mi>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math>:</para>
+      <para id="para-00031"><m:math display="inline">
+          <m:mrow>
+            <m:msub>
+              <m:mi>g</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mn>9</m:mn>
+          </m:mrow>
+        </m:math>, <m:math display="inline">
+          <m:mrow>
+            <m:msub>
+              <m:mi>g</m:mi>
+              <m:mi>n</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:msub>
+              <m:mi>g</m:mi>
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:msub>
+            <m:mi>·</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mn>8</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math>, <m:math display="inline">
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>≥</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00026">9 is the first term of the sequence, and 8 is the common ratio.</para>
+      <para id="para-00027">An explicit formula is structured as: <m:math display="inline">
+          <m:mrow>
+            <m:mi>g</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo stretchy="false">)</m:mo>
+            <m:mo>=</m:mo>
+          </m:mrow>
+        </m:math> (1st term of sequence) <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>·</m:mi>
+          </m:mrow>
+        </m:math> (common ratio)<m:math
+          display="inline">
+          <m:mrow>
+            <m:msup>
+              <m:mi />
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+        .</para>
+      <para id="para-00028">Substitute the values, and you get the explicit formula: <m:math
+          display="inline">
+          <m:mrow>
+            <m:msub>
+              <m:mi>g</m:mi>
+              <m:mi>n</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mn>9</m:mn>
+            <m:mi>·</m:mi>
+            <m:msup>
+              <m:mn>8</m:mn>
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+        .</para>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00029">Write the nth term of the geometric sequence where <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>g</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>4</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
-          
+          <para id="para-00029">Write the nth term of the geometric sequence where <m:math
+              display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mi>·</m:mi>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math>, <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>.</para>
+
         </problem>
         <solution id="sol-00003">
           <para id="para-00030">Compare your answer:</para>
-          <para id="para-00049"><m:math><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>·</m:mi><m:msup><m:mn>4</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:msup></m:mrow></m:math></para></solution>
+          <para id="para-00049"><m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>·</m:mi>
+                <m:msup>
+                  <m:mn>4</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
-      <para id="para-00032">Converting from an Explicit Formula to a Recursive Formula for Geometric Sequences</para>
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
+      <para id="para-00032"><emphasis>Converting from an Explicit Formula to a Recursive Formula for Geometric
+        Sequences</emphasis></para>
       <exercise id="exer-00004">
-       
-        <!--Interaction End -->
+
+        <!--Interaction
+        End -->
         <problem id="prob-00004">
-          <para id="para-00033">Finally, geometric sequences represented by the nth term can be represented with the recursive definition.</para>
-          <para id="para-00034">Start with the nth term formula for <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub></m:mrow></m:math> where <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>6</m:mn><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>.</para>
-          <para id="para-00035">Working backward, when <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>. This is the initial term.</para>
-          <para id="para-00036">The formula for geometric sequences recursively is <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>g</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mi>r</m:mi></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> is the common ratio.</para>
+          <para id="para-00033">Finally, geometric sequences represented by the nth term can be
+            represented with the recursive definition.</para>
+          <para id="para-00034">Start with the nth term formula for <m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+              </m:mrow>
+            </m:math>
+            where <m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>6</m:mn>
+                <m:mi>·</m:mi>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            .</para>
+          <para id="para-00035">Working backward, when <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math>, <m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>6</m:mn>
+              </m:mrow>
+            </m:math>. This is the initial
+            term.</para>
+          <para id="para-00036">The formula for geometric sequences recursively is <m:math
+              display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mi>·</m:mi>
+                <m:mi>r</m:mi>
+              </m:mrow>
+            </m:math>, where <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>r</m:mi>
+              </m:mrow>
+            </m:math> is the common ratio.</para>
           <para id="para-00037">The common ratio of the given sequence is 3.</para>
-          <para id="para-00038">So, <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>g</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>3</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
-          <para id="para-00039">Write the geometric sequence represented by <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>14</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math> using the recursive definition.</para>
-          
+          <para id="para-00038">So, <m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>6</m:mn>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mi>·</m:mi>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>, <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>.</para>
+          <para id="para-00039">Write the geometric sequence represented by <m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>14</m:mn>
+                <m:mi>·</m:mi>
+                <m:msup>
+                  <m:mn>2</m:mn>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            using the recursive definition.</para>
+
         </problem>
         <solution id="sol-00004">
           <para id="para-00040">Compare your answer:</para>
-          <para id="para-00059"><m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>g</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00069"><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para></solution>
+          <para id="para-00059"><m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>14</m:mn>
+              </m:mrow>
+            </m:math>, <m:math
+              display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:msub>
+                  <m:mi>g</m:mi>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mi>·</m:mi>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00069"><m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
       <note id="note-00001">
         <title>Why Should I Care?</title>
           <media alt="Insert Alt Text">
-            <image mime-type="image/png" src="../../media/Algebra-1_04_21_10_01.png" width="300"/>
-          </media>
+          <image mime-type="image/png" src="../../media/Algebra-1_04_21_10_01.png" width="300" />
+        </media>
         
-        <para id="para-00042">One of the tools to fight climate change is renewable energy. Wind farms and solar power can produce can produce clean energy. But what happens when there is no wind or sunshine? Energy companies rely on battery storage systems to save energy that is created on sunny or windy days, so it can be used when the sun and wind aren't cooperating.</para>
-        <para id="para-00043">It is important that the batteries can store as much energy as possible, for as long as possible. Scientists who create these batteries use functions to help them calculate energy inputs and outputs and the changes that make a battery lose power.</para>
+        <para
+          id="para-00042">One of the tools to fight climate change is renewable energy. Wind farms
+        and solar power can produce can produce clean energy. But what happens when there is no wind
+        or sunshine? Energy companies rely on battery storage systems to save energy that is created
+        on sunny or windy days, so it can be used when the sun and wind aren't cooperating.</para>
+        <para
+          id="para-00043">It is important that the batteries can store as much energy as possible,
+        for as long as possible. Scientists who create these batteries use functions to help them
+        calculate energy inputs and outputs and the changes that make a battery lose power.</para>
       </note>
     </section>
     <note class="self-check" id="note-00002">
-      <para id="para-00044">Write the nth term formula of the geometric sequence represented by <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:msub><m:mi>g</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>g</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>6</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para></note>
-      <section id="sect-00002">
-        <title>Additional Resources</title>
-        
-  <section id="sect-00003"><title>Switching Between Definitions of Sequences</title>
-    <para id="para-00045">A recursive formula defines each term of a sequence using the previous terms.</para>
-    <table class="unnumbered os-raise-doubleheadertable" id="table-00001">
-     
-      <tgroup cols="3"><tbody><row>
-          <entry><emphasis>
-            Sequence
-         </emphasis> </entry><entry><emphasis>
-            Recursive Formula
-         </emphasis> </entry><entry><emphasis>
-            Explicit or nth Term Formula
-         </emphasis> </entry></row>
-      <row>
-          <entry><emphasis>
-            Arithmetic
-         </emphasis> </entry><entry>
-            <m:math display="inline"><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>F</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mi>d</m:mi></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term and <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> is the common difference.
-          </entry>
-          <entry>
-          <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is the term you want, and <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> is the common difference.
-          </entry>
-        </row>
-        <row>
-           <entry>
-            <para id="para-00046"><emphasis>Geometric</emphasis></para>
-          
-          </entry><entry>
-           <m:math display="inline"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>H</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>H</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mi>r</m:mi></m:mrow></m:math>, 
-            Where <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term and <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> is the common ratio.
-          </entry>
-          <entry>
-            <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>,
-             Where <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is the term you want, and <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> is the common ratio.
-          </entry>
-        </row>
-      </tbody></tgroup></table>
-    
-    <para id="para-00047"><emphasis>Example 1</emphasis></para>
-    <para id="para-00048">Find the explicit general formula for the arithmetic sequence given in recursive form.</para>
-    <para id="para-00078"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math></para><para id="para-00086"><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00050"><emphasis>Step 1</emphasis> - Write the recursive formula. (given)<m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>
-   </para>
-    <para id="para-00051"><emphasis>Step 2</emphasis> - Identify the first term.<m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>
-   </para>
-    <para id="para-00052"><emphasis>Step 3</emphasis> - Identify the common difference/ratio. <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>
-   </para>
-    <para id="para-00053"><emphasis>Step 4</emphasis> - Write the explicit formula for the <m:math display="inline"><m:mrow><m:msup><m:mi>n</m:mi><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:mrow></m:math> term. <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi></m:mrow></m:math>
-   </para>
-    <para id="para-00054"><emphasis>Step 5</emphasis> - Substitute the first term and common difference/ratio into the formula. <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:mrow></m:math>
-   </para>
-    
-    <para id="para-00055">Check by finding the first 3 terms using each formula:</para>
-    
-    <table class="unnumbered os-raise-horizontaltable" id="table-00002">
-      <tgroup cols="4"><tbody><row>
-          <entry><emphasis>
-            <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>
-         </emphasis> </entry><entry>
-            <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>
-          </entry>
-          <entry>
-          <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math>
-          </entry>
-          <entry>
-           <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>11</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>17</m:mn></m:mrow></m:math>
-          </entry>
-        </row>
-        <row>
-         <entry><emphasis>
-           <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:mrow></m:math>
-         </emphasis> </entry><entry>
-           <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>
-          </entry>
-          <entry>
-          <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math>
-          </entry>
-          <entry>
-           <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>17</m:mn></m:mrow></m:math>
-          </entry>
-        </row>
-      </tbody></tgroup></table>
-    
-    
-    <para id="para-00056">Both formulas produce the same first 3 terms: 5, 11, 17.</para>
-    
-    <para id="para-00057"><emphasis>Example 2</emphasis></para>
-    <para id="para-00058">Find the explicit general formula for the geometric sequence given in recursive form.</para>
-    <para id="para-00095"><m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>5</m:mn></m:mrow></m:math></para><para id="para-00096"><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00060"><emphasis>Step 1</emphasis> - Write the recursive formula (given).
-    <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>5</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-    <para id="para-00061"><emphasis>Step 2</emphasis> - Identify the first term.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para>
-    <para id="para-00062"><emphasis>Step 3</emphasis> - Identify the common difference/ratio.
-    <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
-    <para id="para-00063"><emphasis>Step 4</emphasis> - Write the explicit formula for the <m:math display="inline"><m:mrow><m:msup><m:mi>n</m:mi><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:mrow></m:math> term.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
-    <para id="para-00064"><emphasis>Step 5</emphasis> - Substitute the first term and the common difference/ratio into the formula.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
-    
-    <para id="para-00065">Check by finding the first 3 terms using each formula:</para>
-    
-    
-    <table class="unnumbered os-raise-horizontaltable" id="table-00003">
-      <tgroup cols="4"><tbody><row>
-          <entry><emphasis>
-            <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>,<m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>5</m:mn></m:mrow></m:math>,<m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>
-         </emphasis> </entry><entry>
-            <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>
-          </entry>
-          <entry>
-            <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>5</m:mn><m:mo>=</m:mo></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>·</m:mi><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math> 
-          </entry>
-          <entry>
-            <m:math display="inline"><m:mrow><m:msub><m:mi>b</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>b</m:mi><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mn>5</m:mn><m:mo>=</m:mo></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mn>20</m:mn><m:mi>·</m:mi><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>100</m:mn></m:mrow></m:math> 
-          </entry>
-        </row>
-        <row>
-         <entry><emphasis>
-          <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>
-         </emphasis> </entry><entry>
-            <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>
-          </entry>
-          <entry>
-            <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math>
-          </entry>
-          <entry>
-            <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>3</m:mn></m:msub><m:mo>=</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>100</m:mn></m:mrow></m:math>
-          </entry>
-        </row>
-      </tbody></tgroup></table>
-    
-    
-    <para id="para-00066">Both formulas produce the same first 3 terms: 4, 20, 100.</para>
-    
-    
-    <para id="para-00067"><emphasis>Example 3</emphasis></para>
-    <para id="para-00068">Find the recursive formula for the arithmetic sequence given in explicit general form.</para>
-    <para id="para-00097"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>21</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00070"><emphasis>Step 1</emphasis> - Write the explicit formula (given).
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>21</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-    <para id="para-00071"><emphasis>Step 2</emphasis> - Identify the first term.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>21</m:mn></m:mrow></m:math></para>
-    <para id="para-00072"><emphasis>Step 3</emphasis> - Identify the common difference/ratio.
-    <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-    <para id="para-00073"><emphasis>Step 4</emphasis> - Write the explicit formula for the <m:math display="inline"><m:mrow><m:msup><m:mi>n</m:mi><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:mrow></m:math> term.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>F</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mi>d</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-    <para id="para-00074"><emphasis>Step 5</emphasis> - Substitute the first term and the common difference/ratio into the formula.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>21</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>F</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-    
-    <para id="para-00075">Check your reasoning by finding the first three terms using each formula.
-      Both formulas produce the same first 3 terms: 21, 19, 17.</para>
-      
-      <para id="para-00076"><emphasis>Example 4</emphasis></para>
-      <para id="para-00077">Find the recursive formula for the arithmetic sequence given in explicit general form.</para>
-    
-    <para id="para-00098"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para><para id="para-00079"><emphasis>Step 1</emphasis> - Write the explicit formula.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
-    <para id="para-00080"><emphasis>Step 2</emphasis> - Identify the first term.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
-    <para id="para-00081"><emphasis>Step 3</emphasis> - Identify the common difference/ratio.
-    <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para>
-    <para id="para-00082"><emphasis>Step 4</emphasis> - Write the recursive formula.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>H</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>H</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mi>r</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-    <para id="para-00083"><emphasis>Step 5</emphasis> - Substitute the first term and the common difference/ratio into the formula.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>H</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>H</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>H</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-    
-    <para id="para-00084">Check your reasoning by finding the first three terms using each formula. Both formulas produce the same first 3 terms: 3, <m:math display="inline"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math>.</para>
-    
-    <note class="try" id="note-00003">
-    <title>Try It: Switching Between Definitions of Sequences</title>
-    <para id="para-00085">Write the recursive formula for the sequence below that is given in explicit form:</para>
-    <para id="para-00099"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>14</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><exercise id="exer-00005">
-      <problem id="prob-00005">
-      
-        <para id="para-00087">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
-      </para>
-      
-      </problem><solution id="sol-00005">
-      <para id="para-00088">Here is how to write the sequence using the recursive definition:</para>
-      
-      <para id="para-00089"><emphasis>Step 1</emphasis> - Write the explicit formula.
-      <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>14</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-      
-      <para id="para-00090"><emphasis>Step 2</emphasis> - Identify the first term.
-      <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math></para>
-      
-      <para id="para-00091"><emphasis>Step 3</emphasis> - Identify the common difference.
-      <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
-      
-      <para id="para-00092"><emphasis>Step 4</emphasis> - Write the recursive formula.
-      <m:math display="inline"><m:mrow><m:mi>F</m:mi><m:mn>1</m:mn><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>F</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mi>d</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-      
-      <para id="para-00093"><emphasis>Step 5</emphasis> - Substitute <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> into the formula.
-      <m:math display="inline"><m:mrow><m:msub><m:mi>F</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>F</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-      
-      
-      
-      <para id="para-00094">Both formulas give the same first 3 terms: 14, 17, 20.</para>
-    
-    </solution></exercise></note>
-    </section>
+      <para id="para-00044">Write the nth term formula of the geometric sequence represented by <m:math
+          display="inline">
+          <m:mrow>
+            <m:msub>
+              <m:mi>g</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:math> and <m:math display="inline">
+          <m:mrow>
+            <m:msub>
+              <m:mi>g</m:mi>
+              <m:mi>n</m:mi>
+            </m:msub>
+            <m:mo>=</m:mo>
+            <m:msub>
+              <m:mi>g</m:mi>
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:msub>
+            <m:mi>·</m:mi>
+            <m:mn>6</m:mn>
+          </m:mrow>
+        </m:math>, <m:math display="inline">
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>≥</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:math>.</para></note>
+    <section id="sect-00002">
+      <title>Additional Resources</title>
+
+      <section id="sect-00003">
+        <title>Switching Between Definitions of Sequences</title>
+        <para id="para-00045">A recursive formula defines each term of a sequence using the previous
+          terms.</para>
+        <table class="unnumbered os-raise-doubleheadertable" id="table-00001">
+
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry><emphasis> Sequence </emphasis>
+                </entry>
+                <entry><emphasis> Recursive Formula </emphasis>
+                </entry>
+                <entry><emphasis> Explicit or nth Term Formula </emphasis>
+                </entry>
+              </row>
+              <row>
+                <entry><emphasis> Arithmetic </emphasis>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>F</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:math>
+                  , <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>F</m:mi>
+                        <m:mi>n</m:mi>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:msub>
+                        <m:mi>F</m:mi>
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                          <m:mo>−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:mi>d</m:mi>
+                    </m:mrow>
+                  </m:math>, where <m:math
+                    display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:math>
+                  is the first term and <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>d</m:mi>
+                    </m:mrow>
+                  </m:math> is the
+                  common difference. </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mi>n</m:mi>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>+</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>n</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>d</m:mi>
+                    </m:mrow>
+                  </m:math>, where <m:math
+                    display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:math>
+                  is the first term, <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:mrow>
+                  </m:math> is the
+                  term you want, and <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>d</m:mi>
+                    </m:mrow>
+                  </m:math> is the
+                  common difference. </entry>
+              </row>
+              <row>
+                <entry>
+                  <para id="para-00046"><emphasis>Geometric</emphasis></para>
+
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>H</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:math>
+                  , <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>H</m:mi>
+                        <m:mi>n</m:mi>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:msub>
+                        <m:mi>H</m:mi>
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                          <m:mo>−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mi>·</m:mi>
+                      <m:mi>r</m:mi>
+                    </m:mrow>
+                  </m:math>, Where <m:math
+                    display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:math>
+                  is the first term and <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>r</m:mi>
+                    </m:mrow>
+                  </m:math> is the
+                  common ratio. </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mi>n</m:mi>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:msup>
+                        <m:mi>r</m:mi>
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                          <m:mo>−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:math>,
+                  Where <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:math>
+                  is the first term, <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:mrow>
+                  </m:math> is the
+                  term you want, and <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>r</m:mi>
+                    </m:mrow>
+                  </m:math> is the
+                  common ratio. </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para id="para-00047"><emphasis>Example 1</emphasis></para>
+        <para id="para-00048">Find the explicit general formula for the arithmetic sequence given in
+          recursive form.</para>
+        <para id="para-00078"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:mn>6</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>≥</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00050"><emphasis>Step 1</emphasis> - Write the recursive formula. (given)</para>
+        <para><m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:mn>6</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>≥</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>
+        </para>
+        <para id="para-00051"><emphasis>Step 2</emphasis> - Identify the first term.</para>
+        <para><m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math>
+        </para>
+        <para id="para-00052"><emphasis>Step 3</emphasis> - Identify the common difference/ratio.</para>
+        <para><m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>6</m:mn>
+            </m:mrow>
+          </m:math>
+        </para>
+        <para id="para-00053"><emphasis>Step 4</emphasis> - Write the explicit formula for the <m:math
+            display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>n</m:mi>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mi>h</m:mi>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+          term.</para>
+          <para><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math>
+        </para>
+        <para id="para-00054"><emphasis>Step 5</emphasis> - Substitute the first term and common
+          difference/ratio into the formula.</para>
+          <para><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>5</m:mn>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mn>6</m:mn>
+            </m:mrow>
+          </m:math>
+        </para>
+
+        <para id="para-00055">Check by finding the first 3 terms using each formula:</para>
+
+        <table class="unnumbered os-raise-horizontaltable" id="table-00002">
+          <tgroup cols="4">
+            <tbody>
+              <row>
+                <entry><emphasis>
+                    <m:math display="inline">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>a</m:mi>
+                          <m:mn>1</m:mn>
+                        </m:msub>
+                        <m:mo>=</m:mo>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:math>, <m:math
+                      display="inline">
+                      <m:mrow>
+                        <m:mi>a</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>n</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo>=</m:mo>
+                        <m:msub>
+                          <m:mi>a</m:mi>
+                          <m:mi>n</m:mi>
+                        </m:msub>
+                        <m:mo>=</m:mo>
+                        <m:msub>
+                          <m:mi>a</m:mi>
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                            <m:mo>−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo>+</m:mo>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                    </m:math>, <m:math
+                      display="inline">
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo>≥</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:math>
+                  </emphasis>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>6</m:mn>
+                      <m:mo>=</m:mo>
+                      <m:mn>11</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>11</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>6</m:mn>
+                      <m:mo>=</m:mo>
+                      <m:mn>17</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry><emphasis>
+                    <m:math display="inline">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>a</m:mi>
+                          <m:mi>n</m:mi>
+                        </m:msub>
+                        <m:mo>=</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>n</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                    </m:math>
+                  </emphasis>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo>−</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mn>6</m:mn>
+                      <m:mo>=</m:mo>
+                      <m:mn>11</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo>−</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mn>6</m:mn>
+                      <m:mo>=</m:mo>
+                      <m:mn>17</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+
+        <para id="para-00056">Both formulas produce the same first 3 terms: 5, 11, 17.</para>
+
+        <para id="para-00057"><emphasis>Example 2</emphasis></para>
+        <para id="para-00058">Find the explicit general formula for the geometric sequence given in
+          recursive form.</para>
+        <para id="para-00095"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>b</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>b</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>b</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mi>·</m:mi>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>≥</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00060"><emphasis>Step 1</emphasis> - Write the recursive formula (given).</para>
+        <para> <m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>b</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>b</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>b</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mi>·</m:mi>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>≥</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00061"><emphasis>Step 2</emphasis> - Identify the first term.</para>
+        <para><m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00062"><emphasis>Step 3</emphasis> - Identify the common difference/ratio.</para>
+        <para><m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>r</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00063"><emphasis>Step 4</emphasis> - Write the explicit formula for the <m:math
+            display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>n</m:mi>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mi>h</m:mi>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+          term.</para>
+          <para><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:msup>
+                <m:mi>r</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00064"><emphasis>Step 5</emphasis> - Substitute the first term and the common
+          difference/ratio into the formula.</para>
+          <para><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>5</m:mn>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+
+        <para id="para-00065">Check by finding the first 3 terms using each formula:</para>
+
+
+        <table class="unnumbered os-raise-horizontaltable" id="table-00003">
+          <tgroup cols="4">
+            <tbody>
+              <row>
+                <entry><emphasis>
+                    <m:math display="inline">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>b</m:mi>
+                          <m:mn>1</m:mn>
+                        </m:msub>
+                        <m:mo>=</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:math>,<m:math
+                      display="inline">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>b</m:mi>
+                          <m:mi>n</m:mi>
+                        </m:msub>
+                        <m:mo>=</m:mo>
+                        <m:msub>
+                          <m:mi>b</m:mi>
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                            <m:mo>−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mi>·</m:mi>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:math>,<m:math
+                      display="inline">
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo>≥</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:math>
+                  </emphasis>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>b</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>b</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:msub>
+                        <m:mi>b</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mo>−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mi>·</m:mi>
+                      <m:mn>5</m:mn>
+                      <m:mo>=</m:mo>
+                    </m:mrow>
+                  </m:math>
+            <m:math
+                    display="inline">
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mi>·</m:mi>
+                      <m:mn>5</m:mn>
+                      <m:mo>=</m:mo>
+                      <m:mn>20</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>b</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:msub>
+                        <m:mi>b</m:mi>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mo>−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mi>·</m:mi>
+                      <m:mn>5</m:mn>
+                      <m:mo>=</m:mo>
+                    </m:mrow>
+                  </m:math>
+            <m:math
+                    display="inline">
+                    <m:mrow>
+                      <m:mn>20</m:mn>
+                      <m:mi>·</m:mi>
+                      <m:mn>5</m:mn>
+                      <m:mo>=</m:mo>
+                      <m:mn>100</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+              <row>
+                <entry><emphasis>
+                    <m:math display="inline">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>a</m:mi>
+                          <m:mi>n</m:mi>
+                        </m:msub>
+                        <m:mo>=</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>5</m:mn>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                            <m:mo>−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:math>
+                  </emphasis>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo>−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>=</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mo>−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>=</m:mo>
+                      <m:mn>20</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>a</m:mi>
+                        <m:mn>3</m:mn>
+                      </m:msub>
+                      <m:mo>=</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mo>−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>=</m:mo>
+                      <m:mn>100</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+
+        <para id="para-00066">Both formulas produce the same first 3 terms: 4, 20, 100.</para>
+
+
+        <para id="para-00067"><emphasis>Example 3</emphasis></para>
+        <para id="para-00068">Find the recursive formula for the arithmetic sequence given in
+          explicit general form.</para>
+        <para id="para-00097"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>21</m:mn>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00070"><emphasis>Step 1</emphasis> - Write the explicit formula (given).</para>
+        <para><m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>21</m:mn>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00071"><emphasis>Step 2</emphasis> - Identify the first term.</para><para><m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>21</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00072"><emphasis>Step 3</emphasis> - Identify the common difference/ratio.</para><para><m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00073"><emphasis>Step 4</emphasis> - Write the explicit formula for the <m:math
+            display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>n</m:mi>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mi>h</m:mi>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+          term.</para><para><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>F</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:math>, <m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>F</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>F</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>≥</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00074"><emphasis>Step 5</emphasis> - Substitute the first term and the common
+          difference/ratio into the formula.</para><para><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>F</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>21</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>F</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>F</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>−</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>≥</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+
+        <para id="para-00075">Check your reasoning by finding the first three terms using each
+          formula. Both formulas produce the same first 3 terms: 21, 19, 17.</para>
+
+        <para id="para-00076"><emphasis>Example 4</emphasis></para>
+        <para id="para-00077">Find the recursive formula for the arithmetic sequence given in
+          explicit general form.</para>
+
+        <para id="para-00098"><m:math>
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>·</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>4</m:mn>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00079"><emphasis>Step 1</emphasis> - Write the explicit formula.</para><para><m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>·</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>4</m:mn>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00080"><emphasis>Step 2</emphasis> - Identify the first term.</para><para><m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00081"><emphasis>Step 3</emphasis> - Identify the common difference/ratio.</para><para><m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>r</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>4</m:mn>
+              </m:mfrac>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00082"><emphasis>Step 4</emphasis> - Write the recursive formula.</para><para><m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>H</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:math>, <m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>H</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>H</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mi>·</m:mi>
+              <m:mi>r</m:mi>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>≥</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00083"><emphasis>Step 5</emphasis> - Substitute the first term and the common
+          difference/ratio into the formula.</para><para><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>H</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>H</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>H</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mi>·</m:mi>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>4</m:mn>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>, <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>≥</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+
+        <para id="para-00084">Check your reasoning by finding the first three terms using each
+          formula. Both formulas produce the same first 3 terms: 3, <m:math display="inline">
+            <m:mrow>
+              <m:mfrac>
+                <m:mn>3</m:mn>
+                <m:mn>4</m:mn>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>, <m:math
+            display="inline">
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>16</m:mn>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+          .</para>
+
+        <note class="try" id="note-00003">
+          <title>Try It: Switching Between Definitions of Sequences</title>
+    <para id="para-00085">Write
+          the recursive formula for the sequence below that is given in explicit form:</para>
+    <para
+            id="para-00099"><m:math>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>14</m:mn>
+                <m:mo>+</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para><exercise
+            id="exer-00005">
+            <problem id="prob-00005">
+
+              <para id="para-00087">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work. </para>
+
+            </problem>
+            <solution id="sol-00005">
+              <para id="para-00088">Here is how to write the sequence using the recursive
+          definition:</para>
+
+              <para id="para-00089"><emphasis>Step 1</emphasis> - Write the explicit formula. <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:mn>14</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math></para>
+
+              <para id="para-00090"><emphasis>Step 2</emphasis> - Identify the first term. <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:mn>14</m:mn>
+                  </m:mrow>
+                </m:math></para>
+
+              <para id="para-00091"><emphasis>Step 3</emphasis> - Identify the common difference. <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:math></para>
+
+              <para id="para-00092"><emphasis>Step 4</emphasis> - Write the recursive formula. <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>F</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:math>
+          , <m:math display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>F</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:msub>
+                      <m:mi>F</m:mi>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo>+</m:mo>
+                    <m:mi>d</m:mi>
+                  </m:mrow>
+                </m:math>, <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>≥</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math></para>
+
+              <para id="para-00093"><emphasis>Step 5</emphasis> - Substitute <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                  </m:mrow>
+                </m:math>
+          and <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                  </m:mrow>
+                </m:math> into the
+          formula. <m:math display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>F</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:mn>14</m:mn>
+                  </m:mrow>
+                </m:math>, <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>F</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:msub>
+                      <m:mi>F</m:mi>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>, <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>≥</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math></para>
+
+
+              <para id="para-00094">Both formulas give the same first 3 terms: 14, 17, 20.</para>
+
+            </solution>
+          </exercise></note>
       </section>
-      
+    </section>
+
   </content>
 </document>
