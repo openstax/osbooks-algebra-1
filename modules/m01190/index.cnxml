@@ -11,281 +11,1008 @@
   <item>Clare takes a piece of paper with length 8 inches and width 10 inches and cuts it in half. Then she cuts it in half again, and again . . .</item>
 </list>
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00001">
-  <problem id="prob-00001">
-    <para id="para-00001">Instead of writing a recursive definition, Clare writes <m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>80</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>C</m:mi></m:mrow></m:math> is the area, in square inches, of the paper after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> cuts. Explain where the different terms in her expression came from.
-    </para>
-    </problem><solution id="sol-00001">
-    
-    
-  
-  <para id="para-00002">Compare your answers:</para>
-    
-    <para id="para-00003">Each cut halves the area, and there are <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> cuts. The original area is 80, so <m:math display="inline"><m:mrow><m:mn>80</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>·</m:mi><m:mi>·</m:mi><m:mi>·</m:mi><m:mi>·</m:mi><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> with <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> multiplications of <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> is the same as saying <m:math display="inline"><m:mrow><m:mn>80</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math>.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00001">Instead of writing a recursive definition, Clare writes <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>C</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>80</m:mn>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>n</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math>,
+            where <m:math display="inline">
+              <m:mrow>
+                <m:mi>C</m:mi>
+              </m:mrow>
+            </m:math> is the area, in square
+            inches, of the paper after <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math> cuts. Explain where the
+            different terms in her expression came from. </para>
+        </problem>
+        <solution id="sol-00001">
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00002">
-  <problem id="prob-00002">
-    <para id="para-00004">Approximately what is the area of the paper after 10 cuts?
-    </para>
-    </problem><solution id="sol-00002">
-    
-    
-  
-  <para id="para-00005">Compare your answers:</para>
-    
-    <para id="para-00006">Approximately 0.078 square inches (exactly <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>80</m:mn></m:mrow><m:mrow><m:mn>1024</m:mn></m:mrow></m:mfrac></m:mrow></m:math> inches)</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+          <para id="para-00002">Compare your answers:</para>
 
-<list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-  <item>
-    Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1 inch of the width. Then he does it again, and again . . .
- </item>  </list>
- 
+          <para id="para-00003">Each cut halves the area, and there are <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math> cuts. The original area
+            is 80, so <m:math display="inline">
+              <m:mrow>
+                <m:mn>80</m:mn>
+                <m:mi>·</m:mi>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:mi>·</m:mi>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:mi>·</m:mi>
+                <m:mi>·</m:mi>
+                <m:mi>·</m:mi>
+                <m:mi>·</m:mi>
+                <m:mi>·</m:mi>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+            with <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math> multiplications of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+            is the same as saying <m:math display="inline">
+              <m:mrow>
+                <m:mn>80</m:mn>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>n</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            .</para>
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00003">
-  <problem id="prob-00003"> <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
-    <item>
-      Complete the table for the area of Kiran’s paper <m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, in square inches, after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> cuts.
-   </item>
-
-</list>
-<table class="unnumbered os-raise-midsizetable" id="table-00001">
-  
-  <tgroup cols="2"><tbody><row>
-      <entry><emphasis>
-       <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>
-     </emphasis> </entry><entry><emphasis>
-        <m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>
-     </emphasis> </entry></row><row>
-      <entry>
-        <para id="para-00007">0</para>
-      </entry>
-      <entry>
-        <para id="para-00008">80</para>
-      </entry>
-    </row>
-    <row>
-      <entry>
-        <para id="para-00009">1</para>
-      </entry>
-      <entry/>
-    </row>
-    <row>
-      <entry>
-        <para id="para-00010">2</para>
-      </entry>
-      <entry>
-        <para id="para-00011"><m:math><m:mrow><m:mn>80</m:mn><m:mi>−</m:mi><m:mn>8</m:mn><m:mi>−</m:mi><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>80</m:mn><m:mi>−</m:mi><m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>64</m:mn></m:mrow></m:math></para></entry>
-    </row>
-    <row>
-      <entry>
-        <para id="para-00012">3</para>
-      </entry>
-      <entry/>
-    </row>
-    <row>
-      <entry>
-        <para id="para-00013">4</para>
-      </entry>
-      <entry/>
-    </row>
-    <row>
-      <entry>
-        <para id="para-00014">5</para>
-      </entry>
-      <entry/>
-    </row>
-  </tbody></tgroup></table>
-  </problem><solution id="sol-00003">
-    
-    
-  
-  <para id="para-00015">Compare your answers:</para>
-    
-    <para id="para-00016">When <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is 1, <m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is 72.
-      When <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is 3,
-      <m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is 56.
-      When <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is 4,
-      <m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is 48.
-      When <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is 5,
-      <m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is 40.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00004">
-  <problem id="prob-00004">
-    <para id="para-00017">Kiran says the area after 6 cuts, in square inches, is <m:math display="inline"><m:mrow><m:mn>80</m:mn><m:mi>−</m:mi><m:mn>8</m:mn><m:mi>·</m:mi><m:mn>6</m:mn></m:mrow></m:math>. Explain where the different terms in his expression came from.
-    </para>
-    </problem><solution id="sol-00004">
-    
-    
-  
-  <para id="para-00018">Compare your answers:</para>
-    
-    <para id="para-00019">Each cut removes 8 square inches, so 6 cuts removes 48 square inches. The original area was 80 square inches, so the remaining area, in square inches, is <m:math display="inline"><m:mrow><m:mn>80</m:mn><m:mi>−</m:mi><m:mn>8</m:mn><m:mi>·</m:mi><m:mn>6</m:mn></m:mrow></m:math>.
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00004">Approximately what is the area of the paper after 10 cuts? </para>
+        </problem>
+        <solution id="sol-00002">
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00005">
-  <problem id="prob-00005">
-    <para id="para-00020">Write a definition for <m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> that is not recursive.</para>
-    </problem><solution id="sol-00005">
-    
-    
-  
-  <para id="para-00021">Compare your answers:</para>
-    
-    <para id="para-00022"><m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>80</m:mn><m:mi>−</m:mi><m:mn>8</m:mn><m:mi>n</m:mi></m:mrow></m:math> for integers <m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>≤</m:mo><m:mi>n</m:mi><m:mo>≤</m:mo><m:mn>9</m:mn></m:mrow></m:math> or equivalent.
-  </para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+          <para id="para-00005">Compare your answers:</para>
+
+          <para id="para-00006">Approximately 0.078 square inches (exactly <m:math display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>80</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1024</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+            inches)</para>
+
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
+        <item> Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1
+          inch of the width. Then he does it again, and again . . . </item>
+      </list>
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00006">
-  <problem id="prob-00006"><list class="os-raise-noindent" list-type="enumerated" id="list-00004">
-  <item>Which is larger, <m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</item>
-</list>
-  </problem><solution id="sol-00006">
-    
-    
-  
-  <para id="para-00023">Compare your answer:</para>
-    
-    <para id="para-00024"><m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is larger.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
+            <item> Complete the table for the area of Kiran’s paper <m:math display="inline">
+                <m:mrow>
+                  <m:mi>K</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>,
+              in square inches, after <m:math display="inline">
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                </m:mrow>
+              </m:math> cuts. </item>
+
+          </list>
+          <table class="unnumbered os-raise-midsizetable" id="table-00001">
+
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry><emphasis>
+                      <m:math display="inline">
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                        </m:mrow>
+                      </m:math>
+                    </emphasis>
+                  </entry>
+                  <entry><emphasis>
+                      <m:math display="inline">
+                        <m:mrow>
+                          <m:mi>K</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>n</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:math>
+                    </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00007">0</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00008">80</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00009">1</para>
+                  </entry>
+                  <entry />
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00010">2</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00011"><m:math>
+                        <m:mrow>
+                          <m:mn>80</m:mn>
+                          <m:mi>−</m:mi>
+                          <m:mn>8</m:mn>
+                          <m:mi>−</m:mi>
+                          <m:mn>8</m:mn>
+                          <m:mo>=</m:mo>
+                          <m:mn>80</m:mn>
+                          <m:mi>−</m:mi>
+                          <m:mn>8</m:mn>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo>=</m:mo>
+                          <m:mn>64</m:mn>
+                        </m:mrow>
+                      </m:math></para></entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00012">3</para>
+                  </entry>
+                  <entry />
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00013">4</para>
+                  </entry>
+                  <entry />
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00014">5</para>
+                  </entry>
+                  <entry />
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </problem>
+        <solution id="sol-00003">
 
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00007">
-  <problem id="prob-00007"><list class="os-raise-noindent" list-type="enumerated" id="list-00005">
-  <item>Is <m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> arithmetic or geometric?</item>
-</list>
-  </problem><solution id="sol-00007">
-    
-    
-  
-  <para id="para-00025">Compare your answer:</para>
-    
-    <para id="para-00026"><m:math display="inline"><m:mrow><m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is arithmetic.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+          <para id="para-00015">Compare your answers:</para>
 
-<!--Text Entry Interaction Start -->
-<exercise id="exer-00008">
-  <problem id="prob-00008">
-<list class="os-raise-noindent" list-type="enumerated" id="list-00006">
-  <item>Is <m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> arithmetic or geometric?</item>
-</list>
-  </problem><solution id="sol-00008">
-    
-    
-  
-  <para id="para-00027">Compare your answer:</para>
-    
-    <para id="para-00028"><m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is geometric.</para>
-  
-  </solution></exercise>
-<!--Interaction End -->
+          <para id="para-00016">When <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math> is 1, <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> is 72.
+            When <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math> is 3, <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> is 56.
+            When <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math> is 4, <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> is 48.
+            When <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math> is 5, <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> is 40.</para>
 
-<para id="para-00029">A recursive sequence is a sequence in which terms are defined using one or more of the previous terms. If you know the nth term of an arithmetic or geometric sequence and the common difference or factor, you can find the (n+1)th term by using the recursive formula.</para>
-<para id="para-00030">Different definitions can often create the same sequence. For arithmetic and geometric sequences, there are general rules, called explicit rules, that can be followed to help find any term in the sequences.</para>
-<para id="para-00031">These are called the nth <term class="glossary-tooltip" id="term-00001">term</term> or the general term of the sequence.</para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
 
-<note id="note-00001">
-  <title>Arithmetic Sequence Formulas</title>
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00017">Kiran says the area after 6 cuts, in square inches, is <m:math
+              display="inline">
+              <m:mrow>
+                <m:mn>80</m:mn>
+                <m:mi>−</m:mi>
+                <m:mn>8</m:mn>
+                <m:mi>·</m:mi>
+                <m:mn>6</m:mn>
+              </m:mrow>
+            </m:math>. Explain where the
+            different terms in his expression came from. </para>
+        </problem>
+        <solution id="sol-00004">
+
+
+          <para id="para-00018">Compare your answers:</para>
+
+          <para id="para-00019">Each cut removes 8 square inches, so 6 cuts removes 48 square
+            inches. The original area was 80 square inches, so the remaining area, in square inches,
+            is <m:math display="inline">
+              <m:mrow>
+                <m:mn>80</m:mn>
+                <m:mi>−</m:mi>
+                <m:mn>8</m:mn>
+                <m:mi>·</m:mi>
+                <m:mn>6</m:mn>
+              </m:mrow>
+            </m:math>. </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00020">Write a definition for <m:math display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> that is
+            not recursive.</para>
+        </problem>
+        <solution id="sol-00005">
+
+
+          <para id="para-00021">Compare your answers:</para>
+
+          <para id="para-00022"><m:math display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>80</m:mn>
+                <m:mi>−</m:mi>
+                <m:mn>8</m:mn>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math> for integers <m:math
+              display="inline">
+              <m:mrow>
+                <m:mn>0</m:mn>
+                <m:mo>≤</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>≤</m:mo>
+                <m:mn>9</m:mn>
+              </m:mrow>
+            </m:math> or equivalent. </para>
+
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
+            <item>Which is larger, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>K</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math> or <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>C</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>?</item>
+          </list>
+        </problem>
+        <solution id="sol-00006">
+
+
+          <para id="para-00023">Compare your answer:</para>
+
+          <para id="para-00024"><m:math display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> is
+            larger.</para>
+
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00007">
+        <problem id="prob-00007">
+          <list class="os-raise-noindent" list-type="enumerated" id="list-00005">
+            <item>Is <m:math display="inline">
+                <m:mrow>
+                  <m:mi>K</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>
+              arithmetic or geometric?</item>
+          </list>
+        </problem>
+        <solution id="sol-00007">
+
+
+          <para id="para-00025">Compare your answer:</para>
+
+          <para id="para-00026"><m:math display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> is
+            arithmetic.</para>
+
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+      <!--Text
+      Entry Interaction Start -->
+      <exercise id="exer-00008">
+        <problem id="prob-00008">
+          <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
+            <item>Is <m:math display="inline">
+                <m:mrow>
+                  <m:mi>C</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>n</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>
+              arithmetic or geometric?</item>
+          </list>
+        </problem>
+        <solution id="sol-00008">
+
+
+          <para id="para-00027">Compare your answer:</para>
+
+          <para id="para-00028"><m:math display="inline">
+              <m:mrow>
+                <m:mi>C</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> is
+            geometric.</para>
+
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+
+      <para id="para-00029">A recursive sequence is a sequence in which terms are defined using one
+        or more of the previous terms. If you know the nth term of an arithmetic or geometric
+        sequence and the common difference or factor, you can find the (n+1)th term by using the
+        recursive formula.</para>
+      <para id="para-00030">Different definitions can often create the same sequence. For arithmetic
+        and geometric sequences, there are general rules, called explicit rules, that can be
+        followed to help find any term in the sequences.</para>
+      <para id="para-00031">These are called the nth <term class="glossary-tooltip" id="term-00001">
+        term</term> or the general term of the sequence.</para>
+
+      <note id="note-00001">
+        <title>Arithmetic Sequence Formulas</title>
 
   <para id="para-00032"><emphasis>Recursive Formula</emphasis></para>
-  <para id="para-00033"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mi>d</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> = first term where <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is the term you want, and <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> is the common difference.</para>
+  <para
+          id="para-00033"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:math> =
+        first term where <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:math> is the
+        first term, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+            </m:mrow>
+          </m:math> is the term you want, and <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math> is the common difference.</para>
   
-  <para id="para-00034"><emphasis>Explicit General Formula</emphasis></para>
-  <para id="para-00035"><m:math><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi></m:mrow></m:math></para><para id="para-00036">Where <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is the term you want, and <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> is the common difference.</para>
-</note></section>
-<note class="self-check" id="note-00002"><title>Self Check</title>
-  <para id="para-00037">What is the 12th term in an arithmetic sequence where the first term is 22 and the common difference is –2?</para></note>
+  <para
+          id="para-00034"><emphasis>Explicit General Formula</emphasis></para>
+  <para id="para-00035"><m:math>
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math></para><para id="para-00036">
+        Where <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:math> is the
+        first term, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+            </m:mrow>
+          </m:math> is the term you want, and <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math> is the common difference.</para>
+      </note>
+    </section>
+    <note class="self-check" id="note-00002">
+      <para id="para-00037">What is the 12th term in an arithmetic sequence where the first term is
+      22 and the common difference is –2?</para></note>
 
-<section id="sect-00002">
-  <title>Additional Resources</title>
-  
-  <section id="sect-00003"><note class="extra-support" id="note-00003">
-    <title>The nth Term of Arithmetic Sequences</title><para id="para-00038"><!--Extra Support Name--> GENERAL TERM (NTH TERM) OF AN ARITHMETIC SEQUENCE</para>
-    <!--Support Content-->
-      <para id="para-00039">The general term of an arithmetic sequence with first term <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and common difference <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> is: <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi></m:mrow></m:math>.</para>
-      <!-- Extra Support Content--> 
-    </note>
-  
-  <para id="para-00040"><emphasis>Example 1</emphasis></para>
-  <para id="para-00041">Write the explicit formula for the sequence given by the terms 18, 21, 24, 27, ...</para>
-  <para id="para-00042">Solution:</para>
-  <para id="para-00043"><emphasis>Step 1-</emphasis> Write the general formula.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi></m:mrow></m:math></para>
-  <para id="para-00044"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>18</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>18</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
-  
-  <para id="para-00045">So, the explicit formula for the sequence 18, 21, 24, 27… is <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>18</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</para>
-  <para id="para-00046">Now any term can more easily be determined - even the 1000th term!</para>
-  
-  <para id="para-00047"><emphasis>Example 2</emphasis></para>
-  <para id="para-00048">Find the 15th term of a sequence where the first term is 3 and the common difference is 6.</para>
-  <para id="para-00049"><emphasis>Step 1 -</emphasis> Write the general formula.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi></m:mrow></m:math></para>
-  <para id="para-00050"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math>
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:mrow></m:math></para>
-  <para id="para-00051"><emphasis>Step 3 -</emphasis> Simplify the expression. 
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>14</m:mn><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:mrow></m:math> 
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>15</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>84</m:mn></m:mrow></m:math>
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mn>5</m:mn><m:mo>=</m:mo><m:mn>87</m:mn></m:mrow></m:math></para>
-  <para id="para-00052">If the explicit formula for this question was needed, we would not have substituted <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>15</m:mn></m:mrow></m:math> and the <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>th term formula would have been <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:mrow></m:math>. This formula is also equivalent to</para>
-  <para id="para-00053"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><note class="try" id="note-00004">
-  <title> Try It: The nth Term of Arithmetic Sequences</title>
+    <section id="sect-00002">
+      <title>Additional Resources</title>
+
+      <section id="sect-00003">
+        <note class="extra-support" id="note-00003">
+          <title>The nth Term of Arithmetic Sequences</title><para id="para-00038"><!--Extra
+            Support Name--> GENERAL TERM
+          (NTH TERM) OF AN ARITHMETIC SEQUENCE</para>
+          <!--Support
+          Content-->
+      <para id="para-00039">The general term of an
+          arithmetic sequence with first term <m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:math>
+          and common difference <m:math display="inline">
+              <m:mrow>
+                <m:mi>d</m:mi>
+              </m:mrow>
+            </m:math> is: <m:math
+              display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>+</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mi>d</m:mi>
+              </m:mrow>
+            </m:math>.</para>
+          <!-- Extra Support Content-->
+        </note>
+
+        <para id="para-00040"><emphasis>Example 1</emphasis></para>
+        <para id="para-00041">Write the explicit formula for the sequence given by the terms 18, 21,
+          24, 27, ...</para>
+        <para id="para-00042"><emphasis>Solution:</emphasis></para>
+        <para id="para-00043"><emphasis>Step 1-</emphasis> Write the general formula.</para>
+        <para><m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00044"><emphasis>Step 2 -</emphasis> Substitute values for the first term,
+          common difference/ratio, term number.</para>
+          <para><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>18</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math></para>
+          <para>
+    <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>18</m:mn>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math></para>
+
+        <para id="para-00045">So, the explicit formula for the sequence 18, 21, 24, 27… is <m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>18</m:mn>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00046">Now any term can more easily be determined - even the 1000th term!</para>
+
+        <para id="para-00047"><emphasis>Example 2</emphasis></para>
+        <para id="para-00048">Find the 15th term of a sequence where the first term is 3 and the
+          common difference is 6.</para>
+        <para id="para-00049"><emphasis>Step 1 -</emphasis> Write the general formula.</para>
+        <para> <m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mi>−</m:mi>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00050"><emphasis>Step 2 -</emphasis> Substitute values for the first term,
+          common difference/ratio, term number.</para>
+          <para><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>,</m:mo>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>6</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>15</m:mn>
+            </m:mrow>
+          </m:math></para>
+          <para>
+    <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mn>15</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>15</m:mn>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mn>6</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00051"><emphasis>Step 3 -</emphasis> Simplify the expression.</para>
+        <para><m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mn>15</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>14</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mn>6</m:mn>
+            </m:mrow>
+          </m:math></para>
+          <para>
+    <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mn>15</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>84</m:mn>
+            </m:mrow>
+          </m:math></para>
+          <para>
+    <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mn>5</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>87</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00052">If the explicit formula for this question was needed, we would not
+          have substituted <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>15</m:mn>
+            </m:mrow>
+          </m:math> and the <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+            </m:mrow>
+          </m:math>th term formula would have been <m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>+</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mn>6</m:mn>
+            </m:mrow>
+          </m:math>. This formula is also
+          equivalent to</para>
+        <para id="para-00053"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>6</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>n</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <note class="try" id="note-00004">
+          <title> Try It: The nth Term of Arithmetic Sequences</title>
   
   <exercise id="exer-00009">
-    <problem id="prob-00009">
-      
-      <para id="para-00054">Find the formula for the <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>th term of a sequence where the first term is 7 and the common difference is 9.</para>
-    
-    <para id="para-00055">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
-    </para>
-    
-    </problem><solution id="sol-00009">
-    <para id="para-00056">Compare your answer:</para>
-    
-    <para id="para-00057">Here is how to find the 27th term of the sequence:</para>
-    
-    <para id="para-00058"><emphasis>Step 1 -</emphasis> Write the general formula.
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi></m:mrow></m:math></para>
-  
-  <para id="para-00059"><emphasis>Step 2 -</emphasis> Substitute values for the first term, common difference/ratio, term number. 
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>9</m:mn></m:mrow></m:math>
-    <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>7</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mn>9</m:mn></m:mrow></m:math></para>
-  
-  
-  
-  </solution></exercise></note>
-  </section>
-</section>
+            <problem id="prob-00009">
 
-</content>
+              <para id="para-00054">Find the formula for the <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:math>th term of a
+          sequence where the first term is 7 and the common difference is 9.</para>
+
+              <para id="para-00055">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work. </para>
+
+            </problem>
+            <solution id="sol-00009">
+              <para id="para-00056">Compare your answer:</para>
+
+              <para id="para-00057">Here is how to find the 27th term of the sequence:</para>
+
+              <para id="para-00058"><emphasis>Step 1 -</emphasis> Write the general formula. <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo>+</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mi>−</m:mi>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>d</m:mi>
+                  </m:mrow>
+                </m:math></para>
+
+              <para id="para-00059"><emphasis>Step 2 -</emphasis> Substitute values for the first
+          term, common difference/ratio, term number. <m:math display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                </m:math>, <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:math>
+    <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:math></para>
+
+
+            </solution>
+          </exercise></note>
+      </section>
+    </section>
+
+  </content>
 </document>
