@@ -105,7 +105,6 @@
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       <exercise class="RFM1" id="exer-00007">
         <problem id="prob-00007">
-          <title>Extending Your Thinking</title>
           <para id="para-00023">“Okay, okay,” the genie smiles, disappointed. “I will give you an even more enticing deal.” He explains that Purse B stays the same, but Purse A now increases by $250,000 every day. Which purse should you choose?</para>
           
         </problem>
@@ -185,7 +184,18 @@
              4
             </entry>
           </row>
-        </tbody></tgroup><caption>Graph of \(y=2x\)</caption>
+        </tbody></tgroup><caption>Graph of 
+          <m:math display="inline">
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>2</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>
+          </caption>
         </table>
     
       
@@ -235,7 +245,20 @@
              4
             </entry>
           </row>
-        </tbody></tgroup><caption>Graph of \(y=2^x\)</caption>
+        </tbody></tgroup><caption>Graph of 
+          <m:math display="inline">
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:msup>
+              <m:mn>2</m:mn>
+              <m:mi>x</m:mi>
+              </m:msup>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>
+        </caption>
         </table>
     
     <para id="para-00030">Both equations have a 2 and an <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> in them, but in <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn><m:mi>x</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> is multiplied by 2, and in <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>, 2 is

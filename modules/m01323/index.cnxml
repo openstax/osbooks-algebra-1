@@ -6,503 +6,1177 @@
     <md:uuid>35e6fa84-8ca9-428d-8036-abc0c10f6d84</md:uuid>
   </metadata>
   <content>
-    <section class="practice" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">To control an algae bloom in a lake, scientists introduce some treatment products.</para>
-      <para id="para-00002">Once the treatment begins, the area covered by algae in square yards, <m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math>, is given by the equation <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math>. Time, <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>, is measured in weeks.</para>
+    <section class="practice" id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">To control an algae bloom in a lake, scientists introduce some treatment
+        products.</para>
+      <para id="para-00002">Once the treatment begins, the area covered by algae in square yards, <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>A</m:mi>
+          </m:mrow>
+        </m:math>, is given by the equation <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>240</m:mn>
+            <m:mi>·</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>1</m:mn>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:mfrac>
+            <m:msup>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mi>t</m:mi>
+            </m:msup>
+          </m:mrow>
+        </m:math>. Time, <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:math>, is measured in weeks.</para>
       <para id="para-00003">
-          <media alt="Lake with algae growth.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_06_01.jpg" width="300"/>
-          </media>
-        
-    </para>
-      <!--Text Entry Interaction Start -->
+        <media alt="Lake with algae growth.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_06_01.jpg" width="300" />
+        </media>
+
+      </para>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
           <para id="para-00004">In the equation, what does 240 tell us about the algae?</para>
-          
+
         </problem>
         <solution id="sol-00001">
           <para id="para-00005">Compare your answer:</para>
           <para id="para-00006">The algae initially covers 240 square yards.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00007">What does the <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> tell us?</para>
-          
+          <para id="para-00007">What does the <m:math display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>3</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+            tell us?</para>
+
         </problem>
         <solution id="sol-00002">
           <para id="para-00008">Compare your answer:</para>
-          <para id="para-00009">Every week, the area covered is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math> of the area covered the previous week.</para>
+          <para id="para-00009">Every week, the area covered is <m:math display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>3</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+            of the area covered the previous week.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--BEGIN ADD DESMOS INTERATIVE-->
-      <!--START QUESTION #3 -->
-      
-        <exercise id="exer-00003">
-          <problem id="prob-00003">
-            
-            <!--CHANGE THE TEXT BEFORE Use the graphing tool or technology outside the course. TO FIT THE PROBLEM-->
-            <para id="para-00010">Create a graph to represent <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is 0, 1, 2, 3, and 4. Think carefully about how you choose the scale for the axes.
-        If you get stuck, consider creating a table of values.  Use the graphing tool or technology outside the course. Graph the equation that represents this scenario using the Desmos tool below.</para>
-            
-            <para id="para-00011">After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00003">
-            <para id="para-00012">Compare your answer:</para>
+      <!--Interaction
+      End -->
+      <!--BEGIN
+      ADD DESMOS INTERATIVE-->
+      <!--START
+      QUESTION #3 -->
 
-                          <media alt="A discrete graph. Area, square yards. Time, weeks.">
-                    <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_07_06_02.svg" width="300"/>
-                  </media>
-                
-              
-            
-            <table class="unnumbered os-raise-midsizetable" id="table-00005">
-              <tgroup cols="2"><tbody><row>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+
+          <!--CHANGE
+          THE TEXT BEFORE Use the graphing tool or technology outside the course. TO FIT THE
+          PROBLEM-->
+          <para id="para-00010">Create a graph to represent <m:math display="inline">
+              <m:mrow>
+                <m:mi>A</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>240</m:mn>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>t</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            when <m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:math> is 0, 1, 2, 3, and 4.
+            Think carefully about how you choose the scale for the axes. If you get stuck, consider
+            creating a table of values. Use the graphing tool or technology outside the course.
+            Graph the equation that represents this scenario using the Desmos tool below.</para>
+
+          <para id="para-00011">After you have finished graphing, select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution id="sol-00003">
+          <para id="para-00012">Compare your answer:</para>
+
+          <media alt="A discrete graph. Area, square yards. Time, weeks.">
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_07_06_02.svg" width="300" />
+          </media>
+
+
+          <table class="unnumbered os-raise-midsizetable" id="table-00005">
+            <tgroup cols="2">
+              <tbody>
+                <row>
                   <entry>
-                   <emphasis><m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> (Weeks)</emphasis>
+                    <emphasis><m:math display="inline">
+                        <m:mrow>
+                          <m:mi>t</m:mi>
+                        </m:mrow>
+                      </m:math>
+                    (Weeks)</emphasis>
                   </entry>
                   <entry>
-                   <emphasis><m:math display="inline"><m:mrow><m:mi>A</m:mi></m:mrow></m:math> (Square Yards)</emphasis>
+                    <emphasis><m:math display="inline">
+                        <m:mrow>
+                          <m:mi>A</m:mi>
+                        </m:mrow>
+                      </m:math>
+                    (Square Yards)</emphasis>
                   </entry>
                 </row>
-              <row>
-                  <entry>
-             0
-            </entry>
-                  <entry>
-              240
-            </entry>
+                <row>
+                  <entry> 0 </entry>
+                  <entry> 240 </entry>
                 </row>
                 <row>
-                  <entry>
-              1
-            </entry>
-                  <entry>
-              80
-            </entry>
+                  <entry> 1 </entry>
+                  <entry> 80 </entry>
                 </row>
                 <row>
-                  <entry>
-              2
-            </entry>
-                  <entry>
-              27 (rounded)
-            </entry>
+                  <entry> 2 </entry>
+                  <entry> 27 (rounded) </entry>
                 </row>
                 <row>
-                  <entry>
-              3
-            </entry>
-                  <entry>
-              9
-            </entry>
+                  <entry> 3 </entry>
+                  <entry> 9 </entry>
                 </row>
                 <row>
-                  <entry>
-              4
-            </entry>
-                  <entry>
-              3
-            </entry>
+                  <entry> 4 </entry>
+                  <entry> 3 </entry>
                 </row>
-              </tbody></tgroup></table>
-          </solution>
-        </exercise>
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
       <media alt="insert alt text">
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media><!--END ADD DESMOS INTERATIVE-->
-      <!--Text Entry Interaction Start -->
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+          height="400" />
+      </media><!--END
+      ADD DESMOS INTERATIVE-->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00013">Approximately how many square yards will the algae cover after 2.5 weeks? Be prepared to show your reasoning.
-    </para>
-          
+          <para id="para-00013">Approximately how many square yards will the algae cover after 2.5
+            weeks? Be prepared to show your reasoning. </para>
+
         </problem>
         <solution id="sol-00004">
           <para id="para-00014">Your answers may vary, but here is an example:</para>
-          <para id="para-00015">The algae will cover fewer than 27 square yards and more than 9 square yards because the area covered by the
-      algae is decreasing. A number between 15 and 20 would be a good guess.</para>
-        </solution>
-      </exercise></section>
-      <!--Interaction End -->
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-      <section id="sect-00002">
-        <title>Are you ready for more?</title>
-          <section id="sect-00003">
-            <title>Extending Your Thinking</title>
-      
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1" id="exer-00005">
-        <problem id="prob-00005">
-          <title>Extending Your Thinking </title>
-          <para id="para-00016">The scientists estimate that to keep the algae bloom from spreading after the treatment concludes, they will need
-      to get the area covered under one square foot. How many weeks should they run the treatment to achieve this?</para>
-          
-        </problem>
-        <solution id="sol-00005">
-          <para id="para-00017">Compare your answer:</para>
-          <para id="para-00018">7 weeks. There are 9 square feet in every square yard, so 1 square foot is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math> square yard (or about
-      0.111 square yard). At 7 weeks is the first time the area covered by algae is less than <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:math> because <m:math display="inline"><m:mrow><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:msup><m:mo>≈</m:mo><m:mn>0.329</m:mn></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mn>240</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>7</m:mn></m:msup><m:mo>≈</m:mo><m:mn>0.110</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00015">The algae will cover fewer than 27 square yards and more than 9
+            square yards because the area covered by the algae is decreasing. A number between 15
+            and 20 would be a good guess.</para>
         </solution>
       </exercise>
     </section>
-  </section>
-  <note class="self-check" id="note-00001">
-    <exercise id="exer-00012">
-      <problem id="prob-00012">
-      <para id="para-00019"><link class="os-embed" url="#exercise/Alg1_5_5_3_SC"/></para>
-      </problem>
+    <!--Interaction
+    End -->
+    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+    will need to change the Data-fire/data-wait-for-events for each set.-->
+
+    <section id="sect-00002">
+      <title>Are you ready for more?</title>
+      <section id="sect-00003">
+        <title>Extending Your Thinking</title>
+
+        <!--Start
+        interaction.  If multiple interactions appear under "are you ready for more?, they should all
+        have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+        button. Note in this sample, they are all RFM1-->
+        <exercise class="RFM1" id="exer-00005">
+          <problem id="prob-00005">
+            <para id="para-00016">The scientists estimate that to keep the algae bloom from
+              spreading after the treatment concludes, they will need to get the area covered under
+              one square foot. How many weeks should they run the treatment to achieve this?</para>
+
+          </problem>
+          <solution id="sol-00005">
+            <para id="para-00017">Compare your answer:</para>
+            <para id="para-00018">7 weeks. There are 9 square feet in every square yard, so 1 square
+              foot is <m:math display="inline">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>9</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:math>
+              square yard (or about 0.111 square yard). At 7 weeks is the first time the area
+              covered by algae is less than <m:math display="inline">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>9</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:math>
+              because <m:math display="inline">
+                <m:mrow>
+                  <m:mn>240</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:msup>
+                  <m:mo>≈</m:mo>
+                  <m:mn>0.329</m:mn>
+                </m:mrow>
+              </m:math>, and <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mn>240</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:msup>
+                  <m:mo>≈</m:mo>
+                  <m:mn>0.110</m:mn>
+                </m:mrow>
+              </m:math>.</para>
+          </solution>
+        </exercise>
+      </section>
+    </section>
+    <note class="self-check" id="note-00001">
+      <exercise id="exer-00012">
+        <problem id="prob-00012">
+          <para id="para-00019"><link class="os-embed" url="#exercise/Alg1_5_5_3_SC" /></para>
+        </problem>
       </exercise>
-      </note>
-      <section id="sect-00004">
-        <title>Additional Resources</title>
-        
-    <section id="sect-00005">
-      <title>Connecting Tables and Graphs in Exponential Decay Functions</title>
-      <para id="para-00020">A population <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> of migrating butterflies satisfies the equation <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>w</m:mi></m:msup></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>w</m:mi></m:mrow></m:math>
-  is the number of weeks since they began their migration.</para>
-      <para id="para-00021">Answer the following questions that would complete the table and create a graph to show the population <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> of
-  migrating butterflies at the number of weeks since they began their migration.</para>
-      <table class="unnumbered os-raise-horizontaltable" id="table-00001">
-        <tgroup cols="6"><tbody><row>
-            <entry>
-             <emphasis><m:math><m:mrow><m:mi>w</m:mi></m:mrow></m:math></emphasis>
-            </entry>
-            <entry>
-        0
-      </entry>
-            <entry>
-        1
-      </entry>
-            <entry>
-        2
-      </entry>
-            <entry>
-        3
-      </entry>
-            <entry>
-        4
-      </entry>
-          </row>
-          <row>
-            <entry>
-             <emphasis><m:math><m:mrow><m:mi>p</m:mi></m:mrow></m:math></emphasis>
-            </entry>
-            <entry> </entry>
-            <entry> </entry>
-            <entry> </entry>
-            <entry> </entry>
-            <entry> </entry>
-          </row>
-        </tbody></tgroup></table>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-        <item>The number of butterflies when they began their migration.</item>
-        <item>The number of butterflies 1 week after they began their migration.</item>
-        <item>The number of butterflies 3 weeks after they began their migration.</item>
-        <item>Create a graph that best represents the butterfly population.</item>
-        <item>What is the vertical intercept, or <emphasis effect="italics">y</emphasis>-intercept, of the graph? What does it tell you about the butterfly population?</item>
-        <item>When does the butterfly population reach approximately 50,000?</item>
-        <item>What is the asymptote of the graph? What does it tell you about the butterfly population over time?</item>
-      </list>
-      <para id="para-00022">When you have the equation that represents the situation, you can substitute values in and use the order of
-  operations to find the values for the table.</para>
-      <list id="list-00002">
-        <item>Part 1 is asking for the initial value. Since the equation <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>100</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>w</m:mi></m:msup></m:mrow></m:math> is in the form
-    <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math>, you know the initial value is <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> or 100,000.</item>
-        <item>Part 2 is 1 week after migration, so replace the <m:math display="inline"><m:mrow><m:mi>w</m:mi></m:mrow></m:math> in the equation with 1 to get 80,000.</item>
-        <item>In part 3, the <m:math display="inline"><m:mrow><m:mi>w</m:mi></m:mrow></m:math> can be replaced with 3 to get 51,200.</item>
-        <item>The rest of the values of the table can be found the same way, and once you have the completed table, you can
-    plot the points. Once you have plotted the points, you can connect them with a smooth curve.</item>
-      </list>
-      <table class="unnumbered os-raise-horizontaltable" id="table-00002">
-        <tgroup cols="6"><tbody><row>
-            <entry>
-             <emphasis><m:math><m:mrow><m:mi>w</m:mi></m:mrow></m:math></emphasis>
-            </entry>
-            <entry>
-        0
-      </entry>
-            <entry>
-        1
-      </entry>
-            <entry>
-        2
-      </entry>
-            <entry>
-        3
-      </entry>
-            <entry>
-        4
-      </entry>
-          </row>
-          <row>
-            <entry>
-             <emphasis><m:math><m:mrow><m:mi>p</m:mi></m:mrow></m:math></emphasis>
-            </entry>
-            <entry>
-        100,000
-      </entry>
-            <entry>
-        80,000
-      </entry>
-            <entry>
-        64,000
-      </entry>
-            <entry>
-        51,200
-      </entry>
-            <entry>
-        40,960
-      </entry>
-          </row>
-        </tbody></tgroup></table>
-      <para id="para-00023">
-          <media alt="GRAPH SHOWING THE RELATIONSHIP BETWEEN NUMBER OF WEEKS AND POPULATION OF BUTTERFLIES. PLOTTED POINTS INCLUDE (0, 100000), (1, 80000), (2, 64000), (3, 51200), AND (4, 40960).">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_08_01.jpg" width="300"/>
+    </note>
+    <section id="sect-00004">
+      <title>Additional Resources</title>
+
+      <section id="sect-00005">
+        <title>Connecting Tables and Graphs in Exponential Decay Functions</title>
+        <para id="para-00020">A population <m:math display="inline">
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+          </m:math> of migrating butterflies
+          satisfies the equation <m:math display="inline">
+            <m:mrow>
+              <m:mi>p</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>100</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>000</m:mn>
+              <m:mi>·</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mi>w</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>, where <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>w</m:mi>
+            </m:mrow>
+          </m:math> is the number of weeks since
+          they began their migration.</para>
+        <para id="para-00021">Answer the following questions that would complete the table and
+          create a graph to show the population <m:math display="inline">
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+          </m:math> of migrating butterflies at the
+          number of weeks since they began their migration.</para>
+        <table class="unnumbered os-raise-horizontaltable" id="table-00001">
+          <tgroup cols="6">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis><m:math>
+                      <m:mrow>
+                        <m:mi>w</m:mi>
+                      </m:mrow>
+                    </m:math></emphasis>
+                </entry>
+                <entry> 0 </entry>
+                <entry> 1 </entry>
+                <entry> 2 </entry>
+                <entry> 3 </entry>
+                <entry> 4 </entry>
+              </row>
+              <row>
+                <entry>
+                  <emphasis><m:math>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                      </m:mrow>
+                    </m:math></emphasis>
+                </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+                <entry> </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
+          <item>The number of butterflies when they began their migration.</item>
+          <item>The number of butterflies 1 week after they began their migration.</item>
+          <item>The number of butterflies 3 weeks after they began their migration.</item>
+          <item>Create a graph that best represents the butterfly population.</item>
+          <item>What is the vertical intercept, or <emphasis effect="italics">y</emphasis>-intercept,
+            of the graph? What does it tell you about the butterfly population?</item>
+          <item>When does the butterfly population reach approximately 50,000?</item>
+          <item>What is the asymptote of the graph? What does it tell you about the butterfly
+            population over time?</item>
+        </list>
+        <para id="para-00022">When you have the equation that represents the situation, you can
+          substitute values in and use the order of operations to find the values for the table.</para>
+        <list id="list-00002">
+          <item>Part 1 is asking for the initial value. Since the equation <m:math display="inline">
+              <m:mrow>
+                <m:mi>p</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>100</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>000</m:mn>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>w</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            is in the form <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mi>a</m:mi>
+                <m:msup>
+                  <m:mi>b</m:mi>
+                  <m:mi>x</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math>,
+            you know the initial value is <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+              </m:mrow>
+            </m:math> or 100,000.</item>
+          <item>Part 2 is 1 week after migration, so replace the <m:math display="inline">
+              <m:mrow>
+                <m:mi>w</m:mi>
+              </m:mrow>
+            </m:math> in the equation with 1 to
+            get 80,000.</item>
+          <item>In part 3, the <m:math display="inline">
+              <m:mrow>
+                <m:mi>w</m:mi>
+              </m:mrow>
+            </m:math> can be replaced with 3 to
+            get 51,200.</item>
+          <item>The rest of the values of the table can be found the same way, and once you have the
+            completed table, you can plot the points. Once you have plotted the points, you can
+            connect them with a smooth curve.</item>
+        </list>
+        <table class="unnumbered os-raise-horizontaltable" id="table-00002">
+          <tgroup cols="6">
+            <tbody>
+              <row>
+                <entry>
+                  <emphasis><m:math>
+                      <m:mrow>
+                        <m:mi>w</m:mi>
+                      </m:mrow>
+                    </m:math></emphasis>
+                </entry>
+                <entry> 0 </entry>
+                <entry> 1 </entry>
+                <entry> 2 </entry>
+                <entry> 3 </entry>
+                <entry> 4 </entry>
+              </row>
+              <row>
+                <entry>
+                  <emphasis><m:math>
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                      </m:mrow>
+                    </m:math></emphasis>
+                </entry>
+                <entry> 100,000 </entry>
+                <entry> 80,000 </entry>
+                <entry> 64,000 </entry>
+                <entry> 51,200 </entry>
+                <entry> 40,960 </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="para-00023">
+          <media
+            alt="GRAPH SHOWING THE RELATIONSHIP BETWEEN NUMBER OF WEEKS AND POPULATION OF BUTTERFLIES. PLOTTED POINTS INCLUDE (0, 100000), (1, 80000), (2, 64000), (3, 51200), AND (4, 40960).">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_08_01.jpg" width="300" />
           </media>
-        
-    </para>
-      <list id="list-00003">
-        <item>Part 5 asks about the vertical intercept and what it means. The vertical intercept is 100,000, which is the
-    initial amount of the butterfly population. This means that when the butterflies start their migration (at
-    <m:math display="inline"><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> weeks), the population is initially 100,000.
-    The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept is the value of <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> when
-    <m:math display="inline"><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, which corresponds to the initial condition or starting point of the migration. Substituting <m:math display="inline"><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> into the equation, we have <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>100000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>100000</m:mn><m:mi>·</m:mi><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>100000</m:mn></m:mrow></m:math>.
- </item>
-        <item>For part 6, you could continue the table or use the graph to see where it is 50,000, which is around 3 weeks.
- </item>
-      </list>
-        <media alt="GRAPH OF A DECREASING EXPONENTIAL FUNCTION THAT REPRESENTS THE POPULATION OF BUTTERFLIES AS A FUNCTION OF NUMBER OF WEEKS. LABELED POINTS INCLUDE (0, 100000), (1, 80000), (2, 64000), (3, 51200), AND (4, 40960).">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_08_02.jpg" width="300"/>
+
+        </para>
+        <list id="list-00003">
+          <item>Part 5 asks about the vertical intercept and what it means. The vertical intercept
+            is 100,000, which is the initial amount of the butterfly population. This means that
+            when the butterflies start their migration (at <m:math display="inline">
+              <m:mrow>
+                <m:mi>w</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math> weeks), the population is
+            initially 100,000. The <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-intercept is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>p</m:mi>
+              </m:mrow>
+            </m:math> when <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>w</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>, which corresponds to the
+            initial condition or starting point of the migration. Substituting <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>w</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math> into the equation, we
+            have <m:math display="inline">
+              <m:mrow>
+                <m:mi>p</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>100000</m:mn>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mn>0</m:mn>
+                </m:msup>
+                <m:mo>=</m:mo>
+                <m:mn>100000</m:mn>
+                <m:mi>·</m:mi>
+                <m:mn>1</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>100000</m:mn>
+              </m:mrow>
+            </m:math>. </item>
+          <item>For part 6, you could continue the table or use the graph to see where it is 50,000,
+            which is around 3 weeks. </item>
+        </list>
+        <media
+          alt="GRAPH OF A DECREASING EXPONENTIAL FUNCTION THAT REPRESENTS THE POPULATION OF BUTTERFLIES AS A FUNCTION OF NUMBER OF WEEKS. LABELED POINTS INCLUDE (0, 100000), (1, 80000), (2, 64000), (3, 51200), AND (4, 40960).">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_08_02.jpg" width="300" />
         </media>
-      
-      <list id="list-00004">
-        <item>For part 7, an asymptote is a line or curve that a function approaches but does not intersect or touch. In other words, as the input values of a function approach a certain value or tend towards infinity or negative infinity, the function values get arbitrarily close to the asymptote without actually crossing it. Asymptotes can provide valuable information about the behavior of a function and can help in understanding its limits and range.
+
+        <list id="list-00004">
+          <item><para>For part 7, an asymptote is a line or curve that a function approaches but does not
+            intersect or touch. In other words, as the input values of a function approach a certain
+            value or tend towards infinity or negative infinity, the function values get arbitrarily
+            close to the asymptote without actually crossing it. Asymptotes can provide valuable
+            information about the behavior of a function and can help in understanding its limits
+            and range.</para>
     
-    To determine the asymptote, we examine the behavior of the function as 𝑤 approaches infinity. In this case, as 𝑤 becomes larger and larger, the term <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>𝑤</m:mi></m:msup></m:mrow></m:math> will grow exponentially smaller. Consequently, the population 𝑝 will also grow infinitely smaller as it gets closer and closer to zero. Thus, the horizontal asymptote in this equation is the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-axis. The graph of the function will continue to decrease towards the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-axis as 𝑤 increases, approaching <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. The butterfly population will decrease over time due to the migration.
- </item>
-      </list>
-      <note class="try" id="note-00002">
-  <title>Try It: Connecting Tables and Graphs in Exponential Decay Functions</title>
-      <para id="para-00024">The number of copies of a book sold the year it was released was 600,000. Each year after that, the number of copies
-  sold decreased by <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>.</para>
+        <para>To determine the asymptote, we examine the behavior of the
+            function as 𝑤 approaches infinity. In this case, as 𝑤 becomes larger and larger, the
+            term <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>𝑤</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            will grow exponentially smaller. Consequently, the population 𝑝 will also grow
+            infinitely smaller as it gets closer and closer to zero. Thus, the horizontal asymptote
+            in this equation is the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-axis. The graph of the
+            function will continue to decrease towards the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-axis as 𝑤 increases,
+            approaching <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>. The butterfly population
+            will decrease over time due to the migration.</para>          </item>
+        </list>
+        <note class="try" id="note-00002">
+          <title>Try It: Connecting Tables and Graphs in Exponential Decay Functions</title>
+      <para
+            id="para-00024">The number of copies of a book sold the year it was released was
+          600,000. Each year after that, the number of copies sold decreased by <m:math
+              display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+          .</para>
       
         <exercise id="exer-00006">
-          <problem id="prob-00006">
-            <para id="para-00025"> Complete the table showing the number of copies of the book sold each year.</para>
-            <table class="unnumbered os-raise-midsizetable" id="table-00003">
-              <tgroup cols="2"><tbody><row>
-                  <entry>
-                   <emphasis>Years Since Published</emphasis>
-                  </entry>
-                  <entry>
-                   <emphasis>Number of Copies Sold</emphasis>
-                  </entry>
-                </row>
-              <row>
-                  <entry>
-            0
-          </entry>
-                  <entry> 
-          </entry>
-                </row>
-                <row>
-                  <entry>
-            1
-          </entry>
-                  <entry> 
-          </entry>
-                </row>
-                <row>
-                  <entry>
-            2
-          </entry>
-                  <entry> 
-          </entry>
-                </row>
-                <row>
-                  <entry>
-            3
-          </entry>
-                  <entry> 
-          </entry>
-                </row>
-                <row>
-                  <entry>
-            <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>
-          </entry>
-                  <entry> 
-          </entry>
-                </row>
-              </tbody></tgroup></table>
-            <para id="para-00026">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00006">
-            <para id="para-00027">Compare your answer:</para>
-            <para id="para-00028">Here is how to turn an exponential decay situation into a table and a graph:</para>
-            <para id="para-00029">To complete the table, you enter 600,000 in the first line of the table, since it is the initial value or the starting point. For each entry after the first, you multiply each term by
-    <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>. The table below has an extra row with the process worked out.</para>
-            <table class="unnumbered os-raise-wideequaltable" id="table-00004">
-              <tgroup cols="3"><tbody><row>
-                  <entry>
-                   <emphasis>Years Since Published</emphasis>
-                  </entry>
-                  <entry>
-                   <emphasis>Process</emphasis>
-                  </entry>
-                  <entry>
-                   <emphasis>Number of Copies Sold</emphasis>
-                  </entry>
-                </row>
-              <row>
-                  <entry>
-          0
-        </entry>
-                  <entry>
-          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>0</m:mn></m:msup></m:mrow></m:math>
-        </entry>
-                  <entry>
-          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-        </entry>
-                </row>
-                <row>
-                  <entry>
-          1
-        </entry>
-                  <entry>
-          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>1</m:mn></m:msup></m:mrow></m:math>
-        </entry>
-                  <entry>
-          <m:math display="inline"><m:mrow><m:mn>300</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-        </entry>
-                </row>
-                <row>
-                  <entry>
-          2
-        </entry>
-                  <entry>
-          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math>
-        </entry>
-                  <entry>
-          <m:math display="inline"><m:mrow><m:mn>150</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-        </entry>
-                </row>
-                <row>
-                  <entry>
-          3
-        </entry>
-                  <entry>
-          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>3</m:mn></m:msup></m:mrow></m:math>
-        </entry>
-                  <entry>
-          <m:math display="inline"><m:mrow><m:mn>75</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-        </entry>
-                </row>
-                <row>
-                  <entry>
-          <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>
-        </entry>
-                  <entry>
-          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>y</m:mi></m:msup></m:mrow></m:math>
-        </entry>
-                  <entry>
-          <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>y</m:mi></m:msup></m:mrow></m:math>
-        </entry>
-                </row>
-              </tbody></tgroup></table>
-          </solution>
-        </exercise>
-      
-      <!--Q2-->
-      <exercise id="exer-00007">
-        <problem id="prob-00007">
-          <para id="para-00030"> Write an equation representing the number of copies, <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math>, sold <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> years after the book was released.
-    </para>
-        </problem>
-        <solution id="sol-00007">
-          <para id="para-00032">Compare your answer:</para>
-          <para id="para-00033"> The last row of the table is also the equation for the function, <m:math display="inline"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>y</m:mi></m:msup></m:mrow></m:math>.</para>
-        </solution>
-      </exercise>
-      <!--Interaction End -->
-      <media alt="insert alt text">
-      <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
-      <!--Q4-->
-      <exercise id="exer-00008">
-        <problem id="prob-00008">
-          <para id="para-00034"> Use your equation or graph to find <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>. What does this mean in terms of the book sales?
-    </para>
-        </problem>
-        <solution id="sol-00008">
-          <para id="para-00036">Compare your answer:</para>
-          <para id="para-00037"> If you use the equation you would substitute 6 in for <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, or <m:math display="inline"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>6</m:mn></m:msup></m:mrow></m:math>, and evaluate to find the solution.
-      
-      The answer 9,375 means that six years after the book was published, 9,375 copies of the book were sold.
-  </para>
-        </solution>
-      </exercise>
-      <!--Interaction End -->
-      <!--Q5-->
-      <exercise id="exer-00009">
-        <problem id="prob-00009">
-          <para id="para-00038">What is the vertical intercept, or <emphasis effect="italics">y</emphasis>-intercept of the graph? What does it tell you about the number of copies sold?
-    </para>
-        </problem>
-        <solution id="sol-00009">
-          <para id="para-00040">Compare your answer:</para>
-          <list id="list-00005">
-            <item>The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept represents the value of the function when
-        <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, which corresponds to the year the book was released. Substituting <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> into the function, we have <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>21</m:mn><m:mi>​</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>600</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>.</item>
-            <item>The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept is 600,000. This means that, in the year the book was released (at
-        <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>), 600,000 copies were sold.</item>
-          </list>
-        </solution>
-      </exercise>
-      <!--Interaction End -->
-      <!--Q6-->
-      <exercise id="exer-00010">
-        <problem id="prob-00010">
-          <para id="para-00041">What is the asymptote of the graph? What does it tell you about the number of copies sold over time?
-    </para>
-        </problem>
-        <solution id="sol-00010">
-          <para id="para-00043">Compare your answer:</para>
-          <list id="list-00006">
-            <item>To determine the asymptote, we need to consider the behavior of the function as <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> approaches infinity. As <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> increases, the exponent
-        <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:mrow></m:math> becomes smaller and smaller. Eventually, as <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> approaches infinity, the exponent approaches 0.
-     </item>
-            <item>The function
-        <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> approaches the value 0 as <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> tends towards infinity. In other words, the horizontal asymptote of the function is <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</item>
-            <item>The asymptote is
-        <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, indicating that as the number of years increases indefinitely, the number of copies sold approaches zero.</item>
-          </list>
-        </solution>
-      </exercise>
-      <!--Interaction End -->
-    
-        <exercise id="exer-00011">
-          <problem id="prob-00011">
-            <para id="para-00044"> Use the graphing tool or technology outside the course. Graph the equation that represents the situation, using the Desmos tool below.
+            <problem id="prob-00006">
+              <para id="para-00025"> Complete the table showing the number of copies of the book
+          sold each year.</para>
+              <table class="unnumbered os-raise-midsizetable" id="table-00003">
+                <tgroup cols="2">
+                  <tbody>
+                    <row>
+                      <entry>
+                        <emphasis>Years Since Published</emphasis>
+                      </entry>
+                      <entry>
+                        <emphasis>Number of Copies Sold</emphasis>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry> 0 </entry>
+                      <entry>  </entry>
+                    </row>
+                    <row>
+                      <entry> 1 </entry>
+                      <entry>  </entry>
+                    </row>
+                    <row>
+                      <entry> 2 </entry>
+                      <entry>  </entry>
+                    </row>
+                    <row>
+                      <entry> 3 </entry>
+                      <entry>  </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>  </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+              <para id="para-00026">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
+            </problem>
+            <solution id="sol-00006">
+              <para id="para-00027">Compare your answer:</para>
+              <para id="para-00028">Here is how to turn an exponential decay situation into a table
+          and a graph:</para>
+              <para id="para-00029">To complete the table, you enter 600,000 in the first line of
+          the table, since it is the initial value or the starting point. For each entry after the
+          first, you multiply each term by <m:math display="inline">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>.
+          The table below has an extra row with the process worked out.</para>
+              <table class="unnumbered os-raise-wideequaltable" id="table-00004">
+                <tgroup cols="3">
+                  <tbody>
+                    <row>
+                      <entry>
+                        <emphasis>Years Since Published</emphasis>
+                      </entry>
+                      <entry>
+                        <emphasis>Process</emphasis>
+                      </entry>
+                      <entry>
+                        <emphasis>Number of Copies Sold</emphasis>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry> 0 </entry>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mn>600</m:mn>
+                            <m:mo>,</m:mo>
+                            <m:mn>000</m:mn>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:msup>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mn>600</m:mn>
+                            <m:mo>,</m:mo>
+                            <m:mn>000</m:mn>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry> 1 </entry>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mn>600</m:mn>
+                            <m:mo>,</m:mo>
+                            <m:mn>000</m:mn>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:msup>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mn>300</m:mn>
+                            <m:mo>,</m:mo>
+                            <m:mn>000</m:mn>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry> 2 </entry>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mn>600</m:mn>
+                            <m:mo>,</m:mo>
+                            <m:mn>000</m:mn>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:msup>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mn>150</m:mn>
+                            <m:mo>,</m:mo>
+                            <m:mn>000</m:mn>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry> 3 </entry>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mn>600</m:mn>
+                            <m:mo>,</m:mo>
+                            <m:mn>000</m:mn>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mn>3</m:mn>
+                            </m:msup>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mn>75</m:mn>
+                            <m:mo>,</m:mo>
+                            <m:mn>000</m:mn>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mn>600</m:mn>
+                            <m:mo>,</m:mo>
+                            <m:mn>000</m:mn>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>y</m:mi>
+                            </m:msup>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                      <entry>
+                        <m:math display="inline">
+                          <m:mrow>
+                            <m:mn>600</m:mn>
+                            <m:mo>,</m:mo>
+                            <m:mn>000</m:mn>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>y</m:mi>
+                            </m:msup>
+                          </m:mrow>
+                        </m:math>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+            </solution>
+          </exercise>
 
-    </para>
-            <para id="para-00045">When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00011">
-            <para id="para-00046">Compare your answer:</para>
-            <para id="para-00047">Use the points in the table to create a graph.</para>
-              <media alt="GRAPH OF A DECREASING EXPONENTIAL FUNCTION THAT REPRESENTS THE NUMBER OF COPIES SOLD AS A FUNCTION OF NUMBER OF YEARS SINCE PUBLISHED. THE GRAPH HAS A \(y\)-intercepts OF 600,000 AND PASSES THROUGH THE POINTS (1, 300000) AND (2, 150000).">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_08_03.jpg" width="300"/>
+          <!--Q2-->
+      <exercise
+            id="exer-00007">
+            <problem id="prob-00007">
+              <para id="para-00030"> Write an equation representing the number of copies, <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                </m:math>, sold <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math> years after
+          the book was released. </para>
+            </problem>
+            <solution id="sol-00007">
+              <para id="para-00032">Compare your answer:</para>
+              <para id="para-00033"> The last row of the table is also the equation for the
+          function, <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>c</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>600</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>y</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+          .</para>
+            </solution>
+          </exercise>
+          <!--Interaction
+          End -->
+      <media alt="insert alt text">
+            <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html"
+              width="500" height="400" />
+          </media>
+          <!--Q4-->
+      <exercise id="exer-00008">
+            <problem id="prob-00008">
+              <para id="para-00034"> Use your equation or graph to find <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                </m:math> when <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>. What does
+          this mean in terms of the book sales? </para>
+            </problem>
+            <solution id="sol-00008">
+              <para id="para-00036">Compare your answer:</para>
+              <para id="para-00037"> If you use the equation you would substitute 6 in for <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math>, or <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>c</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>600</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mn>6</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>,
+          and evaluate to find the solution. The answer 9,375 means that six years after the book
+          was published, 9,375 copies of the book were sold. </para>
+            </solution>
+          </exercise>
+          <!--Interaction
+          End -->
+          <!--Q5-->
+      <exercise
+            id="exer-00009">
+            <problem id="prob-00009">
+              <para id="para-00038">What is the vertical intercept, or <emphasis effect="italics">y</emphasis>-intercept
+          of the graph? What does it tell you about the number of copies sold? </para>
+            </problem>
+            <solution id="sol-00009">
+              <para id="para-00040">Compare your answer:</para>
+              <list id="list-00005">
+                <item>The <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:math>-intercept
+          represents the value of the function when <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>t</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>, which
+          corresponds to the year the book was released. Substituting <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>t</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math> into
+          the function, we have <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>f</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>0</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo>=</m:mo>
+                      <m:mn>600</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>000</m:mn>
+                      <m:mi>·</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>21</m:mn>
+                      <m:mi>​</m:mi>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:msup>
+                      <m:mo>=</m:mo>
+                      <m:mn>600</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>000</m:mn>
+                      <m:mi>·</m:mi>
+                      <m:mn>1</m:mn>
+                      <m:mo>=</m:mo>
+                      <m:mn>600</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>000</m:mn>
+                    </m:mrow>
+                  </m:math>.</item>
+                <item>The <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:math>-intercept
+          is 600,000. This means that, in the year the book was released (at <m:math
+                    display="inline">
+                    <m:mrow>
+                      <m:mi>t</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>),
+          600,000 copies were sold.</item>
+              </list>
+            </solution>
+          </exercise>
+          <!--Interaction
+          End -->
+          <!--Q6-->
+      <exercise
+            id="exer-00010">
+            <problem id="prob-00010">
+              <para id="para-00041">What is the asymptote of the graph? What does it tell you about
+          the number of copies sold over time? </para>
+            </problem>
+            <solution id="sol-00010">
+              <para id="para-00043">Compare your answer:</para>
+              <list id="list-00006">
+                <item>To determine the asymptote, we need to consider the behavior of the function
+          as <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>t</m:mi>
+                    </m:mrow>
+                  </m:math>
+          approaches infinity. As <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>t</m:mi>
+                    </m:mrow>
+                  </m:math>
+          increases, the exponent <m:math display="inline">
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>t</m:mi>
+                    </m:mrow>
+                  </m:math> becomes
+          smaller and smaller. Eventually, as <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>t</m:mi>
+                    </m:mrow>
+                  </m:math>
+          approaches infinity, the exponent approaches 0. </item>
+                <item>The function <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>f</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>t</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:math>
+          approaches the value 0 as <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>t</m:mi>
+                    </m:mrow>
+                  </m:math> tends
+          towards infinity. In other words, the horizontal asymptote of the function is <m:math
+                    display="inline">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>.</item>
+                <item>The asymptote is <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:math>,
+          indicating that as the number of years increases indefinitely, the number of copies sold
+          approaches zero.</item>
+              </list>
+            </solution>
+          </exercise>
+          <!--Interaction
+          End -->
+    
+        <exercise
+            id="exer-00011">
+            <problem id="prob-00011">
+              <para id="para-00044"> Use the graphing tool or technology outside the course. Graph
+          the equation that represents the situation, using the Desmos tool below. </para>
+              <para id="para-00045">When you have finished graphing, select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
+            </problem>
+            <solution id="sol-00011">
+              <para id="para-00046">Compare your answer:</para>
+              <para id="para-00047">Use the points in the table to create a graph.</para>
+              <media
+                alt="GRAPH OF A DECREASING EXPONENTIAL FUNCTION THAT REPRESENTS THE NUMBER OF COPIES SOLD AS A FUNCTION OF NUMBER OF YEARS SINCE PUBLISHED. THE GRAPH HAS A \(y\)-intercepts OF 600,000 AND PASSES THROUGH THE POINTS (1, 300000) AND (2, 150000).">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_05_07_08_03.jpg"
+                  width="300" />
               </media>
-            
-          </solution>
-        </exercise>
-      </note>
+
+            </solution>
+          </exercise>
+        </note>
       </section>
-      </section>
-      
+    </section>
+
   </content>
 </document>
