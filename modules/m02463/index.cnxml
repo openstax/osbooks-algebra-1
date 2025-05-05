@@ -7,160 +7,22 @@
   </metadata>
   <content>
     <section class="practice" id="sect-00001">      <title>Activity</title>
-      <exercise id="exer-00001">
-        <problem id="prob-00001">
-          <para id="para-00001">Here is one way to make sense of how the <term class="glossary-tooltip" id="term-00001">quadratic formula</term> came about. Study the derivation until you can explain what happened in each step. Write down your explanation for each step.</para>
-          <para id="para-00002">Original equation </para><para id="para-00109"><m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
-          <para id="para-00003"><emphasis>Step 1</emphasis> - <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
-          <para id="para-00004"><emphasis>Step 2</emphasis> - <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
-          <para id="para-00005"><emphasis>Step 3</emphasis> - <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
-          <para id="para-00006"><emphasis>Step 4</emphasis> - <m:math display="inline"><m:mrow><m:msup><m:mi>M</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>M</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
-          <para id="para-00007"><emphasis>Step 5</emphasis> - <m:math display="inline"><m:mrow><m:msup><m:mi>M</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>M</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
-          <para id="para-00008"><emphasis>Step 6</emphasis> - <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
-          <para id="para-00009"><emphasis>Step 7</emphasis> - <m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
-          <para id="para-00010"><m:math><m:mrow><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para><para id="para-00011"><emphasis>Step 8</emphasis> - <m:math display="inline"><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
-          <para id="para-00012"><emphasis>Step 9</emphasis> - <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
-          <para id="para-00013"><emphasis>Step 10</emphasis> - </para><para id="para-00110"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
-          <para id="para-00014">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+      <exercise>
+        <problem>
+        <para><link class="os-embed" url="#exercise/Alg1_9_8_2_PLA_281"/></para>
         </problem>
-        <solution id="sol-00001">
-          <para id="para-00015">Compare your answer:</para>
-          <para id="para-00016">Original equation </para><para id="para-00111"><m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
-          <para id="para-00017"><emphasis>Step 1</emphasis> - Multiply by <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi></m:mrow></m:math> so the coefficient of <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> is a <term class="glossary-tooltip" id="term-00002">perfect square</term>. </para><para id="para-00112"><m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
-          <para id="para-00018"><emphasis>Step 2</emphasis> - Isolate the constant term to the right. </para><para id="para-00113"><m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
-          <para id="para-00019"><emphasis>Step 3</emphasis> - Write the squared term as (something)<m:math display="inline"><m:mrow><m:msup><m:mi/><m:mn>2</m:mn></m:msup></m:mrow></m:math>. Write the linear term as <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>b</m:mi><m:mspace width="0.278em"/><m:mi>·</m:mi></m:mrow></m:math> (something). </para><para id="para-00114"><m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
-          <para id="para-00020"><emphasis>Step 4</emphasis> - Use <m:math display="inline"><m:mrow><m:mi>M</m:mi></m:mrow></m:math> as the placeholder for <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi></m:mrow></m:math>. </para><para id="para-00115"><m:math display="inline"><m:mrow><m:msup><m:mi>M</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>M</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
-          <para id="para-00021"><emphasis>Step 5</emphasis> - Add <m:math display="inline"><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> to complete the square. </para><para id="para-00116"><m:math display="inline"><m:mrow><m:msup><m:mi>M</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>b</m:mi><m:mi>M</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi><m:mo>+</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
-          <para id="para-00022"><emphasis>Step 6</emphasis> - Write the left side as a squared factor and commute the terms on the right. </para><para id="para-00117"><m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para>
-          <para id="para-00023"><emphasis>Step 7</emphasis> - Find the square roots of each side of the equation. </para><para id="para-00118"><m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
-          <para id="para-00024"><m:math><m:mrow><m:mi>M</m:mi><m:mo>+</m:mo><m:mi>b</m:mi><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para><para id="para-00025"><emphasis>Step 8</emphasis> - Subtract <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> to isolate <m:math display="inline"><m:mrow><m:mi>M</m:mi></m:mrow></m:math>.</para><para id="para-00119"> <m:math display="inline"><m:mrow><m:mi>M</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
-          <para id="para-00026"><emphasis>Step 9</emphasis> - Replace <m:math display="inline"><m:mrow><m:mi>M</m:mi></m:mrow></m:math> with <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi></m:mrow></m:math>. </para><para id="para-00120"><m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow></m:math></para>
-          <para id="para-00027"><emphasis>Step 10</emphasis> - Divide both sides by <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:math> to isolate <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>. </para><para id="para-00121"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para>
-        </solution>
-      </exercise></section>
+        </exercise>
+       
+      </section>
       <section id="sect-00002">
         <title>Are you ready for more?</title>
         <section class="practice" id="sect-00006"><title>Extending Your Thinking</title>
-<exercise class="RFM1" id="exer-00002">
-          <problem id="prob-00002">
-            <para id="para-00028">Here is another way to derive the quadratic formula by <term class="glossary-tooltip" id="term-00003">completing the square</term>.</para>
-            <para id="para-00029">First, divide each side of the equation <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> to get <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
-            <para id="para-00030">Then, complete the square for <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
-            <para id="para-00031">In problems 1 – 10, briefly explain what happens in each step by answering the question. Use the "^" symbol to enter an exponent.</para>
-            <para id="para-00032">Original equation </para><para id="para-00122"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
-            <para id="para-00033">Step 1 What constant should be subtracted from both sides?</para>
-          </problem>
-          <solution id="sol-00002">
-            <para id="para-00034">Enter the constant.</para>
-            <para id="para-00035">Compare your answer:</para>
-            <para id="para-00036"><m:math><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para><para id="para-00037">Now the equation looks like</para>
-            <para id="para-00038"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para></solution>
-        </exercise>
-        <!--End interaction-->
-        <exercise class="RFM1" id="exer-00003">
-          <problem id="prob-00003">
-            <para id="para-00039">Step 2 What constant do we need to add to both sides to complete the square?</para>
-          </problem>
-          <solution id="sol-00003">
-            <para id="para-00040">Enter the constant.</para>
-            <para id="para-00041">Compare your answer:</para>
-            <para id="para-00042"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math></para><para id="para-00043">To complete the square, we add it to both sides. Now the equation looks like</para>
-            <para id="para-00044"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math></para><para id="para-00045">Notice that the denominators are different on the left side of the equation (for the second and third terms). In order to form a common denominator of <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:math>, we must multiply the middle term by a factor of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mfrac><m:mn>2</m:mn><m:mn>2</m:mn></m:mfrac></m:math>.</para>
-            <para id="para-00046"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math></para><para id="para-00047">Regrouping the factors in the middle term differently yields</para>
-            <para id="para-00048"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math></para></solution>
-        </exercise>
-        <!--End interaction-->
-        <exercise class="RFM1" id="exer-00004">
-          <problem id="prob-00004">
-            <para id="para-00049">Step 3 Now we can complete the square. What is the binomial that is squared on the left side?</para>
-          </problem>
-          <solution id="sol-00004">
-            <para id="para-00050">Enter the binomial.</para>
-            <para id="para-00051">Compare your answer:</para>
-            <para id="para-00052"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math></para><para id="para-00053">Now the equation looks like </para><para id="para-00123"><m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</para>
-          </solution>
-        </exercise>
-        <!--End interaction-->
-        <exercise class="RFM1" id="exer-00005">
-          <problem id="prob-00005">
-            <para id="para-00054">Step 4 Next, we add the fractions on the right side of the equation. What will the common denominator be?</para>
-          </problem>
-          <solution id="sol-00005">
-            <para id="para-00055">Enter the common denominator.</para>
-            <para id="para-00056">Compare your answer:</para>
-            <para id="para-00057">The common denominator will be <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>.</para>
-            <para id="para-00058">Now the equation looks like </para><para id="para-00124"><m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</para>
-          </solution>
-        </exercise>
-        <!--End interaction-->
-        <exercise class="RFM1" id="exer-00006">
-          <problem id="prob-00006">
-            <para id="para-00059">Step 5 Once the fractions on the right side of the equation are added together, what will the numerator of that new fraction be?</para>
-          </problem>
-          <solution id="sol-00006">
-            <para id="para-00060">Enter the numerator.</para>
-            <para id="para-00061">Compare your answer:</para>
-            <para id="para-00062"><m:math><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:math></para><para id="para-00063">Now the equation looks like <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</para>
-          </solution>
-        </exercise>
-        <!--End interaction-->
-        <exercise class="RFM1" id="exer-00007">
-          <problem id="prob-00007">
-            <para id="para-00064">Step 6 What is the next step necessary to isolate <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> on the left side?</para>
-          </problem>
-          <solution id="sol-00007">
-            <para id="para-00065">Enter the next step.</para>
-            <para id="para-00066">Compare your answer:</para>
-            <para id="para-00067">Take the square root of both sides.</para>
-            <para id="para-00068">Remember to put the <m:math display="inline"><m:mrow><m:mi>±</m:mi></m:mrow></m:math> in front of the radical! Now the equation looks like </para><para id="para-00125"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mrow></m:math>.</para>
-          </solution>
-        </exercise>
-        <!--End interaction-->
-        <exercise class="RFM1" id="exer-00008">
-          <problem id="prob-00008">
-            <para id="para-00069">Step 7 How can the square root be simplified?</para>
-          </problem>
-          <solution id="sol-00008">
-            <para id="para-00070">Enter your explanation.</para>
-            <para id="para-00071">Compare your answer:</para>
-            <para id="para-00072">The square root of a fraction is the square root of the numerator divided by the square root of the denominator.</para>
-            <para id="para-00073"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>±</m:mi><m:mfrac><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>4</m:mn><m:msup><m:mi>a</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:math></para></solution>
-        </exercise>
-        <!--End interaction-->
-        <exercise class="RFM1" id="exer-00009">
-          <problem id="prob-00009">
-            <para id="para-00074">Step 8 What is the denominator of the fraction on the right side after simplification?</para>
-          </problem>
-          <solution id="sol-00009">
-            <para id="para-00075">Enter the denominator.</para>
-            <para id="para-00076">Compare your answer:</para>
-            <para id="para-00077"><m:math><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:math></para><para id="para-00078">Now the equation looks like <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>±</m:mi><m:mfrac><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math>.</para>
-          </solution>
-        </exercise>
-        <!--End interaction-->
-        <exercise class="RFM1" id="exer-00010">
-          <problem id="prob-00010">
-            <para id="para-00079">Step 9 What is the next step I need to take to isolate <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> on the left side of the equation?</para>
-          </problem>
-          <solution id="sol-00010">
-            <para id="para-00080">Enter the next step.</para>
-            <para id="para-00081">Compare your answer:</para>
-            <para id="para-00082">Subtract <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math> from both sides.</para>
-            <para id="para-00083">Now the equation looks like </para><para id="para-00126"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mi>b</m:mi><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac><m:mi>±</m:mi><m:mfrac><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math>.</para>
-          </solution>
-        </exercise>
-        <!--End interaction-->
-        <exercise class="RFM1" id="exer-00011">
-          <problem id="prob-00011">
-            <para id="para-00084"><emphasis>Step 10</emphasis> - What do you notice about the denominator of both fractions on the right side?</para>
-          </problem>
-          <solution id="sol-00011">
-            <para id="para-00085">Enter your observation.</para>
-            <para id="para-00086">Compare your answer:</para>
-            <para id="para-00087">They are the same.</para>
-            <para id="para-00088">Add the fractions, and we come to the result: the quadratic equation, </para><para id="para-00127"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mi>b</m:mi><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mi>b</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mi>c</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mfrac></m:mrow></m:math>.</para>
-          </solution>
-        </exercise>
+          <exercise>
+            <problem>
+            <para><link class="os-embed" url="#exercise/Alg1_9_8_2_PLA_282"/></para>
+            </problem>
+            </exercise>
+           
       </section>
     </section>
     <!--End interaction-->
