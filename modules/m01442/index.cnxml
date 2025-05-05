@@ -6,13 +6,52 @@
     <md:uuid>cc3c4697-2bef-4e00-8166-dfe68c5d208f</md:uuid>
   </metadata>
   <content>
-    <section class="practice" id="sect-00001"><title>Warm Up</title>
-      <exercise id="exer-00001">
-        <problem id="prob-00001">
-        <para id="para-00001"><link class="os-embed" url="#exercise/Alg1_5_11_1_WU_92"/></para>
-        </problem>
+    <section class="practice" id="sect-00001"><title>Warm Up Activity</title>
+      <para id="para-00001">Here is a graph of a function <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>400</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.2</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math>.</para>
+      <para id="para-00002">
+          <media alt="Graph of a function on grid, origin O. Horizontal axis, x, from 0 to 40 by 10's. Vertical axis, y, from 0 to 1,000, by 500's. Line crosses  y axis at 0 comma 400, quickly decreasing then running horizontal to x axis.">
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_13_02_01.svg"/>
+          </media>
+        
+    </para>
+      
+        <exercise id="exer-00001">
+          <problem id="prob-00001">
+            <para id="para-00003">Identify the approximate graphing window shown.</para>
+            <para id="para-00004">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          </problem>
+          <solution id="sol-00001">
+            <para id="para-00005">Compare your answer:</para>
+            <para id="para-00006"><m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>44</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>100</m:mn></m:mrow></m:math> or equivalent</para>
+          </solution>
         </exercise>
+      
+      
+        <exercise id="exer-00002">
+          <problem id="prob-00002">
+            <para id="para-00007">Suggest a new graphing window that would:</para>
+        <para id="para-00008">make the graph more informative or meaningful.</para>
        
+            <para id="para-00009">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          </problem>
+          <solution id="sol-00002">
+            <para id="para-00010">Compare your answer:</para>
+            <para id="para-00011"><m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>10</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mn>450</m:mn></m:mrow></m:math>. This window would include <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values where meaningful changes happen and exclude the parts where the changes are very small. The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values are limited to values that matter, between 0 and 400, allowing us to see more clearly the changes in that range.</para>
+          </solution>
+        </exercise>
+      
+      
+        <exercise id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00012">make the graph less informative or meaningful.</para>
+            <para id="para-00013">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+          </problem>
+          <solution id="sol-00003">
+            <para id="para-00014">Compare your answer:</para>
+            <para id="para-00015"><m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>80</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mn>10</m:mn><m:mo>&lt;</m:mo><m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mn>100</m:mn></m:mrow></m:math>. This window would show a lot of useless <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values and cut off the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values at 100, which would make the behavior of the function when 𝑥 is between 0 and 1 very difficult to observe.</para>
+          </solution>
+        </exercise>
+      
     </section>
   </content>
 </document>

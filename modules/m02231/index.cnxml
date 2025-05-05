@@ -6,13 +6,68 @@
     <md:uuid>d2b11d8e-4bc6-42eb-8989-0eeca45745b4</md:uuid>
   </metadata>
   <content>
-    <section class="practice" id="sect-00001"><title>Warm Up</title>
+    <section class="practice" id="sect-00001"><title>Warm Up Activity</title>
+      <para id="para-00001">Let's try to find at least one solution to <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>35</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+      <!--Text Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-        <para id="para-00001"><link class="os-embed" url="#exercise/Alg1_8_9_1_WU_76"/></para>
+          <para id="para-00002">Create a table of values. In column 1, enter the whole numbers between 0 and 10 to represent values of x. In column 2, evaluate the expression <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>35</m:mn></m:mrow></m:math> using the values for <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>.</para>
+          <para id="para-00003">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        </exercise>
-       
+        <solution id="sol-00001">
+          <para id="para-00004">Compare your answer:</para>
+          <table class="unnumbered os-raise-horizontaltable" id="table-00001">
+            <tgroup cols="12">
+              <tbody>
+                <row>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> </emphasis>
+                  </entry>
+                  <entry> 0 </entry>
+                  <entry> 1 </entry>
+                  <entry> 2 </entry>
+                  <entry> 3 </entry>
+                  <entry> 4 </entry>
+                  <entry> 5 </entry>
+                  <entry> 6 </entry>
+                  <entry> 7 </entry>
+                  <entry> 8 </entry>
+                  <entry> 9 </entry>
+                  <entry> 10 </entry>
+                </row>
+                <row>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>35</m:mn></m:mrow></m:math> </emphasis>
+                  </entry>
+                  <entry> –35 </entry>
+                  <entry> –36 </entry>
+                  <entry> –35 </entry>
+                  <entry> –32 </entry>
+                  <entry> –27 </entry>
+                  <entry> –20 </entry>
+                  <entry> –11 </entry>
+                  <entry> 0 </entry>
+                  <entry> 13 </entry>
+                  <entry> 28 </entry>
+                  <entry> 45 </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="para-00005">We can see from the table that a solution to the equation is <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> since <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>35</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> at that value.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00006">There is another number outside of 0 to 10 that would make the expression <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>35</m:mn></m:mrow></m:math> equal 0. Can you find it?</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00007">Enter the number outside of 0 to 10 that would make the expression <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>2</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>35</m:mn></m:mrow></m:math> equal 0.</para>
+          <para id="para-00008">Compare your answer:</para>
+          <para id="para-00009">The other zero for the equation is located at <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math>, but it is possible that you did not consider negative numbers.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
     </section>
   </content>
 </document>
