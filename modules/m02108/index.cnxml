@@ -7,22 +7,69 @@
   </metadata>
   <content>
     <section class="practice" id="sect-00001">      <title>Activity</title>
-      <exercise>
-        <problem>
-        <para><link class="os-embed" url="#exercise/Alg1_8_2_3_PLA_194"/></para>
+      <para id="para-00001">The expressions <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>200</m:mn><m:mi>−</m:mi><m:mn>5</m:mn><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>200</m:mn><m:mi>p</m:mi></m:mrow></m:math> define the same function. The function models the revenue a school would earn from selling raffle tickets at <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> dollars each.</para>
+      <!--Text Entry Interaction Start -->
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00002">At what price or prices would the school collect $0 revenue from raffle sales? Explain or show your reasoning.</para>
         </problem>
-        </exercise>
-       </section>
+        <solution id="sol-00001">
+          <para id="para-00003">Enter your reasoning.</para>
+          <para id="para-00004">Compare your answer:</para>
+          <para id="para-00005">$0 and $40. For example, if the equation <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>200</m:mn><m:mi>−</m:mi><m:mn>5</m:mn><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> is true, then either <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> is equal to 0, or <m:math display="inline"><m:mrow><m:mn>200</m:mn><m:mi>−</m:mi><m:mn>5</m:mn><m:mi>p</m:mi></m:mrow></m:math> is equal to 0. If <m:math display="inline"><m:mrow><m:mn>200</m:mn><m:mi>−</m:mi><m:mn>5</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, then <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> is 40, because <m:math display="inline"><m:mrow><m:mn>200</m:mn><m:mi>−</m:mi><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>40</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is 0.</para>
+        </solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00006">The school staff noticed that there are two ticket prices that would result in a revenue of $500. What equation could you use to determine what those two prices are?</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00007">Enter an equation.</para>
+          <para id="para-00008">Compare your answer:</para>
+          <para id="para-00009">We could write <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>200</m:mn><m:mi>−</m:mi><m:mn>5</m:mn><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>500</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>200</m:mn><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>500</m:mn></m:mrow></m:math>. Approximate solutions can be found using trial and error or graphing. However, we don’t yet know an exact way to solve either equation.</para>
+        </solution>
+      </exercise></section>
       <section id="sect-00002">
         <title>Are you ready for more?</title>
         <section class="practice" id="sect-00006"><title>Extending Your Thinking</title>
 
-          <exercise>
-            <problem>
-            <para><link class="os-embed" url="#exercise/Alg1_8_2_3_PLA_195"/></para>
-            </problem>
-            </exercise>
-           </section></section>
+        <exercise class="RFM1" id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00010">Can you find the following prices without graphing?</para>
+            <para id="para-00011">If the school charges $10, it will collect $1500 in revenue. Find another price that would generate $1500 in revenue.</para>
+          </problem>
+          <solution id="sol-00003">
+            <para id="para-00012">Enter another price.</para>
+            <para id="para-00013">Compare your answer:</para>
+            <para id="para-00014">$30</para>
+            <para id="para-00015">Moving the same distance away from each horizontal intercept, at $0 and $40, results in equal revenue. This means $10 and $30 earn an equal amount of revenue.</para>
+          </solution>
+        </exercise>
+        <!--End interaction-->
+        <exercise class="RFM1" id="exer-00004">
+          <problem id="prob-00004">
+            <para id="para-00016">If the school charges $28, it will collect $1680 in revenue. Find another price that would generate $1680 in revenue.</para>
+          </problem>
+          <solution id="sol-00004">
+            <para id="para-00017">Enter another price.</para>
+            <para id="para-00018">Compare your answer:</para>
+            <para id="para-00019">$12</para>
+            <para id="para-00020">Moving the same distance away from each horizontal intercept, at $0 and $40, results in equal revenue. This means $12 and $28 earn an equal amount of revenue.</para>
+          </solution>
+        </exercise>
+        <!--End interaction-->
+        <exercise class="RFM1" id="exer-00005">
+          <problem id="prob-00005">
+            <para id="para-00021">Find the price that would produce the maximum possible revenue. Be prepared to show your reasoning.</para>
+          </problem>
+          <solution id="sol-00005">
+            <para id="para-00022">Enter the price that would produce the maximum possible revenue.</para>
+            <para id="para-00023">Compare your answer:</para>
+            <para id="para-00024">$20. Moving the same distance away from each horizontal intercept results in equal revenue. The farther away we move from one horizontal intercept in the direction of the other intercept, the greater the revenue. An optimal ticket price of $20, producing $2000 in revenue, is found in the middle point between the two intercepts, at <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math>.</para>
+          </solution>
+        </exercise></section></section>
         <!--End interaction-->
         <section id="sect-00003">
           <title>Video: Solving a Quadratic Equation Set Equal to Zero</title>

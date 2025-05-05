@@ -7,12 +7,182 @@
   </metadata>
   <content>
     <section class="practice" id="sect-00001">      <title>Activity</title>
-      <exercise>
-        <problem>
-        <para><link class="os-embed" url="#exercise/Alg1_8_7_2_PLA_128"/></para>
+      <para id="para-00001">Let’s begin by reviewing how to convert between standard and factored form using expressions like the ones we have seen before.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00002">Each row of the table below has a pair of equivalent expressions. Complete the table. If you get stuck, consider drawing a diagram.</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00001">
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>
+                    <emphasis> Factored form </emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis> Standard form </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00003"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry>
+                    <para id="para-00004"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>30</m:mn></m:mrow></m:math></para></entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00005"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry>
+                    <para id="para-00006"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:math></para></entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="para-00007">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        </exercise>
-       
+        <solution id="sol-00001">
+          <para id="para-00008">Compare your answers:</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00002">
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>
+                    <emphasis> Factored form </emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis> Standard form </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00009"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></entry>
+                  <entry>
+                    <para id="para-00010"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>30</m:mn></m:mrow></m:math></para></entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00011"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></entry>
+                  <entry>
+                    <para id="para-00012"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>30</m:mn></m:mrow></m:math></para></entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00013"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></entry>
+                  <entry>
+                    <para id="para-00014"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>9</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:math></para></entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00015"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></entry>
+                  <entry>
+                    <para id="para-00016"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>11</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>18</m:mn></m:mrow></m:math></para></entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
+      <para id="para-00017">In the warm up, you examined factors that had different signs. Two numbers’ signs affect the sum when they are combined and the product when they are multiplied. Use your observations from the warm up to explore these expressions that are in some ways unlike the ones we have seen before.</para>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00018">Each row of the table below has a pair of equivalent expressions. Complete the table. If you get stuck, consider drawing a diagram.</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00003">
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>
+                    <emphasis> Factored form </emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis> Standard form </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00019"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry>
+                    <para id="para-00020"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>9</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>36</m:mn></m:mrow></m:math></para></entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry>
+                    <para id="para-00021"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>35</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>36</m:mn></m:mrow></m:math></para></entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry>
+                    <para id="para-00022"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>35</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>36</m:mn></m:mrow></m:math></para></entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="para-00023">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00024">Compare your answers:</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00004">
+            <tgroup cols="2">
+              <tbody>
+                <row>
+                  <entry>
+                    <emphasis> Factored form </emphasis>
+                  </entry>
+                  <entry>
+                    <emphasis> Standard form </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00025"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></entry>
+                  <entry>
+                    <para id="para-00026"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>9</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>36</m:mn></m:mrow></m:math></para></entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00027"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></entry>
+                  <entry>
+                    <para id="para-00028"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>9</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>36</m:mn></m:mrow></m:math></para></entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00029"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>36</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></entry>
+                  <entry>
+                    <para id="para-00030"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>35</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>36</m:mn></m:mrow></m:math></para></entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00031"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>36</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></entry>
+                  <entry>
+                    <para id="para-00032"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>35</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>36</m:mn></m:mrow></m:math></para></entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
+      <!--Text Entry Interaction Start -->
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00033">Name some ways that the expressions in the second table are different from those in the first table (aside from the fact that the expressions use different numbers).</para>
+        </problem>
+        <solution id="sol-00003">
+          <para id="para-00034">Enter your explanation.</para>
+          <para id="para-00035">Compare your answer:</para>
+          <para id="para-00036">In the second table, the expressions in standard form all have a negative constant term. In the first table, they are all positive and the numbers are smaller.</para>
+          <para id="para-00037">The factored expressions in the first table are either both sums or both differences (same operation in both binomials). In the second table, they all consist of a sum and a difference (different operations in the binomials).</para>
+        </solution>
+      </exercise>
       <!--Interaction End -->
       <note id="note-00001">
         <title>Why Should I Care?</title>

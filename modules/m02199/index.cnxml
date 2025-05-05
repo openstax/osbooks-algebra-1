@@ -7,12 +7,562 @@
   </metadata>
   <content>
     <section class="practice" id="sect-00001">      <title>Activity</title>
-      <exercise>
-        <problem>
-        <para><link class="os-embed" url="#exercise/Alg1_8_7_3_PLA_167"/></para>
+      <para id="para-00001">For questions 1 - 2, consider the expression <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>100</m:mn></m:mrow></m:math>. (Note the leading coefficient is 1.)</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00002">Create a table with all pairs of factors of +100 that would give positive values of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.</para>
+          <para id="para-00003">For each pair, state the <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> value they produce. (Use as many rows as needed.)</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00001">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factor 1 </emphasis>
+                  </entry>
+                  <entry><emphasis> Factor 2 </emphasis>
+                  </entry>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> (positive) </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="para-00004">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
-        </exercise>
-       </section>
+        <solution id="sol-00001">
+          <para id="para-00005">Compare your answers:</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00002">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factor 1 </emphasis>
+                  </entry>
+                  <entry><emphasis> Factor 2 </emphasis>
+                  </entry>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> (positive) </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00006">10</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00007">10</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00008">20</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00009">20</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00010">5</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00011">25</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00012">25</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00013">4</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00014">29</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00015">50</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00016">2</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00017">52</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00018">100</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00019">1</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00020">101</para>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00021">Create a table with all pairs of factors of +100 that would give negative values of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.</para>
+          <para id="para-00022">For each pair, state the <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> value they produce. (Use as many rows as needed.)</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00003">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factor 1 </emphasis>
+                  </entry>
+                  <entry><emphasis> Factor 2 </emphasis>
+                  </entry>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> (negative) </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="para-00023">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00024">Compare your answers:</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00004">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factor 1 </emphasis>
+                  </entry>
+                  <entry><emphasis> Factor 2 </emphasis>
+                  </entry>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> (negative) </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00025">–10</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00026">–10</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00027">–20</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00028">–20</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00029">–5</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00030">–25</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00031">–25</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00032">–4</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00033">–29</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00034">–50</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00035">–2</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00036">–52</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00037">–100</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00038">–1</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00039">–101</para>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
+      <para id="para-00040">For questions 3 – 5, consider the expression <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>100</m:mn></m:mrow></m:math>. (Note the leading coefficient is 1.)</para>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00041">Create a table with all pairs of factors of –100 that would result in positive values of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.</para>
+          <para id="para-00042">For each pair of factors, state the <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> value they produce. (Use as many rows as needed.)</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00005">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factor 1 </emphasis>
+                  </entry>
+                  <entry><emphasis> Factor 2 </emphasis>
+                  </entry>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> (positive) </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="para-00043">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution id="sol-00003">
+          <para id="para-00044">Compare your answers:</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00006">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factor 1 </emphasis>
+                  </entry>
+                  <entry><emphasis> Factor 2 </emphasis>
+                  </entry>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> (positive) </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00045">25</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00046">–4</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00047">21</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00048">20</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00049">–5</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00050">15</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00051">50</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00052">–2</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00053">48</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00054">100</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00055">–1</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00056">99</para>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00057">Create a table with all pairs of factors of –100 that would give negative values of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.</para>
+          <para id="para-00058">For each pair, state the <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> value they produce. (Use as many rows as needed.)</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00007">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factor 1 </emphasis>
+                  </entry>
+                  <entry><emphasis> Factor 2 </emphasis>
+                  </entry>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> (negative) </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="para-00059">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution id="sol-00004">
+          <para id="para-00060">Compare your answers:</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00008">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factor </emphasis>
+                  </entry>
+                  <entry><emphasis> Factor 2 </emphasis>
+                  </entry>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>(negative) </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00061">–25</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00062">4</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00063">–21</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00064">–20</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00065">5</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00066">–15</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00067">–50</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00068">2</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00069">–48</para>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00070">–100</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00071">1</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00072">–99</para>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00073">Create a table with all pairs of factors of –100 that would result in a zero value of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.</para>
+          <para id="para-00074">For each pair, state the <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> value they produce. (Use as many rows as needed.)</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00009">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factor 1 </emphasis>
+                  </entry>
+                  <entry><emphasis> Factor 2 </emphasis>
+                  </entry>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> (zero) </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+                <row>
+                  <entry> </entry>
+                  <entry> </entry>
+                  <entry> </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="para-00075">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution id="sol-00005">
+          <para id="para-00076">Compare your answers:</para>
+          <table class="unnumbered os-raise-midsizetable" id="table-00010">
+            <tgroup cols="3">
+              <tbody>
+                <row>
+                  <entry><emphasis> Factor 1 </emphasis>
+                  </entry>
+                  <entry><emphasis> Factor 2 </emphasis>
+                  </entry>
+                  <entry><emphasis> <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> (zero) </emphasis>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <para id="para-00077">–10</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00078">10</para>
+                  </entry>
+                  <entry>
+                    <para id="para-00079">0</para>
+                  </entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
+      <para id="para-00080">For problems 6 – 9, write each expression in factored form. Note that the leading coefficient for each expression is 1.</para>
+      <!--Text Entry Interaction Start -->
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00081"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>25</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>100</m:mn></m:mrow></m:math></para></problem>
+        <solution id="sol-00006">
+          <para id="para-00082">Enter the expression in factored form.</para>
+          <para id="para-00083">Compare your answer:</para>
+          <para id="para-00084"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise id="exer-00007">
+        <problem id="prob-00007">
+          <para id="para-00085"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>100</m:mn></m:mrow></m:math></para></problem>
+        <solution id="sol-00007">
+          <para id="para-00086">Enter the expression in factored form.</para>
+          <para id="para-00087">Compare your answer:</para>
+          <para id="para-00088"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise id="exer-00008">
+        <problem id="prob-00008">
+          <para id="para-00089"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>15</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>100</m:mn></m:mrow></m:math></para></problem>
+        <solution id="sol-00008">
+          <para id="para-00090">Enter the expression in factored form.</para>
+          <para id="para-00091">Compare your answer:</para>
+          <para id="para-00092"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>20</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution>
+      </exercise>
+      <!--Interaction End -->
+      <!--Text Entry Interaction Start -->
+      <exercise id="exer-00009">
+        <problem id="prob-00009">
+          <para id="para-00093"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>99</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>100</m:mn></m:mrow></m:math></para></problem>
+        <solution id="sol-00009">
+          <para id="para-00094">Enter the expression in factored form.</para>
+          <para id="para-00095">Compare your answer:</para>
+          <para id="para-00096"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>100</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution>
+      </exercise></section>
       <!--Interaction End -->
       <section id="sect-00002">
         <title>Video: Analyzing factors of 100 and –100</title>
@@ -25,12 +575,22 @@
         <title>Are you ready for more?</title>
         <section class="practice" id="sect-00006"><title>Extending Your Thinking</title>
 
-          <exercise>
-            <problem>
-            <para><link class="os-embed" url="#exercise/Alg1_8_7_3_PLA_168"/></para>
-            </problem>
-            </exercise>
-           
+        <exercise class="RFM1" id="exer-00010">
+          <problem id="prob-00010">
+            <para id="para-00098">How many different integers <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> can you find so that the expression <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math> can be written in factored form?</para>
+          </problem>
+          <solution id="sol-00010">
+            <para id="para-00099">Enter the number of different integers <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.</para>
+            <para id="para-00100">Compare your answer:</para>
+            <para id="para-00101">Infinitely many. The number <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> needs to have two factors that add up to 10. Here are some examples:</para>
+            <list id="list-00001">
+              <item><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>24</m:mn></m:mrow></m:math></item>
+              <item><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16</m:mn></m:mrow></m:math></item>
+              <item><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>11</m:mn></m:mrow></m:math></item>
+            </list>
+            <para id="para-00102">There are infinitely many examples because there are infinitely many pairs of integers whose sum is 10.</para>
+          </solution>
+        </exercise>
         <!--End interaction-->
       <note class="self-check" id="note-00001">
         <exercise id="exer-00013">
