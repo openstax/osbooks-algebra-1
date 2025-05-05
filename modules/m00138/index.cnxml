@@ -7,11 +7,49 @@
   </metadata>
   <content>
     <section class="practice" id="sect-00001"><title>Cool Down Activity</title>
-      <exercise>
-        <problem>
-        <para><link class="os-embed" url="#exercise/Alg1_1_5_5_CD_77"/></para>
+      <para id="para-00001">A ceramic sugar bowl weighs 340 grams when empty. It is then filled with sugar. One tablespoon of sugar weighs 12.5 grams.</para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00002">Write an equation to represent the relationship between the total weight of the bowl in grams, <m:math display="inline"><m:mrow><m:mi>W</m:mi></m:mrow></m:math>, and the tablespoons of sugar, <m:math display="inline"><m:mrow><m:mi>T</m:mi></m:mrow></m:math>.</para>
         </problem>
-        </exercise>
+        <solution id="sol-00001">
+          <para id="para-00003">Compare your answer:</para>
+          <para id="para-00004"><m:math display="inline"><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mn>340</m:mn><m:mo>+</m:mo><m:mn>12.5</m:mn><m:mi>T</m:mi></m:mrow></m:math>, or <m:math display="inline"><m:mrow><m:mn>340</m:mn><m:mo>+</m:mo><m:mn>12.5</m:mn><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>740</m:mn></m:mrow></m:math></para>
+        </solution>
+      </exercise>
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00005">When the sugar bowl is full, it weighs 740 grams. How many tablespoons of sugar can the bowl hold? Be prepared to show your reasoning.</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00006">Compare your answer:</para>
+          <para id="para-00007">32 tablespoons; <m:math display="inline"><m:mrow><m:mn>740</m:mn><m:mo>=</m:mo><m:mn>340</m:mn><m:mo>+</m:mo><m:mn>12.5</m:mn><m:mi>T</m:mi></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>400</m:mn><m:mo>=</m:mo><m:mn>12.5</m:mn><m:mi>T</m:mi></m:mrow></m:math>; Subtract 340 from both sides. <m:math display="inline"><m:mrow><m:mn>32</m:mn><m:mo>=</m:mo><m:mi>T</m:mi></m:mrow></m:math>; Divide both sides by 12.5.</para>
+        </solution>
+      </exercise>
+      <para id="para-00008">The graph represents the relationship between the number of tablespoons of sugar in the bowl and the total weight of the bowl.</para>
+      
+        <media alt="Graph of a line. Weight, grams. Sugar, tablespoons.">
+          <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_07_12_01.svg"/>
+        </media>
+      
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00009">Which point on the graph could represent your answer to the previous question?</para>
+        </problem>
+        <solution id="sol-00003">
+          <para id="para-00010">Compare your answer:</para>
+          <para id="para-00011">Point D, because its coordinates could be (32, 740).</para>
+        </solution>
+      </exercise>
+      <exercise id="exer-00004">
+        <problem id="prob-00004">
+          <para id="para-00012">About how many tablespoons of sugar are in the bowl when the total weight is 600 grams?</para>
+        </problem>
+        <solution id="sol-00004">
+          <para id="para-00013">Compare your answer:</para>
+          <para id="para-00014">About 21 tablespoons. Looking at the graph, when the weight is 600, the line is about at 21.</para>
+        </solution>
+      </exercise>
     </section>
   </content>
 </document>
