@@ -6,110 +6,595 @@
     <md:uuid>1a1c315e-480c-4ce2-be46-eee69427297d</md:uuid>
   </metadata>
   <content>
-    <section class="practice" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">Here is a graph that represents the height of a baseball, <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>, in feet as a function of time, <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>, in seconds after it was hit by Player A.</para>
+    <section class="practice" id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">Here is a graph that represents the height of a baseball, <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>, in feet as a function of time, <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:math>, in seconds after it was hit by
+        Player A.</para>
       <para id="para-00002">
-          <media alt="Horizontal axis, time in seconds. Vertical axis, height in feet. Parabola, opens down, x intercepts at about -0.62 and about 5.12, vertex = 2 point 5 comma 105.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_16_06_01.svg"/>
-          </media>
-        
-    </para>
-      <para id="para-00003">The function <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> defined by <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>t</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mi>−</m:mi><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> also represents the height in feet of a baseball <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> seconds after it was hit by Player B. Without graphing function <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math>, answer the following questions and explain or show how you know.</para>
- 
-        <exercise id="ff1cdcd1-fdec-4cce-97cb-cbe299193eb5" class="multiple-choice">
-          <problem id="prob-00001">
-            <para id="para-00004">Which player's baseball stayed in flight longer?</para>
-          </problem>
-          <solution id="sol-00001">
-            <para id="para-00005">Correct! Player A's baseball stayed in flight longer. The zeros of function <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> are 4 and <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math>. The negative zero doesn't have any meaning in this situation. A zero in this situation means the time when the baseball has a height of 0 (or when it hits the ground). For Player B, this happened when <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> or 4 seconds after it was hit. Player A's baseball hit the ground a little over 5 seconds after it was hit.</para>
-            <para id="para-00006">Incorrect. The correct answer is: Player A's baseball stayed in flight longer. The zeros of function <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> are 4 and <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math>. The negative zero doesn't have any meaning in this situation. A zero in this situation means the time when the baseball has a height of 0 (or when it hits the ground). For Player B, this happened when <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> or 4 seconds after it was hit. Player A's baseball hit the ground a little over 5 seconds after it was hit.</para>
-          </solution>
-        </exercise>
-        <exercise id="_9280e901-492a-4e45-94b3-e5a9d7d012a5" class="multiple-choice">
-          <problem id="prob-00002">
-            <para id="para-00007">Which player's baseball reached a greater maximum height?</para>
-          </problem>
-          <solution id="sol-00002">
-            <para id="para-00008">Correct! Player A's baseball reached a greater maximum height. From the graph for Player A, it looks like the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-coordinate of the vertex is around 105 feet. For Player B, the vertex of the graph has a <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>-coordinate of about 2 (halfway between <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and 4). We can find <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to estimate the height at that point. <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>16</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>−</m:mi><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>33</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>66</m:mn></m:mrow></m:math>, so the highest point of Player B's baseball was around 66 feet.</para>
-            <para id="para-00009">The correct answer is: Player A's baseball reached a greater maximum height. From the graph for Player A, it looks like the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-coordinate of the vertex is around 105 feet. For Player B, the vertex of the graph has a <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>-coordinate of about 2 (halfway between <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math> and 4). We can find <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> to estimate the height at that point. <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>16</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>−</m:mi><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>33</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>66</m:mn></m:mrow></m:math>, so the highest point of Player B's baseball was around 66 feet.</para>
-          </solution>
-        </exercise>
+        <media
+          alt="Horizontal axis, time in seconds. Vertical axis, height in feet. Parabola, opens down, x intercepts at about -0.62 and about 5.12, vertex = 2 point 5 comma 105.">
+          <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_16_06_01.svg" />
+        </media>
 
-      <!--Text Entry Interaction Start -->
+      </para>
+      <para id="para-00003">The function <m:math display="inline">
+          <m:mrow>
+            <m:mi>g</m:mi>
+          </m:mrow>
+        </m:math> defined by <m:math display="inline">
+          <m:mrow>
+            <m:mi>g</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>t</m:mi>
+            <m:mo stretchy="false">)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mo>−</m:mo>
+            <m:mn>16</m:mn>
+            <m:mi>t</m:mi>
+            <m:mi>−</m:mi>
+            <m:mn>1</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>t</m:mi>
+            <m:mi>−</m:mi>
+            <m:mn>4</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math> also represents the
+        height in feet of a baseball <m:math display="inline">
+          <m:mrow>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:math> seconds after it was hit by Player B.
+        Without graphing function <m:math display="inline">
+          <m:mrow>
+            <m:mi>g</m:mi>
+          </m:mrow>
+        </m:math>, answer the following questions and
+        explain or show how you know.</para>
+
+      <exercise id="ff1cdcd1-fdec-4cce-97cb-cbe299193eb5" class="multiple-choice">
+        <problem id="prob-00001">
+          <para id="para-00004">Which player's baseball stayed in flight longer?</para>
+        </problem>
+        <solution id="sol-00001">
+          <para id="para-00005">Correct! Player A's baseball stayed in flight longer. The zeros of
+            function <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+              </m:mrow>
+            </m:math> are 4 and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo>−</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>.
+            The negative zero doesn't have any meaning in this situation. A zero in this situation
+            means the time when the baseball has a height of 0 (or when it hits the ground). For
+            Player B, this happened when <m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math> or 4 seconds after it was
+            hit. Player A's baseball hit the ground a little over 5 seconds after it was hit.</para>
+          <para id="para-00006">Incorrect. The correct answer is: Player A's baseball stayed in
+            flight longer. The zeros of function <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+              </m:mrow>
+            </m:math> are 4 and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo>−</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>.
+            The negative zero doesn't have any meaning in this situation. A zero in this situation
+            means the time when the baseball has a height of 0 (or when it hits the ground). For
+            Player B, this happened when <m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math> or 4 seconds after it was
+            hit. Player A's baseball hit the ground a little over 5 seconds after it was hit.</para>
+        </solution>
+      </exercise>
+      <exercise id="_9280e901-492a-4e45-94b3-e5a9d7d012a5" class="multiple-choice">
+        <problem id="prob-00002">
+          <para id="para-00007">Which player's baseball reached a greater maximum height?</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00008">Correct! Player A's baseball reached a greater maximum height. From
+            the graph for Player A, it looks like the <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-coordinate of the vertex
+            is around 105 feet. For Player B, the vertex of the graph has a <m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:math>-coordinate of about 2
+            (halfway between <m:math display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+            and 4). We can find <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> to
+            estimate the height at that point. <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>16</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mi>−</m:mi>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>−</m:mi>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>33</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>66</m:mn>
+              </m:mrow>
+            </m:math>, so the highest point of
+            Player B's baseball was around 66 feet.</para>
+          <para id="para-00009">The correct answer is: Player A's baseball reached a greater maximum
+            height. From the graph for Player A, it looks like the <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-coordinate of the vertex
+            is around 105 feet. For Player B, the vertex of the graph has a <m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:math>-coordinate of about 2
+            (halfway between <m:math display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+            and 4). We can find <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> to
+            estimate the height at that point. <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>16</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mi>−</m:mi>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>−</m:mi>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>33</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>66</m:mn>
+              </m:mrow>
+            </m:math>, so the highest point of
+            Player B's baseball was around 66 feet.</para>
+        </solution>
+      </exercise>
+
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00003">
-          <para id="para-00010">Based on the graph, what is the approximate height, in feet, of Player A’s baseball when hit? How do you know?</para>
-          
+          <para id="para-00010">Based on the graph, what is the approximate height, in feet, of
+            Player A’s baseball when hit? How do you know?</para>
+
         </problem>
         <solution id="sol-00003">
           <para id="para-00011">Compare your answer:</para>
-          <para id="para-00012">We can look at the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept of the graph, and it looks like the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-coordinate is about 5.</para>
+          <para id="para-00012">We can look at the <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-intercept of the graph,
+            and it looks like the <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-coordinate is about 5.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-        <exercise id="_41ccb94e-1b66-4125-afd1-e40694755a1a" class="multiple-choice">
-          <problem id="prob-00004">
-            
-            <para id="para-00013">What is the height, in feet, of Player B’s baseball when hit?</para>
-          </problem>
-          <solution id="sol-00004">
-            <para id="para-00014">Correct! 4 feet. Find the height when <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>16</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mi>−</m:mi><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, so it was hit at 4 feet.</para>
-            <para id="para-00015">The correct answer is 4 feet. Find the height when <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>16</m:mn><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mi>−</m:mi><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, so it was hit at 4 feet.</para>
-          </solution>
-        </exercise>
-      </section>
-      <section id="sect-00004"><title>Video: Comparing Quadratic Functions</title>
-      <para id="para-00016">Watch the following video to learn more about comparing quadratic functions in different forms.</para>
+      <!--Interaction
+      End -->
+      <exercise id="_41ccb94e-1b66-4125-afd1-e40694755a1a" class="multiple-choice">
+        <problem id="prob-00004">
+
+          <para id="para-00013">What is the height, in feet, of Player B’s baseball when hit?</para>
+        </problem>
+        <solution id="sol-00004">
+          <para id="para-00014">Correct! 4 feet. Find the height when <m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>. <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>16</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mi>−</m:mi>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mi>−</m:mi>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math>, so it was hit at 4 feet.</para>
+          <para id="para-00015">The correct answer is 4 feet. Find the height when <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>. <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>16</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mi>−</m:mi>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mi>−</m:mi>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math>, so it was hit at 4 feet.</para>
+        </solution>
+      </exercise>
+    </section>
+    <section id="sect-00004">
+      <title>Video: Comparing Quadratic Functions</title>
+      <para id="para-00016">Watch the following video to learn more about comparing quadratic
+        functions in different forms.</para>
       <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/9382d2c3ae0cf04cea052ff2eb4e67c80f49c56d"/>
+        <iframe width="660" height="371.4"
+          src="https://k12.openstax.org/contents/raise/resources/9382d2c3ae0cf04cea052ff2eb4e67c80f49c56d" />
       </media>
     </section>
 
     <note class="self-check" id="note-00001">
       <exercise id="exer-00003">
         <problem id="prob-00006">
-        <para id="para-00017"><link class="os-embed" url="#exercise/Alg1_7_14_3_SC"/></para>
+          <para id="para-00017"><link class="os-embed" url="#exercise/Alg1_7_14_3_SC" /></para>
         </problem>
-        </exercise>
+      </exercise>
     </note>
- 
+
+    <section>
+      <title>Additional Resources</title>
       <section id="sect-00005">
         <title>Comparing the Graphs and Equations of Quadratic Functions</title>
-        <para id="para-00019">Jai kicks a football. The graph that represents the height of the football, <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>, as a function of time, in seconds, is below.</para>
+        <para id="para-00019">Jai kicks a football. The graph that represents the height of the
+          football, <m:math display="inline">
+            <m:mrow>
+              <m:mi>h</m:mi>
+            </m:mrow>
+          </m:math>, as a function of time, in
+          seconds, is below.</para>
         <para id="para-00020">
-          
-            <media alt="">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_08_16_08_01.jpg" width="259"/>
-            </media>
-          
-      </para>
-        <para id="para-00021">Kellan kicks a football and the height in feet, <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>, is represented by the function <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+
+          <media alt="">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_08_16_08_01.jpg" width="259" />
+          </media>
+
+        </para>
+        <para id="para-00021">Kellan kicks a football and the height in feet, <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>h</m:mi>
+            </m:mrow>
+          </m:math>, is represented by the function <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>h</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>t</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>16</m:mn>
+              <m:mi>t</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>t</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>6</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>.</para>
         <para id="para-00022">Which player’s football stayed in the air longer?</para>
-        <para id="para-00023">Jai’s football landed after 4 seconds since the zero is at <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>. The other zero, where <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> is negative, does not make sense in this problem.</para>
-        <para id="para-00024">Looking at the function of Kellan’s ball, find the zeros by setting each factor equal to zero.</para>
+        <para id="para-00023">Jai’s football landed after 4 seconds since the zero is at <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>. The other zero, where <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math> is negative, does not make
+          sense in this problem.</para>
+        <para id="para-00024">Looking at the function of Kellan’s ball, find the zeros by setting
+          each factor equal to zero.</para>
         <list id="list-00002">
-          <item><m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>16</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> becomes <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math>. A negative time does not make sense in this problem.</item>
-          <item><m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> becomes <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>.</item>
+          <item><m:math display="inline">
+              <m:mrow>
+                <m:mo>−</m:mo>
+                <m:mn>16</m:mn>
+                <m:mi>t</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math> becomes <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>16</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>.
+            A negative time does not make sense in this problem.</item>
+          <item><m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math> becomes <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>6</m:mn>
+              </m:mrow>
+            </m:math>.</item>
         </list>
-        <para id="para-00025">Kellan’s ball was in the air for 6 seconds, so his ball stayed in the air 2 seconds longer than Jai’s.</para>
+        <para id="para-00025">Kellan’s ball was in the air for 6 seconds, so his ball stayed in the
+          air 2 seconds longer than Jai’s.</para>
         <note class="try" id="note-00002">
-    <title>Try It: Comparing the Graphs and Equations of Quadratic Functions</title>
+          <title>Try It: Comparing the Graphs and Equations of Quadratic Functions</title>
         
-          <exercise id="exer-00002">
+          <exercise
+            id="exer-00002">
             <problem id="prob-00005">
-              <para id="para-00026">Using the same information above, which player’s football reached a higher height?</para>
-              <para id="para-00027">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+              <para id="para-00026">Using the same information above, which player’s football
+          reached a higher height?</para>
+              <para id="para-00027">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
             </problem>
             <solution id="sol-00005">
               <para id="para-00028">Here is how to determine whose ball went higher:</para>
-              <para id="para-00029">Looking at the graph of Jai’s football, his football went about 70 feet high.</para>
-              <para id="para-00030"><emphasis>Step 1</emphasis> - For Kellan’s football, find the vertex.
-      The vertex is halfway between the zeros. Since <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math> is near 0 and the other <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercept is at 6, we can use 3 as an estimate for the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-coordinate of the vertex.</para>
-              <para id="para-00031"><emphasis>Step 2</emphasis> - Substitute this into the function:
-      <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>16</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>49</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>147</m:mn></m:mrow></m:math>.</para>
-              <para id="para-00032">Kellan’s ball went 147 feet into the air so his football went higher.</para>
+              <para id="para-00029">Looking at the graph of Jai’s football, his football went about
+          70 feet high.</para>
+              <para id="para-00030"><emphasis>Step 1</emphasis> - For Kellan’s football, find the
+          vertex. The vertex is halfway between the zeros. Since <m:math display="inline">
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>16</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+          is near 0 and the other <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math>-intercept is
+          at 6, we can use 3 as an estimate for the <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math>-coordinate of
+          the vertex.</para>
+              <para id="para-00031"><emphasis>Step 2</emphasis> - Substitute this into the function: <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>t</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>16</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>49</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>147</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00032">Kellan’s ball went 147 feet into the air so his football went
+          higher.</para>
             </solution>
           </exercise>
         </note>
       </section>
-  </content></document>
+    </section>
+  </content>
+</document>

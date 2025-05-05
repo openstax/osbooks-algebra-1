@@ -6,429 +6,1022 @@
     <md:uuid>0a8467f2-f127-4af6-b701-8168713e010b</md:uuid>
   </metadata>
   <content>
-    <section class="practice" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">For 1 - 6, use the following information to complete the table. Show the predicted number of downloads at each listed price. The first row has been completed for you.</para>
+    <section class="practice" id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">For 1 - 6, use the following information to complete the table. Show the
+        predicted number of downloads at each listed price. The first row has been completed for
+        you.</para>
       <para id="para-00002">
-        <quote id="quote-00001">A company that sells movies online is deciding how much to charge customers to download a new movie. Based on data from previous sales, the company predicts that if they charge <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> dollars for each download, then the number of downloads, in thousands, is <m:math display="inline"><m:mrow><m:mn>18</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:math>.</quote>
-    </para>
+        <quote id="quote-00001">A company that sells movies online is deciding how much to charge
+        customers to download a new movie. Based on data from previous sales, the company predicts
+        that if they charge <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math> dollars for each download, then
+        the number of downloads, in thousands, is <m:math display="inline">
+            <m:mrow>
+              <m:mn>18</m:mn>
+              <m:mo>−</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>.</quote>
+      </para>
       <table class="unnumbered os-raise-wideequaltable" id="table-00001">
-        <tgroup cols="3"><tbody><row>
-            <entry>
-             <emphasis>Price (dollars per download)</emphasis>
-            </entry>
-            <entry>
-             <emphasis>Number of downloads (thousands)</emphasis>
-            </entry>
-            <entry>
-             <emphasis>Revenue (thousands of dollars)</emphasis>
-            </entry>
-          </row>
-        <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>3</m:mn></m:mrow></m:math>
-      </entry>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>15</m:mn></m:mrow></m:math>
-      </entry>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>45</m:mn></m:mrow></m:math>
-      </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>5</m:mn></m:mrow></m:math>
-      </entry>
-            <entry>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-                <item>_____</item>
-              </list>
-            </entry>
-            <entry> </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>10</m:mn></m:mrow></m:math>
-      </entry>
-            <entry>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-                <item>_____</item>
-              </list>
-            </entry>
-            <entry> </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>12</m:mn></m:mrow></m:math>
-      </entry>
-            <entry>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
-                <item>_____</item>
-              </list>
-            </entry>
-            <entry> </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>15</m:mn></m:mrow></m:math>
-      </entry>
-            <entry>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
-                <item>_____</item>
-              </list>
-            </entry>
-            <entry> </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>18</m:mn></m:mrow></m:math>
-      </entry>
-            <entry>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00005">
-                <item>_____</item>
-              </list>
-            </entry>
-            <entry> </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>
-      </entry>
-            <entry>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
-                <item>_____</item>
-              </list>
-            </entry>
-            <entry> </entry>
-          </row>
-        </tbody></tgroup></table>
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>
+                <emphasis>Price (dollars per download)</emphasis>
+              </entry>
+              <entry>
+                <emphasis>Number of downloads (thousands)</emphasis>
+              </entry>
+              <entry>
+                <emphasis>Revenue (thousands of dollars)</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>15</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>45</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
+                  <item>_____</item>
+                </list>
+              </entry>
+              <entry> </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
+                  <item>_____</item>
+                </list>
+              </entry>
+              <entry> </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>12</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
+                  <item>_____</item>
+                </list>
+              </entry>
+              <entry> </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>15</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
+                  <item>_____</item>
+                </list>
+              </entry>
+              <entry> </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>18</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <list class="os-raise-noindent" list-type="enumerated" id="list-00005">
+                  <item>_____</item>
+                </list>
+              </entry>
+              <entry> </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
+                  <item>_____</item>
+                </list>
+              </entry>
+              <entry> </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
 
-        <exercise id="_31235259-bc95-4698-b236-52c61d0a8525" class="multiple-choice">
-          <problem id="prob-00001">
-            
-            <para id="para-00003">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>5</m:mn></m:mrow></m:math> per download, what is the number of downloads in thousands?</para>
-          </problem>
-          <solution id="sol-00001">
-            <para id="para-00004">Correct! There are <m:math display="inline"><m:mrow><m:mn>13</m:mn></m:mrow></m:math> thousand downloads when the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>5</m:mn></m:mrow></m:math> per download.</para>
-            <para id="para-00005">Try again.</para>
-          </solution>
-        </exercise>
-        <exercise id="a4f04d9b-9922-4779-b613-60f9e71080a9" class="multiple-choice">
-          <problem id="prob-00002">
-            
-            <para id="para-00006">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>10</m:mn></m:mrow></m:math> per download, what is the number of downloads in thousands?</para>
-          </problem>
-          <solution id="sol-00002">
-            <para id="para-00007">Correct! There are <m:math display="inline"><m:mrow><m:mn>8</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math> downloads when the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>10</m:mn></m:mrow></m:math> per download.</para>
-            <para id="para-00008">Try again.</para>
-          </solution>
-        </exercise>
-        <exercise id="_0586c43d-779a-4e6b-bb60-9f543ef4b31d" class="multiple-choice">
-          <problem id="prob-00003">
-            
-            <para id="para-00009">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>12</m:mn></m:mrow></m:math> per download, what is the number of downloads in thousands?</para>
-          </problem>
-          <solution id="sol-00003">
-            <para id="para-00010">Correct! There are <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math> downloads when the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>12</m:mn></m:mrow></m:math> per download.</para>
-            <para id="para-00011">Try again.</para>
-          </solution>
-        </exercise>
-        <exercise id="_3b858498-3a64-4358-8dc6-7268d8abf190" class="multiple-choice">
-          <problem id="prob-00004">
-            
-            <para id="para-00012">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>15</m:mn></m:mrow></m:math> per download, what is the number of downloads in thousands?</para>
-          </problem>
-          <solution id="sol-00004">
-            <para id="para-00013">Correct! There are <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math> downloads when the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>15</m:mn></m:mrow></m:math> per download.</para>
-            <para id="para-00014">Try again.</para>
-          </solution>
-        </exercise>
-        <exercise id="_7aceacfd-a174-43be-8421-91a3be927b97" class="multiple-choice">
-          <problem id="prob-00005">
-            
-            <para id="para-00015">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>18</m:mn></m:mrow></m:math> per download, what is the number of downloads in thousands?</para>
-          </problem>
-          <solution id="sol-00005">
-            <para id="para-00016">Correct! There are <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> downloads when the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>18</m:mn></m:mrow></m:math> per download.</para>
-            <para id="para-00017">Try again.</para>
-          </solution>
-        </exercise>
+      <exercise id="_31235259-bc95-4698-b236-52c61d0a8525" class="multiple-choice">
+        <problem id="prob-00001">
 
-      <!--Text Entry Interaction Start -->
+          <para id="para-00003">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math> per download, what is the
+            number of downloads in thousands?</para>
+        </problem>
+        <solution id="sol-00001">
+          <para id="para-00004">Correct! There are <m:math display="inline">
+              <m:mrow>
+                <m:mn>13</m:mn>
+              </m:mrow>
+            </m:math> thousand downloads when
+            the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math> per download.</para>
+          <para id="para-00005">Try again.</para>
+        </solution>
+      </exercise>
+      <exercise id="a4f04d9b-9922-4779-b613-60f9e71080a9" class="multiple-choice">
+        <problem id="prob-00002">
+
+          <para id="para-00006">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>10</m:mn>
+              </m:mrow>
+            </m:math> per download, what is
+            the number of downloads in thousands?</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00007">Correct! There are <m:math display="inline">
+              <m:mrow>
+                <m:mn>8</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>000</m:mn>
+              </m:mrow>
+            </m:math> downloads when the
+            price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>10</m:mn>
+              </m:mrow>
+            </m:math> per download.</para>
+          <para id="para-00008">Try again.</para>
+        </solution>
+      </exercise>
+      <exercise id="_0586c43d-779a-4e6b-bb60-9f543ef4b31d" class="multiple-choice">
+        <problem id="prob-00003">
+
+          <para id="para-00009">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>12</m:mn>
+              </m:mrow>
+            </m:math> per download, what is
+            the number of downloads in thousands?</para>
+        </problem>
+        <solution id="sol-00003">
+          <para id="para-00010">Correct! There are <m:math display="inline">
+              <m:mrow>
+                <m:mn>6</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>000</m:mn>
+              </m:mrow>
+            </m:math> downloads when the
+            price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>12</m:mn>
+              </m:mrow>
+            </m:math> per download.</para>
+          <para id="para-00011">Try again.</para>
+        </solution>
+      </exercise>
+      <exercise id="_3b858498-3a64-4358-8dc6-7268d8abf190" class="multiple-choice">
+        <problem id="prob-00004">
+
+          <para id="para-00012">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>15</m:mn>
+              </m:mrow>
+            </m:math> per download, what is
+            the number of downloads in thousands?</para>
+        </problem>
+        <solution id="sol-00004">
+          <para id="para-00013">Correct! There are <m:math display="inline">
+              <m:mrow>
+                <m:mn>3</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>000</m:mn>
+              </m:mrow>
+            </m:math> downloads when the
+            price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>15</m:mn>
+              </m:mrow>
+            </m:math> per download.</para>
+          <para id="para-00014">Try again.</para>
+        </solution>
+      </exercise>
+      <exercise id="_7aceacfd-a174-43be-8421-91a3be927b97" class="multiple-choice">
+        <problem id="prob-00005">
+
+          <para id="para-00015">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math> per download, what is
+            the number of downloads in thousands?</para>
+        </problem>
+        <solution id="sol-00005">
+          <para id="para-00016">Correct! There are <m:math display="inline">
+              <m:mrow>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math> downloads when the price
+            is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math> per download.</para>
+          <para id="para-00017">Try again.</para>
+        </solution>
+      </exercise>
+
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00006">
-          <para id="para-00018">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mi>x</m:mi></m:mrow></m:math> per download, what is the number of downloads in thousands?</para>
+          <para id="para-00018">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> per download, what is the
+            number of downloads in thousands?</para>
         </problem>
-        <solution id="sol-00006"><para id="para-00019">Compare your answer:</para>
-    <para id="para-00020"><m:math><m:mrow><m:mn>18</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:math></para></solution>
+        <solution id="sol-00006">
+          <para id="para-00019">Compare your answer:</para>
+          <para id="para-00020"><m:math>
+              <m:mrow>
+                <m:mn>18</m:mn>
+                <m:mo>−</m:mo>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
-      <para id="para-00021">For 7 - 12 complete the table by finding the <term class="glossary-tooltip" id="term-00001">revenue</term> at each price. The first row has been completed for you.</para>
+      <!--Interaction
+      End -->
+      <para id="para-00021">For 7 - 12 complete the table by finding the <term
+          class="glossary-tooltip" id="term-00001">revenue</term> at each price. The first row has
+        been completed for you.</para>
       <table class="unnumbered os-raise-wideequaltable" id="table-00002">
-        <tgroup cols="3"><tbody><row>
-            <entry>
-             <emphasis>Price (dollars per download)</emphasis>
-            </entry>
-            <entry>
-             <emphasis>Number of downloads (thousands)</emphasis>
-            </entry>
-            <entry>
-             <emphasis>Revenue (thousands of dollars)</emphasis>
-            </entry>
-          </row>
-        <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>3</m:mn></m:mrow></m:math>
-      </entry>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>15</m:mn></m:mrow></m:math>
-      </entry>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>45</m:mn></m:mrow></m:math>
-      </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>5</m:mn></m:mrow></m:math>
-      </entry>
-            <entry> </entry>
-            <entry>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00007">
-                <item>_____</item>
-              </list>
-            </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>10</m:mn></m:mrow></m:math>
-      </entry>
-            <entry> </entry>
-            <entry>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00008">
-                <item>_____</item>
-              </list>
-            </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>12</m:mn></m:mrow></m:math>
-      </entry>
-            <entry> </entry>
-            <entry>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00009">
-                <item>_____</item>
-              </list>
-            </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>15</m:mn></m:mrow></m:math>
-      </entry>
-            <entry> </entry>
-            <entry>
-              <list class="os-raise-noindent" start-value="10" list-type="enumerated" id="list-00010">
-                <item>_____</item>
-              </list>
-            </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mn>18</m:mn></m:mrow></m:math>
-      </entry>
-            <entry> </entry>
-            <entry>
-              <list class="os-raise-noindent" start-value="11" list-type="enumerated" id="list-00011">
-                <item>_____</item>
-              </list>
-            </entry>
-          </row>
-          <row>
-            <entry>
-        <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>
-      </entry>
-            <entry> </entry>
-            <entry>
-              <list class="os-raise-noindent" start-value="12" list-type="enumerated" id="list-00012">
-                <item>_____</item>
-              </list>
-            </entry>
-          </row>
-        </tbody></tgroup></table>
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>
+                <emphasis>Price (dollars per download)</emphasis>
+              </entry>
+              <entry>
+                <emphasis>Number of downloads (thousands)</emphasis>
+              </entry>
+              <entry>
+                <emphasis>Revenue (thousands of dollars)</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>15</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>45</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry> </entry>
+              <entry>
+                <list class="os-raise-noindent" list-type="enumerated" id="list-00007">
+                  <item>_____</item>
+                </list>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry> </entry>
+              <entry>
+                <list class="os-raise-noindent" list-type="enumerated" id="list-00008">
+                  <item>_____</item>
+                </list>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>12</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry> </entry>
+              <entry>
+                <list class="os-raise-noindent" list-type="enumerated" id="list-00009">
+                  <item>_____</item>
+                </list>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>15</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry> </entry>
+              <entry>
+                <list class="os-raise-noindent" start-value="10" list-type="enumerated"
+                  id="list-00010">
+                  <item>_____</item>
+                </list>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>18</m:mn>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry> </entry>
+              <entry>
+                <list class="os-raise-noindent" start-value="11" list-type="enumerated"
+                  id="list-00011">
+                  <item>_____</item>
+                </list>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math>
+              </entry>
+              <entry> </entry>
+              <entry>
+                <list class="os-raise-noindent" start-value="12" list-type="enumerated"
+                  id="list-00012">
+                  <item>_____</item>
+                </list>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
 
-        <exercise id="cc45646c-927c-45a7-87dc-f6a96a7f8579" class="multiple-choice">
-          <problem id="prob-00007">
-            
-            <para id="para-00022">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>5</m:mn></m:mrow></m:math> per download, what is the revenue in thousands of dollars?</para>
-          </problem>
-          <solution id="sol-00007">
-            <para id="para-00023">Correct! The revenue is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>65</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math> when the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>5</m:mn></m:mrow></m:math> per download.</para>
-            <para id="para-00024">Try again.</para>
-          </solution>
-        </exercise>
-        <exercise id="e7aaccfc-0240-497a-a0c9-ec861b2dda1c" class="multiple-choice">
-          <problem id="prob-00008">
-            
-            <para id="para-00025">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>10</m:mn></m:mrow></m:math> per download, what is the revenue in thousands of dollars?</para>
-          </problem>
-          <solution id="sol-00008">
-            <para id="para-00026">Correct! The revenue is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>80</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math> when the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>10</m:mn></m:mrow></m:math> per download.</para>
-            <para id="para-00027">Try again.</para>
-          </solution>
-        </exercise>
-        <exercise id="_4e88c474-49f1-4712-b1dc-46b99de880c6" class="multiple-choice">
-          <problem id="prob-00009">
-            
-            <para id="para-00028">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>12</m:mn></m:mrow></m:math> per download, what is the revenue in thousands of dollars?</para>
-          </problem>
-          <solution id="sol-00009">
-            <para id="para-00029">Correct! The revenue is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>72</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math> when the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>12</m:mn></m:mrow></m:math> per download.</para>
-            <para id="para-00030">Try again.</para>
-          </solution>
-        </exercise>
-        <exercise id="bd176bc0-c793-43b2-b1b6-fd641dfb4775" class="multiple-choice">
-          <problem id="prob-00010">
-            
-            <para id="para-00031">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>15</m:mn></m:mrow></m:math> per download, what is the revenue in thousands of dollars?</para>
-          </problem>
-          <solution id="sol-00010">
-            <para id="para-00032">Correct! The revenue is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>45</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math> when the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>15</m:mn></m:mrow></m:math> per download.</para>
-            <para id="para-00033">Try again.</para>
-          </solution>
-        </exercise>
-        <exercise id="_042887c7-c333-4cf5-bc62-0e91427afd6d" class="multiple-choice">
-          <problem id="prob-00011">
-            
-            <para id="para-00034">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>18</m:mn></m:mrow></m:math> per download, what is the revenue in thousands of dollars?</para>
-          </problem>
-          <solution id="sol-00011">
-            <para id="para-00035">Correct! The revenue is <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> when the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>18</m:mn></m:mrow></m:math> per download.</para>
-            <para id="para-00036">Try again.</para>
-          </solution>
-        </exercise>
+      <exercise id="cc45646c-927c-45a7-87dc-f6a96a7f8579" class="multiple-choice">
+        <problem id="prob-00007">
 
-      <!--Text Entry Interaction Start -->
+          <para id="para-00022">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math> per download, what is the
+            revenue in thousands of dollars?</para>
+        </problem>
+        <solution id="sol-00007">
+          <para id="para-00023">Correct! The revenue is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>65</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>000</m:mn>
+              </m:mrow>
+            </m:math> when the price is <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math> per download.</para>
+          <para id="para-00024">Try again.</para>
+        </solution>
+      </exercise>
+      <exercise id="e7aaccfc-0240-497a-a0c9-ec861b2dda1c" class="multiple-choice">
+        <problem id="prob-00008">
+
+          <para id="para-00025">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>10</m:mn>
+              </m:mrow>
+            </m:math> per download, what is
+            the revenue in thousands of dollars?</para>
+        </problem>
+        <solution id="sol-00008">
+          <para id="para-00026">Correct! The revenue is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>80</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>000</m:mn>
+              </m:mrow>
+            </m:math> when the price is <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>10</m:mn>
+              </m:mrow>
+            </m:math> per download.</para>
+          <para id="para-00027">Try again.</para>
+        </solution>
+      </exercise>
+      <exercise id="_4e88c474-49f1-4712-b1dc-46b99de880c6" class="multiple-choice">
+        <problem id="prob-00009">
+
+          <para id="para-00028">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>12</m:mn>
+              </m:mrow>
+            </m:math> per download, what is
+            the revenue in thousands of dollars?</para>
+        </problem>
+        <solution id="sol-00009">
+          <para id="para-00029">Correct! The revenue is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>72</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>000</m:mn>
+              </m:mrow>
+            </m:math> when the price is <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>12</m:mn>
+              </m:mrow>
+            </m:math> per download.</para>
+          <para id="para-00030">Try again.</para>
+        </solution>
+      </exercise>
+      <exercise id="bd176bc0-c793-43b2-b1b6-fd641dfb4775" class="multiple-choice">
+        <problem id="prob-00010">
+
+          <para id="para-00031">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>15</m:mn>
+              </m:mrow>
+            </m:math> per download, what is
+            the revenue in thousands of dollars?</para>
+        </problem>
+        <solution id="sol-00010">
+          <para id="para-00032">Correct! The revenue is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>45</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>000</m:mn>
+              </m:mrow>
+            </m:math> when the price is <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>15</m:mn>
+              </m:mrow>
+            </m:math> per download.</para>
+          <para id="para-00033">Try again.</para>
+        </solution>
+      </exercise>
+      <exercise id="_042887c7-c333-4cf5-bc62-0e91427afd6d" class="multiple-choice">
+        <problem id="prob-00011">
+
+          <para id="para-00034">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math> per download, what is
+            the revenue in thousands of dollars?</para>
+        </problem>
+        <solution id="sol-00011">
+          <para id="para-00035">Correct! The revenue is <m:math display="inline">
+              <m:mrow>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math> when the price is <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math> per download.</para>
+          <para id="para-00036">Try again.</para>
+        </solution>
+      </exercise>
+
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00012">
-          <para id="para-00037">When the price is <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mi>x</m:mi></m:mrow></m:math> per download, what is the revenue in thousands of dollars?</para>
-          
+          <para id="para-00037">When the price is <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> per download, what is the
+            revenue in thousands of dollars?</para>
+
         </problem>
         <solution id="sol-00012">
           <para id="para-00038">Compare your answer:</para>
-          <para id="para-00039"><m:math><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mn>18</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution>
+          <para id="para-00039"><m:math>
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>18</m:mn>
+                <m:mo>−</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00013">
-          <para id="para-00040">Is the relationship between the price of the movie and the revenue (in thousands of dollars) linear, quadratic, or exponential? Explain how you know.</para>
-          
+          <para id="para-00040">Is the relationship between the price of the movie and the revenue
+            (in thousands of dollars) linear, quadratic, or exponential? Explain how you know.</para>
+
         </problem>
         <solution id="sol-00013">
           <para id="para-00041">Compare your answer: Your answer may vary, but here is a sample.</para>
-          <para id="para-00042">It is quadratic. The output <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mn>18</m:mn><m:mo>−</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> can be written as <m:math display="inline"><m:mrow><m:mn>18</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math>, which is a quadratic expression.</para>
+          <para id="para-00042">It is quadratic. The output <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>18</m:mn>
+                <m:mo>−</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> can be
+            written as <m:math display="inline">
+              <m:mrow>
+                <m:mn>18</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math>,
+            which is a quadratic expression.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--BEGIN ADD DESMOS INTERATIVE-->
-      <!--START QUESTION #14 -->
-      
-        <exercise id="exer-00004">
-          <problem id="prob-00014">
-            
-            <para id="para-00043">Use the graphing tool or technology outside the course. Plot the points that represent the revenue, 𝑟, as a function of the price of one download in dollars, 𝑥, using the Desmos tool below.</para>
-            <para id="para-00044">When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00014">
-            <para id="para-00045">Compare your answer:</para>
-            <para id="para-00046">
-                      <media alt="Grid with plotted points. X-axis labeled with price in dollars and \(y\)-axis labeled with revenue in thousands of dollars.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_09_03_01.svg"/>
-                </media>
-              
+      <!--Interaction
+      End -->
+      <!--BEGIN
+      ADD DESMOS INTERATIVE-->
+      <!--START
+      QUESTION #14 -->
+
+      <exercise id="exer-00004">
+        <problem id="prob-00014">
+
+          <para id="para-00043">Use the graphing tool or technology outside the course. Plot the
+            points that represent the revenue, 𝑟, as a function of the price of one download in
+            dollars, 𝑥, using the Desmos tool below.</para>
+          <para id="para-00044">When you have finished graphing, select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution id="sol-00014">
+          <para id="para-00045">Compare your answer:</para>
+          <para id="para-00046">
+            <media
+              alt="Grid with plotted points. X-axis labeled with price in dollars and \(y\)-axis labeled with revenue in thousands of dollars.">
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_09_03_01.svg" />
+            </media>
+
           </para>
-          </solution>
-        </exercise>
-      
-      <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media><!--END ADD DESMOS INTERATIVE-->
+        </solution>
+      </exercise>
+
+      <media alt="">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+          height="400" />
+      </media><!--END
+      ADD DESMOS INTERATIVE-->
       <exercise id="exer-00005">
         <problem id="prob-00015">
-          <para id="para-00047">What price would you recommend the company charge for a new movie? Be prepared to show your reasoning.</para>
-          
+          <para id="para-00047">What price would you recommend the company charge for a new movie?
+            Be prepared to show your reasoning.</para>
+
         </problem>
         <solution id="sol-00015">
           <para id="para-00048">Compare your answer: Your answer may vary, but here is a sample.</para>
-          <para id="para-00049">Based on the graph, the largest revenue comes when the price is between <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>5</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>10</m:mn></m:mrow></m:math>. It is hard to tell exactly, but perhaps <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>9</m:mn></m:mrow></m:math>, halfway between <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>0</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>18</m:mn></m:mrow></m:math>.</para>
-        </solution>
-      </exercise></section>
-      <!--Interaction End -->
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-      <section id="sect-00004">
-        <title>Are you ready for more?</title>
-          <section class="practice" id="sect-00005"><title>Extending Your Thinking</title>
-      
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1" id="exer-00006">
-        <problem id="prob-00016">
-          <para id="para-00050">The function that uses the price (in dollars per download) <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> to determine the number of downloads (in thousands) <m:math display="inline"><m:mrow><m:mn>18</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:math> is an example of a demand function, and its graph is known. Economists are interested in factors that can affect the demand function and therefore the price suppliers wish to set.</para>
-          <para id="para-00051">What are some things that could increase the number of downloads predicted for the same given prices?</para>
-          
-        </problem>
-        <solution id="sol-00016">
-          <para id="para-00052">Compare your answer: Your answer may vary, but here is a sample.</para>
-          <para id="para-00053">The quality of the movies could improve. The number of people who like watching movies could increase. The price of watching a movie in a theater could go up.</para>
+          <para id="para-00049">Based on the graph, the largest revenue comes when the price is
+            between <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>10</m:mn>
+              </m:mrow>
+            </m:math>. It is hard to tell
+            exactly, but perhaps <m:math display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>9</m:mn>
+              </m:mrow>
+            </m:math>, halfway between <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>$</m:mi>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
-      <exercise class="RFM1" id="exer-00007">
-        <problem id="prob-00017">
-          <para id="para-00054">If the demand shifted so that we predicted <m:math display="inline"><m:mrow><m:mn>20</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:math> thousand downloads at a price of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> dollars per download, what do you think would happen to the price that gives the maximum revenue? Check what actually happens.</para>
-          
-        </problem>
-        <solution id="sol-00017">
-          <para id="para-00055">Compare your answer: Your answer may vary, but here is a sample.</para>
-          <para id="para-00056">The price that gives the maximum revenue would increase from <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>9</m:mn></m:mrow></m:math> to <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>10</m:mn></m:mrow></m:math>.</para>
-        </solution>
-      </exercise>
-      <!--End interaction-->
     </section>
-  </section>
+    <!--Interaction
+    End -->
+    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+    will need to change the Data-fire/data-wait-for-events for each set.-->
+
+    <section id="sect-00004">
+      <title>Are you ready for more?</title>
+      <section class="practice" id="sect-00005">
+        <title>Extending Your Thinking</title>
+
+        <!--Start
+        interaction.  If multiple interactions appear under "are you ready for more?, they should all
+        have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+        button. Note in this sample, they are all RFM1-->
+        <exercise class="RFM1" id="exer-00006">
+          <problem id="prob-00016">
+            <para id="para-00050">The function that uses the price (in dollars per download) <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math> to determine the
+              number of downloads (in thousands) <m:math display="inline">
+                <m:mrow>
+                  <m:mn>18</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math> is an example of a
+              demand function, and its graph is known. Economists are interested in factors that can
+              affect the demand function and therefore the price suppliers wish to set.</para>
+            <para id="para-00051">What are some things that could increase the number of downloads
+              predicted for the same given prices?</para>
+
+          </problem>
+          <solution id="sol-00016">
+            <para id="para-00052">Compare your answer: Your answer may vary, but here is a sample.</para>
+            <para id="para-00053">The quality of the movies could improve. The number of people who
+              like watching movies could increase. The price of watching a movie in a theater could
+              go up.</para>
+          </solution>
+        </exercise>
+        <exercise class="RFM1" id="exer-00007">
+          <problem id="prob-00017">
+            <para id="para-00054">If the demand shifted so that we predicted <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mn>20</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math> thousand downloads
+              at a price of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math> dollars per
+              download, what do you think would happen to the price that gives the maximum revenue?
+              Check what actually happens.</para>
+
+          </problem>
+          <solution id="sol-00017">
+            <para id="para-00055">Compare your answer: Your answer may vary, but here is a sample.</para>
+            <para id="para-00056">The price that gives the maximum revenue would increase from <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>$</m:mi>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:math> to <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>$</m:mi>
+                  <m:mn>10</m:mn>
+                </m:mrow>
+              </m:math>.</para>
+          </solution>
+        </exercise>
+        <!--End
+        interaction-->
+      </section>
+    </section>
     <note class="self-check" id="note-00001">
       <exercise id="exer-00009">
         <problem id="prob-00019">
-        <para id="para-00057"><link class="os-embed" url="#exercise/Alg1_7_7_2_SC"/></para>
+          <para id="para-00057"><link class="os-embed" url="#exercise/Alg1_7_7_2_SC" /></para>
         </problem>
-        </exercise>
+      </exercise>
     </note>
 
+    <section>
+      <title>Additional Resources</title>
       <section id="sect-00006">
         <title>Revenue Represented with Quadratics</title>
-        <para id="para-00059">Quadratic functions often come up when studying revenue. (Revenue means the money collected when someone sells something.)</para>
-        <para id="para-00060">Suppose we are selling raffle tickets and deciding how much to charge for each ticket. When the price of the tickets is higher, typically fewer tickets will be sold.</para>
-        <para id="para-00061">Each ticket has a price of <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> dollars, and it is possible to sell <m:math display="inline"><m:mrow><m:mn>600</m:mn><m:mo>−</m:mo><m:mn>75</m:mn><m:mi>d</m:mi></m:mrow></m:math> tickets. We can find the revenue by multiplying the price by the number of tickets expected to be sold. A function that models the revenue, <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math>, collected is <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>d</m:mi><m:mo stretchy="false">(</m:mo><m:mn>600</m:mn><m:mo>−</m:mo><m:mn>75</m:mn><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Here is a graph that represents the function.</para>
+        <para id="para-00059">Quadratic functions often come up when studying revenue. (Revenue
+          means the money collected when someone sells something.)</para>
+        <para id="para-00060">Suppose we are selling raffle tickets and deciding how much to charge
+          for each ticket. When the price of the tickets is higher, typically fewer tickets will be
+          sold.</para>
+        <para id="para-00061">Each ticket has a price of <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math> dollars, and it is possible to
+          sell <m:math display="inline">
+            <m:mrow>
+              <m:mn>600</m:mn>
+              <m:mo>−</m:mo>
+              <m:mn>75</m:mn>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math> tickets. We can find the
+          revenue by multiplying the price by the number of tickets expected to be sold. A function
+          that models the revenue, <m:math display="inline">
+            <m:mrow>
+              <m:mi>r</m:mi>
+            </m:mrow>
+          </m:math>, collected is <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>r</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>d</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mi>d</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>600</m:mn>
+              <m:mo>−</m:mo>
+              <m:mn>75</m:mn>
+              <m:mi>d</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>. Here is a
+          graph that represents the function.</para>
         <para id="para-00062">
-              <media alt="&lt;p>&lt;strong>Graph of non linear function, origin O. Horizontal axis, price, dollars, from 0 to 9 by 1’s. Vertical axis, revenue, thousands of dollars, 0 to 1400 by 200’s. Line starts at 0 comma 0, increases until 4 comma 1200 then decreases until 8 comma 0. Passes through 2 comma 900 and 6 comma 900.&lt;/strong>&lt;/p>">
-              <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_09_05_01.svg"/>
-            </media>
-          
-      </para>
-        <para id="para-00063">It makes sense that the revenue goes down after a certain point, since if the price is too high nobody will buy a ticket. From the graph, we can tell that the greatest revenue, <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>200</m:mn></m:mrow></m:math>, comes from selling the tickets for <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>4</m:mn></m:mrow></m:math> each. So we know, the range of this parabola reaches a maximum value of $1,200.</para>
-        <para id="para-00064">We can also see that the domain of the function <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> is between <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mn>8</m:mn></m:mrow></m:math>. This makes sense because the cost of the tickets can’t be negative, and if the price were more than <m:math display="inline"><m:mrow><m:mi>$</m:mi><m:mn>8</m:mn></m:mrow></m:math>, the model would not work, as the revenue collected cannot be negative. (A negative revenue would mean the number of tickets sold is negative, which is not possible.)</para>
+          <media
+            alt="&lt;p>&lt;strong>Graph of non linear function, origin O. Horizontal axis, price, dollars, from 0 to 9 by 1’s. Vertical axis, revenue, thousands of dollars, 0 to 1400 by 200’s. Line starts at 0 comma 0, increases until 4 comma 1200 then decreases until 8 comma 0. Passes through 2 comma 900 and 6 comma 900.&lt;/strong>&lt;/p>">
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_09_05_01.svg" />
+          </media>
+
+        </para>
+        <para id="para-00063">It makes sense that the revenue goes down after a certain point, since
+          if the price is too high nobody will buy a ticket. From the graph, we can tell that the
+          greatest revenue, <m:math display="inline">
+            <m:mrow>
+              <m:mi>$</m:mi>
+              <m:mn>1</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>200</m:mn>
+            </m:mrow>
+          </m:math>, comes from selling the
+          tickets for <m:math display="inline">
+            <m:mrow>
+              <m:mi>$</m:mi>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math> each. So we know, the range of
+          this parabola reaches a maximum value of $1,200.</para>
+        <para id="para-00064">We can also see that the domain of the function <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>r</m:mi>
+            </m:mrow>
+          </m:math> is between <m:math
+            display="inline">
+            <m:mrow>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math> and <m:math display="inline">
+            <m:mrow>
+              <m:mn>8</m:mn>
+            </m:mrow>
+          </m:math>. This makes sense because the
+          cost of the tickets can’t be negative, and if the price were more than <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>$</m:mi>
+              <m:mn>8</m:mn>
+            </m:mrow>
+          </m:math>, the model would not work, as
+          the revenue collected cannot be negative. (A negative revenue would mean the number of
+          tickets sold is negative, which is not possible.)</para>
         <note class="try" id="note-00002">
-    <title>Try It: Revenue Represented with Quadratics</title>
+          <title>Try It: Revenue Represented with Quadratics</title>
         
           <exercise id="exer-00008">
             <problem id="prob-00018">
-              <para id="para-00065">Based on past concerts, a venue expects to sell <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>500</m:mn><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> tickets when each ticket is <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> dollars.</para>
-              <para id="para-00066">Write the function, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, to represent the revenue for the concert.</para>
-              <para id="para-00067">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+              <para id="para-00065">Based on past concerts, a venue expects to sell <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>500</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>10</m:mn>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+          tickets when each ticket is <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                  </m:mrow>
+                </m:math> dollars.</para>
+              <para id="para-00066">Write the function, <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>,
+          to represent the revenue for the concert.</para>
+              <para id="para-00067">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
             </problem>
             <solution id="sol-00018">
               <para id="para-00068">Compare your answer: Your answer may vary, here is a sample.</para>
-              <para id="para-00069"><emphasis>Step 1 -</emphasis> Multiply the tickets sold by the price of each ticket, <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math>.</para>
-              <para id="para-00070"><m:math><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>500</m:mn><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00071"><emphasis>Step 2 -</emphasis> Distribute the <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math>.</para>
-              <para id="para-00072"><m:math><m:mrow><m:mn>500</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para><para id="para-00073"><emphasis>Step 3 -</emphasis> Write as a function, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
-              <para id="para-00074"><m:math><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:mi>p</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>500</m:mn><m:mi>p</m:mi><m:mo>−</m:mo><m:mn>10</m:mn><m:msup><m:mi>p</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para></solution>
+              <para id="para-00069"><emphasis>Step 1 -</emphasis> Multiply the tickets sold by the
+          price of each ticket, <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00070"><m:math>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>500</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>10</m:mn>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00071"><emphasis>Step 2 -</emphasis> Distribute the <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00072"><m:math>
+                  <m:mrow>
+                    <m:mn>500</m:mn>
+                    <m:mi>p</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>10</m:mn>
+                    <m:msup>
+                      <m:mi>p</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00073"><emphasis>Step 3 -</emphasis> Write as a function, <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+          .</para>
+              <para id="para-00074"><m:math>
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>500</m:mn>
+                    <m:mi>p</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>10</m:mn>
+                    <m:msup>
+                      <m:mi>p</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:math></para>
+            </solution>
           </exercise>
         </note>
       </section>
+    </section>
   </content>
 </document>

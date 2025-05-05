@@ -1,422 +1,1006 @@
 <document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
-  <title>7.11.2: The Factored Form of a Quadratic Expression and the <emphasis effect="italics">x</emphasis>-intercepts of Its Graph</title>
+  <title>7.11.2: The Factored Form of a Quadratic Expression and the <emphasis effect="italics">x</emphasis>-intercepts
+    of Its Graph</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m01924</md:content-id>
     <md:title>7.11.2: The Factored Form of a Quadratic Expression and the X-Intercepts of Its Graph</md:title>
     <md:uuid>d888f675-5c48-481a-bafa-48bdcdd60680</md:uuid>
   </metadata>
   <content>
-    <section class="practice" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">Consider two functions defined by <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+    <section class="practice" id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">Consider two functions defined by <m:math display="inline">
+          <m:mrow>
+            <m:mi>f</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo stretchy="false">)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math> and <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>g</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo stretchy="false">)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math>.</para>
       <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-        <item>Consider the function defined by <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
+        <item>Consider the function defined by <m:math display="inline">
+            <m:mrow>
+              <m:mi>f</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>.</item>
       </list>
-      <para id="para-00002">Then, answer questions a–g, and create a table of values in which to enter the given x values and their outputs using the function.</para>
-   
-        <exercise id="fbf538bb-f2c6-4352-9d03-9245f6291f4a" class="multiple-choice">
-          <problem id="prob-00001">
-            
-            <para id="para-00003">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00001">
-            <para id="para-00004">Correct! 0</para>
-            <para id="para-00005">The correct answer is 0.</para>
-          </solution>
-        </exercise>
-        <exercise id="_7e3b60e8-2698-4351-b519-0dbf05268d6c" class="multiple-choice">
-          <problem id="prob-00002">
-            
-            <para id="para-00006">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00002">
-            <para id="para-00007">Correct! -3</para>
-            <para id="para-00008">The correct answer is -3.</para>
-          </solution>
-        </exercise>
-        <exercise id="_36eff251-576a-4a08-a292-23ebe6b0caed" class="multiple-choice">
-          <problem id="prob-00003">
-            
-            <para id="para-00009">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00003">
-            <para id="para-00010">Correct! 0</para>
-            <para id="para-00011">The correct answer is 0.</para>
-          </solution>
-        </exercise>
-        <exercise id="c7ec1749-f6a9-420d-b76f-5177b09b99d9" class="multiple-choice">
-          <problem id="prob-00004">
-            
-            <para id="para-00012">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00004">
-            <para id="para-00013">Correct! 5</para>
-            <para id="para-00014">The correct answer is 5.</para>
-          </solution>
-        </exercise>
-        <exercise id="_4ead2d8e-cb7a-4723-884e-3f093a5cfd92" class="multiple-choice">
-          <problem id="prob-00005">
-            
-            <para id="para-00015">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00005">
-            <para id="para-00016">Correct! 12</para>
-            <para id="para-00017">The correct answer is 12.</para>
-          </solution>
-        </exercise>
-        <exercise id="_3e2149b6-ffc9-4aa2-b353-5138c9cac85c" class="multiple-choice">
-          <problem id="prob-00006">
-            
-            <para id="para-00018">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00006">
-            <para id="para-00019">Correct! 21</para>
-            <para id="para-00020">The correct answer is 21.</para>
-          </solution>
-        </exercise>
-        <exercise id="d7ee71b0-6b6c-47ba-9a7a-331832b8b0b4" class="multiple-choice">
-          <problem id="prob-00007">
-            
-            <para id="para-00021">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00007">
-            <para id="para-00022">Correct! 45</para>
-            <para id="para-00023">The correct answer is 45.</para>
-          </solution>
-        </exercise>
+      <para id="para-00002">Then, answer questions a–g, and create a table of values in which to
+        enter the given x values and their outputs using the function.</para>
+
+      <exercise id="fbf538bb-f2c6-4352-9d03-9245f6291f4a" class="multiple-choice">
+        <problem id="prob-00001">
+
+          <para id="para-00003">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00001">
+          <para id="para-00004">Correct! 0</para>
+          <para id="para-00005">The correct answer is 0.</para>
+        </solution>
+      </exercise>
+      <exercise id="_7e3b60e8-2698-4351-b519-0dbf05268d6c" class="multiple-choice">
+        <problem id="prob-00002">
+
+          <para id="para-00006">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00007">Correct! -3</para>
+          <para id="para-00008">The correct answer is -3.</para>
+        </solution>
+      </exercise>
+      <exercise id="_36eff251-576a-4a08-a292-23ebe6b0caed" class="multiple-choice">
+        <problem id="prob-00003">
+
+          <para id="para-00009">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00003">
+          <para id="para-00010">Correct! 0</para>
+          <para id="para-00011">The correct answer is 0.</para>
+        </solution>
+      </exercise>
+      <exercise id="c7ec1749-f6a9-420d-b76f-5177b09b99d9" class="multiple-choice">
+        <problem id="prob-00004">
+
+          <para id="para-00012">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00004">
+          <para id="para-00013">Correct! 5</para>
+          <para id="para-00014">The correct answer is 5.</para>
+        </solution>
+      </exercise>
+      <exercise id="_4ead2d8e-cb7a-4723-884e-3f093a5cfd92" class="multiple-choice">
+        <problem id="prob-00005">
+
+          <para id="para-00015">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00005">
+          <para id="para-00016">Correct! 12</para>
+          <para id="para-00017">The correct answer is 12.</para>
+        </solution>
+      </exercise>
+      <exercise id="_3e2149b6-ffc9-4aa2-b353-5138c9cac85c" class="multiple-choice">
+        <problem id="prob-00006">
+
+          <para id="para-00018">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00006">
+          <para id="para-00019">Correct! 21</para>
+          <para id="para-00020">The correct answer is 21.</para>
+        </solution>
+      </exercise>
+      <exercise id="d7ee71b0-6b6c-47ba-9a7a-331832b8b0b4" class="multiple-choice">
+        <problem id="prob-00007">
+
+          <para id="para-00021">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00007">
+          <para id="para-00022">Correct! 45</para>
+          <para id="para-00023">The correct answer is 45.</para>
+        </solution>
+      </exercise>
 
       <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-        <item>Now, answer questions a–d to analyze the function defined by <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
+        <item>Now, answer questions a–d to analyze the function defined by <m:math display="inline">
+            <m:mrow>
+              <m:mi>f</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>.</item>
       </list>
-      <!--Text Entry Interaction Start -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00008">
-          <para id="para-00024">What are the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercepts of the graph? Be prepared to show your reasoning.</para>
-          
+          <para id="para-00024">What are the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-intercepts of the graph?
+            Be prepared to show your reasoning.</para>
+
         </problem>
         <solution id="sol-00008">
           <para id="para-00025">Compare your answer:</para>
-          <para id="para-00026">The <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercepts for function <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> are <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. These points have an <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-coordinate that makes the output value 0.</para>
+          <para id="para-00026">The <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-intercepts for function <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+              </m:mrow>
+            </m:math> are <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>. These
+            points have an <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-coordinate that makes the
+            output value 0.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
 
-        <exercise id="cd4fd094-81f0-44ce-bdc2-7c8ffd4a284c" class="multiple-choice">
-          <problem id="prob-00009">
-            
-            <para id="para-00027">What is the value of the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-coordinate in the vertex of the graph?</para>
-          </problem>
-          <solution id="sol-00009">
-            <para id="para-00028">Correct! -2</para>
-            <para id="para-00029">The correct answer is -2.</para>
-          </solution>
-        </exercise>
-        <exercise id="efc5a9b1-58bb-48f7-afa5-e4c45538c19e" class="multiple-choice">
-          <problem id="prob-00010">
-            
-            <para id="para-00030">What is the value of the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-coordinate in the vertex of the graph?</para>
-          </problem>
-          <solution id="sol-00010">
-            <para id="para-00031">Correct! -4</para>
-            <para id="para-00032">The correct answer is -4.</para>
-          </solution>
-        </exercise>
-  
-      <!--Text Entry Interaction Start -->
+      <exercise id="cd4fd094-81f0-44ce-bdc2-7c8ffd4a284c" class="multiple-choice">
+        <problem id="prob-00009">
+
+          <para id="para-00027">What is the value of the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-coordinate in the vertex
+            of the graph?</para>
+        </problem>
+        <solution id="sol-00009">
+          <para id="para-00028">Correct! -2</para>
+          <para id="para-00029">The correct answer is -2.</para>
+        </solution>
+      </exercise>
+      <exercise id="efc5a9b1-58bb-48f7-afa5-e4c45538c19e" class="multiple-choice">
+        <problem id="prob-00010">
+
+          <para id="para-00030">What is the value of the <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-coordinate in the vertex
+            of the graph?</para>
+        </problem>
+        <solution id="sol-00010">
+          <para id="para-00031">Correct! -4</para>
+          <para id="para-00032">The correct answer is -4.</para>
+        </solution>
+      </exercise>
+
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00011">
-          <para id="para-00033">What is the vertex of the graph of function <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math>? Be prepared to show your reasoning.</para>
-          
+          <para id="para-00033">What is the vertex of the graph of function <m:math display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+              </m:mrow>
+            </m:math>? Be prepared to show your
+            reasoning.</para>
+
         </problem>
         <solution id="sol-00011">
           <para id="para-00034">Compare your answer:</para>
-          <para id="para-00035">The vertex appears to be at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. From the tables, the function values seem to change from decreasing to increasing at those points.</para>
+          <para id="para-00035">The vertex appears to be at <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>,</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>. From
+            the tables, the function values seem to change from decreasing to increasing at those
+            points.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
-        <item>Consider the function defined by <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.
-    
-    Then, answer questions a–g, and create a table of values in which to enter the given x values and their outputs using the function.
- </item>
+        <item>Consider the function defined by <m:math display="inline">
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>. Then, answer
+          questions a–g, and create a table of values in which to enter the given x values and their
+          outputs using the function. </item>
       </list>
 
-        <exercise id="e2b10c58-e3be-4468-b659-41230961de8d" class="multiple-choice">
-          <problem id="prob-00012">
-            
-            <para id="para-00036">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00012">
-            <para id="para-00037">Correct! 32</para>
-            <para id="para-00038">The correct answer is 32.</para>
-          </solution>
-        </exercise>
-        <exercise id="_0ded0a1a-af60-483d-8d79-07df7ca15ea9" class="multiple-choice">
-          <problem id="prob-00013">
-            
-            <para id="para-00039">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00013">
-            <para id="para-00040">Correct! 21</para>
-            <para id="para-00041">The correct answer is 21.</para>
-          </solution>
-        </exercise>
-        <exercise id="_22c89b68-2f83-45e6-9397-cb6cccd55df5" class="multiple-choice">
-          <problem id="prob-00014">
-            
-            <para id="para-00042">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00014">
-            <para id="para-00043">Correct! 0</para>
-            <para id="para-00044">The correct answer is 0.</para>
-          </solution>
-        </exercise>
-        <exercise id="fc365c44-9ee1-4f0b-b7f9-4e1165326aad" class="multiple-choice">
-          <problem id="prob-00015">
-            
-            <para id="para-00045">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00015">
-            <para id="para-00046">Correct! -3</para>
-            <para id="para-00047">The correct answer is -3.</para>
-          </solution>
-        </exercise>
-        <exercise id="dcbf8f49-f691-4ee2-b84d-5e96b1cfd5d4" class="multiple-choice">
-          <problem id="prob-00016">
-            
-            <para id="para-00048">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00016">
-            <para id="para-00049">Correct! -4</para>
-            <para id="para-00050">The correct answer is -4.</para>
-          </solution>
-        </exercise>
-        <exercise id="_570ad872-751f-4c87-b55b-f71032c93d75" class="multiple-choice">
-          <problem id="prob-00017">
-            
-            <para id="para-00051">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00017">
-            <para id="para-00052">Correct! 0</para>
-            <para id="para-00053">The correct answer is 0.</para>
-          </solution>
-        </exercise>
-        <exercise id="_5b0b1aff-8af2-4e7b-9fdc-0c41da2f0930" class="multiple-choice">
-          <problem id="prob-00018">
-            
-            <para id="para-00054">When the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn></m:mrow></m:math>, what is the value of <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
-          </problem>
-          <solution id="sol-00018">
-            <para id="para-00055">Correct! 5</para>
-            <para id="para-00056">The correct answer is 5.</para>
-          </solution>
-        </exercise>
+      <exercise id="e2b10c58-e3be-4468-b659-41230961de8d" class="multiple-choice">
+        <problem id="prob-00012">
+
+          <para id="para-00036">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00012">
+          <para id="para-00037">Correct! 32</para>
+          <para id="para-00038">The correct answer is 32.</para>
+        </solution>
+      </exercise>
+      <exercise id="_0ded0a1a-af60-483d-8d79-07df7ca15ea9" class="multiple-choice">
+        <problem id="prob-00013">
+
+          <para id="para-00039">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00013">
+          <para id="para-00040">Correct! 21</para>
+          <para id="para-00041">The correct answer is 21.</para>
+        </solution>
+      </exercise>
+      <exercise id="_22c89b68-2f83-45e6-9397-cb6cccd55df5" class="multiple-choice">
+        <problem id="prob-00014">
+
+          <para id="para-00042">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00014">
+          <para id="para-00043">Correct! 0</para>
+          <para id="para-00044">The correct answer is 0.</para>
+        </solution>
+      </exercise>
+      <exercise id="fc365c44-9ee1-4f0b-b7f9-4e1165326aad" class="multiple-choice">
+        <problem id="prob-00015">
+
+          <para id="para-00045">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00015">
+          <para id="para-00046">Correct! -3</para>
+          <para id="para-00047">The correct answer is -3.</para>
+        </solution>
+      </exercise>
+      <exercise id="dcbf8f49-f691-4ee2-b84d-5e96b1cfd5d4" class="multiple-choice">
+        <problem id="prob-00016">
+
+          <para id="para-00048">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00016">
+          <para id="para-00049">Correct! -4</para>
+          <para id="para-00050">The correct answer is -4.</para>
+        </solution>
+      </exercise>
+      <exercise id="_570ad872-751f-4c87-b55b-f71032c93d75" class="multiple-choice">
+        <problem id="prob-00017">
+
+          <para id="para-00051">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00017">
+          <para id="para-00052">Correct! 0</para>
+          <para id="para-00053">The correct answer is 0.</para>
+        </solution>
+      </exercise>
+      <exercise id="_5b0b1aff-8af2-4e7b-9fdc-0c41da2f0930" class="multiple-choice">
+        <problem id="prob-00018">
+
+          <para id="para-00054">When the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math>, what is the value of <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>?</para>
+        </problem>
+        <solution id="sol-00018">
+          <para id="para-00055">Correct! 5</para>
+          <para id="para-00056">The correct answer is 5.</para>
+        </solution>
+      </exercise>
 
       <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
-        <item>Now, answer questions a–d to analyze the function defined by <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
+        <item>Now, answer questions a–d to analyze the function defined by <m:math display="inline">
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>.</item>
       </list>
-      <!--Text Entry Interaction Start -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00019">
-          <para id="para-00057">What are the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercepts of the graph? Be prepared to show your reasoning.</para>
-          
+          <para id="para-00057">What are the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-intercepts of the graph?
+            Be prepared to show your reasoning.</para>
+
         </problem>
         <solution id="sol-00019">
           <para id="para-00058">Compare your answer:</para>
-          <para id="para-00059">The <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercepts for function <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> are <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. These points have an <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-coordinate that makes the output value 0.</para>
+          <para id="para-00059">The <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-intercepts for function <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+              </m:mrow>
+            </m:math> are <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>. These
+            points have an <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-coordinate that makes the
+            output value 0.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
- 
-        <exercise id="_3192dc06-76cb-40d2-9e9b-1ead9c311094" class="multiple-choice">
-          <problem id="prob-00020">
-            
-            <para id="para-00060">What is the value of the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-coordinate in the vertex of the graph?</para>
-          </problem>
-          <solution id="sol-00020">
-            <para id="para-00061">Correct! 2</para>
-            <para id="para-00062">The correct answer is 2.</para>
-          </solution>
-        </exercise>
-        <exercise id="_94ee4a87-d64f-4f3a-ad32-31ba6177aa8b" class="multiple-choice">
-          <problem id="prob-00021">
-            
-            <para id="para-00063">What is the value of the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-coordinate in the vertex of the graph?</para>
-          </problem>
-          <solution id="sol-00021">
-            <para id="para-00064">Correct! -4</para>
-            <para id="para-00065">The correct answer is -4.</para>
-          </solution>
-        </exercise>
-   
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+
+      <exercise id="_3192dc06-76cb-40d2-9e9b-1ead9c311094" class="multiple-choice">
+        <problem id="prob-00020">
+
+          <para id="para-00060">What is the value of the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-coordinate in the vertex
+            of the graph?</para>
+        </problem>
+        <solution id="sol-00020">
+          <para id="para-00061">Correct! 2</para>
+          <para id="para-00062">The correct answer is 2.</para>
+        </solution>
+      </exercise>
+      <exercise id="_94ee4a87-d64f-4f3a-ad32-31ba6177aa8b" class="multiple-choice">
+        <problem id="prob-00021">
+
+          <para id="para-00063">What is the value of the <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-coordinate in the vertex
+            of the graph?</para>
+        </problem>
+        <solution id="sol-00021">
+          <para id="para-00064">Correct! -4</para>
+          <para id="para-00065">The correct answer is -4.</para>
+        </solution>
+      </exercise>
+
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00022">
-          <para id="para-00066">What is the vertex of the graph of function <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math>? Be prepared to show your reasoning.</para>
-          
+          <para id="para-00066">What is the vertex of the graph of function <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+              </m:mrow>
+            </m:math>? Be prepared to show your
+            reasoning.</para>
+
         </problem>
         <solution id="sol-00022">
           <para id="para-00067">Compare your answer:</para>
-          <para id="para-00068">The vertex appears to be at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. From the tables, the function values seem to change from decreasing to increasing at those points.</para>
+          <para id="para-00068">The vertex appears to be at <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>,</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>. From
+            the tables, the function values seem to change from decreasing to increasing at those
+            points.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <media alt=""><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
-        
-        <list class="os-raise-noindent" list-type="enumerated" id="list-00005">
+      <!--Interaction
+      End -->
+      <media alt="">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+          height="400" />
+      </media>
+
+      <list class="os-raise-noindent" list-type="enumerated" id="list-00005">
         <item>Use the graphing tool or technology outside the course.</item>
       </list>
-      
-        <exercise id="exer-00005">
-          <problem id="prob-00023">
-            <para id="para-00069">Plot the points from the tables on the same coordinate plane. (Consider using different colors or markings for each set of points so you can tell them apart.)</para>
-            <para id="para-00070">Select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00023">
-            <para id="para-00071">Compare your answer:</para>
-            <para id="para-00072">
-                      <media alt="Coordinate grid with two graphs shown by plotted points.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_13_03_01.svg"/>
-                </media>
-              
+
+      <exercise id="exer-00005">
+        <problem id="prob-00023">
+          <para id="para-00069">Plot the points from the tables on the same coordinate plane.
+            (Consider using different colors or markings for each set of points so you can tell them
+            apart.)</para>
+          <para id="para-00070">Select the <emphasis>solution</emphasis> button to compare your
+            work.</para>
+        </problem>
+        <solution id="sol-00023">
+          <para id="para-00071">Compare your answer:</para>
+          <para id="para-00072">
+            <media alt="Coordinate grid with two graphs shown by plotted points.">
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_13_03_01.svg" />
+            </media>
+
           </para>
-          </solution>
-        </exercise>
-      
-      <!--Text Entry Interaction Start -->
+        </solution>
+      </exercise>
+
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00024">
           <para id="para-00073">Make a couple of observations about how the two graphs compare.</para>
-          
+
         </problem>
         <solution id="sol-00024">
           <para id="para-00074">Compare your answer:</para>
           <list id="list-00006">
-            <item>The <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercept of both graphs is at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
-            <item>The graphs seem to be a reflection of each other across the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-axis.</item>
-            <item>The vertices both have a <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-coordinate of -4 and also mirror one another across the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-axis.</item>
+            <item>The <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>-intercept of both
+              graphs is at <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>.</item>
+            <item>The graphs seem to be a reflection of each other across the <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math>-axis.</item>
+            <item>The vertices both have a <m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math>-coordinate of -4
+              and also mirror one another across the <m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math>-axis.</item>
             <item>Each function mirrors itself across a vertical line through its vertex.</item>
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
     </section>
 
     <note class="self-check" id="note-00001">
       <exercise id="exer-00008">
         <problem id="prob-00026">
-        <para id="para-00075"><link class="os-embed" url="#exercise/Alg1_7_11_2_SC"/></para>
+          <para id="para-00075"><link class="os-embed" url="#exercise/Alg1_7_11_2_SC" /></para>
         </problem>
-        </exercise>
-      </note>
+      </exercise>
+    </note>
 
-      <section id="sect-00006"><title>Determining Parts of a Graph from a Table</title>
-        <para id="para-00076">Identify the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercepts and vertex of the quadratic from the table:</para>
+    <section>
+      <title>Additional Resources</title>
+      <section id="sect-00006">
+        <title>Determining Parts of a Graph from a Table</title>
+        <para id="para-00076">Identify the <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>-intercepts and vertex of the
+          quadratic from the table:</para>
         <table class="unnumbered os-raise-horizontaltable" id="table-00001">
-          <tgroup cols="6"><tbody><row>
-              <entry><emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis></entry><entry>
-                <para id="para-00077">-5</para>
-              </entry>
-              <entry>
-                <para id="para-00078">-3</para>
-              </entry>
-              <entry>
-                <para id="para-00079">-1</para>
-              </entry>
-              <entry>
-                <para id="para-00080">0</para>
-              </entry>
-              <entry>
-                <para id="para-00081">1</para>
-              </entry>
-            </row>
-            <row>
-              <entry><emphasis><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry><entry>
-                <para id="para-00082">16</para>
-              </entry>
-              <entry>
-                <para id="para-00083">0</para>
-              </entry>
-              <entry>
-                <para id="para-00084">-2</para>
-              </entry>
-              <entry>
-                <para id="para-00085">0</para>
-              </entry>
-              <entry>
-                <para id="para-00086">16</para>
-              </entry>
-            </row>
-          </tbody></tgroup></table>
-        
-        <para id="para-00087">The <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercepts are where the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values are 0.</para>
-        <para id="para-00088">This occurs at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
-        <para id="para-00089">The vertex occurs where the function will create a mirror image, or be symmetrical for all points. This often occurs halfway between the two zeros (when there are two zeros).</para>
-        <para id="para-00090">For this function, the vertex is at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+          <tgroup cols="6">
+            <tbody>
+              <row>
+                <entry><emphasis><m:math>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:math></emphasis></entry>
+                <entry>
+                  <para id="para-00077">-5</para>
+                </entry>
+                <entry>
+                  <para id="para-00078">-3</para>
+                </entry>
+                <entry>
+                  <para id="para-00079">-1</para>
+                </entry>
+                <entry>
+                  <para id="para-00080">0</para>
+                </entry>
+                <entry>
+                  <para id="para-00081">1</para>
+                </entry>
+              </row>
+              <row>
+                <entry><emphasis><m:math>
+                      <m:mrow>
+                        <m:mi>f</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:math></emphasis></entry>
+                <entry>
+                  <para id="para-00082">16</para>
+                </entry>
+                <entry>
+                  <para id="para-00083">0</para>
+                </entry>
+                <entry>
+                  <para id="para-00084">-2</para>
+                </entry>
+                <entry>
+                  <para id="para-00085">0</para>
+                </entry>
+                <entry>
+                  <para id="para-00086">16</para>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para id="para-00087">The <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>-intercepts are where the <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>-values are 0.</para>
+        <para id="para-00088">This occurs at <m:math display="inline">
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>0</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math> and <m:math
+            display="inline">
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>0</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>0</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00089">The vertex occurs where the function will create a mirror image, or be
+          symmetrical for all points. This often occurs halfway between the two zeros (when there
+          are two zeros).</para>
+        <para id="para-00090">For this function, the vertex is at <m:math display="inline">
+            <m:mrow>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mo>,</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>.</para>
         <note class="try" id="note-00002">
-        <title> Try It: Determining Parts of a Graph from a Table </title>
-        <exercise id="exer-00007">
-          <problem id="prob-00025">
-            
-            <para id="para-00091">Determine the vertex from the table:</para>
-            
-            <table class="unnumbered os-raise-horizontaltable" id="table-00002">
-              <tgroup cols="7"><tbody><row>
-                  <entry><emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis></entry><entry>
-                    <para id="para-00092">5</para>
-                  </entry>
-                  <entry>
-                    <para id="para-00093">6</para>
-                  </entry>
-                  <entry>
-                    <para id="para-00094">7</para>
-                  </entry>
-                  <entry>
-                    <para id="para-00095">8</para>
-                  </entry>
-                  <entry>
-                    <para id="para-00096">9</para>
-                  </entry>
-                  <entry>
-                    <para id="para-00097">10</para>
-                  </entry>
-                </row>
-                <row>
-                  <entry><emphasis><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math></emphasis></entry><entry>
-                    <para id="para-00098">0</para>
-                  </entry>
-                  <entry>
-                    <para id="para-00099">4</para>
-                  </entry>
-                  <entry>
-                    <para id="para-00100">8</para>
-                  </entry>
-                  <entry>
-                    <para id="para-00101">4</para>
-                  </entry>
-                  <entry>
-                    <para id="para-00102">0</para>
-                  </entry>
-                  <entry>
-                    <para id="para-00103">-2</para>
-                  </entry>
-                </row>
-              </tbody></tgroup></table>
-            
-            
-          
-          <para id="para-00104">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          
-          </problem><solution id="sol-00025">
-          <para id="para-00105">Here is how to determine the vertex from the table:</para>
-          
-          <para id="para-00106">The zeros are located at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.
-            The vertex will be halfway between the two zeros. This occurs at <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math>.</para>
-          
-          <para id="para-00107">The point in the table at <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> is <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
-          
-          <para id="para-00108">This is the vertex.</para>
-        
-        </solution></exercise></note>
-        </section>
+          <title> Try It: Determining Parts of a Graph from a Table </title>
+        <exercise
+            id="exer-00007">
+            <problem id="prob-00025">
+
+              <para id="para-00091">Determine the vertex from the table:</para>
+
+              <table class="unnumbered os-raise-horizontaltable" id="table-00002">
+                <tgroup cols="7">
+                  <tbody>
+                    <row>
+                      <entry><emphasis><m:math>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:math></emphasis></entry>
+                      <entry>
+                        <para id="para-00092">5</para>
+                      </entry>
+                      <entry>
+                        <para id="para-00093">6</para>
+                      </entry>
+                      <entry>
+                        <para id="para-00094">7</para>
+                      </entry>
+                      <entry>
+                        <para id="para-00095">8</para>
+                      </entry>
+                      <entry>
+                        <para id="para-00096">9</para>
+                      </entry>
+                      <entry>
+                        <para id="para-00097">10</para>
+                      </entry>
+                    </row>
+                    <row>
+                      <entry><emphasis><m:math>
+                            <m:mrow>
+                              <m:mi>f</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:math></emphasis></entry>
+                      <entry>
+                        <para id="para-00098">0</para>
+                      </entry>
+                      <entry>
+                        <para id="para-00099">4</para>
+                      </entry>
+                      <entry>
+                        <para id="para-00100">8</para>
+                      </entry>
+                      <entry>
+                        <para id="para-00101">4</para>
+                      </entry>
+                      <entry>
+                        <para id="para-00102">0</para>
+                      </entry>
+                      <entry>
+                        <para id="para-00103">-2</para>
+                      </entry>
+                    </row>
+                  </tbody>
+                </tgroup>
+              </table>
+
+
+              <para id="para-00104">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
+
+            </problem>
+            <solution id="sol-00025">
+              <para id="para-00105">Here is how to determine the vertex from the table:</para>
+
+              <para id="para-00106">The zeros are located at <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+          and <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>9</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>.
+          The vertex will be halfway between the two zeros. This occurs at <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+
+              <para id="para-00107">The point in the table at <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                </m:math> is <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+          .</para>
+
+              <para id="para-00108">This is the vertex.</para>
+
+            </solution>
+          </exercise></note>
+      </section>
+    </section>
   </content>
 </document>
