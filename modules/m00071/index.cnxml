@@ -7,22 +7,196 @@
   </metadata>
   <content>
     <section class="practice" id="sect-00001">      <title>Activity</title>
-      <exercise id="exer-00001">
+      <para id="para-00001">These three figures are called Platonic solids.</para>
+      <table class="unnumbered os-raise-doubleheadertable unnumbered" id="table-00001">
+        <tgroup cols="3">
+          <tbody>
+            <row>
+              <entry>Tetrahedron</entry>
+              <entry>Cube</entry>
+              <entry>Dodecahedron</entry>
+            </row>
+            <row>
+              <entry><media alt="A tetrahedron.">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_04_03_01.svg"/>
+                </media></entry>
+              <entry><media alt="A cube.">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_04_03_02.svg"/>
+                </media></entry>
+              <entry><media alt="A dodecahderon. A 3-D shape with 12 pentagonal faces.">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_04_03_03.svg"/>
+                </media></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <table class="unnumbered os-raise-doubleheadertable unnumbered" id="table-00002">
+        <tgroup cols="4">
+          <tbody>
+            <row>
+              <entry>
+                
+              </entry>
+              <entry>
+                <emphasis>faces</emphasis>
+              </entry>
+              <entry>
+                <emphasis>vertices</emphasis>
+              </entry>
+              <entry>
+                <emphasis>edges</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>tetrahedron</emphasis>
+              </entry>
+              <entry>4</entry>
+              <entry>4</entry>
+              <entry>6</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>cube</emphasis>
+              </entry>
+              <entry/>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry>
+                <emphasis>dodecahedron</emphasis>
+              </entry>
+              <entry>12</entry>
+              <entry>20</entry>
+              <entry>30</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="para-00002">The table shows the number of faces, vertices, and edges for the tetrahedron and dodecahedron.</para>
+      <para id="para-00003">Determine the following values regarding the cube.</para>
+      <exercise id="a4de0230-e91f-48b4-bbfc-e1250afb4a9b" class="multiple-choice">
         <problem id="prob-00001">
-        <para id="para-00001"><link class="os-embed" url="#exercise/Alg1_1_2_2_PLA_154"/></para>
+          <para id="para-00004">Number of faces.</para>
         </problem>
-        </exercise>
-       
+        <solution id="sol-00001">
+          <para id="para-00005">Correct! 6.</para>
+          <para id="para-00006">Nice try! The correct answer is: 6</para>
+        </solution>
+      </exercise>
+      <exercise id="cdf77a10-ae30-4d5e-b741-0050e643db28" class="multiple-choice">
+        <problem id="prob-00002">
+          <para id="para-00007">Number of edges.</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00008">Correct! 8.</para>
+          <para id="para-00009">Nice try! The correct answer is: 8</para>
+        </solution>
+      </exercise>
+      <exercise id="_13797257-27a3-4f32-adc3-da4166352174" class="multiple-choice">
+        <problem id="prob-00003">
+          <para id="para-00010">Number of vertices.</para>
+        </problem>
+        <solution id="sol-00003">
+          <para id="para-00011">Correct! 12.</para>
+          <para id="para-00012">Nice try! The correct answer is: 12</para>
+        </solution>
+      </exercise>
+      <para id="para-00013">There are some interesting relationships between the number of faces (<m:math display="inline"><m:mrow><m:mi>F</m:mi></m:mrow></m:math>), edges (<m:math display="inline"><m:mrow><m:mi>E</m:mi></m:mrow></m:math>), and vertices (<m:math display="inline"><m:mrow><m:mi>V</m:mi></m:mrow></m:math>) in all Platonic solids.</para>
+      <!-- Q4 -->
+      <exercise id="exer-00001">
+        <problem id="prob-00004">
+          <para id="para-00014">What do you notice about the relationships between the numbers of faces, edges, and vertices of the Platonic solids?</para>
+        </problem>
+        <solution id="sol-00004">
+          <para id="para-00015">Your answer may vary, but here are some examples.</para>
+          <list id="list-00001">
+            <item>I noticed all the numbers are even.</item>
+            <item>I noticed the number of faces is less than or equal to the number of vertices, or <m:math display="inline"><m:mrow><m:mi>F</m:mi><m:mo>≤</m:mo><m:mi>V</m:mi></m:mrow></m:math></item>
+            <item>I noticed the number of edges is always greater than the number of faces, or <m:math display="inline"><m:mrow><m:mi>E</m:mi><m:mo>></m:mo><m:mi>F</m:mi></m:mrow></m:math>.</item>
+          </list>
+        </solution>
+      </exercise>
+      <!-- Q5 -->
+      <exercise id="exer-00002">
+        <problem id="prob-00005">
+          <para id="para-00016">What do you wonder about the relationships between the numbers of faces, edges, and vertices of the Platonic solids?</para>
+        </problem>
+        <solution id="sol-00005">
+          <para id="para-00017">Your answer may vary, but here are some examples.</para>
+          <list id="list-00002">
+            <item>I wonder if the number of edges is always less than the sum of the number of faces and the number of vertices, or <m:math display="inline"><m:mrow><m:mi>E</m:mi><m:mo>&lt;</m:mo><m:mi>F</m:mi><m:mo>+</m:mo><m:mi>V</m:mi></m:mrow></m:math>.</item>
+            <item>I wonder if there is an equation that connects all of the variables.</item>
+          </list>
+        </solution>
+      </exercise>
+      <!-- Q6 -->
+      <exercise id="exer-00003">
+        <problem id="prob-00006">
+          <para id="para-00018">There is a relationship that can be expressed with an equation using all three values: <m:math display="inline"><m:mrow><m:mi>F</m:mi><m:mo>,</m:mo><m:mi>V</m:mi><m:mo>,</m:mo><m:mi>E</m:mi></m:mrow></m:math>. Write the equation that represents how the three values are related.</para>
+        </problem>
+        <solution id="sol-00006">
+          <para id="para-00019">Compare your answer:</para>
+          <para id="para-00020">The number of edges is 2 less than the sum of the other two numbers, or <m:math display="inline"><m:mrow><m:mi>V</m:mi><m:mo>+</m:mo><m:mi>F</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mi>E</m:mi></m:mrow></m:math>.</para>
+        </solution>
+      </exercise>
+      <!--Interaction
+      End -->
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+      will need to change the Data-fire/data-wait-for-events for each set.-->
     </section>
     <section id="sect-00002">
       <title>Are you ready for more?</title>
       <section class="practice" id="sect-00003"><title>Extending Your Thinking</title>
-        <exercise id="exer-00002">
-          <problem id="prob-00002">
-          <para id="para-00002"><link class="os-embed" url="#exercise/Alg1_1_2_2_PLA_155"/></para>
+        <para id="para-00021">There are two more Platonic solids: an octahedron, which has 8 faces that are all triangles, and an icosahedron, which has 20 faces that are all triangles.</para>
+        <exercise id="e9f36468-a618-4a55-b863-9bf452b3b22c" class="multiple-choice">
+          <problem id="prob-00007">
+            <para id="para-00022">How many edges would each of these solids have? (Keep in mind that each edge is used in two faces.)</para>
+            <para id="para-00023">The octahedron has how many edges?</para>
           </problem>
-          </exercise>
-         
+          <solution id="sol-00007">
+            <para id="para-00024">Correct! The octahedron has 12 edges.</para>
+            <para id="para-00025">Nice try! The correct answer is: The octahedron has 12 edges.</para>
+          </solution>
+        </exercise>
+        <exercise id="ea62c583-6289-4dca-904c-a02e8d2aa5a4" class="multiple-choice">
+          <problem id="prob-00008">
+            <para id="para-00026">The icosahedron has how many edges?</para>
+          </problem>
+          <solution id="sol-00008">
+            <para id="para-00027">Correct! The icosahedron has 30 edges.</para>
+            <para id="para-00028">Nice try! The correct answer is: The icosahedron has 30 edges.</para>
+          </solution>
+        </exercise>
+        <exercise id="b87cc191-53ed-4e73-b056-a9786c8409a7" class="multiple-choice">
+          <problem id="prob-00009">
+            <para id="para-00029">Use your discoveries from the activity to determine how many vertices each of these solids would have.</para>
+            <para id="para-00030">The octahedron has how many vertices?</para>
+          </problem>
+          <solution id="sol-00009">
+            <para id="para-00031">Correct! The octahedron has 6 vertices.</para>
+            <para id="para-00032">Nice try! The correct answer is: The octahedron has 6 vertices.</para>
+          </solution>
+        </exercise>
+        <exercise id="_7a2261b6-0c6f-4594-99b2-7534849eed92" class="multiple-choice">
+          <problem id="prob-00010">
+            <para id="para-00033">The icosahedron has how many vertices?</para>
+          </problem>
+          <solution id="sol-00010">
+            <para id="para-00034">Correct! The icosahedron has 30 vertices.</para>
+            <para id="para-00035">Nice try! The correct answer is: The icosahedron has 30 vertices.</para>
+          </solution>
+        </exercise>
+        <exercise class="RFM1" id="exer-00004">
+          <problem id="prob-00011">
+            <para id="para-00036">For all 5 Platonic solids, determine how many faces meet at each vertex.</para>
+          </problem>
+          <solution id="sol-00011">
+            <para id="para-00037">Compare your answer:</para>
+            <para id="para-00038">The tetrahedron, cube, and dodecahedron have 3 faces meeting at each vertex. The octahedron has 4 faces meeting at each vertex. The icosahedron has 5 faces meeting at each vertex.</para>
+          </solution>
+        </exercise>
       </section>
     </section>
     <section id="sect-00004">
