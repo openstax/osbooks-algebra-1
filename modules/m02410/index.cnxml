@@ -6,216 +6,64 @@
     <md:uuid>4819898a-c943-4521-8239-1e4960af0a60</md:uuid>
   </metadata>
   <content>
-
-    <section class="practice" id="sect-00001">
-      <title>Activity</title>
-
+    <section class="practice" id="sect-00001">      <title>Activity</title>
       <note id="note-00001">
         <para id="para-00001">Access the <link url="https://k12.openstax.org/contents/raise/resources/2c2987f83130584132cad08b60ad0d3ba45a32b9">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
       </note>
-
-      <exercise id="exer-00001">
-        <problem id="prob-00001">
-          <para id="para-00002"><link class="os-embed" url="#exercise/Alg1_9_5_3_PLA_51"/></para>
+      <exercise>
+        <problem>
+        <para><link class="os-embed" url="#exercise/Alg1_9_5_3_PLA_51"/></para>
         </problem>
-      </exercise>
-
-    </section>
-
-    <note class="self-check" id="note-00002">
-      <exercise id="exer-00011">
-        <problem id="prob-00015">
+        </exercise>
+       
+      </section>
+      <note class="self-check" id="note-00002">
+        <exercise id="exer-00011">
+          <problem id="prob-00015">
           <para id="para-00058"><link class="os-embed" url="#exercise/Alg1_9_5_3_SC"/></para>
-        </problem>
-      </exercise>
-    </note>
-
-    <section id="sect-00002">
-      <title>Extending Your Thinking</title>
-      <exercise id="exer-00002">
-        <problem id="prob-00002">
-          <para id="para-00003"><link class="os-embed" url="#exercise/Alg1_9_5_3_PLA_52"/></para>
-        </problem>
-      </exercise>
-    </section>
-
-    <section id="sect-00003">
-      <title>Additional Resources</title>
-      <section id="sect-00004">
-        <title>Using the Calculator for Approximate Solutions</title>
-        <para id="para-00059">Let's look at the solutions to the equations from 9.5.2: Additional Resources:</para>
-        <para id="para-00060">A more compact way to write the two solutions to the equation <m:math display="inline">
-            <m:mrow>
-              <m:mo stretchy="false">(</m:mo>
-              <m:mi>x</m:mi>
-              <m:mo>+</m:mo>
-              <m:mn>4</m:mn>
-              <m:msup>
-                <m:mo stretchy="false">)</m:mo>
-                <m:mn>2</m:mn>
-              </m:msup>
-              <m:mo>=</m:mo>
-              <m:mn>11</m:mn>
-            </m:mrow>
-          </m:math> is: <m:math display="inline">
-            <m:mrow>
-              <m:mi>x</m:mi>
-              <m:mo>=</m:mo>
-              <m:mo>−</m:mo>
-              <m:mn>4</m:mn>
-              <m:mi>±</m:mi>
-              <m:msqrt>
-                <m:mrow>
-                  <m:mn>11</m:mn>
-                </m:mrow>
-              </m:msqrt>
-            </m:mrow>
-          </m:math>.</para>
-        <para id="para-00061">How large or small are those numbers? Are they positive or negative? We can use a calculator to compute the approximate values of both expressions:</para>
-        <para id="para-00062"><m:math display="inline">
-            <m:mrow>
-              <m:mo>−</m:mo>
-              <m:mn>4</m:mn>
-              <m:mo>+</m:mo>
-              <m:msqrt>
-                <m:mrow>
-                  <m:mn>11</m:mn>
-                </m:mrow>
-              </m:msqrt>
-              <m:mo>≈</m:mo>
-              <m:mo>−</m:mo>
-              <m:mn>0.683</m:mn>
-            </m:mrow>
-          </m:math> or <m:math display="inline">
-            <m:mrow>
-              <m:mo>−</m:mo>
-              <m:mn>4</m:mn>
-              <m:mo>−</m:mo>
-              <m:msqrt>
-                <m:mrow>
-                  <m:mn>11</m:mn>
-                </m:mrow>
-              </m:msqrt>
-              <m:mo>≈</m:mo>
-              <m:mo>−</m:mo>
-              <m:mn>7.317</m:mn>
-            </m:mrow>
-          </m:math></para>
-        <para id="para-00063">We can also approximate the solutions by graphing. The equation <m:math display="inline">
-            <m:mrow>
-              <m:mo stretchy="false">(</m:mo>
-              <m:mi>x</m:mi>
-              <m:mo>+</m:mo>
-              <m:mn>4</m:mn>
-              <m:msup>
-                <m:mo stretchy="false">)</m:mo>
-                <m:mn>2</m:mn>
-              </m:msup>
-              <m:mo>=</m:mo>
-              <m:mn>11</m:mn>
-            </m:mrow>
-          </m:math> is equivalent to <m:math display="inline">
-            <m:mrow>
-              <m:mo stretchy="false">(</m:mo>
-              <m:mi>x</m:mi>
-              <m:mo>+</m:mo>
-              <m:mn>4</m:mn>
-              <m:msup>
-                <m:mo stretchy="false">)</m:mo>
-                <m:mn>2</m:mn>
-              </m:msup>
-              <m:mi>−</m:mi>
-              <m:mn>11</m:mn>
-              <m:mo>=</m:mo>
-              <m:mn>0</m:mn>
-            </m:mrow>
-          </m:math>, so we can graph the function <m:math display="inline">
-            <m:mrow>
-              <m:mi>y</m:mi>
-              <m:mo>=</m:mo>
-              <m:mo stretchy="false">(</m:mo>
-              <m:mi>x</m:mi>
-              <m:mo>+</m:mo>
-              <m:mn>4</m:mn>
-              <m:msup>
-                <m:mo stretchy="false">)</m:mo>
-                <m:mn>2</m:mn>
-              </m:msup>
-              <m:mi>−</m:mi>
-              <m:mn>11</m:mn>
-            </m:mrow>
-          </m:math> and find its zeros by locating the <m:math display="inline">
-            <m:mrow>
-              <m:mi>x</m:mi>
-            </m:mrow>
-          </m:math>-intercepts of the graph.</para>
-        <para id="para-00064">
-          <media alt="Insert Alt Text">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_07_08_01.svg"/>
-          </media>
-
-        </para>
-        <note class="try" id="note-00003">
-          <title>Try It: Using the Calculator for Approximate Solutions</title>
-        <exercise id="exer-00010">
-            <problem id="prob-00014">
-              <para id="para-00065">Approximate the solutions to <m:math display="inline">
-                  <m:mrow>
-                    <m:mi>x</m:mi>
-                    <m:mo>=</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:mi>±</m:mi>
-                    <m:msqrt>
-                      <m:mrow>
-                        <m:mn>19</m:mn>
-                      </m:mrow>
-                    </m:msqrt>
-                  </m:mrow>
-                </m:math>.</para>
-              <para id="para-00066">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-            </problem>
-            <solution id="sol-00014">
-              <para id="para-00067">Here is how to approximate the solutions:</para>
-              <para id="para-00068"><emphasis>Step 1</emphasis> - Write two expressions. </para>
-              <para id="para-00070"><m:math display="inline">
-                  <m:mrow>
-                    <m:mi>x</m:mi>
-                    <m:mo>=</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:mo>+</m:mo>
-                    <m:msqrt>
-                      <m:mrow>
-                        <m:mn>19</m:mn>
-                      </m:mrow>
-                    </m:msqrt>
-                    <m:mo>,</m:mo>
-                    <m:mi>x</m:mi>
-                    <m:mo>=</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:mo>−</m:mo>
-                    <m:msqrt>
-                      <m:mrow>
-                        <m:mn>19</m:mn>
-                      </m:mrow>
-                    </m:msqrt>
-                  </m:mrow>
-                </m:math></para>
-              <para id="para-00069"><emphasis>Step 2</emphasis> - Use the calculator to approximate the solutions to three decimal places. </para>
-              <para id="para-00071"><m:math display="inline">
-                  <m:mrow>
-                    <m:mi>x</m:mi>
-                    <m:mo>≈</m:mo>
-                    <m:mo>−</m:mo>
-                    <m:mn>1.359</m:mn>
-                    <m:mo>,</m:mo>
-                    <m:mi>x</m:mi>
-                    <m:mo>≈</m:mo>
-                    <m:mn>7.359</m:mn>
-                  </m:mrow>
-                </m:math></para>
-            </solution>
+          </problem>
           </exercise>
-        </note>
+         
+      </note>
+      <section>
+        <title>Extending Your Thinking</title>
+      <exercise>
+        <problem>
+        <para><link class="os-embed" url="#exercise/Alg1_9_5_3_PLA_52"/></para>
+        </problem>
+        </exercise>
+      </section>
+      
+      <section id="sect-00003">
+        <title>Additional Resources</title>
+        <section id="sect-00004">
+          <title>Using the Calculator for Approximate Solutions</title>
+          <para id="para-00059">Let's look at the solutions to the equations from 9.5.2: Additional Resources:</para>
+          <para id="para-00060">A more compact way to write the two solutions to the equation <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math> is: <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:mn>11</m:mn></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+          <para id="para-00061">How large or small are those numbers? Are they positive or negative? We can use a calculator to compute the approximate values of both expressions:</para>
+          <para id="para-00062"><m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:msqrt><m:mrow><m:mn>11</m:mn></m:mrow></m:msqrt><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>0.683</m:mn></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:msqrt><m:mrow><m:mn>11</m:mn></m:mrow></m:msqrt><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>7.317</m:mn></m:mrow></m:math></para>
+          <para id="para-00063">We can also approximate the solutions by graphing. The equation <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math> is equivalent to <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>11</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, so we can graph the function <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>11</m:mn></m:mrow></m:math> and find its zeros by locating the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercepts of the graph.</para>
+          <para id="para-00064">
+                  <media alt="Insert Alt Text">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_07_08_01.svg"/>
+              </media>
+            
+         </para>
+          <note class="try" id="note-00003">
+            <title>Try It: Using the Calculator for Approximate Solutions</title>
+        <exercise id="exer-00010">
+              <problem id="prob-00014">
+                <para id="para-00065">Approximate the solutions to <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:mn>19</m:mn></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+                <para id="para-00066">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+              </problem>
+              <solution id="sol-00014">
+                <para id="para-00067">Here is how to approximate the solutions:</para>
+                <para id="para-00068"><emphasis>Step 1</emphasis> - Write two expressions. </para><para id="para-00070"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:msqrt><m:mrow><m:mn>19</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:msqrt><m:mrow><m:mn>19</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+                <para id="para-00069"><emphasis>Step 2</emphasis> - Use the calculator to approximate the solutions to three decimal places. </para><para id="para-00071"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>1.359</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>≈</m:mo><m:mn>7.359</m:mn></m:mrow></m:math></para>
+              </solution>
+            </exercise>
+          </note>
+        </section>
       </section>
     </section>
   </content>
