@@ -8,7 +8,7 @@
   <content>
   <section class="practice" id="sect-00001">    <title>Activity</title>
 <para id="para-00001">Here is a system you solved by graphing earlier.</para>
-<para id="para-00002"><m:math><m:mrow><m:mrow><m:mo stretchy="true" fence="true" form="prefix">{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mspace width="2.2mm"/><m:mi>y</m:mi><m:mi/><m:mo>=</m:mo><m:mspace width="2mm"/><m:mn>1</m:mn><m:mi/><m:mspace width="1em"/><m:mi/><m:mtext>Equation A</m:mtext><m:mspace linebreak="newline"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mi/><m:mo>=</m:mo><m:mspace width="2mm"/><m:mn>9</m:mn><m:mi/><m:mspace width="1em"/><m:mi/><m:mtext>Equation B</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para><para id="para-00003">To start solving the system, Elena wrote:</para>
+<para id="para-00002"><m:math><m:mrow><m:mrow><m:mo stretchy="true" fence="true" form="prefix">{</m:mo><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mspace width="2.2mm"/><m:mi>y</m:mi><m:mi/><m:mo>=</m:mo><m:mspace width="2mm"/><m:mn>1</m:mn><m:mi/><m:mspace width="1em"/><m:mi/><m:mtext>Equation A</m:mtext><m:mspace linebreak="newline"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>y</m:mi><m:mi/><m:mo>=</m:mo><m:mspace width="2mm"/><m:mn>9</m:mn><m:mi/><m:mspace width="1em"/><m:mi/><m:mtext>Equation B</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:math></para><para id="para-00003">To start solving the system, Elena wrote:</para>
 <para id="para-00004"><m:math><m:mrow><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mspace width="2.2mm"/><m:mi>y</m:mi><m:mi/><m:mo>=</m:mo><m:mspace width="2mm"/><m:mn>1</m:mn><m:mspace linebreak="newline"/><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mi/><m:mo>=</m:mo><m:mn>36</m:mn></m:mrow></m:mrow></m:math></para><para id="para-00005">And then she wrote:</para>
 <para id="para-00006"><m:math><m:mrow><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mspace width="2.2mm"/><m:mi>y</m:mi><m:mi/><m:mo>=</m:mo><m:mspace width="3mm"/><m:mn>1</m:mn><m:mspace linebreak="newline"/><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mi>y</m:mi><m:mi/><m:mo>=</m:mo><m:mspace width="1mm"/><m:mn>36</m:mn><m:mo stretchy="false">)</m:mo><m:mspace width="1.5mm"/><m:mspace linebreak="newline"/><m:mover><m:mrow><m:mspace width="8mm"/><m:mtext>-</m:mtext><m:mn>7</m:mn><m:mi>y</m:mi></m:mrow><m:mo accent="true">―</m:mo></m:mover><m:mi/><m:mover><m:mrow><m:mspace width="1mm"/><m:mo>=</m:mo><m:mtext>-</m:mtext><m:mn>35</m:mn><m:mspace width="5mm"/></m:mrow><m:mo accent="true">―</m:mo></m:mover></m:mrow></m:mrow></m:math></para><!-- BEGIN TEXT ENTRY WITH REVEAL -->
 
@@ -134,9 +134,38 @@
     <exercise id="exer-00005">
       <problem id="prob-00005">
         <para id="para-00044">Solve the following system of equations using elimination:</para>
-        
-        <para id="para-00045">\[\left\{\begin{array}{l}7x+8y=4\\3x-5y=27\end{array}\right.\]</para>
-      
+        <para id="para-00021">
+        <m:math display="block">
+          <m:mrow>
+            <m:mo>{</m:mo>
+            <m:mtable columnalign="left" rowspacing="4pt" columnspacing="1em">
+              <m:mtr>
+                <m:mtd>
+                  <m:mn>7</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>8</m:mn>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mtd>
+              </m:mtr>
+              <m:mtr>
+                <m:mtd>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>27</m:mn>
+                </m:mtd>
+              </m:mtr>
+            </m:mtable>
+            <m:mo fence="true" stretchy="true" symmetric="true"/>
+          </m:mrow>
+        </m:math> 
+            </para>
       <para id="para-00046">Write down your answer. Then select the <emphasis>solution </emphasis>button to compare your work.</para>
       </problem>
       <solution id="sol-00005">
