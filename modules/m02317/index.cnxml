@@ -10,17 +10,87 @@
       <title>Question #1: Simplifying Radicals</title>
       <exercise id="exer-00002">
         <problem id="prob-00003">
-        <para id="para-00001"><link class="os-embed" url="#exercise/Alg1_OR_U9_Q1"/></para>
+          <para id="para-00001"><link class="os-embed" url="#exercise/Alg1_OR_U9_Q1"/></para>
         </problem>
-        </exercise>       
+      </exercise>
     </note>
     <section id="sect-00001">
       <title>Simplifying a Square Root</title>
       <para id="para-00002">Some square roots can be simplified using the product property. Here is the product property:</para>
       <note id="note-00002">
-        <title>Product Property of <m:math display="inline"><m:mrow><m:msup><m:mi>n</m:mi><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:mrow></m:math> Roots</title>
-  <para id="para-00004">If <m:math display="inline"><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> are real numbers, and <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math> is an integer, then</para>
-  <para id="para-00005"><m:math display="inline"><m:mrow><m:mroot><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot><m:mi>·</m:mi><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mroot><m:mi>a</m:mi><m:mi>n</m:mi></m:mroot><m:mi>·</m:mi><m:mroot><m:mi>b</m:mi><m:mi>n</m:mi></m:mroot><m:mo>=</m:mo><m:mroot><m:mrow><m:mi>a</m:mi><m:mi>b</m:mi></m:mrow><m:mi>n</m:mi></m:mroot></m:mrow></m:math></para>
+        <title>Product Property of <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>n</m:mi>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mi>h</m:mi>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math> Roots</title>
+  <para id="para-00004">If <m:math display="inline">
+            <m:mrow>
+              <m:mroot>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:mroot>
+            </m:mrow>
+          </m:math> and <m:math display="inline">
+            <m:mrow>
+              <m:mroot>
+                <m:mi>b</m:mi>
+                <m:mi>n</m:mi>
+              </m:mroot>
+            </m:mrow>
+          </m:math> are real numbers, and <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>≥</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math> is an integer, then</para>
+  <para id="para-00005"><m:math display="inline">
+            <m:mrow>
+              <m:mroot>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mi>b</m:mi>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:mroot>
+              <m:mo>=</m:mo>
+              <m:mroot>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:mroot>
+              <m:mi>·</m:mi>
+              <m:mroot>
+                <m:mi>b</m:mi>
+                <m:mi>n</m:mi>
+              </m:mroot>
+            </m:mrow>
+          </m:math> and <m:math display="inline">
+            <m:mrow>
+              <m:mroot>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:mroot>
+              <m:mi>·</m:mi>
+              <m:mroot>
+                <m:mi>b</m:mi>
+                <m:mi>n</m:mi>
+              </m:mroot>
+              <m:mo>=</m:mo>
+              <m:mroot>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mi>b</m:mi>
+                </m:mrow>
+                <m:mi>n</m:mi>
+              </m:mroot>
+            </m:mrow>
+          </m:math></para>
       </note>
       <para id="para-00006">Here is how the product property can be used to simplify square roots:</para>
       <note id="note-00003">
@@ -32,29 +102,137 @@
       </note>
       <section id="sect-00002">
         <title>Example</title>
-        <para id="para-00011">Find the simplest form of <m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mn>98</m:mn></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+        <para id="para-00011">Find the simplest form of <m:math display="inline">
+            <m:mrow>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mn>98</m:mn>
+                </m:mrow>
+              </m:msqrt>
+            </m:mrow>
+          </m:math>.</para>
         <para id="para-00012"><emphasis>Step 1</emphasis> - Find the largest factor in the radicand that is a perfect power of the index. Use that factor to rewrite the radicand as a product of two factors. We see that 49 is the largest factor of 98 that has a power of 2. In other words, 49 is the largest perfect square factor of 98. </para>
-          <para id="para-00031"><m:math display="inline"><m:mrow><m:mn>98</m:mn><m:mo>=</m:mo><m:mn>49</m:mn><m:mi>·</m:mi><m:mn>2</m:mn></m:mrow></m:math> Always write the perfect square factor first. <m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mn>49</m:mn><m:mi>·</m:mi><m:mn>2</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+        <para id="para-00031"><m:math display="inline">
+            <m:mrow>
+              <m:mn>98</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>49</m:mn>
+              <m:mi>·</m:mi>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math> Always write the perfect square factor first. <m:math display="inline">
+            <m:mrow>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mn>49</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:msqrt>
+            </m:mrow>
+          </m:math></para>
         <para id="para-00013"><emphasis>Step 2</emphasis> - Use the product rule to rewrite the radical as the product of two radicals. </para>
-          <para id="para-00032"><m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mn>49</m:mn></m:mrow></m:msqrt><m:mi>·</m:mi><m:msqrt><m:mrow><m:mn>2</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+        <para id="para-00032"><m:math display="inline">
+            <m:mrow>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mn>49</m:mn>
+                </m:mrow>
+              </m:msqrt>
+              <m:mi>·</m:mi>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:msqrt>
+            </m:mrow>
+          </m:math></para>
         <para id="para-00014"><emphasis>Step 3</emphasis> - Simplify the root of the perfect power. </para>
-          <para id="para-00033"><m:math display="inline"><m:mrow><m:mn>7</m:mn><m:msqrt><m:mrow><m:mn>2</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+        <para id="para-00033"><m:math display="inline">
+            <m:mrow>
+              <m:mn>7</m:mn>
+              <m:msqrt>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:msqrt>
+            </m:mrow>
+          </m:math></para>
       </section>
       <note class="try" id="note-00004">
         <title>Try It: Simplifying a Square Root</title>
         <exercise id="exer-00001">
           <problem id="prob-00001">
-            <para id="para-00015">Simplify <m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mn>48</m:mn></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+            <para id="para-00015">Simplify <m:math display="inline">
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>48</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math>.</para>
             <para id="para-00016">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00001">
             <para id="para-00017">Here is how to simplify a square root:</para>
             <para id="para-00018"><emphasis>Step 1</emphasis> - Find the largest factor in the radicand and rewrite the radical as a product of factors. </para>
-            <para id="para-00034"><m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mn>48</m:mn></m:mrow></m:msqrt><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>16</m:mn><m:mi>·</m:mi><m:mn>3</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
-            <para id="para-00019"><emphasis>Step 2</emphasis> - Use the product rule to rewrite the radical as a product of two radicals.</para> 
-            <para id="para-00035"><m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mn>16</m:mn></m:mrow></m:msqrt><m:mi>·</m:mi><m:msqrt><m:mrow><m:mn>3</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+            <para id="para-00034"><m:math display="inline">
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>48</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mo>=</m:mo>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>16</m:mn>
+                      <m:mi>·</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00019"><emphasis>Step 2</emphasis> - Use the product rule to rewrite the radical as a product of two radicals.</para>
+            <para id="para-00035"><m:math display="inline">
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>16</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mi>·</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math></para>
             <para id="para-00020"><emphasis>Step 3</emphasis> - Simplify the radical with the perfect square root. </para>
-            <para id="para-00036"><m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mn>16</m:mn></m:mrow></m:msqrt><m:mi>·</m:mi><m:msqrt><m:mrow><m:mn>3</m:mn></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>4</m:mn><m:msqrt><m:mrow><m:mn>3</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
+            <para id="para-00036"><m:math display="inline">
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>16</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mi>·</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math></para>
           </solution>
         </exercise>
       </note>
@@ -62,11 +240,92 @@
         <title>Check Your Understanding</title>
         <exercise id="_414e87d7-61a3-4bae-b82f-8105fb1d906f" class="multiple-choice">
           <problem id="prob-00002">
-            <para id="para-00021">Find the simplest form of <m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mn>500</m:mn></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+            <para id="para-00021">Find the simplest form of <m:math display="inline">
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>500</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math>.</para>
             <para id="para-00022">Multiple Choice:</para>
-            <para id="para-00023"><m:math><m:mrow><m:mn>10</m:mn><m:msqrt><m:mrow><m:mn>5</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para><para id="para-00024"><m:math><m:mrow><m:mn>100</m:mn><m:msqrt><m:mrow><m:mn>5</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para><para id="para-00025"><m:math><m:mrow><m:mn>5</m:mn><m:msqrt><m:mrow><m:mn>20</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para><para id="para-00026"><m:math><m:mrow><m:mn>2</m:mn><m:msqrt><m:mrow><m:mn>125</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para></problem>
+            <list list-type="enumerated" number-style="lower-alpha" id="list-00001">  
+            <item><para id="para-00023"><m:math>
+                <m:mrow>
+                  <m:mn>10</m:mn>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math></para></item>
+            <item><para id="para-00024"><m:math>
+                <m:mrow>
+                  <m:mn>100</m:mn>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math></para></item>
+            <item><para id="para-00025"><m:math>
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>20</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math></para></item>
+            <item><para id="para-00026"><m:math>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>125</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math></para></item>
+            </list>
+          </problem>
           <solution id="sol-00002">
-            <para id="para-00027">Correct! Check yourself: The <m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mn>500</m:mn></m:mrow></m:msqrt></m:mrow></m:math> can be broken into <m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mn>100</m:mn></m:mrow></m:msqrt><m:mi>·</m:mi><m:msqrt><m:mrow><m:mn>5</m:mn></m:mrow></m:msqrt></m:mrow></m:math>. This simplifies to <m:math display="inline"><m:mrow><m:mn>10</m:mn><m:msqrt><m:mrow><m:mn>5</m:mn></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+            <para id="para-00027">Correct! Check yourself: The <m:math display="inline">
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>500</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math> can be broken into <m:math display="inline">
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mi>·</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math>. This simplifies to <m:math display="inline">
+                <m:mrow>
+                  <m:mn>10</m:mn>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math>.</para>
             <para id="para-00028">Try again. Take a moment to think about what you learned in the mini-lesson review.</para>
           </solution>
         </exercise>
