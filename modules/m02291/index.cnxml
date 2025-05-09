@@ -6,15 +6,25 @@
     <md:uuid>4ca61545-a2f1-4b87-aeb9-c5601f1a0d3e</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">In a previous lesson, you learned how to find the line of best fit. A line of best fit is a line on a graph that best approximates the equation of the points in a data set or scatter plot.</para>
-      <para id="para-00002">In this activity, we will learn how to find the <term class="glossary-tooltip" id="term-00001">curve of best fit</term>, which is the curve modeled by the equation that best approximates the points in a data set or scatter plot. Since our data set is based on a quadratic function, we must use a curve instead of a line. This process, called <term class="glossary-tooltip" id="term-00002">quadratic regression</term>, is the process of determining the equation of a parabola that best fits a data set.</para>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">In a previous lesson, you learned how to find the line of best fit. A
+        line of best fit is a line on a graph that best approximates the equation of the points in a
+        data set or scatter plot.</para>
+      <para id="para-00002">In this activity, we will learn how to find the <term
+          class="glossary-tooltip" id="term-00001">curve of best fit</term>, which is the curve
+        modeled by the equation that best approximates the points in a data set or scatter plot.
+        Since our data set is based on a quadratic function, we must use a curve instead of a line.
+        This process, called <term class="glossary-tooltip" id="term-00002">quadratic regression</term>,
+        is the process of determining the equation of a parabola that best fits a data set.</para>
       <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>Examine the data set and graph given in the Desmos graphing tool below.</item>
       </list>
       <media alt="...">
-        <iframe src="../../media/desmos/8f4b6af53f41cd6f466b15fc6e0c2a1b4e0047df.html" width="500" height="400"/>
-      </media><!--Text Entry Interaction Start -->
+        <iframe src="../../media/desmos/8f4b6af53f41cd6f466b15fc6e0c2a1b4e0047df.html" width="500"
+          height="400" />
+      </media><!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
           <para id="para-00003">Examine the data. Do they appear to you to form a line or a curve?</para>
@@ -25,78 +35,251 @@
           <para id="para-00006">They appear to be the start of a curve.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-        <item>We will use graphing technology to find a curve of best fit. Click the pointer below the table into entry box #2 to enter a new function. The cursor should start blinking. Enter the equation:</item>
+        <item>We will use graphing technology to find a curve of best fit. Click the pointer below
+          the table into entry box #2 to enter a new function. The cursor should start blinking.
+          Enter the equation:</item>
       </list>
-      <para id="para-00007"><m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mi>~</m:mi><m:mi>a</m:mi><m:msubsup><m:mi>x</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>b</m:mi><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math></para><list id="list-00003">
-        <item>Notice that when you type the 1 after <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, Desmos automatically places it as subscript.</item>
+      <para id="para-00007"><m:math>
+          <m:mrow>
+            <m:msub>
+              <m:mi>y</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mi>~</m:mi>
+            <m:mi>a</m:mi>
+            <m:msubsup>
+              <m:mi>x</m:mi>
+              <m:mn>1</m:mn>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:mi>c</m:mi>
+          </m:mrow>
+        </m:math></para>
+      <list id="list-00003">
+        <item>Notice that when you type the 1 after <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math> or <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>, Desmos automatically places it
+          as subscript.</item>
       </list>
       <list id="list-00004">
-        <item>Also notice that we are not using an equal sign. The symbol ~ means approximately and tells Desmos to approximate a line or curve of best fit. It should be in the top-left corner of your keyboard, and you might press it using the Shift button. If you are using the Desmos on-screen keyboard, it will be on the ABC keyboard.</item>
+        <item>Also notice that we are not using an equal sign. The symbol ~ means approximately and
+          tells Desmos to approximate a line or curve of best fit. It should be in the top-left
+          corner of your keyboard, and you might press it using the Shift button. If you are using
+          the Desmos on-screen keyboard, it will be on the ABC keyboard.</item>
       </list>
       <list id="list-00005">
-        <item>After pressing the subscript 1 after the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> and the first <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, use the ^ symbol to tell Desmos you would like to enter an exponent.</item>
+        <item>After pressing the subscript 1 after the <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math> and the first <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>, use the ^ symbol to tell
+          Desmos you would like to enter an exponent.</item>
       </list>
       <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
-        <item>Once you have entered the curve of best fit, you can press Enter. The curve of best fit will appear. Your screen will look like this:</item>
+        <item>Once you have entered the curve of best fit, you can press Enter. The curve of best
+          fit will appear. Your screen will look like this:</item>
       </list>
       <media alt="...">
-        <iframe src="../../media/desmos/9b8e2ab70f7e853e494c0405586a967820edbd3f.html" width="500" height="400"/>
+        <iframe src="../../media/desmos/9b8e2ab70f7e853e494c0405586a967820edbd3f.html" width="500"
+          height="400" />
       </media>
-      <para id="para-00008">Look in the lower-left corner of the screen. We will use the <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> values to construct the equation for our curve of best fit.</para>
-  
-        <exercise id="df117ed1-5d4f-435a-8348-c5ae806d81dd" class="multiple-choice">
-          <problem id="prob-00002">
-            <para id="para-00009">Enter the value of <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math>.</para>
-            <para id="para-00010">What is the value of <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> rounded to the nearest hundredth?</para>
-          </problem>
-          <solution id="sol-00002">
-            <para id="para-00011">Correct! <m:math display="inline"><m:mrow><m:mi>–</m:mi><m:mn>0.86</m:mn></m:mrow></m:math></para>
-            <para id="para-00012">Nice try! The correct answer is <m:math display="inline"><m:mrow><m:mi>–</m:mi><m:mn>0.86</m:mn></m:mrow></m:math></para>
-          </solution>
-        </exercise>
-        <exercise id="_48824ada-f643-4d81-b691-760b82408396" class="multiple-choice">
-          <problem id="prob-00003">
-            <para id="para-00013">Enter the value of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.</para>
-            <para id="para-00014">What is the value of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> rounded to the nearest hundredth?</para>
-          </problem>
-          <solution id="sol-00003">
-            <para id="para-00015">Correct! <m:math display="inline"><m:mrow><m:mn>8.09</m:mn></m:mrow></m:math></para>
-            <para id="para-00016">Nice try! The correct answer is <m:math display="inline"><m:mrow><m:mn>8.09</m:mn></m:mrow></m:math></para>
-          </solution>
-        </exercise>
-        <exercise id="_5a9d0b4a-3348-4e1f-9f9f-dd1a56334c82" class="multiple-choice">
-          <problem id="prob-00004">
-            <para id="para-00017">Enter the value of <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math>.</para>
-            <para id="para-00018">What is the value of <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> rounded to the nearest hundredth?</para>
-          </problem>
-          <solution id="sol-00004">
-            <para id="para-00019">Correct! <m:math display="inline"><m:mrow><m:mn>16.53</m:mn></m:mrow></m:math></para>
-            <para id="para-00020">Nice try! The correct answer is <m:math display="inline"><m:mrow><m:mn>16.53</m:mn></m:mrow></m:math></para>
-          </solution>
-        </exercise>
-<!--Text Entry Interaction Start -->
+      <para id="para-00008">Look in the lower-left corner of the screen. We will use the <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>a</m:mi>
+          </m:mrow>
+        </m:math>, <m:math display="inline">
+          <m:mrow>
+            <m:mi>b</m:mi>
+          </m:mrow>
+        </m:math>, and <m:math display="inline">
+          <m:mrow>
+            <m:mi>c</m:mi>
+          </m:mrow>
+        </m:math> values to construct the equation for
+        our curve of best fit.</para>
+
+      <exercise id="df117ed1-5d4f-435a-8348-c5ae806d81dd" class="multiple-choice">
+        <problem id="prob-00002">
+          <para id="para-00009">Enter the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+              </m:mrow>
+            </m:math>.</para>
+          <para id="para-00010">What is the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+              </m:mrow>
+            </m:math> rounded to the nearest
+            hundredth?</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00011">Correct! <m:math display="inline">
+              <m:mrow>
+                <m:mi>–</m:mi>
+                <m:mn>0.86</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00012">Nice try! The correct answer is <m:math display="inline">
+              <m:mrow>
+                <m:mi>–</m:mi>
+                <m:mn>0.86</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <exercise id="_48824ada-f643-4d81-b691-760b82408396" class="multiple-choice">
+        <problem id="prob-00003">
+          <para id="para-00013">Enter the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math>.</para>
+          <para id="para-00014">What is the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math> rounded to the nearest
+            hundredth?</para>
+        </problem>
+        <solution id="sol-00003">
+          <para id="para-00015">Correct! <m:math display="inline">
+              <m:mrow>
+                <m:mn>8.09</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00016">Nice try! The correct answer is <m:math display="inline">
+              <m:mrow>
+                <m:mn>8.09</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <exercise id="_5a9d0b4a-3348-4e1f-9f9f-dd1a56334c82" class="multiple-choice">
+        <problem id="prob-00004">
+          <para id="para-00017">Enter the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math>.</para>
+          <para id="para-00018">What is the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math> rounded to the nearest
+            hundredth?</para>
+        </problem>
+        <solution id="sol-00004">
+          <para id="para-00019">Correct! <m:math display="inline">
+              <m:mrow>
+                <m:mn>16.53</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00020">Nice try! The correct answer is <m:math display="inline">
+              <m:mrow>
+                <m:mn>16.53</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00005">
-          <para id="para-00021">Write an equation in the form <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math> for the curve of best fit using the values you found.</para>
+          <para id="para-00021">Write an equation in the form <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mi>a</m:mi>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math> for the curve of best fit
+            using the values you found.</para>
         </problem>
         <solution id="sol-00005">
           <para id="para-00022">Enter an equation.</para>
           <para id="para-00023">Compare your answer:</para>
-          <para id="para-00024"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>0.86</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>8.09</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>16.53</m:mn></m:mrow></m:math></para><para id="para-00025">This is the equation for your curve of best fit.</para>
+          <para id="para-00024"><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>0.86</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>8.09</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>16.53</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00025">This is the equation for your curve of best fit.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <para id="para-00026">You may notice the <m:math display="inline"><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> value. The closer this value is to 1, the better your curve of best fit matches the data set. The <m:math display="inline"><m:mrow><m:msup><m:mi>R</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> value for this data set is 0.9972. Since this value is relatively close to 1, this curve of best fit is a reasonably accurate match to the data set.</para>
+      <!--Interaction
+      End -->
+      <para id="para-00026">You may notice the <m:math display="inline">
+          <m:mrow>
+            <m:msup>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math> value. The
+        closer this value is to 1, the better your curve of best fit matches the data set. The <m:math
+          display="inline">
+          <m:mrow>
+            <m:msup>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math> value for this
+        data set is 0.9972. Since this value is relatively close to 1, this curve of best fit is a
+        reasonably accurate match to the data set.</para>
     </section>
-    <note class="self-check" id="note-00001">
-      <exercise id="exer-00004">
-        <problem id="prob-00007">
-        <para id="para-00027"><link class="os-embed" url="#exercise/Alg1_8_12_2_SC"/></para>
-        </problem>
+    <section>
+      <note class="self-check" id="note-00001">
+        <exercise id="exer-00004">
+          <problem id="prob-00007">
+            <para id="para-00027"><link class="os-embed" url="#exercise/Alg1_8_12_2_SC" /></para>
+          </problem>
         </exercise>
-       </note>
+      </note>
+    </section>
+
     <section id="sect-00003">
       <title>Additional Resources</title>
       <section id="sect-00004">
@@ -104,19 +287,39 @@
         <para id="para-00029">Let's find the curve of best fit for a given data set.</para>
         <para id="para-00030">Use the Desmos graphing tool to determine the equation.</para>
         <media alt="...">
-          <iframe src="../../media/desmos/997e7ebb197e7ac78d6d6ac633b8270a2fdd98e5.html" width="500" height="400"/>
+          <iframe src="../../media/desmos/997e7ebb197e7ac78d6d6ac633b8270a2fdd98e5.html" width="500"
+            height="400" />
         </media>
-        <para id="para-00031"><emphasis>Step 1</emphasis> - Click the + symbol in the top left and select a table.</para>
+        <para id="para-00031"><emphasis>Step 1</emphasis> - Click the + symbol in the top left and
+          select a table.</para>
         <para id="para-00032">Enter the data set as shown. Press Enter.</para>
         <table class="unnumbered os-raise-skinnytable" id="table-00001">
           <tgroup cols="2">
             <tbody>
               <row>
                 <entry>
-                  <emphasis> <m:math display="inline"><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> </emphasis>
+                  <emphasis>
+                    <m:math display="inline">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mn>1</m:mn>
+                        </m:msub>
+                      </m:mrow>
+                    </m:math>
+                  </emphasis>
                 </entry>
                 <entry>
-                  <emphasis> <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> </emphasis>
+                  <emphasis>
+                    <m:math display="inline">
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mn>1</m:mn>
+                        </m:msub>
+                      </m:mrow>
+                    </m:math>
+                  </emphasis>
                 </entry>
               </row>
               <row>
@@ -148,14 +351,48 @@
         </table>
         <para id="para-00033">The data set will populate the graph as shown here.</para>
         <para id="para-00034">
-              <media alt="Insert Alt Text">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_09_14_05_01.jpg"/>
-            </media>
-          
-       </para>
-        <para id="para-00035">Step 2 On the left side, click in box #2 for a new item. Enter the instruction line below to generate a curve of best fit.</para>
-        <para id="para-00036"><m:math><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mi>~</m:mi><m:mi>a</m:mi><m:msubsup><m:mi>x</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>b</m:mi><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math></para><list id="list-00007">
-          <item>Remember from the activity that Desmos will automatically place the 1 as subscript after an <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>.</item>
+          <media alt="Insert Alt Text">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_09_14_05_01.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00035">Step 2 On the left side, click in box #2 for a new item. Enter the
+          instruction line below to generate a curve of best fit.</para>
+        <para id="para-00036"><m:math>
+            <m:mrow>
+              <m:msub>
+                <m:mi>y</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mi>~</m:mi>
+              <m:mi>a</m:mi>
+              <m:msubsup>
+                <m:mi>x</m:mi>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math></para>
+        <list id="list-00007">
+          <item>Remember from the activity that Desmos will automatically place the 1 as subscript
+            after an <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> or <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>.</item>
         </list>
         <list id="list-00008">
           <item>Don't forget to use the symbol ~ that means approximately.</item>
@@ -163,30 +400,91 @@
         <list id="list-00009">
           <item>Use the ^ symbol to enter an exponent.</item>
         </list>
-        <para id="para-00037">As soon as you enter the instruction line, Desmos will generate the curve of best fit.</para>
-        <para id="para-00038"><emphasis>Step 3</emphasis> - Use the coefficients generated to write the equation for the curve of best fit.</para>
+        <para id="para-00037">As soon as you enter the instruction line, Desmos will generate the
+          curve of best fit.</para>
+        <para id="para-00038"><emphasis>Step 3</emphasis> - Use the coefficients generated to write
+          the equation for the curve of best fit.</para>
         <para id="para-00039">
-              <media alt="OUTPUT SUMMARY FOR A QUADRATIC REGRESSION. R-SQUARED IS 0.9958. A, B, AND C ARE NEGATIVE 2.75569, 37.0352, AND 65.6605, RESPECTIVELY.">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_09_14_05_02.jpg"/>
-            </media>
-          
-       </para>
+          <media
+            alt="OUTPUT SUMMARY FOR A QUADRATIC REGRESSION. R-SQUARED IS 0.9958. A, B, AND C ARE NEGATIVE 2.75569, 37.0352, AND 65.6605, RESPECTIVELY.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_09_14_05_02.jpg" width="483" />
+          </media>
+
+        </para>
         <para id="para-00040">Round each coefficient to the nearest hundredth.</para>
-        <para id="para-00041">The curve of best fit is <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2.76</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>37.04</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>65.66</m:mn></m:mrow></m:math>.</para>
+        <para id="para-00041">The curve of best fit is <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>2.76</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>37.04</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>65.66</m:mn>
+            </m:mrow>
+          </m:math>.</para>
         <note class="try" id="note-00002">
           <title>Try It: Finding the Curve of Best Fit</title>
-      <para id="para-00042">Find the equation of the curve of best fit. Round each coefficient to the nearest hundredth.</para>
-      <media alt="...">
-            <iframe src="../../media/desmos/1a3f9b804707e785efa4d3e4170660ba07e2b73d.html" width="500" height="400"/>
+      <para id="para-00042">Find the
+          equation of the curve of best fit. Round each coefficient to the nearest hundredth.</para>
+      <media
+            alt="...">
+            <iframe src="../../media/desmos/1a3f9b804707e785efa4d3e4170660ba07e2b73d.html"
+              width="500" height="400" />
           </media>
       <exercise id="exer-00003">
             <problem id="prob-00006">
-              <para id="para-00043">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+              <para id="para-00043">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
             </problem>
             <solution id="sol-00006">
               <para id="para-00044">Here is how to find the curve of best fit:</para>
-              <para id="para-00045">Solve for the curve of best fit by entering <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mi>~</m:mi><m:mi>a</m:mi><m:msubsup><m:mi>x</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>b</m:mi><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>.</para>
-              <para id="para-00046">The curve of best fit is <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>6.18</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4.59</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>25.42</m:mn></m:mrow></m:math>.</para>
+              <para id="para-00045">Solve for the curve of best fit by entering <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mi>~</m:mi>
+                    <m:mi>a</m:mi>
+                    <m:msubsup>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msubsup>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo>+</m:mo>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00046">The curve of best fit is <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>6.18</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>4.59</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>25.42</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
             </solution>
           </exercise>
         </note>

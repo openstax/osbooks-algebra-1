@@ -6,16 +6,45 @@
     <md:uuid>440bdb15-dc56-4fac-be89-3997f317f1d2</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">A helium balloon is released and floats up before coming back down to the ground.</para>
-      <para id="para-00002">The following data set shows the height in feet, <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, of the balloon corresponding to the number of minutes passed, <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>.</para>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">A helium balloon is released and floats up before coming back down to
+        the ground.</para>
+      <para id="para-00002">The following data set shows the height in feet, <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:math>, of the balloon corresponding to the
+        number of minutes passed, <m:math display="inline">
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:math>.</para>
       <table class="unnumbered os-raise-skinnytable" id="table-00001">
         <tgroup cols="2">
           <tbody>
             <row>
-              <entry><emphasis> <m:math display="inline"><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> (minutes) </emphasis>
+              <entry><emphasis>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:math>
+                (minutes) </emphasis>
               </entry>
-              <entry><emphasis><m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> (height in feet)</emphasis>
+              <entry><emphasis><m:math display="inline">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:math>
+                (height in feet)</emphasis>
               </entry>
             </row>
             <row>
@@ -46,26 +75,80 @@
         </tgroup>
       </table>
       <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-        <item>Use the Desmos below. Click the + symbol in the top left and select a table. Enter the data set into the table.</item>
+        <item>Use the Desmos below. Click the + symbol in the top left and select a table. Enter the
+          data set into the table.</item>
       </list>
       <media alt="...">
-        <iframe src="../../media/desmos/3e5190bf799e66256db098ed5ed4bd54eb3afc79.html" width="600" height="500"/>
-      </media><!--Text Entry Interaction Start -->
+        <iframe src="../../media/desmos/3e5190bf799e66256db098ed5ed4bd54eb3afc79.html" width="600"
+          height="500" />
+      </media><!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00003">Use the instruction line, <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mi>~</m:mi><m:mi>a</m:mi><m:msubsup><m:mi>x</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>b</m:mi><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>, to find the curve of best fit.</para>
-          <para id="para-00004">What is the equation of the curve of best fit? Round coefficients to the nearest hundredth.</para>
+          <para id="para-00003">Use the instruction line, <m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mi>~</m:mi>
+                <m:mi>a</m:mi>
+                <m:msubsup>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>+</m:mo>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math>, to find the curve of
+            best fit.</para>
+          <para id="para-00004">What is the equation of the curve of best fit? Round coefficients to
+            the nearest hundredth.</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00005">Enter the equation of the curve of best fit.</para>
           <para id="para-00006">Compare your answer:</para>
-          <para id="para-00007"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3.97</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>35.22</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>78.63</m:mn></m:mrow></m:math></para></solution>
+          <para id="para-00007"><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>3.97</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>35.22</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>78.63</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00008">How high will the balloon be after 4 minutes? (Hint: Graph the line <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math> to help identify where it intersects with the curve of best fit.)</para>
+          <para id="para-00008">How high will the balloon be after 4 minutes? (Hint: Graph the line <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math> to help identify where it
+            intersects with the curve of best fit.)</para>
         </problem>
         <solution id="sol-00002">
           <para id="para-00009">Enter the height of the balloon after 4 minutes.</para>
@@ -73,8 +156,10 @@
           <para id="para-00011">Approximately 156.0 feet</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
           <para id="para-00012">How high will the balloon be after 10 minutes?</para>
@@ -85,11 +170,20 @@
           <para id="para-00015">Approximately 33.83 feet</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00016">At what time will the balloon first be at a height of 95 feet? (Graph the line <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>95</m:mn></m:mrow></m:math>.)</para>
+          <para id="para-00016">At what time will the balloon first be at a height of 95 feet?
+            (Graph the line <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>95</m:mn>
+              </m:mrow>
+            </m:math>.)</para>
         </problem>
         <solution id="sol-00004">
           <para id="para-00017">Enter the time the balloon will first be at a height of 95 feet.</para>
@@ -97,8 +191,10 @@
           <para id="para-00019">At approximately 0.49 minute</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
           <para id="para-00020">At what time will the balloon return to a height of 95 feet?</para>
@@ -109,8 +205,10 @@
           <para id="para-00023">At approximately 8.38 minutes</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00006">
           <para id="para-00024">When will the balloon reach the ground, or have a height of 0 feet?</para>
@@ -120,108 +218,272 @@
           <para id="para-00026">Compare your answer:</para>
           <para id="para-00027">At approximately 10.72 minutes</para>
         </solution>
-      </exercise></section>
-      <!--Interaction End -->
-      <section id="sect-00002">
-        <title>Video: Using Technology to Find The Quadratic Regression</title>
-        <para id="para-00028">Watch the following video to learn more about finding quadratic regression.</para>
-        <media alt="Placeholder for Alt Text">
-          <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/eacddb18f25a338ef2ed0035b0bca663e1620905"/>
-        </media>
+      </exercise>
     </section>
-    <note class="self-check" id="note-00001">
-      <exercise id="exer-00008">
-        <problem id="prob-00008">
-        <para id="para-00029"><link class="os-embed" url="#exercise/Alg1_8_12_3_SC"/></para>
-        </problem>
+    <!--Interaction
+    End -->
+    <section id="sect-00002">
+      <title>Video: Using Technology to Find The Quadratic Regression</title>
+      <para id="para-00028">Watch the following video to learn more about finding quadratic
+        regression.</para>
+      <media alt="Placeholder for Alt Text">
+        <iframe width="660" height="371.4"
+          src="https://k12.openstax.org/contents/raise/resources/eacddb18f25a338ef2ed0035b0bca663e1620905" />
+      </media>
+    </section>
+    <section>
+      <note class="self-check" id="note-00001">
+        <exercise id="exer-00008">
+          <problem id="prob-00008">
+            <para id="para-00029"><link class="os-embed" url="#exercise/Alg1_8_12_3_SC" /></para>
+          </problem>
         </exercise>
-       </note>
+      </note>
+    </section>
+
     <section id="sect-00003">
       <title>Additional Resources</title>
       <section id="sect-00004">
         <title>Making Predictions Using a Quadratic Model</title>
-        <para id="para-00031">A filtration system is being tested in a new aquarium. A pollutant is continuously added to the aquarium, and the filtration system is turned on until it has removed all of the pollutant from the water.</para>
-        <para id="para-00032">The following data set shows the milliliters (mL) of pollutant present, <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, corresponding to the number of minutes that have passed, <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, since the experiment started.</para>
+        <para id="para-00031">A filtration system is being tested in a new aquarium. A pollutant is
+          continuously added to the aquarium, and the filtration system is turned on until it has
+          removed all of the pollutant from the water.</para>
+        <para id="para-00032">The following data set shows the milliliters (mL) of pollutant
+          present, <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>, corresponding to the number of
+          minutes that have passed, <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>, since the experiment started.</para>
         <media alt="...">
-          <iframe src="../../media/desmos/2fe2c12e4cc1d88eb385bb1abc9996eed95987a0.html" width="500" height="400"/>
+          <iframe src="../../media/desmos/2fe2c12e4cc1d88eb385bb1abc9996eed95987a0.html" width="500"
+            height="400" />
         </media>
-        <para id="para-00033">Let’s enter the instruction line, <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mi>~</m:mi><m:mi>a</m:mi><m:msubsup><m:mi>x</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>b</m:mi><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math>, to find the curve of best fit.</para>
+        <para id="para-00033">Let’s enter the instruction line, <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>y</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mi>~</m:mi>
+              <m:mi>a</m:mi>
+              <m:msubsup>
+                <m:mi>x</m:mi>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+              <m:msub>
+                <m:mi>x</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>, to find the curve of best fit.</para>
         <para id="para-00034">
-              <media alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY.">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_09_14_08_01.jpg"/>
-            </media>
-          
-       </para>
-        <para id="para-00035">The curve of best fit is determined to be <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>0.29</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>37.74</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>95.95</m:mn></m:mrow></m:math>.</para>
-        <para id="para-00036">We can use this curve of best fit to answer questions and make predictions about the amount of pollutant that will be in the water (mL) and the time it takes to completely clean the tank of pollutant.</para>
+          <media
+            alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_09_14_08_01.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00035">The curve of best fit is determined to be <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>0.29</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>37.74</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>95.95</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00036">We can use this curve of best fit to answer questions and make
+          predictions about the amount of pollutant that will be in the water (mL) and the time it
+          takes to completely clean the tank of pollutant.</para>
         <para id="para-00037">How many mL of pollutant will be in the water after 12 minutes?</para>
         <list id="list-00002">
-          <item>To answer this question, we want to know the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-value on the curve of best fit when the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-value is 12.</item>
+          <item>To answer this question, we want to know the <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-value on the curve of
+            best fit when the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-value is 12.</item>
         </list>
         <list id="list-00003">
-          <item>We can graph the line <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math> and see where it intersects with the curve of best fit.</item>
+          <item>We can graph the line <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>12</m:mn>
+              </m:mrow>
+            </m:math> and see where it
+            intersects with the curve of best fit.</item>
         </list>
         <para id="para-00038">
-              <media alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY. A VERTICAL LINE IS DRAWN THROUGH X EQUALS 12, WITH THE POINT (12, 507.492) LABELED.">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_09_14_08_02.jpg"/>
-            </media>
-          
-       </para>
+          <media
+            alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY. A VERTICAL LINE IS DRAWN THROUGH X EQUALS 12, WITH THE POINT (12, 507.492) LABELED.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_09_14_08_02.jpg" />
+          </media>
+
+        </para>
         <list id="list-00004">
-          <item>By moving the cursor over the intersection point, we see that the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-value is approximately 507.49.</item>
+          <item>By moving the cursor over the intersection point, we see that the <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-value is approximately
+            507.49.</item>
         </list>
         <list id="list-00005">
-          <item>This means that after 12 minutes, there will be approximately 507.49 mL of pollutant in the water.</item>
+          <item>This means that after 12 minutes, there will be approximately 507.49 mL of pollutant
+            in the water.</item>
         </list>
         <para id="para-00039">At what time(s) will there be 1000 mL of pollutant in the water?</para>
         <list id="list-00006">
-          <item>To answer this question, we want to know the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-value on the curve of best fit when the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-value is 1000.</item>
+          <item>To answer this question, we want to know the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-value on the curve of
+            best fit when the <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-value is 1000.</item>
         </list>
         <list id="list-00007">
-          <item>We can graph the line <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1000</m:mn></m:mrow></m:math> and see where it intersects with the curve of best fit.</item>
+          <item>We can graph the line <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>1000</m:mn>
+              </m:mrow>
+            </m:math> and see where it
+            intersects with the curve of best fit.</item>
         </list>
         <para id="para-00040">
-              <media alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY. A HORIZONTAL LINE IS DRAWN THROUGH Y EQUALS ONE THOUSAND, WITH THE POINTS (31.508, 1000) AND (99.913, 1000) LABELED.">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_09_14_08_03.jpg"/>
-            </media>
-          
-       </para>
+          <media
+            alt="A QUADRATIC REGRESSION THAT CLOSELY APPROXIMATES THE 6 PLOTTED POINTS. R-SQUARED IS APPROXIMATELY 0.99. THE OUTPUT SUMMARY SHOWS THAT A, B, AND C ARE APPROXIMATELY NEGATIVE 0.29, 37.74, AND 95.95, RESPECTIVELY. A HORIZONTAL LINE IS DRAWN THROUGH Y EQUALS ONE THOUSAND, WITH THE POINTS (31.508, 1000) AND (99.913, 1000) LABELED.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_09_14_08_03.jpg" />
+          </media>
+
+        </para>
         <list id="list-00008">
-          <item>The line <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1000</m:mn></m:mrow></m:math> intersects with the curve of best fit at two points. This means there are two times when there is 1000 mL of pollutant. We see that the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values are approximately 31.51 and 99.91.</item>
+          <item>The line <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>1000</m:mn>
+              </m:mrow>
+            </m:math> intersects with the
+            curve of best fit at two points. This means there are two times when there is 1000 mL of
+            pollutant. We see that the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-values are approximately
+            31.51 and 99.91.</item>
         </list>
         <list id="list-00009">
-          <item>In other words, there will be 1000 mL of pollutant at approximately 31.51 minutes and again at approximately 99.91 minutes after the experiment starts.</item>
+          <item>In other words, there will be 1000 mL of pollutant at approximately 31.51 minutes
+            and again at approximately 99.91 minutes after the experiment starts.</item>
         </list>
-        <para id="para-00041">How long after the experiment has started will the filtration system have removed all of the pollutant from the aquarium?</para>
+        <para id="para-00041">How long after the experiment has started will the filtration system
+          have removed all of the pollutant from the aquarium?</para>
         <list id="list-00010">
-          <item>To answer this question, we want to know the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-value of the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercept of the curve of best fit.</item>
+          <item>To answer this question, we want to know the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-value of the <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-intercept of the curve of
+            best fit.</item>
         </list>
         <list id="list-00011">
-          <item>If we graph <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, we can click on the intersection point to find its coordinates. The <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercept of the curve of best fit is <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>133.92</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
+          <item>If we graph <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>, we can click on the
+            intersection point to find its coordinates. The <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-intercept of the curve of
+            best fit is <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>133.92</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>.</item>
         </list>
         <list id="list-00012">
-          <item>So, approximately 133.92 minutes after the experiment starts, there will be no pollutant left in the water.</item>
+          <item>So, approximately 133.92 minutes after the experiment starts, there will be no
+            pollutant left in the water.</item>
         </list>
         <note id="note-00002">
           <title>Try It: Making Predictions Using a Quadratic Model</title>
-      <para id="para-00042">Use the same data set from the example in the section above.</para>
+      <para id="para-00042">Use
+          the same data set from the example in the section above.</para>
       <media alt="...">
-            <iframe src="../../media/desmos/2fe2c12e4cc1d88eb385bb1abc9996eed95987a0.html" width="500" height="400"/>
+            <iframe src="../../media/desmos/2fe2c12e4cc1d88eb385bb1abc9996eed95987a0.html"
+              width="500" height="400" />
           </media>
       <exercise id="exer-00007">
             <problem id="prob-00007">
-              <para id="para-00043">The data set shows the milliliters (mL) of pollutant present, <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, corresponding to the number of minutes that have passed, <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, since the experiment started.</para>
+              <para id="para-00043">The data set shows the milliliters (mL) of pollutant present, <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math>,
+          corresponding to the number of minutes that have passed, <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math>, since the
+          experiment started.</para>
               <para id="para-00044">How many mL of pollutant will be in the water after 47 minutes?</para>
               <para id="para-00045">At what time(s) will there be 1215 mL of pollutant in the water?</para>
-              <para id="para-00046">Write down your answers, then select the <emphasis>solution</emphasis> button to compare your work.</para>
+              <para id="para-00046">Write down your answers, then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
             </problem>
             <solution id="sol-00007">
-              <para id="para-00047">Here is how to use graphing technology and the curve of best fit to make predictions about a situation:</para>
+              <para id="para-00047">Here is how to use graphing technology and the curve of best fit
+          to make predictions about a situation:</para>
               <list class="os-raise-noindent" list-type="enumerated" id="list-00013">
                 <item>After 47 minutes, there will be approximately 1235.41 mL of pollutant.</item>
               </list>
               <list class="os-raise-noindent" list-type="enumerated" id="list-00014">
-                <item>There will be 1215 mL of pollutant in the water after approximately 45.19 minutes and 86.23 minutes.</item>
+                <item>There will be 1215 mL of pollutant in the water after approximately 45.19
+          minutes and 86.23 minutes.</item>
               </list>
             </solution>
           </exercise>
