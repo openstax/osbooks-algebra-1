@@ -6,308 +6,1153 @@
     <md:uuid>c858de99-bbe5-45c2-9bf9-fbc6416dfed4</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">A marine biologist estimates that a structure of coral has a volume of 1,200 cubic centimeters and that its volume
-  doubles each year.</para>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">A marine biologist estimates that a structure of coral has a volume of
+        1,200 cubic centimeters and that its volume doubles each year.</para>
       <para id="para-00002">
-          <media alt="Two clownfish swim among the pale pink tentacles of sea anemones in a colorful coral reef aquarium, surrounded by various soft corals and marine life.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_08_03_01.jpg" width="300"/>
-          </media>
-        
-    </para>
-      
-        <exercise id="exer-00001">
-          <problem id="prob-00001">
-            <para id="para-00003">Write an equation of the form <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>·</m:mi><m:msup><m:mi>b</m:mi><m:mi>t</m:mi></m:msup></m:mrow></m:math> representing the relationship, where <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is time in
-        years since the coral was measured and <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> is volume of coral in cubic centimeters. (You need to figure
-        out what numbers <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> are in this situation.)</para>
-            <para id="para-00004">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
-  </para>
-          </problem>
-          <solution id="sol-00001">
-            <para id="para-00005">Compare your answer:</para>
-            <para id="para-00006"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>200</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>t</m:mi></m:msup></m:mrow></m:math></para></solution>
-        </exercise>
-      
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-        <item>Find the volume of the coral when <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is 5, 1, 0, –1, and –2. Note that when <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math>, this
-    represents one year before the marine biologist made the original estimate.
- </item>
-      </list>
-      <table class="unnumbered os-raise-horizontaltable" id="table-00001">
-        <tgroup cols="6"><tbody><row>
-            <entry>
-             <emphasis>Time (years)</emphasis>
-            </entry>
-            <entry>5</entry>
-            <entry>1</entry>
-            <entry>0</entry>
-            <entry>-1</entry>
-            <entry>-2</entry>
-          </row>
-          <row>
-            <entry>
-             <emphasis>Volume of Coral (cubic centimeters)</emphasis>
-            </entry>
-            <entry>a.____
-      </entry>
-            <entry>b.____
-      </entry>
-            <entry>c.____
-      </entry>
-            <entry>d.____
-      </entry>
-            <entry>e.____
-      </entry>
-          </row>
-        </tbody></tgroup></table>
+        <media alt="Two clownfish swim among the pale pink tentacles of sea anemones in a colorful coral reef aquarium, surrounded by various soft corals and marine life.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_05_08_03_01.jpg" width="300"/>
+        </media>
 
-        <exercise id="_58888de2-7d9b-405d-a5bb-e1757fd262c3" class="multiple-choice">
-          <problem id="prob-00002">
-            
-            <para id="para-00007">Enter the volume of coral when t = 5. Do not enter commas in your answer.</para>
-          </problem>
-          <solution id="sol-00002">
-            <para id="para-00008">Correct! 3800 cubic centimeters</para>
-            <para id="para-00009">Nice try! The correct answer is 3800 cubic centimeters</para>
-          </solution>
-        </exercise>
-        <exercise id="_48eecec1-7ae0-48d7-8d2d-912f221f88f8" class="multiple-choice">
-          <problem id="prob-00003">
-            
-            <para id="para-00010">Enter the volume of coral when t = 1. Do not enter commas in your answer.</para>
-          </problem>
-          <solution id="sol-00003">
-            <para id="para-00011">Correct! 2400 cubic centimeters</para>
-            <para id="para-00012">Nice try! The correct answer is 2400 cubic centimeters</para>
-          </solution>
-        </exercise>
-        <exercise id="ec7943f4-d9f7-430c-86f7-b965ddc0b967" class="multiple-choice">
-          <problem id="prob-00004">
-            
-            <para id="para-00013">Enter the volume of coral when t = 0. Do not enter commas in your answer.</para>
-          </problem>
-          <solution id="sol-00004">
-            <para id="para-00014">Correct! 1200 cubic centimeters</para>
-            <para id="para-00015">Nice try! The correct answer is 1200 cubic centimeters</para>
-          </solution>
-        </exercise>
-        <exercise id="d325a246-3666-4e89-87ff-f46f511a3cb8" class="multiple-choice">
-          <problem id="prob-00005">
-            
-            <para id="para-00016">Enter the volume of coral when t = -1. Do not enter commas in your answer.</para>
-          </problem>
-          <solution id="sol-00005">
-            <para id="para-00017">Correct! 600 cubic centimeters</para>
-            <para id="para-00018">Nice try! The correct answer is 600 cubic centimeters</para>
-          </solution>
-        </exercise>
-        <exercise id="_839cb86e-da3a-45fc-9279-ca3b5bc704a5" class="multiple-choice">
-          <problem id="prob-00006">
-            
-            <para id="para-00019">Enter the volume of coral when t = -2. Do not enter commas in your answer.</para>
-          </problem>
-          <solution id="sol-00006">
-            <para id="para-00020">Correct! 300 cubic centimeters</para>
-            <para id="para-00021">Nice try! The correct answer is 300 cubic centimeters</para>
-          </solution>
-        </exercise>
-      <!--Text Entry Interaction Start -->
+      </para>
+
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">Write an equation of the form <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mi>a</m:mi>
+                <m:mi>·</m:mi>
+                <m:msup>
+                  <m:mi>b</m:mi>
+                  <m:mi>t</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            representing the relationship, where <m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:math> is time in years since
+            the coral was measured and <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math> is volume of coral in
+            cubic centimeters. (You need to figure out what numbers <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math> are in this situation.)</para>
+          <para id="para-00004">Write down your answer, then select the <emphasis>solution</emphasis>
+            button to compare your work. </para>
+        </problem>
+        <solution id="sol-00001">
+          <para id="para-00005">Compare your answer:</para>
+          <para id="para-00006"><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>200</m:mn>
+                <m:mi>·</m:mi>
+                <m:msup>
+                  <m:mn>2</m:mn>
+                  <m:mi>t</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+
+      <para id="para-00089">Find the volume of the coral when <m:math display="inline">
+          <m:mrow>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:math> is 5, 1, 0, –1, and –2. Note that
+        when <m:math display="inline">
+          <m:mrow>
+            <m:mi>t</m:mi>
+            <m:mo>=</m:mo>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:math>, this represents one year before the
+        marine biologist made the original estimate. </para>
+      <table class="unnumbered os-raise-horizontaltable" id="table-00001">
+        <tgroup cols="6">
+          <tbody>
+            <row>
+              <entry>
+                <emphasis>Time (years)</emphasis>
+              </entry>
+              <entry>5</entry>
+              <entry>1</entry>
+              <entry>0</entry>
+              <entry>-1</entry>
+              <entry>-2</entry>
+            </row>
+            <row>
+              <entry>
+                <emphasis>Volume of Coral (cubic centimeters)</emphasis>
+              </entry>
+              <entry>a.____ </entry>
+              <entry>b.____ </entry>
+              <entry>c.____ </entry>
+              <entry>d.____ </entry>
+              <entry>e.____ </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <exercise id="_58888de2-7d9b-405d-a5bb-e1757fd262c3" class="multiple-choice">
+        <problem id="prob-00002">
+
+          <para id="para-00007">Enter the volume of coral when t = 5. Do not enter commas in your
+            answer.</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00008">Correct! 3800 cubic centimeters</para>
+          <para id="para-00009">Nice try! The correct answer is 3800 cubic centimeters</para>
+        </solution>
+      </exercise>
+      <exercise id="_48eecec1-7ae0-48d7-8d2d-912f221f88f8" class="multiple-choice">
+        <problem id="prob-00003">
+
+          <para id="para-00010">Enter the volume of coral when t = 1. Do not enter commas in your
+            answer.</para>
+        </problem>
+        <solution id="sol-00003">
+          <para id="para-00011">Correct! 2400 cubic centimeters</para>
+          <para id="para-00012">Nice try! The correct answer is 2400 cubic centimeters</para>
+        </solution>
+      </exercise>
+      <exercise id="ec7943f4-d9f7-430c-86f7-b965ddc0b967" class="multiple-choice">
+        <problem id="prob-00004">
+
+          <para id="para-00013">Enter the volume of coral when t = 0. Do not enter commas in your
+            answer.</para>
+        </problem>
+        <solution id="sol-00004">
+          <para id="para-00014">Correct! 1200 cubic centimeters</para>
+          <para id="para-00015">Nice try! The correct answer is 1200 cubic centimeters</para>
+        </solution>
+      </exercise>
+      <exercise id="d325a246-3666-4e89-87ff-f46f511a3cb8" class="multiple-choice">
+        <problem id="prob-00005">
+
+          <para id="para-00016">Enter the volume of coral when t = -1. Do not enter commas in your
+            answer.</para>
+        </problem>
+        <solution id="sol-00005">
+          <para id="para-00017">Correct! 600 cubic centimeters</para>
+          <para id="para-00018">Nice try! The correct answer is 600 cubic centimeters</para>
+        </solution>
+      </exercise>
+      <exercise id="_839cb86e-da3a-45fc-9279-ca3b5bc704a5" class="multiple-choice">
+        <problem id="prob-00006">
+
+          <para id="para-00019">Enter the volume of coral when t = -2. Do not enter commas in your
+            answer.</para>
+        </problem>
+        <solution id="sol-00006">
+          <para id="para-00020">Correct! 300 cubic centimeters</para>
+          <para id="para-00021">Nice try! The correct answer is 300 cubic centimeters</para>
+        </solution>
+      </exercise>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00007">
-          <para id="para-00022">What does it mean, in this situation, when <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is –2?</para>
-          
+          <para id="para-00022">What does it mean, in this situation, when <m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:math> is –2?</para>
+
         </problem>
         <solution id="sol-00007">
           <para id="para-00023">Compare your answer:</para>
-          <para id="para-00024">This represents the time 2 years before the scientist made the estimate of 1,200 cubic centimeters.</para>
+          <para id="para-00024">This represents the time 2 years before the scientist made the
+            estimate of 1,200 cubic centimeters.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00008">
-          <para id="para-00025">In a certain year, the volume of the coral is 37.5 cubic centimeters. Which year is this? Be prepared to show
-        your reasoning.</para>
-          
+          <para id="para-00025">In a certain year, the volume of the coral is 37.5 cubic
+            centimeters. Which year is this? Be prepared to show your reasoning.</para>
+
         </problem>
         <solution id="sol-00008">
           <para id="para-00026">Compare your answer:</para>
-          <para id="para-00027"><m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is –5, or 5 years before the scientist made the estimate of 1,200 cubic centimeters.</para>
+          <para id="para-00027"><m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:math> is –5, or 5 years before
+            the scientist made the estimate of 1,200 cubic centimeters.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
     </section>
     <note class="self-check" id="note-00001">
       <exercise id="exer-00007">
         <problem id="prob-00014">
-        <para id="para-00028"><link class="os-embed" url="#exercise/Alg1_5_6_2_SC"/></para>
+          <para id="para-00028"><link class="os-embed" url="#exercise/Alg1_5_6_2_SC"/></para>
         </problem>
-        </exercise>
-        </note>
+      </exercise>
+    </note>
 
-        <section id="sect-00002"><title>Additional Resources</title>
-          
-  <section id="sect-00003"><title>Interpreting Negative Exponents in Exponential Growth</title><para id="para-00029">Let’s look at a problem involving an exponential growth equation and negative exponents.</para>
-    <para id="para-00030">A forest fire has been burning for several days. The burned area, in acres, is given by the equation <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>d</m:mi></m:msup></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> is the number of days since the area of the fire was first measured.</para>
-      <para id="para-00031"> 1. Let’s complete the table.</para>
-      
-      <table class="unnumbered os-raise-wideequaltable" id="table-00002">
-        <tgroup cols="3"><tbody><row>
-            <entry><emphasis><m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math>, days since first measurement</emphasis></entry><entry><emphasis>Process column</emphasis></entry><entry><emphasis><m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, acres burned since fire started</emphasis></entry></row>
-        <row>
-            <entry>
-              0
-            </entry>
-            <entry><m:math display="inline"><m:mrow><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:mn>1</m:mn></m:mrow></m:math>
-            </entry>
-            <entry>4800</entry>
-          </row>
-          <row>
-            <entry>
-              –1
-            </entry>
-            <entry>
-              <m:math display="inline"><m:mrow><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>
-            </entry>
-            <entry>2400</entry>
-          </row>
-          <row>
-            <entry>–2
-            </entry>
-            <entry>0
-            </entry>
-            <entry>c. _____</entry>
-          </row>
-          <row>
-            <entry>
-              –3
-            </entry>
-            <entry>
-              0
-            </entry>
-            <entry>d. _____</entry>
-          </row>
-          <row>
-            <entry>–5
-            </entry>
-    
-            <entry>0
-            </entry><entry>e. _____</entry>
-            
-          </row>
-        </tbody></tgroup></table>
-      
-      <para id="para-00032">To determine the value of <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, given <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math>, follow these steps:</para>
-      <para id="para-00033"><emphasis>Example 1</emphasis></para>
-      <para id="para-00034">Determine the value for <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></para>
-      <para id="para-00035"><emphasis>Step 1</emphasis> -Substitute the given domain value for d into the expression.</para>
-      <para id="para-00036"><m:math><m:mrow><m:mn>4800</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math></para><para id="para-00037"><emphasis>Step 2</emphasis> -Evaluate the exponential value. Recall that a negative exponent represents how many times
-        the reciprocal of the base should be multiplied.</para>
-      <para id="para-00038"><m:math><m:mrow><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math></para><para id="para-00039"><emphasis>Step 3</emphasis> -Evaluate the remaining expression to determine <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>.</para>
-      <para id="para-00040"><m:math><m:mrow><m:mo>=</m:mo><m:mn>1200</m:mn></m:mrow></m:math></para><para id="para-00041"><emphasis>Example 2</emphasis></para>
-      <para id="para-00042">Determine the value for <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math></para>
-      <para id="para-00043"><emphasis>Step 1</emphasis> -Substitute the given domain value for d into the expression.</para>
-      <para id="para-00044"><m:math><m:mrow><m:mn>4800</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></para><para id="para-00045"><emphasis>Step 2</emphasis> -Evaluate the exponential value. Recall that a negative exponent represents how many times
-        the reciprocal of the base should be multiplied.</para>
-      <para id="para-00046"><m:math><m:mrow><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math></para><para id="para-00047"><emphasis>Step 3</emphasis> -Evaluate the remaining expression to determine <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>.</para>
-      <para id="para-00048"><m:math><m:mrow><m:mo>=</m:mo><m:mn>600</m:mn></m:mrow></m:math></para><para id="para-00049"><emphasis>Example 3</emphasis></para>
-      <para id="para-00050">Determine the value for <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math></para>
-      <para id="para-00051"><emphasis>Step 1</emphasis> -Substitute the given domain value for d into the expression.</para>
-      <para id="para-00052"><m:math><m:mrow><m:mn>4800</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:msup></m:mrow></m:math></para><para id="para-00053"><emphasis>Step 2</emphasis> -Evaluate the exponential value. Recall that a negative exponent represents how many times the reciprocal of the base should be multiplied.</para>
-      <para id="para-00054"><m:math><m:mrow><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mn>5</m:mn></m:msup><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>32</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para><para id="para-00055"><emphasis>Step 3</emphasis> -Evaluate the remaining expression to determine <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>.</para>
-      <para id="para-00056"><m:math><m:mrow><m:mo>=</m:mo><m:mn>150</m:mn></m:mrow></m:math></para><para id="para-00057"><emphasis>Example 4</emphasis></para>
-      <para id="para-00058">What does the value of <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> tell you about the area burned in the fire when <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math>?</para>
-      <para id="para-00059">The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> value at <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> represents the fact that 2,400 acres had burned 1 day before the first measurement was taken.</para>
+    <section id="sect-00002">
+      <title>Additional Resources</title>
+
+      <section id="sect-00003">
+        <title>Interpreting Negative Exponents in Exponential Growth</title>
+        <para id="para-00029">Let’s look at a problem involving an exponential growth equation and
+          negative exponents.</para>
+        <para id="para-00030">A forest fire has been burning for several days. The burned area, in
+          acres, is given by the equation <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mi>d</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>, where <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math> is the number of days since the
+          area of the fire was first measured.</para>
+        <para id="para-00031"> 1. Let’s complete the table.</para>
+
+        <table class="unnumbered os-raise-wideequaltable" id="table-00002">
+          <tgroup cols="3">
+            <tbody>
+              <row>
+                <entry><emphasis><m:math display="inline">
+                      <m:mrow>
+                        <m:mi>d</m:mi>
+                      </m:mrow>
+                    </m:math>,
+                  days since first measurement</emphasis></entry>
+                <entry><emphasis>Process column</emphasis></entry>
+                <entry><emphasis><m:math display="inline">
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                      </m:mrow>
+                    </m:math>,
+                  acres burned since fire started</emphasis></entry>
+              </row>
+              <row>
+                <entry> 0 </entry>
+                <entry><m:math display="inline">
+                    <m:mrow>
+                      <m:mo>=</m:mo>
+                      <m:mn>4800</m:mn>
+                      <m:mi>·</m:mi>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mn>0</m:mn>
+                      </m:msup>
+                      <m:mo>=</m:mo>
+                      <m:mn>4800</m:mn>
+                      <m:mi>·</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>4800</entry>
+              </row>
+              <row>
+                <entry> –1 </entry>
+                <entry>
+                  <m:math display="inline">
+                    <m:mrow>
+                      <m:mo>=</m:mo>
+                      <m:mn>4800</m:mn>
+                      <m:mi>·</m:mi>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mn>1</m:mn>
+                      </m:msup>
+                      <m:mo>=</m:mo>
+                      <m:mn>4800</m:mn>
+                      <m:mi>·</m:mi>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:math>
+                </entry>
+                <entry>2400</entry>
+              </row>
+              <row>
+                <entry>–2 </entry>
+                <entry>0 </entry>
+                <entry>c. _____</entry>
+              </row>
+              <row>
+                <entry> –3 </entry>
+                <entry> 0 </entry>
+                <entry>d. _____</entry>
+              </row>
+              <row>
+                <entry>–5 </entry>
+
+                <entry>0 </entry>
+                <entry>e. _____</entry>
+
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+
+        <para id="para-00032">To determine the value of <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>, given <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math>, follow these steps:</para>
+        <para id="para-00033"><emphasis>Example 1</emphasis></para>
+        <para id="para-00034">Determine the value for <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math> when <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00035"><emphasis>Step 1</emphasis> -Substitute the given domain value for d
+          into the expression.</para>
+        <para id="para-00036"><m:math>
+            <m:mrow>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mrow>
+                  <m:mo>−</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00037"><emphasis>Step 2</emphasis> -Evaluate the exponential value. Recall
+          that a negative exponent represents how many times the reciprocal of the base should be
+          multiplied.</para>
+        <para id="para-00038"><m:math>
+            <m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>4</m:mn>
+              </m:mfrac>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00039"><emphasis>Step 3</emphasis> -Evaluate the remaining expression to
+          determine <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00040"><m:math>
+            <m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>1200</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00041"><emphasis>Example 2</emphasis></para>
+        <para id="para-00042">Determine the value for <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math> when <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00043"><emphasis>Step 1</emphasis> -Substitute the given domain value for d
+          into the expression.</para>
+        <para id="para-00044"><m:math>
+            <m:mrow>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mrow>
+                  <m:mo>−</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00045"><emphasis>Step 2</emphasis> -Evaluate the exponential value. Recall
+          that a negative exponent represents how many times the reciprocal of the base should be
+          multiplied.</para>
+        <para id="para-00046"><m:math>
+            <m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mn>3</m:mn>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>8</m:mn>
+              </m:mfrac>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00047"><emphasis>Step 3</emphasis> -Evaluate the remaining expression to
+          determine <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00048"><m:math>
+            <m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>600</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00049"><emphasis>Example 3</emphasis></para>
+        <para id="para-00050">Determine the value for <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math> when <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00051"><emphasis>Step 1</emphasis> -Substitute the given domain value for d
+          into the expression.</para>
+        <para id="para-00052"><m:math>
+            <m:mrow>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mrow>
+                  <m:mo>−</m:mo>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00053"><emphasis>Step 2</emphasis> -Evaluate the exponential value. Recall
+          that a negative exponent represents how many times the reciprocal of the base should be
+          multiplied.</para>
+        <para id="para-00054"><m:math>
+            <m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mn>5</m:mn>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>32</m:mn>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00055"><emphasis>Step 3</emphasis> -Evaluate the remaining expression to
+          determine <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00056"><m:math>
+            <m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>150</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00057"><emphasis>Example 4</emphasis></para>
+        <para id="para-00058">What does the value of <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math> tell you about the area burned
+          in the fire when <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math>?</para>
+        <para id="para-00059">The <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math> value at <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math> represents the fact that 2,400
+          acres had burned 1 day before the first measurement was taken.</para>
         <para id="para-00060"><emphasis>Example 5</emphasis></para>
-        <para id="para-00061">How much area had the fire burned a week before it measured 4,800 acres? Explain your reasoning.</para>
-      <para id="para-00062">Since there are 7 days in a week, to find the area burned a week before the fire was measured, we need to determine   the value of <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math>.</para>
-      <para id="para-00063"><emphasis>Step 1</emphasis> -Substitute the given domain value for d into the expression.</para>
-      <para id="para-00064"><m:math><m:mrow><m:mn>4800</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:msup></m:mrow></m:math></para><para id="para-00065"><emphasis>Step 2</emphasis> -Evaluate the exponential value. Recall that a negative exponent represents how many times
-        the reciprocal of the base should be multiplied.</para>
-      <para id="para-00066"><m:math><m:mrow><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:msup><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mn>7</m:mn></m:msup><m:mo>=</m:mo><m:mn>4800</m:mn><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>128</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para><para id="para-00067"><emphasis>Step 3</emphasis> -Evaluate the remaining expression to determine <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>.</para>
-      <para id="para-00068"><m:math><m:mrow><m:mo>=</m:mo><m:mn>37.5</m:mn></m:mrow></m:math></para><para id="para-00069"><m:math display="inline"><m:mrow><m:mn>37.5</m:mn></m:mrow></m:math> acres had burned a week before the fire measured <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>800</m:mn></m:mrow></m:math> acres. The value is found by substituting   <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math> for d since that represents <m:math display="inline"><m:mrow><m:mn>7</m:mn></m:mrow></m:math> days before the first measurement of <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>800</m:mn></m:mrow></m:math> acres.</para>
+        <para id="para-00061">How much area had the fire burned a week before it measured 4,800
+          acres? Explain your reasoning.</para>
+        <para id="para-00062">Since there are 7 days in a week, to find the area burned a week
+          before the fire was measured, we need to determine the value of <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math> when <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>7</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00063"><emphasis>Step 1</emphasis> -Substitute the given domain value for d
+          into the expression.</para>
+        <para id="para-00064"><m:math>
+            <m:mrow>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mrow>
+                  <m:mo>−</m:mo>
+                  <m:mn>7</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00065"><emphasis>Step 2</emphasis> -Evaluate the exponential value. Recall
+          that a negative exponent represents how many times the reciprocal of the base should be
+          multiplied.</para>
+        <para id="para-00066"><m:math>
+            <m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:mn>7</m:mn>
+              </m:msup>
+              <m:mo>=</m:mo>
+              <m:mn>4800</m:mn>
+              <m:mi>·</m:mi>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>128</m:mn>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00067"><emphasis>Step 3</emphasis> -Evaluate the remaining expression to
+          determine <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00068"><m:math>
+            <m:mrow>
+              <m:mo>=</m:mo>
+              <m:mn>37.5</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00069"><m:math display="inline">
+            <m:mrow>
+              <m:mn>37.5</m:mn>
+            </m:mrow>
+          </m:math> acres had burned a week
+          before the fire measured <m:math display="inline">
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>800</m:mn>
+            </m:mrow>
+          </m:math> acres. The value is found by
+          substituting <m:math display="inline">
+            <m:mrow>
+              <m:mo>−</m:mo>
+              <m:mn>7</m:mn>
+            </m:mrow>
+          </m:math> for d since that represents <m:math display="inline">
+            <m:mrow>
+              <m:mn>7</m:mn>
+            </m:mrow>
+          </m:math> days before the first
+          measurement of <m:math display="inline">
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>800</m:mn>
+            </m:mrow>
+          </m:math> acres.</para>
 
-    <exercise id="exer-00004">
-      <problem id="prob-00009">
-        
-        <para id="para-00070">The value of a home in 2015 was $400,000. Its value has doubled each decade.</para>
-        
-        <para id="para-00071">
-            If <m:math display="inline"><m:mrow><m:mi>v</m:mi></m:mrow></m:math> is the value of the home, in dollars, write an equation for <m:math display="inline"><m:mrow><m:mi>v</m:mi></m:mrow></m:math> in terms of <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math>, the number of
-            decades since 2015.
-        </para>
-        <para id="para-00072">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
-      </para>
       
-      </problem><solution id="sol-00009">
-      <para id="para-00073">Compare your answers:</para>
-      
-      <para id="para-00074"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>d</m:mi></m:msup></m:mrow></m:math></para></solution></exercise>
 
-    <note class="try" id="note-00002"><title>Try It: Interpreting Negative Exponents in Exponential Growth</title>
+        <note class="try" id="note-00002"><title>Try It: Interpreting Negative Exponents in
+          Exponential Growth</title>
+          <para id="para-00070">The value of a home in 2015 was $400,000. Its value has doubled
+            each decade.</para>
+            <exercise id="exer-00004">
+              <problem id="prob-00009">
+                <para id="para-00071"> If <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>v</m:mi>
+                    </m:mrow>
+                  </m:math> is the value of the
+                  home, in dollars, write an equation for <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>v</m:mi>
+                    </m:mrow>
+                  </m:math> in terms of <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>d</m:mi>
+                    </m:mrow>
+                  </m:math>, the number of
+                  decades since 2015. </para>
+                <para id="para-00072">Write down your answer, then select the <emphasis>solution</emphasis>
+                  button to compare your work. </para>
+              </problem>
+              <solution id="sol-00009">
+                <para id="para-00073">Compare your answers:</para>
+    
+                <para id="para-00074"><m:math>
+                    <m:mrow>
+                      <m:mi>v</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>400</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mn>000</m:mn>
+                      <m:mi>·</m:mi>
+                      <m:msup>
+                        <m:mn>2</m:mn>
+                        <m:mi>d</m:mi>
+                      </m:msup>
+                    </m:mrow>
+                  </m:math></para>
+              </solution>
+            </exercise>
+            
       <exercise id="_2b67ffaa-723e-487c-8c95-d16dc41948b7" class="multiple-choice">
-        <problem id="prob-00010"><para id="para-00075">What is <m:math display="inline"><m:mrow><m:mi>v</m:mi></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math>?
-          </para>
-          </problem><solution id="sol-00010"><para id="para-00076">Correct! <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-          <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-        </para><para id="para-00077">Nice try! The correct answer is: <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-          <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>200</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-        </para></solution></exercise>
+            <problem id="prob-00010">
+              <para id="para-00075">What is <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                  </m:mrow>
+                </m:math> when <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:math>? </para>
+            </problem>
+            <solution id="sol-00010">
+              <para id="para-00076">Correct! <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>200</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mo>−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mo>−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>200</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+          <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>200</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+              </para>
+              <para id="para-00077">Nice try! The correct answer is: <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>200</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mo>−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mo>−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>200</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+          <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>200</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+              </para>
+            </solution>
+          </exercise>
          
          <exercise id="exer-00005">
-      <problem id="prob-00011">
-        
-        <para id="para-00078">What does this value mean?</para>
-        <para id="para-00079">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
-      </para>
-      
-      </problem><solution id="sol-00011">
-      <para id="para-00080">Compare your answers:</para>
-      
-      <para id="para-00081">This means the home had a value of 50,000 in 1985, three decades before 2015.</para>
-    
-    </solution></exercise>
+            <problem id="prob-00011">
+
+              <para id="para-00078">What does this value mean?</para>
+              <para id="para-00079">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work. </para>
+
+            </problem>
+            <solution id="sol-00011">
+              <para id="para-00080">Compare your answers:</para>
+
+              <para id="para-00081">This means the home had a value of 50,000 in 1985, three decades
+          before 2015.</para>
+
+            </solution>
+          </exercise>
     <exercise id="exer-00006">
-      <problem id="prob-00012">
-        
-        <para id="para-00082">What does this value mean?</para>
-        <para id="para-00083">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
-      </para>
-      
-      </problem><solution id="sol-00012">
-      <para id="para-00084">Compare your answers:</para>
-      
-      <para id="para-00085">This means the home had a value of 200,000 in 2005, one decade before 2015.</para>
-    </solution></exercise>
-<exercise id="_008191ca-6f8e-4a92-9d5d-a47673938ec1" class="multiple-choice"><problem id="prob-00013"><para id="para-00086">What is <m:math display="inline"><m:mrow><m:mi>v</m:mi></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math>?</para>
-          </problem><solution id="sol-00013"><para id="para-00087">Correct! <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-          <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-        </para><para id="para-00088">Nice try! The correct answer is: <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>400</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:math>
-            <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-          <m:math display="inline"><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-        </para></solution></exercise>
+            <problem id="prob-00012">
+
+              <para id="para-00082">What does this value mean?</para>
+              <para id="para-00083">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work. </para>
+
+            </problem>
+            <solution id="sol-00012">
+              <para id="para-00084">Compare your answers:</para>
+
+              <para id="para-00085">This means the home had a value of 200,000 in 2005, one decade
+          before 2015.</para>
+            </solution>
+          </exercise>
+<exercise id="_008191ca-6f8e-4a92-9d5d-a47673938ec1" class="multiple-choice">
+            <problem id="prob-00013">
+              <para id="para-00086">What is <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                  </m:mrow>
+                </m:math> when <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>d</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:math>?</para>
+            </problem>
+            <solution id="sol-00013">
+              <para id="para-00087">Correct! <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>50</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mo>−</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mo>−</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>8</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>8</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>50</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+          <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>50</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+              </para>
+              <para id="para-00088">Nice try! The correct answer is: <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>50</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mo>−</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mrow>
+                        <m:mo>−</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>8</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>400</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>8</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+            <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>50</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+          <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>50</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>000</m:mn>
+                  </m:mrow>
+                </m:math>
+              </para>
+            </solution>
+          </exercise>
         </note>
-        </section>
       </section>
+    </section>
   </content>
 </document>
