@@ -6,7 +6,7 @@
     <md:uuid>2bf57462-b28c-4596-8b73-28d269dfb520</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
+    <section id="sect-00001">      <title>Activity</title>
       <para id="para-00001">Your teacher will give your group three different kinds of balls.</para>
       <para id="para-00002">Your goal is to measure the rebound heights, model the relationship between the number of bounces and the heights,
   and compare the bounciness of the balls.</para>
@@ -20,7 +20,7 @@
       
         <exercise id="exer-00001">
           <problem id="prob-00001">
-            <para id="para-00004">Create a table similar to the one below and begin your investigation. Make sure to note which ball goes with
+            <para id="para-00004">1. Create a table similar to the one below and begin your investigation. Make sure to note which ball goes with
         which column.</para>
             <table class="unnumbered os-raise-wideequaltable" id="table-00001">
               <tgroup cols="4"><tbody><row>
@@ -178,7 +178,7 @@
       
         <exercise id="exer-00002">
           <problem id="prob-00002">
-            <para id="para-00007">Which one appears to be the bounciest? Which one appears to be the least bouncy? Be prepared to show your
+            <para id="para-00007">2. Which one appears to be the bounciest? Which one appears to be the least bouncy? Be prepared to show your
         reasoning.</para>
             <para id="para-00008">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
@@ -192,7 +192,7 @@
       
         <exercise id="exer-00003">
           <problem id="prob-00003">
-            <para id="para-00011"> For each one, write an equation expressing the bounce height in terms of the bounce number <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>.</para>
+            <para id="para-00011">3. For each one, write an equation expressing the bounce height in terms of the bounce number <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>.</para>
             <para id="para-00012">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00003">
@@ -208,7 +208,7 @@
       
         <exercise id="exer-00004">
           <problem id="prob-00004">
-            <para id="para-00014"> Explain how the equations could tell us which one is the most bouncy.</para>
+            <para id="para-00014">4. Explain how the equations could tell us which one is the most bouncy.</para>
             <para id="para-00015">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00004">
@@ -222,7 +222,7 @@
       
         <exercise id="exer-00005">
           <problem id="prob-00005">
-            <para id="para-00018"> If the bounciest one were dropped from a height of 300 cm, what equation would model its bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>?
+            <para id="para-00018">5. If the bounciest one were dropped from a height of 300 cm, what equation would model its bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>?
     </para>
             <para id="para-00019">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
@@ -236,7 +236,7 @@
       
         <exercise id="exer-00006">
           <problem id="prob-00006">
-            <para id="para-00022">Graph, on the same coordinate plane, the equation for each ball that models the bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces using the Desmos tool below.</para>
+            <para id="para-00022">6. Graph, on the same coordinate plane, the equation for each ball that models the bounce height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces using the Desmos tool below.</para>
             
             <para id="para-00023">After you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
@@ -264,7 +264,7 @@
       Using the equation: 
       <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> and graphing <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.50</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>5</m:mn></m:msup></m:mrow></m:math> The graph shows the height to be 4.6875 after 5 bounces <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.
 
-      This is consistent with the reasoning:
+    </para><para>This is consistent with the reasoning:
   </para>
           <list id="list-00003">
             <item>The height of the ball is decreasing by a factor of about
@@ -290,7 +290,7 @@
       Using the equation: 
       <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.7</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> and graphing <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.7</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>5</m:mn></m:msup></m:mrow></m:math>. The graph shows the height to be 25.2105 after 5 bounces <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.
 
-      This is consistent with the reasoning:
+    </para><para>This is consistent with the reasoning:
   </para>
           <list id="list-00004">
             <item>The height of the ball is decreasing by a factor of about
@@ -314,7 +314,7 @@
       Using the equation: 
       <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math> and graphing <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>5</m:mn></m:msup></m:mrow></m:math>. The graph shows the height to be 1.636 after 5 bounces <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.
 
-      This is consistent with the reasoning:
+    </para><para>This is consistent with the reasoning:
   </para>
           <list id="list-00005">
             <item>The height of the ball is decreasing by a factor of about
@@ -330,16 +330,16 @@
       <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
       <section id="sect-00002">
         <title>Are you ready for more?</title>
-          <section class="numbered-exercises" id="sect-00003"><title>Extending Your Thinking</title>
+          <section id="sect-00003"><title>Extending Your Thinking</title>
       
       <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
       <exercise class="RFM1" id="exer-00010">
         <problem id="prob-00010">
-          <para id="para-00038"> If Ball 1 were dropped from a point that is twice as high, would its bounciness be greater, less, or the
+          <para id="para-00038">1. If Ball 1 were dropped from a point that is twice as high, would its bounciness be greater, less, or the
         same? Be prepared to show your reasoning.</para>
-          <para id="para-00039"> Ball 4 is half as bouncy as the least bouncy ball. What equation would describe its height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> in terms of
+          <para id="para-00039">2. Ball 4 is half as bouncy as the least bouncy ball. What equation would describe its height <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> in terms of
         the number of bounces <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>?</para>
-          <para id="para-00040"> Ball 5 was dropped from a height of 150 centimeters. It bounced up very slightly once or twice and then began
+          <para id="para-00040">3. Ball 5 was dropped from a height of 150 centimeters. It bounced up very slightly once or twice and then began
         rolling. How would you describe its rebound factor? Be prepared to show your reasoning.</para>
         </problem>
         <solution id="sol-00010">
