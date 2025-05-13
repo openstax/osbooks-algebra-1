@@ -6,221 +6,579 @@
     <md:uuid>9f190fde-eccf-47b6-a4e1-b7bc51969576</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">The value of some cell phones changes exponentially after initial release. Here are graphs showing the depreciation of two phones 1, 2, and 3 years after they were released.</para>
+    <section id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">The value of some cell phones changes exponentially after initial
+        release. Here are graphs showing the depreciation of two phones 1, 2, and 3 years after they
+        were released.</para>
       <para id="para-00002">Phone A</para>
       <para id="para-00003">
-          <media alt="A graph showing exponential decay with points (0, 1000), (1, 600), (2, 360), and (3, 216). The x-axis is labeled time (years) and the y-axis is labeled value (dollars).">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_09_03_01.svg"/>
-          </media>
-        
-    </para>
+        <media
+          alt="A graph showing exponential decay with points (0, 1000), (1, 600), (2, 360), and (3, 216). The x-axis is labeled time (years) and the y-axis is labeled value (dollars).">
+          <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_09_03_01.svg" />
+        </media>
+
+      </para>
       <para id="para-00004">Phone B</para>
       <para id="para-00005">
-          <media alt="A scatter plot shows decreasing dollar values over time in years. Points labeled: (0, 840), (1, 630), (2, 472.5), and (3, 354.38). The x-axis is time (years), the y-axis is value (dollars).">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_09_03_02.svg"/>
-          </media>
-        
-    </para>
-      <!--Text Entry Interaction Start -->
+        <media
+          alt="A scatter plot shows decreasing dollar values over time in years. Points labeled: (0, 840), (1, 630), (2, 472.5), and (3, 354.38). The x-axis is time (years), the y-axis is value (dollars).">
+          <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_09_03_02.svg" />
+        </media>
+
+      </para>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00006">Which phone is more expensive to buy when it is first released?</para>
-          
+          <para id="para-00006">1. Which phone is more expensive to buy when it is first released?</para>
+
         </problem>
         <solution id="sol-00001">
           <para id="para-00007">Compare your answer:</para>
-          <para id="para-00008">Phone A costs $1,000 and Phone B costs $840, so Phone A is more expensive.</para>
+          <para id="para-00008">Phone A costs $1,000 and Phone B costs $840, so Phone A is more
+            expensive.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00009">Which graph depicts the value of the cell phone falling in value more quickly? Explain how you know.</para>
-          
+          <para id="para-00009">2. Which graph depicts the value of the cell phone falling in value
+            more quickly? Explain how you know.</para>
+
         </problem>
         <solution id="sol-00002">
           <para id="para-00010">Compare your answer:</para>
-          <para id="para-00011">Phone A is depreciating more quickly than phone B. This was determined by comparing the value of the phones each year. For instance, after one year, phone A was only worth $600 compared to phone B's value of $630. And, again, after three years, phone A was valued at $216 compared to phone B's value of $354.38.</para>
+          <para id="para-00011">Phone A is depreciating more quickly than phone B. This was
+            determined by comparing the value of the phones each year. For instance, after one year,
+            phone A was only worth $600 compared to phone B's value of $630. And, again, after three
+            years, phone A was valued at $216 compared to phone B's value of $354.38.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00012">How does the value of phone A change with every passing year?</para>
-          
+          <para id="para-00012">3. How does the value of phone A change with every passing year?</para>
+
         </problem>
         <solution id="sol-00003">
           <para id="para-00013">Compare your answer:</para>
-          <para id="para-00014">Phone A loses $400 in the first year, which is <m:math display="inline"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> (or 0.4 or 40%) of the original value. It loses $240 in the second year, which is <m:math display="inline"><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> (or 0.4 or 40%) of $600.</para>
+          <para id="para-00014">Phone A loses $400 in the first year, which is <m:math
+              display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>2</m:mn>
+                  <m:mn>5</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+            (or 0.4 or 40%) of the original value. It loses $240 in the second year, which is <m:math
+              display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>2</m:mn>
+                  <m:mn>5</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+            (or 0.4 or 40%) of $600.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00015">How does the value of phone B change with every passing year?</para>
-          
+          <para id="para-00015">4. How does the value of phone B change with every passing year?</para>
+
         </problem>
         <solution id="sol-00004">
           <para id="para-00016">Compare your answer:</para>
-          <para id="para-00017">Phone B loses $210 in the first year, which is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> (or 0.25 or 25%) of the original value, and $157.50 in the second year, which is <m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:math> of $630.</para>
+          <para id="para-00017">Phone B loses $210 in the first year, which is <m:math
+              display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+            (or 0.25 or 25%) of the original value, and $157.50 in the second year, which is <m:math
+              display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>4</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>
+            of $630.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00018">If the phones continue to depreciate by the same factor each year, what will the value of each phone be 4 years after its initial release?</para>
-        <para id="para-00019">Enter your answer for Phone A.</para>
-       
-          
+          <para id="para-00018">5. If the phones continue to depreciate by the same factor each year,
+            what will the value of each phone be 4 years after its initial release?</para>
+          <para id="para-00019">a. Enter your answer for Phone A.</para>
+
+
         </problem>
         <solution id="sol-00005">
           <para id="para-00020">Compare your answer:</para>
-          <para id="para-00021"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mi>$</m:mi><m:mn>216</m:mn><m:mo>=</m:mo><m:mi>$</m:mi><m:mn>129.60</m:mn></m:mrow></m:math></para></solution>
+          <para id="para-00021"><m:math>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mi>·</m:mi>
+                <m:mi>$</m:mi>
+                <m:mn>216</m:mn>
+                <m:mo>=</m:mo>
+                <m:mi>$</m:mi>
+                <m:mn>129.60</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00006">
-          <para id="para-00022">Enter your answer for Phone B.</para>
-          
+          <para id="para-00022">b. Enter your answer for Phone B.</para>
+
         </problem>
         <solution id="sol-00006">
           <para id="para-00023">Compare your answer:</para>
-          <para id="para-00024"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mi>$</m:mi><m:mn>354.38</m:mn><m:mo stretchy="false">)</m:mo><m:mo>≈</m:mo><m:mi>$</m:mi><m:mn>265.79</m:mn></m:mrow></m:math></para></solution>
+          <para id="para-00024"><m:math>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>$</m:mi>
+                <m:mn>354.38</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>≈</m:mo>
+                <m:mi>$</m:mi>
+                <m:mn>265.79</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00007">
         <problem id="prob-00007">
-          <para id="para-00025">For each cell phone, write an equation that relates the value of the phone in dollars to the years since release, <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math>. Use <m:math display="inline"><m:mrow><m:mi>v</m:mi></m:mrow></m:math> for the value of Phone A and <m:math display="inline"><m:mrow><m:mi>w</m:mi></m:mrow></m:math> for the value of Phone B.</para>
-        <para id="para-00026">Enter your answer for Phone A.</para>
+          <para id="para-00025">6. For each cell phone, write an equation that relates the value of the
+            phone in dollars to the years since release, <m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:math>. Use <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>v</m:mi>
+              </m:mrow>
+            </m:math> for the value of Phone A
+            and <m:math display="inline">
+              <m:mrow>
+                <m:mi>w</m:mi>
+              </m:mrow>
+            </m:math> for the value of Phone B.</para>
+          <para id="para-00026">a. Enter your answer for Phone A.</para>
         </problem>
         <solution id="sol-00007">
           <para id="para-00027">Compare your answer:</para>
-          <para id="para-00028"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math></para></solution>
+          <para id="para-00028"><m:math>
+              <m:mrow>
+                <m:mi>v</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>000</m:mn>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>t</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00008">
         <problem id="prob-00008">
-          <para id="para-00029">Enter your answer for Phone B.</para>
-          
+          <para id="para-00029">b. Enter your answer for Phone B.</para>
+
         </problem>
         <solution id="sol-00008">
           <para id="para-00030">Compare your answer:</para>
-          <para id="para-00031"><m:math><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>840</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>t</m:mi></m:msup></m:mrow></m:math></para></solution>
-      </exercise></section>
-      <!--Interaction End -->
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-      <section id="sect-00002">
-        <title>Are you ready for more?</title>
-          <section class="numbered-exercises" id="sect-00003"><title>Extending Your Thinking</title>
-      
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1" id="exer-00009">
-        <problem id="prob-00009">
-          <para id="para-00032">When given data, it is not always clear how to best model it. In this case, we were told the value of the cell phones was changing exponentially. Suppose, however, we were instead just given the initial values of the cell phones when released and the values after each of the first three years.</para>
-          <para id="para-00033">Use technology to compute the best fit line for each cell phone. Round any numbers to the nearest dollar.      </para>
-        <para id="para-00034">Enter your answer for Phone A.</para>
-
-          
-        </problem>
-        <solution id="sol-00009">
-          <para id="para-00035">Compare your answer:</para>
-          <para id="para-00036"><m:math><m:mrow><m:mi>v</m:mi><m:mo>=</m:mo><m:mn>933</m:mn><m:mi>−</m:mi><m:mn>259</m:mn><m:mi>t</m:mi></m:mrow></m:math></para></solution>
-      </exercise>
-      <!--End interaction-->
-      <exercise class="RFM1" id="exer-00010">
-        <problem id="prob-00010">
-          <para id="para-00037">Enter your answer for Phone B.</para>
-          
-        </problem>
-        <solution id="sol-00010">
-          <para id="para-00038">Compare your answer:</para>
-          <para id="para-00039"><m:math><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>816</m:mn><m:mi>−</m:mi><m:mn>161</m:mn><m:mi>t</m:mi></m:mrow></m:math></para></solution>
-      </exercise>
-      <!--End interaction-->
-      <exercise class="RFM1" id="exer-00011">
-        <problem id="prob-00011">
-          <para id="para-00040">Explain why, in this situation, an exponential model might be more appropriate than the linear model you just created.</para>
-          
-        </problem>
-        <solution id="sol-00011">
-          <para id="para-00041">Compare your answer:</para>
-          <para id="para-00042">A linear model would quickly lead to negative phone values. For example, Phone A would cost about –$103 four years after its initial release. It makes more sense that the phone would lose a fraction of its value each year.</para>
+          <para id="para-00031"><m:math>
+              <m:mrow>
+                <m:mi>w</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>840</m:mn>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>t</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math></para>
         </solution>
       </exercise>
-      <!--End interaction-->
     </section>
-  </section>
+    <!--Interaction
+    End -->
+    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+    will need to change the Data-fire/data-wait-for-events for each set.-->
+
+    <section id="sect-00002">
+      <title>Are you ready for more?</title>
+      <section class="numbered-exercises" id="sect-00003">
+        <title>Extending Your Thinking</title>
+
+        <!--Start
+        interaction.  If multiple interactions appear under "are you ready for more?, they should all
+        have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+        button. Note in this sample, they are all RFM1-->
+        <exercise class="RFM1" id="exer-00009">
+          <problem id="prob-00009">
+            <para id="para-00032">When given data, it is not always clear how to best model it. In
+              this case, we were told the value of the cell phones was changing exponentially.
+              Suppose, however, we were instead just given the initial values of the cell phones
+              when released and the values after each of the first three years.</para>
+            <para id="para-00033">1. Use technology to compute the best fit line for each cell phone.
+              Round any numbers to the nearest dollar. </para>
+            <para id="para-00034">a. Enter your answer for Phone A.</para>
+
+
+          </problem>
+          <solution id="sol-00009">
+            <para id="para-00035">Compare your answer:</para>
+            <para id="para-00036"><m:math>
+                <m:mrow>
+                  <m:mi>v</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>933</m:mn>
+                  <m:mi>−</m:mi>
+                  <m:mn>259</m:mn>
+                  <m:mi>t</m:mi>
+                </m:mrow>
+              </m:math></para>
+          </solution>
+        </exercise>
+        <!--End
+        interaction-->
+        <exercise class="RFM1" id="exer-00010">
+          <problem id="prob-00010">
+            <para id="para-00037">b. Enter your answer for Phone B.</para>
+
+          </problem>
+          <solution id="sol-00010">
+            <para id="para-00038">Compare your answer:</para>
+            <para id="para-00039"><m:math>
+                <m:mrow>
+                  <m:mi>w</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>816</m:mn>
+                  <m:mi>−</m:mi>
+                  <m:mn>161</m:mn>
+                  <m:mi>t</m:mi>
+                </m:mrow>
+              </m:math></para>
+          </solution>
+        </exercise>
+        <!--End
+        interaction-->
+        <exercise class="RFM1" id="exer-00011">
+          <problem id="prob-00011">
+            <para id="para-00040">2. Explain why, in this situation, an exponential model might be more
+              appropriate than the linear model you just created.</para>
+
+          </problem>
+          <solution id="sol-00011">
+            <para id="para-00041">Compare your answer:</para>
+            <para id="para-00042">A linear model would quickly lead to negative phone values. For
+              example, Phone A would cost about –$103 four years after its initial release. It makes
+              more sense that the phone would lose a fraction of its value each year.</para>
+          </solution>
+        </exercise>
+        <!--End
+        interaction-->
+      </section>
+    </section>
     <note class="self-check" id="note-00001">
       <exercise id="exer-00013">
         <problem id="prob-00013">
-        <para id="para-00043"><link class="os-embed" url="#exercise/Alg1_5_7_2_SC"/></para>
+          <para id="para-00043"><link class="os-embed" url="#exercise/Alg1_5_7_2_SC" /></para>
         </problem>
-        </exercise>
+      </exercise>
     </note>
 
     <section id="sect-00004">
       <title>Additional Resources</title>
-      
-    <section id="sect-00005">
-      <title>Analyzing <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> in the Exponential Function <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math></title>
-      <para id="para-00045">
-          <media alt="Six differently colored arrows labeled A–F curve and cross on a grid with x- and y-axes. Arrows point in various directions, illustrating different equations or trajectories. Each label is color-matched to its arrow.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_09_05_01.jpg" width="300"/>
+
+      <section id="sect-00005">
+        <title>Analyzing <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+            </m:mrow>
+          </m:math> and <m:math display="inline">
+            <m:mrow>
+              <m:mi>b</m:mi>
+            </m:mrow>
+          </m:math> in the Exponential Function <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>a</m:mi>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math></title>
+        <para id="para-00045">
+          <media
+            alt="Six differently colored arrows labeled A–F curve and cross on a grid with x- and y-axes. Arrows point in various directions, illustrating different equations or trajectories. Each label is color-matched to its arrow.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_09_05_01.jpg" width="300" />
           </media>
-        
-    </para>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-        <item>Which graph has the largest value for <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>?</item>
-        <item>Which graph has the smallest value for <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>?</item>
-        <item>Which graph has the largest value for <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math>?</item>
-        <item>Which graph has the smallest value for <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math>?</item>
-      </list>
-      <para id="para-00046">When using the form <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math>, it is important to remember that <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> is the initial value, or the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept, and <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> is the growth factor. The growth factor reflects an exponential growth function when the value is greater than one. The growth factor reflects an exponential decay function when the value is between zero and one.</para>
-      <para id="para-00047">For question 1, you are looking for the largest growth factor, which would mean an exponential growth function that is increasing the most rapidly. First, identify the graphs that reflect exponential growth, which would be D, E, and F, and then decide which is the steepest. Graph D increases much faster than both graphs E and F.</para>
-      <para id="para-00048">For question 2, you are looking for the steepest rate of exponential decay, so you need the graph that has the smallest <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>-value. The graphs that reflect exponential decay are graphs A, B, and C. The graph that has a <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>-value that is closest to 0 is graph C. Graph C has the steepest exponential decay because its <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>-value is the closest to 0 and, therefore, the smallest.
-</para>
-      <para id="para-00049">For question 3, you are looking for the largest initial value or <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept. This could be with a growth or decay function; it just needs to cross the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-axis higher than the other graphs. Graph C has the highest <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> value.</para>
-      <para id="para-00050">For question 4, you are looking for the smallest initial value or <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept. This could be a growth or decay function; it just needs to cross the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-axis lower than the other graphs. Graph F has the lowest <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> value.</para>
-      <note class="try" id="note-00002">
-    <title>Try It: Analyzing <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> in the Exponential Function <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>a</m:mi><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math></title>
-      <para id="para-00051">
-          <media alt="Six differently colored arrows labeled A–F curve and cross on a grid with x- and y-axes. Arrows point in various directions, illustrating different equations or trajectories. Each label is color-matched to its arrow.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_09_05_02.jpg"/>
-          </media>
-        
-    </para>
+
+        </para>
+        <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
+          <item>Which graph has the largest value for <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math>?</item>
+          <item>Which graph has the smallest value for <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math>?</item>
+          <item>Which graph has the largest value for <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+              </m:mrow>
+            </m:math>?</item>
+          <item>Which graph has the smallest value for <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+              </m:mrow>
+            </m:math>?</item>
+        </list>
+        <para id="para-00046">When using the form <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>a</m:mi>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>, it is
+          important to remember that <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+            </m:mrow>
+          </m:math> is the initial value, or the <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>-intercept, and <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>b</m:mi>
+            </m:mrow>
+          </m:math> is the growth factor. The
+          growth factor reflects an exponential growth function when the value is greater than one.
+          The growth factor reflects an exponential decay function when the value is between zero
+          and one.</para>
+        <para id="para-00047">For question 1, you are looking for the largest growth factor, which
+          would mean an exponential growth function that is increasing the most rapidly. First,
+          identify the graphs that reflect exponential growth, which would be D, E, and F, and then
+          decide which is the steepest. Graph D increases much faster than both graphs E and F.</para>
+        <para id="para-00048">For question 2, you are looking for the steepest rate of exponential
+          decay, so you need the graph that has the smallest <m:math display="inline">
+            <m:mrow>
+              <m:mi>b</m:mi>
+            </m:mrow>
+          </m:math>-value. The graphs that reflect
+          exponential decay are graphs A, B, and C. The graph that has a <m:math display="inline">
+            <m:mrow>
+              <m:mi>b</m:mi>
+            </m:mrow>
+          </m:math>-value that is closest to 0 is
+          graph C. Graph C has the steepest exponential decay because its <m:math display="inline">
+            <m:mrow>
+              <m:mi>b</m:mi>
+            </m:mrow>
+          </m:math>-value is the closest to 0 and,
+          therefore, the smallest. </para>
+        <para id="para-00049">For question 3, you are looking for the largest initial value or <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>-intercept. This could be with a
+          growth or decay function; it just needs to cross the <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>-axis higher than the other
+          graphs. Graph C has the highest <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+            </m:mrow>
+          </m:math> value.</para>
+        <para id="para-00050">For question 4, you are looking for the smallest initial value or <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>-intercept. This could be a
+          growth or decay function; it just needs to cross the <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>-axis lower than the other
+          graphs. Graph F has the lowest <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+            </m:mrow>
+          </m:math> value.</para>
+        <note class="try" id="note-00002">
+          <title>Try It: Analyzing <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math> in the Exponential
+          Function <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mi>a</m:mi>
+                <m:msup>
+                  <m:mi>b</m:mi>
+                  <m:mi>x</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math></title>
+      <para
+            id="para-00051">
+            <media
+              alt="Six differently colored arrows labeled A–F curve and cross on a grid with x- and y-axes. Arrows point in various directions, illustrating different equations or trajectories. Each label is color-matched to its arrow.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_05_09_05_02.jpg" width="300" />
+            </media>
+
+          </para>
       
-        <exercise id="exer-00012">
-          <problem id="prob-00012">
-            <para id="para-00052">Which graphs represent exponential growth?</para>
-            <para id="para-00053">Which graphs represent exponential decay?</para>
-            <para id="para-00054">Which graph has the highest value for <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>?</para>
-            <para id="para-00055">Which graph has the highest value for <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math>?</para>
-            <para id="para-00056">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00012">
-            <para id="para-00057">Compare your answers:</para>
-            <para id="para-00058">Here is how to analyze and compare graphs of exponential functions:</para>
-            <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-              <item>Graphs indicate exponential growth if they are increasing from left to right. Graphs D, E, and F represent exponential growth.</item>
-              <item>Graphs indicate exponential decay if they are decreasing from left to right. Graphs A, B, and C represent exponential decay.</item>
-              <item>Graph E has the highest value of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>, or growth rate, since it is increasing faster than graphs D and F.</item>
-              <item>Graphs C and D have the highest value for <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> because they have the same <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept.</item>
-            </list>
-          </solution>
-        </exercise>
-      </note>
+        <exercise
+            id="exer-00012">
+            <problem id="prob-00012">
+              <para id="para-00052">1. Which graphs represent exponential growth?</para>
+              <para id="para-00053">2. Which graphs represent exponential decay?</para>
+              <para id="para-00054">3. Which graph has the highest value for <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:math>?</para>
+              <para id="para-00055">4. Which graph has the highest value for <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                  </m:mrow>
+                </m:math>?</para>
+              <para id="para-00056">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
+            </problem>
+            <solution id="sol-00012">
+              <para id="para-00057">Compare your answers:</para>
+              <para id="para-00058">Here is how to analyze and compare graphs of exponential
+          functions:</para>
+              <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
+                <item>Graphs indicate exponential growth if they are increasing from left to right.
+          Graphs D, E, and F represent exponential growth.</item>
+                <item>Graphs indicate exponential decay if they are decreasing from left to right.
+          Graphs A, B, and C represent exponential decay.</item>
+                <item>Graph E has the highest value of <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>b</m:mi>
+                    </m:mrow>
+                  </m:math>, or
+          growth rate, since it is increasing faster than graphs D and F.</item>
+                <item>Graphs C and D have the highest value for <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>a</m:mi>
+                    </m:mrow>
+                  </m:math> because
+          they have the same <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:math>
+          -intercept.</item>
+              </list>
+            </solution>
+          </exercise>
+        </note>
       </section>
     </section>
-    
+
   </content>
 </document>

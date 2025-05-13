@@ -6,108 +6,333 @@
     <md:uuid>d3be6b21-1575-4b05-8609-25e359dbe07c</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">Here is a graph you saw in an earlier lesson. It represents the exponential function <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math>, which models the cost <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, in dollars, of producing 1 watt of solar energy from 1977 to 1988, where <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is years since 1977.</para>
+    <section id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">Here is a graph you saw in an earlier lesson. It represents the
+        exponential function <m:math display="inline">
+          <m:mrow>
+            <m:mi>p</m:mi>
+          </m:mrow>
+        </m:math>, which models the cost <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>p</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>t</m:mi>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math>, in dollars, of
+        producing 1 watt of solar energy from 1977 to 1988, where <m:math display="inline">
+          <m:mrow>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:math> is years since 1977.</para>
       <para id="para-00002">
-          <media alt="Line graph showing a sharp decline in dollars per watt over 12 years since 1977, dropping from about $80 to below $10 per watt. The curve smooths as it approaches the lower values.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_06_01.jpg" width="300"/>
-          </media>
-        
-    </para>
-      
-        <exercise id="exer-00001">
-          <problem id="prob-00001">
-            <para id="para-00003">Clare said, “In the first five years, between 1977 and 1982, the cost fell by about $12 per year. But in the second five years, between 1983 and 1988, the cost fell only by about $2 a year.” Show that Clare is correct.</para>
-            <para id="para-00004">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00001">
-            <para id="para-00005">Compare your answer:</para>
-            <para id="para-00006"><m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>5</m:mn><m:mi>−</m:mi><m:mn>0</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>12.2</m:mn></m:mrow></m:math></para><para id="para-00020"><m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>11</m:mn><m:mi>−</m:mi><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>2.17</m:mn></m:mrow></m:math></para></solution>
-        </exercise>
-      
-      
-        <exercise id="exer-00002">
-          <problem id="prob-00002">
-            <para id="para-00007">If the trend continues, will the average decrease in price be more or less than $2 per year between 1987 and 1992? Be prepared to show your reasoning.</para>
-            <para id="para-00008">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00002">
-            <para id="para-00009">Compare your answer:</para>
-            <para id="para-00010">From the first 5 years to the next 5 years, the rate of decrease slowed down, so if the trend continues, the decrease in price from 1987 to 1992 should be less than $2 per year.</para>
-          </solution>
-        </exercise>
-      </section>
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      <section id="sect-00002">
-        <title>Are you ready for more?</title>
-          <section class="numbered-exercises" id="sect-00003"><title>Extending Your Thinking</title>
-      
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1" id="exer-00003">
-        <problem id="prob-00003">
-          <para id="para-00011">Suppose the cost of producing 1 watt of solar energy had instead decreased by $12.20 each year between 1977 and 1982. Compute what the costs would be each year and plot them on a graph. Compare your graph to the graph from the beginning of the 5.10.3 activity (top of page). How do these alternate costs compare to the actual costs shown?</para>
-          
+        <media
+          alt="Line graph showing a sharp decline in dollars per watt over 12 years since 1977, dropping from about $80 to below $10 per watt. The curve smooths as it approaches the lower values.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_06_01.jpg" width="300" />
+        </media>
+
+      </para>
+
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">1. Clare said, “In the first five years, between 1977 and 1982, the
+            cost fell by about $12 per year. But in the second five years, between 1983 and 1988,
+            the cost fell only by about $2 a year.” Show that Clare is correct.</para>
+          <para id="para-00004">Write down your answer, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
         </problem>
-        <solution id="sol-00003">
-          <para id="para-00012">Compare your answer:</para>
-          <para id="para-00013">
-                  <media alt="A graph shows dollars per watt decreasing over 11 years since 1977. Data points form a downward curve; a dashed tangent line at t=2 decreases at a constant rate, illustrating the rate of price decline over time.">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_06_02.jpg"/>
-              </media>
-            
-        </para>
-          <para id="para-00014">The alternate costs with the constant decrease would be the same in 1977 and 1982 and higher for each year in between.</para>
+        <solution id="sol-00001">
+          <para id="para-00005">Compare your answer:</para>
+          <para id="para-00006"><m:math display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>−</m:mi>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mi>−</m:mi>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>12.2</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00020"><m:math display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>11</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>−</m:mi>
+                    <m:mi>p</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>11</m:mn>
+                    <m:mi>−</m:mi>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>2.17</m:mn>
+              </m:mrow>
+            </m:math></para>
         </solution>
       </exercise>
-      <!--End interaction-->
+
+
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00007">2. If the trend continues, will the average decrease in price be more
+            or less than $2 per year between 1987 and 1992? Be prepared to show your reasoning.</para>
+          <para id="para-00008">Write down your answer, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00009">Compare your answer:</para>
+          <para id="para-00010">From the first 5 years to the next 5 years, the rate of decrease
+            slowed down, so if the trend continues, the decrease in price from 1987 to 1992 should
+            be less than $2 per year.</para>
+        </solution>
+      </exercise>
     </section>
-  </section>
+    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+    will need to change the Data-fire/data-wait-for-events for each set.-->
+    <section id="sect-00002">
+      <title>Are you ready for more?</title>
+      <section class="numbered-exercises" id="sect-00003">
+        <title>Extending Your Thinking</title>
+
+        <!--Start
+        interaction.  If multiple interactions appear under "are you ready for more?, they should all
+        have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+        button. Note in this sample, they are all RFM1-->
+        <exercise class="RFM1" id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00011">Suppose the cost of producing 1 watt of solar energy had instead
+              decreased by $12.20 each year between 1977 and 1982. Compute what the costs would be
+              each year and plot them on a graph. Compare your graph to the graph from the beginning
+              of the 5.10.3 activity (top of page). How do these alternate costs compare to the
+              actual costs shown?</para>
+
+          </problem>
+          <solution id="sol-00003">
+            <para id="para-00012">Compare your answer:</para>
+            <para id="para-00013">
+              <media
+                alt="A graph shows dollars per watt decreasing over 11 years since 1977. Data points form a downward curve; a dashed tangent line at t=2 decreases at a constant rate, illustrating the rate of price decline over time.">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_06_02.jpg" />
+              </media>
+
+            </para>
+            <para id="para-00014">The alternate costs with the constant decrease would be the same
+              in 1977 and 1982 and higher for each year in between.</para>
+          </solution>
+        </exercise>
+        <!--End
+        interaction-->
+      </section>
+    </section>
     <note class="self-check" id="note-00001">
       <exercise id="exer-00005">
         <problem id="prob-00005">
-        <para id="para-00015"><link class="os-embed" url="#exercise/Alg1_5_10_3_SC"/></para>
+          <para id="para-00015"><link class="os-embed" url="#exercise/Alg1_5_10_3_SC" /></para>
         </problem>
-        </exercise>
-       
+      </exercise>
+
     </note>
 
     <section id="sect-00004">
       <title>Additional Resources</title>
-      
-    <section id="sect-00005">
-      <title> Trends in Average Rates of Change</title>
-      <para id="para-00017">A construction company purchased some equipment costing $300,000. The equipment depreciates in value over time.</para>
-      <para id="para-00018">
-          <media alt="A scatter plot showing equipment value depreciating over 15 years. The value drops steeply at first, from $300,000, then declines more gradually, reaching under $25,000 by year 15. Axes are labeled years and value in dollars.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_08_01.jpg" width="400"/>
+
+      <section id="sect-00005">
+        <title> Trends in Average Rates of Change</title>
+        <para id="para-00017">A construction company purchased some equipment costing $300,000. The
+          equipment depreciates in value over time.</para>
+        <para id="para-00018">
+          <media
+            alt="A scatter plot showing equipment value depreciating over 15 years. The value drops steeply at first, from $300,000, then declines more gradually, reaching under $25,000 by year 15. Axes are labeled years and value in dollars.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_08_01.jpg" width="400" />
           </media>
-        
-    </para>
-      <para id="para-00019">Approximately how much did the value drop from years 0 to 5 compared to years 6 to 10?</para>
-      <para id="para-00021"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>0</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mfrac><m:mrow><m:mn>140</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>−</m:mo><m:mn>300</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>32</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math></para><para id="para-00029"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>10</m:mn><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mfrac><m:mrow><m:mn>70</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>−</m:mo><m:mn>120</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>500</m:mn></m:mrow></m:math></para><para id="para-00022">Following this trend, we would expect the average rate of change of the value of the equipment from years 11 – 15 to be below –12,500 dollars per year.</para>
-      <note class="try" id="note-00002">
-  <title>Try It: Trends in Average Rates of Change</title>
+
+        </para>
+        <para id="para-00019">Approximately how much did the value drop from years 0 to 5 compared
+          to years 6 to 10?</para>
+        <para id="para-00021"><m:math>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi>v</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>−</m:mo>
+                  <m:mi>v</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>≈</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>140</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>000</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mn>300</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>000</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>32</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>000</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00029"><m:math>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mi>v</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>10</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>−</m:mo>
+                  <m:mi>v</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>10</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>≈</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>70</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>000</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mn>120</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>000</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>12</m:mn>
+              <m:mo>,</m:mo>
+              <m:mn>500</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00022">Following this trend, we would expect the average rate of change of
+          the value of the equipment from years 11 – 15 to be below –12,500 dollars per year.</para>
+        <note class="try" id="note-00002">
+          <title>Try It: Trends in Average Rates of Change</title>
       
         <exercise id="exer-00004">
-          <problem id="prob-00004">
-            <para id="para-00023">
-                      <media alt="Graph showing the value of equipment in dollars, or v of t, as a function of the number of years after equipment was purchased, or t. plotted points representing exponential decay are shown, including the y-intercept 0 comma three hundred thousand and the points 5 comma one hundred forty thousand, 6 comma one hundred twenty thousand, and 10 comma seventy thousand.">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_08_02.jpg" width="300"/>
+            <problem id="prob-00004">
+              <para id="para-00023">
+                <media
+                  alt="Graph showing the value of equipment in dollars, or v of t, as a function of the number of years after equipment was purchased, or t. plotted points representing exponential decay are shown, including the y-intercept 0 comma three hundred thousand and the points 5 comma one hundred forty thousand, 6 comma one hundred twenty thousand, and 10 comma seventy thousand.">
+                  <image mime-type="image/jpeg" src="../../media/Algebra-1_05_12_08_02.jpg"
+                    width="300" />
                 </media>
-              
-          </para>
-            <para id="para-00024">Approximately how much did the value drop from year 11 to year 15?</para>
-            <para id="para-00025">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00004">
-            <para id="para-00026">Compare your answer:</para>
-            <para id="para-00027">Here is how to find the average value drop from year 11 to year 15:</para>
-            <para id="para-00028">(Note that approximate points are used, so your answer may vary a little, but the answer should still be below –10,000.)</para>
-            <para id="para-00030"><m:math><m:mrow><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mn>11</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>15</m:mn><m:mo>−</m:mo><m:mn>11</m:mn></m:mrow></m:mfrac><m:mo>≈</m:mo><m:mfrac><m:mrow><m:mn>30</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>−</m:mo><m:mn>60</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>500</m:mn></m:mrow></m:math></para></solution>
-        </exercise>
-      </note>
+
+              </para>
+              <para id="para-00024">Approximately how much did the value drop from year 11 to year
+          15?</para>
+              <para id="para-00025">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
+            </problem>
+            <solution id="sol-00004">
+              <para id="para-00026">Compare your answer:</para>
+              <para id="para-00027">Here is how to find the average value drop from year 11 to year
+          15:</para>
+              <para id="para-00028">(Note that approximate points are used, so your answer may vary
+          a little, but the answer should still be below –10,000.)</para>
+              <para id="para-00030"><m:math>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>v</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>15</m:mn>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo>−</m:mo>
+                        <m:mi>v</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>11</m:mn>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>15</m:mn>
+                        <m:mo>−</m:mo>
+                        <m:mn>11</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>≈</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>30</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>000</m:mn>
+                        <m:mo>−</m:mo>
+                        <m:mn>60</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mn>000</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>500</m:mn>
+                  </m:mrow>
+                </m:math></para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
     </section>
-    </section>
-    
+
   </content>
 </document>
