@@ -8,69 +8,452 @@
   <content>
     <section id="sect-00001">
       <title>Cool Down</title>
-      <!--Text Entry Interaction Start -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00001"> The linear function <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> is defined by <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math>. 
-        
-    </para>
-          <para id="para-00002"> Show that <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> have a difference of 4.</para>
+          <para id="para-00001">1. The linear function <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+              </m:mrow>
+            </m:math> is defined by <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>. </para>
+          <para id="para-00002">a. Show that <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> have a
+            difference of 4.</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00004">Compare your answer:</para>
           <list id="list-00001">
-            <item><m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>·</m:mi><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>12</m:mn></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math>. The difference of 12 and 8 is 4.</item>
-            <item><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mn>4</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>−</m:mi><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></item>
+            <item><m:math display="inline">
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:mn>3</m:mn>
+                  <m:mo>=</m:mo>
+                  <m:mn>12</m:mn>
+                </m:mrow>
+              </m:math>, and <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:mn>2</m:mn>
+                  <m:mo>=</m:mo>
+                  <m:mn>8</m:mn>
+                </m:mrow>
+              </m:math>. The difference of
+              12 and 8 is 4.</item>
+            <item><m:math>
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>−</m:mi>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>−</m:mi>
+                  <m:mn>4</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>−</m:mi>
+                  <m:mn>2</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:math></item>
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00005"> Show that when the input value increases from <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> to <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the output values <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> have a difference of 4. Use the '^' symbol to enter an exponent.</para>
+          <para id="para-00005">b. Show that when the input value increases from <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> to <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math>, the output values <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> have a
+            difference of 4. Use the '^' symbol to enter an exponent.</para>
         </problem>
         <solution id="sol-00002">
           <para id="para-00007">Compare your answer:</para>
-          <para id="para-00008"> <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>−</m:mi><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mi>−</m:mi><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, which equals 4.</para>
+          <para id="para-00008">
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mi>−</m:mi>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mi>−</m:mi>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mi>−</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>, which
+            equals 4.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00009"> The exponential function <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> is defined by <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>. 
+          <para id="para-00009">2. The exponential function <m:math display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+              </m:mrow>
+            </m:math> is defined by <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:msup>
+                  <m:mn>4</m:mn>
+                  <m:mi>x</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            . 
         
     </para>
-          <para id="para-00010"> Show that <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> have a quotient of 4. Use the '^' symbol to enter an exponent.</para>
+          <para id="para-00010">a. Show that <m:math display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> have a
+            quotient of 4. Use the '^' symbol to enter an exponent.</para>
         </problem>
         <solution id="sol-00003">
           <para id="para-00012">Compare your answer:</para>
           <list id="list-00002">
-            <item><m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mn>64</m:mn></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math>. The quotient is <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>64</m:mn></m:mrow><m:mrow><m:mn>16</m:mn></m:mrow></m:mfrac></m:mrow></m:math>, which is 4.</item>
-            <item><m:math><m:mrow><m:mfrac><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mn>4</m:mn><m:mn>3</m:mn></m:msup></m:mrow><m:mrow><m:msup><m:mn>4</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mrow><m:mn>3</m:mn><m:mi>−</m:mi><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></item>
+            <item><m:math display="inline">
+                <m:mrow>
+                  <m:mi>h</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mn>4</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                  <m:mo>=</m:mo>
+                  <m:mn>64</m:mn>
+                </m:mrow>
+              </m:math>, and <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>h</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mn>4</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>=</m:mo>
+                  <m:mn>16</m:mn>
+                </m:mrow>
+              </m:math>. The quotient is <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>64</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>16</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:math>,
+              which is 4.</item>
+            <item><m:math>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>h</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>h</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mn>4</m:mn>
+                        <m:mn>3</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mn>4</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mn>4</m:mn>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                      <m:mi>−</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:math></item>
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00013"> Show that when the input value increases from <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> to <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>, the output values <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> have a quotient of 4.</para>
+          <para id="para-00013">b. Show that when the input value increases from <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> to <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math>, the output values <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> have a
+            quotient of 4.</para>
         </problem>
         <solution id="sol-00004">
           <para id="para-00015">Compare your answer:</para>
-          <para id="para-00016"> <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msup><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:mfrac><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mi>−</m:mi><m:mi>x</m:mi></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mn>1</m:mn></m:msup></m:mrow></m:math>, which equals 4.</para>
+          <para id="para-00016">
+            <m:math display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>4</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:msup>
+                  <m:mn>4</m:mn>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mi>−</m:mi>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:msup>
+                <m:mo>=</m:mo>
+                <m:msup>
+                  <m:mn>4</m:mn>
+                  <m:mn>1</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math>,
+            which equals 4.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <note id="note-00001">
         <title>Why Should I Care?</title>
         
-          <media alt="A hand holds a tablet displaying stacks of gold coins increasing in height, with the text &quot;Power of Compounding&quot; and example calculations showing how $1,000 grows to $1,210 with repeated 10% interest.">
-            <image mime-type="image/png" src="../../media/Algebra-1_05_17_09_01.png" width="500"/>
-          </media>
+          <media
+          alt="A hand holds a tablet displaying stacks of gold coins increasing in height, with the text &quot;Power of Compounding&quot; and example calculations showing how $1,000 grows to $1,210 with repeated 10% interest.">
+          <image mime-type="image/png" src="../../media/Algebra-1_05_17_09_01.png" width="500" />
+        </media>
         
-        <para id="para-00017">Exponential models can help you understand the power of investment. After two years, this investor made $210 off of an initial investment of $1000 because of the 10% interest rate.</para>
-        <para id="para-00018">Can you calculate how much money the investor will have made after twenty years?</para>
+        <para
+          id="para-00017">Exponential models can help you understand the power of investment. After
+        two years, this investor made $210 off of an initial investment of $1000 because of the 10%
+        interest rate.</para>
+        <para id="para-00018">Can you calculate how much money the investor
+        will have made after twenty years?</para>
       </note>
     </section>
-  </content></document>
+  </content>
+</document>

@@ -6,44 +6,168 @@
     <md:uuid>9d0cab39-2dfc-440e-97bf-20a4906aa58a</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001"><title>Warm Up Activity</title>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Warm Up Activity</title>
       <para id="para-00001">Here is a graph.</para>
       <para id="para-00002">
-          <media alt="Line graph with x-axis labeled 0 to 7 and y-axis labeled 0 to 200. The graph shows a steadily increasing line starting just below 125 on the y-axis and ending at about 150 at x = 7.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_16_02_01.svg"/>
-          </media>
-        
-    </para>
-      <!--Text Entry Interaction Start -->
+        <media
+          alt="Line graph with x-axis labeled 0 to 7 and y-axis labeled 0 to 200. The graph shows a steadily increasing line starting just below 125 on the y-axis and ending at about 150 at x = 7.">
+          <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_16_02_01.svg" />
+        </media>
+
+      </para>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00003">Which equation do you think the graph represents? Use the graph to support your reasoning.</para>
-          <para id="para-00004"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3.7</m:mn><m:mo stretchy="false">)</m:mo><m:mi>·</m:mi><m:mi>x</m:mi></m:mrow></m:math></para><para id="para-00005"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1.03</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math></para></problem>
+          <para id="para-00003">Which equation do you think the graph represents? Use the graph to
+            support your reasoning.</para>
+          <list>
+            <item><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>120</m:mn>
+                <m:mo>+</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3.7</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mi>·</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math></item>
+          <item><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>120</m:mn>
+                <m:mi>·</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>1.03</m:mn>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>x</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math></item>
+          </list>
+        </problem>
         <solution id="sol-00001">
           <para id="para-00006">Compare your answer:</para>
-          <para id="para-00007">
-      All answers are acceptable if backed up by a reasonable explanation. Compare your answer:
-      <list id="list-00001"><item>The graph is for <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mo>+</m:mo><m:mn>3.7</m:mn><m:mi>x</m:mi></m:mrow></m:math> because it appears linear. On the graph, when <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math>, the value of <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> appears to be a little less than 150. When <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mn>120</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3.7</m:mn><m:mo stretchy="false">)</m:mo><m:mi>·</m:mi><m:mn>7</m:mn><m:mo>=</m:mo><m:mn>145.9</m:mn></m:mrow></m:math>, so the slope of the line could be 3.7.</item><item>The graph is for <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1.03</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math>. Multiplying 100 by 1.03 seven times, or <m:math display="inline"><m:mrow><m:mn>100</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1.03</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>7</m:mn></m:msup></m:mrow></m:math>, gives approximately 147.6, which more or less concurs with what is on the graph.</item><item>It is hard to tell. I tried finding the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-coordinate values for different values of  <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> using both equations, and they more or less agree with what is on the graph.</item></list>
-         </para>
+          <para id="para-00007"> All answers are acceptable if backed up by a reasonable
+            explanation. Compare your answer: <list id="list-00001">
+              <item>The graph is for <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>120</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>3.7</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math> because it
+            appears linear. On the graph, when <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                </m:math>, the value of <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math> appears to be
+            a little less than 150. When <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>7</m:mn>
+                  </m:mrow>
+                </m:math>, <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mn>120</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>3.7</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>·</m:mi>
+                    <m:mn>7</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>145.9</m:mn>
+                  </m:mrow>
+                </m:math>, so the
+            slope of the line could be 3.7.</item>
+              <item>The graph is for <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>120</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>1.03</m:mn>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>.
+            Multiplying 100 by 1.03 seven times, or <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>100</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>1.03</m:mn>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mn>7</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>,
+            gives approximately 147.6, which more or less concurs with what is on the graph.</item>
+              <item>It is hard to tell. I tried finding the <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math>-coordinate
+            values for different values of <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math> using both
+            equations, and they more or less agree with what is on the graph.</item>
+            </list>
+          </para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00008">What information might help you decide more easily whether the graph represents a linear or an exponential function?</para>
-          
+          <para id="para-00008">What information might help you decide more easily whether the graph
+            represents a linear or an exponential function?</para>
+
         </problem>
         <solution id="sol-00002">
           <para id="para-00009">Compare your answer:</para>
           <para id="para-00010">Your answers may vary, but here are some examples:</para>
           <list id="list-00002">
-            <item>Exact coordinates of points on the graph with whole-number <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values</item>
-            <item>A larger graphing window showing larger domain values so that the behavior of the function can be more visible</item>
+            <item>Exact coordinates of points on the graph with whole-number <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>-values</item>
+            <item>A larger graphing window showing larger domain values so that the behavior of the
+              function can be more visible</item>
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
     </section>
   </content>
 </document>
