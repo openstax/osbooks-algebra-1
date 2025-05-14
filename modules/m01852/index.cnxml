@@ -20,15 +20,14 @@
         <item>Identify or estimate the <emphasis><term class="glossary-tooltip" id="term-00004"> zero of the function</term></emphasis>. Describe what they mean in the situation.</item>
       </list>
       <para id="para-00003">Use the following information to answer 1 - 4.</para>
-      <para id="para-00004">
-        <quote id="quote-00001"> The area of a rectangle with a perimeter of <m:math display="inline"><m:mrow><m:mn>25</m:mn></m:mrow></m:math> meters and a side length <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>: <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mi>·</m:mi><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></quote>
+      <quote id="quote-00001"> The area of a rectangle with a perimeter of <m:math display="inline"><m:mrow><m:mn>25</m:mn></m:mrow></m:math> meters and a side length <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>: <m:math display="inline"><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mi>·</m:mi><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>25</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></quote>
         <quote id="quote-00002">
               <media alt="A parabola on a coordinate grid. The x-axis represents the length in meters of a rectangle and the y-axis represents the its area in square meters. The x-axis scale is 2.5 and extends from 0 to 15. The y-axis scale is 10 and extends from 0 to 40.">
               <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_09_06_01.svg"/>
             </media>
           
         </quote>
-    </para>
+
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
@@ -36,7 +35,7 @@
           
         </problem>
         <solution id="sol-00001">
-          <para id="para-00006">Compare your answer:</para>
+          <para id="para-00006">Compare your answer: </para>
           <para id="para-00007"><m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>x</m:mi><m:mo>&lt;</m:mo><m:mn>12.5</m:mn></m:mrow></m:math>. All positive rational numbers make sense as an input. The part of the graph that is below the horizontal line is not meaningful here (negative lengths or lengths greater than <m:math display="inline"><m:mrow><m:mn>12.5</m:mn></m:mrow></m:math> produce a negative area, which doesn’t make sense). Having a length or area equal to <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> doesn’t make sense either.</para>
         </solution>
       </exercise>
@@ -48,7 +47,7 @@
           
         </problem>
         <solution id="sol-00002">
-          <para id="para-00009">Compare your answer:</para>
+          <para id="para-00009">Compare your answer: </para>
           <para id="para-00010"><m:math display="inline"><m:mrow><m:mn>0</m:mn><m:mo>&lt;</m:mo><m:mi>y</m:mi><m:mo>&lt;</m:mo><m:mn>39.06</m:mn></m:mrow></m:math>. All positive rational numbers make sense as an output up to the maximum of the graph at 39.06. The part of the graph that is below the horizontal line is not meaningful here since there cannot be a negative area (which doesn’t make sense). Having a length or area equal to 0 doesn’t make sense either. The range gives the minimum and maximum values possible for the area from a perimeter of 25.</para>
         </solution>
       </exercise>
@@ -60,7 +59,7 @@
           
         </problem>
         <solution id="sol-00003">
-          <para id="para-00012">Compare your answer:</para>
+          <para id="para-00012">Compare your answer: </para>
           <para id="para-00013">The vertex is the point on the graph when the input is at <m:math display="inline"><m:mrow><m:mn>6.25</m:mn></m:mrow></m:math>. It’s around <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6.25</m:mn><m:mo>,</m:mo><m:mn>39.063</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. It’s when the rectangle has the greatest area.</para>
         </solution>
       </exercise>
@@ -72,21 +71,20 @@
           
         </problem>
         <solution id="sol-00004">
-          <para id="para-00015">Compare your answer:</para>
+          <para id="para-00015">Compare your answer: </para>
           <para id="para-00016">The zeros are <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mn>12.5</m:mn></m:mrow></m:math>. They tell us that when the side length of the rectangle is <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mn>12.5</m:mn></m:mrow></m:math> meters, the rectangle has no area (no rectangle exists).</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <para id="para-00017">Use the following information to answer 5 - 8.</para>
-      <para id="para-00018">
-        <quote id="quote-00003">The number of squares as a function of step number <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>: <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></quote>
+      <quote id="quote-00003">The number of squares as a function of step number <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>: <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math></quote>
         <quote id="quote-00004">
               <media alt="A parabola on a coordinate grid. The x-axis represents the step number of a pattern and the y-axis represents the number of squares in each step. The x-axis scale is 3 and extends from negative 12 to 12. The y-axis scale is 20 and extends from negative 40 to 200.">
               <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_09_06_02.svg"/>
             </media>
           
         </quote>
-    </para>
+
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
@@ -94,7 +92,7 @@
           
         </problem>
         <solution id="sol-00005">
-          <para id="para-00020">Compare your answer:</para>
+          <para id="para-00020">Compare your answer: </para>
           <para id="para-00021"><m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math> where <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is a whole number. Step numbers that are negative or decimal don’t make sense here. The graph should show points at non-negative integer values (instead of a continuous curve). Everything to the left of the vertical axis does not have meaning here.</para>
         </solution>
       </exercise>
@@ -106,7 +104,7 @@
           
         </problem>
         <solution id="sol-00006">
-          <para id="para-00023">Compare your answer:</para>
+          <para id="para-00023">Compare your answer: </para>
           <para id="para-00024"><m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mi>≥</m:mi><m:mn>4</m:mn></m:mrow></m:math>. The number of squares starts with 4 and increases.</para>
         </solution>
       </exercise>
@@ -118,7 +116,7 @@
           
         </problem>
         <solution id="sol-00007">
-          <para id="para-00026">Compare your answer:</para>
+          <para id="para-00026">Compare your answer: </para>
           <para id="para-00027">The vertex is <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. It tells us the number of squares at Step <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math>.</para>
         </solution>
       </exercise>
@@ -130,21 +128,20 @@
           
         </problem>
         <solution id="sol-00008">
-          <para id="para-00029">Compare your answer:</para>
+          <para id="para-00029">Compare your answer: </para>
           <para id="para-00030">There are no zeros for this function. There is not a time when there are no squares in the pattern.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <para id="para-00031">Use the following information to answer 9 - 12.</para>
-      <para id="para-00032">
-        <quote id="quote-00005">The distance in feet that an object has fallen <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> seconds after being dropped: <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>16</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></quote>
+      <quote id="quote-00005">The distance in feet that an object has fallen <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> seconds after being dropped: <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>16</m:mn><m:msup><m:mi>t</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></quote>
         <quote id="quote-00006">
               <media alt="A parabola on a coordinate grid. The x-axis represents the time in seconds and the y-axis represents the distance fallen in feet. The x-axis scale is 2 and extends from negative 10 to 10. The y-axis scale is 100 and extends from negative 200 to 1,000.">
               <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_09_06_03.svg"/>
             </media>
           
         </quote>
-    </para>
+
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00009">
         <problem id="prob-00009">
@@ -152,7 +149,7 @@
           
         </problem>
         <solution id="sol-00009">
-          <para id="para-00034">Compare your answer:</para>
+          <para id="para-00034">Compare your answer: </para>
           <para id="para-00035"><m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math> or only positive numbers and <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math>. Negative values of time don’t make sense here, so the part of the graph to the left side of the vertical axis has no meaning.</para>
         </solution>
       </exercise>
@@ -164,7 +161,7 @@
           
         </problem>
         <solution id="sol-00010">
-          <para id="para-00037">Compare your answer:</para>
+          <para id="para-00037">Compare your answer: </para>
           <para id="para-00038"><m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mi>≥</m:mi><m:mn>0</m:mn></m:mrow></m:math>. The distance fallen increases as time increases and would start at <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
         </solution>
       </exercise>
@@ -176,7 +173,7 @@
           
         </problem>
         <solution id="sol-00011">
-          <para id="para-00040">Compare your answer:</para>
+          <para id="para-00040">Compare your answer: </para>
           <para id="para-00041">The vertex is <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. It tells us the distance fallen at <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> seconds, which is <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> feet.</para>
         </solution>
       </exercise>
@@ -188,7 +185,7 @@
           
         </problem>
         <solution id="sol-00012">
-          <para id="para-00043">Compare your answer:</para>
+          <para id="para-00043">Compare your answer: </para>
           <para id="para-00044">The vertex also tells us the zero of the function. It’s the only time when the distance fallen is <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> feet.</para>
         </solution>
       </exercise></section>
