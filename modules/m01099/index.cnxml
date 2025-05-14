@@ -6,11 +6,9 @@
     <md:uuid>25bc5347-6037-4262-a3e5-632d205bd6f3</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
+    <section id="sect-00001">      <title>Activity</title>
       <para id="para-00001">A <term class="glossary-tooltip" id="term-00001">discrete function</term> has distinct separate values in the domain and range, rather than an interval of values.</para>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-        <item>Below is a graph from the previous lesson that graphs the number of students attending a camp and the amount, in dollars, the camp earns. There must be 5 students to hold the camp.</item>
-      </list>
+      <para>Below is a graph from the previous lesson that graphs the number of students attending a camp and the amount, in dollars, the camp earns. There must be 5 students to hold the camp.</para>
       <para id="para-00002">
           <media alt="A scatter plot showing a positive linear relationship between number of students (x-axis, 0–20) and amount in dollars (y-axis, 0–700). As the number of students increases, the amount in dollars rises.">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_09_01.svg"/>
@@ -20,7 +18,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00003">What are the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values of this function that make up the domain?</para>
+          <para id="para-00003">a. What are the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values of this function that make up the domain?</para>
           
         </problem>
         <solution id="sol-00001">
@@ -32,7 +30,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00006">Why can’t we say the domain is all values from 5 to 16?</para>
+          <para id="para-00006">b. Why can’t we say the domain is all values from 5 to 16?</para>
           
         </problem>
         <solution id="sol-00002">
@@ -44,7 +42,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00009">What are the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values of this function that make up the range?</para>
+          <para id="para-00009">c. What are the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values of this function that make up the range?</para>
           
         </problem>
         <solution id="sol-00003">
@@ -54,9 +52,7 @@
       </exercise>
       <!--Interaction End -->
       <para id="para-00012">A <term class="glossary-tooltip" id="term-00002">continuous function</term> refers to a function that does not have any breaks in its graph. The domain and range of a continuous function are often represented by an interval that can be written as an inequality.</para>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-        <item>The graph below represents a continuous function. The function, <m:math display="inline"><m:mrow><m:mi>P</m:mi></m:mrow></m:math>, is the cost of parking in a garage for <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> hours. It is represented by the function <m:math display="inline"><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>h</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:math>.</item>
-      </list>
+      <para>2. The graph below represents a continuous function. The function, <m:math display="inline"><m:mrow><m:mi>P</m:mi></m:mrow></m:math>, is the cost of parking in a garage for <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> hours. It is represented by the function <m:math display="inline"><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>h</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:math>.</para>
       <para id="para-00013">
           <media alt="A graphed line with a \(y\)-intercepts at (0, 10), passing through the points (2, 20) and (4, 30).">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_04_16_09_02.jpg" width="300"/>
@@ -66,7 +62,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00014">What does <m:math display="inline"><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> represent?</para>
+          <para id="para-00014">a. What does <m:math display="inline"><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> represent?</para>
           
         </problem>
         <solution id="sol-00004">
@@ -78,7 +74,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00017">In words, what are the values of the domain?</para>
+          <para id="para-00017">b. In words, what are the values of the domain?</para>
           
         </problem>
         <solution id="sol-00005">
@@ -90,7 +86,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00006">
-          <para id="para-00020">How can you write the domain values as an inequality?</para>
+          <para id="para-00020">c. How can you write the domain values as an inequality?</para>
           
         </problem>
         <solution id="sol-00006">
@@ -101,7 +97,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00007">
         <problem id="prob-00007">
-          <para id="para-00023">In words, what are the values of the range?</para>
+          <para id="para-00023">d. In words, what are the values of the range?</para>
           
         </problem>
         <solution id="sol-00007">
@@ -113,7 +109,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00008">
         <problem id="prob-00008">
-          <para id="para-00026">How can you write the range values as an inequality?</para>
+          <para id="para-00026">e. How can you write the range values as an inequality?</para>
           
         </problem>
         <solution id="sol-00008">

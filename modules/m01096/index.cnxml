@@ -6,7 +6,7 @@
     <md:uuid>b943d03e-b169-4373-ac2c-61f1fc49d1ce</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
+    <section id="sect-00001">      <title>Activity</title>
       <para id="para-00001">A tennis ball was dropped from a certain height. It bounced several times, rolled along for a short period, and then stopped. Function <m:math display="inline"><m:mrow><m:mi>H</m:mi></m:mrow></m:math> gives its height over time.</para>
       <para id="para-00002">Here is a partial graph of <m:math display="inline"><m:mrow><m:mi>H</m:mi></m:mrow></m:math>. Height is measured in feet. Time is measured in seconds.</para>
       <para id="para-00003">Use the graph to help you answer the questions.</para>
@@ -20,7 +20,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00006">Find <m:math display="inline"><m:mrow><m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. What point is this on the graph? What does it represent?</para>
+          <para id="para-00006">1. Find <m:math display="inline"><m:mrow><m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. What point is this on the graph? What does it represent?</para>
           
         </problem>
         <solution id="sol-00001">
@@ -32,7 +32,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00009">Solve <m:math display="inline"><m:mrow><m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00009">2. Solve <m:math display="inline"><m:mrow><m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
           
         </problem>
         <solution id="sol-00002">
@@ -44,7 +44,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00012">Describe the domain of the function.</para>
+          <para id="para-00012">3. Describe the domain of the function.</para>
           
         </problem>
         <solution id="sol-00003">
@@ -56,7 +56,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00015">Describe the range of the function.</para>
+          <para id="para-00015">4. Describe the range of the function.</para>
           
         </problem>
         <solution id="sol-00004">
@@ -82,7 +82,7 @@
         <problem id="prob-00005">
           <para id="para-00019">In function <m:math display="inline"><m:mrow><m:mi>H</m:mi></m:mrow></m:math>, the input was time in seconds, and the output was height in feet.</para>
           <para id="para-00020">Think about some other quantities that could be inputs or outputs in this situation.</para>
-          <para id="para-00021">Describe a function whose domain includes only integers. Be sure to specify the units.</para>
+          <para id="para-00021">1. Describe a function whose domain includes only integers. Be sure to specify the units.</para>
           
         </problem>
         <solution id="sol-00005">
@@ -94,7 +94,7 @@
       
         <exercise class="RFM1" id="exer-00006">
           <problem id="prob-00006">
-            <para id="para-00024">Sketch a graph of this function. Write down your answer then select the <emphasis>solution</emphasis> button to compare your answer.  </para>
+            <para id="para-00024">2. Sketch a graph of this function. Write down your answer then select the <emphasis>solution</emphasis> button to compare your answer.  </para>
         <para id="para-00025"><media alt="A blank Cartesian graph with horizontal (x-axis) and vertical (y-axis) black arrows, both starting from the origin marked as O in the bottom left corner. No data or labels are shown."><image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_02.svg"/></media></para>
   
             <para id="para-00026">Select the <emphasis>solution</emphasis> button to compare your sketch and answer.</para>
@@ -114,7 +114,7 @@
       <!--End interaction-->
       <exercise class="RFM1" id="exer-00007">
         <problem id="prob-00007">
-          <para id="para-00029">Describe a function whose range includes only integers. Be sure to specify the units.</para>
+          <para id="para-00029">3. Describe a function whose range includes only integers. Be sure to specify the units.</para>
           
         </problem>
         <solution id="sol-00007">
@@ -126,7 +126,7 @@
       
         <exercise class="RFM1" id="exer-00008">
           <problem id="prob-00008">
-            <para id="para-00032">Sketch a graph of this function. Write down your answer then select the <emphasis>solution</emphasis> button to compare your answer. 
+            <para id="para-00032">4. Sketch a graph of this function. Write down your answer then select the <emphasis>solution</emphasis> button to compare your answer. 
         <media alt="A blank Cartesian graph with horizontal (x-axis) and vertical (y-axis) black arrows, both starting from the origin marked as O in the bottom left corner. No data or labels are shown."><image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_04.svg"/></media></para>
             <para id="para-00033">Select the <emphasis>solution</emphasis> button to compare your sketch and answer.</para>
           </problem>
@@ -162,17 +162,13 @@
         
     </para>
       <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-        <item>What is the domain of the graph?</item>
+        <item><para>What is the domain of the graph?</para>
+      <para id="para-00041">The domain is <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values that are at least 0 and a maximum of 400.</para></item>
+        <item><para>What is the range of the graph?</para>
+      <para id="para-00042">The range is the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values that are at least 0 and a maximum of 285.</para></item>
+        <item><para>What are the values of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> where <m:math display="inline"><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and what do they mean?</para>
+      <para id="para-00043"><m:math display="inline"><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">(</m:mo><m:mn>400</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and this is when Carl left home and then arrived home, so the distance was 0.</para></item>
       </list>
-      <para id="para-00041">The domain is <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values that are at least 0 and a maximum of 400.</para>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-        <item>What is the range of the graph?</item>
-      </list>
-      <para id="para-00042">The range is the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values that are at least 0 and a maximum of 285.</para>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
-        <item>What are the values of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> where <m:math display="inline"><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and what do they mean?</item>
-      </list>
-      <para id="para-00043"><m:math display="inline"><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">(</m:mo><m:mn>400</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and this is when Carl left home and then arrived home, so the distance was 0.</para>
       <note class="try" id="note-00002">
   <title>Try It: Domain and Range from Graphs</title>
       
