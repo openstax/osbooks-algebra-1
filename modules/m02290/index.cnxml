@@ -6,21 +6,21 @@
     <md:uuid>6ff11e0d-79e5-42c8-bad6-c097c429f95c</md:uuid>
   </metadata>
   <content>
-    <section class="practice" id="sect-00001"><title>Warm Up</title>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
+    <section id="sect-00001"><title>Warm Up</title>
+      <list start-value="1" class="os-raise-noindent" list-type="enumerated" id="list-00001">
         <item>Click on the "+" sign and choose to add a table in the Desmos graphing tool. This will generate a table for entering a data set.</item>
       </list>
       <para id="para-00001">Desmos: Quadratic Data Set Table</para>
       <media alt="...">
         <iframe src="../../media/desmos/7a7c15bf4c06f4f02a86b3ab58cff71c1e0055a2.html" width="500" height="400"/>
       </media>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
+      <list start-value="2" class="os-raise-noindent" list-type="enumerated" id="list-00002">
         <item>Enter the data set shown in the table below into the corresponding <m:math display="inline"><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> columns.</item>
       </list>
       <para id="para-00002">(If preferred, the data can be copied and pasted into Desmos from a spreadsheet using keyboard shortcuts. Windows: Ctrl+C for copy and Ctrl+V for paste. Mac: Command+C for copy and Command+V for paste.)</para>
       <table class="unnumbered os-raise-skinnytable" id="table-00001">
         <tgroup cols="2">
-          <tbody>
+          <tbody align="center">
             <row>
               <entry>
                 <emphasis> <m:math display="inline"><m:mrow><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math></emphasis>
@@ -56,7 +56,9 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00004">Examine the data for a pattern that might fit any quadratic function that you recognize. What equation do you hypothesize would best fit these data points?</para>
+          <list start-value="3" class="os-raise-noindent" list-type="enumerated" id="list-00003">
+          <item><para id="para-00004">Examine the data for a pattern that might fit any quadratic function that you recognize. What equation do you hypothesize would best fit these data points?</para></item>
+          </list>
         </problem>
         <solution id="sol-00001">
           <para id="para-00005">Enter an equation.</para>

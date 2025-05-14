@@ -6,10 +6,10 @@
     <md:uuid>5b645948-6b7a-444e-8999-5ccfe39eaa8a</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
+    <section id="sect-00001">      <title>Activity</title>
       <para id="para-00001">The table shows some heights of a ball after a certain number of bounces.</para>
       <table class="unnumbered os-raise-midsizetable" id="table-00001">
-        <tgroup cols="2"><tbody><row>
+        <tgroup cols="2"><tbody align="center"><row>
             <entry>
              <emphasis>Bounce Number</emphasis>
             </entry>
@@ -57,7 +57,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00002"> Is this ball more or less bouncy than the tennis ball in activity 5.11.2, which has the equation <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.53</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math>? Explain or show your reasoning.</para>
+          <para id="para-00002">1. Is this ball more or less bouncy than the tennis ball in activity 5.11.2, which has the equation <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.53</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math>? Explain or show your reasoning.</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00004">Compare your answer:</para>
@@ -70,7 +70,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00006"> From what height was the ball dropped? Explain or show your reasoning. Remember your units!</para>
+          <para id="para-00006">2. From what height was the ball dropped? Explain or show your reasoning. Remember your units!</para>
         </problem>
         <solution id="sol-00002">
           <para id="para-00008">Compare your answer:</para>
@@ -81,7 +81,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00010"> Write an equation that represents the bounce height of the ball, <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>, in centimeters after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces.
+          <para id="para-00010">3. Write an equation that represents the bounce height of the ball, <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>, in centimeters after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces.
         Remember that an exponent may be entered using the "^" symbol.</para>
         </problem>
         <solution id="sol-00003">
@@ -92,7 +92,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00014"> Which graph would more appropriately represent the equation for <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>: Graph A or Graph B? Be prepared to show your reasoning.
+          <para id="para-00014">4. Which graph would more appropriately represent the equation for <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>: Graph A or Graph B? Be prepared to show your reasoning.
         <media alt="A line graph shows height in centimeters decreasing rapidly with each bounce number, illustrating a curve that starts high and drops quickly, then levels out near zero. There are no plotted points."><image mime-type="image/svg+xml" src="../../media/Algebra-1_05_13_07_01.svg"/></media>
           <media alt="A scatter plot shows height in centimeters decreasing with each bounce number, illustrating a rapid drop at first, then gradually leveling off as bounce number increases. Plots are available for each number of bounces."><image mime-type="image/svg+xml" src="../../media/Algebra-1_05_13_07_02.svg"/></media></para>
         </problem>
@@ -106,7 +106,7 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00018"> Will the nth bounce of this ball be
+          <para id="para-00018">5. Will the nth bounce of this ball be
           lower than the nth bounce of the tennis ball with equation <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>150</m:mn><m:mi>⋅</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.53</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math>? Be prepared to show your
           reasoning.</para>
         </problem>
@@ -122,9 +122,9 @@
       <exercise id="exer-00006">
         <problem id="prob-00006">
           <para id="para-00022">
-        The table shows an exponential decay that starts at 640.  What exponential decay problem is it modeling? Use ^ to show your exponent.</para>
+        6. The table shows an exponential decay that starts at 640.  What exponential decay problem is it modeling? Use ^ to show your exponent.</para>
           <table class="unnumbered os-raise-horizontaltable" id="table-00002">
-            <tgroup cols="5"><tbody><row>
+            <tgroup cols="5"><tbody align="center"><row>
                 <entry>
                  <emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis>
                 </entry>
@@ -166,7 +166,7 @@
     <para id="para-00046"><emphasis id="para-00027">Example 1</emphasis></para>
     <para id="para-00028">Data has been entered into a table that shows exponential decay.  How would you write the equation that represents this model?</para>
     <table class="unnumbered os-raise-horizontaltable" id="table-00003">
-      <tgroup cols="5"><tbody><row>
+      <tgroup cols="5"><tbody align="center"><row>
           <entry><emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis></entry><entry>0</entry>
           <entry>1</entry>
           <entry>2</entry>
@@ -194,9 +194,9 @@
     <!--Q#-->
     <exercise id="exer-00007">
       <problem id="prob-00007">
-        <para id="para-00035">What exponential decay equation is modeled by the table of data given?</para>
+        <para id="para-00035">1. What exponential decay equation is modeled by the table of data given?</para>
     <table class="unnumbered os-raise-horizontaltable" id="table-00004">
-      <tgroup cols="6"><tbody><row>
+      <tgroup cols="6"><tbody align="center"><row>
             <entry><emphasis><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></emphasis></entry><entry>1</entry>
             <entry>2</entry>
             <entry>3</entry>
@@ -230,7 +230,7 @@
     <exercise id="exer-00008">
       <problem id="prob-00008">
     
-        <para id="para-00040">Write a function for the computer’s value, <m:math display="inline"><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> years after it is purchased.</para>
+        <para id="para-00040">2. Write a function for the computer’s value, <m:math display="inline"><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> years after it is purchased.</para>
     <para id="para-00041">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
       
       </problem><solution id="sol-00008">

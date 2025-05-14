@@ -6,65 +6,153 @@
     <md:uuid>a8640d0f-639d-4831-898e-69fc64d2fc2b</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">The equation <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mn>20</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.8</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>h</m:mi></m:msup></m:mrow></m:math> models the amount of medicine <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math> (in milligrams) in a patient’s body as a function of hours, <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>, after injection.</para>
-      <!--Text Entry Interaction Start -->
+    <section id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">The equation <m:math display="inline">
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>20</m:mn>
+            <m:mi>·</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mn>0.8</m:mn>
+            <m:msup>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mi>h</m:mi>
+            </m:msup>
+          </m:mrow>
+        </m:math> models the
+        amount of medicine <m:math display="inline">
+          <m:mrow>
+            <m:mi>m</m:mi>
+          </m:mrow>
+        </m:math> (in milligrams) in a patient’s body
+        as a function of hours, <m:math display="inline">
+          <m:mrow>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:math>, after injection.</para>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00002"> Without using a graphing tool, decide if the following horizontal and vertical boundaries are suitable for graphing this function.  
-        
-        Be prepared to show your reasoning.
-        <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>10</m:mn><m:mo>&lt;</m:mo><m:mi>h</m:mi><m:mo>&lt;</m:mo><m:mn>100</m:mn></m:mrow></m:math>
-        <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>100</m:mn><m:mo>&lt;</m:mo><m:mi>m</m:mi><m:mo>&lt;</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow></m:math>
-    </para>
+          <para id="para-00002">1. Without using a graphing tool, decide if the following horizontal
+            and vertical boundaries are suitable for graphing this function.</para>
+            <para id="para-00003">Be prepared to show
+            your reasoning. <m:math display="inline">
+              <m:mrow>
+                <m:mo>−</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>&lt;</m:mo>
+                <m:mi>h</m:mi>
+                <m:mo>&lt;</m:mo>
+                <m:mn>100</m:mn>
+              </m:mrow>
+            </m:math>
+        <m:math display="inline">
+              <m:mrow>
+                <m:mo>−</m:mo>
+                <m:mn>100</m:mn>
+                <m:mo>&lt;</m:mo>
+                <m:mi>m</m:mi>
+                <m:mo>&lt;</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>000</m:mn>
+              </m:mrow>
+            </m:math>
+          </para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00004">Answer: Compare your answer:</para>
           <para id="para-00005">No, these boundaries are not suitable for graphing this function.</para>
           <list id="list-00001">
-            <item>Horizontal axis: There is probably no medicine left in the body 100 hours after injection, so it is not helpful to graph all the way to an <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> value of 100. And if there was any medicine in the body before injection, it wouldn’t be accounted for by this equation, so <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> should probably start at 0. 
-   </item>
-            <item>Vertical axis: The medicine is decreasing in amount, starting from 20 milligrams, so 1,000 for the upper end of the axis is far too large. The negative values for 𝑚 are also not needed because a negative amount of medicine would not make any sense here.
- </item>
+            <item>Horizontal axis: There is probably no medicine left in the body 100 hours after
+              injection, so it is not helpful to graph all the way to an <m:math display="inline">
+                <m:mrow>
+                  <m:mi>h</m:mi>
+                </m:mrow>
+              </m:math> value of 100. And
+              if there was any medicine in the body before injection, it wouldn’t be accounted for
+              by this equation, so <m:math display="inline">
+                <m:mrow>
+                  <m:mi>h</m:mi>
+                </m:mrow>
+              </m:math> should probably
+              start at 0. </item>
+            <item>Vertical axis: The medicine is decreasing in amount, starting from 20 milligrams,
+              so 1,000 for the upper end of the axis is far too large. The negative values for 𝑚
+              are also not needed because a negative amount of medicine would not make any sense
+              here. </item>
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00006"> Verify your answer by graphing the equation using graphing technology and using the given graphing window. What do you see? Sketch or describe the graph.</para>
+          <para id="para-00006">2. Verify your answer by graphing the equation using graphing
+            technology and using the given graphing window. What do you see? Sketch or describe the
+            graph.</para>
         </problem>
         <solution id="sol-00002">
           <para id="para-00008">Compare your answer:</para>
           <para id="para-00009">
-            
-              <media alt="A graph with axes labeled m (vertical) and h (horizontal) shows black dots rapidly decreasing from the top left and approaching zero as h increases to 100, forming a curve that flattens out. There is a point at (0, 1000), but the dots along the axis go beyond the axis and are tightly together.">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_05_11_09_01.jpg"/>
-              </media>
-            
-        </para>
+
+            <media alt="A graph with axes labeled m (vertical) and h (horizontal) shows black dots rapidly decreasing from the top left and approaching zero as h increases to 100, forming a curve that flattens out. There is a point at (0, 1000), but the dots along the axis go beyond the axis and are tightly together.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_05_11_09_01.jpg" width="450"/>
+            </media>
+
+          </para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00010">If your graph in the previous question is unhelpful, modify the window settings so that the graph is more useful. Record the window settings here. Convince a partner why the horizontal and vertical boundaries that you set are better.</para>
+          <para id="para-00010">3. If your graph in the previous question is unhelpful, modify the
+            window settings so that the graph is more useful. Record the window settings here.
+            Convince a partner why the horizontal and vertical boundaries that you set are better.</para>
         </problem>
         <solution id="sol-00003">
           <para id="para-00012">Compare your answer:</para>
-          <para id="para-00013">A reasonable graph would have an <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>-axis that shows values from 0 to around 20 and an <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math>-axis showing values from 0 to somewhere in the low 20s. Here is an example:</para>
-          <para id="para-00014">Points plotted on the coordinate plane, showing exponential decay. Horizontal axis from 0 to 22.5, labeled <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>. Vertical axis from 0 to 22.5, labeled <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math>.</para>
+          <para id="para-00013">A reasonable graph would have an <m:math display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+              </m:mrow>
+            </m:math>-axis that shows values
+            from 0 to around 20 and an <m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+              </m:mrow>
+            </m:math>-axis showing values from
+            0 to somewhere in the low 20s. Here is an example:</para>
+          <para id="para-00014">Points plotted on the coordinate plane, showing exponential decay.
+            Horizontal axis from 0 to 22.5, labeled <m:math display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+              </m:mrow>
+            </m:math>. Vertical axis from 0 to
+            22.5, labeled <m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+              </m:mrow>
+            </m:math>.</para>
           <para id="para-00015">
-            
-              <media alt="A scatter plot with horizontal axis labeled n (0–20) and vertical axis labeled m (0–20), showing black dots that decrease steeply and gradually level off, forming a downward curve.">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_05_11_09_02.jpg"/>
-              </media>
-            
-        </para>
+
+            <media alt="A scatter plot with horizontal axis labeled n (0–20) and vertical axis labeled m (0–20), showing black dots that decrease steeply and gradually level off, forming a downward curve.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_05_11_09_02.jpg" width="450"/>
+            </media>
+
+          </para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
     </section>
-  </content></document>
+  </content>
+</document>

@@ -6,150 +6,709 @@
     <md:uuid>4403350e-aa93-4a7e-966c-88fdfc67de74</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <note id="note-00001" class="link-to-learning">
-        <para id="para-00001">Access the <link url="https://k12.openstax.org/contents/raise/resources/2c2987f83130584132cad08b60ad0d3ba45a32b9">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para></note>
-      
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-        <item>Each of the following functions, <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mi>j</m:mi></m:mrow></m:math>, represents the amount of money in a bank account, in dollars, as a function of time <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, in years. They are each written in the form <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>·</m:mi><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math>.
- </item>
-      </list>
+    <section id="sect-00001">
+      <title>Activity</title>
+      <note id="note-00001">
+        <para id="para-00001">Access the <link url="https://k12.openstax.org/contents/raise/resources/2c2987f83130584132cad08b60ad0d3ba45a32b9">Desmos
+        guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para></note>
+
+      <para id="para-00044">Each of the following functions, <m:math display="inline">
+            <m:mrow>
+              <m:mi>f</m:mi>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>g</m:mi>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>h</m:mi>
+            </m:mrow>
+          </m:math>, and <m:math display="inline">
+            <m:mrow>
+              <m:mi>j</m:mi>
+            </m:mrow>
+          </m:math>, represents the amount of money
+          in a bank account, in dollars, as a function of time <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>, in years. They are each
+          written in the form <m:math display="inline">
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mi>a</m:mi>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>. </para>
       <list id="list-00002">
-        <item><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>50</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></item>
-        <item><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>50</m:mn><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></item>
-        <item><m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>50</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math></item>
-        <item><m:math><m:mrow><m:mi>j</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>50</m:mn><m:mi>·</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:msup></m:mrow></m:math></item>
+        <item><m:math>
+            <m:mrow>
+              <m:mi>f</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>50</m:mn>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math></item>
+        <item><m:math>
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>50</m:mn>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mn>3</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math></item>
+        <item><m:math>
+            <m:mrow>
+              <m:mi>h</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>50</m:mn>
+              <m:mi>·</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math></item>
+        <item><m:math>
+            <m:mrow>
+              <m:mi>j</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>50</m:mn>
+              <m:mi>·</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>0.5</m:mn>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math></item>
       </list>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
-        <item>Use graphing technology to graph each function on the same coordinate plane. It may be helpful to use a different color for each function.</item>
-      </list><media alt="insert alt text">
-      <iframe src="../../media/desmos/c2b2be1392eb25bd3ede57495bbc1721230ec338.html" width="500" height="400"/></media>
-        <exercise id="exer-00001">
-          <problem id="prob-00001">
-            <para id="para-00002">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00001">
-            <para id="para-00003">Compare your answers:</para>
-            <para id="para-00004"> <media alt="A graph with four labeled curves: f (orange), g (blue), h (green), and j (brown). All intersect near (0, 50); f, g, and h curve upward, while j curves downward as x increases from 0 to 4."><image mime-type="image/jpeg" src="../../media/Algebra-1_05_14_03_01.jpg"/></media></para>
-          </solution>
-        </exercise>
-      
+      <para id="para-00045">Use graphing technology to graph each function on the same coordinate plane. It may be
+          helpful to use a different color for each function.</para>
+      <media alt="insert alt text">
+        <iframe src="../../media/desmos/c2b2be1392eb25bd3ede57495bbc1721230ec338.html" width="500" height="400"/>
+      </media>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00002">Write down your answer, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution id="sol-00001">
+          <para id="para-00003">Compare your answers:</para>
+          <para id="para-00004"> <media alt="A graph with four labeled curves: f (orange), g (blue), h (green), and j (brown). All intersect near (0, 50); f, g, and h curve upward, while j curves downward as x increases from 0 to 4.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_05_14_03_01.jpg"/>
+            </media></para>
+        </solution>
+      </exercise>
+
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00005">Explain how changing the value of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math><emphasis> </emphasis>changes the graph.</para>
-          
+          <para id="para-00005">b. Explain how changing the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math><emphasis> </emphasis>changes
+            the graph.</para>
+
         </problem>
         <solution id="sol-00002">
           <para id="para-00006">Compare your answer:</para>
-          <para id="para-00007">When <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> is greater than 1, larger values of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> mean that the function grows more quickly as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases. A positive value of <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> that is less than 1 means the function is decreasing as <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> increases.</para>
+          <para id="para-00007">When <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math> is greater than 1, larger
+            values of <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math> mean that the function
+            grows more quickly as <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> increases. A positive
+            value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math> that is less than 1 means
+            the function is decreasing as <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> increases.</para>
         </solution>
       </exercise>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
-        <item>Here are equations defining functions <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>q</m:mi></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math>. They are also written in the form <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>·</m:mi><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math>.</item>
-      </list>
+      <para id="para-00046">2. Here are equations defining functions <m:math display="inline">
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>q</m:mi>
+            </m:mrow>
+          </m:math>, and <m:math display="inline">
+            <m:mrow>
+              <m:mi>r</m:mi>
+            </m:mrow>
+          </m:math>. They are also written in the
+          form <m:math display="inline">
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mi>a</m:mi>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>.</para>
       <list id="list-00005">
-        <item><m:math><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>10</m:mn><m:mi>·</m:mi><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></item>
-        <item><m:math><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>40</m:mn><m:mi>·</m:mi><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></item>
-        <item><m:math><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>100</m:mn><m:mi>·</m:mi><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></item>
+        <item><m:math>
+            <m:mrow>
+              <m:mi>p</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>10</m:mn>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math></item>
+        <item><m:math>
+            <m:mrow>
+              <m:mi>q</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>40</m:mn>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math></item>
+        <item><m:math>
+            <m:mrow>
+              <m:mi>r</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>100</m:mn>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math></item>
       </list>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
-        <item>Use graphing technology to graph each function on the same coordinate plane. It may be helpful to use a different color for each function.</item>
-      </list><media alt="insert alt text">
-      <iframe src="../../media/desmos/58f9ed2fb53f011525001aa87dd0aa7dca68a98e.html" width="500" height="400"/></media>
-        <exercise id="exer-00003">
-          <problem id="prob-00003">
-            <para id="para-00008">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00003">
-            <para id="para-00009">Compare your answers:</para>
-            <para id="para-00010"> <media alt="A graph with three exponential curves labeled p, q, and r, each in a different color, increasing steeply to the right on a grid with x- and y-axes marked, and y-values ranging from 0 to over 200."><image mime-type="image/jpeg" src="../../media/Algebra-1_05_14_03_02.jpg"/></media></para>
-          </solution>
-        </exercise>
-      
+      <para id="para-00047">a. Use graphing technology to graph each function on the same coordinate plane. It may be
+          helpful to use a different color for each function.</para>
+      <media alt="insert alt text">
+        <iframe src="../../media/desmos/58f9ed2fb53f011525001aa87dd0aa7dca68a98e.html" width="500" height="400"/>
+      </media>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00008">Write down your answer, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution id="sol-00003">
+          <para id="para-00009">Compare your answers:</para>
+          <para id="para-00010"> <media alt="A graph with three exponential curves labeled p, q, and r, each in a different color, increasing steeply to the right on a grid with x- and y-axes marked, and y-values ranging from 0 to over 200.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_05_14_03_02.jpg"/>
+            </media></para>
+        </solution>
+      </exercise>
+
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00011">Explain how changing the value of <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> changes the graph.</para>
-          
+          <para id="para-00011">b. Explain how changing the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+              </m:mrow>
+            </m:math> changes the graph.</para>
+
         </problem>
         <solution id="sol-00004">
           <para id="para-00012">Compare your answer:</para>
-          <para id="para-00013">It changes the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept to <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+          <para id="para-00013">It changes the <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-intercept to <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo>,</m:mo>
+                <m:mi>a</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00007">
-        <item>Here are equations defining functions <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> written in the form <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>a</m:mi><m:mi>·</m:mi><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mi>d</m:mi></m:mrow></m:math>.</item>
-      </list>
+      <para id="para-00048">3. Here are equations defining functions <m:math display="inline">
+            <m:mrow>
+              <m:mi>f</m:mi>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>g</m:mi>
+            </m:mrow>
+          </m:math>, and <m:math display="inline">
+            <m:mrow>
+              <m:mi>h</m:mi>
+            </m:mrow>
+          </m:math> written in the form <m:math display="inline">
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mi>a</m:mi>
+              <m:mi>·</m:mi>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mi>x</m:mi>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math>.</para>
       <list id="list-00008">
-        <item><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></item>
-        <item><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></item>
-        <item><m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math></item>
+        <item><m:math>
+            <m:mrow>
+              <m:mi>f</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></item>
+        <item><m:math>
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math></item>
+        <item><m:math>
+            <m:mrow>
+              <m:mi>h</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></item>
       </list>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00009">
-        <item>Use graphing technology to graph each function on the same coordinate plane. It may be helpful to use a different color for each function.</item>
-      </list><media alt="insert alt text">
-      <iframe src="../../media/desmos/18ca89438df0b4a8759f9c4ca7ec43a014595aa4.html" width="500" height="400"/></media>
-        <exercise id="exer-00005">
-          <problem id="prob-00005">
-            <para id="para-00014">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00005">
-            <para id="para-00015">Compare your answers:</para>
-            <para id="para-00016"> <media alt="A graph with three exponential curves labeled p, q, and r, each in a different color, increasing steeply to the right on a grid with x- and y-axes marked, and y-values ranging from 0 to over 200."><image mime-type="image/jpeg" src="../../media/Algebra-1_05_14_03_03.jpg"/></media></para>
-          </solution>
-        </exercise>
-      
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00010">
-        <item>Explain how changing the value of <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> changes the graph.</item>
-      </list>
-      
-        <exercise id="exer-00006">
-          <problem id="prob-00006">
-            <para id="para-00017">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00006">
-            <para id="para-00018">Compare your answers:</para>
-                  <media alt="A graph showing three curves: f (red), g (black), and h (teal). All pass through (0,1); f increases fastest, h slowest as x increases. The x- and y-axes are labeled.">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_05_14_03_04.jpg"/>
-              </media>
-            
-          </solution>
-        </exercise>
-      
+      <para id="para-00049">a. Use graphing technology to graph each function on the same coordinate plane. It may be
+          helpful to use a different color for each function.</para>
+      <media alt="insert alt text">
+        <iframe src="../../media/desmos/18ca89438df0b4a8759f9c4ca7ec43a014595aa4.html" width="500" height="400"/>
+      </media>
+      <exercise id="exer-00005">
+        <problem id="prob-00005">
+          <para id="para-00014">Write down your answer, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution id="sol-00005">
+          <para id="para-00015">Compare your answers:</para>
+          <para id="para-00016"> <media alt="A graph with three exponential curves labeled p, q, and r, each in a different color, increasing steeply to the right on a grid with x- and y-axes marked, and y-values ranging from 0 to over 200.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_05_14_03_03.jpg"/>
+            </media></para>
+        </solution>
+      </exercise>
+
+      <para id="para-00050">b. Explain how changing the value of <m:math display="inline">
+            <m:mrow>
+              <m:mi>a</m:mi>
+            </m:mrow>
+          </m:math> changes the graph.</para>
+
+      <exercise id="exer-00006">
+        <problem id="prob-00006">
+          <para id="para-00017">Write down your answer, then select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution id="sol-00006">
+          <para id="para-00018">Compare your answers:</para>
+          <media alt="A graph showing three curves: f (red), g (black), and h (teal). All pass through (0,1); f increases fastest, h slowest as x increases. The x- and y-axes are labeled.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_05_14_03_04.jpg"/>
+          </media>
+
+        </solution>
+      </exercise>
+
       <exercise id="exer-00007">
         <problem id="prob-00007">
-          <para id="para-00019">Discuss with a partner how changing the value of <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> changes the asymptote of the graph.</para>
-          
+          <para id="para-00019">b. Discuss with a partner how changing the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>d</m:mi>
+              </m:mrow>
+            </m:math> changes the asymptote of
+            the graph.</para>
+
         </problem>
         <solution id="sol-00007">
           <para id="para-00020">Compare your answer:</para>
-          <para id="para-00021">Changing the value of <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> changes the horizontal asymptote from <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> to <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>d</m:mi></m:mrow></m:math>. So function <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> has a horizontal asymptote of <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> has a horizontal asymptote of <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
-        </solution>
-      </exercise></section>
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-      <section id="sect-00002">
-        <title>Are you ready for more?</title>
-          <section class="numbered-exercises" id="sect-00003"><title>Extending Your Thinking</title>
-      
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1" id="exer-00008">
-        <problem id="prob-00008">
-          <para id="para-00022">As before, consider bank accounts whose balances are given by the following functions:</para>
-          <para id="para-00023"><m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>10</m:mn><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para><para id="para-00027"><m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math></para><para id="para-00028"><m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:math></para><para id="para-00024">Which function would you choose? Does your choice depend on <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>?</para>
-          
-        </problem>
-        <solution id="sol-00008">
-          <para id="para-00025">Compare your answer:</para>
-          <para id="para-00026">We can rewrite each of the functions as multiples of <m:math display="inline"><m:mrow><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> to more easily compare them:</para>
-          <para id="para-00029"><m:math><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>10</m:mn><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para><para id="para-00042"><m:math><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mn>9</m:mn><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para><para id="para-00043"><m:math><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mn>3</m:mn><m:mi>x</m:mi><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mn>3</m:mn></m:msup><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>27</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>13.5</m:mn><m:mo stretchy="false">)</m:mo><m:mi>·</m:mi><m:msup><m:mn>3</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para><para id="para-00030">Since <m:math display="inline"><m:mrow><m:mn>9</m:mn><m:mo>&lt;</m:mo><m:mn>10</m:mn><m:mo>&lt;</m:mo><m:mn>13.5</m:mn></m:mrow></m:math>, we see that <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> has the most money for any value of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>.</para>
+          <para id="para-00021">Changing the value of <m:math display="inline">
+              <m:mrow>
+                <m:mi>d</m:mi>
+              </m:mrow>
+            </m:math> changes the horizontal
+            asymptote from <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math> to <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mi>d</m:mi>
+              </m:mrow>
+            </m:math>. So function <m:math display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> has a
+            horizontal asymptote of <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>, and <m:math display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> has a
+            horizontal asymptote of <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
-      <!--End interaction-->
     </section>
-  </section>
+    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+    will need to change the Data-fire/data-wait-for-events for each set.-->
+
+    <section id="sect-00002">
+      <title>Are you ready for more?</title>
+      <section class="numbered-exercises" id="sect-00003">
+        <title>Extending Your Thinking</title>
+
+        <!--Start
+        interaction.  If multiple interactions appear under "are you ready for more?, they should all
+        have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+        button. Note in this sample, they are all RFM1-->
+        <exercise class="RFM1" id="exer-00008">
+          <problem id="prob-00008">
+            <para id="para-00022">As before, consider bank accounts whose balances are given by the
+              following functions:</para>
+            <para id="para-00023"><m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mn>10</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00027"><m:math display="inline">
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00028"><m:math display="inline">
+                <m:mrow>
+                  <m:mi>h</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mi>·</m:mi>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00024">Which function would you choose? Does your choice depend on <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>?</para>
+
+          </problem>
+          <solution id="sol-00008">
+            <para id="para-00025">Compare your answer:</para>
+            <para id="para-00026">We can rewrite each of the functions as multiples of <m:math display="inline">
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:math>
+              to more easily compare them:</para>
+            <para id="para-00029"><m:math>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mn>10</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00042"><m:math>
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:msup>
+                  <m:mi>·</m:mi>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>=</m:mo>
+                  <m:mn>9</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00043"><m:math>
+                <m:mrow>
+                  <m:mi>h</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mi>·</m:mi>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mi>·</m:mi>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mi>·</m:mi>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>27</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mi>·</m:mi>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:msup>
+                  <m:mo>=</m:mo>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>13.5</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>·</m:mi>
+                  <m:msup>
+                    <m:mn>3</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:msup>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00030">Since <m:math display="inline">
+                <m:mrow>
+                  <m:mn>9</m:mn>
+                  <m:mo>&lt;</m:mo>
+                  <m:mn>10</m:mn>
+                  <m:mo>&lt;</m:mo>
+                  <m:mn>13.5</m:mn>
+                </m:mrow>
+              </m:math>, we see that <m:math display="inline">
+                <m:mrow>
+                  <m:mi>h</m:mi>
+                </m:mrow>
+              </m:math> has the most money
+              for any value of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>.</para>
+          </solution>
+        </exercise>
+        <!--End
+        interaction-->
+      </section>
+    </section>
     <section id="sect-00004">
       <title>Video: Exponential Equations and How They Affect the Graphs</title>
-      <para id="para-00031">Watch the following video to learn more about exponential functions and how they affect the graphs:</para>
+      <para id="para-00031">Watch the following video to learn more about exponential functions and
+        how they affect the graphs:</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/c418a58864a702dfb9a80d1ba26aeeb7ce0b4724"/>
       </media>
@@ -157,57 +716,317 @@
     <note class="self-check" id="note-00002">
       <exercise id="exer-00010">
         <problem id="prob-00010">
-        <para id="para-00032"><link class="os-embed" url="#exercise/Alg1_5_12_2_SC"/></para>
+          <para id="para-00032"><link class="os-embed" url="#exercise/Alg1_5_12_2_SC"/></para>
         </problem>
-        </exercise>
-        </note>
+      </exercise>
+    </note>
 
-        <section id="sect-00005">
-          <title>Additional Resources</title>
-          
-    <section id="sect-00006">
-      <title>Vertical Shifts with Exponential Functions</title>
-      <para id="para-00033">The first transformation occurs when we add a constant <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> to the parent function <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>b</m:mi><m:mi>x</m:mi></m:msup></m:mrow></m:math>, giving us a vertical shift <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> units in the same direction as the sign. For example, if we begin by graphing a parent function, <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>, we can then graph two vertical shifts alongside it, using <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>: the upward shift, <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>, and the downward shift, <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math>. Both vertical shifts are shown in the graph below.</para>
-      <para id="para-00034">
+    <section id="sect-00005">
+      <title>Additional Resources</title>
+
+      <section id="sect-00006">
+        <title>Vertical Shifts with Exponential Functions</title>
+        <para id="para-00033">The first transformation occurs when we add a constant <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math> to the parent function <m:math display="inline">
+            <m:mrow>
+              <m:mi>f</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>,
+          giving us a vertical shift <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math> units in the same direction as
+          the sign. For example, if we begin by graphing a parent function, <m:math display="inline">
+            <m:mrow>
+              <m:mi>f</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>, we
+          can then graph two vertical shifts alongside it, using <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>: the upward shift, <m:math display="inline">
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>, and the downward shift, <m:math display="inline">
+            <m:mrow>
+              <m:mi>h</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>. Both vertical shifts are shown
+          in the graph below.</para>
+        <para id="para-00034">
           <media alt="Graph of three exponential growth functions. f of x has a y-intercept of 1 and a horizontal asymptote of y equals 0. g of x has a y-intercept of 4 and a horizontal asymptote of y equals 3. h of x has a y-intercept of negative 2 and a horizontal asymptote of y equals negative 3.">
             <image mime-type="image/jpeg" src="../../media/Algebra-1_05_14_05_01.jpg" width="300"/>
           </media>
-        
-    </para>
-      <para id="para-00035">Observe the results of shifting <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math> vertically:</para>
-      <list id="list-00011">
-        <item>The domain, <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mo>∞</m:mo><m:mo>,</m:mo><m:mo>∞</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, remains unchanged.</item>
-        <item>When the function is shifted up 3 units to <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>:   <list id="list-00012">
-          <item>The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept shifts up 3 units to <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
-          <item>The asymptote shifts up 3 units to <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</item>
-          <item>The range becomes <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>∞</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
-        </list></item>
-     
-        <item>When the function is shifted down 3 units to <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math>:    <list id="list-00013">
-          <item>The <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept shifts down 3 units to <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
-          <item>The asymptote also shifts down 3 units to <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:math>.</item>
-          <item>The range becomes <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>∞</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
-        </list></item>
-    
-      </list>
-      <note class="try" id="note-00003">
-  <title>Try It: Vertical Shifts with Exponential Functions</title>
+
+        </para>
+        <para id="para-00035">Observe the results of shifting <m:math display="inline">
+            <m:mrow>
+              <m:mi>f</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+          vertically:</para>
+        <list id="list-00011">
+          <item>The domain, <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mo>−</m:mo>
+                <m:mo>∞</m:mo>
+                <m:mo>,</m:mo>
+                <m:mo>∞</m:mo>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>, remains
+            unchanged.</item>
+          <item>When the function is shifted up 3 units to <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:msup>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>: <list id="list-00012">
+              <item>The <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math>-intercept
+            shifts up 3 units to <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+            .</item>
+              <item>The asymptote shifts up 3 units to <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:math>.</item>
+              <item>The range becomes <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mo>∞</m:mo>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+            .</item>
+            </list></item>
+
+          <item>When the function is shifted down 3 units to <m:math display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:msup>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                </m:msup>
+                <m:mo>−</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>: <list id="list-00013">
+              <item>The <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math>-intercept
+            shifts down 3 units to <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+            .</item>
+              <item>The asymptote also shifts down 3 units to <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:math>.</item>
+              <item>The range becomes <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mo>∞</m:mo>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+            .</item>
+            </list></item>
+
+        </list>
+        <note class="try" id="note-00003">
+          <title>Try It: Vertical Shifts with Exponential Functions</title>
       
         <exercise id="exer-00009">
-          <problem id="prob-00009">
-            <para id="para-00036">Where would the horizontal asymptote be located for the graph of <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math>?</para>
-            <para id="para-00037">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00009">
-            <para id="para-00038">Compare your answer:</para>
-            <para id="para-00039">Here is how to find the equation of the horizontal asymptote:</para>
-            <para id="para-00040">In the function <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math>, the vertical shift is represented by –6.</para>
-            <para id="para-00041">The parent function, <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math>, has a horizontal asymptote at <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. For the function <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>x</m:mi></m:msup><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math>, the horizontal asymptote will be shifted down 6 to <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math>.</para>
-          </solution>
-        </exercise>
-      </note>
+            <problem id="prob-00009">
+              <para id="para-00036">Where would the horizontal asymptote be located for the graph of <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:msup>
+                    <m:mo>−</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>?</para>
+              <para id="para-00037">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work.</para>
+            </problem>
+            <solution id="sol-00009">
+              <para id="para-00038">Compare your answer:</para>
+              <para id="para-00039">Here is how to find the equation of the horizontal asymptote:</para>
+              <para id="para-00040">In the function <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:msup>
+                    <m:mo>−</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>, the vertical
+          shift is represented by –6.</para>
+              <para id="para-00041">The parent function, <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>,
+          has a horizontal asymptote at <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>. For the
+          function <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>·</m:mi>
+                    <m:msup>
+                      <m:mn>2</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:msup>
+                    <m:mo>−</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>, the
+          horizontal asymptote will be shifted down 6 to <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
     </section>
-        </section>
-         
+
   </content>
 </document>
