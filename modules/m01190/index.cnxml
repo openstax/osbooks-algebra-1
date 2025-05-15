@@ -6,16 +6,14 @@
     <md:uuid>09473a2f-c05b-45d9-bb74-3ee7b5a65201</md:uuid>
   </metadata>
   <content>
-  <section class="numbered-exercises" id="sect-00001"><title>Activity</title>
-<list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-  <item>Clare takes a piece of paper with length 8 inches and width 10 inches and cuts it in half. Then she cuts it in half again, and again . . .</item>
-</list>
+  <section id="sect-00001"><title>Activity</title>
+<para>1. Clare takes a piece of paper with length 8 inches and width 10 inches and cuts it in half. Then she cuts it in half again, and again . . .</para>
 
       <!--Text
       Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00001">Instead of writing a recursive definition, Clare writes <m:math display="inline">
+          <para id="para-00001">a. Instead of writing a recursive definition, Clare writes <m:math display="inline">
               <m:mrow>
                 <m:mi>C</m:mi>
                 <m:mo stretchy="false">(</m:mo>
@@ -124,7 +122,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00004">Approximately what is the area of the paper after 10 cuts? </para>
+          <para id="para-00004">b. Approximately what is the area of the paper after 10 cuts? </para>
         </problem>
         <solution id="sol-00002">
 
@@ -150,18 +148,15 @@
       <!--Interaction
       End -->
 
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-        <item>Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1
-          inch of the width. Then he does it again, and again . . . </item>
-      </list>
+      <para>2. Kiran takes a piece of paper with length 8 inches and width 10 inches and cuts away 1
+          inch of the width. Then he does it again, and again . . . </para>
 
 
       <!--Text
       Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
-            <item>Complete the table for the area of Kiran’s paper <m:math display="inline">
+          <para>a. Complete the table for the area of Kiran’s paper <m:math display="inline">
                 <m:mrow>
                   <m:mi>K</m:mi>
                   <m:mo stretchy="false">(</m:mo>
@@ -173,9 +168,7 @@
                 <m:mrow>
                   <m:mi>n</m:mi>
                 </m:mrow>
-              </m:math> cuts. </item>
-
-          </list>
+              </m:math> cuts. </para>
           <table class="unnumbered os-raise-midsizetable" id="table-00001">
 
             <tgroup cols="2">
@@ -325,7 +318,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00017">Kiran says the area after 6 cuts, in square inches, is <m:math display="inline">
+          <para id="para-00017">b. Kiran says the area after 6 cuts, in square inches, is <m:math display="inline">
               <m:mrow>
                 <m:mn>80</m:mn>
                 <m:mi>−</m:mi>
@@ -363,7 +356,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00020">Write a definition for <m:math display="inline">
+          <para id="para-00020">c. Write a definition for <m:math display="inline">
               <m:mrow>
                 <m:mi>K</m:mi>
                 <m:mo stretchy="false">(</m:mo>
@@ -410,8 +403,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00006">
-          <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
-            <item>Which is larger, <m:math display="inline">
+          <para>3. Which is larger, <m:math display="inline">
                 <m:mrow>
                   <m:mi>K</m:mi>
                   <m:mo stretchy="false">(</m:mo>
@@ -425,8 +417,7 @@
                   <m:mn>6</m:mn>
                   <m:mo stretchy="false">)</m:mo>
                 </m:mrow>
-              </m:math>?</item>
-          </list>
+              </m:math>?</para>
         </problem>
         <solution id="sol-00006">
 
@@ -453,8 +444,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00007">
         <problem id="prob-00007">
-          <list class="os-raise-noindent" list-type="enumerated" id="list-00005">
-            <item>Is <m:math display="inline">
+          <para>4. Is <m:math display="inline">
                 <m:mrow>
                   <m:mi>K</m:mi>
                   <m:mo stretchy="false">(</m:mo>
@@ -462,8 +452,7 @@
                   <m:mo stretchy="false">)</m:mo>
                 </m:mrow>
               </m:math>
-              arithmetic or geometric?</item>
-          </list>
+              arithmetic or geometric?</para>
         </problem>
         <solution id="sol-00007">
 
@@ -489,8 +478,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00008">
         <problem id="prob-00008">
-          <list class="os-raise-noindent" list-type="enumerated" id="list-00006">
-            <item>Is <m:math display="inline">
+          <para>5. Is <m:math display="inline">
                 <m:mrow>
                   <m:mi>C</m:mi>
                   <m:mo stretchy="false">(</m:mo>
@@ -498,8 +486,7 @@
                   <m:mo stretchy="false">)</m:mo>
                 </m:mrow>
               </m:math>
-              arithmetic or geometric?</item>
-          </list>
+              arithmetic or geometric?</para>
         </problem>
         <solution id="sol-00008">
 
@@ -561,7 +548,7 @@
               </m:msub>
             </m:mrow>
           </m:math> =
-        first term where <m:math display="inline">
+        first term</para><para>where <m:math display="inline">
             <m:mrow>
               <m:msub>
                 <m:mi>a</m:mi>
@@ -933,7 +920,7 @@
 
               <para id="para-00057">Here is how to find the 27th term of the sequence:</para>
 
-              <para id="para-00058"><emphasis>Step 1</emphasis> - Write the general formula. <m:math display="inline">
+              <para id="para-00058"><emphasis>Step 1</emphasis> - Write the general formula.</para><para><m:math display="inline">
                   <m:mrow>
                     <m:msub>
                       <m:mi>a</m:mi>
@@ -955,7 +942,7 @@
                 </m:math></para>
 
               <para id="para-00059"><emphasis>Step 2</emphasis> - Substitute values for the first
-          term, common difference/ratio, term number. <m:math display="inline">
+          term, common difference/ratio, term number.</para><para><m:math display="inline">
                   <m:mrow>
                     <m:msub>
                       <m:mi>a</m:mi>
@@ -970,7 +957,7 @@
                     <m:mo>=</m:mo>
                     <m:mn>9</m:mn>
                   </m:mrow>
-                </m:math>
+                </m:math></para><para>
     <m:math display="inline">
                   <m:mrow>
                     <m:msub>

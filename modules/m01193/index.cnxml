@@ -6,60 +6,170 @@
     <md:uuid>a8fc5639-c598-4459-97b0-b97d202b8457</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <!--Text Entry Interaction Start -->
-      <para id="para-00001">In 2015, the number of wildcats in a national park was 284. It was estimated that the wildcat population increased by 4% each year.</para>
+    <section id="sect-00001">
+      <title>Activity</title>
+      <!--Text
+      Entry Interaction Start -->
+      <para id="para-00001">In 2015, the number of wildcats in a national park was 284. It was
+        estimated that the wildcat population increased by 4% each year.</para>
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00002">Instead of writing a recursive definition, a researcher for the park writes <m:math display="inline"><m:mrow><m:msub><m:mi>W</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>284</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1.04</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mi>n</m:mi></m:msup></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>W</m:mi></m:mrow></m:math> is the projected wildcat population <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> years after 2015. Explain where the different factors in her expression came from.</para>
+          <para id="para-00002">1. Instead of writing a recursive definition, a researcher for the park
+            writes <m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>W</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>284</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>1.04</m:mn>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>n</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math>,
+            where <m:math display="inline">
+              <m:mrow>
+                <m:mi>W</m:mi>
+              </m:mrow>
+            </m:math> is the projected wildcat
+            population <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math> years after 2015. Explain
+            where the different factors in her expression came from.</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00004">Compare your answer: </para>
-          <para id="para-00005">Your answer may vary, but here are some samples. 
-    </para>
+          <para id="para-00005">Your answer may vary, but here are some samples. </para>
           <list id="list-00001">
             <item>The 284 is the starting population of the wildcats in 2015.</item>
             <item>The 1.04 represents that the population grows 4% or 0.04 each year.</item>
             <item>The 1.04 comes from 100% of the population + 4% growth = 104% or 1.04.</item>
-            <item>
-          The <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> represents the number of years since 2015. 
-          So, in 2016, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> and in 2017, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.
-       </item>
+            <item> The <m:math display="inline">
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                </m:mrow>
+              </m:math> represents the
+              number of years since 2015. So, in 2016, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:math> and in 2017, <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:math>. </item>
           </list>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <para id="para-00006">Work with a partner to discuss and create a table of values to estimate the projected wildcat population over the next 7 years.</para>
-      
-        <exercise id="exer-00002">
-          <problem id="prob-00002">
-            <para id="para-00007"> Complete the table when <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> on your paper and check your answers.</para>
-            <table class="unnumbered os-raise-wideequaltable" id="table-00001">
-              <tgroup cols="3"><tbody><row>
+      <!--Interaction
+      End -->
+      <para id="para-00006">Work with a partner to discuss and create a table of values to estimate
+        the projected wildcat population over the next 7 years.</para>
+
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00007">2. Complete the table when <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math> on your paper and check
+            your answers.</para>
+          <table class="unnumbered os-raise-wideequaltable" id="table-00001">
+            <tgroup cols="3">
+              <tbody>
+                <row>
                   <entry>
-                   <emphasis>Year</emphasis>
+                    <emphasis>Year</emphasis>
                   </entry>
                   <entry>
-                   <emphasis><m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math></emphasis>
+                    <emphasis><m:math>
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                        </m:mrow>
+                      </m:math></emphasis>
                   </entry>
                   <entry>
-                   <emphasis>Wildcat Population</emphasis>
+                    <emphasis>Wildcat Population</emphasis>
                   </entry>
                 </row>
-              <row>
+                <row>
                   <entry>2015</entry>
                   <entry>0</entry>
-                  <entry><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>284</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1.04</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>0</m:mn></m:msup><m:mo>=</m:mo><m:mn>284</m:mn></m:mrow></m:math></entry>
+                  <entry><m:math>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>W</m:mi>
+                          <m:mi>n</m:mi>
+                        </m:msub>
+                        <m:mo>=</m:mo>
+                        <m:mn>284</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>1.04</m:mn>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:msup>
+                        <m:mo>=</m:mo>
+                        <m:mn>284</m:mn>
+                      </m:mrow>
+                    </m:math></entry>
                 </row>
                 <row>
                   <entry>2016</entry>
                   <entry>1</entry>
-                  <entry><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>284</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1.04</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mn>295</m:mn></m:mrow></m:math></entry>
+                  <entry><m:math>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>W</m:mi>
+                          <m:mi>n</m:mi>
+                        </m:msub>
+                        <m:mo>=</m:mo>
+                        <m:mn>284</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>1.04</m:mn>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:msup>
+                        <m:mo>=</m:mo>
+                        <m:mn>295</m:mn>
+                      </m:mrow>
+                    </m:math></entry>
                 </row>
                 <row>
                   <entry>2017</entry>
                   <entry>2</entry>
-                  <entry><m:math><m:mrow><m:msub><m:mi>W</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>284</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1.04</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo></m:mrow></m:math></entry>
+                  <entry><m:math>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>W</m:mi>
+                          <m:mi>n</m:mi>
+                        </m:msub>
+                        <m:mo>=</m:mo>
+                        <m:mn>284</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>1.04</m:mn>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>=</m:mo>
+                      </m:mrow>
+                    </m:math></entry>
                 </row>
                 <row>
                   <entry>2018</entry>
@@ -86,24 +196,33 @@
                   <entry>7</entry>
                   <entry> </entry>
                 </row>
-              </tbody></tgroup></table>
-            <para id="para-00008">When you have completed the table, then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00002">
-            <para id="para-00009">Compare your answer: </para>
-            <table class="unnumbered os-raise-wideequaltable" id="table-00002">
-              <tgroup cols="3"><tbody><row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="para-00008">When you have completed the table, then select the <emphasis>
+            solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00009">Compare your answer: </para>
+          <table class="unnumbered os-raise-wideequaltable" id="table-00002">
+            <tgroup cols="3">
+              <tbody>
+                <row>
                   <entry>
-                   <emphasis>Year</emphasis>
+                    <emphasis>Year</emphasis>
                   </entry>
                   <entry>
-                   <emphasis><m:math><m:mrow><m:mi>n</m:mi></m:mrow></m:math></emphasis>
+                    <emphasis><m:math>
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                        </m:mrow>
+                      </m:math></emphasis>
                   </entry>
                   <entry>
-                   <emphasis>Wildcat Population</emphasis>
+                    <emphasis>Wildcat Population</emphasis>
                   </entry>
                 </row>
-              <row>
+                <row>
                   <entry>2015</entry>
                   <entry>0</entry>
                   <entry>284</entry>
@@ -143,142 +262,672 @@
                   <entry>7</entry>
                   <entry>374</entry>
                 </row>
-              </tbody></tgroup></table>
-          </solution>
-        </exercise>
-      
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-        <item>Use the graphing tool or technology outside the course. Graph the data that represents the population projections for this scenario.</item>
-      </list>
-      <media alt="insert alt text"><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
-        <exercise id="exer-00003">
-          <problem id="prob-00003">
-            <para id="para-00010">When you have finished graphing, select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00003">
-            <para id="para-00011">Compare your answers:</para>
-            
-              <media alt="A scatter plot with blue circles showing a positive linear trend. The x-axis ranges from negative 2 to 8, and the y-axis ranges from negative 100 to 550. Data points increase gradually from left to right. Data points are from the provided table.">
-                <image mime-type="image/png" src="../../media/Algebra-1_04_21_07_01.png"/>
-              </media>
-            
-          </solution>
-        </exercise>
-      
+              </tbody>
+            </tgroup>
+          </table>
+        </solution>
+      </exercise>
+
+      <para>3. Use the graphing tool or technology outside the course. Graph the data that represents
+          the population projections for this scenario.</para>
+      <media alt="insert alt text">
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500"
+          height="400" />
+      </media>
+      <exercise id="exer-00003">
+        <problem id="prob-00003">
+          <para id="para-00010">When you have finished graphing, select the <emphasis>solution</emphasis>
+            button to compare your work.</para>
+        </problem>
+        <solution id="sol-00003">
+          <para id="para-00011">Compare your answers:</para>
+
+          <media
+            alt="A scatter plot with blue circles showing a positive linear trend. The x-axis ranges from negative 2 to 8, and the y-axis ranges from negative 100 to 550. Data points increase gradually from left to right. Data points are from the provided table.">
+            <image mime-type="image/png" src="../../media/Algebra-1_04_21_07_01.png" width="400" />
+          </media>
+
+        </solution>
+      </exercise>
+
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00012">Calculate and enter the year when the wildcat population will exceed 500 members.</para>
+          <para id="para-00012">4. Calculate and enter the year when the wildcat population will exceed
+            500 members.</para>
         </problem>
         <solution id="sol-00004">
           <para id="para-00013">Enter your prediction here:</para>
           <para id="para-00014">Compare your answer: </para>
-          <para id="para-00015">The wildcat population is expected to exceed 500 members in 2030 when they are projected to have 511 wildcats.</para>
+          <para id="para-00015">The wildcat population is expected to exceed 500 members in 2030
+            when they are projected to have 511 wildcats.</para>
         </solution>
       </exercise>
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00016">Is the data that represents this scenario an arithmetic or geometric sequence? Explain your reasoning.</para>
+          <para id="para-00016">5. Is the data that represents this scenario an arithmetic or geometric
+            sequence? Explain your reasoning.</para>
         </problem>
         <solution id="sol-00005">
           <para id="para-00018">Compare your answer: </para>
-          <para id="para-00019">Your answer may vary, but here are some samples: 
-      
-    </para>
+          <para id="para-00019">Your answer may vary, but here are some samples: </para>
           <list id="list-00003">
-            <item>This data represents a geometric sequence because the equation has a common ratio of 1.04.</item>
-            <item>This data represents a geometric sequence because the ratio between consecutive terms in the table is 1.04.</item>
-            <item>This data represents a geometric sequence because the graph does not depict a line, it is curved a little and does not have a constant slope.</item>
+            <item>This data represents a geometric sequence because the equation has a common ratio
+              of 1.04.</item>
+            <item>This data represents a geometric sequence because the ratio between consecutive
+              terms in the table is 1.04.</item>
+            <item>This data represents a geometric sequence because the graph does not depict a
+              line, it is curved a little and does not have a constant slope.</item>
           </list>
         </solution>
       </exercise>
-      <para id="para-00020">Remember that a recursive formula defines terms using one or more of the previous terms. If you need to calculate the <m:math display="inline"><m:mrow><m:msup><m:mn>100</m:mn><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:mrow></m:math> term or the <m:math display="inline"><m:mrow><m:msup><m:mn>500</m:mn><m:mrow><m:mi>t</m:mi><m:mi>h</m:mi></m:mrow></m:msup></m:mrow></m:math> term in a sequence, the recursive formula becomes difficult to use if you do not know the values of the terms near <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>100</m:mn></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>500</m:mn></m:mrow></m:math>.</para>
-      <para id="para-00021">Different definitions can often create the same sequence but are more generalizable. These are called general rules or explicit rules. These formulas can be used to find any term in the sequence and may also be referred to as the rule to find the nth term.</para>
+      <para id="para-00020">Remember that a recursive formula defines terms using one or more of the
+        previous terms. If you need to calculate the <m:math display="inline">
+          <m:mrow>
+            <m:msup>
+              <m:mn>100</m:mn>
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mi>h</m:mi>
+              </m:mrow>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+        term or the <m:math display="inline">
+          <m:mrow>
+            <m:msup>
+              <m:mn>500</m:mn>
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mi>h</m:mi>
+              </m:mrow>
+            </m:msup>
+          </m:mrow>
+        </m:math>
+        term in a sequence, the recursive formula becomes difficult to use if you do not know the
+        values of the terms near <m:math display="inline">
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>100</m:mn>
+          </m:mrow>
+        </m:math> or <m:math display="inline">
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>=</m:mo>
+            <m:mn>500</m:mn>
+          </m:mrow>
+        </m:math>.</para>
+      <para id="para-00021">Different definitions can often create the same sequence but are more
+        generalizable. These are called general rules or explicit rules. These formulas can be used
+        to find any term in the sequence and may also be referred to as the rule to find the nth
+        term.</para>
       <note id="note-00001">
         <title>Geometric Sequence Formulas</title>
         <para id="para-00022"><emphasis>Recursive Formula</emphasis></para>
-        <para id="para-00023"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msub><m:mi>·</m:mi><m:mi>r</m:mi></m:mrow></m:math>,</para> 
-     <para id="para-00003">Where <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is the term you want, and <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> is the common ratio.</para>
-     <para id="para-00024"><emphasis>Explicit General Formula</emphasis></para>
-        <para id="para-00025"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:mi>r</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
-    <para id="para-00017">Where <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> is the first term, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is the term you want, and <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> is the common ratio.</para>
+        <para
+          id="para-00023"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mi>·</m:mi>
+              <m:mi>r</m:mi>
+            </m:mrow>
+          </m:math>,</para> 
+     <para id="para-00003">
+        Where <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:math> is the
+        first term, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+            </m:mrow>
+          </m:math> is the term you want, and <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>r</m:mi>
+            </m:mrow>
+          </m:math> is the common ratio.</para>
+     <para
+          id="para-00024"><emphasis>Explicit General Formula</emphasis></para>
+        <para id="para-00025"><m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>r</m:mi>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+    <para
+          id="para-00017">Where <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:math> is the
+        first term, <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+            </m:mrow>
+          </m:math> is the term you want, and <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>r</m:mi>
+            </m:mrow>
+          </m:math> is the common ratio.</para>
       </note>
     </section>
     <note class="self-check" id="note-00002">
       <exercise id="exer-00007">
         <problem id="prob-00007">
-        <para id="para-00026"><link class="os-embed" url="#exercise/Alg1_4_18_4_SC"/></para>
+          <para id="para-00026"><link class="os-embed" url="#exercise/Alg1_4_18_4_SC" /></para>
         </problem>
-        </exercise>
+      </exercise>
     </note>
-      <section id="sect-00002">
-        <title>Additional Resources</title>
-        
-  <section id="sect-00003"><title>The nth Term of a Geometric Sequence</title>
-    <note class="extra-support" id="note-00003">
-    <title>The nth Term of a Geometric Sequence</title><para id="para-00027"><!--Extra Support Name-->General Term (nth Term) of a Geometric Sequence</para>
-    <!--Support Content--><para id="para-00028">The general term of a geometric sequence with first term <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math> and the common ratio <m:math display="inline"><m:mrow><m:mi>r</m:mi></m:mrow></m:math> is: <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>.</para>
-    </note>
-  
-    <para id="para-00029"><emphasis>Example 1</emphasis></para>
-  <para id="para-00030">Write the explicit formula for the sequence given by the terms 3, 2, 43, 89 ...</para>
-  <para id="para-00031"><emphasis>Solution </emphasis></para>
-  <para id="para-00032"><emphasis>Step 1</emphasis>- Write the general formula.</para>
-  <para id="para-00050"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-  
-  <para id="para-00033"><emphasis>Step 2</emphasis> - Substitute values for the first term, common difference/ratio, term number.</para>
-  <para id="para-00051"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math></para>
-  <para id="para-00052"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
-  <para id="para-00034">So, the explicit formula for the sequence 3, 2, 43, 89 ... is <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>3</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>.</para>
-  <para id="para-00035">Just like it is with arithmetic sequences, the explicit formula makes finding any term easier to determine - especially term numbers that are very large!</para>
-  
-  <para id="para-00049"><emphasis id="para-00036">Example 2</emphasis></para>
-  
-  <para id="para-00037">Find the 14th term of a sequence where the first term is 64 and the common ratio, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>.</para>
-  <para id="para-00038"><emphasis>Solution </emphasis></para>
-  <para id="para-00039"><emphasis>Step 1</emphasis> - Write the general formula.</para>
-  <para id="para-00053"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-  <para id="para-00040"><emphasis>Step 2</emphasis> - Substitute values for the first term, common difference/ratio, term number.</para>
-  <para id="para-00054"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mn>64</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math></para>
-  <para id="para-00055"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>14</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
-  
-  <para id="para-00041"><emphasis>Step 3</emphasis> - Simplify the expression.</para>
-  <para id="para-00056"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
-  <para id="para-00057"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>13</m:mn></m:mrow></m:msup></m:mrow></m:math></para>
-  <para id="para-00058"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>8192</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-  <para id="para-00059"><m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>14</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>128</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
-   <para id="para-00042">If the explicit formula for this question was needed, we would not have substituted <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>14</m:mn></m:mrow></m:math> and the nth term formula would have been <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>64</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>.</para>
-  
-  
-  <note class="try" id="note-00004">
-  <title>Try It: The nth Term of a Geometric Sequence</title>
+    <section id="sect-00002">
+      <title>Additional Resources</title>
+
+      <section id="sect-00003">
+        <title>The nth Term of a Geometric Sequence</title>
+        <note class="extra-support" id="note-00003">
+          <title>The nth Term of a Geometric Sequence</title><para id="para-00027"><!--Extra
+            Support Name-->General Term (nth
+          Term) of a Geometric Sequence</para>
+          <!--Support
+          Content--><para id="para-00028">The general term of a geometric
+          sequence with first term <m:math display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:math>
+          and the common ratio <m:math display="inline">
+              <m:mrow>
+                <m:mi>r</m:mi>
+              </m:mrow>
+            </m:math> is: <m:math
+              display="inline">
+              <m:mrow>
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mi>n</m:mi>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:msub>
+                  <m:mi>a</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mrow>
+                    <m:mi>n</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+          .</para>
+        </note>
+
+        <para id="para-00029"><emphasis>Example 1</emphasis></para>
+        <para id="para-00030">Write the explicit formula for the sequence given by the terms 3, 2,
+          43, 89 ...</para>
+        <para id="para-00031"><emphasis>Solution </emphasis></para>
+        <para id="para-00032"><emphasis>Step 1</emphasis>- Write the general formula.</para>
+        <para id="para-00050"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo stretchy="false">(</m:mo>
+              <m:msup>
+                <m:mi>r</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+
+        <para id="para-00033"><emphasis>Step 2</emphasis> - Substitute values for the first term,
+          common difference/ratio, term number.</para>
+        <para id="para-00051"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>r</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mn>2</m:mn>
+                <m:mn>3</m:mn>
+              </m:mfrac>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00052"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mn>2</m:mn>
+                <m:mn>3</m:mn>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00034">So, the explicit formula for the sequence 3, 2, 43, 89 ... is <m:math
+            display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>3</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mn>2</m:mn>
+                <m:mn>3</m:mn>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+          .</para>
+        <para id="para-00035">Just like it is with arithmetic sequences, the explicit formula makes
+          finding any term easier to determine - especially term numbers that are very large!</para>
+
+        <para id="para-00049"><emphasis id="para-00036">Example 2</emphasis></para>
+
+        <para id="para-00037">Find the 14th term of a sequence where the first term is 64 and the
+          common ratio, <m:math display="inline">
+            <m:mrow>
+              <m:mi>r</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00038"><emphasis>Solution </emphasis></para>
+        <para id="para-00039"><emphasis>Step 1</emphasis> - Write the general formula.</para>
+        <para id="para-00053"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo stretchy="false">(</m:mo>
+              <m:msup>
+                <m:mi>r</m:mi>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00040"><emphasis>Step 2</emphasis> - Substitute values for the first term,
+          common difference/ratio, term number.</para>
+        <para id="para-00054"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>64</m:mn>
+            </m:mrow>
+          </m:math>, <m:math display="inline">
+            <m:mrow>
+              <m:mi>r</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>, <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>14</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00055"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mn>14</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>64</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mrow>
+                  <m:mn>14</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+
+        <para id="para-00041"><emphasis>Step 3</emphasis> - Simplify the expression.</para>
+        <para id="para-00056"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mn>14</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>64</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mrow>
+                  <m:mn>13</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00057"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mn>14</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>64</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mrow>
+                  <m:mn>13</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00058"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mn>14</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>64</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>8192</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00059"><m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mrow>
+                  <m:mn>14</m:mn>
+                </m:mrow>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>128</m:mn>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00042">If the explicit formula for this question was needed, we would not
+          have substituted <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>14</m:mn>
+            </m:mrow>
+          </m:math> and the nth term formula would
+          have been <m:math display="inline">
+            <m:mrow>
+              <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>n</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>64</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mfrac>
+                <m:mn>1</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac>
+              <m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:math>
+          .</para>
+
+
+        <note class="try" id="note-00004">
+          <title>Try It: The nth Term of a Geometric Sequence</title>
   
   <exercise id="exer-00006">
-    <problem id="prob-00006">
-       
-        
-      <para id="para-00043">Find the formula for the nth term of a sequence where the first term is 81 and the common ratio  is <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>.</para>
-    
-    <para id="para-00044">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
-    </para>
-    
-    </problem><solution id="sol-00006"> 
-      <para id="para-00045">Compare your answer: </para>
-  
-  <para id="para-00046">Here is how to find the 11th term of the sequence:</para>
-  
-  <para id="para-00047"><emphasis>Step 1</emphasis> - Write the general formula.
-  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:msub><m:mi>a</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">(</m:mo><m:msup><m:mi>r</m:mi><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-  
-  <para id="para-00048"><emphasis>Step 2</emphasis> - Substitute values for the first term, common difference/ratio, term number. 
-  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mn>11</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>81</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:math>
-  <m:math display="inline"><m:mrow><m:msub><m:mi>a</m:mi><m:mi>n</m:mi></m:msub><m:mo>=</m:mo><m:mn>81</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>n</m:mi><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:msup></m:mrow></m:math>
- </para>
-    
-  
-    
-  </solution></exercise></note>
-  </section>
+            <problem id="prob-00006">
+
+
+              <para id="para-00043">Find the formula for the nth term of a sequence where the first
+          term is 81 and the common ratio is <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+          .</para>
+
+              <para id="para-00044">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work. </para>
+
+            </problem>
+            <solution id="sol-00006">
+              <para id="para-00045">Compare your answer: </para>
+
+              <para id="para-00046">Here is how to find the 11th term of the sequence:</para>
+
+              <para id="para-00047"><emphasis>Step 1</emphasis> - Write the general formula.</para><para><m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msup>
+                      <m:mi>r</m:mi>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math></para>
+
+              <para id="para-00048"><emphasis>Step 2</emphasis> - Substitute values for the first
+          term, common difference/ratio, term number.</para><para><m:math display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mrow>
+                        <m:mn>11</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:mn>81</m:mn>
+                  </m:mrow>
+                </m:math>, <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>r</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math></para><para>
+  <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+                      <m:mi>n</m:mi>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:mn>81</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+              </para>
+
+
+            </solution>
+          </exercise></note>
       </section>
-      
+    </section>
+
   </content>
 </document>
