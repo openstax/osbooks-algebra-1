@@ -6,606 +6,1573 @@
     <md:uuid>ff9c145f-d6eb-40d2-b0d9-db3d7c2413a5</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-                 <section id="sect-00002">
-            <title>Part 1: Use Long Division</title> 
+    <section id="sect-00001">
+      <title>Activity</title>
+      <section id="sect-00002">
+        <title>Part 1: Use Long Division</title>
         <exercise id="exer-00001">
           <problem id="prob-00001">
             <para id="para-00001">In this activity we’re going to use synthetic division to divide a polynomial by a binomial.</para>
 
             <para id="para-00002">You are going to solve a division problem using long division.</para>
-            <para id="para-00003">1. <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>42</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+            <para id="para-00003">1. <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>13</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>42</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>÷</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math></para>
             <para id="para-00004">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00001">
             <para id="para-00005">Compare your answer: </para>
-            <para id="para-00006">\[\begin{array}{l}x - 6\mathop{\left){\vphantom{1{{x^2} - 13x + 42}}}\right.
-    \!\!\!\!\overline{\,\,\,\vphantom 1{{{x^2} - 13x + 42}}}}
-    \limits^{\displaystyle\,\,\, {x\,\, - 7}}\\\,\,\,\,\,\,\,\,\underline { - ({x^2} - 6x)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 7x + 42\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ( - 7x + 42)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
+            <para id="para-00006">\[\begin{array}{l}x - 6\mathop{\left){\vphantom{1{{x^2} - 13x + 42}}}\right. \!\!\!\!\overline{\,\,\,\vphantom 1{{{x^2} - 13x + 42}}}} \limits^{\displaystyle\,\,\, {x\,\, - 7}}\\\,\,\,\,\,\,\,\,\underline { - ({x^2} - 6x)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 7x + 42\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ( - 7x + 42)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
           </solution>
         </exercise>
       </section>
       <section id="sect-00003">
-                  <title>Part 2: Use Synthetic Division</title>
-<exercise id="exer-00002">
+        <title>Part 2: Use Synthetic Division</title>
+        <exercise id="exer-00002">
           <problem id="prob-00002">
             <para id="para-00007">You are now going to solve the same division problem using synthetic division.</para>
-            <para id="para-00008">2. <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>42</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+            <para id="para-00008">2. <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>13</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>42</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>÷</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math></para>
             <para id="para-00009">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
           </problem>
           <solution id="sol-00002">
             <para id="para-00010">Compare your answer: </para>
-            <para id="para-00011"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>42</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00012"><emphasis>Step 1</emphasis> - Write the dividend with decreasing powers of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>. Make sure there is no degree missing from the highest degree down to a degree of <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math>.</para>
-            <para id="para-00013"><m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>13</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>42</m:mn></m:mrow></m:math></para><para id="para-00014"><emphasis>Step 2</emphasis> - Write the coefficients of the terms as the first row of the synthetic division.</para>
+            <para id="para-00011"><m:math>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>13</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>42</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>÷</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00012"><emphasis>Step 1</emphasis> - Write the dividend with decreasing powers of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>. Make sure there is no degree missing from the highest degree down to a degree of <m:math display="inline">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:math>.</para>
+            <para id="para-00013"><m:math>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>13</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>42</m:mn>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00014"><emphasis>Step 2</emphasis> - Write the coefficients of the terms as the first row of the synthetic division.</para>
             <para id="para-00015">
-                      <media alt="Setting up synthetic division with a blank divisor outside the division symbol and the coefficients of the dividend 1, -13, and 42 are spaced apart inside the division symbol.">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_01.jpg" width="200"/>
-                </media>
-              
-          </para>
-            <para id="para-00016"><emphasis>Step 3</emphasis> - Write the divisor as <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow></m:math> and place <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> in the synthetic division in the divisor box.</para>
+              <media alt="Setting up synthetic division with a blank divisor outside the division symbol and the coefficients of the dividend 1, -13, and 42 are spaced apart inside the division symbol.">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_01.jpg" width="200" />
+              </media>
+
+            </para>
+            <para id="para-00016"><emphasis>Step 3</emphasis> - Write the divisor as <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math> and place <m:math display="inline">
+                <m:mrow>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math> in the synthetic division in the divisor box.</para>
             <para id="para-00017">
-                      <media alt="Synthetic division setup showing the divisor 6 outside the division symbol and inside, the coefficients 1, -13, and 42 lined up horizontally.">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_02.jpg" width="200"/>
-                </media>
-              
-          </para>
+              <media alt="Synthetic division setup showing the divisor 6 outside the division symbol and inside, the coefficients 1, -13, and 42 lined up horizontally.">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_02.jpg" width="200" />
+              </media>
+
+            </para>
             <para id="para-00018"><emphasis>Step 4</emphasis> - Bring down the first coefficient to the third row.</para>
             <para id="para-00019">
-                      <media alt="A synthetic division setup: 6 outside the division symbol; inside are 1, -13, and 42 aligned above a horizontal line. A green  arrow points down from 1 to below the line, where another 1 is written.">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_03.jpg" width="200"/>
-                </media>
-              
-          </para>
+              <media alt="A synthetic division setup: 6 outside the division symbol; inside are 1, -13, and 42 aligned above a horizontal line. A green  arrow points down from 1 to below the line, where another 1 is written.">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_03.jpg" width="200" />
+              </media>
+
+            </para>
             <para id="para-00020"><emphasis>Step 5</emphasis> - Multiply that coefficient by the divisor and place the result in the second row under the second coefficient.</para>
             <para id="para-00021">
-                      <media alt="A synthetic division setup: 6 outside the division symbol; inside are 1, -13, and 42 aligned above a horizontal line. A green  arrow points down from 1 to below the line, where another 1 is written. A green arrow is drawn from the 1 below the line to the a 6 written under the -13 that represents 6 times 1.">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_04.jpg" width="200"/>
-                </media>
-              
-          </para>
+              <media alt="A synthetic division setup: 6 outside the division symbol; inside are 1, -13, and 42 aligned above a horizontal line. A green  arrow points down from 1 to below the line, where another 1 is written. A green arrow is drawn from the 1 below the line to the a 6 written under the -13 that represents 6 times 1.">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_04.jpg" width="200" />
+              </media>
+
+            </para>
             <para id="para-00022"><emphasis>Step 6</emphasis> - Add the second column, putting the result in the third row.</para>
             <para id="para-00023"><emphasis>Step 7</emphasis> - Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
             <para id="para-00024">
-                      <media alt="Synthetic division setup: 6 outside, coefficients 1, -13, 42 inside. Below, 1 and -7 are written. A green arrow points from -7 to -42 that represents 6 times negative 7.">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_05.jpg" width="200"/>
-                </media>
-              
-          </para>
+              <media alt="Synthetic division setup: 6 outside, coefficients 1, -13, 42 inside. Below, 1 and -7 are written. A green arrow points from -7 to -42 that represents 6 times negative 7.">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_05.jpg" width="200" />
+              </media>
+
+            </para>
             <para id="para-00025"><emphasis>Step 8</emphasis> - Add the final column, putting the result in the third row.</para>
             <para id="para-00026">
-                      <media alt="Synthetic division setup: 6 on the left; top row is 1, -13, 42; intermediate row is 6, -42; bottom row is 1, -7, 0, under a horizontal line. The zero is in the box.  It is the remainder">
-                  <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_06.jpg" width="200"/>
-                </media>
-              
-          </para>
-            <para id="para-00027"><emphasis>Step 9</emphasis> - The division is complete. The numbers in the third row give us the result. The <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>−</m:mi><m:mn>7</m:mn></m:mrow></m:math> in the third row are the coefficients of the quotient. The quotient is <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>7</m:mn></m:mrow></m:math>. The <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> in the box in the third row is the remainder.</para>
+              <media alt="Synthetic division setup: 6 on the left; top row is 1, -13, 42; intermediate row is 6, -42; bottom row is 1, -7, 0, under a horizontal line. The zero is in the box.  It is the remainder">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_06_06.jpg" width="200" />
+              </media>
+
+            </para>
+            <para id="para-00027"><emphasis>Step 9</emphasis> - The division is complete. The numbers in the third row give us the result. The <m:math display="inline">
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:math> <m:math display="inline">
+                <m:mrow>
+                  <m:mi>−</m:mi>
+                  <m:mn>7</m:mn>
+                </m:mrow>
+              </m:math> in the third row are the coefficients of the quotient. The quotient is <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>7</m:mn>
+                </m:mrow>
+              </m:math>. The <m:math display="inline">
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:math> in the box in the third row is the remainder.</para>
           </solution>
         </exercise>
-      
-      <note id="note-00001">
-        <para id="para-00028">Work with a partner to find each quotient. Discuss any differences you have in determining the correct solution.</para>
-      </note>
-      <!--Text Entry Interaction Start -->
-      <exercise id="exer-00003">
-        <problem id="prob-00003">
-          <para id="para-00029"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></problem>
-        <solution id="sol-00003">
-          <para id="para-00030">Compare your answer: </para>
-          <para id="para-00031"><m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math>; remainder of 1</para>
-        </solution>
-      </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
-      <exercise id="exer-00004">
-        <problem id="prob-00004">
-          <para id="para-00032"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>16</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>12</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></problem>
-        <solution id="sol-00004">
-          <para id="para-00033">Compare your answer: </para>
-          <para id="para-00034"><m:math display="inline"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>; remainder of 4</para>
-        </solution>
-      </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
-      <exercise id="exer-00005">
-        <problem id="prob-00005">
-          <para id="para-00035"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>9</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></problem>
-        <solution id="sol-00005">
-          <para id="para-00036">Compare your answer: </para>
-          <para id="para-00037"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>; remainder of 0</para>
-        </solution>
-      </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
-      <exercise id="exer-00006">
-        <problem id="prob-00006">
-          <para id="para-00038"><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>11</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mi>÷</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></problem>
-        <solution id="sol-00006">
-          <para id="para-00039">Compare your answer: </para>
-          <para id="para-00040"><m:math display="inline"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math>; remainder of 0</para>
-        </solution>
-      </exercise>
-      <!--Interaction End -->
+
+        <note id="note-00001">
+          <para id="para-00028">Work with a partner to find each quotient. Discuss any differences you have in determining the correct solution.</para>
+        </note>
+        <!--Text Entry Interaction Start -->
+        <exercise id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00029">3. <m:math>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>÷</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math></para>
+          </problem>
+          <solution id="sol-00003">
+            <para id="para-00030">Compare your answer: </para>
+            <para id="para-00031"><m:math display="inline">
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:math>; remainder of 1</para>
+          </solution>
+        </exercise>
+        <!--Interaction End -->
+        <!--Text Entry Interaction Start -->
+        <exercise id="exer-00004">
+          <problem id="prob-00004">
+            <para id="para-00032">4. <m:math>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>11</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>16</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>12</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>÷</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math></para>
+          </problem>
+          <solution id="sol-00004">
+            <para id="para-00033">Compare your answer: </para>
+            <para id="para-00034"><m:math display="inline">
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:math>; remainder of 4</para>
+          </solution>
+        </exercise>
+        <!--Interaction End -->
+        <!--Text Entry Interaction Start -->
+        <exercise id="exer-00005">
+          <problem id="prob-00005">
+            <para id="para-00035">5. <m:math>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>4</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>9</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>÷</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math></para>
+          </problem>
+          <solution id="sol-00005">
+            <para id="para-00036">Compare your answer: </para>
+            <para id="para-00037"><m:math display="inline">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:math>; remainder of 0</para>
+          </solution>
+        </exercise>
+        <!--Interaction End -->
+        <!--Text Entry Interaction Start -->
+        <exercise id="exer-00006">
+          <problem id="prob-00006">
+            <para id="para-00038">6. <m:math>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>4</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>11</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>10</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>÷</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math></para>
+          </problem>
+          <solution id="sol-00006">
+            <para id="para-00039">Compare your answer: </para>
+            <para id="para-00040"><m:math display="inline">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:math>; remainder of 0</para>
+          </solution>
+        </exercise>
+        <!--Interaction End -->
+      </section>
     </section>
-  </section>
     <note class="self-check" id="note-00002">
       <exercise id="exer-00008">
         <problem id="prob-00008">
-        <para id="para-00041"><link class="os-embed" url="#exercise/Alg1_6_3_3_SC"/></para>
+          <para id="para-00041"><link class="os-embed" url="#exercise/Alg1_6_3_3_SC" /></para>
         </problem>
-        </exercise>
-    </note>
-
-     
-<section id="sect-00004">
-  <title>Additional Resources</title>
-  <section id="sect-00005">
-    <title>Dividing Polynomials Using Synthetic Division
-</title>
-    <para id="para-00042">Mathematicians like to find patterns to make their work easier. Since long division can be tedious, let’s look back at the long division we did in a previous example and look for some patterns. We will use this as a basis for what is called synthetic division. The same problem in the synthetic division format is shown next.</para>
-    <para id="para-00043">
-      
-        <media alt="A polynomial long division and synthetic division of x² + 9x + 20 by x + 5, showing matching coefficients and the remainder, with colored numbers highlighting key steps and results.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_01.jpg" width="550"/>
-        </media>
-      
-  </para>
-    <para id="para-00044">Synthetic division basically just removes unnecessary repeated variables and numbers. Here, all the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> are removed as well as the <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math> because they are opposite the term above.</para>
-    <para id="para-00045">The first row of the synthetic division is the coefficients of the dividend. The <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:math> is the opposite of the <m:math display="inline"><m:mrow><m:mn>5</m:mn></m:mrow></m:math> in the divisor.</para>
-    <para id="para-00046">The second row of the synthetic division is the numbers shown in red in the division problem.</para>
-    <para id="para-00047">The third row of the synthetic division is the numbers shown in blue in the division problem.</para>
-    <para id="para-00048">Notice the quotient and remainder are shown in the third row.</para>
-    <para id="para-00049"><emphasis>Synthetic division only works when the divisor is of the form</emphasis> <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow></m:math>.</para>
-    <para id="para-00050">The following example will explain the process.</para>
-    <para id="para-00051">
-     <emphasis>Example 1</emphasis>
-  </para>
-    <para id="para-00052">Use synthetic division to find the quotient and remainder when <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math> is divided by <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
-    <para id="para-00053"><emphasis>Step 1</emphasis> - Write the dividend with decreasing powers of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>.</para>
-    <para id="para-00054"><m:math><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn></m:mrow></m:math></para><para id="para-00055"><emphasis>Step 2</emphasis> - Write the coefficients of the terms as the first row of the synthetic division.</para>
-    <para id="para-00056">
-      
-        <media alt="Synthetic division setup: blank  outside, coefficients 2, 3, 1, and 8 inside.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_02.jpg"/>
-        </media>
-      
-  </para>
-    <para id="para-00057"><emphasis>Step 3</emphasis> - Write the divisor as <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow></m:math> and place <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> in the synthetic division in the divisor box.</para>
-    <para id="para-00058">
-      
-        <media alt="Synthetic division setup -2 outside, coefficients 2, 3, 1, and 8 inside.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_03.jpg"/>
-        </media>
-      
-  </para>
-    <para id="para-00059"><emphasis>Step 4</emphasis> - Bring down the first coefficient to the third row.</para>
-    <para id="para-00060">
-      
-        <media alt="Synthetic division setup -2 outside, coefficients 2, 3, 1, and 8 inside. in the top row, and 2 written below the line under the 2, with a downward green arrow pointing from the top 2 to the bottom 2.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_04.jpg"/>
-        </media>
-      
-  </para>
-    <para id="para-00061"><emphasis>Step 5</emphasis> - Multiply that coefficient by the divisor and place the result in the second row under the second coefficient.</para>
-    <para id="para-00062">
-      
-        <media alt="A synthetic division setup: -2 on the left, with 2, 3, 1, and 8 in a row to the right. Two arrows show bringing down 2 and multiplying it by -2 to get -4, placed below the 3.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_05.jpg"/>
-        </media>
-      
-  </para>
-    <para id="para-00063"><emphasis>Step 6</emphasis> - Add the second column, putting the result in the third row.</para>
-    <para id="para-00064">
-      
-        <media alt="Synthetic division setup showing the divisor -2 and dividend 2, 3, 1, 8. The first calculation, 2 multiplied by -2 equals -4, written under the 3 is shown with an arrow pointing down to -1., representing 3 minus 4.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_06.jpg"/>
-        </media>
-      
-  </para>
-    <para id="para-00065"><emphasis>Step 7</emphasis> - Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
-    <para id="para-00066">
-      
-        <media alt="Synthetic division setup: -2 outside, coefficients 2, 3, 1, and 8 inside. Green arrows indicate -2 times -1 equal to 2 that is placed under the 1..">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_07.jpg"/>
-        </media>
-      
-  </para>
-    <para id="para-00067"><emphasis>Step 8</emphasis> - Add the third column, putting the result in the third row.</para>
-    <para id="para-00068">
-      
-        <media alt="Synthetic division setup: -2 outside, coefficients 2, 3, 1, and 8 inside. A green arrow indicates 2 plus 1 equal to 3 that is placed under the 2.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_08.jpg"/>
-        </media>
-      
-  </para>
-    <para id="para-00069"><emphasis>Step 9</emphasis> - Multiply that result by the divisor and place the result in the third row under the third coefficient.</para>
-    <para id="para-00070">
-      
-        <media alt="Synthetic division setup showing -2 as the divisor and 2, 3, 1, 8 as the coefficients. Arrows indicate the process of multiplying and adding during the division steps. Green arrows go from -2 to 3 and 3 to -6 placed under the 8.  The negative 6 represents -2 times 3.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_09.jpg"/>
-        </media>
-      
-  </para>
-    <para id="para-00071"><emphasis>Step 10 </emphasis>- Add the final column, putting the result in the third row.</para>
-    <para id="para-00072">
-      
-        <media alt="Synthetic division setup with -2 as the divisor and 2, 3, 1, 8 as the coefficients. The steps show the intermediate results: -4, 2, -6 and the final bottom row: 2, -1, 3, 2. A green arrow goes from 8 to -6 to the 2.  It represents 8-6=2.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_10.jpg"/>
-        </media>
-      
-  </para>
-    <para id="para-00073"><emphasis>Step 11 </emphasis>- The quotient is <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>, and the remainder is <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math>.</para>
-    <para id="para-00074">The division is complete. The numbers in the third row give us the result. The <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>3</m:mn></m:mrow></m:math> are the coefficients of the quotient. The quotient is <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>−</m:mo><m:mn>1</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>. The <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math> in the box in the third row is the remainder.</para>
-    <para id="para-00075">Compare your answer: </para>
-    <para id="para-00076"><m:math display="inline">
-        <m:semantics>
-          <m:mrow>
-            <m:mrow>
-              <m:mspace width="2em"/>
-              <m:mtable>
-                <m:mtr/>
-                <m:mtr/>
-                <m:mtr>
-                  <m:mtd columnalign="right">
-                    <m:mtext>(quotient)(divisor)</m:mtext>
-                    <m:mo>+</m:mo>
-                    <m:mtext>remainder</m:mtext>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mo>=</m:mo>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mtext>dividend</m:mtext>
-                  </m:mtd>
-                </m:mtr>
-                <m:mtr>
-                  <m:mtd columnalign="right">
-                    <m:mo>(</m:mo>
-                    <m:mrow>
-                      <m:mn>2</m:mn>
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>1</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mo>+</m:mo>
-                      <m:mn>3</m:mn>
-                    </m:mrow>
-                    <m:mo>)</m:mo>
-                    <m:mrow>
-                      <m:mo>(</m:mo>
-                      <m:mrow>
-                        <m:mi>x</m:mi>
-                        <m:mo>+</m:mo>
-                        <m:mn>2</m:mn>
-                      </m:mrow>
-                      <m:mo>)</m:mo>
-                    </m:mrow>
-                    <m:mo>+</m:mo>
-                    <m:mn>2</m:mn>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mover>
-                      <m:mo>=</m:mo>
-                      <m:mo>?</m:mo>
-                    </m:mover>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mn>2</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>3</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>8</m:mn>
-                  </m:mtd>
-                </m:mtr>
-                <m:mtr>
-                  <m:mtd columnalign="right">
-                    <m:mn>2</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>3</m:mn>
-                    </m:msup>
-                    <m:mo>−</m:mo>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>4</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>−</m:mo>
-                    <m:mn>2</m:mn>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>6</m:mn>
-                    <m:mo>+</m:mo>
-                    <m:mn>2</m:mn>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mover>
-                      <m:mo>=</m:mo>
-                      <m:mo>?</m:mo>
-                    </m:mover>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mn>2</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>3</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>8</m:mn>
-                  </m:mtd>
-                </m:mtr>
-                <m:mtr>
-                  <m:mtd columnalign="right">
-                    <m:mn>2</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>3</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>8</m:mn>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mo>=</m:mo>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mn>2</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>3</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>8</m:mn>
-                    <m:mo>&amp;checkmark;</m:mo>
-                  </m:mtd>
-                </m:mtr>
-              </m:mtable>
-            </m:mrow>
-          </m:mrow>
-          <m:annotation-xml encoding="MathML-Content">
-            <m:mrow>
-              <m:mspace width="2em"/>
-              <m:mtable>
-                <m:mtr/>
-                <m:mtr/>
-                <m:mtr>
-                  <m:mtd columnalign="right">
-                    <m:mtext>(quotient)(divisor)</m:mtext>
-                    <m:mo>+</m:mo>
-                    <m:mtext>remainder</m:mtext>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mo>=</m:mo>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mtext>dividend</m:mtext>
-                  </m:mtd>
-                </m:mtr>
-                <m:mtr>
-                  <m:mtd columnalign="right">
-                    <m:mo>(</m:mo>
-                    <m:mrow>
-                      <m:mn>2</m:mn>
-                      <m:msup>
-                        <m:mi>x</m:mi>
-                        <m:mn>2</m:mn>
-                      </m:msup>
-                      <m:mo>−</m:mo>
-                      <m:mn>1</m:mn>
-                      <m:mi>x</m:mi>
-                      <m:mo>+</m:mo>
-                      <m:mn>3</m:mn>
-                    </m:mrow>
-                    <m:mo>)</m:mo>
-                    <m:mrow>
-                      <m:mo>(</m:mo>
-                      <m:mrow>
-                        <m:mi>x</m:mi>
-                        <m:mo>+</m:mo>
-                        <m:mn>2</m:mn>
-                      </m:mrow>
-                      <m:mo>)</m:mo>
-                    </m:mrow>
-                    <m:mo>+</m:mo>
-                    <m:mn>2</m:mn>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mover>
-                      <m:mo>=</m:mo>
-                      <m:mo>?</m:mo>
-                    </m:mover>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mn>2</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>3</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>8</m:mn>
-                  </m:mtd>
-                </m:mtr>
-                <m:mtr>
-                  <m:mtd columnalign="right">
-                    <m:mn>2</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>3</m:mn>
-                    </m:msup>
-                    <m:mo>−</m:mo>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>4</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>−</m:mo>
-                    <m:mn>2</m:mn>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>6</m:mn>
-                    <m:mo>+</m:mo>
-                    <m:mn>2</m:mn>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mover>
-                      <m:mo>=</m:mo>
-                      <m:mo>?</m:mo>
-                    </m:mover>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mn>2</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>3</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>8</m:mn>
-                  </m:mtd>
-                </m:mtr>
-                <m:mtr>
-                  <m:mtd columnalign="right">
-                    <m:mn>2</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>3</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>8</m:mn>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mo>=</m:mo>
-                  </m:mtd>
-                  <m:mtd columnalign="left">
-                    <m:mn>2</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>3</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mn>3</m:mn>
-                    <m:msup>
-                      <m:mi>x</m:mi>
-                      <m:mn>2</m:mn>
-                    </m:msup>
-                    <m:mo>+</m:mo>
-                    <m:mi>x</m:mi>
-                    <m:mo>+</m:mo>
-                    <m:mn>8</m:mn>
-                    <m:mo>&amp;checkmark;</m:mo>
-                  </m:mtd>
-                </m:mtr>
-              </m:mtable>
-            </m:mrow>
-          </m:annotation-xml>
-        </m:semantics>
-      </m:math></para><para id="para-00077">
-     <emphasis>Example 2</emphasis>
-  </para>
-    <para id="para-00078">Use synthetic division to find the quotient and remainder when <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math> is divided by <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>.</para>
-    <para id="para-00079">The polynomial <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>12</m:mn></m:mrow></m:math> has its terms in order with descending degree, but we notice there is no <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> term. We will add a <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> as a placeholder for the <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup></m:mrow></m:math> term. In <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mi>c</m:mi></m:mrow></m:math> form, the divisor is <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
-    <para id="para-00080">
-      
-        <media alt="A synthetic division setup shows the number -4 on the left and the top row with coefficients: 1, 0, -16, 3, 12. The bottom two rows have numbers: -4, 16, 0, -12; and 1, -4, 0, 3, 0.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_11.jpg"/>
-        </media>
-      
-  </para>
-    <para id="para-00081">We divided a 4th degree polynomial by a 1st degree polynomial, so the quotient will be a 3rd degree polynomial. Reading from the third row, the quotient has the coefficients <m:math display="inline"><m:mrow><m:mn>1</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>3</m:mn></m:mrow></m:math>, which is <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>. The remainder is <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math>.</para>
-    <note class="try" id="note-00003">
-<title>Try It: Dividing Polynomials Using Synthetic Division</title>
-    
-      <exercise id="exer-00007">
-        <problem id="prob-00007">
-          <para id="para-00082">Use synthetic division to find the quotient and remainder when <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>+</m:mo><m:mn>10</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> is divided by <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
-          <para id="para-00083">Use synthetic division to find the quotient and remainder when <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>4</m:mn></m:msup><m:mo>−</m:mo><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>20</m:mn></m:mrow></m:math> is divided by <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>.</para>
-          <para id="para-00084">Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
-        </problem>
-        <solution id="sol-00007">
-          <para id="para-00085">Here is how to find these quotients using synthetic division:</para>
-          <para id="para-00088"><m:math display="inline"><m:mrow><m:mn>3</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math>; remainder of <m:math display="inline"><m:mrow><m:mn>2</m:mn></m:mrow></m:math></para>
-          <para id="para-00086"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo stretchy="true" fence="true" form="prefix"/><m:mrow><m:munder><m:mrow><m:mspace width="0.167em"/><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mspace width="0.167em"/></m:mrow><m:mo accent="true">―</m:mo></m:munder></m:mrow><m:mspace width="negativethinmathspace"/><m:mo stretchy="true" fence="true" form="postfix">|</m:mo></m:mrow><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>3</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>10</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>6</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:munder><m:mrow><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mo>−</m:mo><m:mn>6</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mo>−</m:mo><m:mn>8</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>4</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/></m:mrow><m:mo accent="true">―</m:mo></m:munder></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>3</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>4</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mo>−</m:mo><m:mn>2</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mrow><m:mo stretchy="true" fence="true" form="prefix">|</m:mo><m:mspace width="negativethinmathspace"/><m:mrow><m:mover><m:mrow><m:mspace width="0.167em"/><m:mn>2</m:mn><m:mspace width="0.167em"/></m:mrow><m:mo accent="true">―</m:mo></m:mover></m:mrow><m:mo stretchy="true" fence="true" form="postfix"/></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
-          <para id="para-00089"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>3</m:mn></m:msup><m:mo>−</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn></m:mrow></m:math>; remainder of <m:math display="inline"><m:mrow><m:mn>0</m:mn></m:mrow></m:math></para>
-          <para id="para-00087"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="left"><m:mrow><m:mo stretchy="true" fence="true" form="prefix"/><m:mrow><m:munder><m:mrow><m:mspace width="0.167em"/><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mspace width="0.167em"/></m:mrow><m:mo accent="true">―</m:mo></m:munder></m:mrow><m:mspace width="negativethinmathspace"/><m:mo stretchy="true" fence="true" form="postfix">|</m:mo></m:mrow><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>1</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>0</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mo>−</m:mo><m:mn>16</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>5</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>20</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:munder><m:mrow><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mo>−</m:mo><m:mn>4</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>16</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>0</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mo>−</m:mo><m:mn>20</m:mn><m:mspace width="0.167em"/></m:mrow><m:mo accent="true">―</m:mo></m:munder></m:mtd></m:mtr><m:mtr><m:mtd columnalign="left"><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>1</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mo>−</m:mo><m:mn>4</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>0</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mn>5</m:mn><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mspace width="0.167em"/><m:mrow><m:mo stretchy="true" fence="true" form="prefix">|</m:mo><m:mspace width="negativethinmathspace"/><m:mrow><m:mover><m:mrow><m:mspace width="0.167em"/><m:mn>0</m:mn><m:mspace width="0.167em"/></m:mrow><m:mo accent="true">―</m:mo></m:mover></m:mrow><m:mo stretchy="true" fence="true" form="postfix"/></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para></solution>
       </exercise>
     </note>
-  </section>
-</section>
+
+
+    <section id="sect-00004">
+      <title>Additional Resources</title>
+      <section id="sect-00005">
+        <title>Dividing Polynomials Using Synthetic Division </title>
+        <para id="para-00042">Mathematicians like to find patterns to make their work easier. Since long division can be tedious, let’s look back at the long division we did in a previous example and look for some patterns. We will use this as a basis for what is called synthetic division. The same problem in the synthetic division format is shown next.</para>
+        <para id="para-00043">
+
+          <media alt="A polynomial long division and synthetic division of x² + 9x + 20 by x + 5, showing matching coefficients and the remainder, with colored numbers highlighting key steps and results.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_01.jpg" width="550" />
+          </media>
+
+        </para>
+        <para id="para-00044">Synthetic division basically just removes unnecessary repeated variables and numbers. Here, all the <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math> and <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math> are removed as well as the <m:math display="inline">
+            <m:mrow>
+              <m:mo>−</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math> and <m:math display="inline">
+            <m:mrow>
+              <m:mo>−</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math> because they are opposite the term above.</para>
+        <para id="para-00045">The first row of the synthetic division is the coefficients of the dividend. The <m:math display="inline">
+            <m:mrow>
+              <m:mo>−</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math> is the opposite of the <m:math display="inline">
+            <m:mrow>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:math> in the divisor.</para>
+        <para id="para-00046">The second row of the synthetic division is the numbers shown in red in the division problem.</para>
+        <para id="para-00047">The third row of the synthetic division is the numbers shown in blue in the division problem.</para>
+        <para id="para-00048">Notice the quotient and remainder are shown in the third row.</para>
+        <para id="para-00049"><emphasis>Synthetic division only works when the divisor is of the form</emphasis> <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00050">The following example will explain the process.</para>
+        <para id="para-00051">
+          <emphasis>Example 1</emphasis>
+        </para>
+        <para id="para-00052">Use synthetic division to find the quotient and remainder when <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>3</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>8</m:mn>
+            </m:mrow>
+          </m:math> is divided by <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00053"><emphasis>Step 1</emphasis> - Write the dividend with decreasing powers of <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00054"><m:math>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>3</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>8</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00055"><emphasis>Step 2</emphasis> - Write the coefficients of the terms as the first row of the synthetic division.</para>
+        <para id="para-00056">
+
+          <media alt="Synthetic division setup: blank  outside, coefficients 2, 3, 1, and 8 inside.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_02.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00057"><emphasis>Step 3</emphasis> - Write the divisor as <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math> and place <m:math display="inline">
+            <m:mrow>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math> in the synthetic division in the divisor box.</para>
+        <para id="para-00058">
+
+          <media alt="Synthetic division setup -2 outside, coefficients 2, 3, 1, and 8 inside.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_03.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00059"><emphasis>Step 4</emphasis> - Bring down the first coefficient to the third row.</para>
+        <para id="para-00060">
+
+          <media alt="Synthetic division setup -2 outside, coefficients 2, 3, 1, and 8 inside. in the top row, and 2 written below the line under the 2, with a downward green arrow pointing from the top 2 to the bottom 2.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_04.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00061"><emphasis>Step 5</emphasis> - Multiply that coefficient by the divisor and place the result in the second row under the second coefficient.</para>
+        <para id="para-00062">
+
+          <media alt="A synthetic division setup: -2 on the left, with 2, 3, 1, and 8 in a row to the right. Two arrows show bringing down 2 and multiplying it by -2 to get -4, placed below the 3.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_05.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00063"><emphasis>Step 6</emphasis> - Add the second column, putting the result in the third row.</para>
+        <para id="para-00064">
+
+          <media alt="Synthetic division setup showing the divisor -2 and dividend 2, 3, 1, 8. The first calculation, 2 multiplied by -2 equals -4, written under the 3 is shown with an arrow pointing down to -1., representing 3 minus 4.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_06.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00065"><emphasis>Step 7</emphasis> - Multiply that result by the divisor and place the result in the second row under the third coefficient.</para>
+        <para id="para-00066">
+
+          <media alt="Synthetic division setup: -2 outside, coefficients 2, 3, 1, and 8 inside. Green arrows indicate -2 times -1 equal to 2 that is placed under the 1..">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_07.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00067"><emphasis>Step 8</emphasis> - Add the third column, putting the result in the third row.</para>
+        <para id="para-00068">
+
+          <media alt="Synthetic division setup: -2 outside, coefficients 2, 3, 1, and 8 inside. A green arrow indicates 2 plus 1 equal to 3 that is placed under the 2.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_08.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00069"><emphasis>Step 9</emphasis> - Multiply that result by the divisor and place the result in the third row under the third coefficient.</para>
+        <para id="para-00070">
+
+          <media alt="Synthetic division setup showing -2 as the divisor and 2, 3, 1, 8 as the coefficients. Arrows indicate the process of multiplying and adding during the division steps. Green arrows go from -2 to 3 and 3 to -6 placed under the 8.  The negative 6 represents -2 times 3.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_09.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00071"><emphasis>Step 10 </emphasis>- Add the final column, putting the result in the third row.</para>
+        <para id="para-00072">
+
+          <media alt="Synthetic division setup with -2 as the divisor and 2, 3, 1, 8 as the coefficients. The steps show the intermediate results: -4, 2, -6 and the final bottom row: 2, -1, 3, 2. A green arrow goes from 8 to -6 to the 2.  It represents 8-6=2.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_10.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00073"><emphasis>Step 11 </emphasis>- The quotient is <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>, and the remainder is <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00074">The division is complete. The numbers in the third row give us the result. The <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math> <m:math display="inline">
+            <m:mrow>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math> <m:math display="inline">
+            <m:mrow>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math> are the coefficients of the quotient. The quotient is <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>. The <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math> in the box in the third row is the remainder.</para>
+        <para id="para-00075">Compare your answer: </para>
+        <para id="para-00076"><m:math display="inline">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mspace width="2em" />
+                  <m:mtable>
+                    <m:mtr />
+                    <m:mtr />
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mtext>(quotient)(divisor)</m:mtext>
+                        <m:mo>+</m:mo>
+                        <m:mtext>remainder</m:mtext>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mtext>dividend</m:mtext>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mo>(</m:mo>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                          <m:mo>−</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mi>x</m:mi>
+                          <m:mo>+</m:mo>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                        <m:mo>)</m:mo>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo>+</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mo>+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mover>
+                          <m:mo>=</m:mo>
+                          <m:mo>?</m:mo>
+                        </m:mover>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mn>2</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>8</m:mn>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mn>2</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>2</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>6</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mover>
+                          <m:mo>=</m:mo>
+                          <m:mo>?</m:mo>
+                        </m:mover>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mn>2</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>8</m:mn>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mn>2</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>8</m:mn>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mn>2</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>8</m:mn>
+                        <m:mo>&amp;checkmark;</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                  </m:mtable>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation-xml encoding="MathML-Content">
+                <m:mrow>
+                  <m:mspace width="2em" />
+                  <m:mtable>
+                    <m:mtr />
+                    <m:mtr />
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mtext>(quotient)(divisor)</m:mtext>
+                        <m:mo>+</m:mo>
+                        <m:mtext>remainder</m:mtext>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mtext>dividend</m:mtext>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mo>(</m:mo>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mn>2</m:mn>
+                          </m:msup>
+                          <m:mo>−</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mi>x</m:mi>
+                          <m:mo>+</m:mo>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                        <m:mo>)</m:mo>
+                        <m:mrow>
+                          <m:mo>(</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo>+</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                        <m:mo>+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mover>
+                          <m:mo>=</m:mo>
+                          <m:mo>?</m:mo>
+                        </m:mover>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mn>2</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>8</m:mn>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mn>2</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>−</m:mo>
+                        <m:mn>2</m:mn>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>6</m:mn>
+                        <m:mo>+</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mover>
+                          <m:mo>=</m:mo>
+                          <m:mo>?</m:mo>
+                        </m:mover>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mn>2</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>8</m:mn>
+                      </m:mtd>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mtd columnalign="right">
+                        <m:mn>2</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>8</m:mn>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mo>=</m:mo>
+                      </m:mtd>
+                      <m:mtd columnalign="left">
+                        <m:mn>2</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>3</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mn>3</m:mn>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:msup>
+                        <m:mo>+</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo>+</m:mo>
+                        <m:mn>8</m:mn>
+                        <m:mo>&amp;checkmark;</m:mo>
+                      </m:mtd>
+                    </m:mtr>
+                  </m:mtable>
+                </m:mrow>
+              </m:annotation-xml>
+            </m:semantics>
+          </m:math></para>
+        <para id="para-00077">
+          <emphasis>Example 2</emphasis>
+        </para>
+        <para id="para-00078">Use synthetic division to find the quotient and remainder when <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>4</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>16</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>12</m:mn>
+            </m:mrow>
+          </m:math> is divided by <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00079">The polynomial <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>4</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>16</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>12</m:mn>
+            </m:mrow>
+          </m:math> has its terms in order with descending degree, but we notice there is no <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>3</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math> term. We will add a <m:math display="inline">
+            <m:mrow>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math> as a placeholder for the <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>3</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:math> term. In <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>c</m:mi>
+            </m:mrow>
+          </m:math> form, the divisor is <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mo>−</m:mo>
+              <m:mn>4</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>.</para>
+        <para id="para-00080">
+
+          <media alt="A synthetic division setup shows the number -4 on the left and the top row with coefficients: 1, 0, -16, 3, 12. The bottom two rows have numbers: -4, 16, 0, -12; and 1, -4, 0, 3, 0.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_08_11.jpg" />
+          </media>
+
+        </para>
+        <para id="para-00081">We divided a 4th degree polynomial by a 1st degree polynomial, so the quotient will be a 3rd degree polynomial. Reading from the third row, the quotient has the coefficients <m:math display="inline">
+            <m:mrow>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:math> <m:math display="inline">
+            <m:mrow>
+              <m:mo>−</m:mo>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:math> <m:math display="inline">
+            <m:mrow>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math> <m:math display="inline">
+            <m:mrow>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>, which is <m:math display="inline">
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>3</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:math>. The remainder is <m:math display="inline">
+            <m:mrow>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>.</para>
+        <note class="try numbered-exercises" id="note-00003">
+          <title>Try It: Dividing Polynomials Using Synthetic Division</title>
+    
+      <exercise id="exer-00007">
+            <problem id="prob-00007">
+              <para id="para-00082">Use synthetic division to find the quotient and remainder when <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>10</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math> is divided by <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00083">Use synthetic division to find the quotient and remainder when <m:math display="inline">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>4</m:mn>
+                    </m:msup>
+                    <m:mo>−</m:mo>
+                    <m:mn>16</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>20</m:mn>
+                  </m:mrow>
+                </m:math> is divided by <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00084">Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+            </problem>
+            <solution id="sol-00007">
+              <para id="para-00085">Here is how to find these quotients using synthetic division:</para>
+              <para id="para-00088"><m:math display="inline">
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mi>x</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math>; remainder of <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00086"><m:math>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mtd columnalign="left">
+                          <m:mrow>
+                            <m:mo stretchy="true" fence="true" form="prefix" />
+                            <m:mrow>
+                              <m:munder>
+                                <m:mrow>
+                                  <m:mspace width="0.167em" />
+                                  <m:mrow>
+                                    <m:mo>−</m:mo>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                  <m:mspace width="0.167em" />
+                                </m:mrow>
+                                <m:mo accent="true">―</m:mo>
+                              </m:munder>
+                            </m:mrow>
+                            <m:mspace width="negativethinmathspace" />
+                            <m:mo stretchy="true" fence="true" form="postfix">|</m:mo>
+                          </m:mrow>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>3</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>10</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>6</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mo>−</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="left">
+                          <m:munder>
+                            <m:mrow>
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mo>−</m:mo>
+                              <m:mn>6</m:mn>
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mo>−</m:mo>
+                              <m:mn>8</m:mn>
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mn>4</m:mn>
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                            </m:mrow>
+                            <m:mo accent="true">―</m:mo>
+                          </m:munder>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="left">
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>3</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>4</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mo>−</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mrow>
+                            <m:mo stretchy="true" fence="true" form="prefix">|</m:mo>
+                            <m:mspace width="negativethinmathspace" />
+                            <m:mrow>
+                              <m:mover>
+                                <m:mrow>
+                                  <m:mspace width="0.167em" />
+                                  <m:mn>2</m:mn>
+                                  <m:mspace width="0.167em" />
+                                </m:mrow>
+                                <m:mo accent="true">―</m:mo>
+                              </m:mover>
+                            </m:mrow>
+                            <m:mo stretchy="true" fence="true" form="postfix" />
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00089"><m:math display="inline">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>3</m:mn>
+                    </m:msup>
+                    <m:mo>−</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>+</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:math>; remainder of <m:math display="inline">
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00087"><m:math>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mtd columnalign="left">
+                          <m:mrow>
+                            <m:mo stretchy="true" fence="true" form="prefix" />
+                            <m:mrow>
+                              <m:munder>
+                                <m:mrow>
+                                  <m:mspace width="0.167em" />
+                                  <m:mrow>
+                                    <m:mo>−</m:mo>
+                                    <m:mn>4</m:mn>
+                                  </m:mrow>
+                                  <m:mspace width="0.167em" />
+                                </m:mrow>
+                                <m:mo accent="true">―</m:mo>
+                              </m:munder>
+                            </m:mrow>
+                            <m:mspace width="negativethinmathspace" />
+                            <m:mo stretchy="true" fence="true" form="postfix">|</m:mo>
+                          </m:mrow>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>1</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>0</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mo>−</m:mo>
+                          <m:mn>16</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>5</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>20</m:mn>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="left">
+                          <m:munder>
+                            <m:mrow>
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mo>−</m:mo>
+                              <m:mn>4</m:mn>
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mn>16</m:mn>
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mn>0</m:mn>
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mspace width="0.167em" />
+                              <m:mo>−</m:mo>
+                              <m:mn>20</m:mn>
+                              <m:mspace width="0.167em" />
+                            </m:mrow>
+                            <m:mo accent="true">―</m:mo>
+                          </m:munder>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="left">
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>1</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mo>−</m:mo>
+                          <m:mn>4</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>0</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mn>5</m:mn>
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mspace width="0.167em" />
+                          <m:mrow>
+                            <m:mo stretchy="true" fence="true" form="prefix">|</m:mo>
+                            <m:mspace width="negativethinmathspace" />
+                            <m:mrow>
+                              <m:mover>
+                                <m:mrow>
+                                  <m:mspace width="0.167em" />
+                                  <m:mn>0</m:mn>
+                                  <m:mspace width="0.167em" />
+                                </m:mrow>
+                                <m:mo accent="true">―</m:mo>
+                              </m:mover>
+                            </m:mrow>
+                            <m:mo stretchy="true" fence="true" form="postfix" />
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+                  </m:mrow>
+                </m:math></para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
+    </section>
 
   </content>
 </document>
