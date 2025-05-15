@@ -6,7 +6,7 @@
     <md:uuid>32d447b0-9307-4560-a89d-3ff42cd3e7c0</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
+    <section id="sect-00001">      <title>Activity</title>
       <para id="para-00001">A table for the relation <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> is below.</para>
       <table class="unnumbered os-raise-horizontaltable" id="table-00001">
         <tgroup cols="7"><tbody><row>
@@ -59,7 +59,7 @@
       <!--Question 2 -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00002">Is this relation a function? Explain your answer.</para>
+          <para id="para-00002">1. Is this relation a function? Explain your answer.</para>
           
         </problem>
         <solution id="sol-00001">
@@ -70,12 +70,10 @@
   </para>
         </solution>
       </exercise>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-        <item>Use the Desmos graphing tool or technology outside the course. Graph the points in the relation. 
+      <para id="para-00044">2. Use the Desmos graphing tool or technology outside the course. Graph the points in the relation. 
     
-    Interact with the graph. Graph the points in the relation on a coordinate grid.
- </item>
-      </list>
+      </para><para id="para-00045">Interact with the graph. Graph the points in the relation on a coordinate grid.
+      </para>
       <media alt="insert alt text"><iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/></media>
         <exercise id="exer-00002">
           <problem id="prob-00002">
@@ -95,7 +93,7 @@
       <!--Question 3 -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00008">What do you notice about the points <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?
+          <para id="para-00008">3. What do you notice about the points <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?
     </para>
           
         </problem>
@@ -111,9 +109,9 @@
       <!--Question Part A -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00015">For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not.</para>
+          <para id="para-00015">4. For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not.</para>
               <media alt="A line with a negative slope crosses the y-axis at 2 and the x-axis at 3 on a coordinate grid ranging from negative 6 to 6 on both axes. The arrow on the left indicates the line continues beyond the grid.">
-              <image mime-type="image/png" src="../../media/Algebra-1_04_08_03_02.png"/>
+              <image mime-type="image/png" src="../../media/Algebra-1_04_08_03_02.png" width="300"/>
             </media>
           
           
@@ -122,7 +120,7 @@
           <para id="para-00016">Compare your answer: </para>
           <para id="para-00017">Yes, this passes the vertical line test (see the sample blue lines below) for all points on the line so the graph is a function.</para>
               <media alt="The graph of a straight line that passes through the points (0, 2) and (3, 0), shown in red and blue vertical line passing through (negative 2, 0) a green vertical line passing through (4, 0).">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_03_03.jpg"/>
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_03_03.jpg" width="300"/>
             </media>
           
         </solution>
@@ -130,7 +128,7 @@
       <!--Question Part b -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00018">For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not.</para>
+          <para id="para-00018">5. For the function graphed below, determine if the graph passes the vertical line test and then explain how this identifies the graph as a function or not.</para>
               <media alt="A sideways parabola that opens to the right and passes through the points (negative 1, 0), (3, 2), and (3, negative 2), a black vertical line passing through (1, 0).">
               <image mime-type="image/png" src="../../media/Algebra-1_04_08_03_04.png"/>
             </media>
@@ -141,7 +139,7 @@
           <para id="para-00019">Compare your answer: </para>
           <para id="para-00020">No, this graph does not pass the vertical line test, so it is not a function. For example, the vertical line <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math> crosses the graph more than once.</para>
               <media alt="A sideways parabola that opens to the right and passes through the points (negative 1, 0), (3, 2), and (3, negative 2), a black vertical line passing through (1, 0).">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_03_05.jpg"/>
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_04_08_03_05.jpg" width="300"/>
             </media>
           
         </solution>
