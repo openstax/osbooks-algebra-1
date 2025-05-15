@@ -6,116 +6,312 @@
     <md:uuid>4819898a-c943-4521-8239-1e4960af0a60</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Activity</title>
       <note id="note-00001">
         <para id="para-00001">Access the <link url="https://k12.openstax.org/contents/raise/resources/2c2987f83130584132cad08b60ad0d3ba45a32b9">Desmos guide PDF</link> for tips on solving problems with the Desmos graphing calculator.</para>
       </note>
       <para id="para-00002">Here is an example of an equation being solved by graphing and by <term class="glossary-tooltip" id="term-00001">completing the square</term>.</para>
       <para id="para-00003">
-          <media alt="Graph of a parabola on a coordinate plane. Two points (negative 4.414, 0) and (negative 1.586, 0) have been labeled on the parabola. The x-axis has a scale of 1 extending from negative 8 to 4. The y-axis extends from negative 4 to 4 with a scale of 1.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_07_06_01.svg"/>
-          </media>
-        
-     </para>
+        <media alt="Graph of a parabola on a coordinate plane. Two points (negative 4.414, 0) and (negative 1.586, 0) have been labeled on the parabola. The x-axis has a scale of 1 extending from negative 8 to 4. The y-axis extends from negative 4 to 4 with a scale of 1.">
+          <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_07_06_01.svg" />
+        </media>
+
+      </para>
       <para id="para-00004"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
-        <m:mtable columnalign="right center left">
-          <m:mtr>
-            <m:mtd>
-              <m:mrow>
-                <m:msup>
+          <m:mtable columnalign="right center left">
+            <m:mtr>
+              <m:mtd>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
                   <m:mi>x</m:mi>
-                  <m:mn>2</m:mn>
-                </m:msup>
-                <m:mo>+</m:mo>
-                <m:mn>6</m:mn>
-                <m:mi>x</m:mi>
-                <m:mo>+</m:mo>
-                <m:mn>7</m:mn>
-              </m:mrow>
-            </m:mtd>
-            <m:mtd><m:mo>=</m:mo></m:mtd>
-            <m:mtd><m:mn>0</m:mn></m:mtd>
-          </m:mtr>
-          <m:mtr>
-            <m:mtd>
-              <m:mrow>
-                <m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>7</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd>
+                <m:mn>0</m:mn>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
                   <m:mi>x</m:mi>
-                  <m:mn>2</m:mn>
-                </m:msup>
-                <m:mo>+</m:mo>
-                <m:mn>6</m:mn>
-                <m:mi>x</m:mi>
-                <m:mo>+</m:mo>
-                <m:mn>9</m:mn>
-              </m:mrow>
-            </m:mtd>
-            <m:mtd><m:mo>=</m:mo></m:mtd>
-            <m:mtd><m:mn>2</m:mn></m:mtd>
-          </m:mtr>
-          <m:mtr>
-            <m:mtd>
-              <m:mrow>
-                <m:mo stretchy="false">(</m:mo>
-                <m:mi>x</m:mi>
-                <m:mo>+</m:mo>
-                <m:mn>3</m:mn>
-                <m:mo stretchy="false">)</m:mo>
-                <m:msup>
-                  <m:mi/>
-                  <m:mn>2</m:mn>
-                </m:msup>
-              </m:mrow>
-            </m:mtd>
-            <m:mtd><m:mo>=</m:mo></m:mtd>
-            <m:mtd><m:mn>2</m:mn></m:mtd>
-          </m:mtr>
-          <m:mtr>
-            <m:mtd>
-              <m:mrow>
-                <m:mi>x</m:mi>
-                <m:mo>+</m:mo>
-                <m:mn>3</m:mn>
-              </m:mrow>
-            </m:mtd>
-            <m:mtd><m:mo>=</m:mo></m:mtd>
-            <m:mtd>
-              <m:mi>±</m:mi>
-              <m:msqrt>
+                  <m:mo>+</m:mo>
+                  <m:mn>9</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd>
                 <m:mn>2</m:mn>
-              </m:msqrt>
-            </m:mtd>
-          </m:mtr>
-          <m:mtr>
-            <m:mtd>
-              <m:mi>x</m:mi>
-            </m:mtd>
-            <m:mtd><m:mo>=</m:mo></m:mtd>
-            <m:mtd>
-              <m:mo>−</m:mo>
-              <m:mn>3</m:mn>
-              <m:mi>±</m:mi>
-              <m:msqrt>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:msup>
+                    <m:mi />
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd>
                 <m:mn>2</m:mn>
-              </m:msqrt>
-            </m:mtd>
-          </m:mtr>
-        </m:mtable>
-      </m:math></para><para id="para-00005">Verify: <m:math display="inline"><m:mrow><m:msqrt><m:mrow><m:mn>2</m:mn></m:mrow></m:msqrt></m:mrow></m:math> is approximately 1.414. So <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn></m:mrow></m:msqrt><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>1.586</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn></m:mrow></m:msqrt><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>4.414</m:mn></m:mrow></m:math>.</para>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd>
+                <m:mi>±</m:mi>
+                <m:msqrt>
+                  <m:mn>2</m:mn>
+                </m:msqrt>
+              </m:mtd>
+            </m:mtr>
+            <m:mtr>
+              <m:mtd>
+                <m:mi>x</m:mi>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>=</m:mo>
+              </m:mtd>
+              <m:mtd>
+                <m:mo>−</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>±</m:mi>
+                <m:msqrt>
+                  <m:mn>2</m:mn>
+                </m:msqrt>
+              </m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:math></para>
+      <para id="para-00005">Verify: <m:math display="inline">
+          <m:mrow>
+            <m:msqrt>
+              <m:mrow>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:msqrt>
+          </m:mrow>
+        </m:math> is approximately 1.414. So <m:math display="inline">
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>+</m:mo>
+            <m:msqrt>
+              <m:mrow>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:msqrt>
+            <m:mo>≈</m:mo>
+            <m:mo>−</m:mo>
+            <m:mn>1.586</m:mn>
+          </m:mrow>
+        </m:math> and <m:math display="inline">
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>−</m:mo>
+            <m:msqrt>
+              <m:mrow>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:msqrt>
+            <m:mo>≈</m:mo>
+            <m:mo>−</m:mo>
+            <m:mn>4.414</m:mn>
+          </m:mrow>
+        </m:math>.</para>
       <para id="para-00006">For each equation, find the exact solutions by completing the square and the approximate solutions by graphing. Then, verify that the solutions found using the two methods are close. If you get stuck, refer back to the example.</para>
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00007">1. <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para><para id="para-00008">a. Find the exact solutions by completing the square.</para>
+          <para id="para-00007">1. <m:math>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00008">a. Find the exact solutions by completing the square.</para>
           <para id="para-00009">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00010">Compare your answer: </para>
-          <para id="para-00011"><m:math><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>1</m:mn><m:mi/><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace linebreak="newline"/><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mi/><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mspace linebreak="newline"/><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi/><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:mspace linebreak="newline"/><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi/><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace linebreak="newline"/><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi/><m:mo>=</m:mo><m:mn>3</m:mn><m:mspace linebreak="newline"/><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt><m:mi/><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>3</m:mn></m:mrow></m:msqrt><m:mspace linebreak="newline"/><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi/><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:mn>3</m:mn></m:mrow></m:msqrt><m:mspace linebreak="newline"/><m:mi>x</m:mi><m:mi/><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:mn>3</m:mn></m:mrow></m:msqrt></m:mrow></m:mrow></m:math></para></solution>
+          <para id="para-00011"><m:math>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mspace linebreak="newline" />
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mspace linebreak="newline" />
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mo>−</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mspace linebreak="newline" />
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mspace linebreak="newline" />
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mn>3</m:mn>
+                  <m:mspace linebreak="newline" />
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mspace linebreak="newline" />
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mi>±</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mspace linebreak="newline" />
+                  <m:mi>x</m:mi>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mo>−</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mi>±</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-        <para id="para-00072">b. Graph the equation to find approximate solutions.</para>
+      <para id="para-00072">b. Graph the equation to find approximate solutions.</para>
       <para id="para-00012">Use the Desmos graphing tool or technology outside the course.</para>
       <media alt="...">
-        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" />
       </media>
       <exercise id="exer-00002">
         <problem id="prob-00002">
@@ -124,11 +320,11 @@
         <solution id="sol-00002">
           <para id="para-00014">Compare your answer: </para>
           <para id="para-00015">
-                  <media alt="A graph of a parabola opening upwards crossing the x-axis at approximately (negative 3.732, 0) and (negative 0.268, 0). Both the x- and y-axes extend from negative 5 to 5 with a scale of 1.">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_02.jpg"/>
-              </media>
-            
-         </para>
+            <media alt="A graph of a parabola opening upwards crossing the x-axis at approximately (negative 3.732, 0) and (negative 0.268, 0). Both the x- and y-axes extend from negative 5 to 5 with a scale of 1.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_02.jpg" />
+            </media>
+
+          </para>
         </solution>
       </exercise>
       <exercise id="e4b9dc8d-0ea3-4566-af06-451d36647eee" class="multiple-choice">
@@ -136,23 +332,192 @@
           <para id="para-00016">c. Are the solutions you found using the two methods close?</para>
         </problem>
         <solution id="sol-00003">
-          <para id="para-00017">Correct! Yes. Solutions were the same: <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>0.268</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>3.732</m:mn></m:mrow></m:math>.</para>
-          <para id="para-00018">Incorrect. The correct answer is Yes. Solutions were the same: <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>0.268</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>3.732</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00017">Correct! Yes. Solutions were the same: <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>0.268</m:mn>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>3.732</m:mn>
+              </m:mrow>
+            </m:math>.</para>
+          <para id="para-00018">Incorrect. The correct answer is Yes. Solutions were the same: <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>0.268</m:mn>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>3.732</m:mn>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
       <exercise id="exer-00003">
         <problem id="prob-00004">
-          <para id="para-00019">2. <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>18</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para><para id="para-00020">a. Find the exact solutions by completing the square.</para>
+          <para id="para-00019">2. <m:math>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>10</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>18</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00020">a. Find the exact solutions by completing the square.</para>
           <para id="para-00021">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution id="sol-00004">
           <para id="para-00022">Compare your answer: </para>
-          <para id="para-00023"><m:math><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>18</m:mn><m:mi/><m:mo>=</m:mo><m:mn>0</m:mn><m:mspace linebreak="newline"/><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mi/><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>18</m:mn><m:mspace linebreak="newline"/><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>25</m:mn><m:mi/><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>18</m:mn><m:mo>+</m:mo><m:mn>25</m:mn><m:mspace linebreak="newline"/><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>−</m:mo><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>25</m:mn><m:mi/><m:mo>=</m:mo><m:mn>7</m:mn><m:mspace linebreak="newline"/><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi/><m:mo>=</m:mo><m:mn>7</m:mn><m:mspace linebreak="newline"/><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt><m:mi/><m:mo>=</m:mo><m:msqrt><m:mrow><m:mn>7</m:mn></m:mrow></m:msqrt><m:mspace linebreak="newline"/><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mi/><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:mn>7</m:mn></m:mrow></m:msqrt><m:mspace linebreak="newline"/><m:mi>x</m:mi><m:mi/><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:mn>7</m:mn></m:mrow></m:msqrt></m:mrow></m:mrow></m:math></para></solution>
+          <para id="para-00023"><m:math>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>10</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>18</m:mn>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mspace linebreak="newline" />
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>10</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mo>−</m:mo>
+                  <m:mn>18</m:mn>
+                  <m:mspace linebreak="newline" />
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>10</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>25</m:mn>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mo>−</m:mo>
+                  <m:mn>18</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mn>25</m:mn>
+                  <m:mspace linebreak="newline" />
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>10</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>25</m:mn>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mn>7</m:mn>
+                  <m:mspace linebreak="newline" />
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mn>7</m:mn>
+                  <m:mspace linebreak="newline" />
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>7</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mspace linebreak="newline" />
+                  <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mi>±</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>7</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                  <m:mspace linebreak="newline" />
+                  <m:mi>x</m:mi>
+                  <m:mi />
+                  <m:mo>=</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mi>±</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>7</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-        <para id="para-00073">b. Graph the equation to find approximate solutions.</para>
+      <para id="para-00073">b. Graph the equation to find approximate solutions.</para>
       <para id="para-00024">Use the Desmos graphing tool or technology outside the course.</para>
       <media alt="...">
-        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" />
       </media>
       <exercise id="exer-00004">
         <problem id="prob-00005">
@@ -161,11 +526,11 @@
         <solution id="sol-00005">
           <para id="para-00026">Compare your answer: </para>
           <para id="para-00027">
-                  <media alt="A graph of a parabola opening upwards, crossing the x-axis at points (2.354, 0) and (7.646, 0). The x-axis extends from negative 1 to approximately 18 with a scale of 1. The y-axis extends from negative 12 to 7 with a scale of 1.">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_03.jpg"/>
-              </media>
-            
-         </para>
+            <media alt="A graph of a parabola opening upwards, crossing the x-axis at points (2.354, 0) and (7.646, 0). The x-axis extends from negative 1 to approximately 18 with a scale of 1. The y-axis extends from negative 12 to 7 with a scale of 1.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_03.jpg" />
+            </media>
+
+          </para>
         </solution>
       </exercise>
       <exercise id="_0f0d59d2-2fcd-4daf-ac6a-c1ab9c931506" class="multiple-choice">
@@ -173,23 +538,417 @@
           <para id="para-00028">c. Are the solutions you found using the two methods close?</para>
         </problem>
         <solution id="sol-00006">
-          <para id="para-00029">Correct! Yes. Solutions were the same: <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mn>7.646</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mn>2.354</m:mn></m:mrow></m:math>.</para>
-          <para id="para-00030">Incorrect. The correct answer is Yes. <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mn>7.646</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mn>2.354</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00029">Correct! Yes. Solutions were the same: <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mn>7.646</m:mn>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mn>2.354</m:mn>
+              </m:mrow>
+            </m:math>.</para>
+          <para id="para-00030">Incorrect. The correct answer is Yes. <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mn>7.646</m:mn>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mn>2.354</m:mn>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
       <exercise id="exer-00005">
         <problem id="prob-00007">
-          <para id="para-00031">3. <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para><para id="para-00032">a. Find the exact solutions by completing the square.</para>
+          <para id="para-00031">3. <m:math>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>5</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00032">a. Find the exact solutions by completing the square.</para>
           <para id="para-00033">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution id="sol-00007">
           <para id="para-00034">Compare your answer: </para>
-          <para id="para-00035"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="true" fence="true" form="prefix">(</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="true" fence="true" form="postfix">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="true" fence="true" form="prefix">(</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="true" fence="true" form="postfix">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>24</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mn>5</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mrow><m:mo stretchy="true" fence="true" form="prefix">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="true" fence="true" form="postfix">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msqrt><m:mrow><m:msup><m:mrow><m:mo stretchy="true" fence="true" form="prefix">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="true" fence="true" form="postfix">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mn>6</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>±</m:mi><m:msqrt><m:mrow><m:mn>6</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>±</m:mi><m:msqrt><m:mrow><m:mn>6</m:mn></m:mrow></m:msqrt></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para></solution>
+          <para id="para-00035"><m:math>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mn>0</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="true" fence="true" form="prefix">(</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="true" fence="true" form="postfix">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="true" fence="true" form="prefix">(</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="true" fence="true" form="postfix">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>25</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>25</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>25</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>24</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>25</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mn>6</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="true" fence="true" form="prefix">(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo>+</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="true" fence="true" form="postfix">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mn>6</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mrow>
+                              <m:mo stretchy="true" fence="true" form="prefix">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo>+</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mfrac>
+                              <m:mo stretchy="true" fence="true" form="postfix">)</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mi>±</m:mi>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>x</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>±</m:mi>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-        <para id="para-00074">b. Graph the equation to find approximate solutions.</para>
+      <para id="para-00074">b. Graph the equation to find approximate solutions.</para>
       <para id="para-00036">Use the Desmos graphing tool or technology outside the course.</para>
       <media alt="...">
-        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" />
       </media>
       <exercise id="exer-00006">
         <problem id="prob-00008">
@@ -197,10 +956,10 @@
         </problem>
         <solution id="sol-00008">
           <para id="para-00038">Compare your answer: </para>
-              <media alt="Graph of a parabola on a coordinate grid. The points ( negative 4.949, 0) and (negative 0.051, 0) are labeled on the parabola. The x-axis extends from negative 8 to approximately 8 with a scale of 1. The y-axis extends from negative 10 to 6 with a scale of 1.">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_04.jpg"/>
-            </media>
-          
+          <media alt="Graph of a parabola on a coordinate grid. The points ( negative 4.949, 0) and (negative 0.051, 0) are labeled on the parabola. The x-axis extends from negative 8 to approximately 8 with a scale of 1. The y-axis extends from negative 10 to 6 with a scale of 1.">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_04.jpg" />
+          </media>
+
         </solution>
       </exercise>
       <exercise id="e91e1f89-ee24-4fd8-a748-9709bcd4de75" class="multiple-choice">
@@ -208,23 +967,551 @@
           <para id="para-00039">c. Are the solutions you found using the two methods close?</para>
         </problem>
         <solution id="sol-00009">
-          <para id="para-00040">Correct! Yes. Solutions were the same: <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>4.949</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>0.051</m:mn></m:mrow></m:math>.</para>
-          <para id="para-00041">Incorrect. The correct answer is Yes. <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>4.949</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>0.051</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00040">Correct! Yes. Solutions were the same: <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4.949</m:mn>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>0.051</m:mn>
+              </m:mrow>
+            </m:math>.</para>
+          <para id="para-00041">Incorrect. The correct answer is Yes. <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4.949</m:mn>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>0.051</m:mn>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
       <exercise id="exer-00007">
         <problem id="prob-00010">
-          <para id="para-00042">4. <m:math><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para><para id="para-00043">a. Find the exact solutions by completing the square.</para>
+          <para id="para-00042">4. <m:math>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>14</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00043">a. Find the exact solutions by completing the square.</para>
           <para id="para-00044">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution id="sol-00010">
           <para id="para-00045">Compare your answer: </para>
-          <para id="para-00046"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>0</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="true" fence="true" form="prefix">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>8</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo stretchy="true" fence="true" form="postfix">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="true" fence="true" form="prefix">(</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>·</m:mi><m:mfrac><m:mrow><m:mn>8</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo stretchy="true" fence="true" form="postfix">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="true" fence="true" form="prefix">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo stretchy="true" fence="true" form="postfix">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="true" fence="true" form="prefix">(</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo stretchy="true" fence="true" form="postfix">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>16</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>14</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>16</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>16</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msup><m:mrow><m:mo stretchy="true" fence="true" form="prefix">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo stretchy="true" fence="true" form="postfix">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:msqrt><m:mrow><m:msup><m:mrow><m:mo stretchy="true" fence="true" form="prefix">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo stretchy="true" fence="true" form="postfix">)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:msqrt><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>9</m:mn></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>±</m:mi><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>2</m:mn></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>x</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac><m:mi>±</m:mi><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>2</m:mn></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para></solution>
+          <para id="para-00046"><m:math>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>8</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>14</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mn>0</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>8</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>14</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>8</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="true" fence="true" form="prefix">(</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mi>·</m:mi>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>8</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="true" fence="true" form="postfix">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>14</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="true" fence="true" form="prefix">(</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mi>·</m:mi>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>8</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="true" fence="true" form="postfix">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>8</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="true" fence="true" form="prefix">(</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="true" fence="true" form="postfix">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>14</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>+</m:mo>
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="true" fence="true" form="prefix">(</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="true" fence="true" form="postfix">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>8</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>16</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>14</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>16</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>8</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>16</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="true" fence="true" form="prefix">(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo>+</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="true" fence="true" form="postfix">)</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mrow>
+                              <m:mo stretchy="true" fence="true" form="prefix">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo>+</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mn>4</m:mn>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mfrac>
+                              <m:mo stretchy="true" fence="true" form="postfix">)</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>9</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mi>±</m:mi>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msqrt>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msqrt>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>x</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>±</m:mi>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msqrt>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msqrt>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-        <para id="para-00075">b. Graph the equation to find approximate solutions.</para>
+      <para id="para-00075">b. Graph the equation to find approximate solutions.</para>
       <para id="para-00047">Use the Desmos graphing tool or technology outside the course.</para>
       <media alt="...">
-        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
+        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400" />
       </media>
       <exercise id="exer-00008">
         <problem id="prob-00011">
@@ -233,11 +1520,11 @@
         <solution id="sol-00011">
           <para id="para-00049">Compare your answer: </para>
           <para id="para-00050">
-                  <media alt="Graph of a parabola on a coordinate grid. The points (negative 1.805, 0) and (negative 0.862, 0) are labeled on the parabola. The x-axis extends from negative 2.6 to approximately 1.2 with a scale of 0.2. The y-axis extends from negative 1.6 to 2.2 with a scale of 0.2.">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_05.jpg"/>
-              </media>
-            
-         </para>
+            <media alt="Graph of a parabola on a coordinate grid. The points (negative 1.805, 0) and (negative 0.862, 0) are labeled on the parabola. The x-axis extends from negative 2.6 to approximately 1.2 with a scale of 0.2. The y-axis extends from negative 1.6 to 2.2 with a scale of 0.2.">
+              <image mime-type="image/jpeg" src="../../media/Algebra-1_10_07_06_05.jpg" />
+            </media>
+
+          </para>
         </solution>
       </exercise>
       <exercise id="b14e169f-7b9e-4e99-ac18-2c18cbeddb81" class="multiple-choice">
@@ -245,58 +1532,316 @@
           <para id="para-00051">c. Are the solutions you found using the two methods close?</para>
         </problem>
         <solution id="sol-00012">
-          <para id="para-00052">Correct! Yes. Solutions were the same: <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>0.862</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>1.805</m:mn></m:mrow></m:math>.</para>
-          <para id="para-00053">Incorrect. The correct answer is Yes. <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>0.862</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>1.805</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00052">Correct! Yes. Solutions were the same: <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>0.862</m:mn>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>1.805</m:mn>
+              </m:mrow>
+            </m:math>.</para>
+          <para id="para-00053">Incorrect. The correct answer is Yes. <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>0.862</m:mn>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>1.805</m:mn>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
-      </exercise></section>
-      <section id="sect-00002">
-        <title>Are you ready for more?</title>
-        <section class="numbered-exercises" id="sect-00005"><title>Extending Your Thinking</title>
-<exercise class="RFM1" id="exer-00009">
+      </exercise>
+    </section>
+    <section id="sect-00002">
+      <title>Are you ready for more?</title>
+      <section class="numbered-exercises" id="sect-00005">
+        <title>Extending Your Thinking</title>
+        <exercise class="RFM1" id="exer-00009">
           <problem id="prob-00013">
-            <para id="para-00054">What quadratic equation of the form <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mi>b</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> would have the solutions <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mi>−</m:mi><m:msqrt><m:mrow><m:mn>2</m:mn></m:mrow></m:msqrt></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn></m:mrow></m:msqrt></m:mrow></m:math>?</para>
+            <para id="para-00054">What quadratic equation of the form <m:math display="inline">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mi>b</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>c</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:math> would have the solutions <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mi>−</m:mi>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math> and <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math>?</para>
           </problem>
           <solution id="sol-00013">
             <para id="para-00055">Enter the quadratic equation.</para>
             <para id="para-00056">Compare your answer: </para>
-            <para id="para-00057"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>23</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>. Working backward, these are solutions to <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>−</m:mi><m:mn>5</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>. In standard form, this is <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>10</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>23</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+            <para id="para-00057"><m:math display="inline">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mi>−</m:mi>
+                  <m:mn>10</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>23</m:mn>
+                  <m:mo>=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:math>. Working backward, these are solutions to <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mi>−</m:mi>
+                  <m:mn>5</m:mn>
+                  <m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>=</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:math>. In standard form, this is <m:math display="inline">
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mi>−</m:mi>
+                  <m:mn>10</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>23</m:mn>
+                  <m:mo>=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:math>.</para>
           </solution>
         </exercise>
       </section>
       <note class="self-check" id="note-00002">
         <exercise id="exer-00011">
           <problem id="prob-00015">
-          <para id="para-00058"><link class="os-embed" url="#exercise/Alg1_9_5_3_SC"/></para>
+            <para id="para-00058"><link class="os-embed" url="#exercise/Alg1_9_5_3_SC" /></para>
           </problem>
-          </exercise>
-         
+        </exercise>
+
       </note>
       <section id="sect-00003">
         <title>Additional Resources</title>
         <section id="sect-00004">
           <title>Using the Calculator for Approximate Solutions</title>
           <para id="para-00059">Let's look at the solutions to the equations from 9.5.2: Additional Resources:</para>
-          <para id="para-00060">A more compact way to write the two solutions to the equation <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math> is: <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:mn>11</m:mn></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+          <para id="para-00060">A more compact way to write the two solutions to the equation <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>=</m:mo>
+                <m:mn>11</m:mn>
+              </m:mrow>
+            </m:math> is: <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>±</m:mi>
+                <m:msqrt>
+                  <m:mrow>
+                    <m:mn>11</m:mn>
+                  </m:mrow>
+                </m:msqrt>
+              </m:mrow>
+            </m:math>.</para>
           <para id="para-00061">How large or small are those numbers? Are they positive or negative? We can use a calculator to compute the approximate values of both expressions:</para>
-          <para id="para-00062"><m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:msqrt><m:mrow><m:mn>11</m:mn></m:mrow></m:msqrt><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>0.683</m:mn></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>−</m:mo><m:msqrt><m:mrow><m:mn>11</m:mn></m:mrow></m:msqrt><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>7.317</m:mn></m:mrow></m:math></para>
-          <para id="para-00063">We can also approximate the solutions by graphing. The equation <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mn>11</m:mn></m:mrow></m:math> is equivalent to <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>11</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, so we can graph the function <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mi>−</m:mi><m:mn>11</m:mn></m:mrow></m:math> and find its zeros by locating the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercepts of the graph.</para>
+          <para id="para-00062"><m:math display="inline">
+              <m:mrow>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>+</m:mo>
+                <m:msqrt>
+                  <m:mrow>
+                    <m:mn>11</m:mn>
+                  </m:mrow>
+                </m:msqrt>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>0.683</m:mn>
+              </m:mrow>
+            </m:math> or <m:math display="inline">
+              <m:mrow>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>−</m:mo>
+                <m:msqrt>
+                  <m:mrow>
+                    <m:mn>11</m:mn>
+                  </m:mrow>
+                </m:msqrt>
+                <m:mo>≈</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>7.317</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00063">We can also approximate the solutions by graphing. The equation <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>=</m:mo>
+                <m:mn>11</m:mn>
+              </m:mrow>
+            </m:math> is equivalent to <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>11</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>, so we can graph the function <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>11</m:mn>
+              </m:mrow>
+            </m:math> and find its zeros by locating the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-intercepts of the graph.</para>
           <para id="para-00064">
-                  <media alt="Graph of a parabola on a coordinate grid. The points (negative 7.317, 0) and (negative 0.683, 0) are labeled on the parabola. The x-axis extends from negative 14 to 6 with a scale of 2. The y-axis extends from negative 14 to 4 with a scale of 2.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_07_08_01.svg"/>
-              </media>
-            
-         </para>
+            <media alt="Graph of a parabola on a coordinate grid. The points (negative 7.317, 0) and (negative 0.683, 0) are labeled on the parabola. The x-axis extends from negative 14 to 6 with a scale of 2. The y-axis extends from negative 14 to 4 with a scale of 2.">
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_10_07_08_01.svg" />
+            </media>
+
+          </para>
           <note class="try" id="note-00003">
             <title>Try It: Using the Calculator for Approximate Solutions</title>
         <exercise id="exer-00010">
               <problem id="prob-00014">
-                <para id="para-00065">Approximate the solutions to <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:mn>19</m:mn></m:mrow></m:msqrt></m:mrow></m:math>.</para>
+                <para id="para-00065">Approximate the solutions to <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mi>±</m:mi>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mn>19</m:mn>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mrow>
+                  </m:math>.</para>
                 <para id="para-00066">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.</para>
               </problem>
               <solution id="sol-00014">
                 <para id="para-00067">Here is how to approximate the solutions:</para>
-                <para id="para-00068"><emphasis>Step 1</emphasis> - Write two expressions. </para><para id="para-00070"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>+</m:mo><m:msqrt><m:mrow><m:mn>19</m:mn></m:mrow></m:msqrt><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn><m:mo>−</m:mo><m:msqrt><m:mrow><m:mn>19</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
-                <para id="para-00069"><emphasis>Step 2</emphasis> - Use the calculator to approximate the solutions to three decimal places. </para><para id="para-00071"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>≈</m:mo><m:mo>−</m:mo><m:mn>1.359</m:mn><m:mo>,</m:mo><m:mi>x</m:mi><m:mo>≈</m:mo><m:mn>7.359</m:mn></m:mrow></m:math></para>
+                <para id="para-00068"><emphasis>Step 1</emphasis> - Write two expressions. </para>
+                <para id="para-00070"><m:math display="inline">
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mn>19</m:mn>
+                        </m:mrow>
+                      </m:msqrt>
+                      <m:mo>,</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo>−</m:mo>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mn>19</m:mn>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mrow>
+                  </m:math></para>
+                <para id="para-00069"><emphasis>Step 2</emphasis> - Use the calculator to approximate the solutions to three decimal places. </para>
+                <para id="para-00071"><m:math display="inline">
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>≈</m:mo>
+                      <m:mo>−</m:mo>
+                      <m:mn>1.359</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>≈</m:mo>
+                      <m:mn>7.359</m:mn>
+                    </m:mrow>
+                  </m:math></para>
               </solution>
             </exercise>
           </note>

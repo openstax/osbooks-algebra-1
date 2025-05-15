@@ -6,23 +6,23 @@
     <md:uuid>eb16de37-9589-4e87-bb88-7e1995c805f9</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
+    <section id="sect-00001">
+      <title>Activity</title>
       <para id="para-00001">Write the following terms and definitions in your math notebook:</para>
       <para id="para-00002">A <term class="glossary-tooltip" id="term-00001">geometric sequence</term>
         is a sequence in which each term is found by multiplying the previous term by the same
         constant. </para>
-      <para id="para-00003">The number that is multiplied by each term is called the <term class="glossary-tooltip" id="term-00002">common ratio</term>.</para>
+      <para id="para-00003">The number that is multiplied by each term is called the <term
+          class="glossary-tooltip" id="term-00002">common ratio</term>.</para>
       <!--Text
       Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00004"> Complete each geometric sequence. </para>
+          <para id="para-00004">1. Complete each geometric sequence. </para>
           <para id="para-00005"> 1.5, 3, 6, _a__, 24, _b__ </para>
+          <para id="para-00006">Enter your answer for blank “a” here: </para>
         </problem>
         <solution id="sol-00001">
-
-          <para id="para-00006">Enter your answer for blank “a” here: </para>
-
           <para id="para-00007">Compare your answer: </para>
 
           <para id="para-00008">12</para>
@@ -56,7 +56,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00012"> 40, 120, 360, __a__, __b__ </para>
+          <para id="para-00012">b. 40, 120, 360, __a__, __b__ </para>
         </problem>
         <solution id="sol-00003">
 
@@ -96,7 +96,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00019"> 200, 20, 2, __a__, 0.02, __b__ </para>
+          <para id="para-00019">c. 200, 20, 2, __a__, 0.02, __b__ </para>
         </problem>
         <solution id="sol-00005">
 
@@ -136,7 +136,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00007">
         <problem id="prob-00007">
-          <para id="para-00026">
+          <para id="para-00026">d. 
             <m:math display="inline">
               <m:mrow>
                 <m:mfrac>
@@ -219,7 +219,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00009">
         <problem id="prob-00009">
-          <para id="para-00034"> 24, 12, 6, __a__, __b__ </para>
+          <para id="para-00034">e. 24, 12, 6, __a__, __b__ </para>
         </problem>
         <solution id="sol-00009">
 
@@ -259,8 +259,8 @@
       Entry Interaction Start -->
       <exercise id="exer-00011">
         <problem id="prob-00011">
-          <para id="para-00042"> For each sequence, find its common ratio.</para>
-          <para id="para-00043"> 1.5, 3, 6, ___, 24, ___ </para>
+          <para id="para-00042">2. For each sequence, find its common ratio.</para>
+          <para id="para-00043">a. 1.5, 3, 6, ___, 24, ___ </para>
         </problem>
         <solution id="sol-00011">
 
@@ -279,7 +279,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00012">
         <problem id="prob-00012">
-          <para id="para-00046"> 40, 120, 360, ___, ___ </para>
+          <para id="para-00046">b. 40, 120, 360, ___, ___ </para>
         </problem>
         <solution id="sol-00012">
 
@@ -294,7 +294,7 @@
 
       <exercise id="exer-00013">
         <problem id="prob-00013">
-          <para id="para-00049"> 200, 20, 2, ___, 0.02, ___ </para>
+          <para id="para-00049">c. 200, 20, 2, ___, 0.02, ___ </para>
         </problem>
         <solution id="sol-00013">
 
@@ -325,7 +325,7 @@
       </para>
       <exercise id="exer-00014">
         <problem id="prob-00014">
-          <para id="para-00053"><m:math display="inline">
+          <para id="para-00053">d. <m:math display="inline">
               <m:mrow>
                 <m:mfrac>
                   <m:mn>1</m:mn>
@@ -371,7 +371,7 @@
       </para>
       <exercise id="exer-00015">
         <problem id="prob-00015">
-          <para id="para-00057"> 24, 12, 6, ___, ___ </para>
+          <para id="para-00057">e. 24, 12, 6, ___, ___ </para>
         </problem>
         <solution id="sol-00015">
 
@@ -398,15 +398,16 @@
       <title>Video: Completing Geometric Sequences</title>
       <para id="para-00061">Watch the following video to learn more about geometric sequences.</para>
       <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/befe818ae5a7e5b370b57698151b35c39b80849f"/>
+        <iframe width="660" height="371.4"
+          src="https://k12.openstax.org/contents/raise/resources/befe818ae5a7e5b370b57698151b35c39b80849f" />
       </media>
     </section>
     <note class="self-check" id="note-00001">
       <exercise id="exer-00017">
         <problem id="prob-00017">
-        <para id="para-00062"><link class="os-embed" url="#exercise/Alg1_4_15_3_SC"/></para>
+          <para id="para-00062"><link class="os-embed" url="#exercise/Alg1_4_15_3_SC" /></para>
         </problem>
-        </exercise> 
+      </exercise>
     </note>
     <section id="sect-00003">
       <title>Additional Resources</title>
@@ -432,8 +433,7 @@
               </m:mrow>
             </m:math> is the common ratio, the
             sequence will be</para>
-          <para id="para-00074">
-            {<m:math display="inline">
+          <para id="para-00074"> {<m:math display="inline">
               <m:mrow>
                 <m:msub>
                   <m:mi>a</m:mi>
@@ -459,7 +459,8 @@
                   <m:mn>2</m:mn>
                 </m:msup>
               </m:mrow>
-            </m:math>, <m:math display="inline">
+            </m:math>
+            , <m:math display="inline">
               <m:mrow>
                 <m:msub>
                   <m:mi>a</m:mi>
@@ -471,7 +472,8 @@
                   <m:mn>3</m:mn>
                 </m:msup>
               </m:mrow>
-            </m:math>. . .}</para>
+            </m:math>.
+            . .}</para>
           <para id="para-00065">How to:</para>
           <para id="para-00066">Given a set of numbers, determine if they represent a geometric
             sequence.</para>
@@ -482,22 +484,24 @@
           </list>
           <para id="para-00067"><emphasis>Example</emphasis></para>
           <para id="para-00068">Is the sequence geometric? If so, find the common ratio.</para>
-          <list class="os-raise-noindent" list-type="enumerated" number-style="lower-alpha" id="list-00002">
+          <list class="os-raise-noindent" list-type="enumerated" number-style="lower-alpha"
+            id="list-00002">
             <item>1, 2, 4, 8, 16, . . .</item>
-            <item>48, 12, 4, 2, . . . <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
+            <item>48, 12, 4, 2, . . .</item>
+        </list>
+        <list class="os-raise-noindent" list-type="enumerated" number-style="lower-alpha" id="list-00003">
                 <item>Is a geometric sequence. Each term is multiplied by 2, so 2 is the common
               ratio. </item>
                 <item>This is not geometric because each term is not multiplied by the same
               constant. There is not a common ratio. </item>
               </list>
-            </item>
-          </list>
         </section>
         <note class="try" id="note-00002">
           <title>Try It: Finding a Common Ratio</title>
     <para id="para-00069">Is the sequence
           geometric? If so, find the common ratio.</para>
-    <para id="para-00070">100, 20, 4, <m:math display="inline">
+    <para id="para-00070">100, 20, 4, <m:math
+              display="inline">
               <m:mrow>
                 <m:mfrac>
                   <m:mn>4</m:mn>

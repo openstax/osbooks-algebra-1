@@ -6,7 +6,7 @@
     <md:uuid>32aa66ab-354b-47dd-b0f5-d3c5e7a8f3b4</md:uuid>
   </metadata>
   <content>
-  <section class="numbered-exercises" id="sect-00001"><title>Activity</title>
+  <section id="sect-00001"><title>Activity</title>
 <para id="para-00001">Here are the values of the first 5 terms of 3 sequences:</para>
 <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
   <item>
@@ -24,9 +24,9 @@
       Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00002"> For each sequence, describe a way to produce a new term from the
+          <para id="para-00002">1. For each sequence, describe a way to produce a new term from the
             previous term. </para>
-          <para id="para-00003"> 30, 40, 50, 60, 70, . . . </para>
+          <para id="para-00003">A. 30, 40, 50, 60, 70, . . . </para>
 
         </problem>
         <solution id="sol-00001">
@@ -46,7 +46,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00006"> 0, 5, 15, 30, 50, . . . </para>
+          <para id="para-00006">B. 0, 5, 15, 30, 50, . . . </para>
         </problem>
         <solution id="sol-00002">
 
@@ -66,7 +66,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00009"> 1, 2, 4, 8, 16, . . . </para>
+          <para id="para-00009">C. 1, 2, 4, 8, 16, . . . </para>
         </problem>
         <solution id="sol-00003">
 
@@ -85,7 +85,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00012"> If the patterns you described continue, which sequence has the
+          <para id="para-00012">2. If the patterns you described continue, which sequence has the
             second-greatest value for the 10th term? </para>
         </problem>
         <solution id="sol-00004">
@@ -105,7 +105,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00015"> Which of these could be geometric sequences? Explain how you know. </para>
+          <para id="para-00015">3. Which of these could be geometric sequences? Explain how you know. </para>
         </problem>
         <solution id="sol-00005">
 
@@ -129,7 +129,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00006">
-          <para id="para-00019"> Which of these could be arithmetic sequences? Explain how you know. </para>
+          <para id="para-00019">4. Which of these could be arithmetic sequences? Explain how you know. </para>
         </problem>
         <solution id="sol-00006">
 
@@ -157,7 +157,7 @@
     </section>
     <section id="sect-00003">
       <title>Are you ready for more?</title>
-      <section class="numbered-exercises" id="sect-00004"><title>Extending Your Thinking</title>
+      <section id="sect-00004"><title>Extending Your Thinking</title>
         <!--Start
         interaction.  If multiple interactions appear under "are you ready for more?, they should all
         have matching "data-wait-for-event", which should also match the "data-fire-event" for the
@@ -300,16 +300,14 @@
           </m:math></para>
         <para id="para-00036">Example</para>
         <para id="para-00037">Is each sequence arithmetic? If so, find the common difference.</para>
-        <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
+        <list class="os-raise-noindent" list-type="enumerated" number-style="lower-alpha" id="list-00003">
           <item>{1, 2, 4, 8, 16, . . .} </item>
           <item>{3, 1, 5, 9, 13, . . .} </item>
         </list>
         <para id="para-00038">Subtract each term from the subsequent term to determine whether a
           common difference exists.</para>
-        <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
-          <item>The sequence is not arithmetic because there is no common difference. </item>
-        </list>
-        <para id="para-00039">
+        <para>a. The sequence is not arithmetic because there is no common difference. </para>
+
           <quote id="quote-00001"><m:math display="inline">
               <m:mrow>
                 <m:mn>2</m:mn>
@@ -344,12 +342,9 @@
               </m:mrow>
             </m:math>
           </quote>
-        </para>
-        <list class="os-raise-noindent" list-type="enumerated" id="list-00005">
-          <item>The sequence is arithmetic because there is a common difference. The common
-            difference is 4. </item>
-        </list>
-        <para id="para-00040">
+
+        <para>b. The sequence is arithmetic because there is a common difference. The common
+            difference is 4. </para>
           <quote id="quote-00002"><m:math display="inline">
               <m:mrow>
                 <m:mn>1</m:mn>
@@ -387,7 +382,7 @@
               </m:mrow>
             </m:math>
           </quote>
-        </para>
+
         <note class="try" id="note-00002">
           <title>Try It: Arithmetic Sequences</title>
     <para id="para-00041">Is the given sequence

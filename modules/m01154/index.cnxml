@@ -6,126 +6,168 @@
     <md:uuid>0e2ed49d-b293-4c03-89c8-8cf1c31e03d3</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
+    <section id="sect-00001">
+      <title>Activity</title>
       <para id="para-00001">Jada and Mai are trying to decide what type of sequence this could be:</para>
       <table class="unnumbered os-raise-midsizetable" id="table-00001">
-        <tgroup cols="2"><tbody><row>
-            <entry>
-             <emphasis>term number</emphasis>
-            </entry>
-            <entry>
-             <emphasis>value</emphasis>
-            </entry>
-          </row>
-        <row>
-            <entry>
-        1
-      </entry>
-            <entry>
-        2
-      </entry>
-          </row>
-          <row>
-            <entry>
-      2
-      </entry>
-            <entry>
-        6
-      </entry>
-          </row>
-          <row>
-            <entry>
-        5
-      </entry>
-            <entry>
-        18
-      </entry>
-          </row>
-        </tbody></tgroup></table>
-      <para id="para-00002">Jada says: “I think this sequence is geometric because in the value column, each row is 3 times the previous row.”</para>
-      <para id="para-00003">Mai says: “I don’t think it is geometric. I graphed it, and it doesn’t look geometric.”</para>
-      <!--Text Entry Interaction Start -->
+        <tgroup cols="2">
+          <tbody>
+            <row>
+              <entry>
+                <emphasis>term number</emphasis>
+              </entry>
+              <entry>
+                <emphasis>value</emphasis>
+              </entry>
+            </row>
+            <row>
+              <entry> 1 </entry>
+              <entry> 2 </entry>
+            </row>
+            <row>
+              <entry> 2 </entry>
+              <entry> 6 </entry>
+            </row>
+            <row>
+              <entry> 5 </entry>
+              <entry> 18 </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="para-00002">Jada says: “I think this sequence is geometric because in the value
+        column, each row is 3 times the previous row.”</para>
+      <para id="para-00003">Mai says: “I don’t think it is geometric. I graphed it, and it doesn’t
+        look geometric.”</para>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00004">Do you agree with Jada or Mai? Be prepared to show your reasoning using a graph.</para>
-          
+          <para id="para-00004">Do you agree with Jada or Mai? Be prepared to show your reasoning
+            using a graph.</para>
+
         </problem>
         <solution id="sol-00001">
           <para id="para-00005">Compare your answer: </para>
-          <para id="para-00006">I agree with Mai. Jada noticed that each value is multiplied by 3 to get to the next row, but the table skips terms. If the sequence were geometric, it would have to be 2, 6, 18, 54, 162. When Mai made a graph, she could see the gap in the sequence.
-  </para>
+          <para id="para-00006">I agree with Mai. Jada noticed that each value is multiplied by 3 to
+            get to the next row, but the table skips terms. If the sequence were geometric, it would
+            have to be 2, 6, 18, 54, 162. When Mai made a graph, she could see the gap in the
+            sequence. </para>
           <para id="para-00007">
-                  <media alt="A scatter plot with term number on the x-axis (0 to 6) and value on the y-axis (0 to 30). Points are at (1, 2), (2, 6), and (5, 18).">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_19_06_01.svg"/>
-              </media>
-            
-        </para>
-          <para id="para-00008">Without knowing the missing terms, we don’t know for sure if the sequence is arithmetic, but it could be since the three given points are all on the same line with slope 4. The missing points could be <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>14</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> so that the sequence would be 2, 6, 10, 14, 18.</para>
+            <media
+              alt="A scatter plot with term number on the x-axis (0 to 6) and value on the y-axis (0 to 30). Points are at (1, 2), (2, 6), and (5, 18).">
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_19_06_01.svg" />
+            </media>
+
+          </para>
+          <para id="para-00008">Without knowing the missing terms, we don’t know for sure if the
+            sequence is arithmetic, but it could be since the three given points are all on the same
+            line with slope 4. The missing points could be <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>14</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> so that
+            the sequence would be 2, 6, 10, 14, 18.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
     </section>
     <note class="self-check" id="note-00001">
       <exercise id="exer-00003">
         <problem id="prob-00003">
-        <para id="para-00009"><link class="os-embed" url="#exercise/Alg1_4_16_3_SC"/></para>
+          <para id="para-00009"><link class="os-embed" url="#exercise/Alg1_4_16_3_SC" /></para>
         </problem>
-        </exercise>  
+      </exercise>
     </note>
-      <section id="sect-00002">
-        <title>Additional Resources</title>
-        
-  <section id="sect-00003"><title>Creating a Sequence</title>
-    <para id="para-00011">For a sequence: 1, 3, . . .</para>
-    <para id="para-00012">Write the next two terms that would make the sequence</para>
-    <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-      <item>
-        geometric
-     </item>
-      <item>
-        arithmetic
-     </item>
-    </list>
-    <para id="para-00013"><emphasis>Solution</emphasis></para>
-    <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-      <item>
-        To make the sequence geometric, there must be a common ratio.
-        <m:math display="inline"><m:mrow><m:mn>1</m:mn><m:mi>·</m:mi><m:mn>3</m:mn><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, so use a common ratio of 3 to multiply each term by.
-        The sequence becomes: 1, 3, 9, 27 . . .
-     </item>
-    </list>
-    <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
-      <item>
-        To make the sequence arithmetic, there must be a common difference.
-        <m:math display="inline"><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>, so use a common difference of 2 to add to each term.
-        The sequence becomes: 1, 3, 5, 7 . . .</item>
-    </list>
-    <note class="try" id="note-00002">
-    <title>Try It: Creating a Sequence</title>
-    <para id="para-00014">Write the next two terms to create an arithmetic sequence.</para>
+    <section id="sect-00002">
+      <title>Additional Resources</title>
+
+      <section id="sect-00003">
+        <title>Creating a Sequence</title>
+        <para id="para-00011">For a sequence: 1, 3, . . .</para>
+        <para id="para-00012">Write the next two terms that would make the sequence</para>
+        <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
+          <item> geometric </item>
+          <item> arithmetic </item>
+        </list>
+        <para id="para-00013"><emphasis>Solution</emphasis></para>
+        <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
+          <item> To make the sequence geometric, there must be a common ratio. <m:math
+              display="inline">
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mi>·</m:mi>
+                <m:mn>3</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>, so use a common ratio of
+            3 to multiply each term by. The sequence becomes: 1, 3, 9, 27 . . . </item>
+          <item> To make the sequence arithmetic, there must be a common difference. <m:math
+              display="inline">
+              <m:mrow>
+                <m:mn>3</m:mn>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>, so use a common
+            difference of 2 to add to each term. The sequence becomes: 1, 3, 5, 7 . . .</item>
+        </list>
+        <note class="try" id="note-00002">
+          <title>Try It: Creating a Sequence</title>
+    <para id="para-00014">Write the next two terms
+          to create an arithmetic sequence.</para>
     
     <exercise id="exer-00002">
-      <problem id="prob-00002">
-        
-        <para id="para-00015">2, 6, . . .</para>
-      
-      <para id="para-00016">Write down your answer, then select the <emphasis>solution</emphasis> button to compare your work.
-      </para>
-      
-      </problem><solution id="sol-00002">
-      <para id="para-00017">Here is how to create an arithmetic sequence given two terms:</para>
-      
-      <para id="para-00018">Find the common difference by subtracting the first term from the second term:</para>
-      
-      <para id="para-00019"><m:math><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para><para id="para-00020">The common difference is 4.</para>
-      
-      <para id="para-00021">Add 4 to the previous term to find the next terms.</para>
-      
-      <para id="para-00022">The sequence becomes: 2, 6, 10, 14 . . .</para>
-    
-    </solution></exercise></note>
-    </section>
+            <problem id="prob-00002">
+
+              <para id="para-00015">2, 6, . . .</para>
+
+              <para id="para-00016">Write down your answer, then select the <emphasis>solution</emphasis>
+          button to compare your work. </para>
+
+            </problem>
+            <solution id="sol-00002">
+              <para id="para-00017">Here is how to create an arithmetic sequence given two terms:</para>
+
+              <para id="para-00018">Find the common difference by subtracting the first term from
+          the second term:</para>
+
+              <para id="para-00019"><m:math>
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00020">The common difference is 4.</para>
+
+              <para id="para-00021">Add 4 to the previous term to find the next terms.</para>
+
+              <para id="para-00022">The sequence becomes: 2, 6, 10, 14 . . .</para>
+
+            </solution>
+          </exercise></note>
       </section>
-      
+    </section>
+
   </content>
 </document>

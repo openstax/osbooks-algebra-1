@@ -6,67 +6,207 @@
     <md:uuid>43b50209-567b-428f-a1e0-5c043274b51d</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">A Sierpinski triangle can be created by starting with an equilateral triangle, breaking the triangle into 4 congruent equilateral triangles, and then removing the middle triangle. Starting from a single black equilateral triangle:</para>
+    <section id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">A Sierpinski triangle can be created by starting with an equilateral
+        triangle, breaking the triangle into 4 congruent equilateral triangles, and then removing
+        the middle triangle. Starting from a single black equilateral triangle:</para>
       <para id="para-00002">
-          <media alt="Four triangles show the stages of creating a Sierpinski triangle: the first is solid black, and each subsequent triangle has progressively smaller white triangles cut out, forming a fractal pattern.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_21_03_01.svg"/>
-          </media>
-        
-    </para>
-      <!--Text Entry Interaction Start -->
+        <media
+          alt="Four triangles show the stages of creating a Sierpinski triangle: the first is solid black, and each subsequent triangle has progressively smaller white triangles cut out, forming a fractal pattern.">
+          <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_21_03_01.svg" />
+        </media>
+
+      </para>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00003">
-        Let <m:math display="inline"><m:mrow><m:mi>S</m:mi></m:mrow></m:math> be the number of black triangles in Step <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>. Define <m:math display="inline"><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> recursively.
-    </para>
-          
+          <para id="para-00003">1. Let <m:math display="inline">
+              <m:mrow>
+                <m:mi>S</m:mi>
+              </m:mrow>
+            </m:math> be the number of black
+            triangles in Step <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+              </m:mrow>
+            </m:math>. Define <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>S</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>
+            recursively. </para>
+
         </problem>
         <solution id="sol-00001">
           <para id="para-00004">Compare your answers:</para>
-          <para id="para-00005"><m:math display="inline"><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>3</m:mn><m:mi>·</m:mi><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mi>−</m:mi><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00005"><m:math display="inline">
+              <m:mrow>
+                <m:mi>S</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>, <m:math display="inline">
+              <m:mrow>
+                <m:mi>S</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>·</m:mi>
+                <m:mi>S</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mi>−</m:mi>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> for <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
-      <!--Text Entry Interaction Start -->
+      <!--Interaction
+      End -->
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00006">
-        Andre and Lin are asked to write an equation for <m:math display="inline"><m:mrow><m:mi>S</m:mi></m:mrow></m:math> that isn’t recursive. Andre writes <m:math display="inline"><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:msup></m:mrow></m:math> for <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>0</m:mn></m:mrow></m:math>, while Lin writes <m:math display="inline"><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mi>n</m:mi></m:msup><m:mi>−</m:mi><m:mn>1</m:mn></m:mrow></m:math> for <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>≥</m:mo><m:mn>1</m:mn></m:mrow></m:math>. Whose equation do you think is correct? Be prepared to show your reasoning.
-    </para>
-          
+          <para id="para-00006">2. Andre and Lin are asked to write an equation for <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>S</m:mi>
+              </m:mrow>
+            </m:math> that isn’t recursive.
+            Andre writes <m:math display="inline">
+              <m:mrow>
+                <m:mi>S</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mi>n</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            for <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>, while Lin writes <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>S</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mi>n</m:mi>
+                </m:msup>
+                <m:mi>−</m:mi>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math> for <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math>. Whose equation do you
+            think is correct? Be prepared to show your reasoning. </para>
+
         </problem>
         <solution id="sol-00002">
           <para id="para-00007">Compare your answers:</para>
-          <para id="para-00008">They are both correct. For example: Lin is correct because if the image shows Steps 1 to 4, her equation gives the correct number of triangles for each step. Andre is correct since if we start with the black triangle, which is like Step 0, then Step 1 is the one with 3 triangles and Step 2 has 9 triangles, and those numbers match his equation.
-  </para>
+          <para id="para-00008">They are both correct. For example: Lin is correct because if the
+            image shows Steps 1 to 4, her equation gives the correct number of triangles for each
+            step. Andre is correct since if we start with the black triangle, which is like Step 0,
+            then Step 1 is the one with 3 triangles and Step 2 has 9 triangles, and those numbers
+            match his equation. </para>
         </solution>
       </exercise>
-      <!--Interaction End --></section>
-      <section id="sect-00002">
+      <!--Interaction
+      End -->
+    </section>
+    <section id="sect-00002">
       <title>Video: Learning About Sierpinski’s Triangle</title>
-      <para id="para-00009">Watch the following video to learn more about how to write a pattern as an nth term.</para>
+      <para id="para-00009">Watch the following video to learn more about how to write a pattern as
+        an nth term.</para>
       <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://k12.openstax.org/contents/raise/resources/17bb2699a589cb2724aca3802df06b559f5373eb"/>
-      </media></section>
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-      <section id="sect-00003">
-        <title>Are you ready for more?</title>
-          <section class="numbered-exercises" id="sect-00004"><title>Extending Your Thinking</title>
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1" id="exer-00003">
-        <problem id="prob-00003">
-          <para id="para-00010">Here is a geometric sequence. Find the missing terms.</para>
-          <para id="para-00011">3, ____, 6, ____, 12, ____, 24</para>
-          
-        </problem>
-        <solution id="sol-00003">
-          <para id="para-00012">Compare your answers:</para>
-          <para id="para-00013"><m:math display="inline"><m:mrow><m:mn>3</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mn>12</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mrow></m:math> or equivalent</para>
-        </solution>
-      </exercise>
-      <!--End interaction-->
-    </section></section>
+        <iframe width="660" height="371.4"
+          src="https://k12.openstax.org/contents/raise/resources/17bb2699a589cb2724aca3802df06b559f5373eb" />
+      </media>
+    </section>
+    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+    will need to change the Data-fire/data-wait-for-events for each set.-->
+
+    <section id="sect-00003">
+      <title>Are you ready for more?</title>
+      <section id="sect-00004">
+        <title>Extending Your Thinking</title>
+        <!--Start
+        interaction.  If multiple interactions appear under "are you ready for more?, they should all
+        have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+        button. Note in this sample, they are all RFM1-->
+        <exercise class="RFM1" id="exer-00003">
+          <problem id="prob-00003">
+            <para id="para-00010">Here is a geometric sequence. Find the missing terms.</para>
+            <para id="para-00011">3, ____, 6, ____, 12, ____, 24</para>
+
+          </problem>
+          <solution id="sol-00003">
+            <para id="para-00012">Compare your answers:</para>
+            <para id="para-00013"><m:math display="inline">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:msqrt>
+                    <m:mn>2</m:mn>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math>
+              , <m:math display="inline">
+                <m:mrow>
+                  <m:mn>6</m:mn>
+                  <m:msqrt>
+                    <m:mn>2</m:mn>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math>
+              , <m:math display="inline">
+                <m:mrow>
+                  <m:mn>12</m:mn>
+                  <m:msqrt>
+                    <m:mn>2</m:mn>
+                  </m:msqrt>
+                </m:mrow>
+              </m:math>
+              or equivalent</para>
+          </solution>
+        </exercise>
+        <!--End
+        interaction-->
+      </section>
+    </section>
   </content>
 </document>

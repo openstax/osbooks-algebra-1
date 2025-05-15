@@ -6,11 +6,9 @@
     <md:uuid>d52adfa3-7c8a-4c15-ad31-754facf22fee</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00002">      <title>Activity</title>
-      <para id="para-00034">If there is no common term in all of the terms of a polynomial, it may
-        be possible to factor by grouping. To do this, separate the polynomial into two parts with
-        two terms in each part. Then look for the GCF in each part. If the polynomial can be
-        factored, you will find that a common factor emerges from both parts.</para>
+    <section id="sect-00002">
+      <title>Activity</title>
+      <para id="para-00034">If there is no common term in all of the terms of a polynomial, it may be possible to factor by grouping. To do this, separate the polynomial into two parts with two terms in each part. Then look for the GCF in each part. If the polynomial can be factored, you will find that a common factor emerges from both parts.</para>
       <para id="para-00036">Let’s look at an example. Factor the following polynomial.</para>
 
       <exercise id="exer-00001">
@@ -29,14 +27,12 @@
                 <m:mn>28</m:mn>
               </m:mrow>
             </m:math></para>
-          <para id="para-00051">Write down your answer. Then select the <emphasis>solution</emphasis>
-            button to compare your work.</para>
+          <para id="para-00051">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
         </problem>
         <solution id="sol-00002">
           <para id="para-00052">Compare your answer: </para>
           <para id="para-00053"><emphasis>Step 1</emphasis> - Group terms with common factors.</para>
-          <para id="para-00054">Is there a GCF of all four terms? No, so let’s separate the first
-            two terms from the second two.</para>
+          <para id="para-00054">Is there a GCF of all four terms? No, so let’s separate the first two terms from the second two.</para>
           <para id="para-00055"><m:math display="inline">
               <m:mrow>
                 <m:mi>m</m:mi>
@@ -54,10 +50,8 @@
     <media alt="The expression ms minus 4m plus 7s minus 28 with red brackets grouping ms minus 4m and 7s minus 28 separately underneath.">
               <image mime-type="image/jpeg" src="../../media/Algebra-1_07_07_09_01.jpg"/>
             </media></para>
-          <para id="para-00056"><emphasis>Step 2</emphasis> - Factor out the common factor in each
-            group.</para>
-          <para id="para-00057">Factor the GCF from the first two terms. Factor the GCF from the
-            second two terms.</para>
+          <para id="para-00056"><emphasis>Step 2</emphasis> - Factor out the common factor in each group.</para>
+          <para id="para-00057">Factor the GCF from the first two terms. Factor the GCF from the second two terms.</para>
           <para id="para-00016"><m:math display="inline">
               <m:mrow>
                 <m:mi>m</m:mi>
@@ -90,8 +84,7 @@
                 <m:mo stretchy="false">)</m:mo>
               </m:mrow>
             </m:math></para>
-          <para id="para-00059"><emphasis>Step 3</emphasis> - Factor the common factor from the
-            expression.</para>
+          <para id="para-00059"><emphasis>Step 3</emphasis> - Factor the common factor from the expression.</para>
           <para id="para-00060">Notice that each term has a common factor of <m:math display="inline">
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
@@ -100,8 +93,7 @@
                 <m:mn>4</m:mn>
                 <m:mo stretchy="false">)</m:mo>
               </m:mrow>
-            </m:math>. Factor
-            out the common factor.</para>
+            </m:math>. Factor out the common factor.</para>
           <para id="para-00027"><m:math display="inline">
               <m:mrow>
                 <m:mi>m</m:mi>
@@ -171,8 +163,7 @@
                 <m:mn>7</m:mn>
                 <m:mo stretchy="false">)</m:mo>
               </m:mrow>
-            </m:math>. Is the
-            product the original expression?</para>
+            </m:math>. Is the product the original expression?</para>
           <para id="para-00031"><m:math display="inline">
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
@@ -224,7 +215,8 @@
             </m:math></para>
         </solution>
       </exercise>
-
+    </section>
+    <section class="numbered-exercises" id="sect-00005">
       <para id="para-00065">Work on the following exercises individually.</para>
       <para id="para-00066">Factor by grouping:</para>
       <!--Text
@@ -574,20 +566,16 @@
     <note class="self-check" id="note-00002">
       <exercise id="exer-00011">
         <problem id="prob-00011">
-        <para id="para-00093"><link class="os-embed" url="#exercise/Alg1_6_4_4_SC"/></para>
+          <para id="para-00093"><link class="os-embed" url="#exercise/Alg1_6_4_4_SC"/></para>
         </problem>
-        </exercise>
+      </exercise>
     </note>
 
     <section id="sect-00004">
       <title>Additional Resources</title>
       <section id="sect-00001">
         <title>Factoring Polynomials by Grouping</title>
-        <para id="para-00001">Sometimes there is no common factor of all the terms of a polynomial.
-          When there are four terms, we separate the polynomial into two parts with two terms in
-          each part. Then we look for the GCF in each part. If the polynomial can be factored, you
-          will find that a common factor emerges from both parts. Not all polynomials can be
-          factored. Just like some numbers are prime, some polynomials are prime.</para>
+        <para id="para-00001">Sometimes there is no common factor of all the terms of a polynomial. When there are four terms, we separate the polynomial into two parts with two terms in each part. Then we look for the GCF in each part. If the polynomial can be factored, you will find that a common factor emerges from both parts. Not all polynomials can be factored. Just like some numbers are prime, some polynomials are prime.</para>
         <para id="para-00002"><emphasis>Example 1</emphasis></para>
         <para id="para-00003">Factor by grouping: <m:math display="inline">
             <m:mrow>
@@ -623,8 +611,7 @@
         <media alt="Mathematical expression xy + 3y + 2x + 6 with two teal brackets below, one grouping xy + 3y and the other grouping 2x + 6.">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_07_11_01.jpg" width="200"/>
         </media>
-        <para id="para-00007"><emphasis>Step 2</emphasis> - Factor out the common factor in each
-          group.</para>
+        <para id="para-00007"><emphasis>Step 2</emphasis> - Factor out the common factor in each group.</para>
         <para id="para-00008"> Factor the GCF from the first two terms.</para>
         <media alt="Mathematical expression: y times the quantity x plus 3, plus 2x plus 6; a teal bracket underneath highlights the terms 2x plus 6.">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_07_07_11_02.jpg" width="200"/>
@@ -647,8 +634,7 @@
               <m:mo stretchy="false">)</m:mo>
             </m:mrow>
           </m:math></para>
-        <para id="para-00010"><emphasis>Step 3</emphasis> - Factor the common factor from the
-          expression.</para>
+        <para id="para-00010"><emphasis>Step 3</emphasis> - Factor the common factor from the expression.</para>
         <para id="para-00011"> Notice that each term has a common factor of <m:math display="inline">
             <m:mrow>
               <m:mo stretchy="false">(</m:mo>
@@ -728,8 +714,7 @@
               <m:mn>2</m:mn>
               <m:mo stretchy="false">)</m:mo>
             </m:mrow>
-          </m:math>. Is the
-          product the original expression?</para>
+          </m:math>. Is the product the original expression?</para>
         <para id="para-00089"><m:math display="inline">
             <m:mrow>
               <m:mo stretchy="false">(</m:mo>
@@ -776,12 +761,9 @@
         <para id="para-00017"><emphasis>How to factor by grouping:</emphasis></para>
         <note id="note-00001">
           <para id="para-00018"><emphasis>Step 1</emphasis> - Group terms with common factors.</para>
-              <para id="para-00019"><emphasis>Step 2</emphasis> - Factor out the common factor in each
-          group.</para>
-              <para id="para-00020"><emphasis>Step 3</emphasis> - Factor the common factor
-          from the expression.</para>
-              <para id="para-00021"><emphasis>Step 4</emphasis> - Check by
-          multiplying the factors.</para>
+              <para id="para-00019"><emphasis>Step 2</emphasis> - Factor out the common factor in each group.</para>
+              <para id="para-00020"><emphasis>Step 3</emphasis> - Factor the common factor from the expression.</para>
+              <para id="para-00021"><emphasis>Step 4</emphasis> - Check by multiplying the factors.</para>
         </note>
         <para id="para-00022"><emphasis>Example 2</emphasis></para>
         <para id="para-00023">Factor by grouping: <m:math display="inline">
@@ -841,8 +823,7 @@
               <m:mn>6</m:mn>
             </m:mrow>
           </m:math></para>
-        <para id="para-00028"><emphasis>Step 3</emphasis> - Factor the GCF from both parts. Be
-          careful with the signs when factoring the GCF from the last two terms.</para>
+        <para id="para-00028"><emphasis>Step 3</emphasis> - Factor the GCF from both parts. Be careful with the signs when factoring the GCF from the last two terms.</para>
         <para id="para-00097"><m:math display="inline">
             <m:mrow>
               <m:mi>x</m:mi>
@@ -882,7 +863,7 @@
               <exercise id="exer-00010">
             <problem id="prob-00001">
               <para id="para-00033">Factor by grouping:</para>
-              <para id="para-00099"><m:math>
+              <para id="para-00099">1. <m:math>
                   <m:mrow>
                     <m:mi>x</m:mi>
                     <m:mi>y</m:mi>
@@ -896,7 +877,7 @@
                     <m:mn>24</m:mn>
                   </m:mrow>
                 </m:math></para>
-              <para id="para-00100"><m:math>
+              <para id="para-00100">2. <m:math>
                   <m:mrow>
                     <m:mn>6</m:mn>
                     <m:msup>
@@ -913,15 +894,13 @@
                     <m:mn>2</m:mn>
                   </m:mrow>
                 </m:math></para>
-              <para id="para-00038">Write down your answers. Then select the <emphasis>solution</emphasis>
-          button to compare your work.</para>
+              <para id="para-00038">Write down your answers. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
             </problem>
             <solution id="sol-00001">
               <para id="para-00039">Here is how to factor polynomials by grouping.</para>
               <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
                 <item>
-                  <para id="para-00040"><emphasis>Step 1</emphasis> - There is no GCF in all four
-          terms.</para>
+                  <para id="para-00040"><emphasis>Step 1</emphasis> - There is no GCF in all four terms.</para>
                       <para id="para-00041">
                     <m:math display="inline">
                       <m:mrow>
@@ -938,8 +917,7 @@
                       </m:mrow>
                     </m:math>
               
-             <emphasis>Step
-          2 </emphasis>- Separate into two parts.</para>
+             <emphasis>Step 2 </emphasis>- Separate into two parts.</para>
                       <para id="para-00042">
                     <m:math display="inline">
                       <m:mrow>
@@ -963,8 +941,7 @@
                       </m:mrow>
                     </m:math>
               
-             <emphasis>Step
-          3 </emphasis>- Factor the GCF from both parts.</para>
+             <emphasis>Step 3 </emphasis>- Factor the GCF from both parts.</para>
                       <para id="para-00043">
                     <m:math display="inline">
                       <m:mrow>
@@ -984,8 +961,7 @@
                       </m:mrow>
                     </m:math>
               
-             <emphasis>Step
-          4 </emphasis>- Factor out the common factor.</para>
+             <emphasis>Step 4 </emphasis>- Factor out the common factor.</para>
                       <para id="para-00044">
                     <m:math display="inline">
                       <m:mrow>
@@ -1002,14 +978,12 @@
                       </m:mrow>
                     </m:math>
               
-             <emphasis>Step
-          5 </emphasis>- Check on your own by multiplying.</para>
+             <emphasis>Step 5 </emphasis>- Check on your own by multiplying.</para>
                 </item>
               </list>
               <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
                 <item>
-                  <para id="para-00045"><emphasis>Step 1</emphasis> - There is no GCF in all four
-          terms.</para>
+                  <para id="para-00045"><emphasis>Step 1</emphasis> - There is no GCF in all four terms.</para>
                       <para id="para-00046">
                     <m:math display="inline">
                       <m:mrow>
@@ -1029,8 +1003,7 @@
                       </m:mrow>
                     </m:math>
               
-             <emphasis>Step
-          2 </emphasis>- Separate into two parts.</para>
+             <emphasis>Step 2 </emphasis>- Separate into two parts.</para>
                       <para id="para-00047">
                     <m:math display="inline">
                       <m:mrow>
@@ -1057,8 +1030,7 @@
                       </m:mrow>
                     </m:math>
               
-             <emphasis>Step
-          3 </emphasis>- Factor the GCF from both parts.</para>
+             <emphasis>Step 3 </emphasis>- Factor the GCF from both parts.</para>
                       <para id="para-00048">
                     <m:math display="inline">
                       <m:mrow>
@@ -1081,8 +1053,7 @@
                       </m:mrow>
                     </m:math>
               
-             <emphasis>Step
-          4 </emphasis>- Factor out the common factor.</para>
+             <emphasis>Step 4 </emphasis>- Factor out the common factor.</para>
                       <para id="para-00049">
                     <m:math display="inline">
                       <m:mrow>
@@ -1101,8 +1072,7 @@
                       </m:mrow>
                     </m:math>
               
-             <emphasis>Step
-          5 </emphasis>- Check on your own by multiplying.</para>
+             <emphasis>Step 5 </emphasis>- Check on your own by multiplying.</para>
                 </item>
               </list>
             </solution>

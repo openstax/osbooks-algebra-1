@@ -6,58 +6,287 @@
     <md:uuid>c2a605eb-80ad-49fe-a8ba-2f0b47ee672f</md:uuid>
   </metadata>
   <content>
-    <section class="practice" id="sect-00001"><title>Warm Up</title>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Warm Up</title>
       <para id="para-00001">
-          <media alt="Graphs of two parabolas on coordinate plane with unlabeled axes.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_19_02_01.svg"/>
-          </media>
-        
-    </para>
-      <para id="para-00002">Here are graphs representing the functions <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> given by <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>.</para>
-      
-        <exercise id="exer-00001">
-          <problem id="prob-00001">
-            <para id="para-00003">Which graph represents <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>? How do you know?</para>
-            <para id="para-00004">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00001">
-            <para id="para-00005">Compare your answer: </para>
-            <para id="para-00006">The lower graph (which goes through the origin) is the graph of <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math>.</para>
-            <list id="list-00001">
-              <item>The value of <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> is always 4 greater than the value of <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math>, no matter which value of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> we choose.</item>
-              <item>Rewriting the equation in standard form gives <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi></m:mrow></m:math>. This form shows that the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept of the graph representing <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> is <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
-              <item>The expression that defines function <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> is in factored form. It shows that the two <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-intercepts are <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
-            </list>
-          </solution>
-        </exercise>
-      
-      
-        <exercise id="exer-00002">
-          <problem id="prob-00002">
-            <para id="para-00007">Which graph represents <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>? How do you know?</para>
-            <para id="para-00008">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
-          </problem>
-          <solution id="sol-00002">
-            <para id="para-00009">Compare your answer: </para>
-            <para id="para-00010"><emphasis>Answer:</emphasis> The lower graph (which goes through the origin) is the graph of <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> and the upper one is the graph of <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math>.</para>
-            <list id="list-00002">
-              <item>The value of <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> is always 4 greater than the value of <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math>, no matter which value of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> we choose.</item>
-              <item>Rewriting the equation in standard form gives <m:math display="inline"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>4</m:mn></m:mrow></m:math>.This form shows that the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept of the graph representing <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> is <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</item>
-            </list>
-          </solution>
-        </exercise>
-      
+        <media alt="Graphs of two parabolas on coordinate plane with unlabeled axes.">
+          <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_19_02_01.svg" />
+        </media>
+
+      </para>
+      <para id="para-00002">Here are graphs representing the functions <m:math display="inline">
+          <m:mrow>
+            <m:mi>f</m:mi>
+          </m:mrow>
+        </m:math> and <m:math display="inline">
+          <m:mrow>
+            <m:mi>g</m:mi>
+          </m:mrow>
+        </m:math> given by <m:math display="inline">
+          <m:mrow>
+            <m:mi>f</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo stretchy="false">)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>6</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math> and <m:math display="inline">
+          <m:mrow>
+            <m:mi>g</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo stretchy="false">)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>6</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+            <m:mo>+</m:mo>
+            <m:mn>4</m:mn>
+          </m:mrow>
+        </m:math>.</para>
+
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00003">Which graph represents <m:math display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>? How do you know?</para>
+          <para id="para-00004">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution id="sol-00001">
+          <para id="para-00005">Compare your answer: </para>
+          <para id="para-00006">The lower graph (which goes through the origin) is the graph of <m:math display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+              </m:mrow>
+            </m:math>.</para>
+          <list id="list-00001">
+            <item>The value of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                </m:mrow>
+              </m:math> is always 4 greater than the value of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                </m:mrow>
+              </m:math>, no matter which value of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math> we choose.</item>
+            <item>Rewriting the equation in standard form gives <m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>. This form shows that the <m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math>-intercept of the graph representing <m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                </m:mrow>
+              </m:math> is <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>.</item>
+            <item>The expression that defines function <m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                </m:mrow>
+              </m:math> is in factored form. It shows that the two <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>-intercepts are <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math> and <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mo>−</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>.</item>
+          </list>
+        </solution>
+      </exercise>
+
+
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00007">Which graph represents <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math>? How do you know?</para>
+          <para id="para-00008">Write down your answer. Then select the <emphasis>solution</emphasis> button to compare your work.</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00009">Compare your answer: </para>
+          <para id="para-00010"><emphasis>Answer:</emphasis> The lower graph (which goes through the origin) is the graph of <m:math display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+              </m:mrow>
+            </m:math> and the upper one is the graph of <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+              </m:mrow>
+            </m:math>.</para>
+          <list id="list-00002">
+            <item>The value of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                </m:mrow>
+              </m:math> is always 4 greater than the value of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                </m:mrow>
+              </m:math>, no matter which value of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math> we choose.</item>
+            <item>Rewriting the equation in standard form gives <m:math display="inline">
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:math>.This form shows that the <m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math>-intercept of the graph representing <m:math display="inline">
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                </m:mrow>
+              </m:math> is <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>.</item>
+          </list>
+        </solution>
+      </exercise>
+
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00011">Where does the graph of <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> meet the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-axis? Explain how you know.</para>
-          
+          <para id="para-00011">Where does the graph of <m:math display="inline">
+              <m:mrow>
+                <m:mi>f</m:mi>
+              </m:mrow>
+            </m:math> meet the <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>-axis? Explain how you know.</para>
+
         </problem>
         <solution id="sol-00003">
           <para id="para-00012">Compare your answer: </para>
-          <para id="para-00013"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>6</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, because these are the two values of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> that make <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>  equal to 0.</para>
+          <para id="para-00013"><m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>6</m:mn>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>, because these are the two values of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> that make <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>  equal to 0.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
     </section>
-  </content></document>
+  </content>
+</document>
