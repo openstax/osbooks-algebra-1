@@ -6,7 +6,7 @@
     <md:uuid>6829446a-55b2-4f73-bb49-6b7166f66062</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
+    <section id="sect-00001">      <title>Activity</title>
       <para id="para-00001">Multiply each expression. Identify each as a binomial square or a
         conjugate pair (difference of squares). </para>
 
@@ -14,7 +14,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00002"><m:math>
+          <para id="para-00002">1. <m:math>
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
                 <m:mn>3</m:mn>
@@ -58,7 +58,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00005"><m:math>
+          <para id="para-00005">2. <m:math>
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
                 <m:mn>6</m:mn>
@@ -102,7 +102,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00008"><m:math>
+          <para id="para-00008">3. <m:math>
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
                 <m:mn>4</m:mn>
@@ -157,7 +157,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00011"><m:math>
+          <para id="para-00011">4. <m:math>
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
                 <m:mn>3</m:mn>
@@ -208,7 +208,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00014"><m:math>
+          <para id="para-00014">5. <m:math>
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
                 <m:mn>2</m:mn>
@@ -259,7 +259,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00006">
-          <para id="para-00017"><m:math>
+          <para id="para-00017">6. <m:math>
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
                 <m:mn>5</m:mn>
@@ -351,7 +351,7 @@
               <m:mo>____</m:mo>
             </m:mrow>
           </m:math></para>
-        <para id="para-00027">Now look at the <emphasis>first term</emphasis> in each result. Where
+        <para id="para-00027">Now look at the <emphasis effect="italics">first term</emphasis> in each result. Where
           did it come from?</para>
         <para id="para-00028">The first term is the product of the first terms of each binomial.
           Since the binomials are identical, it is just the square of the first term!</para>
@@ -378,9 +378,9 @@
             </m:mrow>
           </m:math></para>
         <para id="para-00030">
-          <emphasis>To get the first term of the product, square the first term.</emphasis>
+          <emphasis effect="italics">To get the first term of the product, square the first term.</emphasis>
         </para>
-        <para id="para-00031">Where did the <emphasis>last term</emphasis> come from? Look at the
+        <para id="para-00031">Where did the <emphasis effect="italics">last term</emphasis> come from? Look at the
           examples and find the pattern.</para>
         <para id="para-00032">The last term is the product of the last terms, which is the square of
           the last term.</para>
@@ -407,9 +407,9 @@
             </m:mrow>
           </m:math></para>
         <para id="para-00034">
-          <emphasis>To get the last term of the product, square the last term.</emphasis>
+          <emphasis effect="italics">To get the last term of the product, square the last term.</emphasis>
         </para>
-        <para id="para-00035">Finally, look at the <emphasis>middle term</emphasis>. Notice it came
+        <para id="para-00035">Finally, look at the <emphasis effect="italics">middle term</emphasis>. Notice it came
           from adding the “outer” and the “inner” terms—which are the same! So the middle term is
           double the product of the two terms of the binomial.</para>
         <para id="para-00037"><m:math display="inline">
@@ -459,7 +459,7 @@
           </m:mrow>
         </m:math></para>
         <para id="para-00038">
-          <emphasis>To get the middle term of the product, multiply the terms and double their
+          <emphasis effect="italics">To get the middle term of the product, multiply the terms and double their
           product.</emphasis>
         </para>
         <para id="para-00039">Putting it all together:</para>
@@ -475,7 +475,7 @@
       
         <exercise id="exer-00007">
           <problem id="prob-00007">
-            <para id="para-00041">Multiply <m:math display="inline">
+            <para id="para-00041">1. Multiply <m:math display="inline">
                 <m:mrow>
                   <m:mo stretchy="false">(</m:mo>
                   <m:mi>x</m:mi>
@@ -749,7 +749,7 @@
         </exercise>
         <exercise id="exer-00010">
           <problem id="prob-00010">
-            <para id="para-00021">Multiply <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <para id="para-00021">2. Multiply <math xmlns="http://www.w3.org/1998/Math/MathML">
               <mo stretchy="false">(</mo>
               <mn>2</mn>
               <mi>x</mi>
@@ -761,8 +761,11 @@
                 <mn>2</mn>
               </msup>
             </math>.</para>
+            <para>Write down your answer, then select the <emphasis>solution</emphasis>
+              button to compare your work.</para>
           </problem>
           <solution id="sol-00010" xmlns="http://cnx.rice.edu/cnxml">
+            <para>Compare your answer: You answer may vary, but here is a sample.</para>
             <para id="para-00036">
               <math xmlns="http://www.w3.org/1998/Math/MathML">
                 <mrow class="MJX-TeXAtom-ORD">
@@ -890,92 +893,7 @@
                 </mtable>
               </math>
             </para>
-            <para id="para-00114" xmlns="http://cnx.rice.edu/cnxml">
-              <math xmlns="http://www.w3.org/1998/Math/MathML">
-                <mtable rowspacing="4pt" columnspacing="1em">
-                  <mtr>
-                    <mtd>
-                      <msup>
-                        <mrow class="MJX-TeXAtom-ORD">
-                          <mi style="color: red;">a</mi>
-                        </mrow>
-                        <mrow class="MJX-TeXAtom-ORD">
-                          <mn style="color: red;">2</mn>
-                        </mrow>
-                      </msup>
-                      <mspace width="thickmathspace"/>
-                      <mrow class="MJX-TeXAtom-ORD">
-                        <mo style="color: red;">−<!-- − --></mo>
-                      </mrow>
-                      <mspace width="thickmathspace"/>
-                      <mrow class="MJX-TeXAtom-ORD">
-                        <mn style="color: red;">2</mn>
-                      </mrow>
-                      <mspace width="thickmathspace"/>
-                      <mrow class="MJX-TeXAtom-ORD">
-                        <mo style="color: red;">⋅<!-- ⋅ --></mo>
-                      </mrow>
-                      <mspace width="thickmathspace"/>
-                      <mrow class="MJX-TeXAtom-ORD">
-                        <mi style="color: red;">a</mi>
-                      </mrow>
-                      <mspace width="thickmathspace"/>
-                      <mrow class="MJX-TeXAtom-ORD">
-                        <mo style="color: red;">⋅<!-- ⋅ --></mo>
-                      </mrow>
-                      <mspace width="thickmathspace"/>
-                      <mrow class="MJX-TeXAtom-ORD">
-                        <mi style="color: red;">b</mi>
-                      </mrow>
-                      <mspace width="thickmathspace"/>
-                      <mrow class="MJX-TeXAtom-ORD">
-                        <mo style="color: red;">+</mo>
-                      </mrow>
-                      <mspace width="thickmathspace"/>
-                      <msup>
-                        <mrow class="MJX-TeXAtom-ORD">
-                          <mi style="color: red;">b</mi>
-                        </mrow>
-                        <mrow class="MJX-TeXAtom-ORD">
-                          <mn style="color: red;">2</mn>
-                        </mrow>
-                      </msup>
-                    </mtd>
-                  </mtr>
-                  <mtr>
-                    <mtd>
-                      <msup>
-                        <mrow class="MJX-TeXAtom-ORD">
-                          <mo stretchy="false">(</mo>
-                          <mn>2</mn>
-                          <mi>x</mi>
-                          <mo stretchy="false">)</mo>
-                        </mrow>
-                        <mn>2</mn>
-                      </msup>
-                      <mo>−<!-- − --></mo>
-                      <mn>2</mn>
-                      <mo>⋅<!-- ⋅ --></mo>
-                      <mn>2</mn>
-                      <mi>x</mi>
-                      <mo>⋅<!-- ⋅ --></mo>
-                      <mn>3</mn>
-                      <mi>y</mi>
-                      <mo>+</mo>
-                      <msup>
-                        <mrow class="MJX-TeXAtom-ORD">
-                          <mo stretchy="false">(</mo>
-                          <mn>3</mn>
-                          <mi>y</mi>
-                          <mo stretchy="false">)</mo>
-                        </mrow>
-                        <mn>2</mn>
-                      </msup>
-                    </mtd>
-                  </mtr>
-                </mtable>
-              </math>
-            </para>
+
             <para id="para-00115" xmlns="http://cnx.rice.edu/cnxml"><emphasis>Step 2</emphasis> - Simplify.</para>
             <para id="para-00117">
               <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1288,7 +1206,7 @@
       
         <exercise id="exer-00008">
             <problem id="prob-00008">
-              <para id="para-00088">Multiply <m:math display="inline">
+              <para id="para-00088">1. Multiply <m:math display="inline">
                   <m:mrow>
                     <m:mo stretchy="false">(</m:mo>
                     <m:mn>2</m:mn>
@@ -1345,7 +1263,7 @@
                     <m:mo stretchy="false">)</m:mo>
                   </m:mrow>
                 </m:math>
-          It is the product of conjugates.</para>
+              </para><para>It is the product of conjugates.</para>
               <para id="para-00106"><m:math display="inline">
                   <m:mrow>
                     <m:mo>(</m:mo>
@@ -1376,8 +1294,7 @@
                     </m:mtable>
                     <m:mo>)</m:mo>
                   </m:mrow>
-                </m:math></para>
-              <para id="para-00108"><m:math display="inline">
+                </m:math><m:math display="inline">
                   <m:mrow>
                     <m:mo>(</m:mo>
                     <m:mtable>
@@ -1564,7 +1481,7 @@
       
         <exercise id="exer-00009">
             <problem id="prob-00009">
-              <para id="para-00102">Multiply <m:math display="inline">
+              <para id="para-00102">2. Multiply <m:math display="inline">
                   <m:mrow>
                     <m:mo stretchy="false">(</m:mo>
                     <m:mn>5</m:mn>

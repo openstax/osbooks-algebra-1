@@ -6,7 +6,7 @@
     <md:uuid>f79c2161-79de-41c7-a24e-6b42459846b3</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">
+    <section id="sect-00001">
       <title>Activity</title>
       <para id="para-00001">Recall the process of dividing <m:math display="inline">
           <m:mrow>
@@ -19,7 +19,7 @@
       <exercise id="exer-00001">
         <problem id="prob-00001">
 
-          <para id="para-00002">Find the quotient using long division. <m:math display="inline">
+          <para id="para-00002">1. Find the quotient using long division. <m:math display="inline">
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
                 <m:msup>
@@ -57,7 +57,236 @@
                 <m:mn>5</m:mn>
               </m:mrow>
             </m:math></para>
-          <para id="para-00006">\[\begin{array}{l}m + 4\mathop{\left){\vphantom{1{{m^2} + 9m + 20}}}\right. \!\!\!\!\overline{\,\,\,\vphantom 1{{{m^2} + 9m + 20}}}} \limits^{\displaystyle\,\,\, {m\,\, + \,\,5}}\\\,\,\,\,\,\,\,\,\underline { - ({m^2} + 4m)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,5m + 20\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline {\, - (5m + 20)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
+          <para id="para-00006">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+              <mtable columnalign="left" rowspacing="4pt" columnspacing="1em">
+                <mtr>
+                  <mtd>
+                    <mi>m</mi>
+                    <mo>+</mo>
+                    <mn>4</mn>
+                    <mover>
+                      <mrow class="MJX-TeXAtom-OP MJX-fixedlimits">
+                        <mrow>
+                          <mo>)</mo>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mphantom>
+                                <mpadded width="0">
+                                  <mn>1</mn>
+                                  <mrow class="MJX-TeXAtom-ORD">
+                                    <mrow class="MJX-TeXAtom-ORD">
+                                      <msup>
+                                        <mi>m</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mo>+</mo>
+                                    <mn>9</mn>
+                                    <mi>m</mi>
+                                    <mo>+</mo>
+                                    <mn>20</mn>
+                                  </mrow>
+                                </mpadded>
+                              </mphantom>
+                            </mrow>
+                          </mrow>
+                          <mo fence="true" stretchy="true" symmetric="true"></mo>
+                        </mrow>
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mover>
+                          <mrow>
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mphantom>
+                                <mpadded width="0">
+                                  <mn>1</mn>
+                                </mpadded>
+                              </mphantom>
+                            </mrow>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <msup>
+                                    <mi>m</mi>
+                                    <mn>2</mn>
+                                  </msup>
+                                </mrow>
+                                <mo>+</mo>
+                                <mn>9</mn>
+                                <mi>m</mi>
+                                <mo>+</mo>
+                                <mn>20</mn>
+                              </mrow>
+                            </mrow>
+                          </mrow>
+                          <mo accent="false">&#x00AF;<!-- ¯ --></mo>
+                        </mover>
+                      </mrow>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mstyle displaystyle="true" scriptlevel="0">
+                          <mspace width="thinmathspace" />
+                          <mspace width="thinmathspace" />
+                          <mspace width="thinmathspace" />
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mi>m</mi>
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mo>+</mo>
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mn>5</mn>
+                          </mrow>
+                        </mstyle>
+                      </mrow>
+                    </mover>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <munder>
+                      <mrow>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mo stretchy="false">(</mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>m</mi>
+                            <mn>2</mn>
+                          </msup>
+                        </mrow>
+                        <mo>+</mo>
+                        <mn>4</mn>
+                        <mi>m</mi>
+                        <mo stretchy="false">)</mo>
+                      </mrow>
+                      <mo>&#x005F;<!-- _ --></mo>
+                    </munder>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mn>5</mn>
+                    <mi>m</mi>
+                    <mo>+</mo>
+                    <mn>20</mn>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <munder>
+                      <mrow>
+                        <mspace width="thinmathspace" />
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mo stretchy="false">(</mo>
+                        <mn>5</mn>
+                        <mi>m</mi>
+                        <mo>+</mo>
+                        <mn>20</mn>
+                        <mo stretchy="false">)</mo>
+                      </mrow>
+                      <mo>&#x005F;<!-- _ --></mo>
+                    </munder>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mn>0</mn>
+                  </mtd>
+                </mtr>
+              </mtable>
+            </math>
+          </para>
 
         </solution>
       </exercise>
@@ -67,7 +296,7 @@
       <exercise id="exer-00002">
         <problem id="prob-00002">
 
-          <para id="para-00007">Find the quotient using long division. <m:math display="inline">
+          <para id="para-00007">2. Find the quotient using long division. <m:math display="inline">
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
                 <m:msup>
@@ -135,7 +364,7 @@
       <exercise id="exer-00003">
         <problem id="prob-00003">
 
-          <para id="para-00011">Find the quotient using long division. <m:math display="inline">
+          <para id="para-00011">3. Find the quotient using long division. <m:math display="inline">
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
                 <m:mn>5</m:mn>
@@ -200,7 +429,8 @@
       <exercise id="exer-00004">
         <problem id="prob-00004">
 
-          <para id="para-00016">Find the quotient using long division. <m:math display="inline">
+          <para id="para-00016">4. Find the quotient using long division.</para>
+          <para><m:math display="inline">
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
                 <m:msup>
@@ -264,7 +494,675 @@
                 </m:mfrac>
               </m:mrow>
             </m:math></para>
-          <para id="para-00020">\[\begin{array}{l}x + 3\,\,\mathop{\left){\vphantom{1{{x^4} + 0{x^3} -11{x^2} -7x - 6}}}\right. \!\!\!\!\overline{\,\,\,\,\,\,\,\,\,\vphantom 1{{{x^4} + 0{x^3} -11{x^2} -7x - 6}}}} \limits^{\displaystyle {x^3\,\, -3x^2 \,\,-2x\,\,-1}}\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - {x^4} + 3{x^3}} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,-3x^3 -11x^2 -7x -6\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline {\,\,\,\,\,\,\,\,\,\,\,\,\,\, -3{x^3} -9{x^2}} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,-2x^2 -7x -6\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline {\, -2{x^2} -6x} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,-x-6\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline {\, -x -3} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,-3\end{array}\]</para>
+          <para id="para-00020">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+              <mtable columnalign="left" rowspacing="4pt" columnspacing="1em">
+                <mtr>
+                  <mtd>
+                    <mi>x</mi>
+                    <mo>+</mo>
+                    <mn>3</mn>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mover>
+                      <mrow class="MJX-TeXAtom-OP MJX-fixedlimits">
+                        <mrow>
+                          <mo>)</mo>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mphantom>
+                                <mpadded width="0">
+                                  <mn>1</mn>
+                                  <mrow class="MJX-TeXAtom-ORD">
+                                    <mrow class="MJX-TeXAtom-ORD">
+                                      <msup>
+                                        <mi>x</mi>
+                                        <mn>4</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mo>+</mo>
+                                    <mn>0</mn>
+                                    <mrow class="MJX-TeXAtom-ORD">
+                                      <msup>
+                                        <mi>x</mi>
+                                        <mn>3</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mo>&#x2212;<!-- − --></mo>
+                                    <mn>11</mn>
+                                    <mrow class="MJX-TeXAtom-ORD">
+                                      <msup>
+                                        <mi>x</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mo>&#x2212;<!-- − --></mo>
+                                    <mn>7</mn>
+                                    <mi>x</mi>
+                                    <mo>&#x2212;<!-- − --></mo>
+                                    <mn>6</mn>
+                                  </mrow>
+                                </mpadded>
+                              </mphantom>
+                            </mrow>
+                          </mrow>
+                          <mo fence="true" stretchy="true" symmetric="true"></mo>
+                        </mrow>
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mover>
+                          <mrow>
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mphantom>
+                                <mpadded width="0">
+                                  <mn>1</mn>
+                                </mpadded>
+                              </mphantom>
+                            </mrow>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <msup>
+                                    <mi>x</mi>
+                                    <mn>4</mn>
+                                  </msup>
+                                </mrow>
+                                <mo>+</mo>
+                                <mn>0</mn>
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <msup>
+                                    <mi>x</mi>
+                                    <mn>3</mn>
+                                  </msup>
+                                </mrow>
+                                <mo>&#x2212;<!-- − --></mo>
+                                <mn>11</mn>
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <msup>
+                                    <mi>x</mi>
+                                    <mn>2</mn>
+                                  </msup>
+                                </mrow>
+                                <mo>&#x2212;<!-- − --></mo>
+                                <mn>7</mn>
+                                <mi>x</mi>
+                                <mo>&#x2212;<!-- − --></mo>
+                                <mn>6</mn>
+                              </mrow>
+                            </mrow>
+                          </mrow>
+                          <mo accent="false">&#x00AF;<!-- ¯ --></mo>
+                        </mover>
+                      </mrow>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mstyle displaystyle="true" scriptlevel="0">
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mi>x</mi>
+                              <mn>3</mn>
+                            </msup>
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mn>3</mn>
+                            <msup>
+                              <mi>x</mi>
+                              <mn>2</mn>
+                            </msup>
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mn>2</mn>
+                            <mi>x</mi>
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mn>1</mn>
+                          </mrow>
+                        </mstyle>
+                      </mrow>
+                    </mover>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <munder>
+                      <mrow>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>4</mn>
+                          </msup>
+                        </mrow>
+                        <mo>+</mo>
+                        <mn>3</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>3</mn>
+                          </msup>
+                        </mrow>
+                      </mrow>
+                      <mo>&#x005F;<!-- _ --></mo>
+                    </munder>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>3</mn>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>3</mn>
+                    </msup>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>11</mn>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>7</mn>
+                    <mi>x</mi>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>6</mn>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <munder>
+                      <mrow>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>3</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>3</mn>
+                          </msup>
+                        </mrow>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>9</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                          </msup>
+                        </mrow>
+                      </mrow>
+                      <mo>&#x005F;<!-- _ --></mo>
+                    </munder>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>2</mn>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>7</mn>
+                    <mi>x</mi>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>6</mn>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <munder>
+                      <mrow>
+                        <mspace width="thinmathspace" />
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>2</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                          </msup>
+                        </mrow>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>6</mn>
+                        <mi>x</mi>
+                      </mrow>
+                      <mo>&#x005F;<!-- _ --></mo>
+                    </munder>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mi>x</mi>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>6</mn>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <munder>
+                      <mrow>
+                        <mspace width="thinmathspace" />
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mi>x</mi>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>3</mn>
+                      </mrow>
+                      <mo>&#x005F;<!-- _ --></mo>
+                    </munder>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>3</mn>
+                  </mtd>
+                </mtr>
+              </mtable>
+            </math>
+          </para>
 
         </solution>
       </exercise>
@@ -277,7 +1175,8 @@
       <exercise id="exer-00005">
         <problem id="prob-00005">
 
-          <para id="para-00022">Find the quotient using long division. <m:math display="inline">
+          <para id="para-00022">5. Find the quotient using long division.</para>
+          <para><m:math display="inline">
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
                 <m:mn>125</m:mn>
@@ -318,7 +1217,537 @@
                 <m:mn>4</m:mn>
               </m:mrow>
             </m:math></para>
-          <para id="para-00026">\[\begin{array}{l}5x - 2\,\,\mathop{\left){\vphantom{1{125{x^3} + 0{x^2} +0x - 8}}}\right. \!\!\!\!\overline{\,\,\,\,\,\,\,\,\,\vphantom 1{{125{x^3} + 0{x^2} +0x - 8}}}} \limits^{\displaystyle {25^2\,\, +10x \,\,+4}}\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - 125{x^3} -50{x^2}} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,50x^2 +0x -8\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline {\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, -50{x^2} -20x} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,20x -8\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline {\, -20x -8} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
+          <para id="para-00026">
+            <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+              <mtable columnalign="left" rowspacing="4pt" columnspacing="1em">
+                <mtr>
+                  <mtd>
+                    <mn>5</mn>
+                    <mi>x</mi>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>2</mn>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mover>
+                      <mrow class="MJX-TeXAtom-OP MJX-fixedlimits">
+                        <mrow>
+                          <mo>)</mo>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mphantom>
+                                <mpadded width="0">
+                                  <mn>1</mn>
+                                  <mrow class="MJX-TeXAtom-ORD">
+                                    <mn>125</mn>
+                                    <mrow class="MJX-TeXAtom-ORD">
+                                      <msup>
+                                        <mi>x</mi>
+                                        <mn>3</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mo>+</mo>
+                                    <mn>0</mn>
+                                    <mrow class="MJX-TeXAtom-ORD">
+                                      <msup>
+                                        <mi>x</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mo>+</mo>
+                                    <mn>0</mn>
+                                    <mi>x</mi>
+                                    <mo>&#x2212;<!-- − --></mo>
+                                    <mn>8</mn>
+                                  </mrow>
+                                </mpadded>
+                              </mphantom>
+                            </mrow>
+                          </mrow>
+                          <mo fence="true" stretchy="true" symmetric="true"></mo>
+                        </mrow>
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mover>
+                          <mrow>
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mphantom>
+                                <mpadded width="0">
+                                  <mn>1</mn>
+                                </mpadded>
+                              </mphantom>
+                            </mrow>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mn>125</mn>
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <msup>
+                                    <mi>x</mi>
+                                    <mn>3</mn>
+                                  </msup>
+                                </mrow>
+                                <mo>+</mo>
+                                <mn>0</mn>
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <msup>
+                                    <mi>x</mi>
+                                    <mn>2</mn>
+                                  </msup>
+                                </mrow>
+                                <mo>+</mo>
+                                <mn>0</mn>
+                                <mi>x</mi>
+                                <mo>&#x2212;<!-- − --></mo>
+                                <mn>8</mn>
+                              </mrow>
+                            </mrow>
+                          </mrow>
+                          <mo accent="false">&#x00AF;<!-- ¯ --></mo>
+                        </mover>
+                      </mrow>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <mstyle displaystyle="true" scriptlevel="0">
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mn>25</mn>
+                              <mn>2</mn>
+                            </msup>
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mo>+</mo>
+                            <mn>10</mn>
+                            <mi>x</mi>
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mo>+</mo>
+                            <mn>4</mn>
+                          </mrow>
+                        </mstyle>
+                      </mrow>
+                    </mover>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <munder>
+                      <mrow>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>125</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>3</mn>
+                          </msup>
+                        </mrow>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>50</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                          </msup>
+                        </mrow>
+                      </mrow>
+                      <mo>&#x005F;<!-- _ --></mo>
+                    </munder>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mn>50</mn>
+                    <msup>
+                      <mi>x</mi>
+                      <mn>2</mn>
+                    </msup>
+                    <mo>+</mo>
+                    <mn>0</mn>
+                    <mi>x</mi>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>8</mn>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <munder>
+                      <mrow>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>50</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                          </msup>
+                        </mrow>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>20</mn>
+                        <mi>x</mi>
+                      </mrow>
+                      <mo>&#x005F;<!-- _ --></mo>
+                    </munder>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mn>20</mn>
+                    <mi>x</mi>
+                    <mo>&#x2212;<!-- − --></mo>
+                    <mn>8</mn>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <munder>
+                      <mrow>
+                        <mspace width="thinmathspace" />
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>20</mn>
+                        <mi>x</mi>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>8</mn>
+                      </mrow>
+                      <mo>&#x005F;<!-- _ --></mo>
+                    </munder>
+                  </mtd>
+                </mtr>
+                <mtr>
+                  <mtd>
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mspace width="thinmathspace" />
+                    <mn>0</mn>
+                  </mtd>
+                </mtr>
+              </mtable>
+            </math>
+          </para>
 
         </solution>
       </exercise>
@@ -328,7 +1757,7 @@
     <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
     <section id="sect-00002">
       <title>Are you ready for more?</title>
-      <section class="numbered-exercises" id="sect-00003">
+      <section id="sect-00003">
         <title>Extending Your Thinking</title>
         <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
         <exercise class="RFM1" id="exer-00006">
@@ -409,7 +1838,874 @@
                   <m:mn>6</m:mn>
                 </m:mrow>
               </m:math></para>
-            <para id="para-00031">\[\begin{array}{l}5y - 4\mathop{\left){\vphantom{1{125{y^5} - 80{y^4} - 31{y^3} + 37{y^2} + 10y - 24}}}\right. \!\!\!\!\overline{\,\,\,\vphantom 1{{125{y^5} - 80{y^4} - 31{y^3} + 37{y^2} + 10y - 24}}}} \limits^{\displaystyle\,\,\, {25{y^4} + \,\,\,4{y^3}\,\, - \,\,3{y^2}\,\, + \,\,5y\,\,\, + \,\,6\,}}\\\,\,\,\,\,\,\,\,\,\,\underline { - (125{y^5} - 100{y^4})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,20{y^4} - 31{y^3}\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (20{y^4} - 16{y^3})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - \,15{y^3} + 37{y^2}\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ( - \,15{y^3} + 12{y^2})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,25{y^2} + 10y\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (25{y^2} - 20y)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,30y - 24\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (30y - 24)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
+            <para id="para-00031">
+              <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                <mtable columnalign="left" rowspacing="4pt" columnspacing="1em">
+                  <mtr>
+                    <mtd>
+                      <mn>5</mn>
+                      <mi>y</mi>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mn>4</mn>
+                      <mover>
+                        <mrow class="MJX-TeXAtom-OP MJX-fixedlimits">
+                          <mrow>
+                            <mo>)</mo>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mphantom>
+                                  <mpadded width="0">
+                                    <mn>1</mn>
+                                    <mrow class="MJX-TeXAtom-ORD">
+                                      <mn>125</mn>
+                                      <mrow class="MJX-TeXAtom-ORD">
+                                        <msup>
+                                          <mi>y</mi>
+                                          <mn>5</mn>
+                                        </msup>
+                                      </mrow>
+                                      <mo>&#x2212;<!-- − --></mo>
+                                      <mn>80</mn>
+                                      <mrow class="MJX-TeXAtom-ORD">
+                                        <msup>
+                                          <mi>y</mi>
+                                          <mn>4</mn>
+                                        </msup>
+                                      </mrow>
+                                      <mo>&#x2212;<!-- − --></mo>
+                                      <mn>31</mn>
+                                      <mrow class="MJX-TeXAtom-ORD">
+                                        <msup>
+                                          <mi>y</mi>
+                                          <mn>3</mn>
+                                        </msup>
+                                      </mrow>
+                                      <mo>+</mo>
+                                      <mn>37</mn>
+                                      <mrow class="MJX-TeXAtom-ORD">
+                                        <msup>
+                                          <mi>y</mi>
+                                          <mn>2</mn>
+                                        </msup>
+                                      </mrow>
+                                      <mo>+</mo>
+                                      <mn>10</mn>
+                                      <mi>y</mi>
+                                      <mo>&#x2212;<!-- − --></mo>
+                                      <mn>24</mn>
+                                    </mrow>
+                                  </mpadded>
+                                </mphantom>
+                              </mrow>
+                            </mrow>
+                            <mo fence="true" stretchy="true" symmetric="true"></mo>
+                          </mrow>
+                          <mspace width="negativethinmathspace" />
+                          <mspace width="negativethinmathspace" />
+                          <mspace width="negativethinmathspace" />
+                          <mspace width="negativethinmathspace" />
+                          <mover>
+                            <mrow>
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mphantom>
+                                  <mpadded width="0">
+                                    <mn>1</mn>
+                                  </mpadded>
+                                </mphantom>
+                              </mrow>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <mn>125</mn>
+                                  <mrow class="MJX-TeXAtom-ORD">
+                                    <msup>
+                                      <mi>y</mi>
+                                      <mn>5</mn>
+                                    </msup>
+                                  </mrow>
+                                  <mo>&#x2212;<!-- − --></mo>
+                                  <mn>80</mn>
+                                  <mrow class="MJX-TeXAtom-ORD">
+                                    <msup>
+                                      <mi>y</mi>
+                                      <mn>4</mn>
+                                    </msup>
+                                  </mrow>
+                                  <mo>&#x2212;<!-- − --></mo>
+                                  <mn>31</mn>
+                                  <mrow class="MJX-TeXAtom-ORD">
+                                    <msup>
+                                      <mi>y</mi>
+                                      <mn>3</mn>
+                                    </msup>
+                                  </mrow>
+                                  <mo>+</mo>
+                                  <mn>37</mn>
+                                  <mrow class="MJX-TeXAtom-ORD">
+                                    <msup>
+                                      <mi>y</mi>
+                                      <mn>2</mn>
+                                    </msup>
+                                  </mrow>
+                                  <mo>+</mo>
+                                  <mn>10</mn>
+                                  <mi>y</mi>
+                                  <mo>&#x2212;<!-- − --></mo>
+                                  <mn>24</mn>
+                                </mrow>
+                              </mrow>
+                            </mrow>
+                            <mo accent="false">&#x00AF;<!-- ¯ --></mo>
+                          </mover>
+                        </mrow>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <mstyle displaystyle="true" scriptlevel="0">
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mn>25</mn>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <msup>
+                                  <mi>y</mi>
+                                  <mn>4</mn>
+                                </msup>
+                              </mrow>
+                              <mo>+</mo>
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mn>4</mn>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <msup>
+                                  <mi>y</mi>
+                                  <mn>3</mn>
+                                </msup>
+                              </mrow>
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mo>&#x2212;<!-- − --></mo>
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mn>3</mn>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <msup>
+                                  <mi>y</mi>
+                                  <mn>2</mn>
+                                </msup>
+                              </mrow>
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mo>+</mo>
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mn>5</mn>
+                              <mi>y</mi>
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mo>+</mo>
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mn>6</mn>
+                              <mspace width="thinmathspace" />
+                            </mrow>
+                          </mstyle>
+                        </mrow>
+                      </mover>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <munder>
+                        <mrow>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mo stretchy="false">(</mo>
+                          <mn>125</mn>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mi>y</mi>
+                              <mn>5</mn>
+                            </msup>
+                          </mrow>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mn>100</mn>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mi>y</mi>
+                              <mn>4</mn>
+                            </msup>
+                          </mrow>
+                          <mo stretchy="false">)</mo>
+                        </mrow>
+                        <mo>&#x005F;<!-- _ --></mo>
+                      </munder>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mn>20</mn>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <msup>
+                          <mi>y</mi>
+                          <mn>4</mn>
+                        </msup>
+                      </mrow>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mn>31</mn>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <msup>
+                          <mi>y</mi>
+                          <mn>3</mn>
+                        </msup>
+                      </mrow>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <munder>
+                        <mrow>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mo stretchy="false">(</mo>
+                          <mn>20</mn>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mi>y</mi>
+                              <mn>4</mn>
+                            </msup>
+                          </mrow>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mn>16</mn>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mi>y</mi>
+                              <mn>3</mn>
+                            </msup>
+                          </mrow>
+                          <mo stretchy="false">)</mo>
+                        </mrow>
+                        <mo>&#x005F;<!-- _ --></mo>
+                      </munder>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mspace width="thinmathspace" />
+                      <mn>15</mn>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <msup>
+                          <mi>y</mi>
+                          <mn>3</mn>
+                        </msup>
+                      </mrow>
+                      <mo>+</mo>
+                      <mn>37</mn>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <msup>
+                          <mi>y</mi>
+                          <mn>2</mn>
+                        </msup>
+                      </mrow>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <munder>
+                        <mrow>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mo stretchy="false">(</mo>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mspace width="thinmathspace" />
+                          <mn>15</mn>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mi>y</mi>
+                              <mn>3</mn>
+                            </msup>
+                          </mrow>
+                          <mo>+</mo>
+                          <mn>12</mn>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mi>y</mi>
+                              <mn>2</mn>
+                            </msup>
+                          </mrow>
+                          <mo stretchy="false">)</mo>
+                        </mrow>
+                        <mo>&#x005F;<!-- _ --></mo>
+                      </munder>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mn>25</mn>
+                      <mrow class="MJX-TeXAtom-ORD">
+                        <msup>
+                          <mi>y</mi>
+                          <mn>2</mn>
+                        </msup>
+                      </mrow>
+                      <mo>+</mo>
+                      <mn>10</mn>
+                      <mi>y</mi>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <munder>
+                        <mrow>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mo stretchy="false">(</mo>
+                          <mn>25</mn>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mi>y</mi>
+                              <mn>2</mn>
+                            </msup>
+                          </mrow>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mn>20</mn>
+                          <mi>y</mi>
+                          <mo stretchy="false">)</mo>
+                        </mrow>
+                        <mo>&#x005F;<!-- _ --></mo>
+                      </munder>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mn>30</mn>
+                      <mi>y</mi>
+                      <mo>&#x2212;<!-- − --></mo>
+                      <mn>24</mn>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <munder>
+                        <mrow>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mo stretchy="false">(</mo>
+                          <mn>30</mn>
+                          <mi>y</mi>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mn>24</mn>
+                          <mo stretchy="false">)</mo>
+                        </mrow>
+                        <mo>&#x005F;<!-- _ --></mo>
+                      </munder>
+                    </mtd>
+                  </mtr>
+                  <mtr>
+                    <mtd>
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mspace width="thinmathspace" />
+                      <mn>0</mn>
+                    </mtd>
+                  </mtr>
+                </mtable>
+              </math>
+            </para>
 
           </solution>
         </exercise>
@@ -546,7 +2842,7 @@
         <para id="para-00054">
 
           <media alt="Long division example: 875 divided by 25. The quotient (35) is labeled at the top, and the remainder (0) is labeled at the bottom. Subtraction steps are shown: 87-75=12, the 5 is brought down, then 125-125=0.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_08.jpg" width="100" />
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_07_06_05_08.jpg" width="225" />
           </media>
 
         </para>
@@ -1228,7 +3524,7 @@
       <exercise id="exer-00007">
             <problem id="prob-00007">
               <para id="para-00117">Find the quotients.</para>
-              <para id="para-00119"><m:math>
+              <para id="para-00119">1. <m:math>
                   <m:mrow>
                     <m:mo stretchy="false">(</m:mo>
                     <m:msup>
@@ -1249,7 +3545,7 @@
                     <m:mo stretchy="false">)</m:mo>
                   </m:mrow>
                 </m:math></para>
-              <para id="para-00120"><m:math>
+              <para id="para-00120">2. <m:math>
                   <m:mrow>
                     <m:mo stretchy="false">(</m:mo>
                     <m:msup>
@@ -1276,7 +3572,7 @@
                     <m:mo stretchy="false">)</m:mo>
                   </m:mrow>
                 </m:math></para>
-              <para id="para-00126"><m:math>
+              <para id="para-00126">3. <m:math>
                   <m:mrow>
                     <m:mo stretchy="false">(</m:mo>
                     <m:msup>
@@ -1298,18 +3594,263 @@
             </problem>
             <solution id="sol-00007">
               <para id="para-00122">Here is how to divide these polynomials using long division:</para>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00002">
-                <item><m:math display="inline">
+              <para>1. <m:math display="inline">
                     <m:mrow>
                       <m:mi>y</m:mi>
                       <m:mo>+</m:mo>
                       <m:mn>7</m:mn>
                     </m:mrow>
-                  </m:math>;</item>
-              </list>
-              <para id="para-00123">\[\begin{array}{l}y + 3\mathop{\left){\vphantom{1{{y^2} + 10y + 21}}}\right. \!\!\!\!\overline{\,\,\,\vphantom 1{{{y^2} + 10y + 21}}}} \limits^{\displaystyle\,\,\, {y\,\, + \,\,7}}\\\,\,\,\,\,\,\,\,\underline { - ({y^2} + 7y)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,3y + 21\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (3y + 21)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00003">
-                <item><m:math display="inline">
+                  </m:math>;</para>
+              <para id="para-00123">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                  <mtable columnalign="left" rowspacing="4pt" columnspacing="1em">
+                    <mtr>
+                      <mtd>
+                        <mi>y</mi>
+                        <mo>+</mo>
+                        <mn>3</mn>
+                        <mover>
+                          <mrow class="MJX-TeXAtom-OP MJX-fixedlimits">
+                            <mrow>
+                              <mo>)</mo>
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <mphantom>
+                                    <mpadded width="0">
+                                      <mn>1</mn>
+                                      <mrow class="MJX-TeXAtom-ORD">
+                                        <mrow class="MJX-TeXAtom-ORD">
+                                          <msup>
+                                            <mi>y</mi>
+                                            <mn>2</mn>
+                                          </msup>
+                                        </mrow>
+                                        <mo>+</mo>
+                                        <mn>10</mn>
+                                        <mi>y</mi>
+                                        <mo>+</mo>
+                                        <mn>21</mn>
+                                      </mrow>
+                                    </mpadded>
+                                  </mphantom>
+                                </mrow>
+                              </mrow>
+                              <mo fence="true" stretchy="true" symmetric="true"></mo>
+                            </mrow>
+                            <mspace width="negativethinmathspace" />
+                            <mspace width="negativethinmathspace" />
+                            <mspace width="negativethinmathspace" />
+                            <mspace width="negativethinmathspace" />
+                            <mover>
+                              <mrow>
+                                <mspace width="thinmathspace" />
+                                <mspace width="thinmathspace" />
+                                <mspace width="thinmathspace" />
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <mphantom>
+                                    <mpadded width="0">
+                                      <mn>1</mn>
+                                    </mpadded>
+                                  </mphantom>
+                                </mrow>
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <mrow class="MJX-TeXAtom-ORD">
+                                    <mrow class="MJX-TeXAtom-ORD">
+                                      <msup>
+                                        <mi>y</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mo>+</mo>
+                                    <mn>10</mn>
+                                    <mi>y</mi>
+                                    <mo>+</mo>
+                                    <mn>21</mn>
+                                  </mrow>
+                                </mrow>
+                              </mrow>
+                              <mo accent="false">&#x00AF;<!-- ¯ --></mo>
+                            </mover>
+                          </mrow>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mstyle displaystyle="true" scriptlevel="0">
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mspace width="thinmathspace" />
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mi>y</mi>
+                                <mspace width="thinmathspace" />
+                                <mspace width="thinmathspace" />
+                                <mo>+</mo>
+                                <mspace width="thinmathspace" />
+                                <mspace width="thinmathspace" />
+                                <mn>7</mn>
+                              </mrow>
+                            </mstyle>
+                          </mrow>
+                        </mover>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <munder>
+                          <mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mo stretchy="false">(</mo>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <msup>
+                                <mi>y</mi>
+                                <mn>2</mn>
+                              </msup>
+                            </mrow>
+                            <mo>+</mo>
+                            <mn>7</mn>
+                            <mi>y</mi>
+                            <mo stretchy="false">)</mo>
+                          </mrow>
+                          <mo>&#x005F;<!-- _ --></mo>
+                        </munder>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mn>3</mn>
+                        <mi>y</mi>
+                        <mo>+</mo>
+                        <mn>21</mn>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <munder>
+                          <mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mo stretchy="false">(</mo>
+                            <mn>3</mn>
+                            <mi>y</mi>
+                            <mo>+</mo>
+                            <mn>21</mn>
+                            <mo stretchy="false">)</mo>
+                          </mrow>
+                          <mo>&#x005F;<!-- _ --></mo>
+                        </munder>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mn>0</mn>
+                      </mtd>
+                    </mtr>
+                  </mtable>
+                </math>
+              </para>
+              <para>2. <m:math display="inline">
                     <m:mrow>
                       <m:msup>
                         <m:mi>x</m:mi>
@@ -1338,11 +3879,583 @@
                         </m:mrow>
                       </m:mfrac>
                     </m:mrow>
-                  </m:math>;</item>
-              </list>
-              <para id="para-00124">\[\begin{array}{l}\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,{x^3} - 3{x^2} + 2x + 1\\x + 3\sqrt {{x^4} + 0{x^3} - 7{x^2} + 7x + 6} \\\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ({x^4} + 3{x^3})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\, - 3{x^3} - 7{x^2}\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - ( - 3{x^3} - 9{x^2})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,2{x^2} + 7x\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (2{x^2} + 6x)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,x + 6\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (x + 3)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,3\end{array}\]</para>
-              <list class="os-raise-noindent" list-type="enumerated" id="list-00004">
-                <item><m:math display="inline">
+                  </m:math>;</para>
+              <para id="para-00124">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                  <mtable columnalign="left" rowspacing="4pt" columnspacing="1em">
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>3</mn>
+                          </msup>
+                        </mrow>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>3</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                          </msup>
+                        </mrow>
+                        <mo>+</mo>
+                        <mn>2</mn>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mn>1</mn>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mn>3</mn>
+                        <msqrt>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mi>x</mi>
+                              <mn>4</mn>
+                            </msup>
+                          </mrow>
+                          <mo>+</mo>
+                          <mn>0</mn>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mi>x</mi>
+                              <mn>3</mn>
+                            </msup>
+                          </mrow>
+                          <mo>&#x2212;<!-- − --></mo>
+                          <mn>7</mn>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <msup>
+                              <mi>x</mi>
+                              <mn>2</mn>
+                            </msup>
+                          </mrow>
+                          <mo>+</mo>
+                          <mn>7</mn>
+                          <mi>x</mi>
+                          <mo>+</mo>
+                          <mn>6</mn>
+                        </msqrt>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <munder>
+                          <mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mo stretchy="false">(</mo>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <msup>
+                                <mi>x</mi>
+                                <mn>4</mn>
+                              </msup>
+                            </mrow>
+                            <mo>+</mo>
+                            <mn>3</mn>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <msup>
+                                <mi>x</mi>
+                                <mn>3</mn>
+                              </msup>
+                            </mrow>
+                            <mo stretchy="false">)</mo>
+                          </mrow>
+                          <mo>&#x005F;<!-- _ --></mo>
+                        </munder>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>3</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>3</mn>
+                          </msup>
+                        </mrow>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>7</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                          </msup>
+                        </mrow>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <munder>
+                          <mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mo stretchy="false">(</mo>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mn>3</mn>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <msup>
+                                <mi>x</mi>
+                                <mn>3</mn>
+                              </msup>
+                            </mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mn>9</mn>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <msup>
+                                <mi>x</mi>
+                                <mn>2</mn>
+                              </msup>
+                            </mrow>
+                            <mo stretchy="false">)</mo>
+                          </mrow>
+                          <mo>&#x005F;<!-- _ --></mo>
+                        </munder>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mn>2</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                          </msup>
+                        </mrow>
+                        <mo>+</mo>
+                        <mn>7</mn>
+                        <mi>x</mi>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <munder>
+                          <mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mo stretchy="false">(</mo>
+                            <mn>2</mn>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <msup>
+                                <mi>x</mi>
+                                <mn>2</mn>
+                              </msup>
+                            </mrow>
+                            <mo>+</mo>
+                            <mn>6</mn>
+                            <mi>x</mi>
+                            <mo stretchy="false">)</mo>
+                          </mrow>
+                          <mo>&#x005F;<!-- _ --></mo>
+                        </munder>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mn>6</mn>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <munder>
+                          <mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mo stretchy="false">(</mo>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mn>3</mn>
+                            <mo stretchy="false">)</mo>
+                          </mrow>
+                          <mo>&#x005F;<!-- _ --></mo>
+                        </munder>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mn>3</mn>
+                      </mtd>
+                    </mtr>
+                  </mtable>
+                </math>
+              </para>
+              <para>3. <m:math display="inline">
                     <m:mrow>
                       <m:msup>
                         <m:mi>x</m:mi>
@@ -1354,9 +4467,440 @@
                       <m:mo>+</m:mo>
                       <m:mn>16</m:mn>
                     </m:mrow>
-                  </m:math>;</item>
-              </list>
-              <para id="para-00125">\[\begin{array}{l}\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,{x^2} + 4x + 16\\x - 4\left){\vphantom{1{{x^3} + 0{x^2} + 0x - 64}}}\right. \!\!\!\!\overline{\,\,\,\vphantom 1{{{x^3} + 0{x^2} + 0x - 64}}}\\\,\,\,\,\,\,\,\,\,\,\,\underline { - ({x^3} - 4{x^2})} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,4{x^2} + 0x\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (4{x^2} - 16x)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,16x - 64\\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\underline { - (16x - 64)} \\\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,0\end{array}\]</para>
+                  </m:math>;</para>
+              <para id="para-00125">
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                  <mtable columnalign="left" rowspacing="4pt" columnspacing="1em">
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                          </msup>
+                        </mrow>
+                        <mo>+</mo>
+                        <mn>4</mn>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mn>16</mn>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mi>x</mi>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>4</mn>
+                        <mrow>
+                          <mo>)</mo>
+                          <mrow class="MJX-TeXAtom-ORD">
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mphantom>
+                                <mpadded width="0">
+                                  <mn>1</mn>
+                                  <mrow class="MJX-TeXAtom-ORD">
+                                    <mrow class="MJX-TeXAtom-ORD">
+                                      <msup>
+                                        <mi>x</mi>
+                                        <mn>3</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mo>+</mo>
+                                    <mn>0</mn>
+                                    <mrow class="MJX-TeXAtom-ORD">
+                                      <msup>
+                                        <mi>x</mi>
+                                        <mn>2</mn>
+                                      </msup>
+                                    </mrow>
+                                    <mo>+</mo>
+                                    <mn>0</mn>
+                                    <mi>x</mi>
+                                    <mo>&#x2212;<!-- − --></mo>
+                                    <mn>64</mn>
+                                  </mrow>
+                                </mpadded>
+                              </mphantom>
+                            </mrow>
+                          </mrow>
+                          <mo fence="true" stretchy="true" symmetric="true"></mo>
+                        </mrow>
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mspace width="negativethinmathspace" />
+                        <mover>
+                          <mrow>
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mspace width="thinmathspace" />
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mphantom>
+                                <mpadded width="0">
+                                  <mn>1</mn>
+                                </mpadded>
+                              </mphantom>
+                            </mrow>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <mrow class="MJX-TeXAtom-ORD">
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <msup>
+                                    <mi>x</mi>
+                                    <mn>3</mn>
+                                  </msup>
+                                </mrow>
+                                <mo>+</mo>
+                                <mn>0</mn>
+                                <mrow class="MJX-TeXAtom-ORD">
+                                  <msup>
+                                    <mi>x</mi>
+                                    <mn>2</mn>
+                                  </msup>
+                                </mrow>
+                                <mo>+</mo>
+                                <mn>0</mn>
+                                <mi>x</mi>
+                                <mo>&#x2212;<!-- − --></mo>
+                                <mn>64</mn>
+                              </mrow>
+                            </mrow>
+                          </mrow>
+                          <mo accent="false">&#x00AF;<!-- ¯ --></mo>
+                        </mover>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <munder>
+                          <mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mo stretchy="false">(</mo>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <msup>
+                                <mi>x</mi>
+                                <mn>3</mn>
+                              </msup>
+                            </mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mn>4</mn>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <msup>
+                                <mi>x</mi>
+                                <mn>2</mn>
+                              </msup>
+                            </mrow>
+                            <mo stretchy="false">)</mo>
+                          </mrow>
+                          <mo>&#x005F;<!-- _ --></mo>
+                        </munder>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mn>4</mn>
+                        <mrow class="MJX-TeXAtom-ORD">
+                          <msup>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                          </msup>
+                        </mrow>
+                        <mo>+</mo>
+                        <mn>0</mn>
+                        <mi>x</mi>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <munder>
+                          <mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mo stretchy="false">(</mo>
+                            <mn>4</mn>
+                            <mrow class="MJX-TeXAtom-ORD">
+                              <msup>
+                                <mi>x</mi>
+                                <mn>2</mn>
+                              </msup>
+                            </mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mn>16</mn>
+                            <mi>x</mi>
+                            <mo stretchy="false">)</mo>
+                          </mrow>
+                          <mo>&#x005F;<!-- _ --></mo>
+                        </munder>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mn>16</mn>
+                        <mi>x</mi>
+                        <mo>&#x2212;<!-- − --></mo>
+                        <mn>64</mn>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <munder>
+                          <mrow>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mo stretchy="false">(</mo>
+                            <mn>16</mn>
+                            <mi>x</mi>
+                            <mo>&#x2212;<!-- − --></mo>
+                            <mn>64</mn>
+                            <mo stretchy="false">)</mo>
+                          </mrow>
+                          <mo>&#x005F;<!-- _ --></mo>
+                        </munder>
+                      </mtd>
+                    </mtr>
+                    <mtr>
+                      <mtd>
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mspace width="thinmathspace" />
+                        <mn>0</mn>
+                      </mtd>
+                    </mtr>
+                  </mtable>
+                </math>
+              </para>
             </solution>
           </exercise>
         </note>
