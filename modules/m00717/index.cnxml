@@ -6,234 +6,404 @@
     <md:uuid>50c74e60-ceab-4ce1-9c5a-3d5e9b8a2ec6</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">Linear models can also be found by hand in some situations when the data follows a
-        linear pattern since the slope remains the same between data points.</para>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">Linear models can also be found by hand in some situations when the data
+        follows a linear pattern since the slope remains the same between data points.</para>
       <para id="para-00002">
         <emphasis>Linear Models from Tables</emphasis>
       </para>
       <quote id="quote-00001">For 1 - 4, use the scenario and table below:</quote>
-        <quote id="quote-00002">The table
-        below shows the number of songs Marcus will have in his collection as he adds new songs each
-        month.</quote>
-        <quote id="quote-00003">
-          <table class="unnumbered" id="table-00001">
-            <tgroup cols="5">
-<tbody>
-                <row>
-                  <entry><emphasis>Number of months,</emphasis> <emphasis effect="italics">t</emphasis></entry>
-                  <entry>0</entry>
-                  <entry>1</entry>
-                  <entry>2</entry>
-                  <entry>3</entry>
-                </row>
-                <row>
-                  <entry><emphasis>Number of songs,</emphasis> <emphasis effect="italics">N</emphasis></entry>
-                  <entry>200</entry>
-                  <entry>215</entry>
-                  <entry>230</entry>
-                  <entry>245</entry>
-                </row>
-              </tbody>
-            </tgroup>
-          </table>
-        </quote>
+      <quote id="quote-00002">The table below shows the number of songs Marcus will have in his
+        collection as he adds new songs each month.</quote>
+      <quote id="quote-00003">
+        <table class="unnumbered" id="table-00001">
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry><emphasis>Number of months,</emphasis> <emphasis effect="italics">t</emphasis></entry>
+                <entry>0</entry>
+                <entry>1</entry>
+                <entry>2</entry>
+                <entry>3</entry>
+              </row>
+              <row>
+                <entry><emphasis>Number of songs,</emphasis> <emphasis effect="italics">N</emphasis></entry>
+                <entry>200</entry>
+                <entry>215</entry>
+                <entry>230</entry>
+                <entry>245</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </quote>
 
-        <exercise id="_50701f9a-8db4-46eb-a7b0-673edcb2a852" class="multiple-choice">
-          <problem id="prob-00001">
-            <para id="para-00004">What is the initial amount of songs, or the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept of this situation?</para>
-          </problem>
-          <solution id="sol-00001">
-            <para id="para-00005">200</para>
-          </solution>
-        </exercise>
-        <exercise id="b76d8608-acae-4296-83b1-ea0609be1338" class="multiple-choice">
-          <problem id="prob-00002">
+      <exercise id="_50701f9a-8db4-46eb-a7b0-673edcb2a852" class="multiple-choice">
+        <problem id="prob-00001">
+          <para id="para-00004">What is the initial amount of songs, or the <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-intercept of this
+            situation?</para>
+        </problem>
+        <solution id="sol-00001">
+          <para id="para-00005">200</para>
+        </solution>
+      </exercise>
+      <exercise id="b76d8608-acae-4296-83b1-ea0609be1338" class="multiple-choice">
+        <problem id="prob-00002">
 
-            <para id="para-00007">What is the slope, or rate of change?</para>
-          </problem>
-          <solution id="sol-00002">
-            <para id="para-00008">15</para>
-          </solution>
-        </exercise>
+          <para id="para-00007">What is the slope, or rate of change?</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00008">15</para>
+        </solution>
+      </exercise>
 
       <!--Q#3-->
       <exercise id="exer-00001">
         <problem id="prob-00003">
-          <para id="para-00010">Write the equation of the linear model that represents the situation in
-            slope-intercept form.</para>
+          <para id="para-00010">Write the equation of the linear model that represents the situation
+            in slope-intercept form.</para>
 
         </problem>
         <solution id="sol-00003">
           <para id="para-00011">Compare your answer: </para>
-          <para id="para-00012"><m:math><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mi>t</m:mi><m:mo>+</m:mo><m:mn>200</m:mn></m:mrow></m:math></para></solution>
+          <para id="para-00012"><m:math>
+              <m:mrow>
+                <m:mi>N</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>15</m:mn>
+                <m:mi>t</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>200</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
       <!--Interaction
       End -->
-        <exercise id="_487937b8-cda6-4e24-836b-d9802cb72dac" class="multiple-choice">
-          <problem id="prob-00004">
-            <para id="para-00013">How many songs will Marcus have in 8 months?</para>
-          </problem>
-          <solution id="sol-00004">
-            <para id="para-00014">320</para>
-            <para id="para-00015">Compare your answer:  <m:math display="inline"><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>200</m:mn><m:mo>=</m:mo><m:mn>320</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>N</m:mi><m:mo>=</m:mo><m:mn>15</m:mn><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>200</m:mn><m:mo>=</m:mo><m:mn>320</m:mn></m:mrow></m:math></para>
-          </solution>
-        </exercise>
+      <exercise id="_487937b8-cda6-4e24-836b-d9802cb72dac" class="multiple-choice">
+        <problem id="prob-00004">
+          <para id="para-00013">How many songs will Marcus have in 8 months?</para>
+        </problem>
+        <solution id="sol-00004">
+          <para id="para-00014">320</para>
+          <para id="para-00015">Compare your answer:  <m:math display="inline">
+              <m:mrow>
+                <m:mi>N</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>15</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>200</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>320</m:mn>
+              </m:mrow>
+            </m:math> <m:math display="inline">
+              <m:mrow>
+                <m:mi>N</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>15</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>8</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>200</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>320</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
 
-          <quote id="quote-00004">For 5 - 8, use the situation and table below:</quote>
-          <quote id="quote-00005">A new plant food is
-          introduced to a young tree to test its effect on the height of the tree. The table
-          shows the height of the tree, H, in feet <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> months since measurements began.</quote>
-          <quote id="quote-00006">
-            <table class="unnumbered" id="table-00002">
-              <tgroup cols="5">
-<tbody>
-                  <row>
-                    <entry><emphasis>Number of months,</emphasis> <emphasis effect="italics">x</emphasis></entry>
-                    <entry>2</entry>
-                    <entry>4</entry>
-                    <entry>6</entry>
-                    <entry>8</entry>
-                  </row>
-                  <row>
-                    <entry><emphasis>Height in feet,</emphasis> <emphasis effect="italics">H</emphasis></entry>
-                    <entry>13.5</entry>
-                    <entry>14.5</entry>
-                    <entry>15.5</entry>
-                    <entry>16.5</entry>
-                  </row>
-                </tbody>
-              </tgroup>
-            </table>
-          </quote>
-        <exercise id="c2dc9fc0-7c03-4b46-aa0b-09e5d9f9e26e" class="multiple-choice">
-          <problem id="prob-00005">
-            <para id="para-00018">What is the initial height of the tree, or the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept, when measurements
-              began?</para>
-            <para id="para-00019">(Hint: Work each row backwards to where <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.)</para>
-          </problem>
-          <solution id="sol-00005">
+      <quote id="quote-00004">For 5 - 8, use the situation and table below:</quote>
+      <quote id="quote-00005">A new plant food is introduced to a young tree to test its effect on
+        the height of the tree. The table shows the height of the tree, H, in feet <m:math
+          display="inline">
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:math> months since measurements began.</quote>
+      <quote id="quote-00006">
+        <table class="unnumbered" id="table-00002">
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry><emphasis>Number of months,</emphasis> <emphasis effect="italics">x</emphasis></entry>
+                <entry>2</entry>
+                <entry>4</entry>
+                <entry>6</entry>
+                <entry>8</entry>
+              </row>
+              <row>
+                <entry><emphasis>Height in feet,</emphasis> <emphasis effect="italics">H</emphasis></entry>
+                <entry>13.5</entry>
+                <entry>14.5</entry>
+                <entry>15.5</entry>
+                <entry>16.5</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </quote>
+      <exercise id="c2dc9fc0-7c03-4b46-aa0b-09e5d9f9e26e" class="multiple-choice">
+        <problem id="prob-00005">
+          <para id="para-00018">What is the initial height of the tree, or the <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-intercept, when
+            measurements began?</para>
+          <para id="para-00019">(Hint: Work each row backwards to where <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>.)</para>
+        </problem>
+        <solution id="sol-00005">
 
-            <para id="para-00020">The correct answer is .</para>
-          </solution>
-        </exercise>
-        <exercise id="c61b5a88-59f5-463a-af77-a760b9dcdc31" class="multiple-choice">
-          <problem id="prob-00006">
-            <para id="para-00021">Format your answer as a fraction in simplest form:</para>
-            <para id="para-00022">What is the slope, or rate of change?</para>
-          </problem>
-          <solution id="sol-00006">
-            <para id="para-00023"><m:math display="inline"><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
-     
-          </solution>
-        </exercise>
+          <para id="para-00020">12.5</para>
+        </solution>
+      </exercise>
+      <exercise id="c61b5a88-59f5-463a-af77-a760b9dcdc31" class="multiple-choice">
+        <problem id="prob-00006">
+          <para id="para-00021">Format your answer as a fraction in simplest form:</para>
+          <para id="para-00022">What is the slope, or rate of change?</para>
+        </problem>
+        <solution id="sol-00006">
+          <para id="para-00023"><m:math display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math></para>
+
+        </solution>
+      </exercise>
 
       <!--Q#7-->
       <exercise id="exer-00002">
         <problem id="prob-00007">
-          <para id="para-00025">Write the equation of the linear model that represents the situation in
-            slope-intercept form.</para>
+          <para id="para-00025">Write the equation of the linear model that represents the situation
+            in slope-intercept form.</para>
 
         </problem>
         <solution id="sol-00007">
           <para id="para-00026">Compare your answer: </para>
-          <para id="para-00027"><m:math display="inline"><m:mrow><m:mi>H</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>x</m:mi></m:mrow></m:math> +12.5\)</para>
+          <para id="para-00027"><m:math display="inline">
+              <m:mrow>
+                <m:mi>H</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> +12.5\)</para>
         </solution>
       </exercise>
       <!--Interaction
       End -->
 
-        <exercise id="_2f1f631d-86fb-4a2c-bbb4-bf2eafd59a62" class="multiple-choice">
-          <problem id="prob-00008">
-            <para id="para-00028">What will the height of the tree be in 14 months?</para>
-          </problem>
-          <solution id="sol-00008">
-            <para id="para-00029">19.5</para>
-            <para id="para-00030">Compare your answer:  <m:math display="inline"><m:mrow><m:mi>H</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>14</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>12.5</m:mn><m:mo>=</m:mo><m:mn>19.5</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>H</m:mi><m:mo>=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>14</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>12.5</m:mn><m:mo>=</m:mo><m:mn>19.5</m:mn></m:mrow></m:math></para>
-          </solution>
-        </exercise>
-        
-        <para id="para-00032"><emphasis>Linear Models from Graphs</emphasis></para>
-          <quote id="quote-00007">For 9 - 12, use the situation and graph below:</quote>
-          <quote id="quote-00008">The graph models
-          the cost in dollars, <m:math display="inline"><m:mrow><m:mi>C</m:mi></m:mrow></m:math>, of renting a tent at a campground for n nights.
-          <media alt="Scatter plot showing the number of nights on the x-axis versus the cost in dollars on the y-axos. Points are plotted and labeled at (0,30), (1,40), (2,50), (3,60) indicating a positive linear trend.">
-              <image mime-type="image/jpeg" src="../../media/Algebra-1_03_04_06_01.jpg"/>
-            </media>
-          </quote>
-        <exercise id="_10194ca5-8de5-4c66-80e3-516330af7969" class="multiple-choice">
-          <problem id="prob-00009">
-            <para id="para-00034">What is the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept of the graph?</para>
+      <exercise id="_2f1f631d-86fb-4a2c-bbb4-bf2eafd59a62" class="multiple-choice">
+        <problem id="prob-00008">
+          <para id="para-00028">What will the height of the tree be in 14 months?</para>
+        </problem>
+        <solution id="sol-00008">
+          <para id="para-00029">19.5</para>
+          <para id="para-00030">Compare your answer:  <m:math display="inline">
+              <m:mrow>
+                <m:mi>H</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>14</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>12.5</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>19.5</m:mn>
+              </m:mrow>
+            </m:math> <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>H</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>14</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>12.5</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>19.5</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
 
-          </problem>
-          <solution id="sol-00009">
-            <para id="para-00035">30</para>
-          </solution>
-        </exercise>
-        <exercise id="_04a3607e-460c-4272-bfb0-71b0d83a10b9" class="multiple-choice">
-          <problem id="prob-00010">
-            <para id="para-00037">What is the slope, or rate of change?</para>
-          </problem>
-          <solution id="sol-00010">
-            <para id="para-00038">10</para>
-          </solution>
-        </exercise>
+      <para id="para-00032"><emphasis>Linear Models from Graphs</emphasis></para>
+      <quote id="quote-00007">For 9 - 12, use the situation and graph below:</quote>
+      <quote id="quote-00008">The graph models the cost in dollars, <m:math display="inline">
+          <m:mrow>
+            <m:mi>C</m:mi>
+          </m:mrow>
+        </m:math>, of renting a tent at a campground
+        for n nights. <media
+          alt="Scatter plot showing the number of nights on the x-axis versus the cost in dollars on the y-axos. Points are plotted and labeled at (0,30), (1,40), (2,50), (3,60) indicating a positive linear trend.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_04_06_01.jpg" />
+        </media>
+      </quote>
+      <exercise id="_10194ca5-8de5-4c66-80e3-516330af7969" class="multiple-choice">
+        <problem id="prob-00009">
+          <para id="para-00034">What is the <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>-intercept of the graph?</para>
+
+        </problem>
+        <solution id="sol-00009">
+          <para id="para-00035">30</para>
+        </solution>
+      </exercise>
+      <exercise id="_04a3607e-460c-4272-bfb0-71b0d83a10b9" class="multiple-choice">
+        <problem id="prob-00010">
+          <para id="para-00037">What is the slope, or rate of change?</para>
+        </problem>
+        <solution id="sol-00010">
+          <para id="para-00038">10</para>
+        </solution>
+      </exercise>
 
       <!--Q#11-->
       <exercise id="exer-00003">
         <problem id="prob-00011">
-          <para id="para-00040">Write the equation of the linear model that represents the situation in
-            slope-intercept form.</para>
+          <para id="para-00040">Write the equation of the linear model that represents the situation
+            in slope-intercept form.</para>
 
         </problem>
         <solution id="sol-00011">
           <para id="para-00041">Compare your answer: </para>
-          <para id="para-00042"><m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>30</m:mn></m:mrow></m:math></para></solution>
+          <para id="para-00042"><m:math>
+              <m:mrow>
+                <m:mi>C</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>10</m:mn>
+                <m:mi>n</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>30</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
       <!--Interaction
       End -->
 
-        <exercise id="_18d01656-b556-4ad1-97c4-43280947ff88" class="multiple-choice">
-          <problem id="prob-00012">
+      <exercise id="_18d01656-b556-4ad1-97c4-43280947ff88" class="multiple-choice">
+        <problem id="prob-00012">
 
-            <para id="para-00043">How much does it cost to rent a tent for 5 nights?</para>
-          </problem>
-          <solution id="sol-00012">
+          <para id="para-00043">How much does it cost to rent a tent for 5 nights?</para>
+        </problem>
+        <solution id="sol-00012">
 
-            <para id="para-00044">Compare your answer:  <m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>30</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mi>n</m:mi><m:mo>+</m:mo><m:mn>30</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>30</m:mn><m:mo>=</m:mo><m:mn>80</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>30</m:mn><m:mo>=</m:mo><m:mn>80</m:mn></m:mrow></m:math></para>
-            <para id="para-00045">The correct answer is .</para>
-          </solution>
-        </exercise>
+          <para id="para-00044">Compare your answer:  <m:math display="inline">
+              <m:mrow>
+                <m:mi>C</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>10</m:mn>
+                <m:mi>n</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>30</m:mn>
+              </m:mrow>
+            </m:math> <m:math display="inline">
+              <m:mrow>
+                <m:mi>C</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>10</m:mn>
+                <m:mi>n</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>30</m:mn>
+              </m:mrow>
+            </m:math> <m:math display="inline">
+              <m:mrow>
+                <m:mi>C</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>30</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>80</m:mn>
+              </m:mrow>
+            </m:math> <m:math display="inline">
+              <m:mrow>
+                <m:mi>C</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>30</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>80</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00045">The correct answer is .</para>
+        </solution>
+      </exercise>
     </section>
 
     <section id="sect-00002">
-    <note class="self-check" id="note-00001">
-      <para id="para-00046">The table below shows the revenue for the number of pizzas sold
-      at a restaurant.</para>
-      <table class="unnumbered os-raise-horizontaltable unnumbered" id="table-00003">
-        <tgroup cols="5">
-<tbody>
-            <row>
-              <entry><emphasis>Number of Pizzas</emphasis></entry>
-              <entry>20</entry>
-              <entry>30</entry>
-              <entry>40</entry>
-              <entry>50</entry>
-            </row>
-            <row>
-              <entry><emphasis>Revenue</emphasis></entry>
-              <entry>110</entry>
-              <entry>160</entry>
-              <entry>210</entry>
-              <entry>260</entry>
-            </row>
-          </tbody>
-        </tgroup>
-      </table>
+      <note class="self-check" id="note-00001">
+        <para id="para-00046">The table below shows the revenue for the number of pizzas sold at a
+        restaurant.</para>
+      <table class="unnumbered os-raise-horizontaltable unnumbered"
+          id="table-00003">
+          <tgroup cols="5">
+            <tbody>
+              <row>
+                <entry><emphasis>Number of Pizzas</emphasis></entry>
+                <entry>20</entry>
+                <entry>30</entry>
+                <entry>40</entry>
+                <entry>50</entry>
+              </row>
+              <row>
+                <entry><emphasis>Revenue</emphasis></entry>
+                <entry>110</entry>
+                <entry>160</entry>
+                <entry>210</entry>
+                <entry>260</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
       
-      <para id="para-00047">Which
-      linear model could be used to predict the revenue if 4000 pizzas were sold?</para>
-    </note>
+      <para
+          id="para-00047">Which linear model could be used to predict the revenue if 4000 pizzas
+        were sold?</para>
+      </note>
     </section>
 
     <section id="sect-00003">
@@ -242,13 +412,26 @@
       <section id="sect-00004">
         <title>Writing Linear Equations From Tables and Graphs</title>
         <para id="para-00048">Linear Equations from Tables</para>
-        <para id="para-00049">The number of texts a teen sends, <m:math display="inline"><m:mrow><m:mi>T</m:mi></m:mrow></m:math>, in days, <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math>, is shown in the table below.</para>
+        <para id="para-00049">The number of texts a teen sends, <m:math display="inline">
+            <m:mrow>
+              <m:mi>T</m:mi>
+            </m:mrow>
+          </m:math>, in days, <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math>, is shown in the table below.</para>
         <table class="unnumbered os-raise-horizontaltable unnumbered" id="table-00004">
           <tgroup cols="5">
-<tbody>
+            <tbody>
               <row>
                 <entry>
-                  <emphasis>Days, <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math></emphasis>
+                  <emphasis>Days, <m:math display="inline">
+                      <m:mrow>
+                        <m:mi>d</m:mi>
+                      </m:mrow>
+                    </m:math></emphasis>
                 </entry>
                 <entry>1</entry>
                 <entry>2</entry>
@@ -257,7 +440,11 @@
               </row>
               <row>
                 <entry>
-                  <emphasis>Number of texts, \(T|)</emphasis>
+                  <emphasis>Number of texts, <m:math display="inline">
+                      <m:mrow>
+                        <m:mi>T</m:mi>
+                      </m:mrow>
+                    </m:math></emphasis>
                 </entry>
                 <entry>65</entry>
                 <entry>130</entry>
@@ -268,92 +455,387 @@
           </tgroup>
         </table>
 
-        <para id="para-00050">Write an equation in slope-intercept form to represent the situation then predict the
-          number of texts sent in 8 days.</para>
-        <para id="para-00051"><emphasis>Step 1</emphasis> - Find the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept. Since the value when <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>
-          is not present, work backwards to <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.  If <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> was present, then <m:math display="inline"><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> since as
-          each <emphasis effect="italics">x</emphasis>-value increases by 1, the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values
-          increase by 65.</para>
-        <para id="para-00052"><emphasis>Step 2</emphasis> - Find the slope of the situation. Find the rate of
-          change. The change in y is 65 and the change in <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> is 1, so the slope is 65</para>
-        <para id="para-00053"><emphasis>Step 3</emphasis> -Write the equation in slope-intercept form. <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math>
-          <m:math display="inline"><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>65</m:mn><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>0</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>65</m:mn><m:mi>d</m:mi></m:mrow></m:math></para>
-        <para id="para-00054"><emphasis>Step 4</emphasis> -Make a prediction. Substitute <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math> into the equation.
-          <m:math display="inline"><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>65</m:mn><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>520</m:mn></m:mrow></m:math></para>
+        <para id="para-00050">Write an equation in slope-intercept form to represent the situation
+          then predict the number of texts sent in 8 days.</para>
+        <para id="para-00051"><emphasis>Step 1</emphasis> - Find the <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>-intercept.</para>
+        <para>Since the value when <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math> is not present, work backwards
+          to <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>.</para><para>If <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math> was present, then <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>T</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math> since as each <emphasis
+            effect="italics">x</emphasis>-value increases by 1, the <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>-values increase by 65.</para>
+        <para id="para-00052"><emphasis>Step 2</emphasis> - Find the slope of the situation.</para><para>Find
+          the rate of change. The change in y is 65 and the change in <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math> is 1, so the slope is 65</para>
+        <para id="para-00053"><emphasis>Step 3</emphasis> -Write the equation in slope-intercept
+          form.</para><para><m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>m</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+            </m:mrow>
+          </m:math></para><para>
+          <m:math display="inline">
+            <m:mrow>
+              <m:mi>T</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>65</m:mn>
+              <m:mi>d</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math></para><para><m:math display="inline">
+            <m:mrow>
+              <m:mi>T</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>65</m:mn>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00054"><emphasis>Step 4</emphasis> -Make a prediction.</para><para>Substitute <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>8</m:mn>
+            </m:mrow>
+          </m:math> into the equation.</para><para><m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>T</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>65</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>8</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>520</m:mn>
+            </m:mrow>
+          </m:math></para>
         <para id="para-00055">After 8 days, the teen would have sent 520 texts.</para>
-        
+
         <para id="para-00056">
           <emphasis>Linear Equations from Graphs</emphasis>
         </para>
-        <para id="para-00057">The cost, C, for the number of days, <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math>, a dog spends at doggie daycare is shown in
-          the graph below.</para>
-          <media alt="A scatterplot graph showing the cost in dollars graphed on the y-axis versus the number of days represented on the x-axis. Points are plotted and labeled at: (1, 35), (2, 70), (3, 105), and (4, 140). The cost increases steadily as the number of days increases.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_04_08_01.jpg"/>
-          </media>
-          
-        <para id="para-00058">Write an equation in slope-intercept form to represent the situation then predict the
-          cost of a dog staying at doggie daycare after 7 days.</para>
-       
-          <para id="para-00059"><emphasis>Step 1</emphasis> - Find the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept. Since the value when <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>
-          is not present, work backwards to <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.  If <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> was present, then <m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> since as
-          each <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-value increases by 1, the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values increase by 35.</para>
-        <para id="para-00060"><emphasis>Step 2</emphasis> - Find the slope of the situation. Find the rate of
-          change. The change in <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> is 35 and the change in <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> is 1, so the slope is 35</para>
-        <para id="para-00061"><emphasis>Step 3</emphasis> -Write the equation in slope-intercept form. <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math>
-          <m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>35</m:mn><m:mi>d</m:mi><m:mo>+</m:mo><m:mn>0</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>35</m:mn><m:mi>d</m:mi></m:mrow></m:math></para>
-        <para id="para-00062"><emphasis>Step 4</emphasis> -Make a prediction. Substitute <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mn>7</m:mn></m:mrow></m:math> into the equation.
-          <m:math display="inline"><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>35</m:mn><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>245</m:mn></m:mrow></m:math></para>
+        <para id="para-00057">The cost, C, for the number of days, <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math>, a dog spends at doggie daycare
+          is shown in the graph below.</para>
+        <media
+          alt="A scatterplot graph showing the cost in dollars graphed on the y-axis versus the number of days represented on the x-axis. Points are plotted and labeled at: (1, 35), (2, 70), (3, 105), and (4, 140). The cost increases steadily as the number of days increases.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_03_04_08_01.jpg" />
+        </media>
+
+        <para id="para-00058">Write an equation in slope-intercept form to represent the situation
+          then predict the cost of a dog staying at doggie daycare after 7 days.</para>
+
+        <para id="para-00059"><emphasis>Step 1</emphasis> - Find the <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>-intercept.</para><para>Since the value when <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math> is not present, work backwards
+          to <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math>.</para><para>If <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math> was present, then <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>C</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math> since as each <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>-value increases by 1, the <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>-values increase by 35.</para>
+        <para id="para-00060"><emphasis>Step 2</emphasis> - Find the slope of the situation.</para><para>Find
+          the rate of change. The change in <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math> is 35 and the change in <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math> is 1, so the slope is 35</para>
+        <para id="para-00061"><emphasis>Step 3</emphasis> -Write the equation in slope-intercept
+          form.</para><para><m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>m</m:mi>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>b</m:mi>
+            </m:mrow>
+          </m:math></para><para>
+          <m:math display="inline">
+            <m:mrow>
+              <m:mi>C</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>35</m:mn>
+              <m:mi>d</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>0</m:mn>
+            </m:mrow>
+          </m:math></para><para><m:math display="inline">
+            <m:mrow>
+              <m:mi>C</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>35</m:mn>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00062"><emphasis>Step 4</emphasis> -Make a prediction.</para><para>Substitute <m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>7</m:mn>
+            </m:mrow>
+          </m:math> into the equation.</para><para><m:math
+            display="inline">
+            <m:mrow>
+              <m:mi>C</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>35</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>7</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>245</m:mn>
+            </m:mrow>
+          </m:math></para>
         <para id="para-00063">After 7 days, the cost of doggie daycare would be $245.</para>
 
         <note class="try" id="note-00002">
-        <title>Try It-Writing Linear Equations From Tables and Graphs</title>
-        <para id="para-00064">Naomi is a professional painter. The table below shows how many square feet, <m:math display="inline"><m:mrow><m:mi>F</m:mi></m:mrow></m:math>,
-          she can paint in <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math> hours.</para>
-        <table class="unnumbered os-raise-horizontaltable unnumbered" id="table-00005">
-          <tgroup cols="5">
-<tbody>
-              <row>
-                <entry>
-                  <emphasis>Time in hours, <m:math display="inline"><m:mrow><m:mi>h</m:mi></m:mrow></m:math></emphasis>
-                </entry>
-                <entry>1</entry>
-                <entry>2</entry>
-                <entry>3</entry>
-                <entry>4</entry>
-              </row>
-              <row>
-                <entry>
-                  <emphasis>Number of square feet, <m:math display="inline"><m:mrow><m:mi>F</m:mi></m:mrow></m:math></emphasis>
-                </entry>
-                <entry>120</entry>
-                <entry>240</entry>
-                <entry>360</entry>
-                <entry>480</entry>
-              </row>
-            </tbody>
-          </tgroup>
-        </table>
-        <!--Q#-->
-        <exercise id="exer-00004">
-          <problem id="prob-00013">
-            <para id="para-00065">How many square feet can Naomi paint in 8 hours?</para>
-          </problem>
-          <solution id="sol-00013">
-            <para id="para-00066">Compare your answer: </para>
-            <para id="para-00067">960</para>
-            <para id="para-00068"><emphasis>Step 1</emphasis> - Find the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept. Since the value when
-              <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> is not present, work backwards to <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.  If <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> was present, then
-              <m:math display="inline"><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> since as each <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-value increases by 1, the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values increase by 120.</para>
-            <para id="para-00069"><emphasis>Step 2</emphasis> - Find the slope of the situation. Find the rate of
-              change. The change in <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> is 120 and the change in <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> is 1, so the slope is 120</para>
-            <para id="para-00070"><emphasis>Step 3</emphasis> -Write the equation in slope-intercept form.
-              <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mi>h</m:mi><m:mo>+</m:mo><m:mn>0</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mi>h</m:mi></m:mrow></m:math></para>
-            <para id="para-00071"><emphasis>Step 4</emphasis> -Make a prediction. Substitute <m:math display="inline"><m:mrow><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>8</m:mn></m:mrow></m:math> into the
-              equation. <m:math display="inline"><m:mrow><m:mi>F</m:mi><m:mo>=</m:mo><m:mn>120</m:mn><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>960</m:mn></m:mrow></m:math></para>
-            <para id="para-00072">Naomi can paint 960 square feet in 8 hours.</para>
-          </solution>
-        </exercise>
-      </note>
+          <title>Try It-Writing Linear Equations From Tables and Graphs</title>
+        <para id="para-00064">Naomi
+          is a professional painter. The table below shows how many square feet, <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>F</m:mi>
+              </m:mrow>
+            </m:math>, she can paint in <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+              </m:mrow>
+            </m:math> hours.</para>
+        <table
+            class="unnumbered os-raise-horizontaltable unnumbered" id="table-00005">
+            <tgroup cols="5">
+              <tbody>
+                <row>
+                  <entry>
+                    <emphasis>Time in hours, <m:math display="inline">
+                        <m:mrow>
+                          <m:mi>h</m:mi>
+                        </m:mrow>
+                      </m:math></emphasis>
+                  </entry>
+                  <entry>1</entry>
+                  <entry>2</entry>
+                  <entry>3</entry>
+                  <entry>4</entry>
+                </row>
+                <row>
+                  <entry>
+                    <emphasis>Number of square feet, <m:math display="inline">
+                        <m:mrow>
+                          <m:mi>F</m:mi>
+                        </m:mrow>
+                      </m:math></emphasis>
+                  </entry>
+                  <entry>120</entry>
+                  <entry>240</entry>
+                  <entry>360</entry>
+                  <entry>480</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <!--Q#-->
+        <exercise
+            id="exer-00004">
+            <problem id="prob-00013">
+              <para id="para-00065">How many square feet can Naomi paint in 8 hours?</para>
+            </problem>
+            <solution id="sol-00013">
+              <para id="para-00066">Compare your answer: </para>
+              <para id="para-00067">960</para>
+              <para id="para-00068"><emphasis>Step 1</emphasis> - Find the <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math>-intercept.</para><para>
+          Since the value when <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math> is not
+          present, work backwards to <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+                <para>If <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math> was present,
+          then <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>F</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math> since as each <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math>-value
+          increases by 1, the <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math>-values
+          increase by 120.</para>
+              <para id="para-00069"><emphasis>Step 2</emphasis> - Find the slope of the situation.</para><para>
+          Find the rate of change. The change in <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math> is 120 and
+          the change in <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math> is 1, so the
+          slope is 120</para>
+              <para id="para-00070"><emphasis>Step 3</emphasis> -Write the equation in
+          slope-intercept form.</para><para><m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mi>m</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:math></para><para><m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>F</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>120</m:mn>
+                    <m:mi>h</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:math></para><para><m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>F</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>120</m:mn>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00071"><emphasis>Step 4</emphasis> -Make a prediction.</para><para>Substitute <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>8</m:mn>
+                  </m:mrow>
+                </m:math> into the
+          equation.</para><para><m:math display="inline">
+                  <m:mrow>
+                    <m:mi>F</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>120</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>8</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>960</m:mn>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00072">Naomi can paint 960 square feet in 8 hours.</para>
+            </solution>
+          </exercise>
+        </note>
         <!--Interaction
         End -->
       </section>
