@@ -6,13 +6,15 @@
     <md:uuid>fb7bfeac-0771-4f60-b471-a2011ffb8d72</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Activity</title>
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00001">The table represents the relationship between the base length and the height of some parallelograms. Both measurements are in inches.</para>
+          <para id="para-00001">The table represents the relationship between the base length and
+            the height of some parallelograms. Both measurements are in inches.</para>
           <table class="unnumbered os-raise-skinnytable unnumbered" id="table-00001">
             <tgroup cols="2">
-<tbody>
+              <tbody>
                 <row>
                   <entry> 1 </entry>
                   <entry> 48 </entry>
@@ -36,28 +38,60 @@
               </tbody>
             </tgroup>
           </table>
-          <para id="para-00002">What is the relationship between the base length and the height of these parallelograms?</para>
+          <para id="para-00002">What is the relationship between the base length and the height of
+            these parallelograms?</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00003">Compare your answer: </para>
           <list id="list-00001">
-            <item>As the base length increases by 1, the height decreases, but not by a steady amount.</item>
-            <item>Multiplying the base length and the height gives 48. The area of each parallelogram is 48 square inches.</item>
-            <item><m:math display="inline"><m:mrow><m:mi>b</m:mi><m:mi>·</m:mi><m:mi>h</m:mi><m:mo>=</m:mo><m:mn>48</m:mn></m:mrow></m:math>, or <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>48</m:mn></m:mrow><m:mrow><m:mi>b</m:mi></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>h</m:mi></m:mrow></m:math> (or equivalent).</item>
-            <item>The height varies inversely as <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.</item>
+            <item>As the base length increases by 1, the height decreases, but not by a steady
+              amount.</item>
+            <item>Multiplying the base length and the height gives 48. The area of each
+              parallelogram is 48 square inches.</item>
+            <item><m:math display="inline">
+                <m:mrow>
+                  <m:mi>b</m:mi>
+                  <m:mi>·</m:mi>
+                  <m:mi>h</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>48</m:mn>
+                </m:mrow>
+              </m:math>, or <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>48</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>b</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>=</m:mo>
+                  <m:mi>h</m:mi>
+                </m:mrow>
+              </m:math> (or equivalent).</item>
+            <item>The height varies inversely as <m:math display="inline">
+                <m:mrow>
+                  <m:mi>b</m:mi>
+                </m:mrow>
+              </m:math>.</item>
           </list>
         </solution>
       </exercise>
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00004">Visitors to a carnival are invited to guess the number of beans in a jar. The person who guesses the correct number wins $300. If multiple people guess correctly, the prize will be divided evenly among them.</para>
-          <para id="para-00005">What is the relationship between the number of people who guess correctly and the amount of money each person will receive?</para>
+          <para id="para-00004">Visitors to a carnival are invited to guess the number of beans in a
+            jar. The person who guesses the correct number wins $300. If multiple people guess
+            correctly, the prize will be divided evenly among them.</para>
+          <para id="para-00005">What is the relationship between the number of people who guess
+            correctly and the amount of money each person will receive?</para>
         </problem>
         <solution id="sol-00002">
           <para id="para-00006">Compare your answer: </para>
           <table class="unnumbered os-raise-midsizetable unnumbered" id="table-00002">
             <tgroup cols="2">
-<tbody>
+              <tbody>
                 <row>
                   <entry> 1 </entry>
                   <entry> 300 </entry>
@@ -82,25 +116,96 @@
             </tgroup>
           </table>
           <list id="list-00002">
-            <item>The amount in dollars received by each winner is 300 divided by the number of winners.</item>
-            <item><m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>300</m:mn></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:math>, or <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mi>·</m:mi><m:mi>n</m:mi><m:mo>=</m:mo><m:mn>300</m:mn></m:mrow></m:math> (or equivalent), where <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> is the dollar amount a winner receives and <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> is the number of winners.</item>
-            <item>The amount in dollars, <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math>, varies inversely as <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>.</item>
+            <item>The amount in dollars received by each winner is 300 divided by the number of
+              winners.</item>
+            <item><m:math display="inline">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>300</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:math>,
+              or <m:math display="inline">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mi>·</m:mi>
+                  <m:mi>n</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>300</m:mn>
+                </m:mrow>
+              </m:math> (or equivalent),
+              where <m:math display="inline">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                </m:mrow>
+              </m:math> is the dollar
+              amount a winner receives and <m:math display="inline">
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                </m:mrow>
+              </m:math> is the number of
+              winners.</item>
+            <item>The amount in dollars, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                </m:mrow>
+              </m:math>, varies inversely
+              as <m:math display="inline">
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                </m:mrow>
+              </m:math>.</item>
           </list>
         </solution>
       </exercise>
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00007">A <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math>-gallon jug of milk can fill 8 cups, while 32 fluid ounces of milk can fill 4 cups.</para>
-          <para id="para-00008">What is the relationship between the number of gallons and ounces? If you get stuck, try creating a table.</para>
+          <para id="para-00007">A <m:math display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math>-gallon
+            jug of milk can fill 8 cups, while 32 fluid ounces of milk can fill 4 cups.</para>
+          <para id="para-00008">What is the relationship between the number of gallons and ounces?
+            If you get stuck, try creating a table.</para>
         </problem>
         <solution id="sol-00003">
           <para id="para-00009">Compare your answer: </para>
-          <para id="para-00010">If 4 cups contain 32 fluid ounces, then 8 cups must contain 64 fluid ounces. Because there are 16 cups in 1 gallon and 16 is twice as much as 8, there must be 128 fluid ounces in a gallon.</para>
+          <para id="para-00010">If 4 cups contain 32 fluid ounces, then 8 cups must contain 64 fluid
+            ounces. Because there are 16 cups in 1 gallon and 16 is twice as much as 8, there must
+            be 128 fluid ounces in a gallon.</para>
           <table class="unnumbered os-raise-midsizetable unnumbered" id="table-00003">
             <tgroup cols="3">
-<tbody>
+              <tbody>
                 <row>
-                  <entry> <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math> </entry>
+                  <entry>
+                    <m:math display="inline">
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:math>
+                  </entry>
                   <entry> 8 </entry>
                   <entry> 64 </entry>
                 </row>
@@ -114,47 +219,114 @@
           </table>
           <list id="list-00003">
             <item>Multiplying the number of gallons by 128 gives the number of fluid ounces.</item>
-            <item><m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mi>·</m:mi><m:mn>8</m:mn><m:mi>·</m:mi><m:mn>2</m:mn><m:mi>·</m:mi><m:mi>g</m:mi></m:mrow></m:math>, or <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>128</m:mn><m:mi>g</m:mi></m:mrow></m:math> (or equivalent), where <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> is the number of fluid ounces and <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math> is the number of gallons.</item>
-            <item>The number of fluid ounces, <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math>, varies directly as the number of gallons, <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math>.</item>
+            <item><m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>8</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:mn>8</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:mn>2</m:mn>
+                  <m:mi>·</m:mi>
+                  <m:mi>g</m:mi>
+                </m:mrow>
+              </m:math>, or <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>128</m:mn>
+                  <m:mi>g</m:mi>
+                </m:mrow>
+              </m:math> (or equivalent),
+              where <m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                </m:mrow>
+              </m:math> is the number of
+              fluid ounces and <m:math display="inline">
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                </m:mrow>
+              </m:math> is the number of
+              gallons.</item>
+            <item>The number of fluid ounces, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                </m:mrow>
+              </m:math>, varies directly as
+              the number of gallons, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>g</m:mi>
+                </m:mrow>
+              </m:math>.</item>
           </list>
         </solution>
       </exercise>
       <note id="note-00001">
         <title>Building Character: Social Intelligence</title>
         
-          <media alt="Illustration of four diverse people, each inside a puzzle piece, interacting and waving. Various gears, leaves, and small icons surround them, representing teamwork and collaboration.">
-            <image mime-type="image/png" src="../../media/Algebra-1_01_05_06_01.png" width="200"/>
-          </media>
+          <media
+          alt="Illustration of four diverse people, each inside a puzzle piece, interacting and waving. Various gears, leaves, and small icons surround them, representing teamwork and collaboration.">
+          <image mime-type="image/png" src="../../media/Algebra-1_01_05_06_01.png" width="200" />
+        </media>
         
-            <para id="para-00011">Social intelligence is the ability to connect with other people. Think about your current sense of social intelligence. Are the following statements true for you??</para>
-            <list id="list-00004">
-          <item>I have a lot of relationships that are mutually beneficial, enjoyable, and supportive.</item>
-          <item>Most of the time, I can tell how other people feel and have a good idea about how to respond appropriately.</item>
+            <para
+          id="para-00011">Social intelligence is the ability to connect with other people. Think
+        about your current sense of social intelligence. Are the following statements true for you??</para>
+            <list
+          id="list-00004">
+          <item>I have a lot of relationships that are mutually beneficial, enjoyable, and
+        supportive.</item>
+          <item>Most of the time, I can tell how other people feel and have a good idea about how to
+        respond appropriately.</item>
         </list>
-            <para id="para-00012">Don’t worry if none of these statements are true for you. Developing this trait takes time. Your first step starts today!</para>
+            <para id="para-00012">Don’t worry if none of
+        these statements are true for you. Developing this trait takes time. Your first step starts
+        today!</para>
       </note>
     </section>
     <section id="sect-00002">
       <note class="self-check" id="note-00002">
         <exercise id="exer-00007">
           <problem id="prob-00016">
-          <para id="para-00013"><link class="os-embed" url="#exercise/Alg1_1_3_3_SC"/></para>
+            <para id="para-00013"><link class="os-embed" url="#exercise/Alg1_1_3_3_SC" /></para>
           </problem>
-          </exercise>
+        </exercise>
       </note>
     </section>
     <section id="sect-00003">
       <title>Additional Resources</title>
       <section id="sect-00004">
         <title>Finding Relationships between Quantities</title>
-        <para id="para-00014">There are times when the relationship between quantities may not be obvious. In some cases, the relationship between quantities might take a bit of work to figure out, by doing calculations several times or by looking for a pattern.</para>
+        <para id="para-00014">There are times when the relationship between quantities may not be
+          obvious. In some cases, the relationship between quantities might take a bit of work to
+          figure out, by doing calculations several times or by looking for a pattern.</para>
         <para id="para-00015">Here are two examples.</para>
         <section id="sect-00005">
           <para id="para-00018"><emphasis>Example 1</emphasis></para>
-          <para id="para-00016">A plane departed from New Orleans and is heading to San Diego. The table shows its distance from New Orleans, <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, and its distance from San Diego, <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, at some points along the way.</para>
+          <para id="para-00016">A plane departed from New Orleans and is heading to San Diego. The
+            table shows its distance from New Orleans, <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>, and its distance from
+            San Diego, <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>, at some points along the
+            way.</para>
           <table class="unnumbered os-raise-midsizetable unnumbered" id="table-00005">
             <tgroup cols="2">
-<tbody>
+              <thead>
+                <row>
+                  <entry>miles from New Orleans</entry>
+                  <entry>miles from San Diego</entry>
+                </row>
+              </thead>
+              <tbody>
                 <row>
                   <entry>100</entry>
                   <entry>1,500</entry>
@@ -168,7 +340,7 @@
                   <entry>1,100</entry>
                 </row>
                 <row>
-                  <entry/>
+                  <entry />
                   <entry>1,020</entry>
                 </row>
                 <row>
@@ -177,24 +349,43 @@
                 </row>
                 <row>
                   <entry>1,450</entry>
-                  <entry/>
+                  <entry />
                 </row>
                 <row>
-                  <entry><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></entry>
-                  <entry><m:math><m:mrow><m:mi>y</m:mi></m:mrow></m:math></entry>
+                  <entry><m:math>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:math></entry>
+                  <entry><m:math>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                      </m:mrow>
+                    </m:math></entry>
                 </row>
               </tbody>
             </tgroup>
           </table>
         </section>
         <!--Q1 -->
+        <section class="numbered-exercises">
         <exercise id="exer-00004">
           <problem id="prob-00004">
             <para id="para-00017">What is the relationship between the two distances?</para>
-            </problem>
+          </problem>
           <solution id="sol-00004">
-            <para id="para-00019">Compare your answer: Your answer may vary, but here are some samples.</para>
-            <para id="para-00020">The distances represent one path—the distance from New Orleans to San Diego. The two distances sum to 1600 miles. <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>160</m:mn></m:mrow></m:math></para>
+            <para id="para-00019">Compare your answer: Your answer may vary, but here are some
+              samples.</para>
+            <para id="para-00020">The distances represent one path—the distance from New Orleans to
+              San Diego. The two distances sum to 1600 miles. <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>160</m:mn>
+                </m:mrow>
+              </m:math></para>
           </solution>
         </exercise>
         <!--Interaction
@@ -203,113 +394,297 @@
         <exercise id="exer-00005">
           <problem id="prob-00005">
             <para id="para-00021">Do you see any patterns in how each quantity is changing?</para>
-            </problem>
+          </problem>
           <solution id="sol-00005">
             <para id="para-00023">Compare your answer: Your answer may vary, but here is a sample.</para>
-            <para id="para-00024">As the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values increase, the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values decrease. As the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values increase by 200 miles, the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values decrease by 200 miles. The quantities, <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, sum to 1600 even after changing.</para>
+            <para id="para-00024">As the <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>-values increase,
+              the <m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math>-values decrease. As
+              the <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>-values increase by
+              200 miles, the <m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math>-values decrease by
+              200 miles. The quantities, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math> and <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math>, sum to 1600 even
+              after changing.</para>
           </solution>
         </exercise>
         <!--Interaction
           End -->
         <exercise id="_9705ea6f-ee8b-4623-ad07-3be096ad7681" class="multiple-choice">
           <problem id="prob-00006">
-            <para id="para-00025">What is the value of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> = 1020?</para>
-            </problem>
+            <para id="para-00025">What is the value of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math> when <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math> = 1020?</para>
+          </problem>
           <solution id="sol-00006">
             <para id="para-00027">580 miles</para>
           </solution>
         </exercise>
         <exercise id="_17964aaa-6e91-4908-91f1-f7f789df3289" class="multiple-choice">
           <problem id="prob-00007">
-            <para id="para-00029">What is the value of <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> when <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> = 1450?</para>
-            </problem>
+            <para id="para-00029">What is the value of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math> when <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math> = 1450?</para>
+          </problem>
           <solution id="sol-00007">
             <para id="para-00031">150.</para>
           </solution>
         </exercise>
-        <section id="sect-00006">
+      </section>
+        <section class="numbered-exercises" id="sect-00006">
           <para id="para-00022"><emphasis>Example 2</emphasis></para>
-          <para id="para-00033">A company decides to donate $50,000 to charity. It will select up to 20 charitable organizations, as nominated by its employees. Each selected organization will receive an equal donation amount.</para>
-          <para id="para-00034">What is the relationship between the number of students, <m:math display="inline"><m:mrow><m:mi>s</m:mi></m:mrow></m:math>, and the dollar amount each student will receive, <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math>? To begin, let's examine some specific values to help uncover the pattern.</para>
-          <exercise id="c139ee28-73dc-4737-9b32-167f1010a9aa" class="multiple-choice">
+          <para id="para-00033">A company decides to donate $50,000 to charity. It will select up to
+            20 charitable organizations, as nominated by its employees. Each selected organization
+            will receive an equal donation amount.</para>
+          <para id="para-00034">What is the relationship between the number of students, <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>s</m:mi>
+              </m:mrow>
+            </m:math>, and the dollar amount
+            each student will receive, <m:math display="inline">
+              <m:mrow>
+                <m:mi>d</m:mi>
+              </m:mrow>
+            </m:math>? To begin, let's examine
+            some specific values to help uncover the pattern.</para>
+            <exercise id="c139ee28-73dc-4737-9b32-167f1010a9aa" class="multiple-choice">
             <problem id="prob-00008">
-              <para id="para-00035">If 5 organizations are selected, how much will each charity receive?</para>
-              </problem>
+              <para id="para-00035">If 5 organizations are selected, how much will each charity
+                receive?</para>
+            </problem>
             <solution id="sol-00008">
               <para id="para-00037">$10,000</para>
             </solution>
           </exercise>
           <exercise id="b994dfe2-48dc-40bb-afa4-4e2b4b067038" class="multiple-choice">
             <problem id="prob-00009">
-              <para id="para-00039">If 10 organizations are selected, how much will each charity receive?</para>
-              </problem>
+              <para id="para-00039">If 10 organizations are selected, how much will each charity
+                receive?</para>
+            </problem>
             <solution id="sol-00009">
               <para id="para-00041">$5,000</para>
             </solution>
           </exercise>
           <exercise id="_53c37854-fad0-4fad-8327-6b1bb5f6fec9" class="multiple-choice">
             <problem id="prob-00010">
-              <para id="para-00043">If 20 organizations are selected, how much will each charity receive?</para>
-              </problem>
+              <para id="para-00043">If 20 organizations are selected, how much will each charity
+                receive?</para>
+            </problem>
             <solution id="sol-00010">
               <para id="para-00045">$2,500</para>
             </solution>
           </exercise>
+          
         </section>
-        <para id="para-00047">Do you notice a pattern here? 10,000 is <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math>, 5,000 is <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow><m:mrow><m:mn>10</m:mn></m:mrow></m:mfrac></m:mrow></m:math>, and 2,500 is <m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow><m:mrow><m:mn>20</m:mn></m:mrow></m:mfrac></m:mrow></m:math>.</para>
-        <para id="para-00048">We can generalize that the amount each organization receives is 50,000 divided by the number of selected organizations, or <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>50</m:mn><m:mo>,</m:mo><m:mn>000</m:mn></m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mfrac></m:mrow></m:math>.</para>
-        <section class="numbered-exercises" id="sect-00007"><note class="try" id="note-00003">
-          <title>Try It: Finding Relationships between Quantities</title>
-          <para id="para-00049">A local business is going to hand out $20,000 in scholarships to students at local high schools.</para>
-          <para id="para-00050">What is the relationship between the number of students, <m:math display="inline"><m:mrow><m:mi>s</m:mi></m:mrow></m:math>, and the dollar amount each student will receive, <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math>?</para>
+        <para id="para-00047">Do you notice a pattern here? 10,000 is <m:math display="inline">
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>50</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>000</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>,
+          5,000 is <m:math display="inline">
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>50</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>000</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>10</m:mn>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>,
+          and 2,500 is <m:math display="inline">
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>50</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>000</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>20</m:mn>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+          .</para>
+        <para id="para-00048">We can generalize that the amount each organization receives is 50,000
+          divided by the number of selected organizations, or <m:math display="inline">
+            <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>50</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>000</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:math>
+          .</para>
+        <section class="numbered-exercises" id="sect-00007">
+          <note class="try" id="note-00003">
+            <title>Try It: Finding Relationships between Quantities</title>
+          <para id="para-00049">A
+            local business is going to hand out $20,000 in scholarships to students at local high
+            schools.</para>
+          <para id="para-00050">What is the relationship between the number of
+            students, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math>, and the dollar
+            amount each student will receive, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>d</m:mi>
+                </m:mrow>
+              </m:math>?</para>
     
-            <exercise id="_5413bfaf-044d-4833-994b-536ca9b8ea53" class="multiple-choice">
-            <problem id="prob-00011">
-              <para id="para-00051">If 2 students are selected, what is the amount of the scholarship they will receive?</para>
+            <exercise
+              id="_5413bfaf-044d-4833-994b-536ca9b8ea53" class="multiple-choice">
+              <problem id="prob-00011">
+                <para id="para-00051">If 2 students are selected, what is the amount of the
+            scholarship they will receive?</para>
               </problem>
-            <solution id="sol-00011">
-              <para id="para-00053">10,000</para>
-            </solution>
-          </exercise>
+              <solution id="sol-00011">
+                <para id="para-00053">10,000</para>
+              </solution>
+            </exercise>
     
-            <exercise id="b227027d-baec-4d60-8959-55f8180fea10" class="multiple-choice">
-            <problem id="prob-00012">
-              <para id="para-00055">If there are 5 students selected, what is the amount of the scholarship they will receive?</para>
+            <exercise
+              id="b227027d-baec-4d60-8959-55f8180fea10" class="multiple-choice">
+              <problem id="prob-00012">
+                <para id="para-00055">If there are 5 students selected, what is the amount of the
+            scholarship they will receive?</para>
               </problem>
-            <solution id="sol-00012">
-              <para id="para-00057">4,000</para>
-            </solution>
-          </exercise>
+              <solution id="sol-00012">
+                <para id="para-00057">4,000</para>
+              </solution>
+            </exercise>
     
-            <exercise id="aec9601d-6cbb-4815-8e11-7b8c0e18a7cf" class="multiple-choice">
-            <problem id="prob-00013">
-              <para id="para-00059">If there are 10 students selected, what is the amount of the scholarship they will receive?</para>
+            <exercise
+              id="aec9601d-6cbb-4815-8e11-7b8c0e18a7cf" class="multiple-choice">
+              <problem id="prob-00013">
+                <para id="para-00059">If there are 10 students selected, what is the amount of the
+            scholarship they will receive?</para>
               </problem>
-            <solution id="sol-00013">
-              <para id="para-00061">2,000</para>
-            </solution>
-          </exercise>
+              <solution id="sol-00013">
+                <para id="para-00061">2,000</para>
+              </solution>
+            </exercise>
     
-            <exercise id="_6367aa25-7eeb-4ec5-b216-ae94b7e174c1" class="multiple-choice">
-            <problem id="prob-00014">
-              <para id="para-00063">If there are 20 students selected, what is the amount of the scholarship they will receive?</para>
+            <exercise
+              id="_6367aa25-7eeb-4ec5-b216-ae94b7e174c1" class="multiple-choice">
+              <problem id="prob-00014">
+                <para id="para-00063">If there are 20 students selected, what is the amount of the
+            scholarship they will receive?</para>
               </problem>
-            <solution id="sol-00014">
-              <para id="para-00065">1,000</para>
-            </solution>
-          </exercise>
-          <!--Text
+              <solution id="sol-00014">
+                <para id="para-00065">1,000</para>
+              </solution>
+            </exercise>
+            <!--Text
           Entry Interaction Start -->
-          <exercise id="exer-00006">
-            <problem id="prob-00015">
-              <para id="para-00067">What equation can be used to model the relationship between the number of students, <m:math display="inline"><m:mrow><m:mi>s</m:mi></m:mrow></m:math>, receiving scholarships and the dollar amount, <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math>, they receive?</para>
-            </problem>
-            <solution id="sol-00015">
-              <para id="para-00069">Compare your answer: </para>
-              <para id="para-00070">Your answer may vary, but here is a sample. The amount each student receives is $20,000 divided by the number of students or, <m:math display="inline"><m:mrow><m:mi>d</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>20000</m:mn></m:mrow><m:mrow><m:mi>s</m:mi></m:mrow></m:mfrac></m:mrow></m:math>. The dollar amount each student receives, <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math>, varies inversely as the number of students, <m:math display="inline"><m:mrow><m:mi>s</m:mi></m:mrow></m:math>.</para>
-            </solution>
-          </exercise>
-        </note></section>
+          <exercise
+              id="exer-00006">
+              <problem id="prob-00015">
+                <para id="para-00067">What equation can be used to model the relationship between
+            the number of students, <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>s</m:mi>
+                    </m:mrow>
+                  </m:math>,
+            receiving scholarships and the dollar amount, <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>d</m:mi>
+                    </m:mrow>
+                  </m:math>, they
+            receive?</para>
+              </problem>
+              <solution id="sol-00015">
+                <para id="para-00069">Compare your answer: </para>
+                <para id="para-00070">Your answer may vary, but here is a sample. The amount each
+            student receives is $20,000 divided by the number of students or, <m:math
+                    display="inline">
+                    <m:mrow>
+                      <m:mi>d</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>20000</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>s</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:math>.
+            The dollar amount each student receives, <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>d</m:mi>
+                    </m:mrow>
+                  </m:math>, varies
+            inversely as the number of students, <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>s</m:mi>
+                    </m:mrow>
+                  </m:math>.</para>
+              </solution>
+            </exercise>
+          </note>
+        </section>
         <!--Interaction
           End -->
       </section>

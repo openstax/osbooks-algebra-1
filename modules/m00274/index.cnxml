@@ -6,31 +6,88 @@
     <md:uuid>cc7b0d15-fddb-4991-ad7e-c02cc82774e6</md:uuid>
   </metadata>
   <content>
-    <section class="practice" id="sect-00001"><title>Cool Down</title>
-      <para id="para-00001">You have seen that you can use either the slope-intercept form or the point-slope form to find an equation of a line. Which form you use will depend on the information you are given.</para>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Cool Down</title>
+      <para id="para-00001">You have seen that you can use either the slope-intercept form or the
+        point-slope form to find an equation of a line. Which form you use will depend on the
+        information you are given.</para>
       <para id="para-00002">The table can be used as a reference.</para>
       <table class="unnumbered os-raise-wideequaltable unnumbered" id="table-00001">
         <tgroup cols="3">
-<tbody>
+          <tbody>
             <row>
               <entry><emphasis>If given:</emphasis></entry>
               <entry><emphasis>Use:</emphasis></entry>
               <entry><emphasis>Form:</emphasis></entry>
             </row>
             <row>
-              <entry> Slope and <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-intercept</entry>
+              <entry> Slope and <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math>-intercept</entry>
               <entry> slope-intercept </entry>
-              <entry> <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></entry>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mi>m</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:math></entry>
             </row>
             <row>
               <entry> Slope and a point </entry>
               <entry> point-slope </entry>
-              <entry> <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:mi>m</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math></entry>
             </row>
             <row>
               <entry> Two points </entry>
               <entry> point-slope </entry>
-              <entry> <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></entry>
+              <entry>
+                <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo>=</m:mo>
+                    <m:mi>m</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo>−</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math></entry>
             </row>
           </tbody>
         </tgroup>
@@ -38,41 +95,482 @@
       </table>
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00003">Each partner should find a slip labeled “Points.” Place the remaining equation slips in a pile face down to be used in the second step.</para>
+          <para id="para-00003">Each partner should find a slip labeled “Points.” Place the
+            remaining equation slips in a pile face down to be used in the second step.</para>
           <para id="para-00004">Find the slope of the line containing the points on your slip.</para>
-          <para id="para-00005">Take turns sharing with your partner the slope of your line and the method used to find the slope.</para>
+          <para id="para-00005">Take turns sharing with your partner the slope of your line and the
+            method used to find the slope.</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00006">Compare your answer: </para>
-          <para id="para-00007">Your answer may vary, but here is a sample. You will use the point-slope form to find the line <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math> given the two points on your slip.</para>
-          <para id="para-00008">Points <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>4</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>m</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
-          <para id="para-00009">Points <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>−</m:mi><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>−</m:mi><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>10</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>10</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn><m:mi>m</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>m</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+          <para id="para-00007">Your answer may vary, but here is a sample. You will use the
+            point-slope form to find the line <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>−</m:mo>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mi>m</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> given
+            the two points on your slip.</para>
+          <para id="para-00008">Points <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+            <para><m:math
+              display="inline">
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>6</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo>−</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo>−</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mn>2</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo>−</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mn>2</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mi>m</m:mi>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>m</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00009">Points <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>−</m:mi>
+                <m:mn>3</m:mn>
+                <m:mo>,</m:mo>
+                <m:mi>−</m:mi>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para><para><m:math
+              display="inline">
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:msub>
+                        <m:mi>y</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo>−</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo>−</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>6</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mn>10</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mi>m</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mn>10</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mn>5</m:mn>
+                      <m:mi>m</m:mi>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>m</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mn>2</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:math></para>
         </solution>
       </exercise>
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00010">Partners take turns choosing slips from the pile to see if the equation on the slip represents the line formed by the points on their Points slip.</para>
+          <para id="para-00010">Partners take turns choosing slips from the pile to see if the
+            equation on the slip represents the line formed by the points on their Points slip.</para>
           <list id="list-00001">
-            <item>One partner chooses an Equation slip from the pile. Decide if the equation represents a line through the points on your Points slip. If it does, explain to your partner how you know. Keep the slip. If it does not represent a line through your points, give the Equation slip to your partner.</item>
-            <item>Your partner should verify the equation represents a line through the points on your partner’s Points slip. Discuss and reach an agreement. If the equation does not represent a line through either partner’s points, set it aside.</item>
-            <item>Take turns choosing Equation slips until they are all gone. (There are 6 Equation slips.) Each partner should end with a total of 2 Equation slips that match. There will be 2 Equations slips that do not match either set of points.</item>
+            <item>One partner chooses an Equation slip from the pile. Decide if the equation
+              represents a line through the points on your Points slip. If it does, explain to your
+              partner how you know. Keep the slip. If it does not represent a line through your
+              points, give the Equation slip to your partner.</item>
+            <item>Your partner should verify the equation represents a line through the points on
+              your partner’s Points slip. Discuss and reach an agreement. If the equation does not
+              represent a line through either partner’s points, set it aside.</item>
+            <item>Take turns choosing Equation slips until they are all gone. (There are 6 Equation
+              slips.) Each partner should end with a total of 2 Equation slips that match. There
+              will be 2 Equations slips that do not match either set of points.</item>
             <item>Which equations represent a line through your points?</item>
           </list>
         </problem>
         <solution id="sol-00002">
-          <para id="para-00011"> Compare your answers: Your answers may vary, but here are some samples.</para>
-          <para id="para-00012">Points: <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-          <para id="para-00013">Points: <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>‒</m:mi><m:mn>3</m:mn><m:mo>,</m:mo><m:mi>‒</m:mi><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-          <para id="para-00014">Equations with no match: <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+          <para id="para-00011"> Compare your answers: Your answers may vary, but here are some
+            samples.</para>
+          <para id="para-00012">Points: <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mfrac>
+                  <m:mn>2</m:mn>
+                  <m:mn>3</m:mn>
+                </m:mfrac>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mfrac>
+                  <m:mn>2</m:mn>
+                  <m:mn>3</m:mn>
+                </m:mfrac>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00013">Points: <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>‒</m:mi>
+                <m:mn>3</m:mn>
+                <m:mo>,</m:mo>
+                <m:mi>‒</m:mi>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mfrac>
+                  <m:mn>2</m:mn>
+                  <m:mn>3</m:mn>
+                </m:mfrac>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mfrac>
+                  <m:mn>2</m:mn>
+                  <m:mn>3</m:mn>
+                </m:mfrac>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00014">Equations with no match: <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mfrac>
+                  <m:mn>2</m:mn>
+                  <m:mn>3</m:mn>
+                </m:mfrac>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mfrac>
+                  <m:mn>2</m:mn>
+                  <m:mn>3</m:mn>
+                </m:mfrac>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
         </solution>
       </exercise>
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00015">Is identifying the slope enough to match your set of points to an equation?</para>
+          <para id="para-00015">Is identifying the slope enough to match your set of points to an
+            equation?</para>
         </problem>
         <solution id="sol-00003">
           <para id="para-00016">Compare your answer: </para>
-          <para id="para-00017">Your answer may vary, but here is a sample. No, the slope is not enough to identify the equation, because lines with the same slope can go through different points.</para>
+          <para id="para-00017">Your answer may vary, but here is a sample. No, the slope is not
+            enough to identify the equation, because lines with the same slope can go through
+            different points.</para>
         </solution>
       </exercise>
     </section>
