@@ -6,41 +6,322 @@
     <md:uuid>565c3da7-65cd-453e-8c01-941152cbdfbd</md:uuid>
   </metadata>
   <content>
-      <section class="numbered-exercises" id="sect-00002">        <title>Activity</title>
-        <para id="para-00001"><emphasis>Writing Equations Given Two Points</emphasis></para>
-        <para id="para-00002">For 1 - 3, use the point <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
-        <exercise id="_69c0e917-231f-4bb7-b26e-c3d1c4e8d7a2" class="multiple-choice">
-          <problem id="prob-00001">
-            <para id="para-00003">Find the slope of the line that goes through the two points.</para>
-          </problem>
-          <solution id="sol-00001">
-            <para id="para-00004"><m:math display="inline"><m:mrow><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
-          </solution>
-        </exercise>
-  
+    <section class="numbered-exercises" id="sect-00002">
+      <title>Activity</title>
+      <para id="para-00001"><emphasis>Writing Equations Given Two Points</emphasis></para>
+      <para id="para-00002">For 1 - 3, use the point <m:math display="inline">
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>,</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math> and <m:math display="inline">
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo>,</m:mo>
+            <m:mn>5</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math>.</para>
+      <exercise id="_69c0e917-231f-4bb7-b26e-c3d1c4e8d7a2" class="multiple-choice">
+        <problem id="prob-00001">
+          <para id="para-00003">Find the slope of the line that goes through the two points.</para>
+        </problem>
+        <solution id="sol-00001">
+          <para id="para-00004"><m:math display="inline">
+              <m:mrow>
+                <m:mo>−</m:mo>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>5</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math></para><para id="para-00005"><m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo>−</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo>−</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+
       <!--Q#2-->
       <exercise id="exer-00001">
         <problem id="prob-00002">
-          <para id="para-00006">Find the equation in point slope-form of the line that goes through the two points.</para>
+          <para id="para-00006">Find the equation in point slope-form of the line that goes through
+            the two points.</para>
         </problem>
         <solution id="sol-00002">
           <para id="para-00007">Compare your answer: </para>
-          <para id="para-00008"><m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para><para id="para-00012"><m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para></solution>
+          <para id="para-00008"><m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>−</m:mo>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mi>m</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00012"><m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#3-->
       <exercise id="exer-00002">
         <problem id="prob-00003">
           <para id="para-00009">Write the equation from question 2 into slope-intercept form.</para>
-          <para id="para-00010">(Hint: Solve for <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>.)</para>
+          <para id="para-00010">(Hint: Solve for <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>.)</para>
         </problem>
         <solution id="sol-00003">
           <para id="para-00011">Compare your answer: </para>
-          <para id="para-00017"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>23</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>5</m:mn></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>+</m:mo><m:mn>4</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>20</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>23</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para></solution>
+          <para id="para-00017"><m:math>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>23</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mn>3</m:mn>
+                        <m:mn>5</m:mn>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>+</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>4</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>20</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>23</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
-      <para id="para-00013"><emphasis>Writing Equations in Slope-Intercept Form Given a Point and Slope</emphasis></para>
-      <para id="para-00014">For 4 - 7 use the point <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and the slope -4.</para>
+      <!--Interaction
+      End -->
+      <para id="para-00013"><emphasis>Writing Equations in Slope-Intercept Form Given a Point and
+        Slope</emphasis></para>
+      <para id="para-00014">For 4 - 7 use the point <m:math display="inline">
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>,</m:mo>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math> and the slope -4.</para>
       <!--Q#4-->
       <exercise id="exer-00003">
         <problem id="prob-00004">
@@ -48,28 +329,68 @@
         </problem>
         <solution id="sol-00004">
           <para id="para-00016">Compare your answer: </para>
-          <para id="para-00020"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></para></solution>
+          <para id="para-00020"><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#5-->
       <exercise id="exer-00004">
         <problem id="prob-00005">
-          <para id="para-00018">Substitute the given point in for <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> in the equation.</para>
+          <para id="para-00018">Substitute the given point in for <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>,</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> in the
+            equation.</para>
         </problem>
         <solution id="sol-00005">
           <para id="para-00019">Compare your answer: </para>
-          <para id="para-00026"><m:math><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></para></solution>
+          <para id="para-00026"><m:math>
+              <m:mrow>
+                <m:mo>−</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
 
-        <exercise id="ee65d7ce-dddd-4fce-ba53-ad14f6eff791" class="multiple-choice">
-          <problem id="prob-00006">
-            <para id="para-00021">Solve for <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> in slope-intercept form.</para>
-          </problem>
-          <solution id="sol-00006">
-            <para id="para-00022">10</para>
-          </solution>
-        </exercise>
+      <exercise id="ee65d7ce-dddd-4fce-ba53-ad14f6eff791" class="multiple-choice">
+        <problem id="prob-00006">
+          <para id="para-00021">Solve for <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math> in slope-intercept form.</para>
+        </problem>
+        <solution id="sol-00006">
+          <para id="para-00022">10</para>
+        </solution>
+      </exercise>
 
       <!--Q#7-->
       <exercise id="exer-00005">
@@ -78,21 +399,92 @@
         </problem>
         <solution id="sol-00007">
           <para id="para-00025">Compare your answer: </para>
-          <para id="para-00034"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>10</m:mn></m:mrow></m:math></para></solution>
+          <para id="para-00034"><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>10</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
-      <para id="para-00027">With a partner, work to go directly from two points to an equation in slope-intercept form, without using point-slope form.</para>
-      <para id="para-00028">For 8 - 12, use the two points <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
+      <!--Interaction
+      End -->
+      <para id="para-00027">With a partner, work to go directly from two points to an equation in
+        slope-intercept form, without using point-slope form.</para>
+      <para id="para-00028">For 8 - 12, use the two points <m:math display="inline">
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mn>5</m:mn>
+            <m:mo>,</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math> and <m:math display="inline">
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>,</m:mo>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math></para>
 
-        <exercise id="_86409435-3d6d-4faa-ae2e-7ecb87fbf9a3" class="multiple-choice">
-          <problem id="prob-00008">
-            <para id="para-00029">Find the slope between the two points.</para>
-          </problem>
-          <solution id="sol-00008">
-            <para id="para-00030"><m:math display="inline"><m:mrow><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math></para>
-          </solution>
-        </exercise>
-  
+      <exercise id="_86409435-3d6d-4faa-ae2e-7ecb87fbf9a3" class="multiple-choice">
+        <problem id="prob-00008">
+          <para id="para-00029">Find the slope between the two points.</para>
+        </problem>
+        <solution id="sol-00008">
+          <para id="para-00030"><m:math display="inline">
+              <m:mrow>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math></para><para id="para-00023"><m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mo>−</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo>−</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
+
       <!--Q#9-->
       <exercise id="exer-00006">
         <problem id="prob-00009">
@@ -100,94 +492,962 @@
         </problem>
         <solution id="sol-00009">
           <para id="para-00033">Compare your answer: </para>
-          <para id="para-00037"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></para></solution>
+          <para id="para-00037"><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <!--Q#10-->
       <exercise id="exer-00007">
         <problem id="prob-00010">
-          <para id="para-00035">Substitute the one point in for <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>,</m:mo><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> in the equation.</para>
+          <para id="para-00035">Substitute the one point in for <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>,</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> in the
+            equation.</para>
         </problem>
         <solution id="sol-00010">
           <para id="para-00036">Compare your answer: </para>
-          <para id="para-00043"><m:math><m:mrow><m:mn>5</m:mn><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></para></solution>
+          <para id="para-00043"><m:math>
+              <m:mrow>
+                <m:mn>5</m:mn>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
 
-        <exercise id="_8ae75025-f392-46a3-b8d9-27ec322c8f70" class="multiple-choice">
-          <problem id="prob-00011">
-            <para id="para-00038">Solve for <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math> in slope-intercept form.</para>
-          </problem>
-          <solution id="sol-00011">
-            <para id="para-00039">2</para>
-          </solution>
-        </exercise>
-      </section>
-      <!--Q#12-->
-      <exercise id="exer-00008">
-        <problem id="prob-00012">
-          <para id="para-00041">Write the equation in slope-intercept form.</para>
+      <exercise id="_8ae75025-f392-46a3-b8d9-27ec322c8f70" class="multiple-choice">
+        <problem id="prob-00011">
+          <para id="para-00038">Solve for <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math> in slope-intercept form.</para>
         </problem>
-        <solution id="sol-00012">
-          <para id="para-00042">Compare your answer: </para>
-          <para id="para-00049"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para></solution>
+        <solution id="sol-00011">
+          <para id="para-00039">2</para>
+        </solution>
       </exercise>
-      <!--Interaction End -->
+    </section>
+    <!--Q#12-->
+    <exercise id="exer-00008">
+      <problem id="prob-00012">
+        <para id="para-00041">Write the equation in slope-intercept form.</para>
+      </problem>
+      <solution id="sol-00012">
+        <para id="para-00042">Compare your answer: </para>
+        <para id="para-00049"><m:math>
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mfrac>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:math></para>
+      </solution>
+    </exercise>
+    <!--Interaction
+    End -->
 
     <note class="self-check" id="note-00001">
-      <para id="para-00044">Which of the following is the equation of a line that has a slope of 3 and goes through the point <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>?</para>
+      <para id="para-00044">Which of the following is the equation of a line that has a slope of 3
+      and goes through the point <m:math display="inline">
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>,</m:mo>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math>?</para>
     </note>
 
     <section id="sect-00003">
       <title>Additional Resources</title>
-    <section id="sect-00006">
-      <title>Find an Equation Given Two Points</title>
-      <section id="sect-00007">
-        <para id="para-00071"><emphasis>Method 1: Using Point-Slope Form</emphasis></para>
-        <para id="para-00045">Find an equation of a line that contains the points <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Write the equation in slope-intercept form.</para>
-        <para id="para-00046"><emphasis>Step 1</emphasis> - Find the slope between the two points.</para>
-        <para id="para-00072"><m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>3</m:mn><m:mo>−</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:math></para>
-        <para id="para-00047"><emphasis>Step 2</emphasis> - Choose a point to substitute into point-slope form.</para>
-        <para id="para-00073"><m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mo>=</m:mo><m:mi>m</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:msub><m:mi>x</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-        <para id="para-00074"><m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> OR <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-        <para id="para-00048"><emphasis>Step 3</emphasis> - Write the equation in slope-intercept form.</para>
-        <para id="para-00051"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>4</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>1</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00050">OR</para>
-        <para id="para-00056"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi><m:mo>−</m:mo><m:mn>6</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mn>1</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
-      </section>
-      <section id="sect-00001">
-        <para id="para-00052"><emphasis>Method 2: Writing an Equation in Slope-Intercept Form by finding <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.</emphasis></para>
+      <section id="sect-00006">
+        <title>Find an Equation Given Two Points</title>
+        <section id="sect-00007">
+          <para id="para-00071"><emphasis>Method 1: Using Point-Slope Form</emphasis></para>
+          <para id="para-00045">Find an equation of a line that contains the points <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>. Write
+            the equation in slope-intercept form.</para>
+          <para id="para-00046"><emphasis>Step 1</emphasis> - Find the slope between the two points.</para>
+          <para id="para-00072"><m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo>−</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00047"><emphasis>Step 2</emphasis> - Choose a point to substitute into
+            point-slope form.</para>
+          <para id="para-00073"><m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>−</m:mo>
+                <m:msub>
+                  <m:mi>y</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mi>m</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00074"><m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> OR <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo>=</m:mo>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00048"><emphasis>Step 3</emphasis> - Write the equation in slope-intercept
+            form.</para>
+          <para id="para-00051"><m:math>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>4</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>5</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>9</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00050">OR</para>
+          <para id="para-00056"><m:math>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>6</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>6</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mo>−</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>9</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:math></para>
+        </section>
+        <section id="sect-00001">
+          <para id="para-00052"><emphasis>Method 2: Writing an Equation in Slope-Intercept Form by
+            finding <m:math display="inline">
+                <m:mrow>
+                  <m:mi>b</m:mi>
+                </m:mrow>
+              </m:math>.</emphasis></para>
 
-        <para id="para-00053">Find the equation of the line containing the points <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>,</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> in slope-intercept form.</para>
-        <para id="para-00054"><emphasis>Step 1</emphasis> - Find the slope between the two points.</para>
-        <para id="para-00075"><m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>5</m:mn><m:mo>−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
-        <para id="para-00055"><emphasis>Step 2</emphasis> - Choose a point to substitute into slope-intercept form then solve for <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.</para>
-        <para id="para-00076"><m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></para>
-        <para id="para-00058"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>1</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>15</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>b</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>13</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00057">OR</para>
-        <para id="para-00063"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>6</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mn>12</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>25</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>b</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>13</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
-        
-        <para id="para-00059"><emphasis>Step 3</emphasis> - Write the equation in slope-intercept form.</para>
-        <para id="para-00077"><m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>5</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>13</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
-      </section>
-      <note class="try" id="note-00002">
-        <title>Try It: Find an Equation Given Two Points</title>
-        <!--Q#-->
+          <para id="para-00053">Find the equation of the line containing the points <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>6</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> in
+            slope-intercept form.</para>
+          <para id="para-00054"><emphasis>Step 1</emphasis> - Find the slope between the two points.</para>
+          <para id="para-00075"><m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00055"><emphasis>Step 2</emphasis> - Choose a point to substitute into
+            slope-intercept form then solve for <m:math display="inline">
+              <m:mrow>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math>.</para>
+          <para id="para-00076"><m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mi>m</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>b</m:mi>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00058"><m:math>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mn>1</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>15</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>b</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>13</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00057">OR</para>
+          <para id="para-00063"><m:math>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>y</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mn>6</m:mn>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>12</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>25</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>+</m:mo>
+                      <m:mi>b</m:mi>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>b</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>13</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:math></para>
+
+          <para id="para-00059"><emphasis>Step 3</emphasis> - Write the equation in slope-intercept
+            form.</para>
+          <para id="para-00077"><m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>5</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>13</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math></para>
+        </section>
+        <note class="try" id="note-00002">
+          <title>Try It: Find an Equation Given Two Points</title>
+          <!--Q#-->
           <exercise id="exer-00009">
-          <problem id="prob-00013">
-            <para id="para-00060">Find the equation of a line that consists of the points <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>4</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> in slope-intercept form.</para>
-            <para id="para-00061"></para>
-          </problem>
-          <solution id="sol-00013">
-            <para id="para-00062">Compare your answer: </para>
-            <para id="para-00066"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>22</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para><para id="para-00064"><emphasis>Step 1</emphasis> - Find the slope between the two points. <m:math display="inline"><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mn>6</m:mn><m:mo>−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
-            <para id="para-00065"><emphasis>Step 2</emphasis> - Choose a point to substitute into slope-intercept form then solve for <m:math display="inline"><m:mrow><m:mi>b</m:mi></m:mrow></m:math>.  <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></para>
-            <para id="para-00068"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>4</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mn>20</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>b</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>22</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
-            
-            <para id="para-00067">OR</para>
+            <problem id="prob-00013">
+              <para id="para-00060">Find the equation of a line that consists of the points <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>4</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+          and <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>6</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+          in slope-intercept form.</para>
+              <para id="para-00061"/>
+            </problem>
+            <solution id="sol-00013">
+              <para id="para-00062">Compare your answer: </para>
+              <para id="para-00066"><m:math>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>22</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00064"><emphasis>Step 1</emphasis> - Find the slope between the two
+          points.</para><para id="para-00031"><m:math display="inline">
+                  <m:mrow>
+                    <m:mi>m</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mo>−</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo>−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo>−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00065"><emphasis>Step 2</emphasis> - Choose a point to substitute into
+          slope-intercept form then solve for <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:math>.</para><para id="para-00040"><m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mi>m</m:mi>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mi>b</m:mi>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00068"><m:math>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mi>y</m:mi>
+                        </m:mtd>
+                        <m:mtd columnalign="center">
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mo>−</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mi>x</m:mi>
+                          <m:mo>+</m:mo>
+                          <m:mi>b</m:mi>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mn>4</m:mn>
+                        </m:mtd>
+                        <m:mtd columnalign="center">
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mo>−</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo>+</m:mo>
+                          <m:mi>b</m:mi>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>20</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mtd>
+                        <m:mtd columnalign="center">
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mo>−</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo>+</m:mo>
+                          <m:mi>b</m:mi>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mi>b</m:mi>
+                        </m:mtd>
+                        <m:mtd columnalign="center">
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>22</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+                  </m:mrow>
+                </m:math></para>
 
-            <para id="para-00070"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>y</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>2</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mfrac><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>12</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo>+</m:mo><m:mi>b</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>b</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mfrac><m:mrow><m:mn>22</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00069"><emphasis>Step 3</emphasis> - Write the equation in slope-intercept form. <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac><m:mi>x</m:mi><m:mo>+</m:mo><m:mfrac><m:mrow><m:mn>22</m:mn></m:mrow><m:mrow><m:mn>5</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
-          </solution>
-        </exercise>
-      </note>
+              <para id="para-00067">OR</para>
+
+              <para id="para-00070"><m:math>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mi>y</m:mi>
+                        </m:mtd>
+                        <m:mtd columnalign="center">
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mo>−</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mi>x</m:mi>
+                          <m:mo>+</m:mo>
+                          <m:mi>b</m:mi>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mn>2</m:mn>
+                        </m:mtd>
+                        <m:mtd columnalign="center">
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mo>−</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>6</m:mn>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo>+</m:mo>
+                          <m:mi>b</m:mi>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>10</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mtd>
+                        <m:mtd columnalign="center">
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mo>−</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>12</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo>+</m:mo>
+                          <m:mi>b</m:mi>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd columnalign="right">
+                          <m:mi>b</m:mi>
+                        </m:mtd>
+                        <m:mtd columnalign="center">
+                          <m:mo>=</m:mo>
+                        </m:mtd>
+                        <m:mtd columnalign="left">
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>22</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+                  </m:mrow>
+                </m:math></para>
+              <para id="para-00069"><emphasis>Step 3</emphasis> - Write the equation in
+          slope-intercept form.</para><para id="para-00078"><m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mi>x</m:mi>
+                    <m:mo>+</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>22</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math></para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
+
     </section>
-  
-</section></content></document>
+  </content>
+</document>
