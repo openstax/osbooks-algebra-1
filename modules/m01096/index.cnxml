@@ -6,38 +6,96 @@
     <md:uuid>b943d03e-b169-4373-ac2c-61f1fc49d1ce</md:uuid>
   </metadata>
   <content>
-    <section id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">A tennis ball was dropped from a certain height. It bounced several times, rolled along for a short period, and then stopped. Function <m:math display="inline"><m:mrow><m:mi>H</m:mi></m:mrow></m:math> gives its height over time.</para>
-      <para id="para-00002">Here is a partial graph of <m:math display="inline"><m:mrow><m:mi>H</m:mi></m:mrow></m:math>. Height is measured in feet. Time is measured in seconds.</para>
+    <section id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">A tennis ball was dropped from a certain height. It bounced several times, rolled along for a short period, and then stopped. Function <m:math display="inline">
+          <m:mrow>
+            <m:mi>H</m:mi>
+          </m:mrow>
+        </m:math> gives its height over time.</para>
+      <para id="para-00002">Here is a partial graph of <m:math display="inline">
+          <m:mrow>
+            <m:mi>H</m:mi>
+          </m:mrow>
+        </m:math>. Height is measured in feet. Time is measured in seconds.</para>
       <para id="para-00003">Use the graph to help you answer the questions.</para>
       <para id="para-00004">Be prepared to explain what each value or set of values means in this situation.</para>
       <para id="para-00005">
-          <media alt="A graph shows the height (feet) of a bouncing ball over time (seconds), with labeled points marking the height and time at each bounce: (0,6), (0.28,4.3), (0.54, 0), (1.03,3.5), (0.74,2.2), (1.865,0), (1.48,0), (2.25,0), and (3.0,0).">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_01.svg"/>
-          </media>
-        
-    </para>
+        <media alt="A graph shows the height (feet) of a bouncing ball over time (seconds), with labeled points marking the height and time at each bounce: (0,6), (0.28,4.3), (0.54, 0), (1.03,3.5), (0.74,2.2), (1.865,0), (1.48,0), (2.25,0), and (3.0,0).">
+          <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_01.svg"/>
+        </media>
+
+      </para>
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00006">1. Find <m:math display="inline"><m:mrow><m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. What point is this on the graph? What does it represent?</para>
-          
+          <para id="para-00006">1. Find <m:math display="inline">
+              <m:mrow>
+                <m:mi>H</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>. What point is this on the graph? What does it represent?</para>
+
         </problem>
         <solution id="sol-00001">
           <para id="para-00007">Compare your answer: </para>
-          <para id="para-00008"><m:math display="inline"><m:mrow><m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>6</m:mn></m:mrow></m:math>. It tells us the ball was dropped from a height of 6 feet at <m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00008"><m:math display="inline">
+              <m:mrow>
+                <m:mi>H</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>0</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>6</m:mn>
+              </m:mrow>
+            </m:math>. It tells us the ball was dropped from a height of 6 feet at <m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00009">2. Solve <m:math display="inline"><m:mrow><m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>.</para>
-          
+          <para id="para-00009">2. Solve <m:math display="inline">
+              <m:mrow>
+                <m:mi>H</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+              </m:mrow>
+            </m:math>.</para>
+
         </problem>
         <solution id="sol-00002">
           <para id="para-00010">Compare your answer: </para>
-          <para id="para-00011"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>0.54</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>1.48</m:mn></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2.25</m:mn></m:mrow></m:math> are three possible solutions, but there are others. Each one represents the time when the ball hit the ground.</para>
+          <para id="para-00011"><m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0.54</m:mn>
+              </m:mrow>
+            </m:math>, <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>1.48</m:mn>
+              </m:mrow>
+            </m:math>, and <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>2.25</m:mn>
+              </m:mrow>
+            </m:math> are three possible solutions, but there are others. Each one represents the time when the ball hit the ground.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -45,7 +103,7 @@
       <exercise id="exer-00003">
         <problem id="prob-00003">
           <para id="para-00012">3. Describe the domain of the function.</para>
-          
+
         </problem>
         <solution id="sol-00003">
           <para id="para-00013">Compare your answer: </para>
@@ -57,85 +115,99 @@
       <exercise id="exer-00004">
         <problem id="prob-00004">
           <para id="para-00015">4. Describe the range of the function.</para>
-          
+
         </problem>
         <solution id="sol-00004">
           <para id="para-00016">Compare your answer: </para>
           <para id="para-00017">The range includes all values between 0 and 6 feet, the height from which the ball was dropped.</para>
         </solution>
       </exercise>
-      <!--Interaction End --></section>
-      <section id="sect-00002">
+      <!--Interaction End -->
+    </section>
+    <section id="sect-00002">
       <title>Video: Interpreting Function Notation</title>
       <para id="para-00018">Watch the following video to learn more about function notation.</para>
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://openstax.org/r/function-notation-2"/>
-      </media></section>
-      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
-      
-      <section id="sect-00003">
-        <title>Are you ready for more?</title>
-          <section id="sect-00004"><title>Extending Your Thinking</title>
-      
-      <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
-      <exercise class="RFM1" id="exer-00005">
-        <problem id="prob-00005">
-          <para id="para-00019">In function <m:math display="inline"><m:mrow><m:mi>H</m:mi></m:mrow></m:math>, the input was time in seconds, and the output was height in feet.</para>
-          <para id="para-00020">Think about some other quantities that could be inputs or outputs in this situation.</para>
-          <para id="para-00021">1. Describe a function whose domain includes only integers. Be sure to specify the units.</para>
-          
-        </problem>
-        <solution id="sol-00005">
-          <para id="para-00022">Compare your answer: </para>
-          <para id="para-00023">The maximum height, in feet, that the ball reaches after <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math> bounces as a function of the number of bounces.</para>
-        </solution>
-      </exercise>
-      <!--End interaction-->
-      
+      </media>
+    </section>
+    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you will need to change the Data-fire/data-wait-for-events for each set.-->
+
+    <section id="sect-00003">
+      <title>Are you ready for more?</title>
+      <section id="sect-00004">
+        <title>Extending Your Thinking</title>
+
+        <!--Start interaction.  If multiple interactions appear under "are you ready for more?, they should all have matching "data-wait-for-event", which should also match the "data-fire-event" for the button. Note in this sample, they are all RFM1-->
+        <exercise class="RFM1" id="exer-00005">
+          <problem id="prob-00005">
+            <para id="para-00019">In function <m:math display="inline">
+                <m:mrow>
+                  <m:mi>H</m:mi>
+                </m:mrow>
+              </m:math>, the input was time in seconds, and the output was height in feet.</para>
+            <para id="para-00020">Think about some other quantities that could be inputs or outputs in this situation.</para>
+            <para id="para-00021">1. Describe a function whose domain includes only integers. Be sure to specify the units.</para>
+
+          </problem>
+          <solution id="sol-00005">
+            <para id="para-00022">Compare your answer: </para>
+            <para id="para-00023">The maximum height, in feet, that the ball reaches after <m:math display="inline">
+                <m:mrow>
+                  <m:mi>n</m:mi>
+                </m:mrow>
+              </m:math> bounces as a function of the number of bounces.</para>
+          </solution>
+        </exercise>
+        <!--End interaction-->
+
         <exercise class="RFM1" id="exer-00006">
           <problem id="prob-00006">
             <para id="para-00024">2. Sketch a graph of this function.</para>
-        <para id="para-00025"><media alt="A blank Cartesian graph with horizontal (x-axis) and vertical (y-axis) black arrows, both starting from the origin marked as O in the bottom left corner. No data or labels are shown."><image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_02.svg"/></media></para>
-  
+            <para id="para-00025"><media alt="A blank Cartesian graph with horizontal (x-axis) and vertical (y-axis) black arrows, both starting from the origin marked as O in the bottom left corner. No data or labels are shown.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_02.svg"/>
+              </media></para>
+
           </problem>
           <solution id="sol-00006">
             <para id="para-00027">Compare your answer: </para>
             <para id="para-00028">
-                      <media alt="A scatter plot showing the maximum height in feet versus the number of bounces. As the number of bounces increases from 1 to 4, the maximum height decreases from about 6 to 0.5 feet.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_03.svg"/>
-                </media>
+              <media alt="A scatter plot showing the maximum height in feet versus the number of bounces. As the number of bounces increases from 1 to 4, the maximum height decreases from about 6 to 0.5 feet.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_03.svg"/>
+              </media>
               
               <emphasis id="docs-internal-guid-663b6ac4-7fff-f1cb-6e91-14df360308a7"/>
-          </para>
+            </para>
           </solution>
         </exercise>
-      
-      <!--End interaction-->
-      <exercise class="RFM1" id="exer-00007">
-        <problem id="prob-00007">
-          <para id="para-00029">3. Describe a function whose range includes only integers. Be sure to specify the units.</para>
-          
-        </problem>
-        <solution id="sol-00007">
-          <para id="para-00030">Compare your answer: </para>
-          <para id="para-00031">The number of times the ball has hit the ground as a function of time, in seconds, since the ball was dropped.</para>
-        </solution>
-      </exercise>
-      <!--End interaction-->
-      
+
+        <!--End interaction-->
+        <exercise class="RFM1" id="exer-00007">
+          <problem id="prob-00007">
+            <para id="para-00029">3. Describe a function whose range includes only integers. Be sure to specify the units.</para>
+
+          </problem>
+          <solution id="sol-00007">
+            <para id="para-00030">Compare your answer: </para>
+            <para id="para-00031">The number of times the ball has hit the ground as a function of time, in seconds, since the ball was dropped.</para>
+          </solution>
+        </exercise>
+        <!--End interaction-->
+
         <exercise class="RFM1" id="exer-00008">
           <problem id="prob-00008">
-            <para id="para-00032">4. Sketch a graph of this function.
-        <media alt="A blank Cartesian graph with horizontal (x-axis) and vertical (y-axis) black arrows, both starting from the origin marked as O in the bottom left corner. No data or labels are shown."><image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_04.svg"/></media></para>
+            <para id="para-00032">4. Sketch a graph of this function. <media alt="A blank Cartesian graph with horizontal (x-axis) and vertical (y-axis) black arrows, both starting from the origin marked as O in the bottom left corner. No data or labels are shown.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_04.svg"/>
+              </media></para>
           </problem>
           <solution id="sol-00008">
             <para id="para-00034">Compare your answer: </para>
             <para id="para-00035">
-                      <media alt="A step graph shows the number of times a ball hits the ground over time. The count increases at regular intervals, starting at 0 and reaching 4 by 4 seconds. Both axes are labeled.">
-                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_05.svg"/>
-                </media>
-              
-          </para>
+              <media alt="A step graph shows the number of times a ball hits the ground over time. The count increases at regular intervals, starting at 0 and reaching 4 by 4 seconds. Both axes are labeled.">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_06_05.svg"/>
+              </media>
+
+            </para>
           </solution>
         </exercise>
       </section>
@@ -143,53 +215,128 @@
     <note class="self-check" id="note-00001">
       <exercise id="exer-00010">
         <problem id="prob-00010">
-        <para id="para-00036"><link class="os-embed" url="#exercise/Alg1_4_13_3_SC"/></para>
+          <para id="para-00036"><link class="os-embed" url="#exercise/Alg1_4_13_3_SC"/></para>
         </problem>
-        </exercise>
+      </exercise>
     </note>
     <section id="sect-00005">
       <title>Additional Resources</title>
-      
-    <section id="sect-00006">
-      <title>Domain and Range from Graphs</title>
-      <para id="para-00039">The graph below shows the distance Carl drives from home, <m:math display="inline"><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, when <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is time in seconds.</para>
-      <para id="para-00040">
+
+      <section id="sect-00006">
+        <title>Domain and Range from Graphs</title>
+        <para id="para-00039">The graph below shows the distance Carl drives from home, <m:math display="inline">
+            <m:mrow>
+              <m:mi>D</m:mi>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mi>t</m:mi>
+              <m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>, when <m:math display="inline">
+            <m:mrow>
+              <m:mi>t</m:mi>
+            </m:mrow>
+          </m:math> is time in seconds.</para>
+        <para id="para-00040">
           <media alt="Line graph showing distance from home (meters) over time (seconds). The distance increases, peaks at 285 meters around 180 seconds, then decreases back to zero by 400 seconds. Grid lines in background.">
             <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_08_01.svg"/>
           </media>
-        
-    </para>
-      <list class="os-raise-noindent" list-type="enumerated" id="list-00001">
-        <item><para id="para-00037">What is the domain of the graph?</para>
-      <para id="para-00041">The domain is <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values that are at least 0 and a maximum of 400.</para></item>
-        <item><para id="para-00038">What is the range of the graph?</para>
-      <para id="para-00042">The range is the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values that are at least 0 and a maximum of 285.</para></item>
-        <item><para id="para-00050">What are the values of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> where <m:math display="inline"><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and what do they mean?</para>
-      <para id="para-00043"><m:math display="inline"><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">(</m:mo><m:mn>400</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, and this is when Carl left home and then arrived home, so the distance was 0.</para></item>
-      </list>
-      <note class="try" id="note-00002">
-  <title>Try It: Domain and Range from Graphs</title>
+
+        </para>
+          <exercise id="exer-00011">
+            <problem id="prob-00011">
+              <para id="para-00037">1. What is the domain of the graph?</para>
+            </problem>
+            <solution id="sol-00010">
+              <para id="para-00041">The domain is <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math>-values that are at least 0 and a maximum of 400.</para>
+            </solution>
+          </exercise>
+          <exercise id="exer-00012">
+            <problem id="prob-00012">
+              <para id="para-00038">2. What is the range of the graph?</para>
+            </problem>
+            <solution id="sol-00011">
+              <para id="para-00042">The range is the <m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math>-values that are at least 0 and a maximum of 285.</para>
+            </solution>
+          </exercise>
+          <exercise id="exer-00013">
+            <problem id="prob-00013">
+              <para id="para-00050">3. What are the values of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math> where <m:math display="inline">
+                <m:mrow>
+                  <m:mi>D</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:math>, and what do they mean?</para>
+            </problem>
+            <solution id="sol-00012">
+              <para id="para-00043"><m:math display="inline">
+                <m:mrow>
+                  <m:mi>D</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:math> and <m:math display="inline">
+                <m:mrow>
+                  <m:mi>D</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>400</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:math>, and this is when Carl left home and then arrived home, so the distance was 0.</para>
+            </solution>
+          </exercise>
+
+        <note class="try" id="note-00002">
+          <title>Try It: Domain and Range from Graphs</title>
       
         <exercise id="exer-00009">
-          <problem id="prob-00009">
-            <para id="para-00044">What are the values for the domain and range of the graph below?</para>
-            <para id="para-00045">
-                      <media alt="Line graph showing voltage (in volts) versus time (in seconds). The voltage rises, peaks at 3V at 2s, falls to 1V at 5s, stays flat, then rises to 2V at 9s and back to 1V at 10s..">
+            <problem id="prob-00009">
+              <para id="para-00044">What are the values for the domain and range of the graph below?</para>
+              <para id="para-00045">
+                <media alt="Line graph showing voltage (in volts) versus time (in seconds). The voltage rises, peaks at 3V at 2s, falls to 1V at 5s, stays flat, then rises to 2V at 9s and back to 1V at 10s..">
                   <image mime-type="image/svg+xml" src="../../media/Algebra-1_04_16_08_02.svg"/>
                 </media>
-              
-          </para>
-            <para id="para-00046"></para>
-          </problem>
-          <solution id="sol-00009">
-            <para id="para-00047">Here is how to find the domain and range of the graph:</para>
-            <para id="para-00048">The domain includes the <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-values or inputs of the graph. The domain is from at least 0 to at most 10.</para>
-            <para id="para-00049">The range includes the <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>-values or outputs of the graph. The range is from at least 1 to at most 3.</para>
-          </solution>
-        </exercise>
-      </note>
+
+              </para>
+              <para id="para-00046"/>
+            </problem>
+            <solution id="sol-00009">
+              <para id="para-00047">Here is how to find the domain and range of the graph:</para>
+              <para id="para-00048">The domain includes the <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math>-values or inputs of the graph. The domain is from at least 0 to at most 10.</para>
+              <para id="para-00049">The range includes the <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                  </m:mrow>
+                </m:math>-values or outputs of the graph. The range is from at least 1 to at most 3.</para>
+            </solution>
+          </exercise>
+        </note>
+      </section>
     </section>
-    </section>
-    
+
   </content>
 </document>
