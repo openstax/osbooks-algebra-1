@@ -3609,6 +3609,8 @@
       </para>
       <para id="para-00178">Multiplying the input value by a number changes the quantity that is
         squared. As a result, the graph of the equation is horizontally stretched or compressed. </para>
+    </section>
+    </section>
       <note class="try numbered-exercises" id="note-00002">
         <title>Try It: Comparing Transformations to Quadratic Graphs</title>
   
@@ -3701,25 +3703,57 @@
         <!--Interaction
         End -->
 
-    <exercise id="exer-00006">
-          <problem id="prob-00041">
-            <para id="para-00183">The black graph (in the middle) is the parent function f(x) = x2.
-        The equations of the other graphs are f(x) = (25x)2 and f(x) = (43x)2. Which function
-        matches the green graph (on the inside)? The blue graph (on the outside)? </para>
-            <para id="para-00184">
-              <media alt="Graph of the parent quadratic function is given in black on the coordinate plane. Two other parabolas are also graphed. The x-axis extends from negative 5 to 5 with a scale of 1 while the y-axis extends from negative 4 to 9 with a scale of 1. The green parabola lies inside of the parent function while the blue parabola lies outside of the path of the parent function.">
-                <image mime-type="image/png" src="../../media/Algebra-1_08_14_08_09.png" width="300"/>
+  
+    
+  
+    <exercise id="exer-00008">
+          <problem id="prob-00043">
+            <para id="para-00196">If the red graph (in the middle) is the parent function, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:math>,
+        what are the equations of the blue graph (to the right) and green graph (to the left)?</para>
+            <para id="para-00197">
+              <media alt="Graph of the parent quadratic function is given in red on the coordinate plane. Two other parabolas are also graphed. The x-axis extends from negative 6 to 6 with a scale of 0.5 while the y-axis extends from negative 3 to 7 with a scale of 0.5.">
+                <image mime-type="image/jpeg" src="../../media/Algebra-1_08_14_08_07.jpg" width="300"/>
               </media>
 
             </para>
-            <para id="para-00185"></para>
+            <para id="para-00198"></para>
           </problem>
-          <solution id="sol-00041">
-            <para id="para-00186">Compare your answer: </para>
-            <para id="para-00187">Here is how to solve to find the equations of the other graphs:</para>
-            <para id="para-00188">The green graph has been horizontally compressed in comparison to
-        the parent function. Therefore, the coefficient impacting the input value must be greater
-        than 1. That means the green graph represents <m:math display="inline">
+          <solution id="sol-00043">
+            <para id="para-00199">Here is how to solve to find the equations of the other graphs.</para>
+            <para id="para-00200">The green graph is the same as <m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:math>
+        but is shifted left <m:math display="inline">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>3</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:math>.
+        The function will be <m:math display="inline">
                 <m:mrow>
                   <m:mi>f</m:mi>
                   <m:mo stretchy="false">(</m:mo>
@@ -3727,11 +3761,16 @@
                   <m:mo stretchy="false">)</m:mo>
                   <m:mo>=</m:mo>
                   <m:mo stretchy="false">(</m:mo>
-                  <m:mfrac>
-                    <m:mn>4</m:mn>
-                    <m:mn>3</m:mn>
-                  </m:mfrac>
                   <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
                   <m:msup>
                     <m:mo stretchy="false">)</m:mo>
                     <m:mn>2</m:mn>
@@ -3739,9 +3778,20 @@
                 </m:mrow>
               </m:math>
         .</para>
-            <para id="para-00189">The blue graph has been horizontally stretched in comparison to
-        the parent function. So, the coefficient impacting the input value must be greater than 0
-        but less than 1. That means the blue graph represents <m:math display="inline">
+            <para id="para-00201">The blue graph is the same as <m:math display="inline">
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo>=</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:math>
+        but is shifted right 3. The function will be <m:math display="inline">
                 <m:mrow>
                   <m:mi>f</m:mi>
                   <m:mo stretchy="false">(</m:mo>
@@ -3749,11 +3799,9 @@
                   <m:mo stretchy="false">)</m:mo>
                   <m:mo>=</m:mo>
                   <m:mo stretchy="false">(</m:mo>
-                  <m:mfrac>
-                    <m:mn>2</m:mn>
-                    <m:mn>5</m:mn>
-                  </m:mfrac>
                   <m:mi>x</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>3</m:mn>
                   <m:msup>
                     <m:mo stretchy="false">)</m:mo>
                     <m:mn>2</m:mn>
@@ -3763,9 +3811,7 @@
         .</para>
           </solution>
         </exercise>
-  
-  
-    <exercise id="exer-00007">
+<exercise id="exer-00007">
           <problem id="prob-00042">
             <para id="para-00190">The red graph (in the middle) is <m:math display="inline">
                 <m:mrow>
@@ -3908,73 +3954,37 @@
         .</para>
           </solution>
         </exercise>
-  
-  
-    <exercise id="exer-00008">
-          <problem id="prob-00043">
-            <para id="para-00196">If the red graph (in the middle) is the parent function, <m:math display="inline">
-                <m:mrow>
-                  <m:mi>f</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mi>x</m:mi>
-                  <m:mo stretchy="false">)</m:mo>
-                  <m:mo>=</m:mo>
-                  <m:msup>
-                    <m:mi>x</m:mi>
-                    <m:mn>2</m:mn>
-                  </m:msup>
-                </m:mrow>
-              </m:math>,
-        what are the equations of the blue graph (to the right) and green graph (to the left)?</para>
-            <para id="para-00197">
-              <media alt="Graph of the parent quadratic function is given in red on the coordinate plane. Two other parabolas are also graphed. The x-axis extends from negative 6 to 6 with a scale of 0.5 while the y-axis extends from negative 3 to 7 with a scale of 0.5.">
-                <image mime-type="image/jpeg" src="../../media/Algebra-1_08_14_08_07.jpg" width="300"/>
+    <exercise id="exer-00006">
+          <problem id="prob-00041">
+            <para id="para-00183">The black graph (in the middle) is the parent function f(x) = x<sup>2</sup>.
+        The equations of the other graphs are f(x) = (25x)<sup>2</sup> and f(x) = (43x)<sup>2</sup>. Which function
+        matches the green graph (on the inside)? The blue graph (on the outside)? </para>
+            <para id="para-00184">
+              <media alt="Graph of the parent quadratic function is given in black on the coordinate plane. Two other parabolas are also graphed. The x-axis extends from negative 5 to 5 with a scale of 1 while the y-axis extends from negative 4 to 9 with a scale of 1. The green parabola lies inside of the parent function while the blue parabola lies outside of the path of the parent function.">
+                <image mime-type="image/png" src="../../media/Algebra-1_08_14_08_09.png" width="300"/>
               </media>
 
             </para>
-            <para id="para-00198"></para>
+            <para id="para-00185"></para>
           </problem>
-          <solution id="sol-00043">
-            <para id="para-00199">Here is how to solve to find the equations of the other graphs.</para>
-            <para id="para-00200">The green graph is the same as <m:math display="inline">
+          <solution id="sol-00041">
+            <para id="para-00186">Compare your answer: </para>
+            <para id="para-00187">Here is how to solve to find the equations of the other graphs:</para>
+            <para id="para-00188">The green graph has been horizontally compressed in comparison to
+        the parent function. Therefore, the coefficient impacting the input value must be greater
+        than 1. That means the green graph represents <m:math display="inline">
                 <m:mrow>
                   <m:mi>f</m:mi>
                   <m:mo stretchy="false">(</m:mo>
                   <m:mi>x</m:mi>
                   <m:mo stretchy="false">)</m:mo>
                   <m:mo>=</m:mo>
-                  <m:msup>
-                    <m:mi>x</m:mi>
-                    <m:mn>2</m:mn>
-                  </m:msup>
-                </m:mrow>
-              </m:math>
-        but is shifted left <m:math display="inline">
-                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
                   <m:mfrac>
+                    <m:mn>4</m:mn>
                     <m:mn>3</m:mn>
-                    <m:mn>2</m:mn>
                   </m:mfrac>
-                </m:mrow>
-              </m:math>.
-        The function will be <m:math display="inline">
-                <m:mrow>
-                  <m:mi>f</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
                   <m:mi>x</m:mi>
-                  <m:mo stretchy="false">)</m:mo>
-                  <m:mo>=</m:mo>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mi>x</m:mi>
-                  <m:mo>+</m:mo>
-                  <m:mfrac>
-                    <m:mrow>
-                      <m:mn>3</m:mn>
-                    </m:mrow>
-                    <m:mrow>
-                      <m:mn>2</m:mn>
-                    </m:mrow>
-                  </m:mfrac>
                   <m:msup>
                     <m:mo stretchy="false">)</m:mo>
                     <m:mn>2</m:mn>
@@ -3982,30 +3992,21 @@
                 </m:mrow>
               </m:math>
         .</para>
-            <para id="para-00201">The blue graph is the same as <m:math display="inline">
+            <para id="para-00189">The blue graph has been horizontally stretched in comparison to
+        the parent function. So, the coefficient impacting the input value must be greater than 0
+        but less than 1. That means the blue graph represents <m:math display="inline">
                 <m:mrow>
                   <m:mi>f</m:mi>
                   <m:mo stretchy="false">(</m:mo>
                   <m:mi>x</m:mi>
                   <m:mo stretchy="false">)</m:mo>
                   <m:mo>=</m:mo>
-                  <m:msup>
-                    <m:mi>x</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mfrac>
                     <m:mn>2</m:mn>
-                  </m:msup>
-                </m:mrow>
-              </m:math>
-        but is shifted right 3. The function will be <m:math display="inline">
-                <m:mrow>
-                  <m:mi>f</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
+                    <m:mn>5</m:mn>
+                  </m:mfrac>
                   <m:mi>x</m:mi>
-                  <m:mo stretchy="false">)</m:mo>
-                  <m:mo>=</m:mo>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mi>x</m:mi>
-                  <m:mo>−</m:mo>
-                  <m:mn>3</m:mn>
                   <m:msup>
                     <m:mo stretchy="false">)</m:mo>
                     <m:mn>2</m:mn>
@@ -4015,8 +4016,9 @@
         .</para>
           </solution>
         </exercise>
+  
+  
       </note>
-    </section>
-    </section>
+
   </content>
 </document>
