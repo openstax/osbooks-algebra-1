@@ -6,29 +6,58 @@
     <md:uuid>f7fc97e9-6e1a-49d8-a2b3-b0b211982823</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">An automobile manufacturer is preparing a shipment of cars and trucks on a cargo ship that can carry 21,600 tons.</para>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">An automobile manufacturer is preparing a shipment of cars and trucks on
+        a cargo ship that can carry 21,600 tons.</para>
       <para id="para-00002">The cars weigh 3.6 tons each, and the trucks weigh 7.5 tons each.</para>
-      
-        <media alt="A ship carrying cargo containers.">
-          <image mime-type="image/jpeg" src="../../media/Algebra-1_01_11_03_01.jpg" width="600"/>
-        </media>
-      
+
+      <media alt="A ship carrying cargo containers.">
+        <image mime-type="image/jpeg" src="../../media/Algebra-1_01_11_03_01.jpg" width="600" />
+      </media>
+
       <!--Q1-->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00003">Write an equation that represents the weight constraint of a shipment. Let <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> be the number of cars and <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> be the number of trucks.</para>
+          <para id="para-00003">Write an equation that represents the weight constraint of a
+            shipment. Let <m:math display="inline">
+              <m:mrow>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math> be the number of cars and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:math> be the number of trucks.</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00004">Compare your answer: </para>
-          <para id="para-00005"><m:math><m:mrow><m:mn>3.6</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>7.5</m:mn><m:mi>t</m:mi><m:mo>=</m:mo><m:mn>21</m:mn><m:mo>,</m:mo><m:mn>600</m:mn></m:mrow></m:math></para></solution>
+          <para id="para-00005"><m:math>
+              <m:mrow>
+                <m:mn>3.6</m:mn>
+                <m:mi>c</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>7.5</m:mn>
+                <m:mi>t</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>21</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>600</m:mn>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
       <!--Interaction
       End -->
-      <para id="para-00006">For numbers 2 - 5, use the following situation:</para><para id="para-00009">For one shipment, trucks are loaded first and cars are loaded afterward. (Even though trucks are bulkier than cars, a shipment can consist of all trucks as long as it is within the weight limit.)</para>
+      <para id="para-00006">For numbers 2 - 5, use the following situation:</para>
+      <para id="para-00009">For one shipment, trucks are loaded first and cars are loaded afterward.
+        (Even though trucks are bulkier than cars, a shipment can consist of all trucks as long as
+        it is within the weight limit.)</para>
       <exercise id="cdfd9a5c-09c6-496b-8513-a9644a629f57" class="multiple-choice">
         <problem id="prob-00002">
-          <para id="para-00007">Find the number of cars that can be shipped if the cargo already has 480 trucks.</para>
+          <para id="para-00007">Find the number of cars that can be shipped if the cargo already has
+            480 trucks.</para>
         </problem>
         <solution id="sol-00002">
           <para id="para-00008">5000</para>
@@ -36,7 +65,8 @@
       </exercise>
       <exercise id="c7a64605-1755-4589-a66b-cbafa3668d84" class="multiple-choice">
         <problem id="prob-00003">
-          <para id="para-00010">Find the number of cars that can be shipped if the cargo already has 1500 trucks.</para>
+          <para id="para-00010">Find the number of cars that can be shipped if the cargo already has
+            1500 trucks.</para>
         </problem>
         <solution id="sol-00003">
           <para id="para-00011">2875</para>
@@ -44,7 +74,8 @@
       </exercise>
       <exercise id="_9242f6f9-b898-46bf-8492-91431dba28a3" class="multiple-choice">
         <problem id="prob-00004">
-          <para id="para-00013">Find the number of cars that can be shipped if the cargo already has 2736 trucks.</para>
+          <para id="para-00013">Find the number of cars that can be shipped if the cargo already has
+            2736 trucks.</para>
         </problem>
         <solution id="sol-00004">
           <para id="para-00014">300</para>
@@ -53,30 +84,81 @@
       <!--Q5-->
       <exercise id="exer-00002">
         <problem id="prob-00005">
-          <para id="para-00016">Find the number of cars that can be shipped if the cargo already has <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> trucks</para>
+          <para id="para-00016">Find the number of cars that can be shipped if the cargo already has <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:math> trucks</para>
         </problem>
         <solution id="sol-00005">
           <para id="para-00017">Compare your answer: </para>
-          <para id="para-00018"><m:math><m:mrow><m:mfrac><m:mrow><m:mn>21</m:mn><m:mo>,</m:mo><m:mn>600</m:mn><m:mo>−</m:mo><m:mn>7.5</m:mn><m:mi>t</m:mi></m:mrow><m:mrow><m:mn>3.6</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para></solution>
+          <para id="para-00018"><m:math>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>21</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>600</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>7.5</m:mn>
+                    <m:mi>t</m:mi>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>3.6</m:mn>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:math></para>
+        </solution>
       </exercise>
       <!--Interaction
       End -->
-      <para id="para-00019">Use the following information for 6 - 8. For a different shipment, cars are loaded first, and then trucks are loaded afterward.</para>
+      <para id="para-00019">Use the following information for 6 - 8. For a different shipment, cars
+        are loaded first, and then trucks are loaded afterward.</para>
       <!--Q6-->
       <exercise id="exer-00003">
         <problem id="prob-00006">
-          <para id="para-00020">Write an equation you could enter into a calculator or a spreadsheet tool to find the number of trucks that can be shipped if the number of cars is known.</para>
+          <para id="para-00020">Write an equation you could enter into a calculator or a spreadsheet
+            tool to find the number of trucks that can be shipped if the number of cars is known.</para>
         </problem>
         <solution id="sol-00006">
           <para id="para-00021">Compare your answer: </para>
-          <para id="para-00022"><m:math display="inline"><m:mrow><m:mi>t</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true" scriptlevel="0"><m:mfrac><m:mrow><m:mn>21</m:mn><m:mo>,</m:mo><m:mspace width="negativethinmathspace"/><m:mn>600</m:mn><m:mo>−</m:mo><m:mn>3.6</m:mn><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>7.5</m:mn></m:mrow></m:mfrac></m:mstyle></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> is the number of cars.</para>
+          <para id="para-00022"><m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:mo>=</m:mo>
+                <m:mstyle displaystyle="true" scriptlevel="0">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>21</m:mn>
+                      <m:mo>,</m:mo>
+                      <m:mspace width="negativethinmathspace" />
+                      <m:mn>600</m:mn>
+                      <m:mo>−</m:mo>
+                      <m:mn>3.6</m:mn>
+                      <m:mi>c</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>7.5</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mstyle>
+              </m:mrow>
+            </m:math>,
+            where <m:math display="inline">
+              <m:mrow>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math> is the number of cars.</para>
         </solution>
       </exercise>
       <!--Interaction
       End -->
       <exercise id="ddd2a6db-692e-4c7e-892d-9596a9d59ab0" class="multiple-choice">
         <problem id="prob-00007">
-          <para id="para-00023">Use your equation and a calculator or a computer to find the number of trucks that can be shipped if the cargo already has 1000 cars.</para>
+          <para id="para-00023">Use your equation and a calculator or a computer to find the number
+            of trucks that can be shipped if the cargo already has 1000 cars.</para>
         </problem>
         <solution id="sol-00007">
           <para id="para-00024">2400</para>
@@ -84,7 +166,8 @@
       </exercise>
       <exercise id="_0eefd012-aa54-4abc-b55b-09f5e29a762a" class="multiple-choice">
         <problem id="prob-00008">
-          <para id="para-00026">Use your equation and a calculator or a computer to find the number of trucks that can be shipped if the cargo already has 4250 cars.</para>
+          <para id="para-00026">Use your equation and a calculator or a computer to find the number
+            of trucks that can be shipped if the cargo already has 4250 cars.</para>
         </problem>
         <solution id="sol-00008">
           <para id="para-00027">840</para>
@@ -95,25 +178,61 @@
       will need to change the Data-fire/data-wait-for-events for each set.-->
     <section id="sect-00002">
       <title>Are you ready for more?</title>
-      <section class="numbered-exercises" id="sect-00003"><title>Extending Your Thinking</title>
-          <quote id="quote-00001">For numbers 1 and 2, use the following situation:<para id="para-00012"/>For yet another shipment, the manufacturer is also shipping motorcycles, which weigh 0.3 ton each.</quote>
+      <section class="numbered-exercises" id="sect-00003">
+        <title>Extending Your Thinking</title>
+        <quote id="quote-00001">For numbers 1 and 2, use the following situation:<para
+            id="para-00012" />For yet another shipment, the manufacturer is also shipping
+          motorcycles, which weigh 0.3 ton each.</quote>
         <!--Start
       interaction.  If multiple interactions appear under "are you ready for more?, they should all
       have matching "data-wait-for-event", which should also match the "data-fire-event" for the
       button. Note in this sample, they are all RFM1-->
         <exercise class="RFM1" id="exer-00004">
           <problem id="prob-00009">
-            <para id="para-00030">Write an equation that you could enter into a calculator or a spreadsheet tool to find the number of motorcycles that can be shipped, <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math>, if the number of cars and trucks are known.</para>
+            <para id="para-00030">Write an equation that you could enter into a calculator or a
+              spreadsheet tool to find the number of motorcycles that can be shipped, <m:math
+                display="inline">
+                <m:mrow>
+                  <m:mi>m</m:mi>
+                </m:mrow>
+              </m:math>, if the number of
+              cars and trucks are known.</para>
           </problem>
           <solution id="sol-00009">
             <para id="para-00031">Compare your answer: </para>
-            <para id="para-00032"><m:math><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mstyle displaystyle="true" scriptlevel="0"><m:mfrac><m:mrow><m:mn>21</m:mn><m:mo>,</m:mo><m:mspace width="negativethinmathspace"/><m:mn>600</m:mn><m:mo>−</m:mo><m:mn>7.5</m:mn><m:mi>t</m:mi><m:mo>−</m:mo><m:mn>3.6</m:mn><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>0.3</m:mn></m:mrow></m:mfrac></m:mstyle></m:mrow></m:math></para></solution>
+            <para id="para-00032"><m:math>
+                <m:mrow>
+                  <m:mi>m</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mstyle displaystyle="true" scriptlevel="0">
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>21</m:mn>
+                        <m:mo>,</m:mo>
+                        <m:mspace width="negativethinmathspace" />
+                        <m:mn>600</m:mn>
+                        <m:mo>−</m:mo>
+                        <m:mn>7.5</m:mn>
+                        <m:mi>t</m:mi>
+                        <m:mo>−</m:mo>
+                        <m:mn>3.6</m:mn>
+                        <m:mi>c</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>0.3</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mstyle>
+                </m:mrow>
+              </m:math></para>
+          </solution>
         </exercise>
         <!--End
       interaction-->
         <exercise class="RFM1" id="exer-00005">
           <problem id="prob-00010">
-            <para id="para-00033">Use your equation to find the number of motorcycles that can be shipped if the cargo already contains 1,200 trucks and 3,000 cars.</para>
+            <para id="para-00033">Use your equation to find the number of motorcycles that can be
+              shipped if the cargo already contains 1,200 trucks and 3,000 cars.</para>
           </problem>
           <solution id="sol-00010">
             <para id="para-00034">Compare your answer: </para>
@@ -128,9 +247,9 @@
       <note class="self-check" id="note-00001">
         <exercise id="exer-00012">
           <problem id="prob-00017">
-          <para id="para-00036"><link class="os-embed" url="#exercise/Alg1_1_9_2_SC"/></para>
+            <para id="para-00036"><link class="os-embed" url="#exercise/Alg1_1_9_2_SC" /></para>
           </problem>
-          </exercise>
+        </exercise>
       </note>
     </section>
     <section id="sect-00005">
@@ -140,14 +259,19 @@
         <para id="para-00037">Review the following information from a previous lesson.</para>
         <section id="sect-00007">
           <title>Writing Equations Using Symbols</title>
-          <para id="para-00038">When writing statements using algebraic symbols, the following steps may be helpful.</para>
+          <para id="para-00038">When writing statements using algebraic symbols, the following steps
+            may be helpful.</para>
           <para id="para-00039"><emphasis>Step 1</emphasis> - Read the problem.</para>
-          <para id="para-00040"><emphasis>Step 2</emphasis> - Identify the variables and known values. If needed, sketch a picture of the scenario.</para>
-          <para id="para-00041"><emphasis>Step 3</emphasis> - Write a sentence using the relationship among the values.</para>
-          <para id="para-00042"><emphasis>Step 4</emphasis> - Translate the sentence into an equation.</para>
+          <para id="para-00040"><emphasis>Step 2</emphasis> - Identify the variables and known
+            values. If needed, sketch a picture of the scenario.</para>
+          <para id="para-00041"><emphasis>Step 3</emphasis> - Write a sentence using the
+            relationship among the values.</para>
+          <para id="para-00042"><emphasis>Step 4</emphasis> - Translate the sentence into an
+            equation.</para>
           <section id="sect-00008">
             <title>Example</title>
-            <para id="para-00043">You are buying chicken and steak for a barbeque. Chicken costs $1.29/lb and steak costs $3.49/lb.</para>
+            <para id="para-00043">You are buying chicken and steak for a barbeque. Chicken costs
+              $1.29/lb and steak costs $3.49/lb.</para>
           </section>
         </section>
         <!--Q1-->
@@ -156,11 +280,27 @@
             <para id="para-00044">What variables might you need to use in this scenario?</para>
           </problem>
           <solution id="sol-00011">
-            <para id="para-00045">Compare your answer: Your answer may vary, but here are some examples.</para>
+            <para id="para-00045">Compare your answer: Your answer may vary, but here are some
+              examples.</para>
             <list id="list-00001">
-              <item>Let <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> represent the number of pounds of chicken that you can buy.</item>
-              <item>Let <m:math display="inline"><m:mrow><m:mi>s</m:mi></m:mrow></m:math> represent the number of pounds of steak that you can buy.</item>
-              <item>Let <m:math display="inline"><m:mrow><m:mi>T</m:mi></m:mrow></m:math> represent the total cost of the barbeque.</item>
+              <item>Let <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                </m:math> represent the
+                number of pounds of chicken that you can buy.</item>
+              <item>Let <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>s</m:mi>
+                  </m:mrow>
+                </m:math> represent the
+                number of pounds of steak that you can buy.</item>
+              <item>Let <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>T</m:mi>
+                  </m:mrow>
+                </m:math> represent the
+                total cost of the barbeque.</item>
             </list>
           </solution>
         </exercise>
@@ -169,13 +309,18 @@
         <!--Q2-->
         <exercise id="exer-00007">
           <problem id="prob-00012">
-            <para id="para-00046">What sentence might you use to describe the total cost of the barbeque?</para>
+            <para id="para-00046">What sentence might you use to describe the total cost of the
+              barbeque?</para>
           </problem>
           <solution id="sol-00012">
-            <para id="para-00047">Compare your answer: Your answer may vary, but here are some examples.</para>
+            <para id="para-00047">Compare your answer: Your answer may vary, but here are some
+              examples.</para>
             <list id="list-00002">
-              <item>The total cost of the barbeque is the sum of the total cost of all the chicken purchased and the total cost of all the steak purchased.</item>
-              <item>The cost per pound of the chicken multiplied by the number of pounds purchased plus the cost per pound of the steak multiplied by the number of pounds purchased equals the total cost of the barbeque.</item>
+              <item>The total cost of the barbeque is the sum of the total cost of all the chicken
+                purchased and the total cost of all the steak purchased.</item>
+              <item>The cost per pound of the chicken multiplied by the number of pounds purchased
+                plus the cost per pound of the steak multiplied by the number of pounds purchased
+                equals the total cost of the barbeque.</item>
             </list>
           </solution>
         </exercise>
@@ -184,33 +329,298 @@
         <!--Q3-->
         <exercise id="exer-00008">
           <problem id="prob-00013">
-            <para id="para-00048">Write an equation to show the total cost, <m:math display="inline"><m:mrow><m:mi>T</m:mi></m:mrow></m:math>, of the meat.</para>
+            <para id="para-00048">Write an equation to show the total cost, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>T</m:mi>
+                </m:mrow>
+              </m:math>, of the meat.</para>
           </problem>
           <solution id="sol-00013">
             <para id="para-00049">Compare your answer: </para>
-            <para id="para-00050"><m:math><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow></m:math></para></solution>
+            <para id="para-00050"><m:math>
+                <m:mrow>
+                  <m:mi>T</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math></para>
+          </solution>
         </exercise>
         <!--Interaction
         End -->
         <!--Q4-->
         <exercise id="exer-00009">
           <problem id="prob-00014">
-            <para id="para-00051">You have $100 to spend on the barbeque. Use this information and rewrite the equation <m:math display="inline"><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow></m:math> to find the number of pounds of chicken, <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math>, that you can buy.</para>
+            <para id="para-00051">You have $100 to spend on the barbeque. Use this information and
+              rewrite the equation <m:math display="inline">
+                <m:mrow>
+                  <m:mi>T</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math> to find the number
+              of pounds of chicken, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math>, that you can buy.</para>
           </problem>
           <solution id="sol-00014">
             <para id="para-00052">Compare your answer: </para>
-            <para id="para-00053"><m:math><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>100</m:mn><m:mo>−</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow><m:mrow><m:mn>1.29</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para><para id="para-00054"><m:math display="inline"><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow></m:math></para><para id="para-00057"><m:math display="inline"><m:mrow><m:mn>100</m:mn><m:mo>=</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow></m:math></para><para id="para-00058"><m:math display="inline"><m:mrow><m:mn>100</m:mn><m:mo>−</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi><m:mo>−</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow></m:math></para><para id="para-00064"><m:math display="inline"><m:mrow><m:mn>100</m:mn><m:mo>−</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi></m:mrow></m:math></para><para id="para-00065"><m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>100</m:mn><m:mo>−</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow><m:mrow><m:mn>1.29</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>1.29</m:mn><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>1.29</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para><para id="para-00066"><m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>100</m:mn><m:mo>−</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow><m:mrow><m:mn>1.29</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mi>c</m:mi></m:mrow></m:math></para></solution>
+            <para id="para-00053"><m:math>
+                <m:mrow>
+                  <m:mi>c</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mo>−</m:mo>
+                      <m:mn>3.49</m:mn>
+                      <m:mi>s</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1.29</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00054"><m:math display="inline">
+                <m:mrow>
+                  <m:mi>T</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00057"><m:math display="inline">
+                <m:mrow>
+                  <m:mn>100</m:mn>
+                  <m:mo>=</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00058"><m:math display="inline">
+                <m:mrow>
+                  <m:mn>100</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00064"><m:math display="inline">
+                <m:mrow>
+                  <m:mn>100</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00065"><m:math display="inline">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mo>−</m:mo>
+                      <m:mn>3.49</m:mn>
+                      <m:mi>s</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1.29</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1.29</m:mn>
+                      <m:mi>c</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1.29</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00066"><m:math display="inline">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mo>−</m:mo>
+                      <m:mn>3.49</m:mn>
+                      <m:mi>s</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1.29</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>=</m:mo>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math></para>
+          </solution>
         </exercise>
         <!--Interaction
         End -->
         <!--Q5-->
         <exercise id="exer-00010">
           <problem id="prob-00015">
-            <para id="para-00055">You have $100 to spend on the barbeque. Use this information and rewrite the equation <m:math display="inline"><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow></m:math> to find the number of pounds of steak, <m:math display="inline"><m:mrow><m:mi>s</m:mi></m:mrow></m:math>, that you can buy.</para>
+            <para id="para-00055">You have $100 to spend on the barbeque. Use this information and
+              rewrite the equation <m:math display="inline">
+                <m:mrow>
+                  <m:mi>T</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math> to find the number
+              of pounds of steak, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math>, that you can buy.</para>
           </problem>
           <solution id="sol-00015">
             <para id="para-00056">Compare your answer: </para>
-            <para id="para-00067"><m:math><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>100</m:mn><m:mo>−</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>3.49</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para><para id="para-00068"><m:math display="inline"><m:mrow><m:mi>T</m:mi><m:mo>=</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow></m:math></para><para id="para-00069"><m:math display="inline"><m:mrow><m:mn>100</m:mn><m:mo>=</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow></m:math></para><para id="para-00070"><m:math display="inline"><m:mrow><m:mn>100</m:mn><m:mo>−</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>−</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow></m:math></para><para id="para-00071"><m:math display="inline"><m:mrow><m:mn>100</m:mn><m:mo>−</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow></m:math></para><para id="para-00072"><m:math display="inline"><m:mrow><m:mfrac><m:mrow><m:mn>100</m:mn><m:mo>−</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>3.49</m:mn></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>3.49</m:mn><m:mi>s</m:mi></m:mrow><m:mrow><m:mn>3.49</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para><para id="para-00073"><m:math display="inline"><m:mrow><m:mi>s</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>100</m:mn><m:mo>−</m:mo><m:mn>1.29</m:mn><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>3.49</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para></solution>
+            <para id="para-00067"><m:math>
+                <m:mrow>
+                  <m:mi>s</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mo>−</m:mo>
+                      <m:mn>1.29</m:mn>
+                      <m:mi>c</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3.49</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00068"><m:math display="inline">
+                <m:mrow>
+                  <m:mi>T</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00069"><m:math display="inline">
+                <m:mrow>
+                  <m:mn>100</m:mn>
+                  <m:mo>=</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00070"><m:math display="inline">
+                <m:mrow>
+                  <m:mn>100</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>−</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00071"><m:math display="inline">
+                <m:mrow>
+                  <m:mn>100</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mn>1.29</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>3.49</m:mn>
+                  <m:mi>s</m:mi>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00072"><m:math display="inline">
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mo>−</m:mo>
+                      <m:mn>1.29</m:mn>
+                      <m:mi>c</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3.49</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>3.49</m:mn>
+                      <m:mi>s</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3.49</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00073"><m:math display="inline">
+                <m:mrow>
+                  <m:mi>s</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>100</m:mn>
+                      <m:mo>−</m:mo>
+                      <m:mn>1.29</m:mn>
+                      <m:mi>c</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3.49</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:math></para>
+          </solution>
         </exercise>
         <!--Interaction
         End -->
@@ -221,13 +631,47 @@
           <!--Q#-->
         <exercise id="exer-00011">
             <problem id="prob-00016">
-              <para id="para-00059">On a canoeing trip, you walk 4 mph then canoe at 7 mph and cover 30 miles. Write an equation to find how many miles you travel while canoeing.</para>
+              <para id="para-00059">On a canoeing trip, you walk 4 mph then canoe at 7 mph and cover
+          30 miles. Write an equation to find how many miles you travel while canoeing.</para>
             </problem>
             <solution id="sol-00016">
               <para id="para-00060">Compare your answer: </para>
-              <para id="para-00061"><emphasis>Step 1</emphasis> - Identify known variables. <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math>: miles canoeing <m:math display="inline"><m:mrow><m:mi>w</m:mi></m:mrow></m:math>: miles walked</para>
-              <para id="para-00062"><emphasis>Step 2</emphasis> - Write an equation to show the distance covered. 4w+7c=30</para>
-              <para id="para-00063"><emphasis>Step 3</emphasis> - Write an equation that solves for <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> the number of miles traveled while canoeing. <m:math display="inline"><m:mrow><m:mi>c</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>30</m:mn><m:mo>−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mi>w</m:mi><m:mn>7</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
+              <para id="para-00061"><emphasis>Step 1</emphasis> - Identify known variables. <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                </m:math>: miles
+          canoeing <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>w</m:mi>
+                  </m:mrow>
+                </m:math>: miles walked</para>
+              <para id="para-00062"><emphasis>Step 2</emphasis> - Write an equation to show the
+          distance covered. 4w+7c=30</para>
+              <para id="para-00063"><emphasis>Step 3</emphasis> - Write an equation that solves for <m:math
+                  display="inline">
+                  <m:mrow>
+                    <m:mi>c</m:mi>
+                  </m:mrow>
+                </m:math> the number of
+          miles traveled while canoeing. <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>c</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>30</m:mn>
+                        <m:mo>−</m:mo>
+                        <m:mn>4</m:mn>
+                        <m:mi>w</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>7</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math></para>
             </solution>
           </exercise>
         </note>
