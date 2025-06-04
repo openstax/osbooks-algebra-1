@@ -10,12 +10,12 @@
       <title>Cool Down</title>
       <para id="para-00001">The graph shows the population of beavers in a forest for different numbers of years after 1995. The beaver population is growing exponentially.</para>
       <para id="para-00002">
-        
-          <media alt="A scatter plot showing the number of beavers over 5 years. Red points show increases: (1,100), (2,200), (3,400), (4,800). The y-axis is number of beavers and the x-axis is time in years.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_10_09_01.svg"/>
-          </media>
-        
-    </para>
+
+        <media alt="A scatter plot showing the number of beavers over 5 years. Red points show increases: (1,100), (2,200), (3,400), (4,800). The y-axis is number of beavers and the x-axis is time in years.">
+          <image mime-type="image/svg+xml" src="../../media/Algebra-1_05_10_09_01.svg" />
+        </media>
+
+      </para>
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
@@ -30,11 +30,19 @@
       <!--Text Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00007"> What is the meaning of the point labeled <m:math display="inline"><m:mrow><m:mi>Q</m:mi></m:mrow></m:math> in this context?</para>
+          <para id="para-00007"> What is the meaning of the point labeled <m:math display="inline">
+              <m:mrow>
+                <m:mi>Q</m:mi>
+              </m:mrow>
+            </m:math> in this context?</para>
         </problem>
         <solution id="sol-00002">
           <para id="para-00009">Compare your answer: </para>
-          <para id="para-00010"> The point <m:math display="inline"><m:mrow><m:mi>Q</m:mi></m:mrow></m:math> indicates that 3.5 years after 1995, the beaver population was about 550.</para>
+          <para id="para-00010"> The point <m:math display="inline">
+              <m:mrow>
+                <m:mi>Q</m:mi>
+              </m:mrow>
+            </m:math> indicates that 3.5 years after 1995, the beaver population was about 550.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
@@ -45,18 +53,46 @@
         </problem>
         <solution id="sol-00003">
           <para id="para-00013">Compare your answer: </para>
-          <para id="para-00014"> <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>50</m:mn><m:mi>·</m:mi><m:msup><m:mn>2</m:mn><m:mi>t</m:mi></m:msup></m:mrow></m:math> where <m:math display="inline"><m:mrow><m:mi>t</m:mi></m:mrow></m:math> is years after 1995 and <m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> is the beaver population at that time.</para>
+          <para id="para-00014">
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>p</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>t</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>50</m:mn>
+                <m:mi>·</m:mi>
+                <m:msup>
+                  <m:mn>2</m:mn>
+                  <m:mi>t</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math> where <m:math display="inline">
+              <m:mrow>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:math> is years after 1995 and <m:math display="inline">
+              <m:mrow>
+                <m:mi>p</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>t</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> is the beaver population at that time.</para>
         </solution>
       </exercise>
       <!--Interaction End -->
 
-        <exercise id="_0c20dc9a-915d-4066-ab59-64b5717b29be" class="multiple-choice">
-          <problem id="prob-00004">
-            <para id="para-00015">Which equation is most appropriate for modeling this data?</para>
-            <table class="unnumbered os-raise-horizontaltable" id="table-00001">
-              <tgroup cols="6"><tbody><row>
+      <exercise id="_0c20dc9a-915d-4066-ab59-64b5717b29be" class="multiple-choice">
+        <problem id="prob-00004">
+          <para id="para-00015">Which equation is most appropriate for modeling this data?</para>
+          <table class="unnumbered os-raise-horizontaltable" id="table-00001">
+            <tgroup cols="6">
+              <tbody>
+                <row>
                   <entry>
-                   <emphasis>x</emphasis>
+                    <emphasis>x</emphasis>
                   </entry>
                   <entry>1</entry>
                   <entry>2</entry>
@@ -66,7 +102,7 @@
                 </row>
                 <row>
                   <entry>
-                   <emphasis>y</emphasis>
+                    <emphasis>y</emphasis>
                   </entry>
                   <entry>14</entry>
                   <entry>26</entry>
@@ -74,13 +110,90 @@
                   <entry>266</entry>
                   <entry>1034</entry>
                 </row>
-              </tbody></tgroup></table>
-            <para id="para-00016">Multiple Choice:</para>
-            <para id="para-00004"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math></para><para id="para-00008"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para><para id="para-00012"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math></para><para id="para-00017"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:msup><m:mn>4</m:mn><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mfrac></m:mrow></m:msup></m:mrow></m:math></para></problem>
-          <solution id="sol-00004">
-            <para id="para-00021"><m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>10</m:mn><m:mo>+</m:mo><m:msup><m:mn>4</m:mn><m:mi>x</m:mi></m:msup></m:mrow></m:math></para>
-          </solution>
-        </exercise>
+              </tbody>
+            </tgroup>
+          </table>
+<list list-type="enumerated" number-style="lower-alpha">          
+          <item><para id="para-00004"><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>+</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math></para></item>
+          <item><para id="para-00008"><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mn>4</m:mn>
+                  <m:mi>x</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math></para></item>
+          <item><para id="para-00012"><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math></para></item>
+          <item><para id="para-00017"><m:math>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mn>4</m:mn>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+            </m:math></para></item>
+            </list>
+
+        </problem>
+        <solution id="sol-00004">
+          <para id="para-00021"><m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mn>4</m:mn>
+                  <m:mi>x</m:mi>
+                </m:msup>
+              </m:mrow>
+            </m:math></para>
+        </solution>
+      </exercise>
 
     </section>
-  </content></document>
+  </content>
+</document>
