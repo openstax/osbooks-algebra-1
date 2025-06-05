@@ -13,21 +13,22 @@
       <para id="para-00002">
         <emphasis>Linear Models from Tables</emphasis>
       </para>
-      <quote id="quote-00001"><para id="para-00003">For 1 - 4, use the scenario and table below:</para>
+      <para id="para-00003">For 1 - 4, use the scenario and table below.</para>
+      <quote id="quote-00001">
       <para id="para-00006">The table below shows the number of songs Marcus will have in his
         collection as he adds new songs each month.</para>
         <table class="unnumbered" id="table-00001">
           <tgroup cols="5">
             <tbody>
               <row>
-                <entry><emphasis>Number of months,</emphasis> <emphasis effect="italics">t</emphasis></entry>
+                <entry><emphasis>Number of months,</emphasis> <m:math display="inline"><m:mi>t</m:mi></m:math></entry>
                 <entry>0</entry>
                 <entry>1</entry>
                 <entry>2</entry>
                 <entry>3</entry>
               </row>
               <row>
-                <entry><emphasis>Number of songs,</emphasis> <emphasis effect="italics">N</emphasis></entry>
+                <entry><emphasis>Number of songs,</emphasis> <m:math display="inline"><m:mi>N</m:mi></m:math></entry>
                 <entry>200</entry>
                 <entry>215</entry>
                 <entry>230</entry>
@@ -103,26 +104,14 @@
                 <m:mo>=</m:mo>
                 <m:mn>320</m:mn>
               </m:mrow>
-            </m:math> <m:math display="inline">
-              <m:mrow>
-                <m:mi>N</m:mi>
-                <m:mo>=</m:mo>
-                <m:mn>15</m:mn>
-                <m:mo stretchy="false">(</m:mo>
-                <m:mn>8</m:mn>
-                <m:mo stretchy="false">)</m:mo>
-                <m:mo>+</m:mo>
-                <m:mn>200</m:mn>
-                <m:mo>=</m:mo>
-                <m:mn>320</m:mn>
-              </m:mrow>
             </m:math></para>
         </solution>
       </exercise>
 
-      <quote id="quote-00004"><para id="para-00009">For 5 - 8, use the situation and table below:</para>
+      <para id="para-00009">For 5 - 8, use the situation and table below.</para>
+      <quote id="quote-00004">
       <para id="para-00016">A new plant food is introduced to a young tree to test its effect on
-        the height of the tree. The table shows the height of the tree, H, in feet <m:math display="inline">
+        the height of the tree. The table shows the height of the tree, <m:math display="inline"><m:mi>H</m:mi></m:math>, in feet <m:math display="inline">
           <m:mrow>
             <m:mi>x</m:mi>
           </m:mrow>
@@ -132,14 +121,14 @@
           <tgroup cols="5">
             <tbody>
               <row>
-                <entry><emphasis>Number of months,</emphasis> <emphasis effect="italics">x</emphasis></entry>
+                <entry><emphasis>Number of months,</emphasis> <m:math display="inline"><m:mi>x</m:mi></m:math></entry>
                 <entry>2</entry>
                 <entry>4</entry>
                 <entry>6</entry>
                 <entry>8</entry>
               </row>
               <row>
-                <entry><emphasis>Height in feet,</emphasis> <emphasis effect="italics">H</emphasis></entry>
+                <entry><emphasis>Height in feet,</emphasis> <m:math display="inline"><m:mi>H</m:mi></m:math></entry>
                 <entry>13.5</entry>
                 <entry>14.5</entry>
                 <entry>15.5</entry>
@@ -205,8 +194,10 @@
                   <m:mn>2</m:mn>
                 </m:mfrac>
                 <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>12.5</m:mn>
               </m:mrow>
-            </m:math> +12.5\)</para>
+            </m:math></para>
         </solution>
       </exercise>
       <!--Interaction
@@ -234,34 +225,19 @@
                 <m:mo>=</m:mo>
                 <m:mn>19.5</m:mn>
               </m:mrow>
-            </m:math> <m:math display="inline">
-              <m:mrow>
-                <m:mi>H</m:mi>
-                <m:mo>=</m:mo>
-                <m:mfrac>
-                  <m:mn>1</m:mn>
-                  <m:mn>2</m:mn>
-                </m:mfrac>
-                <m:mo stretchy="false">(</m:mo>
-                <m:mn>14</m:mn>
-                <m:mo stretchy="false">)</m:mo>
-                <m:mo>+</m:mo>
-                <m:mn>12.5</m:mn>
-                <m:mo>=</m:mo>
-                <m:mn>19.5</m:mn>
-              </m:mrow>
             </m:math></para>
         </solution>
       </exercise>
 
       <para id="para-00032"><emphasis>Linear Models from Graphs</emphasis></para>
-      <quote id="quote-00007"><para id="para-00017">For 9 - 12, use the situation and graph below:</para>
+      <para id="para-00017">For 9 - 12, use the situation and graph below.</para>
+      <quote id="quote-00007">
       <para id="para-00021">The graph models the cost in dollars, <m:math display="inline">
           <m:mrow>
             <m:mi>C</m:mi>
           </m:mrow>
         </m:math>, of renting a tent at a campground
-        for n nights. <media alt="Scatter plot showing the number of nights on the x-axis versus the cost in dollars on the y-axos. Points are plotted and labeled at (0,30), (1,40), (2,50), (3,60) indicating a positive linear trend.">
+        for <m:math display="inline"><m:mi>n</m:mi></m:math> nights. <media alt="Scatter plot showing the number of nights on the x-axis versus the cost in dollars on the y-axos. Points are plotted and labeled at (0,30), (1,40), (2,50), (3,60) indicating a positive linear trend.">
           <image mime-type="image/jpeg" src="../../media/Algebra-1_03_04_06_01.jpg"/>
         </media>
       </para>
@@ -333,28 +309,6 @@
                 <m:mi>C</m:mi>
                 <m:mo>=</m:mo>
                 <m:mn>10</m:mn>
-                <m:mi>n</m:mi>
-                <m:mo>+</m:mo>
-                <m:mn>30</m:mn>
-              </m:mrow>
-            </m:math> <m:math display="inline">
-              <m:mrow>
-                <m:mi>C</m:mi>
-                <m:mo>=</m:mo>
-                <m:mn>10</m:mn>
-                <m:mo stretchy="false">(</m:mo>
-                <m:mn>5</m:mn>
-                <m:mo stretchy="false">)</m:mo>
-                <m:mo>+</m:mo>
-                <m:mn>30</m:mn>
-                <m:mo>=</m:mo>
-                <m:mn>80</m:mn>
-              </m:mrow>
-            </m:math> <m:math display="inline">
-              <m:mrow>
-                <m:mi>C</m:mi>
-                <m:mo>=</m:mo>
-                <m:mn>10</m:mn>
                 <m:mo stretchy="false">(</m:mo>
                 <m:mn>5</m:mn>
                 <m:mo stretchy="false">)</m:mo>
@@ -395,6 +349,38 @@
       
       <para id="para-00047">Which linear model could be used to predict the revenue if 4000 pizzas
         were sold?</para>
+        <para>
+          <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>80</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4000</m:mn><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math></para>
+          <para>
+          <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>5</m:mn><m:mo stretchy="false">(</m:mo><m:mn>4000</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>10</m:mn>
+            </m:mrow>
+          </m:math></para>
+          <para>
+          <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi><m:mo>=</m:mo><m:mn>4000</m:mn><m:mo stretchy="false">(</m:mo><m:mn>10</m:mn><m:mo stretchy="false">)</m:mo>
+            </m:mrow>
+          </m:math>
+        </para>
+        <para>I am not sure.</para>
+        <para>
+          <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi><m:mo>=</m:mo>
+              <m:mfrac>
+                <m:mrow><m:mn>1</m:mn></m:mrow>
+                <m:mrow><m:mn>5</m:mn></m:mrow>
+              </m:mfrac>
+              <m:mo stretchy="false">(</m:mo><m:mn>4000</m:mn><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>10</m:mn>
+            </m:mrow>
+          </m:math>
+        </para>
       </note>
     </section>
 
@@ -478,18 +464,23 @@
               <m:mo>=</m:mo>
               <m:mn>0</m:mn>
             </m:mrow>
-          </m:math> since as each <emphasis effect="italics">x</emphasis>-value increases by 1, the <m:math display="inline">
+          </m:math> since as each <m:math display="inline"><m:mi>x</m:mi></m:math>-value increases by 1, the <m:math display="inline">
             <m:mrow>
               <m:mi>y</m:mi>
             </m:mrow>
           </m:math>-values increase by 65.</para>
-        <para id="para-00052"><emphasis>Step 2</emphasis> - Find the slope of the situation.</para><para id="para-00033">Find
-          the rate of change. The change in y is 65 and the change in <m:math display="inline">
+        <para id="para-00052"><emphasis>Step 2</emphasis> - Find the slope of the situation.</para>
+        <para id="para-00033">Find
+          the rate of change. The change in <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math> is 65 and the change in <m:math display="inline">
             <m:mrow>
               <m:mi>x</m:mi>
             </m:mrow>
           </m:math> is 1, so the slope is 65</para>
-        <para id="para-00053"><emphasis>Step 3</emphasis> -Write the equation in slope-intercept
+        <para id="para-00053"><emphasis>Step 3</emphasis> - Write the equation in slope-intercept
           form.</para><para id="para-00036"><m:math display="inline">
             <m:mrow>
               <m:mi>y</m:mi>
@@ -517,7 +508,7 @@
               <m:mi>d</m:mi>
             </m:mrow>
           </m:math></para>
-        <para id="para-00054"><emphasis>Step 4</emphasis> -Make a prediction.</para><para id="para-00074">Substitute <m:math display="inline">
+        <para id="para-00054"><emphasis>Step 4</emphasis> - Make a prediction.</para><para id="para-00074">Substitute <m:math display="inline">
             <m:mrow>
               <m:mi>d</m:mi>
               <m:mo>=</m:mo>
@@ -540,7 +531,11 @@
         <para id="para-00056">
           <emphasis>Linear Equations from Graphs</emphasis>
         </para>
-        <para id="para-00057">The cost, C, for the number of days, <m:math display="inline">
+        <para id="para-00057">The cost, <m:math display="inline">
+            <m:mrow>
+              <m:mi>C</m:mi>
+            </m:mrow>
+          </m:math>, for the number of days, <m:math display="inline">
             <m:mrow>
               <m:mi>d</m:mi>
             </m:mrow>

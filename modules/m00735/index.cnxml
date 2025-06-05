@@ -6,20 +6,21 @@
     <md:uuid>769e6e1e-82c6-45a4-b113-abab8c151fb1</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-        <media alt="Video still of oranges being weighed">
-          <image mime-type="image/png" src="../../media/Algebra-1_03_05_03_01.png" width="450"/>
-        </media>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Activity</title>
+      <media alt="Video still of oranges being weighed">
+        <image mime-type="image/png" src="../../media/Algebra-1_03_05_03_01.png" width="450" />
+      </media>
 
       <!--BEGIN
       ADD DESMOS INTERATIVE-->
       <!--START
       QUESTION # 1-->
-      <para id="para-00001">Here is the data table for orange weights from a previous lesson. Use this information
-        to answer the questions.</para>
+      <para id="para-00001">Here is the data table for orange weights from a previous lesson. Use
+        this information to answer the questions.</para>
       <table class="unnumbered os-raise-midsizetable unnumbered" id="table-00001">
         <tgroup cols="2" align="center">
-<thead>
+          <thead>
             <row>
               <entry>
                 <emphasis> Number of oranges</emphasis>
@@ -29,7 +30,7 @@
               </entry>
             </row>
           </thead>
-<tbody>
+          <tbody>
             <row>
               <entry>3 </entry>
               <entry>1.027 </entry>
@@ -66,23 +67,33 @@
         </tgroup>
       </table>
 
-        <!--END
+      <!--END
       ADD DESMOS INTERATIVE-->
 
       <exercise id="exer-00001">
         <problem id="prob-00001">
           <!--QUESTION
           IS OUTSIDE OF INTERACTION DUE TO DESMOS-->
-          <para id="para-00002">Use the graphing tool or technology outside the course. Create the scatter plot and
-            calculate the best fit line using the Desmos tool below.</para>
-        <media alt="insert alt text">
-        <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        </media>
+          <para id="para-00002">Use the graphing tool or technology outside the course. Create the
+            scatter plot and calculate the best fit line using the Desmos tool below.</para>
+          <media alt="insert alt text">
+            <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html"
+              width="500" height="400" />
+          </media>
 
         </problem>
         <solution id="sol-00001">
           <para id="para-00004">Compare your answer: </para>
-          <para id="para-00005">The equation of the best fit line is <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>0.216</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>0.345</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00005">The equation of the best fit line is <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>0.216</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>0.345</m:mn>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
 
@@ -90,14 +101,14 @@
       Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00006">What level of accuracy makes sense for the slope and intercept values? Be
-            prepared to show your reasoning.</para>
+          <para id="para-00006">What level of accuracy makes sense for the slope and intercept
+            values? Be prepared to show your reasoning.</para>
 
         </problem>
         <solution id="sol-00002">
           <para id="para-00007">Compare your answer: </para>
-          <para id="para-00008">Rounding the values to the thousandths place makes sense because that would be to an
-            accuracy of 1 gram, which is what the original data used.</para>
+          <para id="para-00008">Rounding the values to the thousandths place makes sense because
+            that would be to an accuracy of 1 gram, which is what the original data used.</para>
         </solution>
       </exercise>
       <!--Interaction
@@ -107,8 +118,8 @@
       Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00009">What does the linear model estimate for how much the weight increases for of each
-            additional box of oranges?</para>
+          <para id="para-00009">What does the linear model estimate for how much the weight
+            increases for each additional orange that is placed in the box of oranges?</para>
 
         </problem>
         <solution id="sol-00003">
@@ -123,14 +134,14 @@
       Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00012">Compare the weight of the actual box with 3 oranges in it to the estimated weight
-            of the box with 3 oranges in it. Be prepared to show your reasoning.</para>
+          <para id="para-00012">Compare the weight of the actual box with 3 oranges in it to the
+            estimated weight of the box with 3 oranges in it. Be prepared to show your reasoning.</para>
 
         </problem>
         <solution id="sol-00004">
           <para id="para-00013">Compare your answer: </para>
-          <para id="para-00014">The actual weight is 1.027 kg, and the estimated weight is 0.993 kg. Therefore, the
-            actual weight is 0.034 kg greater than the estimate.</para>
+          <para id="para-00014">The actual weight is 1.027 kg, and the estimated weight is 0.993 kg.
+            Therefore, the actual weight is 0.034 kg greater than the estimate.</para>
         </solution>
       </exercise>
       <!--Interaction
@@ -140,15 +151,15 @@
       Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00015">How many oranges are in the box when the linear model estimates the weight best?
-            Be prepared to show your reasoning.</para>
+          <para id="para-00015">How many oranges are in the box when the linear model estimates the
+            weight best? Be prepared to show your reasoning.</para>
 
         </problem>
         <solution id="sol-00005">
           <para id="para-00016">Compare your answer: </para>
-          <para id="para-00017">6 oranges are in the box when the estimate is best. The difference between the
-            estimated weight and the actual weight is only 0.023 kg, while the other points are
-            farther from the line.</para>
+          <para id="para-00017">6 oranges are in the box when the estimate is best. The difference
+            between the estimated weight and the actual weight is only 0.023 kg, while the other
+            points are farther from the line.</para>
         </solution>
       </exercise>
       <!--Interaction
@@ -158,14 +169,15 @@
       Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00006">
-          <para id="para-00018">How many oranges are in the box when the linear model estimates the weight least
-            well? Be prepared to show your reasoning.</para>
+          <para id="para-00018">How many oranges are in the box when the linear model estimates the
+            weight least well? Be prepared to show your reasoning.</para>
 
         </problem>
         <solution id="sol-00006">
           <para id="para-00019">Compare your answer: </para>
-          <para id="para-00020">7 oranges are in the box when the estimate is worst. The difference between the
-            estimated weight and the actual weight is 0.095, which is the most of any of the values.</para>
+          <para id="para-00020">7 oranges are in the box when the estimate is worst. The difference
+            between the estimated weight and the actual weight is 0.095, which is the most of any of
+            the values.</para>
         </solution>
       </exercise>
       <!--Interaction
@@ -173,23 +185,35 @@
       <!--Text
       Entry Interaction Start -->
       <para id="para-00021">Use the following information to answer questions 7 and 8.</para>
-      <quote id="quote-00001">The difference between the actual value and the value estimated by a linear model is
-        called the residual.
-      <list id="list-00001">
-        <item>If the actual value is greater than the estimated value, the residual is positive. </item>
-        <item>If the actual value is less than the estimated value, the residual is negative.</item>
-      </list>
+      <quote id="quote-00001">The difference between the actual value and the value estimated by a
+        linear model is called the residual. <list id="list-00001">
+          <item>If the actual value is greater than the estimated value, the residual is positive. </item>
+          <item>If the actual value is less than the estimated value, the residual is negative.</item>
+        </list>
       </quote>
 
       <exercise id="exer-00007">
         <problem id="prob-00007">
-          <para id="para-00023">For the orange weight data set, what is the residual for the line of best fit
-            when there are 3 oranges?</para>
+          <para id="para-00023">For the orange weight data set, what is the residual for the line of
+            best fit when there are 3 oranges?</para>
 
         </problem>
         <solution id="sol-00007">
           <para id="para-00024">Compare your answer: </para>
-          <para id="para-00025">The residual is <m:math display="inline"><m:mrow><m:mn>0.034</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1.027</m:mn><m:mi>−</m:mi><m:mn>0.993</m:mn><m:mo>=</m:mo><m:mn>0.034</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+          <para id="para-00025">The residual is <m:math display="inline">
+              <m:mrow>
+                <m:mn>0.034</m:mn>
+          </m:mrow>
+        </m:math> (because
+                <m:math display="inline">
+              <m:mrow>
+                <m:mn>1.027</m:mn>
+                <m:mi>−</m:mi>
+                <m:mn>0.993</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>0.034</m:mn>
+              </m:mrow>
+            </m:math>).</para>
         </solution>
       </exercise>
       <!--Interaction
@@ -198,8 +222,20 @@
       Entry Interaction Start -->
       <exercise id="exer-00008">
         <problem id="prob-00008">
-          <para id="para-00026">On the same axes as the scatter plot, plot this residual at the point where
-            <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>3</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> has the value of the residual.</para>
+          <para id="para-00026">On the same axes as the scatter plot, plot this residual at the
+            point where <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math> and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math> has the value of the
+            residual.</para>
 
         </problem>
         <solution id="sol-00008">
@@ -212,19 +248,21 @@
 
       <exercise id="exer-00009">
         <problem id="prob-00009">
-          <para id="para-00029">Find the residuals for each of the other points in the scatter plot and graph
-            them.</para>
-            <media alt="A blank graph with a horizontal x-axis labeled 1 to 11 and a vertical y-axis labeled -0.5 to 0.5. Both axes have arrows, and the grid lines form squares. No data points or additional markings are present.">
-              <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_05_03_02.svg"/>
-            </media>
+          <para id="para-00029">Find the residuals for each of the other points in the scatter plot
+            and graph them.</para>
+          <media
+            alt="A blank graph with a horizontal x-axis labeled 1 to 11 and a vertical y-axis labeled -0.5 to 0.5. Both axes have arrows, and the grid lines form squares. No data points or additional markings are present.">
+            <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_05_03_02.svg" />
+          </media>
 
-          <para id="para-00030"/>
+          <para id="para-00030" />
         </problem>
         <solution id="sol-00009">
           <para id="para-00031">Compare your answer: </para>
           <para id="para-00032">
-            <media alt="A scatter plot with points at (2, 0.08), (3, 0.07), (5, 0.09), (6, 0.08), (7, 0.08), and (8, 0.07) on a grid. The x-axis ranges from 0 to 11 and the y-axis ranges from -0.1 to 0.5.">
-              <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_05_03_03.svg"/>
+            <media
+              alt="A scatter plot with points at (2, 0.08), (3, 0.07), (5, 0.09), (6, 0.08), (7, 0.08), and (8, 0.07) on a grid. The x-axis ranges from 0 to 11 and the y-axis ranges from -0.1 to 0.5.">
+              <image mime-type="image/svg+xml" src="../../media/Algebra-1_03_05_03_03.svg" />
             </media>
 
           </para>
@@ -235,14 +273,14 @@
       Entry Interaction Start -->
       <exercise id="exer-00010">
         <problem id="prob-00010">
-          <para id="para-00033">Which point on the scatter plot has the residual closest to zero? What does this
-            mean about the weight of the box with that many oranges in it?</para>
+          <para id="para-00033">Which point on the scatter plot has the residual closest to zero?
+            What does this mean about the weight of the box with that many oranges in it?</para>
 
         </problem>
         <solution id="sol-00010">
           <para id="para-00034">Compare your answer: Your answer may vary, but here is a sample.</para>
-          <para id="para-00035">6 oranges. It means the estimated weight of the box with 6 oranges in it is closest
-            to the actual value.</para>
+          <para id="para-00035">6 oranges. It means the estimated weight of the box with 6 oranges
+            in it is closest to the actual value.</para>
         </solution>
       </exercise>
       <!--Interaction
@@ -252,34 +290,36 @@
       Entry Interaction Start -->
       <exercise id="exer-00011">
         <problem id="prob-00011">
-          <para id="para-00036">How can you use the residuals to decide how well a line fits the data?</para>
+          <para id="para-00036">How can you use the residuals to decide how well a line fits the
+            data?</para>
 
         </problem>
         <solution id="sol-00011">
           <para id="para-00037">Compare your answer: Your answer may vary, but here is a sample.</para>
-          <para id="para-00038">A line will result in more accurate estimates when the residuals are closer to zero.</para>
+          <para id="para-00038">A line will result in more accurate estimates when the residuals are
+            closer to zero.</para>
         </solution>
       </exercise>
     </section>
-      <!--Interaction
+    <!--Interaction
       End -->
 
-      <section id="sect-00002">
+    <section id="sect-00002">
       <title>Video: Finding Residuals</title>
       <para id="para-00039">Watch the following video to learn more about finding residuals.</para>
       <media alt="Placeholder for Alt Text">
-        <iframe width="660" height="371.4" src="https://openstax.org/r/calculate-residuals"/>
+        <iframe width="660" height="371.4" src="https://openstax.org/r/calculate-residuals" />
       </media>
     </section>
 
     <section id="sect-00003">
-    <note class="self-check" id="note-00001">
-      <exercise id="exer-00013">
-        <problem id="prob-00013">
-        <para id="para-00040"><link class="os-embed" url="#exercise/Alg1_3_3_2_SC"/></para>
-        </problem>
+      <note class="self-check" id="note-00001">
+        <exercise id="exer-00013">
+          <problem id="prob-00013">
+            <para id="para-00040"><link class="os-embed" url="#exercise/Alg1_3_3_2_SC" /></para>
+          </problem>
         </exercise>
-    </note>
+      </note>
     </section>
 
     <section id="sect-00004">
@@ -287,12 +327,13 @@
 
       <section id="sect-00005">
         <title>Finding Residuals</title>
-        <para id="para-00041">The gestation time for an animal is the typical duration between conception and birth.
-          The longevity of an animal is the typical lifespan for that animal. The gestation times,
-          in days, and longevities, in years, for 13 types of animals are shown in the table below.</para>
+        <para id="para-00041">The gestation time for an animal is the typical duration between
+          conception and birth. The longevity of an animal is the typical lifespan for that animal.
+          The gestation times, in days, and longevities, in years, for 13 types of animals are shown
+          in the table below.</para>
         <table class="unnumbered os-raise-midsizetable unnumbered" id="table-00002">
           <tgroup cols="3" align="center">
-<thead>
+            <thead>
               <row>
                 <entry>
                   <emphasis>Animal</emphasis>
@@ -304,8 +345,8 @@
                   <emphasis>Longevity (Years)</emphasis>
                 </entry>
               </row>
-              </thead>
-<tbody>
+            </thead>
+            <tbody>
               <row>
                 <entry>
                   <para id="para-00042">Baboon</para>
@@ -453,40 +494,120 @@
           </tgroup>
         </table>
 
-        <para id="para-00081">The equation of a line of best fit is <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9.875</m:mn><m:mo>+</m:mo><m:mn>0.02039</m:mn><m:mi>x</m:mi></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> represents
-          the gestational time, in days, and <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> represents longevity, in years.</para>
+        <para id="para-00081">The equation of a line of best fit is <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>9.875</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>0.02039</m:mn>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>, where <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math> represents the gestational
+          time, in days, and <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math> represents longevity, in years.</para>
         <para id="para-00082">
-          <media alt="A scatter plot with red data points and a blue trendline showing a slight positive correlation between the variables on the x-axis (0 to 300) and y-axis (0 to 25).">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_05_05_01.jpg"/>
+          <media
+            alt="A scatter plot with red data points and a blue trendline showing a slight positive correlation between the variables on the x-axis (0 to 300) and y-axis (0 to 25).">
+            <image mime-type="image/jpeg" src="../../media/Algebra-1_03_05_05_01.jpg" />
           </media>
 
         </para>
-        <para id="para-00083">A lion’s gestation time is 100 days, and its longevity is 15 years. What does this
-          line of best fit predict the lion’s longevity to be?</para>
+        <para id="para-00083">A lion’s gestation time is 100 days, and its longevity is 15 years.
+          What does this line of best fit predict the lion’s longevity to be?</para>
         <para id="para-00084">
           <emphasis>Solution</emphasis>
         </para>
-        <para id="para-00085">The line of best fit is <m:math display="inline"><m:mrow><m:mi>𝑦</m:mi><m:mo>=</m:mo><m:mn>9.875</m:mn><m:mo>+</m:mo><m:mn>0.02039</m:mn><m:mo stretchy="false">(</m:mo><m:mn>100</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>11.9</m:mn></m:mrow></m:math></para>
-        <para id="para-00086">The residual would be: actual value – estimated value or <m:math display="inline"><m:mrow><m:mn>15</m:mn><m:mi>−</m:mi><m:mn>11.9</m:mn><m:mo>=</m:mo><m:mn>3.1</m:mn></m:mrow></m:math>.</para>
+        <para id="para-00085">The line of best fit is <m:math display="inline">
+            <m:mrow>
+              <m:mi>𝑦</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>9.875</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>0.02039</m:mn>
+              <m:mo stretchy="false">(</m:mo>
+              <m:mn>100</m:mn>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mo>=</m:mo>
+              <m:mn>11.9</m:mn>
+            </m:mrow>
+          </m:math></para>
+        <para id="para-00086">The residual would be: actual value – estimated value or <m:math
+            display="inline">
+            <m:mrow>
+              <m:mn>15</m:mn>
+              <m:mi>−</m:mi>
+              <m:mn>11.9</m:mn>
+              <m:mo>=</m:mo>
+              <m:mn>3.1</m:mn>
+            </m:mrow>
+          </m:math>.</para>
         <para id="para-00087">The residual value is 3.1.</para>
 
 
-       <note class="try" id="note-00002">
-        <title>Try It: Finding Residuals</title>
-        <para id="para-00088">In the table above, a dog has a gestation time of 61 days and a longevity of 12 years.</para>
+        <note class="try" id="note-00002">
+          <title>Try It: Finding Residuals</title>
+        <para id="para-00088">In the table above, a dog
+          has a gestation time of 61 days and a longevity of 12 years.</para>
 
-        <exercise id="exer-00012">
-          <problem id="prob-00012">
-            <para id="para-00089">Using the same equation, <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>9.875</m:mn><m:mo>+</m:mo><m:mn>0.02039</m:mn><m:mi>x</m:mi></m:mrow></m:math>, what would the residual value
-              be?</para>
-            <para id="para-00090"> </para>
-          </problem>
-          <solution id="sol-00012">
-            <para id="para-00091">Compare your answer: </para>
-            <para id="para-00092">Substitute <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>61</m:mn></m:mrow></m:math> into the equation, <m:math display="inline"><m:mrow><m:mi>𝑦</m:mi><m:mo>=</m:mo><m:mn>9.875</m:mn><m:mo>+</m:mo><m:mn>0.02039</m:mn><m:mo stretchy="false">(</m:mo><m:mn>61</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>11.1</m:mn></m:mrow></m:math>.</para>
-            <para id="para-00093">So, the residual is the (actual value – estimated value):</para>
-            <para id="para-00094"><m:math display="inline"><m:mrow><m:mn>12</m:mn><m:mi>−</m:mi><m:mn>11.1</m:mn><m:mo>=</m:mo><m:mn>0.9</m:mn></m:mrow></m:math></para></solution>
-        </exercise>
+        <exercise
+            id="exer-00012">
+            <problem id="prob-00012">
+              <para id="para-00089">Using the same equation, <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>9.875</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>0.02039</m:mn>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math>, what would
+          the residual value be?</para>
+              <para id="para-00090"> </para>
+            </problem>
+            <solution id="sol-00012">
+              <para id="para-00091">Compare your answer: </para>
+              <para id="para-00092">Substitute <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>61</m:mn>
+                  </m:mrow>
+                </m:math> into the
+          equation, <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>𝑦</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>9.875</m:mn>
+                    <m:mo>+</m:mo>
+                    <m:mn>0.02039</m:mn>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>61</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:mn>11.1</m:mn>
+                  </m:mrow>
+                </m:math>.</para>
+              <para id="para-00093">So, the residual is the (actual value – estimated value):</para>
+              <para id="para-00094"><m:math display="inline">
+                  <m:mrow>
+                    <m:mn>12</m:mn>
+                    <m:mi>−</m:mi>
+                    <m:mn>11.1</m:mn>
+                    <m:mo>=</m:mo>
+                    <m:mn>0.9</m:mn>
+                  </m:mrow>
+                </m:math></para>
+            </solution>
+          </exercise>
         </note>
       </section>
     </section>
