@@ -6,15 +6,20 @@
     <md:uuid>faec7853-772f-4402-bfa5-0e513fe54412</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Activity</title>
       <para id="para-00001">Use the following information to answer 1 - 3.</para>
-      <para id="para-00002">A dining hall had a total of 25 tables: some long rectangular tables and some round
-        ones. Long tables can seat 8 people. Round tables can seat 6 people. On a busy evening, all
-        190 seats at the tables are occupied.</para>
+      <para id="para-00002">A dining hall had a total of 25 tables: some long rectangular tables and
+        some round ones. Long tables can seat 8 people. Round tables can seat 6 people. On a busy
+        evening, all 190 seats at the tables are occupied.</para>
 
       <exercise id="_9c791505-e60c-44eb-973f-f57d4b73282f" class="multiple-choice">
         <problem id="prob-00001">
-          <para id="para-00003">How many long tables <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> are there?</para>
+          <para id="para-00003">How many long tables <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> are there?</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00004">20 long tables</para>
@@ -22,7 +27,11 @@
       </exercise>
       <exercise id="_5fa93333-4840-443d-bc50-6a8ef54eed8b" class="multiple-choice">
         <problem id="prob-00002">
-          <para id="para-00006">How many round tables, <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, are there?</para>
+          <para id="para-00006">How many round tables, <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math>, are there?</para>
         </problem>
         <solution id="sol-00002">
           <para id="para-00007">5 round tables.</para>
@@ -32,16 +41,88 @@
       <!--Q3-->
       <exercise id="exer-00001">
         <problem id="prob-00003">
-          <para id="para-00009">Explain or show how you know how many different size tables there are.</para>
+          <para id="para-00009">Explain or show how you know how many different size tables there
+            are.</para>
         </problem>
         <solution id="sol-00003">
 
 
           <para id="para-00010">Compare your answer: </para>
 
-          <para id="para-00011">Your answer may vary, but here is a sample. <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>190</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>25</m:mn></m:mrow></m:math> can
-            be rewritten as <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>25</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:math>. Substituting <m:math display="inline"><m:mrow><m:mn>25</m:mn><m:mo>−</m:mo><m:mi>x</m:mi></m:mrow></m:math> for <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> in <m:math display="inline"><m:mrow><m:mn>8</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>190</m:mn></m:mrow></m:math> gives
-            <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>20</m:mn></m:mrow></m:math>. If <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> is 20, then <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> is 5.</para>
+          <para id="para-00011">Your answer may vary, but here is a sample.</para>
+          <para id="para-00005"><m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>25</m:mn>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mn>8</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>6</m:mn>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>190</m:mn>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>25</m:mn>
+              </m:mrow>
+            </m:math> can be rewritten as <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>25</m:mn>
+                <m:mo>−</m:mo>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>.</para>
+            <para id="para-00008">Substituting <m:math display="inline">
+              <m:mrow>
+                <m:mn>25</m:mn>
+                <m:mo>−</m:mo>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> for <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math> in <m:math display="inline">
+              <m:mrow>
+                <m:mn>8</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>6</m:mn>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>190</m:mn>
+              </m:mrow>
+            </m:math> gives <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>20</m:mn>
+              </m:mrow>
+            </m:math>.</para>
+            <para id="para-00016">If <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> is 20, then <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math> is 5.</para>
 
         </solution>
       </exercise>
@@ -49,12 +130,17 @@
       End -->
 
       <para id="para-00012">Use the following information to answer 4 - 6.</para>
-      <para id="para-00013">A family bought a total of 16 adult and child tickets to a magic show. Adult tickets are
-        $10.50 each, and child tickets are $7.50 each. The family paid a total of $141.</para>
+      <para id="para-00013">A family bought a total of 16 adult and child tickets to a magic show.
+        Adult tickets are $10.50 each, and child tickets are $7.50 each. The family paid a total of
+        $141.</para>
 
       <exercise id="cc2d4d6a-4a36-4788-9fc7-3971141afe95" class="multiple-choice">
         <problem id="prob-00004">
-          <para id="para-00014">How many adult tickets, <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> did they buy?</para>
+          <para id="para-00014">How many adult tickets, <m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+              </m:mrow>
+            </m:math> did they buy?</para>
         </problem>
         <solution id="sol-00004">
           <para id="para-00015">7 adult tickets</para>
@@ -62,7 +148,11 @@
       </exercise>
       <exercise id="_1dd8b612-92ac-4aa7-91a0-4742c2f64e91" class="multiple-choice">
         <problem id="prob-00005">
-          <para id="para-00017">How many child tickets, <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math> did they buy?</para>
+          <para id="para-00017">How many child tickets, <m:math display="inline">
+              <m:mrow>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:math> did they buy?</para>
         </problem>
         <solution id="sol-00005">
           <para id="para-00018">9 child tickets.</para>
@@ -76,21 +166,54 @@
         <solution id="sol-00006">
           <para id="para-00021">Compare your answer: </para>
 
-          <para id="para-00022">Your answer may vary, but here is a sample. <m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>16</m:mn></m:mrow></m:math> <m:math display="inline"><m:mrow><m:mn>10.50</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>7.50</m:mn><m:mi>c</m:mi><m:mo>=</m:mo><m:mn>141</m:mn></m:mrow></m:math> When the
-            equations are graphed, the intersection of the two lines is at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+          <para id="para-00022">Your answer may vary, but here is a sample.</para>
+          <para id="para-00019"><m:math display="inline">
+              <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>c</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>16</m:mn>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mn>10.50</m:mn>
+                <m:mi>a</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>7.50</m:mn>
+                <m:mi>c</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>141</m:mn>
+              </m:mrow>
+            </m:math></para>
+            <para id="para-00027">When the equations are
+            graphed, the intersection of the two lines is at <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>7</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>9</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
       <!--Interaction
       End -->
 
       <para id="para-00023">Use the following information to answer 7 - 9</para>
-      <para id="para-00024">At a poster shop, Han paid $16.80 for 2 large posters and 3 small posters of his
-        favorite band. Kiran paid $14.15 for 1 large poster and 4 small posters of his favorite TV
-        shows. Posters of the same size have the same price.</para>
+      <para id="para-00024">At a poster shop, Han paid $16.80 for 2 large posters and 3 small
+        posters of his favorite band. Kiran paid $14.15 for 1 large poster and 4 small posters of
+        his favorite TV shows. Posters of the same size have the same price.</para>
 
       <exercise id="_4714c583-5139-44ca-894f-0c09224a2ae9" class="multiple-choice">
         <problem id="prob-00007">
-          <para id="para-00025">Find the price of a large poster, <m:math display="inline"><m:mrow><m:mi>l</m:mi></m:mrow></m:math>.</para>
+          <para id="para-00025">Find the price of a large poster, <m:math display="inline">
+              <m:mrow>
+                <m:mi>l</m:mi>
+              </m:mrow>
+            </m:math>.</para>
         </problem>
         <solution id="sol-00007">
           <para id="para-00026">$4.95 for a large poster.</para>
@@ -98,7 +221,11 @@
       </exercise>
       <exercise id="_6332fd04-018c-42ef-a40b-82ea1f16e951" class="multiple-choice">
         <problem id="prob-00008">
-          <para id="para-00028">Find the price of a small poster, <m:math display="inline"><m:mrow><m:mi>s</m:mi></m:mrow></m:math>.</para>
+          <para id="para-00028">Find the price of a small poster, <m:math display="inline">
+              <m:mrow>
+                <m:mi>s</m:mi>
+              </m:mrow>
+            </m:math>.</para>
         </problem>
         <solution id="sol-00008">
           <para id="para-00029">$2.30 for a small poster.</para>
@@ -116,8 +243,35 @@
 
           <para id="para-00034">When the equations</para>
 
-          <para id="para-00035"><m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>ℓ</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>16.80</m:mn></m:mrow></m:math> and <m:math display="inline"><m:mrow><m:mi>ℓ</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>s</m:mi><m:mo>=</m:mo><m:mn>14.15</m:mn></m:mrow></m:math> are graphed, the intersection of
-            the two lines is at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4.95</m:mn><m:mo>,</m:mo><m:mn>2.30</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+          <para id="para-00035"><m:math display="inline">
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>ℓ</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>s</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>16.80</m:mn>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>ℓ</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>s</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>14.15</m:mn>
+              </m:mrow>
+            </m:math> are graphed, the
+            intersection of the two lines is at <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>4.95</m:mn>
+                <m:mo>,</m:mo>
+                <m:mn>2.30</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
       <!--Interaction
@@ -135,18 +289,39 @@
 
     <section id="sect-00003">
       <title>Are you ready for more?</title>
-      <section class="numbered-exercises" id="sect-00004"><title>Extending Your Thinking</title>
+      <section class="numbered-exercises" id="sect-00004">
+        <title>Extending Your Thinking</title>
         <!--Q1-->
         <exercise class="RFM1" id="exer-00004">
           <problem id="prob-00010">
-            <para id="para-00037">Make up an equation for <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> whose two lines that intersect at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+            <para id="para-00037">Make up an equation for <m:math display="inline">
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:math> whose two lines
+              that intersect at <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>.</para>
           </problem>
           <solution id="sol-00010">
 
 
             <para id="para-00038">Compare your answer: </para>
 
-            <para id="para-00039"><m:math><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>4</m:mn></m:mrow></m:math></para></solution>
+            <para id="para-00039"><m:math>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:math></para>
+          </solution>
         </exercise>
         <!--End
       interaction-->
@@ -154,14 +329,34 @@
         <!--Q2-->
         <exercise class="RFM1" id="exer-00005">
           <problem id="prob-00011">
-            <para id="para-00040">Make up an equation for <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> whose two lines that intersect at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+            <para id="para-00040">Make up an equation for <m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                </m:mrow>
+              </m:math> whose two lines
+              that intersect at <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>.</para>
           </problem>
           <solution id="sol-00011">
 
 
             <para id="para-00041">Compare your answer: </para>
 
-            <para id="para-00042"><m:math><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>1</m:mn></m:mrow></m:math></para></solution>
+            <para id="para-00042"><m:math>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:math></para>
+          </solution>
         </exercise>
         <!--End
       interaction-->
@@ -169,15 +364,71 @@
         <!--Q3-->
         <exercise class="RFM1" id="exer-00006">
           <problem id="prob-00012">
-            <para id="para-00043">Make up equations for three lines whose intersection points form a triangle with vertices at <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>−</m:mi><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> ,<m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>9</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, and <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mo>,</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>.</para>
+            <para id="para-00043">Make up equations for three lines whose intersection points form a
+              triangle with vertices at <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>−</m:mi>
+                  <m:mn>4</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math> ,<m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>9</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>,
+              and <m:math display="inline">
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:math>.</para>
           </problem>
           <solution id="sol-00012">
 
 
             <para id="para-00044">Compare your answer: </para>
-    
-    <para id="para-00045">Your answer may vary, but here is a sample.</para>
-            <para id="para-00046"><m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>32</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>6</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mi>−</m:mi><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>12</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>2</m:mn></m:mrow></m:math></para><para id="para-00066"></para></solution>
+
+            <para id="para-00045">Your answer may vary, but here is a sample.</para>
+            <para id="para-00046"><m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>32</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>6</m:mn>
+                </m:mrow>
+              </m:math>, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mi>−</m:mi>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>11</m:mn>
+                </m:mrow>
+              </m:math>, <m:math display="inline">
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>12</m:mn>
+                  <m:mi>x</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:math></para>
+            <para id="para-00066"/>
+          </solution>
         </exercise>
         <!--End
       interaction-->
@@ -191,9 +442,16 @@
           <item>Each shock weighs 7 pounds.</item>
           <item>Each brake pad weighs 4 pounds.</item>
         </list>
-        <para id="para-00048">The store shipped 20
-        parts weighing a total of 104 pounds. How many shocks, <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, and brake pads, <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, did the
-        mechanic buy?</para>
+        <para id="para-00048">The store
+        shipped 20 parts weighing a total of 104 pounds. How many shocks, <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>, and brake pads, <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>, did the mechanic buy?</para>
       </note>
     </section>
 
@@ -202,48 +460,85 @@
 
       <section id="sect-00007">
         <title>Meeting Constraints in a Real-World Situation</title>
-        <para id="para-00049">Let’s look at a situation similar to the activity and discuss how to find values that
-          meet the constraints given.</para>
+        <para id="para-00049">Let’s look at a situation similar to the activity and discuss how to
+          find values that meet the constraints given.</para>
         <para id="para-00050">THEATER SEATS</para>
-        
-          <media alt="Auditorium seating chart with color-coded rows. Some rows are orange, indicating different seat types, while other rows are navy blue. &quot;Screen&quot; at the top.">
-            <image mime-type="image/png" src="../../media/Algebra-1_02_03_08_01.png"/>
-          </media>
-        
-        <para id="para-00051">A movie theater sells two types of tickets for a movie showing. Stadium recliner seats
-          cost $18 each, and regular seats cost $15 each. The theater has a total of 40 seats. When
-          every seat is sold, the theater earns $648 in ticket sales. How many stadium recliner
-          seats, <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, and how many regular seats, <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>, are there?</para>
-        <para id="para-00052">To solve this problem, we first need to recognize that there are two constraints in
-          this situation. The constraints are the total number of seats in the theater and the total
-          money earned from sales. Let’s write an equation to represent each constraint.</para>
+
+        <media alt="Auditorium seating chart with color-coded rows. Some rows are orange, indicating different seat types, while other rows are navy blue. &quot;Screen&quot; at the top.">
+          <image mime-type="image/png" src="../../media/Algebra-1_02_03_08_01.png"/>
+        </media>
+
+        <para id="para-00051">A movie theater sells two types of tickets for a movie showing.
+          Stadium recliner seats cost $18 each, and regular seats cost $15 each. The theater has a
+          total of 40 seats. When every seat is sold, the theater earns $648 in ticket sales. How
+          many stadium recliner seats, <m:math display="inline">
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:math>, and how many regular seats, <m:math display="inline">
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:math>, are there?</para>
+        <para id="para-00052">To solve this problem, we first need to recognize that there are two
+          constraints in this situation. The constraints are the total number of seats in the
+          theater and the total money earned from sales. Let’s write an equation to represent each
+          constraint.</para>
         <para id="para-00053"><emphasis>Constraint #1:</emphasis> the total number of seats</para>
         <para id="para-00054">
-          <quote id="quote-00001">There are <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> stadium recliner seats and <m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math> regular seats representing a total
-          of 40 seats.</quote>
-          <quote id="quote-00002">This is represented by the equation <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>40</m:mn></m:mrow></m:math>.</quote>
-       </para>
+          <quote id="quote-00001">There are <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> stadium recliner seats
+          and <m:math display="inline">
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:math> regular seats
+          representing a total of 40 seats.</quote>
+          <quote id="quote-00002">This is represented by
+          the equation <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>y</m:mi>
+                <m:mo>=</m:mo>
+                <m:mn>40</m:mn>
+              </m:mrow>
+            </m:math>.</quote>
+        </para>
         <para id="para-00055"><emphasis>Constraint #2:</emphasis> the total sales from the seats</para>
-          <quote id="quote-00003">Stadium recliner seats cost $18 and regular seats cost $15, for a total of $648.</quote>
-          <quote id="quote-00004">This
-          is represented by the equation <m:math display="inline"><m:mrow><m:mn>18</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>15</m:mn><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>648</m:mn></m:mrow></m:math>.</quote>
-        <para id="para-00057">There are many ways to solve these equations: graphing and algebraic solving, guessing
-          and checking, or using tables.</para>
-        
-          <note class="try" id="note-00002">
-        <title>Meeting Constraints in a Real-World Situation</title>
+        <quote id="quote-00003">Stadium recliner seats cost $18 and regular seats cost $15, for a
+          total of $648.</quote>
+        <quote id="quote-00004">This is represented by the equation <m:math display="inline">
+            <m:mrow>
+              <m:mn>18</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>15</m:mn>
+              <m:mi>y</m:mi>
+              <m:mo>=</m:mo>
+              <m:mn>648</m:mn>
+            </m:mrow>
+          </m:math>.</quote>
+        <para id="para-00057">There are many ways to solve these equations: graphing and algebraic
+          solving, guessing and checking, or using tables.</para>
+
+        <note class="try" id="note-00002">
+          <title>Meeting Constraints in a Real-World Situation</title>
 
           <exercise id="exer-00007">
             <problem id="prob-00013">
-              <para id="para-00058">Let’s try creating a table. We know the total number of seats must equal 40. So
-                we can try different values of seat types to determine if they match the total sales
-                constraint, $648.</para>
-              <para id="para-00059">If the total sales value is too low, try more stadium recliner seats, since they
-                are more expensive.</para>
+              <para id="para-00058">Let’s try creating a table. We know the total number of seats
+          must equal 40. So we can try different values of seat types to determine if they match the
+          total sales constraint, $648.</para>
+              <para id="para-00059">If the total sales value is too low, try more stadium recliner
+          seats, since they are more expensive.</para>
 
               <table class="unnumbered os-raise-wideequaltable unnumbered" id="table-00001">
                 <tgroup cols="4">
-<tbody>
+                  <tbody>
                     <row>
                       <entry>
                         <emphasis> Number of Stadium Recliner Seats</emphasis>
@@ -286,13 +581,13 @@
                 </tgroup>
               </table>
 
-              <para id="para-00060"></para>
+              <para id="para-00060"/>
             </problem>
             <solution id="sol-00013">
               <para id="para-00061">Here is how to fill in the table: </para>
               <table class="unnumbered os-raise-wideequaltable unnumbered" id="table-00002">
                 <tgroup cols="4">
-<tbody>
+                  <tbody>
                     <row>
                       <entry>
                         <emphasis> Number of Stadium Recliner Seats</emphasis>
@@ -335,14 +630,14 @@
                 </tgroup>
               </table>
 
-                <para id="para-00062">We can see that 16 stadium recliner seats and 24 regular seats represents a
-                total of 40 seats and is $648 in total sales.</para>
-                <para id="para-00063">This means the theater has
-                16 stadium recliner seats and 24 regular seats.</para>
-                <para id="para-00064">How did you do? Know
-                that you learn more from wrong answers than from right answers! Wrong answers help
-                us find flaws in our thinking. Take a minute to think about why you got the question
-                wrong. Then you won’t get this type of question wrong again!</para>
+              <para id="para-00062">We can see that 16 stadium recliner seats and 24 regular seats
+          represents a total of 40 seats and is $648 in total sales.</para>
+              <para id="para-00063">This means the theater has 16 stadium recliner seats and 24
+          regular seats.</para>
+              <para id="para-00064">How did you do? Know that you learn more from wrong answers than
+          from right answers! Wrong answers help us find flaws in our thinking. Take a minute to
+          think about why you got the question wrong. Then you won’t get this type of question wrong
+          again!</para>
             </solution>
           </exercise>
         </note>

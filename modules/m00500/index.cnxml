@@ -6,30 +6,130 @@
     <md:uuid>ca53960f-bb99-4838-bd4c-ba2f07489414</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">An elevator car in a skyscraper can hold at most 15 people. For safety reasons, each car
-        can carry a maximum of 1,500 kg. On average, an adult weighs 70 kg and a child weighs 35 kg.
-        Assume that each person carries 4 kg of gear with them.</para>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Activity</title>
+      <para id="para-00001">An elevator car in a skyscraper can hold at most 15 people. For safety
+        reasons, each car can carry a maximum of 1,500 kg. On average, an adult weighs 70 kg and a
+        child weighs 35 kg. Assume that each person carries 4 kg of gear with them.</para>
       <!--Text
       Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00002">Write as many equations and inequalities as you can think of to represent the
-            constraints in this situation. Be sure to specify the meaning of any letters that you
-            use. (Avoid using the letters <m:math display="inline"><m:mrow><m:mi>z</m:mi></m:mrow></m:math>, <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math>, or <m:math display="inline"><m:mrow><m:mi>g</m:mi></m:mrow></m:math>.)</para>
+          <para id="para-00002">Write as many equations and inequalities as you can think of to
+            represent the constraints in this situation. Be sure to specify the meaning of any
+            letters that you use. (Avoid using the letters <m:math display="inline">
+              <m:mrow>
+                <m:mi>z</m:mi>
+              </m:mrow>
+            </m:math>, <m:math display="inline">
+              <m:mrow>
+                <m:mi>m</m:mi>
+              </m:mrow>
+            </m:math>, or <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+              </m:mrow>
+            </m:math>.)</para>
         </problem>
         <solution id="sol-00001">
-          <para id="para-00003">Compare your answer: Your answer may vary, but here are some samples:</para>
+          <para id="para-00003">Compare your answer: Your answer may vary, but here are some
+            samples:</para>
 
           <list id="list-00001">
-            <item><m:math display="inline"><m:mrow><m:mi>p</m:mi><m:mi>≤</m:mi><m:mn>15</m:mn></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> represents the number of people in an elevator car.</item>
-            <item><m:math display="inline"><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mi>≤</m:mi><m:mn>15</m:mn></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>a</m:mi></m:mrow></m:math> represents the number of adults and <m:math display="inline"><m:mrow><m:mi>c</m:mi></m:mrow></m:math>
-              represents the number of children in an elevator car.</item>
-            <item><m:math display="inline"><m:mrow><m:mi>w</m:mi><m:mi>≤</m:mi><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>500</m:mn></m:mrow></m:math>, where <m:math display="inline"><m:mrow><m:mi>w</m:mi></m:mrow></m:math> represents the weight in kilograms in one elevator
-              car.</item>
-            <item><m:math><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>70</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>35</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>c</m:mi></m:mrow></m:math></item>
-            <item><m:math><m:mrow><m:mn>70</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>35</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>4</m:mn><m:mi>c</m:mi><m:mi>≤</m:mi><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>500</m:mn></m:mrow></m:math></item>
-            <item><m:math><m:mrow><m:mn>74</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>39</m:mn><m:mi>c</m:mi><m:mi>≤</m:mi><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>500</m:mn></m:mrow></m:math></item>
+            <item><m:math display="inline">
+                <m:mrow>
+                  <m:mi>p</m:mi>
+                  <m:mi>≤</m:mi>
+                  <m:mn>15</m:mn>
+                </m:mrow>
+              </m:math>, where <m:math display="inline">
+                <m:mrow>
+                  <m:mi>p</m:mi>
+                </m:mrow>
+              </m:math> represents the
+              number of people in an elevator car.</item>
+            <item><m:math display="inline">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>c</m:mi>
+                  <m:mi>≤</m:mi>
+                  <m:mn>15</m:mn>
+                </m:mrow>
+              </m:math>, where <m:math display="inline">
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                </m:mrow>
+              </m:math> represents the
+              number of adults and <m:math display="inline">
+                <m:mrow>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math> represents the
+              number of children in an elevator car.</item>
+            <item><m:math display="inline">
+                <m:mrow>
+                  <m:mi>w</m:mi>
+                  <m:mi>≤</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>500</m:mn>
+                </m:mrow>
+              </m:math>, where <m:math display="inline">
+                <m:mrow>
+                  <m:mi>w</m:mi>
+                </m:mrow>
+              </m:math> represents the
+              weight in kilograms in one elevator car.</item>
+            <item><m:math>
+                <m:mrow>
+                  <m:mi>w</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>70</m:mn>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>35</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math></item>
+            <item><m:math>
+                <m:mrow>
+                  <m:mn>70</m:mn>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>35</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mi>≤</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>500</m:mn>
+                </m:mrow>
+              </m:math></item>
+            <item><m:math>
+                <m:mrow>
+                  <m:mn>74</m:mn>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>39</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mi>≤</m:mi>
+                  <m:mn>1</m:mn>
+                  <m:mo>,</m:mo>
+                  <m:mn>500</m:mn>
+                </m:mrow>
+              </m:math></item>
           </list>
 
         </solution>
@@ -40,15 +140,16 @@
       <!--Q#2-->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00004">After you have finished the following tasks, explain the adjustments you made to the
-            equations and inequalities so that they are communicated more clearly.</para>
-          <para id="para-00005">Trade your work with a partner and read each other’s equations and inequalities.</para>
-        <list id="list-00002">
-          <item>Explain to your partner what you think their statements mean, and listen to their
-            explanation of yours.</item>
-          <item>Make adjustments to your equations and inequalities so that they are communicated
-            more clearly.</item>
-        </list>
+          <para id="para-00004">After you have finished the following tasks, explain the adjustments
+            you made to the equations and inequalities so that they are communicated more clearly.</para>
+          <para id="para-00005">Trade your work with a partner and read each other’s equations and
+            inequalities.</para>
+          <list id="list-00002">
+            <item>Explain to your partner what you think their statements mean, and listen to their
+              explanation of yours.</item>
+            <item>Make adjustments to your equations and inequalities so that they are communicated
+              more clearly.</item>
+          </list>
         </problem>
         <solution id="sol-00002">
           <para id="para-00006">Compare your answer: </para>
@@ -64,34 +165,117 @@
       Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00008">Rewrite your equations and inequalities so that they would work for a different
-            building where:</para>
-      <list id="list-00003">
-          <item>an elevator car can hold at most <m:math display="inline"><m:mrow><m:mi>z</m:mi></m:mrow></m:math> people</item>
-          <item>each car can carry a maximum of <m:math display="inline"><m:mrow><m:mi>m</m:mi></m:mrow></m:math> kilograms</item>
-          <item>each person carries <m:math display="inline"><m:mrow><m:mi>d</m:mi></m:mrow></m:math> kg of gear</item>
-        </list>
+          <para id="para-00008">Rewrite your equations and inequalities so that they would work for
+            a different building where:</para>
+          <list id="list-00003">
+            <item>an elevator car can hold at most <m:math display="inline">
+                <m:mrow>
+                  <m:mi>z</m:mi>
+                </m:mrow>
+              </m:math> people</item>
+            <item>each car can carry a maximum of <m:math display="inline">
+                <m:mrow>
+                  <m:mi>m</m:mi>
+                </m:mrow>
+              </m:math> kilograms</item>
+            <item>each person carries <m:math display="inline">
+                <m:mrow>
+                  <m:mi>d</m:mi>
+                </m:mrow>
+              </m:math> kg of gear</item>
+          </list>
         </problem>
         <solution id="sol-00003">
-          <para id="para-00009">Compare your answer: Your answer may vary, but here are some samples.</para>
+          <para id="para-00009">Compare your answer: Your answer may vary, but here are some
+            samples.</para>
 
           <list id="list-00004">
-            <item><m:math><m:mrow><m:mi>p</m:mi><m:mi>≤</m:mi><m:mi>z</m:mi></m:mrow></m:math></item>
-            <item><m:math><m:mrow><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>c</m:mi><m:mi>≤</m:mi><m:mi>z</m:mi></m:mrow></m:math></item>
-            <item><m:math><m:mrow><m:mi>w</m:mi><m:mi>≤</m:mi><m:mi>m</m:mi></m:mrow></m:math></item>
-            <item><m:math><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mn>70</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>35</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>c</m:mi></m:mrow></m:math></item>
-            <item><m:math><m:mrow><m:mn>70</m:mn><m:mi>a</m:mi><m:mo>+</m:mo><m:mn>35</m:mn><m:mi>c</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>a</m:mi><m:mo>+</m:mo><m:mi>d</m:mi><m:mi>c</m:mi><m:mi>≤</m:mi><m:mi>m</m:mi></m:mrow></m:math></item>
-            <item><m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>70</m:mn><m:mo>+</m:mo><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo><m:mi>a</m:mi><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>35</m:mn><m:mo>+</m:mo><m:mi>d</m:mi><m:mo stretchy="false">)</m:mo><m:mi>c</m:mi><m:mi>≤</m:mi><m:mi>m</m:mi></m:mrow></m:math></item>
+            <item><m:math>
+                <m:mrow>
+                  <m:mi>p</m:mi>
+                  <m:mi>≤</m:mi>
+                  <m:mi>z</m:mi>
+                </m:mrow>
+              </m:math></item>
+            <item><m:math>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>c</m:mi>
+                  <m:mi>≤</m:mi>
+                  <m:mi>z</m:mi>
+                </m:mrow>
+              </m:math></item>
+            <item><m:math>
+                <m:mrow>
+                  <m:mi>w</m:mi>
+                  <m:mi>≤</m:mi>
+                  <m:mi>m</m:mi>
+                </m:mrow>
+              </m:math></item>
+            <item><m:math>
+                <m:mrow>
+                  <m:mi>w</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>70</m:mn>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>35</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:math></item>
+            <item><m:math>
+                <m:mrow>
+                  <m:mn>70</m:mn>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>35</m:mn>
+                  <m:mi>c</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mi>c</m:mi>
+                  <m:mi>≤</m:mi>
+                  <m:mi>m</m:mi>
+                </m:mrow>
+              </m:math></item>
+            <item><m:math>
+                <m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>70</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>a</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>35</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>d</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>c</m:mi>
+                  <m:mi>≤</m:mi>
+                  <m:mi>m</m:mi>
+                </m:mrow>
+              </m:math></item>
           </list>
         </solution>
       </exercise>
     </section>
-      <!--Interaction
+    <!--Interaction
       End -->
-<section id="sect-00002">
+    <section id="sect-00002">
       <title>Video: Writing Inequalities to Represent Constraints Solution </title>
-      <para id="para-00010">Watch the following video to further explain the solution to the activity you just
-        completed.</para>
+      <para id="para-00010">Watch the following video to further explain the solution to the
+        activity you just completed.</para>
 
       <media alt="Placeholder for Alt Text">
         <iframe width="660" height="371.4" src="https://openstax.org/r/constraints-inequalities"/>
@@ -101,9 +285,39 @@
 
     <section id="sect-00003">
       <note class="self-check" id="note-00001">
-        <para id="para-00011">Serena is running a juice shop. Oranges cost $2 per pound.
-        She can spend at most $64 per day on oranges. If <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math> represents the number of pounds of
-        oranges Serena can buy per day, which of the following inequalities is true?</para>
+        <para id="para-00011">Serena is running a juice shop. Oranges cost $2 per pound. She can
+        spend at most $64 per day on oranges. If <m:math display="inline">
+            <m:mrow>
+              <m:mi>p</m:mi>
+            </m:mrow>
+          </m:math> represents the number of pounds
+        of oranges Serena can buy per day, which of the following inequalities is true?<newline/></para>
+        <para id="para-00029">
+          <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn><m:mi>p</m:mi><m:mo>≥</m:mo><m:mn>64</m:mn>
+          </m:mrow>
+        </m:math><newline/>
+
+        <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn><m:mi>p</m:mi><m:mo>≤</m:mo><m:mn>64</m:mn>
+          </m:mrow>
+        </m:math><newline/>
+
+                <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn><m:mi>p</m:mi><m:mo>></m:mo><m:mn>64</m:mn>
+          </m:mrow>
+        </m:math><newline/>
+
+                <m:math display="inline">
+            <m:mrow>
+              <m:mn>2</m:mn><m:mi>p</m:mi><m:mo>&lt;</m:mo><m:mn>64</m:mn>
+          </m:mrow>
+        </m:math><newline/>
+        </para>
+
       </note>
     </section>
 
@@ -111,60 +325,100 @@
       <title>Additional Resources</title>
       <section id="sect-00005">
         <title>Applications with Linear Inequalities</title>
-        <para id="para-00012">Many real-life situations require us to solve inequalities. The method we will use to
-          solve applications with linear inequalities is very much like the one we used when we
-          solved applications with equations.</para>
-        <para id="para-00013">We will read the problem and make sure all the words are understood. Next, we will
-          identify what we are looking for and assign a variable to represent it. We will restate
-          the problem in one sentence to make it easy to translate into an inequality.</para>
+        <para id="para-00012">Many real-life situations require us to solve inequalities. The method
+          we will use to solve applications with linear inequalities is very much like the one we
+          used when we solved applications with equations.</para>
+        <para id="para-00013">We will read the problem and make sure all the words are understood.
+          Next, we will identify what we are looking for and assign a variable to represent it. We
+          will restate the problem in one sentence to make it easy to translate into an inequality.</para>
         <para id="para-00014"><emphasis>Example </emphasis></para>
-        <para id="para-00015">Dawn won a mini-grant of $4,000 to buy tablet computers for her classroom. The tablets
-          she would like to buy cost $254.12 each, including tax and delivery. Write an inequality
-          to represent the maximum number of tablets Dawn can buy.</para>
+        <para id="para-00015">Dawn won a mini-grant of $4,000 to buy tablet computers for her
+          classroom. The tablets she would like to buy cost $254.12 each, including tax and
+          delivery. Write an inequality to represent the maximum number of tablets Dawn can buy.</para>
         <para id="para-00016"><emphasis>Solution</emphasis></para>
         <para id="para-00017"><emphasis>Step 1</emphasis> - Read the problem.</para>
-        <para id="para-00018"><emphasis>Step 2</emphasis> - Identify what you are looking for. the maximum number of
-          tablets Dawn can buy</para>
+        <para id="para-00018"><emphasis>Step 2</emphasis> - Identify what you are looking for. the
+          maximum number of tablets Dawn can buy</para>
         <para id="para-00019"><emphasis>Step 3</emphasis> - Name what you are looking for.</para>
-        <para id="para-00020">Choose a variable to represent that quantity. Let <m:math display="inline"><m:mrow><m:mi>n</m:mi><m:mo>=</m:mo></m:mrow></m:math> the number of tablets.</para>
-        <para id="para-00021"><emphasis>Step 4</emphasis> - Translate. Write a sentence that gives the information
-          to find it.</para>
-        <para id="para-00022">$254.12 times the number of tablets is no more than $4,000. Translate into an
-          inequality. <m:math display="inline"><m:mrow><m:mn>254.12</m:mn><m:mi>n</m:mi><m:mi>≤</m:mi><m:mn>4000</m:mn></m:mrow></m:math></para>
+        <para id="para-00020">Choose a variable to represent that quantity. Let <m:math display="inline">
+            <m:mrow>
+              <m:mi>n</m:mi>
+              <m:mo>=</m:mo>
+            </m:mrow>
+          </m:math> the number of tablets.</para>
+        <para id="para-00021"><emphasis>Step 4</emphasis> - Translate. Write a sentence that gives
+          the information to find it.</para>
+        <para id="para-00022">$254.12 times the number of tablets is no more than $4,000. Translate
+          into an inequality. <m:math display="inline">
+            <m:mrow>
+              <m:mn>254.12</m:mn>
+              <m:mi>n</m:mi>
+              <m:mi>≤</m:mi>
+              <m:mn>4000</m:mn>
+            </m:mrow>
+          </m:math></para>
 
-        <section class="numbered-exercises" id="sect-00006"><note class="try" id="note-00002">
-        <title>Applications with Linear Inequalities</title>
+        <section class="numbered-exercises" id="sect-00006">
+          <note class="try" id="note-00002">
+            <title>Applications with Linear Inequalities</title>
 
-        <!--Q#-->
+            <!--Q#-->
         <exercise id="exer-00004">
-          <problem id="prob-00004">
-            <para id="para-00023">Angie has $20 to spend on juice boxes for her son’s preschool picnic. Each pack of
-              juice boxes costs $2.63. Write an inequality to represent the maximum number of packs,
-              <m:math display="inline"><m:mrow><m:mi>p</m:mi></m:mrow></m:math>, she can buy.</para>
-          </problem>
-          <solution id="sol-00004">
-            <para id="para-00024">Compare your answer: </para>
+              <problem id="prob-00004">
+                <para id="para-00023">Angie has $20 to spend on juice boxes for her son’s preschool
+            picnic. Each pack of juice boxes costs $2.63. Write an inequality to represent the
+            maximum number of packs, <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>p</m:mi>
+                    </m:mrow>
+                  </m:math>, she
+            can buy.</para>
+              </problem>
+              <solution id="sol-00004">
+                <para id="para-00024">Compare your answer: </para>
 
-            <para id="para-00025"><m:math><m:mrow><m:mn>2.63</m:mn><m:mi>p</m:mi><m:mi>≤</m:mi><m:mn>20</m:mn></m:mrow></m:math></para></solution>
-        </exercise>
-        <!--Interaction
+                <para id="para-00025"><m:math>
+                    <m:mrow>
+                      <m:mn>2.63</m:mn>
+                      <m:mi>p</m:mi>
+                      <m:mi>≤</m:mi>
+                      <m:mn>20</m:mn>
+                    </m:mrow>
+                  </m:math></para>
+              </solution>
+            </exercise>
+            <!--Interaction
         End -->
 
 
-        <!--Q#-->
+            <!--Q#-->
         <exercise id="exer-00005">
-          <problem id="prob-00005">
-            <para id="para-00026">Daniel wants to surprise his girlfriend with a birthday party at her favorite
-              restaurant. It will cost $42.75 per person for dinner, including tip and tax. His
-              budget for the party is $500. Write an inequality to represent the maximum number of
-              people, <m:math display="inline"><m:mrow><m:mi>n</m:mi></m:mrow></m:math>, Daniel can have at the party.</para>
-          </problem>
-          <solution id="sol-00005">
-            <para id="para-00027">Compare your answer: </para>
+              <problem id="prob-00005">
+                <para id="para-00026">Daniel wants to surprise his girlfriend with a birthday party
+            at her favorite restaurant. It will cost $42.75 per person for dinner, including tip and
+            tax. His budget for the party is $500. Write an inequality to represent the maximum
+            number of people, <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:mrow>
+                  </m:math>, Daniel
+            can have at the party.</para>
+              </problem>
+              <solution id="sol-00005">
+                <para id="para-00027">Compare your answer: </para>
 
-            <para id="para-00028"><m:math><m:mrow><m:mn>42.75</m:mn><m:mi>n</m:mi><m:mi>≤</m:mi><m:mn>500</m:mn></m:mrow></m:math></para></solution>
-        </exercise>
-        </note></section>
+                <para id="para-00028"><m:math>
+                    <m:mrow>
+                      <m:mn>42.75</m:mn>
+                      <m:mi>n</m:mi>
+                      <m:mi>≤</m:mi>
+                      <m:mn>500</m:mn>
+                    </m:mrow>
+                  </m:math></para>
+              </solution>
+            </exercise>
+          </note>
+        </section>
         <!--Interaction
         End -->
       </section>
