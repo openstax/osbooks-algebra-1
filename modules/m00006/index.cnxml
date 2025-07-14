@@ -82,7 +82,8 @@
           <title>Creating a Scatter Plot from a Table (Image 1)</title>
           <list list-type="enumerated" id="list-00006">
             <item>On the Desmos graphing calculator, click the + button in the top left corner and add a table.</item>
-            <item>You can copy and paste an existing table in, or enter it manually. On the left side of the table, type the first <emphasis effect="italics">x</emphasis>-coordinate from your reference table. On the right side, type the first <emphasis effect="italics">y</emphasis>-coordinate. This will create a point on your graph.</item>
+            <item>You can copy and paste an existing table in, or enter it manually. On the left side of the table, type the first 
+              <m:math><m:mi>x</m:mi></m:math>-coordinate from your reference table. On the right side, type the first <m:math><m:mi>y</m:mi></m:math>-coordinate. This will create a point on your graph.</item>
             <item>Go to the next line of the table and repeat until all coordinates have been entered. Inputting all the coordinates will create a graph called a scatter plot, pictured above and left.
             <list id="list-00007">
               <item>Tip: If you do not see your point graphed in the Desmos window, you may need to
@@ -96,9 +97,9 @@
           <list list-type="enumerated" id="list-00008">
             <item>To create a line or curve that approximates the data trend, calculate a regression. Depending on the type of data (linear, exponential, or quadratic), the format of the regression equation will differ:
             <list id="list-00009">
-              <item>Linear: <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext> </m:mtext><m:mi>m</m:mi><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></item>
-              <item>Exponential: <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext> </m:mtext><m:mi>a</m:mi><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>b</m:mi></m:mrow></m:math></item>
-              <item>Quadratic: <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext> </m:mtext><m:mi>a</m:mi><m:msubsup><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>b</m:mi><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math></item>
+              <item>Linear: <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext>~</m:mtext><m:mi>m</m:mi><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mi>b</m:mi></m:mrow></m:math></item>
+              <item>Exponential: <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext>~</m:mtext><m:mi>a</m:mi><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>b</m:mi></m:mrow></m:math></item>
+              <item>Quadratic: <m:math display="inline"><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext>~</m:mtext><m:mi>a</m:mi><m:msubsup><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow><m:mn>2</m:mn></m:msubsup><m:mo>+</m:mo><m:mi>b</m:mi><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:math></item>
             </list>
            </item>
             <item>Click the pointer below the table into entry box #2 to enter a new function. The cursor should start blinking. Enter the correct equation you found in step 4 using the following tips:
