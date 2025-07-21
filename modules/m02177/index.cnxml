@@ -6,55 +6,298 @@
     <md:uuid>8bb54f54-8720-40ec-9925-b4fdad1d7a7d</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001"><title>Warm Up</title>
-      <para id="para-00001">Examine the two puzzles that involve side lengths and areas of rectangles. Can you find the missing area in Figure A and the missing length in Figure B? Be prepared to explain your reasoning.</para>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Warm Up</title>
+      <para id="para-00001">Examine the two puzzles that involve side lengths and areas of
+        rectangles. Can you find the missing area in Figure A and the missing length in Figure B? Be
+        prepared to explain your reasoning.</para>
       <para id="para-00002">Figure A</para>
       <para id="para-00003">
-          <media alt="A diagram shows two rectangles and one shaded area labeled ? sq. in. The left rectangle is 8 inches by 8 inches. The right rectangle is 3 inches by 4 inches. The shaded area is 8 in. by 2 in. and 5 in. by 4 in. combined.">
-            <image mime-type="image/jpeg" src="../../media/Algebra-1_09_08_02_01.jpg" width="300"/>
-          </media>
-        
-     </para>
-      <!--Text Entry Interaction Start -->
+        <media alt="A diagram shows two rectangles and one shaded area labeled ? sq. in. The left rectangle is 8 inches by 8 inches. The right rectangle is 3 inches by 4 inches. The shaded area is 8 in. by 2 in. and 5 in. by 4 in. combined.">
+          <image mime-type="image/jpeg" src="../../media/Algebra-1_09_08_02_01.jpg" width="300"/>
+        </media>
+
+      </para>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
           <para id="para-00004">What is the missing area in Figure A above?</para>
         </problem>
         <solution id="sol-00001">
           <para id="para-00006">Compare your answer: </para>
-          <para id="para-00007">To determine the area of the blue rectangle, we need to figure out it’s width and length.</para>
-          <para id="para-00008">The top shape is a square measuring 8 in. x 8 in. If the measurement of the longer left side is 10 inches, then the width of the blue rectangle can be an equation.</para>
-          <para id="para-00009"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>8</m:mn><m:mo>+</m:mo><m:mi>W</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>10</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>W</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00010">The width of the rectangle is 2 inches.</para>
-          <para id="para-00011">Because the bottom of the square is 8 inches, the length of the blue rectangle can be written as an equation. But we have an unknown <m:math display="inline"><m:mrow><m:mi>z</m:mi></m:mrow></m:math>.</para>
-          <para id="para-00012"><m:math><m:mrow><m:mi>L</m:mi><m:mo>=</m:mo><m:mn>8</m:mn><m:mo>+</m:mo><m:mi>z</m:mi></m:mrow></m:math></para><para id="para-00013">If we look at the measurements of the smaller square, we see that we can use an equation to calculate <m:math display="inline"><m:mrow><m:mi>z</m:mi></m:mrow></m:math>.</para>
-          <para id="para-00014"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>z</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>z</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>2</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00015">Now, we can substitute the 2 for <m:math display="inline"><m:mrow><m:mi>z</m:mi></m:mrow></m:math> in the length equation.</para>
-          <para id="para-00016"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>L</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>8</m:mn><m:mo>+</m:mo><m:mn>2</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>L</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>10</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00017">The area of the blue rectangle is <m:math display="inline"><m:mrow><m:mn>8</m:mn><m:mi>x</m:mi><m:mn>10</m:mn></m:mrow></m:math>to equal 80 square inches.</para>
+          <para id="para-00007">To determine the area of the blue rectangle, we need to figure out
+            it’s width and length.</para>
+          <para id="para-00008">The top shape is a square measuring 8 in. x 8 in. If the measurement
+            of the longer left side is 10 inches, then the width of the blue rectangle can be an
+            equation.</para>
+          <para id="para-00009"><m:math>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mn>8</m:mn>
+                      <m:mo>+</m:mo>
+                      <m:mi>W</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mn>10</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mtd columnalign="right">
+                      <m:mi>W</m:mi>
+                    </m:mtd>
+                    <m:mtd columnalign="center">
+                      <m:mo>=</m:mo>
+                    </m:mtd>
+                    <m:mtd columnalign="left">
+                      <m:mn>2</m:mn>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:math></para>
+          <para id="para-00010">The width of the rectangle is 2 inches.</para>
+          <para id="para-00011">Because the bottom of the square is 8 inches, the length of the blue
+            rectangle can be written as an equation. But we have an unknown part that extends beyond the 8 inches of the square.</para>
+          
+          <para id="para-00005">Let’s look at the measurements of the smaller rectangle. In addition to seeing that the rectangle has a length of 3 inches, we see that along the top of the rectangle, there is a measurement that includes the top length of our rectangle and a part that extends beyond the rectangle. If we call the extension part, 
+            <m:math display="inline">
+                <m:mi>x</m:mi>
+            </m:math>, then we can solve the equation:</para>
+            <para id="para-00012">
+          <m:math display="inline">
+              <m:mrow>
+                <m:mn>5</m:mn>
+                <m:mo>=</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mo>=</m:mo>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>
+          </para>
+<para id="para-00013">Do you see that <m:math display="inline">
+                <m:mi>x</m:mi>
+            </m:math> is the length of the blue rectangle that we were missing? So, the full length of the blue rectangle is 
+            <m:math display="inline">
+              <m:mrow>
+                <m:mn>8</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>, or
+            <m:math display="inline">
+              <m:mrow>
+                <m:mn>8</m:mn>
+                <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>, which is 10 inches.</para>
+            <para id="para-00014">Now we can determine the area of the blue rectangle.</para>
+            <para id="para-00015"><m:math display="inline">
+              <m:mrow>
+                <m:mtext>Area</m:mtext>
+                <m:mo>=</m:mo>
+                <m:mi>l</m:mi>
+                <m:mo>⋅</m:mo>
+                <m:mi>w</m:mi>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mtext>Area</m:mtext>
+                <m:mo>=</m:mo>
+                <m:mn>10</m:mn>
+                <m:mo>⋅</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mtext>Area</m:mtext>
+                <m:mo>=</m:mo>
+                <m:mn>20</m:mn>
+              </m:mrow>
+            </m:math></para>
+            <para id="para-00016">The area of the blue rectangle is equal to 20 square inches.</para>
         </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
       <para id="para-00018">Figure B</para>
       <para id="para-00019">
-          <media alt="A geometric figure with three connected rectangles labeled by area: 36 sq in, 60 sq in, and 48 sq in. Some side lengths are labeled: 3 in, 12 in, 11 in, and one unknown side marked ? in.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_09_08_02_02.svg"/>
-          </media>
-        
-     </para>
-      <!--Text Entry Interaction Start -->
+        <media alt="A geometric figure with three connected rectangles labeled by area: 36 sq in, 60 sq in, and 48 sq in. Some side lengths are labeled: 3 in, 12 in, 11 in, and one unknown side marked ? in.">
+          <image mime-type="image/svg+xml" src="../../media/Algebra-1_09_08_02_02.svg"/>
+        </media>
+
+      </para>
+      <!--Text
+      Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
           <para id="para-00020">What is the missing length in Figure B above?</para>
         </problem>
         <solution id="sol-00002">
           <para id="para-00022">Compare your answer: </para>
-          <para id="para-00023">You have to start with what you know and can figure out the other sides.</para>
-          <para id="para-00024">Sides of orange rectangle</para>
-          <para id="para-00025"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>L</m:mi><m:mi>·</m:mi><m:mi>W</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>A</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>a</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>12</m:mn><m:mi>W</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>60</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>W</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>5</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00026">Sides of green rectangle</para>
-          <para id="para-00027"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>L</m:mi><m:mi>·</m:mi><m:mi>W</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>A</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>a</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mi>·</m:mi><m:mi>W</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>48</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>8</m:mn><m:mi>w</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>48</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>w</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>6</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00028">Sides of combined rectangles</para>
-          <para id="para-00029">The measurement of the long side of combined orange and green rectangle will be equal. This helps figure out one side of the blue rectangle.</para>
-          <para id="para-00030"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mn>12</m:mn><m:mo>+</m:mo><m:mn>6</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>3</m:mn><m:mo>+</m:mo><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>11</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mn>18</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>w</m:mi><m:mo>+</m:mo><m:mn>14</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>w</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>4</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para><para id="para-00031">Sides of blue rectangle</para>
-          <para id="para-00032"><m:math><m:mrow><m:mtable><m:mtr><m:mtd columnalign="right"><m:mi>L</m:mi><m:mi>·</m:mi><m:mi>W</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mi>A</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mi>a</m:mi></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>L</m:mi><m:mi>·</m:mi><m:mn>4</m:mn></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>36</m:mn></m:mtd></m:mtr><m:mtr><m:mtd columnalign="right"><m:mi>L</m:mi></m:mtd><m:mtd columnalign="center"><m:mo>=</m:mo></m:mtd><m:mtd columnalign="left"><m:mn>9</m:mn></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para></solution>
+          <para id="para-00017">You have to start with what you know to figure out the other sides.</para>
+<para id="para-00021">First, select a rectangle to start with. Let’s start with the rectangle that measures 60 square inches because we know the full measure of one of its sides. The bottom length of that rectangle is labeled 12 inches. So, to find the width, we solve an area equation.</para> 
+<para id="para-00023">
+ <m:math display="inline">
+              <m:mrow>
+                <m:mtext>Area</m:mtext>
+                <m:mo>=</m:mo>
+                <m:mi>l</m:mi>
+                <m:mo>⋅</m:mo>
+                <m:mi>w</m:mi>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mn>60</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>12</m:mn>
+                <m:mo>⋅</m:mo>
+                <m:mi>w</m:mi>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mn>5</m:mn>
+                <m:mo>=</m:mo>
+                <m:mi>w</m:mi>
+              </m:mrow>
+            </m:math></para>
+<para id="para-00024">Now that we know it has a width of 5 inches, we can combine this with some information we know about the rectangle to the right side of the figure that has an area of 48 square inches.</para>
+<para id="para-00025">On this right-side rectangle, we see that there is a small part of the width that is labeled 3 inches. The rest of the width happens to match the measurement we just found from the 60 square inch rectangle - we can use the 5 inch measurement we just calculated!</para>
+<para id="para-00026">That means the full width of the 48 square inch rectangle is 5 + 3  or 8 inches. This now allows us to use the area formula to determine the length of this rectangle.</para>
+<para id="para-00027">
+  <m:math display="inline">
+              <m:mrow>
+                <m:mtext>Area</m:mtext>
+                <m:mo>=</m:mo>
+                <m:mi>l</m:mi>
+                <m:mo>⋅</m:mo>
+                <m:mi>w</m:mi>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mn>48</m:mn>
+                <m:mo>=</m:mo>
+                <m:mi>l</m:mi>
+                <m:mo>⋅</m:mo>
+                <m:mn>8</m:mn>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mn>6</m:mn>
+                <m:mo>=</m:mo>
+                <m:mi>l</m:mi>
+              </m:mrow>
+            </m:math>
+          </para>
+
+          <para id="para-00028">The length of the rectangle on the right side is 6 inches.</para>
+          <para id="para-00029">The last measurements for the 36 square inch rectangle are a little tricky to find, so let’s review what we know.
+            <list id="list-00001">
+              <item>From the 60 square inch rectangle, we know the length is 12 inches across the bottom and the width is 5 inches.</item>
+              <item>From the 48 square inch rectangle, we know the length is 6 inches and the width is 8 inches (which we know can be divided into a 3 inch segment and a 5 inch segment).</item>
+              <item>Other lengths labeled on the figure include a 3 inch segment and an 11 inch segment that extend across parts of all three rectangles.</item>
+            </list>
+            Actually, this last part may be helpful. The length of the 48 square inch rectangle is aligned with the 3 and 11 inch measurements.</para>
+            <para id="para-00030">From the 11 inches, if we subtract the length of the 48 square inch rectangle (which is 6 inches), then the part that extends along a portion of the 60 square inch rectangle equals 5 inches since
+              <m:math display="inline">
+                <m:mrow>
+                  <m:mn>11</m:mn>
+                  <m:mo>-</m:mo>
+                  <m:mn>6</m:mn>
+                  <m:mo>=</m:mo>
+                  <m:mn>5</m:mn>
+                </m:mrow>
+              </m:math>.</para>
+            <para id="para-00031">And, we know the full length of the 60 square inch rectangle should measure 12 inches. If label the missing length,
+              <m:math display="inline">
+                <m:mrow>
+                  <m:mi>l</m:mi>
+                </m:mrow>
+              </m:math>, then we know that
+              <m:math display="inline">
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>l</m:mi>
+                  <m:mo>+</m:mo>
+                  <m:mn>5</m:mn>
+                  <m:mo>=</m:mo>
+                  <m:mn>12</m:mn>
+                </m:mrow>
+              </m:math>.</para>
+              <para id="para-00032">
+                <m:math display="inline">
+                <m:mrow>
+                  <m:mn>8</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>l</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>12</m:mn>
+                </m:mrow>
+              </m:math><newline/>
+               <m:math display="inline">
+                <m:mrow>
+                  <m:mi>l</m:mi>
+                  <m:mo>=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+              </m:math></para>
+              <para id="para-00033">Now we can solve for the width of the 36 square inch rectangle because <m:math display="inline">
+                <m:mrow>
+                  <m:mi>l</m:mi>
+                </m:mrow>
+              </m:math> also measures its length.</para>
+              <para id="para-00034">
+                <m:math display="inline">
+              <m:mrow>
+                <m:mtext>Area</m:mtext>
+                <m:mo>=</m:mo>
+                <m:mi>l</m:mi>
+                <m:mo>⋅</m:mo>
+                <m:mi>w</m:mi>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mn>36</m:mn>
+                <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+                <m:mo>⋅</m:mo>
+                <m:mi>w</m:mi>
+              </m:mrow>
+            </m:math><newline/>
+            <m:math display="inline">
+              <m:mrow>
+                <m:mn>9</m:mn>
+                <m:mo>=</m:mo>
+                <m:mi>w</m:mi>
+              </m:mrow>
+            </m:math></para>
+            <para id="para-00035">The missing width of the 36 square inch rectangle is 9 inches.</para>
+
+        </solution>
       </exercise>
-      <!--Interaction End -->
+      <!--Interaction
+      End -->
     </section>
   </content>
 </document>
