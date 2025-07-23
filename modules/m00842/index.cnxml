@@ -29,6 +29,441 @@ Jaime, Pedro, and Hannah, who are in the shop, all think it is a mistake.</para>
       <note class="link-to-learning" id="note-00001">
         <para id="para-00004">Log into <link url="https://student.desmos.com">student.desmos.com</link> using the information provided by your teacher to complete the activity.</para>
       </note>
+
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
+          <para id="para-00005">1. Create a table of values using the pricing information from the bagel shop’s sign to identify the different possibilities for calculating the price of 13 bagels.
+            <table class="unnumbered" id="table-00001">
+              <tgroup cols="5">
+                <thead>
+                  <row>
+                    <entry align="center"><emphasis>Number of bagels</emphasis></entry>
+                    <entry align="center"><emphasis>Store worker’s price calculation (in dollars)</emphasis></entry>
+                    <entry align="center"><emphasis>Jaime’s price calculation (in dollars)</emphasis></entry>
+                    <entry align="center"><emphasis>Pedro’s price calculation (in dollars)</emphasis></entry>
+                    <entry align="center"><emphasis>Hannah’s price calculation (in dollars)</emphasis></entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry align="center">1</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">2</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">3</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">4</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">5</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">6</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">7</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">8</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">9</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">10</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">11</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">12</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">13</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </para>
+        </problem>
+        <solution id="sol-00001">
+          <para id="para-00006">
+             <table class="unnumbered" id="table-00002">
+              <tgroup cols="5">
+                <thead>
+                  <row>
+                    <entry align="center"><emphasis>Number of bagels</emphasis></entry>
+                    <entry align="center"><emphasis>Shopkeeper’s price</emphasis></entry>
+                    <entry align="center"><emphasis>Jaime’s price</emphasis></entry>
+                    <entry align="center"><emphasis>Pedro’s price</emphasis></entry>
+                    <entry align="center"><emphasis>Hannah’s price</emphasis></entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry align="center">1</entry>
+                    <entry>1.25</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">2</entry>
+                    <entry>2.50</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">3</entry>
+                    <entry>3.75</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">4</entry>
+                    <entry>5.00</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">5</entry>
+                    <entry>6.25</entry>
+                    <entry/>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">6</entry>
+                    <entry>7.50</entry>
+                    <entry>6.00</entry>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">7</entry>
+                    <entry>8.75</entry>
+                    <entry>7.25</entry>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">8</entry>
+                    <entry>10.00</entry>
+                    <entry>8.50</entry>
+                    <entry/>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">9</entry>
+                    <entry>11.25</entry>
+                    <entry>9.75</entry>
+                    <entry>8.00</entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">10</entry>
+                    <entry>12.50</entry>
+                    <entry>11.00</entry>
+                    <entry>9.25</entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">11</entry>
+                    <entry>13.75</entry>
+                    <entry>12.25</entry>
+                    <entry>10.50</entry>
+                    <entry/>
+                  </row>
+                  <row>
+                    <entry align="center">12</entry>
+                    <entry>15.00</entry>
+                    <entry>12.00</entry>
+                    <entry>11.75</entry>
+                    <entry>10.00</entry>
+                  </row>
+                  <row>
+                    <entry align="center">13</entry>
+                    <entry>16.25</entry>
+                    <entry>13.25</entry>
+                    <entry>13.00</entry>
+                    <entry>11.25</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+          </para>
+        </solution>
+      </exercise>
+
+      <exercise id="exer-00002">
+        <problem id="prob-00002">
+          <para id="para-00007">2. Use the table you created in the previous question to explain how each person in the scenario is correct.</para>
+          <para id="para-00008">a. Using the table you created in question 1, explain why the store worker thinks the total for 13 bagels should cost $16.25.</para>
+          <para id="para-00009">Use the sentence stem: The store worker thinks the price for 13 bagels should be $16.25 because …</para>
+        </problem>
+        <solution id="sol-00002">
+          <para id="para-00010">The store worker thinks the price for 13 bagels should be $16.25 because she multiplied 13 times 1.25. She charged the customer for each bagel individually.</para>
+        </solution>
+      </exercise>
+    <exercise id="exer-00003">
+      <problem id="prob-00003">
+        <para id="para-00011">b. Using the table you created in question 1, explain why Jaime thinks the total for 13 bagels should cost $13.25.</para>
+        <para id="para-00012">Use the sentence stem: Jaime thinks the price for 13 bagels should be $13.25 because …
+</para>
+      </problem>
+      <solution id="sol-00003">
+        <para id="para-00013">Jaime thinks the price for 13 bagels should be $13.25 because that is the cost of buying two sets of six bagels and then one more bagel.</para>
+      </solution>
+    </exercise>
+
+    <exercise id="exer-00004">
+      <problem id="prob-00004">
+        <para id="para-00014">c. Using the table you created in question 1, explain why Pedro thinks the total for 13 bagels should cost $13.00.</para>
+        <para id="para-00015">Use the sentence stem: Pedro thinks the price for 13 bagels should be $13.00 because …
+</para>
+      </problem>
+      <solution id="sol-00004">
+        <para id="para-00016">Pedro thinks the price for 13 bagels should be $13.00 because he added the costs of buying 10 bagels and then 3 more bagels.</para>
+      </solution>
+    </exercise>
+
+    <exercise id="exer-00005">
+      <problem id="prob-00005">
+        <para id="para-00017">d. Using the table you created in question 1, explain why Hannah thinks the total for 13 bagels should cost $11.25.</para>
+        <para id="para-00018">Use the sentence stem: Hannah thinks the price for 13 bagels should be $11.25 because …
+</para>
+      </problem>
+      <solution id="sol-00005">
+        <para id="para-00019">Hannah thinks the price for 13 bagels should be $11.25 because she noticed that a dozen bagels could be purchased for $10. She only needs one more bagel for $1.25 to have 13 bagels. That means her total cost is $11.25.</para>
+      </solution>
+    </exercise>
+
+    <exercise id="exer-00006">
+      <problem id="prob-00006">
+        <para id="para-00020">3. Create a table of values using the pricing information from the bagel shop’s sign to identify the best price for each number of bagels bought.
+
+          <table class="unnumbered" id="table-00003">
+            <tgroup cols="2">
+              <thead>
+                <row>
+                  <entry align="center"><emphasis>Number of bagels</emphasis></entry>
+                  <entry align="center"><emphasis>Best price<newline/>(in dollars)</emphasis></entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry align="center">1</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">2</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">3</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">4</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">5</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">6</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">7</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">8</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">9</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">10</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">11</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">12</entry>
+                  <entry/>
+                </row>
+                <row>
+                  <entry align="center">13</entry>
+                  <entry/>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+        </para>
+      </problem>
+      <solution id="sol-00006">
+        <table class="unnumbered" id="table-00004">
+            <tgroup cols="2">
+              <thead>
+                <row>
+                  <entry align="center"><emphasis>Number of bagels</emphasis></entry>
+                  <entry align="center"><emphasis>Best price<newline/>(in dollars)</emphasis></entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry align="center">1</entry>
+                  <entry>1.25</entry>
+                </row>
+                <row>
+                  <entry align="center">2</entry>
+                  <entry>2.50</entry>
+                </row>
+                <row>
+                  <entry align="center">3</entry>
+                  <entry>3.75</entry>
+                </row>
+                <row>
+                  <entry align="center">4</entry>
+                  <entry>5.00</entry>
+                </row>
+                <row>
+                  <entry align="center">5</entry>
+                  <entry>6.25</entry>
+                </row>
+                <row>
+                  <entry align="center">6</entry>
+                  <entry>6.00</entry>
+                </row>
+                <row>
+                  <entry align="center">7</entry>
+                  <entry>7.25</entry>
+                </row>
+                <row>
+                  <entry align="center">8</entry>
+                  <entry>8.50</entry>
+                </row>
+                <row>
+                  <entry align="center">9</entry>
+                  <entry>8.00</entry>
+                </row>
+                <row>
+                  <entry align="center">10</entry>
+                  <entry>9.25</entry>
+                </row>
+                <row>
+                  <entry align="center">11</entry>
+                  <entry>10.50</entry>
+                </row>
+                <row>
+                  <entry align="center">12</entry>
+                  <entry>10.00</entry>
+                </row>
+                <row>
+                  <entry align="center">13</entry>
+                  <entry>11.25</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+      </solution>
+    </exercise>
+
+    <exercise id="exer-00007">
+      <problem id="prob-00007">
+       <para id="para-00021">4. How might a price list like this benefit the owner of the bagel shop? </para>
+      </problem>
+      <solution id="sol-00007">
+         <para id="para-00022">Your answer may vary, but here are some samples:
+          <list id="list-00002">
+            <item>A price list like this benefits the owner because it encourages customers to buy more bagels since they will think they may be getting a better deal.</item>
+            <item>A price list like this benefits the owner because it rewards customers who buy larger quantities with cheaper prices.</item>
+            </list>
+</para>
+      </solution>
+    </exercise>
+
+    <exercise id="exer-00008">
+      <problem id="prob-00008">
+        <para id="para-00023">5. As a customer, do you like items to be priced like this or not? Explain your reasoning.</para>
+      </problem>
+      <solution id="sol-00008">
+       <para id="para-00024">Your answer may vary, but here are some samples:
+          <list id="list-00003">
+            <item>I do not like price lists like this because it would be easy to be overcharged for my purchases.</item>
+            <item>I do not mind price lists like this because I can get a better deal for 12 bagels compared to buying them at the individual price. </item>
+            </list>
+          </para>
+      </solution>
+    </exercise>
+
+    <para id="para-00025">In this activity, because there was only one <emphasis>best price</emphasis> for a particular number of bagels, the best price is a <emphasis>function</emphasis> of the number of bagels bought.</para>
+    <para id="para-00026">A <emphasis>function</emphasis> assigns one output to each input.</para>
     </section>
   </content>
 </document>
