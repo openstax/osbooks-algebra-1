@@ -427,7 +427,486 @@
           <para id="para-00045">Geometric</para>
         </solution>
       </exercise>
+
+          <para id="para-00028">5. Examine the following recursive definitions. </para>
+          <para id="para-00031">
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mi>F</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math>
+          </para>
+
+          <para id="para-00034">
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:mo>⋅</m:mo>
+                <m:mi>G</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math>
+          </para>
+
+          <para id="para-00037">
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                  <m:mn>5</m:mn>
+                <m:mo>⋅</m:mo>
+                <m:mi>H</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math>
+          </para>
+
+           <para id="para-00040">
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>J</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>J</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mi>J</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math>
+          </para>
+
+          <para id="para-00043">
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mi>K</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>-</m:mo>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math>
+          </para>
+
+          <para id="para-00046">
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>L</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>L</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>⋅</m:mo>
+                <m:mi>L</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math>
+          </para>
+
+          <para id="para-00092">
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>⋅</m:mo>
+                <m:mi>M</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math>
+          </para>
+          <para id="para-00093">Match each definition with one of the sequences from the previous question. Be prepared to explain to a partner how you know it's a match. For each match that your partner finds, listen carefully to their explanation. If you disagree, discuss your thinking and work to reach an agreement.</para>
+
+<exercise id="exer-00009">
+  <problem id="prob-00016">
+    <para id="para-00094">a. 3, 6, 12, 24 </para>
+  </problem>
+  <solution id="sol-00015">
+    <para id="para-00095"><m:math display="inline">
+              <m:mrow>
+                <m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>M</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>⋅</m:mo>
+                <m:mi>M</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math></para>
+  </solution>
+</exercise>
+
+<exercise id="exer-00010">
+  <problem id="prob-00017">
+    <para id="para-00096">b. 18, 36, 72, 144</para>
+  </problem>
+  <solution id="sol-00016">
+    <para id="para-00097"><m:math display="inline">
+              <m:mrow>
+                <m:mi>L</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>L</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+                <m:mo>⋅</m:mo>
+                <m:mi>L</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math></para>
+  </solution>
+</exercise>
+
+<exercise id="exer-00011">
+  <problem id="prob-00018">
+    <para id="para-00098">c. 3, 8, 13, 18</para>
+  </problem>
+  <solution id="sol-00017">
+    <para id="para-00099"><m:math display="inline">
+              <m:mrow>
+                <m:mi>J</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>J</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mi>J</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math></para>
+  </solution>
+</exercise>
+
+<exercise id="exer-00012">
+  <problem id="prob-00019">
+    <para id="para-00100">d. 18, 13, 8, 3</para>
+  </problem>
+  <solution id="sol-00018">
+    <para id="para-00101"> <m:math display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>K</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mi>K</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>-</m:mo>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math></para>
+  </solution>
+</exercise>
+
+<exercise id="exer-00013">
+  <problem id="prob-00020">
+    <para id="para-00102">e. 18, 9, 4.5, 2.25</para>
+  </problem>
+  <solution id="sol-00019">
+    <para id="para-00103"><m:math display="inline">
+              <m:mrow>
+                <m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>G</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mfrac>
+                  <m:mn>1</m:mn>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+                <m:mo>⋅</m:mo>
+                <m:mi>G</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math></para>
+  </solution>
+</exercise>
+
+<exercise id="exer-00014">
+  <problem id="prob-00021">
+    <para id="para-00104">f. 18, 20, 22, 24</para>
+  </problem>
+  <solution id="sol-00020">
+    <para id="para-00105"><m:math display="inline">
+              <m:mrow>
+                <m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>18</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mi>F</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math></para>
+  </solution>
+</exercise>
+
+<exercise id="exer-00015">
+  <problem id="prob-00022">
+    <para id="para-00106">g. 3, 15, 75, 375</para>
+  </problem>
+  <solution id="sol-00021">
+    <para id="para-00107"><m:math display="inline">
+              <m:mrow>
+                <m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>H</m:mi><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo>
+                <m:mo>=</m:mo>
+                  <m:mn>5</m:mn>
+                <m:mo>⋅</m:mo>
+                <m:mi>H</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>n</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math>,
+            <m:math display="inline">
+              <m:mrow>
+                <m:mi>n</m:mi>
+                <m:mo>≥</m:mo>
+                <m:mn>2</m:mn>
+                </m:mrow>
+                </m:math></para>
+  </solution>
+</exercise>
     </section>
+
+
 
     <note class="link-to-learning" id="note-00001">
       <title>Desmos Activity:</title>
