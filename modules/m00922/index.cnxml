@@ -308,42 +308,41 @@
             </m:math>.</para>
         </solution>
       </exercise>
-    </section>
-    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
-    will need to change the Data-fire/data-wait-for-events for each set.-->
-    <section id="sect-00004">
-      <title>Are you ready for more?</title>
-      <section id="sect-00005"><title>Extending Your Thinking</title>
-        <!--Start
-        interaction.  If multiple interactions appear under "are you ready for more?, they should all
-        have matching "data-wait-for-event", which should also match the "data-fire-event" for the
-        button. Note in this sample, they are all RFM1-->
-        <exercise class="RFM1" id="exer-00009">
-          <problem id="prob-00013">
-            <para id="para-00037">Describe a different data plan that, for any amount of data used,
-              would cost no more than one of the given plans and no less than the other given plan.
-              Explain or show how you know this data plan would meet these requirements.</para>
-
-          </problem>
-          <solution id="sol-00013">
-            <para id="para-00038">Your answers may vary, but here are some examples:</para>
-            <para id="para-00039">The graph of this data plan would be a line whose slope is between
-              the slope of the other two graphs (greater than 0 but less than 10) and goes through
-              the intersection of the other two graphs.</para>
-            <para id="para-00040">The plan charges $4 for each gigabyte of data over the 2-gigabyte
-              allowance, plus a $6 fee. With this plan:</para>
-            <list id="list-00003">
-              <item>If we use exactly 13.5 additional gigabytes above the allowance (that is, 5.5
-                gigabytes in total), all three plans would cost $60.</item>
-              <item>If we use less than that, our plan would cost less than Option A but more than
-                Option B.</item>
-              <item>If we use more than that, our plan would cost more than Option A but less than
-                Option B.</item>
-            </list>
-          </solution>
-        </exercise>
-        <!--End
-        interaction-->
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+      will need to change the Data-fire/data-wait-for-events for each set.-->
+      <section id="sect-00004">
+        <title>Are you ready for more?</title>
+        <section id="sect-00005"><title>Extending Your Thinking</title>
+          <!--Start
+          interaction.  If multiple interactions appear under "are you ready for more?, they should all
+          have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+          button. Note in this sample, they are all RFM1-->
+          <exercise class="RFM1" id="exer-00009">
+            <problem id="prob-00013">
+              <para id="para-00037">Describe a different data plan that, for any amount of data used,
+                would cost no more than one of the given plans and no less than the other given plan.
+                Explain or show how you know this data plan would meet these requirements.</para>
+            </problem>
+            <solution id="sol-00013">
+              <para id="para-00038">Your answers may vary, but here are some examples:</para>
+              <para id="para-00039">The graph of this data plan would be a line whose slope is between
+                the slope of the other two graphs (greater than 0 but less than 10) and goes through
+                the intersection of the other two graphs.</para>
+              <para id="para-00040">The plan charges $4 for each gigabyte of data over the 2-gigabyte
+                allowance, plus a $6 fee. With this plan:</para>
+              <list id="list-00003">
+                <item>If we use exactly 13.5 additional gigabytes above the allowance (that is, 5.5
+                  gigabytes in total), all three plans would cost $60.</item>
+                <item>If we use less than that, our plan would cost less than Option A but more than
+                  Option B.</item>
+                <item>If we use more than that, our plan would cost more than Option A but less than
+                  Option B.</item>
+              </list>
+            </solution>
+          </exercise>
+          <!--End
+          interaction-->
+        </section>
       </section>
     </section>
     <note class="self-check" id="note-00001">

@@ -344,157 +344,151 @@
 
         </solution>
       </exercise>
+      
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+      will need to change the Data-fire/data-wait-for-events for each set.-->
+      <section id="sect-00002">
+        <title>Are you ready for more?</title>
+        <section id="sect-00003">
+          <title>Extending Your Thinking</title>
+          <!--Start
+          interaction.  If multiple interactions appear under "are you ready for more?, they should all
+          have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+          button. Note in this sample, they are all RFM1-->
+          <exercise class="RFM1" id="exer-00004">
+            <problem id="prob-00004">
+              <para id="para-00011">Consider the functions <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>g</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mn>5</m:mn>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+                and <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>.
+                While it is true that <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>&gt;</m:mo>
+                    <m:mi>g</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>7</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>,
+                for example, it is hard to check this using mental math. Find a value of <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:math> for which
+                properties of exponents allow you to conclude that <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>&gt;</m:mo>
+                    <m:mi>g</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+                without a calculator.</para>
+            </problem>
+            <solution id="sol-00004">
+              <para id="para-00012">Compare your answer: </para>
+              <para id="para-00013">Your answer may vary, but here are some samples: One example is <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>25</m:mn>
+                  </m:mrow>
+                </m:math>. We have <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>25</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mrow>
+                        <m:mn>25</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>,
+                whereas <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>g</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>25</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mn>25</m:mn>
+                      <m:mn>5</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mn>5</m:mn>
+                    </m:msup>
+                    <m:mo>=</m:mo>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mrow>
+                        <m:mn>10</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>,
+                which is certainly smaller than <m:math display="inline">
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>5</m:mn>
+                      <m:mrow>
+                        <m:mn>25</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:math>
+                .</para>
+            </solution>
+          </exercise>
+          <!--End
+          interaction-->
+        </section>
+      </section>
     </section>
     <!--Interaction
     End -->
-
-
-    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
-    will need to change the Data-fire/data-wait-for-events for each set.-->
-    <section id="sect-00002">
-      <title>Are you ready for more?</title>
-      <section id="sect-00003">
-        <title>Extending Your Thinking</title>
-        <!--Start
-        interaction.  If multiple interactions appear under "are you ready for more?, they should all
-        have matching "data-wait-for-event", which should also match the "data-fire-event" for the
-        button. Note in this sample, they are all RFM1-->
-        <exercise class="RFM1" id="exer-00004">
-          <problem id="prob-00004">
-            <para id="para-00011">Consider the functions <m:math display="inline">
-                <m:mrow>
-                  <m:mi>g</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mi>x</m:mi>
-                  <m:mo stretchy="false">)</m:mo>
-                  <m:mo>=</m:mo>
-                  <m:msup>
-                    <m:mi>x</m:mi>
-                    <m:mn>5</m:mn>
-                  </m:msup>
-                </m:mrow>
-              </m:math>
-              and <m:math display="inline">
-                <m:mrow>
-                  <m:mi>f</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mi>x</m:mi>
-                  <m:mo stretchy="false">)</m:mo>
-                  <m:mo>=</m:mo>
-                  <m:msup>
-                    <m:mn>5</m:mn>
-                    <m:mi>x</m:mi>
-                  </m:msup>
-                </m:mrow>
-              </m:math>.
-              While it is true that <m:math display="inline">
-                <m:mrow>
-                  <m:mi>f</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mn>7</m:mn>
-                  <m:mo stretchy="false">)</m:mo>
-                  <m:mo>&gt;</m:mo>
-                  <m:mi>g</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mn>7</m:mn>
-                  <m:mo stretchy="false">)</m:mo>
-                </m:mrow>
-              </m:math>,
-              for example, it is hard to check this using mental math. Find a value of <m:math display="inline">
-                <m:mrow>
-                  <m:mi>x</m:mi>
-                </m:mrow>
-              </m:math> for which
-              properties of exponents allow you to conclude that <m:math display="inline">
-                <m:mrow>
-                  <m:mi>f</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mi>x</m:mi>
-                  <m:mo stretchy="false">)</m:mo>
-                  <m:mo>&gt;</m:mo>
-                  <m:mi>g</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mi>x</m:mi>
-                  <m:mo stretchy="false">)</m:mo>
-                </m:mrow>
-              </m:math>
-              without a calculator.</para>
-
-          </problem>
-          <solution id="sol-00004">
-
-
-            <para id="para-00012">Compare your answer: </para>
-
-            <para id="para-00013">Your answer may vary, but here are some samples: One example is <m:math display="inline">
-                <m:mrow>
-                  <m:mi>x</m:mi>
-                  <m:mo>=</m:mo>
-                  <m:mn>25</m:mn>
-                </m:mrow>
-              </m:math>. We have <m:math display="inline">
-                <m:mrow>
-                  <m:mi>f</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mn>25</m:mn>
-                  <m:mo stretchy="false">)</m:mo>
-                  <m:mo>=</m:mo>
-                  <m:msup>
-                    <m:mn>5</m:mn>
-                    <m:mrow>
-                      <m:mn>25</m:mn>
-                    </m:mrow>
-                  </m:msup>
-                </m:mrow>
-              </m:math>,
-              whereas <m:math display="inline">
-                <m:mrow>
-                  <m:mi>g</m:mi>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mn>25</m:mn>
-                  <m:mo stretchy="false">)</m:mo>
-                  <m:mo>=</m:mo>
-                  <m:msup>
-                    <m:mn>25</m:mn>
-                    <m:mn>5</m:mn>
-                  </m:msup>
-                  <m:mo>=</m:mo>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:msup>
-                    <m:mn>5</m:mn>
-                    <m:mn>2</m:mn>
-                  </m:msup>
-                  <m:msup>
-                    <m:mo stretchy="false">)</m:mo>
-                    <m:mn>5</m:mn>
-                  </m:msup>
-                  <m:mo>=</m:mo>
-                  <m:msup>
-                    <m:mn>5</m:mn>
-                    <m:mrow>
-                      <m:mn>10</m:mn>
-                    </m:mrow>
-                  </m:msup>
-                </m:mrow>
-              </m:math>,
-              which is certainly smaller than <m:math display="inline">
-                <m:mrow>
-                  <m:msup>
-                    <m:mn>5</m:mn>
-                    <m:mrow>
-                      <m:mn>25</m:mn>
-                    </m:mrow>
-                  </m:msup>
-                </m:mrow>
-              </m:math>
-              .</para>
-
-          </solution>
-        </exercise>
-        <!--End
-        interaction-->
-      </section>
-    </section>
 
     <note class="self-check" id="note-00001">
       <exercise id="exer-00006">

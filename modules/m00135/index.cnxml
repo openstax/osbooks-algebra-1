@@ -193,132 +193,132 @@
       have matching "data-wait-for-event", which should also match the "data-fire-event" for the
       button. Note in this sample, they are all RFM1-->
       <!--Q1-->
-    </section>
-    <section id="sect-00002">
-      <title>Are you ready for more?</title>
-      <section class="numbered-exercises" id="sect-00003"><title>Extending Your Thinking</title>
-          <quote id="quote-00001">Use the following information to answer questions 1 - 5. A
-          450-gallon tank full of water is draining at a rate of 20 gallons per minute.</quote>
-        <exercise class="RFM1" id="exer-00007">
-          <problem id="prob-00009">
-            <para id="para-00027">Write an equation that represents the relationship between the
-              gallons of water in the tank and hours the tank has been draining.</para>
-          </problem>
-          <solution id="sol-00009">
-            <para id="para-00028">Compare your answer: </para>
-            <para id="para-00029"><m:math display="inline">
-                <m:mrow>
-                  <m:mi>a</m:mi>
-                  <m:mo>=</m:mo>
-                  <m:mn>450</m:mn>
-                  <m:mo>−</m:mo>
-                  <m:mn>1</m:mn>
-                  <m:mo>,</m:mo>
-                  <m:mn>200</m:mn>
-                  <m:mi>h</m:mi>
-                </m:mrow>
-              </m:math> where <m:math display="inline">
-                <m:mrow>
-                  <m:mi>h</m:mi>
-                </m:mrow>
-              </m:math> is time in hours.</para>
-          </solution>
-        </exercise>
-        <!--End
-      interaction-->
-        <!--Q2-->
-        <exercise class="RFM1" id="exer-00008">
-          <problem id="prob-00010">
-            <para id="para-00030">Write an equation that represents the relationship between the
-              gallons of water in the tank and seconds the tank has been draining.</para>
-          </problem>
-          <solution id="sol-00010">
-            <para id="para-00031">Compare your answer: </para>
-            <para id="para-00032"><m:math display="inline">
-                <m:mrow>
-                  <m:mi>a</m:mi>
-                  <m:mo>=</m:mo>
-                  <m:mn>450</m:mn>
-                  <m:mo>−</m:mo>
-                  <m:mfrac>
-                    <m:mrow>
-                      <m:mi>s</m:mi>
-                    </m:mrow>
-                    <m:mrow>
-                      <m:mn>3</m:mn>
-                    </m:mrow>
-                  </m:mfrac>
-                </m:mrow>
-              </m:math>
-              where <m:math display="inline">
-                <m:mrow>
-                  <m:mi>s</m:mi>
-                </m:mrow>
-              </m:math> is time in seconds.</para>
-          </solution>
-        </exercise>
-        <!--End
-      interaction-->
-        <media alt="insert alt text">
-          <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
-        </media>
-        <!--Q3
-      new-->
-        <exercise class="RFM1" id="exer-00009">
-          <problem id="prob-00011">
-            <para id="para-00033">Graph each of your new equations. Use the graphing tool or
-              technology outside the course. Graph the equation that represents this scenario using
-              the Desmos tool above.</para>
-          </problem>
-          <solution id="sol-00011">
-            <para id="para-00034">Compare your answer: </para>
-
-            <media alt="Line graph showing the amount of water in a tank decreasing linearly from 500 gallons at 0 hours to 0 gallons at 0.4 hours; x-axis is time (hours), y-axis is amount in tank (gallons).">
-              <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_07_09_02.svg"/>
-            </media>
-
-          </solution>
-        </exercise>
-        <!--End
-      interaction-->
-        <!--Q4-->
-        <exercise class="RFM1" id="exer-00010">
-          <problem id="prob-00012">
-            <para id="para-00035">In what way are all of the graphs the same? In what way are they
-              all different?</para>
-          </problem>
-          <solution id="sol-00012">
-            <para id="para-00036">Compare your answer: </para>
-            <para id="para-00037">Your answer may vary, but here are some samples.</para>
-            <list id="list-00001">
-              <item>They all have the same <m:math display="inline">
+      <section id="sect-00002">
+        <title>Are you ready for more?</title>
+        <section class="numbered-exercises" id="sect-00003"><title>Extending Your Thinking</title>
+            <quote id="quote-00001">Use the following information to answer questions 1 - 5. A
+            450-gallon tank full of water is draining at a rate of 20 gallons per minute.</quote>
+          <exercise class="RFM1" id="exer-00007">
+            <problem id="prob-00009">
+              <para id="para-00027">Write an equation that represents the relationship between the
+                gallons of water in the tank and hours the tank has been draining.</para>
+            </problem>
+            <solution id="sol-00009">
+              <para id="para-00028">Compare your answer: </para>
+              <para id="para-00029"><m:math display="inline">
                   <m:mrow>
-                    <m:mi>y</m:mi>
+                    <m:mi>a</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>450</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>200</m:mn>
+                    <m:mi>h</m:mi>
                   </m:mrow>
-                </m:math>-intercept.</item>
-              <item>They all decrease.</item>
-              <item>The slopes are different.</item>
-            </list>
-          </solution>
-        </exercise>
-        <!--End
-      interaction-->
-        <!--Q5-->
-        <exercise class="RFM1" id="exer-00011">
-          <problem id="prob-00013">
-            <para id="para-00038">How would these graphs change if we used quarts of water instead
-              of gallons? What would stay the same?</para>
-          </problem>
-          <solution id="sol-00013">
-            <para id="para-00039">Compare your answer: </para>
-            <para id="para-00040">Your answer may vary, but here are some sample samples: The graphs
-              would still be lines with negative slopes that are different. They would have the same
-              horizontal intercepts. The vertical intercepts would be different, but they would
-              represent the same amount of water.</para>
-          </solution>
-        </exercise>
-        <!--End
-      interaction-->
+                </m:math> where <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>h</m:mi>
+                  </m:mrow>
+                </m:math> is time in hours.</para>
+            </solution>
+          </exercise>
+          <!--End
+        interaction-->
+          <!--Q2-->
+          <exercise class="RFM1" id="exer-00008">
+            <problem id="prob-00010">
+              <para id="para-00030">Write an equation that represents the relationship between the
+                gallons of water in the tank and seconds the tank has been draining.</para>
+            </problem>
+            <solution id="sol-00010">
+              <para id="para-00031">Compare your answer: </para>
+              <para id="para-00032"><m:math display="inline">
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo>=</m:mo>
+                    <m:mn>450</m:mn>
+                    <m:mo>−</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mi>s</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:math>
+                where <m:math display="inline">
+                  <m:mrow>
+                    <m:mi>s</m:mi>
+                  </m:mrow>
+                </m:math> is time in seconds.</para>
+            </solution>
+          </exercise>
+          <!--End
+        interaction-->
+          <media alt="insert alt text">
+            <iframe src="../../media/desmos/a47b5bb4ba783be55a7067b919f165f14dcc36ce.html" width="500" height="400"/>
+          </media>
+          <!--Q3
+        new-->
+          <exercise class="RFM1" id="exer-00009">
+            <problem id="prob-00011">
+              <para id="para-00033">Graph each of your new equations. Use the graphing tool or
+                technology outside the course. Graph the equation that represents this scenario using
+                the Desmos tool above.</para>
+            </problem>
+            <solution id="sol-00011">
+              <para id="para-00034">Compare your answer: </para>
+
+              <media alt="Line graph showing the amount of water in a tank decreasing linearly from 500 gallons at 0 hours to 0 gallons at 0.4 hours; x-axis is time (hours), y-axis is amount in tank (gallons).">
+                <image mime-type="image/svg+xml" src="../../media/Algebra-1_01_07_09_02.svg"/>
+              </media>
+
+            </solution>
+          </exercise>
+          <!--End
+        interaction-->
+          <!--Q4-->
+          <exercise class="RFM1" id="exer-00010">
+            <problem id="prob-00012">
+              <para id="para-00035">In what way are all of the graphs the same? In what way are they
+                all different?</para>
+            </problem>
+            <solution id="sol-00012">
+              <para id="para-00036">Compare your answer: </para>
+              <para id="para-00037">Your answer may vary, but here are some samples.</para>
+              <list id="list-00001">
+                <item>They all have the same <m:math display="inline">
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:math>-intercept.</item>
+                <item>They all decrease.</item>
+                <item>The slopes are different.</item>
+              </list>
+            </solution>
+          </exercise>
+          <!--End
+        interaction-->
+          <!--Q5-->
+          <exercise class="RFM1" id="exer-00011">
+            <problem id="prob-00013">
+              <para id="para-00038">How would these graphs change if we used quarts of water instead
+                of gallons? What would stay the same?</para>
+            </problem>
+            <solution id="sol-00013">
+              <para id="para-00039">Compare your answer: </para>
+              <para id="para-00040">Your answer may vary, but here are some sample samples: The graphs
+                would still be lines with negative slopes that are different. They would have the same
+                horizontal intercepts. The vertical intercepts would be different, but they would
+                represent the same amount of water.</para>
+            </solution>
+          </exercise>
+          <!--End
+        interaction-->
+        </section>
       </section>
     </section>
     <section id="sect-00004">

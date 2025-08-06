@@ -815,160 +815,161 @@
             the maximum.</para>
         </solution>
       </exercise>
-    </section>
-    <!--Interaction
-    End -->
-    <!--ARE
-    YOU READY FOR MORE-->
-    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
-    will need to change the Data-fire/data-wait-for-events for each set.-->
-
-    <section id="sect-00004">
-      <title>Are you ready for more?</title>
-      <section class="numbered-exercises" id="sect-00005">
-        <title>Extending Your Thinking</title>
-        <!--Start
-        interaction.  If multiple interactions appear under "are you ready for more?, they should all
-        have matching "data-wait-for-event", which should also match the "data-fire-event" for the
-        button. Note in this sample, they are all RFM1-->
-
-        <exercise id="_05de72a4-b09c-456c-8864-85a6af2836ca" class="multiple-choice">
-          <problem id="prob-00011">
-            <para id="para-00039">Choose the equation for a quadratic function whose graph has the
-              vertex at <m:math display="inline">
-                <m:mrow>
+      
+      <!--Interaction
+      End -->
+      <!--ARE
+      YOU READY FOR MORE-->
+      <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+      will need to change the Data-fire/data-wait-for-events for each set.-->
+      
+      <section id="sect-00004">
+        <title>Are you ready for more?</title>
+        <section class="numbered-exercises" id="sect-00005">
+          <title>Extending Your Thinking</title>
+          <!--Start
+          interaction.  If multiple interactions appear under "are you ready for more?, they should all
+          have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+          button. Note in this sample, they are all RFM1-->
+          
+          <exercise id="_05de72a4-b09c-456c-8864-85a6af2836ca" class="multiple-choice">
+            <problem id="prob-00011">
+              <para id="para-00039">Choose the equation for a quadratic function whose graph has the
+                vertex at <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mn>3</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>
+                and contains the point <m:math display="inline">
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mo>,</m:mo>
+                    <m:mo>−</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:math>.</para>
+                
+                <list list-type="enumerated" number-style="lower-alpha" id="list-00001">
+                  <item><para id="para-00041"><m:math>
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mo>−</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:math></para></item>
+                <item><para id="para-00042"><m:math>
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mo>−</m:mo>
+                      <m:mn>3</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:math></para></item>
+                <item><para id="para-00043"><m:math>
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mo>−</m:mo>
+                      <m:mn>5</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                  </m:math></para></item>
+                <item><para id="para-00044"><m:math>
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo>=</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo>−</m:mo>
+                      <m:mn>2</m:mn>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:math></para></item>
+                  </list>
+            </problem>
+            <solution id="sol-00013">
+              <para id="para-00015">
+                <m:math display="inline">
+                  <m:mrow>
+                  <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn>
+                  <m:msup>
+                  <m:mrow>
                   <m:mo stretchy="false">(</m:mo>
-                  <m:mn>2</m:mn>
-                  <m:mo>,</m:mo>
-                  <m:mn>3</m:mn>
+                  <m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn>
                   <m:mo stretchy="false">)</m:mo>
-                </m:mrow>
-              </m:math>
-              and contains the point <m:math display="inline">
-                <m:mrow>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mn>0</m:mn>
-                  <m:mo>,</m:mo>
-                  <m:mo>−</m:mo>
-                  <m:mn>5</m:mn>
-                  <m:mo stretchy="false">)</m:mo>
-                </m:mrow>
-              </m:math>.</para>
-
-<list list-type="enumerated" number-style="lower-alpha" id="list-00001">
-              <item><para id="para-00041"><m:math>
-                <m:mrow>
-                  <m:mi>y</m:mi>
-                  <m:mo>=</m:mo>
-                  <m:mo>−</m:mo>
+                  </m:mrow>
                   <m:mn>2</m:mn>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mi>x</m:mi>
-                  <m:mo>−</m:mo>
-                  <m:mn>2</m:mn>
-                  <m:msup>
-                    <m:mo stretchy="false">)</m:mo>
-                    <m:mn>2</m:mn>
                   </m:msup>
                   <m:mo>+</m:mo>
                   <m:mn>3</m:mn>
-                </m:mrow>
-              </m:math></para></item>
-            <item><para id="para-00042"><m:math>
-                <m:mrow>
-                  <m:mi>y</m:mi>
-                  <m:mo>=</m:mo>
-                  <m:mo>−</m:mo>
-                  <m:mn>3</m:mn>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mi>x</m:mi>
-                  <m:mo>−</m:mo>
-                  <m:mn>2</m:mn>
-                  <m:msup>
-                    <m:mo stretchy="false">)</m:mo>
-                    <m:mn>2</m:mn>
-                  </m:msup>
-                  <m:mo>+</m:mo>
-                  <m:mn>2</m:mn>
-                </m:mrow>
-              </m:math></para></item>
-            <item><para id="para-00043"><m:math>
-                <m:mrow>
-                  <m:mi>y</m:mi>
-                  <m:mo>=</m:mo>
-                  <m:mo>−</m:mo>
-                  <m:mn>5</m:mn>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mi>x</m:mi>
-                  <m:mo>−</m:mo>
-                  <m:mn>2</m:mn>
-                  <m:msup>
-                    <m:mo stretchy="false">)</m:mo>
-                    <m:mn>2</m:mn>
-                  </m:msup>
-                </m:mrow>
-              </m:math></para></item>
-            <item><para id="para-00044"><m:math>
-                <m:mrow>
-                  <m:mi>y</m:mi>
-                  <m:mo>=</m:mo>
-                  <m:mn>2</m:mn>
-                  <m:mo stretchy="false">(</m:mo>
-                  <m:mi>x</m:mi>
-                  <m:mo>−</m:mo>
-                  <m:mn>2</m:mn>
-                  <m:msup>
-                    <m:mo stretchy="false">)</m:mo>
-                    <m:mn>2</m:mn>
-                  </m:msup>
-                  <m:mo>+</m:mo>
-                  <m:mn>3</m:mn>
-                </m:mrow>
-              </m:math></para></item>
-              </list>
-          </problem>
-          <solution id="sol-00013">
-            <para id="para-00015">
-              <m:math display="inline">
-                <m:mrow>
-                <m:mi>y</m:mi><m:mo>=</m:mo><m:mo>-</m:mo><m:mn>2</m:mn>
-                <m:msup>
-                <m:mrow>
-                <m:mo stretchy="false">(</m:mo>
-                <m:mi>x</m:mi><m:mo>-</m:mo><m:mn>2</m:mn>
-                <m:mo stretchy="false">)</m:mo>
-                </m:mrow>
-                <m:mn>2</m:mn>
-                </m:msup>
-                <m:mo>+</m:mo>
-                <m:mn>3</m:mn>
-                </m:mrow>
-              </m:math>
-            </para>
-          </solution>
-        </exercise>
-
-        <exercise class="RFM1" id="exer-00007">
-          <problem id="prob-00012">
-            <para id="para-00045">Use the graphing tool or technology outside the course. Sketch a
-              graph of your function.</para>
-        
-          </problem>
-          <solution id="sol-00011">
-            <para id="para-00047">Compare your answer: </para>
-            <para id="para-00048">
-              <media alt="Graph of a parabola on a coordinate plane. The x-axis has a scale of 1 extending from negative 8 to 8. The vertical-axis extends from negative 14 to 14 with a scale of 2.">
-                <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_18_03_05.svg"/>
-              </media>
-
-            </para>
-          </solution>
-        </exercise>
-
-        <!--Text
-        Entry Interaction Start -->
-        <!--Interaction
-        End -->
+                  </m:mrow>
+                </m:math>
+              </para>
+            </solution>
+          </exercise>
+          
+          <exercise class="RFM1" id="exer-00007">
+            <problem id="prob-00012">
+              <para id="para-00045">Use the graphing tool or technology outside the course. Sketch a
+                graph of your function.</para>
+            
+            </problem>
+            <solution id="sol-00011">
+              <para id="para-00047">Compare your answer: </para>
+              <para id="para-00048">
+                <media alt="Graph of a parabola on a coordinate plane. The x-axis has a scale of 1 extending from negative 8 to 8. The vertical-axis extends from negative 14 to 14 with a scale of 2.">
+                  <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_18_03_05.svg"/>
+                </media>
+                
+              </para>
+            </solution>
+          </exercise>
+          
+          <!--Text
+          Entry Interaction Start -->
+          <!--Interaction
+          End -->
+        </section>
       </section>
     </section>
     <note class="self-check" id="note-00001">
