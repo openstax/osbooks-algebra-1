@@ -421,18 +421,6 @@
 
         </solution>
       </exercise>
-    </section>
-    <!--Interaction
-      End -->
-
-
-    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
-      will need to change the Data-fire/data-wait-for-events for each set.-->
-    <!--Start
-      interaction.  If multiple interactions appear under "are you ready for more?, they should all
-      have matching "data-wait-for-event", which should also match the "data-fire-event" for the
-      button. Note in this sample, they are all RFM1-->
-
     <section id="sect-00002">
       <title>Are you ready for more?</title>
       <section id="sect-00003">
@@ -477,7 +465,7 @@
             </m:math></item>
         </list>
 
-        <exercise class="RFM1" id="exer-00005">
+        <exercise class="RFM1 unnumbered" id="exer-00005">
           <problem id="prob-00006">
             <para id="para-00024">Write two expressions that are equivalent to <m:math display="inline">
                 <m:mrow>
@@ -513,11 +501,23 @@
       </section>
     </section>
 
+    </section>
+    <!--Interaction
+      End -->
+
+
+    <!-- "Start "Are you Ready for More? click to reveal.  If you have more than one on a page, you
+      will need to change the Data-fire/data-wait-for-events for each set.-->
+    <!--Start
+      interaction.  If multiple interactions appear under "are you ready for more?, they should all
+      have matching "data-wait-for-event", which should also match the "data-fire-event" for the
+      button. Note in this sample, they are all RFM1-->
+
     <section id="sect-00004">
       <note class="self-check" id="note-00001">
         <exercise id="exer-00011">
           <problem id="prob-00013">
-            <para id="para-00009"><link class="os-embed" url="#exercise/Alg1_1_6_2_SC" /></para>
+            <para id="para-00009"><link class="os-embed" url="#exercise/Alg1_1_6_2_SC"/></para>
           </problem>
         </exercise>
       </note>
@@ -531,7 +531,7 @@
         <para id="para-00028">Equivalent equations are equations that have the same solutions. They are often found by using inverse operations or by multiplying each term in the equation by the same value.</para>
 
         <section id="sect-00007">
-          <para id="para-00002"><emphasis>Example</emphasis></para>
+          <para id="para-00002" class="example-title"><emphasis>Example</emphasis></para>
           <para id="para-00029">Write three equivalent equations to <m:math display="inline">
               <m:mrow>
                 <m:mn>4</m:mn>
@@ -547,7 +547,7 @@
             <item> Using division </item>
             <item> Using multiplication </item>
           </list>
-          <para id="para-00030"><emphasis>Using an inverse operation:</emphasis><newline /> An equivalent equation can be determined by adding 2 to both sides.</para>
+          <para id="para-00030"><emphasis>Using an inverse operation:</emphasis><newline/> An equivalent equation can be determined by adding 2 to both sides.</para>
           <para id="para-00031"><m:math>
               <m:mrow>
                 <m:mn>4</m:mn>
@@ -557,7 +557,7 @@
                 <m:mo>=</m:mo>
                 <m:mn>8</m:mn>
               </m:mrow>
-            </m:math><newline />
+            </m:math><newline/>
           <m:math display="inline">
               <m:mrow>
                 <m:mn>4</m:mn>
@@ -571,7 +571,7 @@
                 <m:mo>+</m:mo>
                 <m:mn>2</m:mn>
               </m:mrow>
-            </m:math><newline />
+            </m:math><newline/>
           <m:math display="inline">
               <m:mrow>
                 <m:mn>4</m:mn>
@@ -579,7 +579,7 @@
                 <m:mo>=</m:mo>
                 <m:mn>10</m:mn>
               </m:mrow>
-            </m:math><newline />
+            </m:math><newline/>
           <m:math display="inline">
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
@@ -602,7 +602,7 @@
               </m:mrow>
             </m:math> are equivalent.</para>
 
-          <para id="para-00032"><emphasis>Using division:</emphasis><newline /> An equivalent equation can be determined by dividing by 2 (or multiplying by <m:math display="inline">
+          <para id="para-00032"><emphasis>Using division:</emphasis><newline/> An equivalent equation can be determined by dividing by 2 (or multiplying by <m:math display="inline">
               <m:mrow>
                 <m:mfrac>
                   <m:mn>1</m:mn>
@@ -619,7 +619,7 @@
                 <m:mo>=</m:mo>
                 <m:mn>8</m:mn>
               </m:mrow>
-            </m:math><newline />
+            </m:math><newline/>
           <m:math display="inline">
               <m:mrow>
                 <m:mo stretchy="false">(</m:mo>
@@ -653,7 +653,7 @@
                 <m:mn>8</m:mn>
                 <m:mo stretchy="false">)</m:mo>
               </m:mrow>
-            </m:math><newline />
+            </m:math><newline/>
           <m:math display="inline">
               <m:mrow>
                 <m:mn>2</m:mn>
@@ -687,7 +687,7 @@
                 <m:mo stretchy="false">)</m:mo>
               </m:mrow>
             </m:math> are equivalent.</para>
-          <para id="para-00035"><emphasis>Using multiplication:</emphasis><newline /> An equivalent equation can be determined by multiplying the same number to both sides.</para>
+          <para id="para-00035"><emphasis>Using multiplication:</emphasis><newline/> An equivalent equation can be determined by multiplying the same number to both sides.</para>
 
           <!--Q#-->
           <exercise id="exer-00006">
@@ -725,7 +725,7 @@
                     <m:mo>=</m:mo>
                     <m:mn>8</m:mn>
                   </m:mrow>
-                </m:math><newline />
+                </m:math><newline/>
               <m:math display="inline">
                   <m:mrow>
                     <m:mo stretchy="false">(</m:mo>
@@ -745,7 +745,7 @@
                     <m:mn>8</m:mn>
                     <m:mo stretchy="false">)</m:mo>
                   </m:mrow>
-                </m:math><newline />
+                </m:math><newline/>
               <m:math display="inline">
                   <m:mrow>
                     <m:mn>12</m:mn>
