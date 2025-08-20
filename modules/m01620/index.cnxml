@@ -15,7 +15,7 @@
       <exercise id="exer-00001">
         <problem id="prob-00001">
 
-          <para id="para-00002">1. <m:math display="inline">
+          <para id="para-00002" class="custom-question-container"><span class="custom-question-number">1. </span><m:math display="inline">
               <m:mrow>
                 <m:mi>f</m:mi>
                 <m:mo stretchy="false">(</m:mo>
@@ -122,7 +122,7 @@
       <exercise id="exer-00002">
         <problem id="prob-00002">
 
-          <para id="para-00029">2. <m:math display="inline">
+          <para id="para-00029" class="custom-question-container"><span class="custom-question-number">2. </span><m:math display="inline">
               <m:mrow>
                 <m:mi>f</m:mi>
                 <m:mo stretchy="false">(</m:mo>
@@ -227,7 +227,7 @@
       <exercise id="exer-00003">
         <problem id="prob-00003">
 
-          <para id="para-00048">3. <m:math display="inline">
+          <para id="para-00048" class="custom-question-container"><span class="custom-question-number">3. </span><m:math display="inline">
               <m:mrow>
                 <m:mi>f</m:mi>
                 <m:mo stretchy="false">(</m:mo>
@@ -367,7 +367,7 @@
 
       <exercise id="_1354241e-b60c-45b8-951b-099be0a8eba8" class="multiple-choice">
         <problem id="prob-00004">
-          <para id="para-00015">4. Use the Remainder Theorem to find the remainder when <m:math display="inline">
+          <para id="para-00015" class="custom-question-container"><span class="custom-question-number">4. </span>Use the Remainder Theorem to find the remainder when <m:math display="inline">
               <m:mrow>
                 <m:mi>f</m:mi>
                 <m:mo stretchy="false">(</m:mo>
@@ -399,7 +399,7 @@
 
       <exercise id="_53f4a375-e2b9-4945-a16f-9fc9e4fd3361" class="multiple-choice">
         <problem id="prob-00005">
-          <para id="para-00020">5. Use the Remainder Theorem to find the remainder when <m:math display="inline">
+          <para id="para-00020" class="custom-question-container"><span class="custom-question-number">5. </span>Use the Remainder Theorem to find the remainder when <m:math display="inline">
               <m:mrow>
                 <m:mi>f</m:mi>
                 <m:mo stretchy="false">(</m:mo>
@@ -1241,8 +1241,7 @@
           as the remainder from the division problem.</para>
         <table class="unnumbered os-raise-wideadjustedtable" id="table-00001">
           <tgroup cols="5">
-            <tbody>
-              <row>
+            <thead><row>
                 <entry>
                   <emphasis>Dividend</emphasis>
                 </entry>
@@ -1266,6 +1265,7 @@
                     </m:math></emphasis>
                 </entry>
               </row>
+              </thead><tbody>
               <row>
                 <entry>
                   <para id="para-00059"><m:math>

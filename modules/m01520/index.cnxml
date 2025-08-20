@@ -29,8 +29,7 @@
         function.</para>
       <table class="unnumbered os-raise-skinnytable" id="table-00002">
         <tgroup cols="2">
-<tbody>
-            <row>
+<thead><row>
               <entry><emphasis>
                   <m:math display="inline">
                     <m:mrow>
@@ -51,6 +50,7 @@
                 </emphasis>
               </entry>
             </row>
+            </thead><tbody>
             <row>
               <entry>
                 <para id="para-00002">3</para>
@@ -128,7 +128,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00016">1. How does <m:math display="inline">
+          <para id="para-00016" class="custom-question-container"><span class="custom-question-number">1. </span>How does <m:math display="inline">
               <m:mrow>
                 <m:mi>g</m:mi>
                 <m:mo stretchy="false">(</m:mo>
@@ -161,7 +161,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00019">2. Choose two new input values that are consecutive whole numbers
+          <para id="para-00019" class="custom-question-container"><span class="custom-question-number">2. </span>Choose two new input values that are consecutive whole numbers
             and find their output values. Record them in the table. How do the output values change
             for those two input values? </para>
         </problem>
@@ -212,7 +212,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00022">3. Complete the table with the output when the input is <m:math display="inline">
+          <para id="para-00022" class="custom-question-container"><span class="custom-question-number">3. </span>Complete the table with the output when the input is <m:math display="inline">
               <m:mrow>
                 <m:mi>x</m:mi>
               </m:mrow>
@@ -231,8 +231,7 @@
 
           <table class="unnumbered os-raise-skinnytable" id="table-00003">
             <tgroup cols="2">
-<tbody>
-                <row>
+<thead><row>
                   <entry><emphasis>
                       <m:math display="inline">
                         <m:mrow>
@@ -253,6 +252,7 @@
                     </emphasis>
                   </entry>
                 </row>
+                </thead><tbody>
                 <row>
                   <entry>
                     <para id="para-00024"><m:math>
@@ -305,7 +305,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00026">4. Look at the change in output values as the <m:math display="inline">
+          <para id="para-00026" class="custom-question-container"><span class="custom-question-number">4. </span>Look at the change in output values as the <m:math display="inline">
               <m:mrow>
                 <m:mi>x</m:mi>
               </m:mrow>
@@ -383,7 +383,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00030">5. Choose two <m:math display="inline">
+          <para id="para-00030" class="custom-question-container"><span class="custom-question-number">5. </span>Choose two <m:math display="inline">
               <m:mrow>
                 <m:mi>x</m:mi>
               </m:mrow>
@@ -424,7 +424,7 @@
       Entry Interaction Start -->
       <exercise id="exer-00006">
         <problem id="prob-00006">
-          <para id="para-00033">6. Complete this table with the output when the input is <m:math display="inline">
+          <para id="para-00033" class="custom-question-container"><span class="custom-question-number">6. </span>Complete this table with the output when the input is <m:math display="inline">
               <m:mrow>
                 <m:mi>x</m:mi>
               </m:mrow>
@@ -442,8 +442,7 @@
             </m:math> increases by 3. Does it
             agree with your group’s findings in the previous question? Show your reasoning. <table class="unnumbered os-raise-skinnytable" id="table-00004">
               <tgroup cols="2">
-<tbody>
-                  <row>
+<thead><row>
                     <entry><emphasis>
                         <m:math display="inline">
                           <m:mrow>
@@ -464,6 +463,7 @@
                       </emphasis>
                     </entry>
                   </row>
+                  </thead><tbody>
                   <row>
                     <entry>
                       <para id="para-00034"><m:math>
@@ -496,8 +496,7 @@
 
           <table class="unnumbered os-raise-skinnytable" id="table-00005">
             <tgroup cols="2">
-<tbody>
-                <row>
+<thead><row>
                   <entry><emphasis>
                       <m:math display="inline">
                         <m:mrow>
@@ -518,6 +517,7 @@
                     </emphasis>
                   </entry>
                 </row>
+                </thead><tbody>
                 <row>
                   <entry>
                     <para id="para-00037"><m:math>
@@ -633,7 +633,7 @@
       <!--Q#7-->
       <exercise id="exer-00007">
         <problem id="prob-00007">
-          <para id="para-00040">7. Summarize the process you used in questions 1 – 6 to analyze this
+          <para id="para-00040" class="custom-question-container"><span class="custom-question-number">7. </span>Summarize the process you used in questions 1 – 6 to analyze this
             data.</para>
         </problem>
         <solution id="sol-00007">
@@ -652,7 +652,7 @@
       <!--Q#7-->
       <exercise id="exer-00008">
         <problem id="prob-00008">
-          <para id="para-00043">8. Explain if you found it helpful or not to analyze the data for
+          <para id="para-00043" class="custom-question-container"><span class="custom-question-number">8. </span>Explain if you found it helpful or not to analyze the data for
             simpler data (1 - 2) before analyzing it for more abstract data (questions 3 – 6).</para>
         </problem>
         <solution id="sol-00008">
@@ -675,13 +675,13 @@
 
         <table class="unnumbered os-raise-wideadjustedtable" id="table-00006">
           <tgroup cols="2">
-<tbody>
-              <row>
+<thead><row>
                 <entry><emphasis>Multiplication representing repeated addition </emphasis>
                 </entry>
                 <entry><emphasis>Exponentiation representing repeated multiplication </emphasis>
                 </entry>
               </row>
+              </thead><tbody>
               <row>
                 <entry>
                   <para id="para-00048"><m:math>
@@ -734,11 +734,11 @@
 
         <table class="unnumbered os-raise-skinnytable" id="table-00007">
           <tgroup cols="1">
-<tbody>
-              <row>
+<thead><row>
                 <entry><emphasis>Tetration representing repeated exponentiation </emphasis>
                 </entry>
               </row>
+              </thead><tbody>
               <row>
                 <entry>
                   <para id="para-00050"><m:math>
@@ -774,7 +774,7 @@
         button. Note in this sample, they are all RFM1-->
         <exercise id="_313acd1a-7c7e-4fbb-afb2-d1bcadcd6aa4" class="multiple-choice">
           <problem id="prob-00009">
-            <para id="para-00051">1. Compute <m:math display="inline">
+            <para id="para-00051" class="custom-question-container"><span class="custom-question-number">1. </span>Compute <m:math display="inline">
                 <m:mrow>
                   <m:mn>2</m:mn>
                   <m:mo>↑</m:mo>
@@ -819,7 +819,7 @@
 
         <exercise id="e74fe222-cc10-4559-8c03-0680b1d0a710" class="multiple-choice">
           <problem id="prob-00010">
-            <para id="para-00054">2. Compute <m:math display="inline">
+            <para id="para-00054" class="custom-question-container"><span class="custom-question-number">2. </span>Compute <m:math display="inline">
                 <m:mrow>
                   <m:mi>f</m:mi>
                   <m:mo stretchy="false">(</m:mo>
@@ -856,7 +856,7 @@
 
         <exercise class="RFM1" id="exer-00009">
           <problem id="prob-00011">
-            <para id="para-00057">3. What is the relationship between <m:math display="inline">
+            <para id="para-00057" class="custom-question-container"><span class="custom-question-number">3. </span>What is the relationship between <m:math display="inline">
                 <m:mrow>
                   <m:mi>f</m:mi>
                   <m:mo stretchy="false">(</m:mo>
@@ -992,8 +992,7 @@
           input–output pairs as given in the table.</para>
         <table class="unnumbered os-raise-wideequaltable" id="table-00001">
           <tgroup cols="3">
-<tbody>
-              <row>
+<thead><row>
                 <entry>
                   <emphasis>
                     <m:math display="inline">
@@ -1038,6 +1037,7 @@
                   </emphasis>
                 </entry>
               </row>
+              </thead><tbody>
               <row>
                 <entry> 0 </entry>
                 <entry> 2 </entry>
