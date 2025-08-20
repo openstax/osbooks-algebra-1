@@ -48,8 +48,7 @@
             </m:math>.</para>
           <table class="unnumbered os-raise-midsizetable" id="table-00001">
             <tgroup cols="3">
-<tbody>
-                <row>
+<thead><row>
                   <entry><emphasis>
                       <m:math display="inline">
                         <m:mrow>
@@ -81,6 +80,7 @@
                     </emphasis>
                   </entry>
                 </row>
+                </thead><tbody>
                 <row>
                   <entry> 1 </entry>
                   <entry/>
@@ -118,8 +118,7 @@
 
           <table class="unnumbered os-raise-midsizetable" id="table-00002">
             <tgroup cols="3">
-<tbody>
-                <row>
+<thead><row>
                   <entry><emphasis>
                       <m:math display="inline">
                         <m:mrow>
@@ -151,6 +150,7 @@
                     </emphasis>
                   </entry>
                 </row>
+                </thead><tbody>
                 <row>
                   <entry> 1 </entry>
                   <entry> 2 </entry>
@@ -545,12 +545,12 @@
           <item>Since Option A is $1.50 per bushel picked, it is linear. For Option B, the amount of
             money is tripling for each bushel picked, so it is exponential. <table class="unnumbered os-raise-doubleheadertable" id="table-00004">
               <tgroup cols="3">
-<tbody>
-                  <row>
+<thead><row>
                     <entry><emphasis/></entry>
                     <entry><emphasis>Linear Model</emphasis></entry>
                     <entry><emphasis>Exponential Model</emphasis></entry>
                   </row>
+                  </thead><tbody>
                   <row>
                     <entry><emphasis>General Form</emphasis></entry>
                     <entry>
@@ -781,8 +781,7 @@
             </table>
     <table class="unnumbered os-raise-skinnytable" id="table-00005">
               <tgroup cols="2">
-<tbody>
-                  <row>
+<thead><row>
                     <entry><emphasis><m:math>
                           <m:mrow>
                             <m:mi>x</m:mi>
@@ -797,6 +796,7 @@
                           </m:mrow>
                         </m:math></emphasis></entry>
                   </row>
+                  </thead><tbody>
                   <row>
                     <entry> 0 </entry>
                     <entry> 0 </entry>
@@ -820,8 +820,7 @@
     
       <table class="unnumbered os-raise-skinnytable" id="table-00006">
               <tgroup cols="2">
-<tbody>
-                  <row>
+<thead><row>
                     <entry><emphasis><m:math>
                           <m:mrow>
                             <m:mi>x</m:mi>
@@ -836,6 +835,7 @@
                           </m:mrow>
                         </m:math></emphasis></entry>
                   </row>
+                  </thead><tbody>
                   <row>
                     <entry> 0 </entry>
                     <entry> 0.01 </entry>
@@ -862,13 +862,13 @@
             table for Option B, multiply each term by 3 to get the next term. <para id="para-00019">Option
             A table </para><table class="unnumbered os-raise-midsizetable" id="table-00007">
               <tgroup cols="2">
-<tbody>
-                  <row>
+<thead><row>
                     <entry><emphasis> Number of bushels </emphasis>
                     </entry>
                     <entry><emphasis> Amount of money earned </emphasis>
                     </entry>
                   </row>
+                  </thead><tbody>
                   <row>
                     <entry> 1 </entry>
                     <entry> 1.50 </entry>
@@ -900,13 +900,13 @@
     <para id="para-00020">Option B table</para>
     <table class="unnumbered os-raise-midsizetable" id="table-00008">
               <tgroup cols="2">
-<tbody>
-                  <row>
+<thead><row>
                     <entry><emphasis> Number of bushels </emphasis>
                     </entry>
                     <entry><emphasis> Amount of money earned </emphasis>
                     </entry>
                   </row>
+                  </thead><tbody>
                   <row>
                     <entry> 1 </entry>
                     <entry> 0.03 </entry>
