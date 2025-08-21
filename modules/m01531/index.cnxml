@@ -10,8 +10,7 @@
       <quote id="quote-00001">The table below shows the populations of three cities during different years. Take a moment to think of at least one thing you notice and one thing you wonder.</quote>
       <table class="unnumbered os-raise-wideequaltable" id="table-00001">
         <tgroup cols="7">
-          <tbody>
-            <row>
+          <thead><row>
               <entry><emphasis> City </emphasis>
               </entry>
               <entry><emphasis> 1950 </emphasis>
@@ -27,6 +26,7 @@
               <entry><emphasis> 2000 </emphasis>
               </entry>
             </row>
+            </thead><tbody>
             <row>
               <entry> Paris </entry>
               <entry> 6,300,000 </entry>

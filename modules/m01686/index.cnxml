@@ -15,8 +15,7 @@
           <para id="para-00002">Draw a table similar to this on a sheet of paper. Record your results. If a polynomial requires both methods, place it in both columns.</para>
           <table class="unnumbered os-raise-midsizetable" id="table-00001">
             <tgroup cols="2">
-              <tbody>
-                <row>
+              <thead><row>
                   <entry>
                     <emphasis>Difference of Squares Method</emphasis>
                   </entry>
@@ -24,6 +23,7 @@
                     <emphasis>Perfect Square Trinomial Method</emphasis>
                   </entry>
                 </row>
+                </thead><tbody>
                 <row>
                   <entry>
                     <newline/>
@@ -45,8 +45,7 @@
           <para id="para-00004">Compare your answers:</para>
           <table class="unnumbered os-raise-midsizetable" id="table-00002">
             <tgroup cols="2">
-              <tbody>
-                <row>
+              <thead><row>
                   <entry>
                     <emphasis>Difference of Squares Method</emphasis>
                   </entry>
@@ -54,6 +53,7 @@
                     <emphasis>Perfect Square Trinomial Method</emphasis>
                   </entry>
                 </row>
+                </thead><tbody>
                 <row>
                   <entry><para id="para-00007">
                     <m:math display="inline">
@@ -63,7 +63,7 @@
                           <m:mi>q</m:mi>
                           <m:mn>2</m:mn>
                         </m:msup>
-                        <m:mo>–</m:mo>
+                        <m:mo>&#8722;</m:mo>
                         <m:mn>3</m:mn>
                       </m:mrow>
                     </m:math></para><para id="para-00008">
@@ -74,7 +74,7 @@
                           <m:mi>p</m:mi>
                           <m:mn>2</m:mn>
                         </m:msup>
-                        <m:mo>–</m:mo>
+                        <m:mo>&#8722;</m:mo>
                         <m:mn>100</m:mn>
                       </m:mrow>
                     </m:math></para><para id="para-00009">
@@ -84,12 +84,12 @@
                           <m:mi>x</m:mi>
                           <m:mn>2</m:mn>
                         </m:msup>
-                        <m:mo>–</m:mo>
+                        <m:mo>&#8722;</m:mo>
                         <m:mn>10</m:mn>
                         <m:mi>x</m:mi>
                         <m:mo>+</m:mo>
                         <m:mn>25</m:mn>
-                        <m:mo>–</m:mo>
+                        <m:mo>&#8722;</m:mo>
                         <m:msup>
                           <m:mi>y</m:mi>
                           <m:mn>2</m:mn>
@@ -107,7 +107,7 @@
                         <m:mi>x</m:mi>
                         <m:mo>+</m:mo>
                         <m:mn>36</m:mn>
-                        <m:mo>–</m:mo>
+                        <m:mo>&#8722;</m:mo>
                         <m:msup>
                           <m:mi>y</m:mi>
                           <m:mn>2</m:mn>
@@ -123,7 +123,7 @@
                           <m:mi>x</m:mi>
                           <m:mn>2</m:mn>
                         </m:msup>
-                        <m:mo>–</m:mo>
+                        <m:mo>&#8722;</m:mo>
                         <m:mn>72</m:mn>
                         <m:mi>x</m:mi>
                         <m:mo>+</m:mo>
@@ -150,12 +150,12 @@
                           <m:mi>x</m:mi>
                           <m:mn>2</m:mn>
                         </m:msup>
-                        <m:mo>–</m:mo>
+                        <m:mo>&#8722;</m:mo>
                         <m:mn>10</m:mn>
                         <m:mi>x</m:mi>
                         <m:mo>+</m:mo>
                         <m:mn>25</m:mn>
-                        <m:mo>–</m:mo>
+                        <m:mo>&#8722;</m:mo>
                         <m:msup>
                           <m:mi>y</m:mi>
                           <m:mn>2</m:mn>
@@ -173,7 +173,7 @@
                         <m:mi>x</m:mi>
                         <m:mo>+</m:mo>
                         <m:mn>36</m:mn>
-                        <m:mo>–</m:mo>
+                        <m:mo>&#8722;</m:mo>
                         <m:msup>
                           <m:mi>y</m:mi>
                           <m:mn>2</m:mn>

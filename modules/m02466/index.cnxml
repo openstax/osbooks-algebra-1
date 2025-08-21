@@ -2,67 +2,344 @@
   <title>Understanding That the Quadratic Formula Is the Combined Steps of Completing the Square</title>
   <metadata xmlns:md="http://cnx.rice.edu/mdml">
     <md:content-id>m02466</md:content-id>
-    <md:title>Understanding That the Quadratic Formula Is the Combined Steps of Completing the Square</md:title>
+    <md:title>Understanding That the Quadratic Formula Is the Combined Steps of Completing the
+      Square</md:title>
     <md:uuid>15324b4e-953c-4b45-989c-71ab982a99ea</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001"><title>Cool Down</title>
-          <para id="para-00001">Here is one solution for solving <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math> by <term class="glossary-tooltip" id="term-00001">completing the square</term>, where each step is shown, but numerical expressions are not evaluated.</para>
-          <para id="para-00002">Original equation <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>8</m:mn><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math></para>
-          <para id="para-00003"><emphasis>Step 1</emphasis> - <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>8</m:mn></m:mrow></m:math></para>
-          <para id="para-00004"><emphasis>Step 2</emphasis> - <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mo>–</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math></para>
-          <para id="para-00005"><emphasis>Step 3</emphasis> - <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>32</m:mn></m:mrow></m:math></para>
-          <para id="para-00006"><emphasis>Step 4</emphasis> - <m:math display="inline"><m:mrow><m:msup><m:mi>P</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>P</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>32</m:mn></m:mrow></m:math></para>
-          <para id="para-00007"><emphasis>Step 5</emphasis> - <m:math display="inline"><m:mrow><m:msup><m:mi>P</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>6</m:mn><m:mi>P</m:mi><m:mo>+</m:mo><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>32</m:mn><m:mo>+</m:mo><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:math></para>
-          <para id="para-00008"><emphasis>Step 6</emphasis> - <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>P</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>=</m:mo><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:mn>32</m:mn></m:mrow></m:math></para>
-          <para id="para-00009"><emphasis>Step 7</emphasis> - <m:math display="inline"><m:mrow><m:mi>P</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo>=</m:mo><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:mn>32</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
-          <para id="para-00010"><emphasis>Step 8</emphasis> - <m:math display="inline"><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>3</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:mn>32</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
-          <para id="para-00011"><emphasis>Step 9</emphasis> - <m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mi>x</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>3</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:mn>32</m:mn></m:mrow></m:msqrt></m:mrow></m:math></para>
-          <para id="para-00012"><emphasis>Step 10</emphasis> - </para><para id="para-00029"><m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo>–</m:mo><m:mn>3</m:mn><m:mi>±</m:mi><m:msqrt><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:mn>32</m:mn></m:mrow></m:msqrt></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math></para>
-          <exercise id="exer-00001">
-            <problem id="prob-00001">
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Cool Down</title>
+      <para id="para-00001">Here is one solution for solving <m:math display="inline">
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>8</m:mn>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+          </m:mrow>
+        </m:math> by <term class="glossary-tooltip"
+          id="term-00001">completing the square</term>, where each step is shown, but numerical
+        expressions are not evaluated.</para>
+      <para id="para-00002">Original equation <m:math display="inline">
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>8</m:mn>
+            <m:mo>=</m:mo>
+            <m:mn>0</m:mn>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00003"><emphasis>Step 1</emphasis> - <m:math display="inline">
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>=</m:mo>
+            <m:mo>&#8722;</m:mo>
+            <m:mn>8</m:mn>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00004"><emphasis>Step 2</emphasis> - <m:math display="inline">
+          <m:mrow>
+            <m:mn>4</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo stretchy="false">)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mn>4</m:mn>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mo>&#8722;</m:mo>
+            <m:mn>8</m:mn>
+            <m:mo stretchy="false">)</m:mo>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00005"><emphasis>Step 3</emphasis> - <m:math display="inline">
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:msup>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>6</m:mn>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo stretchy="false">)</m:mo>
+            <m:mo>=</m:mo>
+            <m:mo>&#8722;</m:mo>
+            <m:mn>32</m:mn>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00006"><emphasis>Step 4</emphasis> - <m:math display="inline">
+          <m:mrow>
+            <m:msup>
+              <m:mi>P</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>6</m:mn>
+            <m:mi>P</m:mi>
+            <m:mo>=</m:mo>
+            <m:mo>&#8722;</m:mo>
+            <m:mn>32</m:mn>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00007"><emphasis>Step 5</emphasis> - <m:math display="inline">
+          <m:mrow>
+            <m:msup>
+              <m:mi>P</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>6</m:mn>
+            <m:mi>P</m:mi>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:mo>&#8722;</m:mo>
+            <m:mn>32</m:mn>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00008"><emphasis>Step 6</emphasis> - <m:math display="inline">
+          <m:mrow>
+            <m:mo stretchy="false">(</m:mo>
+            <m:mi>P</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+            <m:msup>
+              <m:mo stretchy="false">)</m:mo>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>=</m:mo>
+            <m:msup>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>&#8722;</m:mo>
+            <m:mn>32</m:mn>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00009"><emphasis>Step 7</emphasis> - <m:math display="inline">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+            <m:mo>=</m:mo>
+            <m:mi>±</m:mi>
+            <m:msqrt>
+              <m:mrow>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>&#8722;</m:mo>
+                <m:mn>32</m:mn>
+              </m:mrow>
+            </m:msqrt>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00010"><emphasis>Step 8</emphasis> - <m:math display="inline">
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mo>=</m:mo>
+            <m:mo>&#8722;</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>±</m:mi>
+            <m:msqrt>
+              <m:mrow>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>&#8722;</m:mo>
+                <m:mn>32</m:mn>
+              </m:mrow>
+            </m:msqrt>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00011"><emphasis>Step 9</emphasis> - <m:math display="inline">
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>=</m:mo>
+            <m:mo>&#8722;</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>±</m:mi>
+            <m:msqrt>
+              <m:mrow>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>&#8722;</m:mo>
+                <m:mn>32</m:mn>
+              </m:mrow>
+            </m:msqrt>
+          </m:mrow>
+        </m:math></para>
+      <para id="para-00012"><emphasis>Step 10</emphasis> - </para>
+      <para id="para-00029"><m:math display="inline">
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>=</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mo>&#8722;</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>±</m:mi>
+                <m:msqrt>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>3</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:msup>
+                    <m:mo>&#8722;</m:mo>
+                    <m:mn>32</m:mn>
+                  </m:mrow>
+                </m:msqrt>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:math></para>
+      <exercise id="exer-00001">
+        <problem id="prob-00001">
           <para id="para-00013">In Step 2, the equation is multiplied by 4. Why might that be?</para>
-          <para id="para-00014"/>
+          <para id="para-00014" />
         </problem>
         <solution id="sol-00001">
           <para id="para-00015">Compare your answer: </para>
-          <para id="para-00016">To make the coefficient of <m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> a <term class="glossary-tooltip" id="term-00002">perfect square</term> and the coefficient of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> an even number</para>
+          <para id="para-00016">To make the coefficient of <m:math display="inline">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            a <term class="glossary-tooltip" id="term-00002">perfect square</term> and the
+            coefficient of <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> an even number</para>
         </solution>
       </exercise>
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00017">In Step 5, <m:math display="inline"><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:math> is added to each side. Why might that be?</para>
-          <para id="para-00018"/>
+          <para id="para-00017">In Step 5, <m:math display="inline">
+              <m:mrow>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            is added to each side. Why might that be?</para>
+          <para id="para-00018" />
         </problem>
         <solution id="sol-00002">
           <para id="para-00019">Compare your answer: </para>
-          <para id="para-00020"><m:math display="inline"><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:math> completes the square for the expression on the left side. To keep the two sides equal, it needs to be added to the other side as well.</para>
+          <para id="para-00020"><m:math display="inline">
+              <m:mrow>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            completes the square for the expression on the left side. To keep the two sides equal,
+            it needs to be added to the other side as well.</para>
         </solution>
       </exercise>
       <exercise id="exer-00003">
         <problem id="prob-00003">
           <para id="para-00021">What happened between Step 5 and Step 6?</para>
-          <para id="para-00022"/>
+          <para id="para-00022" />
         </problem>
         <solution id="sol-00003">
           <para id="para-00023">Compare your answer: </para>
-          <para id="para-00024">The perfect square is rewritten in factored form, and <m:math display="inline"><m:mrow><m:mo>–</m:mo><m:mn>32</m:mn><m:mo>+</m:mo><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:math> is rewritten as <m:math display="inline"><m:mrow><m:msup><m:mn>3</m:mn><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:mn>32</m:mn></m:mrow></m:math>.</para>
+          <para id="para-00024">The perfect square is rewritten in factored form, and <m:math
+              display="inline">
+              <m:mrow>
+                <m:mo>&#8722;</m:mo>
+                <m:mn>32</m:mn>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math>
+            is rewritten as <m:math display="inline">
+              <m:mrow>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>&#8722;</m:mo>
+                <m:mn>32</m:mn>
+              </m:mrow>
+            </m:math>.</para>
         </solution>
       </exercise>
       <note id="note-00001">
         <title id="para-00025">Building Character: Intellectual Humility</title>
 
-  <media alt="Two people stand at podiums, engaged in a debate. Both wear suits with rosette pins and speak animatedly. Speech bubbles with question marks and ellipses hover above them. Balloons and plants decorate the scene.">
-            <image mime-type="image/png" src="../../media/Algebra-1_10_10_08_01.png" width="200px"/>
-          </media>
+  <media
+          alt="Two people stand at podiums, engaged in a debate. Both wear suits with rosette pins and speak animatedly. Speech bubbles with question marks and ellipses hover above them. Balloons and plants decorate the scene.">
+          <image mime-type="image/png" src="../../media/Algebra-1_10_10_08_01.png" width="200px" />
+        </media>
 
-            <para id="para-00026">No matter how old you are, with intellectual humility you become wiser. It helps you be less judgmental of others, learn more in school, and be a better leader.</para>
-            <para id="para-00027">Think about yourself. Are these statements true for you?</para>
-            <list id="list-00001">
+            <para
+          id="para-00026">No matter how old you are, with intellectual humility you become wiser. It
+        helps you be less judgmental of others, learn more in school, and be a better leader.</para>
+            <para
+          id="para-00027">Think about yourself. Are these statements true for you?</para>
+            <list
+          id="list-00001">
           <item>I recognize the value in opinions that are different from my own. </item>
           <item>I accept that my beliefs and attitudes may be wrong. </item>
         </list>
-            <para id="para-00028">Don’t worry if none of these statements are true for you. Developing this trait takes time. Your first step starts today!</para>
+            <para
+          id="para-00028">Don’t worry if none of these statements are true for you. Developing this
+        trait takes time. Your first step starts today!</para>
       </note>
     </section>
   </content>
