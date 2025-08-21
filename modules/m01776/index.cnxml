@@ -6,34 +6,50 @@
     <md:uuid>9b2c88ca-c376-45d5-b27a-d3ca582c425f</md:uuid>
   </metadata>
   <content>
-    <section class="numbered-exercises" id="sect-00001"><title>Warm Up</title>
+    <section class="numbered-exercises" id="sect-00001">
+      <title>Warm Up</title>
       <para id="para-00001">Figure A is a large square. Figure B is a large square with a smaller square removed. Figure C is composed of two large squares with one smaller square added.</para>
-      <para id="para-00002">Figure A</para>
-      <para id="para-00003">
-          <media alt="A square.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_05_02_01.svg"/>
-          </media>
-        
-     </para>
-      <para id="para-00004">Figure B</para>
-      <para id="para-00005">
-          <media alt="A square with a 1 by 1 square removed from the lower left interior.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_05_02_02.svg"/>
-          </media>
-        
-     </para>
-      <para id="para-00006">Figure C</para>
-      <para id="para-00007">
-          <media alt="Two large squares connected on the right side to a one by one smaller square.">
-            <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_05_02_03.svg"/>
-          </media>
-        
-     </para>
+      <table class="unnumbered" id="table-00003" summary="A 1x3 table displaying three figures labeled Figure A, Figure B, and Figure C.">
+        <tgroup cols="3" align="center">
+          <colspec colnum="1" colname="col1" />
+          <colspec colnum="2" colname="col2" />
+          <colspec colnum="3" colname="col3" />
+          <tbody>
+            <row>
+              <entry>
+                <para id="para-00002">Figure A</para>
+          <para id="para-00003">
+                  <media alt="A square.">
+                    <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_05_02_01.svg" />
+                  </media>
+                </para>
+              </entry>
+              <entry>
+                <para id="para-00004">Figure B</para>
+          <para id="para-00005">
+                  <media alt="A square with a 1 by 1 square removed from the lower left interior.">
+                    <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_05_02_02.svg" />
+                  </media>
+                </para>
+              </entry>
+              <entry>
+                <para id="para-00006">Figure C</para>
+          <para id="para-00007">
+                  <media alt="Two large squares connected on the right side to a one by one smaller square.">
+                    <image mime-type="image/svg+xml" src="../../media/Algebra-1_08_05_02_03.svg" />
+                  </media>
+                </para>
+              </entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
       <para id="para-00008">Write an expression to represent the area of each shaded figure when the side length of the large square is as shown in the first column.</para>
       <para id="para-00009">Copy and complete the table. Compare your work by answering 1 - 12.</para>
       <table class="unnumbered os-raise-wideequaltable" id="table-00001">
         <tgroup cols="4">
-<thead><row>
+          <thead>
+            <row>
               <entry>
                 <emphasis> Side length of large square </emphasis>
               </entry>
@@ -47,156 +63,376 @@
                 <emphasis> Area of C </emphasis>
               </entry>
             </row>
-            </thead><tbody>
+          </thead>
+          <tbody>
             <row>
               <entry>
-                <para id="para-00010"><m:math><m:mrow><m:mn>4</m:mn></m:mrow></m:math></para></entry>
-              <entry/>
-              <entry/>
-              <entry/>
+                <para id="para-00010"><m:math>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                    </m:mrow>
+                  </m:math></para></entry>
+              <entry />
+              <entry />
+              <entry />
             </row>
             <row>
               <entry>
-                <para id="para-00011"><m:math><m:mrow><m:mi>x</m:mi></m:mrow></m:math></para></entry>
-              <entry/>
-              <entry/>
-              <entry/>
+                <para id="para-00011"><m:math>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:math></para></entry>
+              <entry />
+              <entry />
+              <entry />
             </row>
             <row>
               <entry>
-                <para id="para-00012"><m:math><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math></para></entry>
-              <entry/>
-              <entry/>
-              <entry/>
+                <para id="para-00012"><m:math>
+                    <m:mrow>
+                      <m:mn>4</m:mn>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:math></para></entry>
+              <entry />
+              <entry />
+              <entry />
             </row>
             <row>
               <entry>
-                <para id="para-00013"><m:math><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math></para></entry>
-              <entry/>
-              <entry/>
-              <entry/>
+                <para id="para-00013"><m:math>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo>+</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:math></para></entry>
+              <entry />
+              <entry />
+              <entry />
             </row>
           </tbody>
         </tgroup>
       </table>
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00014">When the side length of the large square is <m:math display="inline"><m:mrow><m:mn>4</m:mn></m:mrow></m:math>, what is the area of figure A?</para>
-          <para id="para-00015"/>
+          <para id="para-00014">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math>, what is the area of figure A?</para>
+          <para id="para-00015" />
         </problem>
         <solution id="sol-00001">
           <para id="para-00016">Compare your answer: </para>
-          <para id="para-00017"><m:math display="inline"><m:mrow><m:msup><m:mn>4</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00017"><m:math display="inline">
+              <m:mrow>
+                <m:msup>
+                  <m:mn>4</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
       <exercise id="exer-00002">
         <problem id="prob-00002">
-          <para id="para-00018">When the side length of the large square is <m:math display="inline"><m:mrow><m:mn>4</m:mn></m:mrow></m:math>, what is the area of figure B?</para>
-          <para id="para-00019"/>
+          <para id="para-00018">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math>, what is the area of figure B?</para>
+          <para id="para-00019" />
         </problem>
         <solution id="sol-00002">
           <para id="para-00020">Compare your answer: </para>
-          <para id="para-00021"><m:math display="inline"><m:mrow><m:msup><m:mn>4</m:mn><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00021"><m:math display="inline">
+              <m:mrow>
+                <m:msup>
+                  <m:mn>4</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>–</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00022">When the side length of the large square is <m:math display="inline"><m:mrow><m:mn>4</m:mn></m:mrow></m:math>, what is the area of figure C?</para>
-          <para id="para-00023"/>
+          <para id="para-00022">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mn>4</m:mn>
+              </m:mrow>
+            </m:math>, what is the area of figure C?</para>
+          <para id="para-00023" />
         </problem>
         <solution id="sol-00003">
           <para id="para-00024">Compare your answer: </para>
-          <para id="para-00025"><m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mn>4</m:mn><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00025"><m:math display="inline">
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:msup>
+                  <m:mn>4</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
       <exercise id="exer-00004">
         <problem id="prob-00004">
-          <para id="para-00026">When the side length of the large square is <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, what is the area of figure A?</para>
-          <para id="para-00027"/>
+          <para id="para-00026">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>, what is the area of figure A?</para>
+          <para id="para-00027" />
         </problem>
         <solution id="sol-00004">
           <para id="para-00028">Compare your answer: </para>
-          <para id="para-00029"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00029"><m:math display="inline">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
       <exercise id="exer-00005">
         <problem id="prob-00005">
-          <para id="para-00030">When the side length of the large square is <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, what is the area of figure B?</para>
-          <para id="para-00031"/>
+          <para id="para-00030">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>, what is the area of figure B?</para>
+          <para id="para-00031" />
         </problem>
         <solution id="sol-00005">
           <para id="para-00032">Compare your answer: </para>
-          <para id="para-00033"><m:math display="inline"><m:mrow><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00033"><m:math display="inline">
+              <m:mrow>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>–</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
       <exercise id="exer-00006">
         <problem id="prob-00006">
-          <para id="para-00034">When the side length of the large square is <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>, what is the area of figure C?</para>
-          <para id="para-00035"/>
+          <para id="para-00034">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>, what is the area of figure C?</para>
+          <para id="para-00035" />
         </problem>
         <solution id="sol-00006">
           <para id="para-00036">Compare your answer: </para>
-          <para id="para-00037"><m:math display="inline"><m:mrow><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00037"><m:math display="inline">
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
       <exercise id="exer-00007">
         <problem id="prob-00007">
-          <para id="para-00038">When the side length of the large square is <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math>, what is the area of figure A?</para>
-          <para id="para-00039"/>
+          <para id="para-00038">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>, what is the area of figure A?</para>
+          <para id="para-00039" />
         </problem>
         <solution id="sol-00007">
           <para id="para-00040">Compare your answer: </para>
-          <para id="para-00041"><m:math display="inline"><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mi>x</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00041"><m:math display="inline">
+              <m:mrow>
+                <m:mn>16</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math> or <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
       <exercise id="exer-00008">
         <problem id="prob-00008">
-          <para id="para-00042">When the side length of the large square is <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math>, what is the area of figure B?</para>
-          <para id="para-00043"/>
+          <para id="para-00042">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>, what is the area of figure B?</para>
+          <para id="para-00043" />
         </problem>
         <solution id="sol-00008">
           <para id="para-00044">Compare your answer: </para>
-          <para id="para-00045"><m:math display="inline"><m:mrow><m:mn>16</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00045"><m:math display="inline">
+              <m:mrow>
+                <m:mn>16</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>–</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
       <exercise id="exer-00009">
         <problem id="prob-00009">
-          <para id="para-00046">When the side length of the large square is <m:math display="inline"><m:mrow><m:mn>4</m:mn><m:mi>x</m:mi></m:mrow></m:math>, what is the area of figure C?</para>
-          <para id="para-00047"/>
+          <para id="para-00046">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mn>4</m:mn>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math>, what is the area of figure C?</para>
+          <para id="para-00047" />
         </problem>
         <solution id="sol-00009">
           <para id="para-00048">Compare your answer: </para>
-          <para id="para-00049"><m:math display="inline"><m:mrow><m:mn>32</m:mn><m:msup><m:mi>x</m:mi><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00049"><m:math display="inline">
+              <m:mrow>
+                <m:mn>32</m:mn>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
       <exercise id="exer-00010">
         <problem id="prob-00010">
-          <para id="para-00050">When the side length of the large square is <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>, what is the area of figure A?</para>
-          <para id="para-00051"/>
+          <para id="para-00050">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>, what is the area of figure A?</para>
+          <para id="para-00051" />
         </problem>
         <solution id="sol-00010">
           <para id="para-00052">Compare your answer: </para>
-          <para id="para-00053"><m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup></m:mrow></m:math> or <m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00053"><m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:math> or <m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
       <exercise id="exer-00011">
         <problem id="prob-00011">
-          <para id="para-00054">When the side length of the large square is <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>, what is the area of figure B?</para>
-          <para id="para-00055"/>
+          <para id="para-00054">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>, what is the area of figure B?</para>
+          <para id="para-00055" />
         </problem>
         <solution id="sol-00011">
           <para id="para-00056">Compare your answer: </para>
-          <para id="para-00057"><m:math display="inline"><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>–</m:mo><m:mn>1</m:mn></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00057"><m:math display="inline">
+              <m:mrow>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>–</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
       <exercise id="exer-00012">
         <problem id="prob-00012">
-          <para id="para-00058">When the side length of the large square is <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn></m:mrow></m:math>, what is the area of figure C</para>
-          <para id="para-00059"/>
+          <para id="para-00058">When the side length of the large square is <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:math>, what is the area of figure C</para>
+          <para id="para-00059" />
         </problem>
         <solution id="sol-00012">
           <para id="para-00060">Compare your answer: </para>
-          <para id="para-00061"><m:math display="inline"><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo>+</m:mo><m:mn>3</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:mn>1</m:mn></m:mrow></m:math> (or an equivalent expression)</para>
+          <para id="para-00061"><m:math display="inline">
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:msup>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math> (or an equivalent expression)</para>
         </solution>
       </exercise>
     </section>
