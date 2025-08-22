@@ -6,13 +6,13 @@
     <md:uuid>5b9bd6ee-5dc9-4d89-8e28-e1c24e9324c2</md:uuid>
   </metadata>
   <content>
-    <section id="sect-00001">
+    <section id="sect-00001" class="numbered-exercises">
       <title>Cool Down</title>
       <!--Text
       Entry Interaction Start -->
       <exercise id="exer-00001">
         <problem id="prob-00001">
-          <para id="para-00001" class="custom-question-container"><span class="custom-question-number">1. </span>The linear function <m:math display="inline">
+          <para id="para-00001" class="custom-question-container">The linear function <m:math display="inline">
               <m:mrow>
                 <m:mi>g</m:mi>
               </m:mrow>
@@ -43,9 +43,40 @@
               </m:mrow>
             </m:math> have a
             difference of 4.</para>
+
+             <para id="para-00005">b. Show that when the input value increases from <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> to <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math>, the output values <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> have a
+            difference of 4.</para>
         </problem>
+
         <solution id="sol-00001">
           <para id="para-00004">Compare your answer: </para>
+          <para id="para-00003">a.</para>
           <list id="list-00001">
             <item><m:math display="inline">
                 <m:mrow>
@@ -81,7 +112,7 @@
                   <m:mo stretchy="false">(</m:mo>
                   <m:mn>3</m:mn>
                   <m:mo stretchy="false">)</m:mo>
-                  <m:mo>&#8722;</m:mo>
+                  <m:mo>−</m:mo>
                   <m:mi>g</m:mi>
                   <m:mo stretchy="false">(</m:mo>
                   <m:mn>2</m:mn>
@@ -92,7 +123,7 @@
                   <m:mo stretchy="false">(</m:mo>
                   <m:mn>3</m:mn>
                   <m:mo stretchy="false">)</m:mo>
-                  <m:mo>&#8722;</m:mo>
+                  <m:mo>−</m:mo>
                   <m:mn>4</m:mn>
                   <m:mi>·</m:mi>
                   <m:mo stretchy="false">(</m:mo>
@@ -103,7 +134,7 @@
                   <m:mi>·</m:mi>
                   <m:mo stretchy="false">(</m:mo>
                   <m:mn>3</m:mn>
-                  <m:mo>&#8722;</m:mo>
+                  <m:mo>−</m:mo>
                   <m:mn>2</m:mn>
                   <m:mo stretchy="false">)</m:mo>
                   <m:mo>=</m:mo>
@@ -111,44 +142,7 @@
                 </m:mrow>
               </m:math></item>
           </list>
-        </solution>
-      </exercise>
-      <!--Interaction
-      End -->
-      <exercise id="exer-00002">
-        <problem id="prob-00002">
-          <para id="para-00005">b. Show that when the input value increases from <m:math display="inline">
-              <m:mrow>
-                <m:mi>x</m:mi>
-              </m:mrow>
-            </m:math> to <m:math display="inline">
-              <m:mrow>
-                <m:mi>x</m:mi>
-                <m:mo>+</m:mo>
-                <m:mn>1</m:mn>
-              </m:mrow>
-            </m:math>, the output values <m:math display="inline">
-              <m:mrow>
-                <m:mi>g</m:mi>
-                <m:mo stretchy="false">(</m:mo>
-                <m:mi>x</m:mi>
-                <m:mo>+</m:mo>
-                <m:mn>1</m:mn>
-                <m:mo stretchy="false">)</m:mo>
-              </m:mrow>
-            </m:math> and <m:math display="inline">
-              <m:mrow>
-                <m:mi>g</m:mi>
-                <m:mo stretchy="false">(</m:mo>
-                <m:mi>x</m:mi>
-                <m:mo stretchy="false">)</m:mo>
-              </m:mrow>
-            </m:math> have a
-            difference of 4. Use the '^' symbol to enter an exponent.</para>
-        </problem>
-        <solution id="sol-00002">
-          <para id="para-00007">Compare your answer: </para>
-          <para id="para-00008">
+ <para id="para-00008">b. 
             <m:math display="inline">
               <m:mrow>
                 <m:mi>g</m:mi>
@@ -157,7 +151,7 @@
                 <m:mo>+</m:mo>
                 <m:mn>1</m:mn>
                 <m:mo stretchy="false">)</m:mo>
-                <m:mo>&#8722;</m:mo>
+                <m:mo>−</m:mo>
                 <m:mi>g</m:mi>
                 <m:mo stretchy="false">(</m:mo>
                 <m:mi>x</m:mi>
@@ -170,7 +164,7 @@
                 <m:mo>+</m:mo>
                 <m:mn>1</m:mn>
                 <m:mo stretchy="false">)</m:mo>
-                <m:mo>&#8722;</m:mo>
+                <m:mo>−</m:mo>
                 <m:mn>4</m:mn>
                 <m:mi>x</m:mi>
                 <m:mo>=</m:mo>
@@ -180,7 +174,7 @@
                 <m:mi>x</m:mi>
                 <m:mo>+</m:mo>
                 <m:mn>1</m:mn>
-                <m:mo>&#8722;</m:mo>
+                <m:mo>−</m:mo>
                 <m:mi>x</m:mi>
                 <m:mo stretchy="false">)</m:mo>
                 <m:mo>=</m:mo>
@@ -194,13 +188,10 @@
             equals 4.</para>
         </solution>
       </exercise>
-      <!--Interaction
-      End -->
-      <!--Text
-      Entry Interaction Start -->
+      
       <exercise id="exer-00003">
         <problem id="prob-00003">
-          <para id="para-00009" class="custom-question-container"><span class="custom-question-number">2. </span>The exponential function <m:math display="inline">
+          <para id="para-00009" class="custom-question-container">The exponential function <m:math display="inline">
               <m:mrow>
                 <m:mi>h</m:mi>
               </m:mrow>
@@ -217,9 +208,7 @@
                 </m:msup>
               </m:mrow>
             </m:math>
-            . 
-        
-    </para>
+            .     </para>
           <para id="para-00010">a. Show that <m:math display="inline">
               <m:mrow>
                 <m:mi>h</m:mi>
@@ -235,10 +224,40 @@
                 <m:mo stretchy="false">)</m:mo>
               </m:mrow>
             </m:math> have a
-            quotient of 4. Use the '^' symbol to enter an exponent.</para>
+            quotient of 4.</para>
+
+            <para id="para-00013">b. Show that when the input value increases from <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:math> to <m:math display="inline">
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:math>, the output values <m:math display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> and <m:math display="inline">
+              <m:mrow>
+                <m:mi>h</m:mi>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mi>x</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:math> have a
+            quotient of 4.</para>
         </problem>
         <solution id="sol-00003">
           <para id="para-00012">Compare your answer: </para>
+          <para id="para-00006">a.</para>
           <list id="list-00002">
             <item><m:math display="inline">
                 <m:mrow>
@@ -317,7 +336,7 @@
                     <m:mn>4</m:mn>
                     <m:mrow>
                       <m:mn>3</m:mn>
-                      <m:mo>&#8722;</m:mo>
+                      <m:mo>−</m:mo>
                       <m:mn>2</m:mn>
                     </m:mrow>
                   </m:msup>
@@ -326,44 +345,7 @@
                 </m:mrow>
               </m:math></item>
           </list>
-        </solution>
-      </exercise>
-      <!--Interaction
-      End -->
-      <exercise id="exer-00004">
-        <problem id="prob-00004">
-          <para id="para-00013">b. Show that when the input value increases from <m:math display="inline">
-              <m:mrow>
-                <m:mi>x</m:mi>
-              </m:mrow>
-            </m:math> to <m:math display="inline">
-              <m:mrow>
-                <m:mi>x</m:mi>
-                <m:mo>+</m:mo>
-                <m:mn>1</m:mn>
-              </m:mrow>
-            </m:math>, the output values <m:math display="inline">
-              <m:mrow>
-                <m:mi>h</m:mi>
-                <m:mo stretchy="false">(</m:mo>
-                <m:mi>x</m:mi>
-                <m:mo>+</m:mo>
-                <m:mn>1</m:mn>
-                <m:mo stretchy="false">)</m:mo>
-              </m:mrow>
-            </m:math> and <m:math display="inline">
-              <m:mrow>
-                <m:mi>h</m:mi>
-                <m:mo stretchy="false">(</m:mo>
-                <m:mi>x</m:mi>
-                <m:mo stretchy="false">)</m:mo>
-              </m:mrow>
-            </m:math> have a
-            quotient of 4.</para>
-        </problem>
-        <solution id="sol-00004">
-          <para id="para-00015">Compare your answer: </para>
-          <para id="para-00016">
+<para id="para-00016">b. 
             <m:math display="inline">
               <m:mrow>
                 <m:mfrac>
@@ -408,7 +390,7 @@
                     <m:mi>x</m:mi>
                     <m:mo>+</m:mo>
                     <m:mn>1</m:mn>
-                    <m:mo>&#8722;</m:mo>
+                    <m:mo>−</m:mo>
                     <m:mi>x</m:mi>
                   </m:mrow>
                 </m:msup>
@@ -422,8 +404,6 @@
             which equals 4.</para>
         </solution>
       </exercise>
-      <!--Interaction
-      End -->
       <note id="note-00001">
         <title>Why Should I Care?</title>
         
