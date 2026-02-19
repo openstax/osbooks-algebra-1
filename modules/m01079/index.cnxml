@@ -7,7 +7,7 @@
   </metadata>
   <content>
     <section id="sect-00001">      <title>Activity</title>
-      <para id="para-00001">Consider the function <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+      <para id="para-00001">Consider the function <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo>&#8722;</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:math>.</para>
       <para id="para-00002">To find out the sets of possible input and output values of the function, Clare created a table and evaluated <m:math display="inline"><m:mrow><m:mi>f</m:mi></m:mrow></m:math> at some values of <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>. Along the way, she ran into some trouble.</para>
            <exercise id="exer-00001">
         <problem id="prob-00001"> <para id="para-00003" class="custom-question-container"><span class="custom-question-number">1. </span>Find <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> for each <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>-value Clare listed. Describe what Clare’s trouble might be.</para>
@@ -42,7 +42,8 @@
             <entry> </entry>
             <entry> </entry>
           </row>
-        </tbody></tgroup><caption>This table presents a set of x-values with an empty row designated for the corresponding f(x) function values.</caption></table><!--Text Entry Interaction Start -->
+        </tbody></tgroup></table>
+      <!--Text Entry Interaction Start -->
    </problem>
         <solution id="sol-00001">
           
@@ -79,7 +80,8 @@
                 <entry><m:math><m:mrow><m:mfrac><m:mn>6</m:mn><m:mn>0</m:mn></m:mfrac></m:mrow></m:math></entry>
                 <entry>1</entry>
               </row>
-            </tbody></tgroup><caption>Input and output values for a function f(x), including an undefined point.</caption></table></solution>
+            </tbody></tgroup></table>
+        </solution>
       </exercise>
       <!--Interaction End -->
 <!--Text Entry Interaction Start -->
@@ -138,9 +140,9 @@
         <solution id="sol-00005">
           <para id="para-00018">Compare your answers:</para>
           <list id="list-00002">
-            <item>When <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> is less than 2, as it gets closer to 2 (from the left side), the denominator in <m:math><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:math> becomes a smaller and smaller negative value, so the quotient, <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, gets larger and larger in the negative direction. It does so very quickly, which explains why the curve bends down rather dramatically.</item>
-            <item>When <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> is greater than 2, as it approaches 2 (from the right side), the denominator in <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> becomes a smaller and smaller positive value, so <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> gets larger and larger in the positive direction. It does so very quickly as well, which explains the graph shooting up if we trace it from right to left.</item>
-            <item>The expression <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>−</m:mo><m:mn>2</m:mn></m:mrow></m:math> undefined at <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> and we can see that the two pieces of the graph shoot off in opposite directions as <m:math><m:mi>x</m:mi></m:math> approaches 2 from the left and from the right, which explains the gap at <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</item>
+            <item>When <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> is less than 2, as it gets closer to 2 (from the left side), the denominator in <m:math><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>&#8722;</m:mo><m:mn>2</m:mn></m:math> becomes a smaller and smaller negative value, so the quotient, <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math>, gets larger and larger in the negative direction. It does so very quickly, which explains why the curve bends down rather dramatically.</item>
+            <item>When <m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math> is greater than 2, as it approaches 2 (from the right side), the denominator in <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>&#8722;</m:mo><m:mn>2</m:mn></m:mrow></m:math> becomes a smaller and smaller positive value, so <m:math display="inline"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:math> gets larger and larger in the positive direction. It does so very quickly as well, which explains the graph shooting up if we trace it from right to left.</item>
+            <item>The expression <m:math display="inline"><m:mrow><m:mn>6</m:mn><m:mi>x</m:mi><m:mo>&#8722;</m:mo><m:mn>2</m:mn></m:mrow></m:math> undefined at <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math> and we can see that the two pieces of the graph shoot off in opposite directions as <m:math><m:mi>x</m:mi></m:math> approaches 2 from the left and from the right, which explains the gap at <m:math display="inline"><m:mrow><m:mi>x</m:mi><m:mo>=</m:mo><m:mn>2</m:mn></m:mrow></m:math>.</item>
           </list>
         </solution>
       </exercise>
