@@ -321,7 +321,7 @@
           <para id="para-00045" class="example-title"><emphasis>Example: Using a Scatter Plot to Investigate Cricket Chirps</emphasis></para>
         <para id="para-00046">The table shows the number of cricket chirps in 15 seconds for several different air
           temperatures in degrees Fahrenheit.</para>
-        <table class="unnumbered os-raise-horizontaltable unnumbered" id="table-00003">
+        <table class="unnumbered os-raise-horizontaltable unnumbered" id="table-00003" summary="This table displays nine paired observations of cricket chirps and their associated temperatures.">
           <tgroup cols="10">
 <tbody>
               <row>
@@ -354,7 +354,9 @@
               </row>
             </tbody>
           </tgroup>
-        <caption>This table displays nine paired observations of cricket chirps and their associated temperatures.</caption></table><para id="para-00047">Plotting these data suggests that there may be a trend. We can see from the trend in
+        </table>
+
+        <para id="para-00047">Plotting these data suggests that there may be a trend. We can see from the trend in
           the data that as the number of chirps increases every 15 seconds, the temperature
           increases. The trend appears to be roughly linear, though certainly not perfectly so.</para>
 

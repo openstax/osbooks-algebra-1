@@ -536,7 +536,7 @@
         <para id="para-00053">What is the constant ratio (also called the growth factor) of the
           exponential function shown in the table? Rewrite each term to show the initial value and
           repeated use of the constant ratio.</para>
-        <table class="unnumbered os-raise-horizontaltable" id="table-00002">
+        <table class="unnumbered os-raise-horizontaltable" id="table-00002" summary="This table displays values of variable x and corresponding values of the function f(x) for specific inputs.">
           <tgroup cols="6">
 <tbody>
               <row>
@@ -570,7 +570,8 @@
               </row>
             </tbody>
           </tgroup>
-        <caption>This table displays values of variable x and corresponding values of the function f(x) for specific inputs.</caption></table></section>
+        </table>
+      </section>
       <section id="sect-00010">
         <title>Defining Exponential Growth</title>
         <para id="para-00054">Because the output of exponential functions increases very rapidly,
@@ -652,7 +653,7 @@
             </m:mrow>
           </m:math>, would be 3, since every value
           in the table is 3 times the previous term.</para>
-        <table class="unnumbered os-raise-horizontaltable" id="table-00003">
+        <table class="unnumbered os-raise-horizontaltable" id="table-00003" summary="Values for x and f(x) for the exponential function f(x) = 4 * 3^x from x=0 to x=4.">
           <tgroup cols="6">
 <tbody>
               <row>
@@ -730,7 +731,9 @@
               </row>
             </tbody>
           </tgroup>
-        <caption>Values for x and f(x) for the exponential function f(x) = 4 * 3^x from x=0 to x=4.</caption></table><note class="try" id="note-00003">
+        </table>
+
+        <note class="try" id="note-00003">
           <title>Identifying the Constant Ratio of the Exponential Function</title>
     <exercise id="exer-00003">
             <problem id="prob-00009">
@@ -738,7 +741,7 @@
               <para id="para-00061">What is the constant ratio of the following exponential
           function?</para>
 
-              <table class="unnumbered os-raise-horizontaltable" id="table-00004">
+              <table class="unnumbered os-raise-horizontaltable" id="table-00004" summary="This table presents input values 'x' and their corresponding output values 'f(x)', demonstrating an exponential function's behavior.">
                 <tgroup cols="5">
 <tbody>
                     <row>
@@ -770,7 +773,10 @@
                     </row>
                   </tbody>
                 </tgroup>
-              <caption>This table presents input values 'x' and their corresponding output values 'f(x)', demonstrating an exponential function's behavior.</caption></table><para id="para-00062"/>
+              </table>
+
+
+              <para id="para-00062"/>
 
             </problem>
             <solution id="sol-00009">

@@ -13,7 +13,7 @@
 
       <para id="para-00001">The weight of ice cream sold at a small store in pounds (<m:math display="inline"><m:mrow><m:mi>x</m:mi></m:mrow></m:math>) and the average
         temperature outside in degrees Celsius (<m:math display="inline"><m:mrow><m:mi>y</m:mi></m:mrow></m:math>) are recorded in the table. </para>
-      <table class="unnumbered os-raise-horizontaltable unnumbered" id="table-00001">
+      <table class="unnumbered os-raise-horizontaltable unnumbered" id="table-00001" summary="This table presents 8 corresponding data points for variables x and y.">
         <tgroup cols="9">
 <tbody>
             <row>
@@ -44,7 +44,9 @@
             </row>
           </tbody>
         </tgroup>
-      <caption>This table presents 8 corresponding data points for variables x and y.</caption></table><exercise id="exer-00001">
+      </table>
+
+      <exercise id="exer-00001">
         <problem id="prob-00001">
           <para id="para-00002">For these data, create a scatter plot by hand on a coordinate grid and sketch a line
             that fits the data well. </para>
@@ -648,7 +650,7 @@
           </problem>
           <solution id="sol-00016">
             <para id="para-00071">Compare your answer: Here is how to find the line of best fit.</para>
-            <table class="unnumbered os-raise-horizontaltable unnumbered" id="table-00006">
+            <table class="unnumbered os-raise-horizontaltable unnumbered" id="table-00006" summary="This table presents a dataset of ten corresponding (x, y) numerical value pairs.">
               <tgroup cols="11">
 <tbody>
                   <row>
@@ -683,7 +685,8 @@
                   </row>
                 </tbody>
               </tgroup>
-            <caption>This table presents a dataset of ten corresponding (x, y) numerical value pairs.</caption></table><para id="para-00073">Create a scatter plot and line of best fit.</para>
+            </table>
+            <para id="para-00073">Create a scatter plot and line of best fit.</para>
             <media alt="A scatter plot that shows the year on the x-axis and the mean time in seconds on the y-axis. The best fit line that is drawn decreases from left to right">
               <image mime-type="image/jpeg" src="../../media/Algebra-1_03_04_11_02.jpg" width="450"/>
             </media>

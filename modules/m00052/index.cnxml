@@ -210,7 +210,7 @@
         <para id="para-00035">A local pizzeria sells gourmet pizzas for the prices posted below.
           Remember the sizes are determined by the diameter of each pizza. Compare the cost per
           square inch of the sizes.</para>
-        <table class="unnumbered os-raise-horizontaltable unnumbered" id="table-00001">
+        <table class="unnumbered os-raise-horizontaltable unnumbered" id="table-00001" summary="This table lists various pizza sizes and their respective prices.">
           <tgroup cols="5">
             <tbody>
               <row>
@@ -233,7 +233,8 @@
               </row>
             </tbody>
           </tgroup>
-        <caption>This table lists various pizza sizes and their respective prices.</caption></table><!--Start
+        </table>
+        <!--Start
       interaction.  If multiple interactions appear under "are you ready for more?, they should all
       have matching "data-wait-for-event", which should also match the "data-fire-event" for the
       button. Note in this sample, they are all RFM1-->
@@ -350,7 +351,7 @@
         <para id="para-00049">You can use the following operation symbols to translate English
           phrases into algebraic expressions.</para>
         <para id="para-00050">Look closely at these phrases using the four operations:</para>
-        <table class="unnumbered" id="table-00002">
+        <table class="unnumbered" id="table-00002" summary="This table lists basic mathematical operations (sum, difference, product, quotient) for variables 'a' and 'b', showing their verbal descriptions and corresponding algebraic notations.">
           <tgroup cols="1">
             <tbody>
               <row>
@@ -454,7 +455,9 @@
               </row>
             </tbody>
           </tgroup>
-        <caption>This table lists basic mathematical operations (sum, difference, product, quotient) for variables 'a' and 'b', showing their verbal descriptions and corresponding algebraic notations.</caption></table><note class="link-to-learning" id="note-00002">
+        </table>
+
+        <note class="link-to-learning" id="note-00002">
           <para id="para-00056">Log into <link url="https://student.desmos.com">student.desmos.com</link>
           using the information provided by your teacher to complete the activity.</para>
         </note>
@@ -463,7 +466,7 @@
 
         <exercise id="exer-00016">
           <problem id="prob-00016">
-            <table class="unnumbered" id="table-00003">
+            <table class="unnumbered" id="table-00003" summary="This table provides various verbal phrases representing common mathematical operations (addition, subtraction, multiplication, and division) between variables 'a' and 'b'.">
               <tgroup cols="3">
                 <tbody>
                   <row>
@@ -570,10 +573,11 @@
                   </row>
                 </tbody>
               </tgroup>
-            <caption>This table provides various verbal phrases representing common mathematical operations (addition, subtraction, multiplication, and division) between variables 'a' and 'b'.</caption></table></problem>
+            </table>
+          </problem>
 
           <solution id="sol-00015">
-            <table class="unnumbered" id="table-00004">
+            <table class="unnumbered" id="table-00004" summary="This table illustrates common verbal expressions and their corresponding symbolic representations for the four basic arithmetic operations: sum, difference, product, and quotient, using variables 'a' and 'b'.">
               <tgroup cols="3">
                 <tbody>
                   <row>
@@ -752,7 +756,8 @@
                   </row>
                 </tbody>
               </tgroup>
-            <caption>This table illustrates common verbal expressions and their corresponding symbolic representations for the four basic arithmetic operations: sum, difference, product, and quotient, using variables 'a' and 'b'.</caption></table></solution>
+            </table>
+          </solution>
         </exercise>
 
 
